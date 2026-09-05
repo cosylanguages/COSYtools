@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Род & 6 Падежей | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+  <link rel="stylesheet" href="../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇷🇺</span>
+                <div class="brand-text">
+                    <h1>Род & 6 Падежей</h1>
+                    <p class="tagline">Род, одушевлённость & таблицы 6 падежей с ударениями</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Тренажёр
+                </button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section id="search-section-container" class="search-section">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="noun-search-input" placeholder="Введите существительное (например: стол, книга, окно)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list"></div>
+            </section>
+
+            <section id="game-container" class="game-card" style="display: none;">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Тренажёр Рода</h2>
+                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-gender-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('gender')">🏷️ Род</button> <button id="mode-cases-btn" class="badge" onclick="appEngine.setPracticeMode('cases')">📌 Падежи & Окончания</button></div>
+                    </div>
+                    <div class="score-badge">
+                        <span>Счёт: <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Серия: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Какого рода слово:</span>
+                    <h3 id="game-noun-prompt">стол</h3>
+                </div>
+                <div class="game-choice-group">
+                    <button class="choice-btn masc-btn" onclick="appEngine.checkGameChoice('Мужской')">Мужской род (Он)</button>
+                    <button class="choice-btn fem-btn" onclick="appEngine.checkGameChoice('Женский')">Женский род (Она)</button>
+                    <button class="choice-btn neut-btn" onclick="appEngine.checkGameChoice('Средний')">Средний род (Оно)</button>
+                </div>
+                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
+                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Следующий вопрос ➔</button>
+            </section>
+
+            <section id="noun-result-container" class="noun-result-card" style="display: none;">
+                <div class="noun-header">
+                    <div class="noun-title-group">
+                        <h2 id="noun-title">стол</h2>
+                        <span id="gender-badge" class="badge gender-masc">Мужской род (Он)</span>
+                        <span id="animacy-badge" class="badge">Неодушевлённое</span>
+                    </div>
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Значение:</span>
+                            <span id="noun-definition" class="def-text">Предмет мебели в виде широкой горизонтальной доски на ножках.</span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Грамматическое Правило:</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Антонимы:</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cases-layout">
+                    <h3>Таблица 6 падежей</h3>
+                    <div class="table-wrap">
+                        <table class="cases-table">
+                            <thead>
+                                <tr>
+                                    <th>Падеж</th>
+                                    <th>Вопрос</th>
+                                    <th>Единственное число</th>
+                                    <th>Множественное число</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cases-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🍃</span>
+                <h3>Найдите любое русское существительное</h3>
+                <p>Узнайте род, одушевлённость, падежные окончания с <strong style="color: var(--terracotta);">выделенной цветом графикой</strong>, значения и антонимы.</p>
+                <div class="quick-tags">
+                    <span>Быстрый выбор:</span>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('стол')">стол</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('книга')">книга</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('окно')">окно</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('день')">день</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Автономное приложение, 100% офлайн.</p>
+        </footer>
+    </div>
+    <script src="js/engine.js"></script>
+<script src="../shared/js/languages.js"></script>
+<script src="../shared/js/i18n.js"></script>
+<script src="../shared/js/ui.js"></script>
+</body>
+</html>
