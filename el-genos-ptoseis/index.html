@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Γένος & 4 Πτώσεις | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+  <link rel="stylesheet" href="../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇬🇷</span>
+                <div class="brand-text">
+                    <h1>Γένος & 4 Πτώσεις</h1>
+                    <p class="tagline">Γένος ουσιαστικών (Ο / Η / Το) & πίνακες 4 πτώσεων</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Εξάσκηση
+                </button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section id="search-section-container" class="search-section">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="noun-search-input" placeholder="Αναζητήστε ουσιαστικό (π.χ. δρόμος, ημέρα, σπίτι)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list"></div>
+            </section>
+
+            <section id="game-container" class="game-card hidden">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Παιχνίδι: Ο, Η ή Το;</h2>
+                        <div class="game-mode-selector game-mode-selector-spaced"><button id="mode-gender-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('gender')">🏷️ Γένος</button> <button id="mode-cases-btn" class="badge" onclick="appEngine.setPracticeMode('cases')">📌 Πτώσεις &amp; Καταλήξεις</button></div>
+                    </div>
+                    <div class="score-badge">
+                        <span>Σκορ: <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Σερί: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Ποιο είναι το γένος της λέξης:</span>
+                    <h3 id="game-noun-prompt">δρόμος</h3>
+                </div>
+                <div class="game-choice-group">
+                    <button class="choice-btn masc-btn" onclick="appEngine.checkGameChoice('Αρσενικό')">Αρσενικό (Ο)</button>
+                    <button class="choice-btn fem-btn" onclick="appEngine.checkGameChoice('Θηλυκό')">Θηλυκό (Η)</button>
+                    <button class="choice-btn neut-btn" onclick="appEngine.checkGameChoice('Oυδέτερο')">Ουδέτερο (Το)</button>
+                </div>
+                <div id="game-feedback-box" class="feedback-card hidden"></div>
+                <button id="game-next-btn" class="game-btn secondary-btn hidden" onclick="appEngine.nextGameQuestion()">Επόμενη Ερώτηση ➔</button>
+            </section>
+
+            <section id="noun-result-container" class="noun-result-card hidden">
+                <div class="noun-header">
+                    <div class="noun-title-group">
+                        <h2 id="noun-title">δρόμος</h2>
+                        <span id="gender-badge" class="badge gender-masc">Αρσενικό (Ο)</span>
+                    </div>
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Σημασία:</span>
+                            <span id="noun-definition" class="def-text">Οδός για τη μετακίνηση πεζών και οχημάτων.</span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Γραμματικός Κανόνας:</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Αντίθετα:</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cases-layout">
+                    <h3>Πίνακας 4 Πτώσεων</h3>
+                    <div class="table-wrap">
+                        <table class="cases-table">
+                            <thead>
+                                <tr>
+                                    <th>Πτώση</th>
+                                    <th>Ενικός Αριθμός</th>
+                                    <th>Πληθυντικός Αριθμός</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cases-table-body"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🍃</span>
+                <h3>Αναζητήστε οποιοδήποτε ελληνικό ουσιαστικό</h3>
+                <p>Δείτε το γένος, τις 4 πτώσεις με <strong class="text-terracotta">χρωματισμένες καταλήξεις</strong>, σημασίες και αντίθετα.</p>
+                <div class="quick-tags">
+                    <span>Γρήγορες επιλογές:</span>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('δρόμος')">δρόμος</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('ημέρα')">ημέρα</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('σπίτι')">σπίτι</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('νύχτα')">νύχτα</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Αυτόνομη εφαρμογή, 100% εκτός σύνδεσης.</p>
+        </footer>
+    </div>
+    <script src="js/engine.js"></script>
+<script src="../shared/js/languages.js"></script>
+<script src="../shared/js/i18n.js"></script>
+<script src="../shared/js/ui.js"></script>
+</body>
+</html>
