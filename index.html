@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages</title>
+    <meta name="description" content="12 offline reference engines for English, French, Italian, Russian, and Greek. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
+    <meta property="og:title" content="Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages">
+    <meta property="og:description" content="12 offline reference engines with pattern-recognition color coding, SRS memory review, and drill games.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <link rel="icon" href="shared/images/cosylanguages.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="shared/css/tokens.css">
+    <link rel="stylesheet" href="shared/css/base.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+    <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/tools.css">
+
+    <script src="shared/js/engine.js"></script>
+    <style>
+        .engines-hub-page {
+            background-color: var(--paper-bg, #FAF7F2);
+            color: var(--ink, #1b4332);
+        }
+        .hero-tag {
+            display: inline-block;
+            background: var(--sage-light, #eaf4ee);
+            color: var(--sage-dark, #1c4d32);
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            letter-spacing: 0.03em;
+        }
+        .filter-section {
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .filter-label {
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: var(--text-soft, #555);
+            min-width: 80px;
+        }
+        .engine-card {
+            background: var(--card-bg, #ffffff);
+            border: 1px solid var(--border-color, #e0dcd5);
+            border-radius: 16px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            text-decoration: none;
+            color: inherit;
+        }
+        .engine-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(27,67,50,0.12);
+            border-color: var(--sage, #2d6a4f);
+        }
+        .engine-card-top {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .engine-icon {
+            font-size: 2.2rem;
+            line-height: 1;
+            flex-shrink: 0;
+            background: var(--warm-white, #fdfbf7);
+            padding: 10px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color, #e0dcd5);
+        }
+        .engine-title-area h3 {
+            margin: 0 0 0.25rem 0;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--ink, #1b4332);
+            font-family: 'DM Sans', sans-serif;
+        }
+        .engine-subtitle {
+            font-size: 0.85rem;
+            color: var(--sage-dark, #2d6a4f);
+            font-weight: 600;
+        }
+        .engine-desc {
+            font-size: 0.9rem;
+            color: #4a5568;
+            line-height: 1.5;
+            margin-bottom: 1.25rem;
+        }
+        .engine-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-bottom: 1.25rem;
+        }
+        .engine-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: #f0f4f1;
+            color: #2d6a4f;
+            font-weight: 600;
+        }
+        .engine-cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            background: var(--sage, #2d6a4f);
+            color: #ffffff;
+            font-weight: 700;
+            padding: 0.65rem 1rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            transition: background 0.2s ease;
+            text-align: center;
+        }
+        .engine-card:hover .engine-cta-btn {
+            background: var(--sage-dark, #1b4332);
+        }
+        .engines-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin: 2.5rem 0 1.25rem 0;
+            color: var(--ink, #1b4332);
+            border-bottom: 2px solid var(--sage-light, #eaf4ee);
+            padding-bottom: 0.5rem;
+        }
+        .category-header span {
+            font-size: 0.9rem;
+            color: #718096;
+            font-weight: 500;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body class="engines-hub-page">
+    <nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+    <!-- Sticky Navigation Header -->
+    <header class="sd-sticky-header">
+      <div class="sd-header-inner">
+        <div class="sd-breadcrumbs">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span class="current">Reference Apps &amp; Engines</span>
+        </div>
+        <nav class="sd-jump-links" aria-label="Page jump links">
+          <a href="#cat-conjugation" class="sd-jump-link">Conjugation</a>
+          <a href="#cat-gender" class="sd-jump-link">Gender &amp; Cases</a>
+          <a href="#cat-syntax" class="sd-jump-link">Prepositions &amp; Syntax</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="hub" class="hub-main-container">
+      <div class="hero">
+        <div class="hero-inner hero-centered-panel">
+            <div class="hero-tag">📲 Always Free · Offline First · 100% Client-Side</div>
+            <h1 class="hero-fraunces-title">Conjugation, Gender &amp; Syntax Engines 🔎</h1>
+            <p class="hero-hub-subtext">
+                12 offline interactive tools for instant verb conjugations, noun genders, case declensions, and prepositional regimes with pattern-recognition color coding and game practice.
+            </p>
+        </div>
+      </div>
+
+      <div class="page">
+        <!-- Interactive Filtering Bar -->
+        <div class="filter-section">
+          <div class="filter-row">
+            <span class="filter-label">Language:</span>
+            <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)">All Languages</button>
+            <button class="fpill" data-filter-lang="en" onclick="filterEngines('lang', 'en', this)">🇬🇧 English</button>
+            <button class="fpill" data-filter-lang="fr" onclick="filterEngines('lang', 'fr', this)">🇫🇷 Français</button>
+            <button class="fpill" data-filter-lang="it" onclick="filterEngines('lang', 'it', this)">🇮🇹 Italiano</button>
+            <button class="fpill" data-filter-lang="ru" onclick="filterEngines('lang', 'ru', this)">🇷🇺 Русский</button>
+            <button class="fpill" data-filter-lang="el" onclick="filterEngines('lang', 'el', this)">🇬🇷 Ελληνικά</button>
+          </div>
+          <div class="filter-row">
+            <span class="filter-label">Tool Type:</span>
+            <button class="fpill active" data-filter-cat="all" onclick="filterEngines('cat', 'all', this)">All Categories</button>
+            <button class="fpill" data-filter-cat="conjugation" onclick="filterEngines('cat', 'conjugation', this)">📜 Conjugation</button>
+            <button class="fpill" data-filter-cat="gender" onclick="filterEngines('cat', 'gender', this)">⚖️ Gender &amp; Cases</button>
+            <button class="fpill" data-filter-cat="syntax" onclick="filterEngines('cat', 'syntax', this)">📍 Prepositions &amp; Syntax</button>
+          </div>
+        </div>
+
+        <!-- 📜 CONJUGATION ENGINES -->
+        <div class="category-header" id="cat-conjugation">
+            <span>📜</span> Verb Conjugation Engines <span>4 tools</span>
+        </div>
+        <div class="engines-grid" id="grid-conjugation">
+
+          <!-- FR Conjugeur -->
+          <a href="fr-conjugeur/" class="engine-card" data-lang="fr" data-cat="conjugation">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇫🇷</div>
+                <div class="engine-title-area">
+                  <h3>Conjugueur Français</h3>
+                  <div class="engine-subtitle">French Verb Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Instant conjugation of 200+ essential French verbs across all tenses with color-coded stem &amp; ending rules, irregular highlights, and drill practice game.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">200+ Verbs</span>
+                <span class="engine-tag">All Tenses</span>
+                <span class="engine-tag">Color-Coded Endings</span>
+                <span class="engine-tag">Drill Game</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch FR Conjugeur</span>
+            </div>
+          </a>
+
+          <!-- IT Coniugatore -->
+          <a href="it-coniugatore/" class="engine-card" data-lang="it" data-cat="conjugation">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇮🇹</div>
+                <div class="engine-title-area">
+                  <h3>Coniugatore Italiano</h3>
+                  <div class="engine-subtitle">Italian Verb Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Full Italian verb conjugation tables, definitions, antonyms, irregular verb ending highlights, and interactive practice trainer.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Verbi Italiani</span>
+                <span class="engine-tag">Passato &amp; Congiuntivo</span>
+                <span class="engine-tag">Antonym Lookups</span>
+                <span class="engine-tag">Allenamento</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch IT Coniugatore</span>
+            </div>
+          </a>
+
+          <!-- RU Спряжение -->
+          <a href="ru-spryazhenie/" class="engine-card" data-lang="ru" data-cat="conjugation">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇷🇺</div>
+                <div class="engine-title-area">
+                  <h3>Спряжение Глаголов</h3>
+                  <div class="engine-subtitle">Russian Verb Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Russian verb conjugation engine featuring aspectual pairs (НСВ/СВ), accurate stress accent marks, antonym references, and drill game.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Глаголы</span>
+                <span class="engine-tag">Видовые пары (НСВ/СВ)</span>
+                <span class="engine-tag">Ударения</span>
+                <span class="engine-tag">Тренажёр</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch RU Спряжение</span>
+            </div>
+          </a>
+
+          <!-- EL Κλίση Ρημάτων -->
+          <a href="el-klisi-rimaton/" class="engine-card" data-lang="el" data-cat="conjugation">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇬🇷</div>
+                <div class="engine-title-area">
+                  <h3>Κλίση Ρημάτων</h3>
+                  <div class="engine-subtitle">Greek Verb Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Modern Greek verb conjugation across active &amp; passive voices, contracted verb classes (-άω/-ώ), stress accents, and practice game.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Ελληνικά Ρήματα</span>
+                <span class="engine-tag">Ενεργητική &amp; Παθητική</span>
+                <span class="engine-tag">Τονισμός</span>
+                <span class="engine-tag">Trenažér</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch EL Κλίση</span>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- ⚖️ GENDER & CASES ENGINES -->
+        <div class="category-header" id="cat-gender">
+            <span>⚖️</span> Noun Gender &amp; Case Declension Engines <span>4 tools</span>
+        </div>
+        <div class="engines-grid" id="grid-gender">
+
+          <!-- FR Genre -->
+          <a href="fr-genre/" class="engine-card" data-lang="fr" data-cat="gender">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇫🇷</div>
+                <div class="engine-title-area">
+                  <h3>Genre &amp; Pluriels Français</h3>
+                  <div class="engine-subtitle">French Gender &amp; Plural Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Determine French noun gender (Le / La) instantly, view plural formation rules (-x, -s, irregulars), ending reliability badges, and game mode.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Masculin / Féminin</span>
+                <span class="engine-tag">Pluriels Irréguliers</span>
+                <span class="engine-tag">Sufffix Rules</span>
+                <span class="engine-tag">Mode Entraînement</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch FR Genre</span>
+            </div>
+          </a>
+
+          <!-- IT Genere -->
+          <a href="it-genere/" class="engine-card" data-lang="it" data-cat="gender">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇮🇹</div>
+                <div class="engine-title-area">
+                  <h3>Genere &amp; Preposizioni Articolate</h3>
+                  <div class="engine-subtitle">Italian Gender &amp; Combined Prepositions</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Italian noun gender detector (Il / La), irregular plurals, and complete preposizioni articolate matrices (del, al, dal, nel, sul...).
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Maschile / Femminile</span>
+                <span class="engine-tag">Plurali Irregolari</span>
+                <span class="engine-tag">Preposizioni Articolate</span>
+                <span class="engine-tag">Allenamento</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch IT Genere</span>
+            </div>
+          </a>
+
+          <!-- RU Род & Падежи -->
+          <a href="ru-rod-padezhi/" class="engine-card" data-lang="ru" data-cat="gender">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇷🇺</div>
+                <div class="engine-title-area">
+                  <h3>Род &amp; 6 Падежей</h3>
+                  <div class="engine-subtitle">Russian Gender &amp; Declension Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Russian noun gender, animacy detection, and complete 6-case declension tables (Singular/Plural) with stress marks and declension practice.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Мужской/Женский/Средний</span>
+                <span class="engine-tag">6 Падежей</span>
+                <span class="engine-tag">Одушевлённость</span>
+                <span class="engine-tag">Тренажёр</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch RU Род &amp; Падежи</span>
+            </div>
+          </a>
+
+          <!-- EL Γένος & Πτώσεις -->
+          <a href="el-genos-ptoseis/" class="engine-card" data-lang="el" data-cat="gender">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇬🇷</div>
+                <div class="engine-title-area">
+                  <h3>Γένος &amp; Πτώσεις</h3>
+                  <div class="engine-subtitle">Greek Gender &amp; 4 Cases Engine</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Modern Greek noun gender determination (Ο / Η / ΤΟ) and complete declension matrices across all 4 cases (Nominative, Genitive, Accusative, Vocative).
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Ο / Η / ΤΟ</span>
+                <span class="engine-tag">4 Πτώσεις</span>
+                <span class="engine-tag">Κλίσεις Ουσιαστικών</span>
+                <span class="engine-tag">Trenažér</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch EL Γένος &amp; Πτώσεις</span>
+            </div>
+          </a>
+
+        </div>
+
+        <!-- 📍 PREPOSITIONS & SYNTAX ENGINES -->
+        <div class="category-header" id="cat-syntax">
+            <span>📍</span> Prepositional Regimes &amp; Verb Syntax Engines <span>4 tools</span>
+        </div>
+        <div class="engines-grid" id="grid-syntax">
+
+          <!-- EN Prepositions -->
+          <a href="en-verb-prep/" class="engine-card" data-lang="en" data-cat="syntax">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇬🇧</div>
+                <div class="engine-title-area">
+                  <h3>English Prepositions Engine</h3>
+                  <div class="engine-subtitle">Dependent Prepositions &amp; Phrasals</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Master dependent prepositions after verbs, nouns &amp; adjectives. Includes contrast pairs (depend on vs depend upon), SRS memory review, and speed drills.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Verbs, Nouns &amp; Adjectives</span>
+                <span class="engine-tag">Phrasal Verbs</span>
+                <span class="engine-tag">SRS Memory Deck</span>
+                <span class="engine-tag">Contrasts</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch EN Prepositions</span>
+            </div>
+          </a>
+
+          <!-- FR Régime -->
+          <a href="fr-regime/" class="engine-card" data-lang="fr" data-cat="syntax">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇫🇷</div>
+                <div class="engine-title-area">
+                  <h3>Régime Prépositionnel Français</h3>
+                  <div class="engine-subtitle">French Prepositional Regimes</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Master French prepositional constructions (à, de, pour, sur, par...) for verbs, nouns, and adjectives with spaced repetition and practice drills.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Verbes &amp; Noms</span>
+                <span class="engine-tag">Prépositions (à / de)</span>
+                <span class="engine-tag">Répétition Espacée</span>
+                <span class="engine-tag">Entraînement</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch FR Régime</span>
+            </div>
+          </a>
+
+          <!-- IT Reggenza -->
+          <a href="it-reggenza/" class="engine-card" data-lang="it" data-cat="syntax">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇮🇹</div>
+                <div class="engine-title-area">
+                  <h3>Reggenza Verbale &amp; Nominale</h3>
+                  <div class="engine-subtitle">Italian Prepositional Reggenze</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Italian governing prepositions (a, di, da, per, in, su) after verbs, nouns, and adjectives with contrast matrices and SRS progress dashboard.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Verbi, Nomi &amp; Aggettivi</span>
+                <span class="engine-tag">Preposizioni Reggenti</span>
+                <span class="engine-tag">SRS Dashboard</span>
+                <span class="engine-tag">Esercitati</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch IT Reggenza</span>
+            </div>
+          </a>
+
+          <!-- EL Σύνταξη -->
+          <a href="el-syntaxi/" class="engine-card" data-lang="el" data-cat="syntax">
+            <div>
+              <div class="engine-card-top">
+                <div class="engine-icon">🇬🇷</div>
+                <div class="engine-title-area">
+                  <h3>Σύνταξη Ρημάτων</h3>
+                  <div class="engine-subtitle">Greek Verb Syntax &amp; Prepositions</div>
+                </div>
+              </div>
+              <p class="engine-desc">
+                Modern Greek verb syntax, case governing (Accusative / Genitive), prepositional complements (σε, με, για, από...), and example sentences.
+              </p>
+              <div class="engine-tags">
+                <span class="engine-tag">Σύνταξη Ρημάτων</span>
+                <span class="engine-tag">Πτώσεις &amp; Προθέσεις</span>
+                <span class="engine-tag">Αιτιατική &amp; Γενική</span>
+                <span class="engine-tag">Παραδείγματα</span>
+              </div>
+            </div>
+            <div class="engine-cta-btn">
+              <span>▶ Launch EL Σύνταξη</span>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+        let currentLangFilter = 'all';
+        let currentCatFilter = 'all';
+
+        function filterEngines(type, val, btn) {
+            if (type === 'lang') {
+                currentLangFilter = val;
+                const buttons = document.querySelectorAll('[data-filter-lang]');
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            } else if (type === 'cat') {
+                currentCatFilter = val;
+                const buttons = document.querySelectorAll('[data-filter-cat]');
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            }
+
+            const cards = document.querySelectorAll('.engine-card');
+            cards.forEach(card => {
+                const cardLang = card.getAttribute('data-lang');
+                const cardCat = card.getAttribute('data-cat');
+
+                const langMatch = (currentLangFilter === 'all' || cardLang === currentLangFilter);
+                const catMatch = (currentCatFilter === 'all' || cardCat === currentCatFilter);
+
+                if (langMatch && catMatch) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Hide/show category headers based on active category filter or card visibility
+            const categories = ['conjugation', 'gender', 'syntax'];
+            categories.forEach(cat => {
+                const header = document.getElementById('cat-' + cat);
+                const grid = document.getElementById('grid-' + cat);
+                if (header && grid) {
+                    const visibleInGrid = grid.querySelectorAll('.engine-card[style*="display: flex"]').length;
+                    if (visibleInGrid > 0) {
+                        header.style.display = 'flex';
+                        grid.style.display = 'grid';
+                    } else {
+                        header.style.display = 'none';
+                        grid.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
