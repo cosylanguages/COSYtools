@@ -1,0 +1,3429 @@
+{
+  "casa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Edificio adibito ad abitazione.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "case",
+    "irregular": false
+  },
+  "macchina": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Veicolo automobile.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "macchine",
+    "irregular": false
+  },
+  "tavola": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Mobile con superficie piana.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "tavole",
+    "irregular": false
+  },
+  "sedia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Mobile per sedersi.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "sedie",
+    "irregular": false
+  },
+  "porta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Apertura per entrare in una stanza.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "porte",
+    "irregular": false
+  },
+  "finestra": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Apertura nel muro per la luce.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "finestre",
+    "irregular": false
+  },
+  "città": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Centro abitato esteso.",
+    "antonyms": [
+      "campagna"
+    ],
+    "article": "la",
+    "plural": "città",
+    "irregular": false
+  },
+  "strada": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Via di comunicazione.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "strade",
+    "irregular": false
+  },
+  "scuola": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Istituto di istruzione.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "scuole",
+    "irregular": false
+  },
+  "acqua": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Liquido trasparente vitale per la vita.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "acque",
+    "irregular": false
+  },
+  "terra": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Pianeta o suolo calpestabile.",
+    "antonyms": [
+      "cielo"
+    ],
+    "article": "la",
+    "plural": "terre",
+    "irregular": false
+  },
+  "materia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sostanza fisica.",
+    "antonyms": [
+      "spirito"
+    ],
+    "article": "la",
+    "plural": "materie",
+    "irregular": false
+  },
+  "montagna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Rilievo naturale del terreno.",
+    "antonyms": [
+      "valle"
+    ],
+    "article": "la",
+    "plural": "montagne",
+    "irregular": false
+  },
+  "notte": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Periodo di oscurità.",
+    "antonyms": [
+      "giorno"
+    ],
+    "article": "la",
+    "plural": "notti",
+    "irregular": false
+  },
+  "chiave": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Strumento per aprire serrature.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "chiavi",
+    "irregular": false
+  },
+  "stanza": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ambiente di una casa.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "stanze",
+    "irregular": false
+  },
+  "cucina": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stanza dove si cucina.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "cucine",
+    "irregular": false
+  },
+  "musica": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Arte dei suoni.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "article": "la",
+    "plural": "musiche",
+    "irregular": false
+  },
+  "luce": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Radiazione luminosa.",
+    "antonyms": [
+      "ombra"
+    ],
+    "article": "la",
+    "plural": "luci",
+    "irregular": false
+  },
+  "ombra": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Zona scura senza luce.",
+    "antonyms": [
+      "luce"
+    ],
+    "article": "l'",
+    "plural": "ombre",
+    "irregular": false
+  },
+  "idea": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Rappresentazione mentale.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "idee",
+    "irregular": false
+  },
+  "verità": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ciò che è vero.",
+    "antonyms": [
+      "bugia"
+    ],
+    "article": "la",
+    "plural": "verità",
+    "irregular": false
+  },
+  "libertà": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Stato di chi è libero.",
+    "antonyms": [
+      "schiavitù"
+    ],
+    "article": "la",
+    "plural": "libertà",
+    "irregular": false
+  },
+  "pace": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Assenza di guerra.",
+    "antonyms": [
+      "guerra"
+    ],
+    "article": "la",
+    "plural": "paci",
+    "irregular": false
+  },
+  "guerra": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Conflitto armato.",
+    "antonyms": [
+      "pace"
+    ],
+    "article": "la",
+    "plural": "guerre",
+    "irregular": false
+  },
+  "vita": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Esistenza biologica.",
+    "antonyms": [
+      "morte"
+    ],
+    "article": "la",
+    "plural": "vite",
+    "irregular": false
+  },
+  "morte": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Cessazione della vita.",
+    "antonyms": [
+      "vita"
+    ],
+    "article": "la",
+    "plural": "morti",
+    "irregular": false
+  },
+  "mano": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Parte finale del braccio.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-o' ma è FEMMINILE ('la mano', plurale 'le mani').",
+    "article": "la",
+    "plural": "mani",
+    "irregular": false
+  },
+  "testa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Parte superiore del corpo.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "teste",
+    "irregular": false
+  },
+  "voce": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Suono emesso dalle corde vocali.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "article": "la",
+    "plural": "voci",
+    "irregular": false
+  },
+  "domanda": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Richiesta per sapere.",
+    "antonyms": [
+      "risposta"
+    ],
+    "article": "la",
+    "plural": "domande",
+    "irregular": false
+  },
+  "risposta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ciò che si dice in replica.",
+    "antonyms": [
+      "domanda"
+    ],
+    "article": "la",
+    "plural": "risposte",
+    "irregular": false
+  },
+  "storia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Racconto di eventi.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "storie",
+    "irregular": false
+  },
+  "famiglia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di persone unite da parentela.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "famiglie",
+    "irregular": false
+  },
+  "stagione": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Periodo dell'anno.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "stagioni",
+    "irregular": false
+  },
+  "settimana": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Periodo di sette giorni.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "settimane",
+    "irregular": false
+  },
+  "ora": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Unità di tempo di 60 minuti.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ore",
+    "irregular": false
+  },
+  "minuto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sessanta secondi.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "minuti",
+    "irregular": false
+  },
+  "canzone": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Composizione musicale cantata.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "canzoni",
+    "irregular": false
+  },
+  "gioia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di felicità.",
+    "antonyms": [
+      "tristezza"
+    ],
+    "article": "la",
+    "plural": "gioie",
+    "irregular": false
+  },
+  "tristezza": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di dolore morale.",
+    "antonyms": [
+      "gioia"
+    ],
+    "article": "la",
+    "plural": "tristezze",
+    "irregular": false
+  },
+  "paura": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Emozione di fronte al pericolo.",
+    "antonyms": [
+      "coraggio"
+    ],
+    "article": "la",
+    "plural": "paure",
+    "irregular": false
+  },
+  "salute": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Stato di benessere fisico.",
+    "antonyms": [
+      "malattia"
+    ],
+    "article": "la",
+    "plural": "salute",
+    "irregular": true
+  },
+  "malattia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Alterazione della salute.",
+    "antonyms": [
+      "salute"
+    ],
+    "article": "la",
+    "plural": "malattie",
+    "irregular": false
+  },
+  "soluzione": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Risposta a un problema.",
+    "antonyms": [
+      "problema"
+    ],
+    "article": "la",
+    "plural": "soluzioni",
+    "irregular": false
+  },
+  "sole": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stella al centro del sistema solare.",
+    "antonyms": [
+      "luna"
+    ],
+    "article": "il",
+    "plural": "soli",
+    "irregular": false
+  },
+  "libro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di fogli stampati.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "libri",
+    "irregular": false
+  },
+  "quaderno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di fogli bianchi.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "quaderni",
+    "irregular": false
+  },
+  "sacco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Involucro per contenere cose.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "sacchi",
+    "irregular": false
+  },
+  "cappotto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Abito pesante invernale.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cappotti",
+    "irregular": false
+  },
+  "pantaloni": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento per le gambe.",
+    "antonyms": [],
+    "article": "i",
+    "plural": "pantaloni",
+    "irregular": false
+  },
+  "cappello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Copricapo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cappelli",
+    "irregular": false
+  },
+  "cane": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Animale domestico fedele.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cani",
+    "irregular": false
+  },
+  "gatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Feline domestico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gatti",
+    "irregular": false
+  },
+  "cavallo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mammifero solipede.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cavalli",
+    "irregular": false
+  },
+  "uccello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Animale con piume e ali.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "uccelli",
+    "irregular": false
+  },
+  "pesce": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Animale acquatico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "pesci",
+    "irregular": false
+  },
+  "albero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Pianta legnosa ad alto fusto.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "alberi",
+    "irregular": false
+  },
+  "giardino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno coltivato a fiori e piante.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giardini",
+    "irregular": false
+  },
+  "parco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spazio verde pubblico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "parchi",
+    "irregular": false
+  },
+  "vento": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Movimento d'aria.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "venti",
+    "irregular": false
+  },
+  "fuoco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Combustione che produce calore.",
+    "antonyms": [
+      "acqua"
+    ],
+    "article": "il",
+    "plural": "fuochi",
+    "irregular": false
+  },
+  "cielo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spazio visibile sopra la terra.",
+    "antonyms": [
+      "terra"
+    ],
+    "article": "il",
+    "plural": "cieli",
+    "irregular": false
+  },
+  "giorno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Periodo di luce.",
+    "antonyms": [
+      "notte"
+    ],
+    "article": "il",
+    "plural": "giorni",
+    "irregular": false
+  },
+  "mattino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Inizio della giornata.",
+    "antonyms": [
+      "sera"
+    ],
+    "article": "il",
+    "plural": "mattini",
+    "irregular": false
+  },
+  "sera": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Fine della giornata.",
+    "antonyms": [
+      "mattino"
+    ],
+    "article": "la",
+    "plural": "sere",
+    "irregular": false
+  },
+  "mese": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dodicesima parte dell'anno.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mesi",
+    "irregular": false
+  },
+  "anno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Periodo di dodici mesi.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "anni",
+    "irregular": false
+  },
+  "secolo": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Periodo di cento anni.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "secoli",
+    "irregular": false
+  },
+  "tempo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dimensione della durata.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "tempi",
+    "irregular": false
+  },
+  "lavoro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Attività umana produttiva.",
+    "antonyms": [
+      "riposo"
+    ],
+    "article": "il",
+    "plural": "lavori",
+    "irregular": false
+  },
+  "riposo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Inattività rigenerante.",
+    "antonyms": [
+      "lavoro"
+    ],
+    "article": "il",
+    "plural": "riposi",
+    "irregular": false
+  },
+  "pane": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Cibo di farina cotta.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "pani",
+    "irregular": false
+  },
+  "formaggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Prodotto del latte.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "formaggi",
+    "irregular": false
+  },
+  "latte": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Liquido bianco nutritivo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "latti",
+    "irregular": false
+  },
+  "caffè": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Bevanda calda stimolante.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "caffè",
+    "irregular": false
+  },
+  "tè": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Bevanda d'infuso.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "tè",
+    "irregular": false
+  },
+  "pasto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Cibo preso a ore fisse.",
+    "antonyms": [
+      "digiuno"
+    ],
+    "article": "il",
+    "plural": "pasti",
+    "irregular": false
+  },
+  "ristorante": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Locale dove si mangia.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "ristoranti",
+    "irregular": false
+  },
+  "albergo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura di accoglienza.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "alberghi",
+    "irregular": false
+  },
+  "treno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mezzo di trasporto su rotaie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "treni",
+    "irregular": false
+  },
+  "aereo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Veicolo volante.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aerei",
+    "irregular": false
+  },
+  "viaggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spostamento in luoghi lontani.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "viaggi",
+    "irregular": false
+  },
+  "rumore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Suono confuso.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "article": "il",
+    "plural": "rumori",
+    "irregular": false
+  },
+  "silenzio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Assenza di rumore.",
+    "antonyms": [
+      "rumore"
+    ],
+    "article": "il",
+    "plural": "silenzi",
+    "irregular": false
+  },
+  "coraggio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Forza d'animo di fronte al pericolo.",
+    "antonyms": [
+      "paura"
+    ],
+    "article": "il",
+    "plural": "coraggi",
+    "irregular": false
+  },
+  "problema": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Questione da risolvere.",
+    "antonyms": [
+      "soluzione"
+    ],
+    "grammar_rule": "💡 REMEMBER: Eccezione di genere: termina in '-a' (origine greca) ma è MASCHILE ('il problema', plurale 'i problemi').",
+    "article": "il",
+    "plural": "problemi",
+    "irregular": false
+  },
+  "progetto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Piano per il futuro.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "progetti",
+    "irregular": false
+  },
+  "sorriso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Espressione di gioia.",
+    "antonyms": [
+      "smorfia"
+    ],
+    "article": "il",
+    "plural": "sorrisi",
+    "irregular": false
+  },
+  "sogno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Attività della mente nel sonno.",
+    "antonyms": [
+      "realtà"
+    ],
+    "article": "il",
+    "plural": "sogni",
+    "irregular": false
+  },
+  "mondo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "L'insieme di tutto ciò che esiste.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mondi",
+    "irregular": false
+  },
+  "paese": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Territorio di una nazione.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "paesi",
+    "irregular": false
+  },
+  "villaggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Piccolo centro abitato.",
+    "antonyms": [
+      "città"
+    ],
+    "article": "il",
+    "plural": "villaggi",
+    "irregular": false
+  },
+  "muro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura verticale di muratura.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "muri",
+    "irregular": false
+  },
+  "pavimento": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Superficie calpestabile.",
+    "antonyms": [
+      "soffitto"
+    ],
+    "article": "il",
+    "plural": "pavimenti",
+    "irregular": false
+  },
+  "soffitto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Copertura interna superiore.",
+    "antonyms": [
+      "pavimento"
+    ],
+    "article": "il",
+    "plural": "soffitti",
+    "irregular": false
+  },
+  "letto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mobile per dormire.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "letti",
+    "irregular": false
+  },
+  "quadro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dipinto d'arte.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "quadri",
+    "irregular": false
+  },
+  "mare": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Grande distesa d'acqua salata.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mari",
+    "irregular": false
+  },
+  "fiume": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Corso d'acqua continuo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "fiumi",
+    "irregular": false
+  },
+  "lago": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Bacino d'acqua dolce.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "laghi",
+    "irregular": false
+  },
+  "abito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento da indossare.",
+    "antonyms": [
+      "nudità"
+    ],
+    "article": "l'",
+    "plural": "abiti",
+    "irregular": false
+  },
+  "aeroporto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Struttura per aerei.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aeroporti",
+    "irregular": false
+  },
+  "amico": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Persona legata da amicizia.",
+    "antonyms": [
+      "nemico"
+    ],
+    "article": "l'",
+    "plural": "amici",
+    "irregular": true
+  },
+  "animale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere vivente sensibile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "animali",
+    "irregular": false
+  },
+  "appartamento": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di stanze d'abitazione.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "appartamenti",
+    "irregular": false
+  },
+  "autobus": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mezzo di trasporto pubblico.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "autobus",
+    "irregular": false
+  },
+  "bambino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere umano in tenera età.",
+    "antonyms": [
+      "adulto"
+    ],
+    "article": "il",
+    "plural": "bambini",
+    "irregular": false
+  },
+  "banco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Tavolo da lavoro o scuola.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "banchi",
+    "irregular": false
+  },
+  "bar": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Locale per bevande.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "bar",
+    "irregular": false
+  },
+  "bicchiere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Recipiente per bere.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "bicchieri",
+    "irregular": false
+  },
+  "biglietto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Documento di viaggio.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "biglietti",
+    "irregular": false
+  },
+  "bosco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno coperto da alberi.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "boschi",
+    "irregular": false
+  },
+  "braccio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Arto superiore dell'uomo.",
+    "antonyms": [],
+    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il braccio'), ma appartiene a un piccolo gruppo di nomi (come 'dito' -> 'le dita') che diventano femminili al plurale — non è una regola generale per le parti del corpo (es. 'il piede' -> 'i piedi' resta maschile).",
+    "article": "il",
+    "plural": "braccia",
+    "irregular": true
+  },
+  "burro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Grasso del latte.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "burri",
+    "irregular": false
+  },
+  "calcio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sport con il pallone.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "calci",
+    "irregular": false
+  },
+  "camino": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Struttura per il fuoco in casa.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "camini",
+    "irregular": false
+  },
+  "campo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno agricolo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "campi",
+    "irregular": false
+  },
+  "capello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Pelo della testa.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "capelli",
+    "irregular": false
+  },
+  "carattere": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Indole di una persona.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "caratteri",
+    "irregular": false
+  },
+  "carnevale": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Festa di maschere.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "carnevali",
+    "irregular": false
+  },
+  "castello": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Fortezza antica.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "castelli",
+    "irregular": false
+  },
+  "centro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Punto di mezzo di una città.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "centri",
+    "irregular": false
+  },
+  "cibo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Alimento per il corpo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cibi",
+    "irregular": false
+  },
+  "cinema": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sala di proiezione film.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Invariabile al plurale ('il cinema', 'i cinema').",
+    "article": "il",
+    "plural": "cinema",
+    "irregular": true
+  },
+  "coltello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ustensile per tagliare.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "coltelli",
+    "irregular": false
+  },
+  "compito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Lavoro scolastico assegnato.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "compiti",
+    "irregular": false
+  },
+  "computer": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calcolatore elettronico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "computer",
+    "irregular": false
+  },
+  "consiglio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Suggerimento utile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "consigli",
+    "irregular": false
+  },
+  "conto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calcolo del prezzo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "conti",
+    "irregular": false
+  },
+  "corpo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura fisica.",
+    "antonyms": [
+      "anima"
+    ],
+    "article": "il",
+    "plural": "corpi",
+    "irregular": false
+  },
+  "cuscino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Supporto morbido per la testa.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cuscini",
+    "irregular": false
+  },
+  "dente": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo della masticazione.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "denti",
+    "irregular": false
+  },
+  "deserto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Territorio arido e sabbioso.",
+    "antonyms": [
+      "foresta"
+    ],
+    "article": "il",
+    "plural": "deserti",
+    "irregular": false
+  },
+  "dito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Estremità della mano.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dita",
+    "irregular": true,
+    "grammar_rule": "💡 RICORDA: Maschile al singolare ('il dito'), ma diventa femminile al plurale ('le dita') — stesso fenomeno di 'il braccio' -> 'le braccia'."
+  },
+  "dolore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sensazione di sofferenza.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dolori",
+    "irregular": false
+  },
+  "fatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Azione compiuta.",
+    "antonyms": [
+      "parola"
+    ],
+    "article": "il",
+    "plural": "fatti",
+    "irregular": false
+  },
+  "figlio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Discendente diretto maschio.",
+    "antonyms": [
+      "padre"
+    ],
+    "article": "il",
+    "plural": "figli",
+    "irregular": false
+  },
+  "fiore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Parte colorata della pianta.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "fiori",
+    "irregular": false
+  },
+  "foglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Pezzo di carta.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "fogli",
+    "irregular": false
+  },
+  "forno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Apparecchio per cuocere.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "forni",
+    "irregular": false
+  },
+  "fratello": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Figlio degli stessi genitori.",
+    "antonyms": [
+      "sorella"
+    ],
+    "article": "il",
+    "plural": "fratelli",
+    "irregular": false
+  },
+  "frutto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Prodotto commestibile delle piante.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "frutti",
+    "irregular": false
+  },
+  "giornale": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Stampa quotidiana d'informazione.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giornali",
+    "irregular": false
+  },
+  "gioco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Attività di svago.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giochi",
+    "irregular": false
+  },
+  "gruppo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di persone o cose.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gruppi",
+    "irregular": false
+  },
+  "guanto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Copertura per le mani.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "guanti",
+    "irregular": false
+  },
+  "inverno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stagione fredda.",
+    "antonyms": [
+      "estate"
+    ],
+    "article": "l'",
+    "plural": "inverni",
+    "irregular": false
+  },
+  "luogo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spazio determinato.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "luoghi",
+    "irregular": false
+  },
+  "mercato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di compravendita.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mercati",
+    "irregular": false
+  },
+  "museo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di reperti d'arte.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "musei",
+    "irregular": false
+  },
+  "naso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo dell'olfatto.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "nasi",
+    "irregular": false
+  },
+  "negozio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Locale di vendita al dettaglio.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "negozi",
+    "irregular": false
+  },
+  "nome": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Appellativo di una persona.",
+    "antonyms": [
+      "cognome"
+    ],
+    "article": "il",
+    "plural": "nomi",
+    "irregular": false
+  },
+  "occhio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Organo della vista.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "occhi",
+    "irregular": false
+  },
+  "orologio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Strumento per misurare il tempo.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "orologi",
+    "irregular": false
+  },
+  "ospedale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo di cura dei malati.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ospedali",
+    "irregular": false
+  },
+  "piede": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Parte finale della gamba.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "piedi",
+    "irregular": false
+  },
+  "poeta": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Chi scrive poesie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "poeti",
+    "irregular": false
+  },
+  "pomodoro": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ortaggio rosso commestibile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "pomodori",
+    "irregular": false
+  },
+  "ponte": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura sopra un fiume.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "ponti",
+    "irregular": false
+  },
+  "porto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Luogo d'approdo delle navi.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "porti",
+    "irregular": false
+  },
+  "prato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terreno eroso d'erba.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "prati",
+    "irregular": false
+  },
+  "prezzo": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Valore in denaro di una cosa.",
+    "antonyms": [
+      "sconto"
+    ],
+    "article": "il",
+    "plural": "prezzi",
+    "irregular": false
+  },
+  "ragazzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Giovane maschio.",
+    "antonyms": [
+      "ragazza"
+    ],
+    "article": "il",
+    "plural": "ragazzi",
+    "irregular": false
+  },
+  "regalo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dono per un'occasione.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "regali",
+    "irregular": false
+  },
+  "riso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Cereale o atto del ridere.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "risi",
+    "irregular": false
+  },
+  "spazio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Estensione indefinita.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "spazi",
+    "irregular": false
+  },
+  "specchio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Vetro che riflette.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "specchi",
+    "irregular": false
+  },
+  "sport": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Attività fisica ludica.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "sport",
+    "irregular": false
+  },
+  "stivali": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Calzature alte.",
+    "antonyms": [],
+    "article": "gli",
+    "plural": "stivali",
+    "irregular": false
+  },
+  "tavolo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mobile con gambe e piano.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "tavoli",
+    "irregular": false
+  },
+  "uomo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Essere umano maschio.",
+    "antonyms": [
+      "donna"
+    ],
+    "article": "l'",
+    "plural": "uomini",
+    "irregular": true
+  },
+  "uovo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Prodotto degli uccelli commestibile.",
+    "antonyms": [],
+    "grammar_rule": "💡 RICORDA: Sostantivo maschile al singolare ('l'uovo'), ma appartiene al gruppo di nomi di origine neutra latina che al plurale diventano femminili ('le uova') — come 'il braccio' -> 'le braccia'.",
+    "article": "l'",
+    "plural": "uova",
+    "irregular": true
+  },
+  "vaso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Contenitore per fiori.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "vasi",
+    "irregular": false
+  },
+  "vino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Bevanda alcolica d'uva.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "vini",
+    "irregular": false
+  },
+  "zucchero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sostanza dolce bianca.",
+    "antonyms": [
+      "sale"
+    ],
+    "article": "lo",
+    "plural": "zuccheri",
+    "irregular": false
+  },
+  "arte": {
+    "gender": "Femminile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Attività umana creativa.",
+    "antonyms": [
+      "natura"
+    ],
+    "cases": {
+      "nom_sing": "l'arte",
+      "gen_sing": "dell'arte",
+      "dat_sing": "all'arte",
+      "acc_sing": "l'arte",
+      "abl_sing": "dall'arte",
+      "loc_sing": "in arte",
+      "nom_plur": "le arti"
+    },
+    "plural": "arti",
+    "irregular": false
+  },
+  "attore": {
+    "gender": "Maschile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Chi recita in uno spettacolo.",
+    "antonyms": [
+      "spettatore"
+    ],
+    "cases": {
+      "nom_sing": "l'attore",
+      "gen_sing": "dell'attore",
+      "dat_sing": "all'attore",
+      "acc_sing": "l'attore",
+      "abl_sing": "dall'attore",
+      "loc_sing": "in attore",
+      "nom_plur": "gli attori"
+    },
+    "plural": "attori",
+    "irregular": false
+  },
+  "autunno": {
+    "gender": "Maschile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Stagione tra estate e inverno.",
+    "antonyms": [
+      "primavera"
+    ],
+    "cases": {
+      "nom_sing": "l'autunno",
+      "gen_sing": "dell'autunno",
+      "dat_sing": "all'autunno",
+      "acc_sing": "l'autunno",
+      "abl_sing": "dall'autunno",
+      "loc_sing": "in autunno",
+      "nom_plur": "gli autunni"
+    },
+    "plural": "autunni",
+    "irregular": false
+  },
+  "bagno": {
+    "gender": "Maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Stanza per l'igiene personale.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "il bagno",
+      "gen_sing": "del bagno",
+      "dat_sing": "al bagno",
+      "acc_sing": "il bagno",
+      "abl_sing": "dal bagno",
+      "loc_sing": "in bagno",
+      "nom_plur": "i bagni"
+    },
+    "plural": "bagni",
+    "irregular": false
+  },
+  "banca": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Istituto di credito.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la banca",
+      "gen_sing": "della banca",
+      "dat_sing": "alla banca",
+      "acc_sing": "la banca",
+      "abl_sing": "dalla banca",
+      "loc_sing": "in banca",
+      "nom_plur": "le banche"
+    },
+    "plural": "banche",
+    "irregular": false
+  },
+  "barca": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Piccola imbarcazione.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la barca",
+      "gen_sing": "della barca",
+      "dat_sing": "alla barca",
+      "acc_sing": "la barca",
+      "abl_sing": "dalla barca",
+      "loc_sing": "in barca",
+      "nom_plur": "le barche"
+    },
+    "plural": "barche",
+    "irregular": false
+  },
+  "bicicletta": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Veicolo a due ruote.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la bicicletta",
+      "gen_sing": "della bicicletta",
+      "dat_sing": "alla bicicletta",
+      "acc_sing": "la bicicletta",
+      "abl_sing": "dalla bicicletta",
+      "loc_sing": "in bicicletta",
+      "nom_plur": "le biciclette"
+    },
+    "plural": "biciclette",
+    "irregular": false
+  },
+  "bottiglia": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Recipiente per liquidi.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la bottiglia",
+      "gen_sing": "della bottiglia",
+      "dat_sing": "alla bottiglia",
+      "acc_sing": "la bottiglia",
+      "abl_sing": "dalla bottiglia",
+      "loc_sing": "in bottiglia",
+      "nom_plur": "le bottiglie"
+    },
+    "plural": "bottiglie",
+    "irregular": false
+  },
+  "campagna": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Territorio aperto coltivato.",
+    "antonyms": [
+      "città"
+    ],
+    "cases": {
+      "nom_sing": "la campagna",
+      "gen_sing": "della campagna",
+      "dat_sing": "alla campagna",
+      "acc_sing": "la campagna",
+      "abl_sing": "dalla campagna",
+      "loc_sing": "in campagna",
+      "nom_plur": "le campagne"
+    },
+    "plural": "campagne",
+    "irregular": false
+  },
+  "capitale": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Città sede del governo.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la capitale",
+      "gen_sing": "della capitale",
+      "dat_sing": "alla capitale",
+      "acc_sing": "la capitale",
+      "abl_sing": "dalla capitale",
+      "loc_sing": "in capitale",
+      "nom_plur": "le capitali"
+    },
+    "plural": "capitali",
+    "irregular": false
+  },
+  "carne": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Alimento di origine animale.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la carne",
+      "gen_sing": "della carne",
+      "dat_sing": "alla carne",
+      "acc_sing": "la carne",
+      "abl_sing": "dalla carne",
+      "loc_sing": "in carne",
+      "nom_plur": "le carni"
+    },
+    "plural": "carni",
+    "irregular": false
+  },
+  "classe": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Gruppo di studenti.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la classe",
+      "gen_sing": "della classe",
+      "dat_sing": "alla classe",
+      "acc_sing": "la classe",
+      "abl_sing": "dalla classe",
+      "loc_sing": "in classe",
+      "nom_plur": "le classi"
+    },
+    "plural": "classi",
+    "irregular": false
+  },
+  "colore": {
+    "gender": "Maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Percezione visiva della luce.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "il colore",
+      "gen_sing": "del colore",
+      "dat_sing": "al colore",
+      "acc_sing": "il colore",
+      "abl_sing": "dal colore",
+      "loc_sing": "in colore",
+      "nom_plur": "i colori"
+    },
+    "plural": "colori",
+    "irregular": false
+  },
+  "concerto": {
+    "gender": "Maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Esecuzione di musica dal vivo.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "il concerto",
+      "gen_sing": "del concerto",
+      "dat_sing": "al concerto",
+      "acc_sing": "il concerto",
+      "abl_sing": "dal concerto",
+      "loc_sing": "in concerto",
+      "nom_plur": "i concerti"
+    },
+    "plural": "concerti",
+    "irregular": false
+  },
+  "festa": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Celebrante solenne o lieta.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la festa",
+      "gen_sing": "della festa",
+      "dat_sing": "alla festa",
+      "acc_sing": "la festa",
+      "abl_sing": "dalla festa",
+      "loc_sing": "in festa",
+      "nom_plur": "le feste"
+    },
+    "plural": "feste",
+    "irregular": false
+  },
+  "filosofia": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A2",
+    "definition": "Studio dei problemi fondamentali.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la filosofia",
+      "gen_sing": "della filosofia",
+      "dat_sing": "alla filosofia",
+      "acc_sing": "la filosofia",
+      "abl_sing": "dalla filosofia",
+      "loc_sing": "in filosofia",
+      "nom_plur": "le filosofie"
+    },
+    "plural": "filosofie",
+    "irregular": false
+  },
+  "giovane": {
+    "gender": "Maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Persona in età giovanile.",
+    "antonyms": [
+      "vecchio"
+    ],
+    "cases": {
+      "nom_sing": "il giovane",
+      "gen_sing": "del giovane",
+      "dat_sing": "al giovane",
+      "acc_sing": "il giovane",
+      "abl_sing": "dal giovane",
+      "loc_sing": "in giovane",
+      "nom_plur": "i giovani"
+    },
+    "plural": "giovani",
+    "irregular": false
+  },
+  "isola": {
+    "gender": "Femminile",
+    "article": "l'",
+    "level": "A1",
+    "definition": "Terra emersa circondata dalle acque.",
+    "antonyms": [
+      "continente"
+    ],
+    "cases": {
+      "nom_sing": "l'isola",
+      "gen_sing": "dell'isola",
+      "dat_sing": "all'isola",
+      "acc_sing": "l'isola",
+      "abl_sing": "dall'isola",
+      "loc_sing": "in isola",
+      "nom_plur": "le isole"
+    },
+    "plural": "isole",
+    "irregular": false
+  },
+  "lettera": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Messaggio scritto o segno alfabetico.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la lettera",
+      "gen_sing": "della lettera",
+      "dat_sing": "alla lettera",
+      "acc_sing": "la lettera",
+      "abl_sing": "dalla lettera",
+      "loc_sing": "in lettera",
+      "nom_plur": "le lettere"
+    },
+    "plural": "lettere",
+    "irregular": false
+  },
+  "madre": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Genitore femminile.",
+    "antonyms": [
+      "padre"
+    ],
+    "cases": {
+      "nom_sing": "la madre",
+      "gen_sing": "della madre",
+      "dat_sing": "alla madre",
+      "acc_sing": "la madre",
+      "abl_sing": "dalla madre",
+      "loc_sing": "in madre",
+      "nom_plur": "le madri"
+    },
+    "plural": "madri",
+    "irregular": false
+  },
+  "medico": {
+    "gender": "Maschile",
+    "article": "il",
+    "level": "A1",
+    "definition": "Professionista della salute.",
+    "antonyms": [
+      "paziente"
+    ],
+    "cases": {
+      "nom_sing": "il medico",
+      "gen_sing": "del medico",
+      "dat_sing": "al medico",
+      "acc_sing": "il medico",
+      "abl_sing": "dal medico",
+      "loc_sing": "in medico",
+      "nom_plur": "i medici"
+    },
+    "plural": "medici",
+    "irregular": true
+  },
+  "natura": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Mondo fisico comprensivo di flora e fauna.",
+    "antonyms": [
+      "città"
+    ],
+    "cases": {
+      "nom_sing": "la natura",
+      "gen_sing": "della natura",
+      "dat_sing": "alla natura",
+      "acc_sing": "la natura",
+      "abl_sing": "dalla natura",
+      "loc_sing": "in natura",
+      "nom_plur": "le nature"
+    },
+    "plural": "nature",
+    "irregular": false
+  },
+  "parola": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Unità del linguaggio parlato.",
+    "antonyms": [
+      "silenzio"
+    ],
+    "cases": {
+      "nom_sing": "la parola",
+      "gen_sing": "della parola",
+      "dat_sing": "alla parola",
+      "acc_sing": "la parola",
+      "abl_sing": "dalla parola",
+      "loc_sing": "in parola",
+      "nom_plur": "le parole"
+    },
+    "plural": "parole",
+    "irregular": false
+  },
+  "piazza": {
+    "gender": "Femminile",
+    "article": "la",
+    "level": "A1",
+    "definition": "Spazio pubblico aperto in città.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "la piazza",
+      "gen_sing": "della piazza",
+      "dat_sing": "alla piazza",
+      "acc_sing": "la piazza",
+      "abl_sing": "dalla piazza",
+      "loc_sing": "in piazza",
+      "nom_plur": "le piazze"
+    },
+    "plural": "piazze",
+    "irregular": false
+  },
+  "paio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Insieme di due cose dello stesso genere.",
+    "antonyms": [],
+    "article": "un",
+    "plural": "paia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un paio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le paia').",
+    "irregular": true
+  },
+  "centinaio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Quantità di circa cento unità.",
+    "antonyms": [],
+    "article": "un",
+    "plural": "centinaia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un centinaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le centinaia').",
+    "irregular": true
+  },
+  "migliaio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Quantità di circa mille unità.",
+    "antonyms": [],
+    "article": "un",
+    "plural": "migliaia",
+    "grammar_rule": "💡 REMEMBER: Maschile al singolare ('un migliaio'), ma cambia genere e diventa femminile al plurale con desinenza in '-a' ('le migliaia').",
+    "irregular": true
+  },
+  "ala": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Arto degli uccelli adibito al volo.",
+    "antonyms": [],
+    "article": "un'",
+    "plural": "ali",
+    "grammar_rule": "💡 REMEMBER: Femminile al singolare; prende l'articolo eliso 'un\\' davanti a vocale ('un'ala'), mentre al plurale segue la forma regolare ('le ali').",
+    "irregular": true
+  },
+  "rosso": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del sangue e del fuoco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "rossi",
+    "irregular": false
+  },
+  "blu": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del cielo sereno e del mare profondo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "blu",
+    "irregular": true
+  },
+  "verde": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore dell'erba fresca e delle foglie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "verdi",
+    "irregular": false
+  },
+  "giallo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del sole e del limone.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gialli",
+    "irregular": false
+  },
+  "nero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del buio e della notte senza luce.",
+    "antonyms": [
+      "bianco"
+    ],
+    "article": "il",
+    "plural": "neri",
+    "irregular": false
+  },
+  "bianco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore della neve fresca e del latte.",
+    "antonyms": [
+      "nero"
+    ],
+    "article": "il",
+    "plural": "bianchi",
+    "irregular": false
+  },
+  "arancione": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore secondario tra il rosso e il giallo.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "arancioni",
+    "irregular": false
+  },
+  "viola": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore secondario tra il blu e il rosso.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "viola",
+    "irregular": true
+  },
+  "rosa": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore chiaro ottenuto mescolando il rosso e il bianco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "rosa",
+    "irregular": true
+  },
+  "marrone": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore del legno e della terra.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "marroni",
+    "irregular": false
+  },
+  "grigio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Colore neutro tra il nero e il bianco.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "grigi",
+    "irregular": false
+  },
+  "padre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Genitore maschile.",
+    "antonyms": [
+      "madre"
+    ],
+    "article": "il",
+    "plural": "padri",
+    "irregular": false
+  },
+  "sorella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Figlia degli stessi genitori.",
+    "antonyms": [
+      "fratello"
+    ],
+    "article": "la",
+    "plural": "sorelle",
+    "irregular": false
+  },
+  "figlia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Discendente diretta femmina.",
+    "antonyms": [
+      "figlio"
+    ],
+    "article": "la",
+    "plural": "figlie",
+    "irregular": false
+  },
+  "nonno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Padre del padre o della madre.",
+    "antonyms": [
+      "nonna"
+    ],
+    "article": "il",
+    "plural": "nonni",
+    "irregular": false
+  },
+  "nonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Madre del padre o della madre.",
+    "antonyms": [
+      "nonno"
+    ],
+    "article": "la",
+    "plural": "nonne",
+    "irregular": false
+  },
+  "lunedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo giorno della settimana.",
+    "antonyms": [
+      "domenica"
+    ],
+    "article": "il",
+    "plural": "lunedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il lunedì', 'i lunedì').",
+    "irregular": false
+  },
+  "martedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "martedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il martedì', 'i martedì').",
+    "irregular": false
+  },
+  "mercoledì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mercoledì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il mercoledì', 'i mercoledì').",
+    "irregular": false
+  },
+  "giovedì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giovedì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il giovedì', 'i giovedì').",
+    "irregular": false
+  },
+  "venerdì": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "venerdì",
+    "grammar_rule": "💡 REMEMBER: I nomi dei giorni della settimana che terminano con accento sono invariabili al plurale ('il venerdì', 'i venerdì').",
+    "irregular": false
+  },
+  "sabato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto giorno della settimana.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "sabati",
+    "irregular": false
+  },
+  "domenica": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Settimo e ultimo giorno della settimana.",
+    "antonyms": [
+      "lunedì"
+    ],
+    "article": "la",
+    "plural": "domeniche",
+    "grammar_rule": "💡 REMEMBER: Nome femminile — forma il plurale regolare in '-che' ('le domeniche').",
+    "irregular": false
+  },
+  "piatto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Stoviglia di forma rotonda usata per servire il cibo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "piatti",
+    "irregular": false
+  },
+  "forchetta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Posata da tavola con rebbi per infilzare gli alimenti.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "forchette",
+    "irregular": false
+  },
+  "cucchiaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Posata da tavola concava per raccogliere liquidi.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cucchiai",
+    "irregular": false
+  },
+  "sale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sostanza minerale usata per insaporire i cibi.",
+    "antonyms": [
+      "pepe"
+    ],
+    "article": "il",
+    "plural": "sali",
+    "irregular": false
+  },
+  "pepe": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Spezia piccante usata in cucina.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "pepi",
+    "irregular": false
+  },
+  "camicia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento per il busto con colletto e bottoni.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "camicie",
+    "irregular": false
+  },
+  "vestito": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento maschile o femminile completo.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "vestiti",
+    "irregular": false
+  },
+  "gonna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento femminile che pende dalla vita in giù.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "gonne",
+    "irregular": false
+  },
+  "giacca": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Indumento con maniche che si porta sopra la camicia.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "giacche",
+    "irregular": false
+  },
+  "calzino": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indumento di maglia che ricopre il piede.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "calzini",
+    "irregular": false
+  },
+  "scarpa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Calzatura che protegge il piede.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "scarpe",
+    "irregular": false
+  },
+  "pioggia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione d'acqua dalle nuvole.",
+    "antonyms": [
+      "siccità"
+    ],
+    "article": "la",
+    "plural": "piogge",
+    "irregular": false
+  },
+  "neve": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Precipitazione atmosferica in forma di fiocchi ghiacciati.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "nevi",
+    "irregular": false
+  },
+  "ghiaccio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Acqua allo stato solido per il freddo.",
+    "antonyms": [
+      "fuoco"
+    ],
+    "article": "il",
+    "plural": "ghiacci",
+    "irregular": false
+  },
+  "nuvola": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Ammasso di vapore acqueo nel cielo.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "nuvole",
+    "irregular": false
+  },
+  "stella": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Corpo celeste che brilla di luce propria.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "stelle",
+    "irregular": false
+  },
+  "luna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Satellite naturale della Terra.",
+    "antonyms": [
+      "sole"
+    ],
+    "article": "la",
+    "plural": "lune",
+    "irregular": false
+  },
+  "foresta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Vasta estensione di terreno coperta di alberi.",
+    "antonyms": [
+      "deserto"
+    ],
+    "article": "la",
+    "plural": "foreste",
+    "irregular": false
+  },
+  "chiesa": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Edificio di culto cristiano.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "chiese",
+    "irregular": false
+  },
+  "farmacia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Negozio dove si vendono i farmaci.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "farmacie",
+    "irregular": false
+  },
+  "stazione": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di fabbricati per la fermata dei treni.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "stazioni",
+    "irregular": false
+  },
+  "professore": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi insegna in una scuola secondaria o università.",
+    "antonyms": [
+      "studente"
+    ],
+    "article": "il",
+    "plural": "professori",
+    "grammar_rule": "💡 REMEMBER: Forma il femminile con il suffisso '-essa' ('la professoressa').",
+    "irregular": false
+  },
+  "avvocato": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Professionista legale che assiste le parti in giudizio.",
+    "antonyms": [
+      "cliente"
+    ],
+    "article": "l'",
+    "plural": "avvocati",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'avvocata' (forma promuovente) o 'avvocatessa' (tradizionale).",
+    "irregular": false
+  },
+  "ingegnere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Specialista che progetta strutture e sistemi tecnici.",
+    "antonyms": [
+      "operaio"
+    ],
+    "article": "l'",
+    "plural": "ingegneri",
+    "grammar_rule": "💡 REMEMBER: Al femminile si usa 'l'ingegnera' (regolare) oppure resta 'l'ingegnere'.",
+    "irregular": false
+  },
+  "infermiere": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Operatore sanitario che assiste i malati.",
+    "antonyms": [
+      "paziente"
+    ],
+    "article": "l'",
+    "plural": "infermieri",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('l'infermiera').",
+    "irregular": false
+  },
+  "poliziotto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Membro delle forze dell'ordine pubbliche.",
+    "antonyms": [
+      "criminale"
+    ],
+    "article": "il",
+    "plural": "poliziotti",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la poliziotta').",
+    "irregular": false
+  },
+  "cuoco": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Chi prepara i cibi in cucina per mestiere.",
+    "antonyms": [
+      "cameriere"
+    ],
+    "article": "il",
+    "plural": "cuochi",
+    "grammar_rule": "💡 REMEMBER: Femminile regolare in '-a' ('la cuoca'). Plurale maschile in '-chi' ('i cuochi').",
+    "irregular": false
+  },
+  "amicizia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Legame di affetto reciproco tra persone.",
+    "antonyms": [
+      "inimicizia"
+    ],
+    "article": "l'",
+    "plural": "amicizie",
+    "irregular": false
+  },
+  "fiducia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di sicurezza verso qualcuno.",
+    "antonyms": [
+      "sfiducia"
+    ],
+    "article": "la",
+    "plural": "fiducie",
+    "irregular": false
+  },
+  "pazienza": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Capacità di attendere con calma.",
+    "antonyms": [
+      "impazienza"
+    ],
+    "article": "la",
+    "plural": "pazienze",
+    "irregular": false
+  },
+  "vergogna": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Sentimento di umiliazione o colpa.",
+    "antonyms": [
+      "orgoglio"
+    ],
+    "article": "la",
+    "plural": "vergogne",
+    "irregular": false
+  },
+  "orgoglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Fiero sentimento di stima per se stessi.",
+    "antonyms": [
+      "vergogna"
+    ],
+    "article": "l'",
+    "plural": "orgogli",
+    "irregular": false
+  },
+  "curiosità": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Desiderio di sapere e conoscere cose nuove.",
+    "antonyms": [
+      "indifferenza"
+    ],
+    "article": "la",
+    "plural": "curiosità",
+    "grammar_rule": "💡 REMEMBER: Nome accentato sull'ultima sillaba, invariabile al plurale (\"la curiosità\", \"le curiosità\").",
+    "irregular": false
+  },
+  "telefono": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Dispositivo per la comunicazione vocale a distanza.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "telefoni",
+    "irregular": false
+  },
+  "internet": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Rete informatica globale interconnessa.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "internet",
+    "grammar_rule": "💡 REMEMBER: Prestito dall'inglese, invariabile al plurale.",
+    "irregular": false
+  },
+  "schermo": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Superficie su cui si visualizzano immagini ed elementi grafici.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "schermi",
+    "irregular": false
+  },
+  "tastiera": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Insieme di tasti per digitare testo su un computer.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "tastiere",
+    "irregular": false
+  },
+  "mouse": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Dispositivo di puntamento manuale per computer.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "mouse",
+    "grammar_rule": "💡 REMEMBER: Prestito non adattato dall'inglese; rimane invariabile al plurale (\"il mouse\", \"i mouse\").",
+    "irregular": true
+  },
+  "messaggio": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Comunicazione scritta o vocale inviata a qualcuno.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "messaggi",
+    "irregular": false
+  },
+  "gennaio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Primo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "gennai",
+    "irregular": false
+  },
+  "febbraio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Secondo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "febbrai",
+    "irregular": false
+  },
+  "marzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Terzo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "marzi",
+    "irregular": false
+  },
+  "aprile": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quarto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aprili",
+    "irregular": false
+  },
+  "maggio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Quinto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "maggi",
+    "irregular": false
+  },
+  "giugno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Sesto mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "giugni",
+    "irregular": false
+  },
+  "luglio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Settimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "lugli",
+    "irregular": false
+  },
+  "agosto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Ottavo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "agosti",
+    "irregular": false
+  },
+  "settembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Nono mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "settembri",
+    "irregular": false
+  },
+  "ottobre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Decimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ottobri",
+    "irregular": false
+  },
+  "novembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Undicesimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "novembri",
+    "irregular": false
+  },
+  "dicembre": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Dodicesimo e ultimo mese dell'anno civile.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dicembri",
+    "irregular": false
+  },
+  "primavera": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione tra l'inverno e l'estate.",
+    "antonyms": [
+      "autunno"
+    ],
+    "article": "la",
+    "plural": "primavere",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili.",
+    "irregular": false
+  },
+  "estate": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Stagione più calda dell'anno.",
+    "antonyms": [
+      "inverno"
+    ],
+    "article": "l'",
+    "plural": "estati",
+    "grammar_rule": "💡 REMEMBER: I nomi delle stagioni in italiano hanno generi misti: primavera ed estate sono femminili, mentre autunno ed inverno sono maschili.",
+    "irregular": false
+  },
+  "valigia": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Contenitore portatile per vestiti durante un viaggio.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "valigie",
+    "irregular": false
+  },
+  "passaporto": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Documento ufficiale di riconoscimento per viaggiare.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "passaporti",
+    "irregular": false
+  },
+  "squadra": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Gruppo di atleti o persone che collaborano.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "squadre",
+    "irregular": false
+  },
+  "partita": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Incontro sportivo tra due squadre o giocatori.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "partite",
+    "irregular": false
+  },
+  "piscina": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Vasca artificiale usata per la natazione.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "piscine",
+    "irregular": false
+  },
+  "denaro": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Moneta usata come mezzo di pagamento.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "denari",
+    "irregular": false
+  },
+  "pubblicità": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Promozione di prodotti o servizi al pubblico.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "pubblicità",
+    "irregular": false
+  },
+  "programma": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Trasmissione televisiva o piano di attività.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome maschile d'origine greca in '-a' ('il programma / i programmi').",
+    "article": "il",
+    "plural": "programmi",
+    "irregular": false
+  },
+  "medicina": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Sostanza usata per curare le malattie.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "medicine",
+    "irregular": false
+  },
+  "febbre": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Aumento anormale della temperatura corporea.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "febbri",
+    "irregular": false
+  },
+  "raffreddore": {
+    "gender": "Maschile",
+    "level": "A2",
+    "definition": "Infezione comune delle vie respiratorie.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "raffreddori",
+    "irregular": false
+  },
+  "ambiente": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Insieme delle condizioni naturali e sociali che circondano un organismo.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "ambienti",
+    "irregular": false
+  },
+  "inquinamento": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Alterazione dell'ambiente naturale dovuta a sostanze nocive.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "inquinamenti",
+    "irregular": false
+  },
+  "società": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Insieme di individui organizzati in una comunità strutturata.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "società",
+    "irregular": false
+  },
+  "governo": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Organo esecutivo che dirige uno Stato.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "governi",
+    "irregular": false
+  },
+  "economia": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Sistema di produzione, distribuzione e consumo della ricchezza.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "economie",
+    "irregular": false
+  },
+  "azienda": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Organizzazione economica di beni e persone per la produzione.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "aziende",
+    "irregular": false
+  },
+  "collega": {
+    "gender": "Maschile / Femminile",
+    "level": "B1",
+    "definition": "Persona che esercita la stessa professione o lavora nello stesso posto.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Stessa forma al singolare per maschile e femminile ('il collega' / 'la collega'). Plurale: 'i colleghi' / 'le colleghe'.",
+    "article": "il",
+    "plural": "colleghi",
+    "irregular": true
+  },
+  "riunione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Incontro organizzato di persone per discutere questioni di lavoro.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "riunioni",
+    "irregular": false
+  },
+  "carriera": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Percorso professionale e di avanzamento nella vita lavorativa.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "carriere",
+    "irregular": false
+  },
+  "stipendio": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Compenso in denaro corrisposto periodicamente al lavoratore.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "stipendi",
+    "irregular": false
+  },
+  "relazione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Rapporto reciproco tra persone, gruppi o entità.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "relazioni",
+    "irregular": false
+  },
+  "malinteso": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Incomprensione o errore d'interpretazione tra persone.",
+    "antonyms": [
+      "accordo"
+    ],
+    "article": "il",
+    "plural": "malintesi",
+    "irregular": false
+  },
+  "delusione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Sentimento di amarezza derivante da un'aspettativa non realizzata.",
+    "antonyms": [
+      "soddisfazione"
+    ],
+    "article": "la",
+    "plural": "delusioni",
+    "irregular": false
+  },
+  "opinione": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Giudizio o idea personale riguardo a un argomento.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "opinioni",
+    "irregular": false
+  },
+  "dibattito": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Discussione pubblica su argomenti di interesse generale.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "dibattiti",
+    "irregular": false
+  },
+  "media": {
+    "gender": "Maschile",
+    "level": "B1",
+    "definition": "Mezzi di comunicazione di massa.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Sostantivo maschile invariabile di origine latina ('i media').",
+    "article": "i",
+    "plural": "media",
+    "irregular": true
+  },
+  "rete": {
+    "gender": "Femminile",
+    "level": "B1",
+    "definition": "Insieme di connessioni informatiche o sociali.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "reti",
+    "irregular": false
+  },
+  "armadio": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Grande mobile a porte per riporre vestiti o oggetti.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "armadi",
+    "irregular": false
+  },
+  "scaffale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Struttura a ripiani usata per riporre libri o oggetti.",
+    "antonyms": [],
+    "article": "lo",
+    "plural": "scaffali",
+    "irregular": false
+  },
+  "cassetto": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Elemento scorrevole di un mobile per riporre piccoli oggetti.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "cassetti",
+    "irregular": false
+  },
+  "lampada": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Apparecchio per produrre luce artificiale in una stanza.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "lampade",
+    "irregular": false
+  },
+  "divano": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Mobile imbottito a più posti con schienale e braccioli.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "divani",
+    "irregular": false
+  },
+  "verdura": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Insieme di piante orticole ed eduli usate in cucina.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "verdure",
+    "irregular": false
+  },
+  "pasta": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Alimento a base di farina o semola di grano cotto in acqua.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "paste",
+    "irregular": false
+  },
+  "moto": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Veicolo a due ruote a motore.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome femminile invariabile al plurale ('la moto / le moto').",
+    "article": "la",
+    "plural": "moto",
+    "irregular": true
+  },
+  "taxi": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Automobile per il trasporto individuale di passeggeri a pagamento.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome maschile d'origine straniera invariabile al plurale ('il taxi / i taxi').",
+    "article": "il",
+    "plural": "taxi",
+    "irregular": false
+  },
+  "matematica": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Scienza che studia i numeri, le quantità e le forme geometriche.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "matematiche",
+    "irregular": false
+  },
+  "geografia": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Scienza che studia e descrive la superficie della Terra.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "geografie",
+    "irregular": false
+  },
+  "scienze": {
+    "gender": "Femminile",
+    "level": "A2",
+    "definition": "Insieme delle discipline di osservazione e studio della natura.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome femminile plurale usato per la materia scolastica.",
+    "article": "le",
+    "plural": "scienze",
+    "irregular": true
+  },
+  "cognome": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Nome di famiglia trasmesso di generazione in generazione.",
+    "antonyms": [
+      "nome"
+    ],
+    "article": "il",
+    "plural": "cognomi",
+    "irregular": false
+  },
+  "età": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Numero di anni vissuti da una persona dalla nascita.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Nome femminile accentato invariabile al plurale ('l'età / le età').",
+    "article": "l'",
+    "plural": "età",
+    "irregular": false
+  },
+  "indirizzo": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Indicazione del luogo di residenza con via e numero civico.",
+    "antonyms": [],
+    "article": "l'",
+    "plural": "indirizzi",
+    "irregular": false
+  },
+  "numero": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Serie di cifre per chiamare un contatto telefonico.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "numeri",
+    "irregular": false
+  },
+  "compleanno": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Giorno dell'anno in cui ricorre l'anniversario della propria nascita.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "compleanni",
+    "irregular": false
+  },
+  "valle": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Pianura racchiusa tra montagne o colline.",
+    "antonyms": [
+      "montagna"
+    ],
+    "article": "la",
+    "plural": "valli",
+    "irregular": false
+  },
+  "collina": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Rilievo del terreno di altezza inferiore alla montagna.",
+    "antonyms": [
+      "valle"
+    ],
+    "article": "la",
+    "plural": "colline",
+    "irregular": false
+  },
+  "temporale": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Violenta perturbazione atmosferica con pioggia e tuoni.",
+    "antonyms": [
+      "sereno"
+    ],
+    "article": "il",
+    "plural": "temporali",
+    "irregular": false
+  },
+  "tuono": {
+    "gender": "Maschile",
+    "level": "A1",
+    "definition": "Forte rumore provocato dal fulmine durante un temporale.",
+    "antonyms": [],
+    "article": "il",
+    "plural": "tuoni",
+    "irregular": false
+  },
+  "nebbia": {
+    "gender": "Femminile",
+    "level": "A1",
+    "definition": "Condensazione di vapore acqueo nei bassi strati dell'atmosfera.",
+    "antonyms": [],
+    "article": "la",
+    "plural": "nebbie",
+    "irregular": false
+  }
+}
