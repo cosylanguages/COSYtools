@@ -1,0 +1,57 @@
+{
+  "hablar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Expresarse mediante palabras.",
+    "antonyms": ["callar", "escuchar"],
+    "tenses": {
+      "presente": ["hablo", "hablas", "habla", "hablamos", "habláis", "hablan"],
+      "pasado": ["hablé", "hablaste", "habló", "hablamos", "hablasteis", "hablaron"]
+    },
+    "examples": ["Hablo español con mis amigos todos los días."]
+  },
+  "comer": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Masticar y deglutir un alimento.",
+    "antonyms": ["ayunar"],
+    "tenses": {
+      "presente": ["como", "comes", "come", "comemos", "coméis", "comen"],
+      "pasado": ["comí", "comiste", "comió", "comimos", "comisteis", "comieron"]
+    },
+    "examples": ["Comemos una paella deliciosa los domingos."]
+  },
+  "vivir": {
+    "group": "3er grupo (-ir)",
+    "level": "A1",
+    "definition": "Tener vida o habitar en un lugar.",
+    "antonyms": ["morir"],
+    "tenses": {
+      "presente": ["vivo", "vives", "vive", "vivimos", "vivís", "viven"],
+      "pasado": ["viví", "viviste", "vivió", "vivimos", "vivisteis", "vivieron"]
+    },
+    "examples": ["Vivo en una ciudad muy tranquila."]
+  },
+  "estar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Existir, hallarse en un lugar o estado.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["estoy", "estás", "está", "estamos", "estáis", "están"],
+      "pasado": ["estuve", "estuviste", "estuvo", "estuvimos", "estuvisteis", "estuvieron"]
+    },
+    "examples": ["Hoy estoy feliz y contento."]
+  },
+  "ser": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Tener una cualidad propia o permanente.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["soy", "eres", "es", "somos", "sois", "son"],
+      "pasado": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"]
+    },
+    "examples": ["Ella es una profesora excelente."]
+  }
+}

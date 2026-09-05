@@ -1,0 +1,34 @@
+{
+  "Haus": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Gebäude zum Wohnen.",
+    "article": "das",
+    "plural": "Häuser",
+    "examples": ["Das Haus ist schön und groß."]
+  },
+  "Tisch": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Möbelstück mit flacher Oberfläche.",
+    "article": "der",
+    "plural": "Tische",
+    "examples": ["Der Tisch steht in der Küche."]
+  },
+  "Sonne": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Stern im Zentrum unseres Sonnensystems.",
+    "article": "die",
+    "plural": "Sonnen",
+    "examples": ["Die Sonne scheint heute hell."]
+  },
+  "Buch": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Gedrucktes Werk zum Lesen.",
+    "article": "das",
+    "plural": "Bücher",
+    "examples": ["Ich lese ein interessantes Buch."]
+  }
+}
