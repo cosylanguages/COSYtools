@@ -53,5 +53,115 @@
       "pasado": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"]
     },
     "examples": ["Ella es una profesora excelente."]
+  },
+  "ir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Moverse de un lugar hacia otro.",
+    "antonyms": ["venir"],
+    "tenses": {
+      "presente": ["voy", "vas", "va", "vamos", "vais", "van"],
+      "pasado": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"]
+    },
+    "examples": ["Voy al colegio todas las mañanas."]
+  },
+  "tener": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Poseer o sostener algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
+      "pasado": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"]
+    },
+    "examples": ["Tengo dos hermanos y un perro."]
+  },
+  "hacer": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Realizar o crear una acción o tarea.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["hago", "haces", "hace", "hacemos", "hacéis", "hacen"],
+      "pasado": ["hice", "hiciste", "hizo", "hicimos", "hicisteis", "hicieron"]
+    },
+    "examples": ["Hago mis deberes después de comer."]
+  },
+  "ver": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Percibir cosas con los ojos.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["veo", "ves", "ve", "vemos", "veis", "ven"],
+      "pasado": ["vi", "viste", "vio", "vimos", "visteis", "vieron"]
+    },
+    "examples": ["Veo una película bonita esta tarde."]
+  },
+  "poder": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Tener la capacidad de hacer algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
+      "pasado": ["pude", "pudiste", "pudo", "pudimos", "pudisteis", "pudieron"]
+    },
+    "examples": ["Puedo ayudarte con la tarea."]
+  },
+  "querer": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Desear o tener voluntad de conseguir algo.",
+    "antonyms": ["odiar"],
+    "tenses": {
+      "presente": ["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
+      "pasado": ["quise", "quisiste", "quiso", "quisimos", "quisisteis", "quisieron"]
+    },
+    "examples": ["Quiero aprender idiomas rápidamente."]
+  },
+  "saber": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Tener conocimiento de algo.",
+    "antonyms": ["ignorar"],
+    "tenses": {
+      "presente": ["sé", "sabes", "sabe", "sabemos", "sabéis", "saben"],
+      "pasado": ["supe", "supiste", "supo", "supimos", "supisteis", "supieron"]
+    },
+    "examples": ["Sé hablar tres lenguas diferentes."]
+  },
+  "escribir": {
+    "group": "3er grupo (-ir)",
+    "level": "A1",
+    "definition": "Representar palabras mediante signos en un papel.",
+    "antonyms": ["leer"],
+    "tenses": {
+      "presente": ["escribo", "escribes", "escribe", "escribimos", "escribís", "escriben"],
+      "pasado": ["escribí", "escribiste", "escribió", "escribimos", "escribisteis", "escribieron"]
+    },
+    "examples": ["Escribo una carta para mi abuela."]
+  },
+  "leer": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Interpretar el sentido de un texto escrito.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["leo", "lees", "lee", "leemos", "leéis", "leen"],
+      "pasado": ["leí", "leíste", "leyó", "leímos", "leísteis", "leyeron"]
+    },
+    "examples": ["Leo un libro de aventuras emocionante."]
+  },
+  "escuchar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Prestar atención a lo que se oye.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["escucho", "escuchas", "escucha", "escuchamos", "escucháis", "escuchan"],
+      "pasado": ["escuché", "escuchaste", "escuchó", "escuchamos", "escuchasteis", "escucharon"]
+    },
+    "examples": ["Escucho música tranquila para estudiar."]
   }
 }
