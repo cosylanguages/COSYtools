@@ -26,20 +26,21 @@
 
 ---
 
-## 🚀 Migration & How to Use
+## 🚀 How to Use & Deploy
 
-To copy everything into your new repository (`https://github.com/cosylanguages/COSYtools`):
+### 1. What's Included
+The repository contains everything needed out of the box:
+- `index.html` (Catalog & Hub interface)
+- `manifest.json` (Web App Manifest)
+- `shared/` (Shared CSS, JS, and image assets)
+- All 12 tool folders (`fr-conjugeur/`, `it-coniugatore/`, `en-verb-prep/`, etc.)
 
-1. **Copy Folder Contents**: Copy all files and folders inside `COSYtools/` into the root of your `COSYtools` repository:
-   - `index.html` (Catalog & Hub interface)
-   - `manifest.json` (Web App Manifest)
-   - `shared/` (Shared CSS, JS, and image assets)
-   - All 12 tool folders (`fr-conjugeur/`, `it-coniugatore/`, `en-verb-prep/`, etc.)
+### 2. Running Locally
+- Open `index.html` directly in any web browser, or serve the repository with any static file server — no build step, Node server, or database required!
 
-2. **Serve or Host Static Files**:
-   - Host via GitHub Pages, Vercel, Netlify, or any static file server.
-   - Open `index.html` in any browser — no node server or backend database required!
+### 3. Deploying
+- Host on **GitHub Pages**, **Vercel**, **Netlify**, or any static web hosting service.
 
-3. **100% Offline & Client-Side**:
-   - All data datasets reside locally in JSON/JS files inside each tool directory.
-   - User progress (SRS memory review, score streaks) is preserved in `localStorage`.
+### 4. 100% Offline & Client-Side
+- All data datasets reside locally in JSON/JS files inside each tool directory.
+- User progress (SRS memory review, score streaks) is preserved in `localStorage`.
