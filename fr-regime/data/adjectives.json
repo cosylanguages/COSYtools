@@ -1,0 +1,386 @@
+{
+  "content": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être content de [nom / verbe]",
+    "level": "A1",
+    "definition": "Éprouver de la joie ou de la satisfaction.",
+    "grammar_rule": "Exige la préposition « de » devant un nom ou un infinitif. Contractions du/des.",
+    "related_forms": "se réjouir",
+    "examples": [
+      "Je suis très content de mon nouveau travail.",
+      "Elle est contente de revoir ses amis."
+    ],
+    "common_mistake": "❌ Je suis content pour mon voyage. ➜ ✅ Je suis content de mon voyage.",
+    "synonyms": [
+      "heureux",
+      "satisfait"
+    ],
+    "antonyms": [
+      "mécontent",
+      "triste"
+    ]
+  },
+  "désolé": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être désolé de [nom / verbe]",
+    "level": "A1",
+    "definition": "Éprouver du regret ou de la contrariété face à une situation.",
+    "grammar_rule": "Se construit avec la préposition « de » devant un infinitif ou un complément d'objet.",
+    "related_forms": "s'excuser",
+    "examples": [
+      "Je suis désolé de vous déranger.",
+      "Il est désolé du retard accumulé."
+    ],
+    "common_mistake": "❌ Désolé pour arriver en retard. ➜ ✅ Désolé d'arriver en retard.",
+    "synonyms": [
+      "navré",
+      "contrit"
+    ],
+    "antonyms": [
+      "enchanté",
+      "ravie"
+    ]
+  },
+  "fier": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être fier de [nom / verbe]",
+    "level": "A1",
+    "definition": "Ressentir de l'amour-propre ou de la satisfaction envers une réussite ou quelqu'un.",
+    "grammar_rule": "Toujours suivi de « de » devant le complément d'origine ou le verbe.",
+    "related_forms": "s'enorgueillir",
+    "examples": [
+      "Les parents sont très fiers des résultats de leur fille.",
+      "Il est fier de porter ce maillot."
+    ],
+    "common_mistake": "❌ Fier pour sa réussite. ➜ ✅ Fier de sa réussite.",
+    "synonyms": [
+      "orgueilleux",
+      "honoré"
+    ],
+    "antonyms": [
+      "honteux",
+      "humble"
+    ]
+  },
+  "sûr": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être sûr de [nom / verbe]",
+    "level": "A1",
+    "definition": "Avoir une certitude absolue à propos de quelque chose.",
+    "grammar_rule": "Exige la préposition « de » (sûr de soi / sûr de réussir).",
+    "related_forms": "assurer",
+    "examples": [
+      "Es-tu sûr de ton adresse ?",
+      "Elle est sûre de pouvoir terminer à temps."
+    ],
+    "common_mistake": "❌ Sûr sur la réponse. ➜ ✅ Sûr de la réponse.",
+    "synonyms": [
+      "certain",
+      "convaincu"
+    ],
+    "antonyms": [
+      "incertain",
+      "douteux"
+    ]
+  },
+  "capable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être capable de [verbe / nom]",
+    "level": "A2",
+    "definition": "Avoir l'aptitude, le pouvoir ou la compétence de réaliser une action.",
+    "grammar_rule": "L'adjectif « capable » se construit avec la préposition « de » devant l'infinitif.",
+    "related_forms": "pouvoir",
+    "examples": [
+      "Il est capable de résoudre ce problème complexe.",
+      "Elle est capable du meilleur comme du pire."
+    ],
+    "common_mistake": "❌ Il est capable pour le faire. ➜ ✅ Il est capable de le faire.",
+    "synonyms": [
+      "apte",
+      "compétent"
+    ],
+    "antonyms": [
+      "incapable",
+      "inapte"
+    ]
+  },
+  "prêt": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être prêt à [verbe / nom]",
+    "level": "A2",
+    "definition": "Être dans la disposition ou la préparation requise pour faire quelque chose.",
+    "grammar_rule": "Se construit avec « à » devant l'infinitif (prêt à partir). Ne pas confondre avec « près de » (proximité).",
+    "related_forms": "préparer",
+    "examples": [
+      "Nous sommes prêts à commencer la présentation.",
+      "Tout le monde est prêt au départ."
+    ],
+    "common_mistake": "❌ Il est prêt de partir. ➜ ✅ Il est prêt à partir.",
+    "synonyms": [
+      "disposé",
+      "préparé"
+    ],
+    "antonyms": [
+      "impréparé",
+      "réticent"
+    ]
+  },
+  "habitué": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être habitué à [nom / verbe]",
+    "level": "A2",
+    "definition": "Avoir pris la coutume ou l'accoutumance de quelque chose.",
+    "grammar_rule": "Se construit avec la préposition « à » (habitué au froid / habitué à travailler).",
+    "related_forms": "s'habituer",
+    "examples": [
+      "Il est habitué au climat tropical.",
+      "Elles sont habituées à se lever tôt."
+    ],
+    "common_mistake": "❌ Habitué de se lever tôt. ➜ ✅ Habitué à se lever tôt.",
+    "synonyms": [
+      "accoutumé",
+      "familiarisé"
+    ],
+    "antonyms": [
+      "inaccoutumé",
+      "novice"
+    ]
+  },
+  "fidèle": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être fidèle à [personne / cause / principe]",
+    "level": "A2",
+    "definition": "Garder sa loyauté ou son attachement constant envers quelqu'un ou quelque chose.",
+    "grammar_rule": "L'adjectif « fidèle » exige la préposition « à ».",
+    "related_forms": "attachement",
+    "examples": [
+      "Il est resté fidèle à ses amis d'enfance.",
+      "Elle est toujours fidèle à ses valeurs."
+    ],
+    "common_mistake": "❌ Fidèle avec ses principes. ➜ ✅ Fidèle à ses principes.",
+    "synonyms": [
+      "loyal",
+      "dévoué"
+    ],
+    "antonyms": [
+      "infidèle",
+      "déloyal"
+    ]
+  },
+  "responsable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être responsable de [nom / verbe]",
+    "level": "B1",
+    "definition": "Chargé d'une fonction ou garant d'un acte ou d'un projet.",
+    "grammar_rule": "Se construit avec « de » devant le complément d'objet.",
+    "related_forms": "responsabilité",
+    "examples": [
+      "Elle est responsable du département financier.",
+      "Qui est responsable de ce retard ?"
+    ],
+    "common_mistake": "❌ Responsable pour le projet. ➜ ✅ Responsable du projet.",
+    "synonyms": [
+      "chargé",
+      "garant"
+    ],
+    "antonyms": [
+      "irresponsable",
+      "exempté"
+    ]
+  },
+  "différent": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être différent de [nom / personne]",
+    "level": "B1",
+    "definition": "Qui présente des traits distincts ou une dissemblance.",
+    "grammar_rule": "L'adjectif « différent » exige la préposition « de » (différent de l'autre).",
+    "related_forms": "différer",
+    "examples": [
+      "Ce modèle est très différent du précédent.",
+      "Sa méthode est différente de la mienne."
+    ],
+    "common_mistake": "❌ Différent à la mienne. ➜ ✅ Différent de la mienne.",
+    "synonyms": [
+      "distinct",
+      "dissemblable"
+    ],
+    "antonyms": [
+      "identique",
+      "semblable"
+    ]
+  },
+  "pareil": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être pareil à [nom / personne]",
+    "level": "B1",
+    "definition": "Qui est identique ou parfaitement similaire à quelque chose d'autre.",
+    "grammar_rule": "L'adjectif « pareil » se construit avec la préposition « à ».",
+    "related_forms": "ressembler",
+    "examples": [
+      "Son comportement est pareil à celui de son frère.",
+      "Rien n'est pareil à la vie d'autrefois."
+    ],
+    "common_mistake": "❌ Pareil de celui-là. ➜ ✅ Pareil à celui-là.",
+    "synonyms": [
+      "identique",
+      "similaire"
+    ],
+    "antonyms": [
+      "différent",
+      "opposé"
+    ]
+  },
+  "indépendant": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être indépendant de [nom / facteur]",
+    "level": "B1",
+    "definition": "Qui n'est pas soumis à l'autorité ou à l'influence de quelque chose d'autre.",
+    "grammar_rule": "Se construit avec la préposition « de » (indépendant des événements).",
+    "related_forms": "dépendre",
+    "examples": [
+      "Cette décision est totalement indépendante des résultats.",
+      "Elle souhaite rester indépendante de ses parents."
+    ],
+    "common_mistake": "❌ Indépendant à ses parents. ➜ ✅ Indépendant de ses parents.",
+    "synonyms": [
+      "autonome",
+      "libre"
+    ],
+    "antonyms": [
+      "dépendant",
+      "subordonné"
+    ]
+  },
+  "attentif": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être attentif à [nom / personne]",
+    "level": "B1",
+    "definition": "Qui prête une attention soutenue à ce qui se passe ou à autrui.",
+    "grammar_rule": "Se construit avec la préposition « à » (attentif aux conseils).",
+    "related_forms": "attention",
+    "examples": [
+      "Soyez attentifs aux consignes de sécurité.",
+      "Le professeur est très attentif aux besoins des élèves."
+    ],
+    "common_mistake": "❌ Attentif sur les détails. ➜ ✅ Attentif aux détails.",
+    "synonyms": [
+      "vigilant",
+      "concentré"
+    ],
+    "antonyms": [
+      "distrait",
+      "inattentif"
+    ]
+  },
+  "favorable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être favorable à [proposition / projet]",
+    "level": "B2",
+    "definition": "Qui est bien disposé ou bienveillant envers un projet ou une proposition.",
+    "grammar_rule": "L'adjectif « favorable » exige la préposition « à ».",
+    "related_forms": "approuver",
+    "examples": [
+      "La majorité du conseil est favorable à cette réforme.",
+      "Les conditions climatiques sont favorables à la récolte."
+    ],
+    "common_mistake": "❌ Favorable pour cette décision. ➜ ✅ Favorable à cette décision.",
+    "synonyms": [
+      "propice",
+      "bienveillant"
+    ],
+    "antonyms": [
+      "défavorable",
+      "hostile"
+    ]
+  },
+  "conforme": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être conforme à [norme / règle / attente]",
+    "level": "B2",
+    "definition": "Qui est en accord parfait avec une norme, une loi ou une description.",
+    "grammar_rule": "Exige la préposition « à » devant le référentiel.",
+    "related_forms": "se conformer",
+    "examples": [
+      "Ce produit est parfaitement conforme aux normes de sécurité.",
+      "La livraison est conforme à la commande."
+    ],
+    "common_mistake": "❌ Conforme avec le contrat. ➜ ✅ Conforme au contrat.",
+    "synonyms": [
+      "adéquat",
+      "en accord avec"
+    ],
+    "antonyms": [
+      "non-conforme",
+      "contraire"
+    ]
+  },
+  "tributaire": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être tributaire de [facteur / circonstance]",
+    "level": "C1",
+    "definition": "Être sous la dépendance directe ou être conditionné par un facteur.",
+    "grammar_rule": "Se construit obligatoirement avec la préposition « de ».",
+    "related_forms": "dépendre",
+    "examples": [
+      "Le projet est fortement tributaire des financements internationaux.",
+      "L'agriculture reste tributaire des aléas météorologiques."
+    ],
+    "common_mistake": "❌ Tributaire à la météo. ➜ ✅ Tributaire de la météo.",
+    "synonyms": [
+      "dépendant de",
+      "assujetti à"
+    ],
+    "antonyms": [
+      "affranchi de",
+      "indépendant de"
+    ]
+  }
+}
