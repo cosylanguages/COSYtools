@@ -1,0 +1,3925 @@
+{
+  "contento di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "contento + di + [nome/infinito]",
+    "level": "A1",
+    "definition": "Che prova gioia e soddisfazione per qualcosa.",
+    "grammar_rule": "Richiede sempre la preposizione « di » con relative preposizioni articolate (del risultato, della notizia).",
+    "related_forms": "⚡ Aggettivo: 'contento di' ➜ Verbo correlato: 'rallegrarsi' / Nome correlato: 'festa di'",
+    "examples": [
+      "Sono molto contento del mio nuovo lavoro.",
+      "Siamo contenti di vedervi qui stasera."
+    ],
+    "common_mistake": "❌ Sono contento per del regalo che mi hai fatto. ➜ ✅ Sono contento del regalo che mi hai fatto.",
+    "synonyms": [
+      "felice di",
+      "soddisfatto di"
+    ],
+    "antonyms": [
+      "scontento di",
+      "triste per"
+    ]
+  },
+  "vicino a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "vicino + a + [luogo/persona]",
+    "level": "A1",
+    "definition": "Che si trova a breve distanza da un punto o persona.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate (vicino al centro, alla stazione).",
+    "related_forms": "⚡ Aggettivo: 'vicino a' ➜ Verbo correlato: 'arrivare' / Nome correlato: 'arrivo a'",
+    "examples": [
+      "L'albergo è molto vicino al centro storico.",
+      "Abitiamo vicino alla stazione ferroviaria."
+    ],
+    "common_mistake": "❌ Abito vicino da la scuola. ➜ ✅ Abito vicino alla scuola.",
+    "synonyms": [
+      "prossimo a",
+      "accanto a"
+    ],
+    "antonyms": [
+      "lontano da",
+      "distante da"
+    ]
+  },
+  "lontano da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "lontano + da + [luogo/persona]",
+    "level": "A1",
+    "definition": "Che si trova a grande distanza da un punto.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate (lontano dal centro, dalla città).",
+    "related_forms": "⚡ Aggettivo: 'lontano da' ➜ Verbo correlato: 'partire' / Nome correlato: 'distacco da'",
+    "examples": [
+      "La sua casa è lontana dal centro abitato.",
+      "Non vivere troppo lontano dalla famiglia."
+    ],
+    "common_mistake": "❌ Abita lontano di Milano. ➜ ✅ Abita lontano da Milano.",
+    "synonyms": [
+      "distante da",
+      "rimoto da"
+    ],
+    "antonyms": [
+      "vicino a",
+      "accanto a"
+    ]
+  },
+  "gentile con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "gentile + con + [persona]",
+    "level": "A1",
+    "definition": "Che si comporta con garbo, cortesia e premura verso gli altri.",
+    "grammar_rule": "Richiede la preposizione « con » con relative preposizioni articolate (con i clienti, con la nonna).",
+    "related_forms": "⚡ Aggettivo: 'gentile con' ➜ Verbo correlato: 'parlare' / Nome correlato: 'rispetto per'",
+    "examples": [
+      "Marco è sempre molto gentile con tutti i colleghi.",
+      "Sii gentile con le persone anziane."
+    ],
+    "common_mistake": "❌ È stato gentile a me stamattina. ➜ ✅ È stato gentile con me stamattina.",
+    "synonyms": [
+      "cortese con",
+      "educato con"
+    ],
+    "antonyms": [
+      "scortese con",
+      "scortese verso"
+    ]
+  },
+  "simpatico con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "simpatico + con + [persona]",
+    "level": "A1",
+    "definition": "Che ispira spontaneo affetto, cordialità e piacevolezza.",
+    "grammar_rule": "Richiede la preposizione « con » davanti alla persona verso cui si è cordiali.",
+    "related_forms": "⚡ Aggettivo: 'simpatico con' ➜ Verbo correlato: 'piacere' / Nome correlato: 'rapporto con'",
+    "examples": [
+      "Il nuovo professore è molto simpatico con gli studenti.",
+      "Cerca di essere simpatico con gli ospiti."
+    ],
+    "common_mistake": "❌ È simpatico a i colleghi di lavoro. ➜ ✅ È simpatico con i colleghi di lavoro.",
+    "synonyms": [
+      "cordiale con",
+      "affabile con"
+    ],
+    "antonyms": [
+      "antipatico a",
+      "sgradevole con"
+    ]
+  },
+  "educato con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "educato + con + [persona]",
+    "level": "A1",
+    "definition": "Che possiede buone maniere e rispetto del vivere civile.",
+    "grammar_rule": "Richiede la preposizione « con » davanti alla persona verso cui si usano buone maniere.",
+    "related_forms": "⚡ Aggettivo: 'educato con' ➜ Verbo correlato: 'ubbidire' / Nome correlato: 'rispetto per'",
+    "examples": [
+      "I bambini sono stati molto educati con i visitatori.",
+      "È sempre educato con la maestra."
+    ],
+    "common_mistake": "❌ Sii educato a i tuoi insegnanti. ➜ ✅ Sii educato con i tuoi insegnanti.",
+    "synonyms": [
+      "cortese con",
+      "rispettoso verso"
+    ],
+    "antonyms": [
+      "maleducato con",
+      "scortese con"
+    ]
+  },
+  "cattivo con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "cattivo + con + [persona/animale]",
+    "level": "A1",
+    "definition": "Che si comporta in modo duro, crudele o privo di bontà.",
+    "grammar_rule": "Richiede la preposizione « con » (cattivo con i compagni, con gli animali).",
+    "related_forms": "⚡ Aggettivo: 'cattivo con' ➜ Verbo correlato: 'lamentarsi' / Nome correlato: 'paura di'",
+    "examples": [
+      "Non bisogna essere cattivi con gli animali.",
+      "Perché sei così cattivo con tuo fratello?"
+    ],
+    "common_mistake": "❌ È stato cattivo a me senza motivo. ➜ ✅ È stato cattivo con me senza motivo.",
+    "synonyms": [
+      "crudele con",
+      "spietato con"
+    ],
+    "antonyms": [
+      "buono con",
+      "gentile con"
+    ]
+  },
+  "pronto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "per"
+    ],
+    "pattern": "pronto + a/per + [infinito/evento]",
+    "level": "A1",
+    "definition": "Che è nelle condizioni di iniziare un'azione o affrontare un fatto.",
+    "grammar_rule": "Usa « a » prima di un verbo all'infinito o « per » davanti a un sostantivo.",
+    "related_forms": "⚡ Aggettivo: 'pronto a' ➜ Verbo correlato: 'cominciare' / Nome correlato: 'partenza per'",
+    "examples": [
+      "Siamo pronti a partire per le vacanze estive.",
+      "Il pranzo è pronto per essere servito."
+    ],
+    "common_mistake": "❌ Sono pronto di uscire subito. ➜ ✅ Sono pronto ad uscire subito.",
+    "synonyms": [
+      "disposto a",
+      "preparato per"
+    ],
+    "antonyms": [
+      "impreparato a",
+      "esitante a"
+    ]
+  },
+  "bello per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "bello + per + [persona/scopo]",
+    "level": "A1",
+    "definition": "Che offre un'intensa sensazione di piacere estetico o gradimento.",
+    "grammar_rule": "Richiede la preposizione « per » (bello per i bambini, bello per la città).",
+    "related_forms": "⚡ Aggettivo: 'bello per' ➜ Verbo correlato: 'piacere' / Nome correlato: 'gusto per'",
+    "examples": [
+      "È un giorno bello per fare una passeggiata al parco.",
+      "Un regalo molto bello per la mamma."
+    ],
+    "common_mistake": "❌ Questo posto è bello a vivere. ➜ ✅ Questo posto è bello per vivere.",
+    "synonyms": [
+      "piacevole per",
+      "attraente per"
+    ],
+    "antonyms": [
+      "brutto per",
+      "sgradevole per"
+    ]
+  },
+  "buono con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con",
+      "per"
+    ],
+    "pattern": "buono + con/per + [persona/salute]",
+    "level": "A1",
+    "definition": "Che ha animo generoso verso gli altri o giova alla salute.",
+    "grammar_rule": "Usa « con » per la gentilezza personale e « per » per i benefici fisici.",
+    "related_forms": "⚡ Aggettivo: 'buono con' ➜ Verbo correlato: 'aiutare' / Nome correlato: 'aiuto a'",
+    "examples": [
+      "Il nonno è sempre stato buono con tutti noi.",
+      "La frutta fresca è molto buona per la salute."
+    ],
+    "common_mistake": "❌ Il latte è buono a i bambini. ➜ ✅ Il latte è buono per i bambini.",
+    "synonyms": [
+      "generoso con",
+      "salutare per"
+    ],
+    "antonyms": [
+      "cattivo con",
+      "nocivo per"
+    ]
+  },
+  "brutto per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "brutto + per + [situazione/persona]",
+    "level": "A1",
+    "definition": "Sgradevole alla vista o spiacevole nelle conseguenze.",
+    "grammar_rule": "Richiede la preposizione « per » (brutto per il morale, brutto per il paese).",
+    "related_forms": "⚡ Aggettivo: 'brutto per' ➜ Verbo correlato: 'piacere' / Nome correlato: 'svantaggio di'",
+    "examples": [
+      "Una brutta notizia per tutta la comunità.",
+      "È stato un momento brutto per la famiglia."
+    ],
+    "common_mistake": "❌ Una notizia brutta a tutti noi. ➜ ✅ Una notizia brutta per tutti noi.",
+    "synonyms": [
+      "spiacevole per",
+      "sgradevole per"
+    ],
+    "antonyms": [
+      "bello per",
+      "piacevole per"
+    ]
+  },
+  "primo in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in",
+      "a"
+    ],
+    "pattern": "primo + in/a + [materia/infinito]",
+    "level": "A1",
+    "definition": "Che precede tutti gli altri in una classifica o sequenza.",
+    "grammar_rule": "Usa « in » per la disciplina e « a » prima di un verbo infinito.",
+    "related_forms": "⚡ Aggettivo: 'primo in' ➜ Verbo correlato: 'arrivare' / Nome correlato: 'arrivo a'",
+    "examples": [
+      "Marco è il primo della classe in matematica.",
+      "È stato il primo ad arrivare alla festa."
+    ],
+    "common_mistake": "❌ È il primo di la gara di corsa. ➜ ✅ È il primo nella gara di corsa.",
+    "synonyms": [
+      "capofila in",
+      "primo a"
+    ],
+    "antonyms": [
+      "ultimo in"
+    ]
+  },
+  "ultimo in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in",
+      "a"
+    ],
+    "pattern": "ultimo + in/a + [materia/infinito]",
+    "level": "A1",
+    "definition": "Che viene dopo tutti gli altri in una graduatoria.",
+    "grammar_rule": "Usa « in » per la materia e « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'ultimo in' ➜ Verbo correlato: 'finire' / Nome correlato: 'fine di'",
+    "examples": [
+      "Siamo arrivati ultimi nella classifica generale.",
+      "Sono stato l'ultimo a sapere la novità."
+    ],
+    "common_mistake": "❌ L'ultimo di capire la situazione. ➜ ✅ L'ultimo a capire la situazione.",
+    "synonyms": [
+      "postremo in"
+    ],
+    "antonyms": [
+      "primo in"
+    ]
+  },
+  "giusto per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "giusto + per + [scopo/persona]",
+    "level": "A1",
+    "definition": "Conforme all'equità, conveniente o esatto per uno scopo.",
+    "grammar_rule": "Richiede la preposizione « per » (giusto per te, giusto per questa occasione).",
+    "related_forms": "⚡ Aggettivo: 'giusto per' ➜ Verbo correlato: 'convenire' / Nome correlato: 'ragione di'",
+    "examples": [
+      "Questo vestito è giusto per la serata di gala.",
+      "È la scelta giusta per il tuo futuro."
+    ],
+    "common_mistake": "❌ Una soluzione giusta a noi. ➜ ✅ Una soluzione giusta per noi.",
+    "synonyms": [
+      "idoneo per",
+      "adatto per"
+    ],
+    "antonyms": [
+      "sbagliato per",
+      "ingiusto per"
+    ]
+  },
+  "sbagliato per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "sbagliato + per + [scopo/persona]",
+    "level": "A1",
+    "definition": "Errato, inopportuno o inadatto per una circostanza.",
+    "grammar_rule": "Richiede la preposizione « per » (sbagliato per la situazione, per il clima).",
+    "related_forms": "⚡ Aggettivo: 'sbagliato per' ➜ Verbo correlato: 'scordarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un momento del tutto sbagliato per parlare di affari.",
+      "Vestiti sbagliati per questo freddo."
+    ],
+    "common_mistake": "❌ Un atteggiamento sbagliato a il lavoro. ➜ ✅ Un atteggiamento sbagliato per il lavoro.",
+    "synonyms": [
+      "errato per",
+      "inadatto per"
+    ],
+    "antonyms": [
+      "giusto per",
+      "corretto per"
+    ]
+  },
+  "facile da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da",
+      "per"
+    ],
+    "pattern": "facile + da/per + [infinito/persona]",
+    "level": "A1",
+    "definition": "Che si compie con minimo sforzo e senza complicazioni.",
+    "grammar_rule": "Usa « da » prima di un verbo all'infinito e « per » davanti alla persona.",
+    "related_forms": "⚡ Aggettivo: 'facile da' ➜ Verbo correlato: 'imparare' / Nome correlato: 'modo di'",
+    "examples": [
+      "Questo esercizio di italiano è molto facile da fare.",
+      "È un compito facile per gli studenti avanzati."
+    ],
+    "common_mistake": "❌ Una regola facile a capire. ➜ ✅ Una regola facile da capire.",
+    "synonyms": [
+      "semplice da",
+      "agevole per"
+    ],
+    "antonyms": [
+      "difficile da",
+      "complicato per"
+    ]
+  },
+  "difficile da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da",
+      "per"
+    ],
+    "pattern": "difficile + da/per + [infinito/persona]",
+    "level": "A1",
+    "definition": "Che richiede grande impegno e fatica per essere eseguito.",
+    "grammar_rule": "Usa « da » prima dell'infinito e « per » per la persona.",
+    "related_forms": "⚡ Aggettivo: 'difficile da' ➜ Verbo correlato: 'riuscire' / Nome correlato: 'difficoltà di'",
+    "examples": [
+      "Una regola grammaticale difficile da memorizzare.",
+      "È stato difficile per me prendere la decisione."
+    ],
+    "common_mistake": "❌ Una lingua difficile a imparare. ➜ ✅ Una lingua difficile da imparare.",
+    "synonyms": [
+      "complicato da",
+      "arduo per"
+    ],
+    "antonyms": [
+      "facile da",
+      "semplice da"
+    ]
+  },
+  "utile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per",
+      "a"
+    ],
+    "pattern": "utile + per/a + [scopo/infinito]",
+    "level": "A1",
+    "definition": "Che reca un vantaggio pratico o giova a un fine.",
+    "grammar_rule": "Usa « per » per lo scopo e « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'utile per' ➜ Verbo correlato: 'servire' / Nome correlato: 'vantaggio di'",
+    "examples": [
+      "Questo dizionario è utilissimo per imparare le parole.",
+      "Lo sport è utile per la salute del corpo."
+    ],
+    "common_mistake": "❌ Un libro utile di studiare la grammatica. ➜ ✅ Un libro utile per studiare la grammatica.",
+    "synonyms": [
+      "prezioso per",
+      "proficuo per"
+    ],
+    "antonyms": [
+      "inutile per",
+      "dannoso per"
+    ]
+  },
+  "inutile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "inutile + per + [scopo/persona]",
+    "level": "A1",
+    "definition": "Privo di qualsiasi efficacia o giovamento pratico.",
+    "grammar_rule": "Richiede la preposizione « per » (inutile per lo scopo, per la ricerca).",
+    "related_forms": "⚡ Aggettivo: 'inutile per' ➜ Verbo correlato: 'mancare' / Nome correlato: 'svantaggio di'",
+    "examples": [
+      "È un tentativo del tutto inutile per risolvere il problema.",
+      "Spese inutili per la casa."
+    ],
+    "common_mistake": "❌ Una spesa inutile a il nostro progetto. ➜ ✅ Una spesa inutile per il nostro progetto.",
+    "synonyms": [
+      "vano per",
+      "infruttuoso per"
+    ],
+    "antonyms": [
+      "utile per",
+      "efficace per"
+    ]
+  },
+  "vecchio di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "vecchio + di + [età]",
+    "level": "A1",
+    "definition": "Che ha un'età avanzata o risale a molto tempo fa.",
+    "grammar_rule": "Si usa « di » per specificare la misura dell'età.",
+    "related_forms": "⚡ Aggettivo: 'vecchio di' ➜ Verbo correlato: 'vivere' / Nome correlato: 'ricordo di'",
+    "examples": [
+      "Un castello medievale vecchio di oltre cinque secoli.",
+      "Una traduzione vecchia di anni."
+    ],
+    "common_mistake": "❌ Un libro vecchio per duecento anni. ➜ ✅ Un libro vecchio di duecento anni.",
+    "synonyms": [
+      "antico di",
+      "secolare"
+    ],
+    "antonyms": [
+      "nuovo di",
+      "giovane"
+    ]
+  },
+  "giovane di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "giovane + di + [età/spirito]",
+    "level": "A1",
+    "definition": "Che ha pochi anni di vita o conserva freschezza d'animo.",
+    "grammar_rule": "Usa « di » per specificare l'ambito o l'età.",
+    "related_forms": "⚡ Aggettivo: 'giovane di' ➜ Verbo correlato: 'vivere' / Nome correlato: 'modo di'",
+    "examples": [
+      "Mio nonno è ancora molto giovane di spirito.",
+      "Un medico giovane di laurea ma molto preparato."
+    ],
+    "common_mistake": "❌ Un ragazzo giovane in età. ➜ ✅ Un ragazzo giovane di età.",
+    "synonyms": [
+      "fresco di",
+      "verde di"
+    ],
+    "antonyms": [
+      "vecchio di",
+      "anziano di"
+    ]
+  },
+  "stanco di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "stanco + di + [nome/infinito]",
+    "level": "A1",
+    "definition": "Privo di forze o nauseato da un'attività ripetitiva.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'stanco di' ➜ Verbo correlato: 'stancarsi' / Nome correlato: 'pausa da'",
+    "examples": [
+      "Sono davvero stanco di fare sempre le stesse cose.",
+      "Torniamo a casa, siamo stanchi della camminata."
+    ],
+    "common_mistake": "❌ Sono stanco a lavorare dieci ore al giorno. ➜ ✅ Sono stanco di lavorare dieci ore al giorno.",
+    "synonyms": [
+      "stufo di",
+      "sfinito da"
+    ],
+    "antonyms": [
+      "riposato da",
+      "entusiasta di"
+    ]
+  },
+  "ricco di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "ricco + di + [risorsa/qualità]",
+    "level": "A1",
+    "definition": "Che possiede in grande quantità risorse o qualità.",
+    "grammar_rule": "Richiede sempre la preposizione « di », con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'ricco di' ➜ Verbo correlato: 'servire' / Nome correlato: 'vantaggio di'",
+    "examples": [
+      "L'Italia è un paese incredibilmente ricco di storia.",
+      "La frutta fresca è ricca di vitamine essenziali."
+    ],
+    "common_mistake": "❌ Una città ricca in monumenti antichi. ➜ ✅ Una città ricca di monumenti antichi.",
+    "synonyms": [
+      "abbondante di",
+      "dovizioso di"
+    ],
+    "antonyms": [
+      "povero di",
+      "scarso di"
+    ]
+  },
+  "povero di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "povero + di + [risorsa/qualità]",
+    "level": "A1",
+    "definition": "Che difetta o scarseggia di un elemento necessario.",
+    "grammar_rule": "Richiede sempre la preposizione « di » (povero di grassi, di idee).",
+    "related_forms": "⚡ Aggettivo: 'povero di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un regime alimentare povero di grassi saturi.",
+      "Un testo banale e povero di idee originali."
+    ],
+    "common_mistake": "❌ Un terreno povero in acqua. ➜ ✅ Un terreno povero di acqua.",
+    "synonyms": [
+      "scarso di",
+      "privo di"
+    ],
+    "antonyms": [
+      "ricco di",
+      "abbondante di"
+    ]
+  },
+  "pieno di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "pieno + di + [contenuto/persone]",
+    "level": "A1",
+    "definition": "Riempito interamente fino all'orlo da oggetti o persone.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'pieno di' ➜ Verbo correlato: 'servire' / Nome correlato: 'vantaggio di'",
+    "examples": [
+      "Il centro città è pieno di turisti durante il weekend.",
+      "Un bicchiere pieno d'acqua fresca."
+    ],
+    "common_mistake": "❌ Il bar è pieno con persone stasera. ➜ ✅ Il bar è pieno di persone stasera.",
+    "synonyms": [
+      "colmo di",
+      "farcito di"
+    ],
+    "antonyms": [
+      "vuoto di",
+      "privo di"
+    ]
+  },
+  "vuoto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "vuoto + di + [contenuto/significato]",
+    "level": "A1",
+    "definition": "Che non contiene nulla o manca di sostanza morale.",
+    "grammar_rule": "Richiede la preposizione « di » (vuoto di senso, vuoto di contenuto).",
+    "related_forms": "⚡ Aggettivo: 'vuoto di' ➜ Verbo correlato: 'uscire' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un discorso vuoto di contenuto e di idee vere.",
+      "La stanza era completamente vuota di mobili."
+    ],
+    "common_mistake": "❌ Un flacone vuoto da liquido. ➜ ✅ Un flacone vuoto di liquido.",
+    "synonyms": [
+      "privo di",
+      "sgombro da"
+    ],
+    "antonyms": [
+      "pieno di",
+      "colmo di"
+    ]
+  },
+  "contento per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "contento + per + [notizia/persona]",
+    "level": "A1",
+    "definition": "Che esprime compiacimento per la sorte felice altrui.",
+    "grammar_rule": "Si usa « per » quando la gioia riguarda una persona o un fatto esterno.",
+    "related_forms": "⚡ Aggettivo: 'contento per' ➜ Verbo correlato: 'rallegrarsi' / Nome correlato: 'festa di'",
+    "examples": [
+      "Sono davvero felice e contento per il tuo successo!",
+      "Siamo contenti per la guarigione del nonno."
+    ],
+    "common_mistake": "❌ Sono contento a la tua promozione. ➜ ✅ Sono contento per la tua promozione.",
+    "synonyms": [
+      "felice per"
+    ],
+    "antonyms": [
+      "dispiaciuto per"
+    ]
+  },
+  "pronto per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "pronto + per + [evento/partenza]",
+    "level": "A1",
+    "definition": "Pronto ad affrontare un evento imminente.",
+    "grammar_rule": "Usa « per » davanti a sostantivi che indicano eventi.",
+    "related_forms": "⚡ Aggettivo: 'pronto per' ➜ Verbo correlato: 'partire' / Nome correlato: 'partenza per'",
+    "examples": [
+      "Tutti i ragazzi sono pronti per la gara di domani.",
+      "Sei pronto per l'esame di lingua?"
+    ],
+    "common_mistake": "❌ Sono pronto a la partenza. ➜ ✅ Sono pronto per la partenza.",
+    "synonyms": [
+      "preparato per"
+    ],
+    "antonyms": [
+      "impreparato per"
+    ]
+  },
+  "primo per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "primo + per + [qualità/importanza]",
+    "level": "A1",
+    "definition": "Che eccelle sopra gli altri per una determinata caratteristica.",
+    "grammar_rule": "Richiede la preposizione « per » (primo per bellezza, primo per vendite).",
+    "related_forms": "⚡ Aggettivo: 'primo per' ➜ Verbo correlato: 'eccellere' / Nome correlato: 'risultato di'",
+    "examples": [
+      "L'Italia è il primo paese al mondo per beni culturali.",
+      "Primo in classifica per qualità della vita."
+    ],
+    "common_mistake": "❌ Il primo di qualità del servizio. ➜ ✅ Il primo per qualità del servizio.",
+    "synonyms": [
+      "leader per"
+    ],
+    "antonyms": [
+      "ultimo per"
+    ]
+  },
+  "ultimo per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "ultimo + per + [qualità/rendimento]",
+    "level": "A1",
+    "definition": "Che occupa la posizione peggiore per una caratteristica.",
+    "grammar_rule": "Richiede la preposizione « per » (ultimo per fatturato, ultimo per consumi).",
+    "related_forms": "⚡ Aggettivo: 'ultimo per' ➜ Verbo correlato: 'mancare' / Nome correlato: 'svantaggio di'",
+    "examples": [
+      "Un settore che risulta ultimo per investimenti tecnologici.",
+      "Ultimo per numero di abitanti."
+    ],
+    "common_mistake": "❌ L'ultimo in rendimento scolastico. ➜ ✅ L'ultimo per rendimento scolastico.",
+    "synonyms": [
+      "fanalino di coda per"
+    ],
+    "antonyms": [
+      "primo per"
+    ]
+  },
+  "famoso per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "famoso + per + [motivo/opera]",
+    "level": "A1",
+    "definition": "Che gode di vasta notorietà e stima per una qualità o fatto.",
+    "grammar_rule": "Richiede la preposizione « per » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'famoso per' ➜ Verbo correlato: 'ricordarsi' / Nome correlato: 'ricordo di'",
+    "examples": [
+      "Firenze è famosa nel mondo per la sua arte rinascimentale.",
+      "Un ristorante famoso per la carne alla brace."
+    ],
+    "common_mistake": "❌ Una città famosa di i suoi musei. ➜ ✅ Una città famosa per i suoi musei.",
+    "synonyms": [
+      "celebre per",
+      "noto per"
+    ],
+    "antonyms": [
+      "sconosciuto per",
+      "ignoto per"
+    ]
+  },
+  "noto per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "noto + per + [qualità/opera]",
+    "level": "A1",
+    "definition": "Conosciuto e apprezzato da molte persone per un motivo.",
+    "grammar_rule": "Richiede la preposizione « per » (noto per la sua generosità).",
+    "related_forms": "⚡ Aggettivo: 'noto per' ➜ Verbo correlato: 'ricordare' / Nome correlato: 'notizia su'",
+    "examples": [
+      "Un medico noto per la sua grande umanità.",
+      "L'autore è noto per i suoi romanzi gialli."
+    ],
+    "common_mistake": "❌ È noto di le sue opere teatrali. ➜ ✅ È noto per le sue opere teatrali.",
+    "synonyms": [
+      "famoso per",
+      "rinomato per"
+    ],
+    "antonyms": [
+      "sconosciuto per"
+    ]
+  },
+  "sicuro di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "sicuro + di + [nome/infinito]",
+    "level": "A1",
+    "definition": "Che non nutre alcun dubbio su una verità o azione.",
+    "grammar_rule": "Richiede sempre la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'sicuro di' ➜ Verbo correlato: 'credere' / Nome correlato: 'fiducia in'",
+    "examples": [
+      "Sei sicuro della tua scelta professionale?",
+      "Sono sicuro di aver chiuso la porta di casa."
+    ],
+    "common_mistake": "❌ Sono sicuro su la mia risposta. ➜ ✅ Sono sicuro della mia risposta.",
+    "synonyms": [
+      "certo di",
+      "persuaso di"
+    ],
+    "antonyms": [
+      "insicuro di",
+      "dubbioso di"
+    ]
+  },
+  "certo di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "certo + di + [fatto/infinito]",
+    "level": "A1",
+    "definition": "Che ha la piena convinzione di qualcosa senza incertezze.",
+    "grammar_rule": "Richiede sempre la preposizione « di » (certo della notizia).",
+    "related_forms": "⚡ Aggettivo: 'certo di' ➜ Verbo correlato: 'fidarsi' / Nome correlato: 'fiducia in'",
+    "examples": [
+      "Siamo certi del suo arrivo stasera.",
+      "Sono certo di aver superato l'esame."
+    ],
+    "common_mistake": "❌ Sono certo per il risultato finale. ➜ ✅ Sono certo del risultato finale.",
+    "synonyms": [
+      "sicuro di",
+      "convinto di"
+    ],
+    "antonyms": [
+      "incerto di",
+      "dubbioso di"
+    ]
+  },
+  "vicino da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "vicino + da + [punto di riferimento]",
+    "level": "A1",
+    "definition": "Situato a breve distanza di cammino da un posto.",
+    "grammar_rule": "Sebbene si usi 'vicino a', nella forma di provenienza si usa « da ».",
+    "related_forms": "⚡ Aggettivo: 'vicino da' ➜ Verbo correlato: 'arrivare' / Nome correlato: 'arrivo a'",
+    "examples": [
+      "Abitiamo a due passi da qui.",
+      "Un locale vicino da raggiungere a piedi."
+    ],
+    "common_mistake": "❌ Abito vicino di la stazione. ➜ ✅ Abito vicino alla stazione / a due passi da qui.",
+    "synonyms": [
+      "accanto a"
+    ],
+    "antonyms": [
+      "lontano da"
+    ]
+  },
+  "simile a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "simile + a + [persona/cosa]",
+    "level": "A1",
+    "definition": "Che presenta caratteristiche quasi uguali a un altro modello.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'simile a' ➜ Verbo correlato: 'assomigliare' / Nome correlato: 'somiglianza con'",
+    "examples": [
+      "Questo sapore è molto simile a quello del gelato.",
+      "Un comportamento simile al tuo è inaccettabile."
+    ],
+    "common_mistake": "❌ Un colore simile con il blu marino. ➜ ✅ Un colore simile al blu marino.",
+    "synonyms": [
+      "analogo a",
+      "assomigliante a"
+    ],
+    "antonyms": [
+      "diverso da",
+      "dissimile da"
+    ]
+  },
+  "uguale a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "uguale + a + [termine di confronto]",
+    "level": "A1",
+    "definition": "Che non presenta alcuna differenza rispetto a un altro.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'uguale a' ➜ Verbo correlato: 'sovrapporsi' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "Il suo vestito è del tutto uguale al mio.",
+      "Due risultati perfettamente uguali tra loro."
+    ],
+    "common_mistake": "❌ La mia borsa è uguale di la tua. ➜ ✅ La mia borsa è uguale alla tua.",
+    "synonyms": [
+      "identico a",
+      "coincidente con"
+    ],
+    "antonyms": [
+      "diverso da",
+      "different da"
+    ]
+  },
+  "diverso da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "diverso + da + [termine di confronto]",
+    "level": "A1",
+    "definition": "Che presenta tratti dissimili rispetto a qualcos'altro.",
+    "grammar_rule": "Richiede sempre la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'diverso da' ➜ Verbo correlato: 'differire' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "Questo nuovo modello è molto diverso dal precedente.",
+      "Ha un'opinione diversa dalla mia."
+    ],
+    "common_mistake": "❌ Un modo di fare diverso di il solito. ➜ ✅ Un modo di fare diverso dal solito.",
+    "synonyms": [
+      "different da",
+      "dissimile da"
+    ],
+    "antonyms": [
+      "uguale a",
+      "simile a"
+    ]
+  },
+  "adatto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "per"
+    ],
+    "pattern": "adatto + a/per + [scopo/persona]",
+    "level": "A1",
+    "definition": "Che possiede le idonee qualità per un ruolo o compito.",
+    "grammar_rule": "Usa « a » o « per » davanti a un sostantivo o infinito.",
+    "related_forms": "⚡ Aggettivo: 'adatto a' ➜ Verbo correlato: 'adattarsi' / Nome correlato: 'capacità di'",
+    "examples": [
+      "Un film adatto a tutta la famiglia.",
+      "Questo abito è adatto per un matrimonio."
+    ],
+    "common_mistake": "❌ Un clima poco adatto di le piante tropicali. ➜ ✅ Un clima poco adatto alle piante tropicali.",
+    "synonyms": [
+      "idoneo a",
+      "adeguato a"
+    ],
+    "antonyms": [
+      "inadatto a",
+      "inidoneo a"
+    ]
+  },
+  "inadatto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "per"
+    ],
+    "pattern": "inadatto + a/per + [scopo/ruolo]",
+    "level": "A1",
+    "definition": "Privo delle qualità necessarie per svolgere un compito.",
+    "grammar_rule": "Richiede la preposizione « a » o « per » (inadatto al ruolo).",
+    "related_forms": "⚡ Aggettivo: 'inadatto a' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un comportamento inadatto al contesto formale.",
+      "Si è rivelato inadatto per questo tipo di lavoro."
+    ],
+    "common_mistake": "❌ È inadatto di guidare la macchina. ➜ ✅ È inadatto a guidare la macchina.",
+    "synonyms": [
+      "inidoneo a",
+      "inadeguato a"
+    ],
+    "antonyms": [
+      "adatto a",
+      "idoneo a"
+    ]
+  },
+  "felice di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "felice + di + [nome/infinito]",
+    "level": "A1",
+    "definition": "Che prova un profondo stato di gioia e serenità.",
+    "grammar_rule": "Richiede sempre la preposizione « di » (felice della notizia).",
+    "related_forms": "⚡ Aggettivo: 'felice di' ➜ Verbo correlato: 'rallegrarsi' / Nome correlato: 'festa di'",
+    "examples": [
+      "Sono molto felice di vederti in ottima forma.",
+      "Siamo felici della tua promozione aziendale."
+    ],
+    "common_mistake": "❌ Sono felice a invitarti a cena. ➜ ✅ Sono felice di invitarti a cena.",
+    "synonyms": [
+      "contento di",
+      "lieto di"
+    ],
+    "antonyms": [
+      "triste per",
+      "infelice per"
+    ]
+  },
+  "fiero di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "fiero + di + [qualcuno/qualcosa/infinito]",
+    "level": "A2",
+    "definition": "Che prova un profondo senso di nobile orgoglio e soddisfazione.",
+    "grammar_rule": "Richiede sempre la preposizione « di », con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'fiero di' ➜ Verbo correlato: 'compiacersi' / Nome correlato: 'compiacimento per'",
+    "examples": [
+      "I genitori sono molto fieri dei successi del figlio.",
+      "Sono fiero di far parte di questo team."
+    ],
+    "common_mistake": "❌ Sono fiero per i miei studenti. ➜ ✅ Sono fiero dei miei studenti.",
+    "synonyms": [
+      "orgoglioso di",
+      "fiero di"
+    ],
+    "antonyms": [
+      "umile",
+      "vergognoso di"
+    ]
+  },
+  "orgoglioso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "orgoglioso + di + [qualcuno/qualcosa/infinito]",
+    "level": "A2",
+    "definition": "Che nutre viva compiacenza ed esaltazione per un proprio merito.",
+    "grammar_rule": "Richiede la preposizione « di » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'orgoglioso di' ➜ Verbo correlato: 'compiacersi' / Nome correlato: 'compiacimento per'",
+    "examples": [
+      "Siamo orgogliosi di rappresentare l'Italia nel mondo.",
+      "È un padre orgoglioso della sua bambina."
+    ],
+    "common_mistake": "❌ È orgoglioso per la sua vittoria. ➜ ✅ È orgoglioso della sua vittoria.",
+    "synonyms": [
+      "fiero di",
+      "compiaciuto di"
+    ],
+    "antonyms": [
+      "modesto",
+      "umile"
+    ]
+  },
+  "capace di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "capace + di + [infinito/sostantivo]",
+    "level": "A2",
+    "definition": "Che possiede l'idoneità, forza o talento per fare una cosa.",
+    "grammar_rule": "Richiede sempre la preposizione « di » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'capace di' ➜ Verbo correlato: 'riuscire' / Nome correlato: 'capacità di'",
+    "examples": [
+      "È una professionista capace di risolvere ogni problema.",
+      "Un ragazzo capace di grande generosità."
+    ],
+    "common_mistake": "❌ È capace a guidare il camion. ➜ ✅ È capace di guidare il camion.",
+    "synonyms": [
+      "idoneo a",
+      "in grado di"
+    ],
+    "antonyms": [
+      "incapace di",
+      "inabile a"
+    ]
+  },
+  "incapace di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "incapace + di + [infinito/sostantivo]",
+    "level": "A2",
+    "definition": "Privo delle abilità necessarie per portare a termine un compito.",
+    "grammar_rule": "Richiede sempre la preposizione « di » prima di un verbo all'infinito.",
+    "related_forms": "⚡ Aggettivo: 'incapace di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'incapacità di'",
+    "examples": [
+      "Si è dimostrato incapace di gestire la situazione d'emergenza.",
+      "Un politico incapace di mantenere le promesse."
+    ],
+    "common_mistake": "❌ È incapace a parlare in pubblico. ➜ ✅ È incapace di parlare in pubblico.",
+    "synonyms": [
+      "inabile a",
+      "inadatto a"
+    ],
+    "antonyms": [
+      "capace di",
+      "in grado di"
+    ]
+  },
+  "degno di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "degno + di + [stima/rispetto/infinito]",
+    "level": "A2",
+    "definition": "Che merita pienamente un riconoscimento o un trattamento.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'degno di' ➜ Verbo correlato: 'volere' / Nome correlato: 'rispetto per'",
+    "examples": [
+      "Un comportamento davvero degno di lode e ammirazione.",
+      "Non si è mostrato degno della nostra fiducia."
+    ],
+    "common_mistake": "❌ Una persona degna a la nostra fiducia. ➜ ✅ Una persona degna della nostra fiducia.",
+    "synonyms": [
+      "meritevole di",
+      "spettante a"
+    ],
+    "antonyms": [
+      "indegno di",
+      "squalificato da"
+    ]
+  },
+  "indegno di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "indegno + di + [stima/fede]",
+    "level": "A2",
+    "definition": "Privo di meriti o che disonora la fiducia accordata.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'indegno di' ➜ Verbo correlato: 'rifiutarsi' / Nome correlato: 'vergogna di'",
+    "examples": [
+      "Un'azione del tutto indegna di un cittadino civile.",
+      "Si è rivelato indegno dell'incarico affidatogli."
+    ],
+    "common_mistake": "❌ Un gesto indegno per un professore. ➜ ✅ Un gesto indegno di un professore.",
+    "synonyms": [
+      "squalificato da",
+      "biasimevole di"
+    ],
+    "antonyms": [
+      "degno di",
+      "meritevole di"
+    ]
+  },
+  "innamorato di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "innamorato + di + [persona/cosa]",
+    "level": "A2",
+    "definition": "Che prova un intenso sentimento d'amore o viva passione.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'innamorato di' ➜ Verbo correlato: 'piacere' / Nome correlato: 'amore per'",
+    "examples": [
+      "Marco è ciecamente innamorato di Francesca.",
+      "Siamo tutti innamorati della bellezza di Firenze."
+    ],
+    "common_mistake": "❌ È innamorato con la sua collega. ➜ ✅ È innamorato della sua collega.",
+    "synonyms": [
+      "appassionato di",
+      "invaghito di"
+    ],
+    "antonyms": [
+      "disamorato di",
+      "indifferente a"
+    ]
+  },
+  "geloso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "geloso + di + [persona/possesso]",
+    "level": "A2",
+    "definition": "Che teme di perdere l'affetto di una persona o custodisce con cura.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'geloso di' ➜ Verbo correlato: 'avere paura' / Nome correlato: 'paura di'",
+    "examples": [
+      "È molto geloso della sua vita privata.",
+      "Il bambino è geloso del nuovo fratellino."
+    ],
+    "common_mistake": "❌ È geloso per la sua fidanzata. ➜ ✅ È geloso della sua fidanzata.",
+    "synonyms": [
+      "invidioso di",
+      "possessivo di"
+    ],
+    "antonyms": [
+      "fiducioso in",
+      "distaccato da"
+    ]
+  },
+  "invidioso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "invidioso + di + [qualcuno/successo]",
+    "level": "A2",
+    "definition": "Che prova rammarico e astio per il bene o successo altrui.",
+    "grammar_rule": "Richiede la preposizione « di » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'invidioso di' ➜ Verbo correlato: 'lamentarsi' / Nome correlato: 'avversione per'",
+    "examples": [
+      "Non essere invidioso dei successi dei tuoi amici.",
+      "Una persona profondamente invidiosa del prossimo."
+    ],
+    "common_mistake": "❌ È invidioso per la mia macchina nuova. ➜ ✅ È invidioso della mia macchina nuova.",
+    "synonyms": [
+      "geloso di",
+      "livoroso verso"
+    ],
+    "antonyms": [
+      "generoso con",
+      "altruista con"
+    ]
+  },
+  "soddisfatto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "soddisfatto + di + [risultato/lavoro]",
+    "level": "A2",
+    "definition": "Che prova appagamento per un risultato conforme ai desideri.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'soddisfatto di' ➜ Verbo correlato: 'rallegrarsi' / Nome correlato: 'risultato di'",
+    "examples": [
+      "Il cliente è molto soddisfatto del servizio ricevuto.",
+      "Siamo pienamente soddisfatti dei risultati commerciali."
+    ],
+    "common_mistake": "❌ Sono soddisfatto per del mio voto. ➜ ✅ Sono soddisfatto del mio voto.",
+    "synonyms": [
+      "appagato di",
+      "contento di"
+    ],
+    "antonyms": [
+      "insoddisfatto di",
+      "scontento di"
+    ]
+  },
+  "insoddisfatto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "insoddisfatto + di + [risultato/servizio]",
+    "level": "A2",
+    "definition": "Che prova delusione per un esito inferiore alle attese.",
+    "grammar_rule": "Richiede la preposizione « di » (insoddisfatto della paga).",
+    "related_forms": "⚡ Aggettivo: 'insoddisfatto di' ➜ Verbo correlato: 'lottare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "I cittadini sono insoddisfatti dell'operato del comune.",
+      "Un lavoratore perennemente insoddisfatto della paga."
+    ],
+    "common_mistake": "❌ È insoddisfatto per le sue mansioni. ➜ ✅ È insoddisfatto delle sue mansioni.",
+    "synonyms": [
+      "scontento di",
+      "deluso di"
+    ],
+    "antonyms": [
+      "soddisfatto di",
+      "appagato di"
+    ]
+  },
+  "curioso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "curioso + di + [notizia/infinito]",
+    "level": "A2",
+    "definition": "Che desidera ardentemente conoscere o sapere qualcosa.",
+    "grammar_rule": "Richiede la preposizione « di » davanti a un sostantivo o verbo all'infinito.",
+    "related_forms": "⚡ Aggettivo: 'curioso di' ➜ Verbo correlato: 'chiedere' / Nome correlato: 'interesse per'",
+    "examples": [
+      "Sono molto curioso di vedere come andrà a finire il film.",
+      "Un bambino curioso di tutto quello che lo circonda."
+    ],
+    "common_mistake": "❌ Sono curioso a conoscere la verità. ➜ ✅ Sono curioso di conoscere la verità.",
+    "synonyms": [
+      "desideroso di",
+      "interessato a"
+    ],
+    "antonyms": [
+      "indifferente a",
+      "apatico verso"
+    ]
+  },
+  "disposto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "disposto + a + [infinito/sostantivo]",
+    "level": "A2",
+    "definition": "Che ha l'inclinazione favorevole e la volontà di fare una cosa.",
+    "grammar_rule": "Richiede la preposizione « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'disposto a' ➜ Verbo correlato: 'offrirsi' / Nome correlato: 'accordo con'",
+    "examples": [
+      "Siamo disposti a trattare sulle condizioni del contratto.",
+      "Non è disposto a fare alcun tipo di concessione."
+    ],
+    "common_mistake": "❌ Sono disposto di aiutarti domani. ➜ ✅ Sono disposto ad aiutarti domani.",
+    "synonyms": [
+      "pronto a",
+      "incline a"
+    ],
+    "antonyms": [
+      "indisposto a",
+      "riluttante a"
+    ]
+  },
+  "deciso a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "deciso + a + [infinito]",
+    "level": "A2",
+    "definition": "Che ha preso una risoluzione ferma e inamovibile di agire.",
+    "grammar_rule": "Mentre il verbo 'decidere' usa 'di', l'aggettivo 'deciso' richiede « a ».",
+    "related_forms": "⚡ Aggettivo: 'deciso a' ➜ Verbo correlato: 'decidere' / Nome correlato: 'decisione di'",
+    "examples": [
+      "Mio fratello è deciso a cambiare lavoro entro l'anno.",
+      "Siamo decisi a difendere le nostre posizioni."
+    ],
+    "common_mistake": "❌ Sono deciso di finire questo progetto. ➜ ✅ Sono deciso a finire questo progetto.",
+    "synonyms": [
+      "determinato a",
+      "risoluto a"
+    ],
+    "antonyms": [
+      "indeciso su",
+      "esitante a"
+    ]
+  },
+  "abituato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "abituato + a + [nome/infinito]",
+    "level": "A2",
+    "definition": "Che ha contratto la consuetudine a un fatto o ritmo.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'abituato a' ➜ Verbo correlato: 'abituarsi' / Nome correlato: 'abitudine a'",
+    "examples": [
+      "Ormai sono abituato ai ritmi di lavoro di questa città.",
+      "Non è abituato a mangiare così tardi la sera."
+    ],
+    "common_mistake": "❌ Sono abituato di il caldo estivo. ➜ ✅ Sono abituato al caldo estivo.",
+    "synonyms": [
+      "assuefatto a",
+      "avvezzo a"
+    ],
+    "antonyms": [
+      "disabituato da",
+      "inavvezzo a"
+    ]
+  },
+  "identico a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "identico + a + [termine di paragone]",
+    "level": "A2",
+    "definition": "Che non differisce in nulla e coincide perfettamente con un altro.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'identico a' ➜ Verbo correlato: 'sovrapporsi' / Nome correlato: 'somiglianza con'",
+    "examples": [
+      "Il tuo cellulare è del tutto identico al mio.",
+      "Ha fatto una copia identica all'originale."
+    ],
+    "common_mistake": "❌ Una situazione identica di quella passata. ➜ ✅ Una situazione identica a quella passata.",
+    "synonyms": [
+      "uguale a",
+      "coincidente con"
+    ],
+    "antonyms": [
+      "diverso da",
+      "different da"
+    ]
+  },
+  "favorevole a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "favorevole + a + [proposta/idea]",
+    "level": "A2",
+    "definition": "Che approva e sostiene una proposta o scelta.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'favorevole a' ➜ Verbo correlato: 'permettere' / Nome correlato: 'consenso a'",
+    "examples": [
+      "La maggioranza dei soci è favorevole alla proposta.",
+      "Sono favorevoli ad aprire nuove filiali all'estero."
+    ],
+    "common_mistake": "❌ Sono favorevole per il progetto di legge. ➜ ✅ Sono favorevole al progetto di legge.",
+    "synonyms": [
+      "propenso a",
+      "proclive a"
+    ],
+    "antonyms": [
+      "contrario a",
+      "sfavorevole a"
+    ]
+  },
+  "contrario a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "contrario + a + [proposta/opinione]",
+    "level": "A2",
+    "definition": "Che avversa e contrasta fermamente un piano o idea.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'contrario a' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'opposizione a'",
+    "examples": [
+      "Siamo nettamente contrari all'aumento delle tasse.",
+      "Il medico è contrario all'uso prolungato del farmaco."
+    ],
+    "common_mistake": "❌ Sono contrario per questa decisione affrettata. ➜ ✅ Sono contrario a questa decisione affrettata.",
+    "synonyms": [
+      "avverso a",
+      "opposto a"
+    ],
+    "antonyms": [
+      "favorevole a",
+      "favorevole a"
+    ]
+  },
+  "attento a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "attento + a + [qualcosa/qualcuno/infinito]",
+    "level": "A2",
+    "definition": "Che vigila con concentrazione per non commettere errori.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'attento a' ➜ Verbo correlato: 'ascoltare' / Nome correlato: 'attenzione a'",
+    "examples": [
+      "Stai molto attento al traffico intenso di questa strada.",
+      "Sii attento a non fare errori di battitura."
+    ],
+    "common_mistake": "❌ Sii attento di la strada quando guidi. ➜ ✅ Sii attento alla strada quando guidi.",
+    "synonyms": [
+      "concentrato su",
+      "vigile su"
+    ],
+    "antonyms": [
+      "distratto da",
+      "disattento a"
+    ]
+  },
+  "disattento a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "disattento + a + [spiegazione/dettagli]",
+    "level": "A2",
+    "definition": "Che ha la mente altrove e manca di concentrazione.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'disattento a' ➜ Verbo correlato: 'dimenticare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un alunno perennemente disattento alle spiegazioni.",
+      "Disattento ai segnali di pericolo."
+    ],
+    "common_mistake": "❌ È disattento di le regole della casa. ➜ ✅ È disattento sulle/alle regole della casa.",
+    "synonyms": [
+      "distratto da",
+      "sbadato su"
+    ],
+    "antonyms": [
+      "attento a",
+      "vigile su"
+    ]
+  },
+  "sensibile a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "sensibile + a + [tema/freddo/musica]",
+    "level": "A2",
+    "definition": "Che recepisce e si commuove facilmente davanti a uno stimolo.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'sensibile a' ➜ Verbo correlato: 'reagire' / Nome correlato: 'reazione a'",
+    "examples": [
+      "I miei denti sono molto sensibili al freddo.",
+      "Una persona profodamente sensibile ai problemi altrui."
+    ],
+    "common_mistake": "❌ È sensibile di le ingiustizie sociali. ➜ ✅ È sensibile alle ingiustizie sociali.",
+    "synonyms": [
+      "ricettivo a",
+      "impressionabile da"
+    ],
+    "antonyms": [
+      "insensibile a",
+      "apatico verso"
+    ]
+  },
+  "insensibile a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "insensibile + a + [dolore/richiesta]",
+    "level": "A2",
+    "definition": "Che non prova emozione né empatia di fronte al dolore.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'insensibile a' ➜ Verbo correlato: 'rifiutarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Si mostra del tutto insensibile al dolore delle vittime.",
+      "Una direzione insensibile alle proteste."
+    ],
+    "common_mistake": "❌ È insensibile per il problema altrui. ➜ ✅ È insensibile al problema altrui.",
+    "synonyms": [
+      "indifferente a",
+      "apatico a"
+    ],
+    "antonyms": [
+      "sensibile a",
+      "empatico verso"
+    ]
+  },
+  "allergico a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "allergico + a + [sostanza/alimento]",
+    "level": "A2",
+    "definition": "Che soffre di allergia patologica verso un elemento.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'allergico a' ➜ Verbo correlato: 'reagire' / Nome correlato: 'reazione a'",
+    "examples": [
+      "Mio figlio è allergico ai latticini e al glutine.",
+      "Sono allergico al polline delle piante in primavera."
+    ],
+    "common_mistake": "❌ Sono allergico di il pelo del gatto. ➜ ✅ Sono allergico al pelo del gatto.",
+    "synonyms": [
+      "intollerante a"
+    ],
+    "antonyms": [
+      "immune a"
+    ]
+  },
+  "interessato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pattern": "interessato + a/di + [materia/proposta]",
+    "level": "A2",
+    "definition": "Che prova o mostra interesse per qualcosa.",
+    "grammar_rule": "Usa la preposizione « a » oppure « di » per argomenti generali.",
+    "related_forms": "⚡ Aggettivo: 'interessato a' ➜ Verbo correlato: 'interessarsi' / Nome correlato: 'interesse per'",
+    "examples": [
+      "Sei interessato ad acquistare questo appartamento?",
+      "I clienti sono interessati alle nuove offerte."
+    ],
+    "common_mistake": "❌ Sono interessato per la storia romana. ➜ ✅ Sono interessato alla storia romana.",
+    "synonyms": [
+      "attratto da",
+      "incuriosito da"
+    ],
+    "antonyms": [
+      "disinteressato a",
+      "indifferente a"
+    ]
+  },
+  "disinteressato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "disinteressato + a + [questione/denaro]",
+    "level": "A2",
+    "definition": "Che non prova alcun interesse o agisce senza egoismo.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'disinteressato a' ➜ Verbo correlato: 'astenersi' / Nome correlato: 'distacco da'",
+    "examples": [
+      "Mostra un atteggiamento disinteressato alla questione.",
+      "Un gesto di aiuto del tutto disinteressato."
+    ],
+    "common_mistake": "❌ È disinteressato di la sorte altrui. ➜ ✅ È disinteressato alla sorte altrui.",
+    "synonyms": [
+      "indifferente a",
+      "distaccato da"
+    ],
+    "antonyms": [
+      "interessato a",
+      "appassionato di"
+    ]
+  },
+  "appassionato di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "appassionato + di + [arte/sport/musica]",
+    "level": "A2",
+    "definition": "Che nutre una vivissima e costante passione per un settore.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'appassionato di' ➜ Verbo correlato: 'piacere' / Nome correlato: 'passione per'",
+    "examples": [
+      "Mio padre è un grande appassionato di opera lirica.",
+      "Siamo appassionati del cinema d'autore italiano."
+    ],
+    "common_mistake": "❌ È appassionato per il calcio italiano. ➜ ✅ È appassionato di calcio italiano.",
+    "synonyms": [
+      "entusiasta di",
+      "inclinato a"
+    ],
+    "antonyms": [
+      "disinteressato di",
+      "apatico per"
+    ]
+  },
+  "conosciuto per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "conosciuto + per + [motivo/opera]",
+    "level": "A2",
+    "definition": "Notoriamente apprezzato da molte persone per una caratteristica.",
+    "grammar_rule": "Richiede la preposizione « per » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'conosciuto per' ➜ Verbo correlato: 'ricordare' / Nome correlato: 'ricordo di'",
+    "examples": [
+      "Un ristorante conosciuto per le sue specialità di pesce.",
+      "È conosciuto in città per la sua grande generosità."
+    ],
+    "common_mistake": "❌ È conosciuto di le sue scoperte fisiche. ➜ ✅ È conosciuto per le sue scoperte fisiche.",
+    "synonyms": [
+      "famoso per",
+      "noto per"
+    ],
+    "antonyms": [
+      "sconosciuto per",
+      "ignoto per"
+    ]
+  },
+  "responsabile di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "responsabile + di + [reparto/fatto/errore]",
+    "level": "A2",
+    "definition": "Che ha l'obbligo di rispondere delle proprie azioni o gestione.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'responsabile di' ➜ Verbo correlato: 'rispondere' / Nome correlato: 'risposta a'",
+    "examples": [
+      "Chi è il responsabile di questo reparto aziendale?",
+      "Ognuno è responsabile delle proprie decisioni."
+    ],
+    "common_mistake": "❌ È il responsabile per l'organizzazione dell'evento. ➜ ✅ È il responsabile dell'organizzazione dell'evento.",
+    "synonyms": [
+      "incaricato di",
+      "colpevole di"
+    ],
+    "antonyms": [
+      "irresponsabile di",
+      "incolpevole di"
+    ]
+  },
+  "irresponsabile di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "irresponsabile + di + [gesto/azione]",
+    "level": "A2",
+    "definition": "Privo del senso del dovere e incurante delle conseguenze.",
+    "grammar_rule": "Richiede la preposizione « di » (irresponsabile delle proprie azioni).",
+    "related_forms": "⚡ Aggettivo: 'irresponsabile di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un comportamento irresponsabile delle conseguenze gravi.",
+      "Si è mostrato irresponsabile del compito affidatogli."
+    ],
+    "common_mistake": "❌ Un atteggiamento irresponsabile per la sicurezza. ➜ ✅ Un atteggiamento irresponsabile della sicurezza.",
+    "synonyms": [
+      "incosciente di",
+      "sbadato in"
+    ],
+    "antonyms": [
+      "responsabile di",
+      "coscienzioso di"
+    ]
+  },
+  "colpevole di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "colpevole + di + [reato/errore]",
+    "level": "A2",
+    "definition": "Che ha commesso un'azione sanzionabile o un errore morare.",
+    "grammar_rule": "Richiede la preposizione « di » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'colpevole di' ➜ Verbo correlato: 'scordarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "L'imputato è stato dichiarato colpevole del reato di furto.",
+      "Mi sento colpevole di non avergli detto la verità."
+    ],
+    "common_mistake": "❌ È colpevole per l'incidente d'auto. ➜ ✅ È colpevole dell'incidente d'auto.",
+    "synonyms": [
+      "reo di",
+      "responsabile di"
+    ],
+    "antonyms": [
+      "innocente di",
+      "prosciolto da"
+    ]
+  },
+  "innocente di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "da"
+    ],
+    "pattern": "innocente + di/da + [colpa/accusa]",
+    "level": "A2",
+    "definition": "Esente da qualsiasi colpa o reato ascritto.",
+    "grammar_rule": "Richiede la preposizione « di » o « da ».",
+    "related_forms": "⚡ Aggettivo: 'innocente di' ➜ Verbo correlato: 'resistere' / Nome correlato: 'difesa di'",
+    "examples": [
+      "Il giudice lo ha dichiarato innocente da ogni accusa.",
+      "Un uomo del tutto innocente del reato ascritto."
+    ],
+    "common_mistake": "❌ È innocente per il furto in banca. ➜ ✅ È innocente dal reato di furto.",
+    "synonyms": [
+      "incensurato da",
+      "prosciolto da"
+    ],
+    "antonyms": [
+      "colpevole di",
+      "reo di"
+    ]
+  },
+  "preoccupato per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per",
+      "di"
+    ],
+    "pattern": "preoccupato + per/di + [situazione/persona]",
+    "level": "A2",
+    "definition": "Che prova forte ansia per le possibili conseguenze di un fatto.",
+    "grammar_rule": "Usa « per » per l'oggetto dell'ansia o « di » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'preoccupato per' ➜ Verbo correlato: 'preoccuparsi' / Nome correlato: 'preoccupazione per'",
+    "examples": [
+      "Siamo molto preoccupati per la salute del nonno.",
+      "Il direttore è preoccupato per i ritardi della consegna."
+    ],
+    "common_mistake": "❌ Sono preoccupato di l'esame di domani. ➜ ✅ Sono preoccupato per l'esame di domani.",
+    "synonyms": [
+      "ansioso per",
+      "inquieto per"
+    ],
+    "antonyms": [
+      "tranquillo per",
+      "sereno su"
+    ]
+  },
+  "tranquillo per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per",
+      "di"
+    ],
+    "pattern": "tranquillo + per/di + [situazione]",
+    "level": "A2",
+    "definition": "Che gode di serenità e assenza di preoccupazioni.",
+    "grammar_rule": "Usa « per » o « di ».",
+    "related_forms": "⚡ Aggettivo: 'tranquillo per' ➜ Verbo correlato: 'fidarsi' / Nome correlato: 'fiducia in'",
+    "examples": [
+      "Puoi stare del tutto tranquillo per il risultato dell'esame.",
+      "Sono tranquillo di aver agito bene."
+    ],
+    "common_mistake": "❌ Stai tranquillo su il viaggio di ritorno. ➜ ✅ Stai tranquillo per il viaggio di ritorno.",
+    "synonyms": [
+      "sereno per",
+      "pacifico per"
+    ],
+    "antonyms": [
+      "preoccupato per",
+      "ansioso per"
+    ]
+  },
+  "ansioso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "per"
+    ],
+    "pattern": "ansioso + di/per + [infinito/notizia]",
+    "level": "A2",
+    "definition": "Che attende con trepidazione e forte desiderio un evento.",
+    "grammar_rule": "Usa « di » prima di un verbo all'infinito e « per » davanti a un sostantivo.",
+    "related_forms": "⚡ Aggettivo: 'ansioso di' ➜ Verbo correlato: 'sperare' / Nome correlato: 'speranza di'",
+    "examples": [
+      "Siamo ansiosi di conoscere l'esito del concorso.",
+      "In grande ansia per i risultati delle analisi."
+    ],
+    "common_mistake": "❌ Sono ansioso a partire per le vacanze. ➜ ✅ Sono ansioso di partire per le vacanze.",
+    "synonyms": [
+      "desiderioso di",
+      "impaziente di"
+    ],
+    "antonyms": [
+      "calmo su",
+      "indifferente a"
+    ]
+  },
+  "impaziente di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "impaziente + di + [infinito/notizia]",
+    "level": "A2",
+    "definition": "Che non sa contenere l'attesa di fare o sapere qualcosa.",
+    "grammar_rule": "Richiede la preposizione « di » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'impaziente di' ➜ Verbo correlato: 'aspettare' / Nome correlato: 'voglia di'",
+    "examples": [
+      "I bambini sono impazienti di scartare i regali di Natale.",
+      "Sono impaziente di sentire la tua versione."
+    ],
+    "common_mistake": "❌ Sono impaziente a cominciare la lezione. ➜ ✅ Sono impaziente di cominciare la lezione.",
+    "synonyms": [
+      "fremente di",
+      "ansioso di"
+    ],
+    "antonyms": [
+      "paziente con",
+      "calmo su"
+    ]
+  },
+  "paziente con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "paziente + con + [persona]",
+    "level": "A2",
+    "definition": "Che sa sopportare con calma le difficoltà e le persone.",
+    "grammar_rule": "Richiede la preposizione « con » davanti alla persona verso cui si ha pazienza.",
+    "related_forms": "⚡ Aggettivo: 'paziente con' ➜ Verbo correlato: 'scordarsi' / Nome correlato: 'rispetto per'",
+    "examples": [
+      "L'insegnante deve essere molto paziente con tutti gli alunni.",
+      "Sii paziente con chi impara per la prima volta."
+    ],
+    "common_mistake": "❌ Sii paziente a i tuoi fratelli minori. ➜ ✅ Sii paziente con i tuoi fratelli minori.",
+    "synonyms": [
+      "tollerante con",
+      "comprensivo con"
+    ],
+    "antonyms": [
+      "impaziente con",
+      "intollerante con"
+    ]
+  },
+  "tollerante con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con",
+      "verso"
+    ],
+    "pattern": "tollerante + con/verso + [persona/opinione]",
+    "level": "A2",
+    "definition": "Che ammette e rispetta le idee e comportamenti altrui.",
+    "grammar_rule": "Richiede la preposizione « con » o « verso ».",
+    "related_forms": "⚡ Aggettivo: 'tollerante con' ➜ Verbo correlato: 'permettere' / Nome correlato: 'rispetto per'",
+    "examples": [
+      "Bisogna essere tolleranti con le opinioni altrui.",
+      "Una società aperta e tollerante verso le minoranze."
+    ],
+    "common_mistake": "❌ Una persona poco tollerante a i ritardi. ➜ ✅ Una persona poco tollerante con i ritardi.",
+    "synonyms": [
+      "paziente con",
+      "comprensivo con"
+    ],
+    "antonyms": [
+      "intollerante con",
+      "rigido verso"
+    ]
+  },
+  "intollerante a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "con"
+    ],
+    "pattern": "intollerante + a/con + [sostanza/persona]",
+    "level": "A2",
+    "definition": "Che non sopporta fisicamente o moralmente un elemento.",
+    "grammar_rule": "Usa « a » per problemi fisici e « con » per inflessibilità morale.",
+    "related_forms": "⚡ Aggettivo: 'intollerante a' ➜ Verbo correlato: 'reagire' / Nome correlato: 'reazione a'",
+    "examples": [
+      "Sono diventato intollerante al lattosio negl'ultimi anni.",
+      "Un capo intollerante con i piccoli errori."
+    ],
+    "common_mistake": "❌ È intollerante di il glutine nei cibi. ➜ ✅ È intollerante al glutine nei cibi.",
+    "synonyms": [
+      "allergico a",
+      "inflessibile con"
+    ],
+    "antonyms": [
+      "tollerante con",
+      "paziente con"
+    ]
+  },
+  "comprensivo con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con",
+      "verso"
+    ],
+    "pattern": "comprensivo + con/verso + [persona]",
+    "level": "A2",
+    "definition": "Capace di capire ed scusare i limiti o errori altrui.",
+    "grammar_rule": "Richiede la preposizione « con » o « verso ».",
+    "related_forms": "⚡ Aggettivo: 'comprensivo con' ➜ Verbo correlato: 'aiutare' / Nome correlato: 'aiuto a'",
+    "examples": [
+      "La professoressa è stata molto comprensiva con noi.",
+      "Mostrare un atteggiamento comprensivo verso le difficoltà."
+    ],
+    "common_mistake": "❌ Sii comprensivo a i tuoi colleghi stanchi. ➜ ✅ Sii comprensivo con i tuoi colleghi stanchi.",
+    "synonyms": [
+      "tollerante con",
+      "benevolo verso"
+    ],
+    "antonyms": [
+      "severo con",
+      "intransigente con"
+    ]
+  },
+  "severo con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con",
+      "verso"
+    ],
+    "pattern": "severo + con/verso + [persona/allievi]",
+    "level": "A2",
+    "definition": "Rigido ed esigente nel pretendere il rispetto delle regole.",
+    "grammar_rule": "Richiede la preposizione « con » o « verso ».",
+    "related_forms": "⚡ Aggettivo: 'severo con' ➜ Verbo correlato: 'ordinare' / Nome correlato: 'ordine di'",
+    "examples": [
+      "Un padre molto severo con i figli riguardo allo studio.",
+      "È sempre stato troppo severo con se stesso."
+    ],
+    "common_mistake": "❌ Un giudice severo a i criminali. ➜ ✅ Un giudice severo con i criminali.",
+    "synonyms": [
+      "rigido con",
+      "intransigente con"
+    ],
+    "antonyms": [
+      "comprensivo con",
+      "clemente verso"
+    ]
+  },
+  "rigido con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con",
+      "in"
+    ],
+    "pattern": "rigido + con/in + [persona/regola]",
+    "level": "A2",
+    "definition": "Poco inclino a compromessi e fermo nelle posizioni.",
+    "grammar_rule": "Usa « con » verso le persone e « in » per i campi d'applicazione.",
+    "related_forms": "⚡ Aggettivo: 'rigido con' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'opposizione a'",
+    "examples": [
+      "È un insegnante molto rigido con la disciplina in classe.",
+      "Mantenere una posizione rigida nelle trattative."
+    ],
+    "common_mistake": "❌ Troppo rigido di le sue opinioni. ➜ ✅ Troppo rigido nelle sue opinioni.",
+    "synonyms": [
+      "severo con",
+      "intransigente con"
+    ],
+    "antonyms": [
+      "flessibile con",
+      "malleabile con"
+    ]
+  },
+  "esperto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "in"
+    ],
+    "pattern": "esperto + di/in + [materia/settore]",
+    "level": "B1",
+    "definition": "Che possiede profonda dottrina e abilità pratica in un settore.",
+    "grammar_rule": "Usa « di » o « in ».",
+    "related_forms": "⚡ Aggettivo: 'esperto di' ➜ Verbo correlato: 'imparare' / Nome correlato: 'capacità di'",
+    "examples": [
+      "Un avvocato molto esperto di diritto commerciale.",
+      "È un grande esperto nella riparazione di auto d'epoca."
+    ],
+    "common_mistake": "❌ È un medico esperto per queste malattie. ➜ ✅ È un medico esperto di queste malattie.",
+    "synonyms": [
+      "competente in",
+      "perito in"
+    ],
+    "antonyms": [
+      "inesperto di",
+      "incompetente in"
+    ]
+  },
+  "inesperto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "in"
+    ],
+    "pattern": "inesperto + di/in + [materia]",
+    "level": "B1",
+    "definition": "Che manca della necessaria esperienza pratica o teorica.",
+    "grammar_rule": "Richiede la preposizione « di » o « in ».",
+    "related_forms": "⚡ Aggettivo: 'inesperto di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un giovane guidatore del tutto inesperto del traffico.",
+      "Un tecnico ancora inesperto nella gestione dei guasti."
+    ],
+    "common_mistake": "❌ È inesperto per la finanza aziendale. ➜ ✅ È inesperto di finanza aziendale.",
+    "synonyms": [
+      "incompetente in",
+      "novizio di"
+    ],
+    "antonyms": [
+      "esperto di",
+      "competente in"
+    ]
+  },
+  "competente in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "competente + in + [materia/settore]",
+    "level": "B1",
+    "definition": "Fornito delle conoscenze idonee per giudicare ed operare in un ramo.",
+    "grammar_rule": "Richiede la preposizione « in » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'competente in' ➜ Verbo correlato: 'servire' / Nome correlato: 'capacità di'",
+    "examples": [
+      "Un professionista altamente competente nel suo settore.",
+      "Cercare un perito competente in edilizia."
+    ],
+    "common_mistake": "❌ Un tecnico competente di l'informatica avanzata. ➜ ✅ Un tecnico competente nell'informatica avanzata.",
+    "synonyms": [
+      "esperto in",
+      "qualificato in"
+    ],
+    "antonyms": [
+      "incompetente in",
+      "inabile in"
+    ]
+  },
+  "incompetente in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "incompetente + in + [materia]",
+    "level": "B1",
+    "definition": "Privo della preparazione e delle cognizioni idonee.",
+    "grammar_rule": "Richiede la preposizione « in » con articolazione.",
+    "related_forms": "⚡ Aggettivo: 'incompetente in' ➜ Verbo correlato: 'mancare' / Nome correlato: 'incapacità di'",
+    "examples": [
+      "Si è rivelato del tutto incompetente nella gestione finanziaria.",
+      "Un parere dato da persone incompetenti nel ramo."
+    ],
+    "common_mistake": "❌ È incompetente di la contabilità. ➜ ✅ È incompetente nella contabilità.",
+    "synonyms": [
+      "inesperto in",
+      "inabile in"
+    ],
+    "antonyms": [
+      "competente in",
+      "esperto di"
+    ]
+  },
+  "idoneo a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "per"
+    ],
+    "pattern": "idoneo + a/per + [ruolo/concorso/infinito]",
+    "level": "B1",
+    "definition": "Che possiede i requisiti legali o fisici atti a un compito.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni o « per ».",
+    "related_forms": "⚡ Aggettivo: 'idoneo a' ➜ Verbo correlato: 'adattarsi' / Nome correlato: 'capacità di'",
+    "examples": [
+      "Dichiarato fisicamente idoneo al servizio militare.",
+      "Un candidato del tutto idoneo a ricoprire l'incarico."
+    ],
+    "common_mistake": "❌ Non è idoneo di svolgere questo lavoro. ➜ ✅ Non è idoneo a svolgere questo lavoro.",
+    "synonyms": [
+      "adatto a",
+      "qualificato per"
+    ],
+    "antonyms": [
+      "inidoneo a",
+      "inadatto a"
+    ]
+  },
+  "inidoneo a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "inidoneo + a + [incarico/servizio]",
+    "level": "B1",
+    "definition": "Privo dei requisiti o delle attitudini prescritte per una funzione.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'inidoneo a' ➜ Verbo correlato: 'rifiutarsi' / Nome correlato: 'incapacità di'",
+    "examples": [
+      "Giudicato inidoneo alla mansione per problemi di salute.",
+      "Inidoneo a guidare in condizioni di scarsa visibilità."
+    ],
+    "common_mistake": "❌ Inidoneo di svolgere attività faticose. ➜ ✅ Inidoneo a svolgere attività faticose.",
+    "synonyms": [
+      "inadatto a",
+      "incapace di"
+    ],
+    "antonyms": [
+      "idoneo a",
+      "qualificato per"
+    ]
+  },
+  "suscettibile di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "suscettibile + di + [miglioramento/interpretazione]",
+    "level": "B1",
+    "definition": "Che può subire modificazioni o è aperto a sviluppi.",
+    "grammar_rule": "Richiede la preposizione « di ».",
+    "related_forms": "⚡ Aggettivo: 'suscettibile di' ➜ Verbo correlato: 'cambiare' / Nome correlato: 'ragione di'",
+    "examples": [
+      "Un progetto ancora suscettibile di modifiche e migliorie.",
+      "Un testo norma suscettibile di varie interpretazioni."
+    ],
+    "common_mistake": "❌ La proposta è suscettibile a cambiamenti. ➜ ✅ La proposta è suscettibile di cambiamenti.",
+    "synonyms": [
+      "soggetto a",
+      "aperto a"
+    ],
+    "antonyms": [
+      "inamovibile",
+      "rigido"
+    ]
+  },
+  "soggetto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "soggetto + a + [tassa/regola/cambiamento]",
+    "level": "B1",
+    "definition": "Che è sottomesso all'autorità di una norma o esposto a un fatto.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'soggetto a' ➜ Verbo correlato: 'sottomettersi' / Nome correlato: 'sottomissione a'",
+    "examples": [
+      "Tutti i prezzi sono soggetti a variazioni senza preavviso.",
+      "Un'attività soggetta alle norme fiscali vigenti."
+    ],
+    "common_mistake": "❌ Una merce soggetta di dazio doganale. ➜ ✅ Una merce soggetta a dazio doganale.",
+    "synonyms": [
+      "assoggettato a",
+      "esposto a"
+    ],
+    "antonyms": [
+      "esente da",
+      "dispensato da"
+    ]
+  },
+  "esente da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "esente + da + [tassa/errore/colpa]",
+    "level": "B1",
+    "definition": "Che è libero o dispensato da un obbligo, difetto o spesa.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'esente da' ➜ Verbo correlato: 'dispensare' / Nome correlato: 'esenzione da'",
+    "examples": [
+      "Un prodotto alimentare del tutto esente da conservanti.",
+      "L'importo è esente da qualsiasi tassa aggiuntiva."
+    ],
+    "common_mistake": "❌ Esente di imposta di bollo. ➜ ✅ Esente da imposta di bollo.",
+    "synonyms": [
+      "immune da",
+      "franco da"
+    ],
+    "antonyms": [
+      "soggetto a",
+      "assoggettato a"
+    ]
+  },
+  "immune da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da",
+      "a"
+    ],
+    "pattern": "immune + da/a + [malattia/critica]",
+    "level": "B1",
+    "definition": "Che non è intaccato o protetto da un male o pericolo.",
+    "grammar_rule": "Usa « da » per l'astrazione e « a » per le infezioni mediche.",
+    "related_forms": "⚡ Aggettivo: 'immune da' ➜ Verbo correlato: 'resistere' / Nome correlato: 'protezione da'",
+    "examples": [
+      "Nessuno è del tutto immune dagli errori morali.",
+      "Soggetti ormai immuni al contagio dell'influenza."
+    ],
+    "common_mistake": "❌ Immuni di la critica dei giornalisti. ➜ ✅ Immuni dalla critica dei giornalisti.",
+    "synonyms": [
+      "esente da",
+      "protetto da"
+    ],
+    "antonyms": [
+      "vulnerabile a",
+      "esposto a"
+    ]
+  },
+  "esposto a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "esposto + a + [pericolo/rischio/sole]",
+    "level": "B1",
+    "definition": "Che non ha riparo ed è posizionato di fronte a un rischio.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'esposto a' ➜ Verbo correlato: 'provare' / Nome correlato: 'ostacolo a'",
+    "examples": [
+      "I lavoratori sono esposti a forti rischi ambientali.",
+      "Una terrazza esposta al sole tutto il giorno."
+    ],
+    "common_mistake": "❌ Una casa esposta di il vento del nord. ➜ ✅ Una casa esposta al vento del nord.",
+    "synonyms": [
+      "vulnerabile a",
+      "soggetto a"
+    ],
+    "antonyms": [
+      "protetto da",
+      "al riparo da"
+    ]
+  },
+  "vulnerabile a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "vulnerabile + a + [attacco/malattia]",
+    "level": "B1",
+    "definition": "Che può essere facilmente ferito o intaccato da un male.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'vulnerabile a' ➜ Verbo correlato: 'avere paura' / Nome correlato: 'paura di'",
+    "examples": [
+      "I bambini sono più vulnerabili alle malattie di stagione.",
+      "Un sistema informatico vulnerabile agli attacchi dei pirati."
+    ],
+    "common_mistake": "❌ Vulnerabile di le critiche degli avversari. ➜ ✅ Vulnerabile alle critiche degli avversari.",
+    "synonyms": [
+      "esposto a",
+      "sensibile a"
+    ],
+    "antonyms": [
+      "invulnerabile a",
+      "protetto da"
+    ]
+  },
+  "invulnerabile a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "invulnerabile + a + [colpo/critica]",
+    "level": "B1",
+    "definition": "Che non può essere scalfito o danneggiato in alcun modo.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'invulnerabile a' ➜ Verbo correlato: 'resistere' / Nome correlato: 'resistenza a'",
+    "examples": [
+      "Si crede invulnerabile a qualsiasi fallimento.",
+      "Una corazza invulnerabile ai colpi delle spade."
+    ],
+    "common_mistake": "❌ Invulnerabile da le polemiche dei giornali. ➜ ✅ Invulnerabile alle polemiche dei giornali.",
+    "synonyms": [
+      "immune a",
+      "inattaccabile da"
+    ],
+    "antonyms": [
+      "vulnerabile a",
+      "sensibile a"
+    ]
+  },
+  "sensibile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "sensibile + per + [causa/sofferenza]",
+    "level": "B1",
+    "definition": "Che dimostra profonda empatia verso le sofferenze altrui.",
+    "grammar_rule": "Usa « per » per indicare la causa o categoria che suscita l'emozione.",
+    "related_forms": "⚡ Aggettivo: 'sensibile per' ➜ Verbo correlato: 'reagire' / Nome correlato: 'reazione a'",
+    "examples": [
+      "Ha dimostrato di essere molto sensibile per i problemi dei poveri.",
+      "Un animo sensibile per l'arte."
+    ],
+    "common_mistake": "❌ Sensibile di la sofferenza umana. ➜ ✅ Sensibile per la sofferenza umana.",
+    "synonyms": [
+      "empatico per",
+      "comprensivo con"
+    ],
+    "antonyms": [
+      "insensibile a",
+      "indifferente a"
+    ]
+  },
+  "indifferente a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "indifferente + a + [notizia/sofferenza]",
+    "level": "B1",
+    "definition": "Che non mostra alcuna partecipazione emotiva o interesse.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'indifferente a' ➜ Verbo correlato: 'dimenticare' / Nome correlato: 'distacco da'",
+    "examples": [
+      "È del tutto indifferente ai giudizi della gente.",
+      "Non rimanere indifferente di fronte al dolore altrui."
+    ],
+    "common_mistake": "❌ È indifferente di il problema della disoccupazione. ➜ ✅ È indifferente al problema della disoccupazione.",
+    "synonyms": [
+      "insensibile a",
+      "distaccato da"
+    ],
+    "antonyms": [
+      "sensibile a",
+      "interessato a"
+    ]
+  },
+  "estraneo a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "estraneo + a + [fatto/ambiente]",
+    "level": "B1",
+    "definition": "Che non ha preso parte a un fatto o non appartiene a un ambiente.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'estraneo a' ➜ Verbo correlato: 'astenersi' / Nome correlato: 'distacco da'",
+    "examples": [
+      "L'imputato si è dichiarato del tutto estraneo ai fatti contestati.",
+      "Sentirsi estraneo a quel tipo di ambiente sociale."
+    ],
+    "common_mistake": "❌ È estraneo di l'accaduto. ➜ ✅ È estraneo ai fatti accaduti.",
+    "synonyms": [
+      "alieno da",
+      "fuori da"
+    ],
+    "antonyms": [
+      "coinvolto in",
+      "partecipe di"
+    ]
+  },
+  "coinvolto in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "coinvolto + in + [vicenda/progetto]",
+    "level": "B1",
+    "definition": "Che prende parte attivamente o è implicato in un evento.",
+    "grammar_rule": "Richiede la preposizione « in » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'coinvolto in' ➜ Verbo correlato: 'partecipare' / Nome correlato: 'partecipazione a'",
+    "examples": [
+      "Molti giovani sono stati coinvolti nel progetto di volontariato.",
+      "È rimasto coinvolto in un brutto incidente."
+    ],
+    "common_mistake": "❌ È coinvolto a la truffa finanziaria. ➜ ✅ È coinvolto nella truffa finanziaria.",
+    "synonyms": [
+      "implicato in",
+      "partecipe di"
+    ],
+    "antonyms": [
+      "estraneo a",
+      "escluso da"
+    ]
+  },
+  "implicato in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "implicato + in + [scandalo/reato]",
+    "level": "B1",
+    "definition": "Coinvolto negativamente in una vicenda giudiziaria o illegale.",
+    "grammar_rule": "Richiede la preposizione « in » con articolazione.",
+    "related_forms": "⚡ Aggettivo: 'implicato in' ➜ Verbo correlato: 'lamentarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Diversi funzionari sono risultati implicati nella truffa.",
+      "Non voglio essere implicato in questa brutta storia."
+    ],
+    "common_mistake": "❌ È implicato di lo scandalo del calcioscommesse. ➜ ✅ È implicato nello scandalo del calcioscommesse.",
+    "synonyms": [
+      "coinvolto in",
+      "compromesso in"
+    ],
+    "antonyms": [
+      "estraneo a",
+      "scagionato da"
+    ]
+  },
+  "partecipe di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "a"
+    ],
+    "pattern": "partecipe + di/a + [gioia/evento]",
+    "level": "B1",
+    "definition": "Che condivide intimamente un sentimento o prende parte a un fatto.",
+    "grammar_rule": "Usa « di » per i sentimenti condivisi e « a » per gli eventi.",
+    "related_forms": "⚡ Aggettivo: 'partecipe di' ➜ Verbo correlato: 'partecipare' / Nome correlato: 'partecipazione a'",
+    "examples": [
+      "Siamo profondamente partecipi del vostro lutto.",
+      "Rendere tutti i cittadini partecipi delle decisioni."
+    ],
+    "common_mistake": "❌ Sono partecipe a il tuo dolore morale. ➜ ✅ Sono partecipe del tuo dolore morale.",
+    "synonyms": [
+      "condividente di",
+      "coinvolto in"
+    ],
+    "antonyms": [
+      "estraneo a",
+      "indifferente a"
+    ]
+  },
+  "conforme a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "conforme + a + [legge/regolamento]",
+    "level": "B1",
+    "definition": "Rispondente pienamente a norme, modelli o istruzioni.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'conforme a' ➜ Verbo correlato: 'conformarsi' / Nome correlato: 'conformità a'",
+    "examples": [
+      "L'impianto è stato realizzato in modo conforme alle norme vigenti.",
+      "Un comportamento perfettamente conforme al regolamento."
+    ],
+    "common_mistake": "❌ Una copia conforme di l'originale. ➜ ✅ Una copia conforme all'originale.",
+    "synonyms": [
+      "aderente a",
+      "coerente con"
+    ],
+    "antonyms": [
+      "difforme da",
+      "inconforme a"
+    ]
+  },
+  "difforme da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "difforme + da + [modello/legge]",
+    "level": "B1",
+    "definition": "Che presenta divergenze e non risponde a una norma.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'difforme da' ➜ Verbo correlato: 'differire' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "La merce consegnata è risultata difforme dal campione accettato.",
+      "Una decisione difforme dalle consuetudini."
+    ],
+    "common_mistake": "❌ Un prodotto difforme a la descrizione. ➜ ✅ Un prodotto difforme dalla descrizione.",
+    "synonyms": [
+      "diverso da",
+      "inconforme a"
+    ],
+    "antonyms": [
+      "conforme a",
+      "aderente a"
+    ]
+  },
+  "coerente con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "coerente + con + [principi/parole]",
+    "level": "B1",
+    "definition": "Che agisce senza contraddizioni rispetto alle proprie idee.",
+    "grammar_rule": "Richiede la preposizione « con » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'coerente con' ➜ Verbo correlato: 'conformarsi' / Nome correlato: 'coerenza con'",
+    "examples": [
+      "È sempre stato un uomo coerente con i propri ideali.",
+      "Una decisione del tutto coerente con la politica aziendale."
+    ],
+    "common_mistake": "❌ Una scelta coerente a le sue parole. ➜ ✅ Una scelta coerente con le sue parole.",
+    "synonyms": [
+      "conforme a",
+      "conseguente a"
+    ],
+    "antonyms": [
+      "incoerente con",
+      "incontraddittorio con"
+    ]
+  },
+  "incoerente con": {
+    "word_type": "adjective",
+    "prepositions": [
+      "con"
+    ],
+    "pattern": "incoerente + con + [dichiarazioni/fatti]",
+    "level": "B1",
+    "definition": "In contraddizione palese con affermazioni precedenti.",
+    "grammar_rule": "Richiede la preposizione « con ».",
+    "related_forms": "⚡ Aggettivo: 'incoerente con' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "Questo comportamento è del tutto incoerente con le sue promesse.",
+      "Dichiarazioni incoerenti con i dati reali."
+    ],
+    "common_mistake": "❌ Un gesto incoerente a la sua posizione. ➜ ✅ Un gesto incoerente con la sua posizione.",
+    "synonyms": [
+      "contraddittorio con"
+    ],
+    "antonyms": [
+      "coerente con"
+    ]
+  },
+  "incline a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "incline + a + [vizio/compassione/infinito]",
+    "level": "B1",
+    "definition": "Che ha una naturale tendenza d'animo verso un comportamento.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'incline a' ➜ Verbo correlato: 'inclinare' / Nome correlato: 'inclinazione a'",
+    "examples": [
+      "È un giudice incline alla clemenza.",
+      "Mio padre è incline a scusare i difetti altrui."
+    ],
+    "common_mistake": "❌ È un uomo incline di la malinconia. ➜ ✅ È un uomo incline alla malinconia.",
+    "synonyms": [
+      "propenso a",
+      "proclive a"
+    ],
+    "antonyms": [
+      "avverso a",
+      "restio a"
+    ]
+  },
+  "propenso a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "propenso + a + [scelta/infinito]",
+    "level": "B1",
+    "definition": "Che mostra favore e inclinazione verso un'opzione.",
+    "grammar_rule": "Richiede la preposizione « a » prima dell'infinito o sostantivo.",
+    "related_forms": "⚡ Aggettivo: 'propenso a' ➜ Verbo correlato: 'propendere' / Nome correlato: 'propensione a'",
+    "examples": [
+      "Sono molto propenso ad accettare la sua offerta di lavoro.",
+      "La direzione è propensa al dialogo con i lavoratori."
+    ],
+    "common_mistake": "❌ Sono propenso di cambiare città. ➜ ✅ Sono propenso a cambiare città.",
+    "synonyms": [
+      "incline a",
+      "favorevole a"
+    ],
+    "antonyms": [
+      "contrario a",
+      "riluttante a"
+    ]
+  },
+  "riluttante a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "riluttante + a + [infinito/sostantivo]",
+    "level": "B1",
+    "definition": "Che mostra esitazione e avversione a fare una cosa.",
+    "grammar_rule": "Richiede la preposizione « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'riluttante a' ➜ Verbo correlato: 'esitare' / Nome correlato: 'esitazione a'",
+    "examples": [
+      "Era visibilmente riluttante ad ammettere le sue colpe.",
+      "Riluttante a prendere una posizione chiara."
+    ],
+    "common_mistake": "❌ È riluttante di accettare le nuove condizioni. ➜ ✅ È riluttante ad accettare le nuove condizioni.",
+    "synonyms": [
+      "restio a",
+      "esitante a"
+    ],
+    "antonyms": [
+      "propenso a",
+      "disposto a"
+    ]
+  },
+  "restio a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "restio + a + [infinito/cambiamento]",
+    "level": "B1",
+    "definition": "Che si oppone con ostinazione a fare qualcosa o a cambiare.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'restio a' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'opposizione a'",
+    "examples": [
+      "I vecchi dipendenti sono restii ad adottare il nuovo software.",
+      "Un uomo restio alle novità della tecnologia."
+    ],
+    "common_mistake": "❌ È restio di ascoltare i nostri pareri. ➜ ✅ È restio ad ascoltare i nostri pareri.",
+    "synonyms": [
+      "riluttante a",
+      "ostinato contro"
+    ],
+    "antonyms": [
+      "sollecito a",
+      "pronto a"
+    ]
+  },
+  "fiducioso in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "fiducioso + in + [qualcuno/risultato]",
+    "level": "B1",
+    "definition": "Che nutre salda speranza nell'esito positivo di un fatto.",
+    "grammar_rule": "Richiede la preposizione « in » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'fiducioso in' ➜ Verbo correlato: 'confidare' / Nome correlato: 'fiducia in'",
+    "examples": [
+      "Siamo fiduciosi in una rapida conclusione delle trattative.",
+      "Guarda al futuro con animo fiducioso nella ripresa."
+    ],
+    "common_mistake": "❌ Sono fiducioso per l'esito dell'esame. ➜ ✅ Sono fiducioso nell'esito dell'esame.",
+    "synonyms": [
+      "speranzoso in",
+      "ottimista su"
+    ],
+    "antonyms": [
+      "sfiduciato in",
+      "pessimista su"
+    ]
+  },
+  "sfiduciato in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in",
+      "da"
+    ],
+    "pattern": "sfiduciato + in/da + [istituzione/fatto]",
+    "level": "B1",
+    "definition": "Che ha perso la fiducia e speranza negli altri.",
+    "grammar_rule": "Usa « in » o « da ».",
+    "related_forms": "⚡ Aggettivo: 'sfiduciato in' ➜ Verbo correlato: 'dubitare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un popolo ormai sfiduciato nelle promesse dei politici.",
+      "Sentirsi sfiduciato dalle continue sconfitte."
+    ],
+    "common_mistake": "❌ È sfiduciato di la giustizia. ➜ ✅ È sfiduciato nella giustizia.",
+    "synonyms": [
+      "deluso da",
+      "scettico su"
+    ],
+    "antonyms": [
+      "fiducioso in",
+      "ottimista su"
+    ]
+  },
+  "diffidente di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "verso"
+    ],
+    "pattern": "diffidente + di/verso + [persona]",
+    "level": "B1",
+    "definition": "Che sospetta degli altri e non accorda facilmente fiducia.",
+    "grammar_rule": "Richiede la preposizione « di » o « verso » con articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'diffidente di' ➜ Verbo correlato: 'dubitare' / Nome correlato: 'dubbio su'",
+    "examples": [
+      "I paesani sono sempre diffidenti verso gli sconosciuti.",
+      "Un carattere schivo e diffidente del prossimo."
+    ],
+    "common_mistake": "❌ È diffidente con i suoi nuovi vicini. ➜ ✅ È diffidente verso i suoi nuovi vicini.",
+    "synonyms": [
+      "sospettoso di",
+      "circospetto verso"
+    ],
+    "antonyms": [
+      "fiducioso in",
+      "aperto verso"
+    ]
+  },
+  "sospettoso di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "verso"
+    ],
+    "pattern": "sospettoso + di/verso + [persona/fatto]",
+    "level": "B1",
+    "definition": "Che nutre facili e continui sospetti su chiunque.",
+    "grammar_rule": "Richiede la preposizione « di » o « verso ».",
+    "related_forms": "⚡ Aggettivo: 'sospettoso di' ➜ Verbo correlato: 'dubitare' / Nome correlato: 'dubbio su'",
+    "examples": [
+      "Avere un atteggiamento sempre sospettoso verso i colleghi.",
+      "Diventare sospettoso di ogni minima anomalia."
+    ],
+    "common_mistake": "❌ È sospettoso per le intenzioni altrui. ➜ ✅ È sospettoso delle intenzioni altrui.",
+    "synonyms": [
+      "diffidente di",
+      "malfidato verso"
+    ],
+    "antonyms": [
+      "ingenuo con",
+      "fiducioso in"
+    ]
+  },
+  "sicuro da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "sicuro + da + [pericolo/minaccia]",
+    "level": "B1",
+    "definition": "Al riparo e protetto da qualsiasi rischio esterno.",
+    "grammar_rule": "Usa « da » quando esprime protezione da un pericolo.",
+    "related_forms": "⚡ Aggettivo: 'sicuro da' ➜ Verbo correlato: 'resistere' / Nome correlato: 'difesa di'",
+    "examples": [
+      "In questa fortezza saremo al sicuro da ogni attacco nemico.",
+      "Un porto sicuro dalle tempeste estive."
+    ],
+    "common_mistake": "❌ Un riparo sicuro di il freddo. ➜ ✅ Un riparo sicuro dal freddo.",
+    "synonyms": [
+      "protetto da",
+      "al riparo da"
+    ],
+    "antonyms": [
+      "vulnerabile a",
+      "esposto a"
+    ]
+  },
+  "collegato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "con"
+    ],
+    "pattern": "collegato + a/con + [altro elemento]",
+    "level": "B1",
+    "definition": "Unito o in diretta relazione logica con un'altra cosa.",
+    "grammar_rule": "Richiede la preposizione « a » o « con ».",
+    "related_forms": "⚡ Aggettivo: 'collegato a' ➜ Verbo correlato: 'riferirsi' / Nome correlato: 'relazione con'",
+    "examples": [
+      "Questo fattore è strettamente collegato all'aumento dei costi.",
+      "Il computer non è collegato alla rete internet."
+    ],
+    "common_mistake": "❌ Un fatto collegato di la decisione presa. ➜ ✅ Un fatto collegato alla decisione presa.",
+    "synonyms": [
+      "connesso a",
+      "legato a"
+    ],
+    "antonyms": [
+      "scollegato da",
+      "slegato da"
+    ]
+  },
+  "connesso a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "connesso + a + [sistema/tema]",
+    "level": "B1",
+    "definition": "Legato mediante un vincolo strutturale o concettuale.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'connesso a' ➜ Verbo correlato: 'riferirsi' / Nome correlato: 'legame con'",
+    "examples": [
+      "Tutti i dispositivi sono connessi al server centrale.",
+      "I problemi salute connessi all'uso del tabacco."
+    ],
+    "common_mistake": "❌ Un rischio connesso di il lavoro in cantiere. ➜ ✅ Un rischio connesso al lavoro in cantiere.",
+    "synonyms": [
+      "collegato a",
+      "Inerente a"
+    ],
+    "antonyms": [
+      "sconnesso da",
+      "slegato da"
+    ]
+  },
+  "legato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "legato + a + [persona/terra/passato]",
+    "level": "B1",
+    "definition": "Che nutre profondo vincolo affettivo o dipendenza da un fatto.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'legato a' ➜ Verbo correlato: 'adattarsi' / Nome correlato: 'legame con'",
+    "examples": [
+      "Mio padre è ancora profondamente legato alla sua terra natale.",
+      "Un caro ricordo legato all'infanzia."
+    ],
+    "common_mistake": "❌ È molto legato di la sua città d'origine. ➜ ✅ È molto legato alla sua città d'origine.",
+    "synonyms": [
+      "affezionato a",
+      "vincolato a"
+    ],
+    "antonyms": [
+      "slegato da",
+      "distaccato da"
+    ]
+  },
+  "affezionato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "affezionato + a + [persona/animale/luogo]",
+    "level": "B1",
+    "definition": "Che prova sincero e vivo affetto per qualcuno o qualcosa.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'affezionato a' ➜ Verbo correlato: 'piacere' / Nome correlato: 'amore per'",
+    "examples": [
+      "Il bambino è molto affezionato al suo cagnolino.",
+      "Siamo tutti affezionati a questa vecchia casa di campagna."
+    ],
+    "common_mistake": "❌ È molto affezionato di suo zio. ➜ ✅ È molto affezionato a suo zio.",
+    "synonyms": [
+      "legato a",
+      "attaccato a"
+    ],
+    "antonyms": [
+      "distaccato da",
+      "indifferente a"
+    ]
+  },
+  "attaccato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "attaccato + a + [beni/denaro/tradizione]",
+    "level": "B1",
+    "definition": "Che tiene morbosamente o tenacemente a qualcosa.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'attaccato a' ➜ Verbo correlato: 'tenere' / Nome correlato: 'modo di'",
+    "examples": [
+      "Un uomo eccessivamente attaccato ai beni materiali.",
+      "I nonni sono molto attaccati alle tradizioni di una volta."
+    ],
+    "common_mistake": "❌ È troppo attaccato di i soldi. ➜ ✅ È troppo attaccato ai soldi.",
+    "synonyms": [
+      "legato a",
+      "affezionato a"
+    ],
+    "antonyms": [
+      "distaccato da",
+      "slegato da"
+    ]
+  },
+  "mancante di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "mancante + di + [pezzo/qualità]",
+    "level": "B1",
+    "definition": "Che difetta o è privo di una parte necessaria.",
+    "grammar_rule": "Richiede la preposizione « di » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'mancante di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Il documento consegnato è mancante del timbro ufficiale.",
+      "Un apparecchio mancante di alcune componenti chiave."
+    ],
+    "common_mistake": "❌ Un fascicolo mancante per le firme. ➜ ✅ Un fascicolo mancante delle firme.",
+    "synonyms": [
+      "privo di",
+      "scarso di"
+    ],
+    "antonyms": [
+      "provvisto di",
+      "completo di"
+    ]
+  },
+  "privo di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "privo + di + [qualità/risorsa]",
+    "level": "B1",
+    "definition": "Che è del tutto sprovvisto di una determinata cosa.",
+    "grammar_rule": "Richiede la preposizione « di » (privo di fondamento, di senso).",
+    "related_forms": "⚡ Aggettivo: 'privo di' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un'accusa del tutto priva di fondamento giuridico.",
+      "Un testo arido e privo di qualsiasi emozione."
+    ],
+    "common_mistake": "❌ Un discorso privo da significato. ➜ ✅ Un discorso privo di significato.",
+    "synonyms": [
+      "mancante di",
+      "sprovvisto di"
+    ],
+    "antonyms": [
+      "dotato di",
+      "pieno di"
+    ]
+  },
+  "dotato di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "dotato + di + [talento/mezzo]",
+    "level": "B1",
+    "definition": "Fornito di naturali virtù o equipaggiato con strumenti.",
+    "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'dotato di' ➜ Verbo correlato: 'servirsi' / Nome correlato: 'capacità di'",
+    "examples": [
+      "Un ragazzo dotato di uno straordinario talento musicale.",
+      "La struttura è dotata delle più moderne attrezzature."
+    ],
+    "common_mistake": "❌ Una sala dotata con aria condizionata. ➜ ✅ Una sala dotata di aria condizionata.",
+    "synonyms": [
+      "fornito di",
+      "provvisto di"
+    ],
+    "antonyms": [
+      "privo di",
+      "sprovvisto di"
+    ]
+  },
+  "provvisto di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "provvisto + di + [documento/scorta]",
+    "level": "B1",
+    "definition": "Equipaggiato e munito di ciò che è necessario.",
+    "grammar_rule": "Richiede la preposizione « di » (provvisto di biglietto, di pass).",
+    "related_forms": "⚡ Aggettivo: 'provvisto di' ➜ Verbo correlato: 'servirsi' / Nome correlato: 'mezzo di'",
+    "examples": [
+      "Tutti i viaggiatori devono essere provvisti di valido biglietto.",
+      "Un locale provvisto di ogni tipo di comfort."
+    ],
+    "common_mistake": "❌ Bisogna essere provvisti con i documenti. ➜ ✅ Bisogna essere provvisti dei documenti.",
+    "synonyms": [
+      "munito di",
+      "fornito di"
+    ],
+    "antonyms": [
+      "sprovvisto di",
+      "privo di"
+    ]
+  },
+  "abituato ai": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "abituato + a + [ritmi/difficoltà]",
+    "level": "B2",
+    "definition": "Riconosciuto avvezzo a sostenere complesse dinamiche.",
+    "grammar_rule": "Richiede « a » con articolazione obbligatoria.",
+    "related_forms": "⚡ Aggettivo: 'abituato ai' ➜ Verbo correlato: 'abituarsi' / Nome correlato: 'abitudine a'",
+    "examples": [
+      "Un professionista abituato ai ritmi frenetici della finanza.",
+      "I lavoratori sono abitiuati alle difficoltà di cantiere."
+    ],
+    "common_mistake": "❌ Abituato di il lavoro di notte. ➜ ✅ Abituato al lavoro di notte.",
+    "synonyms": [
+      "avvezzo a",
+      "assuefatto a"
+    ],
+    "antonyms": [
+      "inavvezzo a"
+    ]
+  },
+  "ammaliato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "ammaliato + da + [bellezza/fascino]",
+    "level": "B2",
+    "definition": "Profondamente sedotto e affascinato da una cosa o persona.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'ammaliato da' ➜ Verbo correlato: 'ammaliare' / Nome correlato: 'interesse per'",
+    "examples": [
+      "Rimanere ammaliato dalla bellezza mozzafiato del paesaggio.",
+      "È stato ammaliato dalle sue parole persuasive."
+    ],
+    "common_mistake": "❌ Ammaliato di la voce della cantante. ➜ ✅ Ammaliato dalla voce della cantante.",
+    "synonyms": [
+      "sedotto da",
+      "affascinato da"
+    ],
+    "antonyms": [
+      "disgustato da",
+      "infastidito da"
+    ]
+  },
+  "ancorato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "ancorato + a + [tradizione/passato]",
+    "level": "B2",
+    "definition": "Saldamente fissa o legato a un principio senza evolversi.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'ancorato a' ➜ Verbo correlato: 'adattarsi' / Nome correlato: 'legame con'",
+    "examples": [
+      "Un pensiero ancora troppo ancorato alle vecchie abitudini.",
+      "Mantenere l'imbarcazione ancorata al molo."
+    ],
+    "common_mistake": "❌ Rimanere ancorato di i vecchi schemi mentali. ➜ ✅ Rimanere ancorato ai vecchi schemi mentali.",
+    "synonyms": [
+      "legato a",
+      "fissato su"
+    ],
+    "antonyms": [
+      "svincolato da",
+      "staccato da"
+    ]
+  },
+  "animato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "animato + da + [passione/intenzione]",
+    "level": "B2",
+    "definition": "Mossa ed elettrizzato da un sentimento o motivazione.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'animato da' ➜ Verbo correlato: 'piacere' / Nome correlato: 'passione per'",
+    "examples": [
+      "Un giovane ricercatore animato da una grande passione per la scienza.",
+      "Un dibattito vivace animato da varie opinioni."
+    ],
+    "common_mistake": "❌ Animato di buone intenzioni. ➜ ✅ Animato da buone intenzioni.",
+    "synonyms": [
+      "spinto da",
+      "mosso da"
+    ],
+    "antonyms": [
+      "apatico verso",
+      "spento da"
+    ]
+  },
+  "appagato di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di",
+      "da"
+    ],
+    "pattern": "appagato + di/da + [risultato/successo]",
+    "level": "B2",
+    "definition": "Che si sente pienamente soddisfatto per l'esito ottenuto.",
+    "grammar_rule": "Usa « di » o « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'appagato di' ➜ Verbo correlato: 'rallegrarsi' / Nome correlato: 'risultato di'",
+    "examples": [
+      "Tornare a casa appagato del lavoro svolto nella giornata.",
+      "Un artista appagato dal calore del pubblico."
+    ],
+    "common_mistake": "❌ Sentirsi appagato per il traguardo raggiunto. ➜ ✅ Sentirsi appagato del traguardo raggiunto.",
+    "synonyms": [
+      "soddisfatto di",
+      "pienamente appagato"
+    ],
+    "antonyms": [
+      "insoddisfatto di",
+      "scontento di"
+    ]
+  },
+  "appartenente a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "appartenente + a + [gruppo/categoria]",
+    "level": "B2",
+    "definition": "Che fa parte organica di una struttura, ente o categoria.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'appartenente a' ➜ Verbo correlato: 'riferirsi' / Nome correlato: 'relazione con'",
+    "examples": [
+      "I beni appartenenti allo Stato sono inalienabili.",
+      "Un documento appartenente al secolo scorso."
+    ],
+    "common_mistake": "❌ Un bene appartenente di il comune. ➜ ✅ Un bene appartenente al comune.",
+    "synonyms": [
+      "membro di",
+      "affiliato a"
+    ],
+    "antonyms": [
+      "estraneo a",
+      "svincolato da"
+    ]
+  },
+  "appagante per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "appagante + per + [mente/spirito]",
+    "level": "B2",
+    "definition": "Che offre viva soddisfazione e senso di compiutezza.",
+    "grammar_rule": "Richiede la preposizione « per » (appagante per lo spirito).",
+    "related_forms": "⚡ Aggettivo: 'appagante per' ➜ Verbo correlato: 'piacere' / Nome correlato: 'vantaggio di'",
+    "examples": [
+      "Un'esperienza di volontariato molto appagante per lo spirito.",
+      "Un lavoro intellettuale davvero appagante."
+    ],
+    "common_mistake": "❌ Una professione appagante a il lavoratore. ➜ ✅ Una professione appagante per il lavoratore.",
+    "synonyms": [
+      "gratificante per",
+      "soddisfacente per"
+    ],
+    "antonyms": [
+      "frustrante per",
+      "insoddisfacente per"
+    ]
+  },
+  "assoggettato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "assoggettato + a + [potere/regola]",
+    "level": "B2",
+    "definition": "Che è stato sottomesso e posto sotto la giurisdizione altrui.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'assoggettato a' ➜ Verbo correlato: 'sottomettersi' / Nome correlato: 'sottomissione a'",
+    "examples": [
+      "Un territorio interamente assoggettato al dominio straniero.",
+      "L'impresa è assoggettata alle norme fiscali vigenti."
+    ],
+    "common_mistake": "❌ Assoggettato di i voleri del sovrano. ➜ ✅ Assoggettato ai voleri del sovrano.",
+    "synonyms": [
+      "sottomesso a",
+      "soggetto a"
+    ],
+    "antonyms": [
+      "affrancato da",
+      "libero da"
+    ]
+  },
+  "attonito davanti a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "davanti a",
+      "da"
+    ],
+    "pattern": "attonito + davanti a / da + [fatto]",
+    "level": "B2",
+    "definition": "Rimanere stupefatto e quasi paralizzato dalla meraviglia.",
+    "grammar_rule": "Usa « davanti a » per l'evento o « da » per l'agente.",
+    "related_forms": "⚡ Aggettivo: 'attonito davanti a' ➜ Verbo correlato: 'guardare' / Nome correlato: 'ammirazione per'",
+    "examples": [
+      "La folla è rimasta attonita davanti alla tragedia immane.",
+      "Attonito da una rivelazione così sconvolgente."
+    ],
+    "common_mistake": "❌ Rimasto attonito per della notizia. ➜ ✅ Rimasto attonito davanti alla notizia.",
+    "synonyms": [
+      "sbigottito da",
+      "stupito da"
+    ],
+    "antonyms": [
+      "indifferente a",
+      "imperturbabile davanti a"
+    ]
+  },
+  "auspicabile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "auspicabile + per + [sviluppo/futuro]",
+    "level": "B2",
+    "definition": "Che è desiderabile e molto opportuno che si verifichi.",
+    "grammar_rule": "Richiede la preposizione « per » (auspicabile per la nazione).",
+    "related_forms": "⚡ Aggettivo: 'auspicabile per' ➜ Verbo correlato: 'sperare' / Nome correlato: 'speranza di'",
+    "examples": [
+      "Un rapido accordo tra le parti è fortemente auspicabile per il paese.",
+      "Una soluzione auspicabile per tutti."
+    ],
+    "common_mistake": "❌ Una misura auspicabile a la pace. ➜ ✅ Una misura auspicabile per la pace.",
+    "synonyms": [
+      "desiderabile per",
+      "augurabile per"
+    ],
+    "antonyms": [
+      "indesiderabile per",
+      "infausto per"
+    ]
+  },
+  "autonomo da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "autonomo + da + [influenza/potere]",
+    "level": "B2",
+    "definition": "Che agisce in modo indipendente senza condizionamenti.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'autonomo da' ➜ Verbo correlato: 'uscire' / Nome correlato: 'distacco da'",
+    "examples": [
+      "La magistratura deve essere del tutto autonoma dal potere politico.",
+      "Un giovane economico e autonoma dalla famiglia."
+    ],
+    "common_mistake": "❌ Un giudizio autonomo di le pressioni esterne. ➜ ✅ Un giudizio autonomo dalle pressioni esterne.",
+    "synonyms": [
+      "indipendente da",
+      "svincolato da"
+    ],
+    "antonyms": [
+      "dipendente da",
+      "subordinato a"
+    ]
+  },
+  "avverso a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "avverso + a + [persona/cambiamento]",
+    "level": "B2",
+    "definition": "Che si dimostra nemico e ostile a un fatto o persona.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'avverso a' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'opposizione a'",
+    "examples": [
+      "Un politico da sempre avverso a qualsiasi riforma fiscale.",
+      "La fortuna gli è stata avversa durante la carriera."
+    ],
+    "common_mistake": "❌ Una decisione avversa per i nostri interessi. ➜ ✅ Una decisione avversa ai nostri interessi.",
+    "synonyms": [
+      "ostile a",
+      "contrario a"
+    ],
+    "antonyms": [
+      "favorevole a",
+      "propizio a"
+    ]
+  },
+  "avvezzo a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "avvezzo + a + [fatiche/clima]",
+    "level": "B2",
+    "definition": "Abituato da lunga pratica a sostenere compiti gravosi.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'avvezzo a' ➜ Verbo correlato: 'abituarsi' / Nome correlato: 'abitudine a'",
+    "examples": [
+      "I contadini sono avvezzi ai duri lavori dei campi.",
+      "Un uomo avvezzo ad affrontare le tempeste della vita."
+    ],
+    "common_mistake": "❌ Non è avvezzo di il clima rigido delle montagne. ➜ ✅ Non è avvezzo al clima rigido delle montagne.",
+    "synonyms": [
+      "abituato a",
+      "assuefatto a"
+    ],
+    "antonyms": [
+      "inavvezzo a",
+      "disabituato da"
+    ]
+  },
+  "inavvezzo a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "inavvezzo + a + [fatiche/disciplina]",
+    "level": "B2",
+    "definition": "Che non ha l'abitudine né l'esperienza necessaria per un compito.",
+    "grammar_rule": "Richiede la preposizione « a » con articolazione.",
+    "related_forms": "⚡ Aggettivo: 'inavvezzo a' ➜ Verbo correlato: 'mancare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un corpo giovanile inavvezzo ai grandi sforzi fisici.",
+      "Inavvezzo alle sottigliezze della diplomazia."
+    ],
+    "common_mistake": "❌ Inavvezzo di la vita di cantiere. ➜ ✅ Inavvezzo alla vita di cantiere.",
+    "synonyms": [
+      "inesperto di",
+      "disabituato da"
+    ],
+    "antonyms": [
+      "avvezzo a",
+      "abituato a"
+    ]
+  },
+  "benefico per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "benefico + per + [salute/ambiente]",
+    "level": "B2",
+    "definition": "Che produce un sensibile giovamento e benessere.",
+    "grammar_rule": "Richiede la preposizione « per » (benefico per il corpo).",
+    "related_forms": "⚡ Aggettivo: 'benefico per' ➜ Verbo correlato: 'servire' / Nome correlato: 'vantaggio di'",
+    "examples": [
+      "L'aria di montagna è estremamente benefica per i polmoni.",
+      "Una pioggia benefica per le colture inaridite."
+    ],
+    "common_mistake": "❌ Un clima benefico a la salute. ➜ ✅ Un clima benefico per la salute.",
+    "synonyms": [
+      "salutare per",
+      "giovato a"
+    ],
+    "antonyms": [
+      "dannoso per",
+      "nocivo per"
+    ]
+  },
+  "calcolatore in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "calcolatore + in + [affari/scelte]",
+    "level": "B2",
+    "definition": "Che agisce ponderando con freddo interesse ogni mossa.",
+    "grammar_rule": "Richiede la preposizione « in » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'calcolatore in' ➜ Verbo correlato: 'pensare' / Nome correlato: 'modo di'",
+    "examples": [
+      "Un uomo freddo e calcolatore in ogni sua mossa finanziaria.",
+      "Essere calcolatore nei rapporti umani."
+    ],
+    "common_mistake": "❌ Troppo calcolatore per le amicizie. ➜ ✅ Troppo calcolatore nelle amicizie.",
+    "synonyms": [
+      "opportunista in",
+      "freddo in"
+    ],
+    "antonyms": [
+      "spontaneo in",
+      "disinteressato in"
+    ]
+  },
+  "cauto in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in",
+      "a"
+    ],
+    "pattern": "cauto + in/a + [scelte/agire]",
+    "level": "B2",
+    "definition": "Che procede con vigile prudenza per evitare insidie.",
+    "grammar_rule": "Usa « in » per i settori e « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'cauto in' ➜ Verbo correlato: 'esitare' / Nome correlato: 'attenzione a'",
+    "examples": [
+      "È sempre stato molto cauto nelle sue valutazioni di mercato.",
+      "Sii cauto nel giudicare le persone senza conoscerle."
+    ],
+    "common_mistake": "❌ Un atteggiamento cauto di le spese. ➜ ✅ Un atteggiamento cauto nelle spese.",
+    "synonyms": [
+      "prudente in",
+      "circospetto in"
+    ],
+    "antonyms": [
+      "incauto in",
+      "imprudente in"
+    ]
+  },
+  "circospetto in": {
+    "word_type": "adjective",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "circospetto + in + [azioni/parole]",
+    "level": "B2",
+    "definition": "Che guarda attorno a sé con diffidente prudenza.",
+    "grammar_rule": "Richiede la preposizione « in » (circospetto nelle trattative).",
+    "related_forms": "⚡ Aggettivo: 'circospetto in' ➜ Verbo correlato: 'dubitare' / Nome correlato: 'dubbio su'",
+    "examples": [
+      "Si mostra sempre circospetto nelle riunioni di lavoro.",
+      "Avere un atteggiamento circospetto verso le novità."
+    ],
+    "common_mistake": "❌ Un uomo circospetto per le dichiarazioni pubbliche. ➜ ✅ Un uomo circospetto nelle dichiarazioni pubbliche.",
+    "synonyms": [
+      "cauto in",
+      "diffidente di"
+    ],
+    "antonyms": [
+      "sprovveduto in",
+      "imprudente in"
+    ]
+  },
+  "commisurato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "commisurato + a + [sforzo/esigenza]",
+    "level": "B2",
+    "definition": "Adattato e proporzionato in giusta misura a un parametro.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'commisurato a' ➜ Verbo correlato: 'adattarsi' / Nome correlato: 'abitudine a'",
+    "examples": [
+      "Lo stipendio deve essere proporzionato e commisurato al lavoro svolto.",
+      "Pene commisurate alla gravità del reato."
+    ],
+    "common_mistake": "❌ Un compenso commisurato con l'impegno. ➜ ✅ Un compenso commisurato all'impegno.",
+    "synonyms": [
+      "proporzionato a",
+      "adeguato a"
+    ],
+    "antonyms": [
+      "sproporzionato a",
+      "inadeguato a"
+    ]
+  },
+  "sproporzionato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "sproporzionato + a + [mezzo/misura]",
+    "level": "B2",
+    "definition": "Eccessivo o scarso rispetto a un termine di confronto.",
+    "grammar_rule": "Richiede la preposizione « a » (sproporzionato allo sforzo).",
+    "related_forms": "⚡ Aggettivo: 'sproporzionato a' ➜ Verbo correlato: 'differire' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "Una reazione del tutto sproporzionata alla gravità dell'offesa.",
+      "Costi sproporzionati ai reali benefici."
+    ],
+    "common_mistake": "❌ Una spesa sproporzionata con il guadagno. ➜ ✅ Una spesa sproporzionata al guadagno.",
+    "synonyms": [
+      "inadeguato a",
+      "eccessivo rispetto a"
+    ],
+    "antonyms": [
+      "proporzionato a",
+      "commisurato a"
+    ]
+  },
+  "compenetrato di": {
+    "word_type": "adjective",
+    "prepositions": [
+      "di"
+    ],
+    "pattern": "compenetrato + di + [ideale/spirito]",
+    "level": "B2",
+    "definition": "Pienamente imbevuto ed entusiasta di un'idea o dovere.",
+    "grammar_rule": "Richiede la preposizione « di » (compenetrato del dovere).",
+    "related_forms": "⚡ Aggettivo: 'compenetrato di' ➜ Verbo correlato: 'dedicarsi' / Nome correlato: 'dedizione a'",
+    "examples": [
+      "Un attore compenetrato del suo personaggio drammatico.",
+      "Un giudice compenetrato del senso di giustizia."
+    ],
+    "common_mistake": "❌ Compenetrato in il ruolo sociale. ➜ ✅ Compenetrato del ruolo sociale.",
+    "synonyms": [
+      "imbevuto di",
+      "pieno di"
+    ],
+    "antonyms": [
+      "distaccato da"
+    ]
+  },
+  "compresso da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "compresso + da + [peso/forza]",
+    "level": "B2",
+    "definition": "Schiacciato o contenuto con forza da un elemento esterno.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'compresso da' ➜ Verbo correlato: 'costringere' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un file digitale compresso per facilitarne l'invio.",
+      "Sentirsi compresso dalle troppe responsabilità."
+    ],
+    "common_mistake": "❌ Un tempo compresso di gli impegni. ➜ ✅ Un tempo compresso dagli impegni.",
+    "synonyms": [
+      "schiacciato da",
+      "ristretto da"
+    ],
+    "antonyms": [
+      "dilatato da",
+      "libero da"
+    ]
+  },
+  "concepibile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "concepibile + per + [mente/essere umano]",
+    "level": "B2",
+    "definition": "Che può essere immaginato o compreso dalla mente.",
+    "grammar_rule": "Richiede la preposizione « per » (concepibile per noi).",
+    "related_forms": "⚡ Aggettivo: 'concepibile per' ➜ Verbo correlato: 'pensare' / Nome correlato: 'sogno di'",
+    "examples": [
+      "Una crudeltà del genere non è concepibile per la mente umana.",
+      "Un risultato appena concepibile per la nostra squadra."
+    ],
+    "common_mistake": "❌ Non è concepibile a noi accettare la truffa. ➜ ✅ Non è concepibile per noi accettare la truffa.",
+    "synonyms": [
+      "immaginabile per",
+      "ammissibile per"
+    ],
+    "antonyms": [
+      "inconcepibile per",
+      "assurdo per"
+    ]
+  },
+  "inconcepibile per": {
+    "word_type": "adjective",
+    "prepositions": [
+      "per"
+    ],
+    "pattern": "inconcepibile + per + [mente/logica]",
+    "level": "B2",
+    "definition": "Che urta la logica ed è impossibile da immaginare.",
+    "grammar_rule": "Richiede la preposizione « per » (inconcepibile per l'etica).",
+    "related_forms": "⚡ Aggettivo: 'inconcepibile per' ➜ Verbo correlato: 'rifiutarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Un comportamento del tutto inconcepibile per un medico.",
+      "Inconcepibile per il senso comune."
+    ],
+    "common_mistake": "❌ Inconcepibile a la nostra mentalità. ➜ ✅ Inconcepibile per la nostra mentalità.",
+    "synonyms": [
+      "assurdo per",
+      "inaccettabile per"
+    ],
+    "antonyms": [
+      "concepibile per",
+      "ammissibile per"
+    ]
+  },
+  "condizionato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "condizionato + da + [fattore/ambiente]",
+    "level": "B2",
+    "definition": "Il cui svolgimento dipende dall'influenza di un fattore.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'condizionato da' ➜ Verbo correlato: 'dipendere' / Nome correlato: 'dipendenza da'",
+    "examples": [
+      "Le nostre scelte sono spesso condizionate dall'ambiente.",
+      "Un giudizio condizionato dai pregiudizi."
+    ],
+    "common_mistake": "❌ Una scelta condizionata di i soldi. ➜ ✅ Una scelta condizionata dai soldi.",
+    "synonyms": [
+      "subordinato a",
+      "influenzato da"
+    ],
+    "antonyms": [
+      "incondizionato da",
+      "autonomo da"
+    ]
+  },
+  "incondizionato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "incondizionato + da + [limiti/condizioni]",
+    "level": "B2",
+    "definition": "Assoluto e non limitato da alcuna clausola.",
+    "grammar_rule": "Richiede la preposizione « da » (incondizionato da vincoli).",
+    "related_forms": "⚡ Aggettivo: 'incondizionato da' ➜ Verbo correlato: 'disfarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Offrire un appoggio incondizionato alla causa della pace.",
+      "Un amore incondizionato dai difetti."
+    ],
+    "common_mistake": "❌ Un sostegno incondizionato di le regole. ➜ ✅ Un sostegno incondizionato da regole.",
+    "synonyms": [
+      "assoluto da",
+      "pieno da"
+    ],
+    "antonyms": [
+      "condizionato da"
+    ]
+  },
+  "infastidito da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "infastidito + da + [rumore/comportamento]",
+    "level": "B2",
+    "definition": "Provato da un senso di sottile irritazione o molestia.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'infastidito da' ➜ Verbo correlato: 'lamentarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Il cliente si è mostrato infastidito dal continuo ritardo.",
+      "Infastidito dalla luce abbagliante della sala."
+    ],
+    "common_mistake": "❌ Infastidito di il rumore del traffico. ➜ ✅ Infastidito dal rumore del traffico.",
+    "synonyms": [
+      "irritato da",
+      "incomodato da"
+    ],
+    "antonyms": [
+      "compiaciuto da",
+      "tranquillizzato da"
+    ]
+  },
+  "irritato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "irritato + da + [parole/ritardo]",
+    "level": "B2",
+    "definition": "Nervoso e contrariato per un atto irrispettoso.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'irritato da' ➜ Verbo correlato: 'protestare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "È apparso molto irritato dalle domande provocatorie.",
+      "Irritato dal comportamento scorretto del collega."
+    ],
+    "common_mistake": "❌ Irritato per del ritardo dei treni. ➜ ✅ Irritato dal ritardo dei treni.",
+    "synonyms": [
+      "indignato da",
+      "infastidito da"
+    ],
+    "antonyms": [
+      "calmato da",
+      "placato da"
+    ]
+  },
+  "indignato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da",
+      "per"
+    ],
+    "pattern": "indignato + da/per + [ingiustizia]",
+    "level": "B2",
+    "definition": "Profondamente adirato per un fatto ingiusto o immorale.",
+    "grammar_rule": "Usa « da » per l'agente o « per » per il motivo.",
+    "related_forms": "⚡ Aggettivo: 'indignato da' ➜ Verbo correlato: 'protestare' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "La popolazione si è detta indignata dallo scandalo politico.",
+      "Indignati per la palese ingiustizia del verdetto."
+    ],
+    "common_mistake": "❌ Indignato di la risposta ricevuta. ➜ ✅ Indignato dalla risposta ricevuta.",
+    "synonyms": [
+      "scandalizzato da",
+      "sdegnato da"
+    ],
+    "antonyms": [
+      "soddisfatto da",
+      "incurante di"
+    ]
+  },
+  "intollerante verso": {
+    "word_type": "adjective",
+    "prepositions": [
+      "verso",
+      "con"
+    ],
+    "pattern": "intollerante + verso/con + [minoranza/opinione]",
+    "level": "B2",
+    "definition": "Rigido e privo di apertura morale verso la diversità.",
+    "grammar_rule": "Usa « verso » o « con » per persone o idee.",
+    "related_forms": "⚡ Aggettivo: 'intollerante verso' ➜ Verbo correlato: 'opporsi' / Nome correlato: 'opposizione a'",
+    "examples": [
+      "Un regime dittatoriale intollerante verso ogni dissenso.",
+      "Essere intollerante verso le opinioni religiose diverse."
+    ],
+    "common_mistake": "❌ Intollerante a la diversità culturale. ➜ ✅ Intollerante verso la diversità culturale.",
+    "synonyms": [
+      "incomprensivo verso",
+      "ostile a"
+    ],
+    "antonyms": [
+      "tollerante verso",
+      "comprensivo con"
+    ]
+  },
+  "invariato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "invariato + da + [tempo/data]",
+    "level": "B2",
+    "definition": "Mantenutosi perfettamente uguale senza subire modifiche nel tempo.",
+    "grammar_rule": "Richiede la preposizione « da » (invariato da anni).",
+    "related_forms": "⚡ Aggettivo: 'invariato da' ➜ Verbo correlato: 'vivere' / Nome correlato: 'modo di'",
+    "examples": [
+      "I prezzi della tariffa sono rimasti invariati da tre anni.",
+      "Un paesaggio rimasto invariato dal Medioevo."
+    ],
+    "common_mistake": "❌ Il prezzo è invariato di anni. ➜ ✅ Il prezzo è invariato da anni.",
+    "synonyms": [
+      "immutato da",
+      "costante da"
+    ],
+    "antonyms": [
+      "variato da",
+      "modificato da"
+    ]
+  },
+  "legittimato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "legittimato + a + [infinito/ruolo]",
+    "level": "B2",
+    "definition": "Fornito dell'autorità legale o morale per compiere un atto.",
+    "grammar_rule": "Richiede la preposizione « a » prima dell'infinito.",
+    "related_forms": "⚡ Aggettivo: 'legittimato a' ➜ Verbo correlato: 'permettere' / Nome correlato: 'diritto a'",
+    "examples": [
+      "Solo il presidente è legittimato a firmare il trattato.",
+      "Sentirsi legittimato a esprimere la propria opinione."
+    ],
+    "common_mistake": "❌ Legittimato di parlare a nome di tutti. ➜ ✅ Legittimato a parlare a nome di tutti.",
+    "synonyms": [
+      "autorizzato a",
+      "intitolato a"
+    ],
+    "antonyms": [
+      "illegittimo a",
+      "squalificato da"
+    ]
+  },
+  "libero da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "libero + da + [obbligo/peso/colpa]",
+    "level": "B2",
+    "definition": "Svincolato e non gravato da vincoli o preoccupazioni.",
+    "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'libero da' ➜ Verbo correlato: 'sbarazzarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Finalmente libero da ogni debito finanziario.",
+      "Un giudizio obiettivo e libero da pregiudizi morali."
+    ],
+    "common_mistake": "❌ Un uomo libero di impegni lavorativi. ➜ ✅ Un uomo libero da impegni lavorativi.",
+    "synonyms": [
+      "svincolato da",
+      "franco da"
+    ],
+    "antonyms": [
+      "vincolato a",
+      "occupato in"
+    ]
+  },
+  "limitato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "limitato + a + [campo/ambito]",
+    "level": "B2",
+    "definition": "Contenuto ed entro un raggio circoscritto di applicazione.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'limitato a' ➜ Verbo correlato: 'astenersi' / Nome correlato: 'freno a'",
+    "examples": [
+      "L'accesso alla sala è limitato al personale autorizzato.",
+      "Un danno limitato a poche componenti dell'auto."
+    ],
+    "common_mistake": "❌ Un uso limitato di la città di Roma. ➜ ✅ Un uso limitato alla città di Roma.",
+    "synonyms": [
+      "circoscritto a",
+      "ristretto a"
+    ],
+    "antonyms": [
+      "illimitato a",
+      "esteso a"
+    ]
+  },
+  "mosso da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "mosso + da + [sentimento/interessi]",
+    "level": "B2",
+    "definition": "Spinto all'azione da un preciso motivo interno.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'mosso da' ➜ Verbo correlato: 'spingere' / Nome correlato: 'spinta a'",
+    "examples": [
+      "Ha agito mosso da un nobile sentimento di altruismo.",
+      "Un'azione mossa da bassi interessi personali."
+    ],
+    "common_mistake": "❌ Mosso di la curiosità di sapere. ➜ ✅ Mosso dalla curiosità di sapere.",
+    "synonyms": [
+      "spinto da",
+      "animato da"
+    ],
+    "antonyms": [
+      "inerme davanti a"
+    ]
+  },
+  "orientato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a",
+      "verso"
+    ],
+    "pattern": "orientato + a/verso + [scopo/mercato]",
+    "level": "B2",
+    "definition": "Rivolto ed indirizzato verso un determinato obiettivo.",
+    "grammar_rule": "Usa « a » o « verso » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'orientato a' ➜ Verbo correlato: 'dirigersi' / Nome correlato: 'modo di'",
+    "examples": [
+      "Una strategia aziendale fortemente orientata al cliente.",
+      "Un corso di studi orientato al mondo del lavoro."
+    ],
+    "common_mistake": "❌ Un progetto orientato di i risultati rapidi. ➜ ✅ Un progetto orientato ai risultati rapidi.",
+    "synonyms": [
+      "indirizzato a",
+      "finalizzato a"
+    ],
+    "antonyms": [
+      "disorientato da"
+    ]
+  },
+  "pari a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "pari + a + [valore/misura]",
+    "level": "B2",
+    "definition": "Equivalente ed uguale in numero, valore o dignità.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'pari a' ➜ Verbo correlato: 'sovrapporsi' / Nome correlato: 'differenza tra'",
+    "examples": [
+      "Il costo complessivo è pari a cento euro.",
+      "Avere un guadagno pari alle aspettative iniziali."
+    ],
+    "common_mistake": "❌ Un importo pari di la cifra richiesta. ➜ ✅ Un importo pari alla cifra richiesta.",
+    "synonyms": [
+      "uguale a",
+      "equivalente a"
+    ],
+    "antonyms": [
+      "impari a",
+      "diverso da"
+    ]
+  },
+  "pertinente a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "pertinente + a + [tema/causa]",
+    "level": "B2",
+    "definition": "Che ha diretta rilevanza ed è opportuno per un argomento.",
+    "grammar_rule": "Richiede la preposizione « a » con relative preposizioni articolate.",
+    "related_forms": "⚡ Aggettivo: 'pertinente a' ➜ Verbo correlato: 'riferirsi' / Nome correlato: 'attinenza con'",
+    "examples": [
+      "Fornire soltanto informazioni pertinenti alla domanda.",
+      "Tutti i documenti pertinenti alla causa legale."
+    ],
+    "common_mistake": "❌ Un argomento non pertinente di la lezione. ➜ ✅ Un argomento non pertinente alla lezione.",
+    "synonyms": [
+      "inerente a",
+      "attinente a"
+    ],
+    "antonyms": [
+      "impertinente a",
+      "estraneo a"
+    ]
+  },
+  "vincolato a": {
+    "word_type": "adjective",
+    "prepositions": [
+      "a"
+    ],
+    "pattern": "vincolato + a + [condizione/contratto]",
+    "level": "B2",
+    "definition": "Legato da un obbligo giuridico o clausola immodificabile.",
+    "grammar_rule": "Richiede la preposizione « a » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'vincolato a' ➜ Verbo correlato: 'costringere' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Il finanziamento è vincolato all'acquisto della casa.",
+      "Essere vincolato a un segreto professionale."
+    ],
+    "common_mistake": "❌ Vincolato di le decisioni della maggioranza. ➜ ✅ Vincolato alle decisioni della maggioranza.",
+    "synonyms": [
+      "obbligato a",
+      "legato a"
+    ],
+    "antonyms": [
+      "svincolato da",
+      "libero da"
+    ]
+  },
+  "svincolato da": {
+    "word_type": "adjective",
+    "prepositions": [
+      "da"
+    ],
+    "pattern": "svincolato + da + [obbligo/clausola]",
+    "level": "B2",
+    "definition": "Liberato da un impegno o vincolo contrattuale.",
+    "grammar_rule": "Richiede la preposizione « da » con relative articolazioni.",
+    "related_forms": "⚡ Aggettivo: 'svincolato da' ➜ Verbo correlato: 'sbarazzarsi' / Nome correlato: 'mancanza di'",
+    "examples": [
+      "Ormai svincolato da qualsiasi obbligo lavorativo.",
+      "Un calciatore svincolato da contratti d'ingaggio."
+    ],
+    "common_mistake": "❌ Svincolato di ogni impegno preso. ➜ ✅ Svincolato da ogni impegno preso.",
+    "synonyms": [
+      "libero da",
+      "autonomo da"
+    ],
+    "antonyms": [
+      "vincolato a",
+      "legato a"
+    ]
+  }
+}
