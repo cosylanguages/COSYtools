@@ -56,6 +56,13 @@
 
     --accent-color: #d66161;
 
+    /* ── Language Accents ── */
+    --fr-accent: #b84d2a;
+    --it-accent: #0d9488;
+    --el-accent: #2563eb;
+    --ru-accent: #4a148c;
+    --en-accent: #ea580c;
+
     /* ── Mistake block variables ── */
     --mistake-bg:          #FFFDF5;
     --mistake-header-bg:   #FFF8F0;
@@ -181,6 +188,13 @@ html[data-theme="dark"], body.theme-dark {
     --surface-color:    #222b22;
     --text-color:       var(--ink);
     --light-gray:       var(--cream-dark);
+
+    /* ── Language Accents Dark Overrides ── */
+    --fr-accent: #e07a5f;
+    --it-accent: #2dd4bf;
+    --el-accent: #60a5fa;
+    --ru-accent: #c084fc;
+    --en-accent: #fb923c;
 
     /* ── Dark overrides for light color tints ── */
     --honey-pale:  #2d2417;
