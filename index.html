@@ -24,13 +24,13 @@
     <script src="shared/js/engine.js"></script>
     <style>
         .engines-hub-page {
-            background-color: var(--paper-bg, #FAF7F2);
-            color: var(--ink, #1b4332);
+            background-color: var(--paper-bg);
+            color: var(--ink);
         }
         .hero-tag {
             display: inline-block;
-            background: var(--sage-light, #eaf4ee);
-            color: var(--sage-dark, #1c4d32);
+            background: var(--sage-light);
+            color: var(--sage-dark);
             padding: 4px 12px;
             border-radius: 99px;
             font-size: 0.85rem;
@@ -53,26 +53,26 @@
         .filter-label {
             font-weight: 700;
             font-size: 0.85rem;
-            color: var(--text-soft, #555);
+            color: var(--ink-soft);
             min-width: 80px;
         }
         .engine-card {
-            background: var(--card-bg, #ffffff);
-            border: 1px solid var(--border-color, #e0dcd5);
+            background: var(--surface-color);
+            border: 1px solid var(--border);
             border-radius: 16px;
             padding: 1.5rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
+            box-shadow: var(--shadow-sm);
             text-decoration: none;
             color: inherit;
         }
         .engine-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 12px 24px rgba(27,67,50,0.12);
-            border-color: var(--sage, #2d6a4f);
+            box-shadow: var(--shadow);
+            border-color: var(--sage);
         }
         .engine-card-top {
             display: flex;
@@ -84,26 +84,26 @@
             font-size: 2.2rem;
             line-height: 1;
             flex-shrink: 0;
-            background: var(--warm-white, #fdfbf7);
+            background: var(--warm-white);
             padding: 10px;
             border-radius: 12px;
-            border: 1px solid var(--border-color, #e0dcd5);
+            border: 1px solid var(--border);
         }
         .engine-title-area h3 {
             margin: 0 0 0.25rem 0;
             font-size: 1.2rem;
             font-weight: 700;
-            color: var(--ink, #1b4332);
-            font-family: 'DM Sans', sans-serif;
+            color: var(--ink);
+            font-family: var(--font-sans);
         }
         .engine-subtitle {
             font-size: 0.85rem;
-            color: var(--sage-dark, #2d6a4f);
+            color: var(--sage-dark);
             font-weight: 600;
         }
         .engine-desc {
             font-size: 0.9rem;
-            color: #4a5568;
+            color: var(--ink-soft);
             line-height: 1.5;
             margin-bottom: 1.25rem;
         }
@@ -117,8 +117,8 @@
             font-size: 0.75rem;
             padding: 2px 8px;
             border-radius: 6px;
-            background: #f0f4f1;
-            color: #2d6a4f;
+            background: var(--sage-mist);
+            color: var(--sage-dark);
             font-weight: 600;
         }
         .engine-cta-btn {
@@ -126,7 +126,7 @@
             align-items: center;
             justify-content: center;
             gap: 0.5rem;
-            background: var(--sage, #2d6a4f);
+            background: var(--sage);
             color: #ffffff;
             font-weight: 700;
             padding: 0.65rem 1rem;
@@ -136,7 +136,7 @@
             text-align: center;
         }
         .engine-card:hover .engine-cta-btn {
-            background: var(--sage-dark, #1b4332);
+            background: var(--sage-dark);
         }
         .engines-grid {
             display: grid;
@@ -151,19 +151,19 @@
             font-size: 1.4rem;
             font-weight: 800;
             margin: 2.5rem 0 1.25rem 0;
-            color: var(--ink, #1b4332);
-            border-bottom: 2px solid var(--sage-light, #eaf4ee);
+            color: var(--ink);
+            border-bottom: 2px solid var(--sage-pale);
             padding-bottom: 0.5rem;
         }
         .category-header span {
             font-size: 0.9rem;
-            color: #718096;
+            color: var(--ink-faint);
             font-weight: 500;
             margin-left: auto;
         }
     </style>
 </head>
-<body>
+<body class="engines-hub-page">
 <div class="cw-nav-links">
         <a href="https://cosylanguages.github.io/COSYlanguages/index.html" target="_blank" rel="noopener">Official Website ↗</a>
       </div>
