@@ -1,0 +1,5593 @@
+{
+  "influence": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "influence [someone / something] (direct object)",
+    "level": "B1",
+    "definition": "To have an effect on the character, development, or behavior of someone or something.",
+    "grammar_rule": "Direct transitive verb without preposition! Do NOT use 'on' after the verb 'influence'. However, the noun 'influence' DOES take 'on'.",
+    "noun_parallel": "⚡ Verb: 'It influences me' (no prep) ➔ Noun: 'It has an influence ON me' (uses ON)",
+    "examples": [
+      "Weather can strongly influence people's mood.",
+      "His speeches influenced millions of voters."
+    ],
+    "common_mistake": "❌ It influences on my decision. ➔ ✅ It influences my decision. (OR: It has an influence on my decision.)",
+    "synonyms": [
+      "affect",
+      "impact",
+      "sway"
+    ],
+    "antonyms": [
+      "ignore",
+      "leave untouched"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "affect": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "affect [someone / something] (direct object)",
+    "level": "B1",
+    "definition": "To produce a change or influence in someone or something.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'on'. (Note: The noun 'effect' takes 'on').",
+    "noun_parallel": "⚡ Verb: 'Climate change affects wildlife' (no prep) ➔ Noun: 'It has an effect ON wildlife' (uses ON)",
+    "examples": [
+      "The new tax laws will affect small business owners.",
+      "Lack of sleep negatively affects your health."
+    ],
+    "common_mistake": "❌ Smoking affects on health. ➔ ✅ Smoking affects health. (OR: Smoking has an effect on health.)",
+    "synonyms": [
+      "influence",
+      "impact",
+      "alter"
+    ],
+    "antonyms": [
+      "leave unaffected",
+      "ignore"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "impact": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "impact [something] (direct object) OR impact on [something]",
+    "level": "B2",
+    "definition": "To have a strong effect or influence on someone or something.",
+    "grammar_rule": "As a verb, 'impact' can take a direct object or 'on'. As a noun, it always takes 'on'.",
+    "noun_parallel": "⚡ Verb: 'This policy impacts local business' ➔ Noun: 'This policy has an impact ON local business'",
+    "examples": [
+      "The decision will impact on future generations.",
+      "Technology heavily impacts our daily routines."
+    ],
+    "common_mistake": "❌ A negative impact for society. ➔ ✅ A negative impact on society.",
+    "synonyms": [
+      "affect",
+      "influence"
+    ],
+    "antonyms": [
+      "leave unaffected",
+      "have no effect on"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "answer": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "to"
+    ],
+    "pattern": "answer [a question / person / door] (direct object)",
+    "level": "A1",
+    "definition": "To say, write, or do something as a reaction to a question, call, or letter.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'to' when answering a question/person. However, the noun 'answer' takes 'to'.",
+    "noun_parallel": "⚡ Verb: 'I answered her question' (no prep) ➔ Noun: 'Here is the answer TO her question' (uses TO)",
+    "examples": [
+      "Please answer the phone.",
+      "He answered all my questions patiently."
+    ],
+    "common_mistake": "❌ She answered to my email. ➔ ✅ She answered my email. (OR: She sent an answer to my email.)",
+    "synonyms": [
+      "reply to",
+      "respond to"
+    ],
+    "antonyms": [
+      "ask",
+      "question"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "contact": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "contact [someone] (direct object)",
+    "level": "A2",
+    "definition": "To communicate or get in touch with someone by phone, email, or letter.",
+    "grammar_rule": "Direct transitive verb without preposition. However, the phrase 'be in contact' takes 'with'.",
+    "noun_parallel": "⚡ Verb: 'Contact me tomorrow' (no prep) ➔ Noun: 'Keep in contact WITH me' (uses WITH)",
+    "examples": [
+      "Please contact customer support for assistance.",
+      "I will contact you as soon as I arrive."
+    ],
+    "common_mistake": "❌ Contact with me later. ➔ ✅ Contact me later.",
+    "synonyms": [
+      "reach",
+      "get in touch with"
+    ],
+    "antonyms": [
+      "avoid",
+      "ignore"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "visit": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "visit [a place / person] (direct object)",
+    "level": "A1",
+    "definition": "To go to see a person or place for pleasure, business, or social reasons.",
+    "grammar_rule": "Direct transitive verb! Do NOT use 'to'. However, the noun 'visit' takes 'to'.",
+    "noun_parallel": "⚡ Verb: 'We visited Rome last summer' (no prep) ➔ Noun: 'We paid a visit TO Rome' (uses TO)",
+    "examples": [
+      "We visited our grandparents last weekend.",
+      "Thousands of tourists visit the museum every day."
+    ],
+    "common_mistake": "❌ I visited to London. ➔ ✅ I visited London. (OR: I went on a visit to London.)",
+    "synonyms": [
+      "see",
+      "call on"
+    ],
+    "antonyms": [
+      "avoid",
+      "depart from"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "approach": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "approach [someone / something] (direct object)",
+    "level": "B1",
+    "definition": "To come near or nearer to someone or something in distance or time.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'to'. However, the noun 'approach' takes 'to'.",
+    "noun_parallel": "⚡ Verb: 'The train approached the station' (no prep) ➔ Noun: 'Our approach TO the problem' (uses TO)",
+    "examples": [
+      "As winter approaches, temperatures drop.",
+      "A stranger approached me on the street."
+    ],
+    "common_mistake": "❌ He approached to the manager. ➔ ✅ He approached the manager.",
+    "synonyms": [
+      "near",
+      "draw close to"
+    ],
+    "antonyms": [
+      "recede",
+      "retreat from"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "lack": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "lack [something] (direct object)",
+    "level": "B1",
+    "definition": "To not have or not have enough of something.",
+    "grammar_rule": "As a verb, 'lack' takes a direct object (no preposition). As a noun, 'lack' takes 'of'.",
+    "noun_parallel": "⚡ Verb: 'He lacks confidence' (no prep) ➔ Noun: 'A lack OF confidence' (uses OF)",
+    "examples": [
+      "The applicant lacks relevant work experience.",
+      "She never lacks creative ideas."
+    ],
+    "common_mistake": "❌ He lacks of experience. ➔ ✅ He lacks experience. (OR: He suffers from a lack of experience.)",
+    "synonyms": [
+      "want",
+      "need",
+      "short of"
+    ],
+    "antonyms": [
+      "possess",
+      "have"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "demand": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "for"
+    ],
+    "pattern": "demand [something] (direct object)",
+    "level": "B1",
+    "definition": "To ask for something authoritatively or forcefully.",
+    "grammar_rule": "Verb takes a direct object without preposition. Noun 'demand' takes 'for'.",
+    "noun_parallel": "⚡ Verb: 'They demand higher wages' (no prep) ➔ Noun: 'There is a high demand FOR workers' (uses FOR)",
+    "examples": [
+      "Workers demand fair compensation.",
+      "The customer demanded an immediate refund."
+    ],
+    "common_mistake": "❌ They demanded for an answer. ➔ ✅ They demanded an answer.",
+    "synonyms": [
+      "require",
+      "insist on",
+      "claim"
+    ],
+    "antonyms": [
+      "offer",
+      "concede"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "request": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "request [something] (direct object)",
+    "level": "B1",
+    "definition": "To ask for something politely or formally.",
+    "grammar_rule": "Direct transitive verb without preposition. Noun 'request' takes 'for'.",
+    "noun_parallel": "⚡ Verb: 'She requested assistance' (no prep) ➔ Noun: 'A request FOR assistance' (uses FOR)",
+    "examples": [
+      "Passengers are requested to remain seated.",
+      "I requested a copy of the official transcript."
+    ],
+    "common_mistake": "❌ I requested for a room upgrade. ➔ ✅ I requested a room upgrade.",
+    "synonyms": [
+      "ask for",
+      "solicit"
+    ],
+    "antonyms": [
+      "offer",
+      "provide"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "arrive": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "in"
+    ],
+    "pattern": "arrive at [building / station] OR arrive in [city / country]",
+    "level": "A1",
+    "definition": "To reach a destination.",
+    "grammar_rule": "Use 'arrive AT' for buildings, stations, airports, events. Use 'arrive IN' for cities, countries, towns. NEVER use 'to'!",
+    "examples": [
+      "We arrived at the airport two hours early.",
+      "They arrived in Tokyo yesterday evening."
+    ],
+    "common_mistake": "❌ We arrived to London. ➔ ✅ We arrived in London.",
+    "synonyms": [
+      "reach",
+      "get to"
+    ],
+    "antonyms": [
+      "depart",
+      "leave"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "agree": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with",
+      "on",
+      "to"
+    ],
+    "pattern": "agree with [person] / agree on [topic] / agree to [proposal]",
+    "level": "A1",
+    "definition": "To share the same opinion or accept a proposal.",
+    "grammar_rule": "Use 'with' for people, 'on/about' for topics/terms, and 'to' for plans/terms/requests.",
+    "examples": [
+      "I completely agree with you.",
+      "They agreed on the price.",
+      "She agreed to our terms."
+    ],
+    "common_mistake": "❌ I am agree with you. ➔ ✅ I agree with you.",
+    "synonyms": [
+      "concur",
+      "consent"
+    ],
+    "antonyms": [
+      "disagree",
+      "dissent"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "ask": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "for",
+      "about"
+    ],
+    "pattern": "ask [someone] a question (VT) / ask for [item/help] (VI)",
+    "level": "A1",
+    "definition": "To inquire about something or request an item/favor.",
+    "grammar_rule": "'Ask someone' (direct object for question/person); 'ask FOR something' when requesting an item or help.",
+    "examples": [
+      "If you need help, don't hesitate to ask for it.",
+      "Can I ask you a question?",
+      "She asked about your health."
+    ],
+    "common_mistake": "❌ Ask to the teacher a question. ➔ ✅ Ask the teacher a question.",
+    "synonyms": [
+      "inquire",
+      "request"
+    ],
+    "antonyms": [
+      "answer",
+      "reply"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "pay": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "for",
+      "to"
+    ],
+    "pattern": "pay [money / bill] (VT) / pay for [item] (VI)",
+    "level": "A1",
+    "definition": "To give money for goods, services, or debts.",
+    "grammar_rule": "Direct object for the bill/money ('pay the bill'); use 'FOR' when specifying the item bought ('pay for the coffee').",
+    "examples": [
+      "How much did you pay for that jacket?",
+      "I will pay the bill.",
+      "Pay attention to the details!"
+    ],
+    "common_mistake": "❌ Pay the coffee. ➔ ✅ Pay for the coffee.",
+    "synonyms": [
+      "remit",
+      "settle"
+    ],
+    "antonyms": [
+      "receive payment",
+      "default"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "believe": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "believe [someone / statement] (VT) / believe in [god / concept / oneself] (VI)",
+    "level": "A1",
+    "definition": "To accept something as true, or have faith/trust in something.",
+    "grammar_rule": "Transitive direct 'believe someone' = trust their words. Intransitive 'believe IN someone' = trust their character/existence.",
+    "examples": [
+      "Do you believe in magic?",
+      "I believe every word she said.",
+      "Always believe in yourself."
+    ],
+    "common_mistake": "❌ I believe in what you said. ➔ ✅ I believe what you said.",
+    "synonyms": [
+      "trust",
+      "credit"
+    ],
+    "antonyms": [
+      "doubt",
+      "disbelieve"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "worry": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "worry about [someone / something]",
+    "level": "A2",
+    "definition": "To feel anxious or uneasy about actual or potential problems.",
+    "grammar_rule": "Intransitive uses 'about'. Passive / state form: 'be worried ABOUT'.",
+    "examples": [
+      "Don't worry about the future.",
+      "Parents always worry about their children."
+    ],
+    "common_mistake": "❌ Don't worry for this. ➔ ✅ Don't worry about this.",
+    "synonyms": [
+      "fret",
+      "be anxious"
+    ],
+    "antonyms": [
+      "reassure",
+      "calm"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "laugh": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "laugh at [someone / joke / situation]",
+    "level": "A1",
+    "definition": "To make sounds and facial movements expressing amusement or ridicule.",
+    "grammar_rule": "Requires 'at' when directed at a person, joke, or situation.",
+    "examples": [
+      "Everyone laughed at his hilarious joke.",
+      "Don't laugh at other people's mistakes."
+    ],
+    "common_mistake": "❌ Don't laugh on him. ➔ ✅ Don't laugh at him.",
+    "synonyms": [
+      "giggle",
+      "chuckle",
+      "snicker"
+    ],
+    "antonyms": [
+      "cry",
+      "weep"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look at": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "at",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "look at [someone / something]",
+    "level": "A1",
+    "definition": "To direct your eyes toward someone or something to see them.",
+    "grammar_rule": "Requires 'at' when specifying the target of sight.",
+    "examples": [
+      "Look at that beautiful painting on the wall!",
+      "She looked at me and smiled."
+    ],
+    "common_mistake": "❌ Look to the board! ➔ ✅ Look at the board!",
+    "synonyms": [
+      "observe",
+      "view",
+      "gaze at"
+    ],
+    "antonyms": [
+      "ignore",
+      "look away"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "look for [lost item / person / job]",
+    "level": "A1",
+    "definition": "To attempt to find someone or something that is lost or needed.",
+    "grammar_rule": "Inseparable phrasal verb. Requires 'for' after 'look'.",
+    "examples": [
+      "I am looking for my car keys.",
+      "Are you looking for a new job?"
+    ],
+    "common_mistake": "❌ I am looking my keys. ➔ ✅ I am looking for my keys.",
+    "synonyms": [
+      "search for",
+      "seek"
+    ],
+    "antonyms": [
+      "ignore",
+      "abandon search for"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look after": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "after",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "after"
+    ],
+    "pattern": "look after [child / pet / patient / house]",
+    "level": "A2",
+    "definition": "To take care of or be responsible for someone or something.",
+    "grammar_rule": "Inseparable phrasal verb. Equivalent to 'take care of'.",
+    "examples": [
+      "Could you look after my cat while I am away?",
+      "Nurses look after hospital patients around the clock."
+    ],
+    "common_mistake": "❌ Look after of the baby. ➔ ✅ Look after the baby.",
+    "synonyms": [
+      "take care of",
+      "mind",
+      "tend"
+    ],
+    "antonyms": [
+      "neglect",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "take care of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "care of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "take care of [someone / something]",
+    "level": "A2",
+    "definition": "To protect, mind, or handle responsibility for someone or something.",
+    "grammar_rule": "Three-word inseparable phrasal idiom.",
+    "examples": [
+      "She takes care of her elderly parents.",
+      "Don't worry about the bill; I will take care of it."
+    ],
+    "common_mistake": "❌ Take care for him. ➔ ✅ Take care of him.",
+    "synonyms": [
+      "look after",
+      "attend to",
+      "handle"
+    ],
+    "antonyms": [
+      "neglect"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "think of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "think of [an idea / opinion / person]",
+    "level": "A2",
+    "definition": "To produce an idea or hold an opinion about something.",
+    "grammar_rule": "'Think OF' is used for opinions ('What do you think of X?') or spontaneous ideas ('I thought of a plan').",
+    "examples": [
+      "What do you think of his new proposal?",
+      "I can't think of her name right now."
+    ],
+    "common_mistake": "❌ What do you think about the movie? (when asking overall impression) ➔ ✅ What do you think of the movie?",
+    "synonyms": [
+      "conceive",
+      "opinion on"
+    ],
+    "antonyms": [
+      "forget",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "think about": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "about",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "think about [a decision / problem / topic]",
+    "level": "A1",
+    "definition": "To consider or reflect deeply on something over a period of time.",
+    "grammar_rule": "'Think ABOUT' implies active mental consideration or deliberation.",
+    "examples": [
+      "I need some time to think about your offer.",
+      "What are you thinking about so intently?"
+    ],
+    "common_mistake": "❌ I am thinking to buy a house. ➔ ✅ I am thinking about buying a house.",
+    "synonyms": [
+      "ponder",
+      "consider",
+      "deliberate"
+    ],
+    "antonyms": [
+      "ignore",
+      "dismiss"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "depend": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "depend on [someone / something]",
+    "level": "A2",
+    "definition": "To be controlled, decided, or influenced by someone or something else.",
+    "grammar_rule": "Always requires the preposition 'on' (or formal 'upon') before a noun or gerund object.",
+    "examples": [
+      "Our weekend plans depend on the weather.",
+      "Children depend on their parents for love and security."
+    ],
+    "common_mistake": "❌ It depends of the situation. ➔ ✅ It depends on the situation.",
+    "synonyms": [
+      "rely",
+      "hinge",
+      "count"
+    ],
+    "antonyms": [
+      "be independent of",
+      "stand alone"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "apologize": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "for"
+    ],
+    "pattern": "apologize to [someone] for [doing something]",
+    "level": "A2",
+    "definition": "To express regret or say sorry for doing something wrong.",
+    "grammar_rule": "Use 'to' before the person receiving the apology, and 'for' before the reason or gerund (-ing).",
+    "examples": [
+      "He apologized to his colleagues for being late.",
+      "You should apologize for making that remark."
+    ],
+    "common_mistake": "❌ He apologized me. ➔ ✅ He apologized to me.",
+    "synonyms": [
+      "express regret",
+      "ask forgiveness"
+    ],
+    "antonyms": [
+      "blame",
+      "insist"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "discuss": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "discuss [something] (direct object)",
+    "level": "A2",
+    "definition": "To talk about something in detail with someone.",
+    "grammar_rule": "Strictly transitive direct verb! Do NOT add 'about' after 'discuss'.",
+    "examples": [
+      "We need to discuss the new budget in tomorrow's meeting.",
+      "They discussed the problem openly."
+    ],
+    "common_mistake": "❌ We discussed about the project. ➔ ✅ We discussed the project.",
+    "synonyms": [
+      "debate",
+      "deliberate",
+      "talk over"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "look forward to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "forward to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "look forward to + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To feel excited or pleased about something that is going to happen.",
+    "grammar_rule": "Inseparable 3-part phrasal verb. 'To' is a preposition; always follow with a noun or gerund (-ing).",
+    "examples": [
+      "I look forward to meeting you next week.",
+      "She is looking forward to her summer vacation."
+    ],
+    "common_mistake": "❌ I look forward to meet you. ➔ ✅ I look forward to meeting you.",
+    "synonyms": [
+      "anticipate",
+      "await"
+    ],
+    "antonyms": [
+      "dread"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "listen": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "listen to [someone / something]",
+    "level": "A1",
+    "definition": "To pay attention to sound or give attention to someone speaking.",
+    "grammar_rule": "Requires 'to' when followed by an object. Without an object, 'listen' stands alone.",
+    "examples": [
+      "I love listening to jazz music in the evening.",
+      "Please listen to the teacher carefully."
+    ],
+    "common_mistake": "❌ Listen me! ➔ ✅ Listen to me!",
+    "synonyms": [
+      "pay attention",
+      "hearken"
+    ],
+    "antonyms": [
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "turn down": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "down",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "down"
+    ],
+    "pattern": "turn down [something] OR turn [something / pronoun] down",
+    "level": "B1",
+    "definition": "To reject an offer or invitation, or to reduce the volume/heat.",
+    "grammar_rule": "Separable phrasal verb! Noun objects can go before or after 'down', but pronoun objects MUST go in between (e.g. 'turn IT down').",
+    "examples": [
+      "She turned down the job offer in Paris.",
+      "Please turn the music down before midnight.",
+      "They offered him a promotion, but he turned it down."
+    ],
+    "common_mistake": "❌ He turned down it. ➔ ✅ He turned it down.",
+    "synonyms": [
+      "reject",
+      "refuse",
+      "decline",
+      "lower"
+    ],
+    "antonyms": [
+      "accept",
+      "turn up"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "give up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "give up [habit/item] / give [it] up / give up (intransitive)",
+    "level": "A2",
+    "definition": "To stop doing or having something, or to stop trying.",
+    "grammar_rule": "Transitive direct when stopping a habit (separable: 'give it up'). Intransitive when quitting effort ('Never give up!').",
+    "examples": [
+      "He gave up smoking after ten years.",
+      "Don't give up! You are so close to solving the puzzle.",
+      "It was hard, but she finally gave it up."
+    ],
+    "common_mistake": "❌ He gave up it last year. ➔ ✅ He gave it up last year.",
+    "synonyms": [
+      "quit",
+      "surrender",
+      "abandon"
+    ],
+    "antonyms": [
+      "persist",
+      "continue"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "carry on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "carry on [with work / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To continue doing something without stopping.",
+    "grammar_rule": "Inseparable phrasal verb. Followed by gerund (-ing) or 'with' + noun.",
+    "examples": [
+      "Please carry on with your work while I am out.",
+      "Despite the rain, they carried on playing football."
+    ],
+    "common_mistake": "❌ Carry on to read the book. ➔ ✅ Carry on reading the book.",
+    "synonyms": [
+      "continue",
+      "proceed",
+      "keep going"
+    ],
+    "antonyms": [
+      "stop",
+      "halt"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look up to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "look up to [someone]",
+    "level": "A1",
+    "definition": "To admire and respect someone as a role model.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb. Always follow with 'to' + person.",
+    "examples": [
+      "Young athletes look up to professional players for inspiration.",
+      "She has always looked up to her older sister."
+    ],
+    "common_mistake": "❌ He looks up at his teacher for guidance. ➔ ✅ He looks up to his teacher for guidance.",
+    "synonyms": [
+      "admire",
+      "respect",
+      "revere"
+    ],
+    "antonyms": [
+      "look down on",
+      "despise"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "break down": {
+    "is_phrasal": true,
+    "separability": "Intransitive",
+    "particle": "down",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "down"
+    ],
+    "pattern": "break down (machine / emotional collapse)",
+    "level": "A2",
+    "definition": "To stop functioning (machinery/vehicle) or lose emotional control.",
+    "grammar_rule": "Purely intransitive phrasal verb when referring to mechanical failure or emotional tears.",
+    "examples": [
+      "Our car broke down on the motorway.",
+      "She broke down in tears when she heard the touching news."
+    ],
+    "common_mistake": "❌ The engine broke down us. ➔ ✅ The engine broke down.",
+    "synonyms": [
+      "malfunction",
+      "fail",
+      "collapse"
+    ],
+    "antonyms": [
+      "function",
+      "work properly"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "run out of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "run out of [supply / time / money]",
+    "level": "A1",
+    "definition": "To use up all of something so that none is left.",
+    "grammar_rule": "Inseparable 2-particle phrasal verb requiring 'of' before the exhausted supply.",
+    "examples": [
+      "We ran out of milk this morning during breakfast.",
+      "Hurry up! We are running out of time."
+    ],
+    "common_mistake": "❌ We ran out from gas. ➔ ✅ We ran out of gas.",
+    "synonyms": [
+      "exhaust",
+      "deplete"
+    ],
+    "antonyms": [
+      "replenish",
+      "stock up on"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "take off": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "off",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "off"
+    ],
+    "pattern": "take off (plane/success - VI) / take off [clothing] (VT separable)",
+    "level": "A2",
+    "definition": "To leave the ground (aircraft), become successful, or remove clothing.",
+    "grammar_rule": "Intransitive for planes/success ('The plane took off'). Separable transitive for clothing ('take off your coat' / 'take it off').",
+    "examples": [
+      "The flight took off on schedule.",
+      "Please take off your shoes before entering.",
+      "It was hot, so he took it off."
+    ],
+    "common_mistake": "❌ Take off it. ➔ ✅ Take it off.",
+    "synonyms": [
+      "remove",
+      "depart",
+      "flourish"
+    ],
+    "antonyms": [
+      "land",
+      "put on"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "put off": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "off",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "off"
+    ],
+    "pattern": "put off [something] / put [something / pronoun] off",
+    "level": "B1",
+    "definition": "To delay or postpone an event, or discourage someone.",
+    "grammar_rule": "Separable phrasal verb. Nouns can go after or middle; pronouns MUST go in middle ('put it off').",
+    "examples": [
+      "Never put off until tomorrow what you can do today.",
+      "They put off the meeting until next Monday.",
+      "Don't let one bad experience put you off."
+    ],
+    "common_mistake": "❌ Don't put off it. ➔ ✅ Don't put it off.",
+    "synonyms": [
+      "postpone",
+      "delay",
+      "defer"
+    ],
+    "antonyms": [
+      "expedite",
+      "advance"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "bring up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "bring up [child/topic] / bring [topic / pronoun] up",
+    "level": "B1",
+    "definition": "To raise a child or to introduce a topic into conversation.",
+    "grammar_rule": "Separable phrasal verb. Pronoun object MUST split verb and particle ('bring it up').",
+    "examples": [
+      "She was brought up by her grandparents in Scotland.",
+      "Why did you bring up that uncomfortable subject at dinner?",
+      "It's a delicate topic, so don't bring it up."
+    ],
+    "common_mistake": "❌ Don't bring up it now. ➔ ✅ Don't bring it up now.",
+    "synonyms": [
+      "raise",
+      "mention",
+      "nurture"
+    ],
+    "antonyms": [
+      "suppress",
+      "silence"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "get along with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "along with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "get along with [someone]",
+    "level": "A2",
+    "definition": "To have a harmonious, friendly relationship with someone.",
+    "grammar_rule": "Three-part inseparable phrasal verb. Cannot split 'along with'.",
+    "examples": [
+      "Do you get along with your new room-mate?",
+      "He gets along well with all his colleagues."
+    ],
+    "common_mistake": "❌ I get along my boss. ➔ ✅ I get along with my boss.",
+    "synonyms": [
+      "get on with",
+      "be friendly with"
+    ],
+    "antonyms": [
+      "fall out with",
+      "clash with"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "call off": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "off",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "off"
+    ],
+    "pattern": "call off [event] / call [it] off",
+    "level": "B1",
+    "definition": "To cancel an event, match, or planned agreement.",
+    "grammar_rule": "Separable phrasal verb. Pronoun object must go in middle ('call it off').",
+    "examples": [
+      "They had to call off the football match due to heavy fog.",
+      "The strike was called off after negotiations succeeded.",
+      "They couldn't agree, so they called it off."
+    ],
+    "common_mistake": "❌ They called off it. ➔ ✅ They called it off.",
+    "synonyms": [
+      "cancel",
+      "scrap",
+      "abort"
+    ],
+    "antonyms": [
+      "confirm",
+      "schedule"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "come across": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "across",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "across"
+    ],
+    "pattern": "come across [someone / something]",
+    "level": "B1",
+    "definition": "To find or meet someone or something by chance.",
+    "grammar_rule": "Inseparable phrasal verb! Do not place the object between 'come' and 'across'.",
+    "examples": [
+      "While cleaning the attic, I came across an old family album.",
+      "She came across an interesting article in the magazine."
+    ],
+    "common_mistake": "❌ I came an old photo across. ➔ ✅ I came across an old photo.",
+    "synonyms": [
+      "stumble upon",
+      "find by chance",
+      "encounter"
+    ],
+    "antonyms": [
+      "overlook",
+      "miss"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "figure out": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "out",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "out"
+    ],
+    "pattern": "figure out [solution] / figure [it] out",
+    "level": "B1",
+    "definition": "To understand or solve something after thinking about it.",
+    "grammar_rule": "Separable phrasal verb! 'Figure it out' is the mandatory pronoun placement.",
+    "examples": [
+      "It took me an hour to figure out how to assemble the desk.",
+      "Don't worry, we will figure it out together."
+    ],
+    "common_mistake": "❌ We must figure out it. ➔ ✅ We must figure it out.",
+    "synonyms": [
+      "solve",
+      "comprehend",
+      "work out"
+    ],
+    "antonyms": [
+      "misunderstand",
+      "be confused by"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "fall out with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "fall out with [someone] over [something]",
+    "level": "B2",
+    "definition": "To argue with someone and stop being friendly with them.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "He fell out with his best friend over a silly argument.",
+      "They haven't spoken since they fell out last year."
+    ],
+    "common_mistake": "❌ She fell out her colleague. ➔ ✅ She fell out with her colleague.",
+    "synonyms": [
+      "quarrel with",
+      "bicker with"
+    ],
+    "antonyms": [
+      "make up with",
+      "get along with"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "set up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "set up [business / system] / set [it] up",
+    "level": "A2",
+    "definition": "To establish a business, organization, system, or equipment.",
+    "grammar_rule": "Separable phrasal verb. 'Set it up' requires pronoun in the middle.",
+    "examples": [
+      "She set up her own graphic design agency in 2020.",
+      "The IT team will set up your laptop this afternoon.",
+      "Here is your new router; let's set it up."
+    ],
+    "common_mistake": "❌ Set up it now. ➔ ✅ Set it up now.",
+    "synonyms": [
+      "establish",
+      "install",
+      "found"
+    ],
+    "antonyms": [
+      "dismantle",
+      "disband"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "work out": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "out",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "out"
+    ],
+    "pattern": "work out (exercise - VI) / work out [a plan] (VT separable)",
+    "level": "A2",
+    "definition": "To exercise physically (VI), or calculate/solve a problem (VT separable).",
+    "grammar_rule": "Intransitive for physical fitness. Separable transitive when solving/calculating ('work it out').",
+    "examples": [
+      "I work out at the gym three times a week.",
+      "We need to work out a strategy before launching.",
+      "The math problem was tough, but he worked it out."
+    ],
+    "common_mistake": "❌ Work out it carefully. ➔ ✅ Work it out carefully.",
+    "synonyms": [
+      "exercise",
+      "calculate",
+      "resolve"
+    ],
+    "antonyms": [
+      "fail",
+      "go wrong"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "catch up with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "catch up with [someone]",
+    "level": "B1",
+    "definition": "To reach the same level/position as someone, or meet up to share news.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "She ran fast to catch up with the lead runner.",
+      "Let's grab coffee this weekend to catch up with each other."
+    ],
+    "common_mistake": "❌ Catch up my friends. ➔ ✅ Catch up with my friends.",
+    "synonyms": [
+      "overtake",
+      "rejoin"
+    ],
+    "antonyms": [
+      "fall behind"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "keep up with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "keep up with [someone / news / pace]",
+    "level": "B1",
+    "definition": "To move at the same speed as someone, or stay informed about current events.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "Slow down! I can't keep up with you.",
+      "It is difficult to keep up with rapid technological changes."
+    ],
+    "common_mistake": "❌ Keep up the technology trends. ➔ ✅ Keep up with technological trends.",
+    "synonyms": [
+      "match pace with",
+      "stay abreast of"
+    ],
+    "antonyms": [
+      "fall behind"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "pass out": {
+    "is_phrasal": true,
+    "separability": "Intransitive",
+    "particle": "out",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "out"
+    ],
+    "pattern": "pass out (faint)",
+    "level": "B1",
+    "definition": "To lose consciousness temporarily; faint.",
+    "grammar_rule": "Intransitive phrasal verb.",
+    "examples": [
+      "The room was so hot that two attendees passed out.",
+      "He nearly passed out from exhaustion."
+    ],
+    "common_mistake": "❌ He passed out the exam. ➔ ✅ He passed out (fainted).",
+    "synonyms": [
+      "faint",
+      "black out"
+    ],
+    "antonyms": [
+      "come to",
+      "revive"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look into": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "into",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "into"
+    ],
+    "pattern": "look into [a matter / issue]",
+    "level": "B1",
+    "definition": "To investigate, research, or examine a problem or situation.",
+    "grammar_rule": "Inseparable phrasal verb! Always put object after 'into'.",
+    "examples": [
+      "The police are looking into the cause of the fire.",
+      "Our support team will look into your complaint immediately."
+    ],
+    "common_mistake": "❌ I will look the complaint into. ➔ ✅ I will look into the complaint.",
+    "synonyms": [
+      "investigate",
+      "examine",
+      "probe"
+    ],
+    "antonyms": [
+      "ignore",
+      "overlook"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "put up with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "put up with [someone / annoyance]",
+    "level": "B2",
+    "definition": "To tolerate or endure an unpleasant person or situation without complaining.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "I don't know how she puts up with all that noise.",
+      "We shouldn't have to put up with rude behavior."
+    ],
+    "common_mistake": "❌ Put up the noise. ➔ ✅ Put up with the noise.",
+    "synonyms": [
+      "tolerate",
+      "endure",
+      "bear",
+      "stand"
+    ],
+    "antonyms": [
+      "protest",
+      "reject"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "go through": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "through",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "through"
+    ],
+    "pattern": "go through [hardship / documents]",
+    "level": "B1",
+    "definition": "To experience a difficult situation, or examine details in documents.",
+    "grammar_rule": "Inseparable phrasal verb.",
+    "examples": [
+      "She has gone through a tough time recently.",
+      "Let's go through the contract step by step."
+    ],
+    "common_mistake": "❌ Go the document through. ➔ ✅ Go through the document.",
+    "synonyms": [
+      "undergo",
+      "examine",
+      "review"
+    ],
+    "antonyms": [
+      "avoid",
+      "bypass"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "bring about": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "about",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "bring about [change] / bring [it] about",
+    "level": "B2",
+    "definition": "To cause something to happen or exist.",
+    "grammar_rule": "Separable phrasal verb. 'Bring it about' requires pronoun in middle.",
+    "examples": [
+      "New policy changes brought about significant improvement.",
+      "What brought about this sudden decision?"
+    ],
+    "common_mistake": "❌ Bring about it. ➔ ✅ Bring it about.",
+    "synonyms": [
+      "cause",
+      "engender",
+      "produce"
+    ],
+    "antonyms": [
+      "prevent"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "cut down on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "down on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "cut down on [sugar / spending / intake]",
+    "level": "B1",
+    "definition": "To reduce the amount or quantity of something consumed.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "The doctor advised him to cut down on sugar.",
+      "We need to cut down on monthly household expenses."
+    ],
+    "common_mistake": "❌ Cut down sugar. ➔ ✅ Cut down on sugar.",
+    "synonyms": [
+      "reduce",
+      "curtail",
+      "slash"
+    ],
+    "antonyms": [
+      "increase",
+      "boost"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "get over": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "over",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "over"
+    ],
+    "pattern": "get over [illness / disappointment / person]",
+    "level": "B1",
+    "definition": "To recover from an illness, shock, or emotional difficulty.",
+    "grammar_rule": "Inseparable phrasal verb! Object always follows 'over'.",
+    "examples": [
+      "It took him weeks to get over the flu.",
+      "She finally got over her breakup."
+    ],
+    "common_mistake": "❌ I got the cold over. ➔ ✅ I got over the cold.",
+    "synonyms": [
+      "recover from",
+      "overcome"
+    ],
+    "antonyms": [
+      "succumb to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "grow up": {
+    "is_phrasal": true,
+    "separability": "Intransitive",
+    "particle": "up",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "grow up (in a place / as a child)",
+    "level": "A1",
+    "definition": "To gradually advance from childhood to adulthood.",
+    "grammar_rule": "Intransitive phrasal verb. (Compare with transitive 'bring up' = raise a child).",
+    "examples": [
+      "He grew up in a small coastal town.",
+      "What do you want to be when you grow up?"
+    ],
+    "common_mistake": "❌ She grew up her child. ➔ ✅ She raised / brought up her child.",
+    "synonyms": [
+      "mature"
+    ],
+    "antonyms": [
+      "regress",
+      "remain child-like"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "show off": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "off",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "off"
+    ],
+    "pattern": "show off (boast - VI) / show off [skills] (VT separable)",
+    "level": "B1",
+    "definition": "To boast or display abilities/possessions proudly to impress others.",
+    "grammar_rule": "Intransitive when boasting ('Stop showing off!'). Separable transitive ('show off your trophy' / 'show it off').",
+    "examples": [
+      "He loves showing off his sports car.",
+      "She bought a new jacket and couldn't wait to show it off."
+    ],
+    "common_mistake": "❌ Show off it. ➔ ✅ Show it off.",
+    "synonyms": [
+      "boast",
+      "flaunt",
+      "parade"
+    ],
+    "antonyms": [
+      "conceal",
+      "play down"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "pick up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "pick up [object/person/language] / pick [it] up",
+    "level": "A1",
+    "definition": "To lift something, collect a person/item, or learn a skill casually.",
+    "grammar_rule": "Separable phrasal verb. 'Pick it up' requires pronoun in middle.",
+    "examples": [
+      "He picked up the heavy box from the floor.",
+      "I will pick you up at the station at six.",
+      "She picked up conversational Italian while living in Rome."
+    ],
+    "common_mistake": "❌ Pick up it. ➔ ✅ Pick it up.",
+    "synonyms": [
+      "lift",
+      "collect",
+      "acquire"
+    ],
+    "antonyms": [
+      "drop",
+      "put down"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "hold on": {
+    "is_phrasal": true,
+    "separability": "Intransitive",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "hold on (wait / grasp tightly)",
+    "level": "A1",
+    "definition": "To wait for a short time, or keep a tight grip on something.",
+    "grammar_rule": "Intransitive phrasal verb.",
+    "examples": [
+      "Hold on a minute, I need to tie my shoelace.",
+      "Hold on tight to the railing!"
+    ],
+    "common_mistake": "❌ Hold on the phone me. ➔ ✅ Hold on a second.",
+    "synonyms": [
+      "wait",
+      "hang on",
+      "clings"
+    ],
+    "antonyms": [
+      "let go",
+      "release"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "back up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "back up [data/person] / back [it] up",
+    "level": "B1",
+    "definition": "To make a copy of computer files, or support a person/claim.",
+    "grammar_rule": "Separable phrasal verb. 'Back it up' requires pronoun in middle.",
+    "examples": [
+      "Always back up your important documents to the cloud.",
+      "My colleagues backed me up during the board meeting."
+    ],
+    "common_mistake": "❌ Back up it. ➔ ✅ Back it up.",
+    "synonyms": [
+      "support",
+      "duplicate",
+      "corroborate"
+    ],
+    "antonyms": [
+      "undermine",
+      "delete"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "drop out of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "drop out of [school / university / race]",
+    "level": "B2",
+    "definition": "To quit a course, school, or competition before completion.",
+    "grammar_rule": "Three-part inseparable phrasal verb.",
+    "examples": [
+      "He dropped out of university to start his own software company.",
+      "Injuries forced two runners to drop out of the marathon."
+    ],
+    "common_mistake": "❌ Dropped out the school. ➔ ✅ Dropped out of school.",
+    "synonyms": [
+      "quit",
+      "abandon",
+      "withdraw from"
+    ],
+    "antonyms": [
+      "graduate",
+      "complete"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "turn up": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "up",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "up"
+    ],
+    "pattern": "turn up (arrive - VI) / turn up [volume/heat] (VT separable)",
+    "level": "B1",
+    "definition": "To arrive or appear unexpectedly (VI), or increase volume/sound (VT separable).",
+    "grammar_rule": "Intransitive for arrival ('He turned up late'). Separable transitive for volume ('turn it up').",
+    "examples": [
+      "He turned up at the party without an invitation.",
+      "Could you turn up the radio? I love this song.",
+      "Turn it up!"
+    ],
+    "common_mistake": "❌ Turn up it. ➔ ✅ Turn it up.",
+    "synonyms": [
+      "arrive",
+      "appear",
+      "increase"
+    ],
+    "antonyms": [
+      "turn down"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "work with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with / on",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "with",
+      "on"
+    ],
+    "pattern": "work with [someone] on [something/project]",
+    "level": "A2",
+    "definition": "To collaborate or cooperate with a team or client on a specific project or objective.",
+    "grammar_rule": "Multi-preposition structure: work WITH + person/team/company ON + project/task. Note: FOR + noun/gerund expresses purpose, whereas TO + verb infinitive expresses intention.",
+    "noun_parallel": "⚡ Verb: 'work with a team on a project' ➔ Noun: 'collaboration WITH someone ON something'",
+    "examples": [
+      "He works closely with his team to execute marketing campaigns.",
+      "She works with small businesses on social media strategy."
+    ],
+    "common_mistake": "❌ Work to a team for a project. ➔ ✅ Work with a team on a project.",
+    "synonyms": [
+      "collaborate with",
+      "cooperate with"
+    ],
+    "antonyms": [
+      "work against",
+      "oppose"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "report to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to",
+      "on"
+    ],
+    "pattern": "report to [manager/head] on [progress/issue]",
+    "level": "B1",
+    "definition": "To be directly responsible to a supervisor, or to provide an account of progress.",
+    "grammar_rule": "Report TO + person (line manager/supervisor); report ON + subject/progress.",
+    "noun_parallel": "⚡ Verb: 'He reports to the head of marketing' ➔ Noun: 'Direct report TO the director'",
+    "examples": [
+      "He reports to the head of marketing and works closely with his team.",
+      "The regional managers report directly to the CEO."
+    ],
+    "common_mistake": "❌ He reports at the manager. ➔ ✅ He reports to the manager.",
+    "synonyms": [
+      "be accountable to",
+      "answer to"
+    ],
+    "antonyms": [
+      "lead",
+      "command"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "coordinate with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with",
+      "on"
+    ],
+    "pattern": "coordinate with [person/team] on [schedule/target]",
+    "level": "B1",
+    "definition": "To organize activities so that people or teams work together effectively.",
+    "grammar_rule": "Coordinate WITH + person/department ON + task/schedule. Use FOR + noun/gerund when stating the target reason.",
+    "noun_parallel": "⚡ Verb: 'Coordinate with colleagues' ➔ Noun: 'Coordination WITH the team'",
+    "examples": [
+      "She coordinates with her team to meet sales targets.",
+      "We need to coordinate with the logistics department on delivery dates."
+    ],
+    "common_mistake": "❌ Coordinate to the team. ➔ ✅ Coordinate with the team.",
+    "synonyms": [
+      "liaise with",
+      "align with"
+    ],
+    "antonyms": [
+      "disregard",
+      "work independently of"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "responsible for": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "be responsible for + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having the duty to take care of someone or something, or being the cause of an outcome.",
+    "grammar_rule": "Adjective phrase requiring FOR + noun or gerund (-ing). Do NOT use TO + verb infinitive directly after 'responsible for'.",
+    "noun_parallel": "⚡ Adjective: 'responsible FOR overseeing' ➔ Noun: 'take responsibility FOR something'",
+    "examples": [
+      "Sarah is responsible for overseeing the entire organization.",
+      "Who is responsible for managing customer feedback?"
+    ],
+    "common_mistake": "❌ She is responsible to oversee the team. ➔ ✅ She is responsible for overseeing the team.",
+    "synonyms": [
+      "in charge of",
+      "answerable for"
+    ],
+    "antonyms": [
+      "irresponsible for",
+      "exempt from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "in charge of": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "be in charge of + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having control of or responsibility for a department, team, or task.",
+    "grammar_rule": "Prepositional idiom requiring OF + noun or gerund (-ing). Use FOR when expressing purpose separately.",
+    "examples": [
+      "She's in charge of setting the company's vision and goals.",
+      "Who is in charge of handling client contracts?"
+    ],
+    "common_mistake": "❌ In charge for setting goals. ➔ ✅ In charge of setting goals.",
+    "synonyms": [
+      "responsible for",
+      "head of"
+    ],
+    "antonyms": [
+      "subordinate to",
+      "under the command of"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "comply with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "comply with [regulations / laws / standards]",
+    "level": "B2",
+    "definition": "To act in accordance with a wish, command, law, or rule.",
+    "grammar_rule": "Inseparable verb + preposition structure. Always requires 'with'.",
+    "noun_parallel": "⚡ Verb: 'comply with safety regulations' ➔ Noun: 'in compliance WITH standards'",
+    "examples": [
+      "All products must comply with international safety standards.",
+      "Failure to comply with the rules may result in penalties."
+    ],
+    "common_mistake": "❌ Comply to the regulations. ➔ ✅ Comply with the regulations.",
+    "synonyms": [
+      "adhere to",
+      "abide by",
+      "conform to"
+    ],
+    "antonyms": [
+      "violate",
+      "defy"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "specialize in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "specialize in [field / area / subject]",
+    "level": "B1",
+    "definition": "To concentrate on and become an expert in a particular subject or skill.",
+    "grammar_rule": "Requires 'in' followed by a noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'specialize in corporate law' ➔ Noun: 'specialization IN marketing'",
+    "examples": [
+      "Our firm specializes in environmental law and sustainability.",
+      "She specialized in pediatric medicine during residency."
+    ],
+    "common_mistake": "❌ Specialize on international trade. ➔ ✅ Specialize in international trade.",
+    "synonyms": [
+      "focus on",
+      "major in"
+    ],
+    "antonyms": [
+      "generalize in",
+      "diversify"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "succeed in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "succeed in + [gerund (-ing) / achieving something]",
+    "level": "B1",
+    "definition": "To achieve the desired aim or result in a task or career.",
+    "grammar_rule": "Requires 'in' + gerund (-ing). Do NOT use TO + infinitive after 'succeed' when stating the action achieved.",
+    "noun_parallel": "⚡ Verb: 'succeed in passing the exam' ➔ Noun: 'success IN business'",
+    "examples": [
+      "She succeeded in securing funding for the new start-up.",
+      "If you work hard, you will succeed in achieving your goals."
+    ],
+    "common_mistake": "❌ He succeeded to pass the test. ➔ ✅ He succeeded in passing the test.",
+    "synonyms": [
+      "manage to",
+      "achieve"
+    ],
+    "antonyms": [
+      "fail in"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "attribute to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "attribute [effect/success] to [cause/person]",
+    "level": "C1",
+    "definition": "To regard something as being caused by someone or something.",
+    "grammar_rule": "Complex structure: attribute SOMETHING (direct object) TO SOMETHING/SOMEONE (cause).",
+    "noun_parallel": "⚡ Verb: 'attribute success to hard work' ➔ Noun: 'an attribution TO the author'",
+    "examples": [
+      "The CEO attributed the rise in profits to strong teamwork.",
+      "Scientists attribute global warming to greenhouse gas emissions."
+    ],
+    "common_mistake": "❌ He attributed the success for his team. ➔ ✅ He attributed the success to his team.",
+    "synonyms": [
+      "ascribe to",
+      "credit to"
+    ],
+    "antonyms": [
+      "disassociate from",
+      "disclaim"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "refrain from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "refrain from + [gerund (-ing) / noun]",
+    "level": "C1",
+    "definition": "To stop oneself from doing something or hold back voluntarily.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'from' + gerund (-ing).",
+    "examples": [
+      "Please refrain from smoking inside the auditorium.",
+      "He refrained from making any further comments."
+    ],
+    "common_mistake": "❌ Please refrain to take photos. ➔ ✅ Please refrain from taking photos.",
+    "synonyms": [
+      "abstain from",
+      "desist from",
+      "hold back from"
+    ],
+    "antonyms": [
+      "indulge in",
+      "persist in"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "apply": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for",
+      "to"
+    ],
+    "pattern": "apply for [job/visa/grant] / apply to [company/university]",
+    "level": "A1",
+    "definition": "To make a formal request for a job, position, visa, or program.",
+    "grammar_rule": "Apply FOR + position/thing requested; apply TO + company/institution/person receiving application.",
+    "noun_parallel": "⚡ Verb: 'apply for a job to a company' ➔ Noun: 'an application FOR a job TO a company'",
+    "examples": [
+      "She applied for a project manager position at Google.",
+      "I am applying to three universities in the UK."
+    ],
+    "common_mistake": "❌ Apply a job to the company. ➔ ✅ Apply for a job at/to the company.",
+    "synonyms": [
+      "request",
+      "solicit"
+    ],
+    "antonyms": [
+      "withdraw",
+      "cancel application"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "focus on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "focus on [subject / goal / gerund (-ing)]",
+    "level": "A2",
+    "definition": "To give central attention or effort to a particular topic or task.",
+    "grammar_rule": "Always requires 'on' before a noun, pronoun, or gerund (-ing). Do NOT use 'in' or 'to'.",
+    "noun_parallel": "⚡ Verb: 'focus on key priorities' ➔ Noun: 'maintain focus ON priorities'",
+    "examples": [
+      "Let's focus on solving the primary bottleneck first.",
+      "He needs to focus on improving his conversational skills."
+    ],
+    "common_mistake": "❌ Focus in the project. ➔ ✅ Focus on the project.",
+    "synonyms": [
+      "concentrate on",
+      "center on"
+    ],
+    "antonyms": [
+      "distract from",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "rely on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "rely on [someone / data / system]",
+    "level": "A2",
+    "definition": "To depend on or trust someone/something to work or act properly.",
+    "grammar_rule": "Requires 'on'. Followed by noun, pronoun, or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'rely on facts' ➔ Noun: 'place reliance ON data'",
+    "examples": [
+      "You can always rely on her to deliver high-quality work on time.",
+      "Modern businesses rely heavily on cloud infrastructure."
+    ],
+    "common_mistake": "❌ Rely of public transport. ➔ ✅ Rely on public transport.",
+    "synonyms": [
+      "depend on",
+      "count on"
+    ],
+    "antonyms": [
+      "distrust"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "belong to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "belong to [owner / group / organization]",
+    "level": "A1",
+    "definition": "To be owned by someone, or be a member of a group.",
+    "grammar_rule": "Requires 'to' before the owner or club/organization.",
+    "examples": [
+      "This laptop belongs to the IT department.",
+      "Does this notebook belong to you?"
+    ],
+    "common_mistake": "❌ It belongs for me. ➔ ✅ It belongs to me.",
+    "synonyms": [
+      "be owned by",
+      "pertain to"
+    ],
+    "antonyms": [
+      "be separate from",
+      "be excluded from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "deal with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "deal with [problem / client / situation]",
+    "level": "A2",
+    "definition": "To take action to handle, resolve, or cope with a situation or person.",
+    "grammar_rule": "Inseparable phrasal verb. Requires 'with' after 'deal'.",
+    "examples": [
+      "Customer service representatives deal with complaints every day.",
+      "How do you deal with stress at work?"
+    ],
+    "common_mistake": "❌ Deal about the issue. ➔ ✅ Deal with the issue.",
+    "synonyms": [
+      "handle",
+      "manage",
+      "tackle",
+      "cope with"
+    ],
+    "antonyms": [
+      "neglect",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "suffer from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "suffer from [illness / condition / hardship]",
+    "level": "B1",
+    "definition": "To experience physical or mental pain, illness, or hardship.",
+    "grammar_rule": "Requires 'from' when specifying the medical condition or hardship.",
+    "examples": [
+      "Many adults suffer from chronic sleep deprivation.",
+      "The business suffered from severe cash flow problems."
+    ],
+    "common_mistake": "❌ Suffer of migraines. ➔ ✅ Suffer from migraines.",
+    "synonyms": [
+      "endure",
+      "be afflicted with"
+    ],
+    "antonyms": [
+      "benefit from",
+      "thrive on"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "prevent from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "prevent [someone/something] from + [gerund (-ing)]",
+    "level": "B1",
+    "definition": "To stop something from happening or stop someone from doing an action.",
+    "grammar_rule": "Prevent + direct object + FROM + gerund (-ing).",
+    "examples": [
+      "Bad weather prevented us from leaving the port.",
+      "Proper security controls prevent hackers from accessing customer data."
+    ],
+    "common_mistake": "❌ Prevent him to enter the building. ➔ ✅ Prevent him from entering the building.",
+    "synonyms": [
+      "stop from",
+      "hinder from",
+      "inhibit from"
+    ],
+    "antonyms": [
+      "allow to",
+      "permit to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "insist on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "insist on + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To demand something forcefully and refuse to accept any refusal.",
+    "grammar_rule": "Requires 'on' + gerund (-ing) or noun object.",
+    "noun_parallel": "⚡ Verb: 'insist on paying' ➔ Noun: 'an insistence ON quality'",
+    "examples": [
+      "He insisted on paying for everyone's dinner.",
+      "Why do you insist on doing everything by yourself?"
+    ],
+    "common_mistake": "❌ Insist to pay the bill. ➔ ✅ Insist on paying the bill.",
+    "synonyms": [
+      "demand",
+      "persist in"
+    ],
+    "antonyms": [
+      "yield",
+      "concede"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "participate in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "participate in [event / discussion / activity]",
+    "level": "B1",
+    "definition": "To take part in an event, activity, or conversation.",
+    "grammar_rule": "Requires 'in'. Followed by noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'participate in workshops' ➔ Noun: 'participation IN discussions'",
+    "examples": [
+      "All team members are encouraged to participate in weekly discussions.",
+      "Over fifty countries participated in the climate summit."
+    ],
+    "common_mistake": "❌ Participate at the meeting. ➔ ✅ Participate in the meeting.",
+    "synonyms": [
+      "take part in",
+      "join in"
+    ],
+    "antonyms": [
+      "withdraw from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "benefit from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "benefit from [something / action]",
+    "level": "B1",
+    "definition": "To receive an advantage, profit, or help from something.",
+    "grammar_rule": "Verb 'benefit FROM' takes 'from'. Note: noun 'benefit OF' takes 'of'.",
+    "noun_parallel": "⚡ Verb: 'benefit from training' ➔ Noun: 'the benefit OF experience'",
+    "examples": [
+      "Students benefit from regular personalized feedback.",
+      "The local community will benefit greatly from the new sports center."
+    ],
+    "common_mistake": "❌ Benefit of the new system. (when used as verb) ➔ ✅ Benefit from the new system.",
+    "synonyms": [
+      "gain from",
+      "profit from"
+    ],
+    "antonyms": [
+      "suffer from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "approve of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "approve of [action / decision / person]",
+    "level": "B2",
+    "definition": "To think that someone or something is good, right, or acceptable.",
+    "grammar_rule": "Intransitive + preposition 'of'. Transitive direct 'approve something' means officially sign/authorize.",
+    "noun_parallel": "⚡ Verb: 'approve of your choice' ➔ Noun: 'give approval OF/FOR a plan'",
+    "examples": [
+      "Her parents didn't approve of her decision to leave university.",
+      "Do you approve of the new office policies?"
+    ],
+    "common_mistake": "❌ I approve for your plan. ➔ ✅ I approve of your plan.",
+    "synonyms": [
+      "endorse",
+      "favor",
+      "sanction"
+    ],
+    "antonyms": [
+      "disapprove of",
+      "object to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "object to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "object to + [noun / gerund (-ing)]",
+    "level": "B2",
+    "definition": "To express disagreement with or opposition to something.",
+    "grammar_rule": "Requires 'to' + noun or gerund (-ing). 'To' is a preposition here, NOT an infinitive marker.",
+    "noun_parallel": "⚡ Verb: 'object to changing terms' ➔ Noun: 'raise an objection TO terms'",
+    "examples": [
+      "Several residents object to building a highway near the school.",
+      "No one objected to the proposed timetable."
+    ],
+    "common_mistake": "❌ I object to change the plan. ➔ ✅ I object to changing the plan.",
+    "synonyms": [
+      "oppose",
+      "protest against",
+      "demur to"
+    ],
+    "antonyms": [
+      "approve of",
+      "agree to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look down on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "down on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "look down on [someone / group]",
+    "level": "B1",
+    "definition": "To consider someone inferior or unworthy of respect.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb. Requires 'on' before the target.",
+    "examples": [
+      "She looks down on people who haven't been to university.",
+      "You shouldn't look down on manual laborers."
+    ],
+    "common_mistake": "❌ She looks down at poor people. ➔ ✅ She looks down on poor people.",
+    "synonyms": [
+      "scorn",
+      "disdain",
+      "despise"
+    ],
+    "antonyms": [
+      "look up to",
+      "respect"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "come up with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "come up with [idea / plan / solution]",
+    "level": "B1",
+    "definition": "To produce or suggest an idea, plan, or answer.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'with' before the idea/plan.",
+    "examples": [
+      "We need to come up with a better marketing strategy.",
+      "She came up with a creative solution to the problem."
+    ],
+    "common_mistake": "❌ She came up a new plan. ➔ ✅ She came up with a new plan.",
+    "synonyms": [
+      "devise",
+      "invent",
+      "propose"
+    ],
+    "antonyms": [
+      "copy",
+      "imitate"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "get away with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "away with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "get away with [crime / mistake / action]",
+    "level": "B1",
+    "definition": "To escape punishment or negative consequences for an action.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'with' before the wrongdoing.",
+    "examples": [
+      "He thought he could get away with cheating on the exam.",
+      "You can't get away with missing deadlines forever."
+    ],
+    "common_mistake": "❌ He got away from cheating. ➔ ✅ He got away with cheating.",
+    "synonyms": [
+      "escape punishment for",
+      "evade"
+    ],
+    "antonyms": [
+      "pay for",
+      "be punished for"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "face up to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "face up to [reality / fact / truth]",
+    "level": "B1",
+    "definition": "To accept and deal with a difficult situation or reality.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'to' before the reality.",
+    "examples": [
+      "You must face up to the fact that we are losing money.",
+      "She finally faced up to her responsibilities."
+    ],
+    "common_mistake": "❌ He must face up with the truth. ➔ ✅ He must face up to the truth.",
+    "synonyms": [
+      "confront",
+      "accept",
+      "acknowledge"
+    ],
+    "antonyms": [
+      "evade",
+      "dodge",
+      "ignore"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "stand up for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up for",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "stand up for [someone / rights / beliefs]",
+    "level": "B1",
+    "definition": "To defend or support a person, right, or principle.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'for' before the cause/person.",
+    "examples": [
+      "Always stand up for your rights and principles.",
+      "He stood up for his friend when others criticized him."
+    ],
+    "common_mistake": "❌ Stand up to your rights! ➔ ✅ Stand up for your rights!",
+    "synonyms": [
+      "defend",
+      "champion",
+      "support"
+    ],
+    "antonyms": [
+      "abandon",
+      "betray"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "go along with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "along with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "go along with [decision / plan / proposal]",
+    "level": "B1",
+    "definition": "To agree to or consent to a decision or plan.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'with' before the proposal.",
+    "examples": [
+      "I decided to go along with the team's proposal.",
+      "She rarely goes along with majority opinions without question."
+    ],
+    "common_mistake": "❌ I go along to your plan. ➔ ✅ I go along with your plan.",
+    "synonyms": [
+      "agree with",
+      "concur with",
+      "comply with"
+    ],
+    "antonyms": [
+      "oppose",
+      "resist",
+      "object to"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "come down with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "down with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "come down with [illness / cold / flu]",
+    "level": "B1",
+    "definition": "To catch or become sick with a minor illness.",
+    "grammar_rule": "Inseparable 2-particle phrasal verb + dependent preposition 'with' before the illness.",
+    "examples": [
+      "I think I am coming down with a bad cold.",
+      "Half the team came down with flu this week."
+    ],
+    "common_mistake": "❌ She came down from a fever. ➔ ✅ She came down with a fever.",
+    "synonyms": [
+      "catch",
+      "contract",
+      "fall ill with"
+    ],
+    "antonyms": [
+      "recover from"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "get out of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "get out of doing [duty / chore / event]",
+    "level": "B1",
+    "definition": "To avoid doing a responsibility or duty.",
+    "grammar_rule": "Inseparable phrasal verb requiring 'of' + gerund (-ing) before the avoided activity.",
+    "examples": [
+      "He tried to get out of doing his household chores.",
+      "You cannot get out of attending the mandatory meeting."
+    ],
+    "common_mistake": "❌ He got out of to do the work. ➔ ✅ He got out of doing the work.",
+    "synonyms": [
+      "evade",
+      "dodge",
+      "avoid"
+    ],
+    "antonyms": [
+      "take on",
+      "undertake"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "compete": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with",
+      "against",
+      "for"
+    ],
+    "pattern": "compete with/against [rival] for [prize]",
+    "level": "B1",
+    "definition": "To strive to gain or win something by defeating others.",
+    "grammar_rule": "Use 'with' or 'against' before the opponent, and 'for' before the reward/title.",
+    "noun_parallel": "⚡ Verb: 'Compete with rivals' ➔ Noun: 'In competition WITH rivals'",
+    "examples": [
+      "Ten teams will compete against each other for the championship.",
+      "Small firms struggle to compete with global tech giants."
+    ],
+    "common_mistake": "❌ They compete to each other. ➔ ✅ They compete with/against each other.",
+    "synonyms": [
+      "vie with",
+      "rival",
+      "contend with"
+    ],
+    "antonyms": [
+      "cooperate with",
+      "collaborate with"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "differ": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "differ from [someone / something]",
+    "level": "B1",
+    "definition": "To be unlike or distinct in nature or quality.",
+    "grammar_rule": "Intransitive verb requiring 'from' when comparing differences between entities.",
+    "noun_parallel": "⚡ Verb: 'It differs from that' ➔ Noun: 'There is a difference FROM that'",
+    "examples": [
+      "British English differs from American English in vocabulary.",
+      "His second novel differs significantly from his first."
+    ],
+    "common_mistake": "❌ This model differs to the old one. ➔ ✅ This model differs from the old one.",
+    "synonyms": [
+      "vary from",
+      "contrast with"
+    ],
+    "antonyms": [
+      "resemble",
+      "match"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "invest": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "invest in [business / assets / education]",
+    "level": "B1",
+    "definition": "To put money, time, or energy into something for future benefit.",
+    "grammar_rule": "Intransitive investment verb requiring 'in' before the asset or venture.",
+    "noun_parallel": "⚡ Verb: 'Invest in stocks' ➔ Noun: 'Make an investment IN stocks'",
+    "examples": [
+      "The company is investing in renewable energy technology.",
+      "It is wise to invest in employee training."
+    ],
+    "common_mistake": "❌ They invested on real estate. ➔ ✅ They invested in real estate.",
+    "synonyms": [
+      "fund",
+      "put money into"
+    ],
+    "antonyms": [
+      "divest from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "consist of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "consist of [parts / ingredients / members]",
+    "level": "B1",
+    "definition": "To be composed or made up of specified elements.",
+    "grammar_rule": "Intransitive verb requiring 'of' (do not confuse with 'comprise' which takes no prep).",
+    "examples": [
+      "The committee consists of ten elected representatives.",
+      "A healthy breakfast should consist of protein and fiber."
+    ],
+    "common_mistake": "❌ The team consists from six members. ➔ ✅ The team consists of six members.",
+    "synonyms": [
+      "be composed of",
+      "be made up of"
+    ],
+    "antonyms": [
+      "exclude",
+      "be devoid of"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "congratulate": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "congratulate [someone] on [achievement]",
+    "level": "B1",
+    "definition": "To express praise or good wishes to someone for an achievement.",
+    "grammar_rule": "Direct object person first, followed strictly by 'on' + achievement (NEVER 'for'!).",
+    "noun_parallel": "⚡ Verb: 'Congratulate him on passing' ➔ Noun: 'Congratulations ON passing'",
+    "examples": [
+      "I congratulated her on winning the prestigious award.",
+      "They congratulated the team on their promotion."
+    ],
+    "common_mistake": "❌ I congratulated him for his wedding. ➔ ✅ I congratulated him on his wedding.",
+    "synonyms": [
+      "felicitate",
+      "praise"
+    ],
+    "antonyms": [
+      "criticize",
+      "condemn"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "warn": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "about",
+      "of",
+      "against"
+    ],
+    "pattern": "warn [someone] about/of [danger]",
+    "level": "B1",
+    "definition": "To inform someone in advance of impending danger or trouble.",
+    "grammar_rule": "Direct transitive verb taking 'about' or 'of' before the hazard, or 'against' before an action.",
+    "noun_parallel": "⚡ Verb: 'Warn them about storm' ➔ Noun: 'Issue a warning ABOUT storm'",
+    "examples": [
+      "Scientists warned the public about the approaching storm.",
+      "She warned me against investing without research."
+    ],
+    "common_mistake": "❌ They warned to us about the risk. ➔ ✅ They warned us about the risk.",
+    "synonyms": [
+      "caution about",
+      "alert to"
+    ],
+    "antonyms": [
+      "reassure",
+      "encourage danger"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "protect": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "from",
+      "against"
+    ],
+    "pattern": "protect [someone / something] from [harm]",
+    "level": "B1",
+    "definition": "To keep someone or something safe from harm or damage.",
+    "grammar_rule": "Direct object first, followed by 'from' or 'against' before the danger source.",
+    "noun_parallel": "⚡ Verb: 'Protect skin from sun' ➔ Noun: 'Protection FROM sun'",
+    "examples": [
+      "Sunscreen helps protect your skin from harmful UV rays.",
+      "The new law aims to protect consumers against fraud."
+    ],
+    "common_mistake": "❌ Protect kids to danger. ➔ ✅ Protect kids from danger.",
+    "synonyms": [
+      "shield from",
+      "guard against"
+    ],
+    "antonyms": [
+      "expose to",
+      "endanger"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "embark on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "embark on [journey / career / project]",
+    "level": "B2",
+    "definition": "To start or initiate a new project, journey, or enterprise.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'on' or 'upon'.",
+    "examples": [
+      "She is about to embark on a new career in journalism.",
+      "The country embarked on a series of economic reforms."
+    ],
+    "common_mistake": "❌ They embarked in a new adventure. ➔ ✅ They embarked on a new adventure.",
+    "synonyms": [
+      "begin",
+      "launch into",
+      "commence"
+    ],
+    "antonyms": [
+      "conclude",
+      "terminate"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "capitalize on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "capitalize on [opportunity / trend / advantage]",
+    "level": "B2",
+    "definition": "To take advantage of an opportunity or situation for profit or success.",
+    "grammar_rule": "Inseparable verb + preposition requiring 'on' before the opportunity.",
+    "examples": [
+      "The tech company capitalized on the surging demand for AI software.",
+      "He capitalized on his opponent's mistake to win the match."
+    ],
+    "common_mistake": "❌ Capitalize from the opportunity. ➔ ✅ Capitalize on the opportunity.",
+    "synonyms": [
+      "take advantage of",
+      "exploit",
+      "turn to account"
+    ],
+    "antonyms": [
+      "miss out on",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "dispose of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "dispose of [waste / property / asset]",
+    "level": "B2",
+    "definition": "To get rid of, throw away, or sell something.",
+    "grammar_rule": "Inseparable verb + preposition requiring 'of' (NEVER use 'off'!).",
+    "noun_parallel": "⚡ Verb: 'Dispose of waste safely' ➔ Noun: 'Waste disposal (no prep)'",
+    "examples": [
+      "Hazardous chemicals must be disposed of carefully.",
+      "The business disposed of its non-core assets."
+    ],
+    "common_mistake": "❌ Dispose off toxic waste. ➔ ✅ Dispose of toxic waste.",
+    "synonyms": [
+      "discard",
+      "get rid of",
+      "scrap"
+    ],
+    "antonyms": [
+      "retain",
+      "keep",
+      "acquire"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "resort to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "resort to [drastic measure / violence / gerund]",
+    "level": "B2",
+    "definition": "To turn to a extreme or unpleasant strategy because no other options remain.",
+    "grammar_rule": "Inseparable verb + preposition structure. 'To' is a preposition, followed by noun or gerund.",
+    "examples": [
+      "They had to resort to legal action to recover the money.",
+      "Never resort to violence to solve personal conflicts."
+    ],
+    "common_mistake": "❌ Resort into extreme measures. ➔ ✅ Resort to extreme measures.",
+    "synonyms": [
+      "turn to",
+      "fall back on",
+      "use as last resort"
+    ],
+    "antonyms": [
+      "avoid",
+      "abstain from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "contribute to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "contribute to [cause / outcome / project]",
+    "level": "B2",
+    "definition": "To help bring about a result or donate toward a common purpose.",
+    "grammar_rule": "Requires 'to' before the recipient, outcome, or cause.",
+    "noun_parallel": "⚡ Verb: 'Contribute to research' ➔ Noun: 'Make a contribution TO research'",
+    "examples": [
+      "Pollution contributes significantly to climate change.",
+      "Many volunteers contributed to the success of the event."
+    ],
+    "common_mistake": "❌ Smoking contributes for lung disease. ➔ ✅ Smoking contributes to lung disease.",
+    "synonyms": [
+      "add to",
+      "lead to",
+      "conduce to"
+    ],
+    "antonyms": [
+      "detract from",
+      "hinder"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "adhere to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "adhere to [rules / standards / guidelines]",
+    "level": "B2",
+    "definition": "To stick firmly to a rule, agreement, or belief.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'to'.",
+    "noun_parallel": "⚡ Verb: 'Adhere to guidelines' ➔ Noun: 'Strict adherence TO guidelines'",
+    "examples": [
+      "All members must strictly adhere to the company code of conduct.",
+      "She adhered to her diet despite temptations."
+    ],
+    "common_mistake": "❌ Adhere with the safety rules. ➔ ✅ Adhere to the safety rules.",
+    "synonyms": [
+      "comply with",
+      "abide by",
+      "conform to"
+    ],
+    "antonyms": [
+      "violate",
+      "flout",
+      "breach"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "conform to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "with"
+    ],
+    "pattern": "conform to/with [standards / expectations]",
+    "level": "B2",
+    "definition": "To comply with rules, standards, or social expectations.",
+    "grammar_rule": "Intransitive verb taking 'to' (or 'with') before the standard being met.",
+    "noun_parallel": "⚡ Verb: 'Conform to standards' ➔ Noun: 'In conformity WITH standards'",
+    "examples": [
+      "The new building design conforms to all fire safety regulations.",
+      "Pressure to conform to social norms can be strong."
+    ],
+    "common_mistake": "❌ Conform by the regulations. ➔ ✅ Conform to the regulations.",
+    "synonyms": [
+      "comply with",
+      "adhere to",
+      "follow"
+    ],
+    "antonyms": [
+      "deviate from",
+      "rebel against"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "cope with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "cope with [stress / difficulty / change]",
+    "level": "B2",
+    "definition": "To deal effectively with something difficult or challenging.",
+    "grammar_rule": "Inseparable verb + preposition requiring 'with'. NEVER say 'cope up with'!",
+    "examples": [
+      "How do you cope with high levels of work stress?",
+      "She coped remarkably well with the sudden loss."
+    ],
+    "common_mistake": "❌ I cannot cope up with this pressure. ➔ ✅ I cannot cope with this pressure.",
+    "synonyms": [
+      "handle",
+      "manage",
+      "deal with"
+    ],
+    "antonyms": [
+      "succumb to",
+      "give up under"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "deviate from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "deviate from [plan / norm / path]",
+    "level": "B2",
+    "definition": "To depart from an established course, standard, or topic.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'from'.",
+    "noun_parallel": "⚡ Verb: 'Deviate from protocol' ➔ Noun: 'A deviation FROM protocol'",
+    "examples": [
+      "The pilot had to deviate from the planned flight path due to weather.",
+      "We must not deviate from our original budget."
+    ],
+    "common_mistake": "❌ Do not deviate to the protocol. ➔ ✅ Do not deviate from the protocol.",
+    "synonyms": [
+      "diverge from",
+      "stray from",
+      "depart from"
+    ],
+    "antonyms": [
+      "adhere to",
+      "conform to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "indulge in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "indulge in [pleasure / luxury / fantasy]",
+    "level": "B2",
+    "definition": "To allow oneself to enjoy the pleasure of something, often excessively.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'in'.",
+    "noun_parallel": "⚡ Verb: 'Indulge in sweets' ➔ Noun: 'Self-indulgence IN sweets'",
+    "examples": [
+      "On weekends she likes to indulge in a long spa day.",
+      "They indulged in luxury shopping during their vacation."
+    ],
+    "common_mistake": "❌ Indulge with fine dining. ➔ ✅ Indulge in fine dining.",
+    "synonyms": [
+      "pamper oneself with",
+      "give in to"
+    ],
+    "antonyms": [
+      "abstain from",
+      "refrain from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "prevail over": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "over",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "over",
+      "against"
+    ],
+    "pattern": "prevail over [adversary / difficulty]",
+    "level": "B2",
+    "definition": "To prove superior in power or influence and triumph over an opponent.",
+    "grammar_rule": "Intransitive formal verb requiring 'over' or 'against' before the defeated entity.",
+    "examples": [
+      "Truth and justice will eventually prevail over corruption.",
+      "Our team prevailed over strong competitors in the final."
+    ],
+    "common_mistake": "❌ Justice prevailed against of tyranny. ➔ ✅ Justice prevailed over tyranny.",
+    "synonyms": [
+      "triumph over",
+      "overcome",
+      "conquer"
+    ],
+    "antonyms": [
+      "succumb to",
+      "yield to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "dwell on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "dwell on [mistake / past / problem]",
+    "level": "B2",
+    "definition": "To think or speak about a painful subject at length.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'on' or 'upon'.",
+    "examples": [
+      "There is no point in dwelling on past mistakes.",
+      "Try not to dwell on negative thoughts."
+    ],
+    "common_mistake": "❌ Don't dwell in your failures. ➔ ✅ Don't dwell on your failures.",
+    "synonyms": [
+      "harp on",
+      "harbor",
+      "brood over"
+    ],
+    "antonyms": [
+      "move past",
+      "forget"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "hinge on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "hinge on [factor / outcome / condition]",
+    "level": "B2",
+    "definition": "To depend entirely on a crucial factor or decision.",
+    "grammar_rule": "Inseparable verb + preposition requiring 'on' or 'upon'.",
+    "examples": [
+      "The success of the deal hinges on tomorrow's vote.",
+      "Everything hinges on securing adequate funding."
+    ],
+    "common_mistake": "❌ The plan hinges from approval. ➔ ✅ The plan hinges on approval.",
+    "synonyms": [
+      "depend on",
+      "turn on",
+      "pivot on"
+    ],
+    "antonyms": [
+      "be independent of",
+      "disregard"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "culminate in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "culminate in [result / climax / event]",
+    "level": "B2",
+    "definition": "To reach a climax or highest point of development in a specified result.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'in'.",
+    "noun_parallel": "⚡ Verb: 'Culminate in success' ➔ Noun: 'Reach its culmination IN success'",
+    "examples": [
+      "Years of research culminated in a major medical breakthrough.",
+      "The festival culminated in a spectacular fireworks show."
+    ],
+    "common_mistake": "❌ Culminate into a climax. ➔ ✅ Culminate in a climax.",
+    "synonyms": [
+      "climax in",
+      "end in",
+      "result in"
+    ],
+    "antonyms": [
+      "begin with",
+      "commence with"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "account for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "account for [percentage / reason / discrepancy]",
+    "level": "B2",
+    "definition": "To explain the cause of something or constitute a portion of a total.",
+    "grammar_rule": "Inseparable phrasal verb requiring 'for'.",
+    "examples": [
+      "Housing costs account for 40% of her monthly budget.",
+      "How do you account for this unexpected loss?"
+    ],
+    "common_mistake": "❌ Account about the discrepancy. ➔ ✅ Account for the discrepancy.",
+    "synonyms": [
+      "explain",
+      "constitute",
+      "make up"
+    ],
+    "antonyms": [
+      "leave unexplained",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "strive for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "strive for [excellence / perfection / goal]",
+    "level": "B2",
+    "definition": "To make great efforts to achieve or obtain something.",
+    "grammar_rule": "Intransitive verb taking 'for' before the desired target or excellence.",
+    "examples": [
+      "Our company strives for excellence in customer service.",
+      "Athletes constantly strive for peak physical performance."
+    ],
+    "common_mistake": "❌ Strive to excellence. ➔ ✅ Strive for excellence.",
+    "synonyms": [
+      "aim for",
+      "pursue",
+      "seek"
+    ],
+    "antonyms": [
+      "abandon",
+      "give up on"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "stem from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "stem from [cause / root / origin]",
+    "level": "B2",
+    "definition": "To originate or develop as a result of something.",
+    "grammar_rule": "Inseparable verb + preposition requiring 'from' before the root cause.",
+    "examples": [
+      "His anxiety stems from past traumatic experiences.",
+      "Many health problems stem from poor dietary habits."
+    ],
+    "common_mistake": "❌ The error stems out of ignorance. ➔ ✅ The error stems from ignorance.",
+    "synonyms": [
+      "arise from",
+      "originate in",
+      "derive from"
+    ],
+    "antonyms": [
+      "result in",
+      "lead to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "subjugate to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "subjugate [group] to [authority / power]",
+    "level": "B2",
+    "definition": "To bring under domination or control.",
+    "grammar_rule": "Direct object first, followed by 'to' before the controlling entity.",
+    "examples": [
+      "The empire subjugated neighboring tribes to its central rule.",
+      "Personal desires were subjugated to the common good."
+    ],
+    "common_mistake": "❌ Subjugate under authority. ➔ ✅ Subjugate to authority.",
+    "synonyms": [
+      "subdue to",
+      "subject to"
+    ],
+    "antonyms": [
+      "liberate from",
+      "free from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "pertain to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "pertain to [topic / issue / law]",
+    "level": "B2",
+    "definition": "To relate to or have a direct connection with something.",
+    "grammar_rule": "Inseparable formal verb taking 'to' before the related subject.",
+    "examples": [
+      "These documents pertain to the recent merger negotiations.",
+      "The regulations pertain to all international flights."
+    ],
+    "common_mistake": "❌ Pertain with the case. ➔ ✅ Pertain to the case.",
+    "synonyms": [
+      "relate to",
+      "apply to",
+      "concern"
+    ],
+    "antonyms": [
+      "be irrelevant to",
+      "be disconnected from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "resign from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "resign from [position / job / board]",
+    "level": "B2",
+    "definition": "To formally give up one's job, office, or position.",
+    "grammar_rule": "Intransitive career verb requiring 'from' before the position relinquished.",
+    "noun_parallel": "⚡ Verb: 'Resign from post' ➔ Noun: 'Hand in resignation FROM post'",
+    "examples": [
+      "The CEO resigned from his post amid public scrutiny.",
+      "She decided to resign from the board of directors."
+    ],
+    "common_mistake": "❌ He resigned of his job. ➔ ✅ He resigned from his job.",
+    "synonyms": [
+      "step down from",
+      "quit"
+    ],
+    "antonyms": [
+      "join",
+      "take up"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "abide by": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "by",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "by"
+    ],
+    "pattern": "abide by [rules / decision / contract]",
+    "level": "B2",
+    "definition": "To accept and comply with a rule, decision, or recommendation.",
+    "grammar_rule": "Inseparable phrasal verb requiring 'by' (NEVER use 'with' or 'to'!).",
+    "examples": [
+      "Both players agreed to abide by the referee's decision.",
+      "Visitors must abide by the park regulations."
+    ],
+    "common_mistake": "❌ Abide to the law. ➔ ✅ Abide by the law.",
+    "synonyms": [
+      "comply with",
+      "adhere to",
+      "stick to"
+    ],
+    "antonyms": [
+      "violate",
+      "break"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "cater to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "for"
+    ],
+    "pattern": "cater to [audience / needs] / cater for [group]",
+    "level": "B2",
+    "definition": "To provide what is needed or desired by a specific group.",
+    "grammar_rule": "Use 'cater to' for preferences or demands, and 'cater for' when providing food/services for events.",
+    "examples": [
+      "The resort caters to luxury travelers seeking privacy.",
+      "The cafeteria caters for vegetarians and vegans."
+    ],
+    "common_mistake": "❌ The hotel caters with rich tourists. ➔ ✅ The hotel caters to rich tourists.",
+    "synonyms": [
+      "serve",
+      "accommodate",
+      "provide for"
+    ],
+    "antonyms": [
+      "neglect",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "tamper with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "tamper with [evidence / equipment / lock]",
+    "level": "B2",
+    "definition": "To interfere with something in an unauthorized or harmful way.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'with'.",
+    "examples": [
+      "Someone tried to tamper with the security lock.",
+      "It is a crime to tamper with official evidence."
+    ],
+    "common_mistake": "❌ Tamper on the machinery. ➔ ✅ Tamper with the machinery.",
+    "synonyms": [
+      "meddle with",
+      "alter",
+      "interfere with"
+    ],
+    "antonyms": [
+      "preserve",
+      "leave intact"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "discriminate against": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "against",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "against",
+      "between"
+    ],
+    "pattern": "discriminate against [group] / discriminate between [two things]",
+    "level": "B2",
+    "definition": "To treat someone unfairly based on category, or distinguish between things.",
+    "grammar_rule": "Use 'against' for unfair prejudice, and 'between' when making a distinction.",
+    "noun_parallel": "⚡ Verb: 'Discriminate against minority' ➔ Noun: 'Discrimination AGAINST minority'",
+    "examples": [
+      "Laws prohibit employers from discriminating against job applicants.",
+      "Can you discriminate between genuine and fake notes?"
+    ],
+    "common_mistake": "❌ Discriminate to elderly workers. ➔ ✅ Discriminate against elderly workers.",
+    "synonyms": [
+      "prejudice against",
+      "differentiate"
+    ],
+    "antonyms": [
+      "treat equally"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "substitute for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "for",
+      "with"
+    ],
+    "pattern": "substitute [A] for [B] / substitute for [someone]",
+    "level": "B2",
+    "definition": "To use or act in place of another person or thing.",
+    "grammar_rule": "Use 'substitute A for B' (A replaces B). Do not confuse with 'replace B with A'.",
+    "noun_parallel": "⚡ Verb: 'Substitute butter for oil' ➔ Noun: 'A substitute FOR oil'",
+    "examples": [
+      "You can substitute honey for sugar in this recipe.",
+      "A assistant teacher substituted for the professor today."
+    ],
+    "common_mistake": "❌ Substitute sugar by honey. ➔ ✅ Substitute honey for sugar.",
+    "synonyms": [
+      "replace with",
+      "swap for"
+    ],
+    "antonyms": [
+      "keep",
+      "retain original"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "interfere with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with",
+      "in"
+    ],
+    "pattern": "interfere with [process] / interfere in [matters]",
+    "level": "B2",
+    "definition": "To hinder or disrupt a process, or meddle in private affairs.",
+    "grammar_rule": "Use 'interfere with' for disruption of processes, and 'interfere in' for unwanted intrusion into affairs.",
+    "noun_parallel": "⚡ Verb: 'Interfere with work' ➔ Noun: 'Interference WITH work'",
+    "examples": [
+      "Loud music can interfere with your concentration.",
+      "Stop trying to interfere in my personal life!"
+    ],
+    "common_mistake": "❌ Interfere to my business. ➔ ✅ Interfere in my business.",
+    "synonyms": [
+      "disrupt",
+      "meddle in",
+      "hinder"
+    ],
+    "antonyms": [
+      "assist",
+      "facilitate"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "impinge on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "impinge on [rights / privacy / freedom]",
+    "level": "B2",
+    "definition": "To encroach or have an intrusive effect on someone's rights or privacy.",
+    "grammar_rule": "Inseparable formal verb requiring 'on' or 'upon'.",
+    "examples": [
+      "The proposed surveillance law impinges on personal privacy.",
+      "New regulations must not impinge upon academic freedom."
+    ],
+    "common_mistake": "❌ Impinge to civil liberties. ➔ ✅ Impinge on civil liberties.",
+    "synonyms": [
+      "encroach on",
+      "infringe on",
+      "intrude on"
+    ],
+    "antonyms": [
+      "respect",
+      "leave unimpaired"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "infringe on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "infringe on [copyright / rights / privacy]",
+    "level": "B2",
+    "definition": "To violate or trespass upon a law, right, or agreement.",
+    "grammar_rule": "Inseparable legal verb taking 'on' or 'upon'.",
+    "noun_parallel": "⚡ Verb: 'Infringe on copyright' ➔ Noun: 'An infringement ON copyright'",
+    "examples": [
+      "Copying this software infringes on patent rights.",
+      "Do not infringe upon the freedom of speech."
+    ],
+    "common_mistake": "❌ Infringe against my copyright. ➔ ✅ Infringe on my copyright.",
+    "synonyms": [
+      "encroach on",
+      "violate",
+      "trespass on"
+    ],
+    "antonyms": [
+      "respect",
+      "uphold"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "deliberate on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "on",
+      "over"
+    ],
+    "pattern": "deliberate on/over [verdict / issue]",
+    "level": "B2",
+    "definition": "To carefully discuss or consider a issue or decision.",
+    "grammar_rule": "Can take a direct object or 'on'/'over' before the subject of deliberation.",
+    "examples": [
+      "The jury deliberated on the verdict for three days.",
+      "The committee is deliberating over the proposed policy."
+    ],
+    "common_mistake": "❌ Deliberate about the verdict for days. ➔ ✅ Deliberate on the verdict.",
+    "synonyms": [
+      "ponder",
+      "consider",
+      "debate"
+    ],
+    "antonyms": [
+      "decide spontaneously",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "prevail upon": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "upon",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "prevail upon [someone] to do [something]",
+    "level": "B2",
+    "definition": "To persuade or convince someone to do something.",
+    "grammar_rule": "Transitive formal verb requiring 'upon' or 'on' + person + infinitive.",
+    "examples": [
+      "We managed to prevail upon him to stay for dinner.",
+      "She prevailed upon her colleagues to support the motion."
+    ],
+    "common_mistake": "❌ Prevail to him to join us. ➔ ✅ Prevail upon him to join us.",
+    "synonyms": [
+      "persuade",
+      "induce",
+      "convince"
+    ],
+    "antonyms": [
+      "discourage from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "yield to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "yield to [pressure / temptation / traffic]",
+    "level": "B2",
+    "definition": "To give way to pressure, force, or superior authority.",
+    "grammar_rule": "Inseparable verb requiring 'to' before the force surrendered to.",
+    "examples": [
+      "The government refused to yield to terrorist demands.",
+      "Drivers must yield to oncoming traffic at the roundabout."
+    ],
+    "common_mistake": "❌ Yield for traffic on the left. ➔ ✅ Yield to traffic on the left.",
+    "synonyms": [
+      "surrender to",
+      "give in to",
+      "submit to"
+    ],
+    "antonyms": [
+      "resist",
+      "withstand"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "succumb to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "succumb to [illness / pressure / temptation]",
+    "level": "B2",
+    "definition": "To fail to resist pressure, temptation, or illness.",
+    "grammar_rule": "Inseparable formal verb requiring 'to'.",
+    "examples": [
+      "He succumbed to his injuries two days after the accident.",
+      "Do not succumb to temptation when dieting."
+    ],
+    "common_mistake": "❌ Succumb from illness. ➔ ✅ Succumb to illness.",
+    "synonyms": [
+      "yield to",
+      "give way to",
+      "surrender to"
+    ],
+    "antonyms": [
+      "resist",
+      "overcome"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "ascribe to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "ascribe [meaning / cause] to [something]",
+    "level": "B2",
+    "definition": "To attribute a cause, quality, or motive to someone or something.",
+    "grammar_rule": "Transitive formal verb requiring 'to' before the attributed cause or person.",
+    "examples": [
+      "They ascribe the artwork's value to its rarity.",
+      "Scholars ascribe this poem to Shakespeare."
+    ],
+    "common_mistake": "❌ Ascribe motive for his actions. ➔ ✅ Ascribe motive to his actions.",
+    "synonyms": [
+      "attribute to",
+      "assign to"
+    ],
+    "antonyms": [
+      "disassociate from",
+      "deny attribution to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "conduce to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "conduce to [well-being / happiness / outcome]",
+    "level": "B2",
+    "definition": "To help bring about or contribute to a desirable outcome.",
+    "grammar_rule": "Inseparable formal verb taking 'to' before the resulting state.",
+    "examples": [
+      "Good health habits conduce to long life and happiness.",
+      "A quiet environment conduces to productive study."
+    ],
+    "common_mistake": "❌ Conduce for well-being. ➔ ✅ Conduce to well-being.",
+    "synonyms": [
+      "contribute to",
+      "promote",
+      "lead to"
+    ],
+    "antonyms": [
+      "hinder"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "coincide with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "coincide with [event / view]",
+    "level": "B2",
+    "definition": "To happen at the same time or correspond in nature.",
+    "grammar_rule": "Inseparable verb + preposition structure requiring 'with'.",
+    "noun_parallel": "⚡ Verb: 'Coincide with holiday' ➔ Noun: 'A coincidence WITH holiday'",
+    "examples": [
+      "Our trip was planned to coincide with the summer festival.",
+      "His views on politics coincide with mine."
+    ],
+    "common_mistake": "❌ Coincide to the meeting time. ➔ ✅ Coincide with the meeting time.",
+    "synonyms": [
+      "match",
+      "overlap with",
+      "tally with"
+    ],
+    "antonyms": [
+      "clash with",
+      "conflict with"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "go": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "go to [place]",
+    "level": "A1",
+    "definition": "To move or travel from one place to another.",
+    "grammar_rule": "Intransitive motion verb requiring 'to' before a destination (except 'home' or 'there').",
+    "examples": [
+      "I go to school by bus every morning.",
+      "We are going to Paris next weekend."
+    ],
+    "common_mistake": "❌ I go at school every day. ➔ ✅ I go to school every day.",
+    "synonyms": [
+      "travel",
+      "head",
+      "proceed"
+    ],
+    "antonyms": [
+      "come",
+      "stay",
+      "remain"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "come": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "from"
+    ],
+    "pattern": "come to [place] / come from [origin]",
+    "level": "A1",
+    "definition": "To move toward a place or originate from a place.",
+    "grammar_rule": "Intransitive motion verb taking 'to' for destination and 'from' for origin.",
+    "examples": [
+      "She comes to work at eight o'clock.",
+      "They come from a small town in Spain."
+    ],
+    "common_mistake": "❌ She comes in my house. ➔ ✅ She comes to my house.",
+    "synonyms": [
+      "arrive",
+      "reach",
+      "originate"
+    ],
+    "antonyms": [
+      "go",
+      "leave",
+      "depart"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "get": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "get to [place]",
+    "level": "A1",
+    "definition": "To arrive at or reach a location.",
+    "grammar_rule": "Intransitive when meaning 'arrive'. Use 'to' before a location (except 'home' or 'there').",
+    "examples": [
+      "How do you get to the train station?",
+      "I usually get to the office around nine."
+    ],
+    "common_mistake": "❌ How do I get in the office? ➔ ✅ How do I get to the office?",
+    "synonyms": [
+      "reach",
+      "arrive at"
+    ],
+    "antonyms": [
+      "leave",
+      "depart"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "look at [person / object]",
+    "level": "A1",
+    "definition": "To direct eyes toward a specific person or object.",
+    "grammar_rule": "Intransitive visual verb requiring 'at' when specifying the target of sight.",
+    "noun_parallel": "⚡ Verb: 'Look at the board' ➔ Noun: 'Take a look AT the board'",
+    "examples": [
+      "Look at that big dog over there!",
+      "Please look at page ten in your book."
+    ],
+    "common_mistake": "❌ Look to the board! ➔ ✅ Look at the board!",
+    "synonyms": [
+      "glance at",
+      "stare at"
+    ],
+    "antonyms": [
+      "look away",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "wait for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "wait for [someone / something]",
+    "level": "A1",
+    "definition": "To stay in a place until an expected person or event arrives.",
+    "grammar_rule": "Intransitive verb requiring 'for' when specifying the expected person or event.",
+    "examples": [
+      "I am waiting for the bus at the stop.",
+      "She waited for her friend for thirty minutes."
+    ],
+    "common_mistake": "❌ I am waiting my friend. ➔ ✅ I am waiting for my friend.",
+    "synonyms": [
+      "await"
+    ],
+    "antonyms": [
+      "leave",
+      "depart"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "talk": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "with",
+      "about"
+    ],
+    "pattern": "talk to/with [someone] / talk about [topic]",
+    "level": "A1",
+    "definition": "To speak to someone or converse about a subject.",
+    "grammar_rule": "Intransitive verb taking 'to' or 'with' for the listener and 'about' for the topic.",
+    "examples": [
+      "I need to talk to my manager about my schedule.",
+      "They talked about their favorite movies for hours."
+    ],
+    "common_mistake": "❌ We talked the problem. ➔ ✅ We talked about the problem.",
+    "synonyms": [
+      "speak",
+      "chat",
+      "converse"
+    ],
+    "antonyms": [
+      "be silent",
+      "keep quiet"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "speak": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "with",
+      "about"
+    ],
+    "pattern": "speak to/with [someone] / speak about [topic]",
+    "level": "A1",
+    "definition": "To communicate orally with someone or address a topic.",
+    "grammar_rule": "Intransitive verb taking 'to' or 'with' for the listener and 'about' for the topic.",
+    "examples": [
+      "May I speak to the manager, please?",
+      "The professor spoke about history in class."
+    ],
+    "common_mistake": "❌ Can I speak with you about? ➔ ✅ Can I speak with you about this issue?",
+    "synonyms": [
+      "talk",
+      "converse",
+      "address"
+    ],
+    "antonyms": [
+      "be quiet"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "thank": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "thank [someone] for [something]",
+    "level": "A1",
+    "definition": "To express gratitude to someone for a helpful action or gift.",
+    "grammar_rule": "Direct transitive verb! Place the person immediately after 'thank', then use 'for' before the reason.",
+    "noun_parallel": "⚡ Verb: 'I thanked him for his help' ➔ Noun: 'My thanks FOR his help'",
+    "examples": [
+      "We thanked our host for the wonderful dinner.",
+      "She thanked me for helping her move."
+    ],
+    "common_mistake": "❌ Thank to you for coming. ➔ ✅ Thank you for coming.",
+    "synonyms": [
+      "show gratitude to",
+      "acknowledge"
+    ],
+    "antonyms": [
+      "blame",
+      "criticize"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "hope": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "hope for [something]",
+    "level": "A1",
+    "definition": "To want something to happen or be true.",
+    "grammar_rule": "Intransitive verb taking 'for' before a desired outcome or noun.",
+    "examples": [
+      "We are hoping for sunny weather tomorrow.",
+      "They hoped for good news from the doctor."
+    ],
+    "common_mistake": "❌ We hope of good weather. ➔ ✅ We hope for good weather.",
+    "synonyms": [
+      "wish for",
+      "desire"
+    ],
+    "antonyms": [
+      "dread",
+      "fear"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "smile": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "smile at [someone]",
+    "level": "A1",
+    "definition": "To form a pleased facial expression directed toward someone.",
+    "grammar_rule": "Intransitive facial gesture verb requiring 'at' when directed toward a person.",
+    "examples": [
+      "The baby smiled at her mother.",
+      "He smiled at me when I entered the room."
+    ],
+    "common_mistake": "❌ She smiled to me friendly. ➔ ✅ She smiled at me in a friendly way.",
+    "synonyms": [
+      "beam at",
+      "grin at"
+    ],
+    "antonyms": [
+      "frown at",
+      "scowl at"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "stare at": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "at",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "stare at [someone / something]",
+    "level": "A1",
+    "definition": "To look directly and fixedly at someone or something.",
+    "grammar_rule": "Intransitive visual verb requiring 'at' when specifying the focus of the gaze.",
+    "examples": [
+      "Don't stare at people; it is rude.",
+      "He stood staring at the night sky."
+    ],
+    "common_mistake": "❌ He stared to the screen. ➔ ✅ He stared at the screen.",
+    "synonyms": [
+      "gaze at",
+      "peer at"
+    ],
+    "antonyms": [
+      "glance away",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "glance at": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "at",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "glance at [someone / something]",
+    "level": "A1",
+    "definition": "To take a brief or hurried look at something.",
+    "grammar_rule": "Intransitive quick-look verb requiring 'at' before the object viewed.",
+    "noun_parallel": "⚡ Verb: 'She glanced at her watch' ➔ Noun: 'A quick glance AT her watch'",
+    "examples": [
+      "She glanced at her watch and realized she was late.",
+      "He glanced at the newspaper headlines before leaving."
+    ],
+    "common_mistake": "❌ She glanced to her phone. ➔ ✅ She glanced at her phone.",
+    "synonyms": [
+      "look quickly at",
+      "peek at"
+    ],
+    "antonyms": [
+      "stare at",
+      "scrutinize"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "listen to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "listen to [music / person / audio]",
+    "level": "A1",
+    "definition": "To give attention to a sound or person speaking.",
+    "grammar_rule": "Intransitive listening verb requiring 'to' whenever followed by an auditory target.",
+    "examples": [
+      "I love to listen to podcasts while driving.",
+      "Please listen to your teacher carefully."
+    ],
+    "common_mistake": "❌ I listen music every day. ➔ ✅ I listen to music every day.",
+    "synonyms": [
+      "pay attention to",
+      "hear"
+    ],
+    "antonyms": [
+      "ignore",
+      "disregard"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "shout": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "to"
+    ],
+    "pattern": "shout at [someone] (anger) / shout to [someone] (distance)",
+    "level": "A1",
+    "definition": "To utter a loud call or cry toward a person.",
+    "grammar_rule": "Use 'shout AT' to show anger. Use 'shout TO' so someone far away can hear you.",
+    "examples": [
+      "Don't shout at me; I made an honest mistake.",
+      "He shouted to his friend across the noisy street."
+    ],
+    "common_mistake": "❌ He shouted on me angrily. ➔ ✅ He shouted at me angrily.",
+    "synonyms": [
+      "yell at",
+      "scream at"
+    ],
+    "antonyms": [
+      "whisper to",
+      "mutter to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "live": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in",
+      "at",
+      "with"
+    ],
+    "pattern": "live in [city / country] / live at [address] / live with [people]",
+    "level": "A1",
+    "definition": "To reside or make one's home in a place or with someone.",
+    "grammar_rule": "Intransitive verb taking 'in' for cities/countries, 'at' for specific addresses, and 'with' for housemates.",
+    "examples": [
+      "I live in London with my family.",
+      "She lives at 42 Park Street."
+    ],
+    "common_mistake": "❌ I live to Rome. ➔ ✅ I live in Rome.",
+    "synonyms": [
+      "reside in",
+      "dwell in"
+    ],
+    "antonyms": [
+      "move away",
+      "leave"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "search": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "search for [someone / something]",
+    "level": "A1",
+    "definition": "To try to find someone or something by looking carefully.",
+    "grammar_rule": "Intransitive verb taking 'for' when looking for a lost or sought item/person.",
+    "noun_parallel": "⚡ Verb: 'Search for keys' ➔ Noun: 'In search OF keys'",
+    "examples": [
+      "I am searching for my lost wallet.",
+      "They searched for answers in the old books."
+    ],
+    "common_mistake": "❌ I am searching my keys. ➔ ✅ I am searching for my keys.",
+    "synonyms": [
+      "look for",
+      "seek"
+    ],
+    "antonyms": [
+      "find",
+      "locate"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "phone": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "phone [someone] (direct object)",
+    "level": "A1",
+    "definition": "To call someone by telephone.",
+    "grammar_rule": "Direct transitive verb without preposition! Do NOT add 'to' when calling a person directly.",
+    "examples": [
+      "I will phone you when I arrive at the station.",
+      "Did you phone your parents yesterday?"
+    ],
+    "common_mistake": "❌ I will phone to you tonight. ➔ ✅ I will phone you tonight.",
+    "synonyms": [
+      "call",
+      "ring"
+    ],
+    "antonyms": [
+      "ignore",
+      "avoid calling"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "email": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "email [someone] (direct object)",
+    "level": "A1",
+    "definition": "To send an electronic mail message to someone.",
+    "grammar_rule": "Direct transitive verb! Do NOT use 'to' after the verb 'email' before the recipient.",
+    "noun_parallel": "⚡ Verb: 'I emailed him' (no prep) ➔ Noun: 'I sent an email TO him'",
+    "examples": [
+      "Please email the office if you have any questions.",
+      "I emailed the details to the whole team this morning."
+    ],
+    "common_mistake": "❌ Please email to me the file. ➔ ✅ Please email me the file.",
+    "synonyms": [
+      "message",
+      "send an email to"
+    ],
+    "antonyms": [
+      "ignore",
+      "avoid messaging"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "greet": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "greet [someone] (direct object)",
+    "level": "A1",
+    "definition": "To welcome or give a sign of recognition to someone.",
+    "grammar_rule": "Direct transitive verb! No preposition needed before the direct object.",
+    "noun_parallel": "⚡ Verb: 'He greeted us' ➔ Noun: 'He gave a greeting TO us'",
+    "examples": [
+      "The host warmly greeted all the guests at the door.",
+      "She greeted her old friend with a big hug."
+    ],
+    "common_mistake": "❌ She greeted to everyone in the room. ➔ ✅ She greeted everyone in the room.",
+    "synonyms": [
+      "welcome",
+      "hail",
+      "salute"
+    ],
+    "antonyms": [
+      "ignore",
+      "snub"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "obey": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "obey [rules / parents / laws] (direct object)",
+    "level": "A1",
+    "definition": "To carry out a command or follow a rule or law.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'to' or 'with' after 'obey'.",
+    "examples": [
+      "Drivers must obey traffic regulations at all times.",
+      "Children should obey their parents."
+    ],
+    "common_mistake": "❌ You must obey to the rules. ➔ ✅ You must obey the rules.",
+    "synonyms": [
+      "follow",
+      "heed",
+      "comply with"
+    ],
+    "antonyms": [
+      "disobey",
+      "defy",
+      "violate"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "survive": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "survive [an accident / disaster / illness] (direct object)",
+    "level": "A1",
+    "definition": "To remain alive after a dangerous event or hardship.",
+    "grammar_rule": "Direct transitive verb when referring to surviving an event! Do NOT use 'from' or 'to'.",
+    "noun_parallel": "⚡ Verb: 'They survived the crash' ➔ Noun: 'Survival OF the crash'",
+    "examples": [
+      "Few plants can survive extreme heat without water.",
+      "All passengers survived the emergency landing safely."
+    ],
+    "common_mistake": "❌ He survived from the plane crash. ➔ ✅ He survived the plane crash.",
+    "synonyms": [
+      "outlast",
+      "endure",
+      "withstand"
+    ],
+    "antonyms": [
+      "perish in",
+      "succumb to"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "enter": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "enter [a room / building / country] (direct object)",
+    "level": "A1",
+    "definition": "To come or go into a place.",
+    "grammar_rule": "Direct transitive verb when entering physical spaces! Do NOT use 'into'.",
+    "examples": [
+      "Please enter the building through the main front door.",
+      "The doctor entered the room quietly."
+    ],
+    "common_mistake": "❌ She entered into the classroom. ➔ ✅ She entered the classroom.",
+    "synonyms": [
+      "go into",
+      "come into",
+      "access"
+    ],
+    "antonyms": [
+      "exit",
+      "leave",
+      "depart from"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "reach": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "reach [a destination / agreement / goal] (direct object)",
+    "level": "A1",
+    "definition": "To arrive at or attain a place, goal, or stage.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'to' or 'at' after 'reach'.",
+    "examples": [
+      "We reached the hotel late in the evening.",
+      "The negotiators reached a final agreement after midnight."
+    ],
+    "common_mistake": "❌ We reached to London at 5 PM. ➔ ✅ We reached London at 5 PM.",
+    "synonyms": [
+      "arrive at",
+      "get to",
+      "attain"
+    ],
+    "antonyms": [
+      "leave",
+      "depart from"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "marry": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "marry [someone] (direct object)",
+    "level": "A1",
+    "definition": "To join in marriage with someone.",
+    "grammar_rule": "Direct transitive verb in active voice! Do NOT add 'with' or 'to' after active 'marry'.",
+    "noun_parallel": "⚡ Active Verb: 'He married her' (no prep) ➔ Passive Adjective: 'He is married TO her'",
+    "examples": [
+      "Will you marry me?",
+      "She married her high school sweetheart last year."
+    ],
+    "common_mistake": "❌ He married with a lawyer. ➔ ✅ He married a lawyer.",
+    "synonyms": [
+      "wed",
+      "espouse"
+    ],
+    "antonyms": [
+      "divorce"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "resemble": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "resemble [someone / something] (direct object)",
+    "level": "A1",
+    "definition": "To look like or be similar to another person or thing.",
+    "grammar_rule": "Direct transitive verb! Do NOT add 'to' or 'with' after 'resemble'.",
+    "noun_parallel": "⚡ Verb: 'She resembles her mother' ➔ Noun: 'She bears a resemblance TO her mother'",
+    "examples": [
+      "The twins strongly resemble each other in appearance.",
+      "This new software resembles our old interface."
+    ],
+    "common_mistake": "❌ She resembles with her mother. ➔ ✅ She resembles her mother.",
+    "synonyms": [
+      "look like",
+      "take after"
+    ],
+    "antonyms": [
+      "differ from"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "get on with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "get on with [someone / task]",
+    "level": "A1",
+    "definition": "To have a harmonious relationship with someone or continue work.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'with' before a person or task.",
+    "examples": [
+      "Do you get on with your new flatmates?",
+      "Let's get on with our work without wasting time."
+    ],
+    "common_mistake": "❌ I get on good my brother. ➔ ✅ I get on well with my brother.",
+    "synonyms": [
+      "get along with",
+      "continue"
+    ],
+    "antonyms": [
+      "argue with",
+      "clash with"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "check in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "to"
+    ],
+    "pattern": "check in at [hotel / airport]",
+    "level": "A1",
+    "definition": "To arrive and register at a hotel or airport.",
+    "grammar_rule": "Intransitive phrasal verb. Use 'at' before the hotel or airport location.",
+    "noun_parallel": "⚡ Verb: 'Check in at reception' ➔ Noun: 'Go to check-in'",
+    "examples": [
+      "Guests can check in at the reception desk from 3 PM.",
+      "We checked in two hours before our flight."
+    ],
+    "common_mistake": "❌ Check in into the hotel. ➔ ✅ Check in at the hotel.",
+    "synonyms": [
+      "register",
+      "report arrival"
+    ],
+    "antonyms": [
+      "check out"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "check out": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "of",
+      "from"
+    ],
+    "pattern": "check out of [hotel]",
+    "level": "A1",
+    "definition": "To settle one's bill and leave a hotel.",
+    "grammar_rule": "Intransitive phrasal verb. Use 'of' before the hotel being vacated.",
+    "examples": [
+      "We need to check out of our room before eleven AM.",
+      "He checked out of the resort yesterday morning."
+    ],
+    "common_mistake": "❌ We checked out from the room at 10. ➔ ✅ We checked out of the room at 10.",
+    "synonyms": [
+      "vacate",
+      "leave"
+    ],
+    "antonyms": [
+      "check in"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "wake up": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "wake up (at [time])",
+    "level": "A1",
+    "definition": "To stop sleeping and become conscious.",
+    "grammar_rule": "Intransitive phrasal verb. Use 'at' when specifying exact time of waking.",
+    "examples": [
+      "I usually wake up at seven o'clock on weekdays.",
+      "She woke up early to catch the morning train."
+    ],
+    "common_mistake": "❌ I wake up in 7 o'clock. ➔ ✅ I wake up at 7 o'clock.",
+    "synonyms": [
+      "awaken",
+      "get up"
+    ],
+    "antonyms": [
+      "fall asleep",
+      "go to sleep"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "work": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for",
+      "at",
+      "in"
+    ],
+    "pattern": "work for [company] / work at [location] / work in [field]",
+    "level": "A1",
+    "definition": "To be engaged in physical or mental activity as a job.",
+    "grammar_rule": "Use 'work for' before an employer, 'work at' before a building, and 'work in' before an industry.",
+    "examples": [
+      "She works for a multinational IT company.",
+      "He works in education as a teacher."
+    ],
+    "common_mistake": "❌ I work to Google. ➔ ✅ I work for Google.",
+    "synonyms": [
+      "be employed by",
+      "labor"
+    ],
+    "antonyms": [
+      "be unemployed",
+      "retire"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "stay": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "in",
+      "with"
+    ],
+    "pattern": "stay at [hotel] / stay in [city] / stay with [friends]",
+    "level": "A1",
+    "definition": "To remain in a particular place or lodge as a guest.",
+    "grammar_rule": "Use 'stay at' for hotels, 'stay in' for cities/countries, and 'stay with' for hosts.",
+    "examples": [
+      "We stayed at a cozy hotel near the beach.",
+      "She is staying with her relatives in Rome."
+    ],
+    "common_mistake": "❌ We stayed to a hotel. ➔ ✅ We stayed at a hotel.",
+    "synonyms": [
+      "lodge",
+      "remain",
+      "reside temporarily"
+    ],
+    "antonyms": [
+      "leave",
+      "depart"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "complain": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about",
+      "to",
+      "of"
+    ],
+    "pattern": "complain about [issue] / complain to [person]",
+    "level": "A2",
+    "definition": "To express dissatisfaction, pain, or annoyance about something.",
+    "grammar_rule": "Intransitive verb taking 'about' for the problem, 'to' for the recipient, and 'of' for medical symptoms.",
+    "noun_parallel": "⚡ Verb: 'Complain about noise' ➔ Noun: 'Make a complaint ABOUT noise'",
+    "examples": [
+      "Neighbors complained about the noise late at night.",
+      "He complained to the manager about the cold food."
+    ],
+    "common_mistake": "❌ She complained for the service. ➔ ✅ She complained about the service.",
+    "synonyms": [
+      "grumble about",
+      "protest about"
+    ],
+    "antonyms": [
+      "praise",
+      "commend"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "care": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about",
+      "for"
+    ],
+    "pattern": "care about [topic / person] / care for [someone]",
+    "level": "A2",
+    "definition": "To feel concern, interest, or affection for someone or something.",
+    "grammar_rule": "Intransitive verb taking 'about' for importance/feelings, and 'for' when taking care of someone.",
+    "examples": [
+      "He cares deeply about environmental issues.",
+      "She spent years caring for her elderly parents."
+    ],
+    "common_mistake": "❌ I don't care of your opinion. ➔ ✅ I don't care about your opinion.",
+    "synonyms": [
+      "mind",
+      "be concerned about"
+    ],
+    "antonyms": [
+      "ignore",
+      "disregard"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "dream": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about",
+      "of"
+    ],
+    "pattern": "dream about [event / sleep] / dream of [aspiration]",
+    "level": "A2",
+    "definition": "To experience thoughts during sleep or imagine a desired future.",
+    "grammar_rule": "Use 'dream about' for sleep experiences and 'dream of' for ambitions or imagined possibilities.",
+    "examples": [
+      "Last night I dreamed about flying over the ocean.",
+      "She dreams of becoming a professional musician."
+    ],
+    "common_mistake": "❌ I dream for a new car. ➔ ✅ I dream of a new car.",
+    "synonyms": [
+      "fantasize about",
+      "aspire to"
+    ],
+    "antonyms": [
+      "confront reality",
+      "be pragmatic"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "prepare": {
+    "is_phrasal": false,
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "prepare [something] / prepare for [event]",
+    "level": "A2",
+    "definition": "To make or get ready for a future event or task.",
+    "grammar_rule": "Use direct transitive object when making an item ready, or 'prepare for' before an upcoming event.",
+    "noun_parallel": "⚡ Verb: 'Prepare for exams' ➔ Noun: 'In preparation FOR exams'",
+    "examples": [
+      "Students are preparing for their final examinations.",
+      "Chef prepared dinner for twenty guests."
+    ],
+    "common_mistake": "❌ We must prepare to the interview. ➔ ✅ We must prepare for the interview.",
+    "synonyms": [
+      "get ready for",
+      "arrange"
+    ],
+    "antonyms": [
+      "neglect",
+      "improvise"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "borrow": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "borrow [something] from [someone]",
+    "level": "A2",
+    "definition": "To take and use something belonging to someone else with intention to return it.",
+    "grammar_rule": "Direct object required! Use 'from' before the lender (do not confuse with 'lend to').",
+    "examples": [
+      "Can I borrow a pen from you?",
+      "She borrowed a book from the local library."
+    ],
+    "common_mistake": "❌ Can I borrow money to you? ➔ ✅ Can I borrow money from you?",
+    "synonyms": [
+      "take on loan from"
+    ],
+    "antonyms": [
+      "lend to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "lend": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "lend [something] to [someone]",
+    "level": "A2",
+    "definition": "To grant temporary use of something on condition that it will be returned.",
+    "grammar_rule": "Direct object required! Use 'to' before the borrower (do not confuse with 'borrow from').",
+    "examples": [
+      "I lent my umbrella to my colleague.",
+      "The bank agreed to lend money to small businesses."
+    ],
+    "common_mistake": "❌ He lent his car from me. ➔ ✅ He lent his car to me.",
+    "synonyms": [
+      "loan to"
+    ],
+    "antonyms": [
+      "borrow from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "look away": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "away",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "look away from [someone / something]",
+    "level": "A2",
+    "definition": "To turn one's eyes away from someone or something.",
+    "grammar_rule": "Intransitive visual phrasal verb requiring 'from' when indicating the object avoided.",
+    "examples": [
+      "She looked away from the scary scene on screen.",
+      "He looked away in embarrassment."
+    ],
+    "common_mistake": "❌ She looked away to the accident. ➔ ✅ She looked away from the accident.",
+    "synonyms": [
+      "turn away from",
+      "avert eyes from"
+    ],
+    "antonyms": [
+      "stare at",
+      "look at"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "come back": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "back",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "from"
+    ],
+    "pattern": "come back to [place] / come back from [origin]",
+    "level": "A2",
+    "definition": "To return to a place or topic.",
+    "grammar_rule": "Intransitive directional phrasal verb. Use 'to' for return destination and 'from' for point of origin.",
+    "examples": [
+      "When will you come back to London?",
+      "They just came back from vacation."
+    ],
+    "common_mistake": "❌ He came back in home late. ➔ ✅ He came back home late.",
+    "synonyms": [
+      "return to"
+    ],
+    "antonyms": [
+      "go away",
+      "leave"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "go out": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with",
+      "for"
+    ],
+    "pattern": "go out with [someone] / go out for [activity]",
+    "level": "A2",
+    "definition": "To leave home for social entertainment or be in a romantic relationship.",
+    "grammar_rule": "Intransitive phrasal verb using 'with' for companion/partner and 'for' for activity.",
+    "examples": [
+      "We are going out for dinner tonight.",
+      "She has been going out with Mark for six months."
+    ],
+    "common_mistake": "❌ We go out to dinner with. ➔ ✅ We are going out for dinner together.",
+    "synonyms": [
+      "date",
+      "socialize"
+    ],
+    "antonyms": [
+      "stay in"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "get up": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "up",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "from"
+    ],
+    "pattern": "get up (at [time] / from [bed])",
+    "level": "A2",
+    "definition": "To rise from bed or from a seated position.",
+    "grammar_rule": "Intransitive phrasal verb. Use 'at' for time and 'from' for bed or chair.",
+    "examples": [
+      "I get up at six-thirty every morning.",
+      "He got up from his chair to open the door."
+    ],
+    "common_mistake": "❌ I get up on 7 AM. ➔ ✅ I get up at 7 AM.",
+    "synonyms": [
+      "arise",
+      "stand up"
+    ],
+    "antonyms": [
+      "lie down",
+      "go to bed"
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
+  },
+  "turn on": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "turn on [device / light] OR turn [it] on",
+    "level": "A2",
+    "definition": "To start the operation of an appliance or light switch.",
+    "grammar_rule": "Separable phrasal verb. Pronoun objects MUST go between verb and particle ('turn it on').",
+    "examples": [
+      "Please turn on the lights when it gets dark.",
+      "Could you turn the radio on?"
+    ],
+    "common_mistake": "❌ Turn on it please. ➔ ✅ Turn it on please.",
+    "synonyms": [
+      "switch on",
+      "activate"
+    ],
+    "antonyms": [
+      "turn off",
+      "switch off"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "turn off": {
+    "is_phrasal": true,
+    "separability": "Separable",
+    "particle": "off",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "off"
+    ],
+    "pattern": "turn off [device / light] OR turn [it] off",
+    "level": "A2",
+    "definition": "To stop the operation of an appliance or light switch.",
+    "grammar_rule": "Separable phrasal verb. Pronoun objects MUST go between verb and particle ('turn it off').",
+    "examples": [
+      "Don't forget to turn off the computer before leaving.",
+      "He turned the television off."
+    ],
+    "common_mistake": "❌ Turn off it before bedtime. ➔ ✅ Turn it off before bedtime.",
+    "synonyms": [
+      "switch off",
+      "deactivate"
+    ],
+    "antonyms": [
+      "turn on",
+      "switch on"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "write to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "write to [person]",
+    "level": "A2",
+    "definition": "To send a letter or written communication to someone.",
+    "grammar_rule": "Intransitive in British/Standard English requiring 'to' before the recipient.",
+    "noun_parallel": "⚡ Verb: 'Write to customer service' ➔ Noun: 'A letter TO customer service'",
+    "examples": [
+      "She wrote to her grandmother every month.",
+      "You should write to the council about this road issue."
+    ],
+    "common_mistake": "❌ Write me a letter tomorrow. ➔ ✅ Write to me tomorrow.",
+    "synonyms": [
+      "correspond with",
+      "send a letter to"
+    ],
+    "antonyms": [
+      "ignore",
+      "stop correspondence with"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "belong in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in",
+      "on"
+    ],
+    "pattern": "belong in [place / category] / belong on [shelf]",
+    "level": "A2",
+    "definition": "To be properly classified or located in a specific place.",
+    "grammar_rule": "Intransitive positional phrasal verb taking 'in' for containers/rooms and 'on' for surfaces.",
+    "examples": [
+      "These dirty dishes belong in the dishwasher.",
+      "That painting belongs on the main wall."
+    ],
+    "common_mistake": "❌ This book belongs at the shelf. ➔ ✅ This book belongs on the shelf.",
+    "synonyms": [
+      "fit in",
+      "go in"
+    ],
+    "antonyms": [
+      "be out of place in",
+      "mismatch"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "walk out on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "out on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "walk out on [partner / family / job]",
+    "level": "A2",
+    "definition": "To abandon or desert someone suddenly.",
+    "grammar_rule": "Inseparable multi-particle phrasal verb requiring 'on' before the abandoned party.",
+    "examples": [
+      "He walked out on his family without any explanation.",
+      "You cannot just walk out on your job mid-shift."
+    ],
+    "common_mistake": "❌ He walked out from his team. ➔ ✅ He walked out on his team.",
+    "synonyms": [
+      "abandon",
+      "desert",
+      "leave"
+    ],
+    "antonyms": [
+      "stand by",
+      "support"
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
+  },
+  "talk about": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "about",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "talk about [topic]",
+    "level": "A2",
+    "definition": "To converse or discuss a specific topic.",
+    "grammar_rule": "Requires 'about' before the subject of discussion.",
+    "examples": [
+      "We talked about our weekend plans over coffee.",
+      "What are you talking about?"
+    ],
+    "common_mistake": "❌ We talked the movie. ➔ ✅ We talked about the movie.",
+    "synonyms": [
+      "discuss",
+      "speak of"
+    ],
+    "antonyms": [
+      "be silent on",
+      "ignore"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "agree with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "agree with [person / opinion]",
+    "level": "A2",
+    "definition": "To have the same opinion as someone else.",
+    "grammar_rule": "Inseparable phrasal verb requiring 'with' when agreeing with a person.",
+    "examples": [
+      "I agree with you completely on this point.",
+      "She rarely agrees with her manager."
+    ],
+    "common_mistake": "❌ I am agree with you. ➔ ✅ I agree with you.",
+    "synonyms": [
+      "concur with",
+      "share opinion with"
+    ],
+    "antonyms": [
+      "disagree with",
+      "dissent from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "agree to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "agree to [proposal / request / terms]",
+    "level": "A2",
+    "definition": "To give consent or accept a proposal or terms.",
+    "grammar_rule": "Use 'agree to' before proposals, conditions, or terms.",
+    "examples": [
+      "They agreed to the terms of the contract.",
+      "She agreed to help us with the project."
+    ],
+    "common_mistake": "❌ She agreed with the proposal. ➔ ✅ She agreed to the proposal.",
+    "synonyms": [
+      "consent to",
+      "accept"
+    ],
+    "antonyms": [
+      "reject",
+      "refuse"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "apologize to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "apologize to [someone]",
+    "level": "A2",
+    "definition": "To express regret to a person.",
+    "grammar_rule": "Requires 'to' before the person receiving the apology.",
+    "examples": [
+      "You should apologize to her right away.",
+      "He apologized to his colleagues."
+    ],
+    "common_mistake": "❌ Apologize her now. ➔ ✅ Apologize to her now.",
+    "synonyms": [
+      "say sorry to"
+    ],
+    "antonyms": [
+      "blame",
+      "reproach"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "arrive at": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "at",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at"
+    ],
+    "pattern": "arrive at [building / station / conclusion]",
+    "level": "A2",
+    "definition": "To reach a specific building, station, or decision point.",
+    "grammar_rule": "Use 'arrive at' for specific locations, buildings, airports, or conclusions. NEVER 'to'!",
+    "examples": [
+      "We arrived at the station five minutes late.",
+      "They arrived at a consensus after long debate."
+    ],
+    "common_mistake": "❌ Arrive to the airport. ➔ ✅ Arrive at the airport.",
+    "synonyms": [
+      "reach",
+      "make it to"
+    ],
+    "antonyms": [
+      "depart from",
+      "leave"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "arrive in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "arrive in [city / country]",
+    "level": "A2",
+    "definition": "To reach a city, town, or country.",
+    "grammar_rule": "Use 'arrive in' for large geographic areas, cities, and countries. NEVER 'to'!",
+    "examples": [
+      "The plane arrived in Tokyo on time.",
+      "When did you arrive in London?"
+    ],
+    "common_mistake": "❌ We arrived to France yesterday. ➔ ✅ We arrived in France yesterday.",
+    "synonyms": [
+      "reach",
+      "touch down in"
+    ],
+    "antonyms": [
+      "depart from",
+      "leave"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "believe in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "believe in [principle / ghost / ability]",
+    "level": "A2",
+    "definition": "To feel confident in the truth, existence, or value of something.",
+    "grammar_rule": "Requires 'in' when expressing faith in existence or confidence in abilities.",
+    "noun_parallel": "⚡ Verb: 'Believe in success' ➔ Noun: 'Have belief IN success'",
+    "examples": [
+      "Do you believe in ghosts?",
+      "I believe in your ability to succeed."
+    ],
+    "common_mistake": "❌ I believe on you. ➔ ✅ I believe in you.",
+    "synonyms": [
+      "trust in",
+      "have faith in"
+    ],
+    "antonyms": [
+      "doubt",
+      "disbelieve in"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "pay for": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "for",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "pay for [item / meal / mistake]",
+    "level": "A2",
+    "definition": "To give money in exchange for goods, services, or face consequences.",
+    "grammar_rule": "Use 'pay for' before the item or service being purchased.",
+    "examples": [
+      "I will pay for the dinner tonight.",
+      "He had to pay for his past mistakes."
+    ],
+    "common_mistake": "❌ I paid the coffee. ➔ ✅ I paid for the coffee.",
+    "synonyms": [
+      "finance",
+      "foot the bill for"
+    ],
+    "antonyms": [
+      "receive payment for",
+      "get for free"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "speak with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "speak with [someone]",
+    "level": "A2",
+    "definition": "To engage in a conversation with someone.",
+    "grammar_rule": "Requires 'with' or 'to' before the person spoken to.",
+    "examples": [
+      "I spoke with the manager regarding my account.",
+      "Can I speak with you for a moment?"
+    ],
+    "common_mistake": "❌ Speak at me. ➔ ✅ Speak with me.",
+    "synonyms": [
+      "talk with",
+      "converse with"
+    ],
+    "antonyms": [
+      "ignore",
+      "avoid speaking to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "talk to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "talk to [someone]",
+    "level": "A2",
+    "definition": "To address or speak to a person.",
+    "grammar_rule": "Requires 'to' before the listener.",
+    "examples": [
+      "She went to talk to the doctor.",
+      "Don't talk to strangers on the internet."
+    ],
+    "common_mistake": "❌ Talk at him politely. ➔ ✅ Talk to him politely.",
+    "synonyms": [
+      "speak to",
+      "address"
+    ],
+    "antonyms": [
+      "ignore",
+      "avoid talking to"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "confer on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "confer [title / honor] on [someone]",
+    "level": "B2",
+    "definition": "To grant or bestow a title, degree, or honor upon someone.",
+    "grammar_rule": "Transitive formal verb requiring direct object (honor/title) followed by 'on' or 'upon' + recipient.",
+    "noun_parallel": "⚡ Verb: 'Confer an honor on him' ➔ Noun: 'Conferral OF an honor'",
+    "examples": [
+      "The university will confer an honorary degree on the visiting scholar.",
+      "The president conferred a medal on the hero."
+    ],
+    "common_mistake": "❌ Confer a title to him. ➔ ✅ Confer a title on him.",
+    "synonyms": [
+      "bestow on",
+      "grant to",
+      "award to"
+    ],
+    "antonyms": [
+      "revoke from",
+      "withhold from"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "desist from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "desist from [action / behavior]",
+    "level": "B2",
+    "definition": "To cease or stop doing something.",
+    "grammar_rule": "Formal inseparable phrasal verb requiring 'from' + gerund (-ing).",
+    "examples": [
+      "The court ordered them to desist from illegal activities.",
+      "They desisted from further protests after the meeting."
+    ],
+    "common_mistake": "❌ Desist to take action. ➔ ✅ Desist from taking action.",
+    "synonyms": [
+      "cease",
+      "stop",
+      "hold back from"
+    ],
+    "antonyms": [
+      "continue",
+      "persist in"
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  }
+}
