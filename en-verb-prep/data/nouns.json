@@ -1,0 +1,3523 @@
+{
+  "name of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "name of + [person / place / thing]",
+    "level": "A1",
+    "definition": "The word or words by which a person, place, or thing is known.",
+    "grammar_rule": "Always use 'of' after 'name' when identifying the entity.",
+    "examples": [
+      "What is the name of this beautiful street?",
+      "I cannot remember the name of that actor."
+    ],
+    "common_mistake": "❌ What is the name for this city? ➜ ✅ What is the name of this city?",
+    "synonyms": [
+      "title of",
+      "designation of"
+    ],
+    "antonyms": [
+      "anonymity",
+      "namelessness"
+    ]
+  },
+  "member of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "member of + [group / club / family / team]",
+    "level": "A1",
+    "definition": "An individual belonging to a group, organization, or society.",
+    "grammar_rule": "Always use 'of' after 'member' when indicating the organization or group.",
+    "examples": [
+      "She has been an active member of the sports club for two years.",
+      "Every member of the team worked hard."
+    ],
+    "common_mistake": "❌ He is a member in our club. ➜ ✅ He is a member of our club.",
+    "synonyms": [
+      "part of",
+      "participant in"
+    ],
+    "antonyms": [
+      "non-member of",
+      "outsider to"
+    ]
+  },
+  "part of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "part of + [whole / system / group]",
+    "level": "A1",
+    "definition": "A piece or segment that belongs to a whole.",
+    "grammar_rule": "Always use 'of' after 'part' when specifying the larger whole.",
+    "examples": [
+      "Reading daily is an essential part of language learning.",
+      "Engineers replaced a broken part of the machine."
+    ],
+    "common_mistake": "❌ This is part from the plan. ➜ ✅ This is part of the plan.",
+    "synonyms": [
+      "portion of",
+      "segment of",
+      "component of"
+    ],
+    "antonyms": [
+      "whole of"
+    ]
+  },
+  "kind of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "kind of + [noun]",
+    "level": "A1",
+    "definition": "A class or category of things having common characteristics.",
+    "grammar_rule": "Always use 'of' after 'kind'. Do NOT use 'from' or 'about'.",
+    "examples": [
+      "What kind of music do you enjoy listening to?",
+      "This is a new kind of smartphone."
+    ],
+    "common_mistake": "❌ What kind from tea is this? ➜ ✅ What kind of tea is this?",
+    "synonyms": [
+      "type of",
+      "sort of",
+      "category of"
+    ],
+    "antonyms": [
+      "unrelated item",
+      "mismatch"
+    ]
+  },
+  "sort of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "sort of + [noun]",
+    "level": "A1",
+    "definition": "A category of things or people having common features.",
+    "grammar_rule": "Always use 'of' after 'sort' when referring to type or category.",
+    "examples": [
+      "What sort of work do you do?",
+      "They sell every sort of fresh fruit."
+    ],
+    "common_mistake": "❌ What sort for car do you drive? ➜ ✅ What sort of car do you drive?",
+    "synonyms": [
+      "kind of",
+      "type of",
+      "variety of"
+    ],
+    "antonyms": [
+      "unrelated category",
+      "mismatch"
+    ]
+  },
+  "lot of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "a lot of + [noun]",
+    "level": "A1",
+    "definition": "A large quantity or number of something.",
+    "grammar_rule": "Always use 'of' after 'a lot' before nouns.",
+    "examples": [
+      "There were a lot of people at the concert last night.",
+      "We need a lot of water for the journey."
+    ],
+    "common_mistake": "❌ There are a lot students here. ➜ ✅ There are a lot of students here.",
+    "synonyms": [
+      "plenty of",
+      "abundance of"
+    ],
+    "antonyms": [
+      "lack of",
+      "shortage of"
+    ]
+  },
+  "cup of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "cup of + [beverage]",
+    "level": "A1",
+    "definition": "A small bowl-shaped container for drinking, or the amount it holds.",
+    "grammar_rule": "Always use 'of' when quantifying liquid contents in a container.",
+    "examples": [
+      "Would you like a fresh cup of coffee?",
+      "She drank a hot cup of tea before sleeping."
+    ],
+    "common_mistake": "❌ Bring me a cup with tea. ➜ ✅ Bring me a cup of tea.",
+    "synonyms": [
+      "glass of",
+      "mug of"
+    ],
+    "antonyms": [
+      "empty cup",
+      "lack of liquid"
+    ]
+  },
+  "price of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "price of + [item / service]",
+    "level": "A1",
+    "definition": "The amount of money expected or required in payment for something.",
+    "grammar_rule": "Use 'price of' before the item purchased.",
+    "examples": [
+      "The price of gasoline increased sharply this month.",
+      "What is the price of a ticket to London?"
+    ],
+    "common_mistake": "❌ What is the price for this book? ➜ ✅ What is the price of this book?",
+    "synonyms": [
+      "cost of",
+      "rate of",
+      "charge for"
+    ],
+    "antonyms": [
+      "free of charge",
+      "valuelessness"
+    ]
+  },
+  "reason for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "reason for + [noun / gerund (-ing)]",
+    "level": "A1",
+    "definition": "A cause, explanation, or justification for an event or action.",
+    "grammar_rule": "Use 'reason FOR' + noun/gerund. Contrast with the conjunction phrase 'because OF'.",
+    "examples": [
+      "What was the main reason for his absence yesterday?",
+      "She explained her reason for resigning."
+    ],
+    "common_mistake": "❌ What was the reason of his anger? ➜ ✅ What was the reason for his anger?",
+    "synonyms": [
+      "cause of",
+      "explanation for",
+      "motive for"
+    ],
+    "antonyms": [
+      "result of",
+      "consequence of"
+    ],
+    "related_forms": "⚡ Noun: 'reason for the delay' ➔ Conjunction: 'delayed because of the rain'"
+  },
+  "need for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "need for + [noun / gerund (-ing)]",
+    "level": "A1",
+    "definition": "A requirement or necessity for something.",
+    "grammar_rule": "The noun 'need FOR' takes 'for'. Contrast with the transitive verb 'need' which takes a direct object with NO preposition.",
+    "examples": [
+      "There is an urgent need for healthcare reform.",
+      "We see no need for further delay."
+    ],
+    "common_mistake": "❌ We have a need of more time. ➜ ✅ We have a need for more time.",
+    "synonyms": [
+      "demand for",
+      "requirement for",
+      "necessity for"
+    ],
+    "antonyms": [
+      "abundance of",
+      "surplus of"
+    ],
+    "related_forms": "⚡ Noun: 'there is a need FOR action' ➔ Verb: 'we need action' (no prep)"
+  },
+  "request for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "request for + [noun / information]",
+    "level": "A1",
+    "definition": "An act of asking politely or formally for something.",
+    "grammar_rule": "The noun 'request FOR' takes 'for'. Contrast with the verb 'request' which takes a direct object with NO preposition.",
+    "examples": [
+      "Management approved her request for extra funding.",
+      "Send your request for information via email."
+    ],
+    "common_mistake": "❌ He made a request of help. ➜ ✅ He made a request for help.",
+    "synonyms": [
+      "application for",
+      "appeal for",
+      "demand for"
+    ],
+    "antonyms": [
+      "refusal of",
+      "rejection of"
+    ],
+    "related_forms": "⚡ Noun: 'a request FOR assistance' ➔ Verb: 'request' (no prep)"
+  },
+  "love for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "of"
+    ],
+    "pattern": "love for/of + [someone / something]",
+    "level": "A1",
+    "definition": "An intense feeling of deep affection or strong liking.",
+    "grammar_rule": "Use 'love for' or 'love of'. Contrast with the transitive verb 'love' which takes NO preposition.",
+    "examples": [
+      "His deep love for nature inspired his poetry.",
+      "She expressed her love of art."
+    ],
+    "common_mistake": "❌ Her love to animals is boundless. ➜ ✅ Her love for animals is boundless.",
+    "synonyms": [
+      "affection for",
+      "devotion to",
+      "passion for"
+    ],
+    "antonyms": [
+      "hatred of",
+      "aversion to"
+    ],
+    "related_forms": "⚡ Noun: 'her love FOR music' ➔ Verb: 'she loves music' (no prep)"
+  },
+  "hope for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "hope for + [future / outcome]",
+    "level": "A1",
+    "definition": "A feeling of expectation and desire for a particular thing to happen.",
+    "grammar_rule": "Both the noun 'hope for' and verb 'hope' (hope for) take 'for'.",
+    "examples": [
+      "The doctors gave us new hope for his recovery.",
+      "We have great hope for the future."
+    ],
+    "common_mistake": "❌ We have hope about success. ➜ ✅ We have hope for success.",
+    "synonyms": [
+      "expectation of",
+      "optimism about"
+    ],
+    "antonyms": [
+      "despair of",
+      "hopelessness about"
+    ],
+    "related_forms": "⚡ Noun: 'there is hope FOR recovery' ➔ Verb: 'hope'"
+  },
+  "care of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "take care of + [someone / something]",
+    "level": "A1",
+    "definition": "Serious attention, protection, or supervision.",
+    "grammar_rule": "Used in the fossilized idiom 'take care OF'. Contrast with verb 'take care of' or 'care'.",
+    "examples": [
+      "Who will take care of your dog while you are away?",
+      "She takes great care of her elderly parents."
+    ],
+    "common_mistake": "❌ Take care for your health. ➜ ✅ Take care of your health.",
+    "synonyms": [
+      "protection of",
+      "guardianship of"
+    ],
+    "antonyms": [
+      "neglect of",
+      "disregard of"
+    ],
+    "related_forms": "⚡ Noun idiom: 'take care OF him' ➔ Verb: 'care' (care about / care for)"
+  },
+  "interest in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "interest in + [topic / activity / gerund (-ing)]",
+    "level": "A1",
+    "definition": "The feeling of wanting to know or learn about something.",
+    "grammar_rule": "The noun 'interest IN' takes 'in'. This matches the adjective 'interested in'.",
+    "examples": [
+      "He has a keen interest in computer programming.",
+      "Her interest in photography started early."
+    ],
+    "common_mistake": "❌ She has an interest about music. ➜ ✅ She has an interest in music.",
+    "synonyms": [
+      "curiosity about",
+      "passion for",
+      "attraction to"
+    ],
+    "antonyms": [
+      "indifference to",
+      "disinterest in"
+    ],
+    "related_forms": "⚡ Noun: 'take an interest IN science' ➔ Adjective: 'interested in'"
+  },
+  "belief in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "belief in + [god / principles / human nature]",
+    "level": "A1",
+    "definition": "An acceptance that something exists or is true, especially without proof.",
+    "grammar_rule": "Both the noun 'belief IN' and verb 'believe in' take 'in'.",
+    "examples": [
+      "Her strong belief in justice guided her career.",
+      "He maintained a firm belief in his team's potential."
+    ],
+    "common_mistake": "❌ Belief on magic is common in fairy tales. ➜ ✅ Belief in magic is common in fairy tales.",
+    "synonyms": [
+      "faith in",
+      "trust in",
+      "conviction in"
+    ],
+    "antonyms": [
+      "disbelief in",
+      "skepticism about"
+    ],
+    "related_forms": "⚡ Noun: 'belief IN equality' ➔ Verb: 'believe in'"
+  },
+  "trip to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "trip to + [destination / city / country]",
+    "level": "A1",
+    "definition": "A journey or excursion to a place.",
+    "grammar_rule": "Always use 'to' after 'trip' when specifying a travel destination.",
+    "examples": [
+      "We are planning a weekend trip to Paris.",
+      "How was your recent trip to the mountains?"
+    ],
+    "common_mistake": "❌ Our trip in Rome was wonderful. ➜ ✅ Our trip to Rome was wonderful.",
+    "synonyms": [
+      "journey to",
+      "visit to",
+      "excursion to"
+    ],
+    "antonyms": [
+      "return from",
+      "stay at home"
+    ]
+  },
+  "visit to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "visit to + [place / person]",
+    "level": "A1",
+    "definition": "An act of going to see a person or place as a guest or tourist.",
+    "grammar_rule": "The noun 'visit TO' takes 'to'. Contrast with the transitive verb 'visit' which takes a direct object with NO preposition.",
+    "examples": [
+      "During our visit to London, we saw Big Ben.",
+      "He paid a short visit to his grandmother."
+    ],
+    "common_mistake": "❌ Our visit in the hospital was brief. ➜ ✅ Our visit to the hospital was brief.",
+    "synonyms": [
+      "trip to",
+      "stay at",
+      "excursion to"
+    ],
+    "antonyms": [
+      "departure from",
+      "avoidance of"
+    ],
+    "related_forms": "⚡ Noun: 'a visit TO the museum' ➔ Verb: 'visit' (no prep)"
+  },
+  "way to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "way to + [place / goal]",
+    "level": "A1",
+    "definition": "A method, style, or route for reaching a place or achieving an object.",
+    "grammar_rule": "Use 'way to' before destinations or goals.",
+    "examples": [
+      "Can you tell me the best way to the train station?",
+      "Hard work is the surest way to success."
+    ],
+    "common_mistake": "❌ What is the way for the beach? ➜ ✅ What is the way to the beach?",
+    "synonyms": [
+      "route to",
+      "path to",
+      "method for"
+    ],
+    "antonyms": [
+      "obstacle to",
+      "detour from"
+    ]
+  },
+  "key to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "key to + [door / room / success / problem]",
+    "level": "A1",
+    "definition": "A small metal instrument for operating a lock, OR a crucial element for success.",
+    "grammar_rule": "Always use 'to' after 'key' for both physical locks and figurative solutions/success.",
+    "examples": [
+      "Do you have the key to the front door?",
+      "Education is the key to personal development."
+    ],
+    "common_mistake": "❌ Where is the key for my car? ➜ ✅ Where is the key to my car?",
+    "synonyms": [
+      "answer to",
+      "solution to",
+      "access to"
+    ],
+    "antonyms": [
+      "obstacle to",
+      "hindrance to"
+    ]
+  },
+  "answer to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "answer to + [question / problem / letter]",
+    "level": "A1",
+    "definition": "A spoken or written reaction to a question, test, or problem.",
+    "grammar_rule": "The noun 'answer TO' takes 'to'. Contrast with the transitive verb 'answer' which takes a direct object with NO preposition.",
+    "examples": [
+      "Nobody knew the correct answer to the teacher's question.",
+      "We are still awaiting an answer to our email."
+    ],
+    "common_mistake": "❌ What is the answer for number 3? ➜ ✅ What is the answer to number 3?",
+    "synonyms": [
+      "solution to",
+      "response to",
+      "reply to"
+    ],
+    "antonyms": [
+      "question about"
+    ],
+    "related_forms": "⚡ Noun: 'the answer TO your question' ➔ Verb: 'answer' (no prep)"
+  },
+  "letter to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "letter to + [recipient]",
+    "level": "A1",
+    "definition": "A written message addressed to a person or organization.",
+    "grammar_rule": "Always use 'to' after 'letter' when specifying the recipient.",
+    "examples": [
+      "She wrote a heartfelt letter to her childhood friend.",
+      "I received a formal letter to the bank manager."
+    ],
+    "common_mistake": "❌ Send a letter for the embassy. ➜ ✅ Send a letter to the embassy.",
+    "synonyms": [
+      "message to",
+      "note to",
+      "note for"
+    ],
+    "antonyms": [
+      "silence toward",
+      "no response to"
+    ],
+    "related_forms": "⚡ Noun: 'write a letter TO her' ➔ Verb: 'write to'"
+  },
+  "invitation to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "invitation to + [event / party / wedding]",
+    "level": "A1",
+    "definition": "A written or spoken request inviting someone to attend an event.",
+    "grammar_rule": "Always use 'to' after 'invitation'. Do NOT use 'for'.",
+    "examples": [
+      "Did you receive an invitation to Sarah's wedding?",
+      "Thank you for the kind invitation to dinner."
+    ],
+    "common_mistake": "❌ An invitation for the party arrived today. ➜ ✅ An invitation to the party arrived today.",
+    "synonyms": [
+      "summons to",
+      "request for attendance"
+    ],
+    "antonyms": [
+      "exclusion from",
+      "rejection from"
+    ]
+  },
+  "picture of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "picture of + [person / place / scene]",
+    "level": "A1",
+    "definition": "A painting, drawing, or photograph representing a person or scene.",
+    "grammar_rule": "Always use 'of' after 'picture' or 'photo' to indicate the subject depicted.",
+    "examples": [
+      "She showed me a lovely picture of her new puppy.",
+      "This is a famous picture of the Eiffel Tower."
+    ],
+    "common_mistake": "❌ Here is a picture from my family. ➜ ✅ Here is a picture of my family.",
+    "synonyms": [
+      "photo of",
+      "image of",
+      "portrait of"
+    ],
+    "antonyms": [
+      "blank space",
+      "absence of image"
+    ]
+  },
+  "photo of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "photo of + [subject]",
+    "level": "A1",
+    "definition": "A photograph representing someone or something.",
+    "grammar_rule": "Always use 'of' after 'photo' or 'photograph'.",
+    "examples": [
+      "He took a stunning photo of the sunset over the ocean.",
+      "Send me a photo of your new apartment."
+    ],
+    "common_mistake": "❌ Can I see a photo from your trip? ➜ ✅ Can I see a photo of your trip?",
+    "synonyms": [
+      "picture of",
+      "snapshot of",
+      "image of"
+    ],
+    "antonyms": [
+      "blank screen",
+      "absence of photo"
+    ]
+  },
+  "map of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "map of + [city / country / area]",
+    "level": "A1",
+    "definition": "A diagrammatic representation of an area of land or sea.",
+    "grammar_rule": "Always use 'of' after 'map' when identifying the geographical area.",
+    "examples": [
+      "Do you have a street map of central London?",
+      "The tour guide handed us a map of the national park."
+    ],
+    "common_mistake": "❌ Here is a map for the subway. ➜ ✅ Here is a map of the subway.",
+    "synonyms": [
+      "chart of",
+      "plan of"
+    ],
+    "antonyms": [
+      "uncharted territory",
+      "unmapped area"
+    ]
+  },
+  "group of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "group of + [people / items / animals]",
+    "level": "A1",
+    "definition": "A number of people or things gathered or located together.",
+    "grammar_rule": "Always use 'of' after collective nouns like 'group'.",
+    "examples": [
+      "A large group of tourists arrived at the museum.",
+      "The teacher addressed a group of concerned parents."
+    ],
+    "common_mistake": "❌ A group from students stood outside. ➜ ✅ A group of students stood outside.",
+    "synonyms": [
+      "collection of",
+      "gathering of",
+      "cluster of"
+    ],
+    "antonyms": [
+      "individual"
+    ]
+  },
+  "glass of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "glass of + [water / juice / milk]",
+    "level": "A1",
+    "definition": "A drinking vessel made of glass, or its contents.",
+    "grammar_rule": "Always use 'of' when quantifying contents in a glass.",
+    "examples": [
+      "May I have a cold glass of water, please?",
+      "He poured a glass of orange juice with breakfast."
+    ],
+    "common_mistake": "❌ A glass with milk, please. ➜ ✅ A glass of milk, please.",
+    "synonyms": [
+      "cup of",
+      "tumbler of"
+    ],
+    "antonyms": [
+      "empty glass",
+      "empty container"
+    ]
+  },
+  "piece of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "piece of + [uncountable noun / cake / advice / paper]",
+    "level": "A1",
+    "definition": "A portion of an item or an instance of an uncountable noun.",
+    "grammar_rule": "Always use 'of' in partitive expressions like 'piece of'.",
+    "examples": [
+      "Let me give you a useful piece of advice.",
+      "Would you like another piece of chocolate cake?"
+    ],
+    "common_mistake": "❌ A piece from paper. ➜ ✅ A piece of paper.",
+    "synonyms": [
+      "portion of",
+      "slice of",
+      "segment of"
+    ],
+    "antonyms": [
+      "whole"
+    ]
+  },
+  "slice of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "slice of + [bread / pizza / meat / cake]",
+    "level": "A1",
+    "definition": "A thin, broad piece cut from something.",
+    "grammar_rule": "Always use 'of' after 'slice'.",
+    "examples": [
+      "He ate three slices of pizza for lunch.",
+      "Add a slice of lemon to my tea."
+    ],
+    "common_mistake": "❌ A slice from bread. ➜ ✅ A slice of bread.",
+    "synonyms": [
+      "piece of",
+      "portion of"
+    ],
+    "antonyms": [
+      "whole piece",
+      "entirety"
+    ]
+  },
+  "cost of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "cost of + [living / production / item]",
+    "level": "A1",
+    "definition": "The amount that has to be paid or spent to buy or obtain something.",
+    "grammar_rule": "Use 'cost of' before the item, service, or concept.",
+    "examples": [
+      "The cost of living in major cities has risen sharply.",
+      "What is the total cost of repairs?"
+    ],
+    "common_mistake": "❌ What is the cost for this project? ➜ ✅ What is the cost of this project?",
+    "synonyms": [
+      "price of",
+      "expense of",
+      "expenditure on"
+    ],
+    "antonyms": [
+      "profit from",
+      "financial gain"
+    ]
+  },
+  "ticket to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to",
+      "for"
+    ],
+    "pattern": "ticket to/for + [event / concert / place]",
+    "level": "A1",
+    "definition": "A printed piece of paper giving the holder a right to enter a place or travel.",
+    "grammar_rule": "Use 'ticket to' a place or event (ticket to Paris / ticket to the concert). 'Ticket for' is also used for events.",
+    "examples": [
+      "I bought two tickets to the theater performance.",
+      "Where can I buy a ticket for the football match?"
+    ],
+    "common_mistake": "❌ I need a ticket at Rome. ➜ ✅ I need a ticket to Rome.",
+    "synonyms": [
+      "pass to",
+      "entry permit for"
+    ],
+    "antonyms": [
+      "denial of entry",
+      "ban from"
+    ]
+  },
+  "gift for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "gift for + [recipient]",
+    "level": "A1",
+    "definition": "A thing given willingly to someone without payment; a present.",
+    "grammar_rule": "Use 'gift for' when specifying the recipient.",
+    "examples": [
+      "I bought a lovely birthday gift for my mother.",
+      "This watch is a gift for your hard work."
+    ],
+    "common_mistake": "❌ A gift to my friend (from me). ➜ ✅ A gift for my friend.",
+    "synonyms": [
+      "present for",
+      "token for"
+    ],
+    "antonyms": [
+      "penalty for",
+      "fine for"
+    ]
+  },
+  "time for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "time for + [noun / action]",
+    "level": "A1",
+    "definition": "An appointed or suitable moment for something.",
+    "grammar_rule": "Use 'time for' before nouns or gerunds (time for bed / time for lunch).",
+    "examples": [
+      "It is time for lunch!",
+      "There is no time for hesitation now."
+    ],
+    "common_mistake": "❌ It is time to the meeting. ➜ ✅ It is time for the meeting.",
+    "synonyms": [
+      "opportunity for",
+      "occasion for"
+    ],
+    "antonyms": [
+      "delay of",
+      "lack of time for"
+    ]
+  },
+  "place for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "place for + [someone / something]",
+    "level": "A1",
+    "definition": "A particular position, point, or area suitable for a purpose.",
+    "grammar_rule": "Use 'place for' when assigning function or location.",
+    "examples": [
+      "There is a special place for books on the shelf.",
+      "A hospital is a place for healing."
+    ],
+    "common_mistake": "❌ A place to store tools. ➜ ✅ A place for storing tools.",
+    "synonyms": [
+      "location for",
+      "space for",
+      "site for"
+    ],
+    "antonyms": [
+      "unsuitable location for",
+      "displacement from"
+    ]
+  },
+  "work of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "work of + [art / author / creator]",
+    "level": "A1",
+    "definition": "A literary or artistic creation, or labor by someone.",
+    "grammar_rule": "Use 'work of' when attributing artistic or creative origin.",
+    "examples": [
+      "Mona Lisa is a world-famous work of art.",
+      "This novel is the masterpiece work of Tolstoy."
+    ],
+    "common_mistake": "❌ A work from Picasso. ➜ ✅ A work of Picasso.",
+    "synonyms": [
+      "creation of",
+      "masterpiece of"
+    ],
+    "antonyms": [
+      "neglect by",
+      "destruction by"
+    ],
+    "related_forms": "⚡ Noun: 'a work of art' ➔ Verb: 'work'"
+  },
+  "attention to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "attention to + [someone / topic / detail]",
+    "level": "A2",
+    "definition": "Notice taken of someone or something; regarding someone as interesting or important.",
+    "grammar_rule": "Always use 'attention TO' after pay/give/turn.",
+    "examples": [
+      "Please pay close attention to the safety demonstration.",
+      "She turned her attention to her new project."
+    ],
+    "common_mistake": "❌ Pay attention at the teacher. ➜ ✅ Pay attention to the teacher.",
+    "synonyms": [
+      "mindfulness of",
+      "heed to",
+      "focus on"
+    ],
+    "antonyms": [
+      "inattention to",
+      "disregard of"
+    ],
+    "related_forms": "⚡ Noun: 'pay attention TO the speaker' ➔ Verb: 'listen to'"
+  },
+  "access to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "access to + [place / facility / information]",
+    "level": "A2",
+    "definition": "The means or opportunity to approach or enter a place.",
+    "grammar_rule": "The noun 'access TO' takes 'to'. Contrast with the transitive verb 'access' which takes NO preposition.",
+    "examples": [
+      "All employees have access to the company database.",
+      "Does this room have wheelchair access to the garden?"
+    ],
+    "common_mistake": "❌ We have access for the library. ➜ ✅ We have access to the library.",
+    "synonyms": [
+      "entry to",
+      "admission to",
+      "approach to"
+    ],
+    "antonyms": [
+      "denial of entry"
+    ],
+    "related_forms": "⚡ Noun: 'have access TO the file' ➔ Verb: 'access the file' (no prep)"
+  },
+  "approach to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "approach to + [problem / subject / task]",
+    "level": "A2",
+    "definition": "A way of dealing with something or a way of doing something.",
+    "grammar_rule": "The noun 'approach TO' takes 'to'. Contrast with the transitive verb 'approach' which takes NO preposition.",
+    "examples": [
+      "We need a fresh approach to solving this technical problem.",
+      "Her approach to teaching is very interactive."
+    ],
+    "common_mistake": "❌ What is your approach for this project? ➜ ✅ What is your approach to this project?",
+    "synonyms": [
+      "method for",
+      "strategy for",
+      "attitude toward"
+    ],
+    "antonyms": [
+      "retreat from",
+      "avoidance of"
+    ],
+    "related_forms": "⚡ Noun: 'our approach TO learning' ➔ Verb: 'approach the problem' (no prep)"
+  },
+  "solution to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "solution to + [problem / mystery / puzzle]",
+    "level": "A2",
+    "definition": "A means of solving a problem or dealing with a difficult situation.",
+    "grammar_rule": "Always use 'to' after 'solution' when identifying the problem resolved.",
+    "examples": [
+      "Engineers found a simple solution to the water leakage issue.",
+      "There is no quick solution to climate change."
+    ],
+    "common_mistake": "❌ We need a solution for this error. ➜ ✅ We need a solution to this error.",
+    "synonyms": [
+      "answer to",
+      "resolution to",
+      "key to"
+    ],
+    "antonyms": [
+      "problem with"
+    ],
+    "related_forms": "⚡ Noun: 'a solution TO the crisis' ➔ Verb: 'solve the crisis' (no prep)"
+  },
+  "reaction to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "reaction to + [news / drug / event]",
+    "level": "A2",
+    "definition": "An action performed or feeling experienced in response to a situation or event.",
+    "grammar_rule": "Always use 'to' after 'reaction' to identify the stimulus.",
+    "examples": [
+      "What was his initial reaction to the proposal?",
+      "She suffered an allergic reaction to the medication."
+    ],
+    "common_mistake": "❌ Her reaction for the movie was unexpected. ➜ ✅ Her reaction to the movie was unexpected.",
+    "synonyms": [
+      "response to",
+      "reply to",
+      "feedback on"
+    ],
+    "antonyms": [
+      "inaction toward",
+      "indifference to"
+    ],
+    "related_forms": "⚡ Noun: 'reaction TO the news' ➔ Verb: 'react to'"
+  },
+  "response to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "response to + [letter / inquiry / threat]",
+    "level": "A2",
+    "definition": "A verbal or written answer, or a reaction to something.",
+    "grammar_rule": "Always use 'to' after 'response'.",
+    "examples": [
+      "We received a swift response to our complaint letter.",
+      "In response to customer feedback, we changed the menu."
+    ],
+    "common_mistake": "❌ Here is my response for your question. ➜ ✅ Here is my response to your question.",
+    "synonyms": [
+      "answer to",
+      "reply to",
+      "reaction to"
+    ],
+    "antonyms": [
+      "question about"
+    ],
+    "related_forms": "⚡ Noun: 'response TO our email' ➔ Verb: 'answer' (no prep)"
+  },
+  "contribution to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "contribution to + [cause / science / field]",
+    "level": "A2",
+    "definition": "A gift or payment to a common fund, or an effort that helps bring about a result.",
+    "grammar_rule": "Both the noun 'contribution TO' and verb 'contribute to' take 'to'.",
+    "examples": [
+      "He made a significant financial contribution to the hospital.",
+      "Her research was a valuable contribution to science."
+    ],
+    "common_mistake": "❌ Thank you for your contribution for our team. ➜ ✅ Thank you for your contribution to our team.",
+    "synonyms": [
+      "donation to",
+      "addition to",
+      "input into"
+    ],
+    "antonyms": [
+      "withdrawal from"
+    ],
+    "related_forms": "⚡ Noun: 'contribution TO charity' ➔ Verb: 'contribute to'"
+  },
+  "damage to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "damage to + [property / reputation / health]",
+    "level": "A2",
+    "definition": "Physical harm caused to something in such a way as to impair its value, usefulness, or normal function.",
+    "grammar_rule": "The noun 'damage TO' takes 'to'. Contrast with the transitive verb 'damage' which takes NO preposition.",
+    "examples": [
+      "The storm caused severe damage to several coastal homes.",
+      "Smoking causes long-term damage to your health."
+    ],
+    "common_mistake": "❌ The accident caused damage of my car. ➜ ✅ The accident caused damage to my car.",
+    "synonyms": [
+      "harm to",
+      "injury to",
+      "detriment to"
+    ],
+    "antonyms": [
+      "repair of",
+      "restoration of"
+    ],
+    "related_forms": "⚡ Noun: 'damage TO the vehicle' ➔ Verb: 'damage the vehicle' (no prep)"
+  },
+  "threat to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "threat to + [peace / security / species]",
+    "level": "A2",
+    "definition": "A person or thing likely to cause damage or danger.",
+    "grammar_rule": "Use 'threat TO' when identifying the vulnerable target.",
+    "examples": [
+      "Pollution poses a serious threat to marine ecosystems.",
+      "Cyber attacks are a growing threat to business continuity."
+    ],
+    "common_mistake": "❌ Climate change is a threat for wildlife. ➜ ✅ Climate change is a threat to wildlife.",
+    "synonyms": [
+      "danger to",
+      "hazard to",
+      "risk to"
+    ],
+    "antonyms": [
+      "protection for",
+      "shield for"
+    ],
+    "related_forms": "⚡ Noun: 'threat TO security' ➔ Verb: 'threaten security' (no prep)"
+  },
+  "alternative to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "alternative to + [option / standard / product]",
+    "level": "A2",
+    "definition": "One of two or more available possibilities.",
+    "grammar_rule": "Always use 'to' after 'alternative' when specifying what is being replaced.",
+    "examples": [
+      "Cycling is a healthy alternative to driving to work.",
+      "We are looking for an alternative to fossil fuels."
+    ],
+    "common_mistake": "❌ Is there an alternative for this method? ➜ ✅ Is there an alternative to this method?",
+    "synonyms": [
+      "substitute for",
+      "replacement for",
+      "option to"
+    ],
+    "antonyms": [
+      "sole option",
+      "continuation of"
+    ]
+  },
+  "relationship with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with",
+      "between"
+    ],
+    "pattern": "relationship with + [someone] / between + [two parties]",
+    "level": "A2",
+    "definition": "The way in which two or more people or things are connected.",
+    "grammar_rule": "Use 'relationship WITH' a person, and 'relationship BETWEEN' two entities.",
+    "examples": [
+      "She has a wonderful relationship with her mother.",
+      "We need to examine the relationship between diet and health."
+    ],
+    "common_mistake": "❌ What is your relationship to him? ➜ ✅ What is your relationship with him?",
+    "synonyms": [
+      "connection with",
+      "bond with",
+      "association with"
+    ],
+    "antonyms": [
+      "alienation from",
+      "estrangement from"
+    ]
+  },
+  "connection with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with",
+      "to"
+    ],
+    "pattern": "connection with/to + [someone / topic / crime]",
+    "level": "A2",
+    "definition": "A relationship in which a person, thing, or idea is linked or associated with something else.",
+    "grammar_rule": "Use 'connection WITH' or 'connection TO'.",
+    "examples": [
+      "Is there any connection with the previous case?",
+      "Police questioned him in connection with the robbery."
+    ],
+    "common_mistake": "❌ There is no connection for these events. ➜ ✅ There is no connection between these events.",
+    "synonyms": [
+      "link with",
+      "association with",
+      "relation to"
+    ],
+    "antonyms": [
+      "disconnection from",
+      "detachment from"
+    ]
+  },
+  "contact with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "contact with + [someone / substance]",
+    "level": "A2",
+    "definition": "The state or condition of physical touching or communication.",
+    "grammar_rule": "The noun 'contact WITH' takes 'with'. Contrast with the transitive verb 'contact' which takes NO preposition.",
+    "examples": [
+      "Avoid direct contact with hazardous chemicals.",
+      "I am still in close contact with my university classmates."
+    ],
+    "common_mistake": "❌ I made contact to the client. ➜ ✅ I made contact with the client.",
+    "synonyms": [
+      "touch with",
+      "communication with"
+    ],
+    "antonyms": [
+      "isolation from"
+    ],
+    "related_forms": "⚡ Noun: 'keep in contact WITH me' ➔ Verb: 'contact me' (no prep)"
+  },
+  "difficulty with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with",
+      "in"
+    ],
+    "pattern": "difficulty with + [task] / in + [gerund (-ing)]",
+    "level": "A2",
+    "definition": "The state or condition of being difficult; effort required.",
+    "grammar_rule": "Use 'difficulty WITH' a noun/task, and 'difficulty IN' + gerund (-ing).",
+    "examples": [
+      "He experiences difficulty with English pronunciation.",
+      "She had great difficulty in finding an apartment."
+    ],
+    "common_mistake": "❌ I have difficulty to understand this rule. ➜ ✅ I have difficulty in understanding this rule.",
+    "synonyms": [
+      "trouble with",
+      "problem with"
+    ],
+    "antonyms": [
+      "ease with",
+      "facility in"
+    ],
+    "related_forms": "⚡ Noun: 'difficulty WITH grammar' ➔ Adjective: 'difficult'"
+  },
+  "problem with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "problem with + [someone / machine / system]",
+    "level": "A2",
+    "definition": "A matter or situation regarded as unwelcome or harmful and needing to be dealt with.",
+    "grammar_rule": "Always use 'with' after 'problem' when specifying the source of trouble.",
+    "examples": [
+      "There is a technical problem with the server right now.",
+      "What is the problem with your bicycle?"
+    ],
+    "common_mistake": "❌ I have a problem of my computer. ➜ ✅ I have a problem with my computer.",
+    "synonyms": [
+      "trouble with",
+      "issue with",
+      "difficulty with"
+    ],
+    "antonyms": [
+      "solution to"
+    ]
+  },
+  "experience of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of",
+      "in"
+    ],
+    "pattern": "experience of + [situation] / in + [field / work]",
+    "level": "A2",
+    "definition": "Practical contact with and observation of facts or events.",
+    "grammar_rule": "Use 'experience OF' an event, and 'experience IN' a field or job.",
+    "examples": [
+      "Do you have any prior experience in software sales?",
+      "It was an unforgettable experience of mountain climbing."
+    ],
+    "common_mistake": "❌ She has experience about managing projects. ➜ ✅ She has experience in managing projects.",
+    "synonyms": [
+      "background in",
+      "knowledge of",
+      "practice in"
+    ],
+    "antonyms": [
+      "inexperience in"
+    ],
+    "related_forms": "⚡ Noun: 'experience IN marketing' ➔ Adjective: 'experienced in'"
+  },
+  "increase in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "increase in + [price / size / number / temperature]",
+    "level": "A2",
+    "definition": "A rise in the amount, size, or degree of something.",
+    "grammar_rule": "Use 'increase IN' before the concept rising (e.g. increase in sales). Contrast with 'increase BY' for the amount (increased by 10%).",
+    "examples": [
+      "There has been a sharp increase in house prices.",
+      "We noticed an increase in website traffic."
+    ],
+    "common_mistake": "❌ An increase of the price. ➜ ✅ An increase in the price.",
+    "synonyms": [
+      "rise in",
+      "growth in",
+      "surge in"
+    ],
+    "antonyms": [
+      "decrease in",
+      "fall in",
+      "reduction in"
+    ],
+    "related_forms": "⚡ Noun: 'an increase IN sales' ➔ Verb: 'sales increased by 10%'"
+  },
+  "decrease in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "decrease in + [number / value / population]",
+    "level": "A2",
+    "definition": "A process of becoming smaller or fewer.",
+    "grammar_rule": "Use 'decrease IN' before the subject dropping.",
+    "examples": [
+      "The company reported a decrease in quarterly revenue.",
+      "A gradual decrease in temperature signals autumn."
+    ],
+    "common_mistake": "❌ A decrease of unemployment. ➜ ✅ A decrease in unemployment.",
+    "synonyms": [
+      "fall in",
+      "drop in",
+      "decline in"
+    ],
+    "antonyms": [
+      "increase in",
+      "rise in",
+      "growth in"
+    ]
+  },
+  "rise in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "rise in + [salary / level / temperature / demand]",
+    "level": "A2",
+    "definition": "An increase in number, size, amount, or quality.",
+    "grammar_rule": "Always use 'IN' after 'rise' before the fluctuating noun.",
+    "examples": [
+      "The rise in sea levels threatens coastal areas.",
+      "Employees welcomed the rise in minimum wage."
+    ],
+    "common_mistake": "❌ A rise of cost. ➜ ✅ A rise in cost.",
+    "synonyms": [
+      "increase in",
+      "surge in",
+      "climb in"
+    ],
+    "antonyms": [
+      "fall in",
+      "drop in"
+    ]
+  },
+  "fall in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "fall in + [prices / temperature / demand]",
+    "level": "A2",
+    "definition": "A decrease in size, quantity, or value.",
+    "grammar_rule": "Use 'fall IN' before the metric dropping.",
+    "examples": [
+      "A sudden fall in gas prices surprised analysts.",
+      "The fall in unemployment is encouraging news."
+    ],
+    "common_mistake": "❌ A fall of inflation. ➜ ✅ A fall in inflation.",
+    "synonyms": [
+      "decrease in",
+      "drop in",
+      "decline in"
+    ],
+    "antonyms": [
+      "rise in",
+      "increase in"
+    ]
+  },
+  "participation in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "participation in + [activity / event / sport]",
+    "level": "A2",
+    "definition": "The action of taking part in something.",
+    "grammar_rule": "Both the noun 'participation IN' and verb 'participate in' take 'in'.",
+    "examples": [
+      "Student participation in classroom discussions is encouraged.",
+      "Thank you for your active participation in the workshop."
+    ],
+    "common_mistake": "❌ Participation on the seminar was high. ➜ ✅ Participation in the seminar was high.",
+    "synonyms": [
+      "involvement in",
+      "engagement in"
+    ],
+    "antonyms": [
+      "non-participation in",
+      "withdrawal from"
+    ],
+    "related_forms": "⚡ Noun: 'participation IN sports' ➔ Verb: 'participate in'"
+  },
+  "confidence in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "confidence in + [someone / system / ability]",
+    "level": "A2",
+    "definition": "The feeling or belief that one can rely on someone or something.",
+    "grammar_rule": "Use 'confidence IN' a person or system. Contrast with adjective 'confident about'.",
+    "examples": [
+      "Voters lost confidence in the local government.",
+      "I have full confidence in your abilities."
+    ],
+    "common_mistake": "❌ She has confidence about her team. ➜ ✅ She has confidence in her team.",
+    "synonyms": [
+      "faith in",
+      "trust in",
+      "belief in"
+    ],
+    "antonyms": [
+      "distrust of",
+      "doubt about"
+    ],
+    "related_forms": "⚡ Noun: 'have confidence IN him' ➔ Adjective: 'confident about'"
+  },
+  "faith in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "faith in + [god / leader / humanity]",
+    "level": "A2",
+    "definition": "Complete trust or confidence in someone or something.",
+    "grammar_rule": "Always use 'IN' after 'faith'. Contrast with adjective 'faithful to'.",
+    "examples": [
+      "She never lost her faith in humanity.",
+      "His faith in science motivated his research."
+    ],
+    "common_mistake": "❌ Have faith to yourself. ➜ ✅ Have faith in yourself.",
+    "synonyms": [
+      "trust in",
+      "belief in",
+      "confidence in"
+    ],
+    "antonyms": [
+      "skepticism about",
+      "mistrust of"
+    ],
+    "related_forms": "⚡ Noun: 'have faith IN justice' ➔ Adjective: 'faithful to'"
+  },
+  "benefit of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of",
+      "from"
+    ],
+    "pattern": "benefit of + [action / system] / benefit from + [program]",
+    "level": "A2",
+    "definition": "An advantage or profit gained from something.",
+    "grammar_rule": "Use 'benefit OF' when listing an intrinsic advantage. Contrast with verb 'benefit from'.",
+    "examples": [
+      "What are the health benefits of eating vegetables?",
+      "One benefit of remote work is saving commute time."
+    ],
+    "common_mistake": "❌ The benefit for drinking water. ➜ ✅ The benefit of drinking water.",
+    "synonyms": [
+      "advantage of",
+      "perk of",
+      "utility of"
+    ],
+    "antonyms": [
+      "drawback of",
+      "disadvantage of"
+    ],
+    "related_forms": "⚡ Noun: 'the benefit OF exercise' ➔ Verb: 'benefit from'"
+  },
+  "advantage of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of",
+      "over"
+    ],
+    "pattern": "advantage of + [something] / advantage over + [competitor]",
+    "level": "A2",
+    "definition": "A condition or circumstance that puts one in a favorable position.",
+    "grammar_rule": "Use 'advantage OF' a feature, and 'advantage OVER' a rival.",
+    "examples": [
+      "The main advantage of solar energy is that it is renewable.",
+      "Our team has a distinct advantage over the opponents."
+    ],
+    "common_mistake": "❌ An advantage for living here. ➜ ✅ An advantage of living here.",
+    "synonyms": [
+      "benefit of",
+      "asset of",
+      "plus of"
+    ],
+    "antonyms": [
+      "disadvantage of",
+      "drawback of"
+    ]
+  },
+  "disadvantage of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "disadvantage of + [situation / choice]",
+    "level": "A2",
+    "definition": "An unfavorable circumstance or condition that reduces success.",
+    "grammar_rule": "Always use 'OF' after 'disadvantage'.",
+    "examples": [
+      "A major disadvantage of living downtown is noise pollution.",
+      "Consider the disadvantages of taking a loan."
+    ],
+    "common_mistake": "❌ The disadvantage for buying cheap shoes. ➜ ✅ The disadvantage of buying cheap shoes.",
+    "synonyms": [
+      "drawback of",
+      "downside of",
+      "flaw of"
+    ],
+    "antonyms": [
+      "advantage of",
+      "benefit of"
+    ]
+  },
+  "cause of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "cause of + [problem / accident / disease]",
+    "level": "A2",
+    "definition": "A person or thing that gives rise to an action, phenomenon, or condition.",
+    "grammar_rule": "Always use 'cause OF' for a noun. Contrast with 'reason FOR'.",
+    "examples": [
+      "Investigators determined the cause of the electrical fire.",
+      "Stress is a leading cause of heart illness."
+    ],
+    "common_mistake": "❌ What was the cause for the accident? ➜ ✅ What was the cause of the accident?",
+    "synonyms": [
+      "origin of",
+      "source of",
+      "root of"
+    ],
+    "antonyms": [
+      "result of",
+      "consequence of"
+    ],
+    "related_forms": "⚡ Noun: 'the cause OF the fire' ➔ Noun contrast: 'the reason FOR the decision'"
+  },
+  "result of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "result of + [action / experiment / decision]",
+    "level": "A2",
+    "definition": "A consequence, effect, or outcome of something.",
+    "grammar_rule": "Use 'result OF' as a noun. Contrast with verb 'result from'.",
+    "examples": [
+      "The high test scores were the direct result of hard work.",
+      "He suffered injuries as a result of the collision."
+    ],
+    "common_mistake": "❌ As a result from the storm, power failed. ➜ ✅ As a result of the storm, power failed.",
+    "synonyms": [
+      "outcome of",
+      "consequence of",
+      "fruit of"
+    ],
+    "antonyms": [
+      "cause of"
+    ],
+    "related_forms": "⚡ Noun: 'the result OF the study' ➔ Verb: 'result from'"
+  },
+  "lack of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "lack of + [noun / confidence / resources]",
+    "level": "A2",
+    "definition": "The state of being without or not having enough of something.",
+    "grammar_rule": "The noun 'lack OF' takes 'of'. Contrast with the transitive verb 'lack' which takes a direct object with NO preposition.",
+    "examples": [
+      "The project failed due to a lack of proper funding.",
+      "Her main issue is a lack of experience."
+    ],
+    "common_mistake": "❌ He has a lack for enthusiasm. ➜ ✅ He has a lack of enthusiasm.",
+    "synonyms": [
+      "shortage of",
+      "deficiency of",
+      "scarcity of"
+    ],
+    "antonyms": [
+      "abundance of",
+      "surplus of"
+    ],
+    "related_forms": "⚡ Noun: 'a lack OF confidence' ➔ Verb: 'lack' (no prep)"
+  },
+  "shortage of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "shortage of + [water / food / workers]",
+    "level": "A2",
+    "definition": "A state or situation in which something needed cannot be obtained in sufficient amounts.",
+    "grammar_rule": "Always use 'OF' after 'shortage'. Contrast with adjective 'short of'.",
+    "examples": [
+      "The city is facing a severe shortage of affordable housing.",
+      "Drought caused a shortage of fresh vegetables."
+    ],
+    "common_mistake": "❌ There is a shortage for skilled labor. ➜ ✅ There is a shortage of skilled labor.",
+    "synonyms": [
+      "lack of",
+      "deficit of",
+      "scarcity of"
+    ],
+    "antonyms": [
+      "abundance of",
+      "glut of"
+    ],
+    "related_forms": "⚡ Noun: 'a shortage OF water' ➔ Adjective: 'short of'"
+  },
+  "demand for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "demand for + [product / labor / service]",
+    "level": "A2",
+    "definition": "The desire of purchasers, consumers, or clients for a commodity or service.",
+    "grammar_rule": "The noun 'demand FOR' takes 'for'. Contrast with the transitive verb 'demand' which takes a direct object with NO preposition.",
+    "examples": [
+      "There is a growing demand for renewable energy technology.",
+      "High demand for tickets crashed the website."
+    ],
+    "common_mistake": "❌ The demand of organic food is rising. ➜ ✅ The demand for organic food is rising.",
+    "synonyms": [
+      "need for",
+      "request for",
+      "call for"
+    ],
+    "antonyms": [
+      "supply of"
+    ],
+    "related_forms": "⚡ Noun: 'high demand FOR energy' ➔ Verb: 'demand' (no prep)"
+  },
+  "respect for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "respect for + [someone / law / elders]",
+    "level": "A2",
+    "definition": "A feeling of deep admiration for someone or something elicited by their abilities or qualities.",
+    "grammar_rule": "Use 'respect FOR' people or rules. Contrast with adjective 'respectful to'.",
+    "examples": [
+      "Children should learn respect for others.",
+      "He showed great respect for his elders."
+    ],
+    "common_mistake": "❌ Show respect to the rules. ➜ ✅ Show respect for the rules.",
+    "synonyms": [
+      "admiration for",
+      "reverence for",
+      "regard for"
+    ],
+    "antonyms": [
+      "disrespect for",
+      "contempt for"
+    ],
+    "related_forms": "⚡ Noun: 'respect FOR the law' ➔ Adjective: 'respectful to'"
+  },
+  "concern for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "about"
+    ],
+    "pattern": "concern for + [well-being] / about + [issue]",
+    "level": "A2",
+    "definition": "Anxiety or worry, or a feeling of sympathy.",
+    "grammar_rule": "Use 'concern FOR' someone's welfare, and 'concern ABOUT' an issue.",
+    "examples": [
+      "The doctor expressed deep concern for the patient's condition.",
+      "Public concern about climate change is growing."
+    ],
+    "common_mistake": "❌ Concern of safety. ➜ ✅ Concern for safety.",
+    "synonyms": [
+      "worry about",
+      "care for",
+      "solicitude for"
+    ],
+    "antonyms": [
+      "indifference to",
+      "unconcern about"
+    ],
+    "related_forms": "⚡ Noun: 'concern FOR safety' ➔ Adjective: 'concerned about'"
+  },
+  "sympathy for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "with"
+    ],
+    "pattern": "sympathy for + [someone in pain]",
+    "level": "A2",
+    "definition": "Feelings of pity and sorrow for someone else's misfortune.",
+    "grammar_rule": "The noun takes 'sympathy FOR'. Contrast with adjective 'sympathetic to'.",
+    "examples": [
+      "We feel great sympathy for the families affected by the flood.",
+      "He expressed sympathy for his grieving colleague."
+    ],
+    "common_mistake": "❌ Sympathy to the poor. ➜ ✅ Sympathy for the poor.",
+    "synonyms": [
+      "compassion for",
+      "pity for",
+      "empathy for"
+    ],
+    "antonyms": [
+      "callousness toward",
+      "cruelty to"
+    ],
+    "related_forms": "⚡ Noun: 'sympathy FOR the victims' ➔ Adjective: 'sympathetic to'"
+  },
+  "admiration for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "admiration for + [someone / achievement]",
+    "level": "A2",
+    "definition": "Respect and warm approval.",
+    "grammar_rule": "Always use 'FOR' after 'admiration'.",
+    "examples": [
+      "I have tremendous admiration for her courage and determination.",
+      "His honesty earned him the admiration of all."
+    ],
+    "common_mistake": "❌ Admiration to his work. ➜ ✅ Admiration for his work.",
+    "synonyms": [
+      "respect for",
+      "esteem for",
+      "appreciation of"
+    ],
+    "antonyms": [
+      "contempt for",
+      "scorn for"
+    ],
+    "related_forms": "⚡ Noun: 'admiration FOR her courage' ➔ Verb: 'admire'"
+  },
+  "habit of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "habit of + [gerund (-ing) / action]",
+    "level": "A2",
+    "definition": "A settled or regular tendency or practice.",
+    "grammar_rule": "Use 'habit OF' + gerund (-ing).",
+    "examples": [
+      "She has a healthy habit of drinking water every morning.",
+      "Don't get into the bad habit of procrastination."
+    ],
+    "common_mistake": "❌ The habit to bite nails. ➜ ✅ The habit of biting nails.",
+    "synonyms": [
+      "practice of",
+      "routine of",
+      "custom of"
+    ],
+    "antonyms": [
+      "disinclination for",
+      "unfamiliarity with"
+    ]
+  },
+  "effect on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "effect on + [someone / something]",
+    "level": "B1",
+    "definition": "A change which is a result or consequence of an action or other cause.",
+    "grammar_rule": "The noun 'effect ON' takes 'on'. Contrast with the transitive verb 'affect' which takes a direct object with NO preposition.",
+    "examples": [
+      "Pollution has a devastating effect on human health.",
+      "What effect will this law have on small businesses?"
+    ],
+    "common_mistake": "❌ It has an effect in my decision. ➜ ✅ It has an effect on my decision.",
+    "synonyms": [
+      "impact on",
+      "influence on",
+      "consequence for"
+    ],
+    "antonyms": [
+      "lack of effect on",
+      "ineffectiveness on"
+    ],
+    "related_forms": "⚡ Noun: 'an effect ON health' ➔ Verb: 'affect' (no prep)"
+  },
+  "impact on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "impact on + [society / environment / economy]",
+    "level": "B1",
+    "definition": "A marked effect or influence.",
+    "grammar_rule": "The noun 'impact ON' takes 'on'. Contrast with verb 'impact' (often direct object in formal prose).",
+    "examples": [
+      "Technology has had a huge impact on modern communication.",
+      "Scientists studied the asteroid's impact on climate."
+    ],
+    "common_mistake": "❌ It has an impact to our community. ➜ ✅ It has an impact on our community.",
+    "synonyms": [
+      "effect on",
+      "influence on",
+      "impression on"
+    ],
+    "antonyms": [
+      "lack of impact on",
+      "harmlessness to"
+    ],
+    "related_forms": "⚡ Noun: 'an impact ON the economy' ➔ Verb: 'impact'"
+  },
+  "influence on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "influence on + [someone / behavior / outcome]",
+    "level": "B1",
+    "definition": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+    "grammar_rule": "The noun 'influence ON' takes 'on'. Contrast with the transitive verb 'influence' which takes a direct object with NO preposition.",
+    "examples": [
+      "Parents have a profound influence on their children's values.",
+      "His musical style was a strong influence on jazz."
+    ],
+    "common_mistake": "❌ He has an influence over me. ➜ ✅ He has an influence on me.",
+    "synonyms": [
+      "effect on",
+      "impact on",
+      "sway over"
+    ],
+    "antonyms": [
+      "lack of influence on",
+      "impotence toward"
+    ],
+    "related_forms": "⚡ Noun: 'have an influence ON children' ➔ Verb: 'influence' (no prep)"
+  },
+  "criticism of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "criticism of + [person / policy / work]",
+    "level": "B1",
+    "definition": "The expression of disapproval of someone or something based on perceived faults.",
+    "grammar_rule": "The noun 'criticism OF' takes 'of'. Matches adjective 'critical of'.",
+    "examples": [
+      "The government faced severe criticism of its economic policy.",
+      "Constructive criticism of your work helps you grow."
+    ],
+    "common_mistake": "❌ Criticism about his conduct. ➜ ✅ Criticism of his conduct.",
+    "synonyms": [
+      "censure of",
+      "condemnation of",
+      "disapproval of"
+    ],
+    "antonyms": [
+      "praise for",
+      "compliment for"
+    ],
+    "related_forms": "⚡ Noun: 'criticism OF the policy' ➔ Adjective: 'critical of'"
+  },
+  "ban on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "ban on + [item / action / product]",
+    "level": "B1",
+    "definition": "An official or legal prohibition.",
+    "grammar_rule": "Always use 'BAN ON' when specifying prohibited items or activities.",
+    "examples": [
+      "The city announced a complete ban on single-use plastic bags.",
+      "There is a strict ban on parking along this street."
+    ],
+    "common_mistake": "❌ A ban for firearms. ➜ ✅ A ban on firearms.",
+    "synonyms": [
+      "prohibition of",
+      "embargo on",
+      "veto on"
+    ],
+    "antonyms": [
+      "permission for",
+      "allowance of"
+    ],
+    "related_forms": "⚡ Noun: 'a ban ON smoking' ➔ Verb: 'ban'"
+  },
+  "tax on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "tax on + [income / goods / luxury]",
+    "level": "B1",
+    "definition": "A compulsory contribution to state revenue.",
+    "grammar_rule": "Always use 'tax ON' before taxed goods or income.",
+    "examples": [
+      "The government introduced a higher tax on luxury imported cars.",
+      "A tax on sugary drinks aims to improve public health."
+    ],
+    "common_mistake": "❌ A tax for sugar. ➜ ✅ A tax on sugar.",
+    "synonyms": [
+      "levy on",
+      "duty on",
+      "tariff on"
+    ],
+    "antonyms": [
+      "subsidy for",
+      "rebate on"
+    ]
+  },
+  "effect of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "effect of + [cause / drug / policy]",
+    "level": "B1",
+    "definition": "The outcome or result produced by a specific cause.",
+    "grammar_rule": "Use 'effect OF' when highlighting the agent causing the change (effect of light).",
+    "examples": [
+      "Researchers studied the long-term effects of sleep deprivation.",
+      "The effect of the new medicine was almost immediate."
+    ],
+    "common_mistake": "❌ The effect from the drug. ➜ ✅ The effect of the drug.",
+    "synonyms": [
+      "result of",
+      "consequence of",
+      "impact of"
+    ],
+    "antonyms": [
+      "cause of",
+      "absence of effect of"
+    ]
+  },
+  "dependence on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "dependence on/upon + [someone / technology]",
+    "level": "B1",
+    "definition": "The state of relying on or being controlled by someone or something.",
+    "grammar_rule": "Matches verb 'depend' (depend on) and adjective 'dependent on'.",
+    "examples": [
+      "Reducing our dependence on foreign oil is a national priority.",
+      "Childhood involves total dependence on parents."
+    ],
+    "common_mistake": "❌ Dependence from computers. ➜ ✅ Dependence on computers.",
+    "synonyms": [
+      "reliance on",
+      "subservience to"
+    ],
+    "antonyms": [
+      "independence from",
+      "self-sufficiency"
+    ],
+    "related_forms": "⚡ Noun: 'dependence ON fossil fuels' ➔ Verb: 'depend' ➔ Adjective: 'dependent on'"
+  },
+  "reliance on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "reliance on/upon + [someone / system]",
+    "level": "B1",
+    "definition": "Dependence on or trust in someone or something.",
+    "grammar_rule": "Matches verb 'rely on' and adjective 'reliant on'.",
+    "examples": [
+      "Heavy reliance on automated tools can lead to skill loss.",
+      "Their reliance on seasonal labor caused problems."
+    ],
+    "common_mistake": "❌ Reliance to imports. ➜ ✅ Reliance on imports.",
+    "synonyms": [
+      "dependence on",
+      "trust in"
+    ],
+    "antonyms": [
+      "independence from"
+    ],
+    "related_forms": "⚡ Noun: 'reliance ON public transit' ➔ Verb: 'rely on' ➔ Adjective: 'reliant on'"
+  },
+  "agreement with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with",
+      "on"
+    ],
+    "pattern": "agreement with + [someone] / on + [topic]",
+    "level": "B1",
+    "definition": "A negotiated and typically legally binding arrangement between parties.",
+    "grammar_rule": "Use 'agreement WITH' a partner, and 'agreement ON' a topic.",
+    "examples": [
+      "We reached a formal agreement with our suppliers yesterday.",
+      "Is there general agreement on the new guidelines?"
+    ],
+    "common_mistake": "❌ An agreement to the client. ➜ ✅ An agreement with the client.",
+    "synonyms": [
+      "accord with",
+      "pact with",
+      "consensus on"
+    ],
+    "antonyms": [
+      "disagreement with",
+      "dispute with"
+    ],
+    "related_forms": "⚡ Noun: 'reach an agreement WITH them' ➔ Verb: 'agree with'"
+  },
+  "apology for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "apology for + [action / mistake]",
+    "level": "B1",
+    "definition": "A regretful acknowledgment of an offense or failure.",
+    "grammar_rule": "Use 'apology FOR' an action. Use 'apology TO' a person.",
+    "examples": [
+      "He offered a sincere apology for his rude comment.",
+      "Please accept my apology for the delay."
+    ],
+    "common_mistake": "❌ An apology about my mistake. ➜ ✅ An apology for my mistake.",
+    "synonyms": [
+      "expression of regret",
+      "plea for forgiveness"
+    ],
+    "antonyms": [
+      "justification for",
+      "defense of"
+    ],
+    "related_forms": "⚡ Noun: 'an apology FOR being late' ➔ Verb: 'apologize to'"
+  },
+  "objection to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "objection to + [proposal / plan]",
+    "level": "B1",
+    "definition": "An expression or feeling of disapproval or opposition.",
+    "grammar_rule": "Matches verb 'object to'. The 'to' is a preposition requiring a noun or gerund.",
+    "examples": [
+      "Does anyone have any objection to moving the meeting to Friday?",
+      "The lawyer raised an objection to the question."
+    ],
+    "common_mistake": "❌ An objection for the idea. ➜ ✅ An objection to the idea.",
+    "synonyms": [
+      "opposition to",
+      "protest against",
+      "demurral at"
+    ],
+    "antonyms": [
+      "approval of",
+      "support for"
+    ],
+    "related_forms": "⚡ Noun: 'an objection TO the plan' ➔ Verb: 'object to'"
+  },
+  "dedication to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "dedication to + [cause / duty / work]",
+    "level": "B1",
+    "definition": "The quality of being committed to a task or purpose.",
+    "grammar_rule": "Matches adjective 'dedicated to'. Followed by noun or gerund.",
+    "examples": [
+      "Her dedication to teaching earned her a national award.",
+      "We admire his total dedication to his family."
+    ],
+    "common_mistake": "❌ Dedication for medicine. ➜ ✅ Dedication to medicine.",
+    "synonyms": [
+      "devotion to",
+      "commitment to",
+      "loyalty to"
+    ],
+    "antonyms": [
+      "negligence of",
+      "apathy toward"
+    ],
+    "related_forms": "⚡ Noun: 'dedication TO public service' ➔ Adjective: 'dedicated to'"
+  },
+  "commitment to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "commitment to + [goal / policy / partner]",
+    "level": "B1",
+    "definition": "The state or quality of being dedicated to a cause or activity.",
+    "grammar_rule": "Matches adjective 'committed to'. Followed by noun or gerund.",
+    "examples": [
+      "The company demonstrated a firm commitment to environmental safety.",
+      "Marriage requires a long-term commitment to one another."
+    ],
+    "common_mistake": "❌ A commitment for excellence. ➜ ✅ A commitment to excellence.",
+    "synonyms": [
+      "pledge to",
+      "dedication to",
+      "allegiance to"
+    ],
+    "antonyms": [
+      "unfaithfulness to"
+    ],
+    "related_forms": "⚡ Noun: 'commitment TO quality' ➔ Adjective: 'committed to'"
+  },
+  "addiction to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "addiction to + [drugs / gaming / sugar]",
+    "level": "B1",
+    "definition": "The fact or condition of being addicted to a particular substance or activity.",
+    "grammar_rule": "Matches adjective 'addicted to'.",
+    "examples": [
+      "His addiction to online gambling ruined his finances.",
+      "Screen addiction to phones affects teenagers."
+    ],
+    "common_mistake": "❌ Addiction for alcohol. ➜ ✅ Addiction to alcohol.",
+    "synonyms": [
+      "dependence on",
+      "fixation on"
+    ],
+    "antonyms": [
+      "aversion to",
+      "repulsion from"
+    ],
+    "related_forms": "⚡ Noun: 'addiction TO gambling' ➔ Adjective: 'addicted to'"
+  },
+  "preference for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "over"
+    ],
+    "pattern": "preference for + [option] / over + [alternative]",
+    "level": "B1",
+    "definition": "A greater liking for one alternative over another.",
+    "grammar_rule": "Use 'preference FOR' a choice, or 'preference OVER' an alternative.",
+    "examples": [
+      "She expressed a clear preference for working from home.",
+      "Consumers have a preference for organic products."
+    ],
+    "common_mistake": "❌ A preference to tea instead of coffee. ➜ ✅ A preference for tea instead of coffee.",
+    "synonyms": [
+      "liking for",
+      "partiality to",
+      "predilection for"
+    ],
+    "antonyms": [
+      "dislike of"
+    ]
+  },
+  "reputation for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "reputation for + [quality / skill / flaw]",
+    "level": "B1",
+    "definition": "The beliefs or opinions that are generally held about someone or something.",
+    "grammar_rule": "Use 'reputation FOR' a characteristic. Contrast with adjective 'famous for'.",
+    "examples": [
+      "The university has an international reputation for research excellence.",
+      "He has a reputation for being punctual."
+    ],
+    "common_mistake": "❌ A reputation of honesty. ➜ ✅ A reputation for honesty.",
+    "synonyms": [
+      "fame for",
+      "standing for",
+      "name for"
+    ],
+    "antonyms": [
+      "notoriety for"
+    ],
+    "related_forms": "⚡ Noun: 'a reputation FOR reliability' ➔ Adjective: 'famous for'"
+  },
+  "responsibility for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "responsibility for + [task / outcome]",
+    "level": "B1",
+    "definition": "The state or fact of having a duty to deal with something or having control over someone.",
+    "grammar_rule": "Matches adjective 'responsible for'. Use 'responsibility FOR' a duty.",
+    "examples": [
+      "He accepted full responsibility for the accident.",
+      "Managing safety is the responsibility of the supervisor."
+    ],
+    "common_mistake": "❌ Responsibility to manage the team. ➜ ✅ Responsibility for managing the team.",
+    "synonyms": [
+      "accountability for",
+      "duty of",
+      "charge of"
+    ],
+    "antonyms": [
+      "irresponsibility"
+    ],
+    "related_forms": "⚡ Noun: 'take responsibility FOR the error' ➔ Adjective: 'responsible for'"
+  },
+  "danger of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "danger of + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "The possibility of suffering harm or injury.",
+    "grammar_rule": "Use 'danger OF' before a risk event or gerund. Contrast with adjective 'dangerous for'.",
+    "examples": [
+      "Drivers were warned about the danger of ice on the roads.",
+      "Is there any danger of an explosion?"
+    ],
+    "common_mistake": "❌ The danger for slipping. ➜ ✅ The danger of slipping.",
+    "synonyms": [
+      "risk of",
+      "hazard of",
+      "threat of"
+    ],
+    "antonyms": [
+      "safety from",
+      "security from"
+    ],
+    "related_forms": "⚡ Noun: 'the danger OF collapse' ➔ Adjective: 'dangerous for'"
+  },
+  "doubt about": {
+    "word_type": "noun",
+    "prepositions": [
+      "about",
+      "of"
+    ],
+    "pattern": "doubt about/of + [truth / outcome]",
+    "level": "B1",
+    "definition": "A feeling of uncertainty or lack of conviction.",
+    "grammar_rule": "Use 'doubt ABOUT' or 'doubt OF'.",
+    "examples": [
+      "I have serious doubts about the accuracy of his report.",
+      "There is no doubt about her technical ability."
+    ],
+    "common_mistake": "❌ Doubts for his honesty. ➜ ✅ Doubts about his honesty.",
+    "synonyms": [
+      "uncertainty about",
+      "skepticism about",
+      "reservation about"
+    ],
+    "antonyms": [
+      "certainty about",
+      "conviction about"
+    ]
+  },
+  "suspicion of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of",
+      "about"
+    ],
+    "pattern": "suspicion of + [crime / person]",
+    "level": "B1",
+    "definition": "A feeling or thought that something is possible, likely, or true.",
+    "grammar_rule": "Matches adjective 'suspicious of'.",
+    "examples": [
+      "He was arrested on suspicion of tax evasion.",
+      "Her sudden wealth aroused suspicion among neighbors."
+    ],
+    "common_mistake": "❌ Suspicion for murder. ➜ ✅ Suspicion of murder.",
+    "synonyms": [
+      "distrust of",
+      "mistrust of",
+      "skepticism about"
+    ],
+    "antonyms": [
+      "trust in",
+      "faith in"
+    ],
+    "related_forms": "⚡ Noun: 'suspicion OF fraud' ➔ Adjective: 'suspicious of'"
+  },
+  "awareness of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "awareness of + [issue / danger / fact]",
+    "level": "B1",
+    "definition": "Knowledge or perception of a situation or fact.",
+    "grammar_rule": "Matches adjective 'aware of'. Always use 'awareness OF'.",
+    "examples": [
+      "The campaign aims to raise public awareness of mental health issues.",
+      "She has an acute awareness of her surroundings."
+    ],
+    "common_mistake": "❌ Awareness about safety. ➜ ✅ Awareness of safety.",
+    "synonyms": [
+      "consciousness of",
+      "mindfulness of",
+      "knowledge of"
+    ],
+    "antonyms": [
+      "unawareness of",
+      "ignorance of"
+    ],
+    "related_forms": "⚡ Noun: 'raise awareness OF diabetes' ➔ Adjective: 'aware of'"
+  },
+  "knowledge of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "knowledge of + [subject / language / facts]",
+    "level": "B1",
+    "definition": "Facts, information, and skills acquired through experience or education.",
+    "grammar_rule": "Always use 'knowledge OF' a topic or language.",
+    "examples": [
+      "Candidates must possess a working knowledge of French.",
+      "His knowledge of world history is impressive."
+    ],
+    "common_mistake": "❌ Knowledge about biology. ➜ ✅ Knowledge of biology.",
+    "synonyms": [
+      "understanding of",
+      "familiarity with",
+      "expertise in"
+    ],
+    "antonyms": [
+      "ignorance of"
+    ]
+  },
+  "understanding of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "understanding of + [concept / subject / person]",
+    "level": "B1",
+    "definition": "The ability to understand something; comprehension.",
+    "grammar_rule": "Use 'understanding OF' a topic.",
+    "examples": [
+      "This textbook provides a clear understanding of economics.",
+      "We share a mutual understanding of the rules."
+    ],
+    "common_mistake": "❌ Understanding for mathematics. ➜ ✅ Understanding of mathematics.",
+    "synonyms": [
+      "comprehension of",
+      "grasp of",
+      "insight into"
+    ],
+    "antonyms": [
+      "misunderstanding of"
+    ]
+  },
+  "impression of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "impression of + [person / place]",
+    "level": "B1",
+    "definition": "An idea, feeling, or opinion of something or someone, formed without conscious thought.",
+    "grammar_rule": "Use 'impression OF' someone/something.",
+    "examples": [
+      "What was your first impression of the new manager?",
+      "The city left a lasting impression of elegance on us."
+    ],
+    "common_mistake": "❌ My impression about Paris. ➜ ✅ My impression of Paris.",
+    "synonyms": [
+      "opinion of",
+      "view of",
+      "perception of"
+    ],
+    "antonyms": [
+      "misconception of",
+      "unawareness of"
+    ]
+  },
+  "opinion of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of",
+      "on",
+      "about"
+    ],
+    "pattern": "opinion of/on/about + [topic / person]",
+    "level": "B1",
+    "definition": "A view or judgment formed about something, not necessarily based on fact.",
+    "grammar_rule": "Use 'opinion OF' a person's character, and 'opinion ON/ABOUT' a controversial issue.",
+    "examples": [
+      "What is your honest opinion of his performance?",
+      "Public opinion on climate policy is divided."
+    ],
+    "common_mistake": "❌ An opinion for this matter. ➜ ✅ An opinion on this matter.",
+    "synonyms": [
+      "view on",
+      "perspective on",
+      "judgment of"
+    ],
+    "antonyms": [
+      "indifference toward",
+      "neutrality toward"
+    ]
+  },
+  "attitude toward": {
+    "word_type": "noun",
+    "prepositions": [
+      "toward",
+      "towards",
+      "to"
+    ],
+    "pattern": "attitude toward/to + [someone / work / life]",
+    "level": "B1",
+    "definition": "A settled way of thinking or feeling about someone or something.",
+    "grammar_rule": "Use 'attitude TOWARD' (or 'to').",
+    "examples": [
+      "Her positive attitude toward work inspires the team.",
+      "Changes in societal attitudes to marriage have occurred."
+    ],
+    "common_mistake": "❌ An attitude for learning. ➜ ✅ An attitude toward learning.",
+    "synonyms": [
+      "approach to",
+      "stance on",
+      "disposition toward"
+    ],
+    "antonyms": [
+      "indifference toward",
+      "neutrality toward"
+    ]
+  },
+  "exception to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "exception to + [rule / norm]",
+    "level": "B1",
+    "definition": "A person or thing that is excluded from a general statement or does not follow a rule.",
+    "grammar_rule": "Always use 'exception TO' a rule. Do NOT use 'of' or 'for'.",
+    "examples": [
+      "There is an exception to every rule.",
+      "We cannot make an exception to our security policy."
+    ],
+    "common_mistake": "❌ An exception of the law. ➜ ✅ An exception to the law.",
+    "synonyms": [
+      "deviation from",
+      "exclusion from"
+    ],
+    "antonyms": [
+      "conformity to",
+      "rule"
+    ]
+  },
+  "addition to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "addition to + [family / collection / building]",
+    "level": "B1",
+    "definition": "A person or thing added to something else.",
+    "grammar_rule": "Always use 'addition TO'.",
+    "examples": [
+      "This book is a valuable addition to our library.",
+      "They welcomed a new addition to their family."
+    ],
+    "common_mistake": "❌ An addition for the collection. ➜ ✅ An addition to the collection.",
+    "synonyms": [
+      "supplement to",
+      "attachment to",
+      "annex to"
+    ],
+    "antonyms": [
+      "subtraction from",
+      "removal from"
+    ]
+  },
+  "exception from": {
+    "word_type": "noun",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "exception from + [duty / requirement]",
+    "level": "B1",
+    "definition": "Exemption or relief from a general burden.",
+    "grammar_rule": "Use 'exception FROM' when exempted from a duty.",
+    "examples": [
+      "He requested an exception from mandatory training.",
+      "Exemption from service was granted."
+    ],
+    "common_mistake": "❌ Exception to military service. ➜ ✅ Exemption from military service.",
+    "synonyms": [
+      "exemption from",
+      "release from"
+    ],
+    "antonyms": [
+      "obligation to"
+    ]
+  },
+  "contrast to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to",
+      "with"
+    ],
+    "pattern": "contrast to/with + [something]",
+    "level": "B1",
+    "definition": "The state of being strikingly different from something else in juxtaposition.",
+    "grammar_rule": "Use 'in contrast TO' or 'in contrast WITH'. Contrast with adjective 'different from'.",
+    "examples": [
+      "His quiet nature was a sharp contrast to his energetic brother.",
+      "In contrast to expectations, profits fell."
+    ],
+    "common_mistake": "❌ In contrast from last week. ➜ ✅ In contrast to last week.",
+    "synonyms": [
+      "foil to",
+      "counterpoint to"
+    ],
+    "antonyms": [
+      "similarity to",
+      "likeness to"
+    ],
+    "related_forms": "⚡ Noun: 'in contrast TO last year' ➔ Adjective: 'different from'"
+  },
+  "similarity to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "similarity to + [someone / something]",
+    "level": "B1",
+    "definition": "The state or fact of being similar; resemblance.",
+    "grammar_rule": "Matches adjective 'similar to'. Always use 'similarity TO'.",
+    "examples": [
+      "The painting bears an uncanny similarity to a Rembrandt masterpiece.",
+      "There is little similarity to the original draft."
+    ],
+    "common_mistake": "❌ Similarity with the original. ➜ ✅ Similarity to the original.",
+    "synonyms": [
+      "resemblance to",
+      "likeness to",
+      "affinity with"
+    ],
+    "antonyms": [
+      "difference from",
+      "dissimilarity to"
+    ],
+    "related_forms": "⚡ Noun: 'similarity TO her mother' ➔ Adjective: 'similar to'"
+  },
+  "difference between": {
+    "word_type": "noun",
+    "prepositions": [
+      "between",
+      "among",
+      "in"
+    ],
+    "pattern": "difference between + [two things]",
+    "level": "B1",
+    "definition": "A point or way in which things or people are not the same.",
+    "grammar_rule": "Use 'difference BETWEEN' two entities. Contrast with adjective 'different from'.",
+    "examples": [
+      "What is the main difference between these two software versions?",
+      "There is a noticeable difference in quality."
+    ],
+    "common_mistake": "❌ The difference from option A and B. ➜ ✅ The difference between option A and B.",
+    "synonyms": [
+      "distinction between",
+      "disparity between",
+      "divergence between"
+    ],
+    "antonyms": [
+      "similarity between",
+      "identity of"
+    ],
+    "related_forms": "⚡ Noun: 'the difference BETWEEN the two' ➔ Adjective: 'different from'"
+  },
+  "search for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "search for + [missing item / truth / job]",
+    "level": "B1",
+    "definition": "An act of searching for someone or something.",
+    "grammar_rule": "Both the noun 'search FOR' and verb 'search' (search for) take 'for'.",
+    "examples": [
+      "Police expanded their search for the missing hiker.",
+      "Her search for employment took three months."
+    ],
+    "common_mistake": "❌ A search of solution. ➜ ✅ A search for a solution.",
+    "synonyms": [
+      "quest for",
+      "hunt for",
+      "pursuit of"
+    ],
+    "antonyms": [
+      "abandonment of",
+      "discovery of"
+    ],
+    "related_forms": "⚡ Noun: 'the search FOR evidence' ➔ Verb: 'search' (search for)"
+  },
+  "desire for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "desire for + [knowledge / wealth / success]",
+    "level": "B1",
+    "definition": "A strong feeling of wanting to have something or wishing for something to happen.",
+    "grammar_rule": "Use 'desire FOR' before nouns.",
+    "examples": [
+      "Her intense desire for knowledge drove her studies.",
+      "He showed no desire for power."
+    ],
+    "common_mistake": "❌ A desire of money. ➜ ✅ A desire for money.",
+    "synonyms": [
+      "craving for",
+      "longing for",
+      "appetite for"
+    ],
+    "antonyms": [
+      "aversion to",
+      "indifference to"
+    ]
+  },
+  "enthusiasm for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "enthusiasm for + [topic / project / sport]",
+    "level": "B1",
+    "definition": "Intense and eager enjoyment, interest, or approval.",
+    "grammar_rule": "Use 'enthusiasm FOR' a subject. Contrast with adjective 'excited about' or 'keen on'.",
+    "examples": [
+      "The team showed immense enthusiasm for the new project.",
+      "Her enthusiasm for teaching never faded."
+    ],
+    "common_mistake": "❌ Enthusiasm about learning. ➜ ✅ Enthusiasm for learning.",
+    "synonyms": [
+      "passion for",
+      "eagerness for",
+      "zeal for"
+    ],
+    "antonyms": [
+      "apathy toward",
+      "indifference to"
+    ],
+    "related_forms": "⚡ Noun: 'enthusiasm FOR music' ➔ Adjective: 'keen on'"
+  },
+  "resistance to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "resistance to + [change / disease / pressure]",
+    "level": "B2",
+    "definition": "The refusal to accept or comply with something; the ability not to be affected by something.",
+    "grammar_rule": "Matches adjective 'resistant to'. Always use 'resistance TO'.",
+    "examples": [
+      "There was strong public resistance to the new tax law.",
+      "Bacteria can develop resistance to antibiotics."
+    ],
+    "common_mistake": "❌ Resistance against change. ➜ ✅ Resistance to change.",
+    "synonyms": [
+      "opposition to",
+      "defiance of",
+      "immunity to"
+    ],
+    "antonyms": [
+      "compliance with",
+      "submission to"
+    ],
+    "related_forms": "⚡ Noun: 'resistance TO reform' ➔ Adjective: 'immune to'"
+  },
+  "susceptibility to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "susceptibility to + [disease / infection / flattery]",
+    "level": "B2",
+    "definition": "The state or fact of being likely or liable to be influenced or harmed by a particular thing.",
+    "grammar_rule": "Matches adjective 'susceptible to'. Always use 'susceptibility TO'.",
+    "examples": [
+      "Malnutrition increases susceptibility to viral infections.",
+      "Her emotional susceptibility to criticism was evident."
+    ],
+    "common_mistake": "❌ Susceptibility for disease. ➜ ✅ Susceptibility to disease.",
+    "synonyms": [
+      "vulnerability to",
+      "proneness to",
+      "predisposition to"
+    ],
+    "antonyms": [
+      "immunity to",
+      "resistance to"
+    ],
+    "related_forms": "⚡ Noun: 'susceptibility TO illness' ➔ Adjective: 'susceptible to'"
+  },
+  "immunity to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to",
+      "from"
+    ],
+    "pattern": "immunity to + [disease] / immunity from + [prosecution]",
+    "level": "B2",
+    "definition": "Resistance to a disease or protection from legal burden.",
+    "grammar_rule": "Use 'immunity TO' diseases, and 'immunity FROM' prosecution.",
+    "examples": [
+      "Vaccines build long-term immunity to contagious diseases.",
+      "The witness was granted immunity from prosecution."
+    ],
+    "common_mistake": "❌ Immunity against prosecution. ➜ ✅ Immunity from prosecution.",
+    "synonyms": [
+      "protection from",
+      "exemption from",
+      "resistance to"
+    ],
+    "antonyms": [
+      "susceptibility to",
+      "liability to"
+    ],
+    "related_forms": "⚡ Noun: 'immunity TO infection' ➔ Adjective: 'immune to'"
+  },
+  "vulnerability to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "vulnerability to + [attack / flooding / coercion]",
+    "level": "B2",
+    "definition": "The quality or state of being exposed to the possibility of being attacked or harmed.",
+    "grammar_rule": "Matches adjective 'vulnerable to'.",
+    "examples": [
+      "The report highlighted the island's vulnerability to extreme weather.",
+      "Cybersecurity audits reveal vulnerability to hacking."
+    ],
+    "common_mistake": "❌ Vulnerability for stress. ➜ ✅ Vulnerability to stress.",
+    "synonyms": [
+      "susceptibility to",
+      "defenselessness against"
+    ],
+    "antonyms": [
+      "invulnerability to",
+      "resilience to"
+    ],
+    "related_forms": "⚡ Noun: 'vulnerability TO flooding' ➔ Adjective: 'vulnerable to'"
+  },
+  "indifference to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "indifference to + [pain / suffering / opinion]",
+    "level": "B2",
+    "definition": "Lack of interest, concern, or sympathy.",
+    "grammar_rule": "Matches adjective 'indifferent to'.",
+    "examples": [
+      "His callous indifference to the feelings of others shocked everyone.",
+      "Consumer indifference to advertising is rising."
+    ],
+    "common_mistake": "❌ Indifference about politics. ➜ ✅ Indifference to politics.",
+    "synonyms": [
+      "apathy toward",
+      "unconcern about",
+      "callousness to"
+    ],
+    "antonyms": [
+      "concern for",
+      "sympathy for"
+    ],
+    "related_forms": "⚡ Noun: 'indifference TO suffering' ➔ Adjective: 'indifferent to'"
+  },
+  "incompatibility with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "incompatibility with + [system / values]",
+    "level": "B2",
+    "definition": "The state of two things being so different as to be incapable of existing together.",
+    "grammar_rule": "Matches adjective 'incompatible with'.",
+    "examples": [
+      "Software incompatibility with the operating system caused crashes.",
+      "Marital incompatibility led to divorce."
+    ],
+    "common_mistake": "❌ Incompatibility to old versions. ➜ ✅ Incompatibility with old versions.",
+    "synonyms": [
+      "conflict with",
+      "clash with"
+    ],
+    "antonyms": [
+      "compatibility with",
+      "harmony with"
+    ],
+    "related_forms": "⚡ Noun: 'incompatibility WITH company culture' ➔ Adjective: 'incompatible with'"
+  },
+  "inconsistency with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "inconsistency with + [facts / statements / standards]",
+    "level": "B2",
+    "definition": "The fact or state of being inconsistent.",
+    "grammar_rule": "Matches adjective 'inconsistent with' and contrast 'consistent with'.",
+    "examples": [
+      "Lawyers pointed out an inconsistency with his previous statement.",
+      "Quality inconsistency with factory standards was noted."
+    ],
+    "common_mistake": "❌ Inconsistency to the truth. ➜ ✅ Inconsistency with the truth.",
+    "synonyms": [
+      "discrepancy with",
+      "contradiction of"
+    ],
+    "antonyms": [
+      "consistency with",
+      "conformity to"
+    ],
+    "related_forms": "⚡ Noun: 'inconsistency WITH the evidence' ➔ Adjective: 'consistent with'"
+  },
+  "adherence to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "adherence to + [rules / law / principles]",
+    "level": "B2",
+    "definition": "Attachment or commitment to a person, cause, or belief.",
+    "grammar_rule": "Matches verb 'adhere to'. Always use 'adherence TO'.",
+    "examples": [
+      "Strict adherence to protocol prevented accidents.",
+      "Religious adherence to traditional customs."
+    ],
+    "common_mistake": "❌ Adherence with rules. ➜ ✅ Adherence to rules.",
+    "synonyms": [
+      "compliance with",
+      "conformity to",
+      "fidelity to"
+    ],
+    "antonyms": [
+      "violation of",
+      "departure from"
+    ],
+    "related_forms": "⚡ Noun: 'adherence TO safety regulations' ➔ Verb: 'adhere to'"
+  },
+  "conformity to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to",
+      "with"
+    ],
+    "pattern": "conformity to/with + [rules / standards / expectations]",
+    "level": "B2",
+    "definition": "Behavior in accordance with socially accepted conventions or standards.",
+    "grammar_rule": "Matches verb 'conform to'. Use 'conformity TO' or 'conformity WITH'.",
+    "examples": [
+      "Pressure for conformity to group expectations is strong among peers.",
+      "In conformity with regulations, we submitted the report."
+    ],
+    "common_mistake": "❌ Conformity for standards. ➜ ✅ Conformity to standards.",
+    "synonyms": [
+      "compliance with",
+      "adherence to",
+      "consonance with"
+    ],
+    "antonyms": [
+      "nonconformity to",
+      "rebellion against"
+    ],
+    "related_forms": "⚡ Noun: 'conformity TO social norms' ➔ Verb: 'conform to'"
+  },
+  "compliance with": {
+    "word_type": "noun",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "compliance with + [laws / regulations / standards]",
+    "level": "B2",
+    "definition": "The action or fact of complying with a wish or command.",
+    "grammar_rule": "Matches verb 'comply with'. Always use 'compliance WITH'.",
+    "examples": [
+      "The company demonstrated full compliance with safety standards.",
+      "Non-compliance with tax rules carries severe fines."
+    ],
+    "common_mistake": "❌ Compliance to the regulations. ➜ ✅ Compliance with the regulations.",
+    "synonyms": [
+      "adherence to",
+      "conformity to",
+      "obedience to"
+    ],
+    "antonyms": [
+      "defiance of",
+      "noncompliance with"
+    ],
+    "related_forms": "⚡ Noun: 'compliance WITH environmental law' ➔ Verb: 'comply with'"
+  },
+  "infringement on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on",
+      "upon",
+      "of"
+    ],
+    "pattern": "infringement on/upon + [rights / privacy / copyright]",
+    "level": "B2",
+    "definition": "The action of breaking the terms of a law or agreement, or encroaching on rights.",
+    "grammar_rule": "Matches verb 'infringe on'. Use 'infringement ON/UPON' (or 'infringement OF copyright').",
+    "examples": [
+      "Surveillance laws represent an infringement on personal privacy.",
+      "The company faced lawsuits for copyright infringement."
+    ],
+    "common_mistake": "❌ Infringement against rights. ➜ ✅ Infringement on rights.",
+    "synonyms": [
+      "encroachment on",
+      "violation of",
+      "breach of"
+    ],
+    "antonyms": [
+      "respect for",
+      "observance of"
+    ],
+    "related_forms": "⚡ Noun: 'infringement ON civil liberties' ➔ Verb: 'infringe on'"
+  },
+  "disregard for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "of"
+    ],
+    "pattern": "disregard for + [rules / safety / authority]",
+    "level": "B2",
+    "definition": "The action or state of paying no attention to something.",
+    "grammar_rule": "Use 'disregard FOR' rules, safety, or authority.",
+    "examples": [
+      "His total disregard for safety rules resulted in his dismissal.",
+      "The driver showed reckless disregard for pedestrians."
+    ],
+    "common_mistake": "❌ Disregard to the law. ➜ ✅ Disregard for the law.",
+    "synonyms": [
+      "contempt for",
+      "neglect of",
+      "indifference to"
+    ],
+    "antonyms": [
+      "respect for",
+      "regard for",
+      "mindfulness of"
+    ],
+    "related_forms": "⚡ Noun: 'disregard FOR human life' ➔ Verb: 'ignore'"
+  },
+  "allegiance to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "allegiance to + [country / leader / cause]",
+    "level": "B2",
+    "definition": "Loyalty or commitment of a subordinate to a superior or cause.",
+    "grammar_rule": "Matches adjective 'loyal to' and 'faithful to'. Always use 'allegiance TO'.",
+    "examples": [
+      "Citizens pledged allegiance to the new constitution.",
+      "Political allegiance to the party remained strong."
+    ],
+    "common_mistake": "❌ Allegiance with the crown. ➜ ✅ Allegiance to the crown.",
+    "synonyms": [
+      "loyalty to",
+      "fidelity to",
+      "devotion to"
+    ],
+    "antonyms": [
+      "treason against",
+      "disloyalty to"
+    ],
+    "related_forms": "⚡ Noun: 'pledge allegiance TO the flag' ➔ Adjective: 'loyal to'"
+  },
+  "aversion to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "aversion to + [risk / conflict / hard work]",
+    "level": "B2",
+    "definition": "A strong dislike or disinclination toward something.",
+    "grammar_rule": "Always use 'aversion TO'. Followed by a noun or gerund (-ing).",
+    "examples": [
+      "Most conservative investors have a strong aversion to risk.",
+      "She has a natural aversion to public speaking."
+    ],
+    "common_mistake": "❌ An aversion for confrontation. ➜ ✅ An aversion to confrontation.",
+    "synonyms": [
+      "distaste for",
+      "dislike of",
+      "repugnance to"
+    ],
+    "antonyms": [
+      "liking for",
+      "fondness for",
+      "affinity for"
+    ]
+  },
+  "monopoly on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on",
+      "of"
+    ],
+    "pattern": "monopoly on/of + [market / trade / truth]",
+    "level": "B2",
+    "definition": "The exclusive possession or control of the supply of or trade in a commodity or service.",
+    "grammar_rule": "Use 'monopoly ON' or 'monopoly OF'.",
+    "examples": [
+      "No single company should have a monopoly on energy supplies.",
+      "Scientists do not claim a monopoly on truth."
+    ],
+    "common_mistake": "❌ A monopoly for electricity. ➜ ✅ A monopoly on electricity.",
+    "synonyms": [
+      "domination of",
+      "exclusive control of"
+    ],
+    "antonyms": [
+      "competition in"
+    ]
+  },
+  "emphasis on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "emphasis on + [quality / education / safety]",
+    "level": "B2",
+    "definition": "Special importance, value, or prominence given to something.",
+    "grammar_rule": "Always use 'emphasis ON'. Contrast with verb 'emphasize' (takes NO preposition).",
+    "examples": [
+      "Our school places great emphasis on critical thinking skills.",
+      "The report laid emphasis on preventive medicine."
+    ],
+    "common_mistake": "❌ Put emphasis to quality. ➜ ✅ Place emphasis on quality.",
+    "synonyms": [
+      "stress on",
+      "priority given to",
+      "weight given to"
+    ],
+    "antonyms": [
+      "de-emphasis of"
+    ],
+    "related_forms": "⚡ Noun: 'place emphasis ON grammar' ➔ Verb: 'emphasize' (no prep)"
+  },
+  "restriction on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "restriction on + [trade / freedom / access]",
+    "level": "B2",
+    "definition": "A limiting condition or measure.",
+    "grammar_rule": "Always use 'restriction ON'.",
+    "examples": [
+      "The government lifted restrictions on international travel.",
+      "Imposing restrictions on free speech is dangerous."
+    ],
+    "common_mistake": "❌ Restrictions for imports. ➜ ✅ Restrictions on imports.",
+    "synonyms": [
+      "limitation on",
+      "constraint on",
+      "curb on"
+    ],
+    "antonyms": [
+      "freedom of",
+      "allowance of"
+    ],
+    "related_forms": "⚡ Noun: 'restrictions ON travel' ➔ Verb: 'restrict' (no prep)"
+  },
+  "focus on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "focus on + [core area / topic / goal]",
+    "level": "B2",
+    "definition": "The center of interest or activity.",
+    "grammar_rule": "Both the noun 'focus ON' and verb 'focus on' take 'on'.",
+    "examples": [
+      "The primary focus of this conference is renewable energy.",
+      "Shift your focus on long-term goals."
+    ],
+    "common_mistake": "❌ The focus to the project. ➜ ✅ The focus on the project.",
+    "synonyms": [
+      "emphasis on",
+      "concentration on",
+      "priority on"
+    ],
+    "antonyms": [
+      "distraction from"
+    ],
+    "related_forms": "⚡ Noun: 'the focus ON innovation' ➔ Verb: 'focus on'"
+  },
+  "insight into": {
+    "word_type": "noun",
+    "prepositions": [
+      "into"
+    ],
+    "pattern": "insight into + [problem / nature / culture]",
+    "level": "B2",
+    "definition": "An accurate and deep intuitive understanding of a person or thing.",
+    "grammar_rule": "Always use 'insight INTO'. Do NOT use 'about' or 'on'.",
+    "examples": [
+      "The research provides fascinating insight into whale communication.",
+      "Her biography gives a rare insight into her personal life."
+    ],
+    "common_mistake": "❌ An insight about human behavior. ➜ ✅ An insight into human behavior.",
+    "synonyms": [
+      "understanding of",
+      "perception of",
+      "grasp of"
+    ],
+    "antonyms": [
+      "ignorance of",
+      "blindness to"
+    ]
+  },
+  "inquiry into": {
+    "word_type": "noun",
+    "prepositions": [
+      "into"
+    ],
+    "pattern": "inquiry into + [cause / crash / scandal]",
+    "level": "B2",
+    "definition": "An official investigation to establish facts.",
+    "grammar_rule": "Use 'inquiry INTO'. Matches verb 'look into'.",
+    "examples": [
+      "Parliament ordered a public inquiry into the bank failure.",
+      "An independent inquiry into the accident is underway."
+    ],
+    "common_mistake": "❌ An inquiry about the scandal. ➜ ✅ An inquiry into the scandal.",
+    "synonyms": [
+      "investigation into",
+      "probe into",
+      "scrutiny of"
+    ],
+    "antonyms": [
+      "disregard of",
+      "indifference to"
+    ],
+    "related_forms": "⚡ Noun: 'an inquiry INTO the crash' ➔ Verb: 'look into'"
+  },
+  "investigation into": {
+    "word_type": "noun",
+    "prepositions": [
+      "into"
+    ],
+    "pattern": "investigation into + [crime / cause / incident]",
+    "level": "B2",
+    "definition": "The action of investigating something or someone; formal examination.",
+    "grammar_rule": "Always use 'investigation INTO'.",
+    "examples": [
+      "Police launched a thorough investigation into the fraud allegation.",
+      "An investigation into the cause of the fire was initiated."
+    ],
+    "common_mistake": "❌ An investigation of the crash (formal: INTO). ➜ ✅ An investigation into the crash.",
+    "synonyms": [
+      "inquiry into",
+      "probe into",
+      "examination of"
+    ],
+    "antonyms": [
+      "neglect of",
+      "abandonment of inquiry into"
+    ]
+  },
+  "research into": {
+    "word_type": "noun",
+    "prepositions": [
+      "into",
+      "on"
+    ],
+    "pattern": "research into/on + [disease / climate / history]",
+    "level": "B2",
+    "definition": "Systematic investigation into and study of materials and sources.",
+    "grammar_rule": "Use 'research INTO' or 'research ON'.",
+    "examples": [
+      "Scientific research into cancer treatments receives high funding.",
+      "She is doing research on medieval history."
+    ],
+    "common_mistake": "❌ Research about cancer. ➜ ✅ Research into cancer.",
+    "synonyms": [
+      "investigation into",
+      "study of",
+      "exploration of"
+    ],
+    "antonyms": [
+      "ignorance of",
+      "neglect of study into"
+    ]
+  },
+  "relevance to": {
+    "word_type": "noun",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "relevance to + [topic / situation / debate]",
+    "level": "B2",
+    "definition": "The quality or state of being closely connected or appropriate.",
+    "grammar_rule": "Matches adjective 'relevant to'. Always use 'relevance TO'.",
+    "examples": [
+      "The judge questioned the relevance of the evidence to the trial.",
+      "His experience has direct relevance to this role."
+    ],
+    "common_mistake": "❌ Relevance for the topic. ➜ ✅ Relevance to the topic.",
+    "synonyms": [
+      "pertinence to",
+      "applicability to"
+    ],
+    "antonyms": [
+      "irrelevance to"
+    ],
+    "related_forms": "⚡ Noun: 'relevance TO the debate' ➔ Adjective: 'relevant to'"
+  },
+  "similarity between": {
+    "word_type": "noun",
+    "prepositions": [
+      "between",
+      "among"
+    ],
+    "pattern": "similarity between + [two items]",
+    "level": "B2",
+    "definition": "Resemblance or shared traits between two or more subjects.",
+    "grammar_rule": "Use 'similarity BETWEEN' two items. Contrast with 'similarity TO'.",
+    "examples": [
+      "Notice the striking similarity between these two languages.",
+      "Statistical analysis showed similarity among test groups."
+    ],
+    "common_mistake": "❌ Similarity with A and B. ➜ ✅ Similarity between A and B.",
+    "synonyms": [
+      "resemblance between",
+      "parallel between"
+    ],
+    "antonyms": [
+      "difference between"
+    ],
+    "related_forms": "⚡ Noun: 'similarity BETWEEN the two' ➔ Noun contrast: 'similarity TO something'"
+  },
+  "threat of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "threat of + [war / rain / dismissal]",
+    "level": "B2",
+    "definition": "The possibility of trouble, danger, or ruin.",
+    "grammar_rule": "Use 'threat OF' an impending bad outcome. Contrast with 'threat TO' a victim.",
+    "examples": [
+      "The company operated under the constant threat of bankruptcy.",
+      "The threat of severe weather postponed the festival."
+    ],
+    "common_mistake": "❌ The threat for rain. ➜ ✅ The threat of rain.",
+    "synonyms": [
+      "risk of",
+      "danger of",
+      "prospect of"
+    ],
+    "antonyms": [
+      "promise of"
+    ],
+    "related_forms": "⚡ Noun: 'the threat OF war' ➔ Noun contrast: 'a threat TO security'"
+  },
+  "prevalence of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "prevalence of + [disease / crime / opinion]",
+    "level": "B2",
+    "definition": "The fact or condition of being prevalent; commonness.",
+    "grammar_rule": "Matches verb 'prevail over'. Always use 'prevalence OF'.",
+    "examples": [
+      "Studies examined the high prevalence of obesity in urban areas.",
+      "The prevalence of mobile devices changed communication."
+    ],
+    "common_mistake": "❌ Prevalence for corruption. ➜ ✅ Prevalence of corruption.",
+    "synonyms": [
+      "commonness of",
+      "frequency of",
+      "widespread nature of"
+    ],
+    "antonyms": [
+      "rarity of",
+      "scarcity of"
+    ],
+    "related_forms": "⚡ Noun: 'the prevalence OF diabetes' ➔ Verb: 'prevail over'"
+  },
+  "fluctuation in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "fluctuation in + [price / rate / temperature]",
+    "level": "B2",
+    "definition": "An irregular rising and falling in number or amount; a variation.",
+    "grammar_rule": "Always use 'fluctuation IN'.",
+    "examples": [
+      "Unpredictable fluctuation in exchange rates affects exporters.",
+      "Seasonal fluctuation in demand is normal."
+    ],
+    "common_mistake": "❌ Fluctuation of temperature. ➜ ✅ Fluctuation in temperature.",
+    "synonyms": [
+      "variation in",
+      "oscillation in",
+      "instability in"
+    ],
+    "antonyms": [
+      "stability in",
+      "steadiness in"
+    ]
+  },
+  "deficiency in": {
+    "word_type": "noun",
+    "prepositions": [
+      "in",
+      "of"
+    ],
+    "pattern": "deficiency in + [nutrient / skill] / deficiency of + [vitamins]",
+    "level": "B2",
+    "definition": "A lack or shortage of something necessary.",
+    "grammar_rule": "Matches adjective 'short of'. Use 'deficiency IN' an area, or 'deficiency OF' a substance.",
+    "examples": [
+      "A severe deficiency in iron leads to anemia.",
+      "Inspectors found structural deficiency of maintenance."
+    ],
+    "common_mistake": "❌ A deficiency for calcium. ➜ ✅ A deficiency in calcium.",
+    "synonyms": [
+      "lack of",
+      "shortage of",
+      "deficit of"
+    ],
+    "antonyms": [
+      "surplus of",
+      "abundance of"
+    ],
+    "related_forms": "⚡ Noun: 'vitamin deficiency' ➔ Adjective: 'short of'"
+  },
+  "discrepancy between": {
+    "word_type": "noun",
+    "prepositions": [
+      "between"
+    ],
+    "pattern": "discrepancy between + [facts / numbers / reports]",
+    "level": "B2",
+    "definition": "A lack of compatibility or similarity between two or more facts.",
+    "grammar_rule": "Always use 'discrepancy BETWEEN'.",
+    "examples": [
+      "Auditors discovered a major discrepancy between cash receipts and sales records.",
+      "Why is there a discrepancy between your stories?"
+    ],
+    "common_mistake": "❌ A discrepancy with the figures. ➜ ✅ A discrepancy between the figures.",
+    "synonyms": [
+      "inconsistency between",
+      "mismatch between",
+      "disparity between"
+    ],
+    "antonyms": [
+      "agreement between",
+      "correspondence between"
+    ]
+  },
+  "derivation from": {
+    "word_type": "noun",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "derivation from + [source / root]",
+    "level": "B2",
+    "definition": "The obtaining or developing of something from a source.",
+    "grammar_rule": "Matches adjective 'derived from'. Always use 'derivation FROM'.",
+    "examples": [
+      "Etymology traces the derivation of words from ancient roots.",
+      "The chemical's derivation from natural gas is documented."
+    ],
+    "common_mistake": "❌ Derivation of Latin. ➜ ✅ Derivation from Latin.",
+    "synonyms": [
+      "origin from",
+      "extraction from",
+      "source from"
+    ],
+    "antonyms": [
+      "origin of",
+      "source of"
+    ],
+    "related_forms": "⚡ Noun: 'derivation FROM Latin' ➔ Adjective: 'derived from'"
+  },
+  "precondition for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "precondition for + [success / agreement / entry]",
+    "level": "B2",
+    "definition": "A condition that must be fulfilled before other things can happen or be done.",
+    "grammar_rule": "Always use 'precondition FOR'.",
+    "examples": [
+      "Mutual trust is an essential precondition for peace negotiations.",
+      "Passing the entrance exam is a precondition for admission."
+    ],
+    "common_mistake": "❌ A precondition to peace. ➜ ✅ A precondition for peace.",
+    "synonyms": [
+      "prerequisite for",
+      "requirement for",
+      "necessity for"
+    ],
+    "antonyms": [
+      "consequence of",
+      "result of"
+    ]
+  },
+  "prerequisite for": {
+    "word_type": "noun",
+    "prepositions": [
+      "for",
+      "to"
+    ],
+    "pattern": "prerequisite for/to + [course / advancement / graduation]",
+    "level": "B2",
+    "definition": "A thing that is required as a prior condition for something else to happen or exist.",
+    "grammar_rule": "Use 'prerequisite FOR' or 'prerequisite TO'.",
+    "examples": [
+      "Basic algebra is a prerequisite for taking physics.",
+      "Reliability is a prerequisite to holding a leadership role."
+    ],
+    "common_mistake": "❌ A prerequisite of graduation. ➜ ✅ A prerequisite for graduation.",
+    "synonyms": [
+      "precondition for",
+      "requirement for",
+      "qualification for"
+    ],
+    "antonyms": [
+      "optional element for",
+      "unnecessary factor for"
+    ]
+  },
+  "indictment of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "indictment of + [system / leader / failure]",
+    "level": "B2",
+    "definition": "A formal charge or accusation of a serious crime, OR a severe condemnation.",
+    "grammar_rule": "Always use 'indictment OF'.",
+    "examples": [
+      "The report was a damning indictment of prison conditions.",
+      "High poverty rates are an indictment of state failure."
+    ],
+    "common_mistake": "❌ An indictment on the administration. ➜ ✅ An indictment of the administration.",
+    "synonyms": [
+      "condemnation of",
+      "accusation against",
+      "censure of"
+    ],
+    "antonyms": [
+      "exoneration of",
+      "vindication of"
+    ]
+  },
+  "curtailment of": {
+    "word_type": "noun",
+    "prepositions": [
+      "of"
+    ],
+    "pattern": "curtailment of + [rights / spending / freedom]",
+    "level": "B2",
+    "definition": "The action of reducing or restricting something.",
+    "grammar_rule": "Always use 'curtailment OF'.",
+    "examples": [
+      "Civil rights groups protested the curtailment of press freedom.",
+      "Emergency measures led to the curtailment of public services."
+    ],
+    "common_mistake": "❌ Curtailment on liberty. ➜ ✅ Curtailment of liberty.",
+    "synonyms": [
+      "reduction of",
+      "restriction of",
+      "cutback in"
+    ],
+    "antonyms": [
+      "expansion of",
+      "extension of"
+    ]
+  },
+  "encroachment on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on",
+      "upon"
+    ],
+    "pattern": "encroachment on/upon + [rights / land / privacy]",
+    "level": "B2",
+    "definition": "Intrusion on a person's territory, rights, or privacy.",
+    "grammar_rule": "Matches verb 'encroach on'. Always use 'encroachment ON'.",
+    "examples": [
+      "Surveillance laws are an unacceptable encroachment on civil liberties.",
+      "Urban expansion led to encroachment on natural habitats."
+    ],
+    "common_mistake": "❌ Encroachment for privacy. ➜ ✅ Encroachment on privacy.",
+    "synonyms": [
+      "infringement on",
+      "intrusion on",
+      "violation of"
+    ],
+    "antonyms": [
+      "respect for"
+    ],
+    "related_forms": "⚡ Noun: 'encroachment ON rights' ➔ Verb: 'infringe on'"
+  },
+  "embargo on": {
+    "word_type": "noun",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "embargo on + [trade / goods / oil]",
+    "level": "B2",
+    "definition": "An official ban on trade or other commercial activity with a particular country.",
+    "grammar_rule": "Always use 'embargo ON' when identifying targeted goods or trade.",
+    "examples": [
+      "Nations imposed a strict embargo on arms shipments.",
+      "The trade embargo on oil caused fuel shortages."
+    ],
+    "common_mistake": "❌ An embargo for oil exports. ➜ ✅ An embargo on oil exports.",
+    "synonyms": [
+      "ban on",
+      "trade restriction on",
+      "sanction on"
+    ],
+    "antonyms": [
+      "free trade with"
+    ],
+    "related_forms": "⚡ Noun: 'embargo ON exports' ➔ Noun contrast: 'ban on imports'"
+  }
+}
