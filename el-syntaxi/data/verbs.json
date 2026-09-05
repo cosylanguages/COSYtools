@@ -1,0 +1,4364 @@
+{
+  "περιμένω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "περιμένω + αιτιατική",
+    "level": "A1",
+    "definition": "Προσδοκώ την άφιξη ή την εμφάνιση κάποιου ή κάποιου πράγματος.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'wait FOR' which requires 'for'.",
+    "linked_noun_keys": [
+      "λεωφορείο",
+      "φίλος"
+    ],
+    "examples": [
+      "Περιμένω το λεωφορείο στη στάση.",
+      "Ο Γιάννης περιμένει τον φίλο του."
+    ],
+    "common_mistake": "❌ Περιμένω για το λεωφορείο. ➜ ✅ Περιμένω το λεωφορείο.",
+    "synonyms": [
+      "προσδοκώ"
+    ],
+    "antonyms": [
+      "φεύγω"
+    ]
+  },
+  "ζητάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ζητάω + αιτιατική",
+    "level": "A1",
+    "definition": "Εκφράζω την επιθυμία να μου δοθεί κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'ask FOR' which requires 'for'.",
+    "linked_noun_keys": [
+      "νερό"
+    ],
+    "examples": [
+      "Ζητάω βοήθεια από τον καθηγητή.",
+      "Ο μαθητής ζητάει ένα ποτήρι νερό."
+    ],
+    "common_mistake": "❌ Ζητάω για βοήθεια. ➜ ✅ Ζητάω βοήθεια.",
+    "synonyms": [
+      "απαιτώ",
+      "αιτούμαι"
+    ],
+    "antonyms": [
+      "προσφέρω",
+      "δίνω"
+    ]
+  },
+  "χρειάζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "χρειάζομαι + αιτιατική",
+    "level": "A1",
+    "definition": "Έχω ανάγκη από κάτι ή κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'need' (also direct object without preposition).",
+    "linked_noun_keys": [
+      "χρήμα"
+    ],
+    "examples": [
+      "Χρειάζομαι περισσότερο χρόνο.",
+      "Η μητέρα χρειάζεται βοήθεια στο σπίτι."
+    ],
+    "common_mistake": "❌ Χρειάζομαι για χρήματα. ➜ ✅ Χρειάζομαι χρήματα.",
+    "synonyms": [
+      "στερούμαι"
+    ],
+    "antonyms": [
+      "περισεύω"
+    ]
+  },
+  "θυμάμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "θυμάμαι + αιτιατική",
+    "level": "A1",
+    "definition": "Διατηρώ στη μνήμη μου μια πληροφορία ή γεγονός.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'remember' (or 'think ABOUT' when recalling), no preposition in Greek.",
+    "linked_noun_keys": [
+      "όνομα"
+    ],
+    "examples": [
+      "Θυμάμαι το όνομά σου πολύ καλά.",
+      "Δεν θυμάμαι τη διεύθυνση του σπιτιού."
+    ],
+    "common_mistake": "❌ Θυμάμαι για το όνομα. ➜ ✅ Θυμάμαι το όνομα.",
+    "synonyms": [
+      "ανακαλώ"
+    ],
+    "antonyms": [
+      "ξεχνάω"
+    ]
+  },
+  "ξεχνάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ξεχνάω + αιτιατική",
+    "level": "A1",
+    "definition": "Χάνω από τη μνήμη μου κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'forget' (no preposition needed).",
+    "linked_noun_keys": [
+      "βιβλίο",
+      "όνομα"
+    ],
+    "examples": [
+      "Ξεχνάω πάντα τα κλειδιά μου.",
+      "Ο μαθητής ξέχασε το βιβλίο του."
+    ],
+    "common_mistake": "❌ Ξεχνάω για το ραντεβού. ➜ ✅ Ξεχνάω το ραντεβού.",
+    "synonyms": [
+      "λησμονώ"
+    ],
+    "antonyms": [
+      "θυμάμαι"
+    ]
+  },
+  "βοηθάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "βοηθάω + αιτιατική",
+    "level": "A1",
+    "definition": "Προσφέρω συνδρομή ή υποστήριξη σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'help WITH' — the person helped is direct object in accusative.",
+    "linked_noun_keys": [
+      "μητέρα",
+      "φίλος"
+    ],
+    "examples": [
+      "Βοηθάω τη μητέρα μου στην κουζίνα.",
+      "Ο Μαρκ βοηθάει τον φίλο του με τα μαθήματα."
+    ],
+    "common_mistake": "❌ Βοηθάω με τη μητέρα. ➜ ✅ Βοηθάω τη μητέρα.",
+    "synonyms": [
+      "συντρέχω",
+      "υποστηρίζω"
+    ],
+    "antonyms": [
+      "εμποδίζω",
+      "βλάπτω"
+    ]
+  },
+  "βλέπω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "βλέπω + αιτιατική",
+    "level": "A1",
+    "definition": "Αντιλαμβάνομαι με την όραση.",
+    "grammar_rule": "Direct transitive verb taking accusative without preposition. Matches English 'see' / 'watch'.",
+    "linked_noun_keys": [
+      "φίλος"
+    ],
+    "examples": [
+      "Βλέπω μια καλή ταινία.",
+      "Βλέπουμε τους φίλους μας στο πάρκο."
+    ],
+    "common_mistake": "❌ Βλέπω σε μια ταινία. ➜ ✅ Βλέπω μια ταινία.",
+    "synonyms": [
+      "παρατηρώ",
+      "κοιτάζω"
+    ],
+    "antonyms": [
+      "αγνοώ"
+    ]
+  },
+  "ακούω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ακούω + αιτιατική",
+    "level": "A1",
+    "definition": "Αντιλαμβάνομαι ήχους με την ακοή.",
+    "grammar_rule": "Direct transitive verb taking accusative without preposition. Contrast with English 'listen TO' (which requires 'to').",
+    "linked_noun_keys": [
+      "φωνή"
+    ],
+    "examples": [
+      "Ακούω μουσική στο δωμάτιό μου.",
+      "Δεν ακούω τη φωνή σου."
+    ],
+    "common_mistake": "❌ Ακούω σε μουσική. ➜ ✅ Ακούω μουσική.",
+    "synonyms": [
+      "ακροώμαι"
+    ],
+    "antonyms": [
+      "κωφεύω"
+    ]
+  },
+  "γράφω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "γράφω + αιτιατική [σε + αιτιατική]",
+    "level": "A1",
+    "definition": "Σχηματίζω γράμματα ή κείμενο στο χαρτί.",
+    "grammar_rule": "Direct object of the text is accusative without preposition. The recipient of the letter/message uses 'σε + accusative' ('write to someone').",
+    "noun_parallel": "⚡ Ρήμα: 'Γράφω επιστολή' ➜ Ουσιαστικό: 'Γράψιμο επιστολής'",
+    "linked_noun_keys": [
+      "γράμμα",
+      "επιστολή"
+    ],
+    "examples": [
+      "Γράφω ένα γράμμα στον φίλο μου.",
+      "Η μαθήτρια γράφει τις ασκήσεις."
+    ],
+    "common_mistake": "❌ Γράφω προς τον φίλο. ➜ ✅ Γράφω στον φίλο μου.",
+    "synonyms": [
+      "συντάσσω"
+    ],
+    "antonyms": [
+      "σβήνω"
+    ]
+  },
+  "διαβάζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαβάζω + αιτιατική",
+    "level": "A1",
+    "definition": "Κατανοώ και εκφωνώ ή μελετώ γραπτό κείμενο.",
+    "grammar_rule": "Direct transitive verb taking accusative without preposition. Matches English 'read'.",
+    "linked_noun_keys": [
+      "βιβλίο",
+      "εφημερίδα"
+    ],
+    "examples": [
+      "Διαβάζω ένα ενδιαφέρον βιβλίο.",
+      "Ο πατέρας διαβάζει την εφημερίδα."
+    ],
+    "common_mistake": "❌ Διαβάζω για το βιβλίο. ➜ ✅ Διαβάζω το βιβλίο.",
+    "synonyms": [
+      "μελετώ"
+    ],
+    "antonyms": [
+      "γράφω"
+    ]
+  },
+  "αγαπάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αγαπάω + αιτιατική",
+    "level": "A1",
+    "definition": "Νιώθω βαθιά αγάπη και αφοσίωση.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'love'.",
+    "noun_parallel": "⚡ Ρήμα: 'Αγαπάω τη φύση' ➜ Ουσιαστικό: 'Αγάπη για τη φύση'",
+    "linked_noun_keys": [
+      "οικογένεια",
+      "φύση"
+    ],
+    "examples": [
+      "Αγαπάω πολύ την οικογένειά μου.",
+      "Ο Νίκος αγαπάει τη φύση."
+    ],
+    "common_mistake": "❌ Αγαπάω για την οικογένεια. ➜ ✅ Αγαπάω την οικογένεια.",
+    "synonyms": [
+      "λατρεύω"
+    ],
+    "antonyms": [
+      "μισώ"
+    ]
+  },
+  "θέλω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "θέλω + αιτιατική",
+    "level": "A1",
+    "definition": "Έχω την επιθυμία να αποκτήσω ή να κάνω κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'want'.",
+    "linked_noun_keys": [
+      "νερό",
+      "καφές"
+    ],
+    "examples": [
+      "Θέλω έναν ζεστό καφέ.",
+      "Τα παιδιά θέλουν παγωτό."
+    ],
+    "common_mistake": "❌ Θέλω για έναν καφέ. ➜ ✅ Θέλω έναν καφέ.",
+    "synonyms": [
+      "επιθυμώ"
+    ],
+    "antonyms": [
+      "αρνούμαι"
+    ]
+  },
+  "πίνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "πίνω + αιτιατική",
+    "level": "A1",
+    "definition": "Καταπίνω κάποιο υγρό.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'drink'.",
+    "linked_noun_keys": [
+      "νερό",
+      "γάλα"
+    ],
+    "examples": [
+      "Πίνω ένα ποτήρι νερό.",
+      "Το παιδί πίνει φρέσκο γάλα."
+    ],
+    "common_mistake": "❌ Πίνω από νερό. ➜ ✅ Πίνω νερό.",
+    "synonyms": [
+      "ρουφώ"
+    ],
+    "antonyms": [
+      "εκκρίνω"
+    ]
+  },
+  "τρώω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "τρώω + αιτιατική",
+    "level": "A1",
+    "definition": "Λαμβάνω τροφή στο στόμα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'eat'.",
+    "linked_noun_keys": [
+      "ψωμί",
+      "τυρί"
+    ],
+    "examples": [
+      "Τρώω φρέσκο ψωμί με τυρί.",
+      "Η οικογένεια τρώει δείπνο στις οκτώ."
+    ],
+    "common_mistake": "❌ Τρώω από το ψωμί. (Unless partitive context 'some of the bread') ➜ ✅ Τρώω το ψωμί.",
+    "synonyms": [
+      "γευματίζω"
+    ],
+    "antonyms": [
+      "νηστεύω"
+    ]
+  },
+  "αγοράζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αγοράζω + αιτιατική",
+    "level": "A1",
+    "definition": "Αποκτώ κάτι καταβάλλοντας το αντίτιμο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'buy'.",
+    "linked_noun_keys": [
+      "αυτοκίνητο",
+      "βιβλίο"
+    ],
+    "examples": [
+      "Αγοράζω ένα νέο αυτοκίνητο.",
+      "Η Ελένη αγόρασε ρούχα από την αγορά."
+    ],
+    "common_mistake": "❌ Αγοράζω για ένα βιβλίο. ➜ ✅ Αγοράζω ένα βιβλίο.",
+    "synonyms": [
+      "ψωνίζω"
+    ],
+    "antonyms": [
+      "πουλάω"
+    ]
+  },
+  "πουλάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "πουλάω + αιτιατική",
+    "level": "A1",
+    "definition": "Μεταβιβάζω την κυριότητα πράγματος έναντι χρημάτων.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'sell'.",
+    "linked_noun_keys": [
+      "σπίτι",
+      "αμάξι"
+    ],
+    "examples": [
+      "Πουλάω το παλιό μου σπίτι.",
+      "Ο έμπορος πουλάει φρέσκα φρούτα."
+    ],
+    "common_mistake": "❌ Πουλάω από το σπίτι. ➜ ✅ Πουλάω το σπίτι.",
+    "synonyms": [
+      "διαθέτω"
+    ],
+    "antonyms": [
+      "αγοράζω"
+    ]
+  },
+  "μαγειρεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "μαγειρεύω + αιτιατική",
+    "level": "A1",
+    "definition": "Ετοιμάζω φαγητό με θερμότητα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'cook'.",
+    "linked_noun_keys": [
+      "κρέας",
+      "λαχανικό"
+    ],
+    "examples": [
+      "Μαγειρεύω κρέας με πατάτες.",
+      "Ο μάγειρας μαγειρεύει νόστιμα λαχανικά."
+    ],
+    "common_mistake": "❌ Μαγειρεύω για το φαγητό. ➜ ✅ Μαγειρεύω το φαγητό.",
+    "synonyms": [
+      "παρασκευάζω"
+    ],
+    "antonyms": [
+      "καταναλώνω"
+    ]
+  },
+  "καθαρίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "καθαρίζω + αιτιατική",
+    "level": "A1",
+    "definition": "Αφαιρώ τις ακαθαρσίες από κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'clean'.",
+    "linked_noun_keys": [
+      "δωμάτιο",
+      "σπίτι"
+    ],
+    "examples": [
+      "Καθαρίζω το δωμάτιό μου κάθε Σάββατο.",
+      "Η μητέρα καθαρίζει την κουζίνα."
+    ],
+    "common_mistake": "❌ Καθαρίζω σε το δωμάτιο. ➜ ✅ Καθαρίζω το δωμάτιο.",
+    "synonyms": [
+      "απολυμαίνω"
+    ],
+    "antonyms": [
+      "λερώνω"
+    ]
+  },
+  "ανοίγω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ανοίγω + αιτιατική",
+    "level": "A1",
+    "definition": "Μετακινώ κάτι ώστε να επιτραπεί η πρόσβαση.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'open'.",
+    "linked_noun_keys": [
+      "βιβλίο"
+    ],
+    "examples": [
+      "Ανοίγω την πόρτα του σπιτιού.",
+      "Ο μαθητής ανοίγει το βιβλίο του."
+    ],
+    "common_mistake": "❌ Ανοίγω σε την πόρτα. ➜ ✅ Ανοίγω την πόρτα.",
+    "synonyms": [
+      "ξεκλειδώνω"
+    ],
+    "antonyms": [
+      "κλείνω"
+    ]
+  },
+  "κλείνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "κλείνω + αιτιατική",
+    "level": "A1",
+    "definition": "Εμποδίζω τη δίοδο ή κλείνω μια συσκευή.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'close' / 'turn off'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Κλείνω το παράθυρο λόγω κρύου.",
+      "Κλείσε την τηλεόραση τώρα."
+    ],
+    "common_mistake": "❌ Κλείνω από το παράθυρο. ➜ ✅ Κλείνω το παράθυρο.",
+    "synonyms": [
+      "σφαλίζω"
+    ],
+    "antonyms": [
+      "ανοίγω"
+    ]
+  },
+  "μιλάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "για"
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "μιλάω + [σε + αιτιατική] + [για + αιτιατική]",
+    "level": "A1",
+    "definition": "Εκφέρω λόγο ή επικοινωνώ με κάποιον.",
+    "grammar_rule": "Takes 'σε + accusative' for the person addressed ('speak TO someone') and 'για + accusative' for the topic ('speak ABOUT something'). Contrast: direct language name ('μιλάω ελληνικά').",
+    "linked_noun_keys": [
+      "φίλος"
+    ],
+    "examples": [
+      "Μιλάω στον φίλο μου για το ταξίδι.",
+      "Ο καθηγητής μιλάει στους μαθητές."
+    ],
+    "common_mistake": "❌ Μιλάω με τον φίλο για το ταξίδι (acceptable in informal Greek, but 'σε' marks indirect object target). ➜ ✅ Μιλάω στον φίλο μου.",
+    "synonyms": [
+      "συζητώ",
+      "λέω"
+    ],
+    "antonyms": [
+      "σιωπώ"
+    ]
+  },
+  "απαντάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "απαντάω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Δίνω απόκριση σε ερώτηση ή μήνυμα.",
+    "grammar_rule": "Requires preposition 'σε + accusative' when specifying what or who is answered. Contrast with English 'answer someone/something' (which is direct without preposition).",
+    "linked_noun_keys": [
+      "επιστολή",
+      "μήνυμα"
+    ],
+    "examples": [
+      "Απαντάω στην επιστολή του καθηγητή.",
+      "Δεν απάντησε στο μήνυμά μου."
+    ],
+    "common_mistake": "❌ Απαντάω την ερώτηση. ➜ ✅ Απαντάω στην ερώτηση.",
+    "synonyms": [
+      "αποκρίνομαι"
+    ],
+    "antonyms": [
+      "ρωτάω"
+    ]
+  },
+  "ρωτάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ρωτάω + αιτιατική",
+    "level": "A1",
+    "definition": "Υποβάλλω ερώτημα σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition for the person asked. Matches English 'ask someone'.",
+    "linked_noun_keys": [
+      "δάσκαλος",
+      "γιατρός"
+    ],
+    "examples": [
+      "Ρωτάω τον δάσκαλο για την άσκηση.",
+      "Η ασθενής ρώτησε τον γιατρό."
+    ],
+    "common_mistake": "❌ Ρωτάω σε τον δάσκαλο. ➜ ✅ Ρωτάω τον δάσκαλο.",
+    "synonyms": [
+      "ερωτώ"
+    ],
+    "antonyms": [
+      "απαντώ"
+    ]
+  },
+  "ακούω_music": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "ακούω σε + αιτιατική",
+    "level": "A1",
+    "definition": "Υπακούω ή δίνω προσοχή σε κάποιον.",
+    "grammar_rule": "When 'ακούω' means 'obey / listen to' advice or commands, it takes 'σε + accusative'.",
+    "linked_noun_keys": [
+      "μητέρα",
+      "πατέρας"
+    ],
+    "examples": [
+      "Το παιδί ακούει στους γονείς του.",
+      "Πρέπει να ακούς στον γιατρό."
+    ],
+    "common_mistake": "❌ Ακούω τους γονείς (also used, but 'ακούω σε' explicitly highlights obedience). ➜ ✅ Ακούει στους γονείς.",
+    "synonyms": [
+      "υπακούω"
+    ],
+    "antonyms": [
+      "παρακούω"
+    ]
+  },
+  "χαιρετάω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "χαιρετάω + αιτιατική",
+    "level": "A1",
+    "definition": "Απευθύνω χαιρετισμό σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'say hello TO' — in Greek the person greeted is direct object.",
+    "linked_noun_keys": [
+      "φίλος",
+      "δάσκαλος"
+    ],
+    "examples": [
+      "Χαιρετάω τον δάσκαλο κάθε πρωί.",
+      "Η Μαρία χαιρέτησε τους φίλους της."
+    ],
+    "common_mistake": "❌ Χαιρετάω σε τον δάσκαλο. ➜ ✅ Χαιρετάω τον δάσκαλο.",
+    "synonyms": [
+      "προσφωνώ"
+    ],
+    "antonyms": [
+      "αγνοώ"
+    ]
+  },
+  "στέλνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "στέλνω + αιτιατική + [σε + αιτιατική]",
+    "level": "A1",
+    "definition": "Διαβιβάζω κάτι σε άλλον τόπο ή παραλήπτη.",
+    "grammar_rule": "The sent object is accusative without preposition; the recipient uses 'σε + accusative' ('send to someone').",
+    "linked_noun_keys": [
+      "γράμμα",
+      "μήνυμα"
+    ],
+    "examples": [
+      "Στέλνω ένα μήνυμα στη μητέρα μου.",
+      "Ο οργανισμός έστειλε βοήθεια."
+    ],
+    "common_mistake": "❌ Στέλνω προς τη μητέρα. ➜ ✅ Στέλνω στη μητέρα.",
+    "synonyms": [
+      "αποστέλλω"
+    ],
+    "antonyms": [
+      "λαμβάνω"
+    ]
+  },
+  "παίρνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "παίρνω + αιτιατική",
+    "level": "A1",
+    "definition": "Πιάζω ή αποκτώ κάτι στα χέρια μου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'take' / 'get'.",
+    "linked_noun_keys": [
+      "βιβλίο",
+      "εισιτήριο"
+    ],
+    "examples": [
+      "Παίρνω το λεωφορείο για το σχολείο.",
+      "Ο Νίκος πήρε το εισιτήριό του."
+    ],
+    "common_mistake": "❌ Παίρνω από το λεωφορείο (when meaning catch). ➜ ✅ Παίρνω το λεωφορείο.",
+    "synonyms": [
+      "λαμβάνω"
+    ],
+    "antonyms": [
+      "δίνω"
+    ]
+  },
+  "δίνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "δίνω + αιτιατική + [σε + αιτιατική]",
+    "level": "A1",
+    "definition": "Παραδίδω κάτι σε κάποιον.",
+    "grammar_rule": "The given item is direct object in accusative; the recipient uses 'σε + accusative'. Matches English 'give something TO someone'.",
+    "linked_noun_keys": [
+      "βιβλίο",
+      "χρήμα"
+    ],
+    "examples": [
+      "Δίνω το βιβλίο στον μαθητή.",
+      "Ο πατέρας έδωσε συμβουλή στο παιδί."
+    ],
+    "common_mistake": "❌ Δίνω το βιβλίο για τον μαθητή. ➜ ✅ Δίνω το βιβλίο στον μαθητή.",
+    "synonyms": [
+      "παρέχω"
+    ],
+    "antonyms": [
+      "παίρνω"
+    ]
+  },
+  "βρίσκω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "βρίσκω + αιτιατική",
+    "level": "A1",
+    "definition": "Ανακαλύπτω κάτι που έψαχνα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'find'.",
+    "linked_noun_keys": [
+      "δρόμος"
+    ],
+    "examples": [
+      "Βρίσκω τα κλειδιά μου στο συρτάρι.",
+      "Δεν μπορούμε να βρούμε τον δρόμο."
+    ],
+    "common_mistake": "❌ Βρίσκω σε τα κλειδιά. ➜ ✅ Βρίσκω τα κλειδιά.",
+    "synonyms": [
+      "ανακαλύπτω"
+    ],
+    "antonyms": [
+      "χάνω"
+    ]
+  },
+  "χάνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "χάνω + αιτιατική",
+    "level": "A1",
+    "definition": "Στερούμαι κάτι επειδή δεν ξέρω πού βρίσκεται.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'lose' / 'miss'.",
+    "linked_noun_keys": [
+      "τρένο",
+      "χρήμα"
+    ],
+    "examples": [
+      "Έχασα το τρένο των εννέα.",
+      "Ο Γιώργος έχασε τα λεφτά του."
+    ],
+    "common_mistake": "❌ Χάνω από το τρένο. ➜ ✅ Χάνω το τρένο.",
+    "synonyms": [
+      "απωλώ"
+    ],
+    "antonyms": [
+      "βρίσκω"
+    ]
+  },
+  "δουλεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "δουλεύω + [σε + αιτιατική]",
+    "level": "A1",
+    "definition": "Εργάζομαι σε κάποιον χώρο ή εταιρεία.",
+    "grammar_rule": "Intransitive/transitive specifying workplace with 'σε + accusative'. Matches English 'work AT / IN'.",
+    "linked_noun_keys": [
+      "τράπεζα",
+      "νοσοκομείο"
+    ],
+    "examples": [
+      "Δουλεύω σε μια μεγάλη τράπεζα.",
+      "Η μητέρα μου δουλεύει στο νοσοκομείο."
+    ],
+    "common_mistake": "❌ Δουλεύω για μια τράπεζα (acceptable for 'for', but workplace is 'σε'). ➜ ✅ Δουλεύω σε τράπεζα.",
+    "synonyms": [
+      "εργάζομαι"
+    ],
+    "antonyms": [
+      "τεμπελιάζω"
+    ]
+  },
+  "μένω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "μένω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Κατοικώ ή διαμένω σε κάποιο μέρος.",
+    "grammar_rule": "Takes preposition 'σε + accusative' to specify location. Matches English 'live IN / AT'.",
+    "linked_noun_keys": [
+      "σπίτι",
+      "πόλη"
+    ],
+    "examples": [
+      "Μένω σε ένα όμορφο σπίτι στην Αθήνα.",
+      "Ο φίλος μου μένει στην πόλη."
+    ],
+    "common_mistake": "❌ Μένω Αθήνα (informal drop of prep). ➜ ✅ Μένω στην Αθήνα.",
+    "synonyms": [
+      "κατοικώ"
+    ],
+    "antonyms": [
+      "φεύγω"
+    ]
+  },
+  "ταξιδεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      },
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "ταξιδεύω + [σε/με + αιτιατική]",
+    "level": "A1",
+    "definition": "Μετακινούμαι από τόπο σε τόπο.",
+    "grammar_rule": "Destination takes 'σε + accusative' ('travel TO'); means of transport takes 'με + accusative' ('travel BY').",
+    "linked_noun_keys": [
+      "νησί",
+      "αεροπλάνο"
+    ],
+    "examples": [
+      "Ταξιδεύω στο νησί με αεροπλάνο.",
+      "Η οικογένεια ταξιδεύει στην Ιταλία."
+    ],
+    "common_mistake": "❌ Ταξιδεύω από αεροπλάνο. ➜ ✅ Ταξιδεύω με αεροπλάνο.",
+    "synonyms": [
+      "περιηγούμαι"
+    ],
+    "antonyms": [
+      "παραμένω"
+    ]
+  },
+  "πηγαίνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "πηγαίνω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Κατευθύνομαι προς ένα μέρος.",
+    "grammar_rule": "Destination requires 'σε + accusative'. Matches English 'go TO'.",
+    "linked_noun_keys": [
+      "σχολείο",
+      "αγορά"
+    ],
+    "examples": [
+      "Πηγαίνω στο σχολείο κάθε πρωί.",
+      "Η μητέρα πηγαίνει στην αγορά."
+    ],
+    "common_mistake": "❌ Πηγαίνω προς το σχολείο (unless emphasizing direction towards). ➜ ✅ Πηγαίνω στο σχολείο.",
+    "synonyms": [
+      "μεταβαίνω"
+    ],
+    "antonyms": [
+      "έρχομαι"
+    ]
+  },
+  "έρχομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "έρχομαι + [από/σε + αιτιατική]",
+    "level": "A1",
+    "definition": "Φτάνω ή μετακινούμαι προς το μέρος του ομιλητή.",
+    "grammar_rule": "Origin takes 'από + accusative' ('come FROM'); arrival target takes 'σε + accusative' ('come TO').",
+    "linked_noun_keys": [
+      "σπίτι",
+      "σταθμός"
+    ],
+    "examples": [
+      "Έρχομαι από το σπίτι μου.",
+      "Ο φίλος μου έρχεται στον σταθμό."
+    ],
+    "common_mistake": "❌ Έρχομαι εκ το σπίτι (archaic). ➜ ✅ Έρχομαι από το σπίτι.",
+    "synonyms": [
+      "αφικνούμαι"
+    ],
+    "antonyms": [
+      "φεύγω"
+    ]
+  },
+  "φεύγω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "φεύγω + από + αιτιατική",
+    "level": "A1",
+    "definition": "Απομακρύνομαι από έναν τόπο.",
+    "grammar_rule": "Origin of departure takes 'από + accusative'. Matches English 'leave FROM'. Note direct accusative without prep is also used when meaning 'abandon' ('φεύγω την πόλη' literary).",
+    "linked_noun_keys": [
+      "πόλη"
+    ],
+    "examples": [
+      "Φεύγω από τη δουλειά στις πέντε.",
+      "Τα παιδιά έφυγαν από το σχολείο."
+    ],
+    "common_mistake": "❌ Φεύγω εκ τη δουλειά. ➜ ✅ Φεύγω από τη δουλειά.",
+    "synonyms": [
+      "αναχωρώ"
+    ],
+    "antonyms": [
+      "φτάνω"
+    ]
+  },
+  "φτάνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "φτάνω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Ολοκληρώνω τη διαδρομή και βρίσκομαι στον προορισμό.",
+    "grammar_rule": "Destination takes 'σε + accusative'. Matches English 'arrive AT / IN'.",
+    "linked_noun_keys": [
+      "σταθμός",
+      "αεροδρόμιο"
+    ],
+    "examples": [
+      "Φτάνω στον σταθμό σε δέκα λεπτά.",
+      "Το αεροπλάνο έφτασε στο αεροδρόμιο."
+    ],
+    "common_mistake": "❌ Φτάνω σε το αεροδρόμιο χωρίς άρθρο. ➜ ✅ Φτάνω στο αεροδρόμιο.",
+    "synonyms": [
+      "αφικνούμαι"
+    ],
+    "antonyms": [
+      "αναχωρώ"
+    ]
+  },
+  "αρχίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αρχίζω + αιτιατική",
+    "level": "A1",
+    "definition": "Ξεκινώ μια ενέργεια ή διαδικασία.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'start / begin'.",
+    "noun_parallel": "⚡ Ρήμα: 'Αρχίζω τη δουλειά' ➜ Ουσιαστικό: 'Αρχή της δουλειάς'",
+    "linked_noun_keys": [],
+    "examples": [
+      "Αρχίζω τη δουλειά στις εννέα.",
+      "Ο καθηγητής άρχισε το μάθημα."
+    ],
+    "common_mistake": "❌ Αρχίζω με τη δουλειά. ➜ ✅ Αρχίζω τη δουλειά.",
+    "synonyms": [
+      "ξεκινώ"
+    ],
+    "antonyms": [
+      "τελειώνω"
+    ]
+  },
+  "τελειώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "τελειώνω + αιτιατική",
+    "level": "A1",
+    "definition": "Ολοκληρώνω μια εργασία ή έργο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'finish / complete'.",
+    "noun_parallel": "⚡ Ρήμα: 'Τελειώνω την εργασία' ➜ Ουσιαστικό: 'Τέλος της εργασίας'",
+    "linked_noun_keys": [],
+    "examples": [
+      "Τελειώνω τις ασκήσεις μου νωρίς.",
+      "Ο μαθητής τελείωσε το διάβασμα."
+    ],
+    "common_mistake": "❌ Τελειώνω από τις ασκήσεις. ➜ ✅ Τελειώνω τις ασκήσεις.",
+    "synonyms": [
+      "ολοκληρώνω"
+    ],
+    "antonyms": [
+      "αρχίζω"
+    ]
+  },
+  "πληρώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "πληρώνω + αιτιατική + [για + αιτιατική]",
+    "level": "A1",
+    "definition": "Δίνω χρήματα για να εξοφλήσω κάτι.",
+    "grammar_rule": "The bill/amount is direct accusative without prep ('πληρώνω το λογαριασμό'); the item acquired uses 'για + accusative' ('pay FOR something').",
+    "linked_noun_keys": [
+      "χρήμα",
+      "καφές"
+    ],
+    "examples": [
+      "Πληρώνω τον λογαριασμό στο εστιατόριο.",
+      "Πλήρωσα δέκα ευρώ για τον καφέ."
+    ],
+    "common_mistake": "❌ Πληρώνω για τον λογαριασμό. ➜ ✅ Πληρώνω τον λογαριασμό.",
+    "synonyms": [
+      "εξοφλώ"
+    ],
+    "antonyms": [
+      "εισπράττω"
+    ]
+  },
+  "ενδιαφέρομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "ενδιαφέρομαι + για + αιτιατική",
+    "level": "A2",
+    "definition": "Δείχνω ενδιαφέρον ή προσοχή για κάποιο θέμα ή πρόσωπο.",
+    "grammar_rule": "Requires preposition 'για + accusative'. Contrast with English 'be interested IN' (which uses 'in').",
+    "noun_parallel": "⚡ Ρήμα: 'Ενδιαφέρομαι για την τέχνη' ➜ Ουσιαστικό: 'Ενδιαφέρον για την τέχνη'",
+    "linked_noun_keys": [
+      "τέχνη",
+      "επιστήμη"
+    ],
+    "examples": [
+      "Ενδιαφέρομαι για την ελληνική ιστορία.",
+      "Ο μαθητής ενδιαφέρεται για τα μαθηματικά."
+    ],
+    "common_mistake": "❌ Ενδιαφέρομαι σε την ιστορία. ➜ ✅ Ενδιαφέρομαι για την ιστορία.",
+    "synonyms": [
+      "νοιάζομαι"
+    ],
+    "antonyms": [
+      "αδιαφορώ"
+    ]
+  },
+  "ασχολούμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "ασχολούμαι + με + αιτιατική",
+    "level": "A2",
+    "definition": "Αφιερώνω χρόνο και ενέργεια σε μια δραστηριότητα.",
+    "grammar_rule": "Requires preposition 'με + accusative'. Contrast with English 'deal WITH' or 'be busy WITH' (uses 'με').",
+    "linked_noun_keys": [
+      "άθλημα",
+      "κήπος"
+    ],
+    "examples": [
+      "Ασχολούμαι με τον αθλητισμό τα Σαββατοκύριακα.",
+      "Η Μαρία ασχολείται με τη ζωγραφική."
+    ],
+    "common_mistake": "❌ Ασχολούμαι για τον αθλητισμό. ➜ ✅ Ασχολούμαι με τον αθλητισμό.",
+    "synonyms": [
+      "καταγίνομαι"
+    ],
+    "antonyms": [
+      "αμελώ"
+    ]
+  },
+  "συμφωνώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "συμφωνώ + με + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω την ίδια γνώμη με κάποιον άλλο.",
+    "grammar_rule": "Requires preposition 'με + accusative' for the person or opinion agreed with. Matches English 'agree WITH'.",
+    "noun_parallel": "⚡ Ρήμα: 'Συμφωνώ με τη γνώμη σου' ➜ Ουσιαστικό: 'Συμφωνία για το θέμα'",
+    "linked_noun_keys": [
+      "γνώμη",
+      "φίλος"
+    ],
+    "examples": [
+      "Συμφωνώ απόλυτα με τη γνώμη σου.",
+      "Ο διευθυντής συμφώνησε με την πρόταση."
+    ],
+    "common_mistake": "❌ Συμφωνώ σε τη γνώμη σου. ➜ ✅ Συμφωνώ με τη γνώμη σου.",
+    "synonyms": [
+      "συναινώ"
+    ],
+    "antonyms": [
+      "διαφωνώ"
+    ]
+  },
+  "διαφωνώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "διαφωνώ + με + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω διαφορετική άποψη από κάποιον άλλο.",
+    "grammar_rule": "Requires preposition 'με + accusative'. Matches English 'disagree WITH'.",
+    "linked_noun_keys": [
+      "γνώμη",
+      "συνάδελφος"
+    ],
+    "examples": [
+      "Διαφωνώ με την απόφαση της κυβέρνησης.",
+      "Ο Νίκος διαφωνεί με τον συνάδελφό του."
+    ],
+    "common_mistake": "❌ Διαφωνώ από την απόφαση. ➜ ✅ Διαφωνώ με την απόφαση.",
+    "synonyms": [
+      "αντιτίθεμαι"
+    ],
+    "antonyms": [
+      "συμφωνώ"
+    ]
+  },
+  "συμμετέχω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "συμμετέχω + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Παίρνω μέρος σε μια εκδήλωση ή δραστηριότητα.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Contrast with English 'participate IN' or 'take part IN'.",
+    "linked_noun_keys": [
+      "αγώνας",
+      "συζήτηση"
+    ],
+    "examples": [
+      "Συμμετέχω στον αθλητικό αγώνα.",
+      "Πολλοί πολίτες συμμετέχουν στη συζήτηση."
+    ],
+    "common_mistake": "❌ Συμμετέχω με τον αγώνα. ➜ ✅ Συμμετέχω στον αγώνα.",
+    "synonyms": [
+      "μετέχω"
+    ],
+    "antonyms": [
+      "απέχω"
+    ]
+  },
+  "επιμένω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "επιμένω + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Υποστηρίζω σταθερά μια θέση χωρίς να υποχωρώ.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'insist ON'.",
+    "linked_noun_keys": [
+      "γνώμη",
+      "ιδέα"
+    ],
+    "examples": [
+      "Επιμένω στη γνώμη μου παρά τις αντιρρήσεις.",
+      "Ο καθηγητής επιμένει στην ακρίβεια."
+    ],
+    "common_mistake": "❌ Επιμένω για τη γνώμη μου. ➜ ✅ Επιμένω στη γνώμη μου.",
+    "synonyms": [
+      "εμμένω"
+    ],
+    "antonyms": [
+      "υποχωρώ"
+    ]
+  },
+  "ανησυχώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "ανησυχώ + για + αιτιατική",
+    "level": "A2",
+    "definition": "Νιώθω αγωνία ή φόβο για κάποιο ενδεχόμενο.",
+    "grammar_rule": "Requires preposition 'για + accusative'. Matches English 'worry ABOUT'.",
+    "noun_parallel": "⚡ Ρήμα: 'Ανησυχώ για την υγεία' ➜ Ουσιαστικό: 'Ανησυχία για την υγεία'",
+    "linked_noun_keys": [
+      "υγεία",
+      "παιδί"
+    ],
+    "examples": [
+      "Ανησυχώ πολύ για την υγεία του παππού.",
+      "Οι γονείς ανησυχούν για το μέλλον."
+    ],
+    "common_mistake": "❌ Ανησυχώ με την υγεία. ➜ ✅ Ανησυχώ για την υγεία.",
+    "synonyms": [
+      "αγωνιώ"
+    ],
+    "antonyms": [
+      "ησυχάζω"
+    ]
+  },
+  "χαίρομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "για"
+      },
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "χαίρομαι + [για/με + αιτιατική]",
+    "level": "A2",
+    "definition": "Νιώθω χαρά και ευτυχία για ένα γεγονός.",
+    "grammar_rule": "Uses 'για + accusative' for reason/news ('glad ABOUT/FOR') or 'με + accusative' for cause/item ('enjoy WITH/IN').",
+    "noun_parallel": "⚡ Ρήμα: 'Χαίρομαι για τη νίκη' ➜ Ουσιαστικό: 'Χαρά για τη νίκη'",
+    "linked_noun_keys": [
+      "νίκη"
+    ],
+    "examples": [
+      "Χαίρομαι πολύ για την επιτυχία σου.",
+      "Χαίρομαι με τις καλές ειδήσεις."
+    ],
+    "common_mistake": "❌ Χαίρομαι σε τη νίκη. ➜ ✅ Χαίρομαι για τη νίκη.",
+    "synonyms": [
+      "ευφραίνομαι"
+    ],
+    "antonyms": [
+      "λυπάμαι"
+    ]
+  },
+  "θυμώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "θυμώνω + με + αιτιατική",
+    "level": "A2",
+    "definition": "Γίνομαι οργισμένος με κάποιον ή κάτι.",
+    "grammar_rule": "Requires preposition 'με + accusative'. Contrast with English 'get angry AT / WITH'.",
+    "linked_noun_keys": [
+      "αδελφός",
+      "φίλος"
+    ],
+    "examples": [
+      "Θυμώνω με τον αδελφό μου όταν αργεί.",
+      "Ο δάσκαλος θύμωσε με τους αμελείς μαθητές."
+    ],
+    "common_mistake": "❌ Θυμώνω σε τον αδελφό. ➜ ✅ Θυμώνω με τον αδελφό μου.",
+    "synonyms": [
+      "οργίζομαι"
+    ],
+    "antonyms": [
+      "ηρεμώ"
+    ]
+  },
+  "γεμίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "γεμίζω + αιτιατική + [με + αιτιατική]",
+    "level": "A2",
+    "definition": "Πληρώ ένα δοχείο ή χώρο με περιεχόμενο.",
+    "grammar_rule": "The container is direct accusative without prep; the content takes 'με + accusative'. Matches English 'fill something WITH something'.",
+    "linked_noun_keys": [
+      "ποτήρι",
+      "νερό"
+    ],
+    "examples": [
+      "Γεμίζω το ποτήρι με νερό.",
+      "Η αίθουσα γέμισε με κόσμο."
+    ],
+    "common_mistake": "❌ Γεμίζω το ποτήρι από νερό. ➜ ✅ Γεμίζω το ποτήρι με νερό.",
+    "synonyms": [
+      "πληρώ"
+    ],
+    "antonyms": [
+      "αδειάζω"
+    ]
+  },
+  "εξαρτώμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "εξαρτώμαι + από + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω ανάγκη από όρο ή συνθήκη για να υπάρξω.",
+    "grammar_rule": "Requires preposition 'από + accusative'. Contrast with English 'depend ON' (Greek uses 'from/από').",
+    "linked_noun_keys": [
+      "καιρός"
+    ],
+    "examples": [
+      "Το ταξίδι εξαρτάται από τον καιρό.",
+      "Όλα εξαρτώνται από την απόφαση του διευθυντή."
+    ],
+    "common_mistake": "❌ Εξαρτώμαι σε τον καιρό. ➜ ✅ Εξαρτώμαι από τον καιρό.",
+    "synonyms": [
+      "βασίζομαι"
+    ],
+    "antonyms": [
+      "ανεξαρτητοποιούμαι"
+    ]
+  },
+  "ερωτεύομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ερωτεύομαι + αιτιατική",
+    "level": "A2",
+    "definition": "Νιώθω σφοδρό ερωτικό συναίσθημα για κάποιο πρόσωπο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Major trap vs English 'fall in love WITH someone' (no preposition in Greek!).",
+    "linked_noun_keys": [
+      "γυναίκα",
+      "άνδρας"
+    ],
+    "examples": [
+      "Ο Πέτρος ερωτεύτηκε τη Μαρία.",
+      "Ερωτεύομαι την όμορφη αυτή πόλη."
+    ],
+    "common_mistake": "❌ Ερωτεύομαι με τη Μαρία. ➜ ✅ Ερωτεύομαι τη Μαρία.",
+    "synonyms": [
+      "αγαπώ"
+    ],
+    "antonyms": [
+      "μισώ"
+    ]
+  },
+  "σκέφτομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "σκέφτομαι + αιτιατική / [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Επεξεργάζομαι ιδέες στο μυαλό μου.",
+    "grammar_rule": "Direct accusative without prep for general thinking ('I'm considering it'); 'για + accusative' for deliberating/reflecting ABOUT something.",
+    "linked_noun_keys": [
+      "πρόβλημα"
+    ],
+    "examples": [
+      "Σκέφτομαι το πρόβλημά σου.",
+      "Σκέφτομαι για το μέλλον της επιχείρησης."
+    ],
+    "common_mistake": "❌ Σκέφτομαι σε το πρόβλημα. ➜ ✅ Σκέφτομαι το πρόβλημα.",
+    "synonyms": [
+      "συλλογίζομαι"
+    ],
+    "antonyms": [
+      "παραβλέπω"
+    ]
+  },
+  "παντρεύομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "παντρεύομαι + αιτιατική",
+    "level": "A2",
+    "definition": "Συνάπτω γάμο με κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'marry someone' (matches) or 'get married TO' (no 'σε' in Greek!).",
+    "linked_noun_keys": [
+      "γυναίκα",
+      "άνδρας"
+    ],
+    "examples": [
+      "Ο Γιώργος παντρεύεται την Ελένη το καλοκαίρι.",
+      "Παντρεύτηκαν τον περασμένο μήνα."
+    ],
+    "common_mistake": "❌ Παντρεύομαι με την Ελένη (acceptable informally, standard is direct accusative). ➜ ✅ Παντρεύομαι την Ελένη.",
+    "synonyms": [
+      "νυμφεύομαι"
+    ],
+    "antonyms": [
+      "χωρίζω"
+    ]
+  },
+  "φροντίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "φροντίζω + αιτιατική / [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Παρέχω επιμέλεια και προστασία σε κάποιον.",
+    "grammar_rule": "Direct accusative without prep for 'take care of / look after someone' ('φροντίζω τους γονείς'); 'για + accusative' for 'see to / arrange for something' ('φροντίζω για το φαγητό').",
+    "noun_parallel": "⚡ Ρήμα: 'Φροντίζω τα παιδιά' ➜ Ουσιαστικό: 'Φροντίδα των παιδιών'",
+    "linked_noun_keys": [
+      "παιδί",
+      "μητέρα"
+    ],
+    "examples": [
+      "Η γιαγιά φροντίζει τα εγγόνια της.",
+      "Ο πατέρας φροντίζει για τα έξοδα του σπιτιού."
+    ],
+    "common_mistake": "❌ Φροντίζω με τα παιδιά. ➜ ✅ Φροντίζω τα παιδιά.",
+    "synonyms": [
+      "περιποιούμαι"
+    ],
+    "antonyms": [
+      "αμελώ"
+    ]
+  },
+  "πιστεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "πιστεύω + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω εμπιστοσύνη ή πίστη σε κάτι ή κάποιον.",
+    "grammar_rule": "Requires preposition 'σε + accusative' when expressing faith/trust in someone ('believe IN'). Direct accusative without prep means 'believe a statement' ('πιστεύω την αλήθεια').",
+    "noun_parallel": "⚡ Ρήμα: 'Πιστεύω στον Θεό' ➜ Ουσιαστικό: 'Πίστη στον Θεό'",
+    "linked_noun_keys": [
+      "αλήθεια",
+      "φίλος"
+    ],
+    "examples": [
+      "Πιστεύω στις δυνατότητές μου.",
+      "Ο μαθητής πιστεύει στον εαυτό του."
+    ],
+    "common_mistake": "❌ Πιστεύω για σένα (when meaning trust). ➜ ✅ Πιστεύω σε σένα.",
+    "synonyms": [
+      "εμπιστεύομαι"
+    ],
+    "antonyms": [
+      "αμφιβάλλω"
+    ]
+  },
+  "ελπίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "ελπίζω + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Προσδοκώ κάτι ευχάριστο για το μέλλον.",
+    "grammar_rule": "Requires preposition 'σε + accusative' for the object of hope. Contrast with English 'hope FOR' (Greek uses 'σε').",
+    "noun_parallel": "⚡ Ρήμα: 'Ελπίζω σε βοήθεια' ➜ Ουσιαστικό: 'Ελπίδα για βοήθεια'",
+    "linked_noun_keys": [
+      "ελπίδα"
+    ],
+    "examples": [
+      "Ελπίζω σε μια καλύτερη ζωή.",
+      "Όλοι ελπίζουν στην ειρήνη."
+    ],
+    "common_mistake": "❌ Ελπίζω για μια καλύτερη ζωή. ➜ ✅ Ελπίζω σε μια καλύτερη ζωή.",
+    "synonyms": [
+      "προσδοκώ"
+    ],
+    "antonyms": [
+      "απελπίζομαι"
+    ]
+  },
+  "στηρίζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "στηρίζομαι + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω ως υποστήριγμα ή βάση κάποιον/κάτι.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'rely ON / lean ON'.",
+    "linked_noun_keys": [
+      "φίλος",
+      "οικογένεια"
+    ],
+    "examples": [
+      "Στηρίζομαι στους φίλους μου στις δύσκολες στιγμές.",
+      "Η οικονομία στηρίζεται στον τουρισμό."
+    ],
+    "common_mistake": "❌ Στηρίζομαι από τους φίλους. ➜ ✅ Στηρίζομαι στους φίλους μου.",
+    "synonyms": [
+      "βασίζομαι"
+    ],
+    "antonyms": [
+      "κλονίζομαι"
+    ]
+  },
+  "βασίζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "βασίζομαι + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω ως θεμέλιο ή εμπιστεύομαι κάποιον.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'base ON / count ON'.",
+    "linked_noun_keys": [
+      "αλήθεια"
+    ],
+    "examples": [
+      "Βασίζομαι στη βοήθειά σου.",
+      "Η κατηγορία βασίζεται σε ψευδή στοιχεία."
+    ],
+    "common_mistake": "❌ Βασίζομαι με τη βοήθειά σου. ➜ ✅ Βασίζομαι στη βοήθειά σου.",
+    "synonyms": [
+      "στηρίζομαι"
+    ],
+    "antonyms": [
+      "αμφισβητώ"
+    ]
+  },
+  "μοιάζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "μοιάζω + με + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω παρόμοια εμφανιση ή χαρακτήρα με κάποιον.",
+    "grammar_rule": "Requires preposition 'με + accusative'. Contrast with English 'look LIKE' or 'resemble' (no prep in English, 'με' in Greek).",
+    "linked_noun_keys": [
+      "πατέρας",
+      "μητέρα"
+    ],
+    "examples": [
+      "Ο μικρός μοιάζει πολύ με τον πατέρα του.",
+      "Το σπίτι αυτό μοιάζει με παλάτι."
+    ],
+    "common_mistake": "❌ Μοιάζω στον πατέρα (used informally, standard is 'με'). ➜ ✅ Μοιάζω με τον πατέρα.",
+    "synonyms": [
+      "παρομοιάζω"
+    ],
+    "antonyms": [
+      "διαφέρω"
+    ]
+  },
+  "διαφέρω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "διαφέρω + από + αιτιατική",
+    "level": "A2",
+    "definition": "Έχω διαφορετικά χαρακτηριστικά από κάποιον άλλο.",
+    "grammar_rule": "Requires preposition 'από + accusative'. Matches English 'differ FROM'.",
+    "linked_noun_keys": [
+      "αδελφός"
+    ],
+    "examples": [
+      "Ο Γιάννης διαφέρει πολύ από τον αδελφό του.",
+      "Η νέα μέθοδος διαφέρει από την παλιά."
+    ],
+    "common_mistake": "❌ Διαφέρω με τον αδελφό. ➜ ✅ Διαφέρω από τον αδελφό.",
+    "synonyms": [
+      "αποκλίνω"
+    ],
+    "antonyms": [
+      "μοιάζω"
+    ]
+  },
+  "κινδυνεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "κινδυνεύω + από + αιτιατική",
+    "level": "A2",
+    "definition": "Βρίσκομαι σε κατάσταση απειλής ή βλάβης.",
+    "grammar_rule": "Requires preposition 'από + accusative' for the source of danger. Matches English 'be endangered BY / FROM'.",
+    "linked_noun_keys": [
+      "σεισμός"
+    ],
+    "examples": [
+      "Τα ζώα του δάσους κινδυνεύουν από τη φωτιά.",
+      "Η πόλη κινδυνεύει από πλημμύρα."
+    ],
+    "common_mistake": "❌ Κινδυνεύω με τη φωτιά. ➜ ✅ Κινδυνεύω από τη φωτιά.",
+    "synonyms": [
+      "απειλούμαι"
+    ],
+    "antonyms": [
+      "προστατεύομαι"
+    ]
+  },
+  "γλιτώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "γλιτώνω + από + αιτιατική",
+    "level": "A2",
+    "definition": "Αποφεύγω ή σώζομαι από κάποιο κακό.",
+    "grammar_rule": "Requires preposition 'από + accusative'. Matches English 'escape FROM / save FROM'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο οδηγός γλίτωσε από το σοβαρό ατύχημα.",
+      "Γλιτώσαμε από τη μεγάλη βροχή."
+    ],
+    "common_mistake": "❌ Γλιτώνω με το ατύχημα. ➜ ✅ Γλιτώνω από το ατύχημα.",
+    "synonyms": [
+      "σώζομαι"
+    ],
+    "antonyms": [
+      "παγιδεύομαι"
+    ]
+  },
+  "προστατεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "προστατεύω + αιτιατική + [από + αιτιατική]",
+    "level": "A2",
+    "definition": "Παρέχω ασφάλεια σε κάποιον από κίνδυνο.",
+    "grammar_rule": "The protected object is direct accusative; the threat source takes 'από + accusative'. Matches English 'protect someone FROM something'.",
+    "linked_noun_keys": [
+      "παιδί"
+    ],
+    "examples": [
+      "Το παλτό με προστατεύει από το κρύο.",
+      "Οι γονείς προστατεύουν τα παιδιά τους."
+    ],
+    "common_mistake": "❌ Προστατεύω από το παιδί. ➜ ✅ Προστατεύω το παιδί από το κρύο.",
+    "synonyms": [
+      "περιφρουρώ"
+    ],
+    "antonyms": [
+      "εκθέτω"
+    ]
+  },
+  "συνηθίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "συνηθίζω + [σε + αιτιατική]",
+    "level": "A2",
+    "definition": "Αποκτώ οικειότητα με μια κατάσταση.",
+    "grammar_rule": "Requires preposition 'σε + accusative' when specifying what one is used to. Matches English 'get used TO'.",
+    "linked_noun_keys": [
+      "καιρός",
+      "ζωή"
+    ],
+    "examples": [
+      "Συνήθισα στη ζωή της μεγάλης πόλης.",
+      "Ο οργανισμός συνήθισε στο κρύο."
+    ],
+    "common_mistake": "❌ Συνηθίζω με τη ζωή. ➜ ✅ Συνηθίζω στη ζωή.",
+    "synonyms": [
+      "εξοικειώνομαι"
+    ],
+    "antonyms": [
+      "αποξενώνομαι"
+    ]
+  },
+  "κατηγορώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "κατηγορώ + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Καταλογίζω ευθύνη ή σφάλμα σε κάποιον.",
+    "grammar_rule": "Accused person is direct accusative without prep; the offense takes 'για + accusative'. Contrast with English 'accuse someone OF' (Greek uses 'για/for').",
+    "linked_noun_keys": [],
+    "examples": [
+      "Κατηγορούν τον υπάλληλο για την κλοπή.",
+      "Μη με κατηγορείς για το λάθος."
+    ],
+    "common_mistake": "❌ Κατηγορώ τον υπάλληλο από την κλοπή. ➜ ✅ Κατηγορώ τον υπάλληλο για την κλοπή.",
+    "synonyms": [
+      "μέμφομαι"
+    ],
+    "antonyms": [
+      "επαινώ"
+    ]
+  },
+  "συγχωρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συγχωρώ + αιτιατική",
+    "level": "A2",
+    "definition": "Δίνω άφεση σε κάποιον για το σφάλμα του.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'forgive someone'.",
+    "linked_noun_keys": [
+      "φίλος"
+    ],
+    "examples": [
+      "Συγχωρώ τον φίλο μου για το λάθος του.",
+      "Η μητέρα συγχώρεσε το παιδί."
+    ],
+    "common_mistake": "❌ Συγχωρώ σε τον φίλο. ➜ ✅ Συγχωρώ τον φίλο μου.",
+    "synonyms": [
+      "συμπαθώ"
+    ],
+    "antonyms": [
+      "τιμωρώ"
+    ]
+  },
+  "τιμωρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "τιμωρώ + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Επιβάλλω ποινή σε κάποιον για παράβαση.",
+    "grammar_rule": "Punished person is direct accusative; the cause takes 'για + accusative'. Matches English 'punish someone FOR something'.",
+    "linked_noun_keys": [
+      "μαθητής"
+    ],
+    "examples": [
+      "Ο δάσκαλος τιμώρησε τον αμελή μαθητή.",
+      "Τιμωρήθηκε για την παράβαση του νόμου."
+    ],
+    "common_mistake": "❌ Τιμωρώ σε τον μαθητή. ➜ ✅ Τιμωρώ τον μαθητή.",
+    "synonyms": [
+      "παιδεύω"
+    ],
+    "antonyms": [
+      "αμείβω"
+    ]
+  },
+  "αμείβω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "αμείβω + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Δίνω αμοιβή σε κάποιον για την εργασία του.",
+    "grammar_rule": "Rewarded person is direct object accusative; cause takes 'για + accusative'. Matches English 'reward someone FOR something'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η εταιρεία αμείβει τους υπαλλήλους της δίκαια.",
+      "Αμείφθηκε για την προσπάθειά του."
+    ],
+    "common_mistake": "❌ Αμείβω σε τον υπάλληλο. ➜ ✅ Αμείβω τον υπάλληλο.",
+    "synonyms": [
+      "ανταμείβω"
+    ],
+    "antonyms": [
+      "τιμωρώ"
+    ]
+  },
+  "ευχαριστώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "ευχαριστώ + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Εκφράζω ευγνωμοσύνη σε κάποιον.",
+    "grammar_rule": "Person thanked is direct accusative without prep ('ευχαριστώ εσένα'); reason takes 'για + accusative' ('thank FOR').",
+    "linked_noun_keys": [
+      "φίλος"
+    ],
+    "examples": [
+      "Σε ευχαριστώ πολύ για τη βοήθεια.",
+      "Ευχαρίστησε τους καλεσμένους για την παρουσία."
+    ],
+    "common_mistake": "❌ Ευχαριστώ στον φίλο μου (in standard modern Greek accusative is used). ➜ ✅ Ευχαριστώ τον φίλο μου.",
+    "synonyms": [
+      "ευγνωμονώ"
+    ],
+    "antonyms": [
+      "μέμφομαι"
+    ]
+  },
+  "παρακαλώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "παρακαλώ + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Ζητώ θερμά κάτι από κάποιον.",
+    "grammar_rule": "Person requested is direct accusative without prep; item requested takes 'για + accusative'. Matches English 'beg / request someone FOR something'.",
+    "linked_noun_keys": [
+      "γιατρός"
+    ],
+    "examples": [
+      "Παρακαλώ τον γιατρό να βοηθήσει.",
+      "Σε παρακαλώ για λίγη υπομονή."
+    ],
+    "common_mistake": "❌ Παρακαλώ στον γιατρό. ➜ ✅ Παρακαλώ τον γιατρό.",
+    "synonyms": [
+      "ικετεύω"
+    ],
+    "antonyms": [
+      "απαιτώ"
+    ]
+  },
+  "προσκαλώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "προσκαλώ + αιτιατική + [σε + αιτιατική]",
+    "level": "A2",
+    "definition": "Απευθύνω πρόσκληση σε κάποιον για μια εκδήλωση.",
+    "grammar_rule": "Invited person is direct accusative without prep; event takes 'σε + accusative'. Matches English 'invite someone TO something'.",
+    "linked_noun_keys": [
+      "φίλος",
+      "δείπνο"
+    ],
+    "examples": [
+      "Προσκαλώ τους φίλους μου στο γεύμα.",
+      "Μας προσκάλεσαν στον γάμο."
+    ],
+    "common_mistake": "❌ Προσκαλώ για το γεύμα. ➜ ✅ Προσκαλώ στο γεύμα.",
+    "synonyms": [
+      "καλώ"
+    ],
+    "antonyms": [
+      "διώχνω"
+    ]
+  },
+  "συγχαίρω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "συγχαίρω + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Εκφράζω χαρά και έπαινο σε κάποιον για την επιτυχία του.",
+    "grammar_rule": "Person congratulated is direct accusative; reason takes 'για + accusative'. Contrast with English 'congratulate someone ON' (Greek uses 'για/for').",
+    "linked_noun_keys": [
+      "μαθητής",
+      "νίκη"
+    ],
+    "examples": [
+      "Συγχαίρω τον μαθητή για τη νίκη του.",
+      "Όλοι συνεχάρησαν τη νύφη."
+    ],
+    "common_mistake": "❌ Συγχαίρω στον μαθητή. ➜ ✅ Συγχαίρω τον μαθητή.",
+    "synonyms": [
+      "επαινώ"
+    ],
+    "antonyms": [
+      "κατηγορώ"
+    ]
+  },
+  "συμβουλεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συμβουλεύω + αιτιατική",
+    "level": "A2",
+    "definition": "Δίνω συμβουλές σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition for the person advised. Contrast with English 'advise someone' (matches direct accusative).",
+    "linked_noun_keys": [
+      "παιδί",
+      "γιατρός"
+    ],
+    "examples": [
+      "Ο γιατρός συμβουλεύει τον ασθενή να ξεκουραστεί.",
+      "Η μητέρα συμβουλεύει το παιδί."
+    ],
+    "common_mistake": "❌ Συμβουλεύω στον ασθενή. ➜ ✅ Συμβουλεύω τον ασθενή.",
+    "synonyms": [
+      "καθοδηγώ"
+    ],
+    "antonyms": [
+      "παραπλανώ"
+    ]
+  },
+  "προειδοποιώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "προειδοποιώ + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Ενημερώνω εκ των προτέρων κάποιον για κίνδυνο.",
+    "grammar_rule": "Warned person is direct accusative; danger takes 'για + accusative'. Matches English 'warn someone ABOUT something'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Προειδοποιώ τους πολίτες για την καταιγίδα.",
+      "Ο αστυνομικός προειδοποίησε τον οδηγό."
+    ],
+    "common_mistake": "❌ Προειδοποιώ στους πολίτες. ➜ ✅ Προειδοποιώ τους πολίτες.",
+    "synonyms": [
+      "ειδοποιώ"
+    ],
+    "antonyms": [
+      "αιφνιδιάζω"
+    ]
+  },
+  "ενημερώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "ενημερώνω + αιτιατική + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Δίνω πληροφορίες σε κάποιον για ένα θέμα.",
+    "grammar_rule": "Informed person is direct accusative; topic takes 'για + accusative'. Matches English 'inform someone ABOUT something'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ενημερώνω τον διευθυντή για τις εξελίξεις.",
+      "Η τηλεόραση ενημερώνει το κοινό."
+    ],
+    "common_mistake": "❌ Ενημερώνω στον διευθυντή. ➜ ✅ Ενημερώνω τον διευθυντή.",
+    "synonyms": [
+      "πληροφορώ"
+    ],
+    "antonyms": [
+      "παραπληροφορώ"
+    ]
+  },
+  "παραπονούμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      },
+      {
+        "case": "accusative",
+        "preposition": "για"
+      }
+    ],
+    "pattern": "παραπονούμαι + [σε + αιτιατική] + [για + αιτιατική]",
+    "level": "A2",
+    "definition": "Εκφράζω δυσαρέσκεια για κάτι σε κάποιον.",
+    "grammar_rule": "Listener takes 'σε + accusative' ('complain TO'); topic takes 'για + accusative' ('complain ABOUT').",
+    "linked_noun_keys": [
+      "γιατρός"
+    ],
+    "examples": [
+      "Παραπονούμαι στον γιατρό για τους πόνους.",
+      "Ο πελάτης παραπονέθηκε στον διευθυντή."
+    ],
+    "common_mistake": "❌ Παραπονούμαι με τον γιατρό. ➜ ✅ Παραπονούμαι στον γιατρό.",
+    "synonyms": [
+      "διαμαρτύρομαι"
+    ],
+    "antonyms": [
+      "επαινώ"
+    ]
+  },
+  "αντιδρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "αντιδρώ + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Απαντώ με πράξη ή στάση σε ένα ερέθισμα.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Contrast with English 'react TO' (matches 'σε').",
+    "linked_noun_keys": [],
+    "examples": [
+      "Οι πολίτες αντέδρασαν στα νέα μέτρα.",
+      "Ο οργανισμός αντιδρά στο φάρμακο."
+    ],
+    "common_mistake": "❌ Αντιδρώ με τα νέα μέτρα. ➜ ✅ Αντιδρώ στα νέα μέτρα.",
+    "synonyms": [
+      "απαντώ"
+    ],
+    "antonyms": [
+      "αδρανώ"
+    ]
+  },
+  "ανταποκρίνομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "ανταποκρίνομαι + σε + αιτιατική",
+    "level": "A2",
+    "definition": "Ανταποδίδω ή ανταποκρίνομαι σε απαίτηση/κάλεσμα.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'respond TO / meet expectations'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ανταποκρίνομαι στις προσδοκίες των γονιών μου.",
+      "Η ομάδα ανταποκρίθηκε στις ανάγκες."
+    ],
+    "common_mistake": "❌ Ανταποκρίνομαι με τις προσδοκίες. ➜ ✅ Ανταποκρίνομαι στις προσδοκίες.",
+    "synonyms": [
+      "ανταποδίδω"
+    ],
+    "antonyms": [
+      "αδιαφορώ"
+    ]
+  },
+  "υπόσχομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "υπόσχομαι + [σε + αιτιατική] + αιτιατική",
+    "level": "A2",
+    "definition": "Δίνω την υπόσχεση σε κάποιον ότι θα κάνω κάτι.",
+    "grammar_rule": "Promised thing is direct accusative; recipient takes 'σε + accusative'. Matches English 'promise something TO someone'.",
+    "linked_noun_keys": [
+      "παιδί"
+    ],
+    "examples": [
+      "Υπόσχομαι στο παιδί μου ένα δώρο.",
+      "Ο πολιτικός υποσχέθηκε βοήθεια στους πολίτες."
+    ],
+    "common_mistake": "❌ Υπόσχομαι για το παιδί ένα δώρο. ➜ ✅ Υπόσχομαι στο παιδί ένα δώρο.",
+    "synonyms": [
+      "δεσμεύομαι"
+    ],
+    "antonyms": [
+      "αθετώ"
+    ]
+  },
+  "αξίζω": {
+    "government": [
+      {
+        "case": "genitive",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αξίζω + γενική / αιτιατική",
+    "level": "B1",
+    "definition": "Έχω αξία ή είμαι άξιος να λάβω κάτι.",
+    "grammar_rule": "Can govern bare GENITIVE in literary/formal expressions ('αξίζει της προσοχής μας' = worth our attention) or direct ACCUSATIVE in modern usage ('αξίζει τον κόπο' = worth the effort). Matches English 'be worth'.",
+    "noun_parallel": "⚡ Ρήμα: 'Αξίζει της προσοχής' ➜ Ουσιαστικό: 'Αξία της προσπάθειας'",
+    "linked_noun_keys": [
+      "τιμή"
+    ],
+    "examples": [
+      "Το βιβλίο αυτό αξίζει της προσοχής σας.",
+      "Δεν αξίζει τον κόπο να στενοχωριέσαι."
+    ],
+    "common_mistake": "❌ Αξίζω για την προσοχή. ➜ ✅ Αξίζω της προσοχής / τον κόπο.",
+    "synonyms": [
+      "δικαιούμαι"
+    ],
+    "antonyms": [
+      "στερούμαι"
+    ]
+  },
+  "εμπιστεύομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εμπιστεύομαι + αιτιατική",
+    "level": "B1",
+    "definition": "Έχω απόλυτη πίστη και αφοσίωση σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'trust IN someone' (no preposition in Greek!).",
+    "noun_parallel": "⚡ Ρήμα: 'Εμπιστεύομαι τον φίλο' ➜ Ουσιαστικό: 'Εμπιστοσύνη στον φίλο'",
+    "linked_noun_keys": [
+      "φίλος",
+      "γιατρός"
+    ],
+    "examples": [
+      "Εμπιστεύομαι τον γιατρό μου πλήρως.",
+      "Η εταιρεία εμπιστεύτηκε τον νέο διευθυντή."
+    ],
+    "common_mistake": "❌ Εμπιστεύομαι σε τον γιατρό. ➜ ✅ Εμπιστεύομαι τον γιατρό μου.",
+    "synonyms": [
+      "βασίζομαι"
+    ],
+    "antonyms": [
+      "υποπτεύομαι"
+    ]
+  },
+  "ανήκω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "ανήκω + σε + αιτιατική",
+    "level": "B1",
+    "definition": "Είμαι ιδιοκτησία ή μέλος κάποιου συνόλου.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Contrast with English 'belong TO' (Greek uses 'σε'). Bare genitive is archaic/literary ('ανήκω τινός') — modern Greek strictly uses 'σε + accusative'.",
+    "linked_noun_keys": [
+      "ομάδα",
+      "κοινωνία"
+    ],
+    "examples": [
+      "Το βιβλίο ανήκει στον καθηγητή.",
+      "Ανήκω σε μια τοπική αθλητική ομάδα."
+    ],
+    "common_mistake": "❌ Ανήκω από τον καθηγητή. ➜ ✅ Ανήκει στον καθηγητή.",
+    "synonyms": [
+      "συγκαταλέγομαι"
+    ],
+    "antonyms": [
+      "αποκόπτομαι"
+    ]
+  },
+  "απολαμβάνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "απολαμβάνω + αιτιατική",
+    "level": "B1",
+    "definition": "Νιώθω μεγάλη ευχαρίστηση από κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'enjoy' (no preposition needed in either language, trap to avoid adding 'από').",
+    "noun_parallel": "⚡ Ρήμα: 'Απολαμβάνω τη ζωή' ➜ Ουσιαστικό: 'Απόλαυση της ζωής'",
+    "linked_noun_keys": [
+      "ζωή",
+      "καφές"
+    ],
+    "examples": [
+      "Απολαμβάνω τον πρωινό μου καφέ.",
+      "Οι τουρίστες απολαμβάνουν τη θάλασσα."
+    ],
+    "common_mistake": "❌ Απολαμβάνω από τον καφέ. ➜ ✅ Απολαμβάνω τον καφέ.",
+    "synonyms": [
+      "τέρπομαι"
+    ],
+    "antonyms": [
+      "υποφέρω"
+    ]
+  },
+  "βασανίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "βασανίζω + αιτιατική",
+    "level": "B1",
+    "definition": "Προκαλώ μεγάλο σωματικό ή ψυχικό πόνο σε κάποιον.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'torment / torture someone'.",
+    "linked_noun_keys": [
+      "άνθρωπος",
+      "σκύλος"
+    ],
+    "examples": [
+      "Οι σκέψεις αυτές βασανίζουν τον μυαλό μου.",
+      "Μη βασανίζεις τα ζώα."
+    ],
+    "common_mistake": "❌ Βασανίζω σε τον άνθρωπο. ➜ ✅ Βασανίζω τον άνθρωπο.",
+    "synonyms": [
+      "τυραννώ"
+    ],
+    "antonyms": [
+      "ανακουφίζω"
+    ]
+  },
+  "εκμεταλλεύομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εκμεταλλεύομαι + αιτιατική",
+    "level": "B1",
+    "definition": "Αξιοποιώ μια ευκαιρία ή καταχρώμαι κάποιον προς όφελός μου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'take advantage OF' (Greek uses direct accusative without preposition!).",
+    "linked_noun_keys": [],
+    "examples": [
+      "Εκμεταλλεύομαι την ευκαιρία για ταξίδι.",
+      "Ο εργοδότης εκμεταλλεύεται τους εργαζομένους."
+    ],
+    "common_mistake": "❌ Εκμεταλλεύομαι από την ευκαιρία. ➜ ✅ Εκμεταλλεύομαι την ευκαιρία.",
+    "synonyms": [
+      "αξιοποιώ"
+    ],
+    "antonyms": [
+      "παραβλέπω"
+    ]
+  },
+  "επηρεάζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επηρεάζω + αιτιατική",
+    "level": "B1",
+    "definition": "Ασκώ επίδραση στη σκέψη ή συμπεριφορά κάποιου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'have an influence ON' vs verb 'influence someone' (direct object in both!).",
+    "noun_parallel": "⚡ Ρήμα: 'Επηρεάζω τη γνώμη' ➜ Ουσιαστικό: 'Επιρροή στη γνώμη'",
+    "linked_noun_keys": [
+      "γνώμη"
+    ],
+    "examples": [
+      "Η διαφήμιση επηρεάζει τους καταναλωτές.",
+      "Ο καιρός επηρεάζει τη διάθεσή μου."
+    ],
+    "common_mistake": "❌ Επηρεάζω πάνω στη γνώμη. ➜ ✅ Επηρεάζω τη γνώμη.",
+    "synonyms": [
+      "επιδρώ"
+    ],
+    "antonyms": [
+      "αφήνω ανεπηρεαστο"
+    ]
+  },
+  "επιβάλλω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "επιβάλλω + αιτιατική + [σε + αιτιατική]",
+    "level": "B1",
+    "definition": "Υποχρεώνω κάποιον να δεχτεί έναν κανόνα ή ποινή.",
+    "grammar_rule": "Imposed rule/penalty is direct accusative; person subject to it takes 'σε + accusative'. Matches English 'impose something ON someone'.",
+    "linked_noun_keys": [
+      "νόμος"
+    ],
+    "examples": [
+      "Η κυβέρνηση επιβάλλει νέους νόμους στους πολίτες.",
+      "Ο δικαστής επέβαλε πρόστιμο."
+    ],
+    "common_mistake": "❌ Επιβάλλω στους πολίτες νέους νόμους χωρίς αιτιατική. ➜ ✅ Επιβάλλω νέους νόμους στους πολίτες.",
+    "synonyms": [
+      "επιτάσσω"
+    ],
+    "antonyms": [
+      "καταργώ"
+    ]
+  },
+  "απαγορεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "απαγορεύω + αιτιατική + [σε + αιτιατική]",
+    "level": "B1",
+    "definition": "Δεν επιτρέπω τη διεξαγωγή μιας πράξης.",
+    "grammar_rule": "Forbidden action is direct accusative; person forbidden takes 'σε + accusative'. Contrast with English 'forbid someone TO do something'.",
+    "noun_parallel": "⚡ Ρήμα: 'Απαγορεύω το κάπνισμα' ➜ Ουσιαστικό: 'Απαγόρευση του καπνίσματος'",
+    "linked_noun_keys": [
+      "νόμος"
+    ],
+    "examples": [
+      "Ο νόμος απαγορεύει το κάπνισμα στους δημοσίους χώρους.",
+      "Η μητέρα απαγόρευσε στα παιδιά την έξοδο."
+    ],
+    "common_mistake": "❌ Απαγορεύω από τους πολίτες. ➜ ✅ Απαγορεύω στους πολίτες.",
+    "synonyms": [
+      "αποκλείω"
+    ],
+    "antonyms": [
+      "επιτρέπω"
+    ]
+  },
+  "επιτρέπω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "επιτρέπω + αιτιατική + [σε + αιτιατική]",
+    "level": "B1",
+    "definition": "Δίνω την άδεια για τη διεξαγωγή μιας πράξης.",
+    "grammar_rule": "Allowed action is direct accusative; target person takes 'σε + accusative'. Matches English 'allow something TO someone'.",
+    "linked_noun_keys": [
+      "μαθητής"
+    ],
+    "examples": [
+      "Ο φύλακας επιτρέπει την είσοδο στους επισκέπτες.",
+      "Ο καθηγητής επέτρεψε στους μαθητές τη χρήση υπολογιστή."
+    ],
+    "common_mistake": "❌ Επιτρέπω για τους επισκέπτες. ➜ ✅ Επιτρέπω στους επισκέπτες.",
+    "synonyms": [
+      "επιτρέπω",
+      "παρέχω άδεια"
+    ],
+    "antonyms": [
+      "απαγορεύω"
+    ]
+  },
+  "αποφεύγω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αποφεύγω + αιτιατική",
+    "level": "B1",
+    "definition": "Φροντίζω να μην συναντήσω ή να μην κάνω κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'avoid / evade'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Αποφεύγω τις πολυσύχναστες περιοχές.",
+      "Ο οδηγός απέφυγε το ατύχημα."
+    ],
+    "common_mistake": "❌ Αποφεύγω από τις περιοχές. ➜ ✅ Αποφεύγω τις περιοχές.",
+    "synonyms": [
+      "απομακρύνομαι"
+    ],
+    "antonyms": [
+      "επιδιώκω"
+    ]
+  },
+  "επιδιώκω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επιδιώκω + αιτιατική",
+    "level": "B1",
+    "definition": "Προσπαθώ συστηματικά να πετύχω έναν στόχο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'aim FOR / strive FOR' (no prep in Greek!).",
+    "linked_noun_keys": [
+      "νίκη"
+    ],
+    "examples": [
+      "Επιδιώκω την επιτυχία στις εξετάσεις.",
+      "Η κυβέρνηση επιδιώκει την ειρήνη."
+    ],
+    "common_mistake": "❌ Επιδιώκω για την επιτυχία. ➜ ✅ Επιδιώκω την επιτυχία.",
+    "synonyms": [
+      "στοχεύω"
+    ],
+    "antonyms": [
+      "αποφεύγω"
+    ]
+  },
+  "στοχεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "στοχεύω + σε + αιτιατική",
+    "level": "B1",
+    "definition": "Κατευθύνω την προσπάθειά μου προς έναν σκοπό.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'aim AT / target'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Στοχεύουμε στην αύξηση των πωλήσεων.",
+      "Η πολιτική στοχεύει στην ανάπτυξη."
+    ],
+    "common_mistake": "❌ Στοχεύω για την αύξηση. ➜ ✅ Στοχεύω στην αύξηση.",
+    "synonyms": [
+      "αποσκοπώ"
+    ],
+    "antonyms": [
+      "παραβλέπω"
+    ]
+  },
+  "αποσκοπώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "αποσκοπώ + σε + αιτιατική",
+    "level": "B1",
+    "definition": "Έχω ως τελικό σκοπό ένα συγκεκριμένο αποτέλεσμα.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'aim AT / be aimed AT'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Το πρόγραμμα αποσκοπεί στη βελτίωση της υγείας.",
+      "Οι διαπραγματεύσεις αποσκοπούν στην ειρήνη."
+    ],
+    "common_mistake": "❌ Αποσκοπώ για τη βελτίωση. ➜ ✅ Αποσκοπεί στη βελτίωση.",
+    "synonyms": [
+      "στοχεύω"
+    ],
+    "antonyms": [
+      "αδιαφορώ"
+    ]
+  },
+  "συμβάλλω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "συμβάλλω + σε + αιτιατική",
+    "level": "B1",
+    "definition": "Συντελώ και βοηθώ στην επίτευξη ενός αποτελέσματος.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'contribute TO'.",
+    "noun_parallel": "⚡ Ρήμα: 'Συμβάλλω στην ειρήνη' ➜ Ουσιαστικό: 'Συμβολή στην ειρήνη'",
+    "linked_noun_keys": [
+      "ειρήνη"
+    ],
+    "examples": [
+      "Η εκπαίδευση συμβάλλει στην ανάπτυξη της κοινωνίας.",
+      "Όλοι συνέβαλαν στην επιτυχία."
+    ],
+    "common_mistake": "❌ Συμβάλλω για την ανάπτυξη. ➜ ✅ Συμβάλλει στην ανάπτυξη.",
+    "synonyms": [
+      "συντελώ"
+    ],
+    "antonyms": [
+      "παραμποδίζω"
+    ]
+  },
+  "συντελώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "συντελώ + σε + αιτιατική",
+    "level": "B1",
+    "definition": "Είμαι παράγοντας που βοηθά να συμβεί κάτι.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'conduce TO / factor IN'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Οι καλές συνθήκες συντέλεσαν στην επιτυχία.",
+      "Η γυμναστική συντελεί στην καλή υγεία."
+    ],
+    "common_mistake": "❌ Συντελώ για την επιτυχία. ➜ ✅ Συντελεί στην επιτυχία.",
+    "synonyms": [
+      "συμβάλλω"
+    ],
+    "antonyms": [
+      "αποτρέπω"
+    ]
+  },
+  "αποτρέπω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αποτρέπω + αιτιατική",
+    "level": "B1",
+    "definition": "Εμποδίζω να συμβεί κάτι κακό.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'prevent / avert something'.",
+    "linked_noun_keys": [
+      "πόλεμος"
+    ],
+    "examples": [
+      "Η αστυνομία απέτρεψε την εγκληματική πράξη.",
+      "Πρέπει να αποτρέψουμε τον πόλεμο."
+    ],
+    "common_mistake": "❌ Αποτρέπω από τον πόλεμο (unless using 'αποτρέπω κάποιον από το να...'). ➜ ✅ Αποτρέπω τον πόλεμο.",
+    "synonyms": [
+      "εμποδίζω"
+    ],
+    "antonyms": [
+      "προκαλώ"
+    ]
+  },
+  "προκαλώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "προκαλώ + αιτιατική + [σε + αιτιατική]",
+    "level": "B1",
+    "definition": "Γίνομαι η αιτία να συμβεί κάτι ή προσκαλώ κάποιον σε αμφισβήτηση.",
+    "grammar_rule": "Caused event is direct accusative ('προκαλώ ατύχημα'); challenged opponent takes 'σε + accusative' ('challenge to duel'). Matches English 'cause something' / 'challenge someone TO'.",
+    "linked_noun_keys": [
+      "σεισμός"
+    ],
+    "examples": [
+      "Η κακοκαιρία προκάλεσε σοβαρές ζημιές.",
+      "Ο αθλητής προκάλεσε τον αντίπαλό του σε αγώνα."
+    ],
+    "common_mistake": "❌ Προκαλώ για ζημιές. ➜ ✅ Προκαλώ ζημιές.",
+    "synonyms": [
+      "επιφέρω"
+    ],
+    "antonyms": [
+      "αποτρέπω"
+    ]
+  },
+  "επιφέρω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επιφέρω + αιτιατική",
+    "level": "B1",
+    "definition": "Προξενώ ή επιφέρω ως αποτέλεσμα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'bring about / result in'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο νέος νόμος επέφερε σημαντικές αλλαγές.",
+      "Η κρίση επέφερε οικονομικές δυσκολίες."
+    ],
+    "common_mistake": "❌ Επιφέρω σε αλλαγές. ➜ ✅ Επιφέρω αλλαγές.",
+    "synonyms": [
+      "προκαλώ"
+    ],
+    "antonyms": [
+      "αναιρώ"
+    ]
+  },
+  "αναιρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αναιρώ + αιτιατική",
+    "level": "B1",
+    "definition": "Ακυρώνω ή ανακαλώ μια προηγούμενη δήλωση/απόφαση.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'repeal / revoke / negate'.",
+    "linked_noun_keys": [
+      "λόγος"
+    ],
+    "examples": [
+      "Ο υπουργός αναίρεσε την προηγούμενη απόφασή του.",
+      "Τα στοιχεία αναιρούν τους ισχυρισμούς."
+    ],
+    "common_mistake": "❌ Αναιρώ από την απόφαση. ➜ ✅ Αναιρώ την απόφαση.",
+    "synonyms": [
+      "ακυρώνω"
+    ],
+    "antonyms": [
+      "επιβεβαιώνω"
+    ]
+  },
+  "επιβεβαιώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επιβεβαιώνω + αιτιατική",
+    "level": "B1",
+    "definition": "Πιστοποιώ ότι μια πληροφορία είναι αληθής.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'confirm / verify'.",
+    "linked_noun_keys": [
+      "αλήθεια"
+    ],
+    "examples": [
+      "Ο γιατρός επιβεβαίωσε τη διάγνωση.",
+      "Τα ευρήματα επιβεβαιώνουν τη θεωρία."
+    ],
+    "common_mistake": "❌ Επιβεβαιώνω για τη διάγνωση. ➜ ✅ Επιβεβαιώνω τη διάγνωση.",
+    "synonyms": [
+      "διαπιστώνω"
+    ],
+    "antonyms": [
+      "διαψεύδω"
+    ]
+  },
+  "διαψεύδω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαψεύδω + αιτιατική",
+    "level": "B1",
+    "definition": "Δηλώνω ότι μια φήμη ή ισχυρισμός είναι ψευδής.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'deny / refute'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η κυβέρνηση διέψευσε τις φήμες για παραίτηση.",
+      "Ο εκπρόσωπος διέψευσε το δημοσίευμα."
+    ],
+    "common_mistake": "❌ Διαψεύδω για τις φήμες. ➜ ✅ Διαψεύδω τις φήμες.",
+    "synonyms": [
+      "αρνούμαι"
+    ],
+    "antonyms": [
+      "επιβεβαιώνω"
+    ]
+  },
+  "διασφαλίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διασφαλίζω + αιτιατική",
+    "level": "B1",
+    "definition": "Εγγυώμαι την ασφάλεια ή την τήρηση μιας κατάστασης.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'ensure / guarantee'.",
+    "linked_noun_keys": [
+      "ειρήνη"
+    ],
+    "examples": [
+      "Ο συμφωνία διασφαλίζει την ειρήνη στην περιοχή.",
+      "Πρέπει να διασφαλίσουμε τα δικαιώματα των πολιτών."
+    ],
+    "common_mistake": "❌ Διασφαλίζω για την ειρήνη. ➜ ✅ Διασφαλίζω την ειρήνη.",
+    "synonyms": [
+      "εγγυώμαι"
+    ],
+    "antonyms": [
+      "διακινδυνεύω"
+    ]
+  },
+  "εγγυώμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εγγυώμαι + αιτιατική",
+    "level": "B1",
+    "definition": "Αναλαμβάνω την ευθύνη για την εκπλήρωση υποχρέωσης.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'guarantee / warrant'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η εταιρεία εγγυάται την ποιότητα των προϊόντων.",
+      "Εγγυώμαι την επιτυχία του εγχειρήματος."
+    ],
+    "common_mistake": "❌ Εγγυώμαι για την ποιότητα (used informally, formal is direct accusative). ➜ ✅ Εγγυώμαι την ποιότητα.",
+    "synonyms": [
+      "διασφαλίζω"
+    ],
+    "antonyms": [
+      "αμφισβητώ"
+    ]
+  },
+  "διεκδικώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διεκδικώ + αιτιατική",
+    "level": "B1",
+    "definition": "Απαιτώ με επιμονή κάτι που θεωρώ ότι μου ανήκει.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'claim FOR / demand' (no prep in Greek!).",
+    "linked_noun_keys": [
+      "νίκη"
+    ],
+    "examples": [
+      "Οι εργαζόμενοι διεκδικούν καλύτερους μισθούς.",
+      "Ο αθλητής διεκδικεί το χρυσό μετάλλιο."
+    ],
+    "common_mistake": "❌ Διεκδικώ για καλύτερους μισθούς. ➜ ✅ Διεκδικώ καλύτερους μισθούς.",
+    "synonyms": [
+      "απαιτώ"
+    ],
+    "antonyms": [
+      "παραιτούμαι"
+    ]
+  },
+  "παραιτούμαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "παραιτούμαι + από + αιτιατική",
+    "level": "B1",
+    "definition": "Εγκαταλείπω οικειοθελώς μια θέση ή δικαίωμα.",
+    "grammar_rule": "Requires preposition 'από + accusative'. Matches English 'resign FROM / waive'.",
+    "noun_parallel": "⚡ Ρήμα: 'Παραιτούμαι από τη θέση' ➜ Ουσιαστικό: 'Παραίτηση από τη θέση'",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο υπουργός παραιτήθηκε από τη θέση του.",
+      "Δεν παραιτούμαι από τα δικαιώματά μου."
+    ],
+    "common_mistake": "❌ Παραιτούμαι σε τη θέση. ➜ ✅ Παραιτούμαι από τη θέση.",
+    "synonyms": [
+      "εγκαταλείπω"
+    ],
+    "antonyms": [
+      "αναλαμβάνω"
+    ]
+  },
+  "αναλαμβάνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αναλαμβάνω + αιτιατική",
+    "level": "B1",
+    "definition": "Αποδέχομαι την ευθύνη ή καθήκον να εκτελέσω κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'undertake / take on / assume'.",
+    "linked_noun_keys": [
+      "ευθύνη"
+    ],
+    "examples": [
+      "Αναλαμβάνω την ευθύνη για το λάθος.",
+      "Η εταιρεία ανέλαβε το μεγάλο έργο."
+    ],
+    "common_mistake": "❌ Αναλαμβάνω για την ευθύνη. ➜ ✅ Αναλαμβάνω την ευθύνη.",
+    "synonyms": [
+      "αποδέχομαι"
+    ],
+    "antonyms": [
+      "παραιτούμαι"
+    ]
+  },
+  "αποδέχομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αποδέχομαι + αιτιατική",
+    "level": "B1",
+    "definition": "Δέχομαι ευχάριστα ή συγκατατίθεμαι σε κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'accept / embrace'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Αποδέχομαι την πρόταση συνεργασίας.",
+      "Ο διευθυντής αποδέχτηκε τους όρους."
+    ],
+    "common_mistake": "❌ Αποδέχομαι σε την πρόταση. ➜ ✅ Αποδέχομαι την πρόταση.",
+    "synonyms": [
+      "δέχομαι"
+    ],
+    "antonyms": [
+      "απορρίπτω"
+    ]
+  },
+  "απορρίπτω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "απορρίπτω + αιτιατική",
+    "level": "B1",
+    "definition": "Δεν αποδέχομαι μια πρόταση ή αίτηση.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'reject / decline / turn down'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Το δικαστήριο απέρριψε την αίτηση.",
+      "Η επιτροπή απέρριψε την πρόταση."
+    ],
+    "common_mistake": "❌ Απορρίπτω από την αίτηση. ➜ ✅ Απορρίπτω την αίτηση.",
+    "synonyms": [
+      "αρνούμαι"
+    ],
+    "antonyms": [
+      "αποδέχομαι"
+    ]
+  },
+  "διαχειρίζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαχειρίζομαι + αιτιατική",
+    "level": "B1",
+    "definition": "Διοικώ ή ρυθμίζω τους πόρους και τις υποθέσεις.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'manage / handle'.",
+    "linked_noun_keys": [
+      "χρήμα"
+    ],
+    "examples": [
+      "Διαχειρίζομαι τα οικονομικά της εταιρείας.",
+      "Ο ηγέτης διαχειρίστηκε την κρίση με ψυχραιμία."
+    ],
+    "common_mistake": "❌ Διαχειρίζομαι με τα οικονομικά. ➜ ✅ Διαχειρίζομαι τα οικονομικά.",
+    "synonyms": [
+      "διοικώ"
+    ],
+    "antonyms": [
+      "παραμελώ"
+    ]
+  },
+  "διοικώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διοικώ + αιτιατική",
+    "level": "B1",
+    "definition": "Έχω την ηγεσία και διεύθυνση ενός οργανισμού.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'administer / govern / direct'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο στρατηγός διοικεί το στράτευμα.",
+      "Η πρόεδρος διοικεί την εταιρεία."
+    ],
+    "common_mistake": "❌ Διοικώ σε την εταιρεία. ➜ ✅ Διοικώ την εταιρεία.",
+    "synonyms": [
+      "διευθύνω"
+    ],
+    "antonyms": [
+      "υπακούω"
+    ]
+  },
+  "διευθύνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διευθύνω + αιτιατική",
+    "level": "B1",
+    "definition": "Καθοδηγώ τη λειτουργία ενός οργανισμού ή ορχήστρας.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'direct / run / head'.",
+    "linked_noun_keys": [
+      "σχολείο"
+    ],
+    "examples": [
+      "Ο διευθυντής διευθύνει το σχολείο.",
+      "Ο μαέστρος διευθύνει την ορχήστρα."
+    ],
+    "common_mistake": "❌ Διευθύνω για το σχολείο. ➜ ✅ Διευθύνω το σχολείο.",
+    "synonyms": [
+      "διοικώ"
+    ],
+    "antonyms": [
+      "ακολουθώ"
+    ]
+  },
+  "διαμορφώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαμορφώνω + αιτιατική",
+    "level": "B1",
+    "definition": "Δίνω συγκεκριμένη μορφή ή χαρακτήρα σε κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'shape / form / mold'.",
+    "linked_noun_keys": [
+      "γνώμη"
+    ],
+    "examples": [
+      "Η παιδεία διαμορφώνει τον χαρακτήρα του ανθρώπου.",
+      "Οι εξελίξεις διαμορφώνουν την τιμή."
+    ],
+    "common_mistake": "❌ Διαμορφώνω σε τον χαρακτήρα. ➜ ✅ Διαμορφώνω τον χαρακτήρα.",
+    "synonyms": [
+      "σχηματίζω"
+    ],
+    "antonyms": [
+      "παραμορφώνω"
+    ]
+  },
+  "παραμορφώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "παραμορφώνω + αιτιατική",
+    "level": "B1",
+    "definition": "Αλλοιώνω τη φυσική ή αληθινή μορφή ενός πράγματος.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'distort / deform'.",
+    "linked_noun_keys": [
+      "αλήθεια",
+      "εικόνα"
+    ],
+    "examples": [
+      "Τα ψεύδη παραμορφώνουν την αλήθεια.",
+      "Ο φακός παραμορφώνει την εικόνα."
+    ],
+    "common_mistake": "❌ Παραμορφώνω από την αλήθεια. ➜ ✅ Παραμορφώνω την αλήθεια.",
+    "synonyms": [
+      "αλλοιώνω"
+    ],
+    "antonyms": [
+      "διαμορφώνω"
+    ]
+  },
+  "αλλοιώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αλλοιώνω + αιτιατική",
+    "level": "B1",
+    "definition": "Μεταβάλλω προς το χειρότερο την ποιότητα ή το περιεχόμενο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'alter / spoil / corrupt'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η υγρασία αλλοιώνει τα τρόφιμα.",
+      "Η νοθεία αλλοίωσε το αποτέλεσμα."
+    ],
+    "common_mistake": "❌ Αλλοιώνω σε τα τρόφιμα. ➜ ✅ Αλλοιώνω τα τρόφιμα.",
+    "synonyms": [
+      "νοθεύω"
+    ],
+    "antonyms": [
+      "διατηρώ"
+    ]
+  },
+  "διατηρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διατηρώ + αιτιατική",
+    "level": "B1",
+    "definition": "Κρατώ κάτι στην αρχική του κατάσταση χωρίς αλλαγή.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'maintain / preserve / keep'.",
+    "linked_noun_keys": [
+      "ειρήνη",
+      "υγεία"
+    ],
+    "examples": [
+      "Διατηρώ την ψυχραιμία μου στις δυσκολίες.",
+      "Το ψυγείο διατηρεί τα τρόφιμα φρέσκα."
+    ],
+    "common_mistake": "❌ Διατηρώ για την ψυχραιμία. ➜ ✅ Διατηρώ την ψυχραιμία.",
+    "synonyms": [
+      "συντηρώ"
+    ],
+    "antonyms": [
+      "καταστρέφω"
+    ]
+  },
+  "συντηρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συντηρώ + αιτιατική",
+    "level": "B1",
+    "definition": "Φροντίζω για τη διατήρηση και επισκευή εξοπλισμού/κτιρίου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'maintain / service / uphold'.",
+    "linked_noun_keys": [
+      "αμάξι"
+    ],
+    "examples": [
+      "Ο τεχνικός συντηρεί τα μηχανήματα.",
+      "Ο δήμος συντηρεί τα δημόσια κτίρια."
+    ],
+    "common_mistake": "❌ Συντηρώ σε τα μηχανήματα. ➜ ✅ Συντηρώ τα μηχανήματα.",
+    "synonyms": [
+      "διατηρώ"
+    ],
+    "antonyms": [
+      "αμελώ"
+    ]
+  },
+  "καταστρέφω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "καταστρέφω + αιτιατική",
+    "level": "B1",
+    "definition": "Προκαλώ ολοκληρωτική φθορά ή αφανισμό σε κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'destroy / ruin'.",
+    "linked_noun_keys": [
+      "σπίτι",
+      "περιβάλλον"
+    ],
+    "examples": [
+      "Η πυρκαγιά κατέστρεψε το δάσος.",
+      "Ο πόλεμος καταστρέφει τις υποδομές."
+    ],
+    "common_mistake": "❌ Καταστρέφω από το δάσος. ➜ ✅ Καταστρέφω το δάσος.",
+    "synonyms": [
+      "αφανίζω"
+    ],
+    "antonyms": [
+      "δημιουργώ"
+    ]
+  },
+  "δημιουργώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "δημιουργώ + αιτιατική",
+    "level": "B1",
+    "definition": "Φτιάχνω κάτι νέο που δεν υπήρχε πριν.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'create / produce / establish'.",
+    "linked_noun_keys": [
+      "πρόβλημα"
+    ],
+    "examples": [
+      "Ο καλλιτέχνης δημιουργεί ένα πίνακα.",
+      "Η καθυστέρηση δημιούργησε προβλήματα."
+    ],
+    "common_mistake": "❌ Δημιουργώ για ένα πίνακα. ➜ ✅ Δημιουργώ έναν πίνακα.",
+    "synonyms": [
+      "παράγω"
+    ],
+    "antonyms": [
+      "καταστρέφω"
+    ]
+  },
+  "υπερασπίζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "υπερασπίζομαι + αιτιατική",
+    "level": "B2",
+    "definition": "Υποστηρίζω ή προστατεύω κάποιον/κάτι από επίθεση ή κατηγορία.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Contrast with English 'defend someone' (matches).",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο δικηγόρος υπερασπίζεται τον κατηγορούμενο.",
+      "Οι στρατιώτες υπερασπίζονται την πατρίδα."
+    ],
+    "common_mistake": "❌ Υπερασπίζομαι για τον κατηγορούμενο. ➜ ✅ Υπερασπίζομαι τον κατηγορούμενο.",
+    "synonyms": [
+      "προστατεύω"
+    ],
+    "antonyms": [
+      "κατηγορώ"
+    ]
+  },
+  "ηγούμαι": {
+    "government": [
+      {
+        "case": "genitive",
+        "preposition": null
+      }
+    ],
+    "pattern": "ηγούμαι + γενική",
+    "level": "B2",
+    "definition": "Είμαι επικεφαλής ή αρχηγός μιας ομάδας/παράταξης.",
+    "grammar_rule": "Govern bare GENITIVE in standard/formal modern Greek ('ηγούμαι της ομάδας'). Contrast with English 'lead someone/something' (direct object).",
+    "noun_parallel": "⚡ Ρήμα: 'Ηγούμαι του κόμματος' ➜ Ουσιαστικό: 'Ηγεσία του κόμματος'",
+    "linked_noun_keys": [
+      "ομάδα",
+      "λαός"
+    ],
+    "examples": [
+      "Ο πρωθυπουργός ηγείται της κυβέρνησης.",
+      "Ο στρατηγός ηγήθηκε του στρατεύματος."
+    ],
+    "common_mistake": "❌ Ηγούμαι την ομάδα. ➜ ✅ Ηγούμαι της ομάδας.",
+    "synonyms": [
+      "προΐσταμαι"
+    ],
+    "antonyms": [
+      "ακολουθώ"
+    ]
+  },
+  "προΐσταμαι": {
+    "government": [
+      {
+        "case": "genitive",
+        "preposition": null
+      }
+    ],
+    "pattern": "προΐσταμαι + γενική",
+    "level": "B2",
+    "definition": "Έχω την ανώτερη διεύθυνση μιας υπηρεσίας ή τμήματος.",
+    "grammar_rule": "Govern bare GENITIVE in modern formal Greek ('προΐσταμαι του τμήματος'). Matches English 'be in charge OF'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο διευθυντής προΐσταται του λογιστικού τμήματος.",
+      "Προΐσταται της υπηρεσίας εδώ και χρόνια."
+    ],
+    "common_mistake": "❌ Προΐσταμαι το τμήμα. ➜ ✅ Προΐσταμαι του τμήματος.",
+    "synonyms": [
+      "διευθύνω"
+    ],
+    "antonyms": [
+      "υπόκειμαι"
+    ]
+  },
+  "άρχω": {
+    "government": [
+      {
+        "case": "genitive",
+        "preposition": null
+      }
+    ],
+    "pattern": "άρχω + γενική",
+    "level": "B2",
+    "definition": "Εξουσιάζω ή κυβερνώ έναν τόπο/λαό.",
+    "grammar_rule": "Govern bare GENITIVE in formal/literary register ('άρχω του τόπου'). Modern everyday equivalent is 'κυβερνάω + accusative'.",
+    "linked_noun_keys": [
+      "κράτος",
+      "λαός"
+    ],
+    "examples": [
+      "Ο ηγεμόνας ήρχε του βασιλείου.",
+      "Άρχει των πολιτών με δικαιοσύνη."
+    ],
+    "common_mistake": "❌ Άρχω τον λαό. ➜ ✅ Άρχω του λαού.",
+    "synonyms": [
+      "κυβερνώ"
+    ],
+    "antonyms": [
+      "υπηρετώ"
+    ]
+  },
+  "μέλει": {
+    "government": [
+      {
+        "case": "genitive",
+        "preposition": null
+      }
+    ],
+    "pattern": "μέλει + [μοι] + γενική",
+    "level": "B2",
+    "definition": "Ενδιαφέρει ή απασχολεί κάποιον ένα ζήτημα.",
+    "grammar_rule": "Impersonal verb governing bare GENITIVE for the topic of concern ('δεν μοι μέλει της γνώμης τους' = I don't care about their opinion). Literary set expression.",
+    "linked_noun_keys": [
+      "γνώμη"
+    ],
+    "examples": [
+      "Δεν του μέλει των συνεπειών.",
+      "Τι σε μέλει εσένα της δικής μου ζωής;"
+    ],
+    "common_mistake": "❌ Δεν με μέλει για τις συνέπειες (informal 'με μέλει για' exists, formal is genitive). ➜ ✅ Δεν του μέλει των συνεπειών.",
+    "synonyms": [
+      "ενδιαφέρει"
+    ],
+    "antonyms": [
+      "αδιαφορεί"
+    ]
+  },
+  "κυριαρχώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      },
+      {
+        "case": "genitive",
+        "preposition": null
+      }
+    ],
+    "pattern": "κυριαρχώ + [σε + αιτιατική / γενική]",
+    "level": "B2",
+    "definition": "Έχω την πλήρη επικράτηση ή έλεγχο σε κάποιον χώρο/τομέα.",
+    "grammar_rule": "Standard modern construction uses 'σε + accusative' ('κυριαρχώ στην αγορά'); formal/literary register uses bare GENITIVE ('κυριαρχώ των αιθέρων'). Matches English 'dominate / rule OVER'.",
+    "linked_noun_keys": [
+      "αγορά",
+      "τόπος"
+    ],
+    "examples": [
+      "Η εταιρεία κυριαρχεί στην παγκόσμια αγορά.",
+      "Ο αετός κυριαρχεί των αιθέρων."
+    ],
+    "common_mistake": "❌ Κυριαρχώ την αγορά. ➜ ✅ Κυριαρχώ στην αγορά.",
+    "synonyms": [
+      "επικρατώ"
+    ],
+    "antonyms": [
+      "υποτάσσομαι"
+    ]
+  },
+  "επικρατώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "επικρατώ + [σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Είμαι η επικρατέστερη τάση ή νικώ σε μια αναμέτρηση.",
+    "grammar_rule": "Requires preposition 'σε + accusative' ('επικρατώ στον αγώνα'). Contrast with English 'prevail / triumph OVER'.",
+    "linked_noun_keys": [
+      "αγώνας",
+      "αγορά"
+    ],
+    "examples": [
+      "Ο υποψήφιος επικράτησε στις εκλογές.",
+      "Στην περιοχή επικρατεί ησυχία."
+    ],
+    "common_mistake": "❌ Επικρατώ τον αγώνα. ➜ ✅ Επικρατώ στον αγώνα.",
+    "synonyms": [
+      "νικώ"
+    ],
+    "antonyms": [
+      "ηττώμαι"
+    ]
+  },
+  "υποτάσσομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "υποτάσσομαι + σε + αιτιατική",
+    "level": "B2",
+    "definition": "Δέχομαι την εξουσία ή θέληση άλλου.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Matches English 'submit TO / surrender TO'.",
+    "linked_noun_keys": [
+      "νόμος",
+      "εξουσία"
+    ],
+    "examples": [
+      "Οι πολίτες υποτάσσονται στους νόμους.",
+      "Ο στρατός αρνήθηκε να υποταχθεί στον εχθρό."
+    ],
+    "common_mistake": "❌ Υποτάσσομαι από τους νόμους. ➜ ✅ Υποτάσσομαι στους νόμους.",
+    "synonyms": [
+      "πειθαρχώ"
+    ],
+    "antonyms": [
+      "αντιστέκομαι"
+    ]
+  },
+  "πειθαρχώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "πειθαρχώ + σε + αιτιατική",
+    "level": "B2",
+    "definition": "Υπακούω πιστά σε κανόνες ή ανωτέρους.",
+    "grammar_rule": "Requires preposition 'σε + accusative'. Contrast with English 'obey rules' (direct in English, 'σε' in Greek).",
+    "linked_noun_keys": [
+      "νόμος"
+    ],
+    "examples": [
+      "Οι αθλητές πειθαρχούν στις οδηγίες του προπονητή.",
+      "Πρέπει να πειθαρχούμε στους νόμους."
+    ],
+    "common_mistake": "❌ Πειθαρχώ τους νόμους. ➜ ✅ Πειθαρχώ στους νόμους.",
+    "synonyms": [
+      "υπακούω"
+    ],
+    "antonyms": [
+      "παραβιάζω"
+    ]
+  },
+  "παραβιάζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "παραβιάζω + αιτιατική",
+    "level": "B2",
+    "definition": "Παραβαίνω έναν κανόνα ή παραβιάζω έναν χώρο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'violate / breach'.",
+    "linked_noun_keys": [
+      "νόμος"
+    ],
+    "examples": [
+      "Ο οδηγός παραβίασε τον κόκκινο σηματοδότη.",
+      "Η χώρα παραβίασε τη συνθήκη ειρήνης."
+    ],
+    "common_mistake": "❌ Παραβιάζω σε τον νόμο. ➜ ✅ Παραβιάζω τον νόμο.",
+    "synonyms": [
+      "παραβαίνω"
+    ],
+    "antonyms": [
+      "τηρώ"
+    ]
+  },
+  "τηρώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "τηρώ + αιτιατική",
+    "level": "B2",
+    "definition": "Σέβομαι και εφαρμοζω πιστά τους νόμους ή υποσχέσεις.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'observe / uphold / respect'.",
+    "linked_noun_keys": [
+      "νόμος"
+    ],
+    "examples": [
+      "Τηρώ τους νόμους του κράτους.",
+      "Ο επαγγελματίας τηρεί τις προθεσμίες."
+    ],
+    "common_mistake": "❌ Τηρώ σε τους νόμους. ➜ ✅ Τηρώ τους νόμους.",
+    "synonyms": [
+      "φυλάσσω"
+    ],
+    "antonyms": [
+      "παραβιάζω"
+    ]
+  },
+  "καταγράφω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "καταγράφω + αιτιατική",
+    "level": "B2",
+    "definition": "Σημειώνω ή μαγνητοφωνώ δεδομένα για αρχειοθέτηση.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'record / log / register'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο ερευνητής καταγράφει τα αποτελέσματα.",
+      "Η κάμερα κατέγραψε το συμβάν."
+    ],
+    "common_mistake": "❌ Καταγράφω για τα στοιχεία. ➜ ✅ Καταγράφω τα στοιχεία.",
+    "synonyms": [
+      "αρχειοθετώ"
+    ],
+    "antonyms": [
+      "διαγράφω"
+    ]
+  },
+  "διαγράφω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαγράφω + αιτιατική",
+    "level": "B2",
+    "definition": "Αφαιρώ μια εγγραφή από λίστα ή κείμενο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'delete / erase / cancel'.",
+    "linked_noun_keys": [
+      "όνομα"
+    ],
+    "examples": [
+      "Διαγράφω το αρχείο από τον υπολογιστή.",
+      "Η επιτροπή διέγραψε το μέλος."
+    ],
+    "common_mistake": "❌ Διαγράφω από το όνομα (unless specifying source folder). ➜ ✅ Διαγράφω το όνομα.",
+    "synonyms": [
+      "σβήνω"
+    ],
+    "antonyms": [
+      "καταγράφω"
+    ]
+  },
+  "επεξεργάζομαι": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επεξεργάζομαι + αιτιατική",
+    "level": "B2",
+    "definition": "Αναλύω και μετασχηματίζω δεδομένα ή υλικά.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'process / edit / elaborate'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο υπολογιστής επεξεργάζεται τα δεδομένα.",
+      "Ο συγγραφέας επεξεργάζεται το κείμενο."
+    ],
+    "common_mistake": "❌ Επεξεργάζομαι με τα δεδομένα. ➜ ✅ Επεξεργάζομαι τα δεδομένα.",
+    "synonyms": [
+      "αναλύω"
+    ],
+    "antonyms": [
+      "αγνοώ"
+    ]
+  },
+  "αναλύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αναλύω + αιτιατική",
+    "level": "B2",
+    "definition": "Εξετάζω λεπτομερώς τα συστατικά μέρη ενός συνόλου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'analyze / dissect'.",
+    "linked_noun_keys": [
+      "πρόβλημα"
+    ],
+    "examples": [
+      "Ο επιστήμονας αναλύει το δείγμα.",
+      "Ο αναλυτής ανέλυσε την οικονομική κατάσταση."
+    ],
+    "common_mistake": "❌ Αναλύω για το πρόβλημα. ➜ ✅ Αναλύω το πρόβλημα.",
+    "synonyms": [
+      "εξετάζω"
+    ],
+    "antonyms": [
+      "συνθέτω"
+    ]
+  },
+  "συνθέτω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συνθέτω + αιτιατική",
+    "level": "B2",
+    "definition": "Ενώνω επιμέρους στοιχεία για τη δημιουργία νέου συνόλου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'synthesize / compose'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο μουσικός συνθέτει μια νέα συμφωνία.",
+      "Η επιτροπή συνθέτει τις προτάσεις."
+    ],
+    "common_mistake": "❌ Συνθέτω από τη μουσική. ➜ ✅ Συνθέτω τη μουσική.",
+    "synonyms": [
+      "συγκροτώ"
+    ],
+    "antonyms": [
+      "αναλύω"
+    ]
+  },
+  "συγκροτώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συγκροτώ + αιτιατική",
+    "level": "B2",
+    "definition": "Οργανώνω και σχηματίζω μια ομάδα ή σώμα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'constitute / assemble / form'.",
+    "linked_noun_keys": [
+      "ομάδα"
+    ],
+    "examples": [
+      "Η κυβέρνηση συγκρότησε ειδική επιτροπή.",
+      "Οι παίκτες συγκροτούν την εθνική ομάδα."
+    ],
+    "common_mistake": "❌ Συγκροτώ σε ομάδα. ➜ ✅ Συγκροτώ την ομάδα.",
+    "synonyms": [
+      "σχηματίζω"
+    ],
+    "antonyms": [
+      "διαλύω"
+    ]
+  },
+  "διαλύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διαλύω + αιτιατική",
+    "level": "B2",
+    "definition": "Αποσυνθέτω ένα σύνολο σε τμήματα ή τερματίζω μια ομάδα.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'dissolve / disband / break up'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο πρόεδρος διέλυσε τη βουλή.",
+      "Η αστυνομία διέλυσε τη συγκέντρωση."
+    ],
+    "common_mistake": "❌ Διαλύω από την επιτροπή. ➜ ✅ Διαλύω την επιτροπή.",
+    "synonyms": [
+      "αποσυνθέτω"
+    ],
+    "antonyms": [
+      "συγκροτώ"
+    ]
+  },
+  "αποσυνθέτω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αποσυνθέτω + αιτιατική",
+    "level": "B2",
+    "definition": "Διασπώ μια ουσία ή οντότητα στα δομικά της μέρη.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'decompose / disintegrate'.",
+    "linked_noun_keys": [
+      "σώμα"
+    ],
+    "examples": [
+      "Τα βακτήρια αποσυνθέτουν την οργανική ύλη.",
+      "Η θερμότητα αποσυνθέτει τη χημική ένωση."
+    ],
+    "common_mistake": "❌ Αποσυνθέτω σε την ύλη. ➜ ✅ Αποσυνθέτω την ύλη.",
+    "synonyms": [
+      "διασπώ"
+    ],
+    "antonyms": [
+      "συνθέτω"
+    ]
+  },
+  "διασπώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "διασπώ + αιτιατική + [σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Χωρίζω ένα σύνολο σε μικρότερα τμήματα.",
+    "grammar_rule": "Split entity is direct accusative; resulting parts take 'σε + accusative'. Matches English 'split / break DOWN into'.",
+    "linked_noun_keys": [
+      "ομάδα"
+    ],
+    "examples": [
+      "Η επιστήμη διέσπασε το άτομο.",
+      "Η διαφωνία διέσπασε το κόμμα σε δύο τάσεις."
+    ],
+    "common_mistake": "❌ Διασπώ από το άτομο. ➜ ✅ Διασπώ το άτομο.",
+    "synonyms": [
+      "διαιρώ"
+    ],
+    "antonyms": [
+      "ενώνω"
+    ]
+  },
+  "ενώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "ενώνω + αιτιατική + [με + αιτιατική]",
+    "level": "B2",
+    "definition": "Συνδέω δύο ή περισσότερα μέρη σε ένα.",
+    "grammar_rule": "United entities take direct accusative or 'με + accusative'. Matches English 'unite / join / connect WITH'.",
+    "linked_noun_keys": [
+      "γέφυρα",
+      "πόλη"
+    ],
+    "examples": [
+      "Η γέφυρα ενώνει τις δύο όχθες του ποταμού.",
+      "Ο κοινός στόχος ένωσε τους πολίτες."
+    ],
+    "common_mistake": "❌ Ενώνω σε τις όχθες. ➜ ✅ Ενώνει τις δύο όχθες.",
+    "synonyms": [
+      "συνδέω"
+    ],
+    "antonyms": [
+      "διασπώ"
+    ]
+  },
+  "συνδέω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "με"
+      }
+    ],
+    "pattern": "συνδέω + αιτιατική + [με + αιτιατική]",
+    "level": "B2",
+    "definition": "Δημιουργώ σχέση ή επικοινωνία μεταξύ πραγμάτων.",
+    "grammar_rule": "Connected items take 'με + accusative'. Matches English 'connect / link WITH'.",
+    "linked_noun_keys": [
+      "υπολογιστής",
+      "δίκτυο"
+    ],
+    "examples": [
+      "Συνδέω τον υπολογιστή με το ίντερνετ.",
+      "Ο δρόμος συνδέει την πόλη με το χωριό."
+    ],
+    "common_mistake": "❌ Συνδέω σε το ίντερνετ. ➜ ✅ Συνδέω με το ίντερνετ.",
+    "synonyms": [
+      "ενώνω"
+    ],
+    "antonyms": [
+      "αποσυνδέω"
+    ]
+  },
+  "αποσυνδέω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "αποσυνδέω + αιτιατική + [από + αιτιατική]",
+    "level": "B2",
+    "definition": "Διακόπτω τη σύνδεση μεταξύ συσκευών ή εννοιών.",
+    "grammar_rule": "Disconnected target is direct accusative; origin takes 'από + accusative'. Matches English 'disconnect / unlink FROM'.",
+    "linked_noun_keys": [
+      "δίκτυο"
+    ],
+    "examples": [
+      "Αποσυνδέω τη συσκευή από το ρεύμα.",
+      "Πρέπει να αποσυνδέσουμε τη θεωρία από την πράξη."
+    ],
+    "common_mistake": "❌ Αποσυνδέω με το ρεύμα. ➜ ✅ Αποσυνδέω από το ρεύμα.",
+    "synonyms": [
+      "διακόπτω"
+    ],
+    "antonyms": [
+      "συνδέω"
+    ]
+  },
+  "διακόπτω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διακόπτω + αιτιατική",
+    "level": "B2",
+    "definition": "Παύω προσωρινά ή μόνιμα μια διαδικασία.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'interrupt / discontinue'.",
+    "linked_noun_keys": [
+      "συζήτηση",
+      "συνάντηση"
+    ],
+    "examples": [
+      "Ο θόρυβος διέκοψε τη συζήτηση.",
+      "Η εταιρεία διέκοψε την παροχή υπηρεσιών."
+    ],
+    "common_mistake": "❌ Διακόπτω από τη συζήτηση. ➜ ✅ Διακόπτω τη συζήτηση.",
+    "synonyms": [
+      "παύω"
+    ],
+    "antonyms": [
+      "συνεχίζω"
+    ]
+  },
+  "συνεχίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "συνεχίζω + αιτιατική",
+    "level": "B2",
+    "definition": "Διατηρώ σε πορεία μια ενέργεια χωρίς να τη σταματήσω.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'continue / pursue'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Συνεχίζουμε την προσπάθεια για βελτίωση.",
+      "Ο φοιτητής συνέχισε τις σπουδές του."
+    ],
+    "common_mistake": "❌ Συνεχίζω με την προσπάθεια (acceptable informally, standard is direct accusative). ➜ ✅ Συνεχίζω την προσπάθεια.",
+    "synonyms": [
+      "εξακολουθώ"
+    ],
+    "antonyms": [
+      "διακόπτω"
+    ]
+  },
+  "εξακολουθώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εξακολουθώ + αιτιατική / να...",
+    "level": "B2",
+    "definition": "Συνεχίζω να κάνω κάτι χωρίς διακοπή.",
+    "grammar_rule": "Direct transitive taking accusative or subjunctive 'να...'. Matches English 'persist in / continue'.",
+    "linked_noun_keys": [
+      "αγώνας"
+    ],
+    "examples": [
+      "Εξακολουθεί την ίδια τακτική.",
+      "Εξακολουθεί να προσπαθεί παρά τις δυσκολίες."
+    ],
+    "common_mistake": "❌ Εξακολουθώ για την τακτική. ➜ ✅ Εξακολουθώ την τακτική.",
+    "synonyms": [
+      "συνεχίζω"
+    ],
+    "antonyms": [
+      "σταματώ"
+    ]
+  },
+  "σταματώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "σταματώ + αιτιατική",
+    "level": "B2",
+    "definition": "Θέτω τέρμα σε μια κίνηση ή ενέργεια.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'stop / halt'.",
+    "linked_noun_keys": [
+      "αυτοκίνητο"
+    ],
+    "examples": [
+      "Ο οδηγός σταμάτησε το αυτοκίνητο στην άκρη.",
+      "Σταματήστε τον θόρυβο αμέσως."
+    ],
+    "common_mistake": "❌ Σταματώ από τον θόρυβο. ➜ ✅ Σταματώ τον θόρυβο.",
+    "synonyms": [
+      "παύω"
+    ],
+    "antonyms": [
+      "ξεκινώ"
+    ]
+  },
+  "επαληθεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "επαληθεύω + αιτιατική",
+    "level": "B2",
+    "definition": "Αποδεικνύω στην πράξη την αλήθεια μιας πρόβλεψης.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'verify / substantiate'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Τα γεγονότα επαλήθευσαν τις προβλέψεις μας.",
+      "Η έρευνα επαληθεύει την υπόθεση."
+    ],
+    "common_mistake": "❌ Επαληθεύω για τις προβλέψεις. ➜ ✅ Επαληθεύω τις προβλέψεις.",
+    "synonyms": [
+      "επιβεβαιώνω"
+    ],
+    "antonyms": [
+      "διαψεύδω"
+    ]
+  },
+  "αμφισβητώ": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "αμφισβητώ + αιτιατική",
+    "level": "B2",
+    "definition": "Εκφράζω αμφιβολία για την εγκυρότητα κάποιου πράγματος.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'question / challenge / dispute'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο δικηγόρος αμφισβητεί τα ευρήματα.",
+      "Δεν αμφισβητώ τις προθέσεις σου."
+    ],
+    "common_mistake": "❌ Αμφισβητώ για τα ευρήματα. ➜ ✅ Αμφισβητώ τα ευρήματα.",
+    "synonyms": [
+      "αμφιβάλλω"
+    ],
+    "antonyms": [
+      "αποδέχομαι"
+    ]
+  },
+  "κατοχυρώνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "κατοχυρώνω + αιτιατική",
+    "level": "B2",
+    "definition": "Εξασφαλίζω νομικά ένα δικαίωμα ή ευρεσιτεχνία.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'secure / patent / consolidate'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η εταιρεία κατοχύρωσε την πατέντα.",
+      "Ο νόμος κατοχυρώνει τα δικαιώματα."
+    ],
+    "common_mistake": "❌ Κατοχυρώνω για την πατέντα. ➜ ✅ Κατοχυρώνω την πατέντα.",
+    "synonyms": [
+      "εξασφαλίζω"
+    ],
+    "antonyms": [
+      "απολέτω"
+    ]
+  },
+  "εξασφαλίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εξασφαλίζω + αιτιατική",
+    "level": "B2",
+    "definition": "Παρέχω τη σιγουριά ότι κάτι θα υπάρξει.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'ensure / secure / provide'.",
+    "linked_noun_keys": [
+      "μέλλον"
+    ],
+    "examples": [
+      "Η δουλειά αυτή εξασφαλίζει καλό εισόδημα.",
+      "Πρέπει να εξασφαλίσουμε την ποιότητα."
+    ],
+    "common_mistake": "❌ Εξασφαλίζω για το εισόδημα. ➜ ✅ Εξασφαλίζω το εισόδημα.",
+    "synonyms": [
+      "κατοχυρώνω"
+    ],
+    "antonyms": [
+      "διακινδυνεύω"
+    ]
+  },
+  "διακινδυνεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "διακινδυνεύω + αιτιατική",
+    "level": "B2",
+    "definition": "Εκθέτω κάτι πολύτιμο σε κίνδυνο.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'risk / hazard'.",
+    "linked_noun_keys": [
+      "ζωή",
+      "καριέρα"
+    ],
+    "examples": [
+      "Ο πυροσβέστης διακινδυνεύει τη ζωή του.",
+      "Μη διακινδυνεύεις τη φήμη σου."
+    ],
+    "common_mistake": "❌ Διακινδυνεύω με τη ζωή. ➜ ✅ Διακινδυνεύω τη ζωή μου.",
+    "synonyms": [
+      "ρισκάρω"
+    ],
+    "antonyms": [
+      "προστατεύω"
+    ]
+  },
+  "ρισκάρω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "ρισκάρω + αιτιατική",
+    "level": "B2",
+    "definition": "Παίρνω ρίσκο για να πετύχω κάτι.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'risk'.",
+    "linked_noun_keys": [
+      "χρήμα"
+    ],
+    "examples": [
+      "Ρισκάρει τα χρήματά του στην επένδυση.",
+      "Δεν θέλω να ρισκάρω τίποτα."
+    ],
+    "common_mistake": "❌ Ρισκάρω για τα χρήματα. ➜ ✅ Ρισκάρω τα χρήματα.",
+    "synonyms": [
+      "διακινδυνεύω"
+    ],
+    "antonyms": [
+      "εξασφαλίζω"
+    ]
+  },
+  "επενδύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "επενδύω + [αιτιατική] + σε + αιτιατική",
+    "level": "B2",
+    "definition": "Τοποθετώ κεφάλαια ή ενέργεια σε μια δραστηριότητα.",
+    "grammar_rule": "Invested target takes 'σε + accusative'. Matches English 'invest IN'.",
+    "noun_parallel": "⚡ Ρήμα: 'Επενδύω στην εκπαίδευση' ➜ Ουσιαστικό: 'Επένδυση στην εκπαίδευση'",
+    "linked_noun_keys": [
+      "χρήμα",
+      "επιχείρηση"
+    ],
+    "examples": [
+      "Η εταιρεία επενδύει στις νέες τεχνολογίες.",
+      "Επενδύω χρόνο στην μάθηση."
+    ],
+    "common_mistake": "❌ Επενδύω για τις νέες τεχνολογίες. ➜ ✅ Επενδύει στις νέες τεχνολογίες.",
+    "synonyms": [
+      "τοποθετώ"
+    ],
+    "antonyms": [
+      "αποσύρω"
+    ]
+  },
+  "αποσύρω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "αποσύρω + αιτιατική + [από + αιτιατική]",
+    "level": "B2",
+    "definition": "Αφαιρώ κάτι από την κυκλοφορία ή απομακρύνω ένα αίτημα.",
+    "grammar_rule": "Withdrawn item is direct accusative; origin takes 'από + accusative'. Matches English 'withdraw / recall FROM'.",
+    "linked_noun_keys": [
+      "αγορά"
+    ],
+    "examples": [
+      "Η εταιρεία απέσυρε το ελαττωματικό προϊόν από την αγορά.",
+      "Απέσυρε την υποψηφιότητά του."
+    ],
+    "common_mistake": "❌ Αποσύρω σε το προϊόν. ➜ ✅ Αποσύρω το προϊόν από την αγορά.",
+    "synonyms": [
+      "ανακαλώ"
+    ],
+    "antonyms": [
+      "εισάγω"
+    ]
+  },
+  "εισάγω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "εισάγω + αιτιατική + [σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Φέρνω προϊόντα από το εξωτερικό ή εισάγω μια νέα ιδέα.",
+    "grammar_rule": "Imported item is direct accusative; destination takes 'σε + accusative'. Matches English 'import / introduce INTO'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Η Ελλάδα εισάγει πετρέλαιο από το εξωτερικό.",
+      "Ο καθηγητής εισήγαγε μια νέα μέθοδο στο μάθημα."
+    ],
+    "common_mistake": "❌ Εισάγω από τη νέα μέθοδο. ➜ ✅ Εισάγω τη νέα μέθοδο.",
+    "synonyms": [
+      "προμηθεύομαι"
+    ],
+    "antonyms": [
+      "εξάγω"
+    ]
+  },
+  "εξάγω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "εξάγω + αιτιατική + [σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Πολώ και στέλνω εμπορεύματα στο εξωτερικό.",
+    "grammar_rule": "Exported goods are direct accusative; destination takes 'σε + accusative'. Matches English 'export TO'.",
+    "linked_noun_keys": [
+      "αγορά"
+    ],
+    "examples": [
+      "Η χώρα εξάγει ελαιόλαδο στην Ευρώπη.",
+      "Ο ερευνητής εξήγαγε χρήσιμα συμπεράσματα."
+    ],
+    "common_mistake": "❌ Εξάγω για την Ευρώπη. ➜ ✅ Εξάγει ελαιόλαδο στην Ευρώπη.",
+    "synonyms": [
+      "διοχετεύω"
+    ],
+    "antonyms": [
+      "εισάγω"
+    ]
+  },
+  "διοχετεύω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "διοχετεύω + αιτιατική + [σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Κατευθύνω τη ροή υγρού, πόρων ή πληροφοριών σε έναν στόχο.",
+    "grammar_rule": "Channeled entity is direct accusative; target takes 'σε + accusative'. Matches English 'channel / direct INTO'.",
+    "linked_noun_keys": [
+      "νερό"
+    ],
+    "examples": [
+      "Διοχετεύουν τα κεφάλαια στην έρευνα.",
+      "Το κανάλι διοχετεύει το νερό στους αγρούς."
+    ],
+    "common_mistake": "❌ Διοχετεύω για την έρευνα. ➜ ✅ Διοχετεύω στην έρευνα.",
+    "synonyms": [
+      "διοχετεύω",
+      "κατευθύνω"
+    ],
+    "antonyms": [
+      "συγκρατώ"
+    ]
+  },
+  "κατευθύνω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "προς"
+      }
+    ],
+    "pattern": "κατευθύνω + αιτιατική + [προς/σε + αιτιατική]",
+    "level": "B2",
+    "definition": "Δίνω πορεία ή προσανατολισμό σε κάποιον/κάτι.",
+    "grammar_rule": "Guided entity is direct accusative; direction takes 'προς/σε + accusative'. Matches English 'guide / direct TOWARDS'.",
+    "linked_noun_keys": [
+      "δρόμος"
+    ],
+    "examples": [
+      "Ο αστυνομικός κατευθύνει την κυκλοφορία.",
+      "Κατευθύνουμε την προσοχή μας στη λύση."
+    ],
+    "common_mistake": "❌ Κατευθύνω από την κυκλοφορία. ➜ ✅ Κατευθύνω την κυκλοφορία.",
+    "synonyms": [
+      "προσανατολίζω"
+    ],
+    "antonyms": [
+      "παραπλανώ"
+    ]
+  },
+  "προσανατολίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "προς"
+      }
+    ],
+    "pattern": "προσανατολίζω + αιτιατική + [προς + αιτιατική]",
+    "level": "B2",
+    "definition": "Βοηθώ κάποιον να βρει την κατεύθυνση ή τον στόχο του.",
+    "grammar_rule": "Oriented entity is direct accusative; target direction takes 'προς/σε + accusative'. Matches English 'orient / align TOWARDS'.",
+    "linked_noun_keys": [
+      "μαθητής"
+    ],
+    "examples": [
+      "Ο σύμβουλος προσανατολίζει τους μαθητές στο επάγγελμα.",
+      "Η πολιτική προσανατολίζεται προς την πράσινη ανάπτυξη."
+    ],
+    "common_mistake": "❌ Προσανατολίζω για το επάγγελμα. ➜ ✅ Προσανατολίζει στο επάγγελμα.",
+    "synonyms": [
+      "κατευθύνω"
+    ],
+    "antonyms": [
+      "αποπροσανατολίζω"
+    ]
+  },
+  "αποπροσανατολίζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      },
+      {
+        "case": "accusative",
+        "preposition": "από"
+      }
+    ],
+    "pattern": "αποπροσανατολίζω + αιτιατική + [από + αιτιατική]",
+    "level": "B2",
+    "definition": "Αποσπώ την προσοχή κάποιου από τον κύριο στόχο.",
+    "grammar_rule": "Misguided entity is direct accusative; main focus takes 'από + accusative'. Matches English 'disorient / distract FROM'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Οι ειδήσεις αποπροσανατολίζουν την κοινή γνώμη από τα προβλήματα.",
+      "Μη με αποπροσανατολίζεις από τη μελέτη."
+    ],
+    "common_mistake": "❌ Αποπροσανατολίζω σε τα προβλήματα. ➜ ✅ Αποπροσανατολίζω από τα προβλήματα.",
+    "synonyms": [
+      "παραπλανώ"
+    ],
+    "antonyms": [
+      "προσανατολίζω"
+    ]
+  },
+  "εξετάζω": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": null
+      }
+    ],
+    "pattern": "εξετάζω + αιτιατική",
+    "level": "B1",
+    "definition": "Μελετώ προσεκτικά ή ελέγχω την υγεία/γνώσεις κάποιου.",
+    "grammar_rule": "Direct transitive verb taking accusative with NO preposition. Matches English 'examine / test'.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ο γιατρός εξετάζει τον ασθενή.",
+      "Η επιτροπή εξετάζει το αίτημα."
+    ],
+    "common_mistake": "❌ Εξετάζω για τον ασθενή. ➜ ✅ Εξετάζω τον ασθενή.",
+    "synonyms": [
+      "ελέγχω"
+    ],
+    "antonyms": [
+      "αγνοώ"
+    ]
+  }
+}
