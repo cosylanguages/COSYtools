@@ -35,9 +35,15 @@
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: var(--cream-bg);
+    font-family: var(--font-sans);
+    background: var(--paper-gradient, var(--cream-bg));
+    background-attachment: fixed;
     color: var(--ink);
     line-height: 1.6;
     padding: 1rem;

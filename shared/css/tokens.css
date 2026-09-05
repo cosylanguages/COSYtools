@@ -132,8 +132,9 @@
     --radius-sm: 10px;
     --border-radius: var(--radius);
 
-    /* ── Theme Logic ───────────────────────────────────── */
+    /* ── Theme Logic & Radial Paper Gradients ──────────── */
     --paper-bg:      #FDF8F0;
+    --paper-gradient: radial-gradient(circle at 50% 0%, #fdfcf8 0%, #f7f1e5 100%);
     --paper-txt:     #1C1008;
     --contrast-bg:   #111111;
     --contrast-txt:  #FFFFFF;
@@ -182,6 +183,7 @@ html[data-theme="dark"], body.theme-dark {
     --sage-light: #222c23;
 
     --paper-bg:   #1a1f1a;
+    --paper-gradient: radial-gradient(circle at 50% 0%, #202720 0%, #141914 100%);
     --paper-txt:  #e8f0e9;
 
     --background-color: var(--cream);
