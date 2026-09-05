@@ -1,0 +1,434 @@
+{
+  "besoin": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "besoin de [nom / verbe]",
+    "level": "A1",
+    "definition": "Exigence fondamentale ou nécessité vitale d'avoir quelque chose.",
+    "grammar_rule": "Le nom « besoin » prend la préposition « de » (besoin de repos). Se combine fréquemment avec l'auxiliaire « avoir » (avoir besoin de). Contractions du/des.",
+    "related_forms": "avoir besoin",
+    "examples": [
+      "Il ressent un grand besoin de repos après le travail.",
+      "Le besoin d'eau est vital pour tous."
+    ],
+    "common_mistake": "❌ Il a un besoin à dormir. ➜ ✅ Il a un besoin de dormir.",
+    "synonyms": [
+      "nécessité",
+      "exigence"
+    ],
+    "antonyms": [
+      "superflu",
+      "luxe"
+    ]
+  },
+  "envie": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "envie de [nom / verbe]",
+    "level": "A1",
+    "definition": "Désir spontané d'avoir ou de faire quelque chose.",
+    "grammar_rule": "Le nom « envie » exige la préposition « de » devant un nom ou un infinitif. Contractions du/des.",
+    "related_forms": "avoir envie",
+    "examples": [
+      "J'ai une grande envie de voyager cet été.",
+      "Elle a envie d'un chocolat chaud."
+    ],
+    "common_mistake": "❌ J'ai envie pour sortir. ➜ ✅ J'ai envie de sortir.",
+    "synonyms": [
+      "désir",
+      "souhait"
+    ],
+    "antonyms": [
+      "aversion",
+      "dégoût"
+    ]
+  },
+  "peur": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "peur de [nom / verbe]",
+    "level": "A1",
+    "definition": "Sentiment d'inquiétude ou d'effroi face à un danger réel ou imaginé.",
+    "grammar_rule": "Exige la préposition « de » devant le complément d'objet ou la proposition infinitive.",
+    "related_forms": "avoir peur",
+    "examples": [
+      "Sa peur du noir diminue avec le temps.",
+      "Il a peur de rater son examen."
+    ],
+    "common_mistake": "❌ Il a peur à l'obscurité. ➜ ✅ Il a peur de l'obscurité.",
+    "synonyms": [
+      "crainte",
+      "frousse"
+    ],
+    "antonyms": [
+      "courage",
+      "assurance"
+    ]
+  },
+  "habitude": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "habitude de [nom / verbe]",
+    "level": "A1",
+    "definition": "Pratique fréquente et régulière d'un comportement.",
+    "grammar_rule": "Le nom « habitude » se construit avec « de » devant l'infinitif ou le nom.",
+    "related_forms": "s'habituer",
+    "examples": [
+      "Elle a l'habitude de se lever tôt.",
+      "C'est une bonne habitude de boire de l'eau le matin."
+    ],
+    "common_mistake": "❌ Il a l'habitude à marcher. ➜ ✅ Il a l'habitude de marcher.",
+    "synonyms": [
+      "coutume",
+      "routine"
+    ],
+    "antonyms": [
+      "nouveauté",
+      "exception"
+    ]
+  },
+  "intention": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "intention de [verbe]",
+    "level": "A2",
+    "definition": "Volonté délibérée d'accomplir une action future.",
+    "grammar_rule": "Le nom « intention » est toujours suivi de la préposition « de » devant un infinitif.",
+    "related_forms": "penser",
+    "examples": [
+      "Nous avons l'intention de déménager l'année prochaine.",
+      "Avez-vous l'intention de participer à la réunion ?"
+    ],
+    "common_mistake": "❌ J'ai l'intention pour venir. ➜ ✅ J'ai l'intention de venir.",
+    "synonyms": [
+      "projet",
+      "objectif"
+    ],
+    "antonyms": [
+      "hésitation",
+      "doute"
+    ]
+  },
+  "interdiction": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "interdiction de [verbe / nom]",
+    "level": "A2",
+    "definition": "Action de défendre ou d'empêcher une activité.",
+    "grammar_rule": "Exige « de » devant l'infinitif exprimant l'action défendue.",
+    "related_forms": "interdire",
+    "examples": [
+      "L'interdiction de fumer est stricte dans les lieux publics.",
+      "Il y a une interdiction de stationner sur le trottoir."
+    ],
+    "common_mistake": "❌ Interdiction à stationner. ➜ ✅ Interdiction de stationner.",
+    "synonyms": [
+      "prohibition",
+      "défense"
+    ],
+    "antonyms": [
+      "autorisation",
+      "permission"
+    ]
+  },
+  "occasion": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "occasion de [verbe / nom]",
+    "level": "A2",
+    "definition": "Circonstance favorable pour faire quelque chose.",
+    "grammar_rule": "Se construit avec « de » devant un verbe à l'infinitif.",
+    "related_forms": "profiter",
+    "examples": [
+      "C'est une belle occasion de visiter la région.",
+      "J'ai eu l'occasion de le rencontrer hier."
+    ],
+    "common_mistake": "❌ L'occasion pour voyager. ➜ ✅ L'occasion de voyager.",
+    "synonyms": [
+      "opportunité",
+      "possibilité"
+    ],
+    "antonyms": [
+      "obstacle",
+      "empêchement"
+    ]
+  },
+  "droit": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "droit de [verbe / nom]",
+    "level": "A2",
+    "definition": "Faculté légale ou morale d'agir ou d'exiger quelque chose.",
+    "grammar_rule": "Le nom « droit » s'emploie avec « de » devant un infinitif.",
+    "related_forms": "permettre",
+    "examples": [
+      "Chacun a le droit de donner son opinion.",
+      "Vous avez le droit de demander un remboursement."
+    ],
+    "common_mistake": "❌ Le droit à voter (infinitif) ➜ ✅ Le droit de voter.",
+    "synonyms": [
+      "pouvoir",
+      "privilège"
+    ],
+    "antonyms": [
+      "interdiction",
+      "devoir"
+    ]
+  },
+  "risque": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "risque de [nom / verbe]",
+    "level": "A2",
+    "definition": "Possibilité de survenue d'un événement indésirable ou dangereux.",
+    "grammar_rule": "Prend la préposition « de » devant un infinitif ou un nom.",
+    "related_forms": "risquer",
+    "examples": [
+      "Il y a un risque de pluie cet après-midi.",
+      "Prendre des décisions hâtives comporte le risque d'échouer."
+    ],
+    "common_mistake": "❌ Risque à tomber. ➜ ✅ Risque de tomber.",
+    "synonyms": [
+      "danger",
+      "menace"
+    ],
+    "antonyms": [
+      "sécurité",
+      "certitude"
+    ]
+  },
+  "possibilité": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "possibilité de [verbe / nom]",
+    "level": "B1",
+    "definition": "Caractère de ce qui peut se produire ou être réalisé.",
+    "grammar_rule": "Se construit avec « de » devant l'infinitif.",
+    "related_forms": "pouvoir",
+    "examples": [
+      "Nous étudions la possibilité de développer ce projet.",
+      "Il n'y a aucune possibilité de se tromper."
+    ],
+    "common_mistake": "❌ La possibilité pour réussir. ➜ ✅ La possibilité de réussir.",
+    "synonyms": [
+      "éventualité",
+      "opportunité"
+    ],
+    "antonyms": [
+      "impossibilité",
+      "incapacité"
+    ]
+  },
+  "souci": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "souci de [nom / verbe]",
+    "level": "B1",
+    "definition": "Préoccupation constante ou soin apporté à la réalisation de quelque chose.",
+    "grammar_rule": "Se construit avec « de » devant un nom ou un infinitif.",
+    "related_forms": "se soucier",
+    "examples": [
+      "Elle agit toujours dans le souci de bien faire.",
+      "Le souci du détail est essentiel dans ce métier."
+    ],
+    "common_mistake": "❌ Le souci pour aider. ➜ ✅ Le souci d'aider.",
+    "synonyms": [
+      "préoccupation",
+      "soin"
+    ],
+    "antonyms": [
+      "indifférence",
+      "désinvolture"
+    ]
+  },
+  "responsabilité": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "responsabilité de [nom / verbe]",
+    "level": "B1",
+    "definition": "Obligation morale ou juridique de répondre de ses actes ou d'une tâche.",
+    "grammar_rule": "Prend la préposition « de » devant le verbe ou le nom régenté.",
+    "related_forms": "responsable",
+    "examples": [
+      "Il a pris la responsabilité de gérer l'équipe.",
+      "La responsabilité de cette décision lui incombe."
+    ],
+    "common_mistake": "❌ La responsabilité pour organiser. ➜ ✅ La responsabilité d'organiser.",
+    "synonyms": [
+      "charge",
+      "devoir"
+    ],
+    "antonyms": [
+      "irresponsabilité",
+      "décharge"
+    ]
+  },
+  "solution": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "solution à [problème / question]",
+    "level": "B1",
+    "definition": "Moyen de résoudre une difficulté ou une question complexe.",
+    "grammar_rule": "Le nom « solution » s'associe à la préposition « à » (solution à un problème).",
+    "related_forms": "résoudre",
+    "examples": [
+      "Ils recherchent une solution durable à la crise.",
+      "Cette proposition est une bonne solution au problème de logement."
+    ],
+    "common_mistake": "❌ Une solution pour le problème. ➜ ✅ Une solution au problème.",
+    "synonyms": [
+      "issue",
+      "remède"
+    ],
+    "antonyms": [
+      "problème",
+      "impasse"
+    ]
+  },
+  "accès": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "accès à [lieu / ressource / service]",
+    "level": "B1",
+    "definition": "Possibilité de pénétrer dans un lieu ou d'obtenir une information/ressource.",
+    "grammar_rule": "Le nom « accès » exige la préposition « à » devant son complément.",
+    "related_forms": "accéder",
+    "examples": [
+      "L'accès aux données est strictement réglementé.",
+      "Cet établissement garantit un accès facile aux personnes à mobilité réduite."
+    ],
+    "common_mistake": "❌ L'accès de la bibliothèque. ➜ ✅ L'accès à la bibliothèque.",
+    "synonyms": [
+      "entrée",
+      "admission"
+    ],
+    "antonyms": [
+      "refus",
+      "exclusion"
+    ]
+  },
+  "confiance": {
+    "word_type": "noun",
+    "prepositions": [
+      "en"
+    ],
+    "pattern": "confiance en [quelqu'un / soi-même]",
+    "level": "B1",
+    "definition": "Sentiment de sécurité et de foi envers une personne ou soi-même.",
+    "grammar_rule": "Le nom « confiance » s'emploie avec « en » devant une personne (confiance en soi / en Dieu) ou « dans » devant des institutions/choses.",
+    "related_forms": "faire confiance",
+    "examples": [
+      "Elle a une totale confiance en son associé.",
+      "La confiance en soi est primordiale pour réussir."
+    ],
+    "common_mistake": "❌ Confiance à lui. ➜ ✅ Confiance en lui.",
+    "synonyms": [
+      "foi",
+      "assurance"
+    ],
+    "antonyms": [
+      "méfiance",
+      "défiance"
+    ]
+  },
+  "obstacle": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "obstacle à [projet / réussite / avancement]",
+    "level": "B2",
+    "definition": "Ce qui s'oppose à la réalisation d'une action ou d'un projet.",
+    "grammar_rule": "Le nom « obstacle » se construit avec la préposition « à » (obstacle à la paix).",
+    "related_forms": "empêcher",
+    "examples": [
+      "La bureaucratie représente un obstacle majeur au développement.",
+      "Ce désaccord constitue un obstacle à la signature du contrat."
+    ],
+    "common_mistake": "❌ Un obstacle pour le progrès. ➜ ✅ Un obstacle au progrès.",
+    "synonyms": [
+      "frein",
+      "entrave"
+    ],
+    "antonyms": [
+      "tremplin",
+      "catalyseur"
+    ]
+  },
+  "attachement": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "attachement à [personne / cause / valeur]",
+    "level": "B2",
+    "definition": "Sentiment d'affection profonde ou d'adhésion forte envers quelque chose.",
+    "grammar_rule": "Se construit obligatoirement avec la préposition « à ».",
+    "related_forms": "s'attacher",
+    "examples": [
+      "Il a démontré un grand attachement à ses principes.",
+      "Son attachement à la région est très fort."
+    ],
+    "common_mistake": "❌ Son attachement pour cette cause. ➜ ✅ Son attachement à cette cause.",
+    "synonyms": [
+      "dévouement",
+      "affection"
+    ],
+    "antonyms": [
+      "détachement",
+      "indifférence"
+    ]
+  },
+  "filiation": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec"
+    ],
+    "pattern": "filiation avec [origine / tradition]",
+    "level": "C1",
+    "definition": "Lien de continuité, d'origine ou de parenté spirituelle ou historique.",
+    "grammar_rule": "S'emploie souvent avec la préposition « avec » ou « de » selon la tournure.",
+    "related_forms": "s'inscrire",
+    "examples": [
+      "Ce mouvement revendique une filiation directe avec la philosophie des Lumières.",
+      "On observe une filiation évidente avec les travaux précédents."
+    ],
+    "common_mistake": "❌ Filiation à cette théorie. ➜ ✅ Filiation avec cette théorie.",
+    "synonyms": [
+      "continuité",
+      "héritage"
+    ],
+    "antonyms": [
+      "rupture",
+      "discontinuité"
+    ]
+  }
+}
