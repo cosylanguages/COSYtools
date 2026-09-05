@@ -1,0 +1,46 @@
+{
+  "lernen": {
+    "group": "Schwaches Verb",
+    "level": "A1",
+    "definition": "Sich Wissen oder Fähigkeiten aneignen.",
+    "antonyms": ["vergessen"],
+    "tenses": {
+      "präsens": ["ich lerne", "du lernst", "er/sie lernt", "wir lernen", "ihr lernt", "sie lernen"],
+      "präteritum": ["ich lernte", "du lerntest", "er/sie lernte", "wir lernten", "ihr lerntet", "sie lernten"]
+    },
+    "examples": ["Ich lerne jeden Tag Deutsch."]
+  },
+  "machen": {
+    "group": "Schwaches Verb",
+    "level": "A1",
+    "definition": "Etwas hervorbringen oder ausführen.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": ["ich mache", "du machst", "er/sie macht", "wir machen", "ihr macht", "sie machen"],
+      "präteritum": ["ich machte", "du machtest", "er/sie machte", "wir machten", "ihr machtet", "sie machten"]
+    },
+    "examples": ["Wir machen unsere Hausaufgaben."]
+  },
+  "sein": {
+    "group": "Unregelmäßiges Verb",
+    "level": "A1",
+    "definition": "Existieren oder einen Zustand haben.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": ["ich bin", "du bist", "er/sie ist", "wir sind", "ihr seid", "sie sind"],
+      "präteritum": ["ich war", "du warst", "er/sie war", "wir waren", "ihr wart", "sie waren"]
+    },
+    "examples": ["Er ist heute sehr glücklich."]
+  },
+  "haben": {
+    "group": "Unregelmäßiges Verb",
+    "level": "A1",
+    "definition": "Etwas besitzen.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": ["ich habe", "du hast", "er/sie hat", "wir haben", "ihr habt", "sie haben"],
+      "präteritum": ["ich hatte", "du hattest", "er/sie hatte", "wir hatten", "ihr hattet", "sie hatten"]
+    },
+    "examples": ["Ich habe einen guten Freund."]
+  }
+}

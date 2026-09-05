@@ -1,0 +1,20 @@
+{
+  "komz": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Eztaoler e soñjoù gant komzoù.",
+    "tenses": {
+      "present": ["komzan", "komzez", "komz", "komzomp", "komzit", "komzont"]
+    },
+    "examples": ["Komz a ran brezhoneg bemdez."]
+  },
+  "lenn": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Dastum ster ur skrid.",
+    "tenses": {
+      "present": ["lennan", "lennez", "lenn", "lennomp", "lennit", "lennont"]
+    },
+    "examples": ["Lenn a ra al levr-mañ."]
+  }
+}

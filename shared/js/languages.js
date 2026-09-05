@@ -47,8 +47,7 @@ window.COSY_LEVELS = [
     { id: 'elementary',        name: 'Elementary (A2)',        short: 'A2' },
     { id: 'intermediate',      name: 'Intermediate (B1)',      short: 'B1' },
     { id: 'upper_intermediate', name: 'Upper-Intermediate (B2)', short: 'B2' },
-    { id: 'advanced',          name: 'Advanced (C1)',          short: 'C1' },
-    { id: 'proficiency',       name: 'Proficiency (C2)',       short: 'C2' }
+    { id: 'advanced',          name: 'Advanced (B2+)',         short: 'B2+' }
 ];
 
 window.FAMILY_MAP = window.COSY_LANGUAGES.reduce((acc, l) => {

@@ -1,0 +1,46 @@
+{
+  "falar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Expressar-se por meio de palavras.",
+    "antonyms": ["calar", "ouvir"],
+    "tenses": {
+      "presente": ["falo", "falas", "fala", "falamos", "falais", "falam"],
+      "passado": ["falei", "falaste", "falou", "falamos", "falastes", "falaram"]
+    },
+    "examples": ["Eu falo português todos os dias."]
+  },
+  "comer": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Mastigar e engolir alimentos.",
+    "antonyms": ["jejuar"],
+    "tenses": {
+      "presente": ["como", "comes", "come", "comemos", "comeis", "comem"],
+      "passado": ["comi", "comeste", "comeu", "comemos", "comestes", "comeram"]
+    },
+    "examples": ["Nós comemos uma fruta deliciosa."]
+  },
+  "ter": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Possuir algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["tenho", "tens", "tem", "temos", "tendes", "têm"],
+      "passado": ["tive", "tiveste", "teve", "tivemos", "tivestes", "tiveram"]
+    },
+    "examples": ["Eu tenho um livro novo."]
+  },
+  "ser": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Possuir identidade ou estado permanente.",
+    "antonyms": [],
+    "tenses": {
+      "presente": ["sou", "és", "é", "somos", "sois", "são"],
+      "passado": ["fui", "foste", "foi", "fomos", "fostes", "foram"]
+    },
+    "examples": ["Ela é uma estudante dedicada."]
+  }
+}

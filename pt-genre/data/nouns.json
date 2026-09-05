@@ -1,0 +1,34 @@
+{
+  "casa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Edifício construído para habitação.",
+    "article": "a",
+    "plural": "casas",
+    "examples": ["A casa é grande e bonita."]
+  },
+  "livro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Obra impressa para leitura.",
+    "article": "o",
+    "plural": "livros",
+    "examples": ["Estou a ler um livro interessante."]
+  },
+  "sol": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Estrela central do nosso sistema solar.",
+    "article": "o",
+    "plural": "sóis",
+    "examples": ["O sol brilha forte no céu."]
+  },
+  "água": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Líquido incolor e inodoro essencial à vida.",
+    "article": "a",
+    "plural": "águas",
+    "examples": ["Bebo um copo de água fresca."]
+  }
+}
