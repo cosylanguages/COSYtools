@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugueur Français | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+  <link rel="stylesheet" href="../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Cozy Header -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">📜</span>
+                <div class="brand-text">
+                    <h1>Conjugueur Français</h1>
+                    <p class="tagline">Conjugaison instantanée & vocabulaire clair</p>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Mode Entraînement
+                </button>
+                <button id="pwa-install-btn" class="install-pwa-btn" style="display: none;">
+                    📲 Installer L'application
+                </button>
+            </div>
+        </header>
+
+        <!-- Search Bar -->
+        <main class="app-main">
+            <section id="search-section-container" class="search-section">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="verb-search-input" placeholder="Tapez un verbe (ex: parler, suis, aller, savoir)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list"></div>
+            </section>
+
+            <!-- Practice Game View Container -->
+            <section id="game-container" class="game-card" style="display: none;">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Jeu d'Entraînement</h2>
+                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-conj-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('conjugation')">📝 Conjugaison</button> <button id="mode-aux-btn" class="badge" onclick="appEngine.setPracticeMode('auxiliary')">⚡ Être ou Avoir ?</button> <button id="mode-prep-btn" class="badge" onclick="appEngine.setPracticeMode('preposition')">💡 Prépositions &amp; Construction</button></div>
+                    </div>
+                    <div class="score-badge">
+                        <span>Score : <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Streak: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Conjuguez le verbe :</span>
+                    <h3 id="game-verb-prompt">parler</h3>
+                    <div class="prompt-details">
+                        <span id="game-tense-badge" class="badge">Présent</span>
+                        <span id="game-pronoun-prompt" class="prompt-pronoun">nous</span>
+                    </div>
+                </div>
+
+                <div class="game-input-group">
+                    <input type="text" id="game-answer-input" placeholder="Tapez votre réponse ici..." autocomplete="off">
+                    <button id="game-submit-btn" class="game-btn" onclick="appEngine.checkGameAnswer()">Valider</button>
+                </div>
+
+                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
+
+                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Question Suivante ➔</button>
+            </section>
+
+            <!-- Verb Result Display -->
+            <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                <!-- Header Info -->
+                <div class="verb-header">
+                    <div class="verb-title-group">
+                        <h2 id="verb-infinitive">parler</h2>
+                        <span id="verb-group-badge" class="badge">1er groupe (-er)</span>
+                        <span id="verb-aux-badge" class="badge aux-badge">Auxiliaire : Avoir</span>
+                        <button id="speak-verb-btn" class="tts-btn" title="Écouter la prononciation">🔊 Écouter</button>
+                    </div>
+
+                    <!-- Short Definition & Antonyms -->
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Définition :</span>
+                            <span id="verb-definition" class="def-text">Exprimer sa pensée par la parole, s'entretenir avec quelqu'un.</span>
+                        </div>
+                        <div id="usage-container" class="usage-block">
+                            <span class="lexical-label">💡 Prépositions & Construction :</span>
+                            <span id="verb-usage-hint" class="usage-text">parler à (qqn) / de (qqch)</span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Règle Grammaticale :</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Contraires / Antonymes :</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tense Grids -->
+                <div class="tense-grid-layout">
+                    <!-- Indicatif -->
+                    <div class="mode-section">
+                        <h3>Indicatif</h3>
+                        <div class="tense-cards">
+                            <div class="tense-card">
+                                <h4>Présent</h4>
+                                <ul id="tense-pres" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Imparfait</h4>
+                                <ul id="tense-imp" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Passé composé</h4>
+                                <ul id="tense-pc" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Plus-que-parfait</h4>
+                                <ul id="tense-pqp" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Futur simple</h4>
+                                <ul id="tense-fut" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Futur antérieur</h4>
+                                <ul id="tense-fut_ant" class="conjugation-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subjonctif, Conditionnel & Impératif -->
+                    <div class="mode-section">
+                        <h3>Subjonctif, Conditionnel & Impératif</h3>
+                        <div class="tense-cards">
+                            <div class="tense-card">
+                                <h4>Subjonctif Présent</h4>
+                                <ul id="tense-subj" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Subjonctif Passé</h4>
+                                <ul id="tense-subj_pass" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Conditionnel Présent</h4>
+                                <ul id="tense-cond" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Conditionnel Passé</h4>
+                                <ul id="tense-cond_pass" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Impératif</h4>
+                                <ul id="tense-impv" class="conjugation-list"></ul>
+                            </div>
+                            <div class="tense-card">
+                                <h4>Participe</h4>
+                                <ul id="tense-part" class="conjugation-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Initial Empty State -->
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🍃</span>
+                <h3>Recherchez n'importe quel verbe français</h3>
+                <p>Tapez un verbe à l'infinitif ou une forme conjuguée (comme <em>"suis"</em>, <em>"va"</em>, <em>"parlions"</em>) pour afficher sa conjugaison complète avec <strong style="color: var(--terracotta);">terminaisons colorées</strong>, sa définition et ses antonymes.</p>
+                <div class="quick-tags">
+                    <span>Suggestions rapides :</span>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('parler')">parler</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('être')">être</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('avoir')">avoir</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('aller')">aller</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('savoir')">savoir</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('pouvoir')">pouvoir</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Cozy Footer -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Application autonome, 100% hors-ligne & sans traçage.</p>
+        </footer>
+    </div>
+
+    <script src="js/engine.js"></script>
+<script src="../shared/js/languages.js"></script>
+<script src="../shared/js/i18n.js"></script>
+<script src="../shared/js/ui.js"></script>
+</body>
+</html>
