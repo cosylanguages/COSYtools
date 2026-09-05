@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genere & Preposizioni Italiane | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+  <link rel="stylesheet" href="../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇮🇹</span>
+                <div class="brand-text">
+                    <h1>Genere & Preposizioni Italiane</h1>
+                    <p class="tagline">Genere dei nomi (Il / La) & Preposizioni Articolate</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Allenamento
+                </button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <section id="search-section-container" class="search-section">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="noun-search-input" placeholder="Cerca un sostantivo (es: sole, luna, libro)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list"></div>
+            </section>
+
+            <section id="game-container" class="game-card" style="display: none;">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Gioco: Il o La?</h2>
+                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-gender-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('gender')">🏷️ Genere</button> <button id="mode-cases-btn" class="badge" onclick="appEngine.setPracticeMode('articles')">📌 Articoli &amp; Plurali</button></div>
+                    </div>
+                    <div class="score-badge">
+                        <span>Punteggio: <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Streak: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Qual è il genere di:</span>
+                    <h3 id="game-noun-prompt">sole</h3>
+                </div>
+                <div class="game-choice-group">
+                    <button class="choice-btn masc-btn" onclick="appEngine.checkGameChoice('Maschile')">♂️ Maschile (Il)</button>
+                    <button class="choice-btn fem-btn" onclick="appEngine.checkGameChoice('Femminile')">♀️ Femminile (La)</button>
+                </div>
+                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
+                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Prossima Domanda ➔</button>
+            </section>
+
+            <section id="noun-result-container" class="noun-result-card" style="display: none;">
+                <div class="noun-header">
+                    <div class="noun-title-group">
+                        <h2 id="noun-title">sole</h2>
+                        <span id="gender-badge" class="badge gender-masc">♂️ Maschile (Il / Un)</span>
+                    </div>
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Definizione:</span>
+                            <span id="noun-definition" class="def-text">Stella al centro del sistema solare.</span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Regola Grammaticale:</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Contrari:</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plural-grid">
+                    <div class="plural-card">
+                        <h4>Singolare</h4>
+                        <p id="sing-form"><span class="article">il</span> <span class="stem">sol</span><span class="ending">e</span></p>
+                    </div>
+                    <div class="plural-card">
+                        <h4>Plurale</h4>
+                        <p id="plur-form"><span class="article">i</span> <span class="stem">sol</span><span class="ending">i</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🍃</span>
+                <h3>Cerca un sostantivo italiano</h3>
+                <p>Scopri il genere, il plurale con <strong style="color: var(--terracotta);">desinenze colorate</strong>, definizioni e contrari.</p>
+                <div class="quick-tags">
+                    <span>Suggerimenti veloci:</span>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('sole')">sole</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('luna')">luna</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('giorno')">giorno</button>
+                    <button class="tag-btn" onclick="appEngine.searchNoun('notte')">notte</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Applicazione autonoma e 100% offline.</p>
+        </footer>
+    </div>
+    <script src="js/engine.js"></script>
+<script src="../shared/js/languages.js"></script>
+<script src="../shared/js/i18n.js"></script>
+<script src="../shared/js/ui.js"></script>
+</body>
+</html>
