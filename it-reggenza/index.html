@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reggenza verbale, nominale e aggettivale italiana | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Cozy Header -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇮🇹</span>
+                <div class="brand-text">
+                    <h1>Reggenza verbale, nominale e aggettivale</h1>
+                    <p class="tagline">Preposizioni reggenti di verbi, nomi e aggettivi — Ripetizione dilazionata &amp; contrasti</p>
+                </div>
+            </div>
+
+            <div class="main-nav-bar">
+                <button id="nav-practice-btn" class="nav-mode-btn active" onclick="appEngine.setAppMode('practice')">🎯 Esercitati</button>
+                <button id="nav-lookup-btn" class="nav-mode-btn" onclick="appEngine.setAppMode('lookup')">📖 Consulta</button>
+                <button id="nav-dashboard-btn" class="nav-mode-btn" onclick="appEngine.setAppMode('dashboard')">📊 Quadro</button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Practice Mode View (Default Landing View) -->
+            <section id="practice-view-container" class="app-view-section">
+                <!-- Practice Controls & Streak Bar -->
+                <div class="practice-header-bar">
+                    <div class="streak-widget">
+                        <span class="streak-fire">🔥</span>
+                        <div>
+                            <div class="streak-count"><strong id="practice-streak-count">0</strong> Giorni di serie</div>
+                            <div class="goal-sub" id="practice-goal-sub">Obiettivo: 0 / 1 sessioni oggi</div>
+                        </div>
+                    </div>
+
+                    <div class="practice-filters-group">
+                        <select id="practice-level-select" class="select-dropdown" onchange="appEngine.onPracticeFilterChange()">
+                            <option value="all">Tutti i livelli (A1–B2)</option>
+                            <option value="A1">A1 Principiante</option>
+                            <option value="A2">A2 Elementare</option>
+                            <option value="B1">B1 Intermedio</option>
+                            <option value="B2">B2 Intermedio sup.</option>
+                        </select>
+
+                        <select id="practice-type-select" class="select-dropdown" onchange="appEngine.onPracticeFilterChange()">
+                            <option value="all">Tutti i tipi (Verbi, Nomi, Agg)</option>
+                            <option value="verbs">Solo Verbi 🏃</option>
+                            <option value="nouns">Solo Nomi 📦</option>
+                            <option value="adjectives">Solo Aggettivi 🎨</option>
+                        </select>
+
+                        <button class="start-session-btn" onclick="appEngine.startNewPracticeSession()">▶ Avvia round di 10 parole</button>
+                    </div>
+                </div>
+
+                <!-- Active Practice Card Container -->
+                <div id="practice-card-container" class="practice-card">
+                    <div id="practice-card-content">
+                        <!-- Injected dynamically by PracticeManager -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Look Up Mode View (Secondary Reference View) -->
+            <section id="lookup-view-container" class="app-view-section hidden">
+                <section id="search-section-container" class="search-section">
+                    <!-- Word Type Switcher Tabs -->
+                    <div class="word-type-tab-bar">
+                        <button class="word-type-tab active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">🏃 Verbi</button>
+                        <button class="word-type-tab" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Nomi</button>
+                        <button class="word-type-tab" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Aggettivi</button>
+                    </div>
+
+                    <!-- Filter Pills Bar -->
+                    <div class="filter-pills-bar" id="filter-pills-bar">
+                        <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti i verbi</button>
+                        <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
+                        <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
+                        <button class="filter-pill" id="filter-direct" onclick="appEngine.setFilter('direct')">Diretti (senza prep)</button>
+                        <button class="filter-pill" id="filter-pronominal" onclick="appEngine.setFilter('pronominal')">Pronominali 🪞</button>
+                        <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Altre prep (su, in, con...)</button>
+                    </div>
+
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="verb-search-input" placeholder="Cerca un verbo (es. pensare, parlare, abituarsi, avere bisogno, guardare)..." autocomplete="off" autofocus>
+                        <button id="clear-search-btn" class="clear-btn hidden">&times;</button>
+                    </div>
+                    <div id="search-suggestions" class="suggestions-list hidden"></div>
+                </section>
+
+                <!-- Verb / Word Result Display -->
+                <section id="verb-result-container" class="verb-result-card hidden">
+                    <!-- Result Navigation Controls -->
+                    <div class="nav-controls-bar">
+                        <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Voce precedente">◀ Precedente</button>
+                        <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Voce casuale">🎲 Casuale</button>
+                        <button class="nav-btn" onclick="appEngine.navigateNext()" title="Voce successiva">Successivo ▶</button>
+                    </div>
+
+                    <!-- Verb Header Info -->
+                    <div class="verb-header">
+                        <div class="verb-title-group">
+                            <h2 id="verb-title">pensare</h2>
+                            <span id="pronominal-badge" class="badge phrasal-badge hidden">Pronominale 🪞</span>
+                            <span id="prep-badge" class="badge prep-badge">Preposizione: a / di</span>
+                            <span id="verb-cefr-badge" class="badge cefr-badge">Livello: A1</span>
+                            <button id="speak-verb-btn" class="tts-btn" title="Ascolta la pronuncia">🔊 Ascolta</button>
+                        </div>
+
+                        <!-- Lexical Information Box -->
+                        <div class="lexical-box">
+                            <div class="def-block">
+                                <span class="lexical-label">📖 Definizione:</span>
+                                <span id="verb-definition" class="def-text">Volgere la mente a qualcuno o qualcosa.</span>
+                            </div>
+                            <div id="pattern-container" class="usage-block">
+                                <span class="lexical-label">💡 Struttura &amp; Reggenza:</span>
+                                <span id="verb-pattern-text" class="usage-text">pensare a [qualcuno/qualcosa] / pensare di [opinione o verbo]</span>
+                            </div>
+                            <!-- Noun Parallel / Cross References Box -->
+                            <div id="noun-parallel-container" class="noun-parallel-block hidden">
+                                <span class="lexical-label">⚡ Contrasti &amp; Forme Correlate:</span>
+                                <div id="noun-parallel-text" class="noun-parallel-text"></div>
+                            </div>
+                            <div id="grammar-rule-container" class="grammar-rule-block">
+                                <span class="lexical-label">📌 Regola grammaticale &amp; Preposizioni articolate:</span>
+                                <span id="grammar-rule-text" class="rule-text"></span>
+                            </div>
+                            <div id="mistake-container" class="mistake-block">
+                                <span class="lexical-label">⚠️ Errore comune &amp; Piuttosto da evitare:</span>
+                                <span id="mistake-text" class="mistake-text"></span>
+                            </div>
+                            <div id="examples-container" class="examples-block">
+                                <span class="lexical-label">💬 Frasi di esempio:</span>
+                                <ul id="examples-list" class="examples-list"></ul>
+                            </div>
+                            <div id="antonyms-container" class="antonyms-block">
+                                <span class="lexical-label">↔️ Sinonimi &amp; Contrari:</span>
+                                <div id="antonyms-pills" class="pills-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Initial Empty State -->
+                <section id="empty-state" class="empty-state-box">
+                    <span class="empty-icon">🌿</span>
+                    <h3 id="empty-state-heading">Cerca la reggenza di verbi, nomi e aggettivi italiani</h3>
+                    <p id="empty-state-description">Esplora le <strong class="text-sage-primary">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong class="text-terracotta">contrasti verbo / nome / aggettivo</strong>.</p>
+                    <div class="quick-tags">
+                        <span>Verbi essenziali (A1–B2):</span>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('pensare')">pensare a/di</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('parlare')">parlare a/con/di</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('avere bisogno')">avere bisogno di</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('giocare')">giocare a / suonare</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('interessarsi')">interessarsi di/a</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('guardare')">guardare (diretto)</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('ascoltare')">ascoltare (diretto)</button>
+                    </div>
+                    <div class="quick-tags quick-tags-spaced">
+                        <span>Nomi &amp; Aggettivi con preposizione 📦🎨:</span>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'bisogno')">bisogno di</button>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'paura')">paura di</button>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'interesse')">interesse per/a</button>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'contento')">contento di</button>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'fiero')">fiero di</button>
+                        <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'vicino')">vicino a</button>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Dashboard Mode View -->
+            <section id="dashboard-view-container" class="app-view-section hidden">
+                <div id="dashboard-content-container">
+                    <!-- Injected dynamically by DashboardManager -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Cozy Footer -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Reggenza verbale, nominale e aggettivale italiana. 100% offline &amp; privato.</p>
+        </footer>
+    </div>
+
+    <script src="js/spaced_repetition.js"></script>
+    <script src="js/practice.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="../shared/js/languages.js"></script>
+    <script src="../shared/js/i18n.js"></script>
+    <script src="../shared/js/ui.js"></script>
+</body>
+</html>
