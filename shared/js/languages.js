@@ -16,7 +16,8 @@ window.TRANSLATION_MAP = {
     'ka': 'js/data/kartvelian/ka/translations.js',
     'tt': 'js/data/turkic/tt/translations.js',
     'ba': 'js/data/turkic/ba/translations.js',
-    'br': 'js/data/celtic/br/translations.js'
+    'br': 'js/data/celtic/br/translations.js',
+    'cv': 'js/data/turkic/cv/translations.js'
 };
 
 // Master language registry.
@@ -25,19 +26,20 @@ window.TRANSLATION_MAP = {
 // James controls when a language moves from coming_soon to active.
 
 window.COSY_LANGUAGES = [
-  { code: 'en', name: 'English',    native: 'English',     status: 'active',       flag: '🇬🇧', family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true  },
-  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',       flag: '🇫🇷', family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true  },
-  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',       flag: '🇮🇹', family: 'romance',  img: 'cosyitalian.png',   has_cases: false, has_data: true  },
-  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',       flag: '🇷🇺', family: 'slavic',   img: 'cosyrussian.png',   has_cases: true,  has_data: true  },
-  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',       flag: '🇬🇷', family: 'hellenic', img: 'cosygreek.png',     has_cases: true,  has_data: true  },
-  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming_soon',  flag: '🇪🇸', family: 'romance',  img: 'cosyspanish.png',   has_cases: false, has_data: true  },
-  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming_soon',  flag: '🇩🇪', family: 'germanic', img: 'cosygerman.png',    has_cases: true,  has_data: true  },
-  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming_soon',  flag: '🇵🇹', family: 'romance',  img: 'cosyportugese.png', has_cases: false, has_data: true  },
-  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming_soon',  flag: '🇦🇲', family: 'armenian', img: 'cosyarmenian.png',  has_cases: true,  has_data: true  },
-  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming_soon',  flag: '🇬🇪', family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_data: true  },
-  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosytatar.png',     has_cases: true,  has_data: true  },
-  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosybachkir.png',   has_cases: true,  has_data: true  },
-  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming_soon',  flag: '🏴', family: 'celtic',    img: 'cosybreton.png',    has_cases: false, has_data: true  },
+  { code: 'en', name: 'English',    native: 'English',     status: 'active',       flag: '🇬🇧', family: 'germanic',   img: 'cosyenglish.png',   has_cases: false, has_gender: false, has_data: true  },
+  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',       flag: '🇫🇷', family: 'romance',    img: 'cosyfrench.png',    has_cases: false, has_gender: true,  has_data: true  },
+  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',       flag: '🇮🇹', family: 'romance',    img: 'cosyitalian.png',   has_cases: false, has_gender: true,  has_data: true  },
+  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',       flag: '🇷🇺', family: 'slavic',     img: 'cosyrussian.png',   has_cases: true,  has_gender: true,  has_data: true  },
+  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',       flag: '🇬🇷', family: 'hellenic',   img: 'cosygreek.png',     has_cases: true,  has_gender: true,  has_data: true  },
+  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'active',       flag: '🇪🇸', family: 'romance',    img: 'cosyspanish.png',   has_cases: false, has_gender: true,  has_data: true  },
+  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'active',       flag: '🇩🇪', family: 'germanic',   img: 'cosygerman.png',    has_cases: true,  has_gender: true,  has_data: true  },
+  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'active',       flag: '🇵🇹', family: 'romance',    img: 'cosyportugese.png', has_cases: false, has_gender: true,  has_data: true  },
+  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'active',       flag: '🇦🇲', family: 'armenian',   img: 'cosyarmenian.png',  has_cases: true,  has_gender: false, has_data: true  },
+  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'active',       flag: '🇬🇪', family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_gender: false, has_data: true  },
+  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'active',       flag: '🏴', family: 'turkic',      img: 'cosytatar.png',     has_cases: true,  has_gender: false, has_data: true  },
+  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'active',       flag: '🏴', family: 'turkic',      img: 'cosybachkir.png',   has_cases: true,  has_gender: false, has_data: true  },
+  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'active',       flag: '🏴', family: 'celtic',      img: 'cosybreton.png',    has_cases: false, has_gender: true,  has_data: true  },
+  { code: 'cv', name: 'Chuvash',    native: 'Чӑвашла',    status: 'active',       flag: '🏴', family: 'turkic',      img: 'cosychuvash.png',   has_cases: true,  has_gender: false, has_data: true  },
 ];
 
 window.COSY_LEVELS = [
