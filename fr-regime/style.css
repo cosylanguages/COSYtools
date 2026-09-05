@@ -1,30 +1,30 @@
 :root {
-    --sage-primary: #2d5a27;
-    --sage-dark: #1b4332;
-    --sage-light: #e8f0e9;
-    --terracotta: #b84d2a;
-    --cream-bg: #fcfbfa;
-    --cream-card: #ffffff;
-    --ink: #1e2923;
-    --ink-muted: #526057;
-    --border-color: #e1e8e3;
+    --sage-primary: var(--sage);
+    --sage-dark: var(--sage-dark);
+    --sage-light: var(--sage-light);
+    --terracotta: var(--coral);
+    --cream-bg: var(--paper-bg);
+    --cream-card: var(--surface-color);
+    --ink: var(--ink);
+    --ink-muted: var(--ink-soft);
+    --border-color: var(--border);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
-    --blue-vt: #2563eb;
-    --orange-vi: #ea580c;
-    --purple-both: #7c3aed;
-    --gold-cefr: #a85d00;
-    --teal-sep: #0d9488;
+    --blue-vt: var(--blue);
+    --orange-vi: var(--coral);
+    --purple-both: var(--ire-col);
+    --gold-cefr: var(--honey);
+    --teal-sep: var(--sage);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --sage-primary: #86d277;
-        --sage-dark: #a8e6cf;
-        --cream-bg: #121815;
-        --cream-card: #1c2420;
-        --ink: #f0f4f1;
-        --ink-muted: #a3b3a7;
-        --border-color: #2e3b33;
+        --sage-primary: var(--sage);
+        --sage-dark: var(--sage-dark);
+        --cream-bg: var(--paper-bg);
+        --cream-card: var(--surface-color);
+        --ink: var(--ink);
+        --ink-muted: var(--ink-soft);
+        --border-color: var(--border);
         --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
 }
@@ -35,9 +35,15 @@
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: var(--cream-bg);
+    font-family: var(--font-sans);
+    background: var(--paper-gradient, var(--cream-bg));
+    background-attachment: fixed;
     color: var(--ink);
     line-height: 1.6;
     padding: 1rem;
@@ -118,7 +124,7 @@ body {
 
 .mode-btn.active {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* SRS Stats Bar */
@@ -187,7 +193,7 @@ body {
 
 .dashboard-btn:hover {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* Launcher Card */
@@ -235,7 +241,7 @@ body {
 
 .launcher-pill:hover, .launcher-pill.active {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     border-color: var(--sage-primary);
 }
 
@@ -246,7 +252,7 @@ body {
 
 .weak-pill.active, .weak-pill:hover {
     background: var(--terracotta);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 .start-session-btn {
@@ -255,7 +261,7 @@ body {
     border-radius: 14px;
     border: none;
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
@@ -319,7 +325,7 @@ body {
 .submit-input-btn {
     min-width: 120px;
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* Nudge Card */
@@ -477,7 +483,7 @@ body {
 
 .type-tab-btn.active {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     box-shadow: 0 2px 8px rgba(45, 90, 39, 0.2);
 }
 
@@ -502,7 +508,7 @@ body {
 
 .filter-pill:hover, .filter-pill.active {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     border-color: var(--sage-primary);
 }
 
@@ -743,7 +749,7 @@ body {
 
 .ref-chip:hover {
     background: var(--gold-cefr);
-    color: #ffffff;
+    color: var(--warm-white);
     transform: translateY(-1px);
 }
 
@@ -872,15 +878,15 @@ body {
 }
 
 .feedback-card.correct {
-    background: #d1fae5;
-    color: #065f46;
-    border: 1px solid #a7f3d0;
+    background: var(--green-light);
+    color: var(--sage-dark);
+    border: 1px solid var(--border);
 }
 
 .feedback-card.wrong {
-    background: #fee2e2;
-    color: #991b1b;
-    border: 1px solid #fca5a5;
+    background: var(--rose-light);
+    color: var(--rose);
+    border: 1px solid var(--border);
 }
 
 .game-btn {
@@ -890,7 +896,7 @@ body {
     border-radius: 12px;
     border: none;
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
@@ -951,7 +957,7 @@ body {
 
 .tag-btn:hover, .antonym-pill:hover {
     background: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 .pills-list {

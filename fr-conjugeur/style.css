@@ -3,17 +3,17 @@
    ========================================================================== */
 
 :root {
-    --sage-primary: #1b4332;
-    --sage-dark: #081c15;
-    --sage-light: #2d6a4f;
-    --cream-bg: #fdfbf7;
-    --cream-card: #f4f0ea;
-    --ink-text: #212529;
-    --ink-muted: #555b62;
-    --terracotta: #b7094c;
-    --ending-highlight: #7209b7;
-    --accent-gold: #d4a373;
-    --border-color: #e0d8cc;
+    --sage-primary: var(--sage);
+    --sage-dark: var(--sage-dark);
+    --sage-light: var(--sage-light);
+    --cream-bg: var(--paper-bg);
+    --cream-card: var(--surface-color);
+    --ink-text: var(--ink);
+    --ink-muted: var(--ink-soft);
+    --terracotta: var(--coral);
+    --ending-highlight: var(--ire-col);
+    --accent-gold: var(--honey);
+    --border-color: var(--border);
     --shadow-soft: 0 4px 15px rgba(27, 67, 50, 0.06);
     --shadow-hover: 0 8px 25px rgba(27, 67, 50, 0.12);
     --radius-card: 16px;
@@ -24,7 +24,7 @@
     --space-lg: 1rem;
     --space-xl: 1.5rem;
     --space-2xl: 2rem;
-    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-main: var(--font-sans);
 }
 
 /* Base Body Setup */
@@ -34,8 +34,14 @@
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+}
+
 body {
-    background-color: var(--cream-bg);
+    background: var(--paper-gradient, var(--cream-bg));
+    background-attachment: fixed;
     color: var(--ink-text);
     font-family: var(--font-main);
     line-height: 1.6;
@@ -114,12 +120,12 @@ body {
 
 .mode-toggle-btn:hover {
     background-color: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 .install-pwa-btn {
     background-color: var(--sage-primary);
-    color: #fff;
+    color: var(--warm-white);
     border: none;
     padding: 0.6rem 1.2rem;
     border-radius: var(--radius-pill);
@@ -143,7 +149,7 @@ body {
 .search-box {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--surface-color);
     border: 2px solid var(--border-color);
     border-radius: var(--radius-pill);
     padding: 0.5rem 1.2rem;
@@ -190,7 +196,7 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    background: #ffffff;
+    background: var(--surface-color);
     border: 1px solid var(--border-color);
     border-radius: 12px;
     margin-top: 0.5rem;
@@ -215,7 +221,7 @@ body {
 
 /* Practice Game Card */
 .game-card {
-    background: #ffffff;
+    background: var(--surface-color);
     border: 2px solid var(--accent-gold);
     border-radius: var(--radius-card);
     padding: 2rem;
@@ -315,7 +321,7 @@ body {
 
 .game-btn {
     background-color: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
     border: none;
     padding: 0.8rem 1.8rem;
     border-radius: var(--radius-pill);
@@ -338,7 +344,7 @@ body {
 
 .secondary-btn:hover {
     background-color: var(--accent-gold);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 .feedback-card {
@@ -350,20 +356,20 @@ body {
 }
 
 .feedback-card.correct {
-    background-color: #d4edda;
-    color: #155724;
-    border: 1px solid #c3e6cb;
+    background-color: var(--green-light);
+    color: var(--sage-dark);
+    border: 1px solid var(--border);
 }
 
 .feedback-card.wrong {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
+    background-color: var(--rose-light);
+    color: var(--rose);
+    border: 1px solid var(--border);
 }
 
 /* Verb Result Display Card */
 .verb-result-card {
-    background: #ffffff;
+    background: var(--surface-color);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-card);
     padding: 2rem;
@@ -402,9 +408,9 @@ body {
 }
 
 .aux-badge {
-    background-color: #e8f5e9;
+    background-color: var(--sage-light);
     color: var(--sage-primary);
-    border-color: #c8e6c9;
+    border-color: var(--border);
 }
 
 .tts-btn {
@@ -421,7 +427,7 @@ body {
 
 .tts-btn:hover {
     background-color: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* Lexical Enrichment Box */
@@ -452,7 +458,7 @@ body {
     align-items: baseline;
     gap: 0.5rem;
     flex-wrap: wrap;
-    background-color: #f0f7f4;
+    background-color: var(--sage-mist);
     padding: 0.4rem 0.8rem;
     border-radius: 8px;
     border-left: 3px solid var(--sage-primary);
@@ -468,7 +474,7 @@ body {
     align-items: baseline;
     gap: 0.5rem;
     flex-wrap: wrap;
-    background-color: #fff8f0;
+    background-color: var(--honey-pale);
     padding: 0.45rem 0.85rem;
     border-radius: 8px;
     border-left: 3px solid var(--terracotta);
@@ -493,7 +499,7 @@ body {
 }
 
 .antonym-pill {
-    background-color: #ffffff;
+    background-color: var(--surface-color);
     border: 1px solid var(--accent-gold);
     color: var(--sage-dark);
     padding: 0.2rem 0.7rem;
@@ -506,7 +512,7 @@ body {
 
 .antonym-pill:hover {
     background-color: var(--accent-gold);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* Pattern Recognition: Color-Coded Stem & Ending */
@@ -585,7 +591,7 @@ body {
 
 /* Empty State */
 .empty-state-box {
-    background: #ffffff;
+    background: var(--surface-color);
     border: 2px dashed var(--border-color);
     border-radius: var(--radius-card);
     padding: 3rem 2rem;
@@ -634,7 +640,7 @@ body {
 
 .tag-btn:hover {
     background-color: var(--sage-primary);
-    color: #ffffff;
+    color: var(--warm-white);
 }
 
 /* Footer */
@@ -728,24 +734,24 @@ body {
     margin: 16px 0;
 }
 .mc-option-btn {
-    background: var(--cream-card, #fbfbf9);
-    border: 2px solid var(--sage-light, #d8e2dc);
+    background: var(--cream-card, var(--surface-color));
+    border: 2px solid var(--sage-light, var(--border));
     border-radius: 8px;
     padding: 0.75rem 0.875rem;
     font-size: 0.95rem;
     font-weight: 500;
-    color: var(--ink-main, #2b2d42);
+    color: var(--ink-main, var(--ink));
     cursor: pointer;
     transition: all 0.2s ease;
     text-align: left;
 }
 .mc-option-btn:hover {
-    border-color: var(--terracotta, #e07a5f);
-    background: #fff;
+    border-color: var(--terracotta, var(--coral));
+    background: var(--surface-color);
     transform: translateY(-2px);
 }
 .active-mode {
-    background: var(--terracotta, #e07a5f) !important;
-    color: #fff !important;
+    background: var(--terracotta, var(--coral)) !important;
+    color: var(--warm-white) !important;
     cursor: pointer;
 }
