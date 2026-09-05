@@ -1,0 +1,3762 @@
+{
+  "aimer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "aimer [quelqu'un / quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Éprouver de l'affection, de l'attirance ou du goût pour quelqu'un ou quelque chose.",
+    "grammar_rule": "Verbe transitif direct : aucun emploi de préposition (« à » ou « de ») devant le complément d'objet direct ou l'infinitif.",
+    "noun_parallel": "⚡ Verbe : 'J'aime le chocolat' ➜ Nom : 'Mon amour POUR le chocolat'",
+    "examples": [
+      "J'aime le chocolat chaud en hiver.",
+      "Elle aime lire des romans le soir."
+    ],
+    "common_mistake": "❌ J'aime de lire des livres. ➜ ✅ J'aime lire des livres.",
+    "synonyms": [
+      "adorer",
+      "apprécier"
+    ],
+    "antonyms": [
+      "détester",
+      "haïr"
+    ]
+  },
+  "aller": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "aller à [lieu / événement]",
+    "level": "A1",
+    "definition": "Se déplacer vers un lieu ou se rendre à une activité.",
+    "grammar_rule": "Régime prépositionnel « à » pour la destination. Contraction obligatoire avec l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "",
+    "examples": [
+      "Je vais au cinéma ce soir avec mes amis.",
+      "Nous allons à la plage tous les étés."
+    ],
+    "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+    "synonyms": [
+      "se rendre",
+      "partir"
+    ],
+    "antonyms": [
+      "venir",
+      "rester"
+    ]
+  },
+  "apprendre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "apprendre à [faire quelque chose]",
+    "level": "A1",
+    "definition": "Acquérir la connaissance ou le savoir-faire d'une activité.",
+    "grammar_rule": "Demande la préposition « à » devant un infinitif. Devant un nom, contraction obligatoire : à + le = au, à + les = aux (s'entraîner au français).",
+    "noun_parallel": "⚡ Verbe : 'Apprendre à conduire' ➜ Nom : 'L'apprentissage DE la conduite'",
+    "examples": [
+      "Mon fils apprend à nager à la piscine.",
+      "Elle apprend le français à l'université."
+    ],
+    "common_mistake": "❌ Il apprend de conduire sa voiture. ➜ ✅ Il apprend à conduire sa voiture.",
+    "synonyms": [
+      "étudier",
+      "s'instruire"
+    ],
+    "antonyms": [
+      "enseigner",
+      "oublier"
+    ]
+  },
+  "attendre": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "attendre [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Rester dans un lieu jusqu'à ce que quelqu'un ou quelque chose arrive.",
+    "grammar_rule": "Piège transitif direct ! Contrairement à l'anglais 'wait for', attendre ne prend JAMAIS de préposition ('pour' ou 'à').",
+    "noun_parallel": "⚡ Verbe : 'J'attends le bus' ➜ Nom : 'L'attente DU bus'",
+    "examples": [
+      "J'attends le bus depuis dix minutes.",
+      "Elle attend son ami devant la gare."
+    ],
+    "common_mistake": "❌ J'attends pour le bus. ➜ ✅ J'attends le bus.",
+    "synonyms": [
+      "patienter"
+    ],
+    "antonyms": [
+      "partir",
+      "se précipiter"
+    ]
+  },
+  "avoir besoin": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "avoir besoin de [quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Éprouver la nécessité ou le manque de quelque chose.",
+    "grammar_rule": "Régime obligatoire « de ». Devant un nom défini, contraction systématique : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Avoir besoin d'aide' ➜ Nom : 'Le besoin D'aide'",
+    "examples": [
+      "J'ai besoin du dossier médical d'urgence.",
+      "Nous avons besoin de prendre des vacances."
+    ],
+    "common_mistake": "❌ J'ai besoin à travailler. ➜ ✅ J'ai besoin de travailler.",
+    "synonyms": [
+      "nécessiter",
+      "manquer de"
+    ],
+    "antonyms": [
+      "se passer de"
+    ]
+  },
+  "avoir envie": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "avoir envie de [quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Ressentir un désir ou un souhait immédiat.",
+    "grammar_rule": "Régime obligatoire « de ». Devant un nom masculin ou pluriel, contraction obligatoire : de + le = du, de + les = des.",
+    "noun_parallel": "",
+    "examples": [
+      "J'ai envie d'un bon café bien chaud.",
+      "Elle a envie du dernier gâteau de la boulangerie."
+    ],
+    "common_mistake": "❌ J'ai envie à sortir ce soir. ➜ ✅ J'ai envie de sortir ce soir.",
+    "synonyms": [
+      "désirer",
+      "souhaiter"
+    ],
+    "antonyms": [
+      "refuser",
+      "détester"
+    ]
+  },
+  "avoir peur": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "avoir peur de [quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Éprouver une crainte ou une frayeur face à un danger.",
+    "grammar_rule": "Régime « de ». Contraction obligatoire devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Avoir peur du noir' ➜ Nom : 'La peur DU noir'",
+    "examples": [
+      "Le petit garçon a peur du noir.",
+      "Elle a peur de rater son train."
+    ],
+    "common_mistake": "❌ Il a peur à conduire la nuit. ➜ ✅ Il a peur de conduire la nuit.",
+    "synonyms": [
+      "craindre",
+      "redouter"
+    ],
+    "antonyms": [
+      "affronter",
+      "braver"
+    ]
+  },
+  "chercher": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "chercher [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Tenter de trouver une personne, un objet ou une solution.",
+    "grammar_rule": "Piège transitif direct ! Contrairement à l'anglais 'look for', chercher ne prend AUCUNE préposition ('pour' ou 'après').",
+    "noun_parallel": "⚡ Verbe : 'Chercher un emploi' ➜ Nom : 'La recherche D'un emploi'",
+    "examples": [
+      "Je cherche mes clés de voiture partout.",
+      "Elle cherche un nouvel appartement en ville."
+    ],
+    "common_mistake": "❌ Je cherche pour mes clés. ➜ ✅ Je cherche mes clés.",
+    "synonyms": [
+      "rechercher",
+      "traquer"
+    ],
+    "antonyms": [
+      "trouver",
+      "abandonner"
+    ]
+  },
+  "commencer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "commencer à [faire quelque chose]",
+    "level": "A1",
+    "definition": "Debuter une action ou un processus.",
+    "grammar_rule": "Demande la préposition « à » devant un verbe à l'infinitif. Devant un nom, contraction obligatoire : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Commencer à lire' ➜ Nom : 'Le commencement DU livre'",
+    "examples": [
+      "Il commence à pleuvoir sur la ville.",
+      "Nous commençons au début du chapitre."
+    ],
+    "common_mistake": "❌ Elle commence de parler français. ➜ ✅ Elle commence à parler français.",
+    "synonyms": [
+      "débuter",
+      "entamer"
+    ],
+    "antonyms": [
+      "finir",
+      "terminer"
+    ]
+  },
+  "demander": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "demander [quelque chose] à [quelqu'un]",
+    "level": "A1",
+    "definition": "Solliciter un objet, une information ou un service auprès de quelqu'un.",
+    "grammar_rule": "Piège de double construction : la chose demandée est COD direct (SANS préposition), tandis que la personne est COI avec « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Demander de l'aide à son voisin' ➜ Nom : 'La demande D'aide'",
+    "examples": [
+      "Il demande l'heure au passant.",
+      "Je demande à mon frère de m'aider."
+    ],
+    "common_mistake": "❌ Je demande pour une question à le professeur. ➜ ✅ Je pose une question au professeur. (ou : Je demande de l'aide au professeur.)",
+    "synonyms": [
+      "solliciter",
+      "prier"
+    ],
+    "antonyms": [
+      "donner",
+      "répondre"
+    ]
+  },
+  "écouter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "écouter [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Prêter l'oreille pour entendre un son, de la musique ou une personne.",
+    "grammar_rule": "Piège transitif direct ! Ne dites pas 'écouter à' (calque de l'anglais 'listen to'). Aucun emploi de préposition.",
+    "noun_parallel": "⚡ Verbe : 'Écouter la radio' ➜ Nom : 'L'écoute DE la radio'",
+    "examples": [
+      "J'écoute de la musique classique pour réviser.",
+      "Écoutez le professeur attentivement !"
+    ],
+    "common_mistake": "❌ J'écoute à la musique. ➜ ✅ J'écoute la musique.",
+    "synonyms": [
+      "entendre",
+      "prêter l'oreille"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "habiter": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "habiter à / en / dans [lieu]",
+    "level": "A1",
+    "definition": "Resider ou avoir son domicile dans une ville ou un pays.",
+    "grammar_rule": "Utilise « à » devant les villes (habiter à Paris) et « en/dans » devant les pays/régions. Devant un nom avec article, contraction : à + le = au (au Japon).",
+    "noun_parallel": "",
+    "examples": [
+      "J'habite à Lyon depuis deux ans.",
+      "Ils habitent au Canada."
+    ],
+    "common_mistake": "❌ J'habite dans Paris. ➜ ✅ J'habite à Paris.",
+    "synonyms": [
+      "résider",
+      "loger"
+    ],
+    "antonyms": [
+      "déménager",
+      "quitter"
+    ]
+  },
+  "jouer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "jouer à [jeu / sport] vs jouer de [instrument]",
+    "level": "A1",
+    "definition": "Pratiquer un jeu, un sport (jouer à) OU jouer d'un instrument de musique (jouer de).",
+    "grammar_rule": "Règle clé : « à » pour les sports/jeux (jouer au football, aux cartes ; contractions au/aux) VS « de » pour la musique (jouer du piano, de la guitare ; contractions du/des).",
+    "noun_parallel": "⚡ Verbe : 'Jouer au tennis / jouer du piano' ➜ Nom : 'Le jeu / Le joueur'",
+    "examples": [
+      "Mon frère joue au basket le samedi.",
+      "Elle joue du piano depuis son enfance."
+    ],
+    "common_mistake": "❌ Il joue de le football et à la guitare. ➜ ✅ Il joue au football et de la guitare.",
+    "synonyms": [
+      "pratiquer",
+      "interpréter"
+    ],
+    "antonyms": [
+      "arrêter"
+    ]
+  },
+  "manger": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "manger [quelque chose]",
+    "level": "A1",
+    "definition": "Absorber des aliments solides pour se nourrir.",
+    "grammar_rule": "Verbe transitif direct : le complément se joint directement sans préposition (ex. manger une pomme, manger du pain avec article partitif).",
+    "noun_parallel": "",
+    "examples": [
+      "Nous mangeons de la soupe chaude à midi.",
+      "Il aime manger des fruits frais."
+    ],
+    "common_mistake": "❌ Je mange de la pomme à le matin. ➜ ✅ Je mange une pomme le matin.",
+    "synonyms": [
+      "consommer",
+      "dévorer"
+    ],
+    "antonyms": [
+      "jeûner"
+    ]
+  },
+  "obéir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "obéir à [quelqu'un / une règle]",
+    "level": "A1",
+    "definition": "Exécuter les ordres ou se soumettre aux règles.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions systématiques devant les noms masculins et pluriels : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Obéir aux règles' ➜ Nom : 'L'obéissance AUX règles'",
+    "examples": [
+      "Les chiens doivent obéir à leur maître.",
+      "Il faut obéir au code de la route."
+    ],
+    "common_mistake": "❌ Il faut obéir le professeur. ➜ ✅ Il faut obéir au professeur.",
+    "synonyms": [
+      "se soumettre",
+      "écouter"
+    ],
+    "antonyms": [
+      "désobéir",
+      "enfreindre"
+    ]
+  },
+  "parler": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "parler à [quelqu'un] / parler de [sujet]",
+    "level": "A1",
+    "definition": "S'adresser à une personne (parler à) ou aborder un sujet/lieu (parler de).",
+    "grammar_rule": "Double régime : « à » indique le destinataire (parler au voisin ; contractions au/aux), « de » indique le thème/sujet (parler du projet ; contractions du/des).",
+    "noun_parallel": "⚡ Verbe : 'Parler au directeur de la crise' ➜ Nom : 'La parole / La discussion'",
+    "examples": [
+      "Je parle au médecin de mon mal de dos.",
+      "Elle parle de ses vacances à ses collègues."
+    ],
+    "common_mistake": "❌ Je parle de mon ami au téléphone. ➜ ✅ Je parle à mon ami au téléphone.",
+    "synonyms": [
+      "discuter",
+      "s'adresser à"
+    ],
+    "antonyms": [
+      "se taire"
+    ]
+  },
+  "penser": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "penser à [quelqu'un / verbe] vs penser de [avis]",
+    "level": "A1",
+    "definition": "Avoir à l'esprit (penser à) VS exprimer un avis/jugement (penser de).",
+    "grammar_rule": "Distinction majeure : « penser à » = réflexion/souvenir (Je pense à mon avenir ; contractions au/aux). « penser de » = opinion (Que pensez-vous du film ? ; contractions du/des).",
+    "noun_parallel": "⚡ Verbe : 'Penser au projet' ➜ Nom : 'La pensée'",
+    "examples": [
+      "Je pense souvent à mes amis d'enfance.",
+      "Que pensez-vous de cette nouvelle offre ?"
+    ],
+    "common_mistake": "❌ Que pensez-vous à ce livre ? ➜ ✅ Que pensez-vous de ce livre ?",
+    "synonyms": [
+      "réfléchir à",
+      "songer à"
+    ],
+    "antonyms": [
+      "oublier"
+    ]
+  },
+  "préférer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "préférer [quelque chose] à [autre chose]",
+    "level": "A1",
+    "definition": "Aimer mieux une personne ou une chose qu'une autre.",
+    "grammar_rule": "Le premier élément est COD direct (SANS préposition). La comparaison utilise « à » (préférer le thé au café ; contraction au/aux).",
+    "noun_parallel": "",
+    "examples": [
+      "Je préfère le thé chaud au café amertume.",
+      "Elle préfère lire plutôt que regarder la télé."
+    ],
+    "common_mistake": "❌ Je préfère le thé de le café. ➜ ✅ Je préfère le thé au café.",
+    "synonyms": [
+      "aimer mieux",
+      "favoriser"
+    ],
+    "antonyms": [
+      "détester"
+    ]
+  },
+  "regarder": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "regarder [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Porter ses yeux sur quelqu'un ou quelque chose.",
+    "grammar_rule": "Piège transitif direct ! Ne dites jamais 'regarder à' (calque de l'anglais 'look at'). Aucun emploi de préposition.",
+    "noun_parallel": "⚡ Verbe : 'Regarder un film' ➜ Nom : 'Le regard'",
+    "examples": [
+      "Nous regardons un film intéressant ce soir.",
+      "Elle regarde les étoiles dans le ciel."
+    ],
+    "common_mistake": "❌ Regarde à cette image ! ➜ ✅ Regarde cette image !",
+    "synonyms": [
+      "observer",
+      "fixer"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "répondre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "répondre à [quelqu'un / une question]",
+    "level": "A1",
+    "definition": "Donner une réponse à une question, une lettre ou un appel.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contraction systématique avec l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Répondre au message' ➜ Nom : 'La réponse AU message'",
+    "examples": [
+      "Le candidat répond aux questions du jury.",
+      "N'oublie pas de répondre au téléphone."
+    ],
+    "common_mistake": "❌ J'ai répondu la lettre hier. ➜ ✅ J'ai répondu à la lettre hier.",
+    "synonyms": [
+      "répliquer",
+      "rétorquer"
+    ],
+    "antonyms": [
+      "questionner",
+      "demander"
+    ]
+  },
+  "s'appeler": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "s'appeler [prénom / nom]",
+    "level": "A1",
+    "definition": "Avoir pour nom ou prénom.",
+    "grammar_rule": "Verbe pronominal transitif direct : aucun emploi de préposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'appelle Thomas et je suis étudiant.",
+      "Comment s'appelle votre nouveau collègue ?"
+    ],
+    "common_mistake": "❌ Je m'appelle à Thomas. ➜ ✅ Je m'appelle Thomas.",
+    "synonyms": [
+      "se nommer"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "s'intéresser": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'intéresser à [quelque chose / quelqu'un]",
+    "level": "A1",
+    "definition": "Porter de la curiosité ou de l'attention à un sujet.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « à ». Contractions obligatoires devant les noms masculins/pluriels : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'intéresser à l'art' ➜ Nom : 'L'intérêt POUR l'art'",
+    "examples": [
+      "Elle s'intéresse à l'histoire de la peinture.",
+      "Mon fils s'intéresse aux sciences physiques."
+    ],
+    "common_mistake": "❌ Il s'intéresse de la musique. ➜ ✅ Il s'intéresse à la musique.",
+    "synonyms": [
+      "se passionner pour",
+      "étudier"
+    ],
+    "antonyms": [
+      "se désintéresser de"
+    ]
+  },
+  "se laver": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se laver [les mains / les cheveux]",
+    "level": "A1",
+    "definition": "Nettoyer son corps ou une partie de son corps.",
+    "grammar_rule": "Verbe pronominal transitif direct. Ne prenez pas de préposition avant la partie du corps (se laver les mains).",
+    "noun_parallel": "",
+    "examples": [
+      "Il faut se laver les mains avant de manger.",
+      "Elle se lave les cheveux tous les deux jours."
+    ],
+    "common_mistake": "❌ Elle se lave de ses mains. ➜ ✅ Elle se lave les mains.",
+    "synonyms": [
+      "se nettoyer",
+      "se faire la toilette"
+    ],
+    "antonyms": [
+      "se salir"
+    ]
+  },
+  "se lever": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se lever (à [heure])",
+    "level": "A1",
+    "definition": "Quitter son lit ou se mettre debout.",
+    "grammar_rule": "Verbe pronominal intransitif. L'indication d'heure utilise la préposition « à » (se lever à sept heures).",
+    "noun_parallel": "",
+    "examples": [
+      "Je me lève à six heures du matin en semaine.",
+      "Elle se lève doucement de sa chaise."
+    ],
+    "common_mistake": "❌ Je me lève dans sept heures. ➜ ✅ Je me lève à sept heures.",
+    "synonyms": [
+      "s'éveiller",
+      "se mettre debout"
+    ],
+    "antonyms": [
+      "se coucher",
+      "s'asseoir"
+    ]
+  },
+  "se promener": {
+    "prepositions": [
+      "dans"
+    ],
+    "pronominal": true,
+    "pattern": "se promener dans / à [lieu]",
+    "level": "A1",
+    "definition": "Faire une marche de détente dans un lieu.",
+    "grammar_rule": "Verbe pronominal utilisant « dans » ou « à » selon le lieu (se promener dans le parc / au bord de la mer ; contraction à + le = au).",
+    "noun_parallel": "",
+    "examples": [
+      "Nous nous promenons dans le parc tous les dimanches.",
+      "Ils se promènent au bord du lac."
+    ],
+    "common_mistake": "❌ Nous nous promenons à le parc. ➜ ✅ Nous nous promenons au parc (ou dans le parc).",
+    "synonyms": [
+      "déambuler",
+      "se balader"
+    ],
+    "antonyms": [
+      "rester enfermé"
+    ]
+  },
+  "téléphoner": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "téléphoner à [quelqu'un]",
+    "level": "A1",
+    "definition": "Appeler une personne au moyen du téléphone.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à » (téléphoner à quelqu'un). Contractions systématiques : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Téléphoner au client' ➜ Nom : 'Un coup de téléphone AU client'",
+    "examples": [
+      "Je téléphone à ma mère tous les soirs.",
+      "Le secrétaire téléphone au médecin pour un rendez-vous."
+    ],
+    "common_mistake": "❌ Je téléphone ma mère ce soir. ➜ ✅ Je téléphone à ma mère ce soir.",
+    "synonyms": [
+      "appeler",
+      "joindre"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "venir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "venir de [lieu / verbe]",
+    "level": "A1",
+    "definition": "Provenir d'un endroit OU venir de faire quelque chose (passé récent).",
+    "grammar_rule": "Régime prépositionnel « de ». Contractions obligatoires avec l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Venir du bureau' ➜ Nom : 'La venue / L'origine'",
+    "examples": [
+      "Il vient du Japon pour ses études.",
+      "Je viens de terminer mon travail."
+    ],
+    "common_mistake": "❌ Il vient à Paris (pour dire sa provenance). ➜ ✅ Il vient de Paris.",
+    "synonyms": [
+      "provenir de",
+      "arriver de"
+    ],
+    "antonyms": [
+      "partir de",
+      "s'éloigner de"
+    ]
+  },
+  "voir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "voir [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Percevoir par les yeux ou rencontrer quelqu'un.",
+    "grammar_rule": "Verbe transitif direct sans préposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Je vois mon ami ce week-end à Paris.",
+      "Elle voit les montagnes depuis sa fenêtre."
+    ],
+    "common_mistake": "❌ Je vois à mon ami ce soir. ➜ ✅ Je vois mon ami ce soir.",
+    "synonyms": [
+      "apercevoir",
+      "rencontrer"
+    ],
+    "antonyms": [
+      "aveugler",
+      "ignorer"
+    ]
+  },
+  "vouloir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "vouloir [quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Avoir le désir ou la volonté d'obtenir quelque chose ou de faire une action.",
+    "grammar_rule": "Verbe transitif direct. Suivi directement d'un nom ou d'un infinitif sans préposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Je veux apprendre le français rapidement.",
+      "Il veut un verre d'eau fraîche."
+    ],
+    "common_mistake": "❌ Je veux de manger une pomme. ➜ ✅ Je veux manger une pomme.",
+    "synonyms": [
+      "désirer",
+      "souhaiter"
+    ],
+    "antonyms": [
+      "refuser",
+      "rejeter"
+    ]
+  },
+  "acheter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "acheter [quelque chose] à [quelqu'un]",
+    "level": "A1",
+    "definition": "Acquérir un bien en payant un prix.",
+    "grammar_rule": "La chose achetée est COD direct. Le vendeur/commerçant est introduit par « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Acheter du pain au boulanger' ➜ Nom : 'L'achat DU pain'",
+    "examples": [
+      "J'achète des légumes au marché.",
+      "Elle achète un cadeau à son frère."
+    ],
+    "common_mistake": "❌ J'achète pour des fruits de le marchand. ➜ ✅ J'achète des fruits au marchand.",
+    "synonyms": [
+      "acquérir",
+      "procurer"
+    ],
+    "antonyms": [
+      "vendre"
+    ]
+  },
+  "aider": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "aider [quelqu'un] à [faire quelque chose]",
+    "level": "A1",
+    "definition": "Apporter son assistance à une personne pour accomplir une tâche.",
+    "grammar_rule": "Construction : aider QUELQU'UN (COD direct) À FAIRE quelque chose (préposition « à » devant l'infinitif).",
+    "noun_parallel": "⚡ Verbe : 'Aider un ami à déménager' ➜ Nom : 'L'aide À un ami'",
+    "examples": [
+      "J'aide mon fils à faire ses devoirs.",
+      "Elle aide sa voisine à porter ses courses."
+    ],
+    "common_mistake": "❌ J'aide mon ami de faire ses devoirs. ➜ ✅ J'aide mon ami à faire ses devoirs.",
+    "synonyms": [
+      "assister",
+      "seconder"
+    ],
+    "antonyms": [
+      "nuire à",
+      "entraver"
+    ]
+  },
+  "adorer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "adorer [quelqu'un / quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Aimer passionnément ou trouver extrêmement agréable.",
+    "grammar_rule": "Verbe transitif direct : aucun emploi de préposition devant le complément ou l'infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "J'adore voyager dans des pays étrangers.",
+      "Elle adore le fromage français."
+    ],
+    "common_mistake": "❌ J'adore de voyager en France. ➜ ✅ J'adore voyager en France.",
+    "synonyms": [
+      "raffoler de",
+      "aimer"
+    ],
+    "antonyms": [
+      "détester",
+      "abhorrer"
+    ]
+  },
+  "détester": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "détester [quelqu'un / quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Avoir une très forte aversion pour quelqu'un ou quelque chose.",
+    "grammar_rule": "Verbe transitif direct : aucune préposition devant le nom ou l'infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Je déteste attendre sous la pluie.",
+      "Il déteste les embouteillages du matin."
+    ],
+    "common_mistake": "❌ Je déteste de faire la vaisselle. ➜ ✅ Je déteste faire la vaisselle.",
+    "synonyms": [
+      "haïr",
+      "excéder"
+    ],
+    "antonyms": [
+      "adorer",
+      "aimer"
+    ]
+  },
+  "inviter": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "inviter [quelqu'un] à [événement / verbe]",
+    "level": "A1",
+    "definition": "Prier quelqu'un de venir à une réunion, une fête ou un repas.",
+    "grammar_rule": "La personne est COD direct. Le lieu ou l'action est introduit par « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Inviter un ami au restaurant' ➜ Nom : 'L'invitation AU restaurant'",
+    "examples": [
+      "Nous invitons nos voisins au dîner.",
+      "Elle invite son amie à célébrer son anniversaire."
+    ],
+    "common_mistake": "❌ Je t'invite de venir à ma fête. ➜ ✅ Je t'invite à venir à ma fête.",
+    "synonyms": [
+      "convier",
+      "prier"
+    ],
+    "antonyms": [
+      "exclure",
+      "chasser"
+    ]
+  },
+  "payer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "payer [quelque chose / quelqu'un]",
+    "level": "A1",
+    "definition": "Donner une somme d'argent en échange d'un bien ou d'un service.",
+    "grammar_rule": "Piège transitif direct ! On dit 'payer l'addition', 'payer le café' (pas de 'pour' comme en anglais 'pay for').",
+    "noun_parallel": "⚡ Verbe : 'Payer le café' ➜ Nom : 'Le paiement DU café'",
+    "examples": [
+      "Je paye l'addition par carte bancaire.",
+      "Il paye le boulanger en espèces."
+    ],
+    "common_mistake": "❌ Je paye pour le café. ➜ ✅ Je paye le café.",
+    "synonyms": [
+      "régler",
+      "acquitter"
+    ],
+    "antonyms": [
+      "encaisser"
+    ]
+  },
+  "travailler": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "travailler à / dans / pour [lieu / entreprise]",
+    "level": "A1",
+    "definition": "Effectuer une activité professionnelle ou un effort.",
+    "grammar_rule": "Intransitif. Utilise « dans » pour les secteurs, « pour » pour les employeurs, et « à » pour les villes/lieux (avec contraction au/aux).",
+    "noun_parallel": "",
+    "examples": [
+      "Elle travaille dans une grande banque.",
+      "Il travaille au ministère des Finances."
+    ],
+    "common_mistake": "❌ Il travaille pour le hôpital. ➜ ✅ Il travaille à l'hôpital.",
+    "synonyms": [
+      "œuvrer",
+      "bosser"
+    ],
+    "antonyms": [
+      "chômer",
+      "se reposer"
+    ]
+  },
+  "visiter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "visiter [un lieu]",
+    "level": "A1",
+    "definition": "Parcourir un endroit, un musée ou une ville pour découvrir ses trésors.",
+    "grammar_rule": "Piège transitif direct ! On visite un LIEU (un musée, Paris). Pour une PERSONNE, on dit 'rendre visite à quelqu'un'.",
+    "noun_parallel": "⚡ Verbe : 'Visiter le musée / Rendre visite au grand-père' ➜ Nom : 'La visite DU musée'",
+    "examples": [
+      "Nous visitons le musée du Louvre ce matin.",
+      "Demain, ils visiteront la cathédrale."
+    ],
+    "common_mistake": "❌ Je vais visiter à mes grands-parents. ➜ ✅ Je vais rendre visite à mes grands-parents. (OU : Je vais visiter mes grands-parents - incorrect en français châtié)",
+    "synonyms": [
+      "explorer",
+      "parcourir"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "poser": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "poser [une question] à [quelqu'un]",
+    "level": "A1",
+    "definition": "Faire entendre ou adresser une question à une personne.",
+    "grammar_rule": "La question est COD direct. La personne interrogée exige la préposition « à » (contractions au/aux).",
+    "noun_parallel": "",
+    "examples": [
+      "L'étudiant pose une question au professeur.",
+      "Puis-je vous poser une question importante ?"
+    ],
+    "common_mistake": "❌ Je pose le professeur une question. ➜ ✅ Je pose une question au professeur.",
+    "synonyms": [
+      "interroger",
+      "demander à"
+    ],
+    "antonyms": [
+      "répondre"
+    ]
+  },
+  "contacter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "contacter [quelqu'un]",
+    "level": "A1",
+    "definition": "Entrer en communication ou joindre une personne.",
+    "grammar_rule": "Piège transitif direct ! Ne dites jamais 'contacter avec quelqu'un'. Le complément s'attache directement.",
+    "noun_parallel": "⚡ Verbe : 'Contacter le service client' ➜ Nom : 'Le contact AVEC le service'",
+    "examples": [
+      "Veuillez contacter le support client par courriel.",
+      "Je vais contacter le directeur demain."
+    ],
+    "common_mistake": "❌ Je vais contacter avec le directeur. ➜ ✅ Je vais contacter le directeur.",
+    "synonyms": [
+      "joindre",
+      "appeler"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "arrêter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "arrêter de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Cesser ou interrompre une action.",
+    "grammar_rule": "Régime obligatoire « de » devant un infinitif. Devant un nom, contraction obligatoire : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Arrêter de fumer' ➜ Nom : 'L'arrêt DU tabac'",
+    "examples": [
+      "Il a décidé d'arrêter de fumer le mois dernier.",
+      "Arrêtez de faire du bruit s'il vous plaît !"
+    ],
+    "common_mistake": "❌ Il arrête à crier. ➜ ✅ Il arrête de crier.",
+    "synonyms": [
+      "cesser",
+      "interrompre"
+    ],
+    "antonyms": [
+      "continuer",
+      "poursuivre"
+    ]
+  },
+  "changer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "changer de [quelque chose]",
+    "level": "A2",
+    "definition": "Remplacer une chose par une autre de même catégorie.",
+    "grammar_rule": "Régime « de » sans article quand on change de train, de voiture, de vêtements. Avec article défini : contractions du/des.",
+    "noun_parallel": "⚡ Verbe : 'Changer de voiture' ➜ Nom : 'Le changement DE voiture'",
+    "examples": [
+      "Nous devons changer de train à la prochaine gare.",
+      "Elle a changé d'avis au dernier moment."
+    ],
+    "common_mistake": "❌ J'ai changé ma voiture pour une neuve (quand on veut dire modifier sa voiture). ➜ ✅ J'ai changé de voiture.",
+    "synonyms": [
+      "modifier",
+      "remplacer"
+    ],
+    "antonyms": [
+      "conserver",
+      "garder"
+    ]
+  },
+  "continuer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "continuer à / de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Poursuivre une action sans s'arrêter.",
+    "grammar_rule": "Utilise principalement « à » (ou « de » en style littéraire) devant un infinitif. Devant un nom masculin/pluriel : contractions au/aux.",
+    "noun_parallel": "⚡ Verbe : 'Continuer à travailler' ➜ Nom : 'La continuation DU travail'",
+    "examples": [
+      "Le vent continue à souffler fort sur la côte.",
+      "Elle continue à étudier malgré la fatigue."
+    ],
+    "common_mistake": "❌ Il continue pour parler. ➜ ✅ Il continue à parler.",
+    "synonyms": [
+      "poursuivre",
+      "persister"
+    ],
+    "antonyms": [
+      "arrêter",
+      "interrompre"
+    ]
+  },
+  "décider": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "décider de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Prendre la résolution d'accomplir une action.",
+    "grammar_rule": "Régime « de » devant l'infinitif. Devant un nom masculin/pluriel, contraction obligatoire : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Décider du sort' ➜ Nom : 'La décision DU conseil'",
+    "examples": [
+      "Nous avons décidé de partir en vacances en Italie.",
+      "Le président décide du calendrier."
+    ],
+    "common_mistake": "❌ J'ai décidé à partir en voyage. ➜ ✅ J'ai décidé de partir en voyage.",
+    "synonyms": [
+      "résoudre",
+      "trancher"
+    ],
+    "antonyms": [
+      "hésiter",
+      "différer"
+    ]
+  },
+  "demander de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "demander à [qqn] de [verbe]",
+    "level": "A2",
+    "definition": "Prier quelqu'un de faire une action.",
+    "grammar_rule": "Construction : demander à QUELQU'UN (COI avec contractions au/aux) de FAIRE quelque chose (préposition « de » devant l'infinitif).",
+    "noun_parallel": "",
+    "examples": [
+      "Le médecin demande au patient de faire des exercices.",
+      "Je demande à mon ami de venir."
+    ],
+    "common_mistake": "❌ Le prof demande aux élèves à lire. ➜ ✅ Le prof demande aux élèves de lire.",
+    "synonyms": [
+      "exiger",
+      "prier"
+    ],
+    "antonyms": [
+      "interdire"
+    ]
+  },
+  "essayer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "essayer de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Faire des efforts ou une tentative pour réussir une action.",
+    "grammar_rule": "Régime obligatoire « de » devant un verbe à l'infinitif. Devant un nom masculin/pluriel : contractions du/des.",
+    "noun_parallel": "⚡ Verbe : 'Essayer un vêtement (COD) / Essayer de réussir (de)' ➜ Nom : 'L'essai DU produit'",
+    "examples": [
+      "J'essaie de comprendre cette règle complexe.",
+      "Elle essaie de contacter le service clients."
+    ],
+    "common_mistake": "❌ J'essaie à parler français. ➜ ✅ J'essaie de parler français.",
+    "synonyms": [
+      "tenter",
+      "s'efforcer"
+    ],
+    "antonyms": [
+      "abandonner",
+      "renoncer"
+    ]
+  },
+  "finir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "finir de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Arriver au terme ou à l'achèvement d'une action.",
+    "grammar_rule": "Demande la préposition « de » devant un infinitif. Devant un nom masculin/pluriel : contractions du/des.",
+    "noun_parallel": "⚡ Verbe : 'Finir le travail (COD) / Finir de manger (de)' ➜ Nom : 'La fin DU cours'",
+    "examples": [
+      "J'ai fini de lire ce roman passionnant.",
+      "Quand finissez-vous de rédiger le rapport ?"
+    ],
+    "common_mistake": "❌ J'ai fini à manger ma soupe. ➜ ✅ J'ai fini de manger ma soupe.",
+    "synonyms": [
+      "terminer",
+      "achever"
+    ],
+    "antonyms": [
+      "commencer",
+      "débuter"
+    ]
+  },
+  "manquer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "manquer de [quelque chose]",
+    "level": "A2",
+    "definition": "Avoir une insuffisance ou une privation de quelque chose.",
+    "grammar_rule": "Régime « de » pour exprimer l'absence/pénurie. Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Manquer de temps' ➜ Nom : 'Le manque DE temps'",
+    "examples": [
+      "Cette ville manque de transports en commun modernes.",
+      "Nous manquons du matériel nécessaire."
+    ],
+    "common_mistake": "❌ Il manque à courage pour réussir. ➜ ✅ Il manque de courage pour réussir.",
+    "synonyms": [
+      "faire défaut",
+      "pâtir de"
+    ],
+    "antonyms": [
+      "déborder de",
+      "regorger de"
+    ]
+  },
+  "oublier": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "oublier de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Ne pas se rappeler d'accomplir une tâche.",
+    "grammar_rule": "Demande la préposition « de » devant l'infinitif. Devant un nom direct, aucun emploi de préposition (oublier ses clés).",
+    "noun_parallel": "⚡ Verbe : 'Oublier ses clés (COD) / Oublier de fermer (de)' ➜ Nom : 'L'oubli DU mot de passe'",
+    "examples": [
+      "N'oublie pas de fermer la porte à clé.",
+      "J'ai oublié de poster la lettre ce matin."
+    ],
+    "common_mistake": "❌ N'oublie pas à éteindre la lumière. ➜ ✅ N'oublie pas d'éteindre la lumière.",
+    "synonyms": [
+      "omettre"
+    ],
+    "antonyms": [
+      "se souvenir de",
+      "se rappeler"
+    ]
+  },
+  "se rappeler": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se rappeler [quelque chose / quelqu'un]",
+    "level": "A2",
+    "definition": "Garder ou faire revenir le souvenir de quelque chose dans sa mémoire.",
+    "grammar_rule": "Piège majeur ! Contrairement à 'se souvenir de', 'se rappeler' est transitif direct (SANS 'de'). On dit 'se rappeler quelque chose'.",
+    "noun_parallel": "⚡ Verbe : 'Se rappeler cette histoire (COD direct) vs Se souvenir DE cette histoire'",
+    "examples": [
+      "Je me rappelle parfaitement cette belle journée.",
+      "Se rappelle-t-il l'adresse du restaurant ?"
+    ],
+    "common_mistake": "❌ Je me rappelle de ce film. ➜ ✅ Je me rappelle ce film. (OU : Je me souviens de ce film.)",
+    "synonyms": [
+      "se souvenir de",
+      "évoquer"
+    ],
+    "antonyms": [
+      "oublier"
+    ]
+  },
+  "se souvenir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se souvenir de [quelque chose / quelqu'un]",
+    "level": "A2",
+    "definition": "Conserver dans sa mémoire le souvenir d'une personne ou d'un événement.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction obligatoire devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se souvenir du voyage' ➜ Nom : 'Le souvenir DU voyage'",
+    "examples": [
+      "Je me souviens très bien du jour de notre rencontre.",
+      "Elle se souvient de ses vacances."
+    ],
+    "common_mistake": "❌ Je me souviens ce moment. ➜ ✅ Je me souviens de ce moment.",
+    "synonyms": [
+      "se rappeler",
+      "garder en mémoire"
+    ],
+    "antonyms": [
+      "oublier"
+    ]
+  },
+  "s'occuper": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'occuper de [quelqu'un / quelque chose]",
+    "level": "A2",
+    "definition": "Prendre soin de quelqu'un ou prendre en charge une tâche.",
+    "grammar_rule": "Verbe pronominal avec « de ». Contraction systématique avec l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'occuper des enfants' ➜ Nom : 'L'occupation DES locaux'",
+    "examples": [
+      "Mon collègue s'occupe du dossier client.",
+      "Elle s'occupe de ses enfants l'après-midi."
+    ],
+    "common_mistake": "❌ Je m'occupe à le problème. ➜ ✅ Je m'occupe du problème.",
+    "synonyms": [
+      "se charger de",
+      "veiller sur"
+    ],
+    "antonyms": [
+      "délaisser",
+      "abandonner"
+    ]
+  },
+  "se plaindre": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se plaindre de [quelqu'un / quelque chose]",
+    "level": "A2",
+    "definition": "Exprimer sa mécontentement, une douleur ou un grief.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contractions obligatoires devant les noms masculins et pluriels : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se plaindre du bruit' ➜ Nom : 'La plainte DU voisin'",
+    "examples": [
+      "Les voisins se plaignent du bruit excessif.",
+      "Il se plaint de douleurs au dos."
+    ],
+    "common_mistake": "❌ Elle se plaint à la chaleur. ➜ ✅ Elle se plaint de la chaleur.",
+    "synonyms": [
+      "gémir",
+      "râler"
+    ],
+    "antonyms": [
+      "se réjouir de",
+      "supporter"
+    ]
+  },
+  "se tromper": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se tromper de [quelque chose]",
+    "level": "A2",
+    "definition": "Commettre une erreur ou faire une mauvaise appréciation.",
+    "grammar_rule": "Verbe pronominal avec « de » sans article (se tromper de chemin, de numéro, d'adresse). Contractions du/des si article présent.",
+    "noun_parallel": "⚡ Verbe : 'Se tromper de numéro' ➜ Nom : 'L'erreur DU client'",
+    "examples": [
+      "Désolé, je me suis trompé de numéro de téléphone.",
+      "Attention à ne pas vous tromper de route."
+    ],
+    "common_mistake": "❌ Je me suis trompé sur le numéro. ➜ ✅ Je me suis trompé de numéro.",
+    "synonyms": [
+      "s'égarer",
+      "faire une erreur"
+    ],
+    "antonyms": [
+      "avoir raison"
+    ]
+  },
+  "s'habituer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'habituer à [quelque chose / quelqu'un]",
+    "level": "A2",
+    "definition": "Contracter l'habitude de quelque chose ou s'adapter à un nouvel environnement.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires devant les noms masculins/pluriels : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'habituer au climat' ➜ Nom : 'L'habitude DU climat'",
+    "examples": [
+      "Il faut du temps pour s'habituer au climat froid.",
+      "Elle s'habitue à sa nouvelle vie de campus."
+    ],
+    "common_mistake": "❌ Je m'habitue de mon nouveau travail. ➜ ✅ Je m'habitue à mon nouveau travail.",
+    "synonyms": [
+      "s'adapter à",
+      "s'accoutumer à"
+    ],
+    "antonyms": [
+      "se déshabituer de"
+    ]
+  },
+  "féliciter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "féliciter [quelqu'un] de / pour [réussite]",
+    "level": "A2",
+    "definition": "Exprimer ses compliments à une personne pour une réussite.",
+    "grammar_rule": "La personne est COD direct. La raison est introduite par « de » ou « pour » (contractions du/des ou au/aux si pour le).",
+    "noun_parallel": "⚡ Verbe : 'Féliciter un ami pour/de son succès' ➜ Nom : 'Les félicitations POUR le diplôme'",
+    "examples": [
+      "Le directeur félicite l'équipe de son excellent travail.",
+      "Je vous félicite pour votre promotion."
+    ],
+    "common_mistake": "❌ Je félicite à mon ami pour son succès. ➜ ✅ Je félicite mon ami pour son succès.",
+    "synonyms": [
+      "complimenter",
+      "louer"
+    ],
+    "antonyms": [
+      "blâmer",
+      "critiquer"
+    ]
+  },
+  "remercier": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "remercier [quelqu'un] de / pour [quelque chose]",
+    "level": "A2",
+    "definition": "Exprimer sa gratitude à quelqu'un.",
+    "grammar_rule": "La personne est COD direct. Le service/cadeau est introduit par « de » (abstrait) ou « pour » (concret). Contractions du/des.",
+    "noun_parallel": "⚡ Verbe : 'Remercier le guide de sa patience' ➜ Nom : 'Les remerciements POUR l'aide'",
+    "examples": [
+      "Je vous remercie de votre aide si précieuse.",
+      "Elle a remercié son ami pour le beau cadeau."
+    ],
+    "common_mistake": "❌ Je remercie à vous pour l'invitation. ➜ ✅ Je vous remercie pour l'invitation.",
+    "synonyms": [
+      "gratifier",
+      "exprimer sa gratitude"
+    ],
+    "antonyms": [
+      "médire"
+    ]
+  },
+  "profiter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "profiter de [quelque chose / quelqu'un]",
+    "level": "A2",
+    "definition": "Tirer parti, avantage ou plaisir d'une situation.",
+    "grammar_rule": "Régime prépositionnel obligatoire « de ». Contraction systématique devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Profiter du soleil' ➜ Nom : 'Le profit DU commerce'",
+    "examples": [
+      "Profitez bien du soleil pendant vos vacances !",
+      "Il a profité de l'occasion pour s'exprimer."
+    ],
+    "common_mistake": "❌ Je profite à mes vacances à la montagne. ➜ ✅ Je profite de mes vacances à la montagne.",
+    "synonyms": [
+      "tirer parti de",
+      "bénéficier de"
+    ],
+    "antonyms": [
+      "gaspiller",
+      "perdre"
+    ]
+  },
+  "promettre": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "promettre [quelque chose] à [qqn] / de [verbe]",
+    "level": "A2",
+    "definition": "S'engager moralement à donner quelque chose ou accomplir une action.",
+    "grammar_rule": "Double construction : promettre QUELQUE CHOSE à QUELQU'UN (contractions au/aux) OU promettre DE FAIRE quelque chose.",
+    "noun_parallel": "⚡ Verbe : 'Promettre un cadeau à l'enfant / Promettre de revenir' ➜ Nom : 'La promesse'",
+    "examples": [
+      "Il a promis à sa mère d'étudier sérieusement.",
+      "Le candidat promet une baisse des impôts."
+    ],
+    "common_mistake": "❌ Il promet à venir demain. ➜ ✅ Il promet de venir demain.",
+    "synonyms": [
+      "s'engager à",
+      "jurer"
+    ],
+    "antonyms": [
+      "trahir",
+      "nier"
+    ]
+  },
+  "proposer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "proposer [qqch] à [qqn] / de [verbe]",
+    "level": "A2",
+    "definition": "Offrir une idée, une option ou une activité à l'appréciation de quelqu'un.",
+    "grammar_rule": "Construction : proposer QUELQUE CHOSE (COD) à QUELQU'UN (COI au/aux) OU proposer de FAIRE quelque chose (préposition « de »).",
+    "noun_parallel": "⚡ Verbe : 'Proposer une idée au directeur / Proposer de sortir' ➜ Nom : 'La proposition'",
+    "examples": [
+      "Je propose à mes collègues de faire une pause.",
+      "Elle propose un nouveau projet au chef."
+    ],
+    "common_mistake": "❌ Il propose à sortir ce soir. ➜ ✅ Il propose de sortir ce soir.",
+    "synonyms": [
+      "suggérer",
+      "offrir"
+    ],
+    "antonyms": [
+      "imposer",
+      "refuser"
+    ]
+  },
+  "refuser": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "refuser [quelque chose] / de [verbe]",
+    "level": "A2",
+    "definition": "Ne pas accepter une offre, une demande ou une obligation.",
+    "grammar_rule": "Nom direct sans préposition (refuser l'invitation). Devant un verbe à l'infinitif, exige la préposition « de ».",
+    "noun_parallel": "⚡ Verbe : 'Refuser l'offre (COD) / Refuser de signer (de)' ➜ Nom : 'Le refus DE signature'",
+    "examples": [
+      "Le client refuse de signer ce contrat abusif.",
+      "Il a refusé l'offre d'emploi."
+    ],
+    "common_mistake": "❌ Il refuse à payer l'amende. ➜ ✅ Il refuse de payer l'amende.",
+    "synonyms": [
+      "décliner",
+      "rejeter"
+    ],
+    "antonyms": [
+      "accepter",
+      "consentir à"
+    ]
+  },
+  "réussir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "réussir [examen] / réussir à [verbe]",
+    "level": "A2",
+    "definition": "Obtenir un bon résultat dans un examen OU parvenir à accomplir une action.",
+    "grammar_rule": "Direct pour un examen (réussir son examen). Devant un infinitif, exige la préposition « à » (réussir à faire quelque chose).",
+    "noun_parallel": "⚡ Verbe : 'Réussir au concours' ➜ Nom : 'La réussite AU concours'",
+    "examples": [
+      "Elle a réussi à obtenir son permis de conduire.",
+      "Mon frère a réussi tous ses examens."
+    ],
+    "common_mistake": "❌ Il a réussi de trouver une solution. ➜ ✅ Il a réussi à trouver une solution.",
+    "synonyms": [
+      "parvenir à",
+      "triompher"
+    ],
+    "antonyms": [
+      "échouer",
+      "rater"
+    ]
+  },
+  "souhaiter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "souhaiter [quelque chose / verbe]",
+    "level": "A2",
+    "definition": "Exprimer le désir qu'un événement favorable se produise.",
+    "grammar_rule": "Verbe transitif direct : aucun emploi de préposition devant le nom ou l'infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Je souhaite réserver une chambre pour deux nuits.",
+      "Nous vous souhaitons une excellente année."
+    ],
+    "common_mistake": "❌ Je souhaite de partir en vacances. ➜ ✅ Je souhaite partir en vacances.",
+    "synonyms": [
+      "désirer",
+      "vouloir"
+    ],
+    "antonyms": [
+      "redouter"
+    ]
+  },
+  "servir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "servir à [fonction] / se servir de [outil]",
+    "level": "A2",
+    "definition": "Être utile pour un usage (servir à) OU utiliser un objet (se servir de).",
+    "grammar_rule": "Distinction : « servir à » = utilité (À quoi sert cet outil ? ; contractions au/aux) VS « se servir de » = employer (Je me sers du marteau ; contractions du/des).",
+    "noun_parallel": "⚡ Verbe : 'Servir au projet / Se servir du matériel' ➜ Nom : 'Le service / L'utilisation'",
+    "examples": [
+      "À quoi sert cette clé USB ?",
+      "Je me sers du couteau pour couper le pain."
+    ],
+    "common_mistake": "❌ Je me sers à ce couteau. ➜ ✅ Je me sers de ce couteau.",
+    "synonyms": [
+      "utiliser",
+      "employer"
+    ],
+    "antonyms": [
+      "invalider"
+    ]
+  },
+  "s'arrêter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'arrêter de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Cesser une activité ou faire une pause.",
+    "grammar_rule": "Verbe pronominal exigeant « de » devant l'infinitif. Devant un lieu, utilise « à » ou « devant ».",
+    "noun_parallel": "",
+    "examples": [
+      "Le train s'arrête en gare de Lyon.",
+      "Elle s'est arrêtée de courir à cause de la douleur."
+    ],
+    "common_mistake": "❌ Il s'arrête à travailler à cinq heures. ➜ ✅ Il s'arrête de travailler à cinq heures.",
+    "synonyms": [
+      "faire une pause",
+      "stopper"
+    ],
+    "antonyms": [
+      "reprendre",
+      "poursuivre"
+    ]
+  },
+  "s'étonner": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'étonner de [quelque chose / verbe]",
+    "level": "A2",
+    "definition": "Éprouver de la surprise ou de la stupeur.",
+    "grammar_rule": "Verbe pronominal avec « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'étonner du résultat' ➜ Nom : 'L'étonnement DU public'",
+    "examples": [
+      "Je m'étonne du retard inhabituel du train.",
+      "Elle s'étonne de ne pas recevoir de réponse."
+    ],
+    "common_mistake": "❌ Il s'étonne à la réponse du médecin. ➜ ✅ Il s'étonne de la réponse du médecin.",
+    "synonyms": [
+      "s'émerveiller de",
+      "être surpris par"
+    ],
+    "antonyms": [
+      "s'attendre à"
+    ]
+  },
+  "s'inquiéter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'inquiéter de / pour [quelqu'un / qqch]",
+    "level": "A1",
+    "definition": "Ressentir de l'anxiété ou du souci à propos d'un danger potentiel.",
+    "grammar_rule": "Verbe pronominal exigeant « de » (ou « pour » devant une personne). Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'inquiéter du retard' ➜ Nom : 'L'inquiétude DE la famille'",
+    "examples": [
+      "Elle s'inquiète du retard de son train.",
+      "Ne t'inquiète pas pour ton examen !"
+    ],
+    "common_mistake": "❌ Elle s'inquiète à le problème. ➜ ✅ Elle s'inquiète du problème.",
+    "synonyms": [
+      "s'alarmer de",
+      "se soucier de"
+    ],
+    "antonyms": [
+      "se rassurer"
+    ]
+  },
+  "s'excuser": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'excuser de / pour [quelque chose]",
+    "level": "A2",
+    "definition": "Demander pardon pour une faute ou un retard.",
+    "grammar_rule": "Verbe pronominal exigeant « de » (devant verbe/nom) ou « pour » (devant un nom concret). Contractions du/des.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'excuse de mon retard ce matin.",
+      "Il s'excuse pour le dérangement occasionné."
+    ],
+    "common_mistake": "❌ Je m'excuse à le bruit. ➜ ✅ Je m'excuse du bruit.",
+    "synonyms": [
+      "demander pardon",
+      "exprimer ses regrets"
+    ],
+    "antonyms": [
+      "s'enfler"
+    ]
+  },
+  "se préparer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "se préparer à [quelque chose / verbe]",
+    "level": "A2",
+    "definition": "S'apprêter physiquement ou mentalement à un événement.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Se préparer au concours' ➜ Nom : 'La préparation AU concours'",
+    "examples": [
+      "Les athlètes se préparent au marathon de Paris.",
+      "Nous nous préparons à déménager."
+    ],
+    "common_mistake": "❌ Il se prépare de passer son examen. ➜ ✅ Il se prépare à passer son examen.",
+    "synonyms": [
+      "s'apprêter à",
+      "s'entraîner à"
+    ],
+    "antonyms": [
+      "délaisser"
+    ]
+  },
+  "se réjouir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se réjouir de [quelque chose / verbe]",
+    "level": "A2",
+    "definition": "Éprouver une vive joie à propos d'un événement.",
+    "grammar_rule": "Verbe pronominal avec « de ». Contraction systématique avec l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se réjouir du succès' ➜ Nom : 'La réjouissance DU peuple'",
+    "examples": [
+      "Nous nous réjouissons de votre réussite.",
+      "Elle se réjouit du retour de son frère."
+    ],
+    "common_mistake": "❌ Je me réjouis à la nouvelle. ➜ ✅ Je me réjouis de la nouvelle.",
+    "synonyms": [
+      "se féliciter de",
+      "exulter"
+    ],
+    "antonyms": [
+      "se plaindre de",
+      "s'affliger de"
+    ]
+  },
+  "s'obliger": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'obliger à [faire quelque chose]",
+    "level": "A2",
+    "definition": "S'imposer une discipline ou une règle stricte.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « à » devant un infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'oblige à faire du sport trois fois par semaine.",
+      "Il s'oblige à lire un chapitre chaque soir."
+    ],
+    "common_mistake": "❌ Il s'oblige de faire du sport. ➜ ✅ Il s'oblige à faire du sport.",
+    "synonyms": [
+      "s'astreindre à",
+      "s'imposer"
+    ],
+    "antonyms": [
+      "se relâcher"
+    ]
+  },
+  "tenir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "tenir à [quelqu'un / qqch / verbe]",
+    "level": "A2",
+    "definition": "Atteindre un grand attachement (tenir à) OU exiger fermement une action.",
+    "grammar_rule": "Régime prépositionnel « à ». Contractions obligatoires devant les noms masculins et pluriels : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Tenir au projet' ➜ Nom : 'L'attachement AU projet'",
+    "examples": [
+      "Je tiens énormément à cette montre ancienne.",
+      "Le directeur tient à vérifier ce document."
+    ],
+    "common_mistake": "❌ Je tiens de réussir cet examen. ➜ ✅ Je tiens à réussir cet examen.",
+    "synonyms": [
+      "veiller à",
+      "tenir au cœur"
+    ],
+    "antonyms": [
+      "se moquer de",
+      "renoncer à"
+    ]
+  },
+  "interdire": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "interdire [qqch] à [qqn] / de [verbe]",
+    "level": "A2",
+    "definition": "Défendre à quelqu'un de faire une action.",
+    "grammar_rule": "Construction : interdire QUELQUE CHOSE à QUELQU'UN (COI au/aux) / interdire de FAIRE quelque chose (de).",
+    "noun_parallel": "⚡ Verbe : 'Interdire l'accès au public' ➜ Nom : 'L'interdiction DU stationnement'",
+    "examples": [
+      "La loi interdit de fumer dans les lieux publics.",
+      "Le médecin lui interdit le sucre."
+    ],
+    "common_mistake": "❌ Le règlement interdit à fumer ici. ➜ ✅ Le règlement interdit de fumer ici.",
+    "synonyms": [
+      "défendre",
+      "proscrire"
+    ],
+    "antonyms": [
+      "autoriser",
+      "permettre"
+    ]
+  },
+  "permettre": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "permettre [qqch] à [qqn] / de [verbe]",
+    "level": "A2",
+    "definition": "Donner la liberté ou la possibilité de faire une action.",
+    "grammar_rule": "Construction : permettre QUELQUE CHOSE à QUELQU'UN (COI au/aux) / permettre de FAIRE quelque chose (de).",
+    "noun_parallel": "⚡ Verbe : 'Permettre l'accès au bâtiment' ➜ Nom : 'La permission'",
+    "examples": [
+      "Ce passeport permet de voyager dans le monde entier.",
+      "Le professeur permet aux élèves de poser des questions."
+    ],
+    "common_mistake": "❌ Cet outil permet à travailler vite. ➜ ✅ Cet outil permet de travailler vite.",
+    "synonyms": [
+      "autoriser",
+      "accorder"
+    ],
+    "antonyms": [
+      "interdire",
+      "empêcher"
+    ]
+  },
+  "prier": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "prier [quelqu'un] de [verbe]",
+    "level": "A2",
+    "definition": "Demander poliment ou formellement à quelqu'un de faire quelque chose.",
+    "grammar_rule": "La personne est COD direct. L'action demandée est introduite par la préposition « de » devant l'infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Nous vous prions de agréer nos salutations distinguées.",
+      "Le gardien prie les visiteurs de sortir."
+    ],
+    "common_mistake": "❌ Je prie à vous de patienter. ➜ ✅ Je vous prie de patienter.",
+    "synonyms": [
+      "demander de",
+      "solliciter"
+    ],
+    "antonyms": [
+      "exiger"
+    ]
+  },
+  "rappeler": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "rappeler [qqch] à [qqn] / de [verbe]",
+    "level": "A2",
+    "definition": "Faire revenir dans la mémoire de quelqu'un.",
+    "grammar_rule": "Rappel à QUELQU'UN (au/aux) de FAIRE quelque chose. Attention : se rappeler quelque chose (sans 'de').",
+    "noun_parallel": "⚡ Verbe : 'Rappeler le rendez-vous au client' ➜ Nom : 'Le rappel DU rendez-vous'",
+    "examples": [
+      "Rappelle à ton frère d'acheter du pain.",
+      "Le secrétaire me rappelle l'heure du rendez-vous."
+    ],
+    "common_mistake": "❌ Je rappelle à mon ami le rendez-vous (si infinitif) ➜ ✅ Je rappelle à mon ami de venir.",
+    "synonyms": [
+      "remémorer",
+      "rafraîchir la mémoire"
+    ],
+    "antonyms": [
+      "oublier"
+    ]
+  },
+  "rencontrer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "rencontrer [quelqu'un]",
+    "level": "A2",
+    "definition": "Trouver sur son chemin ou faire la connaissance de quelqu'un.",
+    "grammar_rule": "Verbe transitif direct : aucun emploi de préposition avant la personne rencontrée.",
+    "noun_parallel": "",
+    "examples": [
+      "J'ai rencontré mon ami par hasard au centre-ville.",
+      "Elle va rencontrer le directeur ce matin."
+    ],
+    "common_mistake": "❌ J'ai rencontré avec mon ami. ➜ ✅ J'ai rencontré mon ami.",
+    "synonyms": [
+      "croiser",
+      "faire la connaissance de"
+    ],
+    "antonyms": [
+      "quitter"
+    ]
+  },
+  "souffrir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "souffrir de [maladie / douleur]",
+    "level": "A2",
+    "definition": "Éprouver de la douleur physique ou morale à cause d'un mal.",
+    "grammar_rule": "Régime prépositionnel « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Souffrir du froid' ➜ Nom : 'La souffrance DU malade'",
+    "examples": [
+      "Ce patient souffre de migraines chroniques.",
+      "Les cultures souffrent de la sécheresse."
+    ],
+    "common_mistake": "❌ Il souffre avec une maladie grave. ➜ ✅ Il souffre d'une maladie grave.",
+    "synonyms": [
+      "patir de",
+      "endurer"
+    ],
+    "antonyms": [
+      "jouir de",
+      "bénéficier de"
+    ]
+  },
+  "tenter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "tenter de [faire quelque chose]",
+    "level": "A2",
+    "definition": "Faire des efforts ou une tentative pour réussir une action.",
+    "grammar_rule": "Exige la préposition « de » devant un infinitif. Devant un nom direct : tenter sa chance (transitif direct).",
+    "noun_parallel": "",
+    "examples": [
+      "Le cambrioleur a tenté de s'échapper par le toit.",
+      "Il tente le tout pour le tout."
+    ],
+    "common_mistake": "❌ Il tente à ouvrir la porte. ➜ ✅ Il tente d'ouvrir la porte.",
+    "synonyms": [
+      "essayer de",
+      "s'efforcer de"
+    ],
+    "antonyms": [
+      "renoncer à"
+    ]
+  },
+  "espérer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "espérer [quelque chose / verbe]",
+    "level": "A2",
+    "definition": "Attendre avec confiance la réalisation d'un désir.",
+    "grammar_rule": "Verbe transitif direct. Ne prenez pas de préposition ('de' ou 'à') devant l'infinitif en français moderne.",
+    "noun_parallel": "⚡ Verbe : 'Espérer le succès' ➜ Nom : 'L'espoir DU succès'",
+    "examples": [
+      "J'espère réussir mon examen avec mention.",
+      "Elle espère une réponse favorable."
+    ],
+    "common_mistake": "❌ J'espère de réussir mon examen. ➜ ✅ J'espère réussir mon examen.",
+    "synonyms": [
+      "escompter",
+      "attendre"
+    ],
+    "antonyms": [
+      "désespérer de"
+    ]
+  },
+  "compter": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": false,
+    "pattern": "compter sur [quelqu'un / quelque chose]",
+    "level": "B1",
+    "definition": "Faire confiance à quelqu'un ou s'appuyer sur une ressource.",
+    "grammar_rule": "Exige la préposition « sur ». Piège pour les anglophones : ce n'est ni 'à' ni 'de'.",
+    "noun_parallel": "⚡ Verbe : 'Compter sur un ami' ➜ Nom : 'La confiance'",
+    "examples": [
+      "Je compte sur toi pour m'aider à déménager.",
+      "On peut toujours compter sur ses vrais amis."
+    ],
+    "common_mistake": "❌ Je compte à toi pour ce travail. ➜ ✅ Je compte sur toi pour ce travail.",
+    "synonyms": [
+      "s'appuyer sur",
+      "se fier à"
+    ],
+    "antonyms": [
+      "se méfier de"
+    ]
+  },
+  "consister": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "consister à [action] vs consister en [composition]",
+    "level": "B1",
+    "definition": "Avoir pour contenu ou objectif (consister à + infinitif) OU être composé de matériels/substances (consister en + nom).",
+    "grammar_rule": "Distinction essentielle : « consister à » + infinitif/qualité (Le travail consiste à vérifier les données). « consister en » + nom de substance/matériau (Le repas consiste en trois plats).",
+    "noun_parallel": "⚡ Verbe : 'Consister à aider (à) / Consister en pièces d'or (en)' ➜ Nom : 'La consistance'",
+    "examples": [
+      "Mon travail consiste à répondre aux demandes des clients.",
+      "L'héritage consiste en plusieurs propriétés immobilières."
+    ],
+    "common_mistake": "❌ Le rôle consiste en expliquer la règle. ➜ ✅ Le rôle consiste à expliquer la règle.",
+    "synonyms": [
+      "résider dans",
+      "se composer de"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "contribuer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "contribuer à [quelque chose / verbe]",
+    "level": "B1",
+    "definition": "Apporter sa part à une œuvre commune ou participer à un résultat.",
+    "grammar_rule": "Exige la préposition « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Contribuer au développement' ➜ Nom : 'La contribution AU projet'",
+    "examples": [
+      "Chaque employé contribue au succès de l'entreprise.",
+      "Le sport contribue à maintenir une bonne santé."
+    ],
+    "common_mistake": "❌ Il contribue de l'effort collectif. ➜ ✅ Il contribue à l'effort collectif.",
+    "synonyms": [
+      "participer à",
+      "concourir à"
+    ],
+    "antonyms": [
+      "nuire à",
+      "entraver"
+    ]
+  },
+  "douter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "douter de [quelque chose / quelqu'un]",
+    "level": "B1",
+    "definition": "Mettre en question la vérité ou la réalité d'un fait.",
+    "grammar_rule": "Exige la préposition « de » (douter de tout). Attention : 'se douter de' (pronominal) signifie soupçonner/pressentir.",
+    "noun_parallel": "⚡ Verbe : 'Douter du succès' ➜ Nom : 'Le doute SUR l'avenir'",
+    "examples": [
+      "Le juge doute de la sincérité du témoin.",
+      "Elle doute du succès de cette négociation."
+    ],
+    "common_mistake": "❌ Je doute sur ses intentions. ➜ ✅ Je doute de ses intentions.",
+    "synonyms": [
+      "questionner",
+      "suspecter"
+    ],
+    "antonyms": [
+      "croire en",
+      "être sûr de"
+    ]
+  },
+  "insister": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": false,
+    "pattern": "insister sur [un point / une règle]",
+    "level": "B1",
+    "definition": "Mettre l'accent ou appuyer fortement sur un élément.",
+    "grammar_rule": "Exige la préposition « sur ». Piège pour les anglophones : 'insister sur' et JAMAIS 'insister à' (faux-ami de 'insist on').",
+    "noun_parallel": "⚡ Verbe : 'Insister sur ce détail' ➜ Nom : 'L'insistance SUR ce point'",
+    "examples": [
+      "Le professeur insiste sur l'importance de la grammaire.",
+      "Le directeur a insisté sur la sécurité."
+    ],
+    "common_mistake": "❌ J'insiste à vous dire la vérité. ➜ ✅ J'insiste sur ce point. (OU : J'insiste pour vous dire...)",
+    "synonyms": [
+      "souligner",
+      "appuyer sur"
+    ],
+    "antonyms": [
+      "omettre",
+      "passer sous silence"
+    ]
+  },
+  "manquer de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "manquer de [qualité / temps] vs manquer à [personne]",
+    "level": "B1",
+    "definition": "Pâtir d'un manque (manquer de) OU faire ressentir son absence à quelqu'un (manquer à).",
+    "grammar_rule": "Distinction : « manquer de » = pénurie (Il manque de courage). « manquer à » = nostalgie (Tu me manques = Tu manques à moi ; contraction au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Manquer de sommeil / Manquer au devoir' ➜ Nom : 'Le manque DE moyens'",
+    "examples": [
+      "Ce projet manque de financement.",
+      "Mes enfants me manquent énormément."
+    ],
+    "common_mistake": "❌ Il manque à l'expérience nécessaire. ➜ ✅ Il manque d'expérience nécessaire.",
+    "synonyms": [
+      "faire défaut",
+      "pâtir de"
+    ],
+    "antonyms": [
+      "déborder de"
+    ]
+  },
+  "nuire": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "nuire à [quelqu'un / quelque chose]",
+    "level": "B1",
+    "definition": "Causer du tort, du dommage ou du préjudice.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Nuire à la santé' ➜ Nom : 'La nuisance AU voisinage'",
+    "examples": [
+      "Le tabagisme nuit gravement à la santé.",
+      "Cette fausse rumeur nuit à sa réputation."
+    ],
+    "common_mistake": "❌ Le stress nuit la santé. ➜ ✅ Le stress nuit à la santé.",
+    "synonyms": [
+      "égaler",
+      "léser",
+      "compromettre"
+    ],
+    "antonyms": [
+      "servir",
+      "favoriser"
+    ]
+  },
+  "renoncer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "renoncer à [quelque chose / verbe]",
+    "level": "B1",
+    "definition": "Abandonner volontairement un droit, un projet ou une prétention.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Renoncer au projet' ➜ Nom : 'La renonciation AU droit'",
+    "examples": [
+      "Il a renoncé à ses privilèges par conviction.",
+      "Elle a renoncé à voyager cet été."
+    ],
+    "common_mistake": "❌ Il a renoncé de participer au projet. ➜ ✅ Il a renoncé à participer au projet.",
+    "synonyms": [
+      "abandonner",
+      "abdiquer"
+    ],
+    "antonyms": [
+      "persister dans",
+      "maintenir"
+    ]
+  },
+  "ressembler": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "ressembler à [quelqu'un / quelque chose]",
+    "level": "B1",
+    "definition": "Avoir des traits communs ou des similitudes avec quelqu'un/qqch.",
+    "grammar_rule": "Exige la préposition « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Ressembler à son père' ➜ Nom : 'La ressemblance AVEC son père'",
+    "examples": [
+      "Cet enfant ressemble beaucoup à sa mère.",
+      "Ce paysage ressemble au sud de l'Italie."
+    ],
+    "common_mistake": "❌ Elle ressemble avec sa sœur. ➜ ✅ Elle ressemble à sa sœur.",
+    "synonyms": [
+      "rappeler",
+      "tenir de"
+    ],
+    "antonyms": [
+      "différer de"
+    ]
+  },
+  "résister": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "résister à [quelqu'un / une tentation]",
+    "level": "B1",
+    "definition": "Opposer de la force pour ne pas céder ou succomber.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Résister à l'ennemi' ➜ Nom : 'La résistance AU changement'",
+    "examples": [
+      "Il est difficile de résister à la tentation du chocolat.",
+      "Le bâtiment a résisté au séisme."
+    ],
+    "common_mistake": "❌ L'armée a résisté contre l'attaque (s'emploie avec à). ➜ ✅ L'armée a résisté à l'attaque.",
+    "synonyms": [
+      "tenir tête à",
+      "opposer"
+    ],
+    "antonyms": [
+      "céder à",
+      "succomber à"
+    ]
+  },
+  "se baser": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": true,
+    "pattern": "se baser sur [faits / preuves / données]",
+    "level": "B1",
+    "definition": "Fonder son raisonnement ou sa décision sur des éléments solides.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « sur » (se baser sur des données chiffrées).",
+    "noun_parallel": "⚡ Verbe : 'Se baser sur des faits' ➜ Nom : 'La base DU calcul'",
+    "examples": [
+      "Le juge se base sur des preuves tangibles pour trancher.",
+      "Nous nous basons sur l'étude de marché."
+    ],
+    "common_mistake": "❌ Je me base à la loi. ➜ ✅ Je me base sur la loi.",
+    "synonyms": [
+      "s'appuyer sur",
+      "se fonder sur"
+    ],
+    "antonyms": [
+      "inventer",
+      "falsifier"
+    ]
+  },
+  "se débarrasser": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se débarrasser de [quelque chose / quelqu'un]",
+    "level": "B1",
+    "definition": "Se délivrer d'une chose encombrante ou d'une personne gênante.",
+    "grammar_rule": "Verbe pronominal avec « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se débarrasser des vieux meubles' ➜ Nom : 'Le débarras'",
+    "examples": [
+      "Il s'est débarrassé de ses vieux vêtements.",
+      "Nous devons nous débarrasser du stress."
+    ],
+    "common_mistake": "❌ Il se débarrasse à ses soucis. ➜ ✅ Il se débarrasse de ses soucis.",
+    "synonyms": [
+      "s'affranchir de",
+      "éliminer"
+    ],
+    "antonyms": [
+      "s'encombrer de",
+      "conserver"
+    ]
+  },
+  "se méfier": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se méfier de [la fraude]",
+    "level": "B2",
+    "definition": "Demeurer vigilant face à un risque de tromperie.",
+    "grammar_rule": "Verbe pronominal exigeant « de ».",
+    "noun_parallel": "",
+    "examples": [
+      "Se méfier du phishing sur Internet est indispensable.",
+      "Elle se méfie des promesses trop belles."
+    ],
+    "common_mistake": "❌ Se méfier sur les arnaques. ➜ ✅ Se méfier des arnaques.",
+    "synonyms": [
+      "être vigilant envers"
+    ],
+    "antonyms": [
+      "faire confiance à"
+    ]
+  },
+  "se moquer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se moquer de [quelqu'un / quelque chose]",
+    "level": "B1",
+    "definition": "Tourner en dérision ou ne pas accorder d'importance à quelque chose.",
+    "grammar_rule": "Verbe pronominal avec « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se moquer du danger' ➜ Nom : 'La moquerie'",
+    "examples": [
+      "Il ne faut pas se moquer des erreurs des autres.",
+      "Elle se moque complètement du commérage."
+    ],
+    "common_mistake": "❌ Ils se moquent à le professeur. ➜ ✅ Ils se moquent du professeur.",
+    "synonyms": [
+      "railler",
+      "se rire de"
+    ],
+    "antonyms": [
+      "respecter",
+      "admirer"
+    ]
+  },
+  "se rendre compte": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se rendre compte de [quelque chose]",
+    "level": "B1",
+    "definition": "Prendre conscience ou réaliser la portée d'une réalité.",
+    "grammar_rule": "Locution pronominale exigeant la préposition « de ». Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se rendre compte de la gravité' ➜ Nom : 'La prise de conscience'",
+    "examples": [
+      "Il s'est rendu compte de son erreur un peu tard.",
+      "Vous rendez-vous compte du danger ?"
+    ],
+    "common_mistake": "❌ Je me rends compte sur le problème. ➜ ✅ Je me rends compte du problème.",
+    "synonyms": [
+      "réaliser",
+      "prendre conscience de"
+    ],
+    "antonyms": [
+      "ignorer",
+      "méconnaître"
+    ]
+  },
+  "se soucier": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se soucier de [quelqu'un / quelque chose]",
+    "level": "B1",
+    "definition": "Accorder de l'intérêt, de l'inquiétude ou de l'importance.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction systématique : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se soucier de l'avenir' ➜ Nom : 'Le souci DE la qualité'",
+    "examples": [
+      "Elle se soucie profondément du bien-être de ses animaux.",
+      "Il ne se soucie guère du lendemain."
+    ],
+    "common_mistake": "❌ Il se soucie à l'opinion des gens. ➜ ✅ Il se soucie de l'opinion des gens.",
+    "synonyms": [
+      "s'inquiéter de",
+      "se préoccuper de"
+    ],
+    "antonyms": [
+      "se moquer de",
+      "négliger"
+    ]
+  },
+  "s'attendre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'attendre à [quelque chose / verbe]",
+    "level": "B1",
+    "definition": "Prévoir un événement ou compter sur sa réalisation.",
+    "grammar_rule": "Verbe pronominal avec « à ». Contractions obligatoires devant les noms masculins et pluriels : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'attendre au pire' ➜ Nom : 'L'attente DU résultat'",
+    "examples": [
+      "Nous ne nous attendions pas à un tel succès.",
+      "Elle s'attend à recevoir une réponse demain."
+    ],
+    "common_mistake": "❌ Je m'attends de voir mon ami. ➜ ✅ Je m'attends à voir mon ami.",
+    "synonyms": [
+      "prévoir",
+      "escompter"
+    ],
+    "antonyms": [
+      "être surpris par"
+    ]
+  },
+  "veiller": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "veiller à [faire qqch] / veiller sur [garder]",
+    "level": "B1",
+    "definition": "Prendre soin de faire une action (veiller à) OU surveiller une personne (veiller sur).",
+    "grammar_rule": "Distinction : « veiller à » + infinitif ou nom (veiller au respect des règles ; contraction au/aux) VS « veiller sur » = protéger (veiller sur l'enfant).",
+    "noun_parallel": "⚡ Verbe : 'Veiller au respect du règlement' ➜ Nom : 'La vigilance'",
+    "examples": [
+      "Veillez à bien fermer la porte à clé.",
+      "L'infirmière veille sur les malades toute la nuit."
+    ],
+    "common_mistake": "❌ Veillez de remplir le formulaire. ➜ ✅ Veillez à remplir le formulaire.",
+    "synonyms": [
+      "s'assurer de",
+      "veiller sur"
+    ],
+    "antonyms": [
+      "négliger"
+    ]
+  },
+  "avoir marre": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "en avoir marre de [quelque chose / verbe]",
+    "level": "B1",
+    "definition": "Être exaspéré, fatigué ou lassé par une situation désagréable.",
+    "grammar_rule": "Exige la préposition « de ». Contractions obligatoires avec l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "",
+    "examples": [
+      "J'en ai marre de la pluie constante !",
+      "Il en a marre de travailler les week-ends."
+    ],
+    "common_mistake": "❌ J'en ai marre à attendre. ➜ ✅ J'en ai marre d'attendre.",
+    "synonyms": [
+      "être lassé de",
+      "en avoir assez de"
+    ],
+    "antonyms": [
+      "s'enthousiasmer pour"
+    ]
+  },
+  "s'abstenir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'abstenir de [commenter / agir]",
+    "level": "B2",
+    "definition": "Se garder de poser un acte par neutralité ou précaution.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « de ». Contractions du/des.",
+    "noun_parallel": "",
+    "examples": [
+      "Les observateurs doivent s'abstenir de toute ingérence.",
+      "Il s'abstient de porter un jugement hâtif."
+    ],
+    "common_mistake": "❌ Il s'abstient à s'exprimer. ➜ ✅ Il s'abstient de s'exprimer.",
+    "synonyms": [
+      "se contenir",
+      "éviter de"
+    ],
+    "antonyms": [
+      "s'engager dans"
+    ]
+  },
+  "s'adapter": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'adapter à [un environnement / une règle]",
+    "level": "B1",
+    "definition": "Ajuster son comportement ou son fonctionnement à des conditions nouvelles.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'adapter au changement' ➜ Nom : 'L'adaptation AU milieu'",
+    "examples": [
+      "Elle s'est vite adaptée au rythme parisien.",
+      "Les entreprises doivent s'adapter aux exigences écologiques."
+    ],
+    "common_mistake": "❌ Il s'adapte de la situation. ➜ ✅ Il s'adapte à la situation.",
+    "synonyms": [
+      "s'accommoder de",
+      "s'intégrer à"
+    ],
+    "antonyms": [
+      "résister à"
+    ]
+  },
+  "s'associer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'associer à [quelqu'un / un projet]",
+    "level": "B1",
+    "definition": "Se joindre à d'autres personnes pour réaliser un projet commun.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'associer au succès' ➜ Nom : 'L'association AVEC le partenaire'",
+    "examples": [
+      "Il s'est associé à son ami pour créer une startup.",
+      "La mairie s'associe à cet événement."
+    ],
+    "common_mistake": "❌ Il s'associe avec le projet (s'associer à un projet). ➜ ✅ Il s'associe au projet.",
+    "synonyms": [
+      "s'unir à",
+      "s'allier avec"
+    ],
+    "antonyms": [
+      "se séparer de"
+    ]
+  },
+  "s'attacher": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'attacher à [quelqu'un / une valeur]",
+    "level": "B1",
+    "definition": "Éprouver de l'affection ou se consacrer avec fermeté à une tâche.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'attacher au détail' ➜ Nom : 'L'attachement AUX traditions'",
+    "examples": [
+      "Le petit garçon s'est vite attaché à son chiot.",
+      "Elle s'attache à résoudre ce problème complexe."
+    ],
+    "common_mistake": "❌ Il s'attache de ses souvenirs. ➜ ✅ Il s'attache à ses souvenirs.",
+    "synonyms": [
+      "se lier à",
+      "tenir à"
+    ],
+    "antonyms": [
+      "se détacher de"
+    ]
+  },
+  "s'opposer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'opposer à [une loi / une décision]",
+    "level": "B1",
+    "definition": "Se dresser contre une décision, une force ou une volonté.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'opposer au décret' ➜ Nom : 'L'opposition AU gouvernement'",
+    "examples": [
+      "Les citoyens s'opposent à la fermeture de la gare.",
+      "Il s'oppose fermement à cette réforme."
+    ],
+    "common_mistake": "❌ Il s'oppose contre la loi. ➜ ✅ Il s'oppose à la loi.",
+    "synonyms": [
+      "contester",
+      "combattre"
+    ],
+    "antonyms": [
+      "approuver",
+      "soutenir"
+    ]
+  },
+  "se fier": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "se fier à [quelqu'un / un instinct]",
+    "level": "B1",
+    "definition": "Accorder sa confiance totale à une personne ou un jugement.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Se fier au bon sens' ➜ Nom : 'La confiance'",
+    "examples": [
+      "Vous pouvez vous fier à son jugement professionnel.",
+      "Ne vous fiez pas aux apparences."
+    ],
+    "common_mistake": "❌ Je me fie de son témoignage. ➜ ✅ Je me fie à son témoignage.",
+    "synonyms": [
+      "faire confiance à",
+      "compter sur"
+    ],
+    "antonyms": [
+      "se méfier de"
+    ]
+  },
+  "se joindre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "se joindre à [un groupe / une action]",
+    "level": "B1",
+    "definition": "S'incorporer ou participer à un rassemblement.",
+    "grammar_rule": "Verbe pronominal avec « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "",
+    "examples": [
+      "Voulez-vous vous joindre à nous pour le déjeuner ?",
+      "Il s'est joint à la manifestation."
+    ],
+    "common_mistake": "❌ Il se joint avec le groupe. ➜ ✅ Il se joint au groupe.",
+    "synonyms": [
+      "rejoindre",
+      "s'unir à"
+    ],
+    "antonyms": [
+      "quitter",
+      "se désolidariser de"
+    ]
+  },
+  "s'étonner de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'étonner de [quelque chose]",
+    "level": "B1",
+    "definition": "Ressentir une vive surprise devant un fait inattendu.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contractions obligatoires du/des.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'étonne de ton attitude distante aujourd'hui.",
+      "Le public s'étonne du score."
+    ],
+    "common_mistake": "❌ Il s'étonne à la décision. ➜ ✅ Il s'étonne de la décision.",
+    "synonyms": [
+      "être surpris de"
+    ],
+    "antonyms": [
+      "s'attendre à"
+    ]
+  },
+  "épouser": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "épouser [quelqu'un]",
+    "level": "B1",
+    "definition": "S'unir par le mariage avec une personne.",
+    "grammar_rule": "Piège transitif direct ! On dit 'épouser quelqu'un' SANS préposition 'avec' (contrairement à 'se marier avec').",
+    "noun_parallel": "⚡ Verbe : 'Épouser une princesse' ➜ Nom : 'Le mariage AVEC la princesse'",
+    "examples": [
+      "Il va épouser sa fiancée en été.",
+      "Elle a épousé un célèbre chercheur."
+    ],
+    "common_mistake": "❌ Il a épousé avec son amie. ➜ ✅ Il a épousé son amie. (OU : Il s'est marié avec son amie.)",
+    "synonyms": [
+      "se marier avec",
+      "prendre pour époux"
+    ],
+    "antonyms": [
+      "divorcer de"
+    ]
+  },
+  "accorder": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "accorder [quelque chose] à [quelqu'un]",
+    "level": "B1",
+    "definition": "Octroyer, donner ou concéder un droit ou une faveur.",
+    "grammar_rule": "Le bien/droit accordé est COD direct. Le bénéficiaire exige « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Accorder une remise au client' ➜ Nom : 'L'accord DU crédit'",
+    "examples": [
+      "La banque a accordé un prêt immobilier au jeune couple.",
+      "Il accorde toute son attention au dossier."
+    ],
+    "common_mistake": "❌ La banque accorde pour un prêt à le client. ➜ ✅ La banque accorde un prêt au client.",
+    "synonyms": [
+      "octroyer",
+      "concéder"
+    ],
+    "antonyms": [
+      "refuser",
+      "retirer"
+    ]
+  },
+  "s'adresser": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'adresser à [quelqu'un]",
+    "level": "B1",
+    "definition": "Porter la parole ou faire une démarche auprès d'une personne.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'adresser au guichet' ➜ Nom : 'L'adresse AU destinataire'",
+    "examples": [
+      "Veuillez vous adresser au guichet numéro trois.",
+      "Elle s'adresse aux élèves de la classe."
+    ],
+    "common_mistake": "❌ Il s'adresse vers le directeur. ➜ ✅ Il s'adresse au directeur.",
+    "synonyms": [
+      "parler à",
+      "solliciter"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "remédier": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "remédier à [un problème / une situation]",
+    "level": "B1",
+    "definition": "Apporter une solution efficace à un mal ou un dysfonctionnement.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Remédier au problème' ➜ Nom : 'Le remède AU mal'",
+    "examples": [
+      "Il faut remédier d'urgence à ce manque de personnel.",
+      "Ce produit remédie aux fuites d'eau."
+    ],
+    "common_mistake": "❌ Nous devons remédier ce problème. ➜ ✅ Nous devons remédier à ce problème.",
+    "synonyms": [
+      "corriger",
+      "résoudre",
+      "pallier"
+    ],
+    "antonyms": [
+      "aggraver"
+    ]
+  },
+  "s'engager": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'engager à [faire quelque chose]",
+    "level": "B1",
+    "definition": "Prendre la promesse ou la responsabilité ferme d'accomplir une tâche.",
+    "grammar_rule": "Verbe pronominal exigeant « à » devant un infinitif. Devant un nom/parti : s'engager dans.",
+    "noun_parallel": "⚡ Verbe : 'S'engager à payer' ➜ Nom : 'L'engagement DU candidat'",
+    "examples": [
+      "L'entreprise s'engage à livrer sous quarante-huit heures.",
+      "Il s'est engagé à respecter le contrat."
+    ],
+    "common_mistake": "❌ Il s'engage de terminer à temps. ➜ ✅ Il s'engage à terminer à temps.",
+    "synonyms": [
+      "promettre de",
+      "s'obliger à"
+    ],
+    "antonyms": [
+      "se dédire de"
+    ]
+  },
+  "s'exposer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'exposer à [un danger / une amende]",
+    "level": "B1",
+    "definition": "Se placer de soi-même en situation d'affronter un risque.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'exposer au soleil' ➜ Nom : 'L'exposition AU danger'",
+    "examples": [
+      "En roulant vite, vous vous exposez à une lourde amende.",
+      "Ne vous exposez pas au soleil trop longtemps."
+    ],
+    "common_mistake": "❌ Il s'expose de lourdes sanctions. ➜ ✅ Il s'expose à de lourdes sanctions.",
+    "synonyms": [
+      "s'aventurer",
+      "risquer"
+    ],
+    "antonyms": [
+      "se protéger de",
+      "se mettre à l'abri"
+    ]
+  },
+  "s'informer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'informer de / sur [un sujet]",
+    "level": "B1",
+    "definition": "Chercher à connaître des renseignements sur un fait.",
+    "grammar_rule": "Verbe pronominal exigeant « de » ou « sur ». Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'informer du prix' ➜ Nom : 'L'information SUR le tarif'",
+    "examples": [
+      "Elle s'informe des conditions d'inscription.",
+      "Les touristes s'informent sur les horaires."
+    ],
+    "common_mistake": "❌ Il s'informe à la météo. ➜ ✅ Il s'informe de la météo (ou sur la météo).",
+    "synonyms": [
+      "se renseigner sur",
+      "s'enquérir de"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "s'intéresser à": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'intéresser à [un domaine / une personne]",
+    "level": "B1",
+    "definition": "Porter de la curiosité active et du goût pour un domaine.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « à ». Contractions obligatoires au/aux.",
+    "noun_parallel": "",
+    "examples": [
+      "Elle s'intéresse à la recherche biomédicale.",
+      "Il s'intéresse aux langues étrangères."
+    ],
+    "common_mistake": "❌ Il s'intéresse de la politique. ➜ ✅ Il s'intéresse à la politique.",
+    "synonyms": [
+      "se passionner pour"
+    ],
+    "antonyms": [
+      "se désintéresser de"
+    ]
+  },
+  "participer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "participer à [un événement / un débat]",
+    "level": "B1",
+    "definition": "Prendre part activement à une réunion, une compétition ou une action.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Participer au concours' ➜ Nom : 'La participation AU débat'",
+    "examples": [
+      "Plus de cent athlètes participent au marathon.",
+      "Elle aime participer aux débats publics."
+    ],
+    "common_mistake": "❌ Il participe dans la réunion. ➜ ✅ Il participe à la réunion.",
+    "synonyms": [
+      "prendre part à",
+      "collaborer à"
+    ],
+    "antonyms": [
+      "s'abstenir de"
+    ]
+  },
+  "compter de": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": false,
+    "pattern": "compter sur [son intuition]",
+    "level": "B1",
+    "definition": "Prendre pour appui une intuition ou une assurance.",
+    "grammar_rule": "Régime prépositionnel « sur ».",
+    "noun_parallel": "",
+    "examples": [
+      "Il compte sur son expérience pour réussir l'entretien.",
+      "Nous comptons sur des résultats positifs."
+    ],
+    "common_mistake": "❌ Je compte à mes amis. ➜ ✅ Je compte sur mes amis.",
+    "synonyms": [
+      "se reposer sur"
+    ],
+    "antonyms": [
+      "se méfier de"
+    ]
+  },
+  "assister": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "assister à [un spectacle / une réunion]",
+    "level": "B1",
+    "definition": "Être présent en spectateur ou témoin à un événement.",
+    "grammar_rule": "Régime prépositionnel « à » (assister à une réunion ; contractions au/aux). Attention : 'assister quelqu'un' (COD sans 'à') = aider.",
+    "noun_parallel": "⚡ Verbe : 'Assister au spectacle / Assister un malade (aider)' ➜ Nom : 'L'assistance AU public'",
+    "examples": [
+      "Nous avons assisté à une conférence passionnante.",
+      "Le public assiste au concert en silence."
+    ],
+    "common_mistake": "❌ J'ai assisté le match hier. ➜ ✅ J'ai assisté au match hier.",
+    "synonyms": [
+      "être présent à",
+      "suivre"
+    ],
+    "antonyms": [
+      "manquer",
+      "sécher"
+    ]
+  },
+  "s'amuser": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'amuser à [faire quelque chose]",
+    "level": "B1",
+    "definition": "Passer du temps agréablement à accomplir un jeu ou un divertissement.",
+    "grammar_rule": "Verbe pronominal exigeant « à » devant un infinitif. Devant un nom : s'amuser avec.",
+    "noun_parallel": "",
+    "examples": [
+      "Les enfants s'amusent à construire un château de sable.",
+      "Ne t'amuse pas à me faire peur !"
+    ],
+    "common_mistake": "❌ Il s'amuse de jouer au ballon. ➜ ✅ Il s'amuse à jouer au ballon.",
+    "synonyms": [
+      "se divertir à",
+      "jouer à"
+    ],
+    "antonyms": [
+      "s'ennuyer de"
+    ]
+  },
+  "se concentrer": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": true,
+    "pattern": "se concentrer sur [un travail / une tâche]",
+    "level": "B1",
+    "definition": "Mobiliser toute son attention et son esprit sur un point précis.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « sur ». Piège : ne dites pas 'se concentrer à/dans'.",
+    "noun_parallel": "⚡ Verbe : 'Se concentrer sur le sujet' ➜ Nom : 'La concentration SUR le devoir'",
+    "examples": [
+      "Elle se concentre sur sa préparation aux examens.",
+      "Il faut se concentrer sur l'essentiel."
+    ],
+    "common_mistake": "❌ Je me concentre à mes devoirs. ➜ ✅ Je me concentre sur mes devoirs.",
+    "synonyms": [
+      "se focaliser sur",
+      "s'appliquer à"
+    ],
+    "antonyms": [
+      "se disperser",
+      "se distraire"
+    ]
+  },
+  "s'abstenir de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'abstenir de [tout commentaire / verbe]",
+    "level": "B2",
+    "definition": "Se retenir de manière délibérée d'exprimer un avis ou d'agir.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'abstenir de toute remarque' ➜ Nom : 'L'abstention DU juge'",
+    "examples": [
+      "L'avocat s'abstient de tout commentaire avant le procès.",
+      "Les juges doivent s'abstenir de manifester leur opinion."
+    ],
+    "common_mistake": "❌ Il s'abstient à intervenir dans le débat. ➜ ✅ Il s'abstient d'intervenir dans le débat.",
+    "synonyms": [
+      "se garder de",
+      "éviter de"
+    ],
+    "antonyms": [
+      "s'immiscer dans",
+      "intervenir dans"
+    ]
+  },
+  "se féliciter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se féliciter de [quelque chose / verbe]",
+    "level": "B2",
+    "definition": "Exprimer une grande satisfaction personnelle ou se réjouir d'un bon résultat.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction systématique : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se féliciter du succès' ➜ Nom : 'La félicitation'",
+    "examples": [
+      "Le ministre se félicite du succès des négociations de paix.",
+      "Elle se félicite d'avoir pris cette décision courageuse."
+    ],
+    "common_mistake": "❌ Le maire se félicite pour le projet (se féliciter de). ➜ ✅ Le maire se félicite du projet.",
+    "synonyms": [
+      "se réjouir de",
+      "s'enorgueillir de"
+    ],
+    "antonyms": [
+      "se repentir de",
+      "déplorer"
+    ]
+  },
+  "s'en prendre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'en prendre à [quelqu'un / quelque chose]",
+    "level": "B2",
+    "definition": "Attaquer, critiquer ou rendre responsable injustement une personne.",
+    "grammar_rule": "Locution pronominale exigeant la préposition « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'en prendre au messager' ➜ Nom : 'L'agression'",
+    "examples": [
+      "Il ne faut pas s'en prendre au messager pour les mauvaises nouvelles.",
+      "Le journaliste s'en prend au gouvernement."
+    ],
+    "common_mistake": "❌ Il s'en prend sur son collègue. ➜ ✅ Il s'en prend à son collègue.",
+    "synonyms": [
+      "s'attaquer à",
+      "s'en prendre à"
+    ],
+    "antonyms": [
+      "épargner",
+      "défendre"
+    ]
+  },
+  "se passer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se passer de [quelque chose / quelqu'un]",
+    "level": "B2",
+    "definition": "Accepter de vivre ou de fonctionner sans l'aide ou la présence de quelque chose.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction obligatoire devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Se passer du superflu' ➜ Nom : 'La privation'",
+    "examples": [
+      "Nous pouvons facilement nous passer du superflu en voyage.",
+      "Elle ne peut plus se passer de son ordinateur."
+    ],
+    "common_mistake": "❌ Je ne peux pas me passer à mon café. ➜ ✅ Je ne peux pas me passer de mon café.",
+    "synonyms": [
+      "se priver de",
+      "faire sans"
+    ],
+    "antonyms": [
+      "exiger",
+      "nécessiter"
+    ]
+  },
+  "consister en": {
+    "prepositions": [
+      "en"
+    ],
+    "pronominal": false,
+    "pattern": "consister en [substance / éléments]",
+    "level": "B2",
+    "definition": "Être constitué physiquement ou matériellement d'éléments donnés.",
+    "grammar_rule": "Régime prépositionnel « en » (sans article ou avec article indéfini) pour désigner les éléments de substance. Ne pas confondre avec 'consister à' (+ infinitif).",
+    "noun_parallel": "⚡ Verbe : 'Consister en pièces en or' ➜ Nom : 'La consistance'",
+    "examples": [
+      "La collection consiste en pièces de monnaie anciennes.",
+      "Le trésor consiste en bijoux d'une valeur inestimable."
+    ],
+    "common_mistake": "❌ La tâche consiste en vérifier les chiffres. ➜ ✅ La tâche consiste à vérifier les chiffres.",
+    "synonyms": [
+      "se composer de",
+      "comprendre"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "incomber": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "incomber à [quelqu'un] de [faire qqch]",
+    "level": "B2",
+    "definition": "Être imposé comme un devoir ou une responsabilité légale à quelqu'un.",
+    "grammar_rule": "Construction impersonnelle : il incombe À QUELQU'UN (contractions au/aux) DE FAIRE quelque chose (préposition « de »).",
+    "noun_parallel": "⚡ Verbe : 'Incomber au chef de projet' ➜ Nom : 'La charge / La responsabilité'",
+    "examples": [
+      "Il incombe au directeur de prendre la décision finale.",
+      "Cette tâche incombe à l'équipe juridique."
+    ],
+    "common_mistake": "❌ Il incombe sur le maire de réagir. ➜ ✅ Il incombe au maire de réagir.",
+    "synonyms": [
+      "revenir à",
+      "appartenir à"
+    ],
+    "antonyms": [
+      "décharger"
+    ]
+  },
+  "imposer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "imposer [quelque chose] à [quelqu'un]",
+    "level": "B2",
+    "definition": "Faire accepter de force une obligation, une règle ou une volonté.",
+    "grammar_rule": "La contrainte est COD direct. La personne soumise exige la préposition « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Imposer une taxe au citoyen' ➜ Nom : 'L'imposition DES taxes'",
+    "examples": [
+      "Le gouvernement impose une nouvelle taxe aux entreprises.",
+      "Elle sait imposer son autorité au groupe."
+    ],
+    "common_mistake": "❌ Il impose sur les salariés de travailler plus. ➜ ✅ Il impose aux salariés de travailler plus.",
+    "synonyms": [
+      "exiger de",
+      "prescrire à"
+    ],
+    "antonyms": [
+      "dispenser",
+      "exempter"
+    ]
+  },
+  "imputer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "imputer [une faute / des pertes] à [qqn]",
+    "level": "B2",
+    "definition": "Attribuer la responsabilité d'un fait dommageable ou d'un coût à une personne.",
+    "grammar_rule": "La faute/charge est COD direct. L'auteur présumé exige la préposition « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Imputer l'erreur au gestionnaire' ➜ Nom : 'L'imputation COMPTABLE'",
+    "examples": [
+      "L'expert impute l'accident au mauvais entretien des freins.",
+      "On a imputé ces pertes au directeur financier."
+    ],
+    "common_mistake": "❌ Il impute la faute sur son adjoint. ➜ ✅ Il impute la faute à son adjoint.",
+    "synonyms": [
+      "attribuer à",
+      "mettre sur le compte de"
+    ],
+    "antonyms": [
+      "disculper",
+      "blanchir"
+    ]
+  },
+  "s'adonner": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'adonner à [une passion / un vice]",
+    "level": "B2",
+    "definition": "Se consacrer intensément et de manière exclusive à une activité.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'adonner au jardinage' ➜ Nom : 'L'adonnance'",
+    "examples": [
+      "Pendant sa retraite, il s'adonne à sa passion du jardinage.",
+      "Elle s'adonne à la peinture à l'huile."
+    ],
+    "common_mistake": "❌ Il s'adonne de la lecture. ➜ ✅ Il s'adonne à la lecture.",
+    "synonyms": [
+      "se livrer à",
+      "s'adonner à"
+    ],
+    "antonyms": [
+      "renoncer à",
+      "délaisser"
+    ]
+  },
+  "s'en remettre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'en remettre à [quelqu'un / la justice]",
+    "level": "B2",
+    "definition": "S'en confier totalement au jugement ou à la décision d'un tiers.",
+    "grammar_rule": "Locution pronominale exigeant la préposition « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'S'en remettre au juge' ➜ Nom : 'La soumission'",
+    "examples": [
+      "Je m'en remets entièrement à votre sagesse pour décider.",
+      "Ils s'en sont remis à la décision du tribunal."
+    ],
+    "common_mistake": "❌ Il s'en remet sur le médecin. ➜ ✅ Il s'en remet au médecin.",
+    "synonyms": [
+      "se confier à",
+      "s'en remettre à"
+    ],
+    "antonyms": [
+      "prendre en main"
+    ]
+  },
+  "s'offenser": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'offenser de [une remarque / un comportement]",
+    "level": "B2",
+    "definition": "Ressentir une injure ou une blessure d'amour-propre.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction obligatoire devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'offenser de la critique' ➜ Nom : 'L'offense AU roi'",
+    "examples": [
+      "Il s'est offensé de cette remarque pourtant anodine.",
+      "Ne vous offensez pas de son ton brusque."
+    ],
+    "common_mistake": "❌ Il s'offense à la remarque. ➜ ✅ Il s'offense de la remarque.",
+    "synonyms": [
+      "s'offusquer de",
+      "se vexer de"
+    ],
+    "antonyms": [
+      "passer outre",
+      "pardonner"
+    ]
+  },
+  "inciter": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "inciter [quelqu'un] à [faire quelque chose]",
+    "level": "B2",
+    "definition": "Pousser ou encourager vivement une personne à accomplir une action.",
+    "grammar_rule": "La personne est COD direct. L'action incitée exige la préposition « à » devant l'infinitif.",
+    "noun_parallel": "⚡ Verbe : 'Inciter les jeunes à la lecture' ➜ Nom : 'L'incitation À l'effort'",
+    "examples": [
+      "La baisse des prix incite les clients à consommer.",
+      "Le gouvernement incite les citoyens à recycler."
+    ],
+    "common_mistake": "❌ La pub incite les gens de consommer. ➜ ✅ La pub incite les gens à consommer.",
+    "synonyms": [
+      "encourager à",
+      "pousser à"
+    ],
+    "antonyms": [
+      "dissuader de",
+      "décourager de"
+    ]
+  },
+  "s'enclencher": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "s'enclencher (mécanisme)",
+    "level": "B2",
+    "definition": "Se mettre en marche ou se connecter automatiquement.",
+    "grammar_rule": "Verbe pronominal intransitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Le système de sécurité s'enclenche automatiquement en cas d'urgence.",
+      "La alarme s'est enclenchée."
+    ],
+    "common_mistake": "❌ L'alarme s'enclenche à la nuit. ➜ ✅ L'alarme s'enclenche la nuit.",
+    "synonyms": [
+      "se déclencher",
+      "démarrer"
+    ],
+    "antonyms": [
+      "s'arrêter",
+      "bloquer"
+    ]
+  },
+  "succomber": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "succomber à [une tentation / la maladie]",
+    "level": "B2",
+    "definition": "Céder sans réserve à une force, une tentation ou mourir d'un mal.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Succomber à la tentation' ➜ Nom : 'La soumission'",
+    "examples": [
+      "Il a fini par succomber au charme de la région.",
+      "Le blessé a succombé à ses graves blessures."
+    ],
+    "common_mistake": "❌ Il a succombé de la maladie (mourir = succomber à). ➜ ✅ Il a succombé à la maladie.",
+    "synonyms": [
+      "céder à",
+      "fléchir sous"
+    ],
+    "antonyms": [
+      "résister à",
+      "surmonter"
+    ]
+  },
+  "surmonter": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "surmonter [une épreuve / un obstacle]",
+    "level": "B2",
+    "definition": "Vaincre une difficulté, une peur ou un obstacle.",
+    "grammar_rule": "Verbe transitif direct sans préposition.",
+    "noun_parallel": "⚡ Verbe : 'Surmonter sa peur' ➜ Nom : 'Le surmontement'",
+    "examples": [
+      "Elle a su surmonter toutes les épreuves de la vie avec courage.",
+      "L'équipe a surmonté ses désaccords."
+    ],
+    "common_mistake": "❌ Il a surmonté de sa peur. ➜ ✅ Il a surmonté sa peur.",
+    "synonyms": [
+      "vaincre",
+      "dominer",
+      "franchir"
+    ],
+    "antonyms": [
+      "succomber à",
+      "échouer"
+    ]
+  },
+  "tendre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "tendre à [un objectif / une évolution]",
+    "level": "B2",
+    "definition": "Avoir une inclination ou viser un résultat précis.",
+    "grammar_rule": "Exige la préposition « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Tendre à la perfection' ➜ Nom : 'La tendance AU changement'",
+    "examples": [
+      "Les températures tendent à augmenter au printemps.",
+      "Ces mesures tendent à réduire les inégalités."
+    ],
+    "common_mistake": "❌ Les prix tendent de baisser. ➜ ✅ Les prix tendent à baisser.",
+    "synonyms": [
+      "viser à",
+      "aspirer à"
+    ],
+    "antonyms": [
+      "s'éloigner de"
+    ]
+  },
+  "veiller à": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "veiller à [ce que / l'exécution]",
+    "level": "B2",
+    "definition": "Accorder toute son attention à l'accomplissement d'une tâche.",
+    "grammar_rule": "Régime prépositionnel « à ».",
+    "noun_parallel": "",
+    "examples": [
+      "Le comité veille au respect strict des normes de sécurité.",
+      "Veillez à soumettre le document avant minuit."
+    ],
+    "common_mistake": "❌ Veillez de vérifier les données. ➜ ✅ Veillez à vérifier les données.",
+    "synonyms": [
+      "s'assurer de"
+    ],
+    "antonyms": [
+      "négliger"
+    ]
+  },
+  "s'enquérir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'enquérir de [quelqu'un / la santé]",
+    "level": "B2",
+    "definition": "Chercher à obtenir des nouvelles précises sur la situation de quelqu'un.",
+    "grammar_rule": "Verbe pronominal soutenu exigeant « de ». Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'enquérir de la santé' ➜ Nom : 'L'enquête SUR le drame'",
+    "examples": [
+      "Le médecin s'enquiert de la santé de son patient.",
+      "Elle s'est enquise des motifs de son retard."
+    ],
+    "common_mistake": "❌ Il s'enquiert à la situation. ➜ ✅ Il s'enquiert de la situation.",
+    "synonyms": [
+      "s'informer de",
+      "se renseigner sur"
+    ],
+    "antonyms": [
+      "délaisser"
+    ]
+  },
+  "s'imposer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'imposer à [la mémoire / la société]",
+    "level": "B2",
+    "definition": "Devenir une évidence incontournable ou faire accepter sa présence.",
+    "grammar_rule": "Verbe pronominal exigeant « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "",
+    "examples": [
+      "Cette vérité s'impose à tous les esprits lucides.",
+      "Le champion s'est imposé au terme d'un match serré."
+    ],
+    "common_mistake": "❌ Cette évidence s'impose sur tous. ➜ ✅ Cette évidence s'impose à tous.",
+    "synonyms": [
+      "s'imposer à",
+      "prévaloir"
+    ],
+    "antonyms": [
+      "s'effacer"
+    ]
+  },
+  "s'ingérer": {
+    "prepositions": [
+      "dans"
+    ],
+    "pronominal": true,
+    "pattern": "s'ingérer dans [les affaires d'autrui]",
+    "level": "B2",
+    "definition": "S'immiscer sans droit dans les affaires privées d'une personne ou d'un État.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « dans ».",
+    "noun_parallel": "⚡ Verbe : 'S'ingérer dans la politique' ➜ Nom : 'L'ingérence DANS les affaires'",
+    "examples": [
+      "Cet État refuse qu'on s'ingère dans ses affaires intérieures.",
+      "Ne vous ingérez pas dans notre querelle !"
+    ],
+    "common_mistake": "❌ Il s'ingère à mes affaires. ➜ ✅ Il s'ingère dans mes affaires.",
+    "synonyms": [
+      "s'immiscer dans",
+      "se mêler de"
+    ],
+    "antonyms": [
+      "se tenir à l'écart de"
+    ]
+  },
+  "s'insurger": {
+    "prepositions": [
+      "contre"
+    ],
+    "pronominal": true,
+    "pattern": "s'insurger contre [une injustice]",
+    "level": "B2",
+    "definition": "Se révolter avec indignation contre un abus, une décision ou une loi.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « contre ».",
+    "noun_parallel": "⚡ Verbe : 'S'insurger contre le décret' ➜ Nom : 'L'insurrection CONTRE l'occupant'",
+    "examples": [
+      "Les travailleurs s'insurgent contre les baisses de salaire.",
+      "Elle s'insurge contre ce traitement injuste."
+    ],
+    "common_mistake": "❌ Il s'insurge à cette mesure. ➜ ✅ Il s'insurge contre cette mesure.",
+    "synonyms": [
+      "se révolter contre",
+      "s'élever contre"
+    ],
+    "antonyms": [
+      "se soumettre à",
+      "accepter"
+    ]
+  },
+  "se raviser": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se raviser (changer d'opinion)",
+    "level": "B2",
+    "definition": "Changer d'avis après réflexion et renoncer à une décision antérieure.",
+    "grammar_rule": "Verbe pronominal intransitif. Aucun complément prépositionnel obligatoire.",
+    "noun_parallel": "",
+    "examples": [
+      "Il allait partir mais il s'est ravisé au dernier moment.",
+      "Après avoir réfléchi, le ministre s'est ravisé."
+    ],
+    "common_mistake": "❌ Il s'est ravisé de sa décision. ➜ ✅ Il s'est ravisé.",
+    "synonyms": [
+      "changer d'avis",
+      "se rétracter"
+    ],
+    "antonyms": [
+      "persister",
+      "s'entêter"
+    ]
+  },
+  "s'appuyer": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": true,
+    "pattern": "s'appuyer sur [des faits / un mur]",
+    "level": "B2",
+    "definition": "Trouver un soutien physique ou prendre pour fondement un argument.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « sur ».",
+    "noun_parallel": "⚡ Verbe : 'S'appuyer sur les faits' ➜ Nom : 'L'appui DU dossier'",
+    "examples": [
+      "L'avocat s'appuie sur la jurisprudence récente pour plaider.",
+      "Le vieil homme s'appuie sur sa canne."
+    ],
+    "common_mistake": "❌ Il s'appuie à des témoignages. ➜ ✅ Il s'appuie sur des témoignages.",
+    "synonyms": [
+      "se baser sur",
+      "se fonder sur"
+    ],
+    "antonyms": [
+      "rejeter"
+    ]
+  },
+  "prévaloir": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": false,
+    "pattern": "prévaloir sur [quelque chose]",
+    "level": "B2",
+    "definition": "L'emporter en force, en valeur ou en autorité sur une autre chose.",
+    "grammar_rule": "Exige la préposition « sur ». Souvent utilisé sous la forme pronominale 'se prévaloir de' (tirer vanité de).",
+    "noun_parallel": "⚡ Verbe : 'Prévaloir sur le doute' ➜ Nom : 'La prévalence'",
+    "examples": [
+      "L'intérêt général doit toujours prévaloir sur les intérêts particuliers.",
+      "Le bon sens a prévalu."
+    ],
+    "common_mistake": "❌ Le droit prévaut à la force. ➜ ✅ Le droit prévaut sur la force.",
+    "synonyms": [
+      "l'emporter sur",
+      "dominer"
+    ],
+    "antonyms": [
+      "céder à",
+      "s'incliner devant"
+    ]
+  },
+  "reprocher": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "reprocher [qqch] à [qqn] / de [verbe]",
+    "level": "B2",
+    "definition": "Adresser des blâmes à une personne pour un manquement.",
+    "grammar_rule": "Construction : reprocher QUELQUE CHOSE (COD) à QUELQU'UN (COI au/aux) / reprocher DE FAIRE quelque chose.",
+    "noun_parallel": "⚡ Verbe : 'Reprocher son retard au collègue' ➜ Nom : 'Le reproche'",
+    "examples": [
+      "Elle reproche à son frère de ne jamais téléphoner.",
+      "On lui reproche sa négligence."
+    ],
+    "common_mistake": "❌ Il lui reproche pour son retard. ➜ ✅ Il lui reproche son retard (ou de être en retard).",
+    "synonyms": [
+      "blâmer pour",
+      "incriminer"
+    ],
+    "antonyms": [
+      "féliciter de",
+      "louer pour"
+    ]
+  },
+  "subsister": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "subsister (durer / survivre)",
+    "level": "B2",
+    "definition": "Continuer d'exister malgré le temps ou les difficultés.",
+    "grammar_rule": "Verbe intransitif sans préposition obligatoire. Peut s'employer avec 'de' pour dire vivre de (subsister de peu).",
+    "noun_parallel": "⚡ Verbe : 'Subsister avec peine' ➜ Nom : 'La subsistance'",
+    "examples": [
+      "Des doutes subsistent encore quant à l'origine du sinistre.",
+      "Cette tradition subsiste dans les villages."
+    ],
+    "common_mistake": "❌ Des doutes subsistent sur le cas (subsister est intransitif). ➜ ✅ Des doutes subsistent quant au cas.",
+    "synonyms": [
+      "demeurer",
+      "persister",
+      "survivre"
+    ],
+    "antonyms": [
+      "disparaître",
+      "s'éteindre"
+    ]
+  },
+  "suppléer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "suppléer à [un manque] / suppléer [qqn]",
+    "level": "B2",
+    "definition": "Remplacer ce qui manque (suppléer à + nom) OU remplacer provisoirement une personne (suppléer qqn).",
+    "grammar_rule": "Distinction : « suppléer à » = pallier un manque (suppléer à l'insuffisance du budget). « suppléer quelqu'un » = remplacer une personne (le vice-président supplée le président).",
+    "noun_parallel": "⚡ Verbe : 'Suppléer au manque de personnel' ➜ Nom : 'Le suppléant'",
+    "examples": [
+      "L'expérience peut parfois suppléer aux diplômes.",
+      "L'adjoint supplée le maire pendant son absence."
+    ],
+    "common_mistake": "❌ Cet outil supplée au directeur (pour remplacer une personne = suppléer le directeur). ➜ ✅ Cet outil supplée le directeur.",
+    "synonyms": [
+      "remplacer",
+      "pallier"
+    ],
+    "antonyms": [
+      ""
+    ]
+  },
+  "témoigner": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "témoigner de [quelque chose] / témoigner en faveur de",
+    "level": "B2",
+    "definition": "Atteindre la preuve manifeste d'une qualité ou déposer en justice.",
+    "grammar_rule": "Régime prépositionnel « de » pour signifier prouver/révéler (témoigner de son attachement ; contractions du/des).",
+    "noun_parallel": "⚡ Verbe : 'Témoigner du respect' ➜ Nom : 'Le témoignage DU témoin'",
+    "examples": [
+      "Ces ruines témoignent de la grandeur passée de la cité.",
+      "Elle témoigne de sa profonde gratitude."
+    ],
+    "common_mistake": "❌ Ces faits témoignent sur la crise. ➜ ✅ Ces faits témoignent de la crise.",
+    "synonyms": [
+      "attester de",
+      "révéler"
+    ],
+    "antonyms": [
+      "démentir",
+      "masquer"
+    ]
+  },
+  "aspirer": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "aspirer à [un idéal / une fonction]",
+    "level": "B2",
+    "definition": "Désirer ardemment atteindre un objectif élevé ou une fonction.",
+    "grammar_rule": "Exige la préposition « à ». Contractions obligatoires devant l'article défini : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Aspirer à la paix' ➜ Nom : 'L'aspiration AU bonheur'",
+    "examples": [
+      "Le jeune diplômé aspire à des responsabilités plus hautes.",
+      "Tous les peuples aspirent à la liberté."
+    ],
+    "common_mistake": "❌ Il aspire de devenir directeur. ➜ ✅ Il aspire à devenir directeur.",
+    "synonyms": [
+      "ambitionner de",
+      "viser à"
+    ],
+    "antonyms": [
+      "renoncer à"
+    ]
+  },
+  "s'enfuir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'enfuir de / hors de [un lieu]",
+    "level": "B2",
+    "definition": "Quitter précipitamment un endroit pour échapper à un danger.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « de ». Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'enfuir du tribunal' ➜ Nom : 'La fuite DU prisonnier'",
+    "examples": [
+      "Le voleur s'est enfui du magasin à toutes jambes.",
+      "Les prisonniers se sont enfuis de la cellule."
+    ],
+    "common_mistake": "❌ Il s'enfuit à la prison. ➜ ✅ Il s'enfuit de la prison.",
+    "synonyms": [
+      "s'échapper de",
+      "déguerpir de"
+    ],
+    "antonyms": [
+      "rester",
+      "se rendre"
+    ]
+  },
+  "s'estimer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "s'estimer [heureux / satisfait]",
+    "level": "B2",
+    "definition": "Se considérer soi-même dans un état ou une qualité donnée.",
+    "grammar_rule": "Verbe pronominal transitif direct suivi d'un adjectif attribut du sujet.",
+    "noun_parallel": "",
+    "examples": [
+      "Il peut s'estimer heureux d'avoir échappé à l'amende.",
+      "Je m'estime satisfait du résultat obtenu."
+    ],
+    "common_mistake": "❌ Il s'estime d'être heureux. ➜ ✅ Il s'estime heureux.",
+    "synonyms": [
+      "se considérer comme"
+    ],
+    "antonyms": [
+      "se déprécier"
+    ]
+  },
+  "s'offrir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'offrir à [quelqu'un] / s'offrir [un luxe]",
+    "level": "B2",
+    "definition": "Se présenter à la vue/disposition (s'offrir à) OU s'accorder un plaisir (s'offrir un cadeau - COD direct).",
+    "grammar_rule": "Construction : « s'offrir à » la vue/la personne (contractions au/aux) / « s'offrir quelque chose » (transitif direct sans préposition).",
+    "noun_parallel": "",
+    "examples": [
+      "Un spectacle magnifique s'offre aux yeux des visiteurs.",
+      "Pour son anniversaire, elle s'est offerte un voyage."
+    ],
+    "common_mistake": "❌ Un panorama s'offre pour nous. ➜ ✅ Un panorama s'offre à nous.",
+    "synonyms": [
+      "se présenter à",
+      "s'accorder"
+    ],
+    "antonyms": [
+      "se refuser"
+    ]
+  },
+  "s'écarter": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'écarter de [un chemin / la vérité]",
+    "level": "B2",
+    "definition": "Se détourner d'une ligne de conduite, d'un chemin ou d'une règle.",
+    "grammar_rule": "Verbe pronominal exigeant « de ». Contractions obligatoires : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'S'écarter du sujet' ➜ Nom : 'L'écart DE conduite'",
+    "examples": [
+      "Le témoin s'est écarté de la vérité lors de sa déposition.",
+      "Écartez-vous du bord du quai !"
+    ],
+    "common_mistake": "❌ Il s'écarte à le sujet principal. ➜ ✅ Il s'écarte du sujet principal.",
+    "synonyms": [
+      "se détourner de",
+      "dériver de"
+    ],
+    "antonyms": [
+      "s'en tenir à",
+      "suivre"
+    ]
+  },
+  "s'interroger": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": true,
+    "pattern": "s'interroger sur [une question / l'avenir]",
+    "level": "B2",
+    "definition": "Se poser à soi-même des questions et réfléchir mûrement.",
+    "grammar_rule": "Verbe pronominal exigeant la préposition « sur ».",
+    "noun_parallel": "⚡ Verbe : 'S'interroger sur l'avenir' ➜ Nom : 'L'interrogation SUR le sens'",
+    "examples": [
+      "Les experts s'interrogent sur les causes du réchauffement.",
+      "Elle s'interroge sur la conduite à tenir."
+    ],
+    "common_mistake": "❌ Je m'interroge de cette décision. ➜ ✅ Je m'interroge sur cette décision.",
+    "synonyms": [
+      "se questionner sur",
+      "méditer sur"
+    ],
+    "antonyms": [
+      "trancher",
+      "ignorer"
+    ]
+  },
+  "se raviser de": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se raviser au dernier moment",
+    "level": "B2",
+    "definition": "Changer opportunément de projet après réflexion.",
+    "grammar_rule": "Pronominal intransitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Le client allait annuler mais il s'est ravisé au dernier moment.",
+      "Elle s'est ravissée à temps."
+    ],
+    "common_mistake": "❌ Il s'est ravisé de sortir. ➜ ✅ Il s'est ravisé.",
+    "synonyms": [
+      "changer d'idée"
+    ],
+    "antonyms": [
+      "s'obstiner"
+    ]
+  },
+  "sommer": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "sommer [quelqu'un] de [faire qqch]",
+    "level": "B2",
+    "definition": "Exiger impérativement et officiellement d'une personne qu'elle s'exécute.",
+    "grammar_rule": "La personne sommée est COD direct. La demande est introduite par « de » devant l'infinitif.",
+    "noun_parallel": "⚡ Verbe : 'Sommer l'accusé de répondre' ➜ Nom : 'La sommation DE payer'",
+    "examples": [
+      "Le juge somme l'accusé de dire la vérité.",
+      "La police a sommé les manifestants de se disperser."
+    ],
+    "common_mistake": "❌ Il somme à l'accusé de parler. ➜ ✅ Il somme l'accusé de parler.",
+    "synonyms": [
+      "ordonner de",
+      "enjoindre de"
+    ],
+    "antonyms": [
+      "prier de",
+      "solliciter"
+    ]
+  },
+  "soumettre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "soumettre [qqch] à [qqn] / se soumettre à",
+    "level": "B2",
+    "definition": "Présenter un travail à l'examen de quelqu'un OU se ranger sous l'autorité d'une règle.",
+    "grammar_rule": "Régime prépositionnel obligatoire « à ». Contractions obligatoires : à + le = au, à + les = aux.",
+    "noun_parallel": "⚡ Verbe : 'Soumettre le projet au conseil' ➜ Nom : 'La soumission AUX règles'",
+    "examples": [
+      "L'étudiant soumet sa thèse au jury de soutenance.",
+      "Chacun doit se soumettre aux lois de la République."
+    ],
+    "common_mistake": "❌ Il soumet son dossier devant le directeur. ➜ ✅ Il soumet son dossier au directeur.",
+    "synonyms": [
+      "présenter à",
+      "assujettir à"
+    ],
+    "antonyms": [
+      "s'affranchir de",
+      "rebeller"
+    ]
+  },
+  "suspendre": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "suspendre [qqch] à [un crochet / un clou]",
+    "level": "B2",
+    "definition": "Accrocher un objet en hauteur à un support.",
+    "grammar_rule": "L'objet est COD direct. Le support accroché exige la préposition « à » (contractions au/aux).",
+    "noun_parallel": "⚡ Verbe : 'Suspendre le tableau au mur' ➜ Nom : 'La suspension AU plafond'",
+    "examples": [
+      "Il a suspendu son manteau au porte-manteau.",
+      "La lampe est suspendue au plafond du salon."
+    ],
+    "common_mistake": "❌ Il suspend son manteau sur le porte-manteau (avec à). ➜ ✅ Il suspend son manteau au porte-manteau.",
+    "synonyms": [
+      "accrocher à",
+      "pendre à"
+    ],
+    "antonyms": [
+      "décrocher de",
+      "déposer"
+    ]
+  },
+  "avoir honte": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "avoir honte de [quelque chose / quelqu'un / verbe]",
+    "level": "A1",
+    "definition": "Éprouver un sentiment d'humiliation, de gêne ou de culpabilité.",
+    "grammar_rule": "Régime prépositionnel obligatoire « de ». Contractions obligatoires devant l'article défini : de + le = du, de + les = des.",
+    "noun_parallel": "⚡ Verbe : 'Avoir honte de son comportement' ➜ Nom : 'La honte DE la faute'",
+    "examples": [
+      "Il a honte de ses erreurs passées.",
+      "Elle a honte d'avoir menti à ses parents."
+    ],
+    "common_mistake": "❌ J'ai honte à parler en public. ➜ ✅ J'ai honte de parler en public.",
+    "synonyms": [
+      "être confus de",
+      "rougir de"
+    ],
+    "antonyms": [
+      "être fier de",
+      "s'enorgueillir de"
+    ]
+  },
+  "dépendre": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "dépendre de [quelque chose / quelqu'un]",
+    "level": "A2",
+    "definition": "Être soumis à l'action ou à la décision de quelqu'un ou d'une circonstance.",
+    "grammar_rule": "Régime prépositionnel obligatoire « de » (dépendre de la météo). Contractions obligatoires : de + le = du, de + les = des. NE JAMAIS employer 'sur'.",
+    "noun_parallel": "⚡ Verbe : 'Dépendre du résultat' ➜ Nom : 'La dépendance VIS-À-VIS du système'",
+    "examples": [
+      "Notre départ dépend du temps qu'il fera demain.",
+      "La décision dépend entièrement du directeur."
+    ],
+    "common_mistake": "❌ Ça dépend sur la situation. ➜ ✅ Ça dépend de la situation.",
+    "synonyms": [
+      "être lié à",
+      "relever de"
+    ],
+    "antonyms": [
+      "s'affranchir de"
+    ]
+  },
+  "penser de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "penser de [opinion sur quelqu'un / qqch]",
+    "level": "B1",
+    "definition": "Avoir ou demander un avis, un jugement ou une opinion.",
+    "grammar_rule": "Utilisé pour demander une opinion : 'Que pensez-vous DE ce projet ?' (contractions du/des). Ne pas confondre avec 'penser à' = avoir en tête.",
+    "noun_parallel": "⚡ Verbe : 'Que pensez-vous du livre ?' ➜ Nom : 'L'opinion SUR le livre'",
+    "examples": [
+      "Que pensez-vous du nouveau système de travail ?",
+      "Je ne sais pas trop quoi penser de cette proposition."
+    ],
+    "common_mistake": "❌ Que pensez-vous à ce film ? ➜ ✅ Que pensez-vous de ce film ?",
+    "synonyms": [
+      "juger de",
+      "estimer"
+    ],
+    "antonyms": [
+      "ignorer",
+      "se moquer de"
+    ]
+  }
+}
