@@ -1,0 +1,751 @@
+/* ==========================================================================
+   COSYlanguages Standalone App Stylesheet — Sage & Cream Aesthetic
+   ========================================================================== */
+
+:root {
+    --sage-primary: #1b4332;
+    --sage-dark: #081c15;
+    --sage-light: #2d6a4f;
+    --cream-bg: #fdfbf7;
+    --cream-card: #f4f0ea;
+    --ink-text: #212529;
+    --ink-muted: #555b62;
+    --terracotta: #b7094c;
+    --ending-highlight: #7209b7;
+    --accent-gold: #d4a373;
+    --border-color: #e0d8cc;
+    --shadow-soft: 0 4px 15px rgba(27, 67, 50, 0.06);
+    --shadow-hover: 0 8px 25px rgba(27, 67, 50, 0.12);
+    --radius-card: 16px;
+    --radius-pill: 30px;
+    --space-xs: 0.3rem;
+    --space-sm: 0.5rem;
+    --space-md: 0.8rem;
+    --space-lg: 1rem;
+    --space-xl: 1.5rem;
+    --space-2xl: 2rem;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Base Body Setup */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cream-bg);
+    color: var(--ink-text);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo-badge {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-icon {
+    font-size: 2.2rem;
+    background-color: var(--cream-card);
+    padding: 0.6rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.brand-text h1 {
+    font-size: 1.6rem;
+    color: var(--sage-primary);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.brand-text .tagline {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.mode-toggle-btn {
+    background-color: var(--cream-card);
+    border: 2px solid var(--sage-primary);
+    color: var(--sage-primary);
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mode-toggle-btn:hover {
+    background-color: var(--sage-primary);
+    color: #ffffff;
+}
+
+.install-pwa-btn {
+    background-color: var(--sage-primary);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.install-pwa-btn:hover {
+    background-color: var(--sage-light);
+    transform: translateY(-1px);
+}
+
+/* Search Bar Section */
+.search-section {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-pill);
+    padding: 0.5rem 1.2rem;
+    box-shadow: var(--shadow-soft);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-box:focus-within {
+    border-color: var(--sage-primary);
+    box-shadow: 0 0 0 4px rgba(27, 67, 50, 0.15);
+}
+
+.search-icon {
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+    color: var(--ink-muted);
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.1rem;
+    color: var(--ink-text);
+    background: transparent;
+}
+
+.clear-btn {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    color: var(--ink-muted);
+    cursor: pointer;
+    display: none;
+    padding: 0 0.4rem;
+}
+
+.clear-btn:hover {
+    color: var(--terracotta);
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-top: 0.5rem;
+    box-shadow: var(--shadow-hover);
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.15s ease;
+}
+
+.suggestion-item:hover {
+    background-color: var(--cream-card);
+}
+
+/* Practice Game Card */
+.game-card {
+    background: #ffffff;
+    border: 2px solid var(--accent-gold);
+    border-radius: var(--radius-card);
+    padding: 2rem;
+    box-shadow: var(--shadow-hover);
+    margin-bottom: 2rem;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.game-title h2 {
+    color: var(--sage-primary);
+    font-size: 1.6rem;
+}
+
+.game-title p {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+}
+
+.score-badge {
+    background-color: var(--cream-card);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-color);
+    display: flex;
+    gap: 1rem;
+    font-size: 0.95rem;
+}
+
+.streak {
+    color: var(--terracotta);
+}
+
+.game-prompt-box {
+    text-align: center;
+    background-color: var(--cream-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.prompt-label {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.game-prompt-box h3 {
+    font-size: 2.2rem;
+    color: var(--sage-primary);
+    margin: 0.3rem 0;
+}
+
+.prompt-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.prompt-pronoun {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--terracotta);
+}
+
+.game-input-group {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.game-input-group input {
+    flex: 1;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-pill);
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.game-input-group input:focus {
+    border-color: var(--sage-primary);
+}
+
+.game-btn {
+    background-color: var(--sage-primary);
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: var(--radius-pill);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.game-btn:hover {
+    background-color: var(--sage-light);
+}
+
+.secondary-btn {
+    background-color: var(--cream-card);
+    color: var(--sage-dark);
+    border: 1px solid var(--border-color);
+    width: 100%;
+}
+
+.secondary-btn:hover {
+    background-color: var(--accent-gold);
+    color: #ffffff;
+}
+
+.feedback-card {
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feedback-card.correct {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.feedback-card.wrong {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Verb Result Display Card */
+.verb-result-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-card);
+    padding: 2rem;
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 2rem;
+}
+
+.verb-header {
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.verb-title-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+}
+
+.verb-title-group h2 {
+    font-size: 2.2rem;
+    color: var(--sage-primary);
+    font-weight: 800;
+}
+
+.badge {
+    background-color: var(--cream-card);
+    color: var(--sage-dark);
+    padding: 0.35rem 0.8rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+}
+
+.aux-badge {
+    background-color: #e8f5e9;
+    color: var(--sage-primary);
+    border-color: #c8e6c9;
+}
+
+.tts-btn {
+    background-color: var(--cream-card);
+    border: 1px solid var(--border-color);
+    color: var(--ink-text);
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.tts-btn:hover {
+    background-color: var(--sage-primary);
+    color: #ffffff;
+}
+
+/* Lexical Enrichment Box */
+.lexical-box {
+    background-color: var(--cream-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.lexical-label {
+    font-weight: 700;
+    color: var(--sage-primary);
+    margin-right: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.def-text {
+    font-style: italic;
+    color: var(--ink-text);
+}
+
+.usage-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    background-color: #f0f7f4;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--sage-primary);
+}
+
+.usage-text {
+    font-weight: 600;
+    color: var(--sage-primary);
+}
+
+.grammar-rule-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    background-color: #fff8f0;
+    padding: 0.45rem 0.85rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--terracotta);
+}
+
+.rule-text {
+    font-weight: 600;
+    color: var(--ink-text);
+}
+
+.antonyms-block {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.pills-list {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.antonym-pill {
+    background-color: #ffffff;
+    border: 1px solid var(--accent-gold);
+    color: var(--sage-dark);
+    padding: 0.2rem 0.7rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.15s ease;
+}
+
+.antonym-pill:hover {
+    background-color: var(--accent-gold);
+    color: #ffffff;
+}
+
+/* Pattern Recognition: Color-Coded Stem & Ending */
+.stem {
+    color: var(--sage-dark);
+}
+
+.ending {
+    color: var(--terracotta);
+    font-weight: 800;
+}
+
+/* Tense Grid Setup */
+.tense-grid-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mode-section h3 {
+    font-size: 1.3rem;
+    color: var(--sage-primary);
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--sage-primary);
+    padding-left: 0.6rem;
+}
+
+.tense-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.2rem;
+}
+
+.tense-card {
+    background-color: var(--cream-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.tense-card h4 {
+    font-size: 0.95rem;
+    color: var(--terracotta);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.4rem;
+}
+
+.conjugation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-size: 0.95rem;
+}
+
+.conjugation-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    white-space: nowrap;
+    gap: 0.5rem;
+}
+
+.conjugation-list .pronoun {
+    color: var(--ink-muted);
+    white-space: nowrap;
+}
+
+.conjugation-list .verb-form {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Empty State */
+.empty-state-box {
+    background: #ffffff;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-card);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.empty-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.empty-state-box h3 {
+    color: var(--sage-primary);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.empty-state-box p {
+    color: var(--ink-muted);
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+}
+
+.quick-tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+}
+
+.tag-btn {
+    background-color: var(--cream-card);
+    border: 1px solid var(--border-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--sage-primary);
+    transition: all 0.15s ease;
+}
+
+.tag-btn:hover {
+    background-color: var(--sage-primary);
+    color: #ffffff;
+}
+
+/* Footer */
+.app-footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--border-color);
+    color: var(--ink-muted);
+    font-size: 0.85rem;
+    margin-top: auto;
+}
+
+/* ==========================================================================
+   Responsive Adaptations & Mobile Touch Optimizations
+   ========================================================================== */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 1rem 0.8rem;
+    }
+
+    .app-header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 0.8rem;
+        margin-bottom: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .logo-badge {
+        justify-content: center;
+    }
+
+    .header-actions {
+        justify-content: center;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .mode-toggle-btn, .install-pwa-btn, .tag-btn, .choice-btn, .game-btn, .tts-btn {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mode-toggle-btn {
+        width: 100%;
+    }
+
+    .verb-result-card, .game-card, .noun-result-card, .empty-state-box {
+        padding: 1.25rem 1rem;
+    }
+
+    .verb-title-group {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .game-input-group {
+        flex-direction: column;
+    }
+
+    .game-input-group input {
+        width: 100%;
+        min-height: 44px;
+    }
+
+    .game-btn {
+        width: 100%;
+    }
+
+    .tense-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .table-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-top: 0.5rem;
+        border-radius: 12px;
+        width: 100%;
+    }
+}
+
+/* Multiple Choice Options Grid */
+.mc-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 16px 0;
+}
+.mc-option-btn {
+    background: var(--cream-card, #fbfbf9);
+    border: 2px solid var(--sage-light, #d8e2dc);
+    border-radius: 8px;
+    padding: 0.75rem 0.875rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink-main, #2b2d42);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+.mc-option-btn:hover {
+    border-color: var(--terracotta, #e07a5f);
+    background: #fff;
+    transform: translateY(-2px);
+}
+.active-mode {
+    background: var(--terracotta, #e07a5f) !important;
+    color: #fff !important;
+    cursor: pointer;
+}
