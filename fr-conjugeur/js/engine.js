@@ -166,17 +166,17 @@ class ConjugationEngine {
             usage_hint: `${infinitive} + COD (complément d'objet direct)`,
             antonyms: [],
             tenses: {
-                pres: [`${jePronoun}${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
-                imp: [`${jePronoun}${stem}ais`, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
+                indicatif_present: [`${jePronoun}${stem}e`, `tu ${stem}es`, `il/elle ${stem}e`, `nous ${stem}ons`, `vous ${stem}ez`, `ils/elles ${stem}ent`],
+                indicatif_imparfait: [`${jePronoun}${stem}ais`, `tu ${stem}ais`, `il/elle ${stem}ait`, `nous ${stem}ions`, `vous ${stem}iez`, `ils/elles ${stem}aient`],
                 pc: [`j'ai ${stem}é`, `tu as ${stem}é`, `il/elle a ${stem}é`, `nous avons ${stem}é`, `vous avez ${stem}é`, `ils/elles ont ${stem}é`],
                 pqp: [`j'avais ${stem}é`, `tu avais ${stem}é`, `il/elle avait ${stem}é`, `nous avions ${stem}é`, `vous aviez ${stem}é`, `ils/elles avaient ${stem}é`],
-                fut: [`${jePronoun}${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
+                indicatif_futur_simple: [`${jePronoun}${infinitive}ai`, `tu ${infinitive}as`, `il/elle ${infinitive}a`, `nous ${infinitive}ons`, `vous ${infinitive}ez`, `ils/elles ${infinitive}ont`],
                 fut_ant: [`j'aurai ${stem}é`, `tu auras ${stem}é`, `il/elle aura ${stem}é`, `nous aurons ${stem}é`, `vous aurez ${stem}é`, `ils/elles auront ${stem}é`],
-                cond: [`${jePronoun}${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
+                conditionnel_present: [`${jePronoun}${infinitive}ais`, `tu ${infinitive}ais`, `il/elle ${infinitive}ait`, `nous ${infinitive}ions`, `vous ${infinitive}iez`, `ils/elles ${infinitive}aient`],
                 cond_pass: [`j'aurais ${stem}é`, `tu aurais ${stem}é`, `il/elle aurait ${stem}é`, `nous aurions ${stem}é`, `vous auriez ${stem}é`, `ils/elles auraient ${stem}é`],
-                subj: [`${queJePronoun}${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
+                subjonctif_present: [`${queJePronoun}${stem}e`, `que tu ${stem}es`, `qu'il/elle ${stem}e`, `que nous ${stem}ions`, `que vous ${stem}iez`, `qu'ils/elles ${stem}ent`],
                 subj_pass: [`que j'aie ${stem}é`, `que tu aies ${stem}é`, `qu'il/elle ait ${stem}é`, `que nous ayons ${stem}é`, `que vous ayez ${stem}é`, `qu'ils/elles aient ${stem}é`],
-                impv: [`${stem}e !`, `${stem}ons !`, `${stem}ez !`],
+                imperatif: [`${stem}e !`, `${stem}ons !`, `${stem}ez !`],
                 part: [`${stem}ant`, `${stem}é`]
             }
         };
@@ -252,25 +252,18 @@ class ConjugationEngine {
         }
 
         const pronounsMap = {
-            pres: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             indicatif_present: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
-            imp: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             indicatif_imparfait: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             pc: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
             pqp: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
-            fut: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             indicatif_futur_simple: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             fut_ant: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
-            subj: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
             subjonctif_present: ["que je", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
             subj_pass: ["que j'", "que tu", "qu'il/elle", "que nous", "que vous", "qu'ils/elles"],
-            cond: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             conditionnel_present: ["je", "tu", "il/elle", "nous", "vous", "ils/elles"],
             cond_pass: ["j'", "tu", "il/elle", "nous", "vous", "ils/elles"],
-            impv: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
             imperatif: ["(2e pers.)", "(1re pl.)", "(2e pl.)"],
-            part: ["Présent", "Passé"],
-            participe_passe: ["Passé"]
+            part: ["Présent", "Passé"]
         };
 
         const tenseIdMap = {
@@ -278,15 +271,14 @@ class ConjugationEngine {
             indicatif_imparfait: "imp",
             indicatif_futur_simple: "fut",
             conditionnel_present: "cond",
-            conditionnel_passe: "cond_pass",
+            cond_pass: "cond_pass",
             subjonctif_present: "subj",
-            subjonctif_passe: "subj_pass",
-            plus_que_parfait: "pqp",
-            futur_anterieur: "fut_ant",
+            subj_pass: "subj_pass",
+            pqp: "pqp",
+            fut_ant: "fut_ant",
             imperatif: "impv",
-            participe_passe: "part",
-            pres: "pres", imp: "imp", pc: "pc", pqp: "pqp", fut: "fut", fut_ant: "fut_ant",
-            subj: "subj", subj_pass: "subj_pass", cond: "cond", cond_pass: "cond_pass", impv: "impv", part: "part"
+            part: "part",
+            pc: "pc"
         };
 
         for (const [tenseKey, forms] of Object.entries(data.tenses)) {
@@ -368,18 +360,13 @@ class ConjugationEngine {
         const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
         const verbData = this.verbDb[randomVerb];
 
-        const tenseKeys = ['pres', 'imp', 'pc', 'fut', 'cond', 'subj'];
+        const tenseKeys = ['indicatif_present', 'indicatif_imparfait', 'pc', 'indicatif_futur_simple', 'conditionnel_present', 'subjonctif_present'];
         const tenseNameMap = {
-            pres: 'Présent',
             indicatif_present: 'Présent',
-            imp: 'Imparfait',
             indicatif_imparfait: 'Imparfait',
             pc: 'Passé composé',
-            fut: 'Futur simple',
             indicatif_futur_simple: 'Futur simple',
-            cond: 'Conditionnel Présent',
             conditionnel_present: 'Conditionnel Présent',
-            subj: 'Subjonctif Présent',
             subjonctif_present: 'Subjonctif Présent'
         };
         const pronouns = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'];
