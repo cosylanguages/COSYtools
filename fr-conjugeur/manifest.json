@@ -1,0 +1,16 @@
+{
+  "name": "Conjugueur Français",
+  "short_name": "Conjugueur FR",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1b4332",
+  "description": "Conjugaison instantanée & vocabulaire clair offline.",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
