@@ -1,0 +1,16 @@
+{
+  "name": "Σύνταξη ρημάτων — πτώσεις & προθέσεις",
+  "short_name": "Σύνταξη EL",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1b4332",
+  "description": "Σύνταξη ελληνικών ρημάτων, πτώσεις (αιτιατική & γενική) και προθέσεις offline.",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
