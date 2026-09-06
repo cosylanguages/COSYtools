@@ -1,0 +1,195 @@
+{
+  "language": "de",
+  "units": [
+    {
+      "lemma": "Buch",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Gedrucktes Werk zum Lesen.",
+        "article": "das",
+        "plural": "Bücher",
+        "examples": [
+          "Ich lese ein interessantes Buch."
+        ]
+      }
+    },
+    {
+      "lemma": "Haus",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Gebäude zum Wohnen.",
+        "article": "das",
+        "plural": "Häuser",
+        "examples": [
+          "Das Haus ist schön und groß."
+        ]
+      }
+    },
+    {
+      "lemma": "Sonne",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Stern im Zentrum unseres Sonnensystems.",
+        "article": "die",
+        "plural": "Sonnen",
+        "examples": [
+          "Die Sonne scheint heute hell."
+        ]
+      }
+    },
+    {
+      "lemma": "Tisch",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Möbelstück mit flacher Oberfläche.",
+        "article": "der",
+        "plural": "Tische",
+        "examples": [
+          "Der Tisch steht in der Küche."
+        ]
+      }
+    },
+    {
+      "lemma": "haben",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Etwas besitzen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich habe",
+            "du hast",
+            "er/sie hat",
+            "wir haben",
+            "ihr habt",
+            "sie haben"
+          ],
+          "präteritum": [
+            "ich hatte",
+            "du hattest",
+            "er/sie hatte",
+            "wir hatten",
+            "ihr hattet",
+            "sie hatten"
+          ]
+        },
+        "examples": [
+          "Ich habe einen guten Freund."
+        ]
+      }
+    },
+    {
+      "lemma": "lernen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Sich Wissen oder Fähigkeiten aneignen.",
+        "antonyms": [
+          "vergessen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich lerne",
+            "du lernst",
+            "er/sie lernt",
+            "wir lernen",
+            "ihr lernt",
+            "sie lernen"
+          ],
+          "präteritum": [
+            "ich lernte",
+            "du lerntest",
+            "er/sie lernte",
+            "wir lernten",
+            "ihr lerntet",
+            "sie lernten"
+          ]
+        },
+        "examples": [
+          "Ich lerne jeden Tag Deutsch."
+        ]
+      }
+    },
+    {
+      "lemma": "machen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas hervorbringen oder ausführen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich mache",
+            "du machst",
+            "er/sie macht",
+            "wir machen",
+            "ihr macht",
+            "sie machen"
+          ],
+          "präteritum": [
+            "ich machte",
+            "du machtest",
+            "er/sie machte",
+            "wir machten",
+            "ihr machtet",
+            "sie machten"
+          ]
+        },
+        "examples": [
+          "Wir machen unsere Hausaufgaben."
+        ]
+      }
+    },
+    {
+      "lemma": "sein",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Existieren oder einen Zustand haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bin",
+            "du bist",
+            "er/sie ist",
+            "wir sind",
+            "ihr seid",
+            "sie sind"
+          ],
+          "präteritum": [
+            "ich war",
+            "du warst",
+            "er/sie war",
+            "wir waren",
+            "ihr wart",
+            "sie waren"
+          ]
+        },
+        "examples": [
+          "Er ist heute sehr glücklich."
+        ]
+      }
+    }
+  ]
+}

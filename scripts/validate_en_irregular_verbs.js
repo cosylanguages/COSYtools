@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dir = path.join(__dirname, '..', 'en-irregular-verbs');
+const dir = path.join(__dirname, '..', 'tools', 'en', 'irregular-verbs');
 
 const filesToVerify = [
     'manifest.json',
@@ -32,16 +32,16 @@ filesToVerify.forEach(relPath => {
 
 // Check root index.html link
 const rootIndex = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf-8');
-if (!rootIndex.includes('href="en-irregular-verbs/"')) {
-    console.error(`❌ root index.html does not link to en-irregular-verbs/`);
+if (!rootIndex.includes('href="tools/en/irregular-verbs/"')) {
+    console.error(`❌ root index.html does not link to tools/en/irregular-verbs/`);
     process.exit(1);
 }
 console.log('  ✓ root index.html link verified');
 
 // Check README.md
 const readme = fs.readFileSync(path.join(__dirname, '..', 'README.md'), 'utf-8');
-if (!readme.includes('en-irregular-verbs/')) {
-    console.error(`❌ README.md does not mention en-irregular-verbs/`);
+if (!readme.includes('tools/en/irregular-verbs/')) {
+    console.error(`❌ README.md does not mention tools/en/irregular-verbs/`);
     process.exit(1);
 }
 console.log('  ✓ README.md reference verified');

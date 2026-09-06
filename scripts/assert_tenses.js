@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
 
-const verbsPath = path.join(__dirname, '..', 'fr-conjugeur', 'data', 'verbs.json');
+const verbsPath = path.join(__dirname, '..', 'tools', 'fr', 'conjugeur', 'data', 'verbs.json');
 const verbs = JSON.parse(fs.readFileSync(verbsPath, 'utf8'));
 
 // Canonical tense ID mapping from engine.js

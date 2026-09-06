@@ -1,0 +1,87 @@
+{
+  "language": "tt",
+  "units": [
+    {
+      "lemma": "йорт",
+      "kind": "nouns",
+      "source": "tools/tt/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Яшәү өчен төзелгән бина.",
+        "cases": {
+          "nom": "йорт",
+          "gen": "йортның",
+          "dat": "йортка",
+          "acc": "йортны"
+        },
+        "examples": [
+          "Безнең йорт парк янында урнашкан."
+        ]
+      }
+    },
+    {
+      "lemma": "китап",
+      "kind": "nouns",
+      "source": "tools/tt/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Уку өчен басылган әсәр.",
+        "cases": {
+          "nom": "китап",
+          "gen": "китапның",
+          "dat": "китапка",
+          "acc": "китапны"
+        },
+        "examples": [
+          "Бу китап өстәлдә ята."
+        ]
+      }
+    },
+    {
+      "lemma": "уку",
+      "kind": "verbs",
+      "source": "tools/tt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркем",
+        "level": "A1",
+        "definition": "Текстның мәгънәсен аңлап кабул итү.",
+        "tenses": {
+          "present": [
+            "укыйм",
+            "укыйсың",
+            "укый",
+            "укыйбыз",
+            "укыйсыз",
+            "укыйлар"
+          ]
+        },
+        "examples": [
+          "Мин көн саен кызыклы китап укыйм."
+        ]
+      }
+    },
+    {
+      "lemma": "язу",
+      "kind": "verbs",
+      "source": "tools/tt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркем",
+        "level": "A1",
+        "definition": "Сүзләрне яки текстны кәгазьгә төшерү.",
+        "tenses": {
+          "present": [
+            "язам",
+            "язасың",
+            "яза",
+            "язабыз",
+            "язасыз",
+            "язалар"
+          ]
+        },
+        "examples": [
+          "Ол дустына хат яза."
+        ]
+      }
+    }
+  ]
+}

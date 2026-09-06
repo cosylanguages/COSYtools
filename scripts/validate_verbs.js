@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, '..', 'en-irregular-verbs', 'data', 'verbs.json');
+const filePath = path.join(__dirname, '..', 'tools', 'en', 'irregular-verbs', 'data', 'verbs.json');
 
 try {
     const raw = fs.readFileSync(filePath, 'utf-8');

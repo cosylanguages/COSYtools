@@ -1,0 +1,87 @@
+{
+  "language": "hy",
+  "units": [
+    {
+      "lemma": "գիրք",
+      "kind": "nouns",
+      "source": "tools/hy/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Տպագրված կամ գրված աշխատություն:",
+        "cases": {
+          "nom": "գիրք",
+          "gen": "գրքի",
+          "dat": "գրքի",
+          "acc": "գիրք"
+        },
+        "examples": [
+          "Ես կարդում եմ հետաքրքիր գիրք:"
+        ]
+      }
+    },
+    {
+      "lemma": "տուն",
+      "kind": "nouns",
+      "source": "tools/hy/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Բնակության համար նախատեսված շինություն:",
+        "cases": {
+          "nom": "տուն",
+          "gen": "տան",
+          "dat": "տան",
+          "acc": "տուն"
+        },
+        "examples": [
+          "Մեր տունը գեղեցիկ է և լուսավոր:"
+        ]
+      }
+    },
+    {
+      "lemma": "խոսել",
+      "kind": "verbs",
+      "source": "tools/hy/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I խոնարհում (-ել)",
+        "level": "A1",
+        "definition": "Մտքերն արտահայտել բառերով:",
+        "tenses": {
+          "present": [
+            "խոսում եմ",
+            "խոսում ես",
+            "խոսում է",
+            "խոսում ենք",
+            "խոսում եք",
+            "խոսում են"
+          ]
+        },
+        "examples": [
+          "Ես խոսում եմ հայերեն ամեն օր:"
+        ]
+      }
+    },
+    {
+      "lemma": "սովորել",
+      "kind": "verbs",
+      "source": "tools/hy/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I խոնարհում (-ել)",
+        "level": "A1",
+        "definition": "Գիտելիք ստանալ, յուրացնել:",
+        "tenses": {
+          "present": [
+            "սովորում եմ",
+            "սովորում ես",
+            "սովորում է",
+            "սովորում ենք",
+            "սովորում եք",
+            "սովորում են"
+          ]
+        },
+        "examples": [
+          "Աշակերտները սովորում են դպրոցում:"
+        ]
+      }
+    }
+  ]
+}

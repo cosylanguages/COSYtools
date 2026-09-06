@@ -146,3 +146,12 @@ window.COSY_ACTIVE_LANGUAGES = window.COSY_LANGUAGES.filter(l => l.status === 'a
 
 // Helper: get all languages that have data (active + coming-soon with content)
 window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.has_data);
+
+// Load imported morphology and lexical supplements for every tool page.
+const languageScript = document.currentScript;
+if (languageScript && !document.querySelector('script[data-supplemental-lexicon]')) {
+    const supplementalScript = document.createElement('script');
+    supplementalScript.src = new URL('supplemental_lexicon.js', languageScript.src).href;
+    supplementalScript.dataset.supplementalLexicon = 'true';
+    document.head.appendChild(supplementalScript);
+}

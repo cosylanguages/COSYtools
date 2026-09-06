@@ -1,0 +1,86 @@
+.practice-panel {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    border: 1px solid var(--border-color, #d8d0c4);
+    border-radius: 14px;
+    background: var(--cream-card, #fffdf8);
+}
+
+.practice-heading {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.practice-heading h2 {
+    margin: 0.15rem 0 0;
+    font-size: 1.2rem;
+}
+
+.practice-kicker {
+    color: var(--sage-dark, #416b49);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.practice-family {
+    color: var(--sage-dark, #416b49);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.practice-prompt {
+    margin: 1.25rem 0 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.practice-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.practice-controls input {
+    flex: 1 1 220px;
+    min-height: 42px;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--border-color, #d8d0c4);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.practice-controls button {
+    min-height: 42px;
+    padding: 0.6rem 0.9rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--sage-primary, #6b8f71);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.practice-controls button.secondary {
+    background: transparent;
+    border: 1px solid var(--border-color, #d8d0c4);
+    color: var(--ink, #302d28);
+}
+
+.practice-feedback {
+    min-height: 1.4rem;
+    margin: 0.75rem 0 0;
+    font-weight: 700;
+}
+
+.practice-feedback.correct { color: #28724b; }
+.practice-feedback.incorrect { color: #b04d35; }
+
+@media (max-width: 560px) {
+    .practice-heading { flex-direction: column; }
+    .practice-family { text-align: left; }
+}

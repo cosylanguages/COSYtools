@@ -905,7 +905,7 @@ add_verb("recast", "recast", "recast", "recasts", "no_change", "B2+",
          "Philosopher recasts classic debate.", "Author recast narrative structure.", "Premise has been recast entirely.")
 
 # Write to json file
-output_path = os.path.join(os.path.dirname(__file__), "..", "en-irregular-verbs", "data", "verbs.json")
+output_path = os.path.join(os.path.dirname(__file__), "..", "tools", "en", "irregular-verbs", "data", "verbs.json")
 output_path = os.path.abspath(output_path)
 
 with open(output_path, "w", encoding="utf-8") as f:

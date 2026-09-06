@@ -1,0 +1,87 @@
+{
+  "language": "ka",
+  "units": [
+    {
+      "lemma": "სახლი",
+      "kind": "nouns",
+      "source": "tools/ka/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "შენობა საცხოვრებლად.",
+        "cases": {
+          "nom": "სახლი",
+          "erg": "სახლმა",
+          "dat": "სახლს",
+          "gen": "სახლის"
+        },
+        "examples": [
+          "ჩვენი სახლი მდებარეობს პარკთან."
+        ]
+      }
+    },
+    {
+      "lemma": "წიგნი",
+      "kind": "nouns",
+      "source": "tools/ka/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "ნაბეჭდი ნაწარმოები წასაკითხად.",
+        "cases": {
+          "nom": "წიგნი",
+          "erg": "წიგნმა",
+          "dat": "წიგნს",
+          "gen": "წიგნის"
+        },
+        "examples": [
+          "ეს წიგნი დევს მაგიდაზე."
+        ]
+      }
+    },
+    {
+      "lemma": "კითხულობს",
+      "kind": "verbs",
+      "source": "tools/ka/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I კლასი",
+        "level": "A1",
+        "definition": "ტექსტის გაგება და აღქმა.",
+        "tenses": {
+          "present": [
+            "ვკითხულობ",
+            "კითხულობ",
+            "კითხულობს",
+            "ვკითხულობთ",
+            "კითხულობთ",
+            "კითხულობენ"
+          ]
+        },
+        "examples": [
+          "ის კითხულობს საინტერესო წიგნს."
+        ]
+      }
+    },
+    {
+      "lemma": "წერს",
+      "kind": "verbs",
+      "source": "tools/ka/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I კლასი",
+        "level": "A1",
+        "definition": "სიტყვების ან ტექსტის გამოსახვა ქაღალდზე.",
+        "tenses": {
+          "present": [
+            "ვწერ",
+            "წერ",
+            "წერს",
+            "ვწერთ",
+            "წერთ",
+            "წერენ"
+          ]
+        },
+        "examples": [
+          "მე ვწერ წერილს ჩემს მეგობარს."
+        ]
+      }
+    }
+  ]
+}

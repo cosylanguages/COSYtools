@@ -1,0 +1,16 @@
+{
+  "name": "English Irregular Verbs",
+  "short_name": "EN Irregular Verbs",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#416b49",
+  "description": "Master English irregular verb forms (base, past simple, past participle) offline.",
+  "icons": [
+    {
+      "src": "../../../shared/images/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

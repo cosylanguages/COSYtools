@@ -1,0 +1,198 @@
+{
+  "language": "pt",
+  "units": [
+    {
+      "lemma": "água",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Líquido incolor e inodoro essencial à vida.",
+        "article": "a",
+        "plural": "águas",
+        "examples": [
+          "Bebo um copo de água fresca."
+        ]
+      }
+    },
+    {
+      "lemma": "casa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Edifício construído para habitação.",
+        "article": "a",
+        "plural": "casas",
+        "examples": [
+          "A casa é grande e bonita."
+        ]
+      }
+    },
+    {
+      "lemma": "livro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Obra impressa para leitura.",
+        "article": "o",
+        "plural": "livros",
+        "examples": [
+          "Estou a ler um livro interessante."
+        ]
+      }
+    },
+    {
+      "lemma": "sol",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Estrela central do nosso sistema solar.",
+        "article": "o",
+        "plural": "sóis",
+        "examples": [
+          "O sol brilha forte no céu."
+        ]
+      }
+    },
+    {
+      "lemma": "comer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Mastigar e engolir alimentos.",
+        "antonyms": [
+          "jejuar"
+        ],
+        "tenses": {
+          "presente": [
+            "como",
+            "comes",
+            "come",
+            "comemos",
+            "comeis",
+            "comem"
+          ],
+          "passado": [
+            "comi",
+            "comeste",
+            "comeu",
+            "comemos",
+            "comestes",
+            "comeram"
+          ]
+        },
+        "examples": [
+          "Nós comemos uma fruta deliciosa."
+        ]
+      }
+    },
+    {
+      "lemma": "falar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Expressar-se por meio de palavras.",
+        "antonyms": [
+          "calar",
+          "ouvir"
+        ],
+        "tenses": {
+          "presente": [
+            "falo",
+            "falas",
+            "fala",
+            "falamos",
+            "falais",
+            "falam"
+          ],
+          "passado": [
+            "falei",
+            "falaste",
+            "falou",
+            "falamos",
+            "falastes",
+            "falaram"
+          ]
+        },
+        "examples": [
+          "Eu falo português todos os dias."
+        ]
+      }
+    },
+    {
+      "lemma": "ser",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Possuir identidade ou estado permanente.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "sou",
+            "és",
+            "é",
+            "somos",
+            "sois",
+            "são"
+          ],
+          "passado": [
+            "fui",
+            "foste",
+            "foi",
+            "fomos",
+            "fostes",
+            "foram"
+          ]
+        },
+        "examples": [
+          "Ela é uma estudante dedicada."
+        ]
+      }
+    },
+    {
+      "lemma": "ter",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Possuir algo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "tenho",
+            "tens",
+            "tem",
+            "temos",
+            "tendes",
+            "têm"
+          ],
+          "passado": [
+            "tive",
+            "tiveste",
+            "teve",
+            "tivemos",
+            "tivestes",
+            "tiveram"
+          ]
+        },
+        "examples": [
+          "Eu tenho um livro novo."
+        ]
+      }
+    }
+  ]
+}

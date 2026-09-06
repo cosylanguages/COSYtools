@@ -1,0 +1,81 @@
+{
+  "language": "br",
+  "units": [
+    {
+      "lemma": "levr",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Strollad pajennoù voulet evit lenn.",
+        "article": "al",
+        "plural": "levrioù",
+        "examples": [
+          "Lenn a ran al levr-mañ."
+        ]
+      }
+    },
+    {
+      "lemma": "ti",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Savadur evit an dud da chom ennañ.",
+        "article": "an",
+        "plural": "tier",
+        "examples": [
+          "Bras ha brav eo an ti."
+        ]
+      }
+    },
+    {
+      "lemma": "komz",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Eztaoler e soñjoù gant komzoù.",
+        "tenses": {
+          "present": [
+            "komzan",
+            "komzez",
+            "komz",
+            "komzomp",
+            "komzit",
+            "komzont"
+          ]
+        },
+        "examples": [
+          "Komz a ran brezhoneg bemdez."
+        ]
+      }
+    },
+    {
+      "lemma": "lenn",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Dastum ster ur skrid.",
+        "tenses": {
+          "present": [
+            "lennan",
+            "lennez",
+            "lenn",
+            "lennomp",
+            "lennit",
+            "lennont"
+          ]
+        },
+        "examples": [
+          "Lenn a ra al levr-mañ."
+        ]
+      }
+    }
+  ]
+}

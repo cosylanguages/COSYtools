@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Σύνταξη ρημάτων — πτώσεις &amp; προθέσεις | COSYlanguages</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tool-dashboard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../../../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Cozy Header -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇬🇷</span>
+                <div class="brand-text">
+                    <h1>Σύνταξη Ρημάτων</h1>
+                    <p class="tagline">Πτώσεις (Αιτιατική &amp; Γενική) &amp; Προθέσεις — Οδηγός &amp; Παραδείγματα</p>
+                </div>
+            </div>
+
+            <div class="main-nav-bar">
+                <button id="nav-lookup-btn" class="nav-mode-btn active" onclick="appEngine.setAppMode('lookup')">📖 Αναζήτηση</button>
+                <button id="nav-practice-btn" class="nav-mode-btn" onclick="appEngine.setAppMode('practice')">🎮 Εξάσκηση</button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Look Up Mode View -->
+            <section id="lookup-view-container" class="app-view-section">
+                <section id="search-section-container" class="search-section">
+                    <!-- Filter Pills Bar -->
+                    <div class="filter-pills-bar" id="filter-pills-bar">
+                        <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Όλα τα ρήματα</button>
+                        <button class="filter-pill" id="filter-acc-direct" onclick="appEngine.setFilter('acc-direct')">Άμεση Αιτιατική (χωρίς πρόθεση)</button>
+                        <button class="filter-pill" id="filter-prep-acc" onclick="appEngine.setFilter('prep-acc')">Πρόθεση + Αιτιατική 🔗</button>
+                        <button class="filter-pill" id="filter-genitive" onclick="appEngine.setFilter('genitive')">Γενική 🏛️</button>
+                    </div>
+
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="verb-search-input" placeholder="Αναζήτηση ρήματος (π.χ. περιμένω, ζητάω, ενδιαφέρομαι, ασχολούμαι)..." autocomplete="off" autofocus>
+                        <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                    </div>
+                    <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
+                </section>
+
+                <!-- Verb Result Display -->
+                <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                    <!-- Result Navigation Controls -->
+                    <div class="nav-controls-bar">
+                        <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Προηγούμενο">◀ Προηγούμενο</button>
+                        <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Τυχαίο ρήμα">🎲 Τυχαίο</button>
+                        <button class="nav-btn" onclick="appEngine.navigateNext()" title="Επόμενο">Επόμενο ▶</button>
+                    </div>
+
+                    <!-- Header Info -->
+                    <div class="verb-header">
+                        <div class="verb-title-group">
+                            <h2 id="verb-title">περιμένω</h2>
+                            <span id="gov-badge" class="badge prep-badge">Αιτιατική (χωρίς πρόθεση)</span>
+                            <span id="verb-cefr-badge" class="badge cefr-badge">Επίπεδο: A1</span>
+                            <button id="speak-verb-btn" class="tts-btn" title="Ακρόαση προφοράς">🔊 Προφορά</button>
+                        </div>
+
+                        <!-- Short Definition & Pattern Cards -->
+                        <div class="lexical-box">
+                            <div class="def-block">
+                                <span class="lexical-label">📖 Ορισμός:</span>
+                                <span id="verb-definition" class="def-text">Προσδοκώ την άφιξη ή την εμφάνιση κάποιου/κάποιου πράγματος.</span>
+                            </div>
+                            <div id="pattern-container" class="usage-block">
+                                <span class="lexical-label">💡 Σύνταξη &amp; Δομή:</span>
+                                <span id="verb-pattern-text" class="usage-text">περιμένω + αιτιατική</span>
+                            </div>
+                            <!-- Noun Parallel / Related Forms Box -->
+                            <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                                <span class="lexical-label">⚡ Σύγκριση / Αντίθεση:</span>
+                                <div id="noun-parallel-text" class="noun-parallel-text"></div>
+                            </div>
+                            <div id="grammar-rule-container" class="grammar-rule-block">
+                                <span class="lexical-label">📌 Κανόνας Γραμματικής &amp; Σύνταξης (για αγγλόφωνους):</span>
+                                <span id="grammar-rule-text" class="rule-text"></span>
+                            </div>
+                            <div id="mistake-container" class="mistake-block">
+                                <span class="lexical-label">⚠️ Συχνό Λάθος:</span>
+                                <span id="mistake-text" class="mistake-text"></span>
+                            </div>
+                            <div id="examples-container" class="examples-block">
+                                <span class="lexical-label">💬 Παραδείγματα:</span>
+                                <ul id="examples-list" class="examples-list"></ul>
+                            </div>
+                            <div id="antonyms-container" class="antonyms-block">
+                                <span class="lexical-label">↔️ Συνώνυμα &amp; Αντίθετα:</span>
+                                <div id="antonyms-pills" class="pills-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Initial Empty State -->
+                <section id="empty-state" class="empty-state-box">
+                    <span class="empty-icon">🏛️</span>
+                    <h3 id="empty-state-heading">Σύνταξη Ελληνικών Ρημάτων — Πτώσεις &amp; Προθέσεις</h3>
+                    <p id="empty-state-description">Αναζητήστε τη σύνταξη των ελληνικών ρημάτων: άμεση αιτιατική χωρίς πρόθεση, εμπρόθετοι σχηματισμοί (με, για, σε, από) και συντάξεις με γενική.</p>
+                    <div class="quick-tags">
+                        <span>Βασικά Ρήματα:</span>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('περιμένω')">περιμένω</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('ζητάω')">ζητάω</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('ενδιαφέρομαι')">ενδιαφέρομαι</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('ασχολούμαι')">ασχολούμαι</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('συμφωνώ')">συμφωνώ</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('μιλάω')">μιλάω</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('απαντάω')">απαντάω</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('αξίζω')">αξίζω</button>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Practice Mode View -->
+            <section id="practice-view-container" class="app-view-section" style="display: none;">
+                <div class="game-card">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <h2>🎯 Εξάσκηση Σύνταξης &amp; Πτώσεων</h2>
+                            <p class="tagline">Επιλέξτε τη σωστή σύνταξη (πτώση / πρόθεση) για το κάθε ρήμα.</p>
+                        </div>
+                        <div class="score-badge">
+                            <span>Score: <strong id="game-score">0</strong></span>
+                            <span class="streak">🔥 Streak: <strong id="game-streak">0</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="game-prompt-box" style="margin-top: 1rem;">
+                        <span class="prompt-label">Ρήμα προς σύνταξη:</span>
+                        <h3 id="game-verb-prompt" style="font-size: 2rem; margin: 0.5rem 0; color: var(--sage-dark, #1b4332);">περιμένω</h3>
+                        <div class="prompt-details">
+                            <span id="game-cefr-badge" class="badge">A1</span>
+                            <span id="game-def-prompt" style="font-style: italic; opacity: 0.9;"></span>
+                        </div>
+                    </div>
+
+                    <div id="game-mc-options" class="mc-options-grid" style="display: grid; gap: 0.75rem; margin-top: 1rem;"></div>
+
+                    <div id="game-feedback-box" class="feedback-card" style="display: none; margin-top: 1rem;"></div>
+
+                    <div style="margin-top: 1rem; text-align: right;">
+                        <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextPracticeQuestion()">Επόμενο ρήμα ➔</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Cozy Footer -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Σύνταξη Ελληνικών Ρημάτων. 100% offline &amp; private.</p>
+        </footer>
+    </div>
+
+    <script src="js/engine.js"></script>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/i18n.js"></script>
+    <script src="../../../shared/js/ui.js"></script>
+</body>
+</html>

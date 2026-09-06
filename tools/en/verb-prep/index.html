@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Prepositions: Verbs, Nouns &amp; Adjectives | COSYlanguages</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tool-dashboard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../../../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Cozy Header -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇬🇧</span>
+                <div class="brand-text">
+                    <h1>English Prepositions Engine</h1>
+                    <p class="tagline">Verbs, Nouns &amp; Adjectives — Spaced Repetition &amp; Contrasts</p>
+                </div>
+            </div>
+
+            <div class="main-nav-bar">
+                <button id="nav-practice-btn" class="nav-mode-btn active" onclick="appEngine.setAppMode('practice')">🎯 Practice</button>
+                <button id="nav-lookup-btn" class="nav-mode-btn" onclick="appEngine.setAppMode('lookup')">📖 Look Up</button>
+                <button id="nav-dashboard-btn" class="nav-mode-btn" onclick="appEngine.setAppMode('dashboard')">📊 Dashboard</button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Practice Mode View (Default Landing View) -->
+            <section id="practice-view-container" class="app-view-section">
+                <!-- Practice Controls & Streak Bar -->
+                <div class="practice-header-bar">
+                    <div class="streak-widget">
+                        <span class="streak-fire">🔥</span>
+                        <div>
+                            <div class="streak-count"><strong id="practice-streak-count">0</strong> Day Streak</div>
+                            <div class="goal-sub" id="practice-goal-sub">Goal: 0 / 1 sessions today</div>
+                        </div>
+                    </div>
+
+                    <div class="practice-filters-group">
+                        <select id="practice-level-select" class="select-dropdown" onchange="appEngine.onPracticeFilterChange()">
+                            <option value="all">All Levels (A1–B2)</option>
+                            <option value="A1">A1 Beginner</option>
+                            <option value="A2">A2 Elementary</option>
+                            <option value="B1">B1 Intermediate</option>
+                            <option value="B2">B2 Upper-Int</option>
+                        </select>
+
+                        <select id="practice-type-select" class="select-dropdown" onchange="appEngine.onPracticeFilterChange()">
+                            <option value="all">All Word Types (Verbs, Nouns, Adj)</option>
+                            <option value="verbs">Verbs Only 🏃</option>
+                            <option value="nouns">Nouns Only 📦</option>
+                            <option value="adjectives">Adjectives Only 🎨</option>
+                        </select>
+
+                        <button class="start-session-btn" onclick="appEngine.startNewPracticeSession()">▶ Start 10-Word Round</button>
+                    </div>
+                </div>
+
+                <!-- Active Practice Card Container -->
+                <div id="practice-card-container" class="practice-card">
+                    <div id="practice-card-content">
+                        <!-- Injected dynamically by PracticeManager -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Look Up Mode View (Secondary Reference View) -->
+            <section id="lookup-view-container" class="app-view-section" style="display: none;">
+                <section id="search-section-container" class="search-section">
+                    <!-- Word Type Switcher Tabs -->
+                    <div class="word-type-tab-bar">
+                        <button class="word-type-tab active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">🏃 Verbs</button>
+                        <button class="word-type-tab" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Nouns</button>
+                        <button class="word-type-tab" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Adjectives</button>
+                    </div>
+
+                    <!-- Filter Pills Bar -->
+                    <div class="filter-pills-bar" id="filter-pills-bar">
+                        <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Verbs</button>
+                        <button class="filter-pill" id="filter-prep" onclick="appEngine.setFilter('prep')">Verb Prepositions</button>
+                        <button class="filter-pill" id="filter-phrasal" onclick="appEngine.setFilter('phrasal')">Phrasal Verbs 🧩</button>
+                        <button class="filter-pill" id="filter-double" onclick="appEngine.setFilter('double')">Double Prepositions 🔗</button>
+                    </div>
+
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="verb-search-input" placeholder="Search a verb (e.g. influence, affect, depend, answer, turn down, give up)..." autocomplete="off" autofocus>
+                        <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                    </div>
+                    <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
+                </section>
+
+                <!-- Verb / Word Result Display -->
+                <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                    <!-- Result Navigation Controls -->
+                    <div class="nav-controls-bar">
+                        <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Previous Entry">◀ Prev</button>
+                        <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Random Entry">🎲 Random</button>
+                        <button class="nav-btn" onclick="appEngine.navigateNext()" title="Next Entry">Next ▶</button>
+                    </div>
+
+                    <!-- Header Info -->
+                    <div class="verb-header">
+                        <div class="verb-title-group">
+                            <h2 id="verb-title">influence</h2>
+                            <span id="phrasal-badge" class="badge phrasal-badge" style="display: none;">Phrasal Verb 🧩</span>
+                            <span id="transitivity-badge" class="badge trans-vt">Transitive (VT)</span>
+                            <span id="separability-badge" class="badge sep-badge" style="display: none;">Separable</span>
+                            <span id="prep-badge" class="badge prep-badge">No Preposition (Direct Object)</span>
+                            <span id="verb-cefr-badge" class="badge cefr-badge">Level: B1</span>
+                            <button id="speak-verb-btn" class="tts-btn" title="Listen to pronunciation">🔊 Listen</button>
+                        </div>
+
+                        <!-- Short Definition & Pattern Cards -->
+                        <div class="lexical-box">
+                            <div class="def-block">
+                                <span class="lexical-label">📖 Definition:</span>
+                                <span id="verb-definition" class="def-text">To have an effect on the character, development, or behavior of someone or something.</span>
+                            </div>
+                            <div id="pattern-container" class="usage-block">
+                                <span class="lexical-label">💡 Structure &amp; Pattern:</span>
+                                <span id="verb-pattern-text" class="usage-text">influence [someone / something] (direct object)</span>
+                            </div>
+                            <!-- Noun Parallel / Related Forms Box -->
+                            <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                                <span class="lexical-label">⚡ Verb vs. Noun Preposition Contrast:</span>
+                                <span id="noun-parallel-text" class="noun-parallel-text">Verb: 'It influences me' (no prep) ➔ Noun: 'It has an influence ON me' (uses ON)</span>
+                            </div>
+                            <div id="grammar-rule-container" class="grammar-rule-block">
+                                <span class="lexical-label">📌 Grammar, Particle &amp; Separability Rule:</span>
+                                <span id="grammar-rule-text" class="rule-text">Direct transitive verb without preposition! Do NOT use 'on' after the verb 'influence'. However, the noun 'influence' DOES take 'on'.</span>
+                            </div>
+                            <div id="mistake-container" class="mistake-block">
+                                <span class="lexical-label">⚠️ Common Pitfall &amp; Mistake:</span>
+                                <span id="mistake-text" class="mistake-text">❌ It influences on my decision. ➔ ✅ It influences my decision.</span>
+                            </div>
+                            <div id="examples-container" class="examples-block">
+                                <span class="lexical-label">💬 Example Sentences:</span>
+                                <ul id="examples-list" class="examples-list"></ul>
+                            </div>
+                            <div id="antonyms-container" class="antonyms-block">
+                                <span class="lexical-label">↔️ Synonyms &amp; Antonyms:</span>
+                                <div id="antonyms-pills" class="pills-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Initial Empty State -->
+                <section id="empty-state" class="empty-state-box">
+                    <span class="empty-icon">🌿</span>
+                    <h3 id="empty-state-heading">Search English prepositions across Verbs, Nouns &amp; Adjectives</h3>
+                    <p id="empty-state-description">Explore dependent prepositions, <strong style="color: var(--blue);">transitivity classifications</strong>, phrasal verbs, <strong style="color: var(--gold-cefr);">Verb vs. Noun vs. Adjective Preposition Contrasts</strong>, clear usage examples, and pitfall fixes.</p>
+                    <div class="quick-tags">
+                        <span>Essential Verbs (A0–B2):</span>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('influence')">influence</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('affect')">affect</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('answer')">answer</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('contact')">contact</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('visit')">visit</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('approach')">approach</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('arrive')">arrive</button>
+                        <button class="tag-btn" onclick="appEngine.searchVerb('discuss')">discuss</button>
+                    </div>
+                    <div class="quick-tags" style="margin-top: 0.75rem;">
+                        <span>Popular Phrasal Verbs 🧩:</span>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('turn down')">turn down</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('give up')">give up</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look up to')">look up to</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('run out of')">run out of</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look at')">look at</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('look for')">look for</button>
+                        <button class="tag-btn phrasal-tag" onclick="appEngine.searchVerb('think of')">think of</button>
+                    </div>
+                </section>
+            </section>
+
+            <!-- Dashboard Mode View -->
+            <section id="dashboard-view-container" class="app-view-section" style="display: none;">
+                <div id="dashboard-content-container">
+                    <!-- Injected dynamically by DashboardManager -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Cozy Footer -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — English Verbs, Nouns &amp; Adjectives Prepositions Engine. 100% offline &amp; private.</p>
+        </footer>
+    </div>
+
+    <script src="js/spaced_repetition.js"></script>
+    <script src="js/practice.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/i18n.js"></script>
+    <script src="../../../shared/js/ui.js"></script>
+</body>
+</html>

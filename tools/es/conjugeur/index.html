@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugación Española 🇪🇸 | COSYlanguages</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/base.css">
+    <link rel="stylesheet" href="../../../shared/css/tool-lookup.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header" data-icon="🇪🇸" data-title="Conjugación Española" data-tagline="Spanish Verb Engine"></header>
+    <main class="tool-container">
+        <div class="search-box">
+            <input type="text" id="verb-search-input" placeholder="Buscar verbo en español (ej. hablar, comer, vivir)...">
+            <div id="search-suggestions" class="suggestions-box"></div>
+        </div>
+        <div id="verb-display" class="result-card"></div>
+
+        <section class="practice-panel" aria-labelledby="practice-title">
+            <div class="practice-heading">
+                <div>
+                    <span class="practice-kicker">Práctica</span>
+                    <h2 id="practice-title">Formas irregulares</h2>
+                </div>
+                <span id="practice-family" class="practice-family"></span>
+            </div>
+            <p id="practice-prompt" class="practice-prompt"></p>
+            <div class="practice-controls">
+                <input id="practice-answer" type="text" autocomplete="off" placeholder="Escribe la forma...">
+                <button id="practice-check" type="button">Comprobar</button>
+                <button id="practice-next" type="button" class="secondary">Nueva forma</button>
+            </div>
+            <p id="practice-feedback" class="practice-feedback" aria-live="polite"></p>
+        </section>
+    </main>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/engine.js"></script>
+    <script>
+        Promise.all([fetch('data/verbs.json').then(r => r.json()), fetch('data/morphology.json').then(r => r.json())]).then(([db, morphology]) => {
+            const input = document.getElementById('verb-search-input');
+            const display = document.getElementById('verb-display');
+            const sourceUnits = (morphology.units || []).filter(unit => unit.pos === 'V');
+            const sourceByLemma = new Map(sourceUnits.map(unit => [unit.lemma.toLocaleLowerCase(), unit]));
+            function render(v) {
+                const item = db[v];
+                if (item) {
+                    display.innerHTML = `<h2>${v} <span class="tag">${item.level}</span></h2><p><strong>Definición:</strong> ${item.definition}</p><p><strong>Ejemplo:</strong> ${item.examples[0]}</p>`;
+                    return;
+                }
+                const source = sourceByLemma.get(v.toLocaleLowerCase());
+                if (!source) return;
+                const groups = new Map();
+                source.forms.forEach(entry => {
+                    const key = entry.features.includes('PRS') ? 'Presente' : (entry.features.includes('PST') ? 'Pasado' : (entry.features.includes('SBJV') ? 'Subjuntivo' : 'Otras formas'));
+                    if (!groups.has(key)) groups.set(key, new Set());
+                    groups.get(key).add(entry.form);
+                });
+                const forms = [...groups.entries()].map(([label, values]) => `<p><strong>${label}:</strong> ${[...values].slice(0, 12).join(', ')}</p>`).join('');
+                display.innerHTML = `<h2>${source.lemma} <span class="tag">UniMorph</span></h2><p><strong>Fuente:</strong> ${source.source_url}</p>${forms}`;
+            }
+
+            const irregular = Object.entries(db).filter(([verb, item]) => item.group === 'Irregular' || verb === 'leer');
+            const prompt = document.getElementById('practice-prompt');
+            const answer = document.getElementById('practice-answer');
+            const feedback = document.getElementById('practice-feedback');
+            const family = document.getElementById('practice-family');
+            let currentQuestion = null;
+
+            const families = {
+                estar: 'Radical en u: estuve',
+                ser: 'Supplétif: fui',
+                ir: 'Supplétif: fui',
+                tener: 'Radical en u: tuve',
+                hacer: 'Radical en i: hice / hizo',
+                ver: 'Prétérit court: vi',
+                poder: 'Radical en u: pude',
+                querer: 'Radical en i: quise',
+                saber: 'Radical en u: supe',
+                leer: 'Alternance en y: leyó / leyeron'
+            };
+
+            function newQuestion() {
+                const [verb, item] = irregular[Math.floor(Math.random() * irregular.length)];
+                const tense = Math.random() < 0.5 ? 'presente' : 'pasado';
+                const personIndex = Math.floor(Math.random() * item.tenses[tense].length);
+                const labels = ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos'];
+                currentQuestion = { verb, item, tense, person: labels[personIndex], expected: item.tenses[tense][personIndex] };
+                prompt.textContent = `${verb} · ${tense} · ${currentQuestion.person}`;
+                family.textContent = families[verb] || 'Forma irregular';
+                answer.value = '';
+                feedback.textContent = '';
+                answer.focus();
+            }
+
+            function checkAnswer() {
+                if (!currentQuestion) return;
+                const isCorrect = answer.value.trim().toLowerCase() === currentQuestion.expected.toLowerCase();
+                feedback.className = `practice-feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+                feedback.textContent = isCorrect
+                    ? `¡Correcto! ${currentQuestion.expected}`
+                    : `Respuesta: ${currentQuestion.expected}`;
+            }
+
+            document.getElementById('practice-check').addEventListener('click', checkAnswer);
+            document.getElementById('practice-next').addEventListener('click', newQuestion);
+            answer.addEventListener('keydown', event => {
+                if (event.key === 'Enter') checkAnswer();
+            });
+
+            const allLemmas = [...new Set([...Object.keys(db), ...sourceByLemma.keys()])];
+            render(Object.keys(db)[0] || allLemmas[0]);
+            newQuestion();
+            input.addEventListener('input', (e) => {
+                const q = e.target.value.trim().toLowerCase();
+                const match = allLemmas.find(lemma => lemma.toLocaleLowerCase().startsWith(q));
+                if (match) render(match);
+            });
+        });
+    </script>
+</body>
+</html>
