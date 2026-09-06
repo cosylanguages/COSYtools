@@ -45,3 +45,12 @@ The repository contains everything needed out of the box:
 ### 4. 100% Offline & Client-Side
 - All data datasets reside locally in JSON/JS files inside each tool directory.
 - User progress (SRS memory review, score streaks) is preserved in `localStorage`.
+
+---
+
+## 🎓 CEFR Proficiency Level Scheme Rationale
+
+By design, all reference datasets across **COSYtools** cap at **B2+** (`A1`, `A2`, `B1`, `B2`, `B2+`).
+
+- **Product Rationale:** Reference engines focus on explicit rule acquisition and drill practice. Learners at C1/C2 operate primarily through intuitive immersion and native nuance rather than discrete reference lookups. Capping datasets at B2+ keeps reference tables focused and highly actionable.
+- **COSYlanguages Relationship:** If full C1/C2 curriculum materials and advanced immersion content are required, refer to [COSYlanguages](https://github.com/cosylanguages/COSYlanguages), which is a separate product that supports the full CEFR spectrum (A1–C2).
