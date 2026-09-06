@@ -2,13 +2,43 @@
   "language": "br",
   "units": [
     {
+      "lemma": "dour",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Liñvenn hep liv na blaz.",
+        "article": "an",
+        "plural": "douroù",
+        "examples": [
+          "Evañ a ran dour fraezh."
+        ]
+      }
+    },
+    {
+      "lemma": "kêr",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Lec’h annezet bras.",
+        "article": "ar",
+        "plural": "kêrioù",
+        "examples": [
+          "Brest zo ur gêr gaer."
+        ]
+      }
+    },
+    {
       "lemma": "levr",
       "kind": "nouns",
       "source": "tools/br/genre/data/nouns.json",
       "data": {
         "gender": "Gourel",
         "level": "A1",
-        "definition": "Strollad pajennoù voulet evit lenn.",
+        "definition": "Oberenn skrivet pe moulet.",
         "article": "al",
         "plural": "levrioù",
         "examples": [
@@ -25,9 +55,9 @@
         "level": "A1",
         "definition": "Savadur evit an dud da chom ennañ.",
         "article": "an",
-        "plural": "tier",
+        "plural": "tiez",
         "examples": [
-          "Bras ha brav eo an ti."
+          "Chom a ran e ti."
         ]
       }
     },
@@ -61,7 +91,7 @@
       "data": {
         "group": "Verboù boutin",
         "level": "A1",
-        "definition": "Dastum ster ur skrid.",
+        "definition": "Selaou pe kompren skrid.",
         "tenses": {
           "present": [
             "lennan",
@@ -73,7 +103,30 @@
           ]
         },
         "examples": [
-          "Lenn a ra al levr-mañ."
+          "Lenn a ra ur levr nevez."
+        ]
+      }
+    },
+    {
+      "lemma": "skrivañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Merañ lizherennoù war baper.",
+        "tenses": {
+          "present": [
+            "skrivan",
+            "skrivez",
+            "skriv",
+            "skrivomp",
+            "skrivit",
+            "skrivont"
+          ]
+        },
+        "examples": [
+          "Skrivañ a ran ur lizher."
         ]
       }
     }

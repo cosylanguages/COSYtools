@@ -8,11 +8,26 @@
       "data": {
         "gender": "Femenino",
         "level": "A1",
-        "definition": "Sustancia líquida sin olor, color ni sabor.",
+        "definition": "Sustancia líquida inodora e incolora.",
         "article": "el",
         "plural": "aguas",
         "examples": [
-          "Bebo un vaso de agua fresca."
+          "El agua está muy fresca."
+        ]
+      }
+    },
+    {
+      "lemma": "amigo",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Persona que tiene amistad con otra.",
+        "article": "el",
+        "plural": "amigos",
+        "examples": [
+          "Mi amigo viene a cenar hoy."
         ]
       }
     },
@@ -32,17 +47,122 @@
       }
     },
     {
+      "lemma": "ciudad",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Femenino",
+        "level": "A1",
+        "definition": "Población grande con edificios y calles.",
+        "article": "la",
+        "plural": "ciudades",
+        "examples": [
+          "Madrid es una ciudad hermosa."
+        ]
+      }
+    },
+    {
+      "lemma": "hombre",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Ser humano adulto de sexo masculino.",
+        "article": "el",
+        "plural": "hombres",
+        "examples": [
+          "El hombre camina por el parque."
+        ]
+      }
+    },
+    {
       "lemma": "libro",
       "kind": "nouns",
       "source": "tools/es/genre/data/nouns.json",
       "data": {
         "gender": "Masculino",
         "level": "A1",
-        "definition": "Obra impresa o manuscrita cosida o encuadernada.",
+        "definition": "Obra impresa o manuscrita encuadernada.",
         "article": "el",
         "plural": "libros",
         "examples": [
           "Leo un libro muy interesante."
+        ]
+      }
+    },
+    {
+      "lemma": "mesa",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Femenino",
+        "level": "A1",
+        "definition": "Mueble compuesto por una tabla llana sobre patas.",
+        "article": "la",
+        "plural": "mesas",
+        "examples": [
+          "Puse los platos sobre la mesa."
+        ]
+      }
+    },
+    {
+      "lemma": "mujer",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Femenino",
+        "level": "A1",
+        "definition": "Ser humano adulto de sexo femenino.",
+        "article": "la",
+        "plural": "mujeres",
+        "examples": [
+          "La mujer habla con la profesora."
+        ]
+      }
+    },
+    {
+      "lemma": "niño",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Persona de corta edad.",
+        "article": "el",
+        "plural": "niños",
+        "examples": [
+          "El niño juega con su pelota."
+        ]
+      }
+    },
+    {
+      "lemma": "puerta",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Femenino",
+        "level": "A1",
+        "definition": "Abertura que permite entrar y salir de un lugar.",
+        "article": "la",
+        "plural": "puertas",
+        "examples": [
+          "Por favor, cierra la puerta."
+        ]
+      }
+    },
+    {
+      "lemma": "silla",
+      "kind": "nouns",
+      "source": "tools/es/genre/data/nouns.json",
+      "data": {
+        "gender": "Femenino",
+        "level": "A1",
+        "definition": "Asiento con respaldo para una persona.",
+        "article": "la",
+        "plural": "sillas",
+        "examples": [
+          "Esta silla es muy cómoda."
         ]
       }
     },
@@ -53,11 +173,11 @@
       "data": {
         "gender": "Masculino",
         "level": "A1",
-        "definition": "Estrella luminosa centro de nuestro sistema planetario.",
+        "definition": "Estrella centro de nuestro sistema planetario.",
         "article": "el",
         "plural": "soles",
         "examples": [
-          "El sol brilla en el cielo azul."
+          "El sol brilla en el cielo."
         ]
       }
     },
@@ -102,7 +222,7 @@
       "data": {
         "group": "3er grupo (-ir)",
         "level": "A1",
-        "definition": "Representar palabras mediante signos en un papel.",
+        "definition": "Representar conceptos o ideas mediante letras o signos.",
         "antonyms": [
           "leer"
         ],
@@ -125,7 +245,7 @@
           ]
         },
         "examples": [
-          "Escribo una carta para mi abuela."
+          "Escribo una carta a mi amigo."
         ]
       }
     },
@@ -137,7 +257,9 @@
         "group": "1er grupo (-ar)",
         "level": "A1",
         "definition": "Prestar atención a lo que se oye.",
-        "antonyms": [],
+        "antonyms": [
+          "ignorar"
+        ],
         "tenses": {
           "presente": [
             "escucho",
@@ -157,7 +279,7 @@
           ]
         },
         "examples": [
-          "Escucho música tranquila para estudiar."
+          "Escucho música latina por las mañanas."
         ]
       }
     },
@@ -168,7 +290,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Existir, hallarse en un lugar o estado.",
+        "definition": "Ubicarse en un lugar o estar en un estado.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -189,7 +311,7 @@
           ]
         },
         "examples": [
-          "Hoy estoy feliz y contento."
+          "¿Cómo estás hoy? Estoy muy bien."
         ]
       }
     },
@@ -235,7 +357,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Realizar o crear una acción o tarea.",
+        "definition": "Realizar o crear algo.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -256,7 +378,7 @@
           ]
         },
         "examples": [
-          "Hago mis deberes después de comer."
+          "Hago mis tareas por la tarde."
         ]
       }
     },
@@ -290,7 +412,7 @@
           ]
         },
         "examples": [
-          "Voy al colegio todas las mañanas."
+          "Voy al parque con mi familia."
         ]
       }
     },
@@ -301,8 +423,10 @@
       "data": {
         "group": "2do grupo (-er)",
         "level": "A1",
-        "definition": "Interpretar el sentido de un texto escrito.",
-        "antonyms": [],
+        "definition": "Pasar la vista por lo escrito comprendiendo su significado.",
+        "antonyms": [
+          "escribir"
+        ],
         "tenses": {
           "presente": [
             "leo",
@@ -322,7 +446,7 @@
           ]
         },
         "examples": [
-          "Leo un libro de aventuras emocionante."
+          "Leo las noticias todos los días."
         ]
       }
     },
@@ -333,7 +457,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Tener la capacidad de hacer algo.",
+        "definition": "Tener la capacidad o facultad de hacer algo.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -354,7 +478,7 @@
           ]
         },
         "examples": [
-          "Puedo ayudarte con la tarea."
+          "¿Puedo ayudarte con la maleta?"
         ]
       }
     },
@@ -365,10 +489,8 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Desear o tener voluntad de conseguir algo.",
-        "antonyms": [
-          "odiar"
-        ],
+        "definition": "Desear o tener afecto por alguien.",
+        "antonyms": [],
         "tenses": {
           "presente": [
             "quiero",
@@ -388,7 +510,7 @@
           ]
         },
         "examples": [
-          "Quiero aprender idiomas rápidamente."
+          "Quiero aprender francés e italiano."
         ]
       }
     },
@@ -399,7 +521,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Tener conocimiento de algo.",
+        "definition": "Tener conocimiento o información sobre algo.",
         "antonyms": [
           "ignorar"
         ],
@@ -422,7 +544,7 @@
           ]
         },
         "examples": [
-          "Sé hablar tres lenguas diferentes."
+          "Sé hablar tres idiomas."
         ]
       }
     },
@@ -433,7 +555,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Tener una cualidad propia o permanente.",
+        "definition": "Tener una cualidad o identidad permanente.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -454,7 +576,7 @@
           ]
         },
         "examples": [
-          "Ella es una profesora excelente."
+          "Soy estudiante de idiomas."
         ]
       }
     },
@@ -497,7 +619,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Percibir cosas con los ojos.",
+        "definition": "Percibir con los ojos algo mediante la luz.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -518,7 +640,7 @@
           ]
         },
         "examples": [
-          "Veo una película bonita esta tarde."
+          "Veo una película en el cine."
         ]
       }
     },
@@ -552,7 +674,7 @@
           ]
         },
         "examples": [
-          "Vivo en una ciudad muy tranquila."
+          "Vivo en una casa cerca del mar."
         ]
       }
     }

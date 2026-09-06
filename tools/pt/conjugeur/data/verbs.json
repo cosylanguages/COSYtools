@@ -3,44 +3,225 @@
     "group": "1ª conjugação (-ar)",
     "level": "A1",
     "definition": "Expressar-se por meio de palavras.",
-    "antonyms": ["calar", "ouvir"],
+    "antonyms": [
+      "calar",
+      "ouvir"
+    ],
     "tenses": {
-      "presente": ["falo", "falas", "fala", "falamos", "falais", "falam"],
-      "passado": ["falei", "falaste", "falou", "falamos", "falastes", "falaram"]
+      "presente": [
+        "falo",
+        "falas",
+        "fala",
+        "falamos",
+        "falais",
+        "falam"
+      ],
+      "passado": [
+        "falei",
+        "falaste",
+        "falou",
+        "falamos",
+        "falastes",
+        "falaram"
+      ]
     },
-    "examples": ["Eu falo português todos os dias."]
+    "examples": [
+      "Eu falo português todos os dias."
+    ]
   },
   "comer": {
     "group": "2ª conjugação (-er)",
     "level": "A1",
     "definition": "Mastigar e engolir alimentos.",
-    "antonyms": ["jejuar"],
+    "antonyms": [
+      "jejuar"
+    ],
     "tenses": {
-      "presente": ["como", "comes", "come", "comemos", "comeis", "comem"],
-      "passado": ["comi", "comeste", "comeu", "comemos", "comestes", "comeram"]
+      "presente": [
+        "como",
+        "comes",
+        "come",
+        "comemos",
+        "comeis",
+        "comem"
+      ],
+      "passado": [
+        "comi",
+        "comeste",
+        "comeu",
+        "comemos",
+        "comestes",
+        "comeram"
+      ]
     },
-    "examples": ["Nós comemos uma fruta deliciosa."]
+    "examples": [
+      "Nós comemos uma sopa quente."
+    ]
   },
-  "ter": {
-    "group": "Irregular",
+  "viver": {
+    "group": "2ª conjugação (-er)",
     "level": "A1",
-    "definition": "Possuir algo.",
-    "antonyms": [],
+    "definition": "Ter vida ou habitar um local.",
+    "antonyms": [
+      "morrer"
+    ],
     "tenses": {
-      "presente": ["tenho", "tens", "tem", "temos", "tendes", "têm"],
-      "passado": ["tive", "tiveste", "teve", "tivemos", "tivestes", "tiveram"]
+      "presente": [
+        "vivo",
+        "vives",
+        "vive",
+        "vivemos",
+        "viveis",
+        "vivem"
+      ],
+      "passado": [
+        "vivi",
+        "viveste",
+        "viveu",
+        "vivemos",
+        "vivestes",
+        "viveram"
+      ]
     },
-    "examples": ["Eu tenho um livro novo."]
+    "examples": [
+      "Eles vivem numa cidade acolhedora."
+    ]
   },
   "ser": {
     "group": "Irregular",
     "level": "A1",
-    "definition": "Possuir identidade ou estado permanente.",
+    "definition": "Ter uma qualidade permanente ou identidade.",
     "antonyms": [],
     "tenses": {
-      "presente": ["sou", "és", "é", "somos", "sois", "são"],
-      "passado": ["fui", "foste", "foi", "fomos", "fostes", "foram"]
+      "presente": [
+        "sou",
+        "és",
+        "é",
+        "somos",
+        "sois",
+        "são"
+      ],
+      "passado": [
+        "fui",
+        "foste",
+        "foi",
+        "fomos",
+        "fostes",
+        "foram"
+      ]
     },
-    "examples": ["Ela é uma estudante dedicada."]
+    "examples": [
+      "Eu sou estudante de línguas."
+    ]
+  },
+  "estar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Achar-se num estado ou lugar temporário.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "estou",
+        "estás",
+        "está",
+        "estamos",
+        "estais",
+        "estão"
+      ],
+      "passado": [
+        "estive",
+        "estiveste",
+        "esteve",
+        "estivemos",
+        "estivestes",
+        "estiveram"
+      ]
+    },
+    "examples": [
+      "Como estás? Estou muito bem, obrigado."
+    ]
+  },
+  "ter": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Possuir ou segurar algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "tenho",
+        "tens",
+        "tem",
+        "temos",
+        "tendes",
+        "têm"
+      ],
+      "passado": [
+        "tive",
+        "tiveste",
+        "teve",
+        "tivemos",
+        "tivestes",
+        "tiveram"
+      ]
+    },
+    "examples": [
+      "Nós temos muitos livros em casa."
+    ]
+  },
+  "ir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Mover-se de um lugar para outro.",
+    "antonyms": [
+      "vir"
+    ],
+    "tenses": {
+      "presente": [
+        "vou",
+        "vais",
+        "vai",
+        "vamos",
+        "ides",
+        "vão"
+      ],
+      "passado": [
+        "fui",
+        "foste",
+        "foi",
+        "fomos",
+        "fostes",
+        "foram"
+      ]
+    },
+    "examples": [
+      "Amanhã vou ao mercado."
+    ]
+  },
+  "fazer": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Realizar ou criar alguma coisa.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "faço",
+        "fazes",
+        "faz",
+        "fazemos",
+        "fazeis",
+        "fazem"
+      ],
+      "passado": [
+        "fiz",
+        "fizeste",
+        "fez",
+        "fizemos",
+        "fizestes",
+        "fizeram"
+      ]
+    },
+    "examples": [
+      "Eu faço os meus trabalhos de manhã."
+    ]
   }
 }

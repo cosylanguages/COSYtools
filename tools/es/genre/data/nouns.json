@@ -5,30 +5,118 @@
     "definition": "Edificación construida para ser habitada.",
     "article": "la",
     "plural": "casas",
-    "examples": ["La casa tiene un jardín grande."]
+    "examples": [
+      "La casa tiene un jardín grande."
+    ]
   },
   "libro": {
     "gender": "Masculino",
     "level": "A1",
-    "definition": "Obra impresa o manuscrita cosida o encuadernada.",
+    "definition": "Obra impresa o manuscrita encuadernada.",
     "article": "el",
     "plural": "libros",
-    "examples": ["Leo un libro muy interesante."]
+    "examples": [
+      "Leo un libro muy interesante."
+    ]
   },
   "sol": {
     "gender": "Masculino",
     "level": "A1",
-    "definition": "Estrella luminosa centro de nuestro sistema planetario.",
+    "definition": "Estrella centro de nuestro sistema planetario.",
     "article": "el",
     "plural": "soles",
-    "examples": ["El sol brilla en el cielo azul."]
+    "examples": [
+      "El sol brilla en el cielo."
+    ]
   },
   "agua": {
     "gender": "Femenino",
     "level": "A1",
-    "definition": "Sustancia líquida sin olor, color ni sabor.",
+    "definition": "Sustancia líquida inodora e incolora.",
     "article": "el",
     "plural": "aguas",
-    "examples": ["Bebo un vaso de agua fresca."]
+    "examples": [
+      "El agua está muy fresca."
+    ]
+  },
+  "mesa": {
+    "gender": "Femenino",
+    "level": "A1",
+    "definition": "Mueble compuesto por una tabla llana sobre patas.",
+    "article": "la",
+    "plural": "mesas",
+    "examples": [
+      "Puse los platos sobre la mesa."
+    ]
+  },
+  "silla": {
+    "gender": "Femenino",
+    "level": "A1",
+    "definition": "Asiento con respaldo para una persona.",
+    "article": "la",
+    "plural": "sillas",
+    "examples": [
+      "Esta silla es muy cómoda."
+    ]
+  },
+  "hombre": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Ser humano adulto de sexo masculino.",
+    "article": "el",
+    "plural": "hombres",
+    "examples": [
+      "El hombre camina por el parque."
+    ]
+  },
+  "mujer": {
+    "gender": "Femenino",
+    "level": "A1",
+    "definition": "Ser humano adulto de sexo femenino.",
+    "article": "la",
+    "plural": "mujeres",
+    "examples": [
+      "La mujer habla con la profesora."
+    ]
+  },
+  "niño": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Persona de corta edad.",
+    "article": "el",
+    "plural": "niños",
+    "examples": [
+      "El niño juega con su pelota."
+    ]
+  },
+  "ciudad": {
+    "gender": "Femenino",
+    "level": "A1",
+    "definition": "Población grande con edificios y calles.",
+    "article": "la",
+    "plural": "ciudades",
+    "examples": [
+      "Madrid es una ciudad hermosa."
+    ]
+  },
+  "amigo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Persona que tiene amistad con otra.",
+    "article": "el",
+    "plural": "amigos",
+    "examples": [
+      "Mi amigo viene a cenar hoy."
+    ]
+  },
+  "puerta": {
+    "gender": "Femenino",
+    "level": "A1",
+    "definition": "Abertura que permite entrar y salir de un lugar.",
+    "article": "la",
+    "plural": "puertas",
+    "examples": [
+      "Por favor, cierra la puerta."
+    ]
   }
 }

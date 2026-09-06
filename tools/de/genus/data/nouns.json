@@ -5,7 +5,9 @@
     "definition": "Gebäude zum Wohnen.",
     "article": "das",
     "plural": "Häuser",
-    "examples": ["Das Haus ist schön und groß."]
+    "examples": [
+      "Das Haus ist schön und groß."
+    ]
   },
   "Tisch": {
     "gender": "Maskulinum",
@@ -13,7 +15,9 @@
     "definition": "Möbelstück mit flacher Oberfläche.",
     "article": "der",
     "plural": "Tische",
-    "examples": ["Der Tisch steht in der Küche."]
+    "examples": [
+      "Der Tisch steht in der Küche."
+    ]
   },
   "Sonne": {
     "gender": "Femininum",
@@ -21,7 +25,9 @@
     "definition": "Stern im Zentrum unseres Sonnensystems.",
     "article": "die",
     "plural": "Sonnen",
-    "examples": ["Die Sonne scheint heute hell."]
+    "examples": [
+      "Die Sonne scheint heute hell."
+    ]
   },
   "Buch": {
     "gender": "Neutrum",
@@ -29,6 +35,118 @@
     "definition": "Gedrucktes Werk zum Lesen.",
     "article": "das",
     "plural": "Bücher",
-    "examples": ["Ich lese ein interessantes Buch."]
+    "examples": [
+      "Ich lese ein gutes Buch."
+    ]
+  },
+  "Frau": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Erwachsener weiblicher Mensch.",
+    "article": "die",
+    "plural": "Frauen",
+    "examples": [
+      "Die Frau arbeitet im Büro."
+    ]
+  },
+  "Mann": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Erwachsener männlicher Mensch.",
+    "article": "der",
+    "plural": "Männer",
+    "examples": [
+      "Der Mann liest eine Zeitung."
+    ]
+  },
+  "Kind": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Mensch im Kindesalter.",
+    "article": "das",
+    "plural": "Kinder",
+    "examples": [
+      "Das Kind spielt im Garten."
+    ]
+  },
+  "Stadt": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Große Siedlung mit eigener Verwaltung.",
+    "article": "die",
+    "plural": "Städte",
+    "examples": [
+      "Berlin ist eine schöne Stadt."
+    ]
+  },
+  "Schule": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Institution für Unterricht.",
+    "article": "die",
+    "plural": "Schulen",
+    "examples": [
+      "Die Kinder gehen zur Schule."
+    ]
+  },
+  "Wasser": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Farblose, durchsichtige Flüssigkeit.",
+    "article": "das",
+    "plural": "Wässer",
+    "examples": [
+      "Ich trinke ein Glas Wasser."
+    ]
+  },
+  "Freund": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Nahestehende Person.",
+    "article": "der",
+    "plural": "Freunde",
+    "examples": [
+      "Mein Freund kommt heute zu Besuch."
+    ]
+  },
+  "Tür": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Beweglicher Verschluss eines Eingangs.",
+    "article": "die",
+    "plural": "Türen",
+    "examples": [
+      "Bitte schließen Sie die Tür."
+    ]
+  },
+  "Fenster": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Lichtöffnung in der Wand.",
+    "article": "das",
+    "plural": "Fenster",
+    "examples": [
+      "Das Fenster ist offen."
+    ]
+  },
+  "Auto": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Kraftfahrzeug zur Personenbeförderung.",
+    "article": "das",
+    "plural": "Autos",
+    "examples": [
+      "Er fährt ein neues Auto."
+    ]
+  },
+  "Stuhl": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Sitzmöbel für eine Person.",
+    "article": "der",
+    "plural": "Stühle",
+    "examples": [
+      "Setzen Sie sich auf den Stuhl."
+    ]
   }
 }

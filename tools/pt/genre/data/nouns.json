@@ -5,30 +5,118 @@
     "definition": "Edifício construído para habitação.",
     "article": "a",
     "plural": "casas",
-    "examples": ["A casa é grande e bonita."]
+    "examples": [
+      "A casa é grande e bonita."
+    ]
   },
   "livro": {
     "gender": "Masculino",
     "level": "A1",
-    "definition": "Obra impressa para leitura.",
+    "definition": "Obra impressa ou manuscrita encadernada.",
     "article": "o",
     "plural": "livros",
-    "examples": ["Estou a ler um livro interessante."]
+    "examples": [
+      "Eu leio um livro interessante."
+    ]
   },
   "sol": {
     "gender": "Masculino",
     "level": "A1",
-    "definition": "Estrela central do nosso sistema solar.",
+    "definition": "Estrela centro do nosso sistema planetário.",
     "article": "o",
     "plural": "sóis",
-    "examples": ["O sol brilha forte no céu."]
+    "examples": [
+      "O sol brilha no céu azul."
+    ]
   },
   "água": {
     "gender": "Feminino",
     "level": "A1",
-    "definition": "Líquido incolor e inodoro essencial à vida.",
+    "definition": "Líquido transparente, inodoro e insípido.",
     "article": "a",
     "plural": "águas",
-    "examples": ["Bebo um copo de água fresca."]
+    "examples": [
+      "Bebo um copo de água fresca."
+    ]
+  },
+  "mesa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Móvel composto por um tampo sobre pés.",
+    "article": "a",
+    "plural": "mesas",
+    "examples": [
+      "A mesa está posta para o almoço."
+    ]
+  },
+  "cadeira": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Assento individual com encosto.",
+    "article": "a",
+    "plural": "cadeiras",
+    "examples": [
+      "Senta-te na cadeira confortável."
+    ]
+  },
+  "homem": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Ser humano adulto do sexo masculino.",
+    "article": "o",
+    "plural": "homens",
+    "examples": [
+      "O homem trabalha na cidade."
+    ]
+  },
+  "mulher": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Ser humano adulto do sexo feminino.",
+    "article": "a",
+    "plural": "mulheres",
+    "examples": [
+      "A mulher conversa com os amigos."
+    ]
+  },
+  "criança": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Ser humano na infância.",
+    "article": "a",
+    "plural": "crianças",
+    "examples": [
+      "A criança brinca no jardim."
+    ]
+  },
+  "cidade": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Povoação grande e urbanizada.",
+    "article": "a",
+    "plural": "cidades",
+    "examples": [
+      "Lisboa é uma cidade magnífica."
+    ]
+  },
+  "amigo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pessoa ligada a outra por amizade.",
+    "article": "o",
+    "plural": "amigos",
+    "examples": [
+      "O meu amigo vive em Portugal."
+    ]
+  },
+  "porta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Abertura que dá acesso a um espaço.",
+    "article": "a",
+    "plural": "portas",
+    "examples": [
+      "Por favor, fecha a porta."
+    ]
   }
 }

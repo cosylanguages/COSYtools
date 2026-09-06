@@ -2,20 +2,82 @@
   "language": "ba",
   "units": [
     {
+      "lemma": "ғаилә",
+      "kind": "nouns",
+      "source": "tools/ba/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Ғаилә ағзалары төркөмө.",
+        "cases": {
+          "nom": "ғаилә",
+          "gen": "ғаиләнең",
+          "dat": "ғаиләгә",
+          "acc": "ғаиләне",
+          "abl": "ғаиләнән",
+          "loc": "ғаиләдә"
+        },
+        "examples": [
+          "Беҙҙең ғаилә ҙур."
+        ]
+      }
+    },
+    {
+      "lemma": "йорт",
+      "kind": "nouns",
+      "source": "tools/ba/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Яшәү өсөн төҙөлгән бина.",
+        "cases": {
+          "nom": "йорт",
+          "gen": "йорттоң",
+          "dat": "йортҡа",
+          "acc": "йортто",
+          "abl": "йорттан",
+          "loc": "йортта"
+        },
+        "examples": [
+          "Был беҙҙең йорт."
+        ]
+      }
+    },
+    {
       "lemma": "китап",
       "kind": "nouns",
       "source": "tools/ba/cases/data/nouns.json",
       "data": {
         "level": "A1",
-        "definition": "Уҡыу өсөн баҫылған баҫма.",
+        "definition": "Уҡыу өсөн баҫылған әҫәр.",
         "cases": {
           "nom": "китап",
           "gen": "китаптың",
           "dat": "китапҡа",
-          "acc": "китапты"
+          "acc": "китапты",
+          "abl": "китаптан",
+          "loc": "китапта"
         },
         "examples": [
-          "Китап өҫтәлдә ята."
+          "Мин яңы китап уҡыйым."
+        ]
+      }
+    },
+    {
+      "lemma": "һыу",
+      "kind": "nouns",
+      "source": "tools/ba/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Төҫһөҙ, тәмеһеҙ һыйыҡлыҡ.",
+        "cases": {
+          "nom": "һыу",
+          "gen": "һыуҙың",
+          "dat": "һыуға",
+          "acc": "һыуҙы",
+          "abl": "һыуҙан",
+          "loc": "һыуҙа"
+        },
+        "examples": [
+          "Мин таҙа һыу эсәм."
         ]
       }
     },
@@ -30,10 +92,12 @@
           "nom": "эш",
           "gen": "эштең",
           "dat": "эшкә",
-          "acc": "эште"
+          "acc": "эште",
+          "abl": "эштән",
+          "loc": "эштә"
         },
         "examples": [
-          "Был эш бик мөһим."
+          "Был уңышлы эш."
         ]
       }
     },
@@ -61,13 +125,59 @@
       }
     },
     {
+      "lemma": "һөйләү",
+      "kind": "verbs",
+      "source": "tools/ba/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркөм",
+        "level": "A1",
+        "definition": "Һүҙҙәр менән аңлатыу.",
+        "tenses": {
+          "present": [
+            "һөйләйем",
+            "һөйләйһең",
+            "һөйләй",
+            "һөйләйбеҙ",
+            "һөйләйһегеҙ",
+            "һөйләйҙәр"
+          ]
+        },
+        "examples": [
+          "Ул башҡортса яҡшы һөйләй."
+        ]
+      }
+    },
+    {
+      "lemma": "эшләү",
+      "kind": "verbs",
+      "source": "tools/ba/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркөм",
+        "level": "A1",
+        "definition": "Эшмәкәрлек алып барыу.",
+        "tenses": {
+          "present": [
+            "эшләйем",
+            "эшләйһең",
+            "эшләй",
+            "эшләйбеҙ",
+            "эшләйһегеҙ",
+            "эшләйҙәр"
+          ]
+        },
+        "examples": [
+          "Беҙ заводта эшләйбеҙ."
+        ]
+      }
+    },
+    {
       "lemma": "яҙыу",
       "kind": "verbs",
       "source": "tools/ba/conjugeur/data/verbs.json",
       "data": {
         "group": "I төркөм",
         "level": "A1",
-        "definition": "Сүҙҙәрҙе ҡағыҙға төшөрөү.",
+        "definition": "Хәрефтәр менән фекерҙе белдереү.",
         "tenses": {
           "present": [
             "яҙам",
@@ -79,7 +189,7 @@
           ]
         },
         "examples": [
-          "Иптәшемә хат яҙам."
+          "Мин хат яҙам."
         ]
       }
     }

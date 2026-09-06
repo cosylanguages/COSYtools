@@ -2,6 +2,26 @@
   "language": "tt",
   "units": [
     {
+      "lemma": "гаилә",
+      "kind": "nouns",
+      "source": "tools/tt/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Бергә яшәүче якын кешеләр төркеме.",
+        "cases": {
+          "nom": "гаилә",
+          "gen": "гаиләнең",
+          "dat": "гаиләгә",
+          "acc": "гаиләне",
+          "abl": "гаиләдән",
+          "loc": "гаиләдә"
+        },
+        "examples": [
+          "Безнең гаилә бик тату."
+        ]
+      }
+    },
+    {
       "lemma": "йорт",
       "kind": "nouns",
       "source": "tools/tt/cases/data/nouns.json",
@@ -12,7 +32,9 @@
           "nom": "йорт",
           "gen": "йортның",
           "dat": "йортка",
-          "acc": "йортны"
+          "acc": "йортны",
+          "abl": "йорттан",
+          "loc": "йортта"
         },
         "examples": [
           "Безнең йорт парк янында урнашкан."
@@ -30,10 +52,75 @@
           "nom": "китап",
           "gen": "китапның",
           "dat": "китапка",
-          "acc": "китапны"
+          "acc": "китапны",
+          "abl": "китаптан",
+          "loc": "китапта"
         },
         "examples": [
-          "Бу китап өстәлдә ята."
+          "Мин яңа китап укыйм."
+        ]
+      }
+    },
+    {
+      "lemma": "су",
+      "kind": "nouns",
+      "source": "tools/tt/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Төссез, тәмесез сыеклык.",
+        "cases": {
+          "nom": "су",
+          "gen": "суның",
+          "dat": "суга",
+          "acc": "суны",
+          "abl": "судан",
+          "loc": "суда"
+        },
+        "examples": [
+          "Салкын су эчәм."
+        ]
+      }
+    },
+    {
+      "lemma": "шәһәр",
+      "kind": "nouns",
+      "source": "tools/tt/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Зур торак пункт.",
+        "cases": {
+          "nom": "шәһәр",
+          "gen": "шәһәрнең",
+          "dat": "шәһәргә",
+          "acc": "шәһәрне",
+          "abl": "шәһәрдән",
+          "loc": "шәһәрдә"
+        },
+        "examples": [
+          "Казан - матур шәһәр."
+        ]
+      }
+    },
+    {
+      "lemma": "сөйләү",
+      "kind": "verbs",
+      "source": "tools/tt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркем",
+        "level": "A1",
+        "definition": "Сүзләр белән аңлату.",
+        "tenses": {
+          "present": [
+            "сөйлим",
+            "сөйлисең",
+            "сөйли",
+            "сөйлибез",
+            "сөйлисез",
+            "сөйлиләр"
+          ]
+        },
+        "examples": [
+          "Ул татарча яхшы сөйли."
         ]
       }
     },
@@ -61,13 +148,36 @@
       }
     },
     {
+      "lemma": "эшләү",
+      "kind": "verbs",
+      "source": "tools/tt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I төркем",
+        "level": "A1",
+        "definition": "Хезмәт эшчәнлеге алып бару.",
+        "tenses": {
+          "present": [
+            "эшлим",
+            "эшлисең",
+            "эшли",
+            "эшлибез",
+            "эшлисез",
+            "эшлиләр"
+          ]
+        },
+        "examples": [
+          "Без үзәктә эшлибез."
+        ]
+      }
+    },
+    {
       "lemma": "язу",
       "kind": "verbs",
       "source": "tools/tt/conjugeur/data/verbs.json",
       "data": {
         "group": "I төркем",
         "level": "A1",
-        "definition": "Сүзләрне яки текстны кәгазьгә төшерү.",
+        "definition": "Хәрефләр белән фикерне белдерү.",
         "tenses": {
           "present": [
             "язам",
@@ -79,7 +189,7 @@
           ]
         },
         "examples": [
-          "Ол дустына хат яза."
+          "Мин хат язам."
         ]
       }
     }

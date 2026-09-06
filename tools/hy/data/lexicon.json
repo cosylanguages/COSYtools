@@ -7,15 +7,39 @@
       "source": "tools/hy/cases/data/nouns.json",
       "data": {
         "level": "A1",
-        "definition": "Տպագրված կամ գրված աշխատություն:",
+        "definition": "Կարդալու համար տպագրված երկ:",
         "cases": {
           "nom": "գիրք",
           "gen": "գրքի",
-          "dat": "գրքի",
-          "acc": "գիրք"
+          "dat": "գրքին",
+          "acc": "գիրք",
+          "abl": "գրքից",
+          "inst": "գրքով",
+          "loc": "գրքում"
         },
         "examples": [
           "Ես կարդում եմ հետաքրքիր գիրք:"
+        ]
+      }
+    },
+    {
+      "lemma": "ջուր",
+      "kind": "nouns",
+      "source": "tools/hy/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Անհոտ և անգույն հեղուկ:",
+        "cases": {
+          "nom": "ջուր",
+          "gen": "ջրի",
+          "dat": "ջրին",
+          "acc": "ջուր",
+          "abl": "ջրից",
+          "inst": "ջրով",
+          "loc": "ջրում"
+        },
+        "examples": [
+          "Խմեք մաքուր ջուր ամեն օր:"
         ]
       }
     },
@@ -30,10 +54,57 @@
           "nom": "տուն",
           "gen": "տան",
           "dat": "տան",
-          "acc": "տուն"
+          "acc": "տուն",
+          "abl": "տնից",
+          "inst": "տնով",
+          "loc": "տնում"
         },
         "examples": [
           "Մեր տունը գեղեցիկ է և լուսավոր:"
+        ]
+      }
+    },
+    {
+      "lemma": "քաղաք",
+      "kind": "nouns",
+      "source": "tools/hy/cases/data/nouns.json",
+      "data": {
+        "level": "A1",
+        "definition": "Խոշոր բնակավայր:",
+        "cases": {
+          "nom": "քաղաք",
+          "gen": "քաղաքի",
+          "dat": "քաղաքին",
+          "acc": "քաղաք",
+          "abl": "քաղաքից",
+          "inst": "քաղաքով",
+          "loc": "քաղաքում"
+        },
+        "examples": [
+          "Երևանը հին և գեղեցիկ քաղաք է:"
+        ]
+      }
+    },
+    {
+      "lemma": "գրել",
+      "kind": "verbs",
+      "source": "tools/hy/conjugeur/data/verbs.json",
+      "data": {
+        "group": "I խոնարհում (-ել)",
+        "level": "A1",
+        "definition": "Տառերով արտահայտել մտքերը:",
+        "tenses": {
+          "present": [
+            "գրում եմ",
+            "գրում ես",
+            "գրում է",
+            "գրում ենք",
+            "գրում եք",
+            "գրում են"
+          ]
+        },
+        "examples": [
+          "Ես նամակ եմ գրում ընկերոջս:"
         ]
       }
     },
@@ -61,13 +132,36 @@
       }
     },
     {
+      "lemma": "կարդալ",
+      "kind": "verbs",
+      "source": "tools/hy/conjugeur/data/verbs.json",
+      "data": {
+        "group": "II խոնարհում (-ալ)",
+        "level": "A1",
+        "definition": "Տեքստն ընկալել աչքերով:",
+        "tenses": {
+          "present": [
+            "կարդում եմ",
+            "կարդում ես",
+            "կարդում է",
+            "կարդում ենք",
+            "կարդում եք",
+            "կարդում են"
+          ]
+        },
+        "examples": [
+          "Նա կարդում է նոր գիրք:"
+        ]
+      }
+    },
+    {
       "lemma": "սովորել",
       "kind": "verbs",
       "source": "tools/hy/conjugeur/data/verbs.json",
       "data": {
         "group": "I խոնարհում (-ել)",
         "level": "A1",
-        "definition": "Գիտելիք ստանալ, յուրացնել:",
+        "definition": "Գիտելիքներ ձեռք բերել:",
         "tenses": {
           "present": [
             "սովորում եմ",
@@ -79,7 +173,7 @@
           ]
         },
         "examples": [
-          "Աշակերտները սովորում են դպրոցում:"
+          "Ես սովորում եմ հայերեն:"
         ]
       }
     }
