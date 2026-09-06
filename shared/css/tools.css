@@ -330,6 +330,82 @@ body.theme-dark .btn-gender {
     border-color: rgba(107, 143, 113, 0.3) !important;
 }
 
+/* ── Grammatical Conjugation & Declension Tables ── */
+.table-wrapper, .conjugation-wrapper, .declension-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  background: var(--surface-color, #ffffff);
+}
+
+.table-wrapper table, .conjugation-table, .declension-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.table-wrapper th, .conjugation-table th, .declension-table th {
+  background: var(--sage-light, #e8f0e9);
+  color: var(--sage-dark, #375742);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.table-wrapper td, .conjugation-table td, .declension-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.18s ease;
+}
+
+.table-wrapper tr:nth-child(even), .conjugation-table tr:nth-child(even), .declension-table tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.015);
+}
+
+.table-wrapper tr:hover td, .conjugation-table tr:hover td, .declension-table tr:hover td {
+  background: var(--sage-mist, #f0f5f1);
+}
+
+html[data-theme="dark"] .table-wrapper, html[data-theme="dark"] .conjugation-wrapper, html[data-theme="dark"] .declension-wrapper,
+body.theme-dark .table-wrapper, body.theme-dark .conjugation-wrapper, body.theme-dark .declension-wrapper {
+  background: #222b22 !important;
+  border-color: rgba(107, 143, 113, 0.25) !important;
+}
+
+html[data-theme="dark"] .table-wrapper th, html[data-theme="dark"] .conjugation-table th, html[data-theme="dark"] .declension-table th,
+body.theme-dark .table-wrapper th, body.theme-dark .conjugation-table th, body.theme-dark .declension-table th {
+  background: #1f2720 !important;
+  color: var(--sage-dark, #a8c0ab) !important;
+  border-bottom-color: rgba(107, 143, 113, 0.3) !important;
+}
+
+html[data-theme="dark"] .table-wrapper td, html[data-theme="dark"] .conjugation-table td, html[data-theme="dark"] .declension-table td,
+body.theme-dark .table-wrapper td, body.theme-dark .conjugation-table td, body.theme-dark .declension-table td {
+  border-bottom-color: rgba(107, 143, 113, 0.2) !important;
+}
+
+html[data-theme="dark"] .table-wrapper tr:nth-child(even), html[data-theme="dark"] .conjugation-table tr:nth-child(even), html[data-theme="dark"] .declension-table tr:nth-child(even),
+body.theme-dark .table-wrapper tr:nth-child(even), body.theme-dark .conjugation-table tr:nth-child(even), body.theme-dark .declension-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02) !important;
+}
+
+html[data-theme="dark"] .table-wrapper tr:hover td, html[data-theme="dark"] .conjugation-table tr:hover td, html[data-theme="dark"] .declension-table tr:hover td,
+body.theme-dark .table-wrapper tr:hover td, body.theme-dark .conjugation-table tr:hover td, body.theme-dark .declension-table tr:hover td {
+  background: rgba(107, 143, 113, 0.15) !important;
+}
+
 /* Clean Utility Classes for Games Engine */
 .game-loader-centered {
   text-align: center;
