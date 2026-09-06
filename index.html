@@ -263,6 +263,15 @@
             <p class="hero-hub-subtext">
                 Offline interactive reference tools for 14 languages: English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash.
             </p>
+            <div class="passport-actions" style="margin-top: 1.25rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                <button id="btn-export-passport" class="vbtn active" style="padding: 8px 18px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; background: var(--sage); color: #ffffff;">
+                  <span>📥</span> Export progress
+                </button>
+                <button id="btn-import-passport" class="vbtn" style="padding: 8px 18px; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink);">
+                  <span>📤</span> Import progress
+                </button>
+                <input type="file" id="passport-file-input" accept=".json,application/json" style="display: none;">
+            </div>
         </div>
       </div>
 
@@ -1428,6 +1437,111 @@
                 noResultsBox.style.display = (totalVisible === 0) ? 'block' : 'none';
             }
         }
+    </script>
+    <script type="module">
+        import { exportPassport, importPassport, downloadPassport, loadPassportFromFile } from 'https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/shared/js/passport.js';
+
+        const TOOL_KEYS_PATTERNS = [
+            'cosy-', 'cosy_', 'practice_streak'
+        ];
+
+        function getAllToolLocalStorageEntries() {
+            const entries = [];
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (!key) continue;
+
+                const matchesPattern = TOOL_KEYS_PATTERNS.some(pat => key.startsWith(pat));
+                const isGlobalSetting = ['cosy_theme', 'cosy_active_profile', 'cosy_profile_list', 'cosy_ui_lang', 'cosy_last_language'].includes(key);
+
+                if (matchesPattern && !isGlobalSetting) {
+                    const rawVal = localStorage.getItem(key);
+                    let parsedVal = rawVal;
+                    try {
+                        parsedVal = JSON.parse(rawVal);
+                    } catch (e) {
+                        parsedVal = rawVal;
+                    }
+                    entries.push({
+                        source: 'COSYtools',
+                        item: key,
+                        value: parsedVal
+                    });
+                }
+            }
+            return entries;
+        }
+
+        async function handleExportProgress() {
+            try {
+                const progressEntries = getAllToolLocalStorageEntries();
+                const activeLang = localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
+                const passport = exportPassport(null, {
+                    source: 'COSYtools',
+                    progress: progressEntries
+                }, activeLang);
+
+                downloadPassport(passport, 'cosy-passport.json');
+                if (window.COSY && typeof window.COSY.showToast === 'function') {
+                    window.COSY.showToast(`Exported ${progressEntries.length} COSYtools progress entries!`);
+                } else {
+                    alert(`Exported ${progressEntries.length} COSYtools progress entries!`);
+                }
+            } catch (err) {
+                console.error('Export failed:', err);
+                alert('Failed to export progress: ' + err.message);
+            }
+        }
+
+        async function handleImportFileSelect(event) {
+            const fileInput = event.target;
+            if (!fileInput.files || fileInput.files.length === 0) return;
+
+            try {
+                const passportObj = await loadPassportFromFile(fileInput);
+                const imported = importPassport(passportObj, 'COSYtools');
+
+                if (!imported.valid) {
+                    alert('Invalid COSY Passport file: ' + (imported.error || 'Unknown error'));
+                    fileInput.value = '';
+                    return;
+                }
+
+                let restoredCount = 0;
+                if (Array.isArray(imported.progress)) {
+                    for (const entry of imported.progress) {
+                        if (entry && entry.source === 'COSYtools' && entry.item) {
+                            const valStr = typeof entry.value === 'object' ? JSON.stringify(entry.value) : String(entry.value);
+                            localStorage.setItem(entry.item, valStr);
+                            restoredCount++;
+                        }
+                    }
+                }
+
+                if (window.COSY && typeof window.COSY.showToast === 'function') {
+                    window.COSY.showToast(`Imported ${restoredCount} COSYtools progress entries!`);
+                } else {
+                    alert(`Imported ${restoredCount} COSYtools progress entries!`);
+                }
+            } catch (err) {
+                console.error('Import failed:', err);
+                alert('Failed to import passport file: ' + err.message);
+            } finally {
+                fileInput.value = '';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnExport = document.getElementById('btn-export-passport');
+            const btnImport = document.getElementById('btn-import-passport');
+            const fileInput = document.getElementById('passport-file-input');
+
+            if (btnExport) btnExport.addEventListener('click', handleExportProgress);
+            if (btnImport && fileInput) {
+                btnImport.addEventListener('click', () => fileInput.click());
+                fileInput.addEventListener('change', handleImportFileSelect);
+            }
+        });
     </script>
 </body>
 </html>

@@ -48,6 +48,15 @@ The repository contains everything needed out of the box:
 
 ---
 
+## 🛂 COSY Passport (Progress Backup & Sync)
+
+COSYtools supports the unified **COSY Passport** format for client-side progress backup and sync across devices without requiring accounts or cloud servers.
+
+- **Export Progress:** Click the **Export progress** button on the tools hub (`index.html`) to save your local SRS review memory, practice streaks, and scores across all tools as a downloadable JSON file. Entries are tagged with source `"COSYtools"`.
+- **Import Progress:** Click the **Import progress** button to restore your progress from a saved COSY Passport file. When importing, COSYtools selectively restores only entries tagged with source `"COSYtools"`, preserving any other ecosystem progress intact without overwriting unrelated data.
+
+---
+
 ## 🎓 CEFR Proficiency Level Scheme Rationale
 
 By design, all reference datasets across **COSYtools** cap at **B2+** (`A1`, `A2`, `B1`, `B2`, `B2+`).
