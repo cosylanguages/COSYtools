@@ -69,9 +69,36 @@
     --a2-tag-color: #8A5200;
     --sensitive-tag-bg: #FFF5F5;
     --sensitive-tag-color: #B91C1C;
+
+    /* CEFR Level Tag Colors for Accessibility */
+    --cefr-a1-bg: #e6f4ea;
+    --cefr-a1-color: #137333;
+    --cefr-a2-bg: #e8f0fe;
+    --cefr-a2-color: #1a73e8;
+    --cefr-b1-bg: #feefc3;
+    --cefr-b1-color: #b06000;
+    --cefr-b2-bg: #fce8e6;
+    --cefr-b2-color: #c5221f;
+    --cefr-c1-bg: #f3e8fd;
+    --cefr-c1-color: #7b1fa2;
+    --cefr-c2-bg: #e0f2fe;
+    --cefr-c2-color: #0369a1;
 }
 
 html[data-theme="dark"], body.theme-dark {
+    /* CEFR Level Tag Dark Overrides */
+    --cefr-a1-bg: #1b3823;
+    --cefr-a1-color: #81c995;
+    --cefr-a2-bg: #193254;
+    --cefr-a2-color: #8ab4f8;
+    --cefr-b1-bg: #3c2e12;
+    --cefr-b1-color: #fde293;
+    --cefr-b2-bg: #421f1d;
+    --cefr-b2-color: #f28b82;
+    --cefr-c1-bg: #351c42;
+    --cefr-c1-color: #d7aefb;
+    --cefr-c2-bg: #132e42;
+    --cefr-c2-color: #7dd3fc;
     /* Cosy Button System Dark Overrides */
     --btn-primary-bg: var(--sage, #6c9172);
     --btn-primary-hover-bg: var(--sage-dark, #a8c0ab);
@@ -338,10 +365,31 @@ body.theme-dark #cosy-nav {
 .calc-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem; box-shadow: 0 20px 60px rgba(28,25,23,.05); text-align: left; }
 
 /* ── Badges & Pills ────────────────────────────────── */
-.cc-level { display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px; font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start; }
+.cc-level, .badge-level, .tag, .cefr-tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.06);
+    background: var(--cefr-a1-bg);
+    color: var(--cefr-a1-color);
+}
 .course-card.dark .cc-level { background: rgba(255,255,255,.12); }
 .cc-level.orange { background: var(--coral-light); color: var(--coral); }
 .cc-level.purple { background: #f3f0f7; color: #6a4c93; }
+
+.badge-a1, [data-level="A1"] { background: var(--cefr-a1-bg); color: var(--cefr-a1-color); border-color: rgba(19, 115, 51, 0.2); }
+.badge-a2, [data-level="A2"] { background: var(--cefr-a2-bg); color: var(--cefr-a2-color); border-color: rgba(26, 115, 232, 0.2); }
+.badge-b1, [data-level="B1"] { background: var(--cefr-b1-bg); color: var(--cefr-b1-color); border-color: rgba(176, 96, 0, 0.2); }
+.badge-b2, [data-level="B2"] { background: var(--cefr-b2-bg); color: var(--cefr-b2-color); border-color: rgba(197, 34, 31, 0.2); }
+.badge-c1, [data-level="C1"] { background: var(--cefr-c1-bg); color: var(--cefr-c1-color); border-color: rgba(123, 31, 162, 0.2); }
+.badge-c2, [data-level="C2"] { background: var(--cefr-c2-bg); color: var(--cefr-c2-color); border-color: rgba(3, 105, 161, 0.2); }
 
 .hero-tag { display: inline-block; background: var(--teal-light); color: var(--teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
 
