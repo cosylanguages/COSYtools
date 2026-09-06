@@ -4,15 +4,39 @@
     "level": "A1",
     "definition": "Savadur evit an dud da chom ennañ.",
     "article": "an",
-    "plural": "tier",
-    "examples": ["Bras ha brav eo an ti."]
+    "plural": "tiez",
+    "examples": [
+      "Chom a ran e ti."
+    ]
   },
   "levr": {
     "gender": "Gourel",
     "level": "A1",
-    "definition": "Strollad pajennoù voulet evit lenn.",
+    "definition": "Oberenn skrivet pe moulet.",
     "article": "al",
     "plural": "levrioù",
-    "examples": ["Lenn a ran al levr-mañ."]
+    "examples": [
+      "Lenn a ran al levr-mañ."
+    ]
+  },
+  "dour": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "Liñvenn hep liv na blaz.",
+    "article": "an",
+    "plural": "douroù",
+    "examples": [
+      "Evañ a ran dour fraezh."
+    ]
+  },
+  "kêr": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "Lec’h annezet bras.",
+    "article": "ar",
+    "plural": "kêrioù",
+    "examples": [
+      "Brest zo ur gêr gaer."
+    ]
   }
 }

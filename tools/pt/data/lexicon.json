@@ -8,11 +8,41 @@
       "data": {
         "gender": "Feminino",
         "level": "A1",
-        "definition": "Líquido incolor e inodoro essencial à vida.",
+        "definition": "Líquido transparente, inodoro e insípido.",
         "article": "a",
         "plural": "águas",
         "examples": [
           "Bebo um copo de água fresca."
+        ]
+      }
+    },
+    {
+      "lemma": "amigo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pessoa ligada a outra por amizade.",
+        "article": "o",
+        "plural": "amigos",
+        "examples": [
+          "O meu amigo vive em Portugal."
+        ]
+      }
+    },
+    {
+      "lemma": "cadeira",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Assento individual com encosto.",
+        "article": "a",
+        "plural": "cadeiras",
+        "examples": [
+          "Senta-te na cadeira confortável."
         ]
       }
     },
@@ -32,17 +62,107 @@
       }
     },
     {
+      "lemma": "cidade",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Povoação grande e urbanizada.",
+        "article": "a",
+        "plural": "cidades",
+        "examples": [
+          "Lisboa é uma cidade magnífica."
+        ]
+      }
+    },
+    {
+      "lemma": "criança",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Ser humano na infância.",
+        "article": "a",
+        "plural": "crianças",
+        "examples": [
+          "A criança brinca no jardim."
+        ]
+      }
+    },
+    {
+      "lemma": "homem",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Ser humano adulto do sexo masculino.",
+        "article": "o",
+        "plural": "homens",
+        "examples": [
+          "O homem trabalha na cidade."
+        ]
+      }
+    },
+    {
       "lemma": "livro",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
       "data": {
         "gender": "Masculino",
         "level": "A1",
-        "definition": "Obra impressa para leitura.",
+        "definition": "Obra impressa ou manuscrita encadernada.",
         "article": "o",
         "plural": "livros",
         "examples": [
-          "Estou a ler um livro interessante."
+          "Eu leio um livro interessante."
+        ]
+      }
+    },
+    {
+      "lemma": "mesa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Móvel composto por um tampo sobre pés.",
+        "article": "a",
+        "plural": "mesas",
+        "examples": [
+          "A mesa está posta para o almoço."
+        ]
+      }
+    },
+    {
+      "lemma": "mulher",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Ser humano adulto do sexo feminino.",
+        "article": "a",
+        "plural": "mulheres",
+        "examples": [
+          "A mulher conversa com os amigos."
+        ]
+      }
+    },
+    {
+      "lemma": "porta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Abertura que dá acesso a um espaço.",
+        "article": "a",
+        "plural": "portas",
+        "examples": [
+          "Por favor, fecha a porta."
         ]
       }
     },
@@ -53,11 +173,11 @@
       "data": {
         "gender": "Masculino",
         "level": "A1",
-        "definition": "Estrela central do nosso sistema solar.",
+        "definition": "Estrela centro do nosso sistema planetário.",
         "article": "o",
         "plural": "sóis",
         "examples": [
-          "O sol brilha forte no céu."
+          "O sol brilha no céu azul."
         ]
       }
     },
@@ -91,7 +211,39 @@
           ]
         },
         "examples": [
-          "Nós comemos uma fruta deliciosa."
+          "Nós comemos uma sopa quente."
+        ]
+      }
+    },
+    {
+      "lemma": "estar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Achar-se num estado ou lugar temporário.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "estou",
+            "estás",
+            "está",
+            "estamos",
+            "estais",
+            "estão"
+          ],
+          "passado": [
+            "estive",
+            "estiveste",
+            "esteve",
+            "estivemos",
+            "estivestes",
+            "estiveram"
+          ]
+        },
+        "examples": [
+          "Como estás? Estou muito bem, obrigado."
         ]
       }
     },
@@ -131,13 +283,79 @@
       }
     },
     {
+      "lemma": "fazer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Realizar ou criar alguma coisa.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "faço",
+            "fazes",
+            "faz",
+            "fazemos",
+            "fazeis",
+            "fazem"
+          ],
+          "passado": [
+            "fiz",
+            "fizeste",
+            "fez",
+            "fizemos",
+            "fizestes",
+            "fizeram"
+          ]
+        },
+        "examples": [
+          "Eu faço os meus trabalhos de manhã."
+        ]
+      }
+    },
+    {
+      "lemma": "ir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Mover-se de um lugar para outro.",
+        "antonyms": [
+          "vir"
+        ],
+        "tenses": {
+          "presente": [
+            "vou",
+            "vais",
+            "vai",
+            "vamos",
+            "ides",
+            "vão"
+          ],
+          "passado": [
+            "fui",
+            "foste",
+            "foi",
+            "fomos",
+            "fostes",
+            "foram"
+          ]
+        },
+        "examples": [
+          "Amanhã vou ao mercado."
+        ]
+      }
+    },
+    {
       "lemma": "ser",
       "kind": "verbs",
       "source": "tools/pt/conjugeur/data/verbs.json",
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Possuir identidade ou estado permanente.",
+        "definition": "Ter uma qualidade permanente ou identidade.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -158,7 +376,7 @@
           ]
         },
         "examples": [
-          "Ela é uma estudante dedicada."
+          "Eu sou estudante de línguas."
         ]
       }
     },
@@ -169,7 +387,7 @@
       "data": {
         "group": "Irregular",
         "level": "A1",
-        "definition": "Possuir algo.",
+        "definition": "Possuir ou segurar algo.",
         "antonyms": [],
         "tenses": {
           "presente": [
@@ -190,7 +408,41 @@
           ]
         },
         "examples": [
-          "Eu tenho um livro novo."
+          "Nós temos muitos livros em casa."
+        ]
+      }
+    },
+    {
+      "lemma": "viver",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Ter vida ou habitar um local.",
+        "antonyms": [
+          "morrer"
+        ],
+        "tenses": {
+          "presente": [
+            "vivo",
+            "vives",
+            "vive",
+            "vivemos",
+            "viveis",
+            "vivem"
+          ],
+          "passado": [
+            "vivi",
+            "viveste",
+            "viveu",
+            "vivemos",
+            "vivestes",
+            "viveram"
+          ]
+        },
+        "examples": [
+          "Eles vivem numa cidade acolhedora."
         ]
       }
     }

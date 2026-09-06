@@ -4,17 +4,53 @@
     "level": "A1",
     "definition": "Eztaoler e soñjoù gant komzoù.",
     "tenses": {
-      "present": ["komzan", "komzez", "komz", "komzomp", "komzit", "komzont"]
+      "present": [
+        "komzan",
+        "komzez",
+        "komz",
+        "komzomp",
+        "komzit",
+        "komzont"
+      ]
     },
-    "examples": ["Komz a ran brezhoneg bemdez."]
+    "examples": [
+      "Komz a ran brezhoneg bemdez."
+    ]
   },
   "lenn": {
     "group": "Verboù boutin",
     "level": "A1",
-    "definition": "Dastum ster ur skrid.",
+    "definition": "Selaou pe kompren skrid.",
     "tenses": {
-      "present": ["lennan", "lennez", "lenn", "lennomp", "lennit", "lennont"]
+      "present": [
+        "lennan",
+        "lennez",
+        "lenn",
+        "lennomp",
+        "lennit",
+        "lennont"
+      ]
     },
-    "examples": ["Lenn a ra al levr-mañ."]
+    "examples": [
+      "Lenn a ra ur levr nevez."
+    ]
+  },
+  "skrivañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Merañ lizherennoù war baper.",
+    "tenses": {
+      "present": [
+        "skrivan",
+        "skrivez",
+        "skriv",
+        "skrivomp",
+        "skrivit",
+        "skrivont"
+      ]
+    },
+    "examples": [
+      "Skrivañ a ran ur lizher."
+    ]
   }
 }
