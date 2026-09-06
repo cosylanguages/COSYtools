@@ -1,28 +1,29 @@
 # COSYtools 🛠️
 
-**COSYtools** is a consolidated repository containing all 12 standalone offline reference tools and interactive engines built for COSYlanguages.
+**COSYtools** is a consolidated repository containing all 13 standalone offline reference tools and interactive engines built for COSYlanguages.
 
 ---
 
 ## 🧰 Included Tools & Reference Engines
 
 ### 📜 Verb Conjugation Engines
-1. **`fr-conjugeur/`** — French Verb Conjugation Engine (200+ verbs, all tenses, color-coded endings, practice game)
-2. **`it-coniugatore/`** — Italian Verb Conjugation Engine (full conjugation tables, definitions, antonyms, irregular highlights)
-3. **`ru-spryazhenie/`** — Russian Verb Conjugation Engine (aspectual pairs НСВ/СВ, stress accents, practice trainer)
-4. **`el-klisi-rimaton/`** — Modern Greek Verb Conjugation Engine (active & passive voices, contracted verbs, stress accents)
+1. **`en-irregular-verbs/`** — English Irregular Verbs Engine (200+ verbs, V1/V2/V3 forms, 5 pattern groups, 4 practice modes, SRS deck)
+2. **`fr-conjugeur/`** — French Verb Conjugation Engine (200+ verbs, all tenses, color-coded endings, practice game)
+3. **`it-coniugatore/`** — Italian Verb Conjugation Engine (full conjugation tables, definitions, antonyms, irregular highlights)
+4. **`ru-spryazhenie/`** — Russian Verb Conjugation Engine (aspectual pairs НСВ/СВ, stress accents, practice trainer)
+5. **`el-klisi-rimaton/`** — Modern Greek Verb Conjugation Engine (active & passive voices, contracted verbs, stress accents)
 
 ### ⚖️ Noun Gender & Case Declension Engines
-5. **`fr-genre/`** — French Gender & Plural Engine (masculine/feminine badges, irregular plurals, suffix rules)
-6. **`it-genere/`** — Italian Gender & Combined Prepositions (noun gender, irregular plurals, preposizioni articolate matrices)
-7. **`ru-rod-padezhi/`** — Russian Gender & 6-Case Declension Engine (singular/plural declension matrices, animacy, stress marks)
-8. **`el-genos-ptoseis/`** — Modern Greek Gender & 4-Case Engine (nominative, genitive, accusative, vocative inflections)
+6. **`fr-genre/`** — French Gender & Plural Engine (masculine/feminine badges, irregular plurals, suffix rules)
+7. **`it-genere/`** — Italian Gender & Combined Prepositions (noun gender, irregular plurals, preposizioni articolate matrices)
+8. **`ru-rod-padezhi/`** — Russian Gender & 6-Case Declension Engine (singular/plural declension matrices, animacy, stress marks)
+9. **`el-genos-ptoseis/`** — Modern Greek Gender & 4-Case Engine (nominative, genitive, accusative, vocative inflections)
 
 ### 📍 Prepositional Regimes & Verb Syntax Engines
-9. **`en-verb-prep/`** — English Dependent Prepositions & Phrasals Engine (verbs, nouns & adjectives, contrast pairs, SRS deck)
-10. **`fr-regime/`** — French Prepositional Regimes Engine (verb, noun & adjective constructions with à/de, SRS practice)
-11. **`it-reggenza/`** — Italian Prepositional Reggenze Engine (governing prepositions, contrast matrices, SRS dashboard)
-12. **`el-syntaxi/`** — Modern Greek Verb Syntax Engine (case government, accusative/genitive complements, examples)
+10. **`en-verb-prep/`** — English Dependent Prepositions & Phrasals Engine (verbs, nouns & adjectives, contrast pairs, SRS deck)
+11. **`fr-regime/`** — French Prepositional Regimes Engine (verb, noun & adjective constructions with à/de, SRS practice)
+12. **`it-reggenza/`** — Italian Prepositional Reggenze Engine (governing prepositions, contrast matrices, SRS dashboard)
+13. **`el-syntaxi/`** — Modern Greek Verb Syntax Engine (case government, accusative/genitive complements, examples)
 
 ---
 
@@ -33,7 +34,7 @@ The repository contains everything needed out of the box:
 - `index.html` (Catalog & Hub interface)
 - `manifest.json` (Web App Manifest)
 - `shared/` (Shared CSS, JS, and image assets)
-- All 12 tool folders (`fr-conjugeur/`, `it-coniugatore/`, `en-verb-prep/`, etc.)
+- All 13 tool folders (`en-irregular-verbs/`, `fr-conjugeur/`, `it-coniugatore/`, `en-verb-prep/`, etc.)
 
 ### 2. Running Locally
 - Open `index.html` directly in any web browser, or serve the repository with any static file server — no build step, Node server, or database required!
