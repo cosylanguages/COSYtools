@@ -1,0 +1,3012 @@
+{
+  "be": {
+    "base": "be",
+    "past_simple": "was/were",
+    "past_participle": "been",
+    "third_person_singular": "is",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To exist or live.",
+    "examples": [
+      "She is a doctor at the city hospital.",
+      "They were happy with the results.",
+      "He has been to London twice."
+    ]
+  },
+  "become": {
+    "base": "become",
+    "past_simple": "became",
+    "past_participle": "become",
+    "third_person_singular": "becomes",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To begin to be or turn into something.",
+    "examples": [
+      "He becomes angry when plans change.",
+      "She became a lawyer last year.",
+      "It has become very cold outside."
+    ]
+  },
+  "begin": {
+    "base": "begin",
+    "past_simple": "began",
+    "past_participle": "begun",
+    "third_person_singular": "begins",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To start or initiate an action.",
+    "examples": [
+      "The class begins at nine o'clock every morning.",
+      "It began to rain heavily an hour ago.",
+      "We have begun our new project."
+    ]
+  },
+  "break": {
+    "base": "break",
+    "past_simple": "broke",
+    "past_participle": "broken",
+    "third_person_singular": "breaks",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To separate into pieces or damage.",
+    "examples": [
+      "He breaks a dish by accident sometimes.",
+      "She broke her leg while skiing.",
+      "The vase has broken into pieces."
+    ]
+  },
+  "bring": {
+    "base": "bring",
+    "past_simple": "brought",
+    "past_participle": "brought",
+    "third_person_singular": "brings",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To carry or convey something to a place.",
+    "examples": [
+      "She brings delicious snacks to work.",
+      "He brought a gift to the party.",
+      "They have brought their homework."
+    ]
+  },
+  "build": {
+    "base": "build",
+    "past_simple": "built",
+    "past_participle": "built",
+    "third_person_singular": "builds",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To construct or erect a building or structure.",
+    "examples": [
+      "The company builds modern apartments.",
+      "They built a new bridge over the river.",
+      "They have built a strong house."
+    ]
+  },
+  "buy": {
+    "base": "buy",
+    "past_simple": "bought",
+    "past_participle": "bought",
+    "third_person_singular": "buys",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To obtain something in exchange for payment.",
+    "examples": [
+      "She buys fresh vegetables every Saturday.",
+      "He bought a new bicycle yesterday.",
+      "We have bought tickets for the concert."
+    ]
+  },
+  "catch": {
+    "base": "catch",
+    "past_simple": "caught",
+    "past_participle": "caught",
+    "third_person_singular": "catches",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To capture or intercept something in motion.",
+    "examples": [
+      "He catches the early bus every morning.",
+      "She caught the ball with one hand.",
+      "They have caught a cold this winter."
+    ]
+  },
+  "choose": {
+    "base": "choose",
+    "past_simple": "chose",
+    "past_participle": "chosen",
+    "third_person_singular": "chooses",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To select or pick from options.",
+    "examples": [
+      "She chooses her clothes carefully.",
+      "He chose the blue shirt for the interview.",
+      "They have chosen a new leader."
+    ]
+  },
+  "come": {
+    "base": "come",
+    "past_simple": "came",
+    "past_participle": "come",
+    "third_person_singular": "comes",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To move towards or arrive at a place.",
+    "examples": [
+      "He comes home at six PM every day.",
+      "She came to visit us last weekend.",
+      "My parents have come to stay with us."
+    ]
+  },
+  "cost": {
+    "base": "cost",
+    "past_simple": "cost",
+    "past_participle": "cost",
+    "third_person_singular": "costs",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To require payment or price.",
+    "examples": [
+      "A cup of coffee costs three dollars.",
+      "The ticket cost twenty euros yesterday.",
+      "The repairs have cost a lot of money."
+    ]
+  },
+  "cut": {
+    "base": "cut",
+    "past_simple": "cut",
+    "past_participle": "cut",
+    "third_person_singular": "cuts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To slice or divide with a sharp tool.",
+    "examples": [
+      "He cuts the bread into slices.",
+      "She cut her finger while cooking.",
+      "He has cut the grass in the garden."
+    ]
+  },
+  "do": {
+    "base": "do",
+    "past_simple": "did",
+    "past_participle": "done",
+    "third_person_singular": "does",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To perform or carry out an action.",
+    "examples": [
+      "She does her homework after dinner.",
+      "He did a great job on the presentation.",
+      "We have done all the work."
+    ]
+  },
+  "draw": {
+    "base": "draw",
+    "past_simple": "drew",
+    "past_participle": "drawn",
+    "third_person_singular": "draws",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To produce a picture using a pen or pencil.",
+    "examples": [
+      "He draws portraits in his free time.",
+      "She drew a beautiful flower on paper.",
+      "He has drawn a detailed map."
+    ]
+  },
+  "drink": {
+    "base": "drink",
+    "past_simple": "drank",
+    "past_participle": "drunk",
+    "third_person_singular": "drinks",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To swallow liquid.",
+    "examples": [
+      "She drinks two liters of water daily.",
+      "He drank a glass of milk before bed.",
+      "We have drunk all the orange juice."
+    ]
+  },
+  "drive": {
+    "base": "drive",
+    "past_simple": "drove",
+    "past_participle": "driven",
+    "third_person_singular": "drives",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To operate and control a vehicle.",
+    "examples": [
+      "He drives to work every morning.",
+      "She drove to the beach last Sunday.",
+      "They have driven across the country."
+    ]
+  },
+  "eat": {
+    "base": "eat",
+    "past_simple": "ate",
+    "past_participle": "eaten",
+    "third_person_singular": "eats",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To consume food through the mouth.",
+    "examples": [
+      "She eats fruit for breakfast daily.",
+      "He ate dinner at a restaurant last night.",
+      "They have eaten all the cake."
+    ]
+  },
+  "fall": {
+    "base": "fall",
+    "past_simple": "fell",
+    "past_participle": "fallen",
+    "third_person_singular": "falls",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To move downward quickly by force of gravity.",
+    "examples": [
+      "Leaves fall from trees in autumn.",
+      "He fell off his bike yesterday.",
+      "The snow has fallen all night."
+    ]
+  },
+  "feel": {
+    "base": "feel",
+    "past_simple": "felt",
+    "past_participle": "felt",
+    "third_person_singular": "feels",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To experience an emotion or physical sensation.",
+    "examples": [
+      "She feels happy when she listens to music.",
+      "He felt tired after the long journey.",
+      "They have felt better recently."
+    ]
+  },
+  "find": {
+    "base": "find",
+    "past_simple": "found",
+    "past_participle": "found",
+    "third_person_singular": "finds",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To discover or locate something.",
+    "examples": [
+      "She finds good deals online.",
+      "He found his missing keys under the sofa.",
+      "We have found a solution to the problem."
+    ]
+  },
+  "fly": {
+    "base": "fly",
+    "past_simple": "flew",
+    "past_participle": "flown",
+    "third_person_singular": "flies",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To move through the air with wings or aircraft.",
+    "examples": [
+      "The bird flies over the trees.",
+      "They flew to Paris last month.",
+      "The pilot has flown this route many times."
+    ]
+  },
+  "forget": {
+    "base": "forget",
+    "past_simple": "forgot",
+    "past_participle": "forgotten",
+    "third_person_singular": "forgets",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To fail to remember or recall.",
+    "examples": [
+      "He forgets his password frequently.",
+      "She forgot her umbrella on the bus.",
+      "I have forgotten my umbrella."
+    ]
+  },
+  "get": {
+    "base": "get",
+    "past_simple": "got",
+    "past_participle": "gotten",
+    "third_person_singular": "gets",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To receive, obtain, or become.",
+    "examples": [
+      "She gets good grades in school.",
+      "He got a new job last month.",
+      "They have gotten many presents."
+    ]
+  },
+  "give": {
+    "base": "give",
+    "past_simple": "gave",
+    "past_participle": "given",
+    "third_person_singular": "gives",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To present or bestow something to someone.",
+    "examples": [
+      "She gives flowers to her mother.",
+      "He gave me a useful advice yesterday.",
+      "They have given us a warm welcome."
+    ]
+  },
+  "go": {
+    "base": "go",
+    "past_simple": "went",
+    "past_participle": "gone",
+    "third_person_singular": "goes",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To move or travel from one place to another.",
+    "examples": [
+      "She goes to school every day.",
+      "He went home early yesterday.",
+      "They have gone to the market."
+    ]
+  },
+  "grow": {
+    "base": "grow",
+    "past_simple": "grew",
+    "past_participle": "grown",
+    "third_person_singular": "grows",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To increase in size or develop.",
+    "examples": [
+      "The plant grows quickly in sunlight.",
+      "He grew two inches over the summer.",
+      "The city has grown significantly."
+    ]
+  },
+  "have": {
+    "base": "have",
+    "past_simple": "had",
+    "past_participle": "had",
+    "third_person_singular": "has",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To possess or hold.",
+    "examples": [
+      "She has two brothers and one sister.",
+      "He had a cold last week.",
+      "They have had a wonderful holiday."
+    ]
+  },
+  "hear": {
+    "base": "hear",
+    "past_simple": "heard",
+    "past_participle": "heard",
+    "third_person_singular": "hears",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To perceive sound with the ear.",
+    "examples": [
+      "She hears music coming from next door.",
+      "He heard a loud noise last night.",
+      "We have heard the news already."
+    ]
+  },
+  "hide": {
+    "base": "hide",
+    "past_simple": "hid",
+    "past_participle": "hidden",
+    "third_person_singular": "hides",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To put or keep out of sight.",
+    "examples": [
+      "The cat hides under the bed during storms.",
+      "He hid the money in a safe box.",
+      "She has hidden the surprise present."
+    ]
+  },
+  "hit": {
+    "base": "hit",
+    "past_simple": "hit",
+    "past_participle": "hit",
+    "third_person_singular": "hits",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To strike forcibly with hands or object.",
+    "examples": [
+      "He hits the ball with the racket.",
+      "The car hit a lamppost yesterday.",
+      "The storm has hit the coast hard."
+    ]
+  },
+  "hold": {
+    "base": "hold",
+    "past_simple": "held",
+    "past_participle": "held",
+    "third_person_singular": "holds",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To grasp or support with hands.",
+    "examples": [
+      "She holds the baby gently.",
+      "He held the door open for everyone.",
+      "They have held the event annually."
+    ]
+  },
+  "hurt": {
+    "base": "hurt",
+    "past_simple": "hurt",
+    "past_participle": "hurt",
+    "third_person_singular": "hurts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To cause physical pain or injury.",
+    "examples": [
+      "His leg hurts after running.",
+      "She hurt her wrist playing tennis.",
+      "Nobody has hurt themselves."
+    ]
+  },
+  "keep": {
+    "base": "keep",
+    "past_simple": "kept",
+    "past_participle": "kept",
+    "third_person_singular": "keeps",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To retain or maintain possession of.",
+    "examples": [
+      "She keeps her room clean and tidy.",
+      "He kept his secret for many years.",
+      "We have kept all our old photos."
+    ]
+  },
+  "know": {
+    "base": "know",
+    "past_simple": "knew",
+    "past_participle": "known",
+    "third_person_singular": "knows",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To be aware of or familiar with.",
+    "examples": [
+      "He knows the answer to every question.",
+      "She knew him when they were kids.",
+      "I have known her for ten years."
+    ]
+  },
+  "learn": {
+    "base": "learn",
+    "past_simple": "learnt",
+    "past_participle": "learnt",
+    "third_person_singular": "learns",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To gain knowledge or skill.",
+    "examples": [
+      "She learns English grammar every day.",
+      "He learnt to ride a horse last year.",
+      "They have learnt a lot in this course."
+    ]
+  },
+  "leave": {
+    "base": "leave",
+    "past_simple": "left",
+    "past_participle": "left",
+    "third_person_singular": "leaves",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To go away from or depart.",
+    "examples": [
+      "The train leaves at eight sharp.",
+      "He left his jacket at the office.",
+      "She has left her keys on the table."
+    ]
+  },
+  "let": {
+    "base": "let",
+    "past_simple": "let",
+    "past_participle": "let",
+    "third_person_singular": "lets",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To allow or permit.",
+    "examples": [
+      "She lets her children play outside.",
+      "He let us borrow his car yesterday.",
+      "They have let us stay at their apartment."
+    ]
+  },
+  "lose": {
+    "base": "lose",
+    "past_simple": "lost",
+    "past_participle": "lost",
+    "third_person_singular": "loses",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To fail to keep or be deprived of.",
+    "examples": [
+      "He loses his glasses constantly.",
+      "She lost her watch at the beach.",
+      "We have lost our way in the fog."
+    ]
+  },
+  "make": {
+    "base": "make",
+    "past_simple": "made",
+    "past_participle": "made",
+    "third_person_singular": "makes",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To create, construct, or produce.",
+    "examples": [
+      "She makes delicious cakes.",
+      "He made a wooden chair in workshop.",
+      "They have made great progress."
+    ]
+  },
+  "mean": {
+    "base": "mean",
+    "past_simple": "meant",
+    "past_participle": "meant",
+    "third_person_singular": "means",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To signify or intend to express.",
+    "examples": [
+      "What does this word mean in context?",
+      "He meant to call you earlier today.",
+      "She has meant well all along."
+    ]
+  },
+  "meet": {
+    "base": "meet",
+    "past_simple": "met",
+    "past_participle": "met",
+    "third_person_singular": "meets",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To encounter or assemble with someone.",
+    "examples": [
+      "She meets her friends every weekend.",
+      "He met the director yesterday morning.",
+      "We have met before at a conference."
+    ]
+  },
+  "pay": {
+    "base": "pay",
+    "past_simple": "paid",
+    "past_participle": "paid",
+    "third_person_singular": "pays",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To give money in exchange for goods/services.",
+    "examples": [
+      "He pays his bills on time.",
+      "She paid for the lunch bill yesterday.",
+      "They have paid for the flight tickets."
+    ]
+  },
+  "put": {
+    "base": "put",
+    "past_simple": "put",
+    "past_participle": "put",
+    "third_person_singular": "puts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To place or position something somewhere.",
+    "examples": [
+      "She puts the book on the shelf.",
+      "He put his coat in the closet.",
+      "We have put the furniture in place."
+    ]
+  },
+  "read": {
+    "base": "read",
+    "past_simple": "read",
+    "past_participle": "read",
+    "third_person_singular": "reads",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To look at and comprehend written text.",
+    "examples": [
+      "He reads the newspaper every morning.",
+      "She read three books last month.",
+      "I have read that novel twice."
+    ]
+  },
+  "ride": {
+    "base": "ride",
+    "past_simple": "rode",
+    "past_participle": "ridden",
+    "third_person_singular": "rides",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To sit on and control a horse or bike.",
+    "examples": [
+      "She rides her bike to work.",
+      "He rode a horse across the field.",
+      "They have ridden camels in Egypt."
+    ]
+  },
+  "ring": {
+    "base": "ring",
+    "past_simple": "rang",
+    "past_participle": "rung",
+    "third_person_singular": "rings",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To make a clear resonant sound.",
+    "examples": [
+      "The phone rings loudly in the hall.",
+      "He rang the doorbell twice.",
+      "The church bell has rung twelve times."
+    ]
+  },
+  "run": {
+    "base": "run",
+    "past_simple": "ran",
+    "past_participle": "run",
+    "third_person_singular": "runs",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To move swiftly on foot.",
+    "examples": [
+      "He runs five kilometers every morning.",
+      "She ran to catch the train.",
+      "They have run two marathons this year."
+    ]
+  },
+  "say": {
+    "base": "say",
+    "past_simple": "said",
+    "past_participle": "said",
+    "third_person_singular": "says",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To utter words or state aloud.",
+    "examples": [
+      "She says hello to everyone she meets.",
+      "He said he was feeling tired.",
+      "They have said everything needed."
+    ]
+  },
+  "see": {
+    "base": "see",
+    "past_simple": "saw",
+    "past_participle": "seen",
+    "third_person_singular": "sees",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To perceive with the eyes.",
+    "examples": [
+      "He sees birds outside his window.",
+      "She saw a great film last night.",
+      "We have seen that movie already."
+    ]
+  },
+  "sell": {
+    "base": "sell",
+    "past_simple": "sold",
+    "past_participle": "sold",
+    "third_person_singular": "sells",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To transfer goods in exchange for money.",
+    "examples": [
+      "He sells fresh bread at the bakery.",
+      "She sold her old car last week.",
+      "They have sold all the tickets."
+    ]
+  },
+  "send": {
+    "base": "send",
+    "past_simple": "sent",
+    "past_participle": "sent",
+    "third_person_singular": "sends",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To dispatch or cause to go to a destination.",
+    "examples": [
+      "She sends an email every day.",
+      "He sent a letter to his friend.",
+      "They have sent the package by mail."
+    ]
+  },
+  "set": {
+    "base": "set",
+    "past_simple": "set",
+    "past_participle": "set",
+    "third_person_singular": "sets",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To put or place in a specified state.",
+    "examples": [
+      "The sun sets in the west.",
+      "She set the table for four people.",
+      "He has set the alarm for six AM."
+    ]
+  },
+  "sing": {
+    "base": "sing",
+    "past_simple": "sang",
+    "past_participle": "sung",
+    "third_person_singular": "sings",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To produce musical sounds with the voice.",
+    "examples": [
+      "She sings in the church choir.",
+      "He sang a beautiful song at the party.",
+      "They have sung that hymn together."
+    ]
+  },
+  "sit": {
+    "base": "sit",
+    "past_simple": "sat",
+    "past_participle": "sat",
+    "third_person_singular": "sits",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To rest weight on buttocks or seat.",
+    "examples": [
+      "He sits near the window in class.",
+      "She sat on the bench in the park.",
+      "We have sat here for an hour."
+    ]
+  },
+  "sleep": {
+    "base": "sleep",
+    "past_simple": "slept",
+    "past_participle": "slept",
+    "third_person_singular": "sleeps",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To rest in state of natural unconsciousness.",
+    "examples": [
+      "He sleeps eight hours every night.",
+      "She slept deeply after the flight.",
+      "They have slept soundly all night."
+    ]
+  },
+  "speak": {
+    "base": "speak",
+    "past_simple": "spoke",
+    "past_participle": "spoken",
+    "third_person_singular": "speaks",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To express thoughts aloud in words.",
+    "examples": [
+      "She speaks three languages fluently.",
+      "He spoke at the conference yesterday.",
+      "We have spoken about this issue."
+    ]
+  },
+  "spend": {
+    "base": "spend",
+    "past_simple": "spent",
+    "past_participle": "spent",
+    "third_person_singular": "spends",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To pay out money or pass time.",
+    "examples": [
+      "He spends time with his family.",
+      "She spent fifty dollars on books.",
+      "They have spent all their savings."
+    ]
+  },
+  "stand": {
+    "base": "stand",
+    "past_simple": "stood",
+    "past_participle": "stood",
+    "third_person_singular": "stands",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To maintain an upright position on feet.",
+    "examples": [
+      "A tall tree stands near the house.",
+      "He stood up when the teacher entered.",
+      "We have stood in line for hours."
+    ]
+  },
+  "steal": {
+    "base": "steal",
+    "past_simple": "stole",
+    "past_participle": "stolen",
+    "third_person_singular": "steals",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To take property without permission.",
+    "examples": [
+      "A thief steals valuable items.",
+      "Someone stole his bicycle yesterday.",
+      "The jewels have been stolen."
+    ]
+  },
+  "swim": {
+    "base": "swim",
+    "past_simple": "swam",
+    "past_participle": "swum",
+    "third_person_singular": "swims",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To propel body through water.",
+    "examples": [
+      "She swims in the pool every morning.",
+      "He swam across the lake easily.",
+      "They have swum in the ocean."
+    ]
+  },
+  "take": {
+    "base": "take",
+    "past_simple": "took",
+    "past_participle": "taken",
+    "third_person_singular": "takes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To lay hold of, receive, or transport.",
+    "examples": [
+      "He takes medicine after meals.",
+      "She took a photo of the sunset.",
+      "They have taken many photos."
+    ]
+  },
+  "teach": {
+    "base": "teach",
+    "past_simple": "taught",
+    "past_participle": "taught",
+    "third_person_singular": "teaches",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To impart knowledge or instruct.",
+    "examples": [
+      "She teaches mathematics at university.",
+      "He taught us history last semester.",
+      "They have taught many students."
+    ]
+  },
+  "tell": {
+    "base": "tell",
+    "past_simple": "told",
+    "past_participle": "told",
+    "third_person_singular": "tells",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To relate or communicate information.",
+    "examples": [
+      "He tells interesting stories.",
+      "She told me the truth about the event.",
+      "They have told everyone the good news."
+    ]
+  },
+  "think": {
+    "base": "think",
+    "past_simple": "thought",
+    "past_participle": "thought",
+    "third_person_singular": "thinks",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To use the mind to consider.",
+    "examples": [
+      "She thinks carefully before deciding.",
+      "He thought about the question for a while.",
+      "We have thought of a good plan."
+    ]
+  },
+  "throw": {
+    "base": "throw",
+    "past_simple": "threw",
+    "past_participle": "thrown",
+    "third_person_singular": "throws",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To propel something through air.",
+    "examples": [
+      "He throws the ball to his dog.",
+      "She threw the paper into the trash.",
+      "He has thrown away old papers."
+    ]
+  },
+  "understand": {
+    "base": "understand",
+    "past_simple": "understood",
+    "past_participle": "understood",
+    "third_person_singular": "understands",
+    "pattern_group": "same_past_participle",
+    "level": "A1",
+    "definition": "To perceive meaning or comprehend.",
+    "examples": [
+      "She understands complex ideas quickly.",
+      "He understood the instructions clearly.",
+      "They have understood the rules."
+    ]
+  },
+  "wake": {
+    "base": "wake",
+    "past_simple": "woke",
+    "past_participle": "woken",
+    "third_person_singular": "wakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To emerge from sleep.",
+    "examples": [
+      "He wakes up early every morning.",
+      "She woke up at six today.",
+      "They have woken up refreshed."
+    ]
+  },
+  "wear": {
+    "base": "wear",
+    "past_simple": "wore",
+    "past_participle": "worn",
+    "third_person_singular": "wears",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To have clothes or accessories on body.",
+    "examples": [
+      "She wears glasses for reading.",
+      "He wore a black suit to the wedding.",
+      "The coat has been worn out."
+    ]
+  },
+  "win": {
+    "base": "win",
+    "past_simple": "won",
+    "past_participle": "won",
+    "third_person_singular": "wins",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To achieve victory in a contest.",
+    "examples": [
+      "He wins matches consistently.",
+      "She won first prize in the competition.",
+      "They have won three awards."
+    ]
+  },
+  "write": {
+    "base": "write",
+    "past_simple": "wrote",
+    "past_participle": "written",
+    "third_person_singular": "writes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To form letters or words on a surface.",
+    "examples": [
+      "She writes articles for a magazine.",
+      "He wrote a long letter yesterday.",
+      "I have written three chapters so far."
+    ]
+  },
+  "awake": {
+    "base": "awake",
+    "past_simple": "awoke",
+    "past_participle": "awoken",
+    "third_person_singular": "awakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To stop sleeping or cause to wake.",
+    "examples": [
+      "He awakes at sunrise every morning.",
+      "The thunder awoke the sleeping child.",
+      "She has awoken from her long sleep."
+    ]
+  },
+  "bend": {
+    "base": "bend",
+    "past_simple": "bent",
+    "past_participle": "bent",
+    "third_person_singular": "bends",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To curve or incline from straight line.",
+    "examples": [
+      "He bends down to pick up his keys.",
+      "She bent the wire into a ring shape.",
+      "The metal pole has bent under pressure."
+    ]
+  },
+  "bet": {
+    "base": "bet",
+    "past_simple": "bet",
+    "past_participle": "bet",
+    "third_person_singular": "bets",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To wager money on an outcome.",
+    "examples": [
+      "He bets on horse races occasionally.",
+      "She bet ten dollars on the game.",
+      "They have bet on the winning team."
+    ]
+  },
+  "bind": {
+    "base": "bind",
+    "past_simple": "bound",
+    "past_participle": "bound",
+    "third_person_singular": "binds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To tie or fasten tightly.",
+    "examples": [
+      "The contract binds both parties legally.",
+      "He bound the package with strong rope.",
+      "They have bound the documents together."
+    ]
+  },
+  "bleed": {
+    "base": "bleed",
+    "past_simple": "bled",
+    "past_participle": "bled",
+    "third_person_singular": "bleeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To lose blood from body.",
+    "examples": [
+      "A small cut bleeds slightly.",
+      "His nose bled after he fell.",
+      "The wound has bled through the bandage."
+    ]
+  },
+  "blow": {
+    "base": "blow",
+    "past_simple": "blew",
+    "past_participle": "blown",
+    "third_person_singular": "blows",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To emit current of air or wind.",
+    "examples": [
+      "A cold wind blows from the north.",
+      "She blew out the candles on her cake.",
+      "The strong gale has blown down trees."
+    ]
+  },
+  "breed": {
+    "base": "breed",
+    "past_simple": "bred",
+    "past_participle": "bred",
+    "third_person_singular": "breeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To raise animals or reproduce.",
+    "examples": [
+      "He breeds racehorses on his farm.",
+      "They bred sheep for wool for generations.",
+      "They have bred high-quality cattle."
+    ]
+  },
+  "burn": {
+    "base": "burn",
+    "past_simple": "burnt",
+    "past_participle": "burnt",
+    "third_person_singular": "burns",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To consume or destroy by fire.",
+    "examples": [
+      "Fire burns wood rapidly.",
+      "She burnt the toast this morning.",
+      "The bonfire has burnt down completely."
+    ]
+  },
+  "burst": {
+    "base": "burst",
+    "past_simple": "burst",
+    "past_participle": "burst",
+    "third_person_singular": "bursts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To break open or split suddenly.",
+    "examples": [
+      "The balloon bursts when poked.",
+      "The pipe burst during the frost.",
+      "The river has burst its banks."
+    ]
+  },
+  "cast": {
+    "base": "cast",
+    "past_simple": "cast",
+    "past_participle": "cast",
+    "third_person_singular": "casts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To throw or project light/shadow/vote.",
+    "examples": [
+      "The statue casts a long shadow.",
+      "He cast his vote in the election.",
+      "She has cast a spell of enchantment."
+    ]
+  },
+  "cling": {
+    "base": "cling",
+    "past_simple": "clung",
+    "past_participle": "clung",
+    "third_person_singular": "clings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To hold on tightly or adhere.",
+    "examples": [
+      "The wet shirt clings to his back.",
+      "The child clung to her mother's coat.",
+      "They have clung to old traditions."
+    ]
+  },
+  "deal": {
+    "base": "deal",
+    "past_simple": "dealt",
+    "past_participle": "dealt",
+    "third_person_singular": "deals",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To handle, distribute, or trade.",
+    "examples": [
+      "He deals with customer complaints daily.",
+      "She dealt the cards to the players.",
+      "We have dealt with similar issues."
+    ]
+  },
+  "dig": {
+    "base": "dig",
+    "past_simple": "dug",
+    "past_participle": "dug",
+    "third_person_singular": "digs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To break up and turn earth.",
+    "examples": [
+      "The dog digs holes in the garden.",
+      "He dug a deep trench for the pipes.",
+      "They have dug a new well."
+    ]
+  },
+  "dream": {
+    "base": "dream",
+    "past_simple": "dreamt",
+    "past_participle": "dreamt",
+    "third_person_singular": "dreams",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To experience thoughts while sleeping.",
+    "examples": [
+      "She dreams of traveling the world.",
+      "He dreamt about flying last night.",
+      "I have dreamt of this moment."
+    ]
+  },
+  "feed": {
+    "base": "feed",
+    "past_simple": "fed",
+    "past_participle": "fed",
+    "third_person_singular": "feeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To supply with food.",
+    "examples": [
+      "She feeds her cat every morning.",
+      "He fed the horses in the barn.",
+      "They have fed the hungry visitors."
+    ]
+  },
+  "fight": {
+    "base": "fight",
+    "past_simple": "fought",
+    "past_participle": "fought",
+    "third_person_singular": "fights",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To engage in battle or struggle.",
+    "examples": [
+      "The soldiers fight for freedom.",
+      "They fought bravely against the odds.",
+      "We have fought for our rights."
+    ]
+  },
+  "fit": {
+    "base": "fit",
+    "past_simple": "fit",
+    "past_participle": "fit",
+    "third_person_singular": "fits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To be of right size and shape.",
+    "examples": [
+      "These shoes fit me perfectly.",
+      "The key fit into the old lock.",
+      "The piece has fit into the puzzle."
+    ]
+  },
+  "freeze": {
+    "base": "freeze",
+    "past_simple": "froze",
+    "past_participle": "frozen",
+    "third_person_singular": "freezes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To turn into ice or harden with cold.",
+    "examples": [
+      "Water freezes at zero degrees Celsius.",
+      "The lake froze over last winter.",
+      "The ice cream has frozen hard."
+    ]
+  },
+  "hang": {
+    "base": "hang",
+    "past_simple": "hung",
+    "past_participle": "hung",
+    "third_person_singular": "hangs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To suspend from above.",
+    "examples": [
+      "She hangs her coat on the hook.",
+      "He hung a painting on the living room wall.",
+      "They have hung decorations outside."
+    ]
+  },
+  "kneel": {
+    "base": "kneel",
+    "past_simple": "knelt",
+    "past_participle": "knelt",
+    "third_person_singular": "kneels",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To fall or rest on knees.",
+    "examples": [
+      "He kneels to pray in church.",
+      "She knelt down to tie her shoelace.",
+      "They have knelt before the throne."
+    ]
+  },
+  "lay": {
+    "base": "lay",
+    "past_simple": "laid",
+    "past_participle": "laid",
+    "third_person_singular": "lays",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To place gently or lay down flat.",
+    "examples": [
+      "The hen lays an egg every day.",
+      "She laid the tablecloth on the table.",
+      "He has laid out his clean clothes."
+    ]
+  },
+  "lead": {
+    "base": "lead",
+    "past_simple": "led",
+    "past_participle": "led",
+    "third_person_singular": "leads",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To guide or conduct along a way.",
+    "examples": [
+      "The tour guide leads the group.",
+      "She led the team to a great victory.",
+      "He has led the organization well."
+    ]
+  },
+  "leap": {
+    "base": "leap",
+    "past_simple": "leapt",
+    "past_participle": "leapt",
+    "third_person_singular": "leaps",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To spring or jump high in air.",
+    "examples": [
+      "The frog leaps across the pond.",
+      "He leapt over the fence easily.",
+      "She has leapt at the opportunity."
+    ]
+  },
+  "lend": {
+    "base": "lend",
+    "past_simple": "lent",
+    "past_participle": "lent",
+    "third_person_singular": "lends",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To grant temporary use of something.",
+    "examples": [
+      "She lends books to her classmates.",
+      "He lent me twenty dollars yesterday.",
+      "They have lent us their lawnmower."
+    ]
+  },
+  "lie": {
+    "base": "lie",
+    "past_simple": "lay",
+    "past_participle": "lain",
+    "third_person_singular": "lies",
+    "pattern_group": "totally_irregular",
+    "level": "A2",
+    "definition": "To recline or rest in horizontal position.",
+    "examples": [
+      "He lies on the sofa to rest.",
+      "She lay in the sun for an hour.",
+      "The cat has lain on the rug all day."
+    ]
+  },
+  "light": {
+    "base": "light",
+    "past_simple": "lit",
+    "past_participle": "lit",
+    "third_person_singular": "lights",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To ignite or illuminate.",
+    "examples": [
+      "She lights a candle every evening.",
+      "He lit the fireplace when it got cold.",
+      "They have lit up the entire street."
+    ]
+  },
+  "mistake": {
+    "base": "mistake",
+    "past_simple": "mistook",
+    "past_participle": "mistaken",
+    "third_person_singular": "mistakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To misunderstand or identify wrongly.",
+    "examples": [
+      "He mistakes kindness for weakness.",
+      "She mistook him for her brother.",
+      "I have mistaken the date of meeting."
+    ]
+  },
+  "overcome": {
+    "base": "overcome",
+    "past_simple": "overcame",
+    "past_participle": "overcome",
+    "third_person_singular": "overcomes",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To succeed in dealing with problem/fear.",
+    "examples": [
+      "She overcomes obstacles with determination.",
+      "He overcame his fear of heights.",
+      "They have overcome great hardship."
+    ]
+  },
+  "quit": {
+    "base": "quit",
+    "past_simple": "quit",
+    "past_participle": "quit",
+    "third_person_singular": "quits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To stop doing something or resign.",
+    "examples": [
+      "He quits smoking every New Year.",
+      "She quit her job last month.",
+      "They have quit the tournament."
+    ]
+  },
+  "rise": {
+    "base": "rise",
+    "past_simple": "rose",
+    "past_participle": "risen",
+    "third_person_singular": "rises",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To move upward or increase.",
+    "examples": [
+      "The sun rises in the east.",
+      "Prices rose sharply last month.",
+      "The river level has risen by two feet."
+    ]
+  },
+  "shake": {
+    "base": "shake",
+    "past_simple": "shook",
+    "past_participle": "shaken",
+    "third_person_singular": "shakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To vibrate or move back and forth.",
+    "examples": [
+      "He shakes hands when meeting people.",
+      "She shook the bottle before drinking.",
+      "An earthquake has shaken the city."
+    ]
+  },
+  "shine": {
+    "base": "shine",
+    "past_simple": "shone",
+    "past_participle": "shone",
+    "third_person_singular": "shines",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To emit or reflect light.",
+    "examples": [
+      "The sun shines brightly today.",
+      "His flashlight shone through the dark.",
+      "Her eyes have shone with joy."
+    ]
+  },
+  "shoot": {
+    "base": "shoot",
+    "past_simple": "shot",
+    "past_participle": "shot",
+    "third_person_singular": "shoots",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To fire a weapon or film a scene.",
+    "examples": [
+      "He shoots arrows at the target.",
+      "The photographer shot great pictures.",
+      "They have shot a new documentary."
+    ]
+  },
+  "shut": {
+    "base": "shut",
+    "past_simple": "shut",
+    "past_participle": "shut",
+    "third_person_singular": "shuts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To close securely.",
+    "examples": [
+      "She shuts the windows at night.",
+      "He shut the door behind him.",
+      "They have shut down the shop."
+    ]
+  },
+  "sink": {
+    "base": "sink",
+    "past_simple": "sank",
+    "past_participle": "sunk",
+    "third_person_singular": "sinks",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To submerge or go beneath surface.",
+    "examples": [
+      "A heavy stone sinks in water.",
+      "The boat sank during the storm.",
+      "The sun has sunk below the horizon."
+    ]
+  },
+  "slide": {
+    "base": "slide",
+    "past_simple": "slid",
+    "past_participle": "slid",
+    "third_person_singular": "slides",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To glide smoothly along a surface.",
+    "examples": [
+      "Children slide down the icy hill.",
+      "The glass slid off the smooth table.",
+      "He has slid into third base."
+    ]
+  },
+  "smell": {
+    "base": "smell",
+    "past_simple": "smelt",
+    "past_participle": "smelt",
+    "third_person_singular": "smells",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To perceive odor with nose.",
+    "examples": [
+      "The fresh flower smells delightful.",
+      "She smelt smoke coming from the kitchen.",
+      "We have smelt something burning."
+    ]
+  },
+  "speed": {
+    "base": "speed",
+    "past_simple": "sped",
+    "past_participle": "sped",
+    "third_person_singular": "speeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To move at high speed or hurry.",
+    "examples": [
+      "The ambulance speeds through traffic.",
+      "He sped past the radar checkpoint.",
+      "The train has sped away."
+    ]
+  },
+  "spell": {
+    "base": "spell",
+    "past_simple": "spelt",
+    "past_participle": "spelt",
+    "third_person_singular": "spells",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To write or name letters in order.",
+    "examples": [
+      "How do you spell your last name?",
+      "She spelt her name clearly.",
+      "He has spelt the difficult word correctly."
+    ]
+  },
+  "spill": {
+    "base": "spill",
+    "past_simple": "spilt",
+    "past_participle": "spilt",
+    "third_person_singular": "spills",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To cause liquid to flow accidentally.",
+    "examples": [
+      "He spills coffee on his shirt often.",
+      "She spilt milk on the kitchen floor.",
+      "Someone has spilt water on papers."
+    ]
+  },
+  "spit": {
+    "base": "spit",
+    "past_simple": "spat",
+    "past_participle": "spat",
+    "third_person_singular": "spits",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To eject saliva or liquid from mouth.",
+    "examples": [
+      "The camel spits when annoyed.",
+      "He spat out the bitter medicine.",
+      "He has spat on the ground."
+    ]
+  },
+  "split": {
+    "base": "split",
+    "past_simple": "split",
+    "past_participle": "split",
+    "third_person_singular": "splits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To divide into parts or share.",
+    "examples": [
+      "He splits wood for the fireplace.",
+      "They split the bill equally yesterday.",
+      "We have split into two groups."
+    ]
+  },
+  "spread": {
+    "base": "spread",
+    "past_simple": "spread",
+    "past_participle": "spread",
+    "third_person_singular": "spreads",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To expand over an area.",
+    "examples": [
+      "She spreads butter on toast.",
+      "News spread quickly through the town.",
+      "The fire has spread to nearby trees."
+    ]
+  },
+  "spring": {
+    "base": "spring",
+    "past_simple": "sprang",
+    "past_participle": "sprung",
+    "third_person_singular": "springs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To leap, jump, or arise suddenly.",
+    "examples": [
+      "Grass springs up after warm rain.",
+      "He sprang up from his chair.",
+      "A new idea has sprung to mind."
+    ]
+  },
+  "stick": {
+    "base": "stick",
+    "past_simple": "stuck",
+    "past_participle": "stuck",
+    "third_person_singular": "sticks",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To adhere or attach firmly.",
+    "examples": [
+      "Glue sticks paper together well.",
+      "The key stuck in the old lock.",
+      "We have stuck to our original plan."
+    ]
+  },
+  "sting": {
+    "base": "sting",
+    "past_simple": "stung",
+    "past_participle": "stung",
+    "third_person_singular": "stings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To wound with a sharp organ/stinger.",
+    "examples": [
+      "A bee stings when threatened.",
+      "A wasp stung him on his arm.",
+      "The insect has stung her leg."
+    ]
+  },
+  "strike": {
+    "base": "strike",
+    "past_simple": "struck",
+    "past_participle": "struck",
+    "third_person_singular": "strikes",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To hit sharply or deliver blow.",
+    "examples": [
+      "Clock strikes twelve at midnight.",
+      "Lightning struck the tall tower.",
+      "Disaster has struck the small town."
+    ]
+  },
+  "swear": {
+    "base": "swear",
+    "past_simple": "swore",
+    "past_participle": "sworn",
+    "third_person_singular": "swears",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To state solemnly or use profanity.",
+    "examples": [
+      "He swears to tell the truth.",
+      "She swore an oath in the courtroom.",
+      "They have sworn to secrecy."
+    ]
+  },
+  "sweep": {
+    "base": "sweep",
+    "past_simple": "swept",
+    "past_participle": "swept",
+    "third_person_singular": "sweeps",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To clean or clear with a broom.",
+    "examples": [
+      "She sweeps the patio every morning.",
+      "He swept the floor thoroughly.",
+      "We have swept away the debris."
+    ]
+  },
+  "swing": {
+    "base": "swing",
+    "past_simple": "swung",
+    "past_participle": "swung",
+    "third_person_singular": "swings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To sway or move back and forth.",
+    "examples": [
+      "The pendulum swings continuously.",
+      "He swung the bat and hit the ball.",
+      "The gate has swung wide open."
+    ]
+  },
+  "weep": {
+    "base": "weep",
+    "past_simple": "wept",
+    "past_participle": "wept",
+    "third_person_singular": "weeps",
+    "pattern_group": "same_past_participle",
+    "level": "A2",
+    "definition": "To shed tears or cry deeply.",
+    "examples": [
+      "She weeps when watching sad movies.",
+      "He wept with relief upon hearing news.",
+      "They have wept for their loss."
+    ]
+  },
+  "arise": {
+    "base": "arise",
+    "past_simple": "arose",
+    "past_participle": "arisen",
+    "third_person_singular": "arises",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To emerge or come into existence.",
+    "examples": [
+      "New opportunities arise unexpected.",
+      "A problem arose during the meeting.",
+      "Complications have arisen unexpectedly."
+    ]
+  },
+  "bear": {
+    "base": "bear",
+    "past_simple": "bore",
+    "past_participle": "borne",
+    "third_person_singular": "bears",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To carry, endure, or give birth to.",
+    "examples": [
+      "She bears the responsibility bravely.",
+      "He bore the pain without complaining.",
+      "She has borne three children."
+    ]
+  },
+  "bid": {
+    "base": "bid",
+    "past_simple": "bid",
+    "past_participle": "bid",
+    "third_person_singular": "bids",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To offer a price at auction.",
+    "examples": [
+      "He bids generously at art auctions.",
+      "She bid five hundred euros for painting.",
+      "They have bid higher than competitors."
+    ]
+  },
+  "broadcast": {
+    "base": "broadcast",
+    "past_simple": "broadcast",
+    "past_participle": "broadcast",
+    "third_person_singular": "broadcasts",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To transmit by radio or television.",
+    "examples": [
+      "The station broadcasts sports live.",
+      "They broadcast the speech nation-wide.",
+      "The news has been broadcast globally."
+    ]
+  },
+  "creep": {
+    "base": "creep",
+    "past_simple": "crept",
+    "past_participle": "crept",
+    "third_person_singular": "creeps",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To move slowly and stealthily.",
+    "examples": [
+      "A cat creeps towards a bird.",
+      "He crept into the house late at night.",
+      "Mist has crept over the valley."
+    ]
+  },
+  "dare": {
+    "base": "dare",
+    "past_simple": "dared",
+    "past_participle": "dared",
+    "third_person_singular": "dares",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To have courage or challenge someone.",
+    "examples": [
+      "He dares to speak against injustice.",
+      "She dared him to jump into lake.",
+      "Nobody has dared to question him."
+    ]
+  },
+  "flee": {
+    "base": "flee",
+    "past_simple": "fled",
+    "past_participle": "fled",
+    "third_person_singular": "flees",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To run away from danger.",
+    "examples": [
+      "Refugees flee from conflict zones.",
+      "The suspect fled from police cars.",
+      "Many inhabitants have fled the area."
+    ]
+  },
+  "forbid": {
+    "base": "forbid",
+    "past_simple": "forbade",
+    "past_participle": "forbidden",
+    "third_person_singular": "forbids",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To prohibit or order not to do.",
+    "examples": [
+      "Law forbids driving without license.",
+      "My doctor forbade me to drink coffee.",
+      "Entry has been forbidden to public."
+    ]
+  },
+  "forgive": {
+    "base": "forgive",
+    "past_simple": "forgave",
+    "past_participle": "forgiven",
+    "third_person_singular": "forgives",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To pardon or stop feeling anger.",
+    "examples": [
+      "She forgives minor mistakes easily.",
+      "He forgave his friend after apology.",
+      "We have forgiven their shortcomings."
+    ]
+  },
+  "forsake": {
+    "base": "forsake",
+    "past_simple": "forsook",
+    "past_participle": "forsaken",
+    "third_person_singular": "forsakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To abandon or renounce completely.",
+    "examples": [
+      "He forsakes worldly ambitions.",
+      "She forsook her career for family.",
+      "They have forsaken their old habits."
+    ]
+  },
+  "grind": {
+    "base": "grind",
+    "past_simple": "ground",
+    "past_participle": "ground",
+    "third_person_singular": "grinds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To crush into small particles.",
+    "examples": [
+      "The mill grinds wheat into flour.",
+      "He ground coffee beans fresh morning.",
+      "The pepper has been ground finely."
+    ]
+  },
+  "offset": {
+    "base": "offset",
+    "past_simple": "offset",
+    "past_participle": "offset",
+    "third_person_singular": "offsets",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To balance or counteract effect.",
+    "examples": [
+      "Gains offset losses in portfolio.",
+      "Lower costs offset reduced revenues.",
+      "Tax credits have offset the expense."
+    ]
+  },
+  "outdo": {
+    "base": "outdo",
+    "past_simple": "outdid",
+    "past_participle": "outdone",
+    "third_person_singular": "outdoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To surpass or perform better than.",
+    "examples": [
+      "She always outdoes expectations.",
+      "He outdid himself in the final match.",
+      "They have outdone all competitors."
+    ]
+  },
+  "outgrow": {
+    "base": "outgrow",
+    "past_simple": "outgrew",
+    "past_participle": "outgrown",
+    "third_person_singular": "outgrows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To grow too large for something.",
+    "examples": [
+      "The child outgrows clothes quickly.",
+      "He outgrew his fear of dark.",
+      "She has outgrown her childhood toys."
+    ]
+  },
+  "outrun": {
+    "base": "outrun",
+    "past_simple": "outran",
+    "past_participle": "outrun",
+    "third_person_singular": "outruns",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To run faster or further than.",
+    "examples": [
+      "The cheetah outruns its prey easily.",
+      "He outran the defender to score.",
+      "They have outrun the police car."
+    ]
+  },
+  "overeat": {
+    "base": "overeat",
+    "past_simple": "overate",
+    "past_participle": "overeaten",
+    "third_person_singular": "overeats",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To eat excessively.",
+    "examples": [
+      "He overeats when stressed out.",
+      "She overate at the holiday buffet.",
+      "We have overeaten at dinner party."
+    ]
+  },
+  "overhear": {
+    "base": "overhear",
+    "past_simple": "overheard",
+    "past_participle": "overheard",
+    "third_person_singular": "overhears",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To hear unintentionally.",
+    "examples": [
+      "She overhears conversations on bus.",
+      "He overheard two colleagues arguing.",
+      "I have overheard interesting news."
+    ]
+  },
+  "overlook": {
+    "base": "overlook",
+    "past_simple": "overlooked",
+    "past_participle": "overlooked",
+    "third_person_singular": "overlooks",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To fail to notice or consider.",
+    "examples": [
+      "He overlooks small spelling mistakes.",
+      "She overlooked a crucial detail in text.",
+      "We have overlooked these figures."
+    ]
+  },
+  "oversleep": {
+    "base": "oversleep",
+    "past_simple": "overslept",
+    "past_participle": "overslept",
+    "third_person_singular": "oversleeps",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To sleep past intended time.",
+    "examples": [
+      "He oversleeps when alarm fails.",
+      "She overslept and missed her train.",
+      "I have overslept twice this week."
+    ]
+  },
+  "overtake": {
+    "base": "overtake",
+    "past_simple": "overtook",
+    "past_participle": "overtaken",
+    "third_person_singular": "overtakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To catch up with and pass.",
+    "examples": [
+      "A fast car overtakes slow truck.",
+      "She overtook her rival near finish line.",
+      "Inflation has overtaken wage growth."
+    ]
+  },
+  "overthrow": {
+    "base": "overthrow",
+    "past_simple": "overthrew",
+    "past_participle": "overthrown",
+    "third_person_singular": "overthrows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To depose or remove from power.",
+    "examples": [
+      "Rebels overthrow oppressive regime.",
+      "The army overthrew government in coup.",
+      "Dictators have been overthrown."
+    ]
+  },
+  "prove": {
+    "base": "prove",
+    "past_simple": "proved",
+    "past_participle": "proven",
+    "third_person_singular": "proves",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To demonstrate truth by evidence.",
+    "examples": [
+      "The experiment proves the hypothesis.",
+      "The theory proved correct in lab.",
+      "His loyalty has been proven."
+    ]
+  },
+  "saw": {
+    "base": "saw",
+    "past_simple": "sawed",
+    "past_participle": "sawn",
+    "third_person_singular": "saws",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut wood with a saw tool.",
+    "examples": [
+      "The carpenter saws wooden planks.",
+      "He sawed log into firewood logs.",
+      "The fallen tree has been sawn."
+    ]
+  },
+  "seek": {
+    "base": "seek",
+    "past_simple": "sought",
+    "past_participle": "sought",
+    "third_person_singular": "seeks",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To attempt to find or achieve.",
+    "examples": [
+      "She seeks professional advice.",
+      "He sought refuge from the rain storm.",
+      "They have sought peace negotiations."
+    ]
+  },
+  "sew": {
+    "base": "sew",
+    "past_simple": "sewed",
+    "past_participle": "sewn",
+    "third_person_singular": "sews",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To join or repair with needle/thread.",
+    "examples": [
+      "She sews custom dresses at home.",
+      "He sewed button back onto shirt.",
+      "The quilt has been sewn by hand."
+    ]
+  },
+  "shave": {
+    "base": "shave",
+    "past_simple": "shaved",
+    "past_participle": "shaven",
+    "third_person_singular": "shaves",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut hair off skin with razor.",
+    "examples": [
+      "He shaves every morning before work.",
+      "She shaved her legs for summer.",
+      "He has shaved off his beard."
+    ]
+  },
+  "shear": {
+    "base": "shear",
+    "past_simple": "shore",
+    "past_participle": "shorn",
+    "third_person_singular": "shears",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut wool from sheep.",
+    "examples": [
+      "The farmer shears sheep in spring.",
+      "They shorn flock in record time.",
+      "All sheep have been shorn clean."
+    ]
+  },
+  "shrink": {
+    "base": "shrink",
+    "past_simple": "shrank",
+    "past_participle": "shrunk",
+    "third_person_singular": "shrinks",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To become or make smaller.",
+    "examples": [
+      "Wool shrinks in hot water washes.",
+      "The sweater shrank after washing.",
+      "Market demand has shrunk lately."
+    ]
+  },
+  "sling": {
+    "base": "sling",
+    "past_simple": "slung",
+    "past_participle": "slung",
+    "third_person_singular": "slings",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To throw or hurl forcefully.",
+    "examples": [
+      "He slings backpack over shoulder.",
+      "She slung stone across river bank.",
+      "The hammock was slung between trees."
+    ]
+  },
+  "slink": {
+    "base": "slink",
+    "past_simple": "slunk",
+    "past_participle": "slunk",
+    "third_person_singular": "slinks",
+    "pattern_group": "vowel_change",
+    "level": "B2+",
+    "definition": "To move guiltily or stealthily.",
+    "examples": [
+      "Thief slinks through narrow alley.",
+      "He slunk away from accusation scene.",
+      "The shadow has slunk into alley."
+    ]
+  },
+  "slit": {
+    "base": "slit",
+    "past_simple": "slit",
+    "past_participle": "slit",
+    "third_person_singular": "slits",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To make long narrow cut in.",
+    "examples": [
+      "She slits open the envelope carefully.",
+      "He slit the tape on package box.",
+      "The curtain has been slit open."
+    ]
+  },
+  "sow": {
+    "base": "sow",
+    "past_simple": "sowed",
+    "past_participle": "sown",
+    "third_person_singular": "sows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To plant seed in ground.",
+    "examples": [
+      "Farmers sow seeds in springtime.",
+      "She sowed wildflower seeds in field.",
+      "Generosity has sown good goodwill."
+    ]
+  },
+  "spoil": {
+    "base": "spoil",
+    "past_simple": "spoilt",
+    "past_participle": "spoilt",
+    "third_person_singular": "spoils",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To ruin or diminish quality of.",
+    "examples": [
+      "Rain spoils outdoor picnic plans.",
+      "The bad news spoilt her weekend.",
+      "The food has spoilt in heat."
+    ]
+  },
+  "stink": {
+    "base": "stink",
+    "past_simple": "stank",
+    "past_participle": "stunk",
+    "third_person_singular": "stinks",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To emit strong foul odor.",
+    "examples": [
+      "Garbage stinks in hot summer.",
+      "The room stank of stale smoke.",
+      "The sewer pipe has stunk all day."
+    ]
+  },
+  "stride": {
+    "base": "stride",
+    "past_simple": "strode",
+    "past_participle": "stridden",
+    "third_person_singular": "strides",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To walk with long decisive steps.",
+    "examples": [
+      "He strides confidently onto stage.",
+      "She strode across room to speak.",
+      "He has stridden into the room."
+    ]
+  },
+  "strive": {
+    "base": "strive",
+    "past_simple": "strove",
+    "past_participle": "striven",
+    "third_person_singular": "strives",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To make great efforts to achieve.",
+    "examples": [
+      "She strives for excellence always.",
+      "He strove to overcome his limits.",
+      "They have striven for equality."
+    ]
+  },
+  "swell": {
+    "base": "swell",
+    "past_simple": "swelled",
+    "past_participle": "swollen",
+    "third_person_singular": "swells",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To expand or increase in size.",
+    "examples": [
+      "An ankle swells after an injury.",
+      "Her eye swelled after bee sting.",
+      "His ankle has swollen noticeably."
+    ]
+  },
+  "tread": {
+    "base": "tread",
+    "past_simple": "trod",
+    "past_participle": "trodden",
+    "third_person_singular": "treads",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To crush underfoot or walk on.",
+    "examples": [
+      "Protesters tread on unjust laws.",
+      "Marchers trod path through snow.",
+      "Grass has been trodden down."
+    ]
+  },
+  "undergo": {
+    "base": "undergo",
+    "past_simple": "underwent",
+    "past_participle": "undergone",
+    "third_person_singular": "undergoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To experience or endure process.",
+    "examples": [
+      "The patient undergoes treatment.",
+      "The building underwent major renovation.",
+      "The company has undergone changes."
+    ]
+  },
+  "undo": {
+    "base": "undo",
+    "past_simple": "undid",
+    "past_participle": "undone",
+    "third_person_singular": "undoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To cancel or reverse action.",
+    "examples": [
+      "She undoes her hair braid.",
+      "He undid the knot with patience.",
+      "Damage cannot be easily undone."
+    ]
+  },
+  "unwind": {
+    "base": "unwind",
+    "past_simple": "unwound",
+    "past_participle": "unwound",
+    "third_person_singular": "unwinds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To relax or uncoil string.",
+    "examples": [
+      "She unwinds by reading novels.",
+      "He unwound long garden hose pipe.",
+      "He has unwound after hard day."
+    ]
+  },
+  "withdraw": {
+    "base": "withdraw",
+    "past_simple": "withdrew",
+    "past_participle": "withdrawn",
+    "third_person_singular": "withdraws",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To remove, take back, or retreat.",
+    "examples": [
+      "He withdraws cash from ATM machine.",
+      "Troops withdrew from border town.",
+      "She has withdrawn her candidacy."
+    ]
+  },
+  "withhold": {
+    "base": "withhold",
+    "past_simple": "withheld",
+    "past_participle": "withheld",
+    "third_person_singular": "withholds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To refuse to give or hold back.",
+    "examples": [
+      "Company withhold tax from salary.",
+      "He withheld vital information court.",
+      "They have withheld payment details."
+    ]
+  },
+  "withstand": {
+    "base": "withstand",
+    "past_simple": "withstood",
+    "past_participle": "withstood",
+    "third_person_singular": "withstands",
+    "pattern_group": "same_past_participle",
+    "level": "B1",
+    "definition": "To resist or remain undamaged by.",
+    "examples": [
+      "The bridge withstands heavy storms.",
+      "Materials withstood extreme heat test.",
+      "The fortress has withstood attacks."
+    ]
+  },
+  "abide": {
+    "base": "abide",
+    "past_simple": "abode",
+    "past_participle": "abode",
+    "third_person_singular": "abides",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To accept, tolerate, or stay.",
+    "examples": [
+      "She abides by rules of conduct.",
+      "He abode in quiet cottage years.",
+      "They have abode by agreement terms."
+    ]
+  },
+  "alight": {
+    "base": "alight",
+    "past_simple": "alit",
+    "past_participle": "alit",
+    "third_person_singular": "alights",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To step down or land upon.",
+    "examples": [
+      "A bird alights on tree branch.",
+      "Passengers alit from train platform.",
+      "The falcon has alit on roof."
+    ]
+  },
+  "befall": {
+    "base": "befall",
+    "past_simple": "befell",
+    "past_participle": "befallen",
+    "third_person_singular": "befalls",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To happen to or occur to someone.",
+    "examples": [
+      "Tragedy befalls unaware travelers.",
+      "Misfortune befell the expedition team.",
+      "Great luck has befallen them."
+    ]
+  },
+  "beseech": {
+    "base": "beseech",
+    "past_simple": "besought",
+    "past_participle": "besought",
+    "third_person_singular": "beseeches",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To implore or beg urgently.",
+    "examples": [
+      "He beseeches mercy from judge.",
+      "She besought him to stay safe.",
+      "They have besought aid from neighbors."
+    ]
+  },
+  "beset": {
+    "base": "beset",
+    "past_simple": "beset",
+    "past_participle": "beset",
+    "third_person_singular": "besets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To trouble or harass persistently.",
+    "examples": [
+      "Doubts beset his restless mind.",
+      "Problems beset project from start.",
+      "Poverty has beset the village."
+    ]
+  },
+  "bestrew": {
+    "base": "bestrew",
+    "past_simple": "bestrewed",
+    "past_participle": "bestrewn",
+    "third_person_singular": "bestrews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To scatter over a surface.",
+    "examples": [
+      "Wind bestrews autumn leaves ground.",
+      "Petals bestrewed path before bride.",
+      "Flowers have bestrewn the hall."
+    ]
+  },
+  "betide": {
+    "base": "betide",
+    "past_simple": "betid",
+    "past_participle": "betid",
+    "third_person_singular": "betides",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To happen or occur to.",
+    "examples": [
+      "Woe betides anyone who cheats.",
+      "Whatever betid, they remained calm.",
+      "Fate has betid them well."
+    ]
+  },
+  "blend": {
+    "base": "blend",
+    "past_simple": "blent",
+    "past_participle": "blent",
+    "third_person_singular": "blends",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To mix together smoothly.",
+    "examples": [
+      "The artist blends colors harmoniously.",
+      "He blent spices into curry powder.",
+      "Flavors have blent together well."
+    ]
+  },
+  "browbeat": {
+    "base": "browbeat",
+    "past_simple": "browbeat",
+    "past_participle": "browbeaten",
+    "third_person_singular": "browbeats",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To intimidate with stern words.",
+    "examples": [
+      "He browbeats junior staff members.",
+      "Lawyer browbeat witness into confession.",
+      "Witnesses were browbeaten in court."
+    ]
+  },
+  "cleave": {
+    "base": "cleave",
+    "past_simple": "cleft",
+    "past_participle": "cleft",
+    "third_person_singular": "cleaves",
+    "pattern_group": "same_past_participle",
+    "level": "B2+",
+    "definition": "To adhere firmly and loyally.",
+    "examples": [
+      "He cleaves to his principles always.",
+      "She cleft to faith through trial.",
+      "They have cleft to ancient custom."
+    ]
+  },
+  "dive": {
+    "base": "dive",
+    "past_simple": "dove",
+    "past_participle": "dived",
+    "third_person_singular": "dives",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To plunge headfirst into water.",
+    "examples": [
+      "She dives off high springboard.",
+      "He dove into cold ocean waves.",
+      "They have dived for sunken treasures."
+    ]
+  },
+  "dwell": {
+    "base": "dwell",
+    "past_simple": "dwelt",
+    "past_participle": "dwelt",
+    "third_person_singular": "dwells",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To reside or live in a place.",
+    "examples": [
+      "Monks dwell in remote monastery.",
+      "She dwelt in mountain village years.",
+      "They have dwelt in peace together."
+    ]
+  },
+  "foretell": {
+    "base": "foretell",
+    "past_simple": "foretold",
+    "past_participle": "foretold",
+    "third_person_singular": "foretells",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To predict or prophesy future.",
+    "examples": [
+      "Prophets foretell future events.",
+      "Oracles foretold victory in battle.",
+      "Signs have foretold economic shift."
+    ]
+  },
+  "gainsay": {
+    "base": "gainsay",
+    "past_simple": "gainsaid",
+    "past_participle": "gainsaid",
+    "third_person_singular": "gainsays",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To deny or contradict facts.",
+    "examples": [
+      "No one gainsays facts presented.",
+      "She gainsaid his claims in court.",
+      "His integrity cannot be gainsaid."
+    ]
+  },
+  "hew": {
+    "base": "hew",
+    "past_simple": "hewed",
+    "past_participle": "hewn",
+    "third_person_singular": "hews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To chop or cut with axe.",
+    "examples": [
+      "Lumberjacks hew timber in forest.",
+      "He hewed statue from granite block.",
+      "Columns were hewn from marble quarry."
+    ]
+  },
+  "inlay": {
+    "base": "inlay",
+    "past_simple": "inlaid",
+    "past_participle": "inlaid",
+    "third_person_singular": "inlays",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To embed decorative material.",
+    "examples": [
+      "Artisans inlay wood with ivory.",
+      "Craftsman inlaid gold pattern table.",
+      "Jewels have been inlaid in crown."
+    ]
+  },
+  "mislay": {
+    "base": "mislay",
+    "past_simple": "mislaid",
+    "past_participle": "mislaid",
+    "third_person_singular": "mislays",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To lose temporarily or misplace.",
+    "examples": [
+      "He mislays his glasses frequently.",
+      "She mislaid important document folder.",
+      "I have mislaid my house keys."
+    ]
+  },
+  "mislead": {
+    "base": "mislead",
+    "past_simple": "misled",
+    "past_participle": "misled",
+    "third_person_singular": "misleads",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To lead astray or deceive.",
+    "examples": [
+      "False ads mislead consumers easily.",
+      "The map misled hikers into woods.",
+      "Public has been misled by claims."
+    ]
+  },
+  "misspell": {
+    "base": "misspell",
+    "past_simple": "misspelt",
+    "past_participle": "misspelt",
+    "third_person_singular": "misspells",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To spell a word incorrectly.",
+    "examples": [
+      "Students misspell difficult words.",
+      "He misspelt surname on application.",
+      "The word has been misspelt twice."
+    ]
+  },
+  "misspend": {
+    "base": "misspend",
+    "past_simple": "misspent",
+    "past_participle": "misspent",
+    "third_person_singular": "misspends",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To spend wastefully or foolishly.",
+    "examples": [
+      "He misspends money on gambling.",
+      "She misspent youth on trivial pursuits.",
+      "Funds have been misspent unwisely."
+    ]
+  },
+  "overdo": {
+    "base": "overdo",
+    "past_simple": "overdid",
+    "past_participle": "overdone",
+    "third_person_singular": "overdoes",
+    "pattern_group": "totally_irregular",
+    "level": "B2",
+    "definition": "To do to excess or exaggerate.",
+    "examples": [
+      "He overdoes workout exercises.",
+      "She overdid salt in soup dish.",
+      "The meat has been overdone in oven."
+    ]
+  },
+  "overhang": {
+    "base": "overhang",
+    "past_simple": "overhung",
+    "past_participle": "overhung",
+    "third_person_singular": "overhangs",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To project or hang over.",
+    "examples": [
+      "Cliff overhangs stormy sea below.",
+      "Branches overhung narrow forest trail.",
+      "Roof has overhung balcony deck."
+    ]
+  },
+  "override": {
+    "base": "override",
+    "past_simple": "overrode",
+    "past_participle": "overridden",
+    "third_person_singular": "overrides",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To set aside or overrule.",
+    "examples": [
+      "Captain overrides automatic controls.",
+      "Manager overrode previous decision.",
+      "Veto has been overridden by board."
+    ]
+  },
+  "overrun": {
+    "base": "overrun",
+    "past_simple": "overran",
+    "past_participle": "overrun",
+    "third_person_singular": "overruns",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To swarm over or exceed limit.",
+    "examples": [
+      "Weeds overrun neglected gardens.",
+      "Enemy forces overran border post.",
+      "Budget has overrun initial estimate."
+    ]
+  },
+  "overshadow": {
+    "base": "overshadow",
+    "past_simple": "overshadowed",
+    "past_participle": "overshadowed",
+    "third_person_singular": "overshadows",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To cast shadow over or eclipse.",
+    "examples": [
+      "Tall tower overshadows small houses.",
+      "Scandal overshadowed success story.",
+      "His achievements were overshadowed."
+    ]
+  },
+  "overshoot": {
+    "base": "overshoot",
+    "past_simple": "overshot",
+    "past_participle": "overshot",
+    "third_person_singular": "overshoots",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To shoot or pass beyond target.",
+    "examples": [
+      "Plane overshoots runway landing.",
+      "Pilot overshot runway in heavy fog.",
+      "Target metrics have been overshot."
+    ]
+  },
+  "rebind": {
+    "base": "rebind",
+    "past_simple": "rebound",
+    "past_participle": "rebound",
+    "third_person_singular": "rebinds",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To bind again or bounce back.",
+    "examples": [
+      "Prices rebound after drop.",
+      "Stock market rebounded quickly today.",
+      "Economy has rebound from slump."
+    ]
+  },
+  "rebuild": {
+    "base": "rebuild",
+    "past_simple": "rebuilt",
+    "past_participle": "rebuilt",
+    "third_person_singular": "rebuilds",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To construct again after damage.",
+    "examples": [
+      "City rebuilds after earthquake disaster.",
+      "They rebuilt bridge in six months.",
+      "Community has rebuilt homes."
+    ]
+  },
+  "recast": {
+    "base": "recast",
+    "past_simple": "recast",
+    "past_participle": "recast",
+    "third_person_singular": "recasts",
+    "pattern_group": "no_change",
+    "level": "B2+",
+    "definition": "To reformulate arguments or roles.",
+    "examples": [
+      "Philosopher recasts classic debate.",
+      "Author recast narrative structure.",
+      "Premise has been recast entirely."
+    ]
+  },
+  "redo": {
+    "base": "redo",
+    "past_simple": "redid",
+    "past_participle": "redone",
+    "third_person_singular": "redoes",
+    "pattern_group": "totally_irregular",
+    "level": "B2",
+    "definition": "To do something again.",
+    "examples": [
+      "He redoes task until perfect.",
+      "She redid entire room interior decoration.",
+      "We have redone electrical wiring."
+    ]
+  },
+  "remake": {
+    "base": "remake",
+    "past_simple": "remade",
+    "past_participle": "remade",
+    "third_person_singular": "remakes",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To make again or differently.",
+    "examples": [
+      "Studio remakes classic film version.",
+      "She remade dress for gala evening.",
+      "Song has been remade in acoustic."
+    ]
+  },
+  "resell": {
+    "base": "resell",
+    "past_simple": "resold",
+    "past_participle": "resold",
+    "third_person_singular": "resells",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To sell again to another buyer.",
+    "examples": [
+      "He resells vintage clothes online.",
+      "She resold concert tickets at cost.",
+      "Items have been resold at profit."
+    ]
+  },
+  "reset": {
+    "base": "reset",
+    "past_simple": "reset",
+    "past_participle": "reset",
+    "third_person_singular": "resets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To set again or restore default.",
+    "examples": [
+      "System resets automatically overnight.",
+      "He reset router to restore connection.",
+      "Timer has been reset to zero."
+    ]
+  },
+  "rethink": {
+    "base": "rethink",
+    "past_simple": "rethought",
+    "past_participle": "rethought",
+    "third_person_singular": "rethinks",
+    "pattern_group": "same_past_participle",
+    "level": "B2",
+    "definition": "To reconsider or think again.",
+    "examples": [
+      "Company rethinks marketing strategy.",
+      "They rethought plans after review.",
+      "We have rethought our approach."
+    ]
+  },
+  "rewind": {
+    "base": "rewind",
+    "past_simple": "rewound",
+    "past_participle": "rewound",
+    "third_person_singular": "rewinds",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To wind back to beginning.",
+    "examples": [
+      "He rewinds video cassette tape.",
+      "She rewound film to start scene.",
+      "Tape has been rewound completely."
+    ]
+  },
+  "rewrite": {
+    "base": "rewrite",
+    "past_simple": "rewrote",
+    "past_participle": "rewritten",
+    "third_person_singular": "rewrites",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To write again or revise text.",
+    "examples": [
+      "Author rewrites draft story chapter.",
+      "She rewrote essay to improve flow.",
+      "Article has been rewritten cleanly."
+    ]
+  },
+  "slay": {
+    "base": "slay",
+    "past_simple": "slew",
+    "past_participle": "slain",
+    "third_person_singular": "slays",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To kill in violent manner.",
+    "examples": [
+      "Hero slays mythical dragon beast.",
+      "David slew Goliath with sling.",
+      "Monster has been slain by hero."
+    ]
+  },
+  "strew": {
+    "base": "strew",
+    "past_simple": "strewed",
+    "past_participle": "strewn",
+    "third_person_singular": "strews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To scatter or spread untidily.",
+    "examples": [
+      "Wind strews autumn leaves lawn.",
+      "Children strewed toys across room floor.",
+      "Papers have been strewn everywhere."
+    ]
+  },
+  "string": {
+    "base": "string",
+    "past_simple": "strung",
+    "past_participle": "strung",
+    "third_person_singular": "strings",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To thread on cord or tune guitar.",
+    "examples": [
+      "She strings beads into necklace.",
+      "He strung guitar with new wire.",
+      "Lights have been strung on trees."
+    ]
+  },
+  "sublet": {
+    "base": "sublet",
+    "past_simple": "sublet",
+    "past_participle": "sublet",
+    "third_person_singular": "sublets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To lease property to tenant.",
+    "examples": [
+      "Tenant sublets apartment summer.",
+      "She sublet room while traveling abroad.",
+      "Flat has been sublet for month."
+    ]
+  },
+  "thrust": {
+    "base": "thrust",
+    "past_simple": "thrust",
+    "past_participle": "thrust",
+    "third_person_singular": "thrusts",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To push or shove forcefully.",
+    "examples": [
+      "He thrusts hands into pockets.",
+      "She thrust letter into his hands.",
+      "Sword was thrust through target."
+    ]
+  },
+  "undertake": {
+    "base": "undertake",
+    "past_simple": "undertook",
+    "past_participle": "undertaken",
+    "third_person_singular": "undertakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To commit oneself to task.",
+    "examples": [
+      "Scientist undertakes complex study.",
+      "Company undertook major expansion.",
+      "We have undertaken new project."
+    ]
+  },
+  "upset": {
+    "base": "upset",
+    "past_simple": "upset",
+    "past_participle": "upset",
+    "third_person_singular": "upsets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To disturb, distress, or overturn.",
+    "examples": [
+      "Bad news upsets her deeply.",
+      "Cat upset glass of water table.",
+      "Plans have been upset completely."
+    ]
+  },
+  "weave": {
+    "base": "weave",
+    "past_simple": "wove",
+    "past_participle": "woven",
+    "third_person_singular": "weaves",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To form fabric by interlacing.",
+    "examples": [
+      "Weaver weaves tapestry on loom.",
+      "She wove colorful carpet pattern.",
+      "Stories have been woven into myth."
+    ]
+  },
+  "wring": {
+    "base": "wring",
+    "past_simple": "wrung",
+    "past_participle": "wrung",
+    "third_person_singular": "wrings",
+    "pattern_group": "vowel_change",
+    "level": "B2+",
+    "definition": "To extract money or truth by force.",
+    "examples": [
+      "Interrogator wrings confession from suspect.",
+      "He wrung promise from reluctant partner.",
+      "Truth was wrung from him."
+    ]
+  },
+  "forecast": {
+    "base": "forecast",
+    "past_simple": "forecast",
+    "past_participle": "forecast",
+    "third_person_singular": "forecasts",
+    "pattern_group": "no_change",
+    "level": "B2+",
+    "definition": "To predict weather or trend.",
+    "examples": [
+      "Meteorologist forecasts rain tomorrow.",
+      "Analysts forecast economic growth.",
+      "Traders have forecast market dip."
+    ]
+  },
+  "forswear": {
+    "base": "forswear",
+    "past_simple": "forswore",
+    "past_participle": "forsworn",
+    "third_person_singular": "forswears",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To formally renounce or give up.",
+    "examples": [
+      "He forswears alcohol for good.",
+      "She forswore violence in protest.",
+      "Monks have forsworn luxury items."
+    ]
+  },
+  "overbear": {
+    "base": "overbear",
+    "past_simple": "overbore",
+    "past_participle": "overborne",
+    "third_person_singular": "overbears",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To overpower or dominate.",
+    "examples": [
+      "His forceful personality overbears dissent.",
+      "Evidence overbore defense arguments.",
+      "Objections were overborne completely."
+    ]
+  },
+  "smite": {
+    "base": "smite",
+    "past_simple": "smote",
+    "past_participle": "smitten",
+    "third_person_singular": "smites",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To strike down or afflict severely.",
+    "examples": [
+      "Disaster smites the prideful king.",
+      "Plague smote ancient empire city.",
+      "He was smitten with sudden illness."
+    ]
+  },
+  "waylay": {
+    "base": "waylay",
+    "past_simple": "waylaid",
+    "past_participle": "waylaid",
+    "third_person_singular": "waylays",
+    "pattern_group": "same_past_participle",
+    "level": "B2+",
+    "definition": "To ambush or intercept someone.",
+    "examples": [
+      "Bandits waylay travelers in forest.",
+      "Reporters waylaid minister at exit.",
+      "Delegates have been waylaid."
+    ]
+  }
+}
