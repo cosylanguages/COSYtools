@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaking Practice Partner | COSYlanguages</title>
+    <meta name="description" content="Text-based speaking-practice partner: CEFR-leveled role-play scenarios with instant feedback.">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#416b49">
+    <link rel="stylesheet" href="../../../shared/css/tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/components.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🗣️</span>
+                <div class="brand-text">
+                    <h1>Speaking Practice Partner</h1>
+                    <p class="tagline">Role-play scenarios with instant feedback · text-first</p>
+                </div>
+            </div>
+            <a href="../../../index.html" class="back-link">← All tools</a>
+        </header>
+
+        <p class="sb-error" id="sb-error" hidden></p>
+
+        <!-- Setup: scenario picker -->
+        <section id="sb-setup" class="sb-setup">
+            <p class="sb-intro">Pick a scenario. You'll play one role; the bot plays the other. Type your lines — the engine checks whether you hit the target language function and gives a model answer.</p>
+            <div class="sb-grid" id="sb-scenarios"></div>
+        </section>
+
+        <!-- Run: chat -->
+        <section id="sb-run" class="sb-run" hidden>
+            <div class="sb-run-head">
+                <h2 id="sb-title"></h2>
+                <p class="sb-roles" id="sb-roles"></p>
+                <a href="#" id="sb-back" class="back-link">← Change scenario</a>
+            </div>
+            <div class="sb-chat" id="sb-log" role="log" aria-live="polite"></div>
+            <div class="sb-hint" id="sb-hint" hidden><span id="sb-hint-text"></span></div>
+            <form class="sb-input-row" onsubmit="return false;">
+                <input type="text" id="sb-input" class="sb-input" placeholder="Type your line…" autocomplete="off" aria-label="Your response">
+                <button type="submit" id="sb-submit" class="btn btn-primary">Send</button>
+            </form>
+        </section>
+    </div>
+    <script src="js/engine.js"></script>
+</body>
+</html>

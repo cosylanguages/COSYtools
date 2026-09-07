@@ -1,0 +1,172 @@
+{
+  "scenarios": [
+    {
+      "id": "restaurant-a1",
+      "title": "At the Restaurant",
+      "level": "A1",
+      "language": "en",
+      "botRole": "Waiter",
+      "learnerRole": "Customer",
+      "objective": "Order a meal and a drink, then ask for the bill.",
+      "functions": ["ordering", "polite requests", "numbers"],
+      "turns": [
+        {
+          "bot": "Good evening! A table for how many people?",
+          "accept": { "anyOf": [["one","1"],["two","2"],["three","3"],["four","4"],["five","5"]] },
+          "hint": "Tell the waiter how many people — e.g. \"A table for two.\"",
+          "model": "A table for two, please."
+        },
+        {
+          "bot": "Perfect. Are you ready to order, or would you like to see the menu first?",
+          "accept": { "contains": ["menu", "ready", "order", "yes", "no", "minute", "moment"] },
+          "hint": "You can say you'd like to see the menu, or that you're ready to order.",
+          "model": "Could we see the menu, please?"
+        },
+        {
+          "bot": "Of course. What would you like to drink?",
+          "accept": { "contains": ["water", "wine", "beer", "coffee", "tea", "juice", "cola", "milk"] },
+          "hint": "Name a drink — e.g. \"I'll have a water, please.\"",
+          "model": "I'll have a sparkling water, please."
+        },
+        {
+          "bot": "And for your main course?",
+          "accept": { "contains": ["pasta", "steak", "fish", "chicken", "salad", "burger", "pizza", "soup", "risotto"] },
+          "hint": "Name a dish — e.g. \"I'd like the pasta.\"",
+          "model": "I'd like the mushroom risotto, please."
+        },
+        {
+          "bot": "Excellent choice. Anything else?",
+          "accept": { "contains": ["no", "nothing", "that's", "all", "yes", "dessert"] },
+          "hint": "Say \"that's all, thank you\" or add something.",
+          "model": "That's all, thank you."
+        },
+        {
+          "bot": "Here is your food. Enjoy your meal! ... How was everything?",
+          "accept": { "contains": ["good", "great", "fine", "delicious", "okay", "nice", "lovely", "tasty"] },
+          "hint": "Say how the meal was — e.g. \"It was delicious.\"",
+          "model": "It was delicious, thank you."
+        },
+        {
+          "bot": "I'm glad. Would you like the bill?",
+          "accept": { "contains": ["yes", "bill", "check", "please", "sure"] },
+          "hint": "Ask for the bill — e.g. \"Yes, the bill, please.\"",
+          "model": "Yes, could we have the bill, please?"
+        },
+        {
+          "bot": "Certainly. Here it is. How would you like to pay?",
+          "accept": { "contains": ["card", "cash", "credit", "visa", "mastercard", "cash"] },
+          "hint": "Say card or cash — e.g. \"By card, please.\"",
+          "model": "By card, please."
+        },
+        {
+          "bot": "Thank you very much. Have a lovely evening!",
+          "accept": { "any": true },
+          "hint": "Say goodbye / thank you.",
+          "model": "Thank you, goodbye!"
+        }
+      ]
+    },
+    {
+      "id": "smalltalk-a2",
+      "title": "Small Talk at a Party",
+      "level": "A2",
+      "language": "en",
+      "botRole": "Stranger",
+      "learnerRole": "Guest",
+      "objective": "Make small talk: greet, introduce yourself, talk about where you're from and what you do.",
+      "functions": ["greetings", "introductions", "present simple", "questions"],
+      "turns": [
+        {
+          "bot": "Hi! I don't think we've met. I'm Alex. And you are...?",
+          "accept": { "contains": ["i'm", "im", "my name", "name's", "call me", "i am"] },
+          "hint": "Introduce yourself — e.g. \"I'm Maria.\"",
+          "model": "I'm Maria, nice to meet you."
+        },
+        {
+          "bot": "Nice to meet you, Maria! So, where are you from?",
+          "accept": { "contains": ["from", "i live", "originally", "i'm", "live in"] },
+          "hint": "Say where you're from — e.g. \"I'm from Brest.\"",
+          "model": "I'm from Brest, in Brittany."
+        },
+        {
+          "bot": "Oh, Brittany! Beautiful coast. And what do you do there?",
+          "accept": { "contains": ["work", "i'm", "student", "teacher", "engineer", "manager", "designer", "developer", "nurse", "i study", "i am"] },
+          "hint": "Talk about your job or studies — e.g. \"I work as a designer.\"",
+          "model": "I work as a graphic designer."
+        },
+        {
+          "bot": "That sounds creative! Do you enjoy it?",
+          "accept": { "contains": ["yes", "yeah", "love", "enjoy", "it's", "no", "not really", "okay", "fine"] },
+          "hint": "Say whether you like it — e.g. \"Yes, I really enjoy it.\"",
+          "model": "Yes, I really enjoy it."
+        },
+        {
+          "bot": "Great. So how do you know the host, Sam?",
+          "accept": { "contains": ["friend", "work", "school", "met", "university", "colleague", "know", "from"] },
+          "hint": "Explain the connection — e.g. \"We used to work together.\"",
+          "model": "We used to work together."
+        },
+        {
+          "bot": "Small world! Well, can I get you a drink?",
+          "accept": { "contains": ["yes", "sure", "water", "wine", "beer", "juice", "no", "thanks", "please"] },
+          "hint": "Accept or decline — e.g. \"I'd love a water, thanks.\"",
+          "model": "I'd love a water, thanks."
+        },
+        {
+          "bot": "Coming right up. Lovely chatting with you!",
+          "accept": { "any": true },
+          "hint": "Close politely — e.g. \"You too, nice meeting you!\"",
+          "model": "You too — really nice meeting you!"
+        }
+      ]
+    },
+    {
+      "id": "job-interview-b1",
+      "title": "Job Interview",
+      "level": "B1",
+      "language": "en",
+      "botRole": "Interviewer",
+      "learnerRole": "Candidate",
+      "objective": "Introduce your experience, describe a strength, and ask a question about the role.",
+      "functions": ["present perfect", "past simple", "describing experience", "polite questions"],
+      "turns": [
+        {
+          "bot": "Thanks for coming in. Could you start by telling me a bit about yourself?",
+          "accept": { "contains": ["i'm", "i am", "i've", "years", "experience", "i work", "background", "currently", "i studied"] },
+          "hint": "Summarise your background — e.g. \"I'm a marketing specialist with five years' experience.\"",
+          "model": "I'm a marketing specialist with about five years of experience, mostly in tech."
+        },
+        {
+          "bot": "Great. Why are you interested in this role?",
+          "accept": { "contains": ["because", "i want", "i'd like", "interested", "opportunity", "grow", "challenge", "role", "company", "i'm looking"] },
+          "hint": "Give a reason — e.g. \"I'm looking for a role with more responsibility.\"",
+          "model": "I'm looking for a role where I can take on more responsibility."
+        },
+        {
+          "bot": "And what would you say is your greatest strength?",
+          "accept": { "contains": ["good at", "strong", "organised", "organized", "communicat", "problem", "leadership", "reliable", "creative", "i'm"] },
+          "hint": "Name a strength with evidence — e.g. \"I'm very organised.\"",
+          "model": "I'd say I'm a strong communicator — I'm good at simplifying complex ideas."
+        },
+        {
+          "bot": "Can you give me an example of a challenge you overcame?",
+          "accept": { "contains": ["last", "project", "we", "deadline", "had to", "i had", "team", "problem", "solution", "managed"] },
+          "hint": "Describe a specific situation — e.g. \"Last year we missed a deadline, so I...\"",
+          "model": "Last year our team missed a deadline, so I reorganised the workflow and we caught up."
+        },
+        {
+          "bot": "That's a good example. Do you have any questions for us?",
+          "accept": { "contains": ["yes", "what", "how", "team", "role", "day", "typical", "growth", "when", "where", "could"] },
+          "hint": "Ask a question — e.g. \"What does a typical day look like?\"",
+          "model": "Yes — what does a typical day in this role look like?"
+        },
+        {
+          "bot": "Great question. A typical day involves... We'll be in touch next week. Thanks for coming.",
+          "accept": { "any": true },
+          "hint": "Close politely — e.g. \"Thank you, I look forward to hearing from you.\"",
+          "model": "Thank you, I look forward to hearing from you."
+        }
+      ]
+    }
+  ]
+}

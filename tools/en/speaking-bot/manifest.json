@@ -1,0 +1,10 @@
+{
+  "name": "COSY Speaking Practice Partner",
+  "short_name": "Speaking Bot",
+  "description": "Text-based speaking-practice partner with CEFR-leveled role-play scenarios.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#416b49",
+  "icons": []
+}
