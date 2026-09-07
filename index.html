@@ -15,11 +15,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+    <link rel="stylesheet" href="shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="shared/css/tokens.css">
     <link rel="stylesheet" href="shared/css/base.css">
     <link rel="stylesheet" href="shared/css/components.css">
     <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/cosy-icons.css">
     <link rel="stylesheet" href="shared/css/tools.css">
 
     <script src="shared/js/languages.js"></script>
@@ -235,9 +236,6 @@
     </style>
 </head>
 <body class="engines-hub-page">
-<div class="cw-nav-links">
-        <a href="https://cosylanguages.github.io/COSYlanguages/index.html" target="_blank" rel="noopener">Official Website ↗</a>
-      </div>
 
     <!-- Sticky Navigation Header -->
     <header class="sd-sticky-header">
@@ -251,6 +249,7 @@
           <a href="#cat-conjugation" class="sd-jump-link">Conjugation</a>
           <a href="#cat-gender" class="sd-jump-link">Gender &amp; Cases</a>
           <a href="#cat-syntax" class="sd-jump-link">Prepositions &amp; Syntax</a>
+          <a href="https://cosylanguages.github.io/COSYlanguages/index.html" target="_blank" rel="noopener" class="sd-jump-link">Official Website ↗</a>
         </nav>
       </div>
     </header>
@@ -259,7 +258,7 @@
       <div class="hero">
         <div class="hero-inner hero-centered-panel">
             <div class="hero-tag">📲 Always Free · Offline First · 100% Client-Side</div>
-            <h1 class="hero-fraunces-title">Conjugation, Gender &amp; Syntax Engines 🔎</h1>
+            <h1 class="hero-fraunces-title">Conjugation, Gender &amp; Syntax Engines</h1>
             <p class="hero-hub-subtext">
                 Offline interactive reference tools for 14 languages: English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash.
             </p>
@@ -271,7 +270,7 @@
         <div class="filter-section">
           <!-- Search Row -->
           <div class="search-box-hub">
-            <span class="search-icon">🔍</span>
+            <span class="search-icon cosy-icon icon-search" aria-hidden="true"></span>
             <input type="text" id="hub-search-input" placeholder="Search by language, keyword, or grammar feature (e.g. German, Tatar, cases, postpositions)..." oninput="onHubSearchChange()" autocomplete="off">
           </div>
 
@@ -322,7 +321,7 @@
         </div>
 
         <div id="no-results-box" class="no-results">
-            <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">🔍</span>
+            <span class="cosy-icon icon-search no-results-icon" aria-hidden="true"></span>
             <h3 style="margin: 0 0 0.5rem 0;">No matching reference tools found</h3>
             <p style="margin: 0; color: var(--ink-soft);">Try clearing your search term or selecting another language or family filter.</p>
         </div>
@@ -684,9 +683,9 @@
 
         </div>
 
-        <!-- ⚖️ GENDER & CASES ENGINES -->
+        <!-- GENDER & CASES ENGINES -->
         <div class="category-header" id="cat-gender">
-            <span>⚖️</span> Noun Gender &amp; Case Declension Engines
+            <span class="cosy-icon icon-scale category-header-icon" aria-hidden="true"></span> Noun Gender &amp; Case Declension Engines
         </div>
         <div class="engines-grid" id="grid-gender">
 

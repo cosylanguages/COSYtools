@@ -41,6 +41,17 @@
     z-index: 5;
 }
 
+/* Single-column centered hero (used by hub pages without a right column) */
+.hero-centered-panel {
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 760px;
+}
+.hero-centered-panel .hero-tag {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero-left {
     position: relative;
 }

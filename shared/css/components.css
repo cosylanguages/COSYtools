@@ -807,7 +807,7 @@ body.theme-dark #cosy-nav {
 /* ── Dictionary System (Shared) ────────────────── */
 #dict-fab {
   position: fixed;
-  bottom: 2rem;
+  bottom: calc(2rem + 68px); /* stack above the WhatsApp FAB to avoid overlap */
   right: 2rem;
   z-index: 1999;
   background: var(--ink);
@@ -1599,11 +1599,43 @@ body.theme-dark #cosy-nav {
     box-shadow: 0 -4px 24px rgba(46,74,51,.08);
   }
 
+  /* Sticky sub-header: stack breadcrumbs above jump-links on small screens */
+  .sd-header-inner {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+  }
+  .sd-breadcrumbs {
+    font-size: 0.78rem;
+    flex-wrap: wrap;
+  }
+  .sd-jump-links {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .sd-jump-links::-webkit-scrollbar { display: none; }
+  .sd-jump-link {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.78rem;
+  }
+
   /* Floating Action Buttons & Offsets */
   #dict-fab {
     bottom: calc(72px + var(--safe-bottom, 0px));
     right: 1rem;
     z-index: 1050;
+    padding: 10px 16px;
+    font-size: 0.76rem;
+  }
+  /* Keep the search input reachable above the floating dictionary button */
+  html {
+    scroll-padding-block-end: 90px;
+  }
+  #hub-search-input,
+  .search-box-hub {
+    scroll-margin-bottom: 90px;
   }
   .wa-fab {
     bottom: calc(128px + var(--safe-bottom, 0px));
@@ -1797,6 +1829,7 @@ body.theme-dark #cosy-nav {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .sd-jump-link,
