@@ -11,7 +11,9 @@
       "She is a doctor at the city hospital.",
       "They were happy with the results.",
       "He has been to London twice."
-    ]
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "e-a-e"
   },
   "become": {
     "base": "become",
@@ -25,7 +27,9 @@
       "He becomes angry when plans change.",
       "She became a lawyer last year.",
       "It has become very cold outside."
-    ]
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "e-e-e"
   },
   "begin": {
     "base": "begin",
@@ -39,7 +43,9 @@
       "The class begins at nine o'clock every morning.",
       "It began to rain heavily an hour ago.",
       "We have begun our new project."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "e-e-e"
   },
   "break": {
     "base": "break",
@@ -53,7 +59,9 @@
       "He breaks a dish by accident sometimes.",
       "She broke her leg while skiing.",
       "The vase has broken into pieces."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "bring": {
     "base": "bring",
@@ -67,7 +75,9 @@
       "She brings delicious snacks to work.",
       "He brought a gift to the party.",
       "They have brought their homework."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "i-o-o"
   },
   "build": {
     "base": "build",
@@ -81,7 +91,9 @@
       "The company builds modern apartments.",
       "They built a new bridge over the river.",
       "They have built a strong house."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "u-u-u"
   },
   "buy": {
     "base": "buy",
@@ -95,7 +107,9 @@
       "She buys fresh vegetables every Saturday.",
       "He bought a new bicycle yesterday.",
       "We have bought tickets for the concert."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "u-o-o"
   },
   "catch": {
     "base": "catch",
@@ -109,7 +123,9 @@
       "He catches the early bus every morning.",
       "She caught the ball with one hand.",
       "They have caught a cold this winter."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "a-a-a"
   },
   "choose": {
     "base": "choose",
@@ -123,7 +139,9 @@
       "She chooses her clothes carefully.",
       "He chose the blue shirt for the interview.",
       "They have chosen a new leader."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "come": {
     "base": "come",
@@ -137,7 +155,9 @@
       "He comes home at six PM every day.",
       "She came to visit us last weekend.",
       "My parents have come to stay with us."
-    ]
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "o-a-o"
   },
   "cost": {
     "base": "cost",
@@ -151,7 +171,9 @@
       "A cup of coffee costs three dollars.",
       "The ticket cost twenty euros yesterday.",
       "The repairs have cost a lot of money."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
   },
   "cut": {
     "base": "cut",
@@ -165,7 +187,9 @@
       "He cuts the bread into slices.",
       "She cut her finger while cooking.",
       "He has cut the grass in the garden."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "do": {
     "base": "do",
@@ -179,7 +203,9 @@
       "She does her homework after dinner.",
       "He did a great job on the presentation.",
       "We have done all the work."
-    ]
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "o-i-o"
   },
   "draw": {
     "base": "draw",
@@ -193,7 +219,9 @@
       "He draws portraits in his free time.",
       "She drew a beautiful flower on paper.",
       "He has drawn a detailed map."
-    ]
+    ],
+    "subgroup": "ew_awe_family",
+    "vowel_pattern": "a-e-a"
   },
   "drink": {
     "base": "drink",
@@ -207,7 +235,9 @@
       "She drinks two liters of water daily.",
       "He drank a glass of milk before bed.",
       "We have drunk all the orange juice."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "drive": {
     "base": "drive",
@@ -221,7 +251,9 @@
       "He drives to work every morning.",
       "She drove to the beach last Sunday.",
       "They have driven across the country."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "eat": {
     "base": "eat",
@@ -235,7 +267,9 @@
       "She eats fruit for breakfast daily.",
       "He ate dinner at a restaurant last night.",
       "They have eaten all the cake."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-a-e"
   },
   "fall": {
     "base": "fall",
@@ -249,7 +283,9 @@
       "Leaves fall from trees in autumn.",
       "He fell off his bike yesterday.",
       "The snow has fallen all night."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-e-a"
   },
   "feel": {
     "base": "feel",
@@ -263,7 +299,9 @@
       "She feels happy when she listens to music.",
       "He felt tired after the long journey.",
       "They have felt better recently."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "find": {
     "base": "find",
@@ -277,7 +315,9 @@
       "She finds good deals online.",
       "He found his missing keys under the sofa.",
       "We have found a solution to the problem."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
   },
   "fly": {
     "base": "fly",
@@ -291,7 +331,9 @@
       "The bird flies over the trees.",
       "They flew to Paris last month.",
       "The pilot has flown this route many times."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "--e-o"
   },
   "forget": {
     "base": "forget",
@@ -305,7 +347,9 @@
       "He forgets his password frequently.",
       "She forgot her umbrella on the bus.",
       "I have forgotten my umbrella."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "get": {
     "base": "get",
@@ -319,7 +363,9 @@
       "She gets good grades in school.",
       "He got a new job last month.",
       "They have gotten many presents."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "give": {
     "base": "give",
@@ -333,7 +379,9 @@
       "She gives flowers to her mother.",
       "He gave me a useful advice yesterday.",
       "They have given us a warm welcome."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-a-i"
   },
   "go": {
     "base": "go",
@@ -347,7 +395,9 @@
       "She goes to school every day.",
       "He went home early yesterday.",
       "They have gone to the market."
-    ]
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "o-e-o"
   },
   "grow": {
     "base": "grow",
@@ -361,7 +411,9 @@
       "The plant grows quickly in sunlight.",
       "He grew two inches over the summer.",
       "The city has grown significantly."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
   },
   "have": {
     "base": "have",
@@ -375,7 +427,9 @@
       "She has two brothers and one sister.",
       "He had a cold last week.",
       "They have had a wonderful holiday."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "hear": {
     "base": "hear",
@@ -389,7 +443,9 @@
       "She hears music coming from next door.",
       "He heard a loud noise last night.",
       "We have heard the news already."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "hide": {
     "base": "hide",
@@ -403,7 +459,9 @@
       "The cat hides under the bed during storms.",
       "He hid the money in a safe box.",
       "She has hidden the surprise present."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-i-i"
   },
   "hit": {
     "base": "hit",
@@ -417,7 +475,9 @@
       "He hits the ball with the racket.",
       "The car hit a lamppost yesterday.",
       "The storm has hit the coast hard."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
   },
   "hold": {
     "base": "hold",
@@ -431,7 +491,9 @@
       "She holds the baby gently.",
       "He held the door open for everyone.",
       "They have held the event annually."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-e-e"
   },
   "hurt": {
     "base": "hurt",
@@ -445,7 +507,9 @@
       "His leg hurts after running.",
       "She hurt her wrist playing tennis.",
       "Nobody has hurt themselves."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "keep": {
     "base": "keep",
@@ -459,7 +523,9 @@
       "She keeps her room clean and tidy.",
       "He kept his secret for many years.",
       "We have kept all our old photos."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "know": {
     "base": "know",
@@ -473,7 +539,9 @@
       "He knows the answer to every question.",
       "She knew him when they were kids.",
       "I have known her for ten years."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
   },
   "learn": {
     "base": "learn",
@@ -487,7 +555,9 @@
       "She learns English grammar every day.",
       "He learnt to ride a horse last year.",
       "They have learnt a lot in this course."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "leave": {
     "base": "leave",
@@ -501,7 +571,9 @@
       "The train leaves at eight sharp.",
       "He left his jacket at the office.",
       "She has left her keys on the table."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "let": {
     "base": "let",
@@ -515,7 +587,9 @@
       "She lets her children play outside.",
       "He let us borrow his car yesterday.",
       "They have let us stay at their apartment."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "lose": {
     "base": "lose",
@@ -529,7 +603,9 @@
       "He loses his glasses constantly.",
       "She lost her watch at the beach.",
       "We have lost our way in the fog."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "make": {
     "base": "make",
@@ -543,7 +619,9 @@
       "She makes delicious cakes.",
       "He made a wooden chair in workshop.",
       "They have made great progress."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "mean": {
     "base": "mean",
@@ -557,7 +635,9 @@
       "What does this word mean in context?",
       "He meant to call you earlier today.",
       "She has meant well all along."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "meet": {
     "base": "meet",
@@ -571,7 +651,9 @@
       "She meets her friends every weekend.",
       "He met the director yesterday morning.",
       "We have met before at a conference."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "pay": {
     "base": "pay",
@@ -585,7 +667,9 @@
       "He pays his bills on time.",
       "She paid for the lunch bill yesterday.",
       "They have paid for the flight tickets."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "put": {
     "base": "put",
@@ -599,7 +683,9 @@
       "She puts the book on the shelf.",
       "He put his coat in the closet.",
       "We have put the furniture in place."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "read": {
     "base": "read",
@@ -613,7 +699,9 @@
       "He reads the newspaper every morning.",
       "She read three books last month.",
       "I have read that novel twice."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "ride": {
     "base": "ride",
@@ -627,7 +715,9 @@
       "She rides her bike to work.",
       "He rode a horse across the field.",
       "They have ridden camels in Egypt."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "ring": {
     "base": "ring",
@@ -641,7 +731,9 @@
       "The phone rings loudly in the hall.",
       "He rang the doorbell twice.",
       "The church bell has rung twelve times."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "run": {
     "base": "run",
@@ -655,7 +747,9 @@
       "He runs five kilometers every morning.",
       "She ran to catch the train.",
       "They have run two marathons this year."
-    ]
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "u-a-u"
   },
   "say": {
     "base": "say",
@@ -669,7 +763,9 @@
       "She says hello to everyone she meets.",
       "He said he was feeling tired.",
       "They have said everything needed."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "see": {
     "base": "see",
@@ -683,7 +779,9 @@
       "He sees birds outside his window.",
       "She saw a great film last night.",
       "We have seen that movie already."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-a-e"
   },
   "sell": {
     "base": "sell",
@@ -697,7 +795,9 @@
       "He sells fresh bread at the bakery.",
       "She sold her old car last week.",
       "They have sold all the tickets."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-o-o"
   },
   "send": {
     "base": "send",
@@ -711,7 +811,9 @@
       "She sends an email every day.",
       "He sent a letter to his friend.",
       "They have sent the package by mail."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "set": {
     "base": "set",
@@ -725,7 +827,9 @@
       "The sun sets in the west.",
       "She set the table for four people.",
       "He has set the alarm for six AM."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "sing": {
     "base": "sing",
@@ -739,7 +843,9 @@
       "She sings in the church choir.",
       "He sang a beautiful song at the party.",
       "They have sung that hymn together."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "sit": {
     "base": "sit",
@@ -753,7 +859,9 @@
       "He sits near the window in class.",
       "She sat on the bench in the park.",
       "We have sat here for an hour."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-a-a"
   },
   "sleep": {
     "base": "sleep",
@@ -767,7 +875,9 @@
       "He sleeps eight hours every night.",
       "She slept deeply after the flight.",
       "They have slept soundly all night."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "speak": {
     "base": "speak",
@@ -781,7 +891,9 @@
       "She speaks three languages fluently.",
       "He spoke at the conference yesterday.",
       "We have spoken about this issue."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "spend": {
     "base": "spend",
@@ -795,7 +907,9 @@
       "He spends time with his family.",
       "She spent fifty dollars on books.",
       "They have spent all their savings."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "stand": {
     "base": "stand",
@@ -809,7 +923,9 @@
       "A tall tree stands near the house.",
       "He stood up when the teacher entered.",
       "We have stood in line for hours."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-o-o"
   },
   "steal": {
     "base": "steal",
@@ -823,7 +939,9 @@
       "A thief steals valuable items.",
       "Someone stole his bicycle yesterday.",
       "The jewels have been stolen."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "swim": {
     "base": "swim",
@@ -837,7 +955,9 @@
       "She swims in the pool every morning.",
       "He swam across the lake easily.",
       "They have swum in the ocean."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "take": {
     "base": "take",
@@ -851,7 +971,9 @@
       "He takes medicine after meals.",
       "She took a photo of the sunset.",
       "They have taken many photos."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-a"
   },
   "teach": {
     "base": "teach",
@@ -865,7 +987,9 @@
       "She teaches mathematics at university.",
       "He taught us history last semester.",
       "They have taught many students."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "e-a-a"
   },
   "tell": {
     "base": "tell",
@@ -879,7 +1003,9 @@
       "He tells interesting stories.",
       "She told me the truth about the event.",
       "They have told everyone the good news."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-o-o"
   },
   "think": {
     "base": "think",
@@ -893,7 +1019,9 @@
       "She thinks carefully before deciding.",
       "He thought about the question for a while.",
       "We have thought of a good plan."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "i-o-o"
   },
   "throw": {
     "base": "throw",
@@ -907,7 +1035,9 @@
       "He throws the ball to his dog.",
       "She threw the paper into the trash.",
       "He has thrown away old papers."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
   },
   "understand": {
     "base": "understand",
@@ -921,7 +1051,9 @@
       "She understands complex ideas quickly.",
       "He understood the instructions clearly.",
       "They have understood the rules."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "u-u-u"
   },
   "wake": {
     "base": "wake",
@@ -935,7 +1067,9 @@
       "He wakes up early every morning.",
       "She woke up at six today.",
       "They have woken up refreshed."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-o"
   },
   "wear": {
     "base": "wear",
@@ -949,7 +1083,9 @@
       "She wears glasses for reading.",
       "He wore a black suit to the wedding.",
       "The coat has been worn out."
-    ]
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
   },
   "win": {
     "base": "win",
@@ -963,7 +1099,9 @@
       "He wins matches consistently.",
       "She won first prize in the competition.",
       "They have won three awards."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
   },
   "write": {
     "base": "write",
@@ -977,7 +1115,9 @@
       "She writes articles for a magazine.",
       "He wrote a long letter yesterday.",
       "I have written three chapters so far."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "awake": {
     "base": "awake",
@@ -991,7 +1131,9 @@
       "He awakes at sunrise every morning.",
       "The thunder awoke the sleeping child.",
       "She has awoken from her long sleep."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
   },
   "bend": {
     "base": "bend",
@@ -1005,7 +1147,9 @@
       "He bends down to pick up his keys.",
       "She bent the wire into a ring shape.",
       "The metal pole has bent under pressure."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "bet": {
     "base": "bet",
@@ -1019,7 +1163,9 @@
       "He bets on horse races occasionally.",
       "She bet ten dollars on the game.",
       "They have bet on the winning team."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "bind": {
     "base": "bind",
@@ -1033,7 +1179,9 @@
       "The contract binds both parties legally.",
       "He bound the package with strong rope.",
       "They have bound the documents together."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
   },
   "bleed": {
     "base": "bleed",
@@ -1047,7 +1195,9 @@
       "A small cut bleeds slightly.",
       "His nose bled after he fell.",
       "The wound has bled through the bandage."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "blow": {
     "base": "blow",
@@ -1061,7 +1211,9 @@
       "A cold wind blows from the north.",
       "She blew out the candles on her cake.",
       "The strong gale has blown down trees."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
   },
   "breed": {
     "base": "breed",
@@ -1075,7 +1227,9 @@
       "He breeds racehorses on his farm.",
       "They bred sheep for wool for generations.",
       "They have bred high-quality cattle."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "burn": {
     "base": "burn",
@@ -1089,7 +1243,9 @@
       "Fire burns wood rapidly.",
       "She burnt the toast this morning.",
       "The bonfire has burnt down completely."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "u-u-u"
   },
   "burst": {
     "base": "burst",
@@ -1103,7 +1259,9 @@
       "The balloon bursts when poked.",
       "The pipe burst during the frost.",
       "The river has burst its banks."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "cast": {
     "base": "cast",
@@ -1117,7 +1275,9 @@
       "The statue casts a long shadow.",
       "He cast his vote in the election.",
       "She has cast a spell of enchantment."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "a-a-a"
   },
   "cling": {
     "base": "cling",
@@ -1131,7 +1291,9 @@
       "The wet shirt clings to his back.",
       "The child clung to her mother's coat.",
       "They have clung to old traditions."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "deal": {
     "base": "deal",
@@ -1145,7 +1307,9 @@
       "He deals with customer complaints daily.",
       "She dealt the cards to the players.",
       "We have dealt with similar issues."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "dig": {
     "base": "dig",
@@ -1159,7 +1323,9 @@
       "The dog digs holes in the garden.",
       "He dug a deep trench for the pipes.",
       "They have dug a new well."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "dream": {
     "base": "dream",
@@ -1173,7 +1339,9 @@
       "She dreams of traveling the world.",
       "He dreamt about flying last night.",
       "I have dreamt of this moment."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "feed": {
     "base": "feed",
@@ -1187,7 +1355,9 @@
       "She feeds her cat every morning.",
       "He fed the horses in the barn.",
       "They have fed the hungry visitors."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "fight": {
     "base": "fight",
@@ -1201,7 +1371,9 @@
       "The soldiers fight for freedom.",
       "They fought bravely against the odds.",
       "We have fought for our rights."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "i-o-o"
   },
   "fit": {
     "base": "fit",
@@ -1215,7 +1387,9 @@
       "These shoes fit me perfectly.",
       "The key fit into the old lock.",
       "The piece has fit into the puzzle."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
   },
   "freeze": {
     "base": "freeze",
@@ -1229,7 +1403,9 @@
       "Water freezes at zero degrees Celsius.",
       "The lake froze over last winter.",
       "The ice cream has frozen hard."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "hang": {
     "base": "hang",
@@ -1243,7 +1419,9 @@
       "She hangs her coat on the hook.",
       "He hung a painting on the living room wall.",
       "They have hung decorations outside."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-u-u"
   },
   "kneel": {
     "base": "kneel",
@@ -1257,7 +1435,9 @@
       "He kneels to pray in church.",
       "She knelt down to tie her shoelace.",
       "They have knelt before the throne."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "lay": {
     "base": "lay",
@@ -1271,7 +1451,9 @@
       "The hen lays an egg every day.",
       "She laid the tablecloth on the table.",
       "He has laid out his clean clothes."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "lead": {
     "base": "lead",
@@ -1285,7 +1467,9 @@
       "The tour guide leads the group.",
       "She led the team to a great victory.",
       "He has led the organization well."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "leap": {
     "base": "leap",
@@ -1299,7 +1483,9 @@
       "The frog leaps across the pond.",
       "He leapt over the fence easily.",
       "She has leapt at the opportunity."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "lend": {
     "base": "lend",
@@ -1313,7 +1499,9 @@
       "She lends books to her classmates.",
       "He lent me twenty dollars yesterday.",
       "They have lent us their lawnmower."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "lie": {
     "base": "lie",
@@ -1327,7 +1515,9 @@
       "He lies on the sofa to rest.",
       "She lay in the sun for an hour.",
       "The cat has lain on the rug all day."
-    ]
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "i-a-a"
   },
   "light": {
     "base": "light",
@@ -1341,7 +1531,9 @@
       "She lights a candle every evening.",
       "He lit the fireplace when it got cold.",
       "They have lit up the entire street."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "mistake": {
     "base": "mistake",
@@ -1355,7 +1547,9 @@
       "He mistakes kindness for weakness.",
       "She mistook him for her brother.",
       "I have mistaken the date of meeting."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-i-i"
   },
   "overcome": {
     "base": "overcome",
@@ -1369,7 +1563,9 @@
       "She overcomes obstacles with determination.",
       "He overcame his fear of heights.",
       "They have overcome great hardship."
-    ]
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "o-o-o"
   },
   "quit": {
     "base": "quit",
@@ -1383,7 +1579,9 @@
       "He quits smoking every New Year.",
       "She quit her job last month.",
       "They have quit the tournament."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "rise": {
     "base": "rise",
@@ -1397,7 +1595,9 @@
       "The sun rises in the east.",
       "Prices rose sharply last month.",
       "The river level has risen by two feet."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "shake": {
     "base": "shake",
@@ -1411,7 +1611,9 @@
       "He shakes hands when meeting people.",
       "She shook the bottle before drinking.",
       "An earthquake has shaken the city."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-a"
   },
   "shine": {
     "base": "shine",
@@ -1425,7 +1627,9 @@
       "The sun shines brightly today.",
       "His flashlight shone through the dark.",
       "Her eyes have shone with joy."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
   },
   "shoot": {
     "base": "shoot",
@@ -1439,7 +1643,9 @@
       "He shoots arrows at the target.",
       "The photographer shot great pictures.",
       "They have shot a new documentary."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "shut": {
     "base": "shut",
@@ -1453,7 +1659,9 @@
       "She shuts the windows at night.",
       "He shut the door behind him.",
       "They have shut down the shop."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "sink": {
     "base": "sink",
@@ -1467,7 +1675,9 @@
       "A heavy stone sinks in water.",
       "The boat sank during the storm.",
       "The sun has sunk below the horizon."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "slide": {
     "base": "slide",
@@ -1481,7 +1691,9 @@
       "Children slide down the icy hill.",
       "The glass slid off the smooth table.",
       "He has slid into third base."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "smell": {
     "base": "smell",
@@ -1495,7 +1707,9 @@
       "The fresh flower smells delightful.",
       "She smelt smoke coming from the kitchen.",
       "We have smelt something burning."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "speed": {
     "base": "speed",
@@ -1509,7 +1723,9 @@
       "The ambulance speeds through traffic.",
       "He sped past the radar checkpoint.",
       "The train has sped away."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "spell": {
     "base": "spell",
@@ -1523,7 +1739,9 @@
       "How do you spell your last name?",
       "She spelt her name clearly.",
       "He has spelt the difficult word correctly."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "spill": {
     "base": "spill",
@@ -1537,7 +1755,9 @@
       "He spills coffee on his shirt often.",
       "She spilt milk on the kitchen floor.",
       "Someone has spilt water on papers."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "spit": {
     "base": "spit",
@@ -1551,7 +1771,9 @@
       "The camel spits when annoyed.",
       "He spat out the bitter medicine.",
       "He has spat on the ground."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-a-a"
   },
   "split": {
     "base": "split",
@@ -1565,7 +1787,9 @@
       "He splits wood for the fireplace.",
       "They split the bill equally yesterday.",
       "We have split into two groups."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
   },
   "spread": {
     "base": "spread",
@@ -1579,7 +1803,9 @@
       "She spreads butter on toast.",
       "News spread quickly through the town.",
       "The fire has spread to nearby trees."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "spring": {
     "base": "spring",
@@ -1593,7 +1819,9 @@
       "Grass springs up after warm rain.",
       "He sprang up from his chair.",
       "A new idea has sprung to mind."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "stick": {
     "base": "stick",
@@ -1607,7 +1835,9 @@
       "Glue sticks paper together well.",
       "The key stuck in the old lock.",
       "We have stuck to our original plan."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "sting": {
     "base": "sting",
@@ -1621,7 +1851,9 @@
       "A bee stings when threatened.",
       "A wasp stung him on his arm.",
       "The insect has stung her leg."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "strike": {
     "base": "strike",
@@ -1635,7 +1867,9 @@
       "Clock strikes twelve at midnight.",
       "Lightning struck the tall tower.",
       "Disaster has struck the small town."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "swear": {
     "base": "swear",
@@ -1649,7 +1883,9 @@
       "He swears to tell the truth.",
       "She swore an oath in the courtroom.",
       "They have sworn to secrecy."
-    ]
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
   },
   "sweep": {
     "base": "sweep",
@@ -1663,7 +1899,9 @@
       "She sweeps the patio every morning.",
       "He swept the floor thoroughly.",
       "We have swept away the debris."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "swing": {
     "base": "swing",
@@ -1677,7 +1915,9 @@
       "The pendulum swings continuously.",
       "He swung the bat and hit the ball.",
       "The gate has swung wide open."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "weep": {
     "base": "weep",
@@ -1691,7 +1931,9 @@
       "She weeps when watching sad movies.",
       "He wept with relief upon hearing news.",
       "They have wept for their loss."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "arise": {
     "base": "arise",
@@ -1705,7 +1947,9 @@
       "New opportunities arise unexpected.",
       "A problem arose during the meeting.",
       "Complications have arisen unexpectedly."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
   },
   "bear": {
     "base": "bear",
@@ -1719,7 +1963,9 @@
       "She bears the responsibility bravely.",
       "He bore the pain without complaining.",
       "She has borne three children."
-    ]
+    ],
+    "subgroup": "ore_orne",
+    "vowel_pattern": "e-o-o"
   },
   "bid": {
     "base": "bid",
@@ -1733,7 +1979,9 @@
       "He bids generously at art auctions.",
       "She bid five hundred euros for painting.",
       "They have bid higher than competitors."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
   },
   "broadcast": {
     "base": "broadcast",
@@ -1747,7 +1995,9 @@
       "The station broadcasts sports live.",
       "They broadcast the speech nation-wide.",
       "The news has been broadcast globally."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
   },
   "creep": {
     "base": "creep",
@@ -1761,7 +2011,9 @@
       "A cat creeps towards a bird.",
       "He crept into the house late at night.",
       "Mist has crept over the valley."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "dare": {
     "base": "dare",
@@ -1775,7 +2027,9 @@
       "He dares to speak against injustice.",
       "She dared him to jump into lake.",
       "Nobody has dared to question him."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "flee": {
     "base": "flee",
@@ -1789,7 +2043,9 @@
       "Refugees flee from conflict zones.",
       "The suspect fled from police cars.",
       "Many inhabitants have fled the area."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "forbid": {
     "base": "forbid",
@@ -1803,7 +2059,9 @@
       "Law forbids driving without license.",
       "My doctor forbade me to drink coffee.",
       "Entry has been forbidden to public."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "forgive": {
     "base": "forgive",
@@ -1817,7 +2075,9 @@
       "She forgives minor mistakes easily.",
       "He forgave his friend after apology.",
       "We have forgiven their shortcomings."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "forsake": {
     "base": "forsake",
@@ -1831,7 +2091,9 @@
       "He forsakes worldly ambitions.",
       "She forsook her career for family.",
       "They have forsaken their old habits."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "grind": {
     "base": "grind",
@@ -1845,7 +2107,9 @@
       "The mill grinds wheat into flour.",
       "He ground coffee beans fresh morning.",
       "The pepper has been ground finely."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
   },
   "offset": {
     "base": "offset",
@@ -1859,7 +2123,9 @@
       "Gains offset losses in portfolio.",
       "Lower costs offset reduced revenues.",
       "Tax credits have offset the expense."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
   },
   "outdo": {
     "base": "outdo",
@@ -1873,7 +2139,9 @@
       "She always outdoes expectations.",
       "He outdid himself in the final match.",
       "They have outdone all competitors."
-    ]
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "o-o-o"
   },
   "outgrow": {
     "base": "outgrow",
@@ -1887,7 +2155,9 @@
       "The child outgrows clothes quickly.",
       "He outgrew his fear of dark.",
       "She has outgrown her childhood toys."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-o-o"
   },
   "outrun": {
     "base": "outrun",
@@ -1901,7 +2171,9 @@
       "The cheetah outruns its prey easily.",
       "He outran the defender to score.",
       "They have outrun the police car."
-    ]
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "o-o-o"
   },
   "overeat": {
     "base": "overeat",
@@ -1915,7 +2187,9 @@
       "He overeats when stressed out.",
       "She overate at the holiday buffet.",
       "We have overeaten at dinner party."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "overhear": {
     "base": "overhear",
@@ -1929,7 +2203,9 @@
       "She overhears conversations on bus.",
       "He overheard two colleagues arguing.",
       "I have overheard interesting news."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "overlook": {
     "base": "overlook",
@@ -1943,7 +2219,9 @@
       "He overlooks small spelling mistakes.",
       "She overlooked a crucial detail in text.",
       "We have overlooked these figures."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "oversleep": {
     "base": "oversleep",
@@ -1957,7 +2235,9 @@
       "He oversleeps when alarm fails.",
       "She overslept and missed her train.",
       "I have overslept twice this week."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "overtake": {
     "base": "overtake",
@@ -1971,7 +2251,9 @@
       "A fast car overtakes slow truck.",
       "She overtook her rival near finish line.",
       "Inflation has overtaken wage growth."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "overthrow": {
     "base": "overthrow",
@@ -1985,7 +2267,9 @@
       "Rebels overthrow oppressive regime.",
       "The army overthrew government in coup.",
       "Dictators have been overthrown."
-    ]
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-o-o"
   },
   "prove": {
     "base": "prove",
@@ -1999,7 +2283,9 @@
       "The experiment proves the hypothesis.",
       "The theory proved correct in lab.",
       "His loyalty has been proven."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "saw": {
     "base": "saw",
@@ -2013,7 +2299,9 @@
       "The carpenter saws wooden planks.",
       "He sawed log into firewood logs.",
       "The fallen tree has been sawn."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "a-a-a"
   },
   "seek": {
     "base": "seek",
@@ -2027,7 +2315,9 @@
       "She seeks professional advice.",
       "He sought refuge from the rain storm.",
       "They have sought peace negotiations."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "e-o-o"
   },
   "sew": {
     "base": "sew",
@@ -2041,7 +2331,9 @@
       "She sews custom dresses at home.",
       "He sewed button back onto shirt.",
       "The quilt has been sewn by hand."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
   },
   "shave": {
     "base": "shave",
@@ -2055,7 +2347,9 @@
       "He shaves every morning before work.",
       "She shaved her legs for summer.",
       "He has shaved off his beard."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
   },
   "shear": {
     "base": "shear",
@@ -2069,7 +2363,9 @@
       "The farmer shears sheep in spring.",
       "They shorn flock in record time.",
       "All sheep have been shorn clean."
-    ]
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
   },
   "shrink": {
     "base": "shrink",
@@ -2083,7 +2379,9 @@
       "Wool shrinks in hot water washes.",
       "The sweater shrank after washing.",
       "Market demand has shrunk lately."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "sling": {
     "base": "sling",
@@ -2097,7 +2395,9 @@
       "He slings backpack over shoulder.",
       "She slung stone across river bank.",
       "The hammock was slung between trees."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "slink": {
     "base": "slink",
@@ -2111,7 +2411,9 @@
       "Thief slinks through narrow alley.",
       "He slunk away from accusation scene.",
       "The shadow has slunk into alley."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "slit": {
     "base": "slit",
@@ -2125,7 +2427,9 @@
       "She slits open the envelope carefully.",
       "He slit the tape on package box.",
       "The curtain has been slit open."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
   },
   "sow": {
     "base": "sow",
@@ -2139,7 +2443,9 @@
       "Farmers sow seeds in springtime.",
       "She sowed wildflower seeds in field.",
       "Generosity has sown good goodwill."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "o-o-o"
   },
   "spoil": {
     "base": "spoil",
@@ -2153,7 +2459,9 @@
       "Rain spoils outdoor picnic plans.",
       "The bad news spoilt her weekend.",
       "The food has spoilt in heat."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "stink": {
     "base": "stink",
@@ -2167,7 +2475,9 @@
       "Garbage stinks in hot summer.",
       "The room stank of stale smoke.",
       "The sewer pipe has stunk all day."
-    ]
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
   },
   "stride": {
     "base": "stride",
@@ -2181,7 +2491,9 @@
       "He strides confidently onto stage.",
       "She strode across room to speak.",
       "He has stridden into the room."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "strive": {
     "base": "strive",
@@ -2195,7 +2507,9 @@
       "She strives for excellence always.",
       "He strove to overcome his limits.",
       "They have striven for equality."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "swell": {
     "base": "swell",
@@ -2209,7 +2523,9 @@
       "An ankle swells after an injury.",
       "Her eye swelled after bee sting.",
       "His ankle has swollen noticeably."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-o"
   },
   "tread": {
     "base": "tread",
@@ -2223,7 +2539,9 @@
       "Protesters tread on unjust laws.",
       "Marchers trod path through snow.",
       "Grass has been trodden down."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "undergo": {
     "base": "undergo",
@@ -2237,7 +2555,9 @@
       "The patient undergoes treatment.",
       "The building underwent major renovation.",
       "The company has undergone changes."
-    ]
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "u-u-u"
   },
   "undo": {
     "base": "undo",
@@ -2251,7 +2571,9 @@
       "She undoes her hair braid.",
       "He undid the knot with patience.",
       "Damage cannot be easily undone."
-    ]
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "u-u-u"
   },
   "unwind": {
     "base": "unwind",
@@ -2265,7 +2587,9 @@
       "She unwinds by reading novels.",
       "He unwound long garden hose pipe.",
       "He has unwound after hard day."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "u-u-u"
   },
   "withdraw": {
     "base": "withdraw",
@@ -2279,7 +2603,9 @@
       "He withdraws cash from ATM machine.",
       "Troops withdrew from border town.",
       "She has withdrawn her candidacy."
-    ]
+    ],
+    "subgroup": "ew_awe_family",
+    "vowel_pattern": "i-i-i"
   },
   "withhold": {
     "base": "withhold",
@@ -2293,7 +2619,9 @@
       "Company withhold tax from salary.",
       "He withheld vital information court.",
       "They have withheld payment details."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "withstand": {
     "base": "withstand",
@@ -2307,7 +2635,9 @@
       "The bridge withstands heavy storms.",
       "Materials withstood extreme heat test.",
       "The fortress has withstood attacks."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "abide": {
     "base": "abide",
@@ -2321,7 +2651,9 @@
       "She abides by rules of conduct.",
       "He abode in quiet cottage years.",
       "They have abode by agreement terms."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "alight": {
     "base": "alight",
@@ -2335,7 +2667,9 @@
       "A bird alights on tree branch.",
       "Passengers alit from train platform.",
       "The falcon has alit on roof."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "befall": {
     "base": "befall",
@@ -2349,7 +2683,9 @@
       "Tragedy befalls unaware travelers.",
       "Misfortune befell the expedition team.",
       "Great luck has befallen them."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-e"
   },
   "beseech": {
     "base": "beseech",
@@ -2363,7 +2699,9 @@
       "He beseeches mercy from judge.",
       "She besought him to stay safe.",
       "They have besought aid from neighbors."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "e-e-e"
   },
   "beset": {
     "base": "beset",
@@ -2377,7 +2715,9 @@
       "Doubts beset his restless mind.",
       "Problems beset project from start.",
       "Poverty has beset the village."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "bestrew": {
     "base": "bestrew",
@@ -2391,7 +2731,9 @@
       "Wind bestrews autumn leaves ground.",
       "Petals bestrewed path before bride.",
       "Flowers have bestrewn the hall."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
   },
   "betide": {
     "base": "betide",
@@ -2405,7 +2747,9 @@
       "Woe betides anyone who cheats.",
       "Whatever betid, they remained calm.",
       "Fate has betid them well."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "blend": {
     "base": "blend",
@@ -2419,7 +2763,9 @@
       "The artist blends colors harmoniously.",
       "He blent spices into curry powder.",
       "Flavors have blent together well."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "browbeat": {
     "base": "browbeat",
@@ -2433,7 +2779,9 @@
       "He browbeats junior staff members.",
       "Lawyer browbeat witness into confession.",
       "Witnesses were browbeaten in court."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "cleave": {
     "base": "cleave",
@@ -2447,7 +2795,9 @@
       "He cleaves to his principles always.",
       "She cleft to faith through trial.",
       "They have cleft to ancient custom."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "dive": {
     "base": "dive",
@@ -2461,7 +2811,9 @@
       "She dives off high springboard.",
       "He dove into cold ocean waves.",
       "They have dived for sunken treasures."
-    ]
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "i-o-i"
   },
   "dwell": {
     "base": "dwell",
@@ -2475,7 +2827,9 @@
       "Monks dwell in remote monastery.",
       "She dwelt in mountain village years.",
       "They have dwelt in peace together."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "foretell": {
     "base": "foretell",
@@ -2489,7 +2843,9 @@
       "Prophets foretell future events.",
       "Oracles foretold victory in battle.",
       "Signs have foretold economic shift."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "gainsay": {
     "base": "gainsay",
@@ -2503,7 +2859,9 @@
       "No one gainsays facts presented.",
       "She gainsaid his claims in court.",
       "His integrity cannot be gainsaid."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   },
   "hew": {
     "base": "hew",
@@ -2517,7 +2875,9 @@
       "Lumberjacks hew timber in forest.",
       "He hewed statue from granite block.",
       "Columns were hewn from marble quarry."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
   },
   "inlay": {
     "base": "inlay",
@@ -2531,7 +2891,9 @@
       "Artisans inlay wood with ivory.",
       "Craftsman inlaid gold pattern table.",
       "Jewels have been inlaid in crown."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "mislay": {
     "base": "mislay",
@@ -2545,7 +2907,9 @@
       "He mislays his glasses frequently.",
       "She mislaid important document folder.",
       "I have mislaid my house keys."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "mislead": {
     "base": "mislead",
@@ -2559,7 +2923,9 @@
       "False ads mislead consumers easily.",
       "The map misled hikers into woods.",
       "Public has been misled by claims."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "misspell": {
     "base": "misspell",
@@ -2573,7 +2939,9 @@
       "Students misspell difficult words.",
       "He misspelt surname on application.",
       "The word has been misspelt twice."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "misspend": {
     "base": "misspend",
@@ -2587,7 +2955,9 @@
       "He misspends money on gambling.",
       "She misspent youth on trivial pursuits.",
       "Funds have been misspent unwisely."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
   },
   "overdo": {
     "base": "overdo",
@@ -2601,7 +2971,9 @@
       "He overdoes workout exercises.",
       "She overdid salt in soup dish.",
       "The meat has been overdone in oven."
-    ]
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "o-o-o"
   },
   "overhang": {
     "base": "overhang",
@@ -2615,7 +2987,9 @@
       "Cliff overhangs stormy sea below.",
       "Branches overhung narrow forest trail.",
       "Roof has overhung balcony deck."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "override": {
     "base": "override",
@@ -2629,7 +3003,9 @@
       "Captain overrides automatic controls.",
       "Manager overrode previous decision.",
       "Veto has been overridden by board."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
   },
   "overrun": {
     "base": "overrun",
@@ -2643,7 +3019,9 @@
       "Weeds overrun neglected gardens.",
       "Enemy forces overran border post.",
       "Budget has overrun initial estimate."
-    ]
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "o-o-o"
   },
   "overshadow": {
     "base": "overshadow",
@@ -2657,7 +3035,9 @@
       "Tall tower overshadows small houses.",
       "Scandal overshadowed success story.",
       "His achievements were overshadowed."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "overshoot": {
     "base": "overshoot",
@@ -2671,7 +3051,9 @@
       "Plane overshoots runway landing.",
       "Pilot overshot runway in heavy fog.",
       "Target metrics have been overshot."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
   },
   "rebind": {
     "base": "rebind",
@@ -2685,7 +3067,9 @@
       "Prices rebound after drop.",
       "Stock market rebounded quickly today.",
       "Economy has rebound from slump."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "rebuild": {
     "base": "rebuild",
@@ -2699,7 +3083,9 @@
       "City rebuilds after earthquake disaster.",
       "They rebuilt bridge in six months.",
       "Community has rebuilt homes."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "recast": {
     "base": "recast",
@@ -2713,7 +3099,9 @@
       "Philosopher recasts classic debate.",
       "Author recast narrative structure.",
       "Premise has been recast entirely."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "redo": {
     "base": "redo",
@@ -2727,7 +3115,9 @@
       "He redoes task until perfect.",
       "She redid entire room interior decoration.",
       "We have redone electrical wiring."
-    ]
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "e-e-e"
   },
   "remake": {
     "base": "remake",
@@ -2741,7 +3131,9 @@
       "Studio remakes classic film version.",
       "She remade dress for gala evening.",
       "Song has been remade in acoustic."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "resell": {
     "base": "resell",
@@ -2755,7 +3147,9 @@
       "He resells vintage clothes online.",
       "She resold concert tickets at cost.",
       "Items have been resold at profit."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "reset": {
     "base": "reset",
@@ -2769,7 +3163,9 @@
       "System resets automatically overnight.",
       "He reset router to restore connection.",
       "Timer has been reset to zero."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
   },
   "rethink": {
     "base": "rethink",
@@ -2783,7 +3179,9 @@
       "Company rethinks marketing strategy.",
       "They rethought plans after review.",
       "We have rethought our approach."
-    ]
+    ],
+    "subgroup": "ought_aught",
+    "vowel_pattern": "e-e-e"
   },
   "rewind": {
     "base": "rewind",
@@ -2797,7 +3195,9 @@
       "He rewinds video cassette tape.",
       "She rewound film to start scene.",
       "Tape has been rewound completely."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
   },
   "rewrite": {
     "base": "rewrite",
@@ -2811,7 +3211,9 @@
       "Author rewrites draft story chapter.",
       "She rewrote essay to improve flow.",
       "Article has been rewritten cleanly."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-e"
   },
   "slay": {
     "base": "slay",
@@ -2825,7 +3227,9 @@
       "Hero slays mythical dragon beast.",
       "David slew Goliath with sling.",
       "Monster has been slain by hero."
-    ]
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "a-e-a"
   },
   "strew": {
     "base": "strew",
@@ -2839,7 +3243,9 @@
       "Wind strews autumn leaves lawn.",
       "Children strewed toys across room floor.",
       "Papers have been strewn everywhere."
-    ]
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
   },
   "string": {
     "base": "string",
@@ -2853,7 +3259,9 @@
       "She strings beads into necklace.",
       "He strung guitar with new wire.",
       "Lights have been strung on trees."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "sublet": {
     "base": "sublet",
@@ -2867,7 +3275,9 @@
       "Tenant sublets apartment summer.",
       "She sublet room while traveling abroad.",
       "Flat has been sublet for month."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "thrust": {
     "base": "thrust",
@@ -2881,7 +3291,9 @@
       "He thrusts hands into pockets.",
       "She thrust letter into his hands.",
       "Sword was thrust through target."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "undertake": {
     "base": "undertake",
@@ -2895,7 +3307,9 @@
       "Scientist undertakes complex study.",
       "Company undertook major expansion.",
       "We have undertaken new project."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "u-u-u"
   },
   "upset": {
     "base": "upset",
@@ -2909,7 +3323,9 @@
       "Bad news upsets her deeply.",
       "Cat upset glass of water table.",
       "Plans have been upset completely."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
   },
   "weave": {
     "base": "weave",
@@ -2923,7 +3339,9 @@
       "Weaver weaves tapestry on loom.",
       "She wove colorful carpet pattern.",
       "Stories have been woven into myth."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
   },
   "wring": {
     "base": "wring",
@@ -2937,7 +3355,9 @@
       "Interrogator wrings confession from suspect.",
       "He wrung promise from reluctant partner.",
       "Truth was wrung from him."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
   },
   "forecast": {
     "base": "forecast",
@@ -2951,7 +3371,9 @@
       "Meteorologist forecasts rain tomorrow.",
       "Analysts forecast economic growth.",
       "Traders have forecast market dip."
-    ]
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
   },
   "forswear": {
     "base": "forswear",
@@ -2965,7 +3387,9 @@
       "He forswears alcohol for good.",
       "She forswore violence in protest.",
       "Monks have forsworn luxury items."
-    ]
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "o-o-o"
   },
   "overbear": {
     "base": "overbear",
@@ -2979,7 +3403,9 @@
       "His forceful personality overbears dissent.",
       "Evidence overbore defense arguments.",
       "Objections were overborne completely."
-    ]
+    ],
+    "subgroup": "ore_orne",
+    "vowel_pattern": "o-o-o"
   },
   "smite": {
     "base": "smite",
@@ -2993,7 +3419,9 @@
       "Disaster smites the prideful king.",
       "Plague smote ancient empire city.",
       "He was smitten with sudden illness."
-    ]
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
   },
   "waylay": {
     "base": "waylay",
@@ -3007,6 +3435,8 @@
       "Bandits waylay travelers in forest.",
       "Reporters waylaid minister at exit.",
       "Delegates have been waylaid."
-    ]
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
   }
 }
