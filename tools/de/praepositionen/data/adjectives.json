@@ -1,0 +1,453 @@
+{
+  "abhängig": {
+    "prepositions": [
+      "von"
+    ],
+    "case": "Dativ",
+    "pattern": "abhängig von [Dativ]",
+    "level": "A2",
+    "definition": "Auf die Hilfe oder Entscheidung eines anderen oder einer Sache angewiesen sein.",
+    "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. von seinen Eltern, vom Wetter).",
+    "examples": [
+      "Er ist finanziell noch von seinen Eltern abhängig.",
+      "Die Entscheidung ist vom Testergebnis abhängig."
+    ],
+    "common_mistake": "❌ abhängig auf das Wetter ➜ ✅ abhängig vom Wetter",
+    "synonyms": [
+      "angewiesen auf",
+      "gebunden"
+    ],
+    "antonyms": [
+      "unabhängig",
+      "selbstständig"
+    ]
+  },
+  "angewiesen": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "angewiesen auf [Akkusativ]",
+    "level": "B1",
+    "definition": "Bedarf oder Hilfe von jemandem/etwas zwingend benötigen.",
+    "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. auf Hilfe, auf den Bus).",
+    "examples": [
+      "Kranke Menschen sind auf professionelle Pflege angewiesen.",
+      "In ländlichen Regionen ist man auf ein Auto angewiesen."
+    ],
+    "common_mistake": "❌ angewiesen von Hilfe ➜ ✅ angewiesen auf Hilfe",
+    "synonyms": [
+      "abhängig von"
+    ],
+    "antonyms": [
+      "autonom",
+      "unabhängig"
+    ]
+  },
+  "arm": {
+    "prepositions": [
+      "an"
+    ],
+    "case": "Dativ",
+    "pattern": "arm an [Dativ]",
+    "level": "B1",
+    "definition": "Wenig von etwas Habend oder Besitzend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. arm an Kalorien, arm an Vitaminen).",
+    "examples": [
+      "Diese Nahrung ist sehr arm an Fett.",
+      "Die Region ist arm an natürlichen Rohstoffen."
+    ],
+    "common_mistake": "❌ arm von Vitaminen ➜ ✅ arm an Vitaminen",
+    "synonyms": [
+      "knapp an",
+      "mangelhaft"
+    ],
+    "antonyms": [
+      "reich an"
+    ]
+  },
+  "reich": {
+    "prepositions": [
+      "an"
+    ],
+    "case": "Dativ",
+    "pattern": "reich an [Dativ]",
+    "level": "A2",
+    "definition": "Viel von etwas Besitzend oder Enthaltend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. reich an Vitaminen, an Erfahrung).",
+    "examples": [
+      "Obst ist reich an Vitaminen und Mineralstoffen.",
+      "Er ist reich an Lebenserfahrung."
+    ],
+    "common_mistake": "❌ reich von Erfahrung ➜ ✅ reich an Erfahrung",
+    "synonyms": [
+      "voll von",
+      "gesegnet mit"
+    ],
+    "antonyms": [
+      "arm an"
+    ]
+  },
+  "begeistert": {
+    "prepositions": [
+      "von"
+    ],
+    "case": "Dativ",
+    "pattern": "begeistert von [Dativ]",
+    "level": "A2",
+    "definition": "Große Freude, Enthusiasmus oder Bewunderung empfindend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. von der Musik, vom Konzert).",
+    "examples": [
+      "Die Zuschauer waren begeistert von der Aufführung.",
+      "Ich bin begeistert von deiner neuen Idee!"
+    ],
+    "common_mistake": "❌ begeistert über die Musik ➜ ✅ begeistert von der Musik",
+    "synonyms": [
+      "fasziniert von",
+      "entzückt von"
+    ],
+    "antonyms": [
+      "enttäuscht von",
+      "gelangweilt"
+    ]
+  },
+  "bekannt": {
+    "prepositions": [
+      "für"
+    ],
+    "case": "Akkusativ",
+    "pattern": "bekannt für [Akkusativ]",
+    "level": "A2",
+    "definition": "Wegen einer Eigenschaft oder Leistung vielen Menschen bekannt sein.",
+    "grammar_rule": "Adjektiv mit fester Präposition «für» + Akkusativ (z.B. bekannt für seine Pünktlichkeit).",
+    "examples": [
+      "Deutschland ist bekannt für seine gute Qualität.",
+      "Die Stadt ist bekannt für ihre historischen Bauwerke."
+    ],
+    "common_mistake": "❌ bekannt von Qualität ➜ ✅ bekannt für Qualität",
+    "synonyms": [
+      "berühmt für",
+      "populär"
+    ],
+    "antonyms": [
+      "unbekannt"
+    ]
+  },
+  "beliebt": {
+    "prepositions": [
+      "bei"
+    ],
+    "case": "Dativ",
+    "pattern": "beliebt bei [Dativ]",
+    "level": "A2",
+    "definition": "Gern gesehen oder geschätzt von einer Personengruppe.",
+    "grammar_rule": "Adjektiv mit fester Präposition «bei» + Dativ (z.B. beliebt bei den Kindern, beim Publikum).",
+    "examples": [
+      "Der Lehrer ist bei allen Schülern sehr beliebt.",
+      "Diese Sportart ist bei Jugendlichen sehr beliebt."
+    ],
+    "common_mistake": "❌ beliebt von den Schülern ➜ ✅ beliebt bei den Schülern",
+    "synonyms": [
+      "geschätzt",
+      "angesehen"
+    ],
+    "antonyms": [
+      "unbeliebt"
+    ]
+  },
+  "bereit": {
+    "prepositions": [
+      "zu"
+    ],
+    "case": "Dativ",
+    "pattern": "bereit zu [Dativ]",
+    "level": "A2",
+    "definition": "Entschlossen oder vorbereitet sein, etwas zu tun.",
+    "grammar_rule": "Adjektiv mit fester Präposition «zu» + Dativ (z.B. bereit zum Abflug, bereit zu Zugeständnissen).",
+    "grammar_rule_inf": "Oder: bereit sein zu + Infinitiv mit zu (bereit sein zu helfen).",
+    "examples": [
+      "Wir sind bereit zu einem Gespräch.",
+      "Bist du bereit zur Abreise?"
+    ],
+    "common_mistake": "❌ bereit für abfahren ➜ ✅ bereit zur Abreise (oder: bereit abzufahren)",
+    "synonyms": [
+      "bereitwillig",
+      "willens"
+    ],
+    "antonyms": [
+      "unbereit",
+      "unwillig"
+    ]
+  },
+  "böse": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "böse auf [Akkusativ]",
+    "level": "A1",
+    "definition": "Wütend oder verärgert gegenüber einer Person sein.",
+    "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. böse auf meinen Bruder).",
+    "examples": [
+      "Bist du noch böse auf mich?",
+      "Er war sehr böse auf seinen Freund wegen des Beinahe-Unfalls."
+    ],
+    "common_mistake": "❌ böse mit mir ➜ ✅ böse auf mich",
+    "synonyms": [
+      "wütend auf",
+      "zornig auf"
+    ],
+    "antonyms": [
+      "freundlich zu",
+      "versöhnt mit"
+    ]
+  },
+  "dankbar": {
+    "prepositions": [
+      "für"
+    ],
+    "case": "Akkusativ",
+    "pattern": "dankbar für [Akkusativ]",
+    "level": "A1",
+    "definition": "Anerkennung und Dankbarkeit für eine Hilfe oder Gabe empfindend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «für» + Akkusativ (z.B. dankbar für deine Hilfe). Kann auch «jemandem [Dativ] dankbar sein» kombiniert werden.",
+    "examples": [
+      "Ich bin dir sehr dankbar für deine Unterstützung.",
+      "Wir sind dankbar für jeden guten Ratschlag."
+    ],
+    "common_mistake": "❌ dankbar über deine Hilfe ➜ ✅ dankbar für deine Hilfe",
+    "synonyms": [
+      "erkenntlich",
+      "geschätzt"
+    ],
+    "antonyms": [
+      "undankbar"
+    ]
+  },
+  "eifersüchtig": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "eifersüchtig auf [Akkusativ]",
+    "level": "A2",
+    "definition": "Aus Furcht vor Verlust der Zuneigung Neid empfindend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. eifersüchtig auf den Rivalen, auf den Erfolg).",
+    "examples": [
+      "Er ist manchmal eifersüchtig auf den besten Freund seiner Frau.",
+      "Man sollte nicht eifersüchtig auf den Erfolg anderer sein."
+    ],
+    "common_mistake": "❌ eifersüchtig gegen jemanden ➜ ✅ eifersüchtig auf jemanden",
+    "synonyms": [
+      "neidisch auf"
+    ],
+    "antonyms": [
+      "gönnend",
+      "vertrauensvoll"
+    ]
+  },
+  "enttäuscht": {
+    "prepositions": [
+      "von"
+    ],
+    "case": "Dativ",
+    "pattern": "enttäuscht von [Dativ]",
+    "level": "A2",
+    "definition": "Traurig oder desillusioniert wegen einer unerfüllten Erwartung.",
+    "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. enttäuscht vom Ergebnis, von seinen Freunden).",
+    "examples": [
+      "Er ist enttäuscht von der schlechten Qualität des Produkts.",
+      "Wir waren alle enttäuscht von seiner Absage."
+    ],
+    "common_mistake": "❌ enttäuscht über seine Freunde (bei Personen von, bei Sachen auch über möglich) ➜ ✅ enttäuscht von seinen Freunden",
+    "synonyms": [
+      "desillusioniert",
+      "frustriert"
+    ],
+    "antonyms": [
+      "begeistert von",
+      "erfreut"
+    ]
+  },
+  "fertig": {
+    "prepositions": [
+      "mit"
+    ],
+    "case": "Dativ",
+    "pattern": "fertig mit [Dativ]",
+    "level": "A1",
+    "definition": "Eine Arbeit oder Aufgabe abgeschlossen haben.",
+    "grammar_rule": "Adjektiv mit fester Präposition «mit» + Dativ (z.B. fertig mit den Hausaufgaben, mit der Arbeit).",
+    "examples": [
+      "Bist du schon fertig mit deinen Hausaufgaben?",
+      "Wir sind fast fertig mit der Renovierung."
+    ],
+    "common_mistake": "❌ fertig von der Arbeit (wenn abgeschlossen gemeint) ➜ ✅ fertig mit der Arbeit",
+    "synonyms": [
+      "bereit",
+      "abgeschlossen"
+    ],
+    "antonyms": [
+      "unfertig",
+      "mitten in"
+    ]
+  },
+  "freundlich": {
+    "prepositions": [
+      "zu"
+    ],
+    "case": "Dativ",
+    "pattern": "freundlich zu [Dativ]",
+    "level": "A1",
+    "definition": "Nett, höflich und wohlwollend gegenüber anderen sein.",
+    "grammar_rule": "Adjektiv mit fester Präposition «zu» + Dativ (z.B. freundlich zu den Nachbarn, zu den Kunden).",
+    "examples": [
+      "Die Verkäuferin war sehr freundlich zu den Kunden.",
+      "Sei bitte freundlich zu deinem kleinen Bruder!"
+    ],
+    "common_mistake": "❌ freundlich mit den Kunden ➜ ✅ freundlich zu den Kunden",
+    "synonyms": [
+      "nett zu",
+      "höflich gegenüber"
+    ],
+    "antonyms": [
+      "unfreundlich",
+      "böse auf"
+    ]
+  },
+  "glücklich": {
+    "prepositions": [
+      "über"
+    ],
+    "case": "Akkusativ",
+    "pattern": "glücklich über [Akkusativ]",
+    "level": "A1",
+    "definition": "Große Zufriedenheit und Freude empfindend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «über» + Akkusativ (z.B. glücklich über die bestandene Prüfung).",
+    "examples": [
+      "Sie ist sehr glücklich über ihre neue Stelle.",
+      "Wir sind glücklich über das gute Ergebnis."
+    ],
+    "common_mistake": "❌ glücklich für das Ergebnis ➜ ✅ glücklich über das Ergebnis",
+    "synonyms": [
+      "erfreut über",
+      "froh über"
+    ],
+    "antonyms": [
+      "traurig über",
+      "unglücklich"
+    ]
+  },
+  "interessiert": {
+    "prepositions": [
+      "an"
+    ],
+    "case": "Dativ",
+    "pattern": "interessiert an [Dativ]",
+    "level": "A2",
+    "definition": "Aufmerksamkeit und Neugier für etwas zeigend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. interessiert an Kunst, am Angebot).",
+    "examples": [
+      "Sind Sie an diesem Angebot interessiert?",
+      "Er ist sehr interessiert an moderner Technologie."
+    ],
+    "common_mistake": "❌ interessiert für Politik ➜ ✅ interessiert an Politik (aber: sich interessieren für)",
+    "synonyms": [
+      "aufmerksam",
+      "neugierig"
+    ],
+    "antonyms": [
+      "desinteressiert",
+      "gleichgültig"
+    ]
+  },
+  "neidisch": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "neidisch auf [Akkusativ]",
+    "level": "A2",
+    "definition": "Groll empfindend, weil ein anderer etwas Begehrenswertes besitzt.",
+    "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. neidisch auf den Nachbarn, auf das neue Auto).",
+    "examples": [
+      "Man sollte nicht neidisch auf das Glück anderer sein.",
+      "Er ist neidisch auf seinen erfolgreichen Kollegen."
+    ],
+    "common_mistake": "❌ neidisch über seinen Kollegen ➜ ✅ neidisch auf seinen Kollegen",
+    "synonyms": [
+      "eifersüchtig auf",
+      "missgünstig"
+    ],
+    "antonyms": [
+      "gönnend"
+    ]
+  },
+  "stolz": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "stolz auf [Akkusativ]",
+    "level": "A2",
+    "definition": "Freude und Selbstbewusstsein über eine Leistung oder Eigenschaft empfindend.",
+    "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. stolz auf die Kinder, auf den Erfolg).",
+    "examples": [
+      "Die Eltern sind sehr stolz auf ihren Sohn.",
+      "Ich bin stolz auf meine Fortschritte auf Deutsch."
+    ],
+    "common_mistake": "❌ stolz von meinem Sohn ➜ ✅ stolz auf meinen Sohn",
+    "synonyms": [
+      "selbstbewusst",
+      "hochbeglückt"
+    ],
+    "antonyms": [
+      "beschämt über"
+    ]
+  },
+  "überrascht": {
+    "prepositions": [
+      "über"
+    ],
+    "case": "Akkusativ",
+    "pattern": "überrascht über / von [Akkusativ / Dativ]",
+    "level": "A2",
+    "definition": "Staunen oder Erstaunen empfindend über ein unerwartetes Ereignis.",
+    "grammar_rule": "Adjektiv mit «über» + Akkusativ oder «von» + Dativ (z.B. überrascht über die Nachricht / vom Besuch).",
+    "examples": [
+      "Wir waren sehr überrascht über das schnelle Ergebnis.",
+      "Er war überrascht von der Reaktion seines Chefs."
+    ],
+    "common_mistake": "❌ überrascht für das Ergebnis ➜ ✅ überrascht über das Ergebnis",
+    "synonyms": [
+      "erstaunt über",
+      "verblüfft von"
+    ],
+    "antonyms": [
+      "gefasst",
+      "unüberrascht"
+    ]
+  },
+  "zufrieden": {
+    "prepositions": [
+      "mit"
+    ],
+    "case": "Dativ",
+    "pattern": "zufrieden mit [Dativ]",
+    "level": "A1",
+    "definition": "Glücklich oder einverstanden mit dem Zustand einer Sache oder Leistung.",
+    "grammar_rule": "Adjektiv mit fester Präposition «mit» + Dativ (z.B. zufrieden mit dem Gehalt, mit dem Service).",
+    "examples": [
+      "Sind Sie mit Ihrem neuen Computer zufrieden?",
+      "Der Lehrer war sehr zufrieden mit unserer Leistung."
+    ],
+    "common_mistake": "❌ zufrieden über das Gehalt ➜ ✅ zufrieden mit dem Gehalt",
+    "synonyms": [
+      "glücklich mit",
+      "behelligt"
+    ],
+    "antonyms": [
+      "unzufrieden mit"
+    ]
+  }
+}

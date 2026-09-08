@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verben mit Präpositionen &amp; Kasus | COSYlanguages</title>
+    <link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../../../shared/css/tokens.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../../../shared/css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Cozy mit Mode Switcher -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇩🇪</span>
+                <div class="brand-text">
+                    <h1>Deutsche Verben mit Präpositionen</h1>
+                    <p class="tagline">Verben, Nomen &amp; Adjektive — Präpositionalrektion &amp; Kasus (Akkusativ / Dativ)</p>
+                </div>
+            </div>
+
+            <div class="mode-switcher-bar">
+                <button id="mode-practice-btn" class="mode-btn active" onclick="appEngine.setAppMode('practice')">
+                    🎯 Üben
+                </button>
+                <button id="mode-dictionary-btn" class="mode-btn" onclick="appEngine.setAppMode('dictionary')">
+                    📖 Nachschlagen
+                </button>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- ================= MODE PRATIQUER / ÜBEN ================= -->
+            <section id="practice-view-container" class="view-section">
+                <!-- Top Progress & Dashboard Bar -->
+                <div class="srs-stats-bar">
+                    <div class="streak-badge">
+                        <span>🔥 Serie: <strong id="srs-streak-count">0</strong> Tage</span>
+                    </div>
+                    <div class="goal-ring-container">
+                        <svg class="goal-ring" width="44" height="44">
+                            <circle class="ring-bg" cx="22" cy="22" r="18"></circle>
+                            <circle id="ring-progress" class="ring-fill" cx="22" cy="22" r="18" stroke-dasharray="113" stroke-dashoffset="113"></circle>
+                        </svg>
+                        <span class="ring-text" id="srs-daily-text">0/10</span>
+                    </div>
+                    <button class="dashboard-btn" onclick="appEngine.toggleDashboard()">
+                        📊 Übersicht
+                    </button>
+                </div>
+
+                <!-- Session Launcher Card -->
+                <div id="session-launcher-card" class="launcher-card">
+                    <div class="launcher-header">
+                        <h2>✨ Tägliche Übungssession: 10 Wörter</h2>
+                        <p>Wiederhole Verben, Nomen und Adjektive mit ihren festen Präpositionen und Kasus (Spaced Repetition).</p>
+                    </div>
+
+                    <div class="launcher-filters">
+                        <label>Kategorie auswählen:</label>
+                        <div class="launcher-pills">
+                            <button class="launcher-pill active" id="session-filter-mixed" onclick="appEngine.setSessionFilter('mixed')">🔀 Gemischt (Alle)</button>
+                            <button class="launcher-pill" id="session-filter-verbs" onclick="appEngine.setSessionFilter('verbs')">💬 Verben</button>
+                            <button class="launcher-pill" id="session-filter-nouns" onclick="appEngine.setSessionFilter('nouns')">📦 Nomen</button>
+                            <button class="launcher-pill" id="session-filter-adjectives" onclick="appEngine.setSessionFilter('adjectives')">🎨 Adjektive</button>
+                            <button class="launcher-pill weak-pill" id="session-filter-weak" onclick="appEngine.setSessionFilter('weak')">⚠️ Schwachstellen (<span id="weak-spot-count">0</span>)</button>
+                        </div>
+                    </div>
+
+                    <button class="start-session-btn" onclick="appEngine.startSrsSession()">
+                        🚀 Übung starten (10 Wörter)
+                    </button>
+                </div>
+
+                <!-- Session Practice Card -->
+                <div id="srs-practice-card" class="game-card hidden">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <span id="srs-step-indicator" class="step-indicator">Frage 1 / 10</span>
+                            <h2 id="srs-word-prompt">warten</h2>
+                        </div>
+                        <div class="score-badge">
+                            <span id="srs-word-type-tag" class="badge word-type-badge">Verb</span>
+                            <span id="srs-cefr-tag" class="badge cefr-badge">Niveau: A1</span>
+                        </div>
+                    </div>
+
+                    <!-- Question Container -->
+                    <div class="srs-question-box">
+                        <p id="srs-question-type-label" class="question-type-label">Format: Präposition wählen</p>
+                        <div id="srs-sentence-prompt" class="game-sentence-box">
+                            "Ich warte <strong class="blank-spot">[ ? ]</strong> den Bus."
+                        </div>
+                    </div>
+
+                    <!-- Multiple Choice Format -->
+                    <div id="srs-choices-grid" class="game-choice-grid"></div>
+
+                    <!-- Fill-in-the-blank Format -->
+                    <div id="srs-fill-container" class="fill-input-box hidden">
+                        <input type="text" id="srs-blank-input" placeholder="Präposition eingeben (z.B. auf, an, für, mit, von...)" autocomplete="off">
+                        <button id="srs-submit-blank-btn" class="choice-btn submit-input-btn" onclick="appEngine.submitBlankAnswer()">Prüfen ➔</button>
+                    </div>
+
+                    <!-- Inline Feedback Box -->
+                    <div id="srs-feedback-box" class="feedback-card hidden"></div>
+
+                    <button id="srs-next-btn" class="game-btn secondary-btn hidden" onclick="appEngine.nextSrsQuestion()">Nächste Frage ➔</button>
+                </div>
+
+                <!-- Session Summary Screen -->
+                <div id="srs-summary-card" class="empty-state-box hidden">
+                    <span class="empty-icon">🏆</span>
+                    <h2>Session erfolgreich beendet!</h2>
+                    <p id="summary-score-text">Du hast heute 10 Wörter wiederholt.</p>
+
+                    <div class="summary-stats-grid">
+                        <div class="summary-stat">
+                            <span class="stat-number" id="summary-correct-count">0</span>
+                            <span class="stat-label">Richtige Antworten</span>
+                        </div>
+                        <div class="summary-stat">
+                            <span class="stat-number" id="summary-streak-count">0</span>
+                            <span class="stat-label">Tage Serie</span>
+                        </div>
+                        <div class="summary-stat">
+                            <span class="stat-number" id="summary-mastered-count">0</span>
+                            <span class="stat-label">Gelernt (Stufe 4+)</span>
+                        </div>
+                    </div>
+
+                    <div class="summary-actions summary-actions-flex">
+                        <button class="tag-btn" onclick="appEngine.resetSrsLauncher()">🔄 Neue Übung</button>
+                        <button class="tag-btn" onclick="appEngine.setAppMode('dictionary')">📖 Nachschlagen</button>
+                    </div>
+                </div>
+
+                <!-- Progress Dashboard Modal/Card -->
+                <div id="srs-dashboard-modal" class="dashboard-modal hidden">
+                    <div class="dashboard-content">
+                        <div class="dashboard-header">
+                            <h2>📊 Lernfortschritt &amp; Übersicht (SRS)</h2>
+                            <button class="close-btn" onclick="appEngine.toggleDashboard()">&times;</button>
+                        </div>
+
+                        <div id="dashboard-matrix-container">
+                            <!-- Injected dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= MODE CONSULTER / NACHSCHLAGEN ================= -->
+            <section id="dictionary-view-container" class="view-section hidden">
+                <section id="search-section-container" class="search-section">
+                    <!-- Word Type Selector Tabs -->
+                    <div class="word-type-tabs-bar">
+                        <button class="type-tab-btn active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">💬 Verben</button>
+                        <button class="type-tab-btn" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Nomen</button>
+                        <button class="type-tab-btn" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Adjektive</button>
+                        <button class="type-tab-btn" id="tab-two_way" onclick="appEngine.setWordType('two_way')">🔄 Wechselpräpositionen</button>
+                    </div>
+
+                    <!-- Filter pills bar -->
+                    <div id="filter-pills-container" class="filter-pills-bar"></div>
+
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="verb-search-input" placeholder="Verben, Nomen oder Adjektive suchen (z.B. warten, Angst, stolz)..." autocomplete="off">
+                        <button id="clear-search-btn" class="clear-btn hidden">&times;</button>
+                    </div>
+                    <div id="search-suggestions" class="suggestions-list hidden"></div>
+                </section>
+
+                <!-- Wechselpräpositionen reference section -->
+                <div id="two-way-container" class="hidden"></div>
+
+                <!-- Result Card -->
+                <section id="verb-result-container" class="verb-result-card hidden">
+                    <div class="nav-controls-bar">
+                        <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Vorheriges Wort">◀ Zurück</button>
+                        <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Zufälliges Wort">🎲 Zufall</button>
+                        <button class="nav-btn" onclick="appEngine.navigateNext()" title="Nächstes Wort">Weiter ▶</button>
+                    </div>
+
+                    <div class="verb-header">
+                        <div class="verb-title-group">
+                            <h2 id="verb-title">warten</h2>
+                            <span id="word-type-badge" class="badge word-type-badge">Verb</span>
+                            <span id="prep-badge" class="badge prep-badge">Präposition: auf</span>
+                            <span id="case-badge" class="badge case-badge">Kasus: Akkusativ</span>
+                            <span id="verb-cefr-badge" class="badge cefr-badge">Niveau: A1</span>
+                            <button id="speak-verb-btn" class="tts-btn" title="Aussprache anhören">🔊 Anhören</button>
+                        </div>
+
+                        <div class="lexical-box">
+                            <div class="def-block">
+                                <span class="lexical-label">📖 Bedeutung / Definition:</span>
+                                <span id="verb-definition" class="def-text"></span>
+                            </div>
+                            <div id="pattern-container" class="usage-block">
+                                <span class="lexical-label">💡 Struktur &amp; Satzmuster:</span>
+                                <span id="verb-pattern-text" class="usage-text"></span>
+                            </div>
+                            <div id="grammar-rule-container" class="grammar-rule-block">
+                                <span class="lexical-label">📌 Grammatikregel &amp; Kasusrektion:</span>
+                                <span id="grammar-rule-text" class="rule-text"></span>
+                            </div>
+                            <div id="mistake-container" class="mistake-block">
+                                <span class="lexical-label">⚠️ Typischer Fehler:</span>
+                                <span id="mistake-text" class="mistake-text"></span>
+                            </div>
+                            <div id="examples-container" class="examples-block">
+                                <span class="lexical-label">💬 Beispielsätze:</span>
+                                <ul id="examples-list" class="examples-list"></ul>
+                            </div>
+                            <div id="antonyms-container" class="antonyms-block">
+                                <span class="lexical-label">↔️ Synonyme &amp; Antonyme:</span>
+                                <div id="antonyms-pills" class="pills-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="empty-state" class="empty-state-box">
+                    <span class="empty-icon">🌿</span>
+                    <h3>Deutsche Verben, Nomen &amp; Adjektive mit Präpositionen</h3>
+                    <p>Finde feste <strong class="text-sage-primary">Präpositionen und Kasusrektionen</strong> (<em>Akkusativ</em> / <em>Dativ</em>), Wechselpräpositionen (<em>in, an, auf...</em>) sowie typische Stolperfallen.</p>
+                    <div class="quick-tags">
+                        <span>Häufige Wörter (A1–B2):</span>
+                        <button class="tag-btn" onclick="appEngine.searchEntry('warten', 'verbs')">warten (auf + Akk.)</button>
+                        <button class="tag-btn" onclick="appEngine.searchEntry('träumen', 'verbs')">träumen (von + Dat.)</button>
+                        <button class="tag-btn" onclick="appEngine.searchEntry('Angst', 'nouns')">Angst (vor + Dat.)</button>
+                        <button class="tag-btn" onclick="appEngine.searchEntry('stolz', 'adjectives')">stolz (auf + Akk.)</button>
+                        <button class="tag-btn" onclick="appEngine.searchEntry('sich freuen', 'verbs')">sich freuen (auf/über)</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!-- Footer Cozy -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Deutsche Verben mit Präpositionen &amp; Kasus. 100% offline &amp; privat.</p>
+        </footer>
+    </div>
+
+    <script src="js/srs.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/engine.js"></script>
+</body>
+</html>

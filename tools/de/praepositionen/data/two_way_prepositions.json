@@ -1,0 +1,128 @@
+{
+  "in": {
+    "preposition": "in",
+    "translation": "in / inside / into",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Statische Lage oder Aufenthalt an einem Ort. Artikel im Dativ: dem (m/n), der (f), den (Pl.).",
+      "example": "Ich bin in der Schule. / Er sitzt im (in dem) Park."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Zielgerichtete Bewegung oder Ortswechsel. Artikel im Akkusativ: den (m), die (f), das (n), die (Pl.).",
+      "example": "Ich gehe in die Schule. / Er geht in den Park."
+    }
+  },
+  "an": {
+    "preposition": "an",
+    "translation": "at / on (vertical surface / border)",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position an einer Fläche, einem Rand oder Gewässer.",
+      "example": "Das Bild hängt an der Wand. / Wir stehen am (an dem) Fenster."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung an eine Fläche oder einen Rand.",
+      "example": "Ich hänge das Bild an die Wand. / Wir gehen an den Strand."
+    }
+  },
+  "auf": {
+    "preposition": "auf",
+    "translation": "on / onto (horizontal surface)",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position auf einer horizontalen Fläche oder einem Platz.",
+      "example": "Das Buch liegt auf dem Tisch. / Sie sitzt auf dem Stuhl."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung auf eine Fläche hinauf.",
+      "example": "Ich lege das Buch auf den Tisch. / Sie setzt sich auf den Stuhl."
+    }
+  },
+  "über": {
+    "preposition": "über",
+    "translation": "over / above / across",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position oberhalb von etwas ohne direkte Berührung.",
+      "example": "Die Lampe hängt über dem Tisch."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung über etwas hinweg oder auf die andere Seite.",
+      "example": "Er hängt die Lampe über den Tisch. / Der Hund springt über die Mauer."
+    }
+  },
+  "unter": {
+    "preposition": "unter",
+    "translation": "under / below / among",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position unterhalb von etwas.",
+      "example": "Der Hund schläft unter dem Tisch."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung unter etwas hinunter.",
+      "example": "Der Hund läuft unter den Tisch."
+    }
+  },
+  "vor": {
+    "preposition": "vor",
+    "translation": "in front of / before",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position vor einer Person oder Sache.",
+      "example": "Das Auto steht vor dem Haus."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung vor etwas hin.",
+      "example": "Er fährt das Auto vor das Haus."
+    }
+  },
+  "hinter": {
+    "preposition": "hinter",
+    "translation": "behind",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position hinter etwas.",
+      "example": "Der Garten liegt hinter dem Haus."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung hinter etwas.",
+      "example": "Er geht hinter das Haus."
+    }
+  },
+  "neben": {
+    "preposition": "neben",
+    "translation": "next to / beside",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position seitlich neben etwas.",
+      "example": "Die Garage steht neben dem Haus."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung neben etwas.",
+      "example": "Er stellt sein Fahrrad neben das Haus."
+    }
+  },
+  "zwischen": {
+    "preposition": "zwischen",
+    "translation": "between",
+    "dativ_wo": {
+      "question": "Wo? (Ort / Position -> Dativ)",
+      "rule": "Position mitten zwischen zwei Orten oder Personen.",
+      "example": "Der Stuhl steht zwischen dem Tisch und dem Schrank."
+    },
+    "akkusativ_wohin": {
+      "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+      "rule": "Bewegung in den Zwischenraum.",
+      "example": "Er stellt den Stuhl zwischen den Tisch und den Schrank."
+    }
+  }
+}

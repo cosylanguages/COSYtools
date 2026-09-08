@@ -1,0 +1,16 @@
+{
+  "name": "Verben mit Präpositionen & Kasus : Referenz & Übung",
+  "short_name": "DE Präpositionen",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#1b4332",
+  "description": "Interaktives Nachschlagewerk und Lernsystem für deutsche Verben, Nomen und Adjektive mit Präpositionen und Rektion (Akkusativ / Dativ / Genitiv / Wechselpräpositionen).",
+  "icons": [
+    {
+      "src": "../../images/logos/cosylanguages.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

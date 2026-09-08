@@ -1,0 +1,275 @@
+{
+  "Angst": {
+    "prepositions": [
+      "vor"
+    ],
+    "case": "Dativ",
+    "pattern": "Angst vor [Dativ]",
+    "level": "A1",
+    "definition": "Befürchtung oder Furcht vor einer Gefahr oder einer Situation.",
+    "grammar_rule": "Nomen mit fester Präposition «vor» + Dativ (z.B. vor dem Hund, vor der Prüfung).",
+    "examples": [
+      "Er hat große Angst vor Prüfungen.",
+      "Viele Kinder haben Angst vor der Dunkelheit."
+    ],
+    "common_mistake": "❌ Angst für die Prüfung ➜ ✅ Angst vor der Prüfung",
+    "synonyms": [
+      "Furcht",
+      "Befürchtung"
+    ],
+    "antonyms": [
+      "Mut",
+      "Vertrauen"
+    ]
+  },
+  "Antwort": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Antwort auf [Akkusativ]",
+    "level": "A1",
+    "definition": "Reaktion oder Erwiderung auf eine Frage oder eine Nachricht.",
+    "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. auf die Frage, auf den Brief).",
+    "examples": [
+      "Ich warte auf eine Antwort auf meine E-Mail.",
+      "Die Antwort auf diese Frage ist nicht einfach."
+    ],
+    "common_mistake": "❌ Antwort zu der Frage ➜ ✅ Antwort auf die Frage",
+    "synonyms": [
+      "Reaktion",
+      "Erwiderung"
+    ],
+    "antonyms": [
+      "Frage"
+    ]
+  },
+  "Freude": {
+    "prepositions": [
+      "an",
+      "auf",
+      "über"
+    ],
+    "case": "Dativ / Akkusativ",
+    "pattern": "Freude an [Dat.] / auf [Akk.] / über [Akk.]",
+    "level": "A1",
+    "definition": "Gefühl des Glücks oder der Begeisterung.",
+    "grammar_rule": "Freude an + Dativ (Gegenwart/Tätigkeit), Freude auf + Akkusativ (Zukunft), Freude über + Akkusativ (Vergangenheit/Geschenk).",
+    "examples": [
+      "Er hat große Freude an der Musik.",
+      "Die Freude auf die Ferien ist riesig."
+    ],
+    "common_mistake": "❌ Freude für das Geschenk ➜ ✅ Freude über das Geschenk",
+    "synonyms": [
+      "Glück",
+      "Begeisterung"
+    ],
+    "antonyms": [
+      "Trauer",
+      "Enttäuschung"
+    ]
+  },
+  "Lust": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Lust auf [Akkusativ]",
+    "level": "A1",
+    "definition": "Verlangen oder Wunsch nach etwas Gemütlichem oder Leckerem.",
+    "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. Lust auf Schokolade, Lust auf Ausflug).",
+    "examples": [
+      "Hast du Lust auf ein Eis?",
+      "Wir haben heute keine Lust auf Lernen."
+    ],
+    "common_mistake": "❌ Lust für ein Eis ➜ ✅ Lust auf ein Eis",
+    "synonyms": [
+      "Wunsch",
+      "Interesse"
+    ],
+    "antonyms": [
+      "Unlust",
+      "Abscheu"
+    ]
+  },
+  "Interesse": {
+    "prepositions": [
+      "an"
+    ],
+    "case": "Dativ",
+    "pattern": "Interesse an [Dativ]",
+    "level": "A1",
+    "definition": "Aufmerksamkeit oder Neugier für ein Thema oder eine Sache.",
+    "grammar_rule": "Nomen mit fester Präposition «an» + Dativ (z.B. Interesse an Kunst, an der Sprache).",
+    "examples": [
+      "Sie zeigt großes Interesse an der deutschen Kultur.",
+      "Haben Sie Interesse an diesem Angebot?"
+    ],
+    "common_mistake": "❌ Interesse für die Kunst ➜ ✅ Interesse an der Kunst (oder: sich interessieren für)",
+    "synonyms": [
+      "Neugier",
+      "Aufmerksamkeit"
+    ],
+    "antonyms": [
+      "Desinteresse",
+      "Gleichgültigkeit"
+    ]
+  },
+  "Bitte": {
+    "prepositions": [
+      "um"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Bitte um [Akkusativ]",
+    "level": "A2",
+    "definition": "Ersuchen oder Wunsch nach Hilfe, Informationen oder Unterstützung.",
+    "grammar_rule": "Nomen mit fester Präposition «um» + Akkusativ (z.B. Bitte um Hilfe, Bitte um Verzeihung).",
+    "examples": [
+      "Eine höfliche Bitte um Hilfe ist immer willkommen.",
+      "Wir senden Ihnen eine Bitte um Terminbestätigung."
+    ],
+    "common_mistake": "❌ Bitte für Hilfe 0➜ ✅ Bitte um Hilfe",
+    "synonyms": [
+      "Ersuchen",
+      "Anfrage"
+    ],
+    "antonyms": [
+      "Forderung"
+    ]
+  },
+  "Dank": {
+    "prepositions": [
+      "für"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Dank für [Akkusativ]",
+    "level": "A1",
+    "definition": "Ausdruck der Anerkennung für eine erhaltene Hilfe oder ein Geschenk.",
+    "grammar_rule": "Nomen mit fester Präposition «für» + Akkusativ (z.B. Herzlichen Dank für Ihre Hilfe!).",
+    "noun_parallel": "Verbe: danken [Dat.] für [Akk.]",
+    "examples": [
+      "Vielen Dank für Ihre Unterstützung!",
+      "Ein großer Dank geht an das Organisationsteam."
+    ],
+    "common_mistake": "❌ Dank über Ihre Hilfe ➜ ✅ Dank für Ihre Hilfe",
+    "synonyms": [
+      "Dankbarkeit",
+      "Anerkennung"
+    ],
+    "antonyms": [
+      "Undank"
+    ]
+  },
+  "Einladung": {
+    "prepositions": [
+      "zu"
+    ],
+    "case": "Dativ",
+    "pattern": "Einladung zu [Dativ]",
+    "level": "A1",
+    "definition": "Aufforderung, an einem Fest, Treffen oder Gespräch teilzunehmen.",
+    "grammar_rule": "Nomen mit fester Präposition «zu» + Dativ (z.B. Einladung zur Party, zum Geburtstag).",
+    "examples": [
+      "Danke für die Einladung zu deiner Hochzeit!",
+      "Wir haben eine Einladung zum Vorstellungsgespräch erhalten."
+    ],
+    "common_mistake": "❌ Einladung auf die Party ➜ ✅ Einladung zur Party",
+    "synonyms": [
+      "Aufforderung",
+      "Gasteinladung"
+    ],
+    "antonyms": [
+      "Ausladung"
+    ]
+  },
+  "Hoffnung": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Hoffnung auf [Akkusativ]",
+    "level": "A2",
+    "definition": "Zuversichtliche Erwartung einer positiven Zukunft.",
+    "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. Hoffnung auf Besserung, auf Frieden).",
+    "examples": [
+      "Die Hoffnung auf eine schnelle Genesung bleibt groß.",
+      "Wir geben die Hoffnung auf Erfolg nicht auf."
+    ],
+    "common_mistake": "❌ Hoffnung für Frieden ➜ ✅ Hoffnung auf Frieden",
+    "synonyms": [
+      "Zuversicht",
+      "Glaube"
+    ],
+    "antonyms": [
+      "Hoffnungslosigkeit",
+      "Verzweiflung"
+    ]
+  },
+  "Grund": {
+    "prepositions": [
+      "für"
+    ],
+    "case": "Akkusativ",
+    "pattern": "Grund für [Akkusativ]",
+    "level": "A2",
+    "definition": "Ursache oder Anlass für ein Verhalten oder ein Ereignis.",
+    "grammar_rule": "Nomen mit fester Präposition «für» + Akkusativ (z.B. Grund für die Verspätung).",
+    "examples": [
+      "Was war der Grund für deine Absage?",
+      "Es gibt keinen Grund für Panik."
+    ],
+    "common_mistake": "❌ Grund von die Verspätung ➜ ✅ Grund für die Verspätung",
+    "synonyms": [
+      "Ursache",
+      "Anlass"
+    ],
+    "antonyms": [
+      "Folge",
+      "Wirkung"
+    ]
+  },
+  "Suche": {
+    "prepositions": [
+      "nach"
+    ],
+    "case": "Dativ",
+    "pattern": "Suche nach [Dativ]",
+    "level": "A2",
+    "definition": "Bemühung, etwas oder jemanden zu finden.",
+    "grammar_rule": "Nomen mit fester Präposition «nach» + Dativ (z.B. Suche nach der Lösung, nach einer Wohnung).",
+    "examples": [
+      "Er ist auf der Suche nach einer neuen Stelle.",
+      "Die Suche nach dem Schlüssel dauerte Stunden."
+    ],
+    "common_mistake": "❌ Suche für eine Wohnung ➜ ✅ Suche nach einer Wohnung",
+    "synonyms": [
+      "Recherche",
+      "Forschung"
+    ],
+    "antonyms": [
+      "Ffund"
+    ]
+  },
+  "Vergleiche": {
+    "prepositions": [
+      "mit"
+    ],
+    "case": "Dativ",
+    "pattern": "Vergleich mit [Dativ]",
+    "level": "B1",
+    "definition": "Nebeneinanderstellung zweier Dinge zur Feststellung von Ähnlichkeiten.",
+    "grammar_rule": "Nomen mit fester Präposition «mit» + Dativ (z.B. im Vergleich mit dem Vorjahr).",
+    "examples": [
+      "Im Vergleich mit anderen Städten ist Wien sehr grün.",
+      "Der Vergleich mit den Konkurrenten fällt positiv aus."
+    ],
+    "common_mistake": "❌ Vergleich zu dem Vorjahr ➜ ✅ Vergleich mit dem Vorjahr (oder: im Vergleich zu)",
+    "synonyms": [
+      "Gegenüberstellung",
+      "Parallel"
+    ],
+    "antonyms": [
+      ""
+    ]
+  }
+}
