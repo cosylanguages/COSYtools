@@ -1003,6 +1003,34 @@
             "wir fuhren ab",
             "ihr fuhrt ab",
             "sie fuhren ab"
+          ],
+          "perfekt": [
+            "ich bin abgefahren",
+            "du bist abgefahren",
+            "er/sie/es ist abgefahren",
+            "wir sind abgefahren",
+            "ihr seid abgefahren",
+            "sie sind abgefahren"
+          ],
+          "futur_1": [
+            "ich werde abfahren",
+            "du wirst abfahren",
+            "er/sie/es wird abfahren",
+            "wir werden abfahren",
+            "ihr werdet abfahren",
+            "sie werden abfahren"
+          ],
+          "konjunktiv_2": [
+            "ich würde abfahren",
+            "du würdest abfahren",
+            "er/sie/es würde abfahren",
+            "wir würden abfahren",
+            "ihr würdet abfahren",
+            "sie würden abfahren"
+          ],
+          "imperativ": [
+            "fahr ab!",
+            "fahrt ab!"
           ]
         },
         "examples": [
@@ -1038,6 +1066,34 @@
             "wir lehnten ab",
             "ihr lehntet ab",
             "sie lehnten ab"
+          ],
+          "perfekt": [
+            "ich habe abgelehnt",
+            "du hast abgelehnt",
+            "er/sie/es hat abgelehnt",
+            "wir haben abgelehnt",
+            "ihr habt abgelehnt",
+            "sie haben abgelehnt"
+          ],
+          "futur_1": [
+            "ich werde ablehnen",
+            "du wirst ablehnen",
+            "er/sie/es wird ablehnen",
+            "wir werden ablehnen",
+            "ihr werdet ablehnen",
+            "sie werden ablehnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde ablehnen",
+            "du würdest ablehnen",
+            "er/sie/es würde ablehnen",
+            "wir würden ablehnen",
+            "ihr würdet ablehnen",
+            "sie würden ablehnen"
+          ],
+          "imperativ": [
+            "lehne ab!",
+            "lehnt ab!"
           ]
         },
         "examples": [
@@ -1073,6 +1129,34 @@
             "wir fingen an",
             "ihr fingt an",
             "sie fingen an"
+          ],
+          "perfekt": [
+            "ich habe angefangen",
+            "du hast angefangen",
+            "er/sie/es hat angefangen",
+            "wir haben angefangen",
+            "ihr habt angefangen",
+            "sie haben angefangen"
+          ],
+          "futur_1": [
+            "ich werde anfangen",
+            "du wirst anfangen",
+            "er/sie/es wird anfangen",
+            "wir werden anfangen",
+            "ihr werdet anfangen",
+            "sie werden anfangen"
+          ],
+          "konjunktiv_2": [
+            "ich würde anfangen",
+            "du würdest anfangen",
+            "er/sie/es würde anfangen",
+            "wir würden anfangen",
+            "ihr würdet anfangen",
+            "sie würden anfangen"
+          ],
+          "imperativ": [
+            "fang an!",
+            "fangt an!"
           ]
         },
         "examples": [
@@ -1107,6 +1191,34 @@
             "wir kamen an",
             "ihr kamt an",
             "sie kamen an"
+          ],
+          "perfekt": [
+            "ich bin angekommen",
+            "du bist angekommen",
+            "er/sie/es ist angekommen",
+            "wir sind angekommen",
+            "ihr seid angekommen",
+            "sie sind angekommen"
+          ],
+          "futur_1": [
+            "ich werde ankommen",
+            "du wirst ankommen",
+            "er/sie/es wird ankommen",
+            "wir werden ankommen",
+            "ihr werdet ankommen",
+            "sie werden ankommen"
+          ],
+          "konjunktiv_2": [
+            "ich würde ankommen",
+            "du würdest ankommen",
+            "er/sie/es würde ankommen",
+            "wir würden ankommen",
+            "ihr würdet ankommen",
+            "sie würden ankommen"
+          ],
+          "imperativ": [
+            "komm an!",
+            "kommt an!"
           ]
         },
         "examples": [
@@ -1139,6 +1251,34 @@
             "wir riefen an",
             "ihr rieft an",
             "sie riefen an"
+          ],
+          "perfekt": [
+            "ich habe angerufen",
+            "du hast angerufen",
+            "er/sie/es hat angerufen",
+            "wir haben angerufen",
+            "ihr habt angerufen",
+            "sie haben angerufen"
+          ],
+          "futur_1": [
+            "ich werde anrufen",
+            "du wirst anrufen",
+            "er/sie/es wird anrufen",
+            "wir werden anrufen",
+            "ihr werdet anrufen",
+            "sie werden anrufen"
+          ],
+          "konjunktiv_2": [
+            "ich würde anrufen",
+            "du würdest anrufen",
+            "er/sie/es würde anrufen",
+            "wir würden anrufen",
+            "ihr würdet anrufen",
+            "sie würden anrufen"
+          ],
+          "imperativ": [
+            "ruf an!",
+            "ruft an!"
           ]
         },
         "examples": [
@@ -1173,6 +1313,34 @@
             "wir antworteten",
             "ihr antwortetet",
             "sie antworteten"
+          ],
+          "perfekt": [
+            "ich habe geantwortet",
+            "du hast geantwortet",
+            "er/sie/es hat geantwortet",
+            "wir haben geantwortet",
+            "ihr habt geantwortet",
+            "sie haben geantwortet"
+          ],
+          "futur_1": [
+            "ich werde antworten",
+            "du wirst antworten",
+            "er/sie/es wird antworten",
+            "wir werden antworten",
+            "ihr werdet antworten",
+            "sie werden antworten"
+          ],
+          "konjunktiv_2": [
+            "ich würde antworten",
+            "du würdest antworten",
+            "er/sie/es würde antworten",
+            "wir würden antworten",
+            "ihr würdet antworten",
+            "sie würden antworten"
+          ],
+          "imperativ": [
+            "antworte!",
+            "antwortet!"
           ]
         },
         "examples": [
@@ -1207,6 +1375,34 @@
             "wir zogen an",
             "ihr zogt an",
             "sie zogen an"
+          ],
+          "perfekt": [
+            "ich habe angezogen",
+            "du hast angezogen",
+            "er/sie/es hat angezogen",
+            "wir haben angezogen",
+            "ihr habt angezogen",
+            "sie haben angezogen"
+          ],
+          "futur_1": [
+            "ich werde anziehen",
+            "du wirst anziehen",
+            "er/sie/es wird anziehen",
+            "wir werden anziehen",
+            "ihr werdet anziehen",
+            "sie werden anziehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde anziehen",
+            "du würdest anziehen",
+            "er/sie/es würde anziehen",
+            "wir würden anziehen",
+            "ihr würdet anziehen",
+            "sie würden anziehen"
+          ],
+          "imperativ": [
+            "zieh an!",
+            "zieht an!"
           ]
         },
         "examples": [
@@ -1242,6 +1438,34 @@
             "wir arbeiteten",
             "ihr arbeitetet",
             "sie arbeiteten"
+          ],
+          "perfekt": [
+            "ich habe gearbeitet",
+            "du hast gearbeitet",
+            "er/sie/es hat gearbeitet",
+            "wir haben gearbeitet",
+            "ihr habt gearbeitet",
+            "sie haben gearbeitet"
+          ],
+          "futur_1": [
+            "ich werde arbeiten",
+            "du wirst arbeiten",
+            "er/sie/es wird arbeiten",
+            "wir werden arbeiten",
+            "ihr werdet arbeiten",
+            "sie werden arbeiten"
+          ],
+          "konjunktiv_2": [
+            "ich würde arbeiten",
+            "du würdest arbeiten",
+            "er/sie/es würde arbeiten",
+            "wir würden arbeiten",
+            "ihr würdet arbeiten",
+            "sie würden arbeiten"
+          ],
+          "imperativ": [
+            "arbeite!",
+            "arbeitet!"
           ]
         },
         "examples": [
@@ -1277,6 +1501,34 @@
             "wir hörten auf",
             "ihr hörtet auf",
             "sie hörten auf"
+          ],
+          "perfekt": [
+            "ich habe aufgehört",
+            "du hast aufgehört",
+            "er/sie/es hat aufgehört",
+            "wir haben aufgehört",
+            "ihr habt aufgehört",
+            "sie haben aufgehört"
+          ],
+          "futur_1": [
+            "ich werde aufhören",
+            "du wirst aufhören",
+            "er/sie/es wird aufhören",
+            "wir werden aufhören",
+            "ihr werdet aufhören",
+            "sie werden aufhören"
+          ],
+          "konjunktiv_2": [
+            "ich würde aufhören",
+            "du würdest aufhören",
+            "er/sie/es würde aufhören",
+            "wir würden aufhören",
+            "ihr würdet aufhören",
+            "sie würden aufhören"
+          ],
+          "imperativ": [
+            "hör auf!",
+            "hört auf!"
           ]
         },
         "examples": [
@@ -1309,6 +1561,34 @@
             "wir räumten auf",
             "ihr räumtet auf",
             "sie räumten auf"
+          ],
+          "perfekt": [
+            "ich habe aufgeräumt",
+            "du hast aufgeräumt",
+            "er/sie/es hat aufgeräumt",
+            "wir haben aufgeräumt",
+            "ihr habt aufgeräumt",
+            "sie haben aufgeräumt"
+          ],
+          "futur_1": [
+            "ich werde aufräumen",
+            "du wirst aufräumen",
+            "er/sie/es wird aufräumen",
+            "wir werden aufräumen",
+            "ihr werdet aufräumen",
+            "sie werden aufräumen"
+          ],
+          "konjunktiv_2": [
+            "ich würde aufräumen",
+            "du würdest aufräumen",
+            "er/sie/es würde aufräumen",
+            "wir würden aufräumen",
+            "ihr würdet aufräumen",
+            "sie würden aufräumen"
+          ],
+          "imperativ": [
+            "räum auf!",
+            "räumt auf!"
           ]
         },
         "examples": [
@@ -1344,6 +1624,34 @@
             "wir standen auf",
             "ihr standet auf",
             "sie standen auf"
+          ],
+          "perfekt": [
+            "ich bin aufgestanden",
+            "du bist aufgestanden",
+            "er/sie/es ist aufgestanden",
+            "wir sind aufgestanden",
+            "ihr seid aufgestanden",
+            "sie sind aufgestanden"
+          ],
+          "futur_1": [
+            "ich werde aufstehen",
+            "du wirst aufstehen",
+            "er/sie/es wird aufstehen",
+            "wir werden aufstehen",
+            "ihr werdet aufstehen",
+            "sie werden aufstehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde aufstehen",
+            "du würdest aufstehen",
+            "er/sie/es würde aufstehen",
+            "wir würden aufstehen",
+            "ihr würdet aufstehen",
+            "sie würden aufstehen"
+          ],
+          "imperativ": [
+            "steh auf!",
+            "steht auf!"
           ]
         },
         "examples": [
@@ -1378,6 +1686,34 @@
             "wir stiegen aus",
             "ihr stiegt aus",
             "sie stiegen aus"
+          ],
+          "perfekt": [
+            "ich bin ausgestiegen",
+            "du bist ausgestiegen",
+            "er/sie/es ist ausgestiegen",
+            "wir sind ausgestiegen",
+            "ihr seid ausgestiegen",
+            "sie sind ausgestiegen"
+          ],
+          "futur_1": [
+            "ich werde aussteigen",
+            "du wirst aussteigen",
+            "er/sie/es wird aussteigen",
+            "wir werden aussteigen",
+            "ihr werdet aussteigen",
+            "sie werden aussteigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde aussteigen",
+            "du würdest aussteigen",
+            "er/sie/es würde aussteigen",
+            "wir würden aussteigen",
+            "ihr würdet aussteigen",
+            "sie würden aussteigen"
+          ],
+          "imperativ": [
+            "steig aus!",
+            "steigt aus!"
           ]
         },
         "examples": [
@@ -1412,6 +1748,34 @@
             "wir zogen aus",
             "ihr zogt aus",
             "sie zogen aus"
+          ],
+          "perfekt": [
+            "ich habe ausgezogen",
+            "du hast ausgezogen",
+            "er/sie/es hat ausgezogen",
+            "wir haben ausgezogen",
+            "ihr habt ausgezogen",
+            "sie haben ausgezogen"
+          ],
+          "futur_1": [
+            "ich werde ausziehen",
+            "du wirst ausziehen",
+            "er/sie/es wird ausziehen",
+            "wir werden ausziehen",
+            "ihr werdet ausziehen",
+            "sie werden ausziehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde ausziehen",
+            "du würdest ausziehen",
+            "er/sie/es würde ausziehen",
+            "wir würden ausziehen",
+            "ihr würdet ausziehen",
+            "sie würden ausziehen"
+          ],
+          "imperativ": [
+            "zieh aus!",
+            "zieht aus!"
           ]
         },
         "examples": [
@@ -1444,6 +1808,34 @@
             "wir buken",
             "ihr bukt",
             "sie buken"
+          ],
+          "perfekt": [
+            "ich habe gebacken",
+            "du hast gebacken",
+            "er/sie/es hat gebacken",
+            "wir haben gebacken",
+            "ihr habt gebacken",
+            "sie haben gebacken"
+          ],
+          "futur_1": [
+            "ich werde backen",
+            "du wirst backen",
+            "er/sie/es wird backen",
+            "wir werden backen",
+            "ihr werdet backen",
+            "sie werden backen"
+          ],
+          "konjunktiv_2": [
+            "ich würde backen",
+            "du würdest backen",
+            "er/sie/es würde backen",
+            "wir würden backen",
+            "ihr würdet backen",
+            "sie würden backen"
+          ],
+          "imperativ": [
+            "back!",
+            "backt!"
           ]
         },
         "examples": [
@@ -1476,6 +1868,34 @@
             "wir bedeuteten",
             "ihr bedeutetet",
             "sie bedeuteten"
+          ],
+          "perfekt": [
+            "ich habe bedeutet",
+            "du hast bedeutet",
+            "er/sie/es hat bedeutet",
+            "wir haben bedeutet",
+            "ihr habt bedeutet",
+            "sie haben bedeutet"
+          ],
+          "futur_1": [
+            "ich werde bedeuten",
+            "du wirst bedeuten",
+            "er/sie/es wird bedeuten",
+            "wir werden bedeuten",
+            "ihr werdet bedeuten",
+            "sie werden bedeuten"
+          ],
+          "konjunktiv_2": [
+            "ich würde bedeuten",
+            "du würdest bedeuten",
+            "er/sie/es würde bedeuten",
+            "wir würden bedeuten",
+            "ihr würdet bedeuten",
+            "sie würden bedeuten"
+          ],
+          "imperativ": [
+            "bedeute!",
+            "bedeutet!"
           ]
         },
         "examples": [
@@ -1510,6 +1930,34 @@
             "wir begannen",
             "ihr begannet",
             "sie begannen"
+          ],
+          "perfekt": [
+            "ich habe begonnen",
+            "du hast begonnen",
+            "er/sie/es hat begonnen",
+            "wir haben begonnen",
+            "ihr habt begonnen",
+            "sie haben begonnen"
+          ],
+          "futur_1": [
+            "ich werde beginnen",
+            "du wirst beginnen",
+            "er/sie/es wird beginnen",
+            "wir werden beginnen",
+            "ihr werdet beginnen",
+            "sie werden beginnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde beginnen",
+            "du würdest beginnen",
+            "er/sie/es würde beginnen",
+            "wir würden beginnen",
+            "ihr würdet beginnen",
+            "sie würden beginnen"
+          ],
+          "imperativ": [
+            "beginn!",
+            "beginnt!"
           ]
         },
         "examples": [
@@ -1542,6 +1990,34 @@
             "wir behielten",
             "ihr behieltet",
             "sie behielten"
+          ],
+          "perfekt": [
+            "ich habe behalten",
+            "du hast behalten",
+            "er/sie/es hat behalten",
+            "wir haben behalten",
+            "ihr habt behalten",
+            "sie haben behalten"
+          ],
+          "futur_1": [
+            "ich werde behalten",
+            "du wirst behalten",
+            "er/sie/es wird behalten",
+            "wir werden behalten",
+            "ihr werdet behalten",
+            "sie werden behalten"
+          ],
+          "konjunktiv_2": [
+            "ich würde behalten",
+            "du würdest behalten",
+            "er/sie/es würde behalten",
+            "wir würden behalten",
+            "ihr würdet behalten",
+            "sie würden behalten"
+          ],
+          "imperativ": [
+            "behalt!",
+            "behaltet!"
           ]
         },
         "examples": [
@@ -1574,6 +2050,34 @@
             "wir bekamen",
             "ihr bekamt",
             "sie bekamen"
+          ],
+          "perfekt": [
+            "ich habe bekommen",
+            "du hast bekommen",
+            "er/sie/es hat bekommen",
+            "wir haben bekommen",
+            "ihr habt bekommen",
+            "sie haben bekommen"
+          ],
+          "futur_1": [
+            "ich werde bekommen",
+            "du wirst bekommen",
+            "er/sie/es wird bekommen",
+            "wir werden bekommen",
+            "ihr werdet bekommen",
+            "sie werden bekommen"
+          ],
+          "konjunktiv_2": [
+            "ich würde bekommen",
+            "du würdest bekommen",
+            "er/sie/es würde bekommen",
+            "wir würden bekommen",
+            "ihr würdet bekommen",
+            "sie würden bekommen"
+          ],
+          "imperativ": [
+            "bekomm!",
+            "bekommt!"
           ]
         },
         "examples": [
@@ -1606,6 +2110,34 @@
             "wir benutzten",
             "ihr benutztet",
             "sie benutzten"
+          ],
+          "perfekt": [
+            "ich habe benutzt",
+            "du hast benutzt",
+            "er/sie/es hat benutzt",
+            "wir haben benutzt",
+            "ihr habt benutzt",
+            "sie haben benutzt"
+          ],
+          "futur_1": [
+            "ich werde benutzen",
+            "du wirst benutzen",
+            "er/sie/es wird benutzen",
+            "wir werden benutzen",
+            "ihr werdet benutzen",
+            "sie werden benutzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde benutzen",
+            "du würdest benutzen",
+            "er/sie/es würde benutzen",
+            "wir würden benutzen",
+            "ihr würdet benutzen",
+            "sie würden benutzen"
+          ],
+          "imperativ": [
+            "benutz!",
+            "benutzt!"
           ]
         },
         "examples": [
@@ -1638,6 +2170,34 @@
             "wir beschrieben",
             "ihr beschriebt",
             "sie beschrieben"
+          ],
+          "perfekt": [
+            "ich habe beschrieben",
+            "du hast beschrieben",
+            "er/sie/es hat beschrieben",
+            "wir haben beschrieben",
+            "ihr habt beschrieben",
+            "sie haben beschrieben"
+          ],
+          "futur_1": [
+            "ich werde beschreiben",
+            "du wirst beschreiben",
+            "er/sie/es wird beschreiben",
+            "wir werden beschreiben",
+            "ihr werdet beschreiben",
+            "sie werden beschreiben"
+          ],
+          "konjunktiv_2": [
+            "ich würde beschreiben",
+            "du würdest beschreiben",
+            "er/sie/es würde beschreiben",
+            "wir würden beschreiben",
+            "ihr würdet beschreiben",
+            "sie würden beschreiben"
+          ],
+          "imperativ": [
+            "beschreib!",
+            "beschreibt!"
           ]
         },
         "examples": [
@@ -1670,6 +2230,34 @@
             "wir bestellten",
             "ihr bestelltet",
             "sie bestellten"
+          ],
+          "perfekt": [
+            "ich habe bestellt",
+            "du hast bestellt",
+            "er/sie/es hat bestellt",
+            "wir haben bestellt",
+            "ihr habt bestellt",
+            "sie haben bestellt"
+          ],
+          "futur_1": [
+            "ich werde bestellen",
+            "du wirst bestellen",
+            "er/sie/es wird bestellen",
+            "wir werden bestellen",
+            "ihr werdet bestellen",
+            "sie werden bestellen"
+          ],
+          "konjunktiv_2": [
+            "ich würde bestellen",
+            "du würdest bestellen",
+            "er/sie/es würde bestellen",
+            "wir würden bestellen",
+            "ihr würdet bestellen",
+            "sie würden bestellen"
+          ],
+          "imperativ": [
+            "bestell!",
+            "bestellt!"
           ]
         },
         "examples": [
@@ -1702,6 +2290,34 @@
             "wir besuchten",
             "ihr besuchtet",
             "sie besuchten"
+          ],
+          "perfekt": [
+            "ich habe besucht",
+            "du hast besucht",
+            "er/sie/es hat besucht",
+            "wir haben besucht",
+            "ihr habt besucht",
+            "sie haben besucht"
+          ],
+          "futur_1": [
+            "ich werde besuchen",
+            "du wirst besuchen",
+            "er/sie/es wird besuchen",
+            "wir werden besuchen",
+            "ihr werdet besuchen",
+            "sie werden besuchen"
+          ],
+          "konjunktiv_2": [
+            "ich würde besuchen",
+            "du würdest besuchen",
+            "er/sie/es würde besuchen",
+            "wir würden besuchen",
+            "ihr würdet besuchen",
+            "sie würden besuchen"
+          ],
+          "imperativ": [
+            "besuch!",
+            "besucht!"
           ]
         },
         "examples": [
@@ -1734,6 +2350,34 @@
             "wir bezahlten",
             "ihr bezahltet",
             "sie bezahlten"
+          ],
+          "perfekt": [
+            "ich habe bezahlt",
+            "du hast bezahlt",
+            "er/sie/es hat bezahlt",
+            "wir haben bezahlt",
+            "ihr habt bezahlt",
+            "sie haben bezahlt"
+          ],
+          "futur_1": [
+            "ich werde bezahlen",
+            "du wirst bezahlen",
+            "er/sie/es wird bezahlen",
+            "wir werden bezahlen",
+            "ihr werdet bezahlen",
+            "sie werden bezahlen"
+          ],
+          "konjunktiv_2": [
+            "ich würde bezahlen",
+            "du würdest bezahlen",
+            "er/sie/es würde bezahlen",
+            "wir würden bezahlen",
+            "ihr würdet bezahlen",
+            "sie würden bezahlen"
+          ],
+          "imperativ": [
+            "bezahl!",
+            "bezahlt!"
           ]
         },
         "examples": [
@@ -1766,6 +2410,34 @@
             "wir baten",
             "ihr batet",
             "sie baten"
+          ],
+          "perfekt": [
+            "ich habe gebeten",
+            "du hast gebeten",
+            "er/sie/es hat gebeten",
+            "wir haben gebeten",
+            "ihr habt gebeten",
+            "sie haben gebeten"
+          ],
+          "futur_1": [
+            "ich werde bitten",
+            "du wirst bitten",
+            "er/sie/es wird bitten",
+            "wir werden bitten",
+            "ihr werdet bitten",
+            "sie werden bitten"
+          ],
+          "konjunktiv_2": [
+            "ich würde bitten",
+            "du würdest bitten",
+            "er/sie/es würde bitten",
+            "wir würden bitten",
+            "ihr würdet bitten",
+            "sie würden bitten"
+          ],
+          "imperativ": [
+            "bitte!",
+            "bittet!"
           ]
         },
         "examples": [
@@ -1798,6 +2470,34 @@
             "wir brauchten",
             "ihr brauchtet",
             "sie brauchten"
+          ],
+          "perfekt": [
+            "ich habe gebraucht",
+            "du hast gebraucht",
+            "er/sie/es hat gebraucht",
+            "wir haben gebraucht",
+            "ihr habt gebraucht",
+            "sie haben gebraucht"
+          ],
+          "futur_1": [
+            "ich werde brauchen",
+            "du wirst brauchen",
+            "er/sie/es wird brauchen",
+            "wir werden brauchen",
+            "ihr werdet brauchen",
+            "sie werden brauchen"
+          ],
+          "konjunktiv_2": [
+            "ich würde brauchen",
+            "du würdest brauchen",
+            "er/sie/es würde brauchen",
+            "wir würden brauchen",
+            "ihr würdet brauchen",
+            "sie würden brauchen"
+          ],
+          "imperativ": [
+            "brauch!",
+            "braucht!"
           ]
         },
         "examples": [
@@ -1830,6 +2530,34 @@
             "wir brachten",
             "ihr brachtet",
             "sie brachten"
+          ],
+          "perfekt": [
+            "ich habe gebracht",
+            "du hast gebracht",
+            "er/sie/es hat gebracht",
+            "wir haben gebracht",
+            "ihr habt gebracht",
+            "sie haben gebracht"
+          ],
+          "futur_1": [
+            "ich werde bringen",
+            "du wirst bringen",
+            "er/sie/es wird bringen",
+            "wir werden bringen",
+            "ihr werdet bringen",
+            "sie werden bringen"
+          ],
+          "konjunktiv_2": [
+            "ich brächte",
+            "du brächtest",
+            "er/sie/es brächte",
+            "wir brächten",
+            "ihr brächtet",
+            "sie brächten"
+          ],
+          "imperativ": [
+            "bring!",
+            "bringt!"
           ]
         },
         "examples": [
@@ -1862,6 +2590,34 @@
             "wir dankten",
             "ihr danktet",
             "sie dankten"
+          ],
+          "perfekt": [
+            "ich habe gedankt",
+            "du hast gedankt",
+            "er/sie/es hat gedankt",
+            "wir haben gedankt",
+            "ihr habt gedankt",
+            "sie haben gedankt"
+          ],
+          "futur_1": [
+            "ich werde danken",
+            "du wirst danken",
+            "er/sie/es wird danken",
+            "wir werden danken",
+            "ihr werdet danken",
+            "sie werden danken"
+          ],
+          "konjunktiv_2": [
+            "ich würde danken",
+            "du würdest danken",
+            "er/sie/es würde danken",
+            "wir würden danken",
+            "ihr würdet danken",
+            "sie würden danken"
+          ],
+          "imperativ": [
+            "dank!",
+            "dankt!"
           ]
         },
         "examples": [
@@ -1894,6 +2650,34 @@
             "wir dauerten",
             "ihr dauertet",
             "sie dauerten"
+          ],
+          "perfekt": [
+            "ich habe gedauert",
+            "du hast gedauert",
+            "er/sie/es hat gedauert",
+            "wir haben gedauert",
+            "ihr habt gedauert",
+            "sie haben gedauert"
+          ],
+          "futur_1": [
+            "ich werde dauern",
+            "du wirst dauern",
+            "er/sie/es wird dauern",
+            "wir werden dauern",
+            "ihr werdet dauern",
+            "sie werden dauern"
+          ],
+          "konjunktiv_2": [
+            "ich würde dauern",
+            "du würdest dauern",
+            "er/sie/es würde dauern",
+            "wir würden dauern",
+            "ihr würdet dauern",
+            "sie würden dauern"
+          ],
+          "imperativ": [
+            "dauere!",
+            "dauert!"
           ]
         },
         "examples": [
@@ -1926,6 +2710,34 @@
             "wir dachten",
             "ihr dachtet",
             "sie dachten"
+          ],
+          "perfekt": [
+            "ich habe gedacht",
+            "du hast gedacht",
+            "er/sie/es hat gedacht",
+            "wir haben gedacht",
+            "ihr habt gedacht",
+            "sie haben gedacht"
+          ],
+          "futur_1": [
+            "ich werde denken",
+            "du wirst denken",
+            "er/sie/es wird denken",
+            "wir werden denken",
+            "ihr werdet denken",
+            "sie werden denken"
+          ],
+          "konjunktiv_2": [
+            "ich dächte",
+            "du dächtest",
+            "er/sie/es dächte",
+            "wir dächten",
+            "ihr dächtet",
+            "sie dächten"
+          ],
+          "imperativ": [
+            "denk!",
+            "denkt!"
           ]
         },
         "examples": [
@@ -1958,6 +2770,34 @@
             "wir duschten",
             "ihr duschtet",
             "sie duschten"
+          ],
+          "perfekt": [
+            "ich habe geduscht",
+            "du hast geduscht",
+            "er/sie/es hat geduscht",
+            "wir haben geduscht",
+            "ihr habt geduscht",
+            "sie haben geduscht"
+          ],
+          "futur_1": [
+            "ich werde duschen",
+            "du wirst duschen",
+            "er/sie/es wird duschen",
+            "wir werden duschen",
+            "ihr werdet duschen",
+            "sie werden duschen"
+          ],
+          "konjunktiv_2": [
+            "ich würde duschen",
+            "du würdest duschen",
+            "er/sie/es würde duschen",
+            "wir würden duschen",
+            "ihr würdet duschen",
+            "sie würden duschen"
+          ],
+          "imperativ": [
+            "dusch!",
+            "duscht!"
           ]
         },
         "examples": [
@@ -1990,6 +2830,34 @@
             "wir luden ein",
             "ihr ludet ein",
             "sie luden ein"
+          ],
+          "perfekt": [
+            "ich habe eingeladen",
+            "du hast eingeladen",
+            "er/sie/es hat eingeladen",
+            "wir haben eingeladen",
+            "ihr habt eingeladen",
+            "sie haben eingeladen"
+          ],
+          "futur_1": [
+            "ich werde einladen",
+            "du wirst einladen",
+            "er/sie/es wird einladen",
+            "wir werden einladen",
+            "ihr werdet einladen",
+            "sie werden einladen"
+          ],
+          "konjunktiv_2": [
+            "ich würde einladen",
+            "du würdest einladen",
+            "er/sie/es würde einladen",
+            "wir würden einladen",
+            "ihr würdet einladen",
+            "sie würden einladen"
+          ],
+          "imperativ": [
+            "lade ein!",
+            "ladet ein!"
           ]
         },
         "examples": [
@@ -2024,6 +2892,34 @@
             "wir schliefen ein",
             "ihr schlieft ein",
             "sie schliefen ein"
+          ],
+          "perfekt": [
+            "ich bin eingeschlafen",
+            "du bist eingeschlafen",
+            "er/sie/es ist eingeschlafen",
+            "wir sind eingeschlafen",
+            "ihr seid eingeschlafen",
+            "sie sind eingeschlafen"
+          ],
+          "futur_1": [
+            "ich werde einschlafen",
+            "du wirst einschlafen",
+            "er/sie/es wird einschlafen",
+            "wir werden einschlafen",
+            "ihr werdet einschlafen",
+            "sie werden einschlafen"
+          ],
+          "konjunktiv_2": [
+            "ich würde einschlafen",
+            "du würdest einschlafen",
+            "er/sie/es würde einschlafen",
+            "wir würden einschlafen",
+            "ihr würdet einschlafen",
+            "sie würden einschlafen"
+          ],
+          "imperativ": [
+            "schlaf ein!",
+            "schlaft ein!"
           ]
         },
         "examples": [
@@ -2058,6 +2954,34 @@
             "wir stiegen ein",
             "ihr stiegt ein",
             "sie stiegen ein"
+          ],
+          "perfekt": [
+            "ich bin eingestiegen",
+            "du bist eingestiegen",
+            "er/sie/es ist eingestiegen",
+            "wir sind eingestiegen",
+            "ihr seid eingestiegen",
+            "sie sind eingestiegen"
+          ],
+          "futur_1": [
+            "ich werde einsteigen",
+            "du wirst einsteigen",
+            "er/sie/es wird einsteigen",
+            "wir werden einsteigen",
+            "ihr werdet einsteigen",
+            "sie werden einsteigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde einsteigen",
+            "du würdest einsteigen",
+            "er/sie/es würde einsteigen",
+            "wir würden einsteigen",
+            "ihr würdet einsteigen",
+            "sie würden einsteigen"
+          ],
+          "imperativ": [
+            "steig ein!",
+            "steigt ein!"
           ]
         },
         "examples": [
@@ -2090,6 +3014,34 @@
             "wir entschieden",
             "ihr entschiedet",
             "sie entschieden"
+          ],
+          "perfekt": [
+            "ich habe entschieden",
+            "du hast entschieden",
+            "er/sie/es hat entschieden",
+            "wir haben entschieden",
+            "ihr habt entschieden",
+            "sie haben entschieden"
+          ],
+          "futur_1": [
+            "ich werde entscheiden",
+            "du wirst entscheiden",
+            "er/sie/es wird entscheiden",
+            "wir werden entscheiden",
+            "ihr werdet entscheiden",
+            "sie werden entscheiden"
+          ],
+          "konjunktiv_2": [
+            "ich würde entscheiden",
+            "du würdest entscheiden",
+            "er/sie/es würde entscheiden",
+            "wir würden entscheiden",
+            "ihr würdet entscheiden",
+            "sie würden entscheiden"
+          ],
+          "imperativ": [
+            "entscheid!",
+            "entscheidet!"
           ]
         },
         "examples": [
@@ -2122,6 +3074,34 @@
             "wir entschuldigten",
             "ihr entschuldigtet",
             "sie entschuldigten"
+          ],
+          "perfekt": [
+            "ich habe entschuldigt",
+            "du hast entschuldigt",
+            "er/sie/es hat entschuldigt",
+            "wir haben entschuldigt",
+            "ihr habt entschuldigt",
+            "sie haben entschuldigt"
+          ],
+          "futur_1": [
+            "ich werde entschuldigen",
+            "du wirst entschuldigen",
+            "er/sie/es wird entschuldigen",
+            "wir werden entschuldigen",
+            "ihr werdet entschuldigen",
+            "sie werden entschuldigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde entschuldigen",
+            "du würdest entschuldigen",
+            "er/sie/es würde entschuldigen",
+            "wir würden entschuldigen",
+            "ihr würdet entschuldigen",
+            "sie würden entschuldigen"
+          ],
+          "imperativ": [
+            "entschuldige!",
+            "entschuldigt!"
           ]
         },
         "examples": [
@@ -2156,6 +3136,34 @@
             "wir erinnerten",
             "ihr erinnertet",
             "sie erinnerten"
+          ],
+          "perfekt": [
+            "ich habe erinnert",
+            "du hast erinnert",
+            "er/sie/es hat erinnert",
+            "wir haben erinnert",
+            "ihr habt erinnert",
+            "sie haben erinnert"
+          ],
+          "futur_1": [
+            "ich werde erinnern",
+            "du wirst erinnern",
+            "er/sie/es wird erinnern",
+            "wir werden erinnern",
+            "ihr werdet erinnern",
+            "sie werden erinnern"
+          ],
+          "konjunktiv_2": [
+            "ich würde erinnern",
+            "du würdest erinnern",
+            "er/sie/es würde erinnern",
+            "wir würden erinnern",
+            "ihr würdet erinnern",
+            "sie würden erinnern"
+          ],
+          "imperativ": [
+            "erinnere!",
+            "erinnert!"
           ]
         },
         "examples": [
@@ -2188,6 +3196,34 @@
             "wir erklärten",
             "ihr erklärtet",
             "sie erklärten"
+          ],
+          "perfekt": [
+            "ich habe erklärt",
+            "du hast erklärt",
+            "er/sie/es hat erklärt",
+            "wir haben erklärt",
+            "ihr habt erklärt",
+            "sie haben erklärt"
+          ],
+          "futur_1": [
+            "ich werde erklären",
+            "du wirst erklären",
+            "er/sie/es wird erklären",
+            "wir werden erklären",
+            "ihr werdet erklären",
+            "sie werden erklären"
+          ],
+          "konjunktiv_2": [
+            "ich würde erklären",
+            "du würdest erklären",
+            "er/sie/es würde erklären",
+            "wir würden erklären",
+            "ihr würdet erklären",
+            "sie würden erklären"
+          ],
+          "imperativ": [
+            "erklär!",
+            "erklärt!"
           ]
         },
         "examples": [
@@ -2220,6 +3256,34 @@
             "wir erreichten",
             "ihr erreichtet",
             "sie erreichten"
+          ],
+          "perfekt": [
+            "ich habe erreicht",
+            "du hast erreicht",
+            "er/sie/es hat erreicht",
+            "wir haben erreicht",
+            "ihr habt erreicht",
+            "sie haben erreicht"
+          ],
+          "futur_1": [
+            "ich werde erreichen",
+            "du wirst erreichen",
+            "er/sie/es wird erreichen",
+            "wir werden erreichen",
+            "ihr werdet erreichen",
+            "sie werden erreichen"
+          ],
+          "konjunktiv_2": [
+            "ich würde erreichen",
+            "du würdest erreichen",
+            "er/sie/es würde erreichen",
+            "wir würden erreichen",
+            "ihr würdet erreichen",
+            "sie würden erreichen"
+          ],
+          "imperativ": [
+            "erreich!",
+            "erreicht!"
           ]
         },
         "examples": [
@@ -2252,6 +3316,34 @@
             "wir erzählten",
             "ihr erzähltet",
             "sie erzählten"
+          ],
+          "perfekt": [
+            "ich habe erzählt",
+            "du hast erzählt",
+            "er/sie/es hat erzählt",
+            "wir haben erzählt",
+            "ihr habt erzählt",
+            "sie haben erzählt"
+          ],
+          "futur_1": [
+            "ich werde erzählen",
+            "du wirst erzählen",
+            "er/sie/es wird erzählen",
+            "wir werden erzählen",
+            "ihr werdet erzählen",
+            "sie werden erzählen"
+          ],
+          "konjunktiv_2": [
+            "ich würde erzählen",
+            "du würdest erzählen",
+            "er/sie/es würde erzählen",
+            "wir würden erzählen",
+            "ihr würdet erzählen",
+            "sie würden erzählen"
+          ],
+          "imperativ": [
+            "erzähl!",
+            "erzählt!"
           ]
         },
         "examples": [
@@ -2286,6 +3378,34 @@
             "wir assen",
             "ihr asst",
             "sie assen"
+          ],
+          "perfekt": [
+            "ich habe gegessen",
+            "du hast gegessen",
+            "er/sie/es hat gegessen",
+            "wir haben gegessen",
+            "ihr habt gegessen",
+            "sie haben gegessen"
+          ],
+          "futur_1": [
+            "ich werde essen",
+            "du wirst essen",
+            "er/sie/es wird essen",
+            "wir werden essen",
+            "ihr werdet essen",
+            "sie werden essen"
+          ],
+          "konjunktiv_2": [
+            "ich würde essen",
+            "du würdest essen",
+            "er/sie/es würde essen",
+            "wir würden essen",
+            "ihr würdet essen",
+            "sie würden essen"
+          ],
+          "imperativ": [
+            "iss!",
+            "esst!"
           ]
         },
         "examples": [
@@ -2320,6 +3440,34 @@
             "wir fuhren",
             "ihr fuhrt",
             "sie fuhren"
+          ],
+          "perfekt": [
+            "ich bin gefahren",
+            "du bist gefahren",
+            "er/sie/es ist gefahren",
+            "wir sind gefahren",
+            "ihr seid gefahren",
+            "sie sind gefahren"
+          ],
+          "futur_1": [
+            "ich werde fahren",
+            "du wirst fahren",
+            "er/sie/es wird fahren",
+            "wir werden fahren",
+            "ihr werdet fahren",
+            "sie werden fahren"
+          ],
+          "konjunktiv_2": [
+            "ich würde fahren",
+            "du würdest fahren",
+            "er/sie/es würde fahren",
+            "wir würden fahren",
+            "ihr würdet fahren",
+            "sie würden fahren"
+          ],
+          "imperativ": [
+            "fahr!",
+            "fahrt!"
           ]
         },
         "examples": [
@@ -2354,6 +3502,34 @@
             "wir fielen",
             "ihr fielt",
             "sie fielen"
+          ],
+          "perfekt": [
+            "ich bin gefallen",
+            "du bist gefallen",
+            "er/sie/es ist gefallen",
+            "wir sind gefallen",
+            "ihr seid gefallen",
+            "sie sind gefallen"
+          ],
+          "futur_1": [
+            "ich werde fallen",
+            "du wirst fallen",
+            "er/sie/es wird fallen",
+            "wir werden fallen",
+            "ihr werdet fallen",
+            "sie werden fallen"
+          ],
+          "konjunktiv_2": [
+            "ich würde fallen",
+            "du würdest fallen",
+            "er/sie/es würde fallen",
+            "wir würden fallen",
+            "ihr würdet fallen",
+            "sie würden fallen"
+          ],
+          "imperativ": [
+            "fall!",
+            "fallt!"
           ]
         },
         "examples": [
@@ -2386,6 +3562,34 @@
             "wir fingen",
             "ihr fingt",
             "sie fingen"
+          ],
+          "perfekt": [
+            "ich habe gefangen",
+            "du hast gefangen",
+            "er/sie/es hat gefangen",
+            "wir haben gefangen",
+            "ihr habt gefangen",
+            "sie haben gefangen"
+          ],
+          "futur_1": [
+            "ich werde fangen",
+            "du wirst fangen",
+            "er/sie/es wird fangen",
+            "wir werden fangen",
+            "ihr werdet fangen",
+            "sie werden fangen"
+          ],
+          "konjunktiv_2": [
+            "ich würde fangen",
+            "du würdest fangen",
+            "er/sie/es würde fangen",
+            "wir würden fangen",
+            "ihr würdet fangen",
+            "sie würden fangen"
+          ],
+          "imperativ": [
+            "fang!",
+            "fangt!"
           ]
         },
         "examples": [
@@ -2421,6 +3625,34 @@
             "wir fanden",
             "ihr fandet",
             "sie fanden"
+          ],
+          "perfekt": [
+            "ich habe gefunden",
+            "du hast gefunden",
+            "er/sie/es hat gefunden",
+            "wir haben gefunden",
+            "ihr habt gefunden",
+            "sie haben gefunden"
+          ],
+          "futur_1": [
+            "ich werde finden",
+            "du wirst finden",
+            "er/sie/es wird finden",
+            "wir werden finden",
+            "ihr werdet finden",
+            "sie werden finden"
+          ],
+          "konjunktiv_2": [
+            "ich fände",
+            "du fändest",
+            "er/sie/es fände",
+            "wir fänden",
+            "ihr fändet",
+            "sie fänden"
+          ],
+          "imperativ": [
+            "finde!",
+            "findet!"
           ]
         },
         "examples": [
@@ -2453,6 +3685,34 @@
             "wir flogen",
             "ihr flogt",
             "sie flogen"
+          ],
+          "perfekt": [
+            "ich bin geflogen",
+            "du bist geflogen",
+            "er/sie/es ist geflogen",
+            "wir sind geflogen",
+            "ihr seid geflogen",
+            "sie sind geflogen"
+          ],
+          "futur_1": [
+            "ich werde fliegen",
+            "du wirst fliegen",
+            "er/sie/es wird fliegen",
+            "wir werden fliegen",
+            "ihr werdet fliegen",
+            "sie werden fliegen"
+          ],
+          "konjunktiv_2": [
+            "ich würde fliegen",
+            "du würdest fliegen",
+            "er/sie/es würde fliegen",
+            "wir würden fliegen",
+            "ihr würdet fliegen",
+            "sie würden fliegen"
+          ],
+          "imperativ": [
+            "flieg!",
+            "fliegt!"
           ]
         },
         "examples": [
@@ -2485,6 +3745,34 @@
             "wir folgten",
             "ihr folgtet",
             "sie folgten"
+          ],
+          "perfekt": [
+            "ich bin gefolgt",
+            "du bist gefolgt",
+            "er/sie/es ist gefolgt",
+            "wir sind gefolgt",
+            "ihr seid gefolgt",
+            "sie sind gefolgt"
+          ],
+          "futur_1": [
+            "ich werde folgen",
+            "du wirst folgen",
+            "er/sie/es wird folgen",
+            "wir werden folgen",
+            "ihr werdet folgen",
+            "sie werden folgen"
+          ],
+          "konjunktiv_2": [
+            "ich würde folgen",
+            "du würdest folgen",
+            "er/sie/es würde folgen",
+            "wir würden folgen",
+            "ihr würdet folgen",
+            "sie würden folgen"
+          ],
+          "imperativ": [
+            "folge!",
+            "folgt!"
           ]
         },
         "examples": [
@@ -2519,6 +3807,34 @@
             "wir fragten",
             "ihr fragtet",
             "sie fragten"
+          ],
+          "perfekt": [
+            "ich habe gefragt",
+            "du hast gefragt",
+            "er/sie/es hat gefragt",
+            "wir haben gefragt",
+            "ihr habt gefragt",
+            "sie haben gefragt"
+          ],
+          "futur_1": [
+            "ich werde fragen",
+            "du wirst fragen",
+            "er/sie/es wird fragen",
+            "wir werden fragen",
+            "ihr werdet fragen",
+            "sie werden fragen"
+          ],
+          "konjunktiv_2": [
+            "ich würde fragen",
+            "du würdest fragen",
+            "er/sie/es würde fragen",
+            "wir würden fragen",
+            "ihr würdet fragen",
+            "sie würden fragen"
+          ],
+          "imperativ": [
+            "frag!",
+            "fragt!"
           ]
         },
         "examples": [
@@ -2551,6 +3867,34 @@
             "wir fühlten",
             "ihr fühltet",
             "sie fühlten"
+          ],
+          "perfekt": [
+            "ich habe gefühlt",
+            "du hast gefühlt",
+            "er/sie/es hat gefühlt",
+            "wir haben gefühlt",
+            "ihr habt gefühlt",
+            "sie haben gefühlt"
+          ],
+          "futur_1": [
+            "ich werde fühlen",
+            "du wirst fühlen",
+            "er/sie/es wird fühlen",
+            "wir werden fühlen",
+            "ihr werdet fühlen",
+            "sie werden fühlen"
+          ],
+          "konjunktiv_2": [
+            "ich würde fühlen",
+            "du würdest fühlen",
+            "er/sie/es würde fühlen",
+            "wir würden fühlen",
+            "ihr würdet fühlen",
+            "sie würden fühlen"
+          ],
+          "imperativ": [
+            "fühl!",
+            "fühlt!"
           ]
         },
         "examples": [
@@ -2585,6 +3929,34 @@
             "wir gaben",
             "ihr gabt",
             "sie gaben"
+          ],
+          "perfekt": [
+            "ich habe gegeben",
+            "du hast gegeben",
+            "er/sie/es hat gegeben",
+            "wir haben gegeben",
+            "ihr habt gegeben",
+            "sie haben gegeben"
+          ],
+          "futur_1": [
+            "ich werde geben",
+            "du wirst geben",
+            "er/sie/es wird geben",
+            "wir werden geben",
+            "ihr werdet geben",
+            "sie werden geben"
+          ],
+          "konjunktiv_2": [
+            "ich gäbe",
+            "du gäbest",
+            "er/sie/es gäbe",
+            "wir gäben",
+            "ihr gäbet",
+            "sie gäben"
+          ],
+          "imperativ": [
+            "gib!",
+            "gebt!"
           ]
         },
         "examples": [
@@ -2617,6 +3989,34 @@
             "wir gebrauchten",
             "ihr gebrauchtet",
             "sie gebrauchten"
+          ],
+          "perfekt": [
+            "ich habe gebraucht",
+            "du hast gebraucht",
+            "er/sie/es hat gebraucht",
+            "wir haben gebraucht",
+            "ihr habt gebraucht",
+            "sie haben gebraucht"
+          ],
+          "futur_1": [
+            "ich werde gebrauchen",
+            "du wirst gebrauchen",
+            "er/sie/es wird gebrauchen",
+            "wir werden gebrauchen",
+            "ihr werdet gebrauchen",
+            "sie werden gebrauchen"
+          ],
+          "konjunktiv_2": [
+            "ich würde gebrauchen",
+            "du würdest gebrauchen",
+            "er/sie/es würde gebrauchen",
+            "wir würden gebrauchen",
+            "ihr würdet gebrauchen",
+            "sie würden gebrauchen"
+          ],
+          "imperativ": [
+            "gebrauch!",
+            "gebraucht!"
           ]
         },
         "examples": [
@@ -2651,6 +4051,34 @@
             "wir gefielen",
             "ihr gefielt",
             "sie gefielen"
+          ],
+          "perfekt": [
+            "ich habe gefallen",
+            "du hast gefallen",
+            "er/sie/es hat gefallen",
+            "wir haben gefallen",
+            "ihr habt gefallen",
+            "sie haben gefallen"
+          ],
+          "futur_1": [
+            "ich werde gefallen",
+            "du wirst gefallen",
+            "er/sie/es wird gefallen",
+            "wir werden gefallen",
+            "ihr werdet gefallen",
+            "sie werden gefallen"
+          ],
+          "konjunktiv_2": [
+            "ich würde gefallen",
+            "du würdest gefallen",
+            "er/sie/es würde gefallen",
+            "wir würden gefallen",
+            "ihr würdet gefallen",
+            "sie würden gefallen"
+          ],
+          "imperativ": [
+            "gefall!",
+            "gefallt!"
           ]
         },
         "examples": [
@@ -2686,6 +4114,34 @@
             "wir gingen",
             "ihr gingt",
             "sie gingen"
+          ],
+          "perfekt": [
+            "ich bin gegangen",
+            "du bist gegangen",
+            "er/sie/es ist gegangen",
+            "wir sind gegangen",
+            "ihr seid gegangen",
+            "sie sind gegangen"
+          ],
+          "futur_1": [
+            "ich werde gehen",
+            "du wirst gehen",
+            "er/sie/es wird gehen",
+            "wir werden gehen",
+            "ihr werdet gehen",
+            "sie werden gehen"
+          ],
+          "konjunktiv_2": [
+            "ich ginge",
+            "du gingest",
+            "er/sie/es ginge",
+            "wir gingen",
+            "ihr ginget",
+            "sie gingen"
+          ],
+          "imperativ": [
+            "geh!",
+            "geht!"
           ]
         },
         "examples": [
@@ -2718,6 +4174,34 @@
             "wir gehörten",
             "ihr gehörtet",
             "sie gehörten"
+          ],
+          "perfekt": [
+            "ich habe gehört",
+            "du hast gehört",
+            "er/sie/es hat gehört",
+            "wir haben gehört",
+            "ihr habt gehört",
+            "sie haben gehört"
+          ],
+          "futur_1": [
+            "ich werde gehören",
+            "du wirst gehören",
+            "er/sie/es wird gehören",
+            "wir werden gehören",
+            "ihr werdet gehören",
+            "sie werden gehören"
+          ],
+          "konjunktiv_2": [
+            "ich würde gehören",
+            "du würdest gehören",
+            "er/sie/es würde gehören",
+            "wir würden gehören",
+            "ihr würdet gehören",
+            "sie würden gehören"
+          ],
+          "imperativ": [
+            "gehör!",
+            "gehört!"
           ]
         },
         "examples": [
@@ -2750,6 +4234,34 @@
             "wir geschahen",
             "ihr geschaht",
             "sie geschahen"
+          ],
+          "perfekt": [
+            "ich bin geschehen",
+            "du bist geschehen",
+            "er/sie/es ist geschehen",
+            "wir sind geschehen",
+            "ihr seid geschehen",
+            "sie sind geschehen"
+          ],
+          "futur_1": [
+            "ich werde geschehen",
+            "du wirst geschehen",
+            "er/sie/es wird geschehen",
+            "wir werden geschehen",
+            "ihr werdet geschehen",
+            "sie werden geschehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde geschehen",
+            "du würdest geschehen",
+            "er/sie/es würde geschehen",
+            "wir würden geschehen",
+            "ihr würdet geschehen",
+            "sie würden geschehen"
+          ],
+          "imperativ": [
+            "gescheh!",
+            "gescheht!"
           ]
         },
         "examples": [
@@ -2784,6 +4296,34 @@
             "wir gewannen",
             "ihr gewannt",
             "sie gewannen"
+          ],
+          "perfekt": [
+            "ich habe gewonnen",
+            "du hast gewonnen",
+            "er/sie/es hat gewonnen",
+            "wir haben gewonnen",
+            "ihr habt gewonnen",
+            "sie haben gewonnen"
+          ],
+          "futur_1": [
+            "ich werde gewinnen",
+            "du wirst gewinnen",
+            "er/sie/es wird gewinnen",
+            "wir werden gewinnen",
+            "ihr werdet gewinnen",
+            "sie werden gewinnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde gewinnen",
+            "du würdest gewinnen",
+            "er/sie/es würde gewinnen",
+            "wir würden gewinnen",
+            "ihr würdet gewinnen",
+            "sie würden gewinnen"
+          ],
+          "imperativ": [
+            "gewinn!",
+            "gewinnt!"
           ]
         },
         "examples": [
@@ -2818,6 +4358,34 @@
             "wir glaubten",
             "ihr glaubtet",
             "sie glaubten"
+          ],
+          "perfekt": [
+            "ich habe geglaubt",
+            "du hast geglaubt",
+            "er/sie/es hat geglaubt",
+            "wir haben geglaubt",
+            "ihr habt geglaubt",
+            "sie haben geglaubt"
+          ],
+          "futur_1": [
+            "ich werde glauben",
+            "du wirst glauben",
+            "er/sie/es wird glauben",
+            "wir werden glauben",
+            "ihr werdet glauben",
+            "sie werden glauben"
+          ],
+          "konjunktiv_2": [
+            "ich würde glauben",
+            "du würdest glauben",
+            "er/sie/es würde glauben",
+            "wir würden glauben",
+            "ihr würdet glauben",
+            "sie würden glauben"
+          ],
+          "imperativ": [
+            "glaub!",
+            "glaubt!"
           ]
         },
         "examples": [
@@ -2850,6 +4418,34 @@
             "wir hatten",
             "ihr hattet",
             "sie hatten"
+          ],
+          "perfekt": [
+            "ich habe gehabt",
+            "du hast gehabt",
+            "er/sie/es hat gehabt",
+            "wir haben gehabt",
+            "ihr habt gehabt",
+            "sie haben gehabt"
+          ],
+          "futur_1": [
+            "ich werde haben",
+            "du wirst haben",
+            "er/sie/es wird haben",
+            "wir werden haben",
+            "ihr werdet haben",
+            "sie werden haben"
+          ],
+          "konjunktiv_2": [
+            "ich hätte",
+            "du hättest",
+            "er/sie/es hätte",
+            "wir hätten",
+            "ihr hättet",
+            "sie hätten"
+          ],
+          "imperativ": [
+            "habe!",
+            "habt!"
           ]
         },
         "examples": [
@@ -2882,6 +4478,34 @@
             "wir hielten",
             "ihr hieltet",
             "sie hielten"
+          ],
+          "perfekt": [
+            "ich habe gehalten",
+            "du hast gehalten",
+            "er/sie/es hat gehalten",
+            "wir haben gehalten",
+            "ihr habt gehalten",
+            "sie haben gehalten"
+          ],
+          "futur_1": [
+            "ich werde halten",
+            "du wirst halten",
+            "er/sie/es wird halten",
+            "wir werden halten",
+            "ihr werdet halten",
+            "sie werden halten"
+          ],
+          "konjunktiv_2": [
+            "ich würde halten",
+            "du würdest halten",
+            "er/sie/es würde halten",
+            "wir würden halten",
+            "ihr würdet halten",
+            "sie würden halten"
+          ],
+          "imperativ": [
+            "halt!",
+            "haltet!"
           ]
         },
         "examples": [
@@ -2914,6 +4538,34 @@
             "wir hießen",
             "ihr hießt",
             "sie hießen"
+          ],
+          "perfekt": [
+            "ich habe geheißen",
+            "du hast geheißen",
+            "er/sie/es hat geheißen",
+            "wir haben geheißen",
+            "ihr habt geheißen",
+            "sie haben geheißen"
+          ],
+          "futur_1": [
+            "ich werde heißen",
+            "du wirst heißen",
+            "er/sie/es wird heißen",
+            "wir werden heißen",
+            "ihr werdet heißen",
+            "sie werden heißen"
+          ],
+          "konjunktiv_2": [
+            "ich würde heißen",
+            "du würdest heißen",
+            "er/sie/es würde heißen",
+            "wir würden heißen",
+            "ihr würdet heißen",
+            "sie würden heißen"
+          ],
+          "imperativ": [
+            "heiß!",
+            "heißt!"
           ]
         },
         "examples": [
@@ -2946,6 +4598,34 @@
             "wir halfen",
             "ihr halft",
             "sie halfen"
+          ],
+          "perfekt": [
+            "ich habe geholfen",
+            "du hast geholfen",
+            "er/sie/es hat geholfen",
+            "wir haben geholfen",
+            "ihr habt geholfen",
+            "sie haben geholfen"
+          ],
+          "futur_1": [
+            "ich werde helfen",
+            "du wirst helfen",
+            "er/sie/es wird helfen",
+            "wir werden helfen",
+            "ihr werdet helfen",
+            "sie werden helfen"
+          ],
+          "konjunktiv_2": [
+            "ich würde helfen",
+            "du würdest helfen",
+            "er/sie/es würde helfen",
+            "wir würden helfen",
+            "ihr würdet helfen",
+            "sie würden helfen"
+          ],
+          "imperativ": [
+            "hilf!",
+            "helft!"
           ]
         },
         "examples": [
@@ -2980,6 +4660,34 @@
             "wir hofften",
             "ihr hofftet",
             "sie hofften"
+          ],
+          "perfekt": [
+            "ich habe gehofft",
+            "du hast gehofft",
+            "er/sie/es hat gehofft",
+            "wir haben gehofft",
+            "ihr habt gehofft",
+            "sie haben gehofft"
+          ],
+          "futur_1": [
+            "ich werde hoffen",
+            "du wirst hoffen",
+            "er/sie/es wird hoffen",
+            "wir werden hoffen",
+            "ihr werdet hoffen",
+            "sie werden hoffen"
+          ],
+          "konjunktiv_2": [
+            "ich würde hoffen",
+            "du würdest hoffen",
+            "er/sie/es würde hoffen",
+            "wir würden hoffen",
+            "ihr würdet hoffen",
+            "sie würden hoffen"
+          ],
+          "imperativ": [
+            "hoff!",
+            "hofft!"
           ]
         },
         "examples": [
@@ -3012,6 +4720,34 @@
             "wir hörten",
             "ihr hörtet",
             "sie hörten"
+          ],
+          "perfekt": [
+            "ich habe gehört",
+            "du hast gehört",
+            "er/sie/es hat gehört",
+            "wir haben gehört",
+            "ihr habt gehört",
+            "sie haben gehört"
+          ],
+          "futur_1": [
+            "ich werde hören",
+            "du wirst hören",
+            "er/sie/es wird hören",
+            "wir werden hören",
+            "ihr werdet hören",
+            "sie werden hören"
+          ],
+          "konjunktiv_2": [
+            "ich würde hören",
+            "du würdest hören",
+            "er/sie/es würde hören",
+            "wir würden hören",
+            "ihr würdet hören",
+            "sie würden hören"
+          ],
+          "imperativ": [
+            "hör!",
+            "hört!"
           ]
         },
         "examples": [
@@ -3046,6 +4782,34 @@
             "wir kauften",
             "ihr kauftet",
             "sie kauften"
+          ],
+          "perfekt": [
+            "ich habe gekauft",
+            "du hast gekauft",
+            "er/sie/es hat gekauft",
+            "wir haben gekauft",
+            "ihr habt gekauft",
+            "sie haben gekauft"
+          ],
+          "futur_1": [
+            "ich werde kaufen",
+            "du wirst kaufen",
+            "er/sie/es wird kaufen",
+            "wir werden kaufen",
+            "ihr werdet kaufen",
+            "sie werden kaufen"
+          ],
+          "konjunktiv_2": [
+            "ich würde kaufen",
+            "du würdest kaufen",
+            "er/sie/es würde kaufen",
+            "wir würden kaufen",
+            "ihr würdet kaufen",
+            "sie würden kaufen"
+          ],
+          "imperativ": [
+            "kauf!",
+            "kauft!"
           ]
         },
         "examples": [
@@ -3078,6 +4842,34 @@
             "wir kannten",
             "ihr kanntet",
             "sie kannten"
+          ],
+          "perfekt": [
+            "ich habe gekannt",
+            "du hast gekannt",
+            "er/sie/es hat gekannt",
+            "wir haben gekannt",
+            "ihr habt gekannt",
+            "sie haben gekannt"
+          ],
+          "futur_1": [
+            "ich werde kennen",
+            "du wirst kennen",
+            "er/sie/es wird kennen",
+            "wir werden kennen",
+            "ihr werdet kennen",
+            "sie werden kennen"
+          ],
+          "konjunktiv_2": [
+            "ich würde kennen",
+            "du würdest kennen",
+            "er/sie/es würde kennen",
+            "wir würden kennen",
+            "ihr würdet kennen",
+            "sie würden kennen"
+          ],
+          "imperativ": [
+            "kenne!",
+            "kennt!"
           ]
         },
         "examples": [
@@ -3110,6 +4902,34 @@
             "wir kochten",
             "ihr kochtet",
             "sie kochten"
+          ],
+          "perfekt": [
+            "ich habe gekocht",
+            "du hast gekocht",
+            "er/sie/es hat gekocht",
+            "wir haben gekocht",
+            "ihr habt gekocht",
+            "sie haben gekocht"
+          ],
+          "futur_1": [
+            "ich werde kochen",
+            "du wirst kochen",
+            "er/sie/es wird kochen",
+            "wir werden kochen",
+            "ihr werdet kochen",
+            "sie werden kochen"
+          ],
+          "konjunktiv_2": [
+            "ich würde kochen",
+            "du würdest kochen",
+            "er/sie/es würde kochen",
+            "wir würden kochen",
+            "ihr würdet kochen",
+            "sie würden kochen"
+          ],
+          "imperativ": [
+            "koch!",
+            "kocht!"
           ]
         },
         "examples": [
@@ -3144,6 +4964,34 @@
             "wir kamen",
             "ihr kamt",
             "sie kamen"
+          ],
+          "perfekt": [
+            "ich bin gekommen",
+            "du bist gekommen",
+            "er/sie/es ist gekommen",
+            "wir sind gekommen",
+            "ihr seid gekommen",
+            "sie sind gekommen"
+          ],
+          "futur_1": [
+            "ich werde kommen",
+            "du wirst kommen",
+            "er/sie/es wird kommen",
+            "wir werden kommen",
+            "ihr werdet kommen",
+            "sie werden kommen"
+          ],
+          "konjunktiv_2": [
+            "ich käme",
+            "du kämest",
+            "er/sie/es käme",
+            "wir kämen",
+            "ihr kämet",
+            "sie kämen"
+          ],
+          "imperativ": [
+            "komm!",
+            "kommt!"
           ]
         },
         "examples": [
@@ -3176,6 +5024,34 @@
             "wir kosteten",
             "ihr kostetet",
             "sie kosteten"
+          ],
+          "perfekt": [
+            "ich habe gekostet",
+            "du hast gekostet",
+            "er/sie/es hat gekostet",
+            "wir haben gekostet",
+            "ihr habt gekostet",
+            "sie haben gekostet"
+          ],
+          "futur_1": [
+            "ich werde kosten",
+            "du wirst kosten",
+            "er/sie/es wird kosten",
+            "wir werden kosten",
+            "ihr werdet kosten",
+            "sie werden kosten"
+          ],
+          "konjunktiv_2": [
+            "ich würde kosten",
+            "du würdest kosten",
+            "er/sie/es würde kosten",
+            "wir würden kosten",
+            "ihr würdet kosten",
+            "sie würden kosten"
+          ],
+          "imperativ": [
+            "koste!",
+            "kostet!"
           ]
         },
         "examples": [
@@ -3210,6 +5086,34 @@
             "wir lachten",
             "ihr lachtet",
             "sie lachten"
+          ],
+          "perfekt": [
+            "ich habe gelacht",
+            "du hast gelacht",
+            "er/sie/es hat gelacht",
+            "wir haben gelacht",
+            "ihr habt gelacht",
+            "sie haben gelacht"
+          ],
+          "futur_1": [
+            "ich werde lachen",
+            "du wirst lachen",
+            "er/sie/es wird lachen",
+            "wir werden lachen",
+            "ihr werdet lachen",
+            "sie werden lachen"
+          ],
+          "konjunktiv_2": [
+            "ich würde lachen",
+            "du würdest lachen",
+            "er/sie/es würde lachen",
+            "wir würden lachen",
+            "ihr würdet lachen",
+            "sie würden lachen"
+          ],
+          "imperativ": [
+            "lach!",
+            "lacht!"
           ]
         },
         "examples": [
@@ -3245,6 +5149,34 @@
             "wir liefen",
             "ihr lieft",
             "sie liefen"
+          ],
+          "perfekt": [
+            "ich bin gelaufen",
+            "du bist gelaufen",
+            "er/sie/es ist gelaufen",
+            "wir sind gelaufen",
+            "ihr seid gelaufen",
+            "sie sind gelaufen"
+          ],
+          "futur_1": [
+            "ich werde laufen",
+            "du wirst laufen",
+            "er/sie/es wird laufen",
+            "wir werden laufen",
+            "ihr werdet laufen",
+            "sie werden laufen"
+          ],
+          "konjunktiv_2": [
+            "ich würde laufen",
+            "du würdest laufen",
+            "er/sie/es würde laufen",
+            "wir würden laufen",
+            "ihr würdet laufen",
+            "sie würden laufen"
+          ],
+          "imperativ": [
+            "lauf!",
+            "lauft!"
           ]
         },
         "examples": [
@@ -3277,6 +5209,34 @@
             "wir legten",
             "ihr legtet",
             "sie legten"
+          ],
+          "perfekt": [
+            "ich habe gelegt",
+            "du hast gelegt",
+            "er/sie/es hat gelegt",
+            "wir haben gelegt",
+            "ihr habt gelegt",
+            "sie haben gelegt"
+          ],
+          "futur_1": [
+            "ich werde legen",
+            "du wirst legen",
+            "er/sie/es wird legen",
+            "wir werden legen",
+            "ihr werdet legen",
+            "sie werden legen"
+          ],
+          "konjunktiv_2": [
+            "ich würde legen",
+            "du würdest legen",
+            "er/sie/es würde legen",
+            "wir würden legen",
+            "ihr würdet legen",
+            "sie würden legen"
+          ],
+          "imperativ": [
+            "leg!",
+            "legt!"
           ]
         },
         "examples": [
@@ -3311,6 +5271,34 @@
             "wir lernten",
             "ihr lerntet",
             "sie lernten"
+          ],
+          "perfekt": [
+            "ich habe gelernt",
+            "du hast gelernt",
+            "er/sie/es hat gelernt",
+            "wir haben gelernt",
+            "ihr habt gelernt",
+            "sie haben gelernt"
+          ],
+          "futur_1": [
+            "ich werde lernen",
+            "du wirst lernen",
+            "er/sie/es wird lernen",
+            "wir werden lernen",
+            "ihr werdet lernen",
+            "sie werden lernen"
+          ],
+          "konjunktiv_2": [
+            "ich würde lernen",
+            "du würdest lernen",
+            "er/sie/es würde lernen",
+            "wir würden lernen",
+            "ihr würdet lernen",
+            "sie würden lernen"
+          ],
+          "imperativ": [
+            "lerne!",
+            "lernt!"
           ]
         },
         "examples": [
@@ -3343,6 +5331,34 @@
             "wir lasen",
             "ihr last",
             "sie lasen"
+          ],
+          "perfekt": [
+            "ich habe gelesen",
+            "du hast gelesen",
+            "er/sie/es hat gelesen",
+            "wir haben gelesen",
+            "ihr habt gelesen",
+            "sie haben gelesen"
+          ],
+          "futur_1": [
+            "ich werde lesen",
+            "du wirst lesen",
+            "er/sie/es wird lesen",
+            "wir werden lesen",
+            "ihr werdet lesen",
+            "sie werden lesen"
+          ],
+          "konjunktiv_2": [
+            "ich würde lesen",
+            "du würdest lesen",
+            "er/sie/es würde lesen",
+            "wir würden lesen",
+            "ihr würdet lesen",
+            "sie würden lesen"
+          ],
+          "imperativ": [
+            "lies!",
+            "lest!"
           ]
         },
         "examples": [
@@ -3377,6 +5393,34 @@
             "wir lagen",
             "ihr lagt",
             "sie lagen"
+          ],
+          "perfekt": [
+            "ich habe gelegen",
+            "du hast gelegen",
+            "er/sie/es hat gelegen",
+            "wir haben gelegen",
+            "ihr habt gelegen",
+            "sie haben gelegen"
+          ],
+          "futur_1": [
+            "ich werde liegen",
+            "du wirst liegen",
+            "er/sie/es wird liegen",
+            "wir werden liegen",
+            "ihr werdet liegen",
+            "sie werden liegen"
+          ],
+          "konjunktiv_2": [
+            "ich würde liegen",
+            "du würdest liegen",
+            "er/sie/es würde liegen",
+            "wir würden liegen",
+            "ihr würdet liegen",
+            "sie würden liegen"
+          ],
+          "imperativ": [
+            "lieg!",
+            "liegt!"
           ]
         },
         "examples": [
@@ -3409,6 +5453,34 @@
             "wir machten",
             "ihr machtet",
             "sie machten"
+          ],
+          "perfekt": [
+            "ich habe gemacht",
+            "du hast gemacht",
+            "er/sie/es hat gemacht",
+            "wir haben gemacht",
+            "ihr habt gemacht",
+            "sie haben gemacht"
+          ],
+          "futur_1": [
+            "ich werde machen",
+            "du wirst machen",
+            "er/sie/es wird machen",
+            "wir werden machen",
+            "ihr werdet machen",
+            "sie werden machen"
+          ],
+          "konjunktiv_2": [
+            "ich würde machen",
+            "du würdest machen",
+            "er/sie/es würde machen",
+            "wir würden machen",
+            "ihr würdet machen",
+            "sie würden machen"
+          ],
+          "imperativ": [
+            "mach!",
+            "macht!"
           ]
         },
         "examples": [
@@ -3441,6 +5513,34 @@
             "wir malten",
             "ihr maltet",
             "sie malten"
+          ],
+          "perfekt": [
+            "ich habe gemalt",
+            "du hast gemalt",
+            "er/sie/es hat gemalt",
+            "wir haben gemalt",
+            "ihr habt gemalt",
+            "sie haben gemalt"
+          ],
+          "futur_1": [
+            "ich werde malen",
+            "du wirst malen",
+            "er/sie/es wird malen",
+            "wir werden malen",
+            "ihr werdet malen",
+            "sie werden malen"
+          ],
+          "konjunktiv_2": [
+            "ich würde malen",
+            "du würdest malen",
+            "er/sie/es würde malen",
+            "wir würden malen",
+            "ihr würdet malen",
+            "sie würden malen"
+          ],
+          "imperativ": [
+            "mal!",
+            "malt!"
           ]
         },
         "examples": [
@@ -3475,6 +5575,34 @@
             "wir mieteten",
             "ihr mietetet",
             "sie mieteten"
+          ],
+          "perfekt": [
+            "ich habe gemietet",
+            "du hast gemietet",
+            "er/sie/es hat gemietet",
+            "wir haben gemietet",
+            "ihr habt gemietet",
+            "sie haben gemietet"
+          ],
+          "futur_1": [
+            "ich werde mieten",
+            "du wirst mieten",
+            "er/sie/es wird mieten",
+            "wir werden mieten",
+            "ihr werdet mieten",
+            "sie werden mieten"
+          ],
+          "konjunktiv_2": [
+            "ich würde mieten",
+            "du würdest mieten",
+            "er/sie/es würde mieten",
+            "wir würden mieten",
+            "ihr würdet mieten",
+            "sie würden mieten"
+          ],
+          "imperativ": [
+            "miete!",
+            "mietet!"
           ]
         },
         "examples": [
@@ -3507,6 +5635,34 @@
             "wir kamen mit",
             "ihr kamt mit",
             "sie kamen mit"
+          ],
+          "perfekt": [
+            "ich bin mitgekommen",
+            "du bist mitgekommen",
+            "er/sie/es ist mitgekommen",
+            "wir sind mitgekommen",
+            "ihr seid mitgekommen",
+            "sie sind mitgekommen"
+          ],
+          "futur_1": [
+            "ich werde mitkommen",
+            "du wirst mitkommen",
+            "er/sie/es wird mitkommen",
+            "wir werden mitkommen",
+            "ihr werdet mitkommen",
+            "sie werden mitkommen"
+          ],
+          "konjunktiv_2": [
+            "ich würde mitkommen",
+            "du würdest mitkommen",
+            "er/sie/es würde mitkommen",
+            "wir würden mitkommen",
+            "ihr würdet mitkommen",
+            "sie würden mitkommen"
+          ],
+          "imperativ": [
+            "komm mit!",
+            "kommt mit!"
           ]
         },
         "examples": [
@@ -3539,6 +5695,34 @@
             "wir nahmen mit",
             "ihr nahmt mit",
             "sie nahmen mit"
+          ],
+          "perfekt": [
+            "ich habe mitgenommen",
+            "du hast mitgenommen",
+            "er/sie/es hat mitgenommen",
+            "wir haben mitgenommen",
+            "ihr habt mitgenommen",
+            "sie haben mitgenommen"
+          ],
+          "futur_1": [
+            "ich werde mitnehmen",
+            "du wirst mitnehmen",
+            "er/sie/es wird mitnehmen",
+            "wir werden mitnehmen",
+            "ihr werdet mitnehmen",
+            "sie werden mitnehmen"
+          ],
+          "konjunktiv_2": [
+            "ich würde mitnehmen",
+            "du würdest mitnehmen",
+            "er/sie/es würde mitnehmen",
+            "wir würden mitnehmen",
+            "ihr würdet mitnehmen",
+            "sie würden mitnehmen"
+          ],
+          "imperativ": [
+            "nimm mit!",
+            "nehmt mit!"
           ]
         },
         "examples": [
@@ -3573,6 +5757,34 @@
             "wir nahmen",
             "ihr nahmt",
             "sie nahmen"
+          ],
+          "perfekt": [
+            "ich habe genommen",
+            "du hast genommen",
+            "er/sie/es hat genommen",
+            "wir haben genommen",
+            "ihr habt genommen",
+            "sie haben genommen"
+          ],
+          "futur_1": [
+            "ich werde nehmen",
+            "du wirst nehmen",
+            "er/sie/es wird nehmen",
+            "wir werden nehmen",
+            "ihr werdet nehmen",
+            "sie werden nehmen"
+          ],
+          "konjunktiv_2": [
+            "ich würde nehmen",
+            "du würdest nehmen",
+            "er/sie/es würde nehmen",
+            "wir würden nehmen",
+            "ihr würdet nehmen",
+            "sie würden nehmen"
+          ],
+          "imperativ": [
+            "nimm!",
+            "nehmt!"
           ]
         },
         "examples": [
@@ -3607,6 +5819,34 @@
             "wir öffneten",
             "ihr öffnetet",
             "sie öffneten"
+          ],
+          "perfekt": [
+            "ich habe geöffnet",
+            "du hast geöffnet",
+            "er/sie/es hat geöffnet",
+            "wir haben geöffnet",
+            "ihr habt geöffnet",
+            "sie haben geöffnet"
+          ],
+          "futur_1": [
+            "ich werde öffnen",
+            "du wirst öffnen",
+            "er/sie/es wird öffnen",
+            "wir werden öffnen",
+            "ihr werdet öffnen",
+            "sie werden öffnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde öffnen",
+            "du würdest öffnen",
+            "er/sie/es würde öffnen",
+            "wir würden öffnen",
+            "ihr würdet öffnen",
+            "sie würden öffnen"
+          ],
+          "imperativ": [
+            "öffne!",
+            "öffnet!"
           ]
         },
         "examples": [
@@ -3639,6 +5879,34 @@
             "wir passten",
             "ihr passtet",
             "sie passten"
+          ],
+          "perfekt": [
+            "ich habe gepasst",
+            "du hast gepasst",
+            "er/sie/es hat gepasst",
+            "wir haben gepasst",
+            "ihr habt gepasst",
+            "sie haben gepasst"
+          ],
+          "futur_1": [
+            "ich werde passen",
+            "du wirst passen",
+            "er/sie/es wird passen",
+            "wir werden passen",
+            "ihr werdet passen",
+            "sie werden passen"
+          ],
+          "konjunktiv_2": [
+            "ich würde passen",
+            "du würdest passen",
+            "er/sie/es würde passen",
+            "wir würden passen",
+            "ihr würdet passen",
+            "sie würden passen"
+          ],
+          "imperativ": [
+            "pass!",
+            "passt!"
           ]
         },
         "examples": [
@@ -3671,6 +5939,34 @@
             "wir passierten",
             "ihr passiertet",
             "sie passierten"
+          ],
+          "perfekt": [
+            "ich bin passiert",
+            "du bist passiert",
+            "er/sie/es ist passiert",
+            "wir sind passiert",
+            "ihr seid passiert",
+            "sie sind passiert"
+          ],
+          "futur_1": [
+            "ich werde passieren",
+            "du wirst passieren",
+            "er/sie/es wird passieren",
+            "wir werden passieren",
+            "ihr werdet passieren",
+            "sie werden passieren"
+          ],
+          "konjunktiv_2": [
+            "ich würde passieren",
+            "du würdest passieren",
+            "er/sie/es würde passieren",
+            "wir würden passieren",
+            "ihr würdet passieren",
+            "sie würden passieren"
+          ],
+          "imperativ": [
+            "passiere!",
+            "passiert!"
           ]
         },
         "examples": [
@@ -3703,6 +5999,34 @@
             "wir prüften",
             "ihr prüftet",
             "sie prüften"
+          ],
+          "perfekt": [
+            "ich habe geprüft",
+            "du hast geprüft",
+            "er/sie/es hat geprüft",
+            "wir haben geprüft",
+            "ihr habt geprüft",
+            "sie haben geprüft"
+          ],
+          "futur_1": [
+            "ich werde prüfen",
+            "du wirst prüfen",
+            "er/sie/es wird prüfen",
+            "wir werden prüfen",
+            "ihr werdet prüfen",
+            "sie werden prüfen"
+          ],
+          "konjunktiv_2": [
+            "ich würde prüfen",
+            "du würdest prüfen",
+            "er/sie/es würde prüfen",
+            "wir würden prüfen",
+            "ihr würdet prüfen",
+            "sie würden prüfen"
+          ],
+          "imperativ": [
+            "prüf!",
+            "prüft!"
           ]
         },
         "examples": [
@@ -3735,6 +6059,34 @@
             "wir putzten",
             "ihr putztet",
             "sie putzten"
+          ],
+          "perfekt": [
+            "ich habe geputzt",
+            "du hast geputzt",
+            "er/sie/es hat geputzt",
+            "wir haben geputzt",
+            "ihr habt geputzt",
+            "sie haben geputzt"
+          ],
+          "futur_1": [
+            "ich werde putzen",
+            "du wirst putzen",
+            "er/sie/es wird putzen",
+            "wir werden putzen",
+            "ihr werdet putzen",
+            "sie werden putzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde putzen",
+            "du würdest putzen",
+            "er/sie/es würde putzen",
+            "wir würden putzen",
+            "ihr würdet putzen",
+            "sie würden putzen"
+          ],
+          "imperativ": [
+            "putz!",
+            "putzt!"
           ]
         },
         "examples": [
@@ -3767,6 +6119,34 @@
             "wir rechneten",
             "ihr rechnetet",
             "sie rechneten"
+          ],
+          "perfekt": [
+            "ich habe gerechnet",
+            "du hast gerechnet",
+            "er/sie/es hat gerechnet",
+            "wir haben gerechnet",
+            "ihr habt gerechnet",
+            "sie haben gerechnet"
+          ],
+          "futur_1": [
+            "ich werde rechnen",
+            "du wirst rechnen",
+            "er/sie/es wird rechnen",
+            "wir werden rechnen",
+            "ihr werdet rechnen",
+            "sie werden rechnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde rechnen",
+            "du würdest rechnen",
+            "er/sie/es würde rechnen",
+            "wir würden rechnen",
+            "ihr würdet rechnen",
+            "sie würden rechnen"
+          ],
+          "imperativ": [
+            "rechne!",
+            "rechnet!"
           ]
         },
         "examples": [
@@ -3799,6 +6179,34 @@
             "wir reisten",
             "ihr reistet",
             "sie reisten"
+          ],
+          "perfekt": [
+            "ich bin gereist",
+            "du bist gereist",
+            "er/sie/es ist gereist",
+            "wir sind gereist",
+            "ihr seid gereist",
+            "sie sind gereist"
+          ],
+          "futur_1": [
+            "ich werde reisen",
+            "du wirst reisen",
+            "er/sie/es wird reisen",
+            "wir werden reisen",
+            "ihr werdet reisen",
+            "sie werden reisen"
+          ],
+          "konjunktiv_2": [
+            "ich würde reisen",
+            "du würdest reisen",
+            "er/sie/es würde reisen",
+            "wir würden reisen",
+            "ihr würdet reisen",
+            "sie würden reisen"
+          ],
+          "imperativ": [
+            "reise!",
+            "reist!"
           ]
         },
         "examples": [
@@ -3831,6 +6239,34 @@
             "wir rochen",
             "ihr rocht",
             "sie rochen"
+          ],
+          "perfekt": [
+            "ich habe gerochen",
+            "du hast gerochen",
+            "er/sie/es hat gerochen",
+            "wir haben gerochen",
+            "ihr habt gerochen",
+            "sie haben gerochen"
+          ],
+          "futur_1": [
+            "ich werde riechen",
+            "du wirst riechen",
+            "er/sie/es wird riechen",
+            "wir werden riechen",
+            "ihr werdet riechen",
+            "sie werden riechen"
+          ],
+          "konjunktiv_2": [
+            "ich würde riechen",
+            "du würdest riechen",
+            "er/sie/es würde riechen",
+            "wir würden riechen",
+            "ihr würdet riechen",
+            "sie würden riechen"
+          ],
+          "imperativ": [
+            "riech!",
+            "riecht!"
           ]
         },
         "examples": [
@@ -3863,6 +6299,34 @@
             "wir riefen",
             "ihr rieft",
             "sie riefen"
+          ],
+          "perfekt": [
+            "ich habe gerufen",
+            "du hast gerufen",
+            "er/sie/es hat gerufen",
+            "wir haben gerufen",
+            "ihr habt gerufen",
+            "sie haben gerufen"
+          ],
+          "futur_1": [
+            "ich werde rufen",
+            "du wirst rufen",
+            "er/sie/es wird rufen",
+            "wir werden rufen",
+            "ihr werdet rufen",
+            "sie werden rufen"
+          ],
+          "konjunktiv_2": [
+            "ich würde rufen",
+            "du würdest rufen",
+            "er/sie/es würde rufen",
+            "wir würden rufen",
+            "ihr würdet rufen",
+            "sie würden rufen"
+          ],
+          "imperativ": [
+            "ruf!",
+            "ruft!"
           ]
         },
         "examples": [
@@ -3897,6 +6361,34 @@
             "wir sagten",
             "ihr sagtet",
             "sie sagten"
+          ],
+          "perfekt": [
+            "ich habe gesagt",
+            "du hast gesagt",
+            "er/sie/es hat gesagt",
+            "wir haben gesagt",
+            "ihr habt gesagt",
+            "sie haben gesagt"
+          ],
+          "futur_1": [
+            "ich werde sagen",
+            "du wirst sagen",
+            "er/sie/es wird sagen",
+            "wir werden sagen",
+            "ihr werdet sagen",
+            "sie werden sagen"
+          ],
+          "konjunktiv_2": [
+            "ich würde sagen",
+            "du würdest sagen",
+            "er/sie/es würde sagen",
+            "wir würden sagen",
+            "ihr würdet sagen",
+            "sie würden sagen"
+          ],
+          "imperativ": [
+            "sag!",
+            "sagt!"
           ]
         },
         "examples": [
@@ -3929,6 +6421,34 @@
             "wir schauten",
             "ihr schautet",
             "sie schauten"
+          ],
+          "perfekt": [
+            "ich habe geschaut",
+            "du hast geschaut",
+            "er/sie/es hat geschaut",
+            "wir haben geschaut",
+            "ihr habt geschaut",
+            "sie haben geschaut"
+          ],
+          "futur_1": [
+            "ich werde schauen",
+            "du wirst schauen",
+            "er/sie/es wird schauen",
+            "wir werden schauen",
+            "ihr werdet schauen",
+            "sie werden schauen"
+          ],
+          "konjunktiv_2": [
+            "ich würde schauen",
+            "du würdest schauen",
+            "er/sie/es würde schauen",
+            "wir würden schauen",
+            "ihr würdet schauen",
+            "sie würden schauen"
+          ],
+          "imperativ": [
+            "schau!",
+            "schaut!"
           ]
         },
         "examples": [
@@ -3961,6 +6481,34 @@
             "wir schienen",
             "ihr schient",
             "sie schienen"
+          ],
+          "perfekt": [
+            "ich habe geschienen",
+            "du hast geschienen",
+            "er/sie/es hat geschienen",
+            "wir haben geschienen",
+            "ihr habt geschienen",
+            "sie haben geschienen"
+          ],
+          "futur_1": [
+            "ich werde scheinen",
+            "du wirst scheinen",
+            "er/sie/es wird scheinen",
+            "wir werden scheinen",
+            "ihr werdet scheinen",
+            "sie werden scheinen"
+          ],
+          "konjunktiv_2": [
+            "ich würde scheinen",
+            "du würdest scheinen",
+            "er/sie/es würde scheinen",
+            "wir würden scheinen",
+            "ihr würdet scheinen",
+            "sie würden scheinen"
+          ],
+          "imperativ": [
+            "schein!",
+            "scheint!"
           ]
         },
         "examples": [
@@ -3993,6 +6541,34 @@
             "wir schenkten",
             "ihr schenktet",
             "sie schenkten"
+          ],
+          "perfekt": [
+            "ich habe geschenkt",
+            "du hast geschenkt",
+            "er/sie/es hat geschenkt",
+            "wir haben geschenkt",
+            "ihr habt geschenkt",
+            "sie haben geschenkt"
+          ],
+          "futur_1": [
+            "ich werde schenken",
+            "du wirst schenken",
+            "er/sie/es wird schenken",
+            "wir werden schenken",
+            "ihr werdet schenken",
+            "sie werden schenken"
+          ],
+          "konjunktiv_2": [
+            "ich würde schenken",
+            "du würdest schenken",
+            "er/sie/es würde schenken",
+            "wir würden schenken",
+            "ihr würdet schenken",
+            "sie würden schenken"
+          ],
+          "imperativ": [
+            "schenk!",
+            "schenkt!"
           ]
         },
         "examples": [
@@ -4025,6 +6601,34 @@
             "wir schickten",
             "ihr schicktet",
             "sie schickten"
+          ],
+          "perfekt": [
+            "ich habe geschickt",
+            "du hast geschickt",
+            "er/sie/es hat geschickt",
+            "wir haben geschickt",
+            "ihr habt geschickt",
+            "sie haben geschickt"
+          ],
+          "futur_1": [
+            "ich werde schicken",
+            "du wirst schicken",
+            "er/sie/es wird schicken",
+            "wir werden schicken",
+            "ihr werdet schicken",
+            "sie werden schicken"
+          ],
+          "konjunktiv_2": [
+            "ich würde schicken",
+            "du würdest schicken",
+            "er/sie/es würde schicken",
+            "wir würden schicken",
+            "ihr würdet schicken",
+            "sie würden schicken"
+          ],
+          "imperativ": [
+            "schick!",
+            "schickt!"
           ]
         },
         "examples": [
@@ -4059,6 +6663,34 @@
             "wir schliefen",
             "ihr schlieft",
             "sie schliefen"
+          ],
+          "perfekt": [
+            "ich habe geschlafen",
+            "du hast geschlafen",
+            "er/sie/es hat geschlafen",
+            "wir haben geschlafen",
+            "ihr habt geschlafen",
+            "sie haben geschlafen"
+          ],
+          "futur_1": [
+            "ich werde schlafen",
+            "du wirst schlafen",
+            "er/sie/es wird schlafen",
+            "wir werden schlafen",
+            "ihr werdet schlafen",
+            "sie werden schlafen"
+          ],
+          "konjunktiv_2": [
+            "ich würde schlafen",
+            "du würdest schlafen",
+            "er/sie/es würde schlafen",
+            "wir würden schlafen",
+            "ihr würdet schlafen",
+            "sie würden schlafen"
+          ],
+          "imperativ": [
+            "schlaf!",
+            "schlaft!"
           ]
         },
         "examples": [
@@ -4091,6 +6723,34 @@
             "wir schlugen",
             "ihr schlugt",
             "sie schlugen"
+          ],
+          "perfekt": [
+            "ich habe geschlagen",
+            "du hast geschlagen",
+            "er/sie/es hat geschlagen",
+            "wir haben geschlagen",
+            "ihr habt geschlagen",
+            "sie haben geschlagen"
+          ],
+          "futur_1": [
+            "ich werde schlagen",
+            "du wirst schlagen",
+            "er/sie/es wird schlagen",
+            "wir werden schlagen",
+            "ihr werdet schlagen",
+            "sie werden schlagen"
+          ],
+          "konjunktiv_2": [
+            "ich würde schlagen",
+            "du würdest schlagen",
+            "er/sie/es würde schlagen",
+            "wir würden schlagen",
+            "ihr würdet schlagen",
+            "sie würden schlagen"
+          ],
+          "imperativ": [
+            "schlag!",
+            "schlagt!"
           ]
         },
         "examples": [
@@ -4125,6 +6785,34 @@
             "wir schlossen",
             "ihr schlosst",
             "sie schlossen"
+          ],
+          "perfekt": [
+            "ich habe geschlossen",
+            "du hast geschlossen",
+            "er/sie/es hat geschlossen",
+            "wir haben geschlossen",
+            "ihr habt geschlossen",
+            "sie haben geschlossen"
+          ],
+          "futur_1": [
+            "ich werde schließen",
+            "du wirst schließen",
+            "er/sie/es wird schließen",
+            "wir werden schließen",
+            "ihr werdet schließen",
+            "sie werden schließen"
+          ],
+          "konjunktiv_2": [
+            "ich würde schließen",
+            "du würdest schließen",
+            "er/sie/es würde schließen",
+            "wir würden schließen",
+            "ihr würdet schließen",
+            "sie würden schließen"
+          ],
+          "imperativ": [
+            "schließ!",
+            "schließt!"
           ]
         },
         "examples": [
@@ -4157,6 +6845,34 @@
             "wir schmeckten",
             "ihr schmecktet",
             "sie schmeckten"
+          ],
+          "perfekt": [
+            "ich habe geschmeckt",
+            "du hast geschmeckt",
+            "er/sie/es hat geschmeckt",
+            "wir haben geschmeckt",
+            "ihr habt geschmeckt",
+            "sie haben geschmeckt"
+          ],
+          "futur_1": [
+            "ich werde schmecken",
+            "du wirst schmecken",
+            "er/sie/es wird schmecken",
+            "wir werden schmecken",
+            "ihr werdet schmecken",
+            "sie werden schmecken"
+          ],
+          "konjunktiv_2": [
+            "ich würde schmecken",
+            "du würdest schmecken",
+            "er/sie/es würde schmecken",
+            "wir würden schmecken",
+            "ihr würdet schmecken",
+            "sie würden schmecken"
+          ],
+          "imperativ": [
+            "schmeck!",
+            "schmeckt!"
           ]
         },
         "examples": [
@@ -4191,6 +6907,34 @@
             "wir schrieben",
             "ihr schriebt",
             "sie schrieben"
+          ],
+          "perfekt": [
+            "ich habe geschrieben",
+            "du hast geschrieben",
+            "er/sie/es hat geschrieben",
+            "wir haben geschrieben",
+            "ihr habt geschrieben",
+            "sie haben geschrieben"
+          ],
+          "futur_1": [
+            "ich werde schreiben",
+            "du wirst schreiben",
+            "er/sie/es wird schreiben",
+            "wir werden schreiben",
+            "ihr werdet schreiben",
+            "sie werden schreiben"
+          ],
+          "konjunktiv_2": [
+            "ich würde schreiben",
+            "du würdest schreiben",
+            "er/sie/es würde schreiben",
+            "wir würden schreiben",
+            "ihr würdet schreiben",
+            "sie würden schreiben"
+          ],
+          "imperativ": [
+            "schreib!",
+            "schreibt!"
           ]
         },
         "examples": [
@@ -4223,6 +6967,34 @@
             "wir schwammen",
             "ihr schwammt",
             "sie schwammen"
+          ],
+          "perfekt": [
+            "ich bin geschwommen",
+            "du bist geschwommen",
+            "er/sie/es ist geschwommen",
+            "wir sind geschwommen",
+            "ihr seid geschwommen",
+            "sie sind geschwommen"
+          ],
+          "futur_1": [
+            "ich werde schwimmen",
+            "du wirst schwimmen",
+            "er/sie/es wird schwimmen",
+            "wir werden schwimmen",
+            "ihr werdet schwimmen",
+            "sie werden schwimmen"
+          ],
+          "konjunktiv_2": [
+            "ich würde schwimmen",
+            "du würdest schwimmen",
+            "er/sie/es würde schwimmen",
+            "wir würden schwimmen",
+            "ihr würdet schwimmen",
+            "sie würden schwimmen"
+          ],
+          "imperativ": [
+            "schwimm!",
+            "schwimmt!"
           ]
         },
         "examples": [
@@ -4255,6 +7027,34 @@
             "wir sahen",
             "ihr saht",
             "sie sahen"
+          ],
+          "perfekt": [
+            "ich habe gesehen",
+            "du hast gesehen",
+            "er/sie/es hat gesehen",
+            "wir haben gesehen",
+            "ihr habt gesehen",
+            "sie haben gesehen"
+          ],
+          "futur_1": [
+            "ich werde sehen",
+            "du wirst sehen",
+            "er/sie/es wird sehen",
+            "wir werden sehen",
+            "ihr werdet sehen",
+            "sie werden sehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde sehen",
+            "du würdest sehen",
+            "er/sie/es würde sehen",
+            "wir würden sehen",
+            "ihr würdet sehen",
+            "sie würden sehen"
+          ],
+          "imperativ": [
+            "sieh!",
+            "seht!"
           ]
         },
         "examples": [
@@ -4287,6 +7087,34 @@
             "wir waren",
             "ihr wart",
             "sie waren"
+          ],
+          "perfekt": [
+            "ich bin gewesen",
+            "du bist gewesen",
+            "er/sie/es ist gewesen",
+            "wir sind gewesen",
+            "ihr seid gewesen",
+            "sie sind gewesen"
+          ],
+          "futur_1": [
+            "ich werde sein",
+            "du wirst sein",
+            "er/sie/es wird sein",
+            "wir werden sein",
+            "ihr werdet sein",
+            "sie werden sein"
+          ],
+          "konjunktiv_2": [
+            "ich wäre",
+            "du wärst",
+            "er/sie/es wäre",
+            "wir wären",
+            "ihr wärt",
+            "sie wären"
+          ],
+          "imperativ": [
+            "sei!",
+            "seid!"
           ]
         },
         "examples": [
@@ -4319,11 +7147,40 @@
             "wir sandten",
             "ihr sandtet",
             "sie sandten"
+          ],
+          "perfekt": [
+            "ich habe gesendet",
+            "du hast gesendet",
+            "er/sie/es hat gesendet",
+            "wir haben gesendet",
+            "ihr habt gesendet",
+            "sie haben gesendet"
+          ],
+          "futur_1": [
+            "ich werde senden",
+            "du wirst senden",
+            "er/sie/es wird senden",
+            "wir werden senden",
+            "ihr werdet senden",
+            "sie werden senden"
+          ],
+          "konjunktiv_2": [
+            "ich würde senden",
+            "du würdest senden",
+            "er/sie/es würde senden",
+            "wir würden senden",
+            "ihr würdet senden",
+            "sie würden senden"
+          ],
+          "imperativ": [
+            "sende!",
+            "sendet!"
           ]
         },
         "examples": [
           "Wir senden die Unterlagen per E-Mail."
-        ]
+        ],
+        "needs_review": true
       }
     },
     {
@@ -4351,6 +7208,34 @@
             "wir setzten",
             "ihr setztet",
             "sie setzten"
+          ],
+          "perfekt": [
+            "ich habe gesetzt",
+            "du hast gesetzt",
+            "er/sie/es hat gesetzt",
+            "wir haben gesetzt",
+            "ihr habt gesetzt",
+            "sie haben gesetzt"
+          ],
+          "futur_1": [
+            "ich werde setzen",
+            "du wirst setzen",
+            "er/sie/es wird setzen",
+            "wir werden setzen",
+            "ihr werdet setzen",
+            "sie werden setzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde setzen",
+            "du würdest setzen",
+            "er/sie/es würde setzen",
+            "wir würden setzen",
+            "ihr würdet setzen",
+            "sie würden setzen"
+          ],
+          "imperativ": [
+            "setz!",
+            "setzt!"
           ]
         },
         "examples": [
@@ -4383,6 +7268,34 @@
             "wir sangen",
             "ihr sangt",
             "sie sangen"
+          ],
+          "perfekt": [
+            "ich habe gesungen",
+            "du hast gesungen",
+            "er/sie/es hat gesungen",
+            "wir haben gesungen",
+            "ihr habt gesungen",
+            "sie haben gesungen"
+          ],
+          "futur_1": [
+            "ich werde singen",
+            "du wirst singen",
+            "er/sie/es wird singen",
+            "wir werden singen",
+            "ihr werdet singen",
+            "sie werden singen"
+          ],
+          "konjunktiv_2": [
+            "ich würde singen",
+            "du würdest singen",
+            "er/sie/es würde singen",
+            "wir würden singen",
+            "ihr würdet singen",
+            "sie würden singen"
+          ],
+          "imperativ": [
+            "sing!",
+            "singt!"
           ]
         },
         "examples": [
@@ -4417,6 +7330,34 @@
             "wir saßen",
             "ihr saßt",
             "sie saßen"
+          ],
+          "perfekt": [
+            "ich habe gesessen",
+            "du hast gesessen",
+            "er/sie/es hat gesessen",
+            "wir haben gesessen",
+            "ihr habt gesessen",
+            "sie haben gesessen"
+          ],
+          "futur_1": [
+            "ich werde sitzen",
+            "du wirst sitzen",
+            "er/sie/es wird sitzen",
+            "wir werden sitzen",
+            "ihr werdet sitzen",
+            "sie werden sitzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde sitzen",
+            "du würdest sitzen",
+            "er/sie/es würde sitzen",
+            "wir würden sitzen",
+            "ihr würdet sitzen",
+            "sie würden sitzen"
+          ],
+          "imperativ": [
+            "sitz!",
+            "sitzt!"
           ]
         },
         "examples": [
@@ -4449,6 +7390,34 @@
             "wir spielten",
             "ihr spieltet",
             "sie spielten"
+          ],
+          "perfekt": [
+            "ich habe gespielt",
+            "du hast gespielt",
+            "er/sie/es hat gespielt",
+            "wir haben gespielt",
+            "ihr habt gespielt",
+            "sie haben gespielt"
+          ],
+          "futur_1": [
+            "ich werde spielen",
+            "du wirst spielen",
+            "er/sie/es wird spielen",
+            "wir werden spielen",
+            "ihr werdet spielen",
+            "sie werden spielen"
+          ],
+          "konjunktiv_2": [
+            "ich würde spielen",
+            "du würdest spielen",
+            "er/sie/es würde spielen",
+            "wir würden spielen",
+            "ihr würdet spielen",
+            "sie würden spielen"
+          ],
+          "imperativ": [
+            "spiel!",
+            "spielt!"
           ]
         },
         "examples": [
@@ -4483,6 +7452,34 @@
             "wir sprachen",
             "ihr spracht",
             "sie sprachen"
+          ],
+          "perfekt": [
+            "ich habe gesprochen",
+            "du hast gesprochen",
+            "er/sie/es hat gesprochen",
+            "wir haben gesprochen",
+            "ihr habt gesprochen",
+            "sie haben gesprochen"
+          ],
+          "futur_1": [
+            "ich werde sprechen",
+            "du wirst sprechen",
+            "er/sie/es wird sprechen",
+            "wir werden sprechen",
+            "ihr werdet sprechen",
+            "sie werden sprechen"
+          ],
+          "konjunktiv_2": [
+            "ich spräche",
+            "du sprächest",
+            "er/sie/es spräche",
+            "wir sprächen",
+            "ihr sprächet",
+            "sie sprächen"
+          ],
+          "imperativ": [
+            "sprich!",
+            "sprecht!"
           ]
         },
         "examples": [
@@ -4518,6 +7515,34 @@
             "wir standen",
             "ihr standet",
             "sie standen"
+          ],
+          "perfekt": [
+            "ich habe gestanden",
+            "du hast gestanden",
+            "er/sie/es hat gestanden",
+            "wir haben gestanden",
+            "ihr habt gestanden",
+            "sie haben gestanden"
+          ],
+          "futur_1": [
+            "ich werde stehen",
+            "du wirst stehen",
+            "er/sie/es wird stehen",
+            "wir werden stehen",
+            "ihr werdet stehen",
+            "sie werden stehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde stehen",
+            "du würdest stehen",
+            "er/sie/es würde stehen",
+            "wir würden stehen",
+            "ihr würdet stehen",
+            "sie würden stehen"
+          ],
+          "imperativ": [
+            "steh!",
+            "steht!"
           ]
         },
         "examples": [
@@ -4553,6 +7578,34 @@
             "wir stiegen",
             "ihr stiegt",
             "sie stiegen"
+          ],
+          "perfekt": [
+            "ich bin gestiegen",
+            "du bist gestiegen",
+            "er/sie/es ist gestiegen",
+            "wir sind gestiegen",
+            "ihr seid gestiegen",
+            "sie sind gestiegen"
+          ],
+          "futur_1": [
+            "ich werde steigen",
+            "du wirst steigen",
+            "er/sie/es wird steigen",
+            "wir werden steigen",
+            "ihr werdet steigen",
+            "sie werden steigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde steigen",
+            "du würdest steigen",
+            "er/sie/es würde steigen",
+            "wir würden steigen",
+            "ihr würdet steigen",
+            "sie würden steigen"
+          ],
+          "imperativ": [
+            "steig!",
+            "steigt!"
           ]
         },
         "examples": [
@@ -4585,6 +7638,34 @@
             "wir stellten",
             "ihr stelltet",
             "sie stellten"
+          ],
+          "perfekt": [
+            "ich habe gestellt",
+            "du hast gestellt",
+            "er/sie/es hat gestellt",
+            "wir haben gestellt",
+            "ihr habt gestellt",
+            "sie haben gestellt"
+          ],
+          "futur_1": [
+            "ich werde stellen",
+            "du wirst stellen",
+            "er/sie/es wird stellen",
+            "wir werden stellen",
+            "ihr werdet stellen",
+            "sie werden stellen"
+          ],
+          "konjunktiv_2": [
+            "ich würde stellen",
+            "du würdest stellen",
+            "er/sie/es würde stellen",
+            "wir würden stellen",
+            "ihr würdet stellen",
+            "sie würden stellen"
+          ],
+          "imperativ": [
+            "stell!",
+            "stellt!"
           ]
         },
         "examples": [
@@ -4619,6 +7700,34 @@
             "wir stoppten",
             "ihr stopptet",
             "sie stoppten"
+          ],
+          "perfekt": [
+            "ich habe gestoppt",
+            "du hast gestoppt",
+            "er/sie/es hat gestoppt",
+            "wir haben gestoppt",
+            "ihr habt gestoppt",
+            "sie haben gestoppt"
+          ],
+          "futur_1": [
+            "ich werde stoppen",
+            "du wirst stoppen",
+            "er/sie/es wird stoppen",
+            "wir werden stoppen",
+            "ihr werdet stoppen",
+            "sie werden stoppen"
+          ],
+          "konjunktiv_2": [
+            "ich würde stoppen",
+            "du würdest stoppen",
+            "er/sie/es würde stoppen",
+            "wir würden stoppen",
+            "ihr würdet stoppen",
+            "sie würden stoppen"
+          ],
+          "imperativ": [
+            "stopp!",
+            "stoppt!"
           ]
         },
         "examples": [
@@ -4651,6 +7760,34 @@
             "wir stritten",
             "ihr strittet",
             "sie stritten"
+          ],
+          "perfekt": [
+            "ich habe gestritten",
+            "du hast gestritten",
+            "er/sie/es hat gestritten",
+            "wir haben gestritten",
+            "ihr habt gestritten",
+            "sie haben gestritten"
+          ],
+          "futur_1": [
+            "ich werde streiten",
+            "du wirst streiten",
+            "er/sie/es wird streiten",
+            "wir werden streiten",
+            "ihr werdet streiten",
+            "sie werden streiten"
+          ],
+          "konjunktiv_2": [
+            "ich würde streiten",
+            "du würdest streiten",
+            "er/sie/es würde streiten",
+            "wir würden streiten",
+            "ihr würdet streiten",
+            "sie würden streiten"
+          ],
+          "imperativ": [
+            "streit!",
+            "streitet!"
           ]
         },
         "examples": [
@@ -4685,6 +7822,34 @@
             "wir suchten",
             "ihr suchtet",
             "sie suchten"
+          ],
+          "perfekt": [
+            "ich habe gesucht",
+            "du hast gesucht",
+            "er/sie/es hat gesucht",
+            "wir haben gesucht",
+            "ihr habt gesucht",
+            "sie haben gesucht"
+          ],
+          "futur_1": [
+            "ich werde suchen",
+            "du wirst suchen",
+            "er/sie/es wird suchen",
+            "wir werden suchen",
+            "ihr werdet suchen",
+            "sie werden suchen"
+          ],
+          "konjunktiv_2": [
+            "ich würde suchen",
+            "du würdest suchen",
+            "er/sie/es würde suchen",
+            "wir würden suchen",
+            "ihr würdet suchen",
+            "sie würden suchen"
+          ],
+          "imperativ": [
+            "such!",
+            "sucht!"
           ]
         },
         "examples": [
@@ -4717,6 +7882,34 @@
             "wir tanzten",
             "ihr tanztet",
             "sie tanzten"
+          ],
+          "perfekt": [
+            "ich habe getanzt",
+            "du hast getanzt",
+            "er/sie/es hat getanzt",
+            "wir haben getanzt",
+            "ihr habt getanzt",
+            "sie haben getanzt"
+          ],
+          "futur_1": [
+            "ich werde tanzen",
+            "du wirst tanzen",
+            "er/sie/es wird tanzen",
+            "wir werden tanzen",
+            "ihr werdet tanzen",
+            "sie werden tanzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde tanzen",
+            "du würdest tanzen",
+            "er/sie/es würde tanzen",
+            "wir würden tanzen",
+            "ihr würdet tanzen",
+            "sie würden tanzen"
+          ],
+          "imperativ": [
+            "tanz!",
+            "tanzt!"
           ]
         },
         "examples": [
@@ -4749,6 +7942,34 @@
             "wir testeten",
             "ihr testetet",
             "sie testeten"
+          ],
+          "perfekt": [
+            "ich habe getestet",
+            "du hast getestet",
+            "er/sie/es hat getestet",
+            "wir haben getestet",
+            "ihr habt getestet",
+            "sie haben getestet"
+          ],
+          "futur_1": [
+            "ich werde testen",
+            "du wirst testen",
+            "er/sie/es wird testen",
+            "wir werden testen",
+            "ihr werdet testen",
+            "sie werden testen"
+          ],
+          "konjunktiv_2": [
+            "ich würde testen",
+            "du würdest testen",
+            "er/sie/es würde testen",
+            "wir würden testen",
+            "ihr würdet testen",
+            "sie würden testen"
+          ],
+          "imperativ": [
+            "teste!",
+            "testet!"
           ]
         },
         "examples": [
@@ -4781,6 +8002,34 @@
             "wir trugen",
             "ihr trugt",
             "sie trugen"
+          ],
+          "perfekt": [
+            "ich habe getragen",
+            "du hast getragen",
+            "er/sie/es hat getragen",
+            "wir haben getragen",
+            "ihr habt getragen",
+            "sie haben getragen"
+          ],
+          "futur_1": [
+            "ich werde tragen",
+            "du wirst tragen",
+            "er/sie/es wird tragen",
+            "wir werden tragen",
+            "ihr werdet tragen",
+            "sie werden tragen"
+          ],
+          "konjunktiv_2": [
+            "ich würde tragen",
+            "du würdest tragen",
+            "er/sie/es würde tragen",
+            "wir würden tragen",
+            "ihr würdet tragen",
+            "sie würden tragen"
+          ],
+          "imperativ": [
+            "trag!",
+            "tragt!"
           ]
         },
         "examples": [
@@ -4813,6 +8062,34 @@
             "wir trafen",
             "ihr traft",
             "sie trafen"
+          ],
+          "perfekt": [
+            "ich habe getroffen",
+            "du hast getroffen",
+            "er/sie/es hat getroffen",
+            "wir haben getroffen",
+            "ihr habt getroffen",
+            "sie haben getroffen"
+          ],
+          "futur_1": [
+            "ich werde treffen",
+            "du wirst treffen",
+            "er/sie/es wird treffen",
+            "wir werden treffen",
+            "ihr werdet treffen",
+            "sie werden treffen"
+          ],
+          "konjunktiv_2": [
+            "ich würde treffen",
+            "du würdest treffen",
+            "er/sie/es würde treffen",
+            "wir würden treffen",
+            "ihr würdet treffen",
+            "sie würden treffen"
+          ],
+          "imperativ": [
+            "triff!",
+            "trefft!"
           ]
         },
         "examples": [
@@ -4845,6 +8122,34 @@
             "wir tranken",
             "ihr trankt",
             "sie tranken"
+          ],
+          "perfekt": [
+            "ich habe getrunken",
+            "du hast getrunken",
+            "er/sie/es hat getrunken",
+            "wir haben getrunken",
+            "ihr habt getrunken",
+            "sie haben getrunken"
+          ],
+          "futur_1": [
+            "ich werde trinken",
+            "du wirst trinken",
+            "er/sie/es wird trinken",
+            "wir werden trinken",
+            "ihr werdet trinken",
+            "sie werden trinken"
+          ],
+          "konjunktiv_2": [
+            "ich würde trinken",
+            "du würdest trinken",
+            "er/sie/es würde trinken",
+            "wir würden trinken",
+            "ihr würdet trinken",
+            "sie würden trinken"
+          ],
+          "imperativ": [
+            "trink!",
+            "trinkt!"
           ]
         },
         "examples": [
@@ -4877,6 +8182,34 @@
             "wir übten",
             "ihr übtet",
             "sie übten"
+          ],
+          "perfekt": [
+            "ich habe geübt",
+            "du hast geübt",
+            "er/sie/es hat geübt",
+            "wir haben geübt",
+            "ihr habt geübt",
+            "sie haben geübt"
+          ],
+          "futur_1": [
+            "ich werde üben",
+            "du wirst üben",
+            "er/sie/es wird üben",
+            "wir werden üben",
+            "ihr werdet üben",
+            "sie werden üben"
+          ],
+          "konjunktiv_2": [
+            "ich würde üben",
+            "du würdest üben",
+            "er/sie/es würde üben",
+            "wir würden üben",
+            "ihr würdet üben",
+            "sie würden üben"
+          ],
+          "imperativ": [
+            "übe!",
+            "übt!"
           ]
         },
         "examples": [
@@ -4909,6 +8242,34 @@
             "wir übersetzten",
             "ihr übersetztet",
             "sie übersetzten"
+          ],
+          "perfekt": [
+            "ich habe übersetzt",
+            "du hast übersetzt",
+            "er/sie/es hat übersetzt",
+            "wir haben übersetzt",
+            "ihr habt übersetzt",
+            "sie haben übersetzt"
+          ],
+          "futur_1": [
+            "ich werde übersetzen",
+            "du wirst übersetzen",
+            "er/sie/es wird übersetzen",
+            "wir werden übersetzen",
+            "ihr werdet übersetzen",
+            "sie werden übersetzen"
+          ],
+          "konjunktiv_2": [
+            "ich würde übersetzen",
+            "du würdest übersetzen",
+            "er/sie/es würde übersetzen",
+            "wir würden übersetzen",
+            "ihr würdet übersetzen",
+            "sie würden übersetzen"
+          ],
+          "imperativ": [
+            "übersetze!",
+            "übersetzt!"
           ]
         },
         "examples": [
@@ -4941,6 +8302,34 @@
             "wir stiegen um",
             "ihr stiegt um",
             "sie stiegen um"
+          ],
+          "perfekt": [
+            "ich bin umgestiegen",
+            "du bist umgestiegen",
+            "er/sie/es ist umgestiegen",
+            "wir sind umgestiegen",
+            "ihr seid umgestiegen",
+            "sie sind umgestiegen"
+          ],
+          "futur_1": [
+            "ich werde umsteigen",
+            "du wirst umsteigen",
+            "er/sie/es wird umsteigen",
+            "wir werden umsteigen",
+            "ihr werdet umsteigen",
+            "sie werden umsteigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde umsteigen",
+            "du würdest umsteigen",
+            "er/sie/es würde umsteigen",
+            "wir würden umsteigen",
+            "ihr würdet umsteigen",
+            "sie würden umsteigen"
+          ],
+          "imperativ": [
+            "steig um!",
+            "steigt um!"
           ]
         },
         "examples": [
@@ -4973,6 +8362,34 @@
             "wir zogen um",
             "ihr zogt um",
             "sie zogen um"
+          ],
+          "perfekt": [
+            "ich bin umgezogen",
+            "du bist umgezogen",
+            "er/sie/es ist umgezogen",
+            "wir sind umgezogen",
+            "ihr seid umgezogen",
+            "sie sind umgezogen"
+          ],
+          "futur_1": [
+            "ich werde umziehen",
+            "du wirst umziehen",
+            "er/sie/es wird umziehen",
+            "wir werden umziehen",
+            "ihr werdet umziehen",
+            "sie werden umziehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde umziehen",
+            "du würdest umziehen",
+            "er/sie/es würde umziehen",
+            "wir würden umziehen",
+            "ihr würdet umziehen",
+            "sie würden umziehen"
+          ],
+          "imperativ": [
+            "zieh um!",
+            "zieht um!"
           ]
         },
         "examples": [
@@ -5007,6 +8424,34 @@
             "wir vergaßen",
             "ihr vergaßt",
             "sie vergaßen"
+          ],
+          "perfekt": [
+            "ich habe vergessen",
+            "du hast vergessen",
+            "er/sie/es hat vergessen",
+            "wir haben vergessen",
+            "ihr habt vergessen",
+            "sie haben vergessen"
+          ],
+          "futur_1": [
+            "ich werde vergessen",
+            "du wirst vergessen",
+            "er/sie/es wird vergessen",
+            "wir werden vergessen",
+            "ihr werdet vergessen",
+            "sie werden vergessen"
+          ],
+          "konjunktiv_2": [
+            "ich würde vergessen",
+            "du würdest vergessen",
+            "er/sie/es würde vergessen",
+            "wir würden vergessen",
+            "ihr würdet vergessen",
+            "sie würden vergessen"
+          ],
+          "imperativ": [
+            "vergiss!",
+            "vergesst!"
           ]
         },
         "examples": [
@@ -5039,6 +8484,34 @@
             "wir verglichen",
             "ihr verglicht",
             "sie verglichen"
+          ],
+          "perfekt": [
+            "ich habe verglichen",
+            "du hast verglichen",
+            "er/sie/es hat verglichen",
+            "wir haben verglichen",
+            "ihr habt verglichen",
+            "sie haben verglichen"
+          ],
+          "futur_1": [
+            "ich werde vergleichen",
+            "du wirst vergleichen",
+            "er/sie/es wird vergleichen",
+            "wir werden vergleichen",
+            "ihr werdet vergleichen",
+            "sie werden vergleichen"
+          ],
+          "konjunktiv_2": [
+            "ich würde vergleichen",
+            "du würdest vergleichen",
+            "er/sie/es würde vergleichen",
+            "wir würden vergleichen",
+            "ihr würdet vergleichen",
+            "sie würden vergleichen"
+          ],
+          "imperativ": [
+            "vergleich!",
+            "vergleicht!"
           ]
         },
         "examples": [
@@ -5073,6 +8546,34 @@
             "wir verkauften",
             "ihr verkauftet",
             "sie verkauften"
+          ],
+          "perfekt": [
+            "ich habe verkauft",
+            "du hast verkauft",
+            "er/sie/es hat verkauft",
+            "wir haben verkauft",
+            "ihr habt verkauft",
+            "sie haben verkauft"
+          ],
+          "futur_1": [
+            "ich werde verkaufen",
+            "du wirst verkaufen",
+            "er/sie/es wird verkaufen",
+            "wir werden verkaufen",
+            "ihr werdet verkaufen",
+            "sie werden verkaufen"
+          ],
+          "konjunktiv_2": [
+            "ich würde verkaufen",
+            "du würdest verkaufen",
+            "er/sie/es würde verkaufen",
+            "wir würden verkaufen",
+            "ihr würdet verkaufen",
+            "sie würden verkaufen"
+          ],
+          "imperativ": [
+            "verkauf!",
+            "verkauft!"
           ]
         },
         "examples": [
@@ -5108,6 +8609,34 @@
             "wir verloren",
             "ihr verlort",
             "sie verloren"
+          ],
+          "perfekt": [
+            "ich habe verloren",
+            "du hast verloren",
+            "er/sie/es hat verloren",
+            "wir haben verloren",
+            "ihr habt verloren",
+            "sie haben verloren"
+          ],
+          "futur_1": [
+            "ich werde verlieren",
+            "du wirst verlieren",
+            "er/sie/es wird verlieren",
+            "wir werden verlieren",
+            "ihr werdet verlieren",
+            "sie werden verlieren"
+          ],
+          "konjunktiv_2": [
+            "ich würde verlieren",
+            "du würdest verlieren",
+            "er/sie/es würde verlieren",
+            "wir würden verlieren",
+            "ihr würdet verlieren",
+            "sie würden verlieren"
+          ],
+          "imperativ": [
+            "verlier!",
+            "verliert!"
           ]
         },
         "examples": [
@@ -5142,6 +8671,34 @@
             "wir vermieteten",
             "ihr vermietetet",
             "sie vermieteten"
+          ],
+          "perfekt": [
+            "ich habe vermietet",
+            "du hast vermietet",
+            "er/sie/es hat vermietet",
+            "wir haben vermietet",
+            "ihr habt vermietet",
+            "sie haben vermietet"
+          ],
+          "futur_1": [
+            "ich werde vermieten",
+            "du wirst vermieten",
+            "er/sie/es wird vermieten",
+            "wir werden vermieten",
+            "ihr werdet vermieten",
+            "sie werden vermieten"
+          ],
+          "konjunktiv_2": [
+            "ich würde vermieten",
+            "du würdest vermieten",
+            "er/sie/es würde vermieten",
+            "wir würden vermieten",
+            "ihr würdet vermieten",
+            "sie würden vermieten"
+          ],
+          "imperativ": [
+            "vermiete!",
+            "vermietet!"
           ]
         },
         "examples": [
@@ -5174,6 +8731,34 @@
             "wir verstanden",
             "ihr verstandet",
             "sie verstanden"
+          ],
+          "perfekt": [
+            "ich habe verstanden",
+            "du hast verstanden",
+            "er/sie/es hat verstanden",
+            "wir haben verstanden",
+            "ihr habt verstanden",
+            "sie haben verstanden"
+          ],
+          "futur_1": [
+            "ich werde verstehen",
+            "du wirst verstehen",
+            "er/sie/es wird verstehen",
+            "wir werden verstehen",
+            "ihr werdet verstehen",
+            "sie werden verstehen"
+          ],
+          "konjunktiv_2": [
+            "ich würde verstehen",
+            "du würdest verstehen",
+            "er/sie/es würde verstehen",
+            "wir würden verstehen",
+            "ihr würdet verstehen",
+            "sie würden verstehen"
+          ],
+          "imperativ": [
+            "versteh!",
+            "versteht!"
           ]
         },
         "examples": [
@@ -5206,6 +8791,34 @@
             "wir versuchten",
             "ihr versuchtet",
             "sie versuchten"
+          ],
+          "perfekt": [
+            "ich habe versucht",
+            "du hast versucht",
+            "er/sie/es hat versucht",
+            "wir haben versucht",
+            "ihr habt versucht",
+            "sie haben versucht"
+          ],
+          "futur_1": [
+            "ich werde versuchen",
+            "du wirst versuchen",
+            "er/sie/es wird versuchen",
+            "wir werden versuchen",
+            "ihr werdet versuchen",
+            "sie werden versuchen"
+          ],
+          "konjunktiv_2": [
+            "ich würde versuchen",
+            "du würdest versuchen",
+            "er/sie/es würde versuchen",
+            "wir würden versuchen",
+            "ihr würdet versuchen",
+            "sie würden versuchen"
+          ],
+          "imperativ": [
+            "versuch!",
+            "versucht!"
           ]
         },
         "examples": [
@@ -5238,6 +8851,34 @@
             "wir schlugen vor",
             "ihr schlugt vor",
             "sie schlugen vor"
+          ],
+          "perfekt": [
+            "ich habe vorgeschlagen",
+            "du hast vorgeschlagen",
+            "er/sie/es hat vorgeschlagen",
+            "wir haben vorgeschlagen",
+            "ihr habt vorgeschlagen",
+            "sie haben vorgeschlagen"
+          ],
+          "futur_1": [
+            "ich werde vorschlagen",
+            "du wirst vorschlagen",
+            "er/sie/es wird vorschlagen",
+            "wir werden vorschlagen",
+            "ihr werdet vorschlagen",
+            "sie werden vorschlagen"
+          ],
+          "konjunktiv_2": [
+            "ich würde vorschlagen",
+            "du würdest vorschlagen",
+            "er/sie/es würde vorschlagen",
+            "wir würden vorschlagen",
+            "ihr würdet vorschlagen",
+            "sie würden vorschlagen"
+          ],
+          "imperativ": [
+            "schlag vor!",
+            "schlagt vor!"
           ]
         },
         "examples": [
@@ -5270,6 +8911,34 @@
             "wir wählten",
             "ihr wähltet",
             "sie wählten"
+          ],
+          "perfekt": [
+            "ich habe gewählt",
+            "du hast gewählt",
+            "er/sie/es hat gewählt",
+            "wir haben gewählt",
+            "ihr habt gewählt",
+            "sie haben gewählt"
+          ],
+          "futur_1": [
+            "ich werde wählen",
+            "du wirst wählen",
+            "er/sie/es wird wählen",
+            "wir werden wählen",
+            "ihr werdet wählen",
+            "sie werden wählen"
+          ],
+          "konjunktiv_2": [
+            "ich würde wählen",
+            "du würdest wählen",
+            "er/sie/es würde wählen",
+            "wir würden wählen",
+            "ihr würdet wählen",
+            "sie würden wählen"
+          ],
+          "imperativ": [
+            "wähl!",
+            "wählt!"
           ]
         },
         "examples": [
@@ -5302,6 +8971,34 @@
             "wir wanderten",
             "ihr wandertet",
             "sie wanderten"
+          ],
+          "perfekt": [
+            "ich bin gewandert",
+            "du bist gewandert",
+            "er/sie/es ist gewandert",
+            "wir sind gewandert",
+            "ihr seid gewandert",
+            "sie sind gewandert"
+          ],
+          "futur_1": [
+            "ich werde wandern",
+            "du wirst wandern",
+            "er/sie/es wird wandern",
+            "wir werden wandern",
+            "ihr werdet wandern",
+            "sie werden wandern"
+          ],
+          "konjunktiv_2": [
+            "ich würde wandern",
+            "du würdest wandern",
+            "er/sie/es würde wandern",
+            "wir würden wandern",
+            "ihr würdet wandern",
+            "sie würden wandern"
+          ],
+          "imperativ": [
+            "wandere!",
+            "wandert!"
           ]
         },
         "examples": [
@@ -5334,6 +9031,34 @@
             "wir warteten",
             "ihr wartetet",
             "sie warteten"
+          ],
+          "perfekt": [
+            "ich habe gewartet",
+            "du hast gewartet",
+            "er/sie/es hat gewartet",
+            "wir haben gewartet",
+            "ihr habt gewartet",
+            "sie haben gewartet"
+          ],
+          "futur_1": [
+            "ich werde warten",
+            "du wirst warten",
+            "er/sie/es wird warten",
+            "wir werden warten",
+            "ihr werdet warten",
+            "sie werden warten"
+          ],
+          "konjunktiv_2": [
+            "ich würde warten",
+            "du würdest warten",
+            "er/sie/es würde warten",
+            "wir würden warten",
+            "ihr würdet warten",
+            "sie würden warten"
+          ],
+          "imperativ": [
+            "warte!",
+            "wartet!"
           ]
         },
         "examples": [
@@ -5366,6 +9091,34 @@
             "wir wuschen",
             "ihr wuscht",
             "sie wuschen"
+          ],
+          "perfekt": [
+            "ich habe gewaschen",
+            "du hast gewaschen",
+            "er/sie/es hat gewaschen",
+            "wir haben gewaschen",
+            "ihr habt gewaschen",
+            "sie haben gewaschen"
+          ],
+          "futur_1": [
+            "ich werde waschen",
+            "du wirst waschen",
+            "er/sie/es wird waschen",
+            "wir werden waschen",
+            "ihr werdet waschen",
+            "sie werden waschen"
+          ],
+          "konjunktiv_2": [
+            "ich würde waschen",
+            "du würdest waschen",
+            "er/sie/es würde waschen",
+            "wir würden waschen",
+            "ihr würdet waschen",
+            "sie würden waschen"
+          ],
+          "imperativ": [
+            "wasch!",
+            "wascht!"
           ]
         },
         "examples": [
@@ -5398,6 +9151,34 @@
             "wir wechselten",
             "ihr wechseltet",
             "sie wechselten"
+          ],
+          "perfekt": [
+            "ich habe gewechselt",
+            "du hast gewechselt",
+            "er/sie/es hat gewechselt",
+            "wir haben gewechselt",
+            "ihr habt gewechselt",
+            "sie haben gewechselt"
+          ],
+          "futur_1": [
+            "ich werde wechseln",
+            "du wirst wechseln",
+            "er/sie/es wird wechseln",
+            "wir werden wechseln",
+            "ihr werdet wechseln",
+            "sie werden wechseln"
+          ],
+          "konjunktiv_2": [
+            "ich würde wechseln",
+            "du würdest wechseln",
+            "er/sie/es würde wechseln",
+            "wir würden wechseln",
+            "ihr würdet wechseln",
+            "sie würden wechseln"
+          ],
+          "imperativ": [
+            "wechsele!",
+            "wechselt!"
           ]
         },
         "examples": [
@@ -5432,6 +9213,34 @@
             "wir weinten",
             "ihr weintet",
             "sie weinten"
+          ],
+          "perfekt": [
+            "ich habe geweint",
+            "du hast geweint",
+            "er/sie/es hat geweint",
+            "wir haben geweint",
+            "ihr habt geweint",
+            "sie haben geweint"
+          ],
+          "futur_1": [
+            "ich werde weinen",
+            "du wirst weinen",
+            "er/sie/es wird weinen",
+            "wir werden weinen",
+            "ihr werdet weinen",
+            "sie werden weinen"
+          ],
+          "konjunktiv_2": [
+            "ich würde weinen",
+            "du würdest weinen",
+            "er/sie/es würde weinen",
+            "wir würden weinen",
+            "ihr würdet weinen",
+            "sie würden weinen"
+          ],
+          "imperativ": [
+            "wein!",
+            "weint!"
           ]
         },
         "examples": [
@@ -5464,6 +9273,34 @@
             "wir wiederholten",
             "ihr wiederholtet",
             "sie wiederholten"
+          ],
+          "perfekt": [
+            "ich habe wiederholt",
+            "du hast wiederholt",
+            "er/sie/es hat wiederholt",
+            "wir haben wiederholt",
+            "ihr habt wiederholt",
+            "sie haben wiederholt"
+          ],
+          "futur_1": [
+            "ich werde wiederholen",
+            "du wirst wiederholen",
+            "er/sie/es wird wiederholen",
+            "wir werden wiederholen",
+            "ihr werdet wiederholen",
+            "sie werden wiederholen"
+          ],
+          "konjunktiv_2": [
+            "ich würde wiederholen",
+            "du würdest wiederholen",
+            "er/sie/es würde wiederholen",
+            "wir würden wiederholen",
+            "ihr würdet wiederholen",
+            "sie würden wiederholen"
+          ],
+          "imperativ": [
+            "wiederhole!",
+            "wiederholt!"
           ]
         },
         "examples": [
@@ -5496,6 +9333,34 @@
             "wir wussten",
             "ihr wusstet",
             "sie wussten"
+          ],
+          "perfekt": [
+            "ich habe gewusst",
+            "du hast gewusst",
+            "er/sie/es hat gewusst",
+            "wir haben gewusst",
+            "ihr habt gewusst",
+            "sie haben gewusst"
+          ],
+          "futur_1": [
+            "ich werde wissen",
+            "du wirst wissen",
+            "er/sie/es wird wissen",
+            "wir werden wissen",
+            "ihr werdet wissen",
+            "sie werden wissen"
+          ],
+          "konjunktiv_2": [
+            "ich wüsste",
+            "du wüsstest",
+            "er/sie/es wüsste",
+            "wir wüssten",
+            "ihr wüsstet",
+            "sie wüssten"
+          ],
+          "imperativ": [
+            "wisse!",
+            "wisst!"
           ]
         },
         "examples": [
@@ -5528,6 +9393,34 @@
             "wir wohnten",
             "ihr wohntet",
             "sie wohnten"
+          ],
+          "perfekt": [
+            "ich habe gewohnt",
+            "du hast gewohnt",
+            "er/sie/es hat gewohnt",
+            "wir haben gewohnt",
+            "ihr habt gewohnt",
+            "sie haben gewohnt"
+          ],
+          "futur_1": [
+            "ich werde wohnen",
+            "du wirst wohnen",
+            "er/sie/es wird wohnen",
+            "wir werden wohnen",
+            "ihr werdet wohnen",
+            "sie werden wohnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde wohnen",
+            "du würdest wohnen",
+            "er/sie/es würde wohnen",
+            "wir würden wohnen",
+            "ihr würdet wohnen",
+            "sie würden wohnen"
+          ],
+          "imperativ": [
+            "wohne!",
+            "wohnt!"
           ]
         },
         "examples": [
@@ -5560,6 +9453,34 @@
             "wir zählten",
             "ihr zähltet",
             "sie zählten"
+          ],
+          "perfekt": [
+            "ich habe gezählt",
+            "du hast gezählt",
+            "er/sie/es hat gezählt",
+            "wir haben gezählt",
+            "ihr habt gezählt",
+            "sie haben gezählt"
+          ],
+          "futur_1": [
+            "ich werde zählen",
+            "du wirst zählen",
+            "er/sie/es wird zählen",
+            "wir werden zählen",
+            "ihr werdet zählen",
+            "sie werden zählen"
+          ],
+          "konjunktiv_2": [
+            "ich würde zählen",
+            "du würdest zählen",
+            "er/sie/es würde zählen",
+            "wir würden zählen",
+            "ihr würdet zählen",
+            "sie würden zählen"
+          ],
+          "imperativ": [
+            "zähl!",
+            "zählt!"
           ]
         },
         "examples": [
@@ -5592,6 +9513,34 @@
             "wir zeichneten",
             "ihr zeichnetet",
             "sie zeichneten"
+          ],
+          "perfekt": [
+            "ich habe gezeichnet",
+            "du hast gezeichnet",
+            "er/sie/es hat gezeichnet",
+            "wir haben gezeichnet",
+            "ihr habt gezeichnet",
+            "sie haben gezeichnet"
+          ],
+          "futur_1": [
+            "ich werde zeichnen",
+            "du wirst zeichnen",
+            "er/sie/es wird zeichnen",
+            "wir werden zeichnen",
+            "ihr werdet zeichnen",
+            "sie werden zeichnen"
+          ],
+          "konjunktiv_2": [
+            "ich würde zeichnen",
+            "du würdest zeichnen",
+            "er/sie/es würde zeichnen",
+            "wir würden zeichnen",
+            "ihr würdet zeichnen",
+            "sie würden zeichnen"
+          ],
+          "imperativ": [
+            "zeichne!",
+            "zeichnet!"
           ]
         },
         "examples": [
@@ -5624,6 +9573,34 @@
             "wir zeigten",
             "ihr zeigtet",
             "sie zeigten"
+          ],
+          "perfekt": [
+            "ich habe gezeigt",
+            "du hast gezeigt",
+            "er/sie/es hat gezeigt",
+            "wir haben gezeigt",
+            "ihr habt gezeigt",
+            "sie haben gezeigt"
+          ],
+          "futur_1": [
+            "ich werde zeigen",
+            "du wirst zeigen",
+            "er/sie/es wird zeigen",
+            "wir werden zeigen",
+            "ihr werdet zeigen",
+            "sie werden zeigen"
+          ],
+          "konjunktiv_2": [
+            "ich würde zeigen",
+            "du würdest zeigen",
+            "er/sie/es würde zeigen",
+            "wir würden zeigen",
+            "ihr würdet zeigen",
+            "sie würden zeigen"
+          ],
+          "imperativ": [
+            "zeig!",
+            "zeigt!"
           ]
         },
         "examples": [
@@ -5658,6 +9635,34 @@
             "wir stimmten zu",
             "ihr stimmtet zu",
             "sie stimmten zu"
+          ],
+          "perfekt": [
+            "ich habe zugestimmt",
+            "du hast zugestimmt",
+            "er/sie/es hat zugestimmt",
+            "wir haben zugestimmt",
+            "ihr habt zugestimmt",
+            "sie haben zugestimmt"
+          ],
+          "futur_1": [
+            "ich werde zustimmen",
+            "du wirst zustimmen",
+            "er/sie/es wird zustimmen",
+            "wir werden zustimmen",
+            "ihr werdet zustimmen",
+            "sie werden zustimmen"
+          ],
+          "konjunktiv_2": [
+            "ich würde zustimmen",
+            "du würdest zustimmen",
+            "er/sie/es würde zustimmen",
+            "wir würden zustimmen",
+            "ihr würdet zustimmen",
+            "sie würden zustimmen"
+          ],
+          "imperativ": [
+            "stimme zu!",
+            "stimmt zu!"
           ]
         },
         "examples": [
