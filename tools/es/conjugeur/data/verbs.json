@@ -23,6 +23,52 @@
         "hablamos",
         "hablasteis",
         "hablaron"
+      ],
+      "preterito_imperfecto": [
+        "hablaba",
+        "hablabas",
+        "hablaba",
+        "hablábamos",
+        "hablabais",
+        "hablaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he hablado",
+        "has hablado",
+        "ha hablado",
+        "hemos hablado",
+        "habéis hablado",
+        "han hablado"
+      ],
+      "futuro_simple": [
+        "hablaré",
+        "hablarás",
+        "hablará",
+        "hablaremos",
+        "hablaréis",
+        "hablarán"
+      ],
+      "condicional_simple": [
+        "hablaría",
+        "hablarías",
+        "hablaría",
+        "hablaríamos",
+        "hablaríais",
+        "hablarían"
+      ],
+      "subjuntivo_presente": [
+        "hable",
+        "hables",
+        "hable",
+        "hablemos",
+        "habléis",
+        "hablen"
+      ],
+      "imperativo": [
+        "habla!",
+        "hable!",
+        "hablad!",
+        "hablen!"
       ]
     },
     "examples": [
@@ -52,6 +98,52 @@
         "comimos",
         "comisteis",
         "comieron"
+      ],
+      "preterito_imperfecto": [
+        "comía",
+        "comías",
+        "comía",
+        "comíamos",
+        "comíais",
+        "comían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he comido",
+        "has comido",
+        "ha comido",
+        "hemos comido",
+        "habéis comido",
+        "han comido"
+      ],
+      "futuro_simple": [
+        "comeré",
+        "comerás",
+        "comerá",
+        "comeremos",
+        "comeréis",
+        "comerán"
+      ],
+      "condicional_simple": [
+        "comería",
+        "comerías",
+        "comería",
+        "comeríamos",
+        "comeríais",
+        "comerían"
+      ],
+      "subjuntivo_presente": [
+        "coma",
+        "comas",
+        "coma",
+        "comamos",
+        "comáis",
+        "coman"
+      ],
+      "imperativo": [
+        "come!",
+        "coma!",
+        "comed!",
+        "coman!"
       ]
     },
     "examples": [
@@ -81,6 +173,52 @@
         "vivimos",
         "vivisteis",
         "vivieron"
+      ],
+      "preterito_imperfecto": [
+        "vivía",
+        "vivías",
+        "vivía",
+        "vivíamos",
+        "vivíais",
+        "vivían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he vivido",
+        "has vivido",
+        "ha vivido",
+        "hemos vivido",
+        "habéis vivido",
+        "han vivido"
+      ],
+      "futuro_simple": [
+        "viviré",
+        "vivirás",
+        "vivirá",
+        "viviremos",
+        "viviréis",
+        "vivirán"
+      ],
+      "condicional_simple": [
+        "viviría",
+        "vivirías",
+        "viviría",
+        "viviríamos",
+        "viviríais",
+        "vivirían"
+      ],
+      "subjuntivo_presente": [
+        "viva",
+        "vivas",
+        "viva",
+        "vivamos",
+        "viváis",
+        "vivan"
+      ],
+      "imperativo": [
+        "vive!",
+        "viva!",
+        "vivid!",
+        "vivan!"
       ]
     },
     "examples": [
@@ -108,6 +246,52 @@
         "fuimos",
         "fuisteis",
         "fueron"
+      ],
+      "preterito_imperfecto": [
+        "era",
+        "eras",
+        "era",
+        "éramos",
+        "erais",
+        "eran"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he sido",
+        "has sido",
+        "ha sido",
+        "hemos sido",
+        "habéis sido",
+        "han sido"
+      ],
+      "futuro_simple": [
+        "seré",
+        "serás",
+        "será",
+        "seremos",
+        "seréis",
+        "serán"
+      ],
+      "condicional_simple": [
+        "sería",
+        "serías",
+        "sería",
+        "seríamos",
+        "seríais",
+        "serían"
+      ],
+      "subjuntivo_presente": [
+        "sea",
+        "seas",
+        "sea",
+        "seamos",
+        "seáis",
+        "sean"
+      ],
+      "imperativo": [
+        "sé!",
+        "sea!",
+        "sed!",
+        "sean!"
       ]
     },
     "examples": [
@@ -135,6 +319,52 @@
         "estuvimos",
         "estuvisteis",
         "estuvieron"
+      ],
+      "preterito_imperfecto": [
+        "estaba",
+        "estabas",
+        "estaba",
+        "estábamos",
+        "estabais",
+        "estaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he estado",
+        "has estado",
+        "ha estado",
+        "hemos estado",
+        "habéis estado",
+        "han estado"
+      ],
+      "futuro_simple": [
+        "estaré",
+        "estarás",
+        "estará",
+        "estaremos",
+        "estaréis",
+        "estarán"
+      ],
+      "condicional_simple": [
+        "estaría",
+        "estarías",
+        "estaría",
+        "estaríamos",
+        "estaríais",
+        "estarían"
+      ],
+      "subjuntivo_presente": [
+        "esté",
+        "estés",
+        "esté",
+        "estemos",
+        "estéis",
+        "estén"
+      ],
+      "imperativo": [
+        "está!",
+        "esté!",
+        "estad!",
+        "estén!"
       ]
     },
     "examples": [
@@ -162,6 +392,52 @@
         "tuvimos",
         "tuvisteis",
         "tuvieron"
+      ],
+      "preterito_imperfecto": [
+        "tenía",
+        "tenías",
+        "tenía",
+        "teníamos",
+        "teníais",
+        "tenían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he tenido",
+        "has tenido",
+        "ha tenido",
+        "hemos tenido",
+        "habéis tenido",
+        "han tenido"
+      ],
+      "futuro_simple": [
+        "tendré",
+        "tendrás",
+        "tendrá",
+        "tendremos",
+        "tendréis",
+        "tendrán"
+      ],
+      "condicional_simple": [
+        "tendría",
+        "tendrías",
+        "tendría",
+        "tendríamos",
+        "tendríais",
+        "tendrían"
+      ],
+      "subjuntivo_presente": [
+        "tenga",
+        "tengas",
+        "tenga",
+        "tengamos",
+        "tengáis",
+        "tengan"
+      ],
+      "imperativo": [
+        "ten!",
+        "tenga!",
+        "tened!",
+        "tengan!"
       ]
     },
     "examples": [
@@ -191,6 +467,52 @@
         "fuimos",
         "fuisteis",
         "fueron"
+      ],
+      "preterito_imperfecto": [
+        "iba",
+        "ibas",
+        "iba",
+        "íbamos",
+        "ibais",
+        "iban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he ido",
+        "has ido",
+        "ha ido",
+        "hemos ido",
+        "habéis ido",
+        "han ido"
+      ],
+      "futuro_simple": [
+        "iré",
+        "irás",
+        "irá",
+        "iremos",
+        "iréis",
+        "irán"
+      ],
+      "condicional_simple": [
+        "iría",
+        "irías",
+        "iría",
+        "iríamos",
+        "iríais",
+        "irían"
+      ],
+      "subjuntivo_presente": [
+        "vaya",
+        "vayas",
+        "vaya",
+        "vayamos",
+        "vayáis",
+        "vayan"
+      ],
+      "imperativo": [
+        "ve!",
+        "vaya!",
+        "id!",
+        "vayan!"
       ]
     },
     "examples": [
@@ -218,6 +540,52 @@
         "hicimos",
         "hicisteis",
         "hicieron"
+      ],
+      "preterito_imperfecto": [
+        "hacía",
+        "hacías",
+        "hacía",
+        "hacíamos",
+        "hacíais",
+        "hacían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he hecho",
+        "has hecho",
+        "ha hecho",
+        "hemos hecho",
+        "habéis hecho",
+        "han hecho"
+      ],
+      "futuro_simple": [
+        "haré",
+        "harás",
+        "hará",
+        "haremos",
+        "haréis",
+        "harán"
+      ],
+      "condicional_simple": [
+        "haría",
+        "harías",
+        "haría",
+        "haríamos",
+        "haríais",
+        "harían"
+      ],
+      "subjuntivo_presente": [
+        "haga",
+        "hagas",
+        "haga",
+        "hagamos",
+        "hagáis",
+        "hagan"
+      ],
+      "imperativo": [
+        "haz!",
+        "haga!",
+        "haced!",
+        "hagan!"
       ]
     },
     "examples": [
@@ -245,6 +613,52 @@
         "quisimos",
         "quisisteis",
         "quisieron"
+      ],
+      "preterito_imperfecto": [
+        "quería",
+        "querías",
+        "quería",
+        "queríamos",
+        "queríais",
+        "querían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he querido",
+        "has querido",
+        "ha querido",
+        "hemos querido",
+        "habéis querido",
+        "han querido"
+      ],
+      "futuro_simple": [
+        "querré",
+        "querrás",
+        "querrá",
+        "querremos",
+        "querréis",
+        "querrán"
+      ],
+      "condicional_simple": [
+        "querría",
+        "querrías",
+        "querría",
+        "querríamos",
+        "querríais",
+        "querrían"
+      ],
+      "subjuntivo_presente": [
+        "quiera",
+        "quieras",
+        "quiera",
+        "queramos",
+        "queráis",
+        "quieran"
+      ],
+      "imperativo": [
+        "quiere!",
+        "quiera!",
+        "quered!",
+        "quieran!"
       ]
     },
     "examples": [
@@ -272,6 +686,52 @@
         "pudimos",
         "pudisteis",
         "pudieron"
+      ],
+      "preterito_imperfecto": [
+        "podía",
+        "podías",
+        "podía",
+        "podíamos",
+        "podíais",
+        "podían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he podido",
+        "has podido",
+        "ha podido",
+        "hemos podido",
+        "habéis podido",
+        "han podido"
+      ],
+      "futuro_simple": [
+        "podré",
+        "podrás",
+        "podrá",
+        "podremos",
+        "podréis",
+        "podrán"
+      ],
+      "condicional_simple": [
+        "podría",
+        "podrías",
+        "podría",
+        "podríamos",
+        "podríais",
+        "podrían"
+      ],
+      "subjuntivo_presente": [
+        "pueda",
+        "puedas",
+        "pueda",
+        "podamos",
+        "podáis",
+        "puedan"
+      ],
+      "imperativo": [
+        "puede!",
+        "pueda!",
+        "poded!",
+        "puedan!"
       ]
     },
     "examples": [
@@ -301,6 +761,52 @@
         "escribimos",
         "escribisteis",
         "escribieron"
+      ],
+      "preterito_imperfecto": [
+        "escribía",
+        "escribías",
+        "escribía",
+        "escribíamos",
+        "escribíais",
+        "escribían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he escrito",
+        "has escrito",
+        "ha escrito",
+        "hemos escrito",
+        "habéis escrito",
+        "han escrito"
+      ],
+      "futuro_simple": [
+        "escribiré",
+        "escribirás",
+        "escribirá",
+        "escribiremos",
+        "escribiréis",
+        "escribirán"
+      ],
+      "condicional_simple": [
+        "escribiría",
+        "escribirías",
+        "escribiría",
+        "escribiríamos",
+        "escribiríais",
+        "escribirían"
+      ],
+      "subjuntivo_presente": [
+        "escriba",
+        "escribas",
+        "escriba",
+        "escribamos",
+        "escribáis",
+        "escriban"
+      ],
+      "imperativo": [
+        "escribe!",
+        "escriba!",
+        "escribid!",
+        "escriban!"
       ]
     },
     "examples": [
@@ -330,6 +836,52 @@
         "escuchamos",
         "escuchasteis",
         "escucharon"
+      ],
+      "preterito_imperfecto": [
+        "escuchaba",
+        "escuchabas",
+        "escuchaba",
+        "escuchábamos",
+        "escuchabais",
+        "escuchaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he escuchado",
+        "has escuchado",
+        "ha escuchado",
+        "hemos escuchado",
+        "habéis escuchado",
+        "han escuchado"
+      ],
+      "futuro_simple": [
+        "escucharé",
+        "escucharás",
+        "escuchará",
+        "escucharemos",
+        "escucharéis",
+        "escucharán"
+      ],
+      "condicional_simple": [
+        "escucharía",
+        "escucharías",
+        "escucharía",
+        "escucharíamos",
+        "escucharíais",
+        "escucharían"
+      ],
+      "subjuntivo_presente": [
+        "escuche",
+        "escuches",
+        "escuche",
+        "escuchemos",
+        "escuchéis",
+        "escuchen"
+      ],
+      "imperativo": [
+        "escucha!",
+        "escuche!",
+        "escuchad!",
+        "escuchen!"
       ]
     },
     "examples": [
@@ -359,6 +911,52 @@
         "leímos",
         "leísteis",
         "leyeron"
+      ],
+      "preterito_imperfecto": [
+        "leía",
+        "leías",
+        "leía",
+        "leíamos",
+        "leíais",
+        "leían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he leído",
+        "has leído",
+        "ha leído",
+        "hemos leído",
+        "habéis leído",
+        "han leído"
+      ],
+      "futuro_simple": [
+        "leeré",
+        "leerás",
+        "leerá",
+        "leeremos",
+        "leeréis",
+        "leerán"
+      ],
+      "condicional_simple": [
+        "leería",
+        "leerías",
+        "leería",
+        "leeríamos",
+        "leeríais",
+        "leerían"
+      ],
+      "subjuntivo_presente": [
+        "lea",
+        "leas",
+        "lea",
+        "leamos",
+        "leáis",
+        "lean"
+      ],
+      "imperativo": [
+        "lee!",
+        "lea!",
+        "leed!",
+        "lean!"
       ]
     },
     "examples": [
@@ -388,6 +986,52 @@
         "supimos",
         "supisteis",
         "supieron"
+      ],
+      "preterito_imperfecto": [
+        "sabía",
+        "sabías",
+        "sabía",
+        "sabíamos",
+        "sabíais",
+        "sabían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he sabido",
+        "has sabido",
+        "ha sabido",
+        "hemos sabido",
+        "habéis sabido",
+        "han sabido"
+      ],
+      "futuro_simple": [
+        "sabré",
+        "sabrás",
+        "sabrá",
+        "sabremos",
+        "sabréis",
+        "sabrán"
+      ],
+      "condicional_simple": [
+        "sabría",
+        "sabrías",
+        "sabría",
+        "sabríamos",
+        "sabríais",
+        "sabrían"
+      ],
+      "subjuntivo_presente": [
+        "sepa",
+        "sepas",
+        "sepa",
+        "sepamos",
+        "sepáis",
+        "sepan"
+      ],
+      "imperativo": [
+        "sabe!",
+        "sepa!",
+        "sabed!",
+        "sepan!"
       ]
     },
     "examples": [
@@ -415,6 +1059,52 @@
         "vimos",
         "visteis",
         "vieron"
+      ],
+      "preterito_imperfecto": [
+        "veía",
+        "veías",
+        "veía",
+        "veíamos",
+        "veíais",
+        "veían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he visto",
+        "has visto",
+        "ha visto",
+        "hemos visto",
+        "habéis visto",
+        "han visto"
+      ],
+      "futuro_simple": [
+        "veré",
+        "verás",
+        "verá",
+        "veremos",
+        "veréis",
+        "verán"
+      ],
+      "condicional_simple": [
+        "vería",
+        "verías",
+        "vería",
+        "veríamos",
+        "veríais",
+        "verían"
+      ],
+      "subjuntivo_presente": [
+        "vea",
+        "veas",
+        "vea",
+        "veamos",
+        "veáis",
+        "vean"
+      ],
+      "imperativo": [
+        "ve!",
+        "vea!",
+        "ved!",
+        "vean!"
       ]
     },
     "examples": [
@@ -444,6 +1134,52 @@
         "trabajamos",
         "trabajasteis",
         "trabajaron"
+      ],
+      "preterito_imperfecto": [
+        "trabajaba",
+        "trabajabas",
+        "trabajaba",
+        "trabajábamos",
+        "trabajabais",
+        "trabajaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he trabajado",
+        "has trabajado",
+        "ha trabajado",
+        "hemos trabajado",
+        "habéis trabajado",
+        "han trabajado"
+      ],
+      "futuro_simple": [
+        "trabajaré",
+        "trabajarás",
+        "trabajará",
+        "trabajaremos",
+        "trabajaréis",
+        "trabajarán"
+      ],
+      "condicional_simple": [
+        "trabajaría",
+        "trabajarías",
+        "trabajaría",
+        "trabajaríamos",
+        "trabajaríais",
+        "trabajarían"
+      ],
+      "subjuntivo_presente": [
+        "trabaje",
+        "trabajes",
+        "trabaje",
+        "trabajemos",
+        "trabajéis",
+        "trabajen"
+      ],
+      "imperativo": [
+        "trabaja!",
+        "trabaje!",
+        "trabajad!",
+        "trabajen!"
       ]
     },
     "examples": [
@@ -473,6 +1209,52 @@
         "aprendimos",
         "aprendisteis",
         "aprendieron"
+      ],
+      "preterito_imperfecto": [
+        "aprendía",
+        "aprendías",
+        "aprendía",
+        "aprendíamos",
+        "aprendíais",
+        "aprendían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he aprendido",
+        "has aprendido",
+        "ha aprendido",
+        "hemos aprendido",
+        "habéis aprendido",
+        "han aprendido"
+      ],
+      "futuro_simple": [
+        "aprenderé",
+        "aprenderás",
+        "aprenderá",
+        "aprenderemos",
+        "aprenderéis",
+        "aprenderán"
+      ],
+      "condicional_simple": [
+        "aprendería",
+        "aprenderías",
+        "aprendería",
+        "aprenderíamos",
+        "aprenderíais",
+        "aprenderían"
+      ],
+      "subjuntivo_presente": [
+        "aprenda",
+        "aprendas",
+        "aprenda",
+        "aprendamos",
+        "aprendáis",
+        "aprendan"
+      ],
+      "imperativo": [
+        "aprende!",
+        "aprenda!",
+        "aprended!",
+        "aprendan!"
       ]
     },
     "examples": [
@@ -502,6 +1284,52 @@
         "compramos",
         "comprasteis",
         "compraron"
+      ],
+      "preterito_imperfecto": [
+        "compraba",
+        "comprabas",
+        "compraba",
+        "comprábamos",
+        "comprabais",
+        "compraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he comprado",
+        "has comprado",
+        "ha comprado",
+        "hemos comprado",
+        "habéis comprado",
+        "han comprado"
+      ],
+      "futuro_simple": [
+        "compraré",
+        "comprarás",
+        "comprará",
+        "compraremos",
+        "compraréis",
+        "comprarán"
+      ],
+      "condicional_simple": [
+        "compraría",
+        "comprarías",
+        "compraría",
+        "compraríamos",
+        "compraríais",
+        "comprarían"
+      ],
+      "subjuntivo_presente": [
+        "compre",
+        "compres",
+        "compre",
+        "compremos",
+        "compréis",
+        "compren"
+      ],
+      "imperativo": [
+        "compra!",
+        "compre!",
+        "comprad!",
+        "compren!"
       ]
     },
     "examples": [
@@ -531,6 +1359,52 @@
         "vendimos",
         "vendisteis",
         "vendieron"
+      ],
+      "preterito_imperfecto": [
+        "vendía",
+        "vendías",
+        "vendía",
+        "vendíamos",
+        "vendíais",
+        "vendían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he vendido",
+        "has vendido",
+        "ha vendido",
+        "hemos vendido",
+        "habéis vendido",
+        "han vendido"
+      ],
+      "futuro_simple": [
+        "venderé",
+        "venderás",
+        "venderá",
+        "venderemos",
+        "venderéis",
+        "venderán"
+      ],
+      "condicional_simple": [
+        "vendería",
+        "venderías",
+        "vendería",
+        "venderíamos",
+        "venderíais",
+        "venderían"
+      ],
+      "subjuntivo_presente": [
+        "venda",
+        "vendas",
+        "venda",
+        "vendamos",
+        "vendáis",
+        "vendan"
+      ],
+      "imperativo": [
+        "vende!",
+        "venda!",
+        "vended!",
+        "vendan!"
       ]
     },
     "examples": [
@@ -558,6 +1432,52 @@
         "jugamos",
         "jugasteis",
         "jugaron"
+      ],
+      "preterito_imperfecto": [
+        "jugaba",
+        "jugabas",
+        "jugaba",
+        "jugábamos",
+        "jugabais",
+        "jugaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he jugado",
+        "has jugado",
+        "ha jugado",
+        "hemos jugado",
+        "habéis jugado",
+        "han jugado"
+      ],
+      "futuro_simple": [
+        "jugaré",
+        "jugarás",
+        "jugará",
+        "jugaremos",
+        "jugaréis",
+        "jugarán"
+      ],
+      "condicional_simple": [
+        "jugaría",
+        "jugarías",
+        "jugaría",
+        "jugaríamos",
+        "jugaríais",
+        "jugarían"
+      ],
+      "subjuntivo_presente": [
+        "juegue",
+        "juegues",
+        "juegue",
+        "juguemos",
+        "juguéis",
+        "jueguen"
+      ],
+      "imperativo": [
+        "juega!",
+        "juegue!",
+        "jugad!",
+        "jueguen!"
       ]
     },
     "examples": [
@@ -585,6 +1505,52 @@
         "cocinamos",
         "cocinasteis",
         "cocinaron"
+      ],
+      "preterito_imperfecto": [
+        "cocinaba",
+        "cocinabas",
+        "cocinaba",
+        "cocinábamos",
+        "cocinabais",
+        "cocinaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he cocinado",
+        "has cocinado",
+        "ha cocinado",
+        "hemos cocinado",
+        "habéis cocinado",
+        "han cocinado"
+      ],
+      "futuro_simple": [
+        "cocinaré",
+        "cocinarás",
+        "cocinará",
+        "cocinaremos",
+        "cocinaréis",
+        "cocinarán"
+      ],
+      "condicional_simple": [
+        "cocinaría",
+        "cocinarías",
+        "cocinaría",
+        "cocinaríamos",
+        "cocinaríais",
+        "cocinarían"
+      ],
+      "subjuntivo_presente": [
+        "cocine",
+        "cocines",
+        "cocine",
+        "cocinemos",
+        "cocinéis",
+        "cocinen"
+      ],
+      "imperativo": [
+        "cocina!",
+        "cocine!",
+        "cocinad!",
+        "cocinen!"
       ]
     },
     "examples": [
@@ -612,6 +1578,52 @@
         "necesitamos",
         "necesitasteis",
         "necesitaron"
+      ],
+      "preterito_imperfecto": [
+        "necesitaba",
+        "necesitabas",
+        "necesitaba",
+        "necesitábamos",
+        "necesitabais",
+        "necesitaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he necesitado",
+        "has necesitado",
+        "ha necesitado",
+        "hemos necesitado",
+        "habéis necesitado",
+        "han necesitado"
+      ],
+      "futuro_simple": [
+        "necesitaré",
+        "necesitarás",
+        "necesitará",
+        "necesitaremos",
+        "necesitaréis",
+        "necesitarán"
+      ],
+      "condicional_simple": [
+        "necesitaría",
+        "necesitarías",
+        "necesitaría",
+        "necesitaríamos",
+        "necesitaríais",
+        "necesitarían"
+      ],
+      "subjuntivo_presente": [
+        "necesite",
+        "necesites",
+        "necesite",
+        "necesitemos",
+        "necesitéis",
+        "necesiten"
+      ],
+      "imperativo": [
+        "necesita!",
+        "necesite!",
+        "necesitad!",
+        "necesiten!"
       ]
     },
     "examples": [
@@ -641,6 +1653,52 @@
         "buscamos",
         "buscasteis",
         "buscaron"
+      ],
+      "preterito_imperfecto": [
+        "buscaba",
+        "buscabas",
+        "buscaba",
+        "buscábamos",
+        "buscabais",
+        "buscaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he buscado",
+        "has buscado",
+        "ha buscado",
+        "hemos buscado",
+        "habéis buscado",
+        "han buscado"
+      ],
+      "futuro_simple": [
+        "buscaré",
+        "buscarás",
+        "buscará",
+        "buscaremos",
+        "buscaréis",
+        "buscarán"
+      ],
+      "condicional_simple": [
+        "buscaría",
+        "buscarías",
+        "buscaría",
+        "buscaríamos",
+        "buscaríais",
+        "buscarían"
+      ],
+      "subjuntivo_presente": [
+        "busque",
+        "busques",
+        "busque",
+        "busquemos",
+        "busquéis",
+        "busquen"
+      ],
+      "imperativo": [
+        "busca!",
+        "busque!",
+        "buscad!",
+        "busquen!"
       ]
     },
     "examples": [
@@ -670,6 +1728,52 @@
         "encontramos",
         "encontrasteis",
         "encontraron"
+      ],
+      "preterito_imperfecto": [
+        "encontraba",
+        "encontrabas",
+        "encontraba",
+        "encontrábamos",
+        "encontrabais",
+        "encontraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he encontrado",
+        "has encontrado",
+        "ha encontrado",
+        "hemos encontrado",
+        "habéis encontrado",
+        "han encontrado"
+      ],
+      "futuro_simple": [
+        "encontraré",
+        "encontrarás",
+        "encontrará",
+        "encontraremos",
+        "encontraréis",
+        "encontrarán"
+      ],
+      "condicional_simple": [
+        "encontraría",
+        "encontrarías",
+        "encontraría",
+        "encontraríamos",
+        "encontraríais",
+        "encontrarían"
+      ],
+      "subjuntivo_presente": [
+        "encuentre",
+        "encuentres",
+        "encuentre",
+        "encontremos",
+        "encontréis",
+        "encuentren"
+      ],
+      "imperativo": [
+        "encuentra!",
+        "encuentre!",
+        "encontrad!",
+        "encuentren!"
       ]
     },
     "examples": [
@@ -697,6 +1801,52 @@
         "tomamos",
         "tomasteis",
         "tomaron"
+      ],
+      "preterito_imperfecto": [
+        "tomaba",
+        "tomabas",
+        "tomaba",
+        "tomábamos",
+        "tomabais",
+        "tomaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he tomado",
+        "has tomado",
+        "ha tomado",
+        "hemos tomado",
+        "habéis tomado",
+        "han tomado"
+      ],
+      "futuro_simple": [
+        "tomaré",
+        "tomarás",
+        "tomará",
+        "tomaremos",
+        "tomaréis",
+        "tomarán"
+      ],
+      "condicional_simple": [
+        "tomaría",
+        "tomarías",
+        "tomaría",
+        "tomaríamos",
+        "tomaríais",
+        "tomarían"
+      ],
+      "subjuntivo_presente": [
+        "tome",
+        "tomes",
+        "tome",
+        "tomemos",
+        "toméis",
+        "tomen"
+      ],
+      "imperativo": [
+        "toma!",
+        "tome!",
+        "tomad!",
+        "tomen!"
       ]
     },
     "examples": [
@@ -726,6 +1876,52 @@
         "dimos",
         "disteis",
         "dieron"
+      ],
+      "preterito_imperfecto": [
+        "daba",
+        "dabas",
+        "daba",
+        "dábamos",
+        "dabais",
+        "daban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he dado",
+        "has dado",
+        "ha dado",
+        "hemos dado",
+        "habéis dado",
+        "han dado"
+      ],
+      "futuro_simple": [
+        "daré",
+        "darás",
+        "dará",
+        "daremos",
+        "daréis",
+        "darán"
+      ],
+      "condicional_simple": [
+        "daría",
+        "darías",
+        "daría",
+        "daríamos",
+        "daríais",
+        "darían"
+      ],
+      "subjuntivo_presente": [
+        "dé",
+        "des",
+        "dé",
+        "demos",
+        "deis",
+        "den"
+      ],
+      "imperativo": [
+        "da!",
+        "dé!",
+        "dad!",
+        "den!"
       ]
     },
     "examples": [
@@ -755,6 +1951,52 @@
         "llevamos",
         "llevasteis",
         "llevaron"
+      ],
+      "preterito_imperfecto": [
+        "llevaba",
+        "llevabas",
+        "llevaba",
+        "llevábamos",
+        "llevabais",
+        "llevaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he llevado",
+        "has llevado",
+        "ha llevado",
+        "hemos llevado",
+        "habéis llevado",
+        "han llevado"
+      ],
+      "futuro_simple": [
+        "llevaré",
+        "llevarás",
+        "llevará",
+        "llevaremos",
+        "llevaréis",
+        "llevarán"
+      ],
+      "condicional_simple": [
+        "llevaría",
+        "llevarías",
+        "llevaría",
+        "llevaríamos",
+        "llevaríais",
+        "llevarían"
+      ],
+      "subjuntivo_presente": [
+        "lleve",
+        "lleves",
+        "lleve",
+        "llevemos",
+        "llevéis",
+        "lleven"
+      ],
+      "imperativo": [
+        "lleva!",
+        "lleve!",
+        "llevad!",
+        "lleven!"
       ]
     },
     "examples": [
@@ -784,6 +2026,52 @@
         "trajimos",
         "trajisteis",
         "trajeron"
+      ],
+      "preterito_imperfecto": [
+        "traía",
+        "traías",
+        "traía",
+        "traíamos",
+        "traíais",
+        "traían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he traído",
+        "has traído",
+        "ha traído",
+        "hemos traído",
+        "habéis traído",
+        "han traído"
+      ],
+      "futuro_simple": [
+        "traeré",
+        "traerás",
+        "traerá",
+        "traeremos",
+        "traeréis",
+        "traerán"
+      ],
+      "condicional_simple": [
+        "traería",
+        "traerías",
+        "traería",
+        "traeríamos",
+        "traeríais",
+        "traerían"
+      ],
+      "subjuntivo_presente": [
+        "traiga",
+        "traigas",
+        "traiga",
+        "traigamos",
+        "traigáis",
+        "traigan"
+      ],
+      "imperativo": [
+        "trae!",
+        "traiga!",
+        "traed!",
+        "traigan!"
       ]
     },
     "examples": [
@@ -811,6 +2099,52 @@
         "pensamos",
         "pensasteis",
         "pensaron"
+      ],
+      "preterito_imperfecto": [
+        "pensaba",
+        "pensabas",
+        "pensaba",
+        "pensábamos",
+        "pensabais",
+        "pensaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he pensado",
+        "has pensado",
+        "ha pensado",
+        "hemos pensado",
+        "habéis pensado",
+        "han pensado"
+      ],
+      "futuro_simple": [
+        "pensaré",
+        "pensarás",
+        "pensará",
+        "pensaremos",
+        "pensaréis",
+        "pensarán"
+      ],
+      "condicional_simple": [
+        "pensaría",
+        "pensarías",
+        "pensaría",
+        "pensaríamos",
+        "pensaríais",
+        "pensarían"
+      ],
+      "subjuntivo_presente": [
+        "piense",
+        "pienses",
+        "piense",
+        "pensemos",
+        "penséis",
+        "piensen"
+      ],
+      "imperativo": [
+        "piensa!",
+        "piense!",
+        "pensad!",
+        "piensen!"
       ]
     },
     "examples": [
@@ -840,6 +2174,52 @@
         "conocimos",
         "conocisteis",
         "conocieron"
+      ],
+      "preterito_imperfecto": [
+        "conocía",
+        "conocías",
+        "conocía",
+        "conocíamos",
+        "conocíais",
+        "conocían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he conocido",
+        "has conocido",
+        "ha conocido",
+        "hemos conocido",
+        "habéis conocido",
+        "han conocido"
+      ],
+      "futuro_simple": [
+        "conoceré",
+        "conocerás",
+        "conocerá",
+        "conoceremos",
+        "conoceréis",
+        "conocerán"
+      ],
+      "condicional_simple": [
+        "conocería",
+        "conocerías",
+        "conocería",
+        "conoceríamos",
+        "conoceríais",
+        "conocerían"
+      ],
+      "subjuntivo_presente": [
+        "conozca",
+        "conozcas",
+        "conozca",
+        "conozcamos",
+        "conozcáis",
+        "conozcan"
+      ],
+      "imperativo": [
+        "conoce!",
+        "conozca!",
+        "conoced!",
+        "conozcan!"
       ]
     },
     "examples": [
@@ -869,6 +2249,52 @@
         "pusimos",
         "pusisteis",
         "pusieron"
+      ],
+      "preterito_imperfecto": [
+        "ponía",
+        "ponías",
+        "ponía",
+        "poníamos",
+        "poníais",
+        "ponían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he puesto",
+        "has puesto",
+        "ha puesto",
+        "hemos puesto",
+        "habéis puesto",
+        "han puesto"
+      ],
+      "futuro_simple": [
+        "pondré",
+        "pondrás",
+        "pondrá",
+        "pondremos",
+        "pondréis",
+        "pondrán"
+      ],
+      "condicional_simple": [
+        "pondría",
+        "pondrías",
+        "pondría",
+        "pondríamos",
+        "pondríais",
+        "pondrían"
+      ],
+      "subjuntivo_presente": [
+        "ponga",
+        "pongas",
+        "ponga",
+        "pongamos",
+        "pongáis",
+        "pongan"
+      ],
+      "imperativo": [
+        "pon!",
+        "ponga!",
+        "poned!",
+        "pongan!"
       ]
     },
     "examples": [
@@ -898,6 +2324,52 @@
         "salimos",
         "salisteis",
         "salieron"
+      ],
+      "preterito_imperfecto": [
+        "salía",
+        "salías",
+        "salía",
+        "salíamos",
+        "salíais",
+        "salían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he salido",
+        "has salido",
+        "ha salido",
+        "hemos salido",
+        "habéis salido",
+        "han salido"
+      ],
+      "futuro_simple": [
+        "saldré",
+        "saldrás",
+        "saldrá",
+        "saldremos",
+        "saldréis",
+        "saldrán"
+      ],
+      "condicional_simple": [
+        "saldría",
+        "saldrías",
+        "saldría",
+        "saldríamos",
+        "saldríais",
+        "saldrían"
+      ],
+      "subjuntivo_presente": [
+        "salga",
+        "salgas",
+        "salga",
+        "salgamos",
+        "salgáis",
+        "salgan"
+      ],
+      "imperativo": [
+        "sal!",
+        "salga!",
+        "salid!",
+        "salgan!"
       ]
     },
     "examples": [
@@ -927,6 +2399,52 @@
         "llegamos",
         "llegasteis",
         "llegaron"
+      ],
+      "preterito_imperfecto": [
+        "llegaba",
+        "llegabas",
+        "llegaba",
+        "llegábamos",
+        "llegabais",
+        "llegaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he llegado",
+        "has llegado",
+        "ha llegado",
+        "hemos llegado",
+        "habéis llegado",
+        "han llegado"
+      ],
+      "futuro_simple": [
+        "llegaré",
+        "llegarás",
+        "llegará",
+        "llegaremos",
+        "llegaréis",
+        "llegarán"
+      ],
+      "condicional_simple": [
+        "llegaría",
+        "llegarías",
+        "llegaría",
+        "llegaríamos",
+        "llegaríais",
+        "llegarían"
+      ],
+      "subjuntivo_presente": [
+        "llegue",
+        "llegues",
+        "llegue",
+        "lleguemos",
+        "lleguéis",
+        "lleguen"
+      ],
+      "imperativo": [
+        "llega!",
+        "llegue!",
+        "llegad!",
+        "lleguen!"
       ]
     },
     "examples": [
@@ -956,6 +2474,52 @@
         "entramos",
         "entrasteis",
         "entraron"
+      ],
+      "preterito_imperfecto": [
+        "entraba",
+        "entrabas",
+        "entraba",
+        "entrábamos",
+        "entrabais",
+        "entraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he entrado",
+        "has entrado",
+        "ha entrado",
+        "hemos entrado",
+        "habéis entrado",
+        "han entrado"
+      ],
+      "futuro_simple": [
+        "entraré",
+        "entrarás",
+        "entrará",
+        "entraremos",
+        "entraréis",
+        "entrarán"
+      ],
+      "condicional_simple": [
+        "entraría",
+        "entrarías",
+        "entraría",
+        "entraríamos",
+        "entraríais",
+        "entrarían"
+      ],
+      "subjuntivo_presente": [
+        "entre",
+        "entres",
+        "entre",
+        "entremos",
+        "entréis",
+        "entren"
+      ],
+      "imperativo": [
+        "entra!",
+        "entre!",
+        "entrad!",
+        "entren!"
       ]
     },
     "examples": [
@@ -986,6 +2550,52 @@
         "volvimos",
         "volvisteis",
         "volvieron"
+      ],
+      "preterito_imperfecto": [
+        "volvía",
+        "volvías",
+        "volvía",
+        "volvíamos",
+        "volvíais",
+        "volvían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he vuelto",
+        "has vuelto",
+        "ha vuelto",
+        "hemos vuelto",
+        "habéis vuelto",
+        "han vuelto"
+      ],
+      "futuro_simple": [
+        "volveré",
+        "volverás",
+        "volverá",
+        "volveremos",
+        "volveréis",
+        "volverán"
+      ],
+      "condicional_simple": [
+        "volvería",
+        "volverías",
+        "volvería",
+        "volveríamos",
+        "volveríais",
+        "volverían"
+      ],
+      "subjuntivo_presente": [
+        "vuelva",
+        "vuelvas",
+        "vuelva",
+        "volvamos",
+        "volváis",
+        "vuelvan"
+      ],
+      "imperativo": [
+        "vuelve!",
+        "vuelva!",
+        "volved!",
+        "vuelvan!"
       ]
     },
     "examples": [
@@ -1013,6 +2623,52 @@
         "viajamos",
         "viajasteis",
         "viajaron"
+      ],
+      "preterito_imperfecto": [
+        "viajaba",
+        "viajabas",
+        "viajaba",
+        "viajábamos",
+        "viajabais",
+        "viajaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he viajado",
+        "has viajado",
+        "ha viajado",
+        "hemos viajado",
+        "habéis viajado",
+        "han viajado"
+      ],
+      "futuro_simple": [
+        "viajaré",
+        "viajarás",
+        "viajará",
+        "viajaremos",
+        "viajaréis",
+        "viajarán"
+      ],
+      "condicional_simple": [
+        "viajaría",
+        "viajarías",
+        "viajaría",
+        "viajaríamos",
+        "viajaríais",
+        "viajarían"
+      ],
+      "subjuntivo_presente": [
+        "viaje",
+        "viajes",
+        "viaje",
+        "viajemos",
+        "viajéis",
+        "viajen"
+      ],
+      "imperativo": [
+        "viaja!",
+        "viaje!",
+        "viajad!",
+        "viajen!"
       ]
     },
     "examples": [
@@ -1040,6 +2696,52 @@
         "caminamos",
         "caminasteis",
         "caminaron"
+      ],
+      "preterito_imperfecto": [
+        "caminaba",
+        "caminabas",
+        "caminaba",
+        "caminábamos",
+        "caminabais",
+        "caminaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he caminado",
+        "has caminado",
+        "ha caminado",
+        "hemos caminado",
+        "habéis caminado",
+        "han caminado"
+      ],
+      "futuro_simple": [
+        "caminaré",
+        "caminarás",
+        "caminará",
+        "caminaremos",
+        "caminaréis",
+        "caminarán"
+      ],
+      "condicional_simple": [
+        "caminaría",
+        "caminarías",
+        "caminaría",
+        "caminaríamos",
+        "caminaríais",
+        "caminarían"
+      ],
+      "subjuntivo_presente": [
+        "camine",
+        "camines",
+        "camine",
+        "caminemos",
+        "caminéis",
+        "caminen"
+      ],
+      "imperativo": [
+        "camina!",
+        "camine!",
+        "caminad!",
+        "caminen!"
       ]
     },
     "examples": [
@@ -1069,6 +2771,52 @@
         "corrimos",
         "corristeis",
         "corrieron"
+      ],
+      "preterito_imperfecto": [
+        "corría",
+        "corrías",
+        "corría",
+        "corríamos",
+        "corríais",
+        "corrían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he corrido",
+        "has corrido",
+        "ha corrido",
+        "hemos corrido",
+        "habéis corrido",
+        "han corrido"
+      ],
+      "futuro_simple": [
+        "correré",
+        "correrás",
+        "correrá",
+        "correremos",
+        "correréis",
+        "correrán"
+      ],
+      "condicional_simple": [
+        "correría",
+        "correrías",
+        "correría",
+        "correríamos",
+        "correríais",
+        "correrían"
+      ],
+      "subjuntivo_presente": [
+        "corra",
+        "corras",
+        "corra",
+        "corramos",
+        "corráis",
+        "corran"
+      ],
+      "imperativo": [
+        "corre!",
+        "corra!",
+        "corred!",
+        "corran!"
       ]
     },
     "examples": [
@@ -1096,6 +2844,52 @@
         "nadamos",
         "nadasteis",
         "nadaron"
+      ],
+      "preterito_imperfecto": [
+        "nadaba",
+        "nadabas",
+        "nadaba",
+        "nadábamos",
+        "nadabais",
+        "nadaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he nadado",
+        "has nadado",
+        "ha nadado",
+        "hemos nadado",
+        "habéis nadado",
+        "han nadado"
+      ],
+      "futuro_simple": [
+        "nadaré",
+        "nadarás",
+        "nadará",
+        "nadaremos",
+        "nadaréis",
+        "nadarán"
+      ],
+      "condicional_simple": [
+        "nadaría",
+        "nadarías",
+        "nadaría",
+        "nadaríamos",
+        "nadaríais",
+        "nadarían"
+      ],
+      "subjuntivo_presente": [
+        "nade",
+        "nades",
+        "nade",
+        "nademos",
+        "nadéis",
+        "naden"
+      ],
+      "imperativo": [
+        "nada!",
+        "nade!",
+        "nadad!",
+        "naden!"
       ]
     },
     "examples": [
@@ -1123,6 +2917,52 @@
         "llamamos",
         "llamasteis",
         "llamaron"
+      ],
+      "preterito_imperfecto": [
+        "llamaba",
+        "llamabas",
+        "llamaba",
+        "llamábamos",
+        "llamabais",
+        "llamaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he llamado",
+        "has llamado",
+        "ha llamado",
+        "hemos llamado",
+        "habéis llamado",
+        "han llamado"
+      ],
+      "futuro_simple": [
+        "llamaré",
+        "llamarás",
+        "llamará",
+        "llamaremos",
+        "llamaréis",
+        "llamarán"
+      ],
+      "condicional_simple": [
+        "llamaría",
+        "llamarías",
+        "llamaría",
+        "llamaríamos",
+        "llamaríais",
+        "llamarían"
+      ],
+      "subjuntivo_presente": [
+        "llame",
+        "llames",
+        "llame",
+        "llamemos",
+        "llaméis",
+        "llamen"
+      ],
+      "imperativo": [
+        "llama!",
+        "llame!",
+        "llamad!",
+        "llamen!"
       ]
     },
     "examples": [
@@ -1152,6 +2992,52 @@
         "recordamos",
         "recordasteis",
         "recordaron"
+      ],
+      "preterito_imperfecto": [
+        "recordaba",
+        "recordabas",
+        "recordaba",
+        "recordábamos",
+        "recordabais",
+        "recordaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he recordado",
+        "has recordado",
+        "ha recordado",
+        "hemos recordado",
+        "habéis recordado",
+        "han recordado"
+      ],
+      "futuro_simple": [
+        "recordaré",
+        "recordarás",
+        "recordará",
+        "recordaremos",
+        "recordaréis",
+        "recordarán"
+      ],
+      "condicional_simple": [
+        "recordaría",
+        "recordarías",
+        "recordaría",
+        "recordaríamos",
+        "recordaríais",
+        "recordarían"
+      ],
+      "subjuntivo_presente": [
+        "recuerde",
+        "recuerdes",
+        "recuerde",
+        "recordemos",
+        "recordéis",
+        "recuerden"
+      ],
+      "imperativo": [
+        "recuerda!",
+        "recuerde!",
+        "recordad!",
+        "recuerden!"
       ]
     },
     "examples": [
@@ -1181,6 +3067,52 @@
         "olvidamos",
         "olvidasteis",
         "olvidaron"
+      ],
+      "preterito_imperfecto": [
+        "olvidaba",
+        "olvidabas",
+        "olvidaba",
+        "olvidábamos",
+        "olvidabais",
+        "olvidaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he olvidado",
+        "has olvidado",
+        "ha olvidado",
+        "hemos olvidado",
+        "habéis olvidado",
+        "han olvidado"
+      ],
+      "futuro_simple": [
+        "olvidaré",
+        "olvidarás",
+        "olvidará",
+        "olvidaremos",
+        "olvidaréis",
+        "olvidarán"
+      ],
+      "condicional_simple": [
+        "olvidaría",
+        "olvidarías",
+        "olvidaría",
+        "olvidaríamos",
+        "olvidaríais",
+        "olvidarían"
+      ],
+      "subjuntivo_presente": [
+        "olvide",
+        "olvides",
+        "olvide",
+        "olvidemos",
+        "olvidéis",
+        "olviden"
+      ],
+      "imperativo": [
+        "olvida!",
+        "olvide!",
+        "olvidad!",
+        "olviden!"
       ]
     },
     "examples": [
@@ -1208,6 +3140,52 @@
         "intentamos",
         "intentasteis",
         "intentaron"
+      ],
+      "preterito_imperfecto": [
+        "intentaba",
+        "intentabas",
+        "intentaba",
+        "intentábamos",
+        "intentabais",
+        "intentaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he intentado",
+        "has intentado",
+        "ha intentado",
+        "hemos intentado",
+        "habéis intentado",
+        "han intentado"
+      ],
+      "futuro_simple": [
+        "intentaré",
+        "intentarás",
+        "intentará",
+        "intentaremos",
+        "intentaréis",
+        "intentarán"
+      ],
+      "condicional_simple": [
+        "intentaría",
+        "intentarías",
+        "intentaría",
+        "intentaríamos",
+        "intentaríais",
+        "intentarían"
+      ],
+      "subjuntivo_presente": [
+        "intente",
+        "intentes",
+        "intente",
+        "intentemos",
+        "intentéis",
+        "intenten"
+      ],
+      "imperativo": [
+        "intenta!",
+        "intente!",
+        "intentad!",
+        "intenten!"
       ]
     },
     "examples": [
@@ -1235,6 +3213,52 @@
         "usamos",
         "usasteis",
         "usaron"
+      ],
+      "preterito_imperfecto": [
+        "usaba",
+        "usabas",
+        "usaba",
+        "usábamos",
+        "usabais",
+        "usaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he usado",
+        "has usado",
+        "ha usado",
+        "hemos usado",
+        "habéis usado",
+        "han usado"
+      ],
+      "futuro_simple": [
+        "usaré",
+        "usarás",
+        "usará",
+        "usaremos",
+        "usaréis",
+        "usarán"
+      ],
+      "condicional_simple": [
+        "usaría",
+        "usarías",
+        "usaría",
+        "usaríamos",
+        "usaríais",
+        "usarían"
+      ],
+      "subjuntivo_presente": [
+        "use",
+        "uses",
+        "use",
+        "usemos",
+        "uséis",
+        "usen"
+      ],
+      "imperativo": [
+        "usa!",
+        "use!",
+        "usad!",
+        "usen!"
       ]
     },
     "examples": [
@@ -1262,6 +3286,52 @@
         "elegimos",
         "elegisteis",
         "eligieron"
+      ],
+      "preterito_imperfecto": [
+        "elegía",
+        "elegías",
+        "elegía",
+        "elegíamos",
+        "elegíais",
+        "elegían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he elegido",
+        "has elegido",
+        "ha elegido",
+        "hemos elegido",
+        "habéis elegido",
+        "han elegido"
+      ],
+      "futuro_simple": [
+        "elegiré",
+        "elegirás",
+        "elegirá",
+        "elegiremos",
+        "elegiréis",
+        "elegirán"
+      ],
+      "condicional_simple": [
+        "elegiría",
+        "elegirías",
+        "elegiría",
+        "elegiríamos",
+        "elegiríais",
+        "elegirían"
+      ],
+      "subjuntivo_presente": [
+        "elija",
+        "elijas",
+        "elija",
+        "elijamos",
+        "elijáis",
+        "elijan"
+      ],
+      "imperativo": [
+        "elige!",
+        "elija!",
+        "elegid!",
+        "elijan!"
       ]
     },
     "examples": [
@@ -1289,6 +3359,52 @@
         "decidimos",
         "decidisteis",
         "decidieron"
+      ],
+      "preterito_imperfecto": [
+        "decidía",
+        "decidías",
+        "decidía",
+        "decidíamos",
+        "decidíais",
+        "decidían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he decidido",
+        "has decidido",
+        "ha decidido",
+        "hemos decidido",
+        "habéis decidido",
+        "han decidido"
+      ],
+      "futuro_simple": [
+        "decidiré",
+        "decidirás",
+        "decidirá",
+        "decidiremos",
+        "decidiréis",
+        "decidirán"
+      ],
+      "condicional_simple": [
+        "decidiría",
+        "decidirías",
+        "decidiría",
+        "decidiríamos",
+        "decidiríais",
+        "decidirían"
+      ],
+      "subjuntivo_presente": [
+        "decida",
+        "decidas",
+        "decida",
+        "decidamos",
+        "decidáis",
+        "decidan"
+      ],
+      "imperativo": [
+        "decide!",
+        "decida!",
+        "decidid!",
+        "decidan!"
       ]
     },
     "examples": [
@@ -1316,6 +3432,52 @@
         "sentimos",
         "sentisteis",
         "sintieron"
+      ],
+      "preterito_imperfecto": [
+        "sentía",
+        "sentías",
+        "sentía",
+        "sentíamos",
+        "sentíais",
+        "sentían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he sentido",
+        "has sentido",
+        "ha sentido",
+        "hemos sentido",
+        "habéis sentido",
+        "han sentido"
+      ],
+      "futuro_simple": [
+        "sentiré",
+        "sentirás",
+        "sentirá",
+        "sentiremos",
+        "sentiréis",
+        "sentirán"
+      ],
+      "condicional_simple": [
+        "sentiría",
+        "sentirías",
+        "sentiría",
+        "sentiríamos",
+        "sentiríais",
+        "sentirían"
+      ],
+      "subjuntivo_presente": [
+        "sienta",
+        "sientas",
+        "sienta",
+        "sintamos",
+        "sintáis",
+        "sientan"
+      ],
+      "imperativo": [
+        "siente!",
+        "sienta!",
+        "sentid!",
+        "sientan!"
       ]
     },
     "examples": [
@@ -1345,6 +3507,52 @@
         "gustamos",
         "gustasteis",
         "gustaron"
+      ],
+      "preterito_imperfecto": [
+        "gustaba",
+        "gustabas",
+        "gustaba",
+        "gustábamos",
+        "gustabais",
+        "gustaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he gustado",
+        "has gustado",
+        "ha gustado",
+        "hemos gustado",
+        "habéis gustado",
+        "han gustado"
+      ],
+      "futuro_simple": [
+        "gustaré",
+        "gustarás",
+        "gustará",
+        "gustaremos",
+        "gustaréis",
+        "gustarán"
+      ],
+      "condicional_simple": [
+        "gustaría",
+        "gustarías",
+        "gustaría",
+        "gustaríamos",
+        "gustaríais",
+        "gustarían"
+      ],
+      "subjuntivo_presente": [
+        "guste",
+        "gustes",
+        "guste",
+        "gustemos",
+        "gustéis",
+        "gusten"
+      ],
+      "imperativo": [
+        "gusta!",
+        "guste!",
+        "gustad!",
+        "gusten!"
       ]
     },
     "examples": [
@@ -1372,6 +3580,52 @@
         "encantamos",
         "encantasteis",
         "encantaron"
+      ],
+      "preterito_imperfecto": [
+        "encantaba",
+        "encantabas",
+        "encantaba",
+        "encantábamos",
+        "encantabais",
+        "encantaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he encantado",
+        "has encantado",
+        "ha encantado",
+        "hemos encantado",
+        "habéis encantado",
+        "han encantado"
+      ],
+      "futuro_simple": [
+        "encantaré",
+        "encantarás",
+        "encantará",
+        "encantaremos",
+        "encantaréis",
+        "encantarán"
+      ],
+      "condicional_simple": [
+        "encantaría",
+        "encantarías",
+        "encantaría",
+        "encantaríamos",
+        "encantaríais",
+        "encantarían"
+      ],
+      "subjuntivo_presente": [
+        "encante",
+        "encantes",
+        "encante",
+        "encantemos",
+        "encantéis",
+        "encanten"
+      ],
+      "imperativo": [
+        "encanta!",
+        "encante!",
+        "encantad!",
+        "encanten!"
       ]
     },
     "examples": [
@@ -1399,6 +3653,52 @@
         "pasamos",
         "pasasteis",
         "pasaron"
+      ],
+      "preterito_imperfecto": [
+        "pasaba",
+        "pasabas",
+        "pasaba",
+        "pasábamos",
+        "pasabais",
+        "pasaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he pasado",
+        "has pasado",
+        "ha pasado",
+        "hemos pasado",
+        "habéis pasado",
+        "han pasado"
+      ],
+      "futuro_simple": [
+        "pasaré",
+        "pasarás",
+        "pasará",
+        "pasaremos",
+        "pasaréis",
+        "pasarán"
+      ],
+      "condicional_simple": [
+        "pasaría",
+        "pasarías",
+        "pasaría",
+        "pasaríamos",
+        "pasaríais",
+        "pasarían"
+      ],
+      "subjuntivo_presente": [
+        "pase",
+        "pases",
+        "pase",
+        "pasemos",
+        "paséis",
+        "pasen"
+      ],
+      "imperativo": [
+        "pasa!",
+        "pase!",
+        "pasad!",
+        "pasen!"
       ]
     },
     "examples": [
@@ -1426,6 +3726,52 @@
         "duramos",
         "durasteis",
         "duraron"
+      ],
+      "preterito_imperfecto": [
+        "duraba",
+        "durabas",
+        "duraba",
+        "durábamos",
+        "durabais",
+        "duraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he durado",
+        "has durado",
+        "ha durado",
+        "hemos durado",
+        "habéis durado",
+        "han durado"
+      ],
+      "futuro_simple": [
+        "duraré",
+        "durarás",
+        "durará",
+        "duraremos",
+        "duraréis",
+        "durarán"
+      ],
+      "condicional_simple": [
+        "duraría",
+        "durarías",
+        "duraría",
+        "duraríamos",
+        "duraríais",
+        "durarían"
+      ],
+      "subjuntivo_presente": [
+        "dure",
+        "dures",
+        "dure",
+        "duremos",
+        "duréis",
+        "duren"
+      ],
+      "imperativo": [
+        "dura!",
+        "dure!",
+        "durad!",
+        "duren!"
       ]
     },
     "examples": [
@@ -1455,6 +3801,52 @@
         "paramos",
         "parasteis",
         "pararon"
+      ],
+      "preterito_imperfecto": [
+        "paraba",
+        "parabas",
+        "paraba",
+        "parábamos",
+        "parabais",
+        "paraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he parado",
+        "has parado",
+        "ha parado",
+        "hemos parado",
+        "habéis parado",
+        "han parado"
+      ],
+      "futuro_simple": [
+        "pararé",
+        "pararás",
+        "parará",
+        "pararemos",
+        "pararéis",
+        "pararán"
+      ],
+      "condicional_simple": [
+        "pararía",
+        "pararías",
+        "pararía",
+        "pararíamos",
+        "pararíais",
+        "pararían"
+      ],
+      "subjuntivo_presente": [
+        "pare",
+        "pares",
+        "pare",
+        "paremos",
+        "paréis",
+        "paren"
+      ],
+      "imperativo": [
+        "para!",
+        "pare!",
+        "parad!",
+        "paren!"
       ]
     },
     "examples": [
@@ -1484,6 +3876,52 @@
         "seguimos",
         "seguisteis",
         "siguieron"
+      ],
+      "preterito_imperfecto": [
+        "seguía",
+        "seguías",
+        "seguía",
+        "seguíamos",
+        "seguíais",
+        "seguían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he seguido",
+        "has seguido",
+        "ha seguido",
+        "hemos seguido",
+        "habéis seguido",
+        "han seguido"
+      ],
+      "futuro_simple": [
+        "seguiré",
+        "seguirás",
+        "seguirá",
+        "seguiremos",
+        "seguiréis",
+        "seguirán"
+      ],
+      "condicional_simple": [
+        "seguiría",
+        "seguirías",
+        "seguiría",
+        "seguiríamos",
+        "seguiríais",
+        "seguirían"
+      ],
+      "subjuntivo_presente": [
+        "siga",
+        "sigas",
+        "siga",
+        "sigamos",
+        "sigáis",
+        "sigan"
+      ],
+      "imperativo": [
+        "sigue!",
+        "siga!",
+        "seguid!",
+        "sigan!"
       ]
     },
     "examples": [
@@ -1513,6 +3951,52 @@
         "empezamos",
         "empezasteis",
         "empezaron"
+      ],
+      "preterito_imperfecto": [
+        "empezaba",
+        "empezabas",
+        "empezaba",
+        "empezábamos",
+        "empezabais",
+        "empezaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he empezado",
+        "has empezado",
+        "ha empezado",
+        "hemos empezado",
+        "habéis empezado",
+        "han empezado"
+      ],
+      "futuro_simple": [
+        "empezaré",
+        "empezarás",
+        "empezará",
+        "empezaremos",
+        "empezaréis",
+        "empezarán"
+      ],
+      "condicional_simple": [
+        "empezaría",
+        "empezarías",
+        "empezaría",
+        "empezaríamos",
+        "empezaríais",
+        "empezarían"
+      ],
+      "subjuntivo_presente": [
+        "empiece",
+        "empieces",
+        "empiece",
+        "empecemos",
+        "empecéis",
+        "empiecen"
+      ],
+      "imperativo": [
+        "empieza!",
+        "empiece!",
+        "empezad!",
+        "empiecen!"
       ]
     },
     "examples": [
@@ -1542,6 +4026,52 @@
         "terminamos",
         "terminasteis",
         "terminaron"
+      ],
+      "preterito_imperfecto": [
+        "terminaba",
+        "terminabas",
+        "terminaba",
+        "terminábamos",
+        "terminabais",
+        "terminaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he terminado",
+        "has terminado",
+        "ha terminado",
+        "hemos terminado",
+        "habéis terminado",
+        "han terminado"
+      ],
+      "futuro_simple": [
+        "terminaré",
+        "terminarás",
+        "terminará",
+        "terminaremos",
+        "terminaréis",
+        "terminarán"
+      ],
+      "condicional_simple": [
+        "terminaría",
+        "terminarías",
+        "terminaría",
+        "terminaríamos",
+        "terminaríais",
+        "terminarían"
+      ],
+      "subjuntivo_presente": [
+        "termine",
+        "termines",
+        "termine",
+        "terminemos",
+        "terminéis",
+        "terminen"
+      ],
+      "imperativo": [
+        "termina!",
+        "termine!",
+        "terminad!",
+        "terminen!"
       ]
     },
     "examples": [
@@ -1571,6 +4101,52 @@
         "ganamos",
         "ganasteis",
         "ganaron"
+      ],
+      "preterito_imperfecto": [
+        "ganaba",
+        "ganabas",
+        "ganaba",
+        "ganábamos",
+        "ganabais",
+        "ganaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he ganado",
+        "has ganado",
+        "ha ganado",
+        "hemos ganado",
+        "habéis ganado",
+        "han ganado"
+      ],
+      "futuro_simple": [
+        "ganaré",
+        "ganarás",
+        "ganará",
+        "ganaremos",
+        "ganaréis",
+        "ganarán"
+      ],
+      "condicional_simple": [
+        "ganaría",
+        "ganarías",
+        "ganaría",
+        "ganaríamos",
+        "ganaríais",
+        "ganarían"
+      ],
+      "subjuntivo_presente": [
+        "gane",
+        "ganes",
+        "gane",
+        "ganemos",
+        "ganéis",
+        "ganen"
+      ],
+      "imperativo": [
+        "gana!",
+        "gane!",
+        "ganad!",
+        "ganen!"
       ]
     },
     "examples": [
@@ -1601,6 +4177,52 @@
         "perdimos",
         "perdisteis",
         "perdieron"
+      ],
+      "preterito_imperfecto": [
+        "perdía",
+        "perdías",
+        "perdía",
+        "perdíamos",
+        "perdíais",
+        "perdían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he perdido",
+        "has perdido",
+        "ha perdido",
+        "hemos perdido",
+        "habéis perdido",
+        "han perdido"
+      ],
+      "futuro_simple": [
+        "perderé",
+        "perderás",
+        "perderá",
+        "perderemos",
+        "perderéis",
+        "perderán"
+      ],
+      "condicional_simple": [
+        "perdería",
+        "perderías",
+        "perdería",
+        "perderíamos",
+        "perderíais",
+        "perderían"
+      ],
+      "subjuntivo_presente": [
+        "pierda",
+        "pierdas",
+        "pierda",
+        "perdamos",
+        "perdáis",
+        "pierdan"
+      ],
+      "imperativo": [
+        "pierde!",
+        "pierda!",
+        "perded!",
+        "pierdan!"
       ]
     },
     "examples": [
@@ -1628,6 +4250,52 @@
         "regalamos",
         "regalasteis",
         "regalaron"
+      ],
+      "preterito_imperfecto": [
+        "regalaba",
+        "regalabas",
+        "regalaba",
+        "regalábamos",
+        "regalabais",
+        "regalaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he regalado",
+        "has regalado",
+        "ha regalado",
+        "hemos regalado",
+        "habéis regalado",
+        "han regalado"
+      ],
+      "futuro_simple": [
+        "regalaré",
+        "regalarás",
+        "regalará",
+        "regalaremos",
+        "regalaréis",
+        "regalarán"
+      ],
+      "condicional_simple": [
+        "regalaría",
+        "regalarías",
+        "regalaría",
+        "regalaríamos",
+        "regalaríais",
+        "regalarían"
+      ],
+      "subjuntivo_presente": [
+        "regale",
+        "regales",
+        "regale",
+        "regalemos",
+        "regaléis",
+        "regalen"
+      ],
+      "imperativo": [
+        "regala!",
+        "regale!",
+        "regalad!",
+        "regalen!"
       ]
     },
     "examples": [
@@ -1657,6 +4325,52 @@
         "recibimos",
         "recibisteis",
         "recibieron"
+      ],
+      "preterito_imperfecto": [
+        "recibía",
+        "recibías",
+        "recibía",
+        "recibíamos",
+        "recibíais",
+        "recibían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he recibido",
+        "has recibido",
+        "ha recibido",
+        "hemos recibido",
+        "habéis recibido",
+        "han recibido"
+      ],
+      "futuro_simple": [
+        "recibiré",
+        "recibirás",
+        "recibirá",
+        "recibiremos",
+        "recibiréis",
+        "recibirán"
+      ],
+      "condicional_simple": [
+        "recibiría",
+        "recibirías",
+        "recibiría",
+        "recibiríamos",
+        "recibiríais",
+        "recibirían"
+      ],
+      "subjuntivo_presente": [
+        "reciba",
+        "recibas",
+        "reciba",
+        "recibamos",
+        "recibáis",
+        "reciban"
+      ],
+      "imperativo": [
+        "recibe!",
+        "reciba!",
+        "recibid!",
+        "reciban!"
       ]
     },
     "examples": [
@@ -1686,6 +4400,52 @@
         "enviamos",
         "enviasteis",
         "enviaron"
+      ],
+      "preterito_imperfecto": [
+        "enviaba",
+        "enviabas",
+        "enviaba",
+        "enviábamos",
+        "enviabais",
+        "enviaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he enviado",
+        "has enviado",
+        "ha enviado",
+        "hemos enviado",
+        "habéis enviado",
+        "han enviado"
+      ],
+      "futuro_simple": [
+        "enviaré",
+        "enviarás",
+        "enviará",
+        "enviaremos",
+        "enviaréis",
+        "enviarán"
+      ],
+      "condicional_simple": [
+        "enviaría",
+        "enviarías",
+        "enviaría",
+        "enviaríamos",
+        "enviaríais",
+        "enviarían"
+      ],
+      "subjuntivo_presente": [
+        "envíe",
+        "envíes",
+        "envíe",
+        "enviemos",
+        "enviéis",
+        "envíen"
+      ],
+      "imperativo": [
+        "envía!",
+        "envíe!",
+        "enviad!",
+        "envíen!"
       ]
     },
     "examples": [
@@ -1713,6 +4473,52 @@
         "alquilamos",
         "alquilasteis",
         "alquilaron"
+      ],
+      "preterito_imperfecto": [
+        "alquilaba",
+        "alquilabas",
+        "alquilaba",
+        "alquilábamos",
+        "alquilabais",
+        "alquilaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he alquilado",
+        "has alquilado",
+        "ha alquilado",
+        "hemos alquilado",
+        "habéis alquilado",
+        "han alquilado"
+      ],
+      "futuro_simple": [
+        "alquilaré",
+        "alquilarás",
+        "alquilará",
+        "alquilaremos",
+        "alquilaréis",
+        "alquilarán"
+      ],
+      "condicional_simple": [
+        "alquilaría",
+        "alquilarías",
+        "alquilaría",
+        "alquilaríamos",
+        "alquilaríais",
+        "alquilarían"
+      ],
+      "subjuntivo_presente": [
+        "alquile",
+        "alquiles",
+        "alquile",
+        "alquilemos",
+        "alquiléis",
+        "alquilen"
+      ],
+      "imperativo": [
+        "alquila!",
+        "alquile!",
+        "alquilad!",
+        "alquilen!"
       ]
     },
     "examples": [
@@ -1740,6 +4546,52 @@
         "quedamos",
         "quedasteis",
         "quedaron"
+      ],
+      "preterito_imperfecto": [
+        "quedaba",
+        "quedabas",
+        "quedaba",
+        "quedábamos",
+        "quedabais",
+        "quedaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he quedado",
+        "has quedado",
+        "ha quedado",
+        "hemos quedado",
+        "habéis quedado",
+        "han quedado"
+      ],
+      "futuro_simple": [
+        "quedaré",
+        "quedarás",
+        "quedará",
+        "quedaremos",
+        "quedaréis",
+        "quedarán"
+      ],
+      "condicional_simple": [
+        "quedaría",
+        "quedarías",
+        "quedaría",
+        "quedaríamos",
+        "quedaríais",
+        "quedarían"
+      ],
+      "subjuntivo_presente": [
+        "quede",
+        "quedes",
+        "quede",
+        "quedemos",
+        "quedéis",
+        "queden"
+      ],
+      "imperativo": [
+        "queda!",
+        "quede!",
+        "quedad!",
+        "queden!"
       ]
     },
     "examples": [
@@ -1767,6 +4619,52 @@
         "parecimos",
         "parecisteis",
         "parecieron"
+      ],
+      "preterito_imperfecto": [
+        "parecía",
+        "parecías",
+        "parecía",
+        "parecíamos",
+        "parecíais",
+        "parecían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he parecido",
+        "has parecido",
+        "ha parecido",
+        "hemos parecido",
+        "habéis parecido",
+        "han parecido"
+      ],
+      "futuro_simple": [
+        "pareceré",
+        "parecerás",
+        "parecerá",
+        "pareceremos",
+        "pareceréis",
+        "parecerán"
+      ],
+      "condicional_simple": [
+        "parecería",
+        "parecerías",
+        "parecería",
+        "pareceríamos",
+        "pareceríais",
+        "parecerían"
+      ],
+      "subjuntivo_presente": [
+        "parezca",
+        "parezcas",
+        "parezca",
+        "parezcamos",
+        "parezcáis",
+        "parezcan"
+      ],
+      "imperativo": [
+        "parece!",
+        "parezca!",
+        "pareced!",
+        "parezcan!"
       ]
     },
     "examples": [
@@ -1796,6 +4694,52 @@
         "rompimos",
         "rompisteis",
         "rompieron"
+      ],
+      "preterito_imperfecto": [
+        "rompía",
+        "rompías",
+        "rompía",
+        "rompíamos",
+        "rompíais",
+        "rompían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he roto",
+        "has roto",
+        "ha roto",
+        "hemos roto",
+        "habéis roto",
+        "han roto"
+      ],
+      "futuro_simple": [
+        "romperé",
+        "romperás",
+        "romperá",
+        "romperemos",
+        "romperéis",
+        "romperán"
+      ],
+      "condicional_simple": [
+        "rompería",
+        "romperías",
+        "rompería",
+        "romperíamos",
+        "romperíais",
+        "romperían"
+      ],
+      "subjuntivo_presente": [
+        "rompa",
+        "rompas",
+        "rompa",
+        "rompamos",
+        "rompáis",
+        "rompan"
+      ],
+      "imperativo": [
+        "rompe!",
+        "rompa!",
+        "romped!",
+        "rompan!"
       ]
     },
     "examples": [
@@ -1825,6 +4769,52 @@
         "abrimos",
         "abristeis",
         "abrieron"
+      ],
+      "preterito_imperfecto": [
+        "abría",
+        "abrías",
+        "abría",
+        "abríamos",
+        "abríais",
+        "abrían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he abierto",
+        "has abierto",
+        "ha abierto",
+        "hemos abierto",
+        "habéis abierto",
+        "han abierto"
+      ],
+      "futuro_simple": [
+        "abriré",
+        "abrirás",
+        "abrirá",
+        "abriremos",
+        "abriréis",
+        "abrirán"
+      ],
+      "condicional_simple": [
+        "abriría",
+        "abrirías",
+        "abriría",
+        "abriríamos",
+        "abriríais",
+        "abrirían"
+      ],
+      "subjuntivo_presente": [
+        "abra",
+        "abras",
+        "abra",
+        "abramos",
+        "abráis",
+        "abran"
+      ],
+      "imperativo": [
+        "abre!",
+        "abra!",
+        "abrid!",
+        "abran!"
       ]
     },
     "examples": [
@@ -1854,6 +4844,52 @@
         "cerramos",
         "cerrasteis",
         "cerraron"
+      ],
+      "preterito_imperfecto": [
+        "cerraba",
+        "cerrabas",
+        "cerraba",
+        "cerrábamos",
+        "cerrabais",
+        "cerraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he cerrado",
+        "has cerrado",
+        "ha cerrado",
+        "hemos cerrado",
+        "habéis cerrado",
+        "han cerrado"
+      ],
+      "futuro_simple": [
+        "cerraré",
+        "cerrarás",
+        "cerrará",
+        "cerraremos",
+        "cerraréis",
+        "cerrarán"
+      ],
+      "condicional_simple": [
+        "cerraría",
+        "cerrarías",
+        "cerraría",
+        "cerraríamos",
+        "cerraríais",
+        "cerrarían"
+      ],
+      "subjuntivo_presente": [
+        "cierre",
+        "cierres",
+        "cierre",
+        "cerremos",
+        "cerréis",
+        "cierren"
+      ],
+      "imperativo": [
+        "cierra!",
+        "cierre!",
+        "cerrad!",
+        "cierren!"
       ]
     },
     "examples": [
@@ -1881,6 +4917,52 @@
         "tocamos",
         "tocasteis",
         "tocaron"
+      ],
+      "preterito_imperfecto": [
+        "tocaba",
+        "tocabas",
+        "tocaba",
+        "tocábamos",
+        "tocabais",
+        "tocaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he tocado",
+        "has tocado",
+        "ha tocado",
+        "hemos tocado",
+        "habéis tocado",
+        "han tocado"
+      ],
+      "futuro_simple": [
+        "tocaré",
+        "tocarás",
+        "tocará",
+        "tocaremos",
+        "tocaréis",
+        "tocarán"
+      ],
+      "condicional_simple": [
+        "tocaría",
+        "tocarías",
+        "tocaría",
+        "tocaríamos",
+        "tocaríais",
+        "tocarían"
+      ],
+      "subjuntivo_presente": [
+        "toque",
+        "toques",
+        "toque",
+        "toquemos",
+        "toquéis",
+        "toquen"
+      ],
+      "imperativo": [
+        "toca!",
+        "toque!",
+        "tocad!",
+        "toquen!"
       ]
     },
     "examples": [
@@ -1908,6 +4990,52 @@
         "miramos",
         "mirasteis",
         "miraron"
+      ],
+      "preterito_imperfecto": [
+        "miraba",
+        "mirabas",
+        "miraba",
+        "mirábamos",
+        "mirabais",
+        "miraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he mirado",
+        "has mirado",
+        "ha mirado",
+        "hemos mirado",
+        "habéis mirado",
+        "han mirado"
+      ],
+      "futuro_simple": [
+        "miraré",
+        "mirarás",
+        "mirará",
+        "miraremos",
+        "miraréis",
+        "mirarán"
+      ],
+      "condicional_simple": [
+        "miraría",
+        "mirarías",
+        "miraría",
+        "miraríamos",
+        "miraríais",
+        "mirarían"
+      ],
+      "subjuntivo_presente": [
+        "mire",
+        "mires",
+        "mire",
+        "miremos",
+        "miréis",
+        "miren"
+      ],
+      "imperativo": [
+        "mira!",
+        "mire!",
+        "mirad!",
+        "miren!"
       ]
     },
     "examples": [
@@ -1935,6 +5063,52 @@
         "estudiamos",
         "estudiasteis",
         "estudiaron"
+      ],
+      "preterito_imperfecto": [
+        "estudiaba",
+        "estudiabas",
+        "estudiaba",
+        "estudiábamos",
+        "estudiabais",
+        "estudiaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he estudiado",
+        "has estudiado",
+        "ha estudiado",
+        "hemos estudiado",
+        "habéis estudiado",
+        "han estudiado"
+      ],
+      "futuro_simple": [
+        "estudiaré",
+        "estudiarás",
+        "estudiará",
+        "estudiaremos",
+        "estudiaréis",
+        "estudiarán"
+      ],
+      "condicional_simple": [
+        "estudiaría",
+        "estudiarías",
+        "estudiaría",
+        "estudiaríamos",
+        "estudiaríais",
+        "estudiarían"
+      ],
+      "subjuntivo_presente": [
+        "estudie",
+        "estudies",
+        "estudie",
+        "estudiemos",
+        "estudiéis",
+        "estudien"
+      ],
+      "imperativo": [
+        "estudia!",
+        "estudie!",
+        "estudiad!",
+        "estudien!"
       ]
     },
     "examples": [
@@ -1962,6 +5136,52 @@
         "explicamos",
         "explicasteis",
         "explicaron"
+      ],
+      "preterito_imperfecto": [
+        "explicaba",
+        "explicabas",
+        "explicaba",
+        "explicábamos",
+        "explicabais",
+        "explicaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he explicado",
+        "has explicado",
+        "ha explicado",
+        "hemos explicado",
+        "habéis explicado",
+        "han explicado"
+      ],
+      "futuro_simple": [
+        "explicaré",
+        "explicarás",
+        "explicará",
+        "explicaremos",
+        "explicaréis",
+        "explicarán"
+      ],
+      "condicional_simple": [
+        "explicaría",
+        "explicarías",
+        "explicaría",
+        "explicaríamos",
+        "explicaríais",
+        "explicarían"
+      ],
+      "subjuntivo_presente": [
+        "explique",
+        "expliques",
+        "explique",
+        "expliquemos",
+        "expliquéis",
+        "expliquen"
+      ],
+      "imperativo": [
+        "explica!",
+        "explique!",
+        "explicad!",
+        "expliquen!"
       ]
     },
     "examples": [
@@ -1989,6 +5209,52 @@
         "significamos",
         "significasteis",
         "significaron"
+      ],
+      "preterito_imperfecto": [
+        "significaba",
+        "significabas",
+        "significaba",
+        "significábamos",
+        "significabais",
+        "significaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he significado",
+        "has significado",
+        "ha significado",
+        "hemos significado",
+        "habéis significado",
+        "han significado"
+      ],
+      "futuro_simple": [
+        "significaré",
+        "significarás",
+        "significará",
+        "significaremos",
+        "significaréis",
+        "significarán"
+      ],
+      "condicional_simple": [
+        "significaría",
+        "significarías",
+        "significaría",
+        "significaríamos",
+        "significaríais",
+        "significarían"
+      ],
+      "subjuntivo_presente": [
+        "signifique",
+        "signifiques",
+        "signifique",
+        "signifiquemos",
+        "signifiquéis",
+        "signifiquen"
+      ],
+      "imperativo": [
+        "significa!",
+        "signifique!",
+        "significad!",
+        "signifiquen!"
       ]
     },
     "examples": [
@@ -2018,6 +5284,52 @@
         "preguntamos",
         "preguntasteis",
         "preguntaron"
+      ],
+      "preterito_imperfecto": [
+        "preguntaba",
+        "preguntabas",
+        "preguntaba",
+        "preguntábamos",
+        "preguntabais",
+        "preguntaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he preguntado",
+        "has preguntado",
+        "ha preguntado",
+        "hemos preguntado",
+        "habéis preguntado",
+        "han preguntado"
+      ],
+      "futuro_simple": [
+        "preguntaré",
+        "preguntarás",
+        "preguntará",
+        "preguntaremos",
+        "preguntaréis",
+        "preguntarán"
+      ],
+      "condicional_simple": [
+        "preguntaría",
+        "preguntarías",
+        "preguntaría",
+        "preguntaríamos",
+        "preguntaríais",
+        "preguntarían"
+      ],
+      "subjuntivo_presente": [
+        "pregunte",
+        "preguntes",
+        "pregunte",
+        "preguntemos",
+        "preguntéis",
+        "pregunten"
+      ],
+      "imperativo": [
+        "pregunta!",
+        "pregunte!",
+        "preguntad!",
+        "pregunten!"
       ]
     },
     "examples": [
@@ -2047,6 +5359,52 @@
         "respondimos",
         "respondisteis",
         "respondieron"
+      ],
+      "preterito_imperfecto": [
+        "respondía",
+        "respondías",
+        "respondía",
+        "respondíamos",
+        "respondíais",
+        "respondían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he respondido",
+        "has respondido",
+        "ha respondido",
+        "hemos respondido",
+        "habéis respondido",
+        "han respondido"
+      ],
+      "futuro_simple": [
+        "responderé",
+        "responderás",
+        "responderá",
+        "responderemos",
+        "responderéis",
+        "responderán"
+      ],
+      "condicional_simple": [
+        "respondería",
+        "responderías",
+        "respondería",
+        "responderíamos",
+        "responderíais",
+        "responderían"
+      ],
+      "subjuntivo_presente": [
+        "responda",
+        "respondas",
+        "responda",
+        "respondamos",
+        "respondáis",
+        "respondan"
+      ],
+      "imperativo": [
+        "responde!",
+        "responda!",
+        "responded!",
+        "respondan!"
       ]
     },
     "examples": [
@@ -2074,6 +5432,52 @@
         "agradecimos",
         "agradecisteis",
         "agradecieron"
+      ],
+      "preterito_imperfecto": [
+        "agradecía",
+        "agradecías",
+        "agradecía",
+        "agradecíamos",
+        "agradecíais",
+        "agradecían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he agradecido",
+        "has agradecido",
+        "ha agradecido",
+        "hemos agradecido",
+        "habéis agradecido",
+        "han agradecido"
+      ],
+      "futuro_simple": [
+        "agradeceré",
+        "agradecerás",
+        "agradecerá",
+        "agradeceremos",
+        "agradeceréis",
+        "agradecerán"
+      ],
+      "condicional_simple": [
+        "agradecería",
+        "agradecerías",
+        "agradecería",
+        "agradeceríamos",
+        "agradeceríais",
+        "agradecerían"
+      ],
+      "subjuntivo_presente": [
+        "agradezca",
+        "agradezcas",
+        "agradezca",
+        "agradezcamos",
+        "agradezcáis",
+        "agradezcan"
+      ],
+      "imperativo": [
+        "agradece!",
+        "agradezca!",
+        "agradeced!",
+        "agradezcan!"
       ]
     },
     "examples": [
@@ -2101,6 +5505,52 @@
         "pedimos",
         "pedisteis",
         "pidieron"
+      ],
+      "preterito_imperfecto": [
+        "pedía",
+        "pedías",
+        "pedía",
+        "pedíamos",
+        "pedíais",
+        "pedían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he pedido",
+        "has pedido",
+        "ha pedido",
+        "hemos pedido",
+        "habéis pedido",
+        "han pedido"
+      ],
+      "futuro_simple": [
+        "pediré",
+        "pedirás",
+        "pedirá",
+        "pediremos",
+        "pediréis",
+        "pedirán"
+      ],
+      "condicional_simple": [
+        "pediría",
+        "pedirías",
+        "pediría",
+        "pediríamos",
+        "pediríais",
+        "pedirían"
+      ],
+      "subjuntivo_presente": [
+        "pida",
+        "pidas",
+        "pida",
+        "pidamos",
+        "pidáis",
+        "pidan"
+      ],
+      "imperativo": [
+        "pide!",
+        "pida!",
+        "pedid!",
+        "pidan!"
       ]
     },
     "examples": [
@@ -2130,6 +5580,52 @@
         "dijimos",
         "dijisteis",
         "dijeron"
+      ],
+      "preterito_imperfecto": [
+        "decía",
+        "decías",
+        "decía",
+        "decíamos",
+        "decíais",
+        "decían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he dicho",
+        "has dicho",
+        "ha dicho",
+        "hemos dicho",
+        "habéis dicho",
+        "han dicho"
+      ],
+      "futuro_simple": [
+        "diré",
+        "dirás",
+        "dirá",
+        "diremos",
+        "diréis",
+        "dirán"
+      ],
+      "condicional_simple": [
+        "diría",
+        "dirías",
+        "diría",
+        "diríamos",
+        "diríais",
+        "dirían"
+      ],
+      "subjuntivo_presente": [
+        "diga",
+        "digas",
+        "diga",
+        "digamos",
+        "digáis",
+        "digan"
+      ],
+      "imperativo": [
+        "di!",
+        "diga!",
+        "decid!",
+        "digan!"
       ]
     },
     "examples": [
@@ -2157,6 +5653,52 @@
         "contamos",
         "contasteis",
         "contaron"
+      ],
+      "preterito_imperfecto": [
+        "contaba",
+        "contabas",
+        "contaba",
+        "contábamos",
+        "contabais",
+        "contaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he contado",
+        "has contado",
+        "ha contado",
+        "hemos contado",
+        "habéis contado",
+        "han contado"
+      ],
+      "futuro_simple": [
+        "contaré",
+        "contarás",
+        "contará",
+        "contaremos",
+        "contaréis",
+        "contarán"
+      ],
+      "condicional_simple": [
+        "contaría",
+        "contarías",
+        "contaría",
+        "contaríamos",
+        "contaríais",
+        "contarían"
+      ],
+      "subjuntivo_presente": [
+        "cuente",
+        "cuentes",
+        "cuente",
+        "contemos",
+        "contéis",
+        "cuenten"
+      ],
+      "imperativo": [
+        "cuenta!",
+        "cuente!",
+        "contad!",
+        "cuenten!"
       ]
     },
     "examples": [
@@ -2186,6 +5728,52 @@
         "creímos",
         "creísteis",
         "creyeron"
+      ],
+      "preterito_imperfecto": [
+        "creía",
+        "creías",
+        "creía",
+        "creíamos",
+        "creíais",
+        "creían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he creído",
+        "has creído",
+        "ha creído",
+        "hemos creído",
+        "habéis creído",
+        "han creído"
+      ],
+      "futuro_simple": [
+        "creeré",
+        "creerás",
+        "creerá",
+        "creeremos",
+        "creeréis",
+        "creerán"
+      ],
+      "condicional_simple": [
+        "creería",
+        "creerías",
+        "creería",
+        "creeríamos",
+        "creeríais",
+        "creerían"
+      ],
+      "subjuntivo_presente": [
+        "crea",
+        "creas",
+        "crea",
+        "creamos",
+        "creáis",
+        "crean"
+      ],
+      "imperativo": [
+        "cree!",
+        "crea!",
+        "creed!",
+        "crean!"
       ]
     },
     "examples": [
@@ -2213,6 +5801,52 @@
         "esperamos",
         "esperasteis",
         "esperaron"
+      ],
+      "preterito_imperfecto": [
+        "esperaba",
+        "esperabas",
+        "esperaba",
+        "esperábamos",
+        "esperabais",
+        "esperaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he esperado",
+        "has esperado",
+        "ha esperado",
+        "hemos esperado",
+        "habéis esperado",
+        "han esperado"
+      ],
+      "futuro_simple": [
+        "esperaré",
+        "esperarás",
+        "esperará",
+        "esperaremos",
+        "esperaréis",
+        "esperarán"
+      ],
+      "condicional_simple": [
+        "esperaría",
+        "esperarías",
+        "esperaría",
+        "esperaríamos",
+        "esperaríais",
+        "esperarían"
+      ],
+      "subjuntivo_presente": [
+        "espere",
+        "esperes",
+        "espere",
+        "esperemos",
+        "esperéis",
+        "esperen"
+      ],
+      "imperativo": [
+        "espera!",
+        "espere!",
+        "esperad!",
+        "esperen!"
       ]
     },
     "examples": [
@@ -2242,6 +5876,52 @@
         "reímos",
         "reísteis",
         "rieron"
+      ],
+      "preterito_imperfecto": [
+        "reía",
+        "reías",
+        "reía",
+        "reíamos",
+        "reíais",
+        "reían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he reído",
+        "has reído",
+        "ha reído",
+        "hemos reído",
+        "habéis reído",
+        "han reído"
+      ],
+      "futuro_simple": [
+        "reiré",
+        "reirás",
+        "reirá",
+        "reiremos",
+        "reiréis",
+        "reirán"
+      ],
+      "condicional_simple": [
+        "reiría",
+        "reirías",
+        "reiría",
+        "reiríamos",
+        "reiríais",
+        "reirían"
+      ],
+      "subjuntivo_presente": [
+        "ría",
+        "rías",
+        "ría",
+        "riamos",
+        "riáis",
+        "rían"
+      ],
+      "imperativo": [
+        "ríe!",
+        "ría!",
+        "reíd!",
+        "rían!"
       ]
     },
     "examples": [
@@ -2271,6 +5951,52 @@
         "lloramos",
         "llorasteis",
         "lloraron"
+      ],
+      "preterito_imperfecto": [
+        "lloraba",
+        "llorabas",
+        "lloraba",
+        "llorábamos",
+        "llorabais",
+        "lloraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he llorado",
+        "has llorado",
+        "ha llorado",
+        "hemos llorado",
+        "habéis llorado",
+        "han llorado"
+      ],
+      "futuro_simple": [
+        "lloraré",
+        "llorarás",
+        "llorará",
+        "lloraremos",
+        "lloraréis",
+        "llorarán"
+      ],
+      "condicional_simple": [
+        "lloraría",
+        "llorarías",
+        "lloraría",
+        "lloraríamos",
+        "lloraríais",
+        "llorarían"
+      ],
+      "subjuntivo_presente": [
+        "llore",
+        "llores",
+        "llore",
+        "lloremos",
+        "lloréis",
+        "lloren"
+      ],
+      "imperativo": [
+        "llora!",
+        "llore!",
+        "llorad!",
+        "lloren!"
       ]
     },
     "examples": [
@@ -2298,6 +6024,52 @@
         "bailamos",
         "bailasteis",
         "bailaron"
+      ],
+      "preterito_imperfecto": [
+        "bailaba",
+        "bailabas",
+        "bailaba",
+        "bailábamos",
+        "bailabais",
+        "bailaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he bailado",
+        "has bailado",
+        "ha bailado",
+        "hemos bailado",
+        "habéis bailado",
+        "han bailado"
+      ],
+      "futuro_simple": [
+        "bailaré",
+        "bailarás",
+        "bailará",
+        "bailaremos",
+        "bailaréis",
+        "bailarán"
+      ],
+      "condicional_simple": [
+        "bailaría",
+        "bailarías",
+        "bailaría",
+        "bailaríamos",
+        "bailaríais",
+        "bailarían"
+      ],
+      "subjuntivo_presente": [
+        "baile",
+        "bailes",
+        "baile",
+        "bailemos",
+        "bailéis",
+        "bailen"
+      ],
+      "imperativo": [
+        "baila!",
+        "baile!",
+        "bailad!",
+        "bailen!"
       ]
     },
     "examples": [
@@ -2325,6 +6097,52 @@
         "cantamos",
         "cantasteis",
         "cantaron"
+      ],
+      "preterito_imperfecto": [
+        "cantaba",
+        "cantabas",
+        "cantaba",
+        "cantábamos",
+        "cantabais",
+        "cantaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he cantado",
+        "has cantado",
+        "ha cantado",
+        "hemos cantado",
+        "habéis cantado",
+        "han cantado"
+      ],
+      "futuro_simple": [
+        "cantaré",
+        "cantarás",
+        "cantará",
+        "cantaremos",
+        "cantaréis",
+        "cantarán"
+      ],
+      "condicional_simple": [
+        "cantaría",
+        "cantarías",
+        "cantaría",
+        "cantaríamos",
+        "cantaríais",
+        "cantarían"
+      ],
+      "subjuntivo_presente": [
+        "cante",
+        "cantes",
+        "cante",
+        "cantemos",
+        "cantéis",
+        "canten"
+      ],
+      "imperativo": [
+        "canta!",
+        "cante!",
+        "cantad!",
+        "canten!"
       ]
     },
     "examples": [
@@ -2352,6 +6170,52 @@
         "pintamos",
         "pintasteis",
         "pintaron"
+      ],
+      "preterito_imperfecto": [
+        "pintaba",
+        "pintabas",
+        "pintaba",
+        "pintábamos",
+        "pintabais",
+        "pintaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he pintado",
+        "has pintado",
+        "ha pintado",
+        "hemos pintado",
+        "habéis pintado",
+        "han pintado"
+      ],
+      "futuro_simple": [
+        "pintaré",
+        "pintarás",
+        "pintará",
+        "pintaremos",
+        "pintaréis",
+        "pintarán"
+      ],
+      "condicional_simple": [
+        "pintaría",
+        "pintarías",
+        "pintaría",
+        "pintaríamos",
+        "pintaríais",
+        "pintarían"
+      ],
+      "subjuntivo_presente": [
+        "pinte",
+        "pintes",
+        "pinte",
+        "pintemos",
+        "pintéis",
+        "pinten"
+      ],
+      "imperativo": [
+        "pinta!",
+        "pinte!",
+        "pintad!",
+        "pinten!"
       ]
     },
     "examples": [
@@ -2379,6 +6243,52 @@
         "dibujamos",
         "dibujasteis",
         "dibujaron"
+      ],
+      "preterito_imperfecto": [
+        "dibujaba",
+        "dibujabas",
+        "dibujaba",
+        "dibujábamos",
+        "dibujabais",
+        "dibujaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he dibujado",
+        "has dibujado",
+        "ha dibujado",
+        "hemos dibujado",
+        "habéis dibujado",
+        "han dibujado"
+      ],
+      "futuro_simple": [
+        "dibujaré",
+        "dibujarás",
+        "dibujará",
+        "dibujaremos",
+        "dibujaréis",
+        "dibujarán"
+      ],
+      "condicional_simple": [
+        "dibujaría",
+        "dibujarías",
+        "dibujaría",
+        "dibujaríamos",
+        "dibujaríais",
+        "dibujarían"
+      ],
+      "subjuntivo_presente": [
+        "dibuje",
+        "dibujes",
+        "dibuje",
+        "dibujemos",
+        "dibujéis",
+        "dibujen"
+      ],
+      "imperativo": [
+        "dibuja!",
+        "dibuje!",
+        "dibujad!",
+        "dibujen!"
       ]
     },
     "examples": [
@@ -2406,6 +6316,52 @@
         "visitamos",
         "visitasteis",
         "visitaron"
+      ],
+      "preterito_imperfecto": [
+        "visitaba",
+        "visitabas",
+        "visitaba",
+        "visitábamos",
+        "visitabais",
+        "visitaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he visitado",
+        "has visitado",
+        "ha visitado",
+        "hemos visitado",
+        "habéis visitado",
+        "han visitado"
+      ],
+      "futuro_simple": [
+        "visitaré",
+        "visitarás",
+        "visitará",
+        "visitaremos",
+        "visitaréis",
+        "visitarán"
+      ],
+      "condicional_simple": [
+        "visitaría",
+        "visitarías",
+        "visitaría",
+        "visitaríamos",
+        "visitaríais",
+        "visitarían"
+      ],
+      "subjuntivo_presente": [
+        "visite",
+        "visites",
+        "visite",
+        "visitemos",
+        "visitéis",
+        "visiten"
+      ],
+      "imperativo": [
+        "visita!",
+        "visite!",
+        "visitad!",
+        "visiten!"
       ]
     },
     "examples": [
@@ -2433,6 +6389,52 @@
         "invitamos",
         "invitasteis",
         "invitaron"
+      ],
+      "preterito_imperfecto": [
+        "invitaba",
+        "invitabas",
+        "invitaba",
+        "invitábamos",
+        "invitabais",
+        "invitaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he invitado",
+        "has invitado",
+        "ha invitado",
+        "hemos invitado",
+        "habéis invitado",
+        "han invitado"
+      ],
+      "futuro_simple": [
+        "invitaré",
+        "invitarás",
+        "invitará",
+        "invitaremos",
+        "invitaréis",
+        "invitarán"
+      ],
+      "condicional_simple": [
+        "invitaría",
+        "invitarías",
+        "invitaría",
+        "invitaríamos",
+        "invitaríais",
+        "invitarían"
+      ],
+      "subjuntivo_presente": [
+        "invite",
+        "invites",
+        "invite",
+        "invitemos",
+        "invitéis",
+        "inviten"
+      ],
+      "imperativo": [
+        "invita!",
+        "invite!",
+        "invitad!",
+        "inviten!"
       ]
     },
     "examples": [
