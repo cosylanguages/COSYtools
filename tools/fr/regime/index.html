@@ -102,7 +102,7 @@
 
                     <!-- Fill-in-the-blank Format -->
                     <div id="srs-fill-container" class="fill-input-box hidden">
-                        <input type="text" id="srs-blank-input" placeholder="Tapez la préposition (ex. à, de, au, du, sur...)" autocomplete="off">
+                        <input type="text" id="srs-blank-input" placeholder="Tapez la préposition (ex. à, de, au, du, sur...)" autocomplete="off" aria-label="Type preposition answer">
                         <button id="srs-submit-blank-btn" class="choice-btn submit-input-btn" onclick="appEngine.submitBlankAnswer()">Valider ➔</button>
                     </div>
 
@@ -154,7 +154,7 @@
                     <div class="dashboard-content">
                         <div class="dashboard-header">
                             <h2>📊 Tableau de bord d'apprentissage (SRS)</h2>
-                            <button class="close-btn" onclick="appEngine.toggleDashboard()">&times;</button>
+                            <button class="close-btn" onclick="appEngine.toggleDashboard()" aria-label="Close">&times;</button>
                         </div>
 
                         <div id="dashboard-matrix-container">
@@ -179,8 +179,8 @@
 
                     <div class="search-box">
                         <span class="search-icon">🔍</span>
-                        <input type="text" id="verb-search-input" placeholder="Rechercher un verbe, nom ou adjectif (ex. penser, besoin, content)..." autocomplete="off">
-                        <button id="clear-search-btn" class="clear-btn hidden">&times;</button>
+                        <input type="text" id="verb-search-input" placeholder="Rechercher un verbe, nom ou adjectif (ex. penser, besoin, content)..." autocomplete="off" aria-label="Search verb or entry">
+                        <button id="clear-search-btn" class="clear-btn hidden" aria-label="Clear search">&times;</button>
                     </div>
                     <div id="search-suggestions" class="suggestions-list hidden"></div>
                 </section>

@@ -280,7 +280,7 @@ function navFree () {
         <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Language">
           ${langOptions}
         </select>
-        <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+        <select id="profile-switcher" aria-label="Select profile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
           ${profileOptions}
           <option value="__create__">+ New...</option>
         </select>
@@ -357,13 +357,13 @@ function mobileMenuHTML (mode) {
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
-         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+         <select id="cosy-language-switcher-mobile" aria-label="Select language" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
             ${langOptions}
          </select>
       </div>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
-         <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+         <select id="profile-switcher-mobile" aria-label="Select profile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
             ${profileOptions}
             <option value="__create__">+ New...</option>
          </select>
@@ -441,7 +441,7 @@ function refreshDictUI() {
     const el = document.createElement('div');
     el.className = 'dict-entry';
     const def = typeof data === 'string' ? data : (data.definition || '');
-    el.innerHTML = `<div><div class="dict-entry-word">${word}</div><div class="dict-entry-def">${def}</div></div><button class="dict-remove" onclick="COSY.removeFromDict('${word.replace(/'/g,"\\'")}')">✕</button>`;
+    el.innerHTML = `<div><div class="dict-entry-word">${word}</div><div class="dict-entry-def">${def}</div></div><button class="dict-remove" onclick="COSY.removeFromDict('${word.replace(/'/g,"\\'")}')" aria-label="Remove entry">✕</button>`;
     body.appendChild(el);
   });
 }
