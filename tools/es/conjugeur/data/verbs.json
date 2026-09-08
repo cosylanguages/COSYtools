@@ -420,5 +420,2023 @@
     "examples": [
       "Veo una película en el cine."
     ]
+  },
+  "trabajar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Realizar una actividad física o intelectual.",
+    "antonyms": [
+      "descansar"
+    ],
+    "tenses": {
+      "presente": [
+        "trabajo",
+        "trabajas",
+        "trabaja",
+        "trabajamos",
+        "trabajáis",
+        "trabajan"
+      ],
+      "pasado": [
+        "trabajé",
+        "trabajaste",
+        "trabajó",
+        "trabajamos",
+        "trabajasteis",
+        "trabajaron"
+      ]
+    },
+    "examples": [
+      "Trabajo en un hospital céntrico."
+    ]
+  },
+  "aprender": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Adquirir el conocimiento de algo.",
+    "antonyms": [
+      "olvidar"
+    ],
+    "tenses": {
+      "presente": [
+        "aprendo",
+        "aprendes",
+        "aprende",
+        "aprendemos",
+        "aprendéis",
+        "aprenden"
+      ],
+      "pasado": [
+        "aprendí",
+        "aprendiste",
+        "aprendió",
+        "aprendimos",
+        "aprendisteis",
+        "aprendieron"
+      ]
+    },
+    "examples": [
+      "Aprendo español con mucho entusiasmo."
+    ]
+  },
+  "comprar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Obtener algo a cambio de dinero.",
+    "antonyms": [
+      "vender"
+    ],
+    "tenses": {
+      "presente": [
+        "compro",
+        "compras",
+        "compra",
+        "compramos",
+        "compráis",
+        "compran"
+      ],
+      "pasado": [
+        "compré",
+        "compraste",
+        "compró",
+        "compramos",
+        "comprasteis",
+        "compraron"
+      ]
+    },
+    "examples": [
+      "Compro frutas frescas en el mercado."
+    ]
+  },
+  "vender": {
+    "group": "2do grupo (-er)",
+    "level": "A2",
+    "definition": "Traspasar la propiedad de algo por un precio.",
+    "antonyms": [
+      "comprar"
+    ],
+    "tenses": {
+      "presente": [
+        "vendo",
+        "vendes",
+        "vende",
+        "vendemos",
+        "vendéis",
+        "venden"
+      ],
+      "pasado": [
+        "vendí",
+        "vendiste",
+        "vendió",
+        "vendimos",
+        "vendisteis",
+        "vendieron"
+      ]
+    },
+    "examples": [
+      "Vende su coche antiguo a buen precio."
+    ]
+  },
+  "jugar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Hacer algo con alegría para divertirse.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "juego",
+        "juegas",
+        "juega",
+        "jugamos",
+        "jugáis",
+        "juegan"
+      ],
+      "pasado": [
+        "jugué",
+        "jugaste",
+        "jugó",
+        "jugamos",
+        "jugasteis",
+        "jugaron"
+      ]
+    },
+    "examples": [
+      "Los niños juegan en el parque."
+    ]
+  },
+  "cocinar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Preparar los alimentos hirviéndolos o asándolos.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "cocino",
+        "cocinas",
+        "cocina",
+        "cocinamos",
+        "cocináis",
+        "cocinan"
+      ],
+      "pasado": [
+        "cociné",
+        "cocinaste",
+        "cocinó",
+        "cocinamos",
+        "cocinasteis",
+        "cocinaron"
+      ]
+    },
+    "examples": [
+      "Cocino la cena para toda la familia."
+    ]
+  },
+  "necesitar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Tener necesidad de algo o alguien.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "necesito",
+        "necesitas",
+        "necesita",
+        "necesitamos",
+        "necesitáis",
+        "necesitan"
+      ],
+      "pasado": [
+        "necesité",
+        "necesitaste",
+        "necesitó",
+        "necesitamos",
+        "necesitasteis",
+        "necesitaron"
+      ]
+    },
+    "examples": [
+      "Necesito más información sobre este curso."
+    ]
+  },
+  "buscar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Hacer lo necesario para hallar a alguien o algo.",
+    "antonyms": [
+      "encontrar"
+    ],
+    "tenses": {
+      "presente": [
+        "busco",
+        "buscas",
+        "busca",
+        "buscamos",
+        "buscáis",
+        "buscan"
+      ],
+      "pasado": [
+        "busqué",
+        "buscaste",
+        "buscó",
+        "buscamos",
+        "buscasteis",
+        "buscaron"
+      ]
+    },
+    "examples": [
+      "Busco mis llaves por toda la casa."
+    ]
+  },
+  "encontrar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Dar con alguien o algo que se buscaba.",
+    "antonyms": [
+      "perder"
+    ],
+    "tenses": {
+      "presente": [
+        "encuentro",
+        "encuentras",
+        "encuentra",
+        "encontramos",
+        "encontráis",
+        "encuentran"
+      ],
+      "pasado": [
+        "encontré",
+        "encontraste",
+        "encontró",
+        "encontramos",
+        "encontrasteis",
+        "encontraron"
+      ]
+    },
+    "examples": [
+      "Por fin encuentro una solución clara."
+    ]
+  },
+  "tomar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Coger con la mano o ingerir una bebida.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "tomo",
+        "tomas",
+        "toma",
+        "tomamos",
+        "tomáis",
+        "toman"
+      ],
+      "pasado": [
+        "tomé",
+        "tomaste",
+        "tomó",
+        "tomamos",
+        "tomasteis",
+        "tomaron"
+      ]
+    },
+    "examples": [
+      "Tomo un vaso de agua bien fría."
+    ]
+  },
+  "dar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Entregar o traspasar algo a alguien.",
+    "antonyms": [
+      "recibir"
+    ],
+    "tenses": {
+      "presente": [
+        "doy",
+        "das",
+        "da",
+        "damos",
+        "dais",
+        "dan"
+      ],
+      "pasado": [
+        "di",
+        "diste",
+        "dio",
+        "dimos",
+        "disteis",
+        "dieron"
+      ]
+    },
+    "examples": [
+      "Le doy un regalo por su cumpleaños."
+    ]
+  },
+  "llevar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Transportar o vestir una prenda.",
+    "antonyms": [
+      "traer"
+    ],
+    "tenses": {
+      "presente": [
+        "llevo",
+        "llevas",
+        "lleva",
+        "llevamos",
+        "lleváis",
+        "llevan"
+      ],
+      "pasado": [
+        "llevé",
+        "llevaste",
+        "llevó",
+        "llevamos",
+        "llevasteis",
+        "llevaron"
+      ]
+    },
+    "examples": [
+      "Llevo una chaqueta verde hoy."
+    ]
+  },
+  "traer": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Mover o conducir hacia el lugar donde se habla.",
+    "antonyms": [
+      "llevar"
+    ],
+    "tenses": {
+      "presente": [
+        "traigo",
+        "traes",
+        "trae",
+        "traemos",
+        "traéis",
+        "traen"
+      ],
+      "pasado": [
+        "traje",
+        "trajiste",
+        "trajo",
+        "trajimos",
+        "trajisteis",
+        "trajeron"
+      ]
+    },
+    "examples": [
+      "El camarero trae el postre a la mesa."
+    ]
+  },
+  "pensar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Formar o combinar ideas en la mente.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "pienso",
+        "piensas",
+        "piensa",
+        "pensamos",
+        "pensáis",
+        "piensan"
+      ],
+      "pasado": [
+        "pensé",
+        "pensaste",
+        "pensó",
+        "pensamos",
+        "pensasteis",
+        "pensaron"
+      ]
+    },
+    "examples": [
+      "Pienso viajar a España el próximo año."
+    ]
+  },
+  "conocer": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Tener noción o trato con alguien o algo.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "conozco",
+        "conoces",
+        "conoce",
+        "conocemos",
+        "conocéis",
+        "conocen"
+      ],
+      "pasado": [
+        "conocí",
+        "conociste",
+        "conoció",
+        "conocimos",
+        "conocisteis",
+        "conocieron"
+      ]
+    },
+    "examples": [
+      "Conozco muy bien esta ciudad hermosa."
+    ]
+  },
+  "poner": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Colocar a alguien o algo en un sitio.",
+    "antonyms": [
+      "quitar"
+    ],
+    "tenses": {
+      "presente": [
+        "pongo",
+        "pones",
+        "pone",
+        "ponemos",
+        "ponéis",
+        "ponen"
+      ],
+      "pasado": [
+        "puse",
+        "pusiste",
+        "puso",
+        "pusimos",
+        "pusisteis",
+        "pusieron"
+      ]
+    },
+    "examples": [
+      "Pongo los platos sobre la mesa."
+    ]
+  },
+  "salir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Pasar de dentro a fuera de un lugar.",
+    "antonyms": [
+      "entrar"
+    ],
+    "tenses": {
+      "presente": [
+        "salgo",
+        "sales",
+        "sale",
+        "salimos",
+        "salís",
+        "salen"
+      ],
+      "pasado": [
+        "salí",
+        "saliste",
+        "salió",
+        "salimos",
+        "salisteis",
+        "salieron"
+      ]
+    },
+    "examples": [
+      "Salgo de casa a las ocho en punto."
+    ]
+  },
+  "llegar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Alcanzar el fin o término de un desplazamiento.",
+    "antonyms": [
+      "salir"
+    ],
+    "tenses": {
+      "presente": [
+        "llego",
+        "llegas",
+        "llega",
+        "llegamos",
+        "llegáis",
+        "llegan"
+      ],
+      "pasado": [
+        "llegué",
+        "llegaste",
+        "llegó",
+        "llegamos",
+        "llegasteis",
+        "llegaron"
+      ]
+    },
+    "examples": [
+      "El tren llega puntualmente a la estación."
+    ]
+  },
+  "entrar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Pasar del exterior al interior.",
+    "antonyms": [
+      "salir"
+    ],
+    "tenses": {
+      "presente": [
+        "entro",
+        "entras",
+        "entra",
+        "entramos",
+        "entráis",
+        "entran"
+      ],
+      "pasado": [
+        "entré",
+        "entraste",
+        "entró",
+        "entramos",
+        "entrasteis",
+        "entraron"
+      ]
+    },
+    "examples": [
+      "Entro en la biblioteca silenciosamente."
+    ]
+  },
+  "volver": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Regresar al lugar de donde se salió.",
+    "antonyms": [
+      "ir",
+      "partir"
+    ],
+    "tenses": {
+      "presente": [
+        "vuelvo",
+        "vuelves",
+        "vuelve",
+        "volvemos",
+        "volvéis",
+        "vuelven"
+      ],
+      "pasado": [
+        "volví",
+        "volviste",
+        "volvió",
+        "volvimos",
+        "volvisteis",
+        "volvieron"
+      ]
+    },
+    "examples": [
+      "Vuelvo a casa al atardecer."
+    ]
+  },
+  "viajar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Trasladarse de un lugar a otro lejano.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "viajo",
+        "viajas",
+        "viaja",
+        "viajamos",
+        "viajáis",
+        "viajan"
+      ],
+      "pasado": [
+        "viajé",
+        "viajaste",
+        "viajó",
+        "viajamos",
+        "viajasteis",
+        "viajaron"
+      ]
+    },
+    "examples": [
+      "Viajo en avión durante las vacaciones."
+    ]
+  },
+  "caminar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Andar a pie de un sitio a otro.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "camino",
+        "caminas",
+        "camina",
+        "caminamos",
+        "camináis",
+        "caminan"
+      ],
+      "pasado": [
+        "caminé",
+        "caminaste",
+        "caminó",
+        "caminamos",
+        "caminasteis",
+        "caminaron"
+      ]
+    },
+    "examples": [
+      "Camino treinta minutos cada mañana."
+    ]
+  },
+  "correr": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Moverse rápidamente con pasos largos.",
+    "antonyms": [
+      "caminar"
+    ],
+    "tenses": {
+      "presente": [
+        "corro",
+        "corres",
+        "corre",
+        "corremos",
+        "corréis",
+        "corren"
+      ],
+      "pasado": [
+        "corrí",
+        "corriste",
+        "corrió",
+        "corrimos",
+        "corristeis",
+        "corrieron"
+      ]
+    },
+    "examples": [
+      "Corro en el parque antes de trabajar."
+    ]
+  },
+  "nadar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Moverse en el agua usando los brazos y piernas.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "nado",
+        "nadas",
+        "nada",
+        "nadamos",
+        "nadáis",
+        "nadan"
+      ],
+      "pasado": [
+        "nadé",
+        "nadaste",
+        "nadó",
+        "nadamos",
+        "nadasteis",
+        "nadaron"
+      ]
+    },
+    "examples": [
+      "Nado en la piscina olímpica los sábados."
+    ]
+  },
+  "llamar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Comunicarse por teléfono o nombrar a alguien.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "llamo",
+        "llamas",
+        "llama",
+        "llamamos",
+        "llamáis",
+        "llaman"
+      ],
+      "pasado": [
+        "llamé",
+        "llamaste",
+        "llamó",
+        "llamamos",
+        "llamasteis",
+        "llamaron"
+      ]
+    },
+    "examples": [
+      "Llamo a mi madre todas las semanas."
+    ]
+  },
+  "recordar": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Traer algo a la memoria.",
+    "antonyms": [
+      "olvidar"
+    ],
+    "tenses": {
+      "presente": [
+        "recuerdo",
+        "recuerdas",
+        "recuerda",
+        "recordamos",
+        "recordáis",
+        "recuerdan"
+      ],
+      "pasado": [
+        "recordé",
+        "recordaste",
+        "recordó",
+        "recordamos",
+        "recordasteis",
+        "recordaron"
+      ]
+    },
+    "examples": [
+      "Recuerdo con alegría mis días de infancia."
+    ]
+  },
+  "olvidar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Dejar de recordar algo en la mente.",
+    "antonyms": [
+      "recordar"
+    ],
+    "tenses": {
+      "presente": [
+        "olvido",
+        "olvidas",
+        "olvida",
+        "olvidamos",
+        "olvidáis",
+        "olvidan"
+      ],
+      "pasado": [
+        "olvidé",
+        "olvidaste",
+        "olvidó",
+        "olvidamos",
+        "olvidasteis",
+        "olvidaron"
+      ]
+    },
+    "examples": [
+      "A veces olvido dónde puse las llaves."
+    ]
+  },
+  "intentar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Hacer el esfuerzo para lograr algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "intento",
+        "intentas",
+        "intenta",
+        "intentamos",
+        "intentáis",
+        "intentan"
+      ],
+      "pasado": [
+        "intenté",
+        "intentaste",
+        "intentó",
+        "intentamos",
+        "intentasteis",
+        "intentaron"
+      ]
+    },
+    "examples": [
+      "Intento resolver el ejercicio correctamente."
+    ]
+  },
+  "usar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Hacer servir una cosa para un fin determinado.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "uso",
+        "usas",
+        "usa",
+        "usamos",
+        "usáis",
+        "usan"
+      ],
+      "pasado": [
+        "usé",
+        "usaste",
+        "usó",
+        "usamos",
+        "usasteis",
+        "usaron"
+      ]
+    },
+    "examples": [
+      "Uso la computadora para estudiar."
+    ]
+  },
+  "elegir": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Escoger preferentemente a alguien o algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "elijo",
+        "eliges",
+        "elige",
+        "elegimos",
+        "elegís",
+        "eligen"
+      ],
+      "pasado": [
+        "elegí",
+        "elegiste",
+        "eligió",
+        "elegimos",
+        "elegisteis",
+        "eligieron"
+      ]
+    },
+    "examples": [
+      "Elijo la opción más conveniente."
+    ]
+  },
+  "decidir": {
+    "group": "3er grupo (-ir)",
+    "level": "A2",
+    "definition": "Tomar una determinación sobre algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "decido",
+        "decides",
+        "decide",
+        "decidimos",
+        "decidís",
+        "deciden"
+      ],
+      "pasado": [
+        "decidí",
+        "decidiste",
+        "decidió",
+        "decidimos",
+        "decidisteis",
+        "decidieron"
+      ]
+    },
+    "examples": [
+      "Decido tomar unas vacaciones cortas."
+    ]
+  },
+  "sentir": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Experimentar una sensación física o emocional.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "siento",
+        "sientes",
+        "siente",
+        "sentimos",
+        "sentís",
+        "sienten"
+      ],
+      "pasado": [
+        "sentí",
+        "sentiste",
+        "sintió",
+        "sentimos",
+        "sentisteis",
+        "sintieron"
+      ]
+    },
+    "examples": [
+      "Me siento muy feliz por tu logro."
+    ]
+  },
+  "gustar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Agradar o causar satisfacción.",
+    "antonyms": [
+      "disgustar"
+    ],
+    "tenses": {
+      "presente": [
+        "gusto",
+        "gustas",
+        "gusta",
+        "gustamos",
+        "gustáis",
+        "gustan"
+      ],
+      "pasado": [
+        "gusté",
+        "gustaste",
+        "gustó",
+        "gustamos",
+        "gustasteis",
+        "gustaron"
+      ]
+    },
+    "examples": [
+      "Me gusta mucho el helado de chocolate."
+    ]
+  },
+  "encantar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Gustar en gran medida una cosa.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "encanto",
+        "encantas",
+        "encanta",
+        "encantamos",
+        "encantáis",
+        "encantan"
+      ],
+      "pasado": [
+        "encanté",
+        "encantaste",
+        "encantó",
+        "encantamos",
+        "encantasteis",
+        "encantaron"
+      ]
+    },
+    "examples": [
+      "Me encanta viajar por la costa."
+    ]
+  },
+  "pasar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Moverse de un lado a otro o suceder.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "paso",
+        "pasas",
+        "pasa",
+        "pasamos",
+        "pasáis",
+        "pasan"
+      ],
+      "pasado": [
+        "pasé",
+        "pasaste",
+        "pasó",
+        "pasamos",
+        "pasasteis",
+        "pasaron"
+      ]
+    },
+    "examples": [
+      "Paso las vacaciones en la playa."
+    ]
+  },
+  "durar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Continuar o permanecer durante un tiempo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "duro",
+        "duras",
+        "dura",
+        "duramos",
+        "duráis",
+        "duran"
+      ],
+      "pasado": [
+        "duré",
+        "duraste",
+        "duró",
+        "duramos",
+        "durasteis",
+        "duraron"
+      ]
+    },
+    "examples": [
+      "La película dura dos horas completas."
+    ]
+  },
+  "parar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Detener una marcha o movimiento.",
+    "antonyms": [
+      "continuar"
+    ],
+    "tenses": {
+      "presente": [
+        "paro",
+        "paras",
+        "para",
+        "paramos",
+        "paráis",
+        "paran"
+      ],
+      "pasado": [
+        "paré",
+        "paraste",
+        "paró",
+        "paramos",
+        "parasteis",
+        "pararon"
+      ]
+    },
+    "examples": [
+      "El autobús para justo enfrente del parque."
+    ]
+  },
+  "seguir": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Continuar haciendo algo o ir detrás de alguien.",
+    "antonyms": [
+      "parar"
+    ],
+    "tenses": {
+      "presente": [
+        "sigo",
+        "sigues",
+        "sigue",
+        "seguimos",
+        "seguís",
+        "siguen"
+      ],
+      "pasado": [
+        "seguí",
+        "seguiste",
+        "siguió",
+        "seguimos",
+        "seguisteis",
+        "siguieron"
+      ]
+    },
+    "examples": [
+      "Sigo las instrucciones cuidadosamente."
+    ]
+  },
+  "empezar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Dar principio a una acción o cosa.",
+    "antonyms": [
+      "terminar"
+    ],
+    "tenses": {
+      "presente": [
+        "empiezo",
+        "empiezas",
+        "empieza",
+        "empezamos",
+        "empezáis",
+        "empiezan"
+      ],
+      "pasado": [
+        "empecé",
+        "empezaste",
+        "empezó",
+        "empezamos",
+        "empezasteis",
+        "empezaron"
+      ]
+    },
+    "examples": [
+      "La clase empieza a las nueve de la mañana."
+    ]
+  },
+  "terminar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Llegar al final de algo.",
+    "antonyms": [
+      "empezar"
+    ],
+    "tenses": {
+      "presente": [
+        "termino",
+        "terminas",
+        "termina",
+        "terminamos",
+        "termináis",
+        "terminan"
+      ],
+      "pasado": [
+        "terminé",
+        "terminaste",
+        "terminó",
+        "terminamos",
+        "terminasteis",
+        "terminaron"
+      ]
+    },
+    "examples": [
+      "Termino mis tareas antes del almuerzo."
+    ]
+  },
+  "ganar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Obtener la victoria en un juego o competencia.",
+    "antonyms": [
+      "perder"
+    ],
+    "tenses": {
+      "presente": [
+        "gano",
+        "ganas",
+        "gana",
+        "ganamos",
+        "ganáis",
+        "ganan"
+      ],
+      "pasado": [
+        "gané",
+        "ganaste",
+        "ganó",
+        "ganamos",
+        "ganasteis",
+        "ganaron"
+      ]
+    },
+    "examples": [
+      "Nuestro equipo gana el partido decisivo."
+    ]
+  },
+  "perder": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Dejar de tener algo o no ganar un juego.",
+    "antonyms": [
+      "ganar",
+      "encontrar"
+    ],
+    "tenses": {
+      "presente": [
+        "pierdo",
+        "pierdes",
+        "pierde",
+        "perdemos",
+        "perdéis",
+        "pierden"
+      ],
+      "pasado": [
+        "perdí",
+        "perdiste",
+        "perdió",
+        "perdimos",
+        "perdisteis",
+        "perdieron"
+      ]
+    },
+    "examples": [
+      "A veces pierdo el autobús por llegar tarde."
+    ]
+  },
+  "regalar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Dar algo como muestra de afecto sin recibir dinero.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "regalo",
+        "regalas",
+        "regala",
+        "regalamos",
+        "regaláis",
+        "regalan"
+      ],
+      "pasado": [
+        "regalé",
+        "regalaste",
+        "regaló",
+        "regalamos",
+        "regalasteis",
+        "regalaron"
+      ]
+    },
+    "examples": [
+      "Le regalo un libro a mi hermano."
+    ]
+  },
+  "recibir": {
+    "group": "3er grupo (-ir)",
+    "level": "A1",
+    "definition": "Tomar lo que le dan o envían.",
+    "antonyms": [
+      "enviar"
+    ],
+    "tenses": {
+      "presente": [
+        "recibo",
+        "recibes",
+        "recibe",
+        "recibimos",
+        "recibís",
+        "reciben"
+      ],
+      "pasado": [
+        "recibí",
+        "recibiste",
+        "recibió",
+        "recibimos",
+        "recibisteis",
+        "recibieron"
+      ]
+    },
+    "examples": [
+      "Recibo una postal desde Madrid."
+    ]
+  },
+  "enviar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Mandar algo a un destino.",
+    "antonyms": [
+      "recibir"
+    ],
+    "tenses": {
+      "presente": [
+        "envío",
+        "envías",
+        "envía",
+        "enviamos",
+        "enviáis",
+        "envían"
+      ],
+      "pasado": [
+        "envié",
+        "enviaste",
+        "envió",
+        "enviamos",
+        "enviasteis",
+        "enviaron"
+      ]
+    },
+    "examples": [
+      "Envío un mensaje de texto a mi amigo."
+    ]
+  },
+  "alquilar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Tomar o dar algo para uso por un precio determinado.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "alquilo",
+        "alquilas",
+        "alquila",
+        "alquilamos",
+        "alquiláis",
+        "alquilan"
+      ],
+      "pasado": [
+        "alquilé",
+        "alquilaste",
+        "alquiló",
+        "alquilamos",
+        "alquilasteis",
+        "alquilaron"
+      ]
+    },
+    "examples": [
+      "Alquilamos un apartamento cerca del centro."
+    ]
+  },
+  "quedar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Permanecer en un lugar o acordar una cita.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "quedo",
+        "quedas",
+        "queda",
+        "quedamos",
+        "quedáis",
+        "quedan"
+      ],
+      "pasado": [
+        "quedé",
+        "quedaste",
+        "quedó",
+        "quedamos",
+        "quedasteis",
+        "quedaron"
+      ]
+    },
+    "examples": [
+      "Quedamos a las seis en la cafetería."
+    ]
+  },
+  "parecer": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Tener aspecto o causar una opinión.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "parezco",
+        "pareces",
+        "parece",
+        "parecemos",
+        "parecéis",
+        "parecen"
+      ],
+      "pasado": [
+        "parecí",
+        "pareciste",
+        "pareció",
+        "parecimos",
+        "parecisteis",
+        "parecieron"
+      ]
+    },
+    "examples": [
+      "Esta idea me parece brillante."
+    ]
+  },
+  "romper": {
+    "group": "2do grupo (-er)",
+    "level": "A2",
+    "definition": "Hacer pedazos una cosa mediante la fuerza.",
+    "antonyms": [
+      "reparar"
+    ],
+    "tenses": {
+      "presente": [
+        "rompo",
+        "rompes",
+        "rompe",
+        "rompemos",
+        "rompéis",
+        "rompen"
+      ],
+      "pasado": [
+        "rompí",
+        "rompiste",
+        "rompió",
+        "rompimos",
+        "rompisteis",
+        "rompieron"
+      ]
+    },
+    "examples": [
+      "A veces se rompe un plato al lavarlo."
+    ]
+  },
+  "abrir": {
+    "group": "3er grupo (-ir)",
+    "level": "A1",
+    "definition": "Destapar o descorrer un cerrojo.",
+    "antonyms": [
+      "cerrar"
+    ],
+    "tenses": {
+      "presente": [
+        "abro",
+        "abres",
+        "abre",
+        "abrimos",
+        "abrís",
+        "abren"
+      ],
+      "pasado": [
+        "abrí",
+        "abriste",
+        "abrió",
+        "abrimos",
+        "abristeis",
+        "abrieron"
+      ]
+    },
+    "examples": [
+      "Abro la ventana para que entre aire fresco."
+    ]
+  },
+  "cerrar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Asegurar con cerrojo o tapar una abertura.",
+    "antonyms": [
+      "abrir"
+    ],
+    "tenses": {
+      "presente": [
+        "cierro",
+        "cierras",
+        "cierra",
+        "cerramos",
+        "cerráis",
+        "cierran"
+      ],
+      "pasado": [
+        "cerré",
+        "cerraste",
+        "cerró",
+        "cerramos",
+        "cerrasteis",
+        "cerraron"
+      ]
+    },
+    "examples": [
+      "Por favor, cierra la puerta al salir."
+    ]
+  },
+  "tocar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Poner las manos sobre algo o interpretar música.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "toco",
+        "tocas",
+        "toca",
+        "tocamos",
+        "tocáis",
+        "tocan"
+      ],
+      "pasado": [
+        "toqué",
+        "tocaste",
+        "tocó",
+        "tocamos",
+        "tocasteis",
+        "tocaron"
+      ]
+    },
+    "examples": [
+      "Toco la guitarra en mis ratos libres."
+    ]
+  },
+  "mirar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Fijar la vista en un objeto o persona.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "miro",
+        "miras",
+        "mira",
+        "miramos",
+        "miráis",
+        "miran"
+      ],
+      "pasado": [
+        "miré",
+        "miraste",
+        "miró",
+        "miramos",
+        "mirasteis",
+        "miraron"
+      ]
+    },
+    "examples": [
+      "Miro los árboles desde mi ventana."
+    ]
+  },
+  "estudiar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Dedicar el entendimiento para aprender una materia.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "estudio",
+        "estudias",
+        "estudia",
+        "estudiamos",
+        "estudiáis",
+        "estudian"
+      ],
+      "pasado": [
+        "estudié",
+        "estudiaste",
+        "estudió",
+        "estudiamos",
+        "estudiasteis",
+        "estudiaron"
+      ]
+    },
+    "examples": [
+      "Estudio gramática todas las tardes."
+    ]
+  },
+  "explicar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Dar a conocer una materia con claridad.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "explico",
+        "explicas",
+        "explica",
+        "explicamos",
+        "explicáis",
+        "explican"
+      ],
+      "pasado": [
+        "expliqué",
+        "explicaste",
+        "explicó",
+        "explicamos",
+        "explicasteis",
+        "explicaron"
+      ]
+    },
+    "examples": [
+      "La profesora explica la lección con paciencia."
+    ]
+  },
+  "significar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Ser representación o sentido de una palabra.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "significo",
+        "significas",
+        "significa",
+        "significamos",
+        "significáis",
+        "significan"
+      ],
+      "pasado": [
+        "signifiqué",
+        "significaste",
+        "significó",
+        "significamos",
+        "significasteis",
+        "significaron"
+      ]
+    },
+    "examples": [
+      "¿Qué significa esta palabra en español?"
+    ]
+  },
+  "preguntar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Interrogar a alguien para saber algo.",
+    "antonyms": [
+      "responder"
+    ],
+    "tenses": {
+      "presente": [
+        "pregunto",
+        "preguntas",
+        "pregunta",
+        "preguntamos",
+        "preguntáis",
+        "preguntan"
+      ],
+      "pasado": [
+        "pregunté",
+        "preguntaste",
+        "preguntó",
+        "preguntamos",
+        "preguntasteis",
+        "preguntaron"
+      ]
+    },
+    "examples": [
+      "Pregunto al guía por la dirección correcta."
+    ]
+  },
+  "responder": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Contestar a lo que se pregunta.",
+    "antonyms": [
+      "preguntar"
+    ],
+    "tenses": {
+      "presente": [
+        "respondo",
+        "respondes",
+        "responde",
+        "respondemos",
+        "respondéis",
+        "responden"
+      ],
+      "pasado": [
+        "respondí",
+        "respondiste",
+        "respondió",
+        "respondimos",
+        "respondisteis",
+        "respondieron"
+      ]
+    },
+    "examples": [
+      "Respondo a todas las preguntas del examen."
+    ]
+  },
+  "agradecer": {
+    "group": "Irregular",
+    "level": "A2",
+    "definition": "Dar las gracias por un favor o beneficio.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "agradezco",
+        "agradeces",
+        "agradece",
+        "agradecemos",
+        "agradecéis",
+        "agradecen"
+      ],
+      "pasado": [
+        "agradecí",
+        "agradeciste",
+        "agradeció",
+        "agradecimos",
+        "agradecisteis",
+        "agradecieron"
+      ]
+    },
+    "examples": [
+      "Agradezco enormemente tu valiosa ayuda."
+    ]
+  },
+  "pedir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Rogar a alguien que dé o haga algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "pido",
+        "pides",
+        "pide",
+        "pedimos",
+        "pedís",
+        "piden"
+      ],
+      "pasado": [
+        "pedí",
+        "pediste",
+        "pidió",
+        "pedimos",
+        "pedisteis",
+        "pidieron"
+      ]
+    },
+    "examples": [
+      "Pido un café con leche en el bar."
+    ]
+  },
+  "decir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Manifestar un pensamiento o idea con palabras.",
+    "antonyms": [
+      "callar"
+    ],
+    "tenses": {
+      "presente": [
+        "digo",
+        "dices",
+        "dice",
+        "decimos",
+        "decís",
+        "dicen"
+      ],
+      "pasado": [
+        "dije",
+        "dijiste",
+        "dijo",
+        "dijimos",
+        "dijisteis",
+        "dijeron"
+      ]
+    },
+    "examples": [
+      "Digo siempre la verdad a mis amigos."
+    ]
+  },
+  "contar": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Narrar un suceso o enumerar objetos.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "cuento",
+        "cuentas",
+        "cuenta",
+        "contamos",
+        "contáis",
+        "cuentan"
+      ],
+      "pasado": [
+        "conté",
+        "contaste",
+        "contó",
+        "contamos",
+        "contasteis",
+        "contaron"
+      ]
+    },
+    "examples": [
+      "Mi abuelo me cuenta historias fascinantes."
+    ]
+  },
+  "creer": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Tener por cierto algo sin certeza absoluta.",
+    "antonyms": [
+      "dudar"
+    ],
+    "tenses": {
+      "presente": [
+        "creo",
+        "crees",
+        "cree",
+        "creemos",
+        "creéis",
+        "creen"
+      ],
+      "pasado": [
+        "creí",
+        "creíste",
+        "creyó",
+        "creímos",
+        "creísteis",
+        "creyeron"
+      ]
+    },
+    "examples": [
+      "Creo que mañana va a hacer sol."
+    ]
+  },
+  "esperar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Tener la esperanza de algo o permanecer en un sitio.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "espero",
+        "esperas",
+        "espera",
+        "esperamos",
+        "esperáis",
+        "esperan"
+      ],
+      "pasado": [
+        "esperé",
+        "esperaste",
+        "esperó",
+        "esperamos",
+        "esperasteis",
+        "esperaron"
+      ]
+    },
+    "examples": [
+      "Espero el autobús en la parada."
+    ]
+  },
+  "reír": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Manifestar alegría con movimientos de la boca y sonido.",
+    "antonyms": [
+      "llorar"
+    ],
+    "tenses": {
+      "presente": [
+        "río",
+        "ríes",
+        "ríe",
+        "reímos",
+        "reís",
+        "ríen"
+      ],
+      "pasado": [
+        "reí",
+        "reíste",
+        "rio",
+        "reímos",
+        "reísteis",
+        "rieron"
+      ]
+    },
+    "examples": [
+      "Reímos mucho con las comedias teatrales."
+    ]
+  },
+  "llorar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Derramar lágrimas por dolor o tristeza.",
+    "antonyms": [
+      "reír"
+    ],
+    "tenses": {
+      "presente": [
+        "lloro",
+        "lloras",
+        "llora",
+        "lloramos",
+        "lloráis",
+        "lloran"
+      ],
+      "pasado": [
+        "lloré",
+        "lloraste",
+        "lloró",
+        "lloramos",
+        "llorasteis",
+        "lloraron"
+      ]
+    },
+    "examples": [
+      "El bebé llora cuando tiene hambre."
+    ]
+  },
+  "bailar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Mover el cuerpo al ritmo de la música.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "bailo",
+        "bailas",
+        "baila",
+        "bailamos",
+        "bailáis",
+        "bailan"
+      ],
+      "pasado": [
+        "bailé",
+        "bailaste",
+        "bailó",
+        "bailamos",
+        "bailasteis",
+        "bailaron"
+      ]
+    },
+    "examples": [
+      "Bailamos salsa las noches de sábado."
+    ]
+  },
+  "cantar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Producir sonidos melodiosos con la voz.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "canto",
+        "cantas",
+        "canta",
+        "cantamos",
+        "cantáis",
+        "cantan"
+      ],
+      "pasado": [
+        "canté",
+        "cantaste",
+        "cantó",
+        "cantamos",
+        "cantasteis",
+        "cantaron"
+      ]
+    },
+    "examples": [
+      "Canto una canción alegre bajo la ducha."
+    ]
+  },
+  "pintar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Representar imágenes mediante color.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "pinto",
+        "pintas",
+        "pinta",
+        "pintamos",
+        "pintáis",
+        "pintan"
+      ],
+      "pasado": [
+        "pinté",
+        "pintaste",
+        "pintó",
+        "pintamos",
+        "pintasteis",
+        "pintaron"
+      ]
+    },
+    "examples": [
+      "Pinto un cuadro hermoso con acuarelas."
+    ]
+  },
+  "dibujar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Trazar líneas para delinear una figura.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "dibujo",
+        "dibujas",
+        "dibuja",
+        "dibujamos",
+        "dibujáis",
+        "dibujan"
+      ],
+      "pasado": [
+        "dibujé",
+        "dibujaste",
+        "dibujó",
+        "dibujamos",
+        "dibujasteis",
+        "dibujaron"
+      ]
+    },
+    "examples": [
+      "Dibujo un mapa sencillo para el viajero."
+    ]
+  },
+  "visitar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Ir a ver a alguien o conocer un lugar.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "visito",
+        "visitas",
+        "visita",
+        "visitamos",
+        "visitáis",
+        "visitan"
+      ],
+      "pasado": [
+        "visité",
+        "visitaste",
+        "visitó",
+        "visitamos",
+        "visitasteis",
+        "visitaron"
+      ]
+    },
+    "examples": [
+      "Visito a mis tíos el fin de semana."
+    ]
+  },
+  "invitar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Convidar a alguien a una reunión o celebración.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "invito",
+        "invitas",
+        "invita",
+        "invitamos",
+        "invitáis",
+        "invitan"
+      ],
+      "pasado": [
+        "invité",
+        "invitaste",
+        "invitó",
+        "invitamos",
+        "invitasteis",
+        "invitaron"
+      ]
+    },
+    "examples": [
+      "Te invito a cenar a mi restaurante favorito."
+    ]
   }
 }
