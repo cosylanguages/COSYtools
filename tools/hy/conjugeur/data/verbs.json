@@ -3,6 +3,8 @@
     "group": "I խոնարհում (-ել)",
     "level": "A1",
     "definition": "Մտքերն արտահայտել բառերով:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; entries not directly in morphology.json",
     "tenses": {
       "present": [
         "խոսում եմ",
@@ -11,6 +13,22 @@
         "խոսում ենք",
         "խոսում եք",
         "խոսում են"
+      ],
+      "past": [
+        "խոսեցի",
+        "խոսեցիր",
+        "խոսեց",
+        "խոսեցինք",
+        "խոսեցիք",
+        "խոսեցին"
+      ],
+      "future": [
+        "կխոսեմ",
+        "կխոսես",
+        "կխոսի",
+        "կխոսենք",
+        "կխոսեք",
+        "կխոսեն"
       ]
     },
     "examples": [
@@ -21,6 +39,8 @@
     "group": "II խոնարհում (-ալ)",
     "level": "A1",
     "definition": "Տեքստն ընկալել աչքերով:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; entries not directly in morphology.json",
     "tenses": {
       "present": [
         "կարդում եմ",
@@ -29,6 +49,22 @@
         "կարդում ենք",
         "կարդում եք",
         "կարդում են"
+      ],
+      "past": [
+        "կարդացի",
+        "կարդացիր",
+        "կարդաց",
+        "կարդացինք",
+        "կարդացիք",
+        "կարդացին"
+      ],
+      "future": [
+        "կկարդամ",
+        "կկարդաս",
+        "կկարդա",
+        "կկարդանք",
+        "կկարդաք",
+        "կկարդան"
       ]
     },
     "examples": [
@@ -39,6 +75,8 @@
     "group": "I խոնարհում (-ել)",
     "level": "A1",
     "definition": "Տառերով արտահայտել մտքերը:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; root entry not directly in morphology.json",
     "tenses": {
       "present": [
         "գրում եմ",
@@ -47,6 +85,22 @@
         "գրում ենք",
         "գրում եք",
         "գրում են"
+      ],
+      "past": [
+        "գրեցի",
+        "գրեցիր",
+        "գրեց",
+        "գրեցինք",
+        "գրեցիք",
+        "գրեցին"
+      ],
+      "future": [
+        "կգրեմ",
+        "կգրես",
+        "կգրի",
+        "կգրենք",
+        "կգրեք",
+        "կգրեն"
       ]
     },
     "examples": [
@@ -65,6 +119,22 @@
         "սովորում ենք",
         "սովորում եք",
         "սովորում են"
+      ],
+      "past": [
+        "սովորեցի",
+        "սովորեցիր",
+        "սովորեց",
+        "սովորեցինք",
+        "սովորեցիք",
+        "սովորեցին"
+      ],
+      "future": [
+        "կսովորեմ",
+        "կսովորես",
+        "կսովորի",
+        "կսովորենք",
+        "կսովորեք",
+        "կսովորեն"
       ]
     },
     "examples": [
