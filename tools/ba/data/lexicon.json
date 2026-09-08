@@ -109,6 +109,8 @@
         "group": "I төркөм",
         "level": "A1",
         "definition": "Текстың мәғәнәһен аңлап ҡабул итеү.",
+        "needs_review": true,
+        "review_notes": "Standard Bashkir definite past and definite future forms derived; verb lemmas not directly present in morphology.json",
         "tenses": {
           "present": [
             "уҡыйым",
@@ -117,6 +119,22 @@
             "уҡыйбыҙ",
             "уҡыйһығыҙ",
             "уҡыйҙар"
+          ],
+          "past": [
+            "уҡыным",
+            "уҡының",
+            "уҡыны",
+            "уҡыныҡ",
+            "уҡынығыҙ",
+            "уҡынылар"
+          ],
+          "future": [
+            "уҡыясаҡмын",
+            "уҡыясаҡһың",
+            "уҡыясаҡ",
+            "уҡыясаҡбыҙ",
+            "уҡыясаҡһығыҙ",
+            "уҡыясаҡтар"
           ]
         },
         "examples": [
@@ -132,6 +150,8 @@
         "group": "I төркөм",
         "level": "A1",
         "definition": "Һүҙҙәр менән аңлатыу.",
+        "needs_review": true,
+        "review_notes": "Standard Bashkir definite past and definite future forms derived; verb lemmas not directly present in morphology.json",
         "tenses": {
           "present": [
             "һөйләйем",
@@ -140,6 +160,22 @@
             "һөйләйбеҙ",
             "һөйләйһегеҙ",
             "һөйләйҙәр"
+          ],
+          "past": [
+            "һөйләнем",
+            "һөйләнең",
+            "һөйләне",
+            "һөйләнек",
+            "һөйләнегеҙ",
+            "һөйләнеләр"
+          ],
+          "future": [
+            "һөйләйәсәкмен",
+            "һөйләйәсәкһең",
+            "һөйләйәсәк",
+            "һөйләйәсәкбеҙ",
+            "һөйләйәсәкһегеҙ",
+            "һөйләйәсәктәр"
           ]
         },
         "examples": [
@@ -155,6 +191,8 @@
         "group": "I төркөм",
         "level": "A1",
         "definition": "Эшмәкәрлек алып барыу.",
+        "needs_review": true,
+        "review_notes": "Standard Bashkir definite past and definite future forms derived; verb lemmas not directly present in morphology.json",
         "tenses": {
           "present": [
             "эшләйем",
@@ -163,6 +201,22 @@
             "эшләйбеҙ",
             "эшләйһегеҙ",
             "эшләйҙәр"
+          ],
+          "past": [
+            "эшләнем",
+            "эшләнең",
+            "эшләне",
+            "эшләнек",
+            "эшләнегеҙ",
+            "эшләнеләр"
+          ],
+          "future": [
+            "эшләйәсәкмен",
+            "эшләйәсәкһең",
+            "эшләйәсәк",
+            "эшләйәсәкбеҙ",
+            "эшләйәсәкһегеҙ",
+            "эшләйәсәктәр"
           ]
         },
         "examples": [
@@ -178,6 +232,8 @@
         "group": "I төркөм",
         "level": "A1",
         "definition": "Хәрефтәр менән фекерҙе белдереү.",
+        "needs_review": true,
+        "review_notes": "Standard Bashkir definite past and definite future forms derived; verb lemmas not directly present in morphology.json",
         "tenses": {
           "present": [
             "яҙам",
@@ -186,6 +242,22 @@
             "яҙабыҙ",
             "яҙаһығыҙ",
             "яҙалар"
+          ],
+          "past": [
+            "яҙҙым",
+            "яҙҙың",
+            "яҙҙы",
+            "яҙҙыҡ",
+            "яҙҙығыҙ",
+            "яҙҙылар"
+          ],
+          "future": [
+            "яҙасаҡмын",
+            "яҙасаҡһың",
+            "яҙасаҡ",
+            "яҙасаҡбыҙ",
+            "яҙасаҡһығыҙ",
+            "яҙасаҡтар"
           ]
         },
         "examples": [
