@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
     <link rel="stylesheet" href="../../../shared/css/tool-lookup.css">
+    <style>
+        .cases-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .cases-table th, .cases-table td {
+            border: 1px solid var(--color-border, #ccc);
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+        .cases-table th {
+            background-color: var(--color-bg-subtle, #f5f5f5);
+        }
+    </style>
 </head>
 <body>
     <header class="app-header" data-icon="🏴" data-title="Башҡортса" data-tagline="Bashkir Case Engine"></header>
@@ -21,6 +36,15 @@
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/engine.js"></script>
     <script>
+        const caseLabels = {
+            nom: 'Nominative (Төп)',
+            gen: 'Genitive (Илек)',
+            dat: 'Dative (Төшөм/Тб)',
+            acc: 'Accusative (Төшөм)',
+            abl: 'Ablative (Сығыш)',
+            loc: 'Locative (Урын-ваҡыт)'
+        };
+
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
         fetch(dataFile).then(r => r.json()).then(db => {
             const input = document.getElementById('search-input');
@@ -28,7 +52,40 @@
             function render(v) {
                 const item = db[v];
                 if (!item) return;
-                display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
+
+                let casesHtml = '';
+                if (item.cases) {
+                    const prefixes = ['nom', 'gen', 'dat', 'acc', 'abl', 'loc'];
+                    let rows = '';
+                    prefixes.forEach(p => {
+                        const sing = item.cases[p + '_sing'] || item.cases[p] || '-';
+                        const plur = item.cases[p + '_plur'] || '-';
+                        const label = caseLabels[p] || p.toUpperCase();
+                        rows += `<tr><td><strong>${label}</strong></td><td>${sing}</td><td>${plur}</td></tr>`;
+                    });
+                    casesHtml = `
+                        <h3>Case Declension</h3>
+                        <table class="cases-table">
+                            <thead>
+                                <tr>
+                                    <th>Case</th>
+                                    <th>Singular (Берлек)</th>
+                                    <th>Plural (Күплек)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${rows}
+                            </tbody>
+                        </table>
+                    `;
+                }
+
+                display.innerHTML = `
+                    <h2>${v} <span class="tag">${item.level || 'A1'}</span>${item.needs_review ? ' <span class="tag" style="background:#e74c3c;color:#fff;">Needs Review</span>' : ''}</h2>
+                    <p><strong>Definition:</strong> ${item.definition || ''}</p>
+                    <p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>
+                    ${casesHtml}
+                `;
             }
             const firstKey = Object.keys(db)[0];
             if (firstKey) render(firstKey);

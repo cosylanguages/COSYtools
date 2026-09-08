@@ -2,6 +2,783 @@
   "language": "de",
   "units": [
     {
+      "lemma": "abhängig",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "abhängig von [Dativ]",
+        "level": "A2",
+        "definition": "Auf die Hilfe oder Entscheidung eines anderen oder einer Sache angewiesen sein.",
+        "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. von seinen Eltern, vom Wetter).",
+        "examples": [
+          "Er ist finanziell noch von seinen Eltern abhängig.",
+          "Die Entscheidung ist vom Testergebnis abhängig."
+        ],
+        "common_mistake": "❌ abhängig auf das Wetter ➜ ✅ abhängig vom Wetter",
+        "synonyms": [
+          "angewiesen auf",
+          "gebunden"
+        ],
+        "antonyms": [
+          "unabhängig",
+          "selbstständig"
+        ]
+      }
+    },
+    {
+      "lemma": "angewiesen",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "angewiesen auf [Akkusativ]",
+        "level": "B1",
+        "definition": "Bedarf oder Hilfe von jemandem/etwas zwingend benötigen.",
+        "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. auf Hilfe, auf den Bus).",
+        "examples": [
+          "Kranke Menschen sind auf professionelle Pflege angewiesen.",
+          "In ländlichen Regionen ist man auf ein Auto angewiesen."
+        ],
+        "common_mistake": "❌ angewiesen von Hilfe ➜ ✅ angewiesen auf Hilfe",
+        "synonyms": [
+          "abhängig von"
+        ],
+        "antonyms": [
+          "autonom",
+          "unabhängig"
+        ]
+      }
+    },
+    {
+      "lemma": "arm",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "arm an [Dativ]",
+        "level": "B1",
+        "definition": "Wenig von etwas Habend oder Besitzend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. arm an Kalorien, arm an Vitaminen).",
+        "examples": [
+          "Diese Nahrung ist sehr arm an Fett.",
+          "Die Region ist arm an natürlichen Rohstoffen."
+        ],
+        "common_mistake": "❌ arm von Vitaminen ➜ ✅ arm an Vitaminen",
+        "synonyms": [
+          "knapp an",
+          "mangelhaft"
+        ],
+        "antonyms": [
+          "reich an"
+        ]
+      }
+    },
+    {
+      "lemma": "begeistert",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "begeistert von [Dativ]",
+        "level": "A2",
+        "definition": "Große Freude, Enthusiasmus oder Bewunderung empfindend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. von der Musik, vom Konzert).",
+        "examples": [
+          "Die Zuschauer waren begeistert von der Aufführung.",
+          "Ich bin begeistert von deiner neuen Idee!"
+        ],
+        "common_mistake": "❌ begeistert über die Musik ➜ ✅ begeistert von der Musik",
+        "synonyms": [
+          "fasziniert von",
+          "entzückt von"
+        ],
+        "antonyms": [
+          "enttäuscht von",
+          "gelangweilt"
+        ]
+      }
+    },
+    {
+      "lemma": "bekannt",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "bekannt für [Akkusativ]",
+        "level": "A2",
+        "definition": "Wegen einer Eigenschaft oder Leistung vielen Menschen bekannt sein.",
+        "grammar_rule": "Adjektiv mit fester Präposition «für» + Akkusativ (z.B. bekannt für seine Pünktlichkeit).",
+        "examples": [
+          "Deutschland ist bekannt für seine gute Qualität.",
+          "Die Stadt ist bekannt für ihre historischen Bauwerke."
+        ],
+        "common_mistake": "❌ bekannt von Qualität ➜ ✅ bekannt für Qualität",
+        "synonyms": [
+          "berühmt für",
+          "populär"
+        ],
+        "antonyms": [
+          "unbekannt"
+        ]
+      }
+    },
+    {
+      "lemma": "beliebt",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "bei"
+        ],
+        "case": "Dativ",
+        "pattern": "beliebt bei [Dativ]",
+        "level": "A2",
+        "definition": "Gern gesehen oder geschätzt von einer Personengruppe.",
+        "grammar_rule": "Adjektiv mit fester Präposition «bei» + Dativ (z.B. beliebt bei den Kindern, beim Publikum).",
+        "examples": [
+          "Der Lehrer ist bei allen Schülern sehr beliebt.",
+          "Diese Sportart ist bei Jugendlichen sehr beliebt."
+        ],
+        "common_mistake": "❌ beliebt von den Schülern ➜ ✅ beliebt bei den Schülern",
+        "synonyms": [
+          "geschätzt",
+          "angesehen"
+        ],
+        "antonyms": [
+          "unbeliebt"
+        ]
+      }
+    },
+    {
+      "lemma": "bereit",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "bereit zu [Dativ]",
+        "level": "A2",
+        "definition": "Entschlossen oder vorbereitet sein, etwas zu tun.",
+        "grammar_rule": "Adjektiv mit fester Präposition «zu» + Dativ (z.B. bereit zum Abflug, bereit zu Zugeständnissen).",
+        "grammar_rule_inf": "Oder: bereit sein zu + Infinitiv mit zu (bereit sein zu helfen).",
+        "examples": [
+          "Wir sind bereit zu einem Gespräch.",
+          "Bist du bereit zur Abreise?"
+        ],
+        "common_mistake": "❌ bereit für abfahren ➜ ✅ bereit zur Abreise (oder: bereit abzufahren)",
+        "synonyms": [
+          "bereitwillig",
+          "willens"
+        ],
+        "antonyms": [
+          "unbereit",
+          "unwillig"
+        ]
+      }
+    },
+    {
+      "lemma": "böse",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "böse auf [Akkusativ]",
+        "level": "A1",
+        "definition": "Wütend oder verärgert gegenüber einer Person sein.",
+        "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. böse auf meinen Bruder).",
+        "examples": [
+          "Bist du noch böse auf mich?",
+          "Er war sehr böse auf seinen Freund wegen des Beinahe-Unfalls."
+        ],
+        "common_mistake": "❌ böse mit mir ➜ ✅ böse auf mich",
+        "synonyms": [
+          "wütend auf",
+          "zornig auf"
+        ],
+        "antonyms": [
+          "freundlich zu",
+          "versöhnt mit"
+        ]
+      }
+    },
+    {
+      "lemma": "dankbar",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "dankbar für [Akkusativ]",
+        "level": "A1",
+        "definition": "Anerkennung und Dankbarkeit für eine Hilfe oder Gabe empfindend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «für» + Akkusativ (z.B. dankbar für deine Hilfe). Kann auch «jemandem [Dativ] dankbar sein» kombiniert werden.",
+        "examples": [
+          "Ich bin dir sehr dankbar für deine Unterstützung.",
+          "Wir sind dankbar für jeden guten Ratschlag."
+        ],
+        "common_mistake": "❌ dankbar über deine Hilfe ➜ ✅ dankbar für deine Hilfe",
+        "synonyms": [
+          "erkenntlich",
+          "geschätzt"
+        ],
+        "antonyms": [
+          "undankbar"
+        ]
+      }
+    },
+    {
+      "lemma": "eifersüchtig",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "eifersüchtig auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Aus Furcht vor Verlust der Zuneigung Neid empfindend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. eifersüchtig auf den Rivalen, auf den Erfolg).",
+        "examples": [
+          "Er ist manchmal eifersüchtig auf den besten Freund seiner Frau.",
+          "Man sollte nicht eifersüchtig auf den Erfolg anderer sein."
+        ],
+        "common_mistake": "❌ eifersüchtig gegen jemanden ➜ ✅ eifersüchtig auf jemanden",
+        "synonyms": [
+          "neidisch auf"
+        ],
+        "antonyms": [
+          "gönnend",
+          "vertrauensvoll"
+        ]
+      }
+    },
+    {
+      "lemma": "enttäuscht",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "enttäuscht von [Dativ]",
+        "level": "A2",
+        "definition": "Traurig oder desillusioniert wegen einer unerfüllten Erwartung.",
+        "grammar_rule": "Adjektiv mit fester Präposition «von» + Dativ (z.B. enttäuscht vom Ergebnis, von seinen Freunden).",
+        "examples": [
+          "Er ist enttäuscht von der schlechten Qualität des Produkts.",
+          "Wir waren alle enttäuscht von seiner Absage."
+        ],
+        "common_mistake": "❌ enttäuscht über seine Freunde (bei Personen von, bei Sachen auch über möglich) ➜ ✅ enttäuscht von seinen Freunden",
+        "synonyms": [
+          "desillusioniert",
+          "frustriert"
+        ],
+        "antonyms": [
+          "begeistert von",
+          "erfreut"
+        ]
+      }
+    },
+    {
+      "lemma": "fertig",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "fertig mit [Dativ]",
+        "level": "A1",
+        "definition": "Eine Arbeit oder Aufgabe abgeschlossen haben.",
+        "grammar_rule": "Adjektiv mit fester Präposition «mit» + Dativ (z.B. fertig mit den Hausaufgaben, mit der Arbeit).",
+        "examples": [
+          "Bist du schon fertig mit deinen Hausaufgaben?",
+          "Wir sind fast fertig mit der Renovierung."
+        ],
+        "common_mistake": "❌ fertig von der Arbeit (wenn abgeschlossen gemeint) ➜ ✅ fertig mit der Arbeit",
+        "synonyms": [
+          "bereit",
+          "abgeschlossen"
+        ],
+        "antonyms": [
+          "unfertig",
+          "mitten in"
+        ]
+      }
+    },
+    {
+      "lemma": "freundlich",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "freundlich zu [Dativ]",
+        "level": "A1",
+        "definition": "Nett, höflich und wohlwollend gegenüber anderen sein.",
+        "grammar_rule": "Adjektiv mit fester Präposition «zu» + Dativ (z.B. freundlich zu den Nachbarn, zu den Kunden).",
+        "examples": [
+          "Die Verkäuferin war sehr freundlich zu den Kunden.",
+          "Sei bitte freundlich zu deinem kleinen Bruder!"
+        ],
+        "common_mistake": "❌ freundlich mit den Kunden ➜ ✅ freundlich zu den Kunden",
+        "synonyms": [
+          "nett zu",
+          "höflich gegenüber"
+        ],
+        "antonyms": [
+          "unfreundlich",
+          "böse auf"
+        ]
+      }
+    },
+    {
+      "lemma": "glücklich",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "glücklich über [Akkusativ]",
+        "level": "A1",
+        "definition": "Große Zufriedenheit und Freude empfindend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «über» + Akkusativ (z.B. glücklich über die bestandene Prüfung).",
+        "examples": [
+          "Sie ist sehr glücklich über ihre neue Stelle.",
+          "Wir sind glücklich über das gute Ergebnis."
+        ],
+        "common_mistake": "❌ glücklich für das Ergebnis ➜ ✅ glücklich über das Ergebnis",
+        "synonyms": [
+          "erfreut über",
+          "froh über"
+        ],
+        "antonyms": [
+          "traurig über",
+          "unglücklich"
+        ]
+      }
+    },
+    {
+      "lemma": "interessiert",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "interessiert an [Dativ]",
+        "level": "A2",
+        "definition": "Aufmerksamkeit und Neugier für etwas zeigend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. interessiert an Kunst, am Angebot).",
+        "examples": [
+          "Sind Sie an diesem Angebot interessiert?",
+          "Er ist sehr interessiert an moderner Technologie."
+        ],
+        "common_mistake": "❌ interessiert für Politik ➜ ✅ interessiert an Politik (aber: sich interessieren für)",
+        "synonyms": [
+          "aufmerksam",
+          "neugierig"
+        ],
+        "antonyms": [
+          "desinteressiert",
+          "gleichgültig"
+        ]
+      }
+    },
+    {
+      "lemma": "neidisch",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "neidisch auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Groll empfindend, weil ein anderer etwas Begehrenswertes besitzt.",
+        "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. neidisch auf den Nachbarn, auf das neue Auto).",
+        "examples": [
+          "Man sollte nicht neidisch auf das Glück anderer sein.",
+          "Er ist neidisch auf seinen erfolgreichen Kollegen."
+        ],
+        "common_mistake": "❌ neidisch über seinen Kollegen ➜ ✅ neidisch auf seinen Kollegen",
+        "synonyms": [
+          "eifersüchtig auf",
+          "missgünstig"
+        ],
+        "antonyms": [
+          "gönnend"
+        ]
+      }
+    },
+    {
+      "lemma": "reich",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "reich an [Dativ]",
+        "level": "A2",
+        "definition": "Viel von etwas Besitzend oder Enthaltend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «an» + Dativ (z.B. reich an Vitaminen, an Erfahrung).",
+        "examples": [
+          "Obst ist reich an Vitaminen und Mineralstoffen.",
+          "Er ist reich an Lebenserfahrung."
+        ],
+        "common_mistake": "❌ reich von Erfahrung ➜ ✅ reich an Erfahrung",
+        "synonyms": [
+          "voll von",
+          "gesegnet mit"
+        ],
+        "antonyms": [
+          "arm an"
+        ]
+      }
+    },
+    {
+      "lemma": "stolz",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "stolz auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Freude und Selbstbewusstsein über eine Leistung oder Eigenschaft empfindend.",
+        "grammar_rule": "Adjektiv mit fester Präposition «auf» + Akkusativ (z.B. stolz auf die Kinder, auf den Erfolg).",
+        "examples": [
+          "Die Eltern sind sehr stolz auf ihren Sohn.",
+          "Ich bin stolz auf meine Fortschritte auf Deutsch."
+        ],
+        "common_mistake": "❌ stolz von meinem Sohn ➜ ✅ stolz auf meinen Sohn",
+        "synonyms": [
+          "selbstbewusst",
+          "hochbeglückt"
+        ],
+        "antonyms": [
+          "beschämt über"
+        ]
+      }
+    },
+    {
+      "lemma": "überrascht",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "überrascht über / von [Akkusativ / Dativ]",
+        "level": "A2",
+        "definition": "Staunen oder Erstaunen empfindend über ein unerwartetes Ereignis.",
+        "grammar_rule": "Adjektiv mit «über» + Akkusativ oder «von» + Dativ (z.B. überrascht über die Nachricht / vom Besuch).",
+        "examples": [
+          "Wir waren sehr überrascht über das schnelle Ergebnis.",
+          "Er war überrascht von der Reaktion seines Chefs."
+        ],
+        "common_mistake": "❌ überrascht für das Ergebnis ➜ ✅ überrascht über das Ergebnis",
+        "synonyms": [
+          "erstaunt über",
+          "verblüfft von"
+        ],
+        "antonyms": [
+          "gefasst",
+          "unüberrascht"
+        ]
+      }
+    },
+    {
+      "lemma": "zufrieden",
+      "kind": "adjectives",
+      "source": "tools/de/praepositionen/data/adjectives.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "zufrieden mit [Dativ]",
+        "level": "A1",
+        "definition": "Glücklich oder einverstanden mit dem Zustand einer Sache oder Leistung.",
+        "grammar_rule": "Adjektiv mit fester Präposition «mit» + Dativ (z.B. zufrieden mit dem Gehalt, mit dem Service).",
+        "examples": [
+          "Sind Sie mit Ihrem neuen Computer zufrieden?",
+          "Der Lehrer war sehr zufrieden mit unserer Leistung."
+        ],
+        "common_mistake": "❌ zufrieden über das Gehalt ➜ ✅ zufrieden mit dem Gehalt",
+        "synonyms": [
+          "glücklich mit",
+          "behelligt"
+        ],
+        "antonyms": [
+          "unzufrieden mit"
+        ]
+      }
+    },
+    {
+      "lemma": "an",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "an",
+        "translation": "at / on (vertical surface / border)",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position an einer Fläche, einem Rand oder Gewässer.",
+          "example": "Das Bild hängt an der Wand. / Wir stehen am (an dem) Fenster."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung an eine Fläche oder einen Rand.",
+          "example": "Ich hänge das Bild an die Wand. / Wir gehen an den Strand."
+        }
+      }
+    },
+    {
+      "lemma": "auf",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "auf",
+        "translation": "on / onto (horizontal surface)",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position auf einer horizontalen Fläche oder einem Platz.",
+          "example": "Das Buch liegt auf dem Tisch. / Sie sitzt auf dem Stuhl."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung auf eine Fläche hinauf.",
+          "example": "Ich lege das Buch auf den Tisch. / Sie setzt sich auf den Stuhl."
+        }
+      }
+    },
+    {
+      "lemma": "hinter",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "hinter",
+        "translation": "behind",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position hinter etwas.",
+          "example": "Der Garten liegt hinter dem Haus."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung hinter etwas.",
+          "example": "Er geht hinter das Haus."
+        }
+      }
+    },
+    {
+      "lemma": "in",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "in",
+        "translation": "in / inside / into",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Statische Lage oder Aufenthalt an einem Ort. Artikel im Dativ: dem (m/n), der (f), den (Pl.).",
+          "example": "Ich bin in der Schule. / Er sitzt im (in dem) Park."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Zielgerichtete Bewegung oder Ortswechsel. Artikel im Akkusativ: den (m), die (f), das (n), die (Pl.).",
+          "example": "Ich gehe in die Schule. / Er geht in den Park."
+        }
+      }
+    },
+    {
+      "lemma": "neben",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "neben",
+        "translation": "next to / beside",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position seitlich neben etwas.",
+          "example": "Die Garage steht neben dem Haus."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung neben etwas.",
+          "example": "Er stellt sein Fahrrad neben das Haus."
+        }
+      }
+    },
+    {
+      "lemma": "über",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "über",
+        "translation": "over / above / across",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position oberhalb von etwas ohne direkte Berührung.",
+          "example": "Die Lampe hängt über dem Tisch."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung über etwas hinweg oder auf die andere Seite.",
+          "example": "Er hängt die Lampe über den Tisch. / Der Hund springt über die Mauer."
+        }
+      }
+    },
+    {
+      "lemma": "unter",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "unter",
+        "translation": "under / below / among",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position unterhalb von etwas.",
+          "example": "Der Hund schläft unter dem Tisch."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung unter etwas hinunter.",
+          "example": "Der Hund läuft unter den Tisch."
+        }
+      }
+    },
+    {
+      "lemma": "vor",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "vor",
+        "translation": "in front of / before",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position vor einer Person oder Sache.",
+          "example": "Das Auto steht vor dem Haus."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung vor etwas hin.",
+          "example": "Er fährt das Auto vor das Haus."
+        }
+      }
+    },
+    {
+      "lemma": "zwischen",
+      "kind": "lexical",
+      "source": "tools/de/praepositionen/data/two_way_prepositions.json",
+      "data": {
+        "preposition": "zwischen",
+        "translation": "between",
+        "dativ_wo": {
+          "question": "Wo? (Ort / Position -> Dativ)",
+          "rule": "Position mitten zwischen zwei Orten oder Personen.",
+          "example": "Der Stuhl steht zwischen dem Tisch und dem Schrank."
+        },
+        "akkusativ_wohin": {
+          "question": "Wohin? (Richtung / Bewegung -> Akkusativ)",
+          "rule": "Bewegung in den Zwischenraum.",
+          "example": "Er stellt den Stuhl zwischen den Tisch und den Schrank."
+        }
+      }
+    },
+    {
+      "lemma": "Angst",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "vor"
+        ],
+        "case": "Dativ",
+        "pattern": "Angst vor [Dativ]",
+        "level": "A1",
+        "definition": "Befürchtung oder Furcht vor einer Gefahr oder einer Situation.",
+        "grammar_rule": "Nomen mit fester Präposition «vor» + Dativ (z.B. vor dem Hund, vor der Prüfung).",
+        "examples": [
+          "Er hat große Angst vor Prüfungen.",
+          "Viele Kinder haben Angst vor der Dunkelheit."
+        ],
+        "common_mistake": "❌ Angst für die Prüfung ➜ ✅ Angst vor der Prüfung",
+        "synonyms": [
+          "Furcht",
+          "Befürchtung"
+        ],
+        "antonyms": [
+          "Mut",
+          "Vertrauen"
+        ]
+      }
+    },
+    {
+      "lemma": "Antwort",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Antwort auf [Akkusativ]",
+        "level": "A1",
+        "definition": "Reaktion oder Erwiderung auf eine Frage oder eine Nachricht.",
+        "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. auf die Frage, auf den Brief).",
+        "examples": [
+          "Ich warte auf eine Antwort auf meine E-Mail.",
+          "Die Antwort auf diese Frage ist nicht einfach."
+        ],
+        "common_mistake": "❌ Antwort zu der Frage ➜ ✅ Antwort auf die Frage",
+        "synonyms": [
+          "Reaktion",
+          "Erwiderung"
+        ],
+        "antonyms": [
+          "Frage"
+        ]
+      }
+    },
+    {
       "lemma": "Apfel",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -107,6 +884,33 @@
       }
     },
     {
+      "lemma": "Bitte",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "um"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Bitte um [Akkusativ]",
+        "level": "A2",
+        "definition": "Ersuchen oder Wunsch nach Hilfe, Informationen oder Unterstützung.",
+        "grammar_rule": "Nomen mit fester Präposition «um» + Akkusativ (z.B. Bitte um Hilfe, Bitte um Verzeihung).",
+        "examples": [
+          "Eine höfliche Bitte um Hilfe ist immer willkommen.",
+          "Wir senden Ihnen eine Bitte um Terminbestätigung."
+        ],
+        "common_mistake": "❌ Bitte für Hilfe 0➜ ✅ Bitte um Hilfe",
+        "synonyms": [
+          "Ersuchen",
+          "Anfrage"
+        ],
+        "antonyms": [
+          "Forderung"
+        ]
+      }
+    },
+    {
       "lemma": "Blume",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -197,6 +1001,34 @@
       }
     },
     {
+      "lemma": "Dank",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Dank für [Akkusativ]",
+        "level": "A1",
+        "definition": "Ausdruck der Anerkennung für eine erhaltene Hilfe oder ein Geschenk.",
+        "grammar_rule": "Nomen mit fester Präposition «für» + Akkusativ (z.B. Herzlichen Dank für Ihre Hilfe!).",
+        "noun_parallel": "Verbe: danken [Dat.] für [Akk.]",
+        "examples": [
+          "Vielen Dank für Ihre Unterstützung!",
+          "Ein großer Dank geht an das Organisationsteam."
+        ],
+        "common_mistake": "❌ Dank über Ihre Hilfe ➜ ✅ Dank für Ihre Hilfe",
+        "synonyms": [
+          "Dankbarkeit",
+          "Anerkennung"
+        ],
+        "antonyms": [
+          "Undank"
+        ]
+      }
+    },
+    {
       "lemma": "Ei",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -208,6 +1040,33 @@
         "plural": "Eier",
         "examples": [
           "Zum Frühstück esse ich zwei Eier."
+        ]
+      }
+    },
+    {
+      "lemma": "Einladung",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "Einladung zu [Dativ]",
+        "level": "A1",
+        "definition": "Aufforderung, an einem Fest, Treffen oder Gespräch teilzunehmen.",
+        "grammar_rule": "Nomen mit fester Präposition «zu» + Dativ (z.B. Einladung zur Party, zum Geburtstag).",
+        "examples": [
+          "Danke für die Einladung zu deiner Hochzeit!",
+          "Wir haben eine Einladung zum Vorstellungsgespräch erhalten."
+        ],
+        "common_mistake": "❌ Einladung auf die Party ➜ ✅ Einladung zur Party",
+        "synonyms": [
+          "Aufforderung",
+          "Gasteinladung"
+        ],
+        "antonyms": [
+          "Ausladung"
         ]
       }
     },
@@ -317,6 +1176,36 @@
       }
     },
     {
+      "lemma": "Freude",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "an",
+          "auf",
+          "über"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "Freude an [Dat.] / auf [Akk.] / über [Akk.]",
+        "level": "A1",
+        "definition": "Gefühl des Glücks oder der Begeisterung.",
+        "grammar_rule": "Freude an + Dativ (Gegenwart/Tätigkeit), Freude auf + Akkusativ (Zukunft), Freude über + Akkusativ (Vergangenheit/Geschenk).",
+        "examples": [
+          "Er hat große Freude an der Musik.",
+          "Die Freude auf die Ferien ist riesig."
+        ],
+        "common_mistake": "❌ Freude für das Geschenk ➜ ✅ Freude über das Geschenk",
+        "synonyms": [
+          "Glück",
+          "Begeisterung"
+        ],
+        "antonyms": [
+          "Trauer",
+          "Enttäuschung"
+        ]
+      }
+    },
+    {
       "lemma": "Freund",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -377,6 +1266,34 @@
       }
     },
     {
+      "lemma": "Grund",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Grund für [Akkusativ]",
+        "level": "A2",
+        "definition": "Ursache oder Anlass für ein Verhalten oder ein Ereignis.",
+        "grammar_rule": "Nomen mit fester Präposition «für» + Akkusativ (z.B. Grund für die Verspätung).",
+        "examples": [
+          "Was war der Grund für deine Absage?",
+          "Es gibt keinen Grund für Panik."
+        ],
+        "common_mistake": "❌ Grund von die Verspätung ➜ ✅ Grund für die Verspätung",
+        "synonyms": [
+          "Ursache",
+          "Anlass"
+        ],
+        "antonyms": [
+          "Folge",
+          "Wirkung"
+        ]
+      }
+    },
+    {
       "lemma": "Haus",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -403,6 +1320,34 @@
         "plural": "Hemden",
         "examples": [
           "Er trägt ein weißes Hemd."
+        ]
+      }
+    },
+    {
+      "lemma": "Hoffnung",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Hoffnung auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Zuversichtliche Erwartung einer positiven Zukunft.",
+        "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. Hoffnung auf Besserung, auf Frieden).",
+        "examples": [
+          "Die Hoffnung auf eine schnelle Genesung bleibt groß.",
+          "Wir geben die Hoffnung auf Erfolg nicht auf."
+        ],
+        "common_mistake": "❌ Hoffnung für Frieden ➜ ✅ Hoffnung auf Frieden",
+        "synonyms": [
+          "Zuversicht",
+          "Glaube"
+        ],
+        "antonyms": [
+          "Hoffnungslosigkeit",
+          "Verzweiflung"
         ]
       }
     },
@@ -463,6 +1408,34 @@
         "plural": "Hüte",
         "examples": [
           "Der Mann trägt einen braunen Hut."
+        ]
+      }
+    },
+    {
+      "lemma": "Interesse",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "Interesse an [Dativ]",
+        "level": "A1",
+        "definition": "Aufmerksamkeit oder Neugier für ein Thema oder eine Sache.",
+        "grammar_rule": "Nomen mit fester Präposition «an» + Dativ (z.B. Interesse an Kunst, an der Sprache).",
+        "examples": [
+          "Sie zeigt großes Interesse an der deutschen Kultur.",
+          "Haben Sie Interesse an diesem Angebot?"
+        ],
+        "common_mistake": "❌ Interesse für die Kunst ➜ ✅ Interesse an der Kunst (oder: sich interessieren für)",
+        "synonyms": [
+          "Neugier",
+          "Aufmerksamkeit"
+        ],
+        "antonyms": [
+          "Desinteresse",
+          "Gleichgültigkeit"
         ]
       }
     },
@@ -598,6 +1571,34 @@
         "plural": "Lampen",
         "examples": [
           "Schalte bitte die Lampe ein."
+        ]
+      }
+    },
+    {
+      "lemma": "Lust",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "Lust auf [Akkusativ]",
+        "level": "A1",
+        "definition": "Verlangen oder Wunsch nach etwas Gemütlichem oder Leckerem.",
+        "grammar_rule": "Nomen mit fester Präposition «auf» + Akkusativ (z.B. Lust auf Schokolade, Lust auf Ausflug).",
+        "examples": [
+          "Hast du Lust auf ein Eis?",
+          "Wir haben heute keine Lust auf Lernen."
+        ],
+        "common_mistake": "❌ Lust für ein Eis ➜ ✅ Lust auf ein Eis",
+        "synonyms": [
+          "Wunsch",
+          "Interesse"
+        ],
+        "antonyms": [
+          "Unlust",
+          "Abscheu"
         ]
       }
     },
@@ -827,6 +1828,33 @@
       }
     },
     {
+      "lemma": "Suche",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "nach"
+        ],
+        "case": "Dativ",
+        "pattern": "Suche nach [Dativ]",
+        "level": "A2",
+        "definition": "Bemühung, etwas oder jemanden zu finden.",
+        "grammar_rule": "Nomen mit fester Präposition «nach» + Dativ (z.B. Suche nach der Lösung, nach einer Wohnung).",
+        "examples": [
+          "Er ist auf der Suche nach einer neuen Stelle.",
+          "Die Suche nach dem Schlüssel dauerte Stunden."
+        ],
+        "common_mistake": "❌ Suche für eine Wohnung ➜ ✅ Suche nach einer Wohnung",
+        "synonyms": [
+          "Recherche",
+          "Forschung"
+        ],
+        "antonyms": [
+          "Ffund"
+        ]
+      }
+    },
+    {
       "lemma": "Tasche",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -898,6 +1926,33 @@
         "plural": "Uhren",
         "examples": [
           "Meine Uhr zeigt genau zwölf Uhr."
+        ]
+      }
+    },
+    {
+      "lemma": "Vergleiche",
+      "kind": "nouns",
+      "source": "tools/de/praepositionen/data/nouns.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "Vergleich mit [Dativ]",
+        "level": "B1",
+        "definition": "Nebeneinanderstellung zweier Dinge zur Feststellung von Ähnlichkeiten.",
+        "grammar_rule": "Nomen mit fester Präposition «mit» + Dativ (z.B. im Vergleich mit dem Vorjahr).",
+        "examples": [
+          "Im Vergleich mit anderen Städten ist Wien sehr grün.",
+          "Der Vergleich mit den Konkurrenten fällt positiv aus."
+        ],
+        "common_mistake": "❌ Vergleich zu dem Vorjahr ➜ ✅ Vergleich mit dem Vorjahr (oder: im Vergleich zu)",
+        "synonyms": [
+          "Gegenüberstellung",
+          "Parallel"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -1039,6 +2094,32 @@
       }
     },
     {
+      "lemma": "abhängen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "abhängen von [Dativ]",
+        "level": "A2",
+        "definition": "Von Bedingungen oder Entscheidungen bestimmt werden.",
+        "grammar_rule": "Verb mit fester Präposition «von» + Dativ (z.B. vom Wetter, von den Finanzen).",
+        "examples": [
+          "Alles hängt vom Ergebnis der Untersuchung ab.",
+          "Der Erfolg hängt von deinem Einsatz ab."
+        ],
+        "common_mistake": "❌ abhängen auf das Wetter ➜ ✅ abhängen vom Wetter",
+        "synonyms": [
+          "basieren auf"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
       "lemma": "ablehnen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -1098,6 +2179,60 @@
         },
         "examples": [
           "Er lehnt die Einladung höflich ab."
+        ]
+      }
+    },
+    {
+      "lemma": "abstimmen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "abstimmen über [Akkusativ]",
+        "level": "B1",
+        "definition": "In einer Abstimmung sein Votum zu einem Thema abgeben.",
+        "grammar_rule": "Verb mit fester Präposition «über» + Akkusativ (z.B. über das Gesetz, über den Antrag).",
+        "examples": [
+          "Die Abgeordneten stimmen heute über das neue Gesetz ab.",
+          "Wir müssen über den Termin abstimmen."
+        ],
+        "common_mistake": "❌ abstimmen auf das Gesetz ➜ ✅ abstimmen über das Gesetz",
+        "synonyms": [
+          "wählen über"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "achten",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "achten auf [Akkusativ]",
+        "level": "A1",
+        "definition": "Sorge tragen, Aufmerksamkeit auf etwas oder jemanden richten.",
+        "grammar_rule": "Verb mit fester Präposition «auf» + Akkusativ (z.B. auf den Verkehr, auf die Gesundheit).",
+        "examples": [
+          "Achten Sie bitte auf die Verkehrszeichen!",
+          "Beim Einkaufen achtet sie immer auf die Qualität."
+        ],
+        "common_mistake": "❌ Achte für den Verkehr! ➜ ✅ Achte auf den Verkehr!",
+        "synonyms": [
+          "aufpassen auf",
+          "beachten"
+        ],
+        "antonyms": [
+          "vernachlässigen",
+          "ignorieren"
         ]
       }
     },
@@ -1474,6 +2609,32 @@
       }
     },
     {
+      "lemma": "ärgern (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich ärgern über [Akkusativ]",
+        "level": "A1",
+        "definition": "Unmut oder Unzufriedenheit wegen einer Sache oder Person empfinden.",
+        "grammar_rule": "Reflexives Verb mit «über» + Akkusativ (z.B. über den Lärm, über das Wetter).",
+        "examples": [
+          "Ich ärgere mich oft über den dichten Verkehr.",
+          "Er hat sich sehr über seinen Fehler geärgert."
+        ],
+        "common_mistake": "❌ sich ärgern auf das Wetter ➜ ✅ sich ärgern über das Wetter",
+        "synonyms": [
+          "sich aufregen über"
+        ],
+        "antonyms": [
+          "sich freuen über"
+        ]
+      }
+    },
+    {
       "lemma": "aufhören",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -1533,6 +2694,33 @@
         },
         "examples": [
           "Es hört endlich auf zu regnen."
+        ]
+      }
+    },
+    {
+      "lemma": "aufpassen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "aufpassen auf [Akkusativ]",
+        "level": "A1",
+        "definition": "Sorge tragen für etwas/jemanden oder aufmerksam sein.",
+        "grammar_rule": "Verb mit fester Präposition «auf» + Akkusativ (z.B. auf die Kinder, auf die Tasche).",
+        "examples": [
+          "Kannst du kurz auf meine Tasche aufpassen?",
+          "Die Babysitterin passt auf die Kinder auf."
+        ],
+        "common_mistake": "❌ passen auf die Kinder (ohne Trennverb) ➜ ✅ passen auf ... auf",
+        "synonyms": [
+          "achten auf",
+          "hüten"
+        ],
+        "antonyms": [
+          "vernachlässigen"
         ]
       }
     },
@@ -1597,6 +2785,32 @@
       }
     },
     {
+      "lemma": "aufregen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich aufregen über [Akkusativ]",
+        "level": "A2",
+        "definition": "Gefühle des Ärgernisses oder der Erregung empfinden.",
+        "grammar_rule": "Reflexives Verb mit «über» + Akkusativ (z.B. über die Verspätung, über den Lärm).",
+        "examples": [
+          "Reg dich doch nicht wegen jeder Kleinigkeit auf!",
+          "Er regt sich ständig über die Unpünktlichkeit auf."
+        ],
+        "common_mistake": "❌ sich aufregen für den Lärm ➜ ✅ sich aufregen über den Lärm",
+        "synonyms": [
+          "sich ärgern über"
+        ],
+        "antonyms": [
+          "sich beruhigen"
+        ]
+      }
+    },
+    {
       "lemma": "aufstehen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -1656,6 +2870,32 @@
         },
         "examples": [
           "Ich stehe jeden Morgen um sechs Uhr auf."
+        ]
+      }
+    },
+    {
+      "lemma": "ausgeben",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "ausgeben [Akk.] für [Akkusativ]",
+        "level": "A1",
+        "definition": "Geld für den Kauf von Gegenständen oder Dienstleistungen aufwenden.",
+        "grammar_rule": "Geld im Akkusativ + «für» + Akkusativ (z.B. Geld für Kleidung ausgeben).",
+        "examples": [
+          "Sie gibt viel Geld für Bücher aus.",
+          "Wie viel hast du für das Ticket ausgegeben?"
+        ],
+        "common_mistake": "❌ ausgeben Geld auf Bücher ➜ ✅ ausgeben Geld für Bücher",
+        "synonyms": [
+          "investieren in"
+        ],
+        "antonyms": [
+          "sparen"
         ]
       }
     },
@@ -1844,6 +3084,33 @@
       }
     },
     {
+      "lemma": "bedanken (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "bei",
+          "für"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "sich bedanken bei [Dat.] für [Akk.]",
+        "level": "A1",
+        "definition": "Seinen Dank gegenüber einer Person für etwas ausdrücken.",
+        "grammar_rule": "Reflexives Verb: «bei» + Dativ (Person) und «für» + Akkusativ (Sache/Hilfe).",
+        "examples": [
+          "Ich bedanke mich herzlich bei Ihnen für das Geschenk.",
+          "Sie hat sich beim Arzt für die Hilfe bedankt."
+        ],
+        "common_mistake": "❌ sich bedanken zu dem Arzt ➜ ✅ sich bedanken bei dem Arzt",
+        "synonyms": [
+          "danken"
+        ],
+        "antonyms": [
+          "sich beschweren"
+        ]
+      }
+    },
+    {
       "lemma": "bedeuten",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -2026,6 +3293,32 @@
       }
     },
     {
+      "lemma": "beitragen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "beitragen zu [Dativ]",
+        "level": "B1",
+        "definition": "Einen Anteil zur Erreichung eines Ziels leisten.",
+        "grammar_rule": "Verb mit fester Präposition «zu» + Dativ (z.B. zum Erfolg, zur Lösung).",
+        "examples": [
+          "Jeder Mitarbeiter trägt zum Erfolg des Unternehmens bei.",
+          "Diese Maßnahme kann zur Verbesserung der Luftqualität beitragen."
+        ],
+        "common_mistake": "❌ beitragen für den Erfolg ➜ ✅ beitragen zum Erfolg",
+        "synonyms": [
+          "mitwirken bei"
+        ],
+        "antonyms": [
+          "behindern"
+        ]
+      }
+    },
+    {
       "lemma": "bekommen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -2146,6 +3439,59 @@
       }
     },
     {
+      "lemma": "berichten",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "berichten über [Akk.] / von [Dat.]",
+        "level": "A2",
+        "definition": "Informationen über ein Geschehen sachlich wiedergeben.",
+        "grammar_rule": "«über» + Akkusativ (für ausführliche Berichte) oder «von» + Dativ.",
+        "examples": [
+          "Die Zeitungen berichten ausführlich über die Verhandlungen.",
+          "Der Reporter berichtet live von der Konferenz."
+        ],
+        "common_mistake": "❌ berichten für das Ereignis ➜ ✅ berichten über das Ereignis",
+        "synonyms": [
+          "informieren über"
+        ],
+        "antonyms": [
+          "verschweigen"
+        ]
+      }
+    },
+    {
+      "lemma": "beschäftigen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "sich beschäftigen mit [Dativ]",
+        "level": "A1",
+        "definition": "Zeit oder Aufmerksamkeit für ein Thema oder eine Arbeit aufwenden.",
+        "grammar_rule": "Reflexives Verb mit «mit» + Dativ (z.B. mit Musik, mit der Frage).",
+        "examples": [
+          "In meiner Freizeit beschäftige ich mich gern mit Kunst.",
+          "Die Wissenschaftler beschäftigen sich mit dem Klimawandel."
+        ],
+        "common_mistake": "❌ sich beschäftigen über Kunst ➜ ✅ sich beschäftigen mit Kunst",
+        "synonyms": [
+          "sich widmen",
+          "arbeiten an"
+        ],
+        "antonyms": [
+          "vernachlässigen"
+        ]
+      }
+    },
+    {
       "lemma": "beschreiben",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -2202,6 +3548,34 @@
         },
         "examples": [
           "Er beschreibt seinen Weg zur Arbeit."
+        ]
+      }
+    },
+    {
+      "lemma": "beschweren (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "bei",
+          "über"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "sich beschweren bei [Dat.] über [Akk.]",
+        "level": "A2",
+        "definition": "Unzufriedenheit oder Kritik vorbringen.",
+        "grammar_rule": "Reflexives Verb: «bei» + Dativ (Stelle/Person) und «über» + Akkusativ (Grund/Lärm).",
+        "examples": [
+          "Die Gäste beschweren sich beim Manager über das kalte Essen.",
+          "Er hat sich bei der Polizei über den Nachbarn beschwert."
+        ],
+        "common_mistake": "❌ sich beschweren gegen das Essen ➜ ✅ sich beschweren über das Essen",
+        "synonyms": [
+          "reklamieren",
+          "klagen über"
+        ],
+        "antonyms": [
+          "lobpreisen"
         ]
       }
     },
@@ -2322,6 +3696,33 @@
         },
         "examples": [
           "Am Wochenende besuche ich meine Großeltern."
+        ]
+      }
+    },
+    {
+      "lemma": "bewerben (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "bei",
+          "um"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "sich bewerben bei [Dat.] um [Akk.]",
+        "level": "A2",
+        "definition": "Offiziell sein Interesse an einem Arbeitsplatz oder einer Stelle bekunden.",
+        "grammar_rule": "Reflexives Verb: «bei» + Dativ (Firma) und «um» + Akkusativ (Stelle/Stipendium).",
+        "examples": [
+          "Sie bewirbt sich bei einer großen Firma um einen Ausbildungsplatz.",
+          "Er hat sich um das Stipendium beworben."
+        ],
+        "common_mistake": "❌ sich bewerben für eine Stelle ➜ ✅ sich bewerben um eine Stelle",
+        "synonyms": [
+          "kandidieren für"
+        ],
+        "antonyms": [
+          "kündigen"
         ]
       }
     },
@@ -2746,6 +4147,33 @@
       }
     },
     {
+      "lemma": "diskutieren",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit",
+          "über"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "diskutieren mit [Dat.] über [Akk.]",
+        "level": "A2",
+        "definition": "Ein Thema im Gespräch vertiefen und Meinungen austauschen.",
+        "grammar_rule": "Verb mit «mit» + Dativ (Gesprächspartner) und «über» + Akkusativ (Thema).",
+        "examples": [
+          "Wir haben stundenlang mit den Kollegen über das Projekt diskutiert.",
+          "Sie diskutieren über Politik."
+        ],
+        "common_mistake": "❌ diskutieren wegen das Projekt ➜ ✅ diskutieren über das Projekt",
+        "synonyms": [
+          "debatieren über"
+        ],
+        "antonyms": [
+          "schweigen"
+        ]
+      }
+    },
+    {
       "lemma": "duschen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -2802,6 +4230,32 @@
         },
         "examples": [
           "Nach dem Sport dusche ich warm."
+        ]
+      }
+    },
+    {
+      "lemma": "eignen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich eignen für [Akk.] / zu [Dat.]",
+        "level": "B1",
+        "definition": "Die passenden Eigenschaften für eine Aufgabe oder Verwendung besitzen.",
+        "grammar_rule": "Reflexives Verb mit «für» + Akkusativ oder «zu» + Dativ.",
+        "examples": [
+          "Dieses Buch eignet sich hervorragend für Anfänger.",
+          "Das Material eignet sich gut zur Verarbeitung."
+        ],
+        "common_mistake": "❌ sich eignen auf Anfänger ➜ ✅ sich eignen für Anfänger",
+        "synonyms": [
+          "passen für"
+        ],
+        "antonyms": [
+          "ungeeignet sein"
         ]
       }
     },
@@ -2990,6 +4444,32 @@
       }
     },
     {
+      "lemma": "einverstanden sein",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "einverstanden sein mit [Dativ]",
+        "level": "A1",
+        "definition": "Eine Entscheidung oder Meinung zustimmend akzeptieren.",
+        "grammar_rule": "Prädikatives Adjektiv mit «mit» + Dativ (z.B. mit dem Vorschlag).",
+        "examples": [
+          "Bist du mit diesem Vorschlag einverstanden?",
+          "Alle waren mit der Regelung einverstanden."
+        ],
+        "common_mistake": "❌ einverstanden sein auf den Vorschlag ➜ ✅ einverstanden sein mit dem Vorschlag",
+        "synonyms": [
+          "zustimmen"
+        ],
+        "antonyms": [
+          "dagegen sein"
+        ]
+      }
+    },
+    {
       "lemma": "entscheiden",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -3050,6 +4530,33 @@
       }
     },
     {
+      "lemma": "entscheiden (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich entscheiden für / gegen [Akk.]",
+        "level": "A2",
+        "definition": "Eine Wahl zwischen Optionen treffen.",
+        "grammar_rule": "Reflexives Verb mit «für» + Akkusativ (Wahl der Option) oder «gegen» + Akkusativ.",
+        "examples": [
+          "Wir haben uns für ein kleineres Auto entschieden.",
+          "Sie entschied sich gegen das Angebot."
+        ],
+        "common_mistake": "❌ sich entscheiden auf ein Auto ➜ ✅ sich entscheiden für ein Auto",
+        "synonyms": [
+          "wählen",
+          "bevorzugen"
+        ],
+        "antonyms": [
+          "zögern"
+        ]
+      }
+    },
+    {
       "lemma": "entschuldigen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -3106,6 +4613,33 @@
         },
         "examples": [
           "Entschuldigen Sie bitte den Fehler."
+        ]
+      }
+    },
+    {
+      "lemma": "entschuldigen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "bei",
+          "für"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "sich entschuldigen bei [Dat.] für [Akk.]",
+        "level": "A1",
+        "definition": "Um Verzeihung für eine Unannehmlichkeit bitten.",
+        "grammar_rule": "Reflexives Verb: «bei» + Dativ (Person) und «für» + Akkusativ (Fehler/Verspätung).",
+        "examples": [
+          "Er entschuldigt sich beim Chef für die Verspätung.",
+          "Ich möchte mich für mein Verhalten entschuldigen."
+        ],
+        "common_mistake": "❌ sich entschuldigen über den Fehler ➜ ✅ sich entschuldigen für den Fehler",
+        "synonyms": [
+          "Abbitte leisten"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -3172,6 +4706,32 @@
       }
     },
     {
+      "lemma": "erinnern (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich erinnern an [Akkusativ]",
+        "level": "A2",
+        "definition": "Ein vergangenes Erlebnis im Gedächtnis aufrufen.",
+        "grammar_rule": "Reflexives Verb mit «an» + Akkusativ (z.B. an die Schulzeit, an den Namen).",
+        "examples": [
+          "Erinnerst du dich noch an unseren Urlaub in Spanien?",
+          "Ich kann mich kaum an diesen Tag erinnern."
+        ],
+        "common_mistake": "❌ sich erinnern von dem Urlaub ➜ ✅ sich erinnern an den Urlaub",
+        "synonyms": [
+          "denken an"
+        ],
+        "antonyms": [
+          "vergessen"
+        ]
+      }
+    },
+    {
       "lemma": "erklären",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -3228,6 +4788,34 @@
         },
         "examples": [
           "Die Lehrerin erklärt die Aufgabe."
+        ]
+      }
+    },
+    {
+      "lemma": "erkundigen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "bei",
+          "nach"
+        ],
+        "case": "Dativ",
+        "pattern": "sich erkundigen bei [Dat.] nach [Dat.]",
+        "level": "A2",
+        "definition": "Informationen über jemanden oder etwas erfragen.",
+        "grammar_rule": "Reflexives Verb: «bei» + Dativ (Stelle) und «nach» + Dativ (Information/Weg).",
+        "examples": [
+          "Ich habe mich am Schalter nach den Zugverbindungen erkundigt.",
+          "Sie erkundigt sich beim Arzt nach der Gesundheit ihres Vaters."
+        ],
+        "common_mistake": "❌ sich erkundigen für den Weg ➜ ✅ sich erkundigen nach dem Weg",
+        "synonyms": [
+          "nachfragen",
+          "sich informieren über"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -3843,6 +5431,33 @@
       }
     },
     {
+      "lemma": "freuen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf",
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich freuen auf [Akk.] / über [Akk.]",
+        "level": "A1",
+        "definition": "Freude bezüglich eines zukünftigen («auf») oder vergangenen/gegenwärtigen Ereignisses («über») empfinden.",
+        "grammar_rule": "Zukunft: «auf» + Akkusativ (Ich freue mich auf die Ferien). Gegenwart/Geschenk: «über» + Akkusativ (Ich freue mich über dein Geschenk).",
+        "examples": [
+          "Ich freue mich riesig auf das Wochenende!",
+          "Sie hat sich sehr über die Blumen gefreut."
+        ],
+        "common_mistake": "❌ Ich freue mich für die Ferien. ➜ ✅ Ich freue mich auf die Ferien.",
+        "synonyms": [
+          "jubeln"
+        ],
+        "antonyms": [
+          "sich ärgern über"
+        ]
+      }
+    },
+    {
       "lemma": "fühlen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -4332,6 +5947,32 @@
       }
     },
     {
+      "lemma": "gewöhnen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich gewöhnen an [Akkusativ]",
+        "level": "A2",
+        "definition": "Eine neue Situation vertraut werden lassen.",
+        "grammar_rule": "Reflexives Verb mit «an» + Akkusativ (z.B. an das Klima, an das neue Haus).",
+        "examples": [
+          "Ich muss mich erst an das kalte Wetter gewöhnen.",
+          "Sie hat sich schnell an die neue Arbeit gewöhnt."
+        ],
+        "common_mistake": "❌ sich gewöhnen mit dem Wetter ➜ ✅ sich gewöhnen an das Wetter",
+        "synonyms": [
+          "sich anpassen"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
       "lemma": "glauben",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -4390,6 +6031,32 @@
         },
         "examples": [
           "Ich glaube, das ist richtig."
+        ]
+      }
+    },
+    {
+      "lemma": "gratulieren",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "gratulieren [Dativ] zu [Dativ]",
+        "level": "A1",
+        "definition": "Glückwünsche aussprechen.",
+        "grammar_rule": "Person im Dativ + «zu» + Dativ (z.B. jemandem zum Geburtstag, zur Prüfung gratulieren).",
+        "examples": [
+          "Ich gratuliere dir ganz herzlich zum Geburtstag!",
+          "Wir gratulieren Ihnen zur bestandenen Prüfung."
+        ],
+        "common_mistake": "❌ ich gratuliere dich für den Geburtstag ➜ ✅ ich gratuliere dir zum Geburtstag",
+        "synonyms": [
+          "beglückwünschen"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -4510,6 +6177,33 @@
         },
         "examples": [
           "Der Bus hält vor dem Museum."
+        ]
+      }
+    },
+    {
+      "lemma": "handeln",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "handeln von [Dativ] / sich handeln um [Akk.]",
+        "level": "A2",
+        "definition": "Einen bestimmten Inhalt behandeln («handeln von») oder identifiziert werden («es handelt sich um»).",
+        "grammar_rule": "Buch/Film handelt von + Dativ. Impersonales Pronomen: Es handelt sich um + Akkusativ.",
+        "examples": [
+          "Der Roman handelt von einer großen Liebe.",
+          "Es handelt sich um ein vertrauliches Dokument."
+        ],
+        "common_mistake": "❌ Das Buch handelt über Liebe ➜ ✅ Das Buch handelt von Liebe (oder: es geht um)",
+        "synonyms": [
+          "gehen um",
+          "thematisieren"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -4756,6 +6450,58 @@
       }
     },
     {
+      "lemma": "informieren (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich informieren über [Akkusativ]",
+        "level": "A2",
+        "definition": "Auskunft und Fakten zu einem Thema einholen.",
+        "grammar_rule": "Reflexives Verb mit «über» + Akkusativ (z.B. über die Kurse, über die Preise).",
+        "examples": [
+          "Vor der Reise informierte sie sich über die Sehenswürdigkeiten.",
+          "Wir möchten uns über das Angebot informieren."
+        ],
+        "common_mistake": "❌ sich informieren von die Kurse ➜ ✅ sich informieren über die Kurse",
+        "synonyms": [
+          "sich erkundigen nach"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "interessieren (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich interessieren für [Akkusativ]",
+        "level": "A1",
+        "definition": "Aufmerksamkeit und Neugier für etwas empfinden.",
+        "grammar_rule": "Reflexives Verb mit «für» + Akkusativ (z.B. für Sport, für Sprachen).",
+        "examples": [
+          "Interessierst du dich für moderne Kunst?",
+          "Er interessiert sich sehr für Geschichte."
+        ],
+        "common_mistake": "❌ sich interessieren an Sprachen ➜ ✅ sich interessieren für Sprachen (aber: Interesse haben an)",
+        "synonyms": [
+          "Gefallen finden an"
+        ],
+        "antonyms": [
+          "sich desinteressieren"
+        ]
+      }
+    },
+    {
       "lemma": "kaufen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -4874,6 +6620,32 @@
         },
         "examples": [
           "Kennst du diese Stadt schon?"
+        ]
+      }
+    },
+    {
+      "lemma": "klagen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "klagen über [Akkusativ]",
+        "level": "B1",
+        "definition": "Schmerzen, Unmut oder Beschwerden zum Ausdruck bringen.",
+        "grammar_rule": "Verb mit fester Präposition «über» + Akkusativ (z.B. über Kopfschmerzen, über schlechtes Wetter).",
+        "examples": [
+          "Der Patient klagt über starke Kopfschmerzen.",
+          "Viele Bürger klagen über steigende Preise."
+        ],
+        "common_mistake": "❌ klagen wegen Kopfschmerzen ➜ ✅ klagen über Kopfschmerzen",
+        "synonyms": [
+          "sich beschweren über"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -5000,6 +6772,32 @@
       }
     },
     {
+      "lemma": "konzentrieren (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich konzentrieren auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Seine volle Aufmerksamkeit auf eine Aufgabe richten.",
+        "grammar_rule": "Reflexives Verb mit «auf» + Akkusativ (z.B. auf das Studium, auf die Arbeit).",
+        "examples": [
+          "Bitte konzentriert euch auf die Aufgabe!",
+          "Er kann sich bei Lärm schwer auf das Lesen konzentrieren."
+        ],
+        "common_mistake": "❌ sich konzentrieren in das Studium ➜ ✅ sich konzentrieren auf das Studium",
+        "synonyms": [
+          "fokussieren auf"
+        ],
+        "antonyms": [
+          "sich ablenken"
+        ]
+      }
+    },
+    {
       "lemma": "kosten",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -5056,6 +6854,33 @@
         },
         "examples": [
           "Das Buch kostet fünfzehn Euro."
+        ]
+      }
+    },
+    {
+      "lemma": "kümmern (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "um"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich kümmern um [Akkusativ]",
+        "level": "A1",
+        "definition": "Sorge tragen, sich eine Angelegenheit annehmen.",
+        "grammar_rule": "Reflexives Verb mit «um» + Akkusativ (z.B. um den Hund, um die Gäste).",
+        "examples": [
+          "Wer kümmert sich heute um das Abendessen?",
+          "Sie kümmert sich liebevoll um ihre kranke Großmutter."
+        ],
+        "common_mistake": "❌ sich kümmern für das Essen ➜ ✅ sich kümmern um das Essen",
+        "synonyms": [
+          "sorgen für",
+          "bedienen"
+        ],
+        "antonyms": [
+          "vernachlässigen"
         ]
       }
     },
@@ -5241,6 +7066,58 @@
         },
         "examples": [
           "Sie legt den Schlüssel auf den Tisch."
+        ]
+      }
+    },
+    {
+      "lemma": "leid tun",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "for"
+        ],
+        "needs_review": true,
+        "case": "Dativ",
+        "pattern": "leid tun [Dativ]",
+        "level": "A1",
+        "definition": "Bedauern ausdrücken.",
+        "grammar_rule": "Verb mit Dativ (z.B. Es tut mir leid.).",
+        "examples": [
+          "Es tut mir leid, dass ich zu spät komme."
+        ],
+        "common_mistake": "❌ Es tut mich leid ➜ ✅ Es tut mir leid",
+        "synonyms": [
+          "bedauern"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "leiden",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "unter"
+        ],
+        "case": "Dativ",
+        "pattern": "leiden unter [Dat.] / an [Dat.]",
+        "level": "B1",
+        "definition": "Schmerz oder Beeinträchtigung durch Umstände («unter») oder eine Krankheit («an») erfahren.",
+        "grammar_rule": "Krankheit: «an» + Dativ (Er leidet an Diabetes). Umstand/Lärm: «unter» + Dativ (Sie leidet unter dem Lärm).",
+        "examples": [
+          "Viele Großstädter leiden unter dem ständigen Lärm.",
+          "Er leidet seit Jahren an einer schweren Allergie."
+        ],
+        "common_mistake": "❌ leiden von Lärm ➜ ✅ leiden unter Lärm",
+        "synonyms": [
+          "ertragen"
+        ],
+        "antonyms": [
+          "genießen"
         ]
       }
     },
@@ -5731,6 +7608,32 @@
       }
     },
     {
+      "lemma": "nachdenken",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "nachdenken über [Akkusativ]",
+        "level": "A2",
+        "definition": "Gedanken vertiefend zu einem Thema bewegen.",
+        "grammar_rule": "Verb mit fester Präposition «über» + Akkusativ (z.B. über das Problem, über das Angebot).",
+        "examples": [
+          "Ich muss reiflich über dieses Angebot nachdenken.",
+          "Denk noch einmal über meine Worte nach!"
+        ],
+        "common_mistake": "❌ nachdenken an das Problem ➜ ✅ nachdenken über das Problem",
+        "synonyms": [
+          "überlegen"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
       "lemma": "nehmen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -5975,6 +7878,32 @@
       }
     },
     {
+      "lemma": "protestieren",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "gegen"
+        ],
+        "case": "Akkusativ",
+        "pattern": "protestieren gegen [Akkusativ]",
+        "level": "A2",
+        "definition": "Widerspruch oder Unmut öffentlich demonstrieren.",
+        "grammar_rule": "Verb mit fester Präposition «gegen» + Akkusativ (z.B. gegen die Mieterhöhung, gegen das Gesetz).",
+        "examples": [
+          "Tausende Menschen protestieren gegen die Umweltverschmutzung.",
+          "Die Studenten protestierten gegen die Gebühren."
+        ],
+        "common_mistake": "❌ protestieren für das Gesetz (wenn Widerspruch gemeint) ➜ ✅ protestieren gegen das Gesetz",
+        "synonyms": [
+          "demonstrieren gegen"
+        ],
+        "antonyms": [
+          "befürworten"
+        ]
+      }
+    },
+    {
       "lemma": "prüfen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -6095,6 +8024,32 @@
       }
     },
     {
+      "lemma": "reagieren",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "reagieren auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Eine Antwort oder Handlung als Gegenreaktion zeigen.",
+        "grammar_rule": "Verb mit fester Präposition «auf» + Akkusativ (z.B. auf Kritik, auf das Medikament).",
+        "examples": [
+          "Er hat sehr gelassen auf die Vorwürfe reagiert.",
+          "Der Patient reagiert gut auf die Behandlung."
+        ],
+        "common_mistake": "❌ reagieren gegen die Kritik ➜ ✅ reagieren auf die Kritik",
+        "synonyms": [
+          "antworten auf"
+        ],
+        "antonyms": [
+          "ignorieren"
+        ]
+      }
+    },
+    {
       "lemma": "rechnen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -6151,6 +8106,34 @@
         },
         "examples": [
           "Wir rechnen im Mathematikunterricht."
+        ]
+      }
+    },
+    {
+      "lemma": "reden",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit",
+          "über"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "reden mit [Dat.] über [Akk.]",
+        "level": "A1",
+        "definition": "Miteinander sprechen oder ein Thema erörtern.",
+        "grammar_rule": "Verb mit «mit» + Dativ (Person) und «über» + Akkusativ / «von» + Dativ (Thema).",
+        "examples": [
+          "Wir müssen dringend mit dem Chef über das Gehalt reden.",
+          "Worüber redet ihr gerade?"
+        ],
+        "common_mistake": "❌ reden für das Thema ➜ ✅ reden über das Thema",
+        "synonyms": [
+          "sprechen mit",
+          "diskutieren"
+        ],
+        "antonyms": [
+          "schweigen"
         ]
       }
     },
@@ -6943,6 +8926,32 @@
       }
     },
     {
+      "lemma": "schützen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "vor"
+        ],
+        "case": "Dativ",
+        "pattern": "schützen [Akk.] vor [Dativ]",
+        "level": "A2",
+        "definition": "Vor Gefahren, Kälte oder Schaden bewahren.",
+        "grammar_rule": "Person/Objekt im Akkusativ + «vor» + Dativ (oder «gegen» + Akkusativ).",
+        "examples": [
+          "Dieser Mantel schützt gut vor der Kälte.",
+          "Impfungen schützen vor Infektionskrankheiten."
+        ],
+        "common_mistake": "❌ schützen gegen Kälte (eher «vor» gebräuchlich) ➜ ✅ schützen vor der Kälte",
+        "synonyms": [
+          "bewahren vor"
+        ],
+        "antonyms": [
+          "gefährden"
+        ]
+      }
+    },
+    {
       "lemma": "schwimmen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -7059,6 +9068,32 @@
         },
         "examples": [
           "Sie sieht einen Vogel am Himmel."
+        ]
+      }
+    },
+    {
+      "lemma": "sehnen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "nach"
+        ],
+        "case": "Dativ",
+        "pattern": "sich sehnen nach [Dativ]",
+        "level": "B1",
+        "definition": "Starke Sehnsucht nach etwas oder jemandem verspüren.",
+        "grammar_rule": "Reflexives Verb mit «nach» + Dativ (z.B. nach der Heimat, nach Ruhe).",
+        "examples": [
+          "Im kalten Winter sehne ich mich nach Sonne und Wärme.",
+          "Sie sehnt sich nach ihren Freunden."
+        ],
+        "common_mistake": "❌ sich sehnen für die Heimat ➜ ✅ sich sehnen nach der Heimat",
+        "synonyms": [
+          "verlangen nach"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -7366,6 +9401,33 @@
       }
     },
     {
+      "lemma": "sorgen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "für"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sorgen für [Akkusativ]",
+        "level": "A1",
+        "definition": "Sicherstellen, dass etwas vorhanden ist oder gut funktioniert.",
+        "grammar_rule": "Verb mit fester Präposition «für» + Akkusativ (z.B. für Ruhe, für Nachwuchs, für Verpflegung).",
+        "examples": [
+          "Eltern sorgen für das Wohl ihrer Kinder.",
+          "Die Musik sorgt für eine hervorragende Stimmung."
+        ],
+        "common_mistake": "❌ sorgen um das Essen (bedeutet Angst haben) ➜ ✅ sorgen für das Essen",
+        "synonyms": [
+          "sich kümmern um",
+          "gewährleisten"
+        ],
+        "antonyms": [
+          "vernachlässigen"
+        ]
+      }
+    },
+    {
       "lemma": "spielen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -7484,6 +9546,32 @@
         },
         "examples": [
           "Wir sprechen Deutsch und Englisch."
+        ]
+      }
+    },
+    {
+      "lemma": "staunen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "staunen über [Akkusativ]",
+        "level": "A2",
+        "definition": "Verwunderung und Erstaunen zeigen.",
+        "grammar_rule": "Verb mit fester Präposition «über» + Akkusativ (z.B. über die Fortschritte, über den Preis).",
+        "examples": [
+          "Die Touristen staunten über die Schönheit der Altstadt.",
+          "Ich staune immer wieder über seinen Fleiß."
+        ],
+        "common_mistake": "❌ staunen von den Fortschritten ➜ ✅ staunen über die Fortschritte",
+        "synonyms": [
+          "sich wundern über"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -7670,6 +9758,32 @@
         },
         "examples": [
           "Er stellt die Flasche in den Schrank."
+        ]
+      }
+    },
+    {
+      "lemma": "sterben",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "sterben an [Dativ]",
+        "level": "A2",
+        "definition": "Aufgrund einer Krankheit oder Ursache das Leben verlieren.",
+        "grammar_rule": "Verb mit fester Präposition «an» + Dativ (z.B. an Krebs, an den Folgen des Unfalls).",
+        "examples": [
+          "Der Patient starb leider an den Folgen der schweren Krankheit.",
+          "Weltweit sterben viele Menschen an Herzinfarkten."
+        ],
+        "common_mistake": "❌ sterben von Krebs ➜ ✅ sterben an Krebs",
+        "synonyms": [
+          "verscheiden"
+        ],
+        "antonyms": [
+          "überleben"
         ]
       }
     },
@@ -7918,6 +10032,58 @@
       }
     },
     {
+      "lemma": "teilnehmen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "teilnehmen an [Dativ]",
+        "level": "A1",
+        "definition": "Bei einer Veranstaltung oder einem Wettbewerb mitmachen.",
+        "grammar_rule": "Verb mit fester Präposition «an» + Dativ (z.B. am Sprachkurs, an der Konferenz).",
+        "examples": [
+          "Viele Schüler nehmen am Sportwettbewerb teil.",
+          "Sie nimmt regelmäßig an den Besprechungen teil."
+        ],
+        "common_mistake": "❌ teilnehmen in den Kurs ➜ ✅ teilnehmen am Kurs",
+        "synonyms": [
+          "mitmachen bei"
+        ],
+        "antonyms": [
+          "fernbleiben von"
+        ]
+      }
+    },
+    {
+      "lemma": "telefonieren",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "telefonieren mit [Dativ]",
+        "level": "A1",
+        "definition": "Ein Telefonat mit jemandem führen.",
+        "grammar_rule": "Verb mit fester Präposition «mit» + Dativ (z.B. mit der Mutter, mit dem Kunden).",
+        "examples": [
+          "Ich habe gerade stundenlang mit meiner Freundin telefoniert.",
+          "Er telefoniert täglich mit den Kunden."
+        ],
+        "common_mistake": "❌ ich telefoniere meine Mutter ➜ ✅ ich telefoniere mit meiner Mutter (oder: ich rufe meine Mutter an)",
+        "synonyms": [
+          "anrufen [Akk.]"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
       "lemma": "testen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -8034,6 +10200,58 @@
         },
         "examples": [
           "Er trägt eine schwere Tasche."
+        ]
+      }
+    },
+    {
+      "lemma": "trauern",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "um"
+        ],
+        "case": "Akkusativ",
+        "pattern": "trauern um [Akkusativ]",
+        "level": "B1",
+        "definition": "Schmerz über das Ableben einer Person verarbeiten.",
+        "grammar_rule": "Verb mit fester Präposition «um» + Akkusativ (z.B. um den verstorbenen Vater).",
+        "examples": [
+          "Die ganze Familie trauert um den Großvater.",
+          "Das Land trauert um die Opfer der Katastrophe."
+        ],
+        "common_mistake": "❌ trauern für den Vater ➜ ✅ trauern um den Vater",
+        "synonyms": [
+          "weinen um"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "träumen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "träumen von [Dativ]",
+        "level": "A1",
+        "definition": "Im Schlaf oder in Gedanken Sehnsucht nach etwas haben.",
+        "grammar_rule": "Verb mit fester Präposition «von» + Dativ (z.B. vom Urlaub, von einer eigenen Wohnung).",
+        "examples": [
+          "Ich träume oft von einer langen Reise um die Welt.",
+          "Sie träumt von einem eigenen kleinen Haus."
+        ],
+        "common_mistake": "❌ träumen über Urlaub ➜ ✅ träumen vom Urlaub",
+        "synonyms": [
+          "schwärmen von"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -8218,6 +10436,32 @@
       }
     },
     {
+      "lemma": "überreden",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "zu"
+        ],
+        "case": "Dativ",
+        "pattern": "überreden [Akk.] zu [Dativ]",
+        "level": "B1",
+        "definition": "Jemanden durch Argumente dazu bringen, etwas zu tun.",
+        "grammar_rule": "Person im Akkusativ + «zu» + Dativ (z.B. jemanden zu einem Ausflug überreden).",
+        "examples": [
+          "Er hat mich zu diesem Ausflug überredet.",
+          "Sie konnte ihren Vater schließlich zum Kauf überreden."
+        ],
+        "common_mistake": "❌ überreden für einen Ausflug ➜ ✅ überreden zu einem Ausflug",
+        "synonyms": [
+          "überzeugen von"
+        ],
+        "antonyms": [
+          "abraten von"
+        ]
+      }
+    },
+    {
       "lemma": "übersetzen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -8274,6 +10518,32 @@
         },
         "examples": [
           "Sie übersetzt ein Buch ins Deutsche."
+        ]
+      }
+    },
+    {
+      "lemma": "überzeugen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "von"
+        ],
+        "case": "Dativ",
+        "pattern": "überzeugen [Akk.] von [Dativ]",
+        "level": "B1",
+        "definition": "Durch schlüssige Beweise Gewissheit bei jemandem schaffen.",
+        "grammar_rule": "Person im Akkusativ + «von» + Dativ (z.B. jemanden von der Wahrheit überzeugen).",
+        "examples": [
+          "Deine Argumente haben mich vollkommen von der Idee überzeugt.",
+          "Wir müssen die Kunden von der Qualität überzeugen."
+        ],
+        "common_mistake": "❌ überzeugen über die Idee ➜ ✅ überzeugen von der Idee",
+        "synonyms": [
+          "gewinnen für"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -8394,6 +10664,113 @@
         },
         "examples": [
           "Nächsten Monat ziehen wir um."
+        ]
+      }
+    },
+    {
+      "lemma": "unterhalten (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit",
+          "über"
+        ],
+        "case": "Dativ / Akkusativ",
+        "pattern": "sich unterhalten mit [Dat.] über [Akk.]",
+        "level": "A2",
+        "definition": "Ein entspanntes Gespräch führen.",
+        "grammar_rule": "Reflexives Verb: «mit» + Dativ (Partner) und «über» + Akkusativ (Thema).",
+        "examples": [
+          "Wir haben uns nett mit den Nachbarn über das Fest unterhalten.",
+          "Worüber habt ihr euch so lange unterhalten?"
+        ],
+        "common_mistake": "❌ sich unterhalten für den Film ➜ ✅ sich unterhalten über den Film",
+        "synonyms": [
+          "plaudern mit",
+          "sprechen über"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "verabreden (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "sich verabreden mit [Dativ]",
+        "level": "A2",
+        "definition": "Einen Termin oder ein Treffen vereinbaren.",
+        "grammar_rule": "Reflexives Verb mit «mit» + Dativ (z.B. mit dem Freund, mit der Gruppe).",
+        "examples": [
+          "Ich habe mich für heute Abend mit Thomas verabredet.",
+          "Wir verabreden uns oft zum Kaffeetrinken."
+        ],
+        "common_mistake": "❌ sich verabreden zu meiner Freundin ➜ ✅ sich verabreden mit meiner Freundin",
+        "synonyms": [
+          "sich treffen mit"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "verbinden",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "verbinden [Akk.] mit [Dativ]",
+        "level": "A2",
+        "definition": "Zwei Elemente oder Personen zusammenfügen oder verbinden.",
+        "grammar_rule": "Objekt im Akkusativ + «mit» + Dativ (z.B. das Kabel mit dem Computer verbinden).",
+        "examples": [
+          "Können Sie mich bitte mit der Personalabteilung verbinden?",
+          "Ich verbinde mit dieser Musik viele schöne Erinnerungen."
+        ],
+        "common_mistake": "❌ verbinden zu der Personalabteilung ➜ ✅ verbinden mit der Personalabteilung",
+        "synonyms": [
+          "verknüpfen mit"
+        ],
+        "antonyms": [
+          "trennen von"
+        ]
+      }
+    },
+    {
+      "lemma": "verfügen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "verfügen über [Akkusativ]",
+        "level": "B1",
+        "definition": "Etwas zu seiner freien Benutzung oder als Ressource besitzen.",
+        "grammar_rule": "Verb mit fester Präposition «über» + Akkusativ (z.B. über lange Erfahrung, über viel Geld verfügen).",
+        "examples": [
+          "Das Hotel verfügt über ein modernes Hallenbad.",
+          "Sie verfügt über ausgezeichnete Sprachkenntnisse."
+        ],
+        "common_mistake": "❌ verfügen von Erfahrung ➜ ✅ verfügen über Erfahrung",
+        "synonyms": [
+          "besitzen",
+          "haben"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -8578,6 +10955,32 @@
         },
         "examples": [
           "Er verkauft sein altes Auto."
+        ]
+      }
+    },
+    {
+      "lemma": "verlieben (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "in"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich verlieben in [Akkusativ]",
+        "level": "A1",
+        "definition": "Liebevolle Empfindungen für jemanden entwickeln.",
+        "grammar_rule": "Reflexives Verb mit «in» + Akkusativ (z.B. in die Mitschülerin, in die Stadt).",
+        "examples": [
+          "Er hat sich auf den ersten Blick in sie verliebt.",
+          "Wir haben uns sofort in diese schöne Stadt verliebt."
+        ],
+        "common_mistake": "❌ sich verlieben mit jemanden ➜ ✅ sich verlieben in jemanden",
+        "synonyms": [
+          "Entzücken finden an"
+        ],
+        "antonyms": [
+          "sich entfremden"
         ]
       }
     },
@@ -8767,6 +11170,32 @@
       }
     },
     {
+      "lemma": "verstehen (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "sich verstehen mit [Dativ]",
+        "level": "A1",
+        "definition": "Eine gute, harmonische Beziehung zu jemandem haben.",
+        "grammar_rule": "Reflexives Verb mit «mit» + Dativ (z.B. mit den Schwiegereltern, mit dem Team).",
+        "examples": [
+          "Ich verstehe mich hervorragend mit meinen neuen Kollegen.",
+          "Versteht ihr euch gut mit euren Nachbarn?"
+        ],
+        "common_mistake": "❌ sich verstehen zu den Kollegen ➜ ✅ sich verstehen mit den Kollegen",
+        "synonyms": [
+          "auskommen mit"
+        ],
+        "antonyms": [
+          "streiten mit"
+        ]
+      }
+    },
+    {
       "lemma": "versuchen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -8823,6 +11252,32 @@
         },
         "examples": [
           "Wir versuchen, die Übung zu lösen."
+        ]
+      }
+    },
+    {
+      "lemma": "vorbereiten (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "auf"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich vorbereiten auf [Akkusativ]",
+        "level": "A2",
+        "definition": "Maßnahmen ergreifen, um für ein Ereignis gerüstet zu sein.",
+        "grammar_rule": "Reflexives Verb mit «auf» + Akkusativ (z.B. auf die Prüfung, auf die Reise).",
+        "examples": [
+          "Die Studenten bereiten sich intensiv auf die Prüfung vor.",
+          "Wir müssen uns gut auf das Vorstellungsgespräch vorbereiten."
+        ],
+        "common_mistake": "❌ sich vorbereiten für die Prüfung ➜ ✅ sich vorbereiten auf die Prüfung",
+        "synonyms": [
+          "sich rüsten für"
+        ],
+        "antonyms": [
+          ""
         ]
       }
     },
@@ -9429,6 +11884,32 @@
       }
     },
     {
+      "lemma": "wundern (sich)",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "über"
+        ],
+        "case": "Akkusativ",
+        "pattern": "sich wundern über [Akkusativ]",
+        "level": "A2",
+        "definition": "Überraschung oder Staunen bezüglich einer Sache empfinden.",
+        "grammar_rule": "Reflexives Verb mit «über» + Akkusativ (z.B. über die hohen Preise, über das Verhalten).",
+        "examples": [
+          "Er wundert sich sehr über die plötzliche Entscheidung.",
+          "Wir haben uns alle über das schlechte Wetter gewundert."
+        ],
+        "common_mistake": "❌ sich wundern von dem Preis ➜ ✅ sich wundern über den Preis",
+        "synonyms": [
+          "staunen über"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
       "lemma": "zählen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -9609,6 +12090,58 @@
       }
     },
     {
+      "lemma": "zurechtkommen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "zurechtkommen mit [Dativ]",
+        "level": "A2",
+        "definition": "Eine Aufgabe oder Situation ohne fremde Hilfe meistern.",
+        "grammar_rule": "Verb mit fester Präposition «mit» + Dativ (z.B. mit dem neuen Programm, mit dem Geld).",
+        "examples": [
+          "Kommst du gut mit der neuen Software zurecht?",
+          "Sie kommt prima mit ihren Arbeitskollegen zurecht."
+        ],
+        "common_mistake": "❌ zurechtkommen zu dem Programm ➜ ✅ zurechtkommen mit dem Programm",
+        "synonyms": [
+          "bewältigen"
+        ],
+        "antonyms": [
+          ""
+        ]
+      }
+    },
+    {
+      "lemma": "zusammenpassen",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "mit"
+        ],
+        "case": "Dativ",
+        "pattern": "zusammenpassen mit [Dativ]",
+        "level": "A1",
+        "definition": "Gut harmonieren oder miteinander übereinstimmen.",
+        "grammar_rule": "Verb mit fester Präposition «mit» + Dativ.",
+        "examples": [
+          "Diese zwei Farben passen sehr gut zusammen.",
+          "Das Hemd passt nicht mit dieser Krawatte zusammen."
+        ],
+        "common_mistake": "❌ zusammenpassen zu ➜ ✅ zusammenpassen mit",
+        "synonyms": [
+          "harmonieren"
+        ],
+        "antonyms": [
+          "widersprechen"
+        ]
+      }
+    },
+    {
       "lemma": "zustimmen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -9667,6 +12200,32 @@
         },
         "examples": [
           "Ich stimme deinem Vorschlag zu."
+        ]
+      }
+    },
+    {
+      "lemma": "zweifeln",
+      "kind": "verbs",
+      "source": "tools/de/praepositionen/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "an"
+        ],
+        "case": "Dativ",
+        "pattern": "zweifeln an [Dativ]",
+        "level": "B1",
+        "definition": "Bedenken bezüglich der Wahrheit oder des Erfolgs haben.",
+        "grammar_rule": "Verb mit fester Präposition «an» + Dativ (z.B. an der Entscheidung, an seiner Aussage).",
+        "examples": [
+          "Ich zweifle nicht an deiner Ehrlichkeit.",
+          "Viele Bürger zweifeln an den Versprechungen der Politik."
+        ],
+        "common_mistake": "❌ zweifeln über die Entscheidung ➜ ✅ zweifeln an der Entscheidung",
+        "synonyms": [
+          "Skepsis hegen gegen"
+        ],
+        "antonyms": [
+          "glauben an"
         ]
       }
     }
