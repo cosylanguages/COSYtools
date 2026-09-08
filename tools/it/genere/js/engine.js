@@ -97,7 +97,8 @@ class ItalianGenderEngine {
 
         let stem = noun.length > 1 ? noun.slice(0, -1) : noun;
         let ending = noun.length > 1 ? noun.slice(-1) : '';
-        document.getElementById('sing-form').innerHTML = `<span class="article">${singArt}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
+        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${data.indefinite_article})</span>` : '';
+        document.getElementById('sing-form').innerHTML = `<span class="article">${singArt}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>${indArt}`;
 
         const defaultPlur = isFem ? (noun.endsWith('a') ? noun.slice(0, -1) + 'e' : noun + 'e') : (noun.slice(0, -1) + 'i');
         const pluralForm = data.plural || defaultPlur;

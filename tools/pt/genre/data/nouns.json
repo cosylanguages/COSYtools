@@ -7,7 +7,8 @@
     "plural": "casas",
     "examples": [
       "A casa é grande e bonita."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "livro": {
     "gender": "Masculino",
@@ -17,7 +18,8 @@
     "plural": "livros",
     "examples": [
       "Eu leio um livro interessante."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "sol": {
     "gender": "Masculino",
@@ -27,7 +29,8 @@
     "plural": "sóis",
     "examples": [
       "O sol brilha no céu azul."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "água": {
     "gender": "Feminino",
@@ -37,7 +40,8 @@
     "plural": "águas",
     "examples": [
       "Bebo um copo de água fresca."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "mesa": {
     "gender": "Feminino",
@@ -47,7 +51,8 @@
     "plural": "mesas",
     "examples": [
       "A mesa está posta para o almoço."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "cadeira": {
     "gender": "Feminino",
@@ -57,7 +62,8 @@
     "plural": "cadeiras",
     "examples": [
       "Senta-te na cadeira confortável."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "homem": {
     "gender": "Masculino",
@@ -67,7 +73,8 @@
     "plural": "homens",
     "examples": [
       "O homem trabalha na cidade."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "mulher": {
     "gender": "Feminino",
@@ -77,7 +84,8 @@
     "plural": "mulheres",
     "examples": [
       "A mulher conversa com os amigos."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "criança": {
     "gender": "Feminino",
@@ -87,7 +95,8 @@
     "plural": "crianças",
     "examples": [
       "A criança brinca no jardim."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "cidade": {
     "gender": "Feminino",
@@ -97,7 +106,8 @@
     "plural": "cidades",
     "examples": [
       "Lisboa é uma cidade magnífica."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "amigo": {
     "gender": "Masculino",
@@ -107,7 +117,8 @@
     "plural": "amigos",
     "examples": [
       "O meu amigo vive em Portugal."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "porta": {
     "gender": "Feminino",
@@ -117,7 +128,8 @@
     "plural": "portas",
     "examples": [
       "Por favor, fecha a porta."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "pão": {
     "gender": "Masculino",
@@ -127,7 +139,8 @@
     "plural": "pães",
     "examples": [
       "Compro pão fresco todas as manhãs na padaria."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "maçã": {
     "gender": "Feminino",
@@ -137,7 +150,8 @@
     "plural": "maçãs",
     "examples": [
       "Como uma maçã deliciosa no lanche."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "leite": {
     "gender": "Masculino",
@@ -147,7 +161,8 @@
     "plural": "leites",
     "examples": [
       "Bebo café com leite logo cedo."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "café": {
     "gender": "Masculino",
@@ -157,7 +172,8 @@
     "plural": "cafés",
     "examples": [
       "O café expresso é muito popular em Portugal."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "chá": {
     "gender": "Masculino",
@@ -167,7 +183,8 @@
     "plural": "chás",
     "examples": [
       "Prefiro chá de camomila à noite."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "queijo": {
     "gender": "Masculino",
@@ -177,7 +194,8 @@
     "plural": "queijos",
     "examples": [
       "Gosto de comer queijo com pão."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "ovo": {
     "gender": "Masculino",
@@ -187,7 +205,8 @@
     "plural": "ovos",
     "examples": [
       "Como dois ovos mexidos no pequeno-almoço."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "carne": {
     "gender": "Feminino",
@@ -197,7 +216,8 @@
     "plural": "carnes",
     "examples": [
       "A carne assada está muito saborosa."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "peixe": {
     "gender": "Masculino",
@@ -207,7 +227,8 @@
     "plural": "peixes",
     "examples": [
       "O peixe grelhado é uma refeição saudável."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "legume": {
     "gender": "Masculino",
@@ -217,7 +238,8 @@
     "plural": "legumes",
     "examples": [
       "Preparo uma sopa com legumes frescos."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "fruta": {
     "gender": "Feminino",
@@ -227,7 +249,8 @@
     "plural": "frutas",
     "examples": [
       "Compro fruta fresca no mercado local."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "cão": {
     "gender": "Masculino",
@@ -237,7 +260,8 @@
     "plural": "cães",
     "examples": [
       "O cão passeia com o dono no parque."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "gato": {
     "gender": "Masculino",
@@ -247,7 +271,8 @@
     "plural": "gatos",
     "examples": [
       "O gato dorme na almofada da sala."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "pássaro": {
     "gender": "Masculino",
@@ -257,7 +282,8 @@
     "plural": "pássaros",
     "examples": [
       "Um pássaro canta na árvore."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "árvore": {
     "gender": "Feminino",
@@ -267,7 +293,8 @@
     "plural": "árvores",
     "examples": [
       "A árvore dá sombras agradáveis no Verão."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "flor": {
     "gender": "Feminino",
@@ -277,7 +304,8 @@
     "plural": "flores",
     "examples": [
       "Ofereço uma flor bonita à minha amiga."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "jardim": {
     "gender": "Masculino",
@@ -287,7 +315,8 @@
     "plural": "jardins",
     "examples": [
       "O jardim da casa é encantador."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "caminho": {
     "gender": "Masculino",
@@ -297,7 +326,8 @@
     "plural": "caminhos",
     "examples": [
       "O caminho leva até à praia."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "rua": {
     "gender": "Feminino",
@@ -307,7 +337,8 @@
     "plural": "ruas",
     "examples": [
       "A rua está muito movimentada hoje."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "praça": {
     "gender": "Feminino",
@@ -317,7 +348,8 @@
     "plural": "praças",
     "examples": [
       "Encontramo-nos na praça principal."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "estação": {
     "gender": "Feminino",
@@ -327,7 +359,8 @@
     "plural": "estações",
     "examples": [
       "O comboio chega à estação às dez horas."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "aeroporto": {
     "gender": "Masculino",
@@ -337,7 +370,8 @@
     "plural": "aeroportos",
     "examples": [
       "Chegamos cedo ao aeroporto de Lisboa."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "comboio": {
     "gender": "Masculino",
@@ -347,7 +381,8 @@
     "plural": "comboios",
     "examples": [
       "Viajamos de comboio para o Porto."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "autocarro": {
     "gender": "Masculino",
@@ -357,7 +392,8 @@
     "plural": "autocarros",
     "examples": [
       "Apanho o autocarro para ir à escola."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "bicicleta": {
     "gender": "Feminino",
@@ -367,7 +403,8 @@
     "plural": "bicicletas",
     "examples": [
       "Andar de bicicleta é muito divertido."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "avião": {
     "gender": "Masculino",
@@ -377,7 +414,8 @@
     "plural": "aviões",
     "examples": [
       "O avião voa alto acima das nuvens."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "barco": {
     "gender": "Masculino",
@@ -387,7 +425,8 @@
     "plural": "barcos",
     "examples": [
       "O barco navega tranquilamente no rio."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "cartão": {
     "gender": "Masculino",
@@ -397,7 +436,8 @@
     "plural": "cartões",
     "examples": [
       "Pago a conta com cartão bancário."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "dinheiro": {
     "gender": "Masculino",
@@ -407,7 +447,8 @@
     "plural": "dinheiros",
     "examples": [
       "Tenho dinheiro suficiente na carteira."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "banco": {
     "gender": "Masculino",
@@ -417,7 +458,8 @@
     "plural": "bancos",
     "examples": [
       "Vou ao banco levantar dinheiro."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "hotel": {
     "gender": "Masculino",
@@ -427,7 +469,8 @@
     "plural": "hotéis",
     "examples": [
       "Ficamos hospedados num hotel central."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "quarto": {
     "gender": "Masculino",
@@ -437,7 +480,8 @@
     "plural": "quartos",
     "examples": [
       "O meu quarto é grande e limpo."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "cama": {
     "gender": "Feminino",
@@ -447,7 +491,8 @@
     "plural": "camas",
     "examples": [
       "A cama é muito confortável."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "armário": {
     "gender": "Masculino",
@@ -457,7 +502,8 @@
     "plural": "armários",
     "examples": [
       "Guardo os casacos no armário."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "lâmpada": {
     "gender": "Feminino",
@@ -467,7 +513,8 @@
     "plural": "lâmpadas",
     "examples": [
       "Acendo a lâmpada da mesa."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "quadro": {
     "gender": "Masculino",
@@ -477,7 +524,8 @@
     "plural": "quadros",
     "examples": [
       "Na parede está pendurado um quadro bonito."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "relógio": {
     "gender": "Masculino",
@@ -487,7 +535,8 @@
     "plural": "relógios",
     "examples": [
       "Olho para o relógio para saber as horas."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "saco": {
     "gender": "Masculino",
@@ -497,7 +546,8 @@
     "plural": "sacos",
     "examples": [
       "Levo as compras num saco de pano."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "mala": {
     "gender": "Feminino",
@@ -507,7 +557,8 @@
     "plural": "malas",
     "examples": [
       "Faço a mala na véspera da viagem."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "roupa": {
     "gender": "Feminino",
@@ -517,7 +568,8 @@
     "plural": "roupas",
     "examples": [
       "Lavo a roupa ao fim de semana."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "camisa": {
     "gender": "Feminino",
@@ -527,7 +579,8 @@
     "plural": "camisas",
     "examples": [
       "Visto uma camisa branca e elegante."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "calças": {
     "gender": "Feminino",
@@ -537,7 +590,8 @@
     "plural": "calças",
     "examples": [
       "Compro umas calças azuis confortáveis."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "sapato": {
     "gender": "Masculino",
@@ -547,7 +601,8 @@
     "plural": "sapatos",
     "examples": [
       "Calço os meus sapatos pretos."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "casaco": {
     "gender": "Masculino",
@@ -557,7 +612,8 @@
     "plural": "casacos",
     "examples": [
       "Visto o casaco quando está frio."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "jaqueta": {
     "gender": "Feminino",
@@ -567,7 +623,8 @@
     "plural": "jaquetas",
     "examples": [
       "A jaqueta de cabedal é muito estilosa."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "chapéu": {
     "gender": "Masculino",
@@ -577,7 +634,8 @@
     "plural": "chapéus",
     "examples": [
       "Usa um chapéu para se proteger do sol."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "óculos": {
     "gender": "Masculino",
@@ -587,7 +645,8 @@
     "plural": "óculos",
     "examples": [
       "Uso óculos para ler livros."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "caneta": {
     "gender": "Feminino",
@@ -597,7 +656,8 @@
     "plural": "canetas",
     "examples": [
       "Escrevo uma nota com a caneta azul."
-    ]
+    ],
+    "indefinite_article": "uma"
   },
   "papel": {
     "gender": "Masculino",
@@ -607,7 +667,8 @@
     "plural": "papéis",
     "examples": [
       "Escrevo o meu nome numa folha de papel."
-    ]
+    ],
+    "indefinite_article": "um"
   },
   "carta": {
     "gender": "Feminino",
@@ -617,6 +678,7 @@
     "plural": "cartas",
     "examples": [
       "Envio uma carta para o meu amigo em Lisboa."
-    ]
+    ],
+    "indefinite_article": "uma"
   }
 }
