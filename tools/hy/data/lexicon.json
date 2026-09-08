@@ -9,13 +9,20 @@
         "level": "A1",
         "definition": "Կարդալու համար տպագրված երկ:",
         "cases": {
-          "nom": "գիրք",
-          "gen": "գրքի",
-          "dat": "գրքին",
-          "acc": "գիրք",
-          "abl": "գրքից",
-          "inst": "գրքով",
-          "loc": "գրքում"
+          "nom_sing": "գիրք",
+          "nom_plur": "գրքեր",
+          "gen_sing": "գրքի",
+          "gen_plur": "գրքերի",
+          "dat_sing": "գրքին",
+          "dat_plur": "գրքերին",
+          "acc_sing": "գիրք",
+          "acc_plur": "գրքեր",
+          "abl_sing": "գրքից",
+          "abl_plur": "գրքերից",
+          "inst_sing": "գրքով",
+          "inst_plur": "գրքերով",
+          "loc_sing": "գրքում",
+          "loc_plur": "գրքերում"
         },
         "examples": [
           "Ես կարդում եմ հետաքրքիր գիրք:"
@@ -28,15 +35,23 @@
       "source": "tools/hy/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "Անհոտ և անգույն հեղուկ:",
         "cases": {
-          "nom": "ջուր",
-          "gen": "ջրի",
-          "dat": "ջրին",
-          "acc": "ջուր",
-          "abl": "ջրից",
-          "inst": "ջրով",
-          "loc": "ջրում"
+          "nom_sing": "ջուր",
+          "nom_plur": "ջրեր",
+          "gen_sing": "ջրի",
+          "gen_plur": "ջրերի",
+          "dat_sing": "ջրին",
+          "dat_plur": "ջրերին",
+          "acc_sing": "ջուր",
+          "acc_plur": "ջրեր",
+          "abl_sing": "ջրից",
+          "abl_plur": "ջրերից",
+          "inst_sing": "ջրով",
+          "inst_plur": "ջրերով",
+          "loc_sing": "ջրում",
+          "loc_plur": "ջրերում"
         },
         "examples": [
           "Խմեք մաքուր ջուր ամեն օր:"
@@ -49,15 +64,23 @@
       "source": "tools/hy/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "Բնակության համար նախատեսված շինություն:",
         "cases": {
-          "nom": "տուն",
-          "gen": "տան",
-          "dat": "տան",
-          "acc": "տուն",
-          "abl": "տնից",
-          "inst": "տնով",
-          "loc": "տնում"
+          "nom_sing": "տուն",
+          "nom_plur": "տներ",
+          "gen_sing": "տան",
+          "gen_plur": "տների",
+          "dat_sing": "տան",
+          "dat_plur": "տներին",
+          "acc_sing": "տուն",
+          "acc_plur": "տներ",
+          "abl_sing": "տնից",
+          "abl_plur": "տներից",
+          "inst_sing": "տնով",
+          "inst_plur": "տներով",
+          "loc_sing": "տնում",
+          "loc_plur": "տներում"
         },
         "examples": [
           "Մեր տունը գեղեցիկ է և լուսավոր:"
@@ -72,13 +95,20 @@
         "level": "A1",
         "definition": "Խոշոր բնակավայր:",
         "cases": {
-          "nom": "քաղաք",
-          "gen": "քաղաքի",
-          "dat": "քաղաքին",
-          "acc": "քաղաք",
-          "abl": "քաղաքից",
-          "inst": "քաղաքով",
-          "loc": "քաղաքում"
+          "nom_sing": "քաղաք",
+          "nom_plur": "քաղաքներ",
+          "gen_sing": "քաղաքի",
+          "gen_plur": "քաղաքների",
+          "dat_sing": "քաղաքին",
+          "dat_plur": "քաղաքներին",
+          "acc_sing": "քաղաք",
+          "acc_plur": "քաղաքներ",
+          "abl_sing": "քաղաքից",
+          "abl_plur": "քաղաքներից",
+          "inst_sing": "քաղաքով",
+          "inst_plur": "քաղաքներով",
+          "loc_sing": "քաղաքում",
+          "loc_plur": "քաղաքներում"
         },
         "examples": [
           "Երևանը հին և գեղեցիկ քաղաք է:"

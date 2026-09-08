@@ -7,14 +7,21 @@
       "source": "tools/ka/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "შენობა საცხოვრებლად.",
         "cases": {
-          "nom": "სახლი",
-          "erg": "სახლმა",
-          "dat": "სახლს",
-          "gen": "სახლის",
-          "inst": "სახლით",
-          "adv": "სახლად"
+          "nom_sing": "სახლი",
+          "nom_plur": "სახლები",
+          "erg_sing": "სახლმა",
+          "erg_plur": "სახლებმა",
+          "dat_sing": "სახლს",
+          "dat_plur": "სახლებს",
+          "gen_sing": "სახლის",
+          "gen_plur": "სახლების",
+          "inst_sing": "სახლით",
+          "inst_plur": "სახლებით",
+          "adv_sing": "სახლად",
+          "adv_plur": "სახლებად"
         },
         "examples": [
           "ჩვენი სახლი მდებარეობს პარკთან."
@@ -29,12 +36,18 @@
         "level": "A1",
         "definition": "დიდი დასახლებული პუნქტი.",
         "cases": {
-          "nom": "ქალაქი",
-          "erg": "ქალაქმა",
-          "dat": "ქალაქს",
-          "gen": "ქალაქის",
-          "inst": "ქალაქით",
-          "adv": "ქალაქად"
+          "nom_sing": "ქალაქი",
+          "nom_plur": "ქალაქები",
+          "erg_sing": "ქალაქმა",
+          "erg_plur": "ქალაქებმა",
+          "dat_sing": "ქალაქს",
+          "dat_plur": "ქალაქებს",
+          "gen_sing": "ქალაქის",
+          "gen_plur": "ქალაქების",
+          "inst_sing": "ქალაქით",
+          "inst_plur": "ქალაქებით",
+          "adv_sing": "ქალაქად",
+          "adv_plur": "ქალაქებად"
         },
         "examples": [
           "თბილისი ლამაზი ქალაქია."
@@ -49,12 +62,18 @@
         "level": "A1",
         "definition": "ნაბეჭდი ან ხელნაწერი თხზულება.",
         "cases": {
-          "nom": "წიგნი",
-          "erg": "წიგნმა",
-          "dat": "წიგნს",
-          "gen": "წიგნის",
-          "inst": "წიგნით",
-          "adv": "წიგნად"
+          "nom_sing": "წიგნი",
+          "nom_plur": "წიგნები",
+          "erg_sing": "წიგნმა",
+          "erg_plur": "წიგნებმა",
+          "dat_sing": "წიგნს",
+          "dat_plur": "წიგნებს",
+          "gen_sing": "წიგნის",
+          "gen_plur": "წიგნების",
+          "inst_sing": "წიგნით",
+          "inst_plur": "წიგნებით",
+          "adv_sing": "წიგნად",
+          "adv_plur": "წიგნებად"
         },
         "examples": [
           "მე ვკითხულობ საინტერესო წიგნს."
@@ -67,14 +86,21 @@
       "source": "tools/ka/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "გამჭვირვალე სითხე.",
         "cases": {
-          "nom": "წყალი",
-          "erg": "წყალმა",
-          "dat": "წყალს",
-          "gen": "წყლის",
-          "inst": "წყლით",
-          "adv": "წყლად"
+          "nom_sing": "წყალი",
+          "nom_plur": "წყლები",
+          "erg_sing": "წყალმა",
+          "erg_plur": "წყლებმა",
+          "dat_sing": "წყალს",
+          "dat_plur": "წყლებს",
+          "gen_sing": "წყლის",
+          "gen_plur": "წყლების",
+          "inst_sing": "წყლით",
+          "inst_plur": "წყლებით",
+          "adv_sing": "წყლად",
+          "adv_plur": "წყლებად"
         },
         "examples": [
           "დალიეთ სუფთა წყალი."
