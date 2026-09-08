@@ -21,7 +21,9 @@
           "inst_sing": "სახლით",
           "inst_plur": "სახლებით",
           "adv_sing": "სახლად",
-          "adv_plur": "სახლებად"
+          "adv_plur": "სახლებად",
+          "voc_sing": "სახლო",
+          "voc_plur": "სახლებო"
         },
         "examples": [
           "ჩვენი სახლი მდებარეობს პარკთან."
@@ -34,6 +36,7 @@
       "source": "tools/ka/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "დიდი დასახლებული პუნქტი.",
         "cases": {
           "nom_sing": "ქალაქი",
@@ -47,7 +50,9 @@
           "inst_sing": "ქალაქით",
           "inst_plur": "ქალაქებით",
           "adv_sing": "ქალაქად",
-          "adv_plur": "ქალაქებად"
+          "adv_plur": "ქალაქებად",
+          "voc_sing": "ქალაქო",
+          "voc_plur": "ქალაქებო"
         },
         "examples": [
           "თბილისი ლამაზი ქალაქია."
@@ -60,6 +65,7 @@
       "source": "tools/ka/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "ნაბეჭდი ან ხელნაწერი თხზულება.",
         "cases": {
           "nom_sing": "წიგნი",
@@ -73,7 +79,9 @@
           "inst_sing": "წიგნით",
           "inst_plur": "წიგნებით",
           "adv_sing": "წიგნად",
-          "adv_plur": "წიგნებად"
+          "adv_plur": "წიგნებად",
+          "voc_sing": "წიგნო",
+          "voc_plur": "წიგნებო"
         },
         "examples": [
           "მე ვკითხულობ საინტერესო წიგნს."
@@ -100,7 +108,9 @@
           "inst_sing": "წყლით",
           "inst_plur": "წყლებით",
           "adv_sing": "წყლად",
-          "adv_plur": "წყლებად"
+          "adv_plur": "წყლებად",
+          "voc_sing": "წყალო",
+          "voc_plur": "წყლებო"
         },
         "examples": [
           "დალიეთ სუფთა წყალი."
