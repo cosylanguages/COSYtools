@@ -25,13 +25,13 @@ Please open an issue to discuss before submitting PRs that affect:
 
 All HTML entry points in tool directories and shared templates **MUST** import or link the master design tokens stylesheet from the `COSYlanguages` repository adhering to the following rules:
 
-- **Pinned URL Requirement**: Always link `css/cosy-tokens.css` via `raw.githubusercontent.com` **pinned to a specific commit SHA or release tag**.
+- **Local Path Requirement**: Always link `cosy-tokens.css` via local relative paths (e.g., `../../../shared/css/cosy-tokens.css`).
 - **No `main` References**: **NEVER** reference `main` directly in consumer imports or `<link>` tags.
-- **Load Order**: Place the master design token `<link>` element **before** this repository's local `shared/css` stylesheets.
+- **Load Order**: Place the master design token `<link>` element **before** this repository's local `shared/css/tokens.css` stylesheet.
 
 Example valid link tag:
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+<link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
 ```
 
 ---
