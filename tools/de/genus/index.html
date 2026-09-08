@@ -28,7 +28,8 @@
             function render(v) {
                 const item = db[v];
                 if (!item) return;
-                display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
+                const articles = item.indefinite_article ? `${item.article} / ${item.indefinite_article}` : item.article;
+                display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Articles:</strong> ${articles}</p><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
             }
             const firstKey = Object.keys(db)[0];
             if (firstKey) render(firstKey);

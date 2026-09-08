@@ -97,7 +97,8 @@ class NounGenderEngine {
         const isVowelStart = /^[aeiouyéèêhô]/i.test(noun);
         const defaultArticle = isVowelStart ? "l'" : (data.gender === 'Masculin' ? 'le' : 'la');
         const article = data.article || defaultArticle;
-        document.getElementById('sing-form').innerHTML = `<span class="article">${article}</span> <span class="stem">${noun}</span>`;
+        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${data.indefinite_article})</span>` : '';
+        document.getElementById('sing-form').innerHTML = `<span class="article">${article}</span> <span class="stem">${noun}</span>${indArt}`;
 
         // Plural ending split
         const pluralForm = data.plural || (noun.endsWith('al') ? noun.slice(0, -2) + 'aux' : (noun.endsWith('s') || noun.endsWith('x') ? noun : noun + 's'));
