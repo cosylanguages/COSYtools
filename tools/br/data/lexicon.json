@@ -2,6 +2,86 @@
   "language": "br",
   "units": [
     {
+      "lemma": "amzer",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Ered pe goabrenn an deiz.",
+        "article": "an",
+        "plural": "amzerioù",
+        "examples": [
+          "Eder eo an amzer hiziv."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "aval",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Frouezhenn un avalen.",
+        "article": "an",
+        "plural": "avaloù",
+        "examples": [
+          "Debriñ a ran un aval ruz."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "bara",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Boud graet gant bleud hag dour poazhet.",
+        "article": "ar",
+        "plural": "baraoù",
+        "examples": [
+          "Debriñ a ran bara."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "deiz",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Pad an amzer etre goulou deiz ha noz.",
+        "article": "an",
+        "plural": "deizioù",
+        "examples": [
+          "Un deiz brav eo."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "dor",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Digor da vont tre en ti.",
+        "article": "an",
+        "plural": "dorojoù",
+        "examples": [
+          "Serriñ a ran an dor."
+        ],
+        "needs_review": true
+      }
+    },
+    {
       "lemma": "dour",
       "kind": "nouns",
       "source": "tools/br/genre/data/nouns.json",
@@ -14,6 +94,86 @@
         "examples": [
           "Evañ a ran dour fraezh."
         ]
+      }
+    },
+    {
+      "lemma": "ein",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A2",
+        "definition": "Bugel ar mevod.",
+        "article": "an",
+        "plural": "eined",
+        "examples": [
+          "C'hoari a ra an ein er prad."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kador",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Arrebeuri evit azezañ.",
+        "article": "ar",
+        "plural": "kadoerioù",
+        "examples": [
+          "Azezañ a ran war ar gador."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kafe",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Evaj tomm ha du.",
+        "article": "ar",
+        "plural": "kafeoù",
+        "examples": [
+          "Evañ a ran kafe deiz ha deiz."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kambr",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Lec'h kousket en un ti.",
+        "article": "ar",
+        "plural": "kambroù",
+        "examples": [
+          "Propr eo ar gambr."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kazh",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Loen doñv bihan a blij dezhañ kousket.",
+        "article": "ar",
+        "plural": "kizhier",
+        "examples": [
+          "Kousket a ra ar kazh war ar c'hador."
+        ],
+        "needs_review": true
       }
     },
     {
@@ -32,6 +192,54 @@
       }
     },
     {
+      "lemma": "ki",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Loen doñv feal.",
+        "article": "ar",
+        "plural": "chas",
+        "examples": [
+          "Baojal a ra ar ki."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "koad",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Tachenn goloet gant gwez.",
+        "article": "ar",
+        "plural": "koadoù",
+        "examples": [
+          "Passeal a reomp er koad."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "laezh",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Liñvenn gwenn roet gant ar vuoc'h.",
+        "article": "al",
+        "plural": "laezhioù",
+        "examples": [
+          "Evañ a ran laezh tomm."
+        ],
+        "needs_review": true
+      }
+    },
+    {
       "lemma": "levr",
       "kind": "nouns",
       "source": "tools/br/genre/data/nouns.json",
@@ -47,6 +255,246 @@
       }
     },
     {
+      "lemma": "loen",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Boud bev n'eo ket un den.",
+        "article": "al",
+        "plural": "loened",
+        "examples": [
+          "Un loen eo ar ki."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "mab",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Bugel gourel.",
+        "article": "ar",
+        "plural": "mibien",
+        "examples": [
+          "O labourat emañ ar mab."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "mamm",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Micherel pe vaouez he deus bugale.",
+        "article": "ar",
+        "plural": "mammoù",
+        "examples": [
+          "Karet e vez ar mamm gant he bugale."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "marc'h",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Loen bras e bed al labour-douar.",
+        "article": "ar",
+        "plural": "kezheg",
+        "examples": [
+          "Redek a ra ar marc'h veloc'h."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "menez",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Tuchenn uhel-tre.",
+        "article": "ar",
+        "plural": "menezioù",
+        "examples": [
+          "Uhel eo ar menez-mañ."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "merc'h",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Bugel benel.",
+        "article": "ar",
+        "plural": "merc'hed",
+        "examples": [
+          "Lenn a ra ar merc'h un istor."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "mor",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Tachenn dour sall bras.",
+        "article": "ar",
+        "plural": "morioù",
+        "examples": [
+          "Bras hag helc'h eo ar mor."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "noz",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Pad an amzer pan eo teñval.",
+        "article": "an",
+        "plural": "nozioù",
+        "examples": [
+          "Teñval eo an noz."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "pesk",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Loen a vev en dour.",
+        "article": "ar",
+        "plural": "pesked",
+        "examples": [
+          "O neal er mor emañ ar pesk."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "prenestr",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Toul en un moger da lezel ar goulou da dremen.",
+        "article": "ar",
+        "plural": "prenestroù",
+        "examples": [
+          "Digeriñ a ran ar prenestr."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "skol",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Lec'h ma zesk ar vugale.",
+        "article": "an",
+        "plural": "skolioù",
+        "examples": [
+          "Mont a ran d'an skol."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "stêr",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Red dour meur.",
+        "article": "ar",
+        "plural": "stêrioù",
+        "examples": [
+          "Redek a ra ar stêr d'ar mor."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "tad",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Rener pe zad ur familh.",
+        "article": "an",
+        "plural": "tadoù",
+        "examples": [
+          "Emañ an tad er gêr."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "taol",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Daffariad arrebeuri evit debriñ pe skrivañ.",
+        "article": "an",
+        "plural": "taolioù",
+        "examples": [
+          "Emañ meuz war an taol."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "te",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Evaj preparet gant delioù sec'h.",
+        "article": "an",
+        "plural": "teoù",
+        "examples": [
+          "Plijout a ra an te tomm din."
+        ],
+        "needs_review": true
+      }
+    },
+    {
       "lemma": "ti",
       "kind": "nouns",
       "source": "tools/br/genre/data/nouns.json",
@@ -59,6 +507,470 @@
         "examples": [
           "Chom a ran e ti."
         ]
+      }
+    },
+    {
+      "lemma": "u",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Gourel",
+        "level": "A1",
+        "definition": "Oef krouet gant ur yar.",
+        "article": "an",
+        "plural": "uioù",
+        "examples": [
+          "Debriñ a ran un u amzer."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "yar",
+      "kind": "nouns",
+      "source": "tools/br/genre/data/nouns.json",
+      "data": {
+        "gender": "Benel",
+        "level": "A1",
+        "definition": "Evn benel a ro uioù.",
+        "article": "ar",
+        "plural": "yarioù",
+        "examples": [
+          "Ur yar a zo er curun."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "beajiñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Mont eus eul lec'h d'un all pell bras.",
+        "tenses": {
+          "present": [
+            "beajan",
+            "beajez",
+            "beaj",
+            "beajomp",
+            "beajit",
+            "beajont"
+          ]
+        },
+        "examples": [
+          "Beajiñ a ra e Breizh."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "bevañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kaout ar vuhez pe chom en ul lec'h.",
+        "tenses": {
+          "present": [
+            "bevan",
+            "bevez",
+            "bev",
+            "bevomp",
+            "bevit",
+            "bevont"
+          ]
+        },
+        "examples": [
+          "Bevañ a ran e Roazhon."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "chom",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Padout pe chom en ul lec'h hep fiñval.",
+        "tenses": {
+          "present": [
+            "choman",
+            "chomez",
+            "chom",
+            "chomomp",
+            "chomit",
+            "chomont"
+          ]
+        },
+        "examples": [
+          "Chom a ran er gêr hiziv."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "debriñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Merañ pe lonkañ boued er genou.",
+        "tenses": {
+          "present": [
+            "debran",
+            "debrez",
+            "debr",
+            "debromp",
+            "debrit",
+            "debront"
+          ]
+        },
+        "examples": [
+          "Debriñ a ran bara bemdez."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "deskiñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kaout pe tapout gouziegezh pe anaoudegezh.",
+        "tenses": {
+          "present": [
+            "deskan",
+            "deskez",
+            "desk",
+            "deskomp",
+            "deskit",
+            "deskont"
+          ]
+        },
+        "examples": [
+          "Deskiñ a ran brezhoneg er skol."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "dibab",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kemer un dra pe un den e-touez meur a hini.",
+        "tenses": {
+          "present": [
+            "dibaban",
+            "dibabez",
+            "dibab",
+            "dibabomp",
+            "dibabit",
+            "dibabont"
+          ]
+        },
+        "examples": [
+          "Dibab a ran al levr-mañ."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "digeriñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Lakaat digor un dra a oa serret.",
+        "tenses": {
+          "present": [
+            "digoran",
+            "digorez",
+            "digor",
+            "digoromp",
+            "digorit",
+            "digoront"
+          ]
+        },
+        "examples": [
+          "Digeriñ a ran ar prenestr."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "dont",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù kerdin",
+        "level": "A1",
+        "definition": "Mont war-du ul lec'h bennak.",
+        "tenses": {
+          "present": [
+            "deuan",
+            "deuez",
+            "deu",
+            "deuomp",
+            "deuit",
+            "deuont"
+          ]
+        },
+        "examples": [
+          "Dont a ra d'an ti."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "evañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Lonkañ ur liñvenn.",
+        "tenses": {
+          "present": [
+            "evan",
+            "evez",
+            "ev",
+            "evomp",
+            "evit",
+            "evont"
+          ]
+        },
+        "examples": [
+          "Evañ a ran dour fraezh."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "gallout",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù kerdin",
+        "level": "A1",
+        "definition": "Kaout an tu da ober un dra bennak.",
+        "tenses": {
+          "present": [
+            "gallan",
+            "gallez",
+            "gall",
+            "gallomp",
+            "gallit",
+            "gallont"
+          ]
+        },
+        "examples": [
+          "Gallout a ran komz brezhoneg."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "gwelet",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kompren pe tapout un dra gant ar daoulagad.",
+        "tenses": {
+          "present": [
+            "gwelan",
+            "gwelez",
+            "gwel",
+            "gwelomp",
+            "gwelit",
+            "gwelont"
+          ]
+        },
+        "examples": [
+          "Gwelet a ran an ti bras."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "gwerzhañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A2",
+        "definition": "Renniñ un dra bennak evit arc'hant.",
+        "tenses": {
+          "present": [
+            "gwerzhan",
+            "gwerzhez",
+            "gwerzh",
+            "gwerzhomp",
+            "gwerzhit",
+            "gwerzhont"
+          ]
+        },
+        "examples": [
+          "Gwerzhañ a ra e garr."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kanañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Prouat pe sevel tonioù gant ar mouezh.",
+        "tenses": {
+          "present": [
+            "kanan",
+            "kanez",
+            "kan",
+            "kanomp",
+            "kanit",
+            "kanont"
+          ]
+        },
+        "examples": [
+          "Kanañ a ra ur ganenn gaer."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kaozeal",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kaozeal pe komz gant un den all.",
+        "tenses": {
+          "present": [
+            "kaozean",
+            "kaozez",
+            "kaoze",
+            "kaozeomp",
+            "kaozeit",
+            "kaozeont"
+          ]
+        },
+        "examples": [
+          "Kaozeal a reomp asambles."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "karout",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kaout karantez evit un den pe un dra.",
+        "tenses": {
+          "present": [
+            "karan",
+            "karez",
+            "kar",
+            "karomp",
+            "karit",
+            "karont"
+          ]
+        },
+        "examples": [
+          "Karout a ran ma familh."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "kavout",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Tapout pe dizoleiñ ar pezh a oa o klask.",
+        "tenses": {
+          "present": [
+            "kavan",
+            "kavez",
+            "kav",
+            "kavomp",
+            "kavit",
+            "kavont"
+          ]
+        },
+        "examples": [
+          "Kavout a ran ar alc'houez."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "klask",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Merañ evit kavout un dra bennak.",
+        "tenses": {
+          "present": [
+            "klaskan",
+            "klaskez",
+            "klask",
+            "klaskomp",
+            "klaskit",
+            "klaskont"
+          ]
+        },
+        "examples": [
+          "Klask a ran ma c'hlav."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "klevout",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Selaou pe klevout ur son pe un trouz gant ar skouarn.",
+        "tenses": {
+          "present": [
+            "klevan",
+            "klevez",
+            "klev",
+            "klevomp",
+            "klevit",
+            "klevont"
+          ]
+        },
+        "examples": [
+          "Klevout a ran ar sonerezh."
+        ],
+        "needs_review": true
       }
     },
     {
@@ -85,6 +997,54 @@
       }
     },
     {
+      "lemma": "korolliñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Merañ ar c'horf war an tonioù sonerezh.",
+        "tenses": {
+          "present": [
+            "korollan",
+            "korollez",
+            "koroll",
+            "korollomp",
+            "korollit",
+            "korollont"
+          ]
+        },
+        "examples": [
+          "Korolliñ a reomp er fest-noz."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "krediñ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A2",
+        "definition": "Kaout fiziañs e un den pe un dra bennak.",
+        "tenses": {
+          "present": [
+            "kredan",
+            "kredez",
+            "kred",
+            "kredomp",
+            "kredit",
+            "kredont"
+          ]
+        },
+        "examples": [
+          "Krediñ a ran ar pezh a lavarez."
+        ],
+        "needs_review": true
+      }
+    },
+    {
       "lemma": "lenn",
       "kind": "verbs",
       "source": "tools/br/conjugeur/data/verbs.json",
@@ -105,6 +1065,102 @@
         "examples": [
           "Lenn a ra ur levr nevez."
         ]
+      }
+    },
+    {
+      "lemma": "mervel",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A2",
+        "definition": "Koll ar vuhez.",
+        "tenses": {
+          "present": [
+            "marvan",
+            "marvez",
+            "marv",
+            "marvomp",
+            "marvit",
+            "marvont"
+          ]
+        },
+        "examples": [
+          "Mervel a ra ar bleunioù en goañv."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "prenañ",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Kaout un dra en ur reiñ arc'hant.",
+        "tenses": {
+          "present": [
+            "prenan",
+            "prenez",
+            "pren",
+            "prenomp",
+            "prenit",
+            "prenont"
+          ]
+        },
+        "examples": [
+          "Prenañ a ran bara er stal."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "sellout",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Toler ar sell war un dra bennak.",
+        "tenses": {
+          "present": [
+            "sellan",
+            "sellez",
+            "sell",
+            "sellomp",
+            "sellit",
+            "sellont"
+          ]
+        },
+        "examples": [
+          "Sellout a ran ouzh ar mor."
+        ],
+        "needs_review": true
+      }
+    },
+    {
+      "lemma": "sevel",
+      "kind": "verbs",
+      "source": "tools/br/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Verboù boutin",
+        "level": "A1",
+        "definition": "Mont war-uhel pe krouiñ un dra bennak.",
+        "tenses": {
+          "present": [
+            "savan",
+            "savez",
+            "sav",
+            "savomp",
+            "savit",
+            "savont"
+          ]
+        },
+        "examples": [
+          "Sevel a ran mintin mat."
+        ],
+        "needs_review": true
       }
     },
     {

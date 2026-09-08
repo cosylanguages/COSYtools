@@ -52,5 +52,461 @@
     "examples": [
       "Skrivañ a ran ur lizher."
     ]
+  },
+  "debriñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Merañ pe lonkañ boued er genou.",
+    "tenses": {
+      "present": [
+        "debran",
+        "debrez",
+        "debr",
+        "debromp",
+        "debrit",
+        "debront"
+      ]
+    },
+    "examples": [
+      "Debriñ a ran bara bemdez."
+    ],
+    "needs_review": true
+  },
+  "evañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Lonkañ ur liñvenn.",
+    "tenses": {
+      "present": [
+        "evan",
+        "evez",
+        "ev",
+        "evomp",
+        "evit",
+        "evont"
+      ]
+    },
+    "examples": [
+      "Evañ a ran dour fraezh."
+    ],
+    "needs_review": true
+  },
+  "beajiñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Mont eus eul lec'h d'un all pell bras.",
+    "tenses": {
+      "present": [
+        "beajan",
+        "beajez",
+        "beaj",
+        "beajomp",
+        "beajit",
+        "beajont"
+      ]
+    },
+    "examples": [
+      "Beajiñ a ra e Breizh."
+    ],
+    "needs_review": true
+  },
+  "bevañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kaout ar vuhez pe chom en ul lec'h.",
+    "tenses": {
+      "present": [
+        "bevan",
+        "bevez",
+        "bev",
+        "bevomp",
+        "bevit",
+        "bevont"
+      ]
+    },
+    "examples": [
+      "Bevañ a ran e Roazhon."
+    ],
+    "needs_review": true
+  },
+  "deskiñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kaout pe tapout gouziegezh pe anaoudegezh.",
+    "tenses": {
+      "present": [
+        "deskan",
+        "deskez",
+        "desk",
+        "deskomp",
+        "deskit",
+        "deskont"
+      ]
+    },
+    "examples": [
+      "Deskiñ a ran brezhoneg er skol."
+    ],
+    "needs_review": true
+  },
+  "dibab": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kemer un dra pe un den e-touez meur a hini.",
+    "tenses": {
+      "present": [
+        "dibaban",
+        "dibabez",
+        "dibab",
+        "dibabomp",
+        "dibabit",
+        "dibabont"
+      ]
+    },
+    "examples": [
+      "Dibab a ran al levr-mañ."
+    ],
+    "needs_review": true
+  },
+  "digeriñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Lakaat digor un dra a oa serret.",
+    "tenses": {
+      "present": [
+        "digoran",
+        "digorez",
+        "digor",
+        "digoromp",
+        "digorit",
+        "digoront"
+      ]
+    },
+    "examples": [
+      "Digeriñ a ran ar prenestr."
+    ],
+    "needs_review": true
+  },
+  "dont": {
+    "group": "Verboù kerdin",
+    "level": "A1",
+    "definition": "Mont war-du ul lec'h bennak.",
+    "tenses": {
+      "present": [
+        "deuan",
+        "deuez",
+        "deu",
+        "deuomp",
+        "deuit",
+        "deuont"
+      ]
+    },
+    "examples": [
+      "Dont a ra d'an ti."
+    ],
+    "needs_review": true
+  },
+  "gallout": {
+    "group": "Verboù kerdin",
+    "level": "A1",
+    "definition": "Kaout an tu da ober un dra bennak.",
+    "tenses": {
+      "present": [
+        "gallan",
+        "gallez",
+        "gall",
+        "gallomp",
+        "gallit",
+        "gallont"
+      ]
+    },
+    "examples": [
+      "Gallout a ran komz brezhoneg."
+    ],
+    "needs_review": true
+  },
+  "gwelet": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kompren pe tapout un dra gant ar daoulagad.",
+    "tenses": {
+      "present": [
+        "gwelan",
+        "gwelez",
+        "gwel",
+        "gwelomp",
+        "gwelit",
+        "gwelont"
+      ]
+    },
+    "examples": [
+      "Gwelet a ran an ti bras."
+    ],
+    "needs_review": true
+  },
+  "gwerzhañ": {
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Renniñ un dra bennak evit arc'hant.",
+    "tenses": {
+      "present": [
+        "gwerzhan",
+        "gwerzhez",
+        "gwerzh",
+        "gwerzhomp",
+        "gwerzhit",
+        "gwerzhont"
+      ]
+    },
+    "examples": [
+      "Gwerzhañ a ra e garr."
+    ],
+    "needs_review": true
+  },
+  "kanañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Prouat pe sevel tonioù gant ar mouezh.",
+    "tenses": {
+      "present": [
+        "kanan",
+        "kanez",
+        "kan",
+        "kanomp",
+        "kanit",
+        "kanont"
+      ]
+    },
+    "examples": [
+      "Kanañ a ra ur ganenn gaer."
+    ],
+    "needs_review": true
+  },
+  "kaozeal": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kaozeal pe komz gant un den all.",
+    "tenses": {
+      "present": [
+        "kaozean",
+        "kaozez",
+        "kaoze",
+        "kaozeomp",
+        "kaozeit",
+        "kaozeont"
+      ]
+    },
+    "examples": [
+      "Kaozeal a reomp asambles."
+    ],
+    "needs_review": true
+  },
+  "karout": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kaout karantez evit un den pe un dra.",
+    "tenses": {
+      "present": [
+        "karan",
+        "karez",
+        "kar",
+        "karomp",
+        "karit",
+        "karont"
+      ]
+    },
+    "examples": [
+      "Karout a ran ma familh."
+    ],
+    "needs_review": true
+  },
+  "kavout": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Tapout pe dizoleiñ ar pezh a oa o klask.",
+    "tenses": {
+      "present": [
+        "kavan",
+        "kavez",
+        "kav",
+        "kavomp",
+        "kavit",
+        "kavont"
+      ]
+    },
+    "examples": [
+      "Kavout a ran ar alc'houez."
+    ],
+    "needs_review": true
+  },
+  "klevout": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Selaou pe klevout ur son pe un trouz gant ar skouarn.",
+    "tenses": {
+      "present": [
+        "klevan",
+        "klevez",
+        "klev",
+        "klevomp",
+        "klevit",
+        "klevont"
+      ]
+    },
+    "examples": [
+      "Klevout a ran ar sonerezh."
+    ],
+    "needs_review": true
+  },
+  "korolliñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Merañ ar c'horf war an tonioù sonerezh.",
+    "tenses": {
+      "present": [
+        "korollan",
+        "korollez",
+        "koroll",
+        "korollomp",
+        "korollit",
+        "korollont"
+      ]
+    },
+    "examples": [
+      "Korolliñ a reomp er fest-noz."
+    ],
+    "needs_review": true
+  },
+  "krediñ": {
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Kaout fiziañs e un den pe un dra bennak.",
+    "tenses": {
+      "present": [
+        "kredan",
+        "kredez",
+        "kred",
+        "kredomp",
+        "kredit",
+        "kredont"
+      ]
+    },
+    "examples": [
+      "Krediñ a ran ar pezh a lavarez."
+    ],
+    "needs_review": true
+  },
+  "mervel": {
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Koll ar vuhez.",
+    "tenses": {
+      "present": [
+        "marvan",
+        "marvez",
+        "marv",
+        "marvomp",
+        "marvit",
+        "marvont"
+      ]
+    },
+    "examples": [
+      "Mervel a ra ar bleunioù en goañv."
+    ],
+    "needs_review": true
+  },
+  "prenañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kaout un dra en ur reiñ arc'hant.",
+    "tenses": {
+      "present": [
+        "prenan",
+        "prenez",
+        "pren",
+        "prenomp",
+        "prenit",
+        "prenont"
+      ]
+    },
+    "examples": [
+      "Prenañ a ran bara er stal."
+    ],
+    "needs_review": true
+  },
+  "sellout": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Toler ar sell war un dra bennak.",
+    "tenses": {
+      "present": [
+        "sellan",
+        "sellez",
+        "sell",
+        "sellomp",
+        "sellit",
+        "sellont"
+      ]
+    },
+    "examples": [
+      "Sellout a ran ouzh ar mor."
+    ],
+    "needs_review": true
+  },
+  "sevel": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Mont war-uhel pe krouiñ un dra bennak.",
+    "tenses": {
+      "present": [
+        "savan",
+        "savez",
+        "sav",
+        "savomp",
+        "savit",
+        "savont"
+      ]
+    },
+    "examples": [
+      "Sevel a ran mintin mat."
+    ],
+    "needs_review": true
+  },
+  "chom": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Padout pe chom en ul lec'h hep fiñval.",
+    "tenses": {
+      "present": [
+        "choman",
+        "chomez",
+        "chom",
+        "chomomp",
+        "chomit",
+        "chomont"
+      ]
+    },
+    "examples": [
+      "Chom a ran er gêr hiziv."
+    ],
+    "needs_review": true
+  },
+  "klask": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Merañ evit kavout un dra bennak.",
+    "tenses": {
+      "present": [
+        "klaskan",
+        "klaskez",
+        "klask",
+        "klaskomp",
+        "klaskit",
+        "klaskont"
+      ]
+    },
+    "examples": [
+      "Klask a ran ma c'hlav."
+    ],
+    "needs_review": true
   }
 }
