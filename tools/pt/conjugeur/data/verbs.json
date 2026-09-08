@@ -23,6 +23,46 @@
         "falamos",
         "falastes",
         "falaram"
+      ],
+      "preterito_imperfeito": [
+        "falava",
+        "falavas",
+        "falava",
+        "falávamos",
+        "faláveis",
+        "falavam"
+      ],
+      "futuro_do_presente": [
+        "falarei",
+        "falarás",
+        "falará",
+        "falaremos",
+        "falareis",
+        "falarão"
+      ],
+      "futuro_do_preterito": [
+        "falaria",
+        "falarias",
+        "falaria",
+        "falaríamos",
+        "falaríeis",
+        "falariam"
+      ],
+      "presente_subjuntivo": [
+        "fale",
+        "fales",
+        "fale",
+        "falemos",
+        "faleis",
+        "falem"
+      ],
+      "imperativo": [
+        "-",
+        "fala",
+        "fale",
+        "falemos",
+        "falai",
+        "falem"
       ]
     },
     "examples": [
@@ -52,6 +92,46 @@
         "comemos",
         "comestes",
         "comeram"
+      ],
+      "preterito_imperfeito": [
+        "comia",
+        "comias",
+        "comia",
+        "comíamos",
+        "comíeis",
+        "comiam"
+      ],
+      "futuro_do_presente": [
+        "comerei",
+        "comerás",
+        "comerá",
+        "comeremos",
+        "comereis",
+        "comerão"
+      ],
+      "futuro_do_preterito": [
+        "comeria",
+        "comerias",
+        "comeria",
+        "comeríamos",
+        "comeríeis",
+        "comeriam"
+      ],
+      "presente_subjuntivo": [
+        "coma",
+        "comas",
+        "coma",
+        "comamos",
+        "comais",
+        "comam"
+      ],
+      "imperativo": [
+        "-",
+        "come",
+        "coma",
+        "comamos",
+        "comei",
+        "comam"
       ]
     },
     "examples": [
@@ -81,6 +161,46 @@
         "vivemos",
         "vivestes",
         "viveram"
+      ],
+      "preterito_imperfeito": [
+        "vivia",
+        "vivias",
+        "vivia",
+        "vivíamos",
+        "vivíeis",
+        "viviam"
+      ],
+      "futuro_do_presente": [
+        "viverei",
+        "viverás",
+        "viverá",
+        "viveremos",
+        "vivereis",
+        "viverão"
+      ],
+      "futuro_do_preterito": [
+        "viveria",
+        "viverias",
+        "viveria",
+        "viveríamos",
+        "viveríeis",
+        "viveriam"
+      ],
+      "presente_subjuntivo": [
+        "viva",
+        "vivas",
+        "viva",
+        "vivamos",
+        "vivais",
+        "vivam"
+      ],
+      "imperativo": [
+        "-",
+        "vive",
+        "viva",
+        "vivamos",
+        "vivei",
+        "vivam"
       ]
     },
     "examples": [
@@ -108,6 +228,46 @@
         "fomos",
         "fostes",
         "foram"
+      ],
+      "preterito_imperfeito": [
+        "era",
+        "eras",
+        "era",
+        "éramos",
+        "éreis",
+        "eram"
+      ],
+      "futuro_do_presente": [
+        "serei",
+        "serás",
+        "será",
+        "seremos",
+        "sereis",
+        "serão"
+      ],
+      "futuro_do_preterito": [
+        "seria",
+        "serias",
+        "seria",
+        "seríamos",
+        "seríeis",
+        "seriam"
+      ],
+      "presente_subjuntivo": [
+        "seja",
+        "sejas",
+        "seja",
+        "sejamos",
+        "sejais",
+        "sejam"
+      ],
+      "imperativo": [
+        "-",
+        "sê",
+        "seja",
+        "sejamos",
+        "sede",
+        "sejam"
       ]
     },
     "examples": [
@@ -135,6 +295,46 @@
         "estivemos",
         "estivestes",
         "estiveram"
+      ],
+      "preterito_imperfeito": [
+        "estava",
+        "estavas",
+        "estava",
+        "estávamos",
+        "estáveis",
+        "estavam"
+      ],
+      "futuro_do_presente": [
+        "estarei",
+        "estarás",
+        "estará",
+        "estaremos",
+        "estareis",
+        "estarão"
+      ],
+      "futuro_do_preterito": [
+        "estaria",
+        "estarias",
+        "estaria",
+        "estaríamos",
+        "estaríeis",
+        "estariam"
+      ],
+      "presente_subjuntivo": [
+        "esteja",
+        "estejas",
+        "esteja",
+        "estejamos",
+        "estejais",
+        "estejam"
+      ],
+      "imperativo": [
+        "-",
+        "está",
+        "esteja",
+        "estejamos",
+        "estai",
+        "estejam"
       ]
     },
     "examples": [
@@ -162,6 +362,46 @@
         "tivemos",
         "tivestes",
         "tiveram"
+      ],
+      "preterito_imperfeito": [
+        "tinha",
+        "tinhas",
+        "tinha",
+        "tínhamos",
+        "tínheis",
+        "tinham"
+      ],
+      "futuro_do_presente": [
+        "terei",
+        "terás",
+        "terá",
+        "teremos",
+        "tereis",
+        "terão"
+      ],
+      "futuro_do_preterito": [
+        "teria",
+        "terias",
+        "teria",
+        "teríamos",
+        "teríeis",
+        "teriam"
+      ],
+      "presente_subjuntivo": [
+        "tenha",
+        "tenhas",
+        "tenha",
+        "tenhamos",
+        "tenhais",
+        "tenham"
+      ],
+      "imperativo": [
+        "-",
+        "tem",
+        "tenha",
+        "tenhamos",
+        "tende",
+        "tenham"
       ]
     },
     "examples": [
@@ -191,6 +431,46 @@
         "fomos",
         "fostes",
         "foram"
+      ],
+      "preterito_imperfeito": [
+        "ia",
+        "ias",
+        "ia",
+        "íamos",
+        "íeis",
+        "iam"
+      ],
+      "futuro_do_presente": [
+        "irei",
+        "irás",
+        "irá",
+        "iremos",
+        "ireis",
+        "irão"
+      ],
+      "futuro_do_preterito": [
+        "iria",
+        "irias",
+        "iria",
+        "iríamos",
+        "iríeis",
+        "iriam"
+      ],
+      "presente_subjuntivo": [
+        "vá",
+        "vás",
+        "vá",
+        "vamos",
+        "vades",
+        "vão"
+      ],
+      "imperativo": [
+        "-",
+        "vai",
+        "vá",
+        "vamos",
+        "ide",
+        "vão"
       ]
     },
     "examples": [
@@ -218,6 +498,46 @@
         "fizemos",
         "fizestes",
         "fizeram"
+      ],
+      "preterito_imperfeito": [
+        "fazia",
+        "fazias",
+        "fazia",
+        "fazíamos",
+        "fazíeis",
+        "faziam"
+      ],
+      "futuro_do_presente": [
+        "farei",
+        "farás",
+        "fará",
+        "faremos",
+        "fareis",
+        "farão"
+      ],
+      "futuro_do_preterito": [
+        "faria",
+        "farias",
+        "faria",
+        "faríamos",
+        "faríeis",
+        "fariam"
+      ],
+      "presente_subjuntivo": [
+        "faça",
+        "faças",
+        "faça",
+        "façamos",
+        "façais",
+        "façam"
+      ],
+      "imperativo": [
+        "-",
+        "faz",
+        "faça",
+        "façamos",
+        "fazei",
+        "façam"
       ]
     },
     "examples": [
@@ -247,6 +567,46 @@
         "trabalhamos",
         "trabalhastes",
         "trabalharam"
+      ],
+      "preterito_imperfeito": [
+        "trabalhava",
+        "trabalhavas",
+        "trabalhava",
+        "trabalhávamos",
+        "trabalháveis",
+        "trabalhavam"
+      ],
+      "futuro_do_presente": [
+        "trabalharei",
+        "trabalharás",
+        "trabalhará",
+        "trabalharemos",
+        "trabalhareis",
+        "trabalharão"
+      ],
+      "futuro_do_preterito": [
+        "trabalharia",
+        "trabalharias",
+        "trabalharia",
+        "trabalharíamos",
+        "trabalharíeis",
+        "trabalhariam"
+      ],
+      "presente_subjuntivo": [
+        "trabalhe",
+        "trabalhes",
+        "trabalhe",
+        "trabalhemos",
+        "trabalheis",
+        "trabalhem"
+      ],
+      "imperativo": [
+        "-",
+        "trabalha",
+        "trabalhe",
+        "trabalhemos",
+        "trabalhai",
+        "trabalhem"
       ]
     },
     "examples": [
@@ -276,6 +636,46 @@
         "aprendemos",
         "aprendestes",
         "aprenderam"
+      ],
+      "preterito_imperfeito": [
+        "aprendia",
+        "aprendias",
+        "aprendia",
+        "aprendíamos",
+        "aprendíeis",
+        "aprendiam"
+      ],
+      "futuro_do_presente": [
+        "aprenderei",
+        "aprenderás",
+        "aprenderá",
+        "aprenderemos",
+        "aprendereis",
+        "aprenderão"
+      ],
+      "futuro_do_preterito": [
+        "aprenderia",
+        "aprenderias",
+        "aprenderia",
+        "aprenderíamos",
+        "aprenderíeis",
+        "aprenderiam"
+      ],
+      "presente_subjuntivo": [
+        "aprenda",
+        "aprendas",
+        "aprenda",
+        "aprendamos",
+        "aprendais",
+        "aprendam"
+      ],
+      "imperativo": [
+        "-",
+        "aprende",
+        "aprenda",
+        "aprendamos",
+        "aprendei",
+        "aprendam"
       ]
     },
     "examples": [
@@ -305,6 +705,46 @@
         "compramos",
         "comprastes",
         "compraram"
+      ],
+      "preterito_imperfeito": [
+        "comprava",
+        "compravas",
+        "comprava",
+        "comprávamos",
+        "compráveis",
+        "compravam"
+      ],
+      "futuro_do_presente": [
+        "comprarei",
+        "comprarás",
+        "comprará",
+        "compraremos",
+        "comprareis",
+        "comprarão"
+      ],
+      "futuro_do_preterito": [
+        "compraria",
+        "comprarias",
+        "compraria",
+        "compraríamos",
+        "compraríeis",
+        "comprariam"
+      ],
+      "presente_subjuntivo": [
+        "compre",
+        "compres",
+        "compre",
+        "compremos",
+        "compreis",
+        "comprem"
+      ],
+      "imperativo": [
+        "-",
+        "compra",
+        "compre",
+        "compremos",
+        "comprai",
+        "comprem"
       ]
     },
     "examples": [
@@ -334,6 +774,46 @@
         "vendemos",
         "vendestes",
         "venderam"
+      ],
+      "preterito_imperfeito": [
+        "vendia",
+        "vendias",
+        "vendia",
+        "vendíamos",
+        "vendíeis",
+        "vendiam"
+      ],
+      "futuro_do_presente": [
+        "venderei",
+        "venderás",
+        "venderá",
+        "venderemos",
+        "vendereis",
+        "venderão"
+      ],
+      "futuro_do_preterito": [
+        "venderia",
+        "venderias",
+        "venderia",
+        "venderíamos",
+        "venderíeis",
+        "venderiam"
+      ],
+      "presente_subjuntivo": [
+        "venda",
+        "vendas",
+        "venda",
+        "vendamos",
+        "vendais",
+        "vendam"
+      ],
+      "imperativo": [
+        "-",
+        "vende",
+        "venda",
+        "vendamos",
+        "vendei",
+        "vendam"
       ]
     },
     "examples": [
@@ -361,6 +841,46 @@
         "jogamos",
         "jogastes",
         "jogaram"
+      ],
+      "preterito_imperfeito": [
+        "jogava",
+        "jogavas",
+        "jogava",
+        "jogávamos",
+        "jogáveis",
+        "jogavam"
+      ],
+      "futuro_do_presente": [
+        "jogarei",
+        "jogarás",
+        "jogará",
+        "jogaremos",
+        "jogareis",
+        "jogarão"
+      ],
+      "futuro_do_preterito": [
+        "jogaria",
+        "jogarias",
+        "jogaria",
+        "jogaríamos",
+        "jogaríeis",
+        "jogariam"
+      ],
+      "presente_subjuntivo": [
+        "jogue",
+        "jogues",
+        "jogue",
+        "joguemos",
+        "jogueis",
+        "joguem"
+      ],
+      "imperativo": [
+        "-",
+        "joga",
+        "jogue",
+        "joguemos",
+        "jogai",
+        "joguem"
       ]
     },
     "examples": [
@@ -388,6 +908,46 @@
         "cozinhamos",
         "cozinhastes",
         "cozinharam"
+      ],
+      "preterito_imperfeito": [
+        "cozinhava",
+        "cozinhavas",
+        "cozinhava",
+        "cozinhávamos",
+        "cozinháveis",
+        "cozinhavam"
+      ],
+      "futuro_do_presente": [
+        "cozinharei",
+        "cozinharás",
+        "cozinhará",
+        "cozinharemos",
+        "cozinhareis",
+        "cozinharão"
+      ],
+      "futuro_do_preterito": [
+        "cozinharia",
+        "cozinharias",
+        "cozinharia",
+        "cozinharíamos",
+        "cozinharíeis",
+        "cozinhariam"
+      ],
+      "presente_subjuntivo": [
+        "cozinhe",
+        "cozinhes",
+        "cozinhe",
+        "cozinhemos",
+        "cozinheis",
+        "cozinhem"
+      ],
+      "imperativo": [
+        "-",
+        "cozinha",
+        "cozinhe",
+        "cozinhemos",
+        "cozinhai",
+        "cozinhem"
       ]
     },
     "examples": [
@@ -415,6 +975,46 @@
         "precisamos",
         "precisastes",
         "precisaram"
+      ],
+      "preterito_imperfeito": [
+        "precisava",
+        "precisavas",
+        "precisava",
+        "precisávamos",
+        "precisáveis",
+        "precisavam"
+      ],
+      "futuro_do_presente": [
+        "precisarei",
+        "precisarás",
+        "precisará",
+        "precisaremos",
+        "precisareis",
+        "precisarão"
+      ],
+      "futuro_do_preterito": [
+        "precisaria",
+        "precisarias",
+        "precisaria",
+        "precisaríamos",
+        "precisaríeis",
+        "precisariam"
+      ],
+      "presente_subjuntivo": [
+        "precise",
+        "precises",
+        "precise",
+        "precisemos",
+        "preciseis",
+        "precisem"
+      ],
+      "imperativo": [
+        "-",
+        "precisa",
+        "precise",
+        "precisemos",
+        "precisai",
+        "precisem"
       ]
     },
     "examples": [
@@ -444,6 +1044,46 @@
         "procuramos",
         "procurastes",
         "procuraram"
+      ],
+      "preterito_imperfeito": [
+        "procurava",
+        "procuravas",
+        "procurava",
+        "procurávamos",
+        "procuráveis",
+        "procuravam"
+      ],
+      "futuro_do_presente": [
+        "procurarei",
+        "procurarás",
+        "procurará",
+        "procuraremos",
+        "procurareis",
+        "procurarão"
+      ],
+      "futuro_do_preterito": [
+        "procuraria",
+        "procurarias",
+        "procuraria",
+        "procuraríamos",
+        "procuraríeis",
+        "procurariam"
+      ],
+      "presente_subjuntivo": [
+        "procure",
+        "procures",
+        "procure",
+        "procuremos",
+        "procureis",
+        "procurem"
+      ],
+      "imperativo": [
+        "-",
+        "procura",
+        "procure",
+        "procuremos",
+        "procurai",
+        "procurem"
       ]
     },
     "examples": [
@@ -473,6 +1113,46 @@
         "encontramos",
         "encontrastes",
         "encontraram"
+      ],
+      "preterito_imperfeito": [
+        "encontrava",
+        "encontravas",
+        "encontrava",
+        "encontrávamos",
+        "encontráveis",
+        "encontravam"
+      ],
+      "futuro_do_presente": [
+        "encontrarei",
+        "encontrarás",
+        "encontrará",
+        "encontraremos",
+        "encontrareis",
+        "encontrarão"
+      ],
+      "futuro_do_preterito": [
+        "encontraria",
+        "encontrarias",
+        "encontraria",
+        "encontraríamos",
+        "encontraríeis",
+        "encontrariam"
+      ],
+      "presente_subjuntivo": [
+        "encontre",
+        "encontres",
+        "encontre",
+        "encontremos",
+        "encontreis",
+        "encontrem"
+      ],
+      "imperativo": [
+        "-",
+        "encontra",
+        "encontre",
+        "encontremos",
+        "encontrai",
+        "encontrem"
       ]
     },
     "examples": [
@@ -500,6 +1180,46 @@
         "tomamos",
         "tomastes",
         "tomaram"
+      ],
+      "preterito_imperfeito": [
+        "tomava",
+        "tomavas",
+        "tomava",
+        "tomávamos",
+        "tomáveis",
+        "tomavam"
+      ],
+      "futuro_do_presente": [
+        "tomarei",
+        "tomarás",
+        "tomará",
+        "tomaremos",
+        "tomareis",
+        "tomarão"
+      ],
+      "futuro_do_preterito": [
+        "tomaria",
+        "tomarias",
+        "tomaria",
+        "tomaríamos",
+        "tomaríeis",
+        "tomariam"
+      ],
+      "presente_subjuntivo": [
+        "tome",
+        "tomes",
+        "tome",
+        "tomemos",
+        "tomeis",
+        "tomem"
+      ],
+      "imperativo": [
+        "-",
+        "toma",
+        "tome",
+        "tomemos",
+        "tomai",
+        "tomem"
       ]
     },
     "examples": [
@@ -529,6 +1249,46 @@
         "demos",
         "destes",
         "deram"
+      ],
+      "preterito_imperfeito": [
+        "dava",
+        "davas",
+        "dava",
+        "dávamos",
+        "dáveis",
+        "davam"
+      ],
+      "futuro_do_presente": [
+        "darei",
+        "darás",
+        "dará",
+        "daremos",
+        "dareis",
+        "darão"
+      ],
+      "futuro_do_preterito": [
+        "daria",
+        "darias",
+        "daria",
+        "daríamos",
+        "daríeis",
+        "dariam"
+      ],
+      "presente_subjuntivo": [
+        "dê",
+        "dês",
+        "dê",
+        "demos",
+        "deis",
+        "deem"
+      ],
+      "imperativo": [
+        "-",
+        "dá",
+        "dê",
+        "demos",
+        "dai",
+        "deem"
       ]
     },
     "examples": [
@@ -558,6 +1318,46 @@
         "levamos",
         "levastes",
         "levaram"
+      ],
+      "preterito_imperfeito": [
+        "levava",
+        "levavas",
+        "levava",
+        "levávamos",
+        "leváveis",
+        "levavam"
+      ],
+      "futuro_do_presente": [
+        "levarei",
+        "levarás",
+        "levará",
+        "levaremos",
+        "levareis",
+        "levarão"
+      ],
+      "futuro_do_preterito": [
+        "levaria",
+        "levarias",
+        "levaria",
+        "levaríamos",
+        "levaríeis",
+        "levariam"
+      ],
+      "presente_subjuntivo": [
+        "leve",
+        "leves",
+        "leve",
+        "levemos",
+        "leveis",
+        "levem"
+      ],
+      "imperativo": [
+        "-",
+        "leva",
+        "leve",
+        "levemos",
+        "levai",
+        "levem"
       ]
     },
     "examples": [
@@ -587,6 +1387,46 @@
         "trouxemos",
         "trouxestes",
         "trouxeram"
+      ],
+      "preterito_imperfeito": [
+        "trazia",
+        "trazias",
+        "trazia",
+        "trazíamos",
+        "trazíeis",
+        "traziam"
+      ],
+      "futuro_do_presente": [
+        "trarei",
+        "trarás",
+        "trará",
+        "traremos",
+        "trareis",
+        "trarão"
+      ],
+      "futuro_do_preterito": [
+        "traria",
+        "trarias",
+        "traria",
+        "traríamos",
+        "traríeis",
+        "trariam"
+      ],
+      "presente_subjuntivo": [
+        "traga",
+        "tragas",
+        "traga",
+        "tragamos",
+        "tragais",
+        "tragam"
+      ],
+      "imperativo": [
+        "-",
+        "traz",
+        "traga",
+        "tragamos",
+        "trazei",
+        "tragam"
       ]
     },
     "examples": [
@@ -614,6 +1454,46 @@
         "pensamos",
         "pensastes",
         "pensaram"
+      ],
+      "preterito_imperfeito": [
+        "pensava",
+        "pensavas",
+        "pensava",
+        "pensávamos",
+        "pensáveis",
+        "pensavam"
+      ],
+      "futuro_do_presente": [
+        "pensarei",
+        "pensarás",
+        "pensará",
+        "pensaremos",
+        "pensareis",
+        "pensarão"
+      ],
+      "futuro_do_preterito": [
+        "pensaria",
+        "pensarias",
+        "pensaria",
+        "pensaríamos",
+        "pensaríeis",
+        "pensariam"
+      ],
+      "presente_subjuntivo": [
+        "pense",
+        "penses",
+        "pense",
+        "pensemos",
+        "penseis",
+        "pensem"
+      ],
+      "imperativo": [
+        "-",
+        "pensa",
+        "pense",
+        "pensemos",
+        "pensai",
+        "pensem"
       ]
     },
     "examples": [
@@ -643,6 +1523,46 @@
         "conhecemos",
         "conhecestes",
         "conheceram"
+      ],
+      "preterito_imperfeito": [
+        "conhecia",
+        "conhecias",
+        "conhecia",
+        "conhecíamos",
+        "conhecíeis",
+        "conheciam"
+      ],
+      "futuro_do_presente": [
+        "conhecerei",
+        "conhecerás",
+        "conhecerá",
+        "conheceremos",
+        "conhecereis",
+        "conhecerão"
+      ],
+      "futuro_do_preterito": [
+        "conheceria",
+        "conhecerias",
+        "conheceria",
+        "conheceríamos",
+        "conheceríeis",
+        "conheceriam"
+      ],
+      "presente_subjuntivo": [
+        "conheça",
+        "conheças",
+        "conheça",
+        "conheçamos",
+        "conheçais",
+        "conheçam"
+      ],
+      "imperativo": [
+        "-",
+        "conhece",
+        "conheça",
+        "conheçamos",
+        "conhecei",
+        "conheçam"
       ]
     },
     "examples": [
@@ -672,6 +1592,46 @@
         "pusemos",
         "pusestes",
         "puseram"
+      ],
+      "preterito_imperfeito": [
+        "punha",
+        "punhas",
+        "punha",
+        "púnhamos",
+        "púnheis",
+        "punham"
+      ],
+      "futuro_do_presente": [
+        "porei",
+        "porás",
+        "porá",
+        "poremos",
+        "poreis",
+        "porão"
+      ],
+      "futuro_do_preterito": [
+        "poria",
+        "porias",
+        "poria",
+        "poríamos",
+        "poríeis",
+        "poriam"
+      ],
+      "presente_subjuntivo": [
+        "ponha",
+        "ponhas",
+        "ponha",
+        "ponhamos",
+        "ponhais",
+        "ponham"
+      ],
+      "imperativo": [
+        "-",
+        "põe",
+        "ponha",
+        "ponhamos",
+        "ponde",
+        "ponham"
       ]
     },
     "examples": [
@@ -701,6 +1661,46 @@
         "saímos",
         "saístes",
         "saíram"
+      ],
+      "preterito_imperfeito": [
+        "saía",
+        "saías",
+        "saía",
+        "saíamos",
+        "saíeis",
+        "saíam"
+      ],
+      "futuro_do_presente": [
+        "sairei",
+        "sairás",
+        "sairá",
+        "sairemos",
+        "saireis",
+        "sairão"
+      ],
+      "futuro_do_preterito": [
+        "sairia",
+        "sairias",
+        "sairia",
+        "sairíamos",
+        "sairíeis",
+        "sairiam"
+      ],
+      "presente_subjuntivo": [
+        "saia",
+        "saias",
+        "saia",
+        "saiamos",
+        "saiais",
+        "saiam"
+      ],
+      "imperativo": [
+        "-",
+        "sai",
+        "saia",
+        "saiamos",
+        "saí",
+        "saiam"
       ]
     },
     "examples": [
@@ -730,6 +1730,46 @@
         "chegamos",
         "chegastes",
         "chegaram"
+      ],
+      "preterito_imperfeito": [
+        "chegava",
+        "chegavas",
+        "chegava",
+        "chegávamos",
+        "chegáveis",
+        "chegavam"
+      ],
+      "futuro_do_presente": [
+        "chegarei",
+        "chegarás",
+        "chegará",
+        "chegaremos",
+        "chegareis",
+        "chegarão"
+      ],
+      "futuro_do_preterito": [
+        "chegaria",
+        "chegarias",
+        "chegaria",
+        "chegaríamos",
+        "chegaríeis",
+        "chegariam"
+      ],
+      "presente_subjuntivo": [
+        "chegue",
+        "chegues",
+        "chegue",
+        "cheguemos",
+        "chegueis",
+        "cheguem"
+      ],
+      "imperativo": [
+        "-",
+        "chega",
+        "chegue",
+        "cheguemos",
+        "chegai",
+        "cheguem"
       ]
     },
     "examples": [
@@ -759,6 +1799,46 @@
         "entramos",
         "entrastes",
         "entraram"
+      ],
+      "preterito_imperfeito": [
+        "entrava",
+        "entravas",
+        "entrava",
+        "entrávamos",
+        "entráveis",
+        "entravam"
+      ],
+      "futuro_do_presente": [
+        "entrarei",
+        "entrarás",
+        "entrará",
+        "entraremos",
+        "entrareis",
+        "entrarão"
+      ],
+      "futuro_do_preterito": [
+        "entraria",
+        "entrarias",
+        "entraria",
+        "entraríamos",
+        "entraríeis",
+        "entrariam"
+      ],
+      "presente_subjuntivo": [
+        "entre",
+        "entres",
+        "entre",
+        "entremos",
+        "entreis",
+        "entrem"
+      ],
+      "imperativo": [
+        "-",
+        "entra",
+        "entre",
+        "entremos",
+        "entrai",
+        "entrem"
       ]
     },
     "examples": [
@@ -788,6 +1868,46 @@
         "voltamos",
         "voltastes",
         "voltaram"
+      ],
+      "preterito_imperfeito": [
+        "voltava",
+        "voltavas",
+        "voltava",
+        "voltávamos",
+        "voltáveis",
+        "voltavam"
+      ],
+      "futuro_do_presente": [
+        "voltarei",
+        "voltarás",
+        "voltará",
+        "voltaremos",
+        "voltareis",
+        "voltarão"
+      ],
+      "futuro_do_preterito": [
+        "voltaria",
+        "voltarias",
+        "voltaria",
+        "voltaríamos",
+        "voltaríeis",
+        "voltariam"
+      ],
+      "presente_subjuntivo": [
+        "volte",
+        "voltes",
+        "volte",
+        "voltemos",
+        "volteis",
+        "voltem"
+      ],
+      "imperativo": [
+        "-",
+        "volta",
+        "volte",
+        "voltemos",
+        "voltai",
+        "voltem"
       ]
     },
     "examples": [
@@ -815,6 +1935,46 @@
         "viajamos",
         "viajastes",
         "viajaram"
+      ],
+      "preterito_imperfeito": [
+        "viajava",
+        "viajavas",
+        "viajava",
+        "viajávamos",
+        "viajáveis",
+        "viajavam"
+      ],
+      "futuro_do_presente": [
+        "viajarei",
+        "viajarás",
+        "viajará",
+        "viajaremos",
+        "viajareis",
+        "viajarão"
+      ],
+      "futuro_do_preterito": [
+        "viajaria",
+        "viajarias",
+        "viajaria",
+        "viajaríamos",
+        "viajaríeis",
+        "viajariam"
+      ],
+      "presente_subjuntivo": [
+        "viaje",
+        "viajes",
+        "viaje",
+        "viajemos",
+        "viajeis",
+        "viajem"
+      ],
+      "imperativo": [
+        "-",
+        "viaja",
+        "viaje",
+        "viajemos",
+        "viajai",
+        "viajem"
       ]
     },
     "examples": [
@@ -842,6 +2002,46 @@
         "caminhamos",
         "caminhastes",
         "caminharam"
+      ],
+      "preterito_imperfeito": [
+        "caminhava",
+        "caminhavas",
+        "caminhava",
+        "caminhávamos",
+        "caminháveis",
+        "caminhavam"
+      ],
+      "futuro_do_presente": [
+        "caminharei",
+        "caminharás",
+        "caminhará",
+        "caminharemos",
+        "caminhareis",
+        "caminharão"
+      ],
+      "futuro_do_preterito": [
+        "caminharia",
+        "caminharias",
+        "caminharia",
+        "caminharíamos",
+        "caminharíeis",
+        "caminhariam"
+      ],
+      "presente_subjuntivo": [
+        "caminhe",
+        "caminhes",
+        "caminhe",
+        "caminhemos",
+        "caminheis",
+        "caminhem"
+      ],
+      "imperativo": [
+        "-",
+        "caminha",
+        "caminhe",
+        "caminhemos",
+        "caminhai",
+        "caminhem"
       ]
     },
     "examples": [
@@ -871,6 +2071,46 @@
         "corremos",
         "correstes",
         "correram"
+      ],
+      "preterito_imperfeito": [
+        "corria",
+        "corrias",
+        "corria",
+        "corríamos",
+        "corríeis",
+        "corriam"
+      ],
+      "futuro_do_presente": [
+        "correrei",
+        "correrás",
+        "correrá",
+        "correremos",
+        "correreis",
+        "correrão"
+      ],
+      "futuro_do_preterito": [
+        "correria",
+        "correrias",
+        "correria",
+        "correríamos",
+        "correríeis",
+        "correriam"
+      ],
+      "presente_subjuntivo": [
+        "corra",
+        "corras",
+        "corra",
+        "corramos",
+        "corrais",
+        "corram"
+      ],
+      "imperativo": [
+        "-",
+        "corre",
+        "corra",
+        "corramos",
+        "correi",
+        "corram"
       ]
     },
     "examples": [
@@ -898,6 +2138,46 @@
         "nadamos",
         "nadastes",
         "nadaram"
+      ],
+      "preterito_imperfeito": [
+        "nadava",
+        "nadavas",
+        "nadava",
+        "nadávamos",
+        "nadáveis",
+        "nadavam"
+      ],
+      "futuro_do_presente": [
+        "nadarei",
+        "nadarás",
+        "nadará",
+        "nadaremos",
+        "nadareis",
+        "nadarão"
+      ],
+      "futuro_do_preterito": [
+        "nadaria",
+        "nadarias",
+        "nadaria",
+        "nadaríamos",
+        "nadaríeis",
+        "nadariam"
+      ],
+      "presente_subjuntivo": [
+        "nade",
+        "nades",
+        "nade",
+        "nademos",
+        "nadeis",
+        "nadem"
+      ],
+      "imperativo": [
+        "-",
+        "nada",
+        "nade",
+        "nademos",
+        "nadai",
+        "nadem"
       ]
     },
     "examples": [
@@ -925,6 +2205,46 @@
         "chamamos",
         "chamastes",
         "chamaram"
+      ],
+      "preterito_imperfeito": [
+        "chamava",
+        "chamavas",
+        "chamava",
+        "chamávamos",
+        "chamáveis",
+        "chamavam"
+      ],
+      "futuro_do_presente": [
+        "chamarei",
+        "chamarás",
+        "chamará",
+        "chamaremos",
+        "chamareis",
+        "chamarão"
+      ],
+      "futuro_do_preterito": [
+        "chamaria",
+        "chamarias",
+        "chamaria",
+        "chamaríamos",
+        "chamaríeis",
+        "chamariam"
+      ],
+      "presente_subjuntivo": [
+        "chame",
+        "chames",
+        "chame",
+        "chamemos",
+        "chameis",
+        "chamem"
+      ],
+      "imperativo": [
+        "-",
+        "chama",
+        "chame",
+        "chamemos",
+        "chamai",
+        "chamem"
       ]
     },
     "examples": [
@@ -954,6 +2274,46 @@
         "lembramos",
         "lembrastes",
         "lembraram"
+      ],
+      "preterito_imperfeito": [
+        "lembrava",
+        "lembravas",
+        "lembrava",
+        "lembrávamos",
+        "lembráveis",
+        "lembravam"
+      ],
+      "futuro_do_presente": [
+        "lembrarei",
+        "lembrarás",
+        "lembrará",
+        "lembraremos",
+        "lembrareis",
+        "lembrarão"
+      ],
+      "futuro_do_preterito": [
+        "lembraria",
+        "lembrarias",
+        "lembraria",
+        "lembraríamos",
+        "lembraríeis",
+        "lembrariam"
+      ],
+      "presente_subjuntivo": [
+        "lembre",
+        "lembres",
+        "lembre",
+        "lembremos",
+        "lembreis",
+        "lembrem"
+      ],
+      "imperativo": [
+        "-",
+        "lembra",
+        "lembre",
+        "lembremos",
+        "lembrai",
+        "lembrem"
       ]
     },
     "examples": [
@@ -983,6 +2343,46 @@
         "esquecemos",
         "esquecestes",
         "esqueceram"
+      ],
+      "preterito_imperfeito": [
+        "esquecia",
+        "esquecias",
+        "esquecia",
+        "esquecíamos",
+        "esquecíeis",
+        "esqueciam"
+      ],
+      "futuro_do_presente": [
+        "esquecerei",
+        "esquecerás",
+        "esquecerá",
+        "esqueceremos",
+        "esquecereis",
+        "esquecerão"
+      ],
+      "futuro_do_preterito": [
+        "esqueceria",
+        "esquecerias",
+        "esqueceria",
+        "esqueceríamos",
+        "esqueceríeis",
+        "esqueceriam"
+      ],
+      "presente_subjuntivo": [
+        "esqueça",
+        "esqueças",
+        "esqueça",
+        "esqueçamos",
+        "esqueçais",
+        "esqueçam"
+      ],
+      "imperativo": [
+        "-",
+        "esquece",
+        "esqueça",
+        "esqueçamos",
+        "esquecei",
+        "esqueçam"
       ]
     },
     "examples": [
@@ -1010,6 +2410,46 @@
         "tentamos",
         "tentastes",
         "tentaram"
+      ],
+      "preterito_imperfeito": [
+        "tentava",
+        "tentavas",
+        "tentava",
+        "tentávamos",
+        "tentáveis",
+        "tentavam"
+      ],
+      "futuro_do_presente": [
+        "tentarei",
+        "tentarás",
+        "tentará",
+        "tentaremos",
+        "tentareis",
+        "tentarão"
+      ],
+      "futuro_do_preterito": [
+        "tentaria",
+        "tentarias",
+        "tentaria",
+        "tentaríamos",
+        "tentaríeis",
+        "tentariam"
+      ],
+      "presente_subjuntivo": [
+        "tente",
+        "tentes",
+        "tente",
+        "tentemos",
+        "tenteis",
+        "tentem"
+      ],
+      "imperativo": [
+        "-",
+        "tenta",
+        "tente",
+        "tentemos",
+        "tentai",
+        "tentem"
       ]
     },
     "examples": [
@@ -1037,6 +2477,46 @@
         "usamos",
         "usastes",
         "usaram"
+      ],
+      "preterito_imperfeito": [
+        "usava",
+        "usavas",
+        "usava",
+        "usávamos",
+        "usáveis",
+        "usavam"
+      ],
+      "futuro_do_presente": [
+        "usarei",
+        "usarás",
+        "usará",
+        "usaremos",
+        "usareis",
+        "usarão"
+      ],
+      "futuro_do_preterito": [
+        "usaria",
+        "usarias",
+        "usaria",
+        "usaríamos",
+        "usaríeis",
+        "usariam"
+      ],
+      "presente_subjuntivo": [
+        "use",
+        "uses",
+        "use",
+        "usemos",
+        "useis",
+        "usem"
+      ],
+      "imperativo": [
+        "-",
+        "usa",
+        "use",
+        "usemos",
+        "usai",
+        "usem"
       ]
     },
     "examples": [
@@ -1064,6 +2544,46 @@
         "escolhemos",
         "escolhestes",
         "escolheram"
+      ],
+      "preterito_imperfeito": [
+        "escolhia",
+        "escolhias",
+        "escolhia",
+        "escolhíamos",
+        "escolhíeis",
+        "escolhiam"
+      ],
+      "futuro_do_presente": [
+        "escolherei",
+        "escolherás",
+        "escolherá",
+        "escolheremos",
+        "escolhereis",
+        "escolherão"
+      ],
+      "futuro_do_preterito": [
+        "escolheria",
+        "escolherias",
+        "escolheria",
+        "escolheríamos",
+        "escolheríeis",
+        "escolheriam"
+      ],
+      "presente_subjuntivo": [
+        "escolha",
+        "escolhas",
+        "escolha",
+        "escolhamos",
+        "escolhais",
+        "escolham"
+      ],
+      "imperativo": [
+        "-",
+        "escolhe",
+        "escolha",
+        "escolhamos",
+        "escolhei",
+        "escolham"
       ]
     },
     "examples": [
@@ -1091,6 +2611,46 @@
         "decidimos",
         "decidistes",
         "decidiram"
+      ],
+      "preterito_imperfeito": [
+        "decidia",
+        "decidias",
+        "decidia",
+        "decidíamos",
+        "decidíeis",
+        "decidiam"
+      ],
+      "futuro_do_presente": [
+        "decidirei",
+        "decidirás",
+        "decidirá",
+        "decidiremos",
+        "decidireis",
+        "decidirão"
+      ],
+      "futuro_do_preterito": [
+        "decidiria",
+        "decidirias",
+        "decidiria",
+        "decidiríamos",
+        "decidiríeis",
+        "decidiriam"
+      ],
+      "presente_subjuntivo": [
+        "decida",
+        "decidas",
+        "decida",
+        "decidamos",
+        "decidais",
+        "decidam"
+      ],
+      "imperativo": [
+        "-",
+        "decide",
+        "decida",
+        "decidamos",
+        "decidi",
+        "decidam"
       ]
     },
     "examples": [
@@ -1118,6 +2678,46 @@
         "sentimos",
         "sentistes",
         "sentiram"
+      ],
+      "preterito_imperfeito": [
+        "sentia",
+        "sentias",
+        "sentia",
+        "sentíamos",
+        "sentíeis",
+        "sentiam"
+      ],
+      "futuro_do_presente": [
+        "sentirei",
+        "sentirás",
+        "sentirá",
+        "sentiremos",
+        "sentireis",
+        "sentirão"
+      ],
+      "futuro_do_preterito": [
+        "sentiria",
+        "sentirias",
+        "sentiria",
+        "sentiríamos",
+        "sentiríeis",
+        "sentiriam"
+      ],
+      "presente_subjuntivo": [
+        "sinta",
+        "sintas",
+        "sinta",
+        "sintamos",
+        "sintais",
+        "sintam"
+      ],
+      "imperativo": [
+        "-",
+        "sente",
+        "sinta",
+        "sintamos",
+        "senti",
+        "sintam"
       ]
     },
     "examples": [
@@ -1147,6 +2747,46 @@
         "gostamos",
         "gostastes",
         "gostaram"
+      ],
+      "preterito_imperfeito": [
+        "gostava",
+        "gostavas",
+        "gostava",
+        "gostávamos",
+        "gostáveis",
+        "gostavam"
+      ],
+      "futuro_do_presente": [
+        "gostarei",
+        "gostarás",
+        "gostará",
+        "gostaremos",
+        "gostareis",
+        "gostarão"
+      ],
+      "futuro_do_preterito": [
+        "gostaria",
+        "gostarias",
+        "gostaria",
+        "gostaríamos",
+        "gostaríeis",
+        "gostariam"
+      ],
+      "presente_subjuntivo": [
+        "goste",
+        "gostes",
+        "goste",
+        "gostemos",
+        "gosteis",
+        "gostem"
+      ],
+      "imperativo": [
+        "-",
+        "gosta",
+        "goste",
+        "gostemos",
+        "gostai",
+        "gostem"
       ]
     },
     "examples": [
@@ -1174,6 +2814,46 @@
         "passamos",
         "passastes",
         "passaram"
+      ],
+      "preterito_imperfeito": [
+        "passava",
+        "passavas",
+        "passava",
+        "passávamos",
+        "passáveis",
+        "passavam"
+      ],
+      "futuro_do_presente": [
+        "passarei",
+        "passarás",
+        "passará",
+        "passaremos",
+        "passareis",
+        "passarão"
+      ],
+      "futuro_do_preterito": [
+        "passaria",
+        "passarias",
+        "passaria",
+        "passaríamos",
+        "passaríeis",
+        "passariam"
+      ],
+      "presente_subjuntivo": [
+        "passe",
+        "passes",
+        "passe",
+        "passemos",
+        "passeis",
+        "passem"
+      ],
+      "imperativo": [
+        "-",
+        "passa",
+        "passe",
+        "passemos",
+        "passai",
+        "passem"
       ]
     },
     "examples": [
@@ -1201,6 +2881,46 @@
         "duramos",
         "durastes",
         "duraram"
+      ],
+      "preterito_imperfeito": [
+        "durava",
+        "duravas",
+        "durava",
+        "durávamos",
+        "duráveis",
+        "duravam"
+      ],
+      "futuro_do_presente": [
+        "durarei",
+        "durarás",
+        "durará",
+        "duraremos",
+        "durareis",
+        "durarão"
+      ],
+      "futuro_do_preterito": [
+        "duraria",
+        "durarias",
+        "duraria",
+        "duraríamos",
+        "duraríeis",
+        "durariam"
+      ],
+      "presente_subjuntivo": [
+        "dure",
+        "dures",
+        "dure",
+        "duremos",
+        "dureis",
+        "durem"
+      ],
+      "imperativo": [
+        "-",
+        "dura",
+        "dure",
+        "duremos",
+        "durai",
+        "durem"
       ]
     },
     "examples": [
@@ -1230,6 +2950,46 @@
         "paramos",
         "parastes",
         "pararam"
+      ],
+      "preterito_imperfeito": [
+        "parava",
+        "paravas",
+        "parava",
+        "parávamos",
+        "paráveis",
+        "paravam"
+      ],
+      "futuro_do_presente": [
+        "pararei",
+        "pararás",
+        "parará",
+        "pararemos",
+        "parareis",
+        "pararão"
+      ],
+      "futuro_do_preterito": [
+        "pararia",
+        "pararias",
+        "pararia",
+        "pararíamos",
+        "pararíeis",
+        "parariam"
+      ],
+      "presente_subjuntivo": [
+        "pare",
+        "pares",
+        "pare",
+        "paremos",
+        "pareis",
+        "parem"
+      ],
+      "imperativo": [
+        "-",
+        "para",
+        "pare",
+        "paremos",
+        "parai",
+        "parem"
       ]
     },
     "examples": [
@@ -1259,6 +3019,46 @@
         "continuamos",
         "continuastes",
         "continuaram"
+      ],
+      "preterito_imperfeito": [
+        "continuava",
+        "continuavas",
+        "continuava",
+        "continuávamos",
+        "continuáveis",
+        "continuavam"
+      ],
+      "futuro_do_presente": [
+        "continuarei",
+        "continuarás",
+        "continuará",
+        "continuaremos",
+        "continuareis",
+        "continuarão"
+      ],
+      "futuro_do_preterito": [
+        "continuaria",
+        "continuarias",
+        "continuaria",
+        "continuaríamos",
+        "continuaríeis",
+        "continuariam"
+      ],
+      "presente_subjuntivo": [
+        "continue",
+        "continues",
+        "continue",
+        "continuemos",
+        "continueis",
+        "continuem"
+      ],
+      "imperativo": [
+        "-",
+        "continua",
+        "continue",
+        "continuemos",
+        "continuai",
+        "continuem"
       ]
     },
     "examples": [
@@ -1289,6 +3089,46 @@
         "começamos",
         "começastes",
         "começaram"
+      ],
+      "preterito_imperfeito": [
+        "começava",
+        "começavas",
+        "começava",
+        "começávamos",
+        "começáveis",
+        "começavam"
+      ],
+      "futuro_do_presente": [
+        "começarei",
+        "começarás",
+        "começará",
+        "começaremos",
+        "começareis",
+        "começarão"
+      ],
+      "futuro_do_preterito": [
+        "começaria",
+        "começarias",
+        "começaria",
+        "começaríamos",
+        "começaríeis",
+        "começariam"
+      ],
+      "presente_subjuntivo": [
+        "comece",
+        "comeces",
+        "comece",
+        "comecemos",
+        "comeceis",
+        "comecem"
+      ],
+      "imperativo": [
+        "-",
+        "começa",
+        "comece",
+        "comecemos",
+        "começai",
+        "comecem"
       ]
     },
     "examples": [
@@ -1318,6 +3158,46 @@
         "terminamos",
         "terminastes",
         "terminaram"
+      ],
+      "preterito_imperfeito": [
+        "terminava",
+        "terminavas",
+        "terminava",
+        "terminávamos",
+        "termináveis",
+        "terminavam"
+      ],
+      "futuro_do_presente": [
+        "terminarei",
+        "terminarás",
+        "terminará",
+        "terminaremos",
+        "terminareis",
+        "terminarão"
+      ],
+      "futuro_do_preterito": [
+        "terminaria",
+        "terminarias",
+        "terminaria",
+        "terminaríamos",
+        "terminaríeis",
+        "terminariam"
+      ],
+      "presente_subjuntivo": [
+        "termine",
+        "termines",
+        "termine",
+        "terminemos",
+        "termineis",
+        "terminem"
+      ],
+      "imperativo": [
+        "-",
+        "termina",
+        "termine",
+        "terminemos",
+        "terminai",
+        "terminem"
       ]
     },
     "examples": [
@@ -1347,6 +3227,46 @@
         "ganhamos",
         "ganhastes",
         "ganharam"
+      ],
+      "preterito_imperfeito": [
+        "ganhava",
+        "ganhavas",
+        "ganhava",
+        "ganhávamos",
+        "ganháveis",
+        "ganhavam"
+      ],
+      "futuro_do_presente": [
+        "ganharei",
+        "ganharás",
+        "ganhará",
+        "ganharemos",
+        "ganhareis",
+        "ganharão"
+      ],
+      "futuro_do_preterito": [
+        "ganharia",
+        "ganharias",
+        "ganharia",
+        "ganharíamos",
+        "ganharíeis",
+        "ganhariam"
+      ],
+      "presente_subjuntivo": [
+        "ganhe",
+        "ganhes",
+        "ganhe",
+        "ganhemos",
+        "ganheis",
+        "ganhem"
+      ],
+      "imperativo": [
+        "-",
+        "ganha",
+        "ganhe",
+        "ganhemos",
+        "ganhai",
+        "ganhem"
       ]
     },
     "examples": [
@@ -1377,6 +3297,46 @@
         "perdemos",
         "perdestes",
         "perderam"
+      ],
+      "preterito_imperfeito": [
+        "perdia",
+        "perdias",
+        "perdia",
+        "perdíamos",
+        "perdíeis",
+        "perdiam"
+      ],
+      "futuro_do_presente": [
+        "perderei",
+        "perderás",
+        "perderá",
+        "perderemos",
+        "perdereis",
+        "perderão"
+      ],
+      "futuro_do_preterito": [
+        "perderia",
+        "perderias",
+        "perderia",
+        "perderíamos",
+        "perderíeis",
+        "perderiam"
+      ],
+      "presente_subjuntivo": [
+        "perca",
+        "percas",
+        "perca",
+        "percamos",
+        "percais",
+        "percam"
+      ],
+      "imperativo": [
+        "-",
+        "perde",
+        "perca",
+        "percamos",
+        "perdei",
+        "percam"
       ]
     },
     "examples": [
@@ -1404,6 +3364,46 @@
         "oferecemos",
         "oferecestes",
         "ofereceram"
+      ],
+      "preterito_imperfeito": [
+        "oferecia",
+        "oferecias",
+        "oferecia",
+        "oferecíamos",
+        "oferecíeis",
+        "ofereciam"
+      ],
+      "futuro_do_presente": [
+        "oferecerei",
+        "oferecerás",
+        "oferecerá",
+        "ofereceremos",
+        "oferecereis",
+        "oferecerão"
+      ],
+      "futuro_do_preterito": [
+        "ofereceria",
+        "oferecerias",
+        "ofereceria",
+        "ofereceríamos",
+        "ofereceríeis",
+        "ofereceriam"
+      ],
+      "presente_subjuntivo": [
+        "ofereça",
+        "ofereças",
+        "ofereça",
+        "ofereçamos",
+        "ofereçais",
+        "ofereçam"
+      ],
+      "imperativo": [
+        "-",
+        "oferece",
+        "ofereça",
+        "ofereçamos",
+        "oferecei",
+        "ofereçam"
       ]
     },
     "examples": [
@@ -1433,6 +3433,46 @@
         "recebemos",
         "recebestes",
         "receberam"
+      ],
+      "preterito_imperfeito": [
+        "recebia",
+        "recebias",
+        "recebia",
+        "recebíamos",
+        "recebíeis",
+        "recebiam"
+      ],
+      "futuro_do_presente": [
+        "receberei",
+        "receberás",
+        "receberá",
+        "receberemos",
+        "recebereis",
+        "receberão"
+      ],
+      "futuro_do_preterito": [
+        "receberia",
+        "receberias",
+        "receberia",
+        "receberíamos",
+        "receberíeis",
+        "receberiam"
+      ],
+      "presente_subjuntivo": [
+        "receba",
+        "recebas",
+        "receba",
+        "recebamos",
+        "recebais",
+        "recebam"
+      ],
+      "imperativo": [
+        "-",
+        "recebe",
+        "receba",
+        "recebamos",
+        "recebei",
+        "recebam"
       ]
     },
     "examples": [
@@ -1462,6 +3502,46 @@
         "enviamos",
         "enviastes",
         "enviaram"
+      ],
+      "preterito_imperfeito": [
+        "enviava",
+        "enviavas",
+        "enviava",
+        "enviávamos",
+        "enviáveis",
+        "enviavam"
+      ],
+      "futuro_do_presente": [
+        "enviarei",
+        "enviarás",
+        "enviará",
+        "enviaremos",
+        "enviareis",
+        "enviarão"
+      ],
+      "futuro_do_preterito": [
+        "enviaria",
+        "enviarias",
+        "enviaria",
+        "enviaríamos",
+        "enviaríeis",
+        "enviariam"
+      ],
+      "presente_subjuntivo": [
+        "envie",
+        "envies",
+        "envie",
+        "enviemos",
+        "envieis",
+        "enviem"
+      ],
+      "imperativo": [
+        "-",
+        "envia",
+        "envie",
+        "enviemos",
+        "enviai",
+        "enviem"
       ]
     },
     "examples": [
@@ -1489,6 +3569,46 @@
         "alugamos",
         "alugastes",
         "alugaram"
+      ],
+      "preterito_imperfeito": [
+        "alugava",
+        "alugavas",
+        "alugava",
+        "alugávamos",
+        "alugáveis",
+        "alugavam"
+      ],
+      "futuro_do_presente": [
+        "alugarei",
+        "alugarás",
+        "alugará",
+        "alugaremos",
+        "alugareis",
+        "alugarão"
+      ],
+      "futuro_do_preterito": [
+        "alugaria",
+        "alugarias",
+        "alugaria",
+        "alugaríamos",
+        "alugaríeis",
+        "alugariam"
+      ],
+      "presente_subjuntivo": [
+        "alugue",
+        "alugues",
+        "alugue",
+        "aluguemos",
+        "alugueis",
+        "aluguem"
+      ],
+      "imperativo": [
+        "-",
+        "aluga",
+        "alugue",
+        "aluguemos",
+        "alugai",
+        "aluguem"
       ]
     },
     "examples": [
@@ -1516,6 +3636,46 @@
         "ficamos",
         "ficastes",
         "ficaram"
+      ],
+      "preterito_imperfeito": [
+        "ficava",
+        "ficavas",
+        "ficava",
+        "ficávamos",
+        "ficáveis",
+        "ficavam"
+      ],
+      "futuro_do_presente": [
+        "ficarei",
+        "ficarás",
+        "ficará",
+        "ficaremos",
+        "ficareis",
+        "ficarão"
+      ],
+      "futuro_do_preterito": [
+        "ficaria",
+        "ficarias",
+        "ficaria",
+        "ficaríamos",
+        "ficaríeis",
+        "ficariam"
+      ],
+      "presente_subjuntivo": [
+        "fique",
+        "fiques",
+        "fique",
+        "fiquemos",
+        "fiqueis",
+        "fiquem"
+      ],
+      "imperativo": [
+        "-",
+        "fica",
+        "fique",
+        "fiquemos",
+        "ficai",
+        "fiquem"
       ]
     },
     "examples": [
@@ -1543,6 +3703,46 @@
         "parecemos",
         "parecestes",
         "pareceram"
+      ],
+      "preterito_imperfeito": [
+        "parecia",
+        "parecias",
+        "parecia",
+        "parecíamos",
+        "parecíeis",
+        "pareciam"
+      ],
+      "futuro_do_presente": [
+        "parecerei",
+        "parecerás",
+        "parecerá",
+        "pareceremos",
+        "parecereis",
+        "parecerão"
+      ],
+      "futuro_do_preterito": [
+        "pareceria",
+        "parecerias",
+        "pareceria",
+        "pareceríamos",
+        "pareceríeis",
+        "pareceriam"
+      ],
+      "presente_subjuntivo": [
+        "pareça",
+        "pareças",
+        "pareça",
+        "pareçamos",
+        "pareçais",
+        "pareçam"
+      ],
+      "imperativo": [
+        "-",
+        "parece",
+        "pareça",
+        "pareçamos",
+        "parecei",
+        "pareçam"
       ]
     },
     "examples": [
@@ -1572,6 +3772,46 @@
         "quebramos",
         "quebrastes",
         "quebraram"
+      ],
+      "preterito_imperfeito": [
+        "quebrava",
+        "quebravas",
+        "quebrava",
+        "quebrávamos",
+        "quebráveis",
+        "quebravam"
+      ],
+      "futuro_do_presente": [
+        "quebrarei",
+        "quebrarás",
+        "quebrará",
+        "quebraremos",
+        "quebrareis",
+        "quebrarão"
+      ],
+      "futuro_do_preterito": [
+        "quebraria",
+        "quebrarias",
+        "quebraria",
+        "quebraríamos",
+        "quebraríeis",
+        "quebrariam"
+      ],
+      "presente_subjuntivo": [
+        "quebre",
+        "quebres",
+        "quebre",
+        "quebremos",
+        "quebreis",
+        "quebrem"
+      ],
+      "imperativo": [
+        "-",
+        "quebra",
+        "quebre",
+        "quebremos",
+        "quebrai",
+        "quebrem"
       ]
     },
     "examples": [
@@ -1601,6 +3841,46 @@
         "abrimos",
         "abristes",
         "abriram"
+      ],
+      "preterito_imperfeito": [
+        "abria",
+        "abrias",
+        "abria",
+        "abríamos",
+        "abríeis",
+        "abriam"
+      ],
+      "futuro_do_presente": [
+        "abrirei",
+        "abrirás",
+        "abrirá",
+        "abriremos",
+        "abrireis",
+        "abrirão"
+      ],
+      "futuro_do_preterito": [
+        "abriria",
+        "abririas",
+        "abriria",
+        "abriríamos",
+        "abriríeis",
+        "abririam"
+      ],
+      "presente_subjuntivo": [
+        "abra",
+        "abras",
+        "abra",
+        "abramos",
+        "abrais",
+        "abram"
+      ],
+      "imperativo": [
+        "-",
+        "abre",
+        "abra",
+        "abramos",
+        "abri",
+        "abram"
       ]
     },
     "examples": [
@@ -1630,6 +3910,46 @@
         "fechamos",
         "fechastes",
         "fecharam"
+      ],
+      "preterito_imperfeito": [
+        "fechava",
+        "fechavas",
+        "fechava",
+        "fechávamos",
+        "fecháveis",
+        "fechavam"
+      ],
+      "futuro_do_presente": [
+        "fecharei",
+        "fecharás",
+        "fechará",
+        "fecharemos",
+        "fechareis",
+        "fecharão"
+      ],
+      "futuro_do_preterito": [
+        "fecharia",
+        "fecharias",
+        "fecharia",
+        "fecharíamos",
+        "fecharíeis",
+        "fechariam"
+      ],
+      "presente_subjuntivo": [
+        "feche",
+        "feches",
+        "feche",
+        "fechemos",
+        "fecheis",
+        "fechem"
+      ],
+      "imperativo": [
+        "-",
+        "fecha",
+        "feche",
+        "fechemos",
+        "fechai",
+        "fechem"
       ]
     },
     "examples": [
@@ -1657,6 +3977,46 @@
         "tocamos",
         "tocastes",
         "tocaram"
+      ],
+      "preterito_imperfeito": [
+        "tocava",
+        "tocavas",
+        "tocava",
+        "tocávamos",
+        "tocáveis",
+        "tocavam"
+      ],
+      "futuro_do_presente": [
+        "tocarei",
+        "tocarás",
+        "tocará",
+        "tocaremos",
+        "tocareis",
+        "tocarão"
+      ],
+      "futuro_do_preterito": [
+        "tocaria",
+        "tocarias",
+        "tocaria",
+        "tocaríamos",
+        "tocaríeis",
+        "tocariam"
+      ],
+      "presente_subjuntivo": [
+        "toque",
+        "toques",
+        "toque",
+        "toquemos",
+        "toqueis",
+        "toquem"
+      ],
+      "imperativo": [
+        "-",
+        "toca",
+        "toque",
+        "toquemos",
+        "tocai",
+        "toquem"
       ]
     },
     "examples": [
@@ -1684,6 +4044,46 @@
         "olhamos",
         "olhastes",
         "olharam"
+      ],
+      "preterito_imperfeito": [
+        "olhava",
+        "olhavas",
+        "olhava",
+        "olhávamos",
+        "olháveis",
+        "olhavam"
+      ],
+      "futuro_do_presente": [
+        "olharei",
+        "olharás",
+        "olhará",
+        "olharemos",
+        "olhareis",
+        "olharão"
+      ],
+      "futuro_do_preterito": [
+        "olharia",
+        "olharias",
+        "olharia",
+        "olharíamos",
+        "olharíeis",
+        "olhariam"
+      ],
+      "presente_subjuntivo": [
+        "olhe",
+        "olhes",
+        "olhe",
+        "olhemos",
+        "olheis",
+        "olhem"
+      ],
+      "imperativo": [
+        "-",
+        "olha",
+        "olhe",
+        "olhemos",
+        "olhai",
+        "olhem"
       ]
     },
     "examples": [
@@ -1711,6 +4111,46 @@
         "estudamos",
         "estudastes",
         "estudaram"
+      ],
+      "preterito_imperfeito": [
+        "estudava",
+        "estudavas",
+        "estudava",
+        "estudávamos",
+        "estudáveis",
+        "estudavam"
+      ],
+      "futuro_do_presente": [
+        "estudarei",
+        "estudarás",
+        "estudará",
+        "estudaremos",
+        "estudareis",
+        "estudarão"
+      ],
+      "futuro_do_preterito": [
+        "estudaria",
+        "estudarias",
+        "estudaria",
+        "estudaríamos",
+        "estudaríeis",
+        "estudariam"
+      ],
+      "presente_subjuntivo": [
+        "estude",
+        "estudes",
+        "estude",
+        "estudemos",
+        "estudeis",
+        "estudem"
+      ],
+      "imperativo": [
+        "-",
+        "estuda",
+        "estude",
+        "estudemos",
+        "estudai",
+        "estudem"
       ]
     },
     "examples": [
@@ -1738,6 +4178,46 @@
         "explicamos",
         "explicastes",
         "explicaram"
+      ],
+      "preterito_imperfeito": [
+        "explicava",
+        "explicavas",
+        "explicava",
+        "explicávamos",
+        "explicáveis",
+        "explicavam"
+      ],
+      "futuro_do_presente": [
+        "explicarei",
+        "explicarás",
+        "explicará",
+        "explicaremos",
+        "explicareis",
+        "explicarão"
+      ],
+      "futuro_do_preterito": [
+        "explicaria",
+        "explicarias",
+        "explicaria",
+        "explicaríamos",
+        "explicaríeis",
+        "explicariam"
+      ],
+      "presente_subjuntivo": [
+        "explique",
+        "expliques",
+        "explique",
+        "expliquemos",
+        "expliqueis",
+        "expliquem"
+      ],
+      "imperativo": [
+        "-",
+        "explica",
+        "explique",
+        "expliquemos",
+        "explicai",
+        "expliquem"
       ]
     },
     "examples": [
@@ -1765,6 +4245,46 @@
         "significamos",
         "significastes",
         "significaram"
+      ],
+      "preterito_imperfeito": [
+        "significava",
+        "significavas",
+        "significava",
+        "significávamos",
+        "significáveis",
+        "significavam"
+      ],
+      "futuro_do_presente": [
+        "significarei",
+        "significarás",
+        "significará",
+        "significaremos",
+        "significareis",
+        "significarão"
+      ],
+      "futuro_do_preterito": [
+        "significaria",
+        "significarias",
+        "significaria",
+        "significaríamos",
+        "significaríeis",
+        "significariam"
+      ],
+      "presente_subjuntivo": [
+        "signifique",
+        "signifiques",
+        "signifique",
+        "signifiquemos",
+        "signifiqueis",
+        "signifiquem"
+      ],
+      "imperativo": [
+        "-",
+        "significa",
+        "signifique",
+        "signifiquemos",
+        "significai",
+        "signifiquem"
       ]
     },
     "examples": [
@@ -1794,6 +4314,46 @@
         "perguntamos",
         "perguntastes",
         "perguntaram"
+      ],
+      "preterito_imperfeito": [
+        "perguntava",
+        "perguntavas",
+        "perguntava",
+        "perguntávamos",
+        "perguntáveis",
+        "perguntavam"
+      ],
+      "futuro_do_presente": [
+        "perguntarei",
+        "perguntarás",
+        "perguntará",
+        "perguntaremos",
+        "perguntareis",
+        "perguntarão"
+      ],
+      "futuro_do_preterito": [
+        "perguntaria",
+        "perguntarias",
+        "perguntaria",
+        "perguntaríamos",
+        "perguntaríeis",
+        "perguntariam"
+      ],
+      "presente_subjuntivo": [
+        "pergunte",
+        "perguntes",
+        "pergunte",
+        "perguntemos",
+        "pergunteis",
+        "perguntem"
+      ],
+      "imperativo": [
+        "-",
+        "pergunta",
+        "pergunte",
+        "perguntemos",
+        "perguntai",
+        "perguntem"
       ]
     },
     "examples": [
@@ -1823,6 +4383,46 @@
         "respondemos",
         "respondestes",
         "responderam"
+      ],
+      "preterito_imperfeito": [
+        "respondia",
+        "respondias",
+        "respondia",
+        "respondíamos",
+        "respondíeis",
+        "respondiam"
+      ],
+      "futuro_do_presente": [
+        "responderei",
+        "responderás",
+        "responderá",
+        "responderemos",
+        "respondereis",
+        "responderão"
+      ],
+      "futuro_do_preterito": [
+        "responderia",
+        "responderias",
+        "responderia",
+        "responderíamos",
+        "responderíeis",
+        "responderiam"
+      ],
+      "presente_subjuntivo": [
+        "responda",
+        "respondas",
+        "responda",
+        "respondamos",
+        "respondais",
+        "respondam"
+      ],
+      "imperativo": [
+        "-",
+        "responde",
+        "responda",
+        "respondamos",
+        "respondei",
+        "respondam"
       ]
     },
     "examples": [
@@ -1850,6 +4450,46 @@
         "agradecemos",
         "agradecestes",
         "agradeceram"
+      ],
+      "preterito_imperfeito": [
+        "agradecia",
+        "agradecias",
+        "agradecia",
+        "agradecíamos",
+        "agradecíeis",
+        "agradeciam"
+      ],
+      "futuro_do_presente": [
+        "agradecerei",
+        "agradecerás",
+        "agradecerá",
+        "agradeceremos",
+        "agradecereis",
+        "agradecerão"
+      ],
+      "futuro_do_preterito": [
+        "agradeceria",
+        "agradecerias",
+        "agradeceria",
+        "agradeceríamos",
+        "agradeceríeis",
+        "agradeceriam"
+      ],
+      "presente_subjuntivo": [
+        "agradeça",
+        "agradeças",
+        "agradeça",
+        "agradeçamos",
+        "agradeçais",
+        "agradeçam"
+      ],
+      "imperativo": [
+        "-",
+        "agradece",
+        "agradeça",
+        "agradeçamos",
+        "agradecei",
+        "agradeçam"
       ]
     },
     "examples": [
@@ -1877,6 +4517,46 @@
         "pedimos",
         "pedistes",
         "pediram"
+      ],
+      "preterito_imperfeito": [
+        "pedia",
+        "pedias",
+        "pedia",
+        "pedíamos",
+        "pedíeis",
+        "pediam"
+      ],
+      "futuro_do_presente": [
+        "pedirei",
+        "pedirás",
+        "pedirá",
+        "pediremos",
+        "pedireis",
+        "pedirão"
+      ],
+      "futuro_do_preterito": [
+        "pediria",
+        "pedirias",
+        "pediria",
+        "pediríamos",
+        "pediríeis",
+        "pediriam"
+      ],
+      "presente_subjuntivo": [
+        "peça",
+        "peças",
+        "peça",
+        "peçamos",
+        "peçais",
+        "peçam"
+      ],
+      "imperativo": [
+        "-",
+        "pede",
+        "peça",
+        "peçamos",
+        "pedi",
+        "peçam"
       ]
     },
     "examples": [
@@ -1906,6 +4586,46 @@
         "dissemos",
         "dissestes",
         "disseram"
+      ],
+      "preterito_imperfeito": [
+        "dizia",
+        "dizias",
+        "dizia",
+        "dizíamos",
+        "dizíeis",
+        "diziam"
+      ],
+      "futuro_do_presente": [
+        "direi",
+        "dirás",
+        "dirá",
+        "diremos",
+        "direis",
+        "dirão"
+      ],
+      "futuro_do_preterito": [
+        "diria",
+        "dirias",
+        "diria",
+        "diríamos",
+        "diríeis",
+        "diriam"
+      ],
+      "presente_subjuntivo": [
+        "diga",
+        "digas",
+        "diga",
+        "digamos",
+        "digais",
+        "digam"
+      ],
+      "imperativo": [
+        "-",
+        "diz",
+        "diga",
+        "digamos",
+        "dizei",
+        "digam"
       ]
     },
     "examples": [
@@ -1933,6 +4653,46 @@
         "contamos",
         "contastes",
         "contaram"
+      ],
+      "preterito_imperfeito": [
+        "contava",
+        "contavas",
+        "contava",
+        "contávamos",
+        "contáveis",
+        "contavam"
+      ],
+      "futuro_do_presente": [
+        "contarei",
+        "contarás",
+        "contará",
+        "contaremos",
+        "contareis",
+        "contarão"
+      ],
+      "futuro_do_preterito": [
+        "contaria",
+        "contarias",
+        "contaria",
+        "contaríamos",
+        "contaríeis",
+        "contariam"
+      ],
+      "presente_subjuntivo": [
+        "conte",
+        "contes",
+        "conte",
+        "contemos",
+        "conteis",
+        "contem"
+      ],
+      "imperativo": [
+        "-",
+        "conta",
+        "conte",
+        "contemos",
+        "contai",
+        "contem"
       ]
     },
     "examples": [
@@ -1962,6 +4722,46 @@
         "acreditamos",
         "acreditastes",
         "acreditaram"
+      ],
+      "preterito_imperfeito": [
+        "acreditava",
+        "acreditavas",
+        "acreditava",
+        "acreditávamos",
+        "acreditáveis",
+        "acreditavam"
+      ],
+      "futuro_do_presente": [
+        "acreditarei",
+        "acreditarás",
+        "acreditará",
+        "acreditaremos",
+        "acreditareis",
+        "acreditarão"
+      ],
+      "futuro_do_preterito": [
+        "acreditaria",
+        "acreditarias",
+        "acreditaria",
+        "acreditaríamos",
+        "acreditaríeis",
+        "acreditariam"
+      ],
+      "presente_subjuntivo": [
+        "acredite",
+        "acredites",
+        "acredite",
+        "acreditemos",
+        "acrediteis",
+        "acreditem"
+      ],
+      "imperativo": [
+        "-",
+        "acredita",
+        "acredite",
+        "acreditemos",
+        "acreditai",
+        "acreditem"
       ]
     },
     "examples": [
@@ -1989,6 +4789,46 @@
         "esperamos",
         "esperastes",
         "esperaram"
+      ],
+      "preterito_imperfeito": [
+        "esperava",
+        "esperavas",
+        "esperava",
+        "esperávamos",
+        "esperáveis",
+        "esperavam"
+      ],
+      "futuro_do_presente": [
+        "esperarei",
+        "esperarás",
+        "esperará",
+        "esperaremos",
+        "esperareis",
+        "esperarão"
+      ],
+      "futuro_do_preterito": [
+        "esperaria",
+        "esperarias",
+        "esperaria",
+        "esperaríamos",
+        "esperaríeis",
+        "esperariam"
+      ],
+      "presente_subjuntivo": [
+        "espere",
+        "esperes",
+        "espere",
+        "esperemos",
+        "espereis",
+        "esperem"
+      ],
+      "imperativo": [
+        "-",
+        "espera",
+        "espere",
+        "esperemos",
+        "esperai",
+        "esperem"
       ]
     },
     "examples": [
@@ -2018,6 +4858,46 @@
         "rimos",
         "ristes",
         "riram"
+      ],
+      "preterito_imperfeito": [
+        "ria",
+        "rias",
+        "ria",
+        "ríamos",
+        "ríeis",
+        "riam"
+      ],
+      "futuro_do_presente": [
+        "rirei",
+        "rirás",
+        "rirá",
+        "riremos",
+        "rireis",
+        "rirão"
+      ],
+      "futuro_do_preterito": [
+        "riria",
+        "ririas",
+        "riria",
+        "riríamos",
+        "riríeis",
+        "ririam"
+      ],
+      "presente_subjuntivo": [
+        "ria",
+        "rias",
+        "ria",
+        "riamos",
+        "riais",
+        "riam"
+      ],
+      "imperativo": [
+        "-",
+        "ri",
+        "ria",
+        "riamos",
+        "ride",
+        "riam"
       ]
     },
     "examples": [
@@ -2047,6 +4927,46 @@
         "choramos",
         "chorastes",
         "choraram"
+      ],
+      "preterito_imperfeito": [
+        "chorava",
+        "choravas",
+        "chorava",
+        "chorávamos",
+        "choráveis",
+        "choravam"
+      ],
+      "futuro_do_presente": [
+        "chorarei",
+        "chorarás",
+        "chorará",
+        "choraremos",
+        "chorareis",
+        "chorarão"
+      ],
+      "futuro_do_preterito": [
+        "choraria",
+        "chorarias",
+        "choraria",
+        "choraríamos",
+        "choraríeis",
+        "chorariam"
+      ],
+      "presente_subjuntivo": [
+        "chore",
+        "chores",
+        "chore",
+        "choremos",
+        "choreis",
+        "chorem"
+      ],
+      "imperativo": [
+        "-",
+        "chora",
+        "chore",
+        "choremos",
+        "chorai",
+        "chorem"
       ]
     },
     "examples": [
@@ -2074,6 +4994,46 @@
         "dançamos",
         "dançastes",
         "dançaram"
+      ],
+      "preterito_imperfeito": [
+        "dançava",
+        "dançavas",
+        "dançava",
+        "dançávamos",
+        "dançáveis",
+        "dançavam"
+      ],
+      "futuro_do_presente": [
+        "dançarei",
+        "dançarás",
+        "dançará",
+        "dançaremos",
+        "dançareis",
+        "dançarão"
+      ],
+      "futuro_do_preterito": [
+        "dançaria",
+        "dançarias",
+        "dançaria",
+        "dançaríamos",
+        "dançaríeis",
+        "dançariam"
+      ],
+      "presente_subjuntivo": [
+        "dance",
+        "dances",
+        "dance",
+        "dancemos",
+        "danceis",
+        "dancem"
+      ],
+      "imperativo": [
+        "-",
+        "dança",
+        "dance",
+        "dancemos",
+        "dançai",
+        "dancem"
       ]
     },
     "examples": [
@@ -2101,6 +5061,46 @@
         "cantamos",
         "cantastes",
         "cantaram"
+      ],
+      "preterito_imperfeito": [
+        "cantava",
+        "cantavas",
+        "cantava",
+        "cantávamos",
+        "cantáveis",
+        "cantavam"
+      ],
+      "futuro_do_presente": [
+        "cantarei",
+        "cantarás",
+        "cantará",
+        "cantaremos",
+        "cantareis",
+        "cantarão"
+      ],
+      "futuro_do_preterito": [
+        "cantaria",
+        "cantarias",
+        "cantaria",
+        "cantaríamos",
+        "cantaríeis",
+        "cantariam"
+      ],
+      "presente_subjuntivo": [
+        "cante",
+        "cantes",
+        "cante",
+        "cantemos",
+        "canteis",
+        "cantem"
+      ],
+      "imperativo": [
+        "-",
+        "canta",
+        "cante",
+        "cantemos",
+        "cantai",
+        "cantem"
       ]
     },
     "examples": [
@@ -2128,6 +5128,46 @@
         "pintamos",
         "pintastes",
         "pintaram"
+      ],
+      "preterito_imperfeito": [
+        "pintava",
+        "pintavas",
+        "pintava",
+        "pintávamos",
+        "pintáveis",
+        "pintavam"
+      ],
+      "futuro_do_presente": [
+        "pintarei",
+        "pintarás",
+        "pintará",
+        "pintaremos",
+        "pintareis",
+        "pintarão"
+      ],
+      "futuro_do_preterito": [
+        "pintaria",
+        "pintarias",
+        "pintaria",
+        "pintaríamos",
+        "pintaríeis",
+        "pintariam"
+      ],
+      "presente_subjuntivo": [
+        "pinte",
+        "pintes",
+        "pinte",
+        "pintemos",
+        "pinteis",
+        "pintem"
+      ],
+      "imperativo": [
+        "-",
+        "pinta",
+        "pinte",
+        "pintemos",
+        "pintai",
+        "pintem"
       ]
     },
     "examples": [
@@ -2155,6 +5195,46 @@
         "desenhamos",
         "desenhastes",
         "desenharam"
+      ],
+      "preterito_imperfeito": [
+        "desenhava",
+        "desenhavas",
+        "desenhava",
+        "desenhávamos",
+        "desenháveis",
+        "desenhavam"
+      ],
+      "futuro_do_presente": [
+        "desenharei",
+        "desenharás",
+        "desenhará",
+        "desenharemos",
+        "desenhareis",
+        "desenharão"
+      ],
+      "futuro_do_preterito": [
+        "desenharia",
+        "desenharias",
+        "desenharia",
+        "desenharíamos",
+        "desenharíeis",
+        "desenhariam"
+      ],
+      "presente_subjuntivo": [
+        "desenhe",
+        "desenhes",
+        "desenhe",
+        "desenhemos",
+        "desenheis",
+        "desenhem"
+      ],
+      "imperativo": [
+        "-",
+        "desenha",
+        "desenhe",
+        "desenhemos",
+        "desenhai",
+        "desenhem"
       ]
     },
     "examples": [
@@ -2182,6 +5262,46 @@
         "visitamos",
         "visitastes",
         "visitaram"
+      ],
+      "preterito_imperfeito": [
+        "visitava",
+        "visitavas",
+        "visitava",
+        "visitávamos",
+        "visitáveis",
+        "visitavam"
+      ],
+      "futuro_do_presente": [
+        "visitarei",
+        "visitarás",
+        "visitará",
+        "visitaremos",
+        "visitareis",
+        "visitarão"
+      ],
+      "futuro_do_preterito": [
+        "visitaria",
+        "visitarias",
+        "visitaria",
+        "visitaríamos",
+        "visitaríeis",
+        "visitariam"
+      ],
+      "presente_subjuntivo": [
+        "visite",
+        "visites",
+        "visite",
+        "visitemos",
+        "visiteis",
+        "visitem"
+      ],
+      "imperativo": [
+        "-",
+        "visita",
+        "visite",
+        "visitemos",
+        "visitai",
+        "visitem"
       ]
     },
     "examples": [
@@ -2209,6 +5329,46 @@
         "convidamos",
         "convidastes",
         "convidaram"
+      ],
+      "preterito_imperfeito": [
+        "convidava",
+        "convidavas",
+        "convidava",
+        "convidávamos",
+        "convidáveis",
+        "convidavam"
+      ],
+      "futuro_do_presente": [
+        "convidarei",
+        "convidarás",
+        "convidará",
+        "convidaremos",
+        "convidareis",
+        "convidarão"
+      ],
+      "futuro_do_preterito": [
+        "convidaria",
+        "convidarias",
+        "convidaria",
+        "convidaríamos",
+        "convidaríeis",
+        "convidariam"
+      ],
+      "presente_subjuntivo": [
+        "convide",
+        "convides",
+        "convide",
+        "convidemos",
+        "convideis",
+        "convidem"
+      ],
+      "imperativo": [
+        "-",
+        "convida",
+        "convide",
+        "convidemos",
+        "convidai",
+        "convidem"
       ]
     },
     "examples": [
