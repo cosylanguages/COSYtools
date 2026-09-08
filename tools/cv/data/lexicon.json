@@ -7,6 +7,7 @@
       "source": "tools/cv/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "Пурăнмалли çурт-нĕр.",
         "cases": {
           "nom_sing": "çурт",
@@ -20,7 +21,11 @@
           "abl_sing": "çуртран",
           "abl_plur": "çуртсенчерен",
           "loc_sing": "çуртра",
-          "loc_plur": "çуртсенче"
+          "loc_plur": "çуртсенче",
+          "ins_sing": "çуртпа",
+          "ins_plur": "çуртсемпе",
+          "cau_sing": "çуртшăн",
+          "cau_plur": "çуртсемшĕн"
         },
         "examples": [
           "Пирĕн çурт пысăк."
@@ -33,6 +38,7 @@
       "source": "tools/cv/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "Вуламалли кăларăм.",
         "cases": {
           "nom_sing": "кĕнеке",
@@ -46,7 +52,11 @@
           "abl_sing": "кĕнекерен",
           "abl_plur": "кĕнекесенчерен",
           "loc_sing": "кĕнекере",
-          "loc_plur": "кĕнекесенче"
+          "loc_plur": "кĕнекесенче",
+          "ins_sing": "кĕнекепе",
+          "ins_plur": "кĕнекесемпе",
+          "cau_sing": "кĕнекешĕн",
+          "cau_plur": "кĕнекесемшĕн"
         },
         "examples": [
           "Эпĕ интереслĕ кĕнеке вулатăп."
@@ -59,6 +69,7 @@
       "source": "tools/cv/cases/data/nouns.json",
       "data": {
         "level": "A1",
+        "needs_review": true,
         "definition": "Хулари ялти çул.",
         "cases": {
           "nom_sing": "урам",
@@ -72,7 +83,11 @@
           "abl_sing": "урамран",
           "abl_plur": "урамсенчерен",
           "loc_sing": "урамра",
-          "loc_plur": "урамсенче"
+          "loc_plur": "урамсенче",
+          "ins_sing": "урампа",
+          "ins_plur": "урамсемпе",
+          "cau_sing": "урамшăн",
+          "cau_plur": "урамсемшĕн"
         },
         "examples": [
           "Урамра хĕвел ялкăшать."
@@ -99,7 +114,11 @@
           "abl_sing": "шывран",
           "abl_plur": "шывсенчерен",
           "loc_sing": "шывра",
-          "loc_plur": "шывсенче"
+          "loc_plur": "шывсенче",
+          "ins_sing": "шывпа",
+          "ins_plur": "шывсемпе",
+          "cau_sing": "шывшăн",
+          "cau_plur": "шывсемшĕн"
         },
         "examples": [
           "Таса шыв ĕçесси сывлăхшăн усăллă."
