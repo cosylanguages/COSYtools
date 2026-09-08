@@ -118,5 +118,505 @@
     "examples": [
       "Por favor, fecha a porta."
     ]
+  },
+  "pão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Alimento básico feito de farinha, água e fermento.",
+    "article": "o",
+    "plural": "pães",
+    "examples": [
+      "Compro pão fresco todas as manhãs na padaria."
+    ]
+  },
+  "maçã": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Fruta arredondada de casca vermelha ou verde.",
+    "article": "a",
+    "plural": "maçãs",
+    "examples": [
+      "Como uma maçã deliciosa no lanche."
+    ]
+  },
+  "leite": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Líquido branco produzido pelas vacas.",
+    "article": "o",
+    "plural": "leites",
+    "examples": [
+      "Bebo café com leite logo cedo."
+    ]
+  },
+  "café": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Bebida quente preparada com grãos torrados.",
+    "article": "o",
+    "plural": "cafés",
+    "examples": [
+      "O café expresso é muito popular em Portugal."
+    ]
+  },
+  "chá": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Infusão de folhas de plantas em água quente.",
+    "article": "o",
+    "plural": "chás",
+    "examples": [
+      "Prefiro chá de camomila à noite."
+    ]
+  },
+  "queijo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Alimento sólido derivado do leite.",
+    "article": "o",
+    "plural": "queijos",
+    "examples": [
+      "Gosto de comer queijo com pão."
+    ]
+  },
+  "ovo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Alimento produzido por aves.",
+    "article": "o",
+    "plural": "ovos",
+    "examples": [
+      "Como dois ovos mexidos no pequeno-almoço."
+    ]
+  },
+  "carne": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Parte comestível do corpo de animais.",
+    "article": "a",
+    "plural": "carnes",
+    "examples": [
+      "A carne assada está muito saborosa."
+    ]
+  },
+  "peixe": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Animal aquático servido como alimento.",
+    "article": "o",
+    "plural": "peixes",
+    "examples": [
+      "O peixe grelhado é uma refeição saudável."
+    ]
+  },
+  "legume": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Planta hortaliça usada na culinária.",
+    "article": "o",
+    "plural": "legumes",
+    "examples": [
+      "Preparo uma sopa com legumes frescos."
+    ]
+  },
+  "fruta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Fruto comestível de sabor doce ou ácido.",
+    "article": "a",
+    "plural": "frutas",
+    "examples": [
+      "Compro fruta fresca no mercado local."
+    ]
+  },
+  "cão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Animal doméstico muito leal.",
+    "article": "o",
+    "plural": "cães",
+    "examples": [
+      "O cão passeia com o dono no parque."
+    ]
+  },
+  "gato": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pequeno animal felino doméstico.",
+    "article": "o",
+    "plural": "gatos",
+    "examples": [
+      "O gato dorme na almofada da sala."
+    ]
+  },
+  "pássaro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Ave pequena com penas e asas.",
+    "article": "o",
+    "plural": "pássaros",
+    "examples": [
+      "Um pássaro canta na árvore."
+    ]
+  },
+  "árvore": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Planta grande de tronco de madeira.",
+    "article": "a",
+    "plural": "árvores",
+    "examples": [
+      "A árvore dá sombras agradáveis no Verão."
+    ]
+  },
+  "flor": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Parte colorida das plantas.",
+    "article": "a",
+    "plural": "flores",
+    "examples": [
+      "Ofereço uma flor bonita à minha amiga."
+    ]
+  },
+  "jardim": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Espaço com plantas e flores ornamentais.",
+    "article": "o",
+    "plural": "jardins",
+    "examples": [
+      "O jardim da casa é encantador."
+    ]
+  },
+  "caminho": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Faixa de terra para transitar.",
+    "article": "o",
+    "plural": "caminhos",
+    "examples": [
+      "O caminho leva até à praia."
+    ]
+  },
+  "rua": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Via pública nas vilas e cidades.",
+    "article": "a",
+    "plural": "ruas",
+    "examples": [
+      "A rua está muito movimentada hoje."
+    ]
+  },
+  "praça": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Espaço público aberto numa localidade.",
+    "article": "a",
+    "plural": "praças",
+    "examples": [
+      "Encontramo-nos na praça principal."
+    ]
+  },
+  "estação": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Local de paragem de comboios e autocarros.",
+    "article": "a",
+    "plural": "estações",
+    "examples": [
+      "O comboio chega à estação às dez horas."
+    ]
+  },
+  "aeroporto": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Instalação para aterragem e descolagem de aviões.",
+    "article": "o",
+    "plural": "aeroportos",
+    "examples": [
+      "Chegamos cedo ao aeroporto de Lisboa."
+    ]
+  },
+  "comboio": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Veículo sobre carris para transporte de passageiros.",
+    "article": "o",
+    "plural": "comboios",
+    "examples": [
+      "Viajamos de comboio para o Porto."
+    ]
+  },
+  "autocarro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Veículo automóvel grande para passageiros.",
+    "article": "o",
+    "plural": "autocarros",
+    "examples": [
+      "Apanho o autocarro para ir à escola."
+    ]
+  },
+  "bicicleta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Veículo de duas rodas movido a pedais.",
+    "article": "a",
+    "plural": "bicicletas",
+    "examples": [
+      "Andar de bicicleta é muito divertido."
+    ]
+  },
+  "avião": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Aeronave com asas e motor.",
+    "article": "o",
+    "plural": "aviões",
+    "examples": [
+      "O avião voa alto acima das nuvens."
+    ]
+  },
+  "barco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Embarcação para navegar na água.",
+    "article": "o",
+    "plural": "barcos",
+    "examples": [
+      "O barco navega tranquilamente no rio."
+    ]
+  },
+  "cartão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Objeto pequeno de plástico para pagamentos.",
+    "article": "o",
+    "plural": "cartões",
+    "examples": [
+      "Pago a conta com cartão bancário."
+    ]
+  },
+  "dinheiro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Moedas e notas usadas para comprar bens.",
+    "article": "o",
+    "plural": "dinheiros",
+    "examples": [
+      "Tenho dinheiro suficiente na carteira."
+    ]
+  },
+  "banco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Instituição financeira de depósitos.",
+    "article": "o",
+    "plural": "bancos",
+    "examples": [
+      "Vou ao banco levantar dinheiro."
+    ]
+  },
+  "hotel": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Estabelecimento que dá alojamento a clientes.",
+    "article": "o",
+    "plural": "hotéis",
+    "examples": [
+      "Ficamos hospedados num hotel central."
+    ]
+  },
+  "quarto": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Divisão da casa destinada a dormir.",
+    "article": "o",
+    "plural": "quartos",
+    "examples": [
+      "O meu quarto é grande e limpo."
+    ]
+  },
+  "cama": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Móvel usado para dormir e descansar.",
+    "article": "a",
+    "plural": "camas",
+    "examples": [
+      "A cama é muito confortável."
+    ]
+  },
+  "armário": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Móvel com portas para guardar roupa.",
+    "article": "o",
+    "plural": "armários",
+    "examples": [
+      "Guardo os casacos no armário."
+    ]
+  },
+  "lâmpada": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Dispositivo que produz luz elétrica.",
+    "article": "a",
+    "plural": "lâmpadas",
+    "examples": [
+      "Acendo a lâmpada da mesa."
+    ]
+  },
+  "quadro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pintura emoldurada decorativa.",
+    "article": "o",
+    "plural": "quadros",
+    "examples": [
+      "Na parede está pendurado um quadro bonito."
+    ]
+  },
+  "relógio": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Instrumento para medir o tempo.",
+    "article": "o",
+    "plural": "relógios",
+    "examples": [
+      "Olho para o relógio para saber as horas."
+    ]
+  },
+  "saco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Recipiente flexível para transportar objetos.",
+    "article": "o",
+    "plural": "sacos",
+    "examples": [
+      "Levo as compras num saco de pano."
+    ]
+  },
+  "mala": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Bagagem rígida usada em viagens.",
+    "article": "a",
+    "plural": "malas",
+    "examples": [
+      "Faço a mala na véspera da viagem."
+    ]
+  },
+  "roupa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Vestuário usado para cobrir o corpo.",
+    "article": "a",
+    "plural": "roupas",
+    "examples": [
+      "Lavo a roupa ao fim de semana."
+    ]
+  },
+  "camisa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Peça de vestuário com mangas e botões.",
+    "article": "a",
+    "plural": "camisas",
+    "examples": [
+      "Visto uma camisa branca e elegante."
+    ]
+  },
+  "calças": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Peça de vestuário que cobre as pernas.",
+    "article": "as",
+    "plural": "calças",
+    "examples": [
+      "Compro umas calças azuis confortáveis."
+    ]
+  },
+  "sapato": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Calçado que protege o pé.",
+    "article": "o",
+    "plural": "sapatos",
+    "examples": [
+      "Calço os meus sapatos pretos."
+    ]
+  },
+  "casaco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Peça de vestuário quente para o Frio.",
+    "article": "o",
+    "plural": "casacos",
+    "examples": [
+      "Visto o casaco quando está frio."
+    ]
+  },
+  "jaqueta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Casaco curto de fecho ou botões.",
+    "article": "a",
+    "plural": "jaquetas",
+    "examples": [
+      "A jaqueta de cabedal é muito estilosa."
+    ]
+  },
+  "chapéu": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Acessório usado para cobrir a cabeça.",
+    "article": "o",
+    "plural": "chapéus",
+    "examples": [
+      "Usa um chapéu para se proteger do sol."
+    ]
+  },
+  "óculos": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Aparelho de lentes usado para ver melhor.",
+    "article": "os",
+    "plural": "óculos",
+    "examples": [
+      "Uso óculos para ler livros."
+    ]
+  },
+  "caneta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Instrumento usado para escrever com tinta.",
+    "article": "a",
+    "plural": "canetas",
+    "examples": [
+      "Escrevo uma nota com a caneta azul."
+    ]
+  },
+  "papel": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Folha fina usada para escrever ou desenhar.",
+    "article": "o",
+    "plural": "papéis",
+    "examples": [
+      "Escrevo o meu nome numa folha de papel."
+    ]
+  },
+  "carta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Mensagem escrita enviada num envelope.",
+    "article": "a",
+    "plural": "cartas",
+    "examples": [
+      "Envio uma carta para o meu amigo em Lisboa."
+    ]
   }
 }
