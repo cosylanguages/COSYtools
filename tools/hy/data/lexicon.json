@@ -101,7 +101,31 @@
             "գրում ենք",
             "գրում եք",
             "գրում են"
-          ]
+          ],
+          "past": {
+            "forms": [
+              "գրեցի",
+              "գրեցիր",
+              "գրեց",
+              "գրեցինք",
+              "գրեցիք",
+              "գրեցին"
+            ],
+            "needs_review": true,
+            "note": "Standard aorist past forms derived; root entry not directly in morphology.json"
+          },
+          "future": {
+            "forms": [
+              "կգրեմ",
+              "կգրես",
+              "կգրի",
+              "կգրենք",
+              "կգրեք",
+              "կգրեն"
+            ],
+            "needs_review": true,
+            "note": "Standard indicative future forms derived; root entry not directly in morphology.json"
+          }
         },
         "examples": [
           "Ես նամակ եմ գրում ընկերոջս:"
@@ -124,7 +148,31 @@
             "խոսում ենք",
             "խոսում եք",
             "խոսում են"
-          ]
+          ],
+          "past": {
+            "forms": [
+              "խոսեցի",
+              "խոսեցիր",
+              "խոսեց",
+              "խոսեցինք",
+              "խոսեցիք",
+              "խոսեցին"
+            ],
+            "needs_review": true,
+            "note": "Standard aorist past forms derived; lemma entry not directly in morphology.json"
+          },
+          "future": {
+            "forms": [
+              "կխոսեմ",
+              "կխոսես",
+              "կխոսի",
+              "կխոսենք",
+              "կխոսեք",
+              "կխոսեն"
+            ],
+            "needs_review": true,
+            "note": "Standard indicative future forms derived; lemma entry not directly in morphology.json"
+          }
         },
         "examples": [
           "Ես խոսում եմ հայերեն ամեն օր:"
@@ -147,7 +195,31 @@
             "կարդում ենք",
             "կարդում եք",
             "կարդում են"
-          ]
+          ],
+          "past": {
+            "forms": [
+              "կարդացի",
+              "կարդացիր",
+              "կարդաց",
+              "կարդացինք",
+              "կարդացիք",
+              "կարդացին"
+            ],
+            "needs_review": true,
+            "note": "Standard aorist past forms derived; lemma entry not directly in morphology.json"
+          },
+          "future": {
+            "forms": [
+              "կկարդամ",
+              "կկարդաս",
+              "կկարդա",
+              "կկարդանք",
+              "կկարդաք",
+              "կկարդան"
+            ],
+            "needs_review": true,
+            "note": "Standard indicative future forms derived; lemma entry not directly in morphology.json"
+          }
         },
         "examples": [
           "Նա կարդում է նոր գիրք:"
@@ -170,6 +242,22 @@
             "սովորում ենք",
             "սովորում եք",
             "սովորում են"
+          ],
+          "past": [
+            "սովորեցի",
+            "սովորեցիր",
+            "սովորեց",
+            "սովորեցինք",
+            "սովորեցիք",
+            "սովորեցին"
+          ],
+          "future": [
+            "կսովորեմ",
+            "կսովորես",
+            "կսովորի",
+            "կսովորենք",
+            "կսովորեք",
+            "կսովորեն"
           ]
         },
         "examples": [
