@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
     <link rel="stylesheet" href="../../../shared/css/tool-lookup.css">
+    <style>
+        .declension-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .declension-table th, .declension-table td {
+            border: 1px solid var(--color-border, #ccc);
+            padding: 8px 12px;
+            text-align: left;
+        }
+        .declension-table th {
+            background-color: var(--color-bg-subtle, #f5f5f5);
+        }
+    </style>
 </head>
 <body>
     <header class="app-header" data-icon="🏴" data-title="Татарча" data-tagline="Tatar Case Engine"></header>
@@ -21,6 +36,15 @@
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/engine.js"></script>
     <script>
+        const caseLabels = {
+            nom: "Nominative (Баш килеш)",
+            gen: "Genitive (Иялек килеше)",
+            dat: "Dative (Юнәлеш килеше)",
+            acc: "Accusative (Төшөм килеше)",
+            abl: "Ablative (Чыгыш килеше)",
+            loc: "Locative (Урын-вакыт килеше)"
+        };
+
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
         fetch(dataFile).then(r => r.json()).then(db => {
             const input = document.getElementById('search-input');
@@ -28,7 +52,38 @@
             function render(v) {
                 const item = db[v];
                 if (!item) return;
-                display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
+
+                let casesHtml = '';
+                if (item.cases) {
+                    casesHtml = `
+                        <h3>Case Declension</h3>
+                        <table class="declension-table">
+                            <thead>
+                                <tr>
+                                    <th>Case</th>
+                                    <th>Singular (Берлек)</th>
+                                    <th>Plural (Күплек)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${Object.keys(caseLabels).map(c => `
+                                    <tr>
+                                        <td><strong>${caseLabels[c]}</strong></td>
+                                        <td>${item.cases[c + '_sing'] || item.cases[c] || '-'}</td>
+                                        <td>${item.cases[c + '_plur'] || '-'}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    `;
+                }
+
+                display.innerHTML = `
+                    <h2>${v} <span class="tag">${item.level || 'A1'}</span></h2>
+                    <p><strong>Definition:</strong> ${item.definition || ''}</p>
+                    <p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>
+                    ${casesHtml}
+                `;
             }
             const firstKey = Object.keys(db)[0];
             if (firstKey) render(firstKey);
