@@ -148,5 +148,505 @@
     "examples": [
       "Setzen Sie sich auf den Stuhl."
     ]
+  },
+  "Apfel": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Runde Frucht eines Apfelbaums.",
+    "article": "der",
+    "plural": "Äpfel",
+    "examples": [
+      "Ich esse jeden Morgen einen Apfel."
+    ]
+  },
+  "Brot": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Nahrungsmittel aus gebackenem Teig.",
+    "article": "das",
+    "plural": "Brote",
+    "examples": [
+      "Möchtest du ein Stück Brot?"
+    ]
+  },
+  "Milch": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Weiße Flüssigkeit von Säugetieren.",
+    "article": "die",
+    "plural": "-",
+    "examples": [
+      "Er trinkt Kaffee mit Milch."
+    ]
+  },
+  "Kaffee": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Aromatisches Heißgetränk aus gerösteten Bohnen.",
+    "article": "der",
+    "plural": "Kaffees",
+    "examples": [
+      "Ein heißer Kaffee am Morgen hilft beim Aufstehen."
+    ]
+  },
+  "Tee": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Aufgussgetränk aus getrockneten Pflanzenteilen.",
+    "article": "der",
+    "plural": "Tees",
+    "examples": [
+      "Sie trinkt gerne grünen Tee."
+    ]
+  },
+  "Käse": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Festes Nahrungsmittel aus geronnener Milch.",
+    "article": "der",
+    "plural": "Käse",
+    "examples": [
+      "Der Käse schmeckt sehr gut."
+    ]
+  },
+  "Ei": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Nahrungsmittel, das von Hühnern gelegt wird.",
+    "article": "das",
+    "plural": "Eier",
+    "examples": [
+      "Zum Frühstück esse ich zwei Eier."
+    ]
+  },
+  "Fleisch": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Muskelgewebe von Tieren als Nahrung.",
+    "article": "das",
+    "plural": "-",
+    "examples": [
+      "Wir essen heute kein Fleisch."
+    ]
+  },
+  "Fisch": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Im Wasser lebendes Wirbeltier.",
+    "article": "der",
+    "plural": "Fische",
+    "examples": [
+      "Der Fisch schwimmt im See."
+    ]
+  },
+  "Gemüse": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Essbare Pflanzenteile.",
+    "article": "das",
+    "plural": "-",
+    "examples": [
+      "Frisches Gemüse ist gesund."
+    ]
+  },
+  "Obst": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Süße oder säuerliche Früchte.",
+    "article": "das",
+    "plural": "-",
+    "examples": [
+      "Wir kaufen Obst auf dem Markt."
+    ]
+  },
+  "Hund": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Beliebtes Haustier.",
+    "article": "der",
+    "plural": "Hunde",
+    "examples": [
+      "Der Hund bellt im Garten."
+    ]
+  },
+  "Katze": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Kleines Raubtier, oft als Haustier gehalten.",
+    "article": "die",
+    "plural": "Katzen",
+    "examples": [
+      "Die Katze schläft auf dem Sofa."
+    ]
+  },
+  "Vogel": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Gefiedertes Tier mit Flügeln.",
+    "article": "der",
+    "plural": "Vögel",
+    "examples": [
+      "Ein Vogel singt im Baum."
+    ]
+  },
+  "Baum": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Große Pflanze mit Stamm und Krone.",
+    "article": "der",
+    "plural": "Bäume",
+    "examples": [
+      "Der Baum hat grüne Blätter."
+    ]
+  },
+  "Blume": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Farbenfrohe Pflanze mit Blüte.",
+    "article": "die",
+    "plural": "Blumen",
+    "examples": [
+      "Er schenkt ihr schöne Blumen."
+    ]
+  },
+  "Garten": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Abgegrenztes Landstück für Pflanzen.",
+    "article": "der",
+    "plural": "Gärten",
+    "examples": [
+      "Wir sitzen im Garten."
+    ]
+  },
+  "Weg": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Pfad oder Verbindung zwischen Orten.",
+    "article": "der",
+    "plural": "Wege",
+    "examples": [
+      "Der Weg zum Bahnhof ist kurz."
+    ]
+  },
+  "Straße": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Befestigter Fahrweg für Fahrzeuge.",
+    "article": "die",
+    "plural": "Straßen",
+    "examples": [
+      "Die Straße ist sehr breit."
+    ]
+  },
+  "Platz": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Freie Fläche in einer Stadt.",
+    "article": "der",
+    "plural": "Plätze",
+    "examples": [
+      "Auf dem Platz stehen viele Menschen."
+    ]
+  },
+  "Bahnhof": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Station für Züge.",
+    "article": "der",
+    "plural": "Bahnhöfe",
+    "examples": [
+      "Der Zug kommt am Bahnhof an."
+    ]
+  },
+  "Flughafen": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Anlage für den Luftverkehr.",
+    "article": "der",
+    "plural": "Flughäfen",
+    "examples": [
+      "Wir fahren zum Flughafen."
+    ]
+  },
+  "Zug": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Schienenfahrzeug zur Personenbeförderung.",
+    "article": "der",
+    "plural": "Züge",
+    "examples": [
+      "Der Zug fährt pünktlich ab."
+    ]
+  },
+  "Bus": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Großes Kraftfahrzeug für viele Fahrgäste.",
+    "article": "der",
+    "plural": "Busse",
+    "examples": [
+      "Wir nehmen den Bus zur Schule."
+    ]
+  },
+  "Fahrrad": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Zweirädriges Fahrzeug mit Pedalantrieb.",
+    "article": "das",
+    "plural": "Fahrräder",
+    "examples": [
+      "Er fährt mit dem Fahrrad zur Arbeit."
+    ]
+  },
+  "Flugzeug": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Luftfahrzeug mit Tragflächen.",
+    "article": "das",
+    "plural": "Flugzeuge",
+    "examples": [
+      "Das Flugzeug fliegt über die Wolken."
+    ]
+  },
+  "Schiff": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Großes Wasserfahrzeug.",
+    "article": "das",
+    "plural": "Schiffe",
+    "examples": [
+      "Das Schiff fährt auf dem Fluss."
+    ]
+  },
+  "Karte": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Flaches Papier oder Plastikkarte.",
+    "article": "die",
+    "plural": "Karten",
+    "examples": [
+      "Ich bezahle mit der Karte."
+    ]
+  },
+  "Geld": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Zahlungsmittel.",
+    "article": "das",
+    "plural": "Gelder",
+    "examples": [
+      "Hast du genug Geld dabei?"
+    ]
+  },
+  "Bank": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Finanzinstitut.",
+    "article": "die",
+    "plural": "Banken",
+    "examples": [
+      "Die Bank öffnet um neun Uhr."
+    ]
+  },
+  "Hotel": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Beherbergungsbetrieb für Gäste.",
+    "article": "das",
+    "plural": "Hotels",
+    "examples": [
+      "Wir übernachten in einem Hotel."
+    ]
+  },
+  "Zimmer": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Raum in einem Gebäude.",
+    "article": "das",
+    "plural": "Zimmer",
+    "examples": [
+      "Das Zimmer ist hell und ruhig."
+    ]
+  },
+  "Bett": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Möbelstück zum Schlafen.",
+    "article": "das",
+    "plural": "Betten",
+    "examples": [
+      "Das Bett ist sehr bequem."
+    ]
+  },
+  "Schrank": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Möbelstück mit Türen zur Aufbewahrung.",
+    "article": "der",
+    "plural": "Schränke",
+    "examples": [
+      "Die Kleidung hängt im Schrank."
+    ]
+  },
+  "Lampe": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Lichtquelle.",
+    "article": "die",
+    "plural": "Lampen",
+    "examples": [
+      "Schalte bitte die Lampe ein."
+    ]
+  },
+  "Bild": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Visuelle Darstellung oder Foto.",
+    "article": "das",
+    "plural": "Bilder",
+    "examples": [
+      "An der Wand hängt ein schönes Bild."
+    ]
+  },
+  "Uhr": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Gerät zur Zeitanzeige.",
+    "article": "die",
+    "plural": "Uhren",
+    "examples": [
+      "Meine Uhr zeigt genau zwölf Uhr."
+    ]
+  },
+  "Tasche": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Behälter zum Tragen von Gegenständen.",
+    "article": "die",
+    "plural": "Taschen",
+    "examples": [
+      "Sie trägt eine schwarze Tasche."
+    ]
+  },
+  "Koffer": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Tragbarer Behälter für Gepäck.",
+    "article": "der",
+    "plural": "Koffer",
+    "examples": [
+      "Der Koffer ist schwer."
+    ]
+  },
+  "Kleidung": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Sammelbegriff für Anziehsachen.",
+    "article": "die",
+    "plural": "-",
+    "examples": [
+      "Er kauft neue Kleidung."
+    ]
+  },
+  "Hemd": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Oberbekleidungsstück mit Knöpfen.",
+    "article": "das",
+    "plural": "Hemden",
+    "examples": [
+      "Er trägt ein weißes Hemd."
+    ]
+  },
+  "Hose": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Kleidungsstück für die Beine.",
+    "article": "die",
+    "plural": "Hosen",
+    "examples": [
+      "Die Hose passt sehr gut."
+    ]
+  },
+  "Schuh": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Fußbekleidung.",
+    "article": "der",
+    "plural": "Schuhe",
+    "examples": [
+      "Ich ziehe meine Schuhe an."
+    ]
+  },
+  "Mantel": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Langes Kleidungsstück für kalte Tage.",
+    "article": "der",
+    "plural": "Mäntel",
+    "examples": [
+      "Im Winter braucht man einen warmen Mantel."
+    ]
+  },
+  "Jacke": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Kurzes Oberbekleidungsstück.",
+    "article": "die",
+    "plural": "Jacken",
+    "examples": [
+      "Nimm eine Jacke mit."
+    ]
+  },
+  "Hut": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Kopfbedeckung.",
+    "article": "der",
+    "plural": "Hüte",
+    "examples": [
+      "Der Mann trägt einen braunen Hut."
+    ]
+  },
+  "Brille": {
+    "gender": "Femininum",
+    "level": "A1",
+    "definition": "Sehhilfe mit Gläsern.",
+    "article": "die",
+    "plural": "Brillen",
+    "examples": [
+      "Ohne Brille kann ich nicht lesen."
+    ]
+  },
+  "Stift": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Schreibgerät.",
+    "article": "der",
+    "plural": "Stifte",
+    "examples": [
+      "Hast du einen Stift für mich?"
+    ]
+  },
+  "Papier": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Material zum Schreiben oder Drucken.",
+    "article": "das",
+    "plural": "Papiere",
+    "examples": [
+      "Ich brauche ein Blatt Papier."
+    ]
+  },
+  "Brief": {
+    "gender": "Maskulinum",
+    "level": "A1",
+    "definition": "Schriftliche Nachricht in einem Umschlag.",
+    "article": "der",
+    "plural": "Briefe",
+    "examples": [
+      "Sie schreibt einen Brief an ihren Freund."
+    ]
   }
 }

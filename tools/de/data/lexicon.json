@@ -2,6 +2,21 @@
   "language": "de",
   "units": [
     {
+      "lemma": "Apfel",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Runde Frucht eines Apfelbaums.",
+        "article": "der",
+        "plural": "Äpfel",
+        "examples": [
+          "Ich esse jeden Morgen einen Apfel."
+        ]
+      }
+    },
+    {
       "lemma": "Auto",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -13,6 +28,141 @@
         "plural": "Autos",
         "examples": [
           "Er fährt ein neues Auto."
+        ]
+      }
+    },
+    {
+      "lemma": "Bahnhof",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Station für Züge.",
+        "article": "der",
+        "plural": "Bahnhöfe",
+        "examples": [
+          "Der Zug kommt am Bahnhof an."
+        ]
+      }
+    },
+    {
+      "lemma": "Bank",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Finanzinstitut.",
+        "article": "die",
+        "plural": "Banken",
+        "examples": [
+          "Die Bank öffnet um neun Uhr."
+        ]
+      }
+    },
+    {
+      "lemma": "Baum",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Große Pflanze mit Stamm und Krone.",
+        "article": "der",
+        "plural": "Bäume",
+        "examples": [
+          "Der Baum hat grüne Blätter."
+        ]
+      }
+    },
+    {
+      "lemma": "Bett",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Möbelstück zum Schlafen.",
+        "article": "das",
+        "plural": "Betten",
+        "examples": [
+          "Das Bett ist sehr bequem."
+        ]
+      }
+    },
+    {
+      "lemma": "Bild",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Visuelle Darstellung oder Foto.",
+        "article": "das",
+        "plural": "Bilder",
+        "examples": [
+          "An der Wand hängt ein schönes Bild."
+        ]
+      }
+    },
+    {
+      "lemma": "Blume",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Farbenfrohe Pflanze mit Blüte.",
+        "article": "die",
+        "plural": "Blumen",
+        "examples": [
+          "Er schenkt ihr schöne Blumen."
+        ]
+      }
+    },
+    {
+      "lemma": "Brief",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Schriftliche Nachricht in einem Umschlag.",
+        "article": "der",
+        "plural": "Briefe",
+        "examples": [
+          "Sie schreibt einen Brief an ihren Freund."
+        ]
+      }
+    },
+    {
+      "lemma": "Brille",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Sehhilfe mit Gläsern.",
+        "article": "die",
+        "plural": "Brillen",
+        "examples": [
+          "Ohne Brille kann ich nicht lesen."
+        ]
+      }
+    },
+    {
+      "lemma": "Brot",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Nahrungsmittel aus gebackenem Teig.",
+        "article": "das",
+        "plural": "Brote",
+        "examples": [
+          "Möchtest du ein Stück Brot?"
         ]
       }
     },
@@ -32,6 +182,51 @@
       }
     },
     {
+      "lemma": "Bus",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Großes Kraftfahrzeug für viele Fahrgäste.",
+        "article": "der",
+        "plural": "Busse",
+        "examples": [
+          "Wir nehmen den Bus zur Schule."
+        ]
+      }
+    },
+    {
+      "lemma": "Ei",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Nahrungsmittel, das von Hühnern gelegt wird.",
+        "article": "das",
+        "plural": "Eier",
+        "examples": [
+          "Zum Frühstück esse ich zwei Eier."
+        ]
+      }
+    },
+    {
+      "lemma": "Fahrrad",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Zweirädriges Fahrzeug mit Pedalantrieb.",
+        "article": "das",
+        "plural": "Fahrräder",
+        "examples": [
+          "Er fährt mit dem Fahrrad zur Arbeit."
+        ]
+      }
+    },
+    {
       "lemma": "Fenster",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -43,6 +238,66 @@
         "plural": "Fenster",
         "examples": [
           "Das Fenster ist offen."
+        ]
+      }
+    },
+    {
+      "lemma": "Fisch",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Im Wasser lebendes Wirbeltier.",
+        "article": "der",
+        "plural": "Fische",
+        "examples": [
+          "Der Fisch schwimmt im See."
+        ]
+      }
+    },
+    {
+      "lemma": "Fleisch",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Muskelgewebe von Tieren als Nahrung.",
+        "article": "das",
+        "plural": "-",
+        "examples": [
+          "Wir essen heute kein Fleisch."
+        ]
+      }
+    },
+    {
+      "lemma": "Flughafen",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Anlage für den Luftverkehr.",
+        "article": "der",
+        "plural": "Flughäfen",
+        "examples": [
+          "Wir fahren zum Flughafen."
+        ]
+      }
+    },
+    {
+      "lemma": "Flugzeug",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Luftfahrzeug mit Tragflächen.",
+        "article": "das",
+        "plural": "Flugzeuge",
+        "examples": [
+          "Das Flugzeug fliegt über die Wolken."
         ]
       }
     },
@@ -77,6 +332,51 @@
       }
     },
     {
+      "lemma": "Garten",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Abgegrenztes Landstück für Pflanzen.",
+        "article": "der",
+        "plural": "Gärten",
+        "examples": [
+          "Wir sitzen im Garten."
+        ]
+      }
+    },
+    {
+      "lemma": "Geld",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Zahlungsmittel.",
+        "article": "das",
+        "plural": "Gelder",
+        "examples": [
+          "Hast du genug Geld dabei?"
+        ]
+      }
+    },
+    {
+      "lemma": "Gemüse",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Essbare Pflanzenteile.",
+        "article": "das",
+        "plural": "-",
+        "examples": [
+          "Frisches Gemüse ist gesund."
+        ]
+      }
+    },
+    {
       "lemma": "Haus",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -88,6 +388,156 @@
         "plural": "Häuser",
         "examples": [
           "Das Haus ist schön und groß."
+        ]
+      }
+    },
+    {
+      "lemma": "Hemd",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Oberbekleidungsstück mit Knöpfen.",
+        "article": "das",
+        "plural": "Hemden",
+        "examples": [
+          "Er trägt ein weißes Hemd."
+        ]
+      }
+    },
+    {
+      "lemma": "Hose",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Kleidungsstück für die Beine.",
+        "article": "die",
+        "plural": "Hosen",
+        "examples": [
+          "Die Hose passt sehr gut."
+        ]
+      }
+    },
+    {
+      "lemma": "Hotel",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Beherbergungsbetrieb für Gäste.",
+        "article": "das",
+        "plural": "Hotels",
+        "examples": [
+          "Wir übernachten in einem Hotel."
+        ]
+      }
+    },
+    {
+      "lemma": "Hund",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Beliebtes Haustier.",
+        "article": "der",
+        "plural": "Hunde",
+        "examples": [
+          "Der Hund bellt im Garten."
+        ]
+      }
+    },
+    {
+      "lemma": "Hut",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Kopfbedeckung.",
+        "article": "der",
+        "plural": "Hüte",
+        "examples": [
+          "Der Mann trägt einen braunen Hut."
+        ]
+      }
+    },
+    {
+      "lemma": "Jacke",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Kurzes Oberbekleidungsstück.",
+        "article": "die",
+        "plural": "Jacken",
+        "examples": [
+          "Nimm eine Jacke mit."
+        ]
+      }
+    },
+    {
+      "lemma": "Kaffee",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Aromatisches Heißgetränk aus gerösteten Bohnen.",
+        "article": "der",
+        "plural": "Kaffees",
+        "examples": [
+          "Ein heißer Kaffee am Morgen hilft beim Aufstehen."
+        ]
+      }
+    },
+    {
+      "lemma": "Karte",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Flaches Papier oder Plastikkarte.",
+        "article": "die",
+        "plural": "Karten",
+        "examples": [
+          "Ich bezahle mit der Karte."
+        ]
+      }
+    },
+    {
+      "lemma": "Käse",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Festes Nahrungsmittel aus geronnener Milch.",
+        "article": "der",
+        "plural": "Käse",
+        "examples": [
+          "Der Käse schmeckt sehr gut."
+        ]
+      }
+    },
+    {
+      "lemma": "Katze",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Kleines Raubtier, oft als Haustier gehalten.",
+        "article": "die",
+        "plural": "Katzen",
+        "examples": [
+          "Die Katze schläft auf dem Sofa."
         ]
       }
     },
@@ -107,6 +557,51 @@
       }
     },
     {
+      "lemma": "Kleidung",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Sammelbegriff für Anziehsachen.",
+        "article": "die",
+        "plural": "-",
+        "examples": [
+          "Er kauft neue Kleidung."
+        ]
+      }
+    },
+    {
+      "lemma": "Koffer",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Tragbarer Behälter für Gepäck.",
+        "article": "der",
+        "plural": "Koffer",
+        "examples": [
+          "Der Koffer ist schwer."
+        ]
+      }
+    },
+    {
+      "lemma": "Lampe",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Lichtquelle.",
+        "article": "die",
+        "plural": "Lampen",
+        "examples": [
+          "Schalte bitte die Lampe ein."
+        ]
+      }
+    },
+    {
       "lemma": "Mann",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -118,6 +613,126 @@
         "plural": "Männer",
         "examples": [
           "Der Mann liest eine Zeitung."
+        ]
+      }
+    },
+    {
+      "lemma": "Mantel",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Langes Kleidungsstück für kalte Tage.",
+        "article": "der",
+        "plural": "Mäntel",
+        "examples": [
+          "Im Winter braucht man einen warmen Mantel."
+        ]
+      }
+    },
+    {
+      "lemma": "Milch",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Weiße Flüssigkeit von Säugetieren.",
+        "article": "die",
+        "plural": "-",
+        "examples": [
+          "Er trinkt Kaffee mit Milch."
+        ]
+      }
+    },
+    {
+      "lemma": "Obst",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Süße oder säuerliche Früchte.",
+        "article": "das",
+        "plural": "-",
+        "examples": [
+          "Wir kaufen Obst auf dem Markt."
+        ]
+      }
+    },
+    {
+      "lemma": "Papier",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Material zum Schreiben oder Drucken.",
+        "article": "das",
+        "plural": "Papiere",
+        "examples": [
+          "Ich brauche ein Blatt Papier."
+        ]
+      }
+    },
+    {
+      "lemma": "Platz",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Freie Fläche in einer Stadt.",
+        "article": "der",
+        "plural": "Plätze",
+        "examples": [
+          "Auf dem Platz stehen viele Menschen."
+        ]
+      }
+    },
+    {
+      "lemma": "Schiff",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Großes Wasserfahrzeug.",
+        "article": "das",
+        "plural": "Schiffe",
+        "examples": [
+          "Das Schiff fährt auf dem Fluss."
+        ]
+      }
+    },
+    {
+      "lemma": "Schrank",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Möbelstück mit Türen zur Aufbewahrung.",
+        "article": "der",
+        "plural": "Schränke",
+        "examples": [
+          "Die Kleidung hängt im Schrank."
+        ]
+      }
+    },
+    {
+      "lemma": "Schuh",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Fußbekleidung.",
+        "article": "der",
+        "plural": "Schuhe",
+        "examples": [
+          "Ich ziehe meine Schuhe an."
         ]
       }
     },
@@ -167,6 +782,36 @@
       }
     },
     {
+      "lemma": "Stift",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Schreibgerät.",
+        "article": "der",
+        "plural": "Stifte",
+        "examples": [
+          "Hast du einen Stift für mich?"
+        ]
+      }
+    },
+    {
+      "lemma": "Straße",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Befestigter Fahrweg für Fahrzeuge.",
+        "article": "die",
+        "plural": "Straßen",
+        "examples": [
+          "Die Straße ist sehr breit."
+        ]
+      }
+    },
+    {
       "lemma": "Stuhl",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -178,6 +823,36 @@
         "plural": "Stühle",
         "examples": [
           "Setzen Sie sich auf den Stuhl."
+        ]
+      }
+    },
+    {
+      "lemma": "Tasche",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Behälter zum Tragen von Gegenständen.",
+        "article": "die",
+        "plural": "Taschen",
+        "examples": [
+          "Sie trägt eine schwarze Tasche."
+        ]
+      }
+    },
+    {
+      "lemma": "Tee",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Aufgussgetränk aus getrockneten Pflanzenteilen.",
+        "article": "der",
+        "plural": "Tees",
+        "examples": [
+          "Sie trinkt gerne grünen Tee."
         ]
       }
     },
@@ -212,6 +887,36 @@
       }
     },
     {
+      "lemma": "Uhr",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Femininum",
+        "level": "A1",
+        "definition": "Gerät zur Zeitanzeige.",
+        "article": "die",
+        "plural": "Uhren",
+        "examples": [
+          "Meine Uhr zeigt genau zwölf Uhr."
+        ]
+      }
+    },
+    {
+      "lemma": "Vogel",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Gefiedertes Tier mit Flügeln.",
+        "article": "der",
+        "plural": "Vögel",
+        "examples": [
+          "Ein Vogel singt im Baum."
+        ]
+      }
+    },
+    {
       "lemma": "Wasser",
       "kind": "nouns",
       "source": "tools/de/genus/data/nouns.json",
@@ -223,6 +928,1334 @@
         "plural": "Wässer",
         "examples": [
           "Ich trinke ein Glas Wasser."
+        ]
+      }
+    },
+    {
+      "lemma": "Weg",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Pfad oder Verbindung zwischen Orten.",
+        "article": "der",
+        "plural": "Wege",
+        "examples": [
+          "Der Weg zum Bahnhof ist kurz."
+        ]
+      }
+    },
+    {
+      "lemma": "Zimmer",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Neutrum",
+        "level": "A1",
+        "definition": "Raum in einem Gebäude.",
+        "article": "das",
+        "plural": "Zimmer",
+        "examples": [
+          "Das Zimmer ist hell und ruhig."
+        ]
+      }
+    },
+    {
+      "lemma": "Zug",
+      "kind": "nouns",
+      "source": "tools/de/genus/data/nouns.json",
+      "data": {
+        "gender": "Maskulinum",
+        "level": "A1",
+        "definition": "Schienenfahrzeug zur Personenbeförderung.",
+        "article": "der",
+        "plural": "Züge",
+        "examples": [
+          "Der Zug fährt pünktlich ab."
+        ]
+      }
+    },
+    {
+      "lemma": "abfahren",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Mit einem Fahrzeug einen Ort verlassen.",
+        "antonyms": [
+          "ankommen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich fahre ab",
+            "du fährst ab",
+            "er/sie/es fährt ab",
+            "wir fahren ab",
+            "ihr fahrt ab",
+            "sie fahren ab"
+          ],
+          "präteritum": [
+            "ich fuhr ab",
+            "du fuhrst ab",
+            "er/sie/es fuhr ab",
+            "wir fuhren ab",
+            "ihr fuhrt ab",
+            "sie fuhren ab"
+          ]
+        },
+        "examples": [
+          "Der Bus fährt um zehn Uhr ab."
+        ]
+      }
+    },
+    {
+      "lemma": "ablehnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Nein sagen zu einem Angebot.",
+        "antonyms": [
+          "zustimmen",
+          "annehmen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich lehne ab",
+            "du lehnst ab",
+            "er/sie/es lehnt ab",
+            "wir lehnen ab",
+            "ihr lehnt ab",
+            "sie lehnen ab"
+          ],
+          "präteritum": [
+            "ich lehnte ab",
+            "du lehntest ab",
+            "er/sie/es lehnte ab",
+            "wir lehnten ab",
+            "ihr lehntet ab",
+            "sie lehnten ab"
+          ]
+        },
+        "examples": [
+          "Er lehnt die Einladung höflich ab."
+        ]
+      }
+    },
+    {
+      "lemma": "anfangen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Mit etwas beginnen.",
+        "antonyms": [
+          "aufhören",
+          "beenden"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich fange an",
+            "du fängst an",
+            "er/sie/es fängt an",
+            "wir fangen an",
+            "ihr fangt an",
+            "sie fangen an"
+          ],
+          "präteritum": [
+            "ich fing an",
+            "du fingst an",
+            "er/sie/es fing an",
+            "wir fingen an",
+            "ihr fingt an",
+            "sie fingen an"
+          ]
+        },
+        "examples": [
+          "Der Unterricht fängt um neun Uhr an."
+        ]
+      }
+    },
+    {
+      "lemma": "ankommen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Ein Ziel erreichen.",
+        "antonyms": [
+          "abfahren"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich komme an",
+            "du kommst an",
+            "er/sie/es kommt an",
+            "wir kommen an",
+            "ihr kommt an",
+            "sie kommen an"
+          ],
+          "präteritum": [
+            "ich kam an",
+            "du kamst an",
+            "er/sie/es kam an",
+            "wir kamen an",
+            "ihr kamt an",
+            "sie kamen an"
+          ]
+        },
+        "examples": [
+          "Der Zug kommt pünktlich an."
+        ]
+      }
+    },
+    {
+      "lemma": "anrufen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Telefonischen Kontakt herstellen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich rufe an",
+            "du rufst an",
+            "er/sie/es ruft an",
+            "wir rufen an",
+            "ihr ruft an",
+            "sie rufen an"
+          ],
+          "präteritum": [
+            "ich rief an",
+            "du riefst an",
+            "er/sie/es rief an",
+            "wir riefen an",
+            "ihr rieft an",
+            "sie riefen an"
+          ]
+        },
+        "examples": [
+          "Ich rufe dich heute Abend an."
+        ]
+      }
+    },
+    {
+      "lemma": "antworten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Eine Antwort auf eine Frage geben.",
+        "antonyms": [
+          "fragen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich antworte",
+            "du antwortest",
+            "er/sie/es antwortet",
+            "wir antworten",
+            "ihr antwortet",
+            "sie antworten"
+          ],
+          "präteritum": [
+            "ich antwortete",
+            "du antwortetest",
+            "er/sie/es antwortete",
+            "wir antworteten",
+            "ihr antwortetet",
+            "sie antworteten"
+          ]
+        },
+        "examples": [
+          "Sie antwortet freundlich auf die E-Mail."
+        ]
+      }
+    },
+    {
+      "lemma": "anziehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Kleidung an den Körper legen.",
+        "antonyms": [
+          "ausziehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich ziehe an",
+            "du ziehst an",
+            "er/sie/es zieht an",
+            "wir ziehen an",
+            "ihr zieht an",
+            "sie ziehen an"
+          ],
+          "präteritum": [
+            "ich zog an",
+            "du zogst an",
+            "er/sie/es zog an",
+            "wir zogen an",
+            "ihr zogt an",
+            "sie zogen an"
+          ]
+        },
+        "examples": [
+          "Er zieht seine Jacke an."
+        ]
+      }
+    },
+    {
+      "lemma": "arbeiten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Beruflich tätig sein oder eine Aufgabe ausführen.",
+        "antonyms": [
+          "faulenzen",
+          "ruhen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich arbeite",
+            "du arbeitest",
+            "er/sie/es arbeitet",
+            "wir arbeiten",
+            "ihr arbeitet",
+            "sie arbeiten"
+          ],
+          "präteritum": [
+            "ich arbeitete",
+            "du arbeitetest",
+            "er/sie/es arbeitete",
+            "wir arbeiteten",
+            "ihr arbeitetet",
+            "sie arbeiteten"
+          ]
+        },
+        "examples": [
+          "Er arbeitet in einer großen Firma."
+        ]
+      }
+    },
+    {
+      "lemma": "aufhören",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Mit einer Tätigkeit beenden.",
+        "antonyms": [
+          "anfangen",
+          "beginnen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich höre auf",
+            "du hörst auf",
+            "er/sie/es hört auf",
+            "wir hören auf",
+            "ihr hört auf",
+            "sie hören auf"
+          ],
+          "präteritum": [
+            "ich hörte auf",
+            "du hörtest auf",
+            "er/sie/es hörte auf",
+            "wir hörten auf",
+            "ihr hörtet auf",
+            "sie hörten auf"
+          ]
+        },
+        "examples": [
+          "Es hört endlich auf zu regnen."
+        ]
+      }
+    },
+    {
+      "lemma": "aufräumen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Dinge an ihren ordnungsgemäßen Platz bringen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich räume auf",
+            "du räumst auf",
+            "er/sie/es räumt auf",
+            "wir räumen auf",
+            "ihr räumt auf",
+            "sie räumen auf"
+          ],
+          "präteritum": [
+            "ich räumte auf",
+            "du räumtest auf",
+            "er/sie/es räumte auf",
+            "wir räumten auf",
+            "ihr räumtet auf",
+            "sie räumten auf"
+          ]
+        },
+        "examples": [
+          "Am Samstag räumen wir die Wohnung auf."
+        ]
+      }
+    },
+    {
+      "lemma": "aufstehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Aus dem Bett oder von einem Sitz aufstehen.",
+        "antonyms": [
+          "hinsetzen",
+          "schlafen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich stehe auf",
+            "du stehst auf",
+            "er/sie/es steht auf",
+            "wir stehen auf",
+            "ihr steht auf",
+            "sie stehen auf"
+          ],
+          "präteritum": [
+            "ich stand auf",
+            "du standest auf",
+            "er/sie/es stand auf",
+            "wir standen auf",
+            "ihr standet auf",
+            "sie standen auf"
+          ]
+        },
+        "examples": [
+          "Ich stehe jeden Morgen um sechs Uhr auf."
+        ]
+      }
+    },
+    {
+      "lemma": "aussteigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Ein Fahrzeug verlassen.",
+        "antonyms": [
+          "einsteigen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich steige aus",
+            "du steigst aus",
+            "er/sie/es steigt aus",
+            "wir steigen aus",
+            "ihr steigt aus",
+            "sie steigen aus"
+          ],
+          "präteritum": [
+            "ich stieg aus",
+            "du stiegst aus",
+            "er/sie/es stieg aus",
+            "wir stiegen aus",
+            "ihr stiegt aus",
+            "sie stiegen aus"
+          ]
+        },
+        "examples": [
+          "An der nächsten Station steigen wir aus."
+        ]
+      }
+    },
+    {
+      "lemma": "ausziehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Kleidung ablegen.",
+        "antonyms": [
+          "anziehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich ziehe aus",
+            "du ziehst aus",
+            "er/sie/es zieht aus",
+            "wir ziehen aus",
+            "ihr zieht aus",
+            "sie ziehen aus"
+          ],
+          "präteritum": [
+            "ich zog aus",
+            "du zogst aus",
+            "er/sie/es zog aus",
+            "wir zogen aus",
+            "ihr zogt aus",
+            "sie zogen aus"
+          ]
+        },
+        "examples": [
+          "Bitte ziehen Sie im Haus die Schuhe aus."
+        ]
+      }
+    },
+    {
+      "lemma": "backen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Teigwaren im Ofen garen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich backe",
+            "du bäckst",
+            "er/sie/es bäckt",
+            "wir backen",
+            "ihr backt",
+            "sie backen"
+          ],
+          "präteritum": [
+            "ich buk",
+            "du bukst",
+            "er/sie/es buk",
+            "wir buken",
+            "ihr bukt",
+            "sie buken"
+          ]
+        },
+        "examples": [
+          "Wir backen am Wochenende einen Kuchen."
+        ]
+      }
+    },
+    {
+      "lemma": "bedeuten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Einen bestimmten Sinn haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bedeute",
+            "du bedeutest",
+            "er/sie/es bedeutet",
+            "wir bedeuten",
+            "ihr bedeutet",
+            "sie bedeuten"
+          ],
+          "präteritum": [
+            "ich bedeutete",
+            "du bedeutetest",
+            "er/sie/es bedeutete",
+            "wir bedeuteten",
+            "ihr bedeutetet",
+            "sie bedeuteten"
+          ]
+        },
+        "examples": [
+          "Was bedeutet dieses Wort?"
+        ]
+      }
+    },
+    {
+      "lemma": "beginnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Anfangen, eine Handlung aufzunehmen.",
+        "antonyms": [
+          "beenden"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich beginne",
+            "du beginnst",
+            "er/sie/es beginnt",
+            "wir beginnen",
+            "ihr beginnt",
+            "sie beginnen"
+          ],
+          "präteritum": [
+            "ich begann",
+            "du begannst",
+            "er/sie/es begann",
+            "wir begannen",
+            "ihr begannet",
+            "sie begannen"
+          ]
+        },
+        "examples": [
+          "Das Konzert beginnt pünktlich."
+        ]
+      }
+    },
+    {
+      "lemma": "behalten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Im Besitz behalten und nicht abgeben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich behalte",
+            "du behältst",
+            "er/sie/es behält",
+            "wir behalten",
+            "ihr behaltet",
+            "sie behalten"
+          ],
+          "präteritum": [
+            "ich behielt",
+            "du behieltst",
+            "er/sie/es behielt",
+            "wir behielten",
+            "ihr behieltet",
+            "sie behielten"
+          ]
+        },
+        "examples": [
+          "Du kannst den Stift behalten."
+        ]
+      }
+    },
+    {
+      "lemma": "bekommen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas zugesandt oder überreicht erhalten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bekomme",
+            "du bekommst",
+            "er/sie/es bekommt",
+            "wir bekommen",
+            "ihr bekommt",
+            "sie bekommen"
+          ],
+          "präteritum": [
+            "ich bekam",
+            "du bekamst",
+            "er/sie/es bekam",
+            "wir bekamen",
+            "ihr bekamt",
+            "sie bekamen"
+          ]
+        },
+        "examples": [
+          "Ich bekomme viele Geschenke."
+        ]
+      }
+    },
+    {
+      "lemma": "benutzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas für einen Zweck verwenden.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich benutze",
+            "du benutzt",
+            "er/sie/es benutzt",
+            "wir benutzen",
+            "ihr benutzt",
+            "sie benutzen"
+          ],
+          "präteritum": [
+            "ich benutzte",
+            "du benutztest",
+            "er/sie/es benutzte",
+            "wir benutzten",
+            "ihr benutztet",
+            "sie benutzten"
+          ]
+        },
+        "examples": [
+          "Ich benutze oft den Computer."
+        ]
+      }
+    },
+    {
+      "lemma": "beschreiben",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Eigenschaften von etwas mit Worten darstellen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich beschreibe",
+            "du beschreibst",
+            "er/sie/es beschreibt",
+            "wir beschreiben",
+            "ihr beschreibt",
+            "sie beschreiben"
+          ],
+          "präteritum": [
+            "ich beschrieb",
+            "du beschriebst",
+            "er/sie/es beschrieb",
+            "wir beschrieben",
+            "ihr beschriebt",
+            "sie beschrieben"
+          ]
+        },
+        "examples": [
+          "Er beschreibt seinen Weg zur Arbeit."
+        ]
+      }
+    },
+    {
+      "lemma": "bestellen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas zur Lieferung oder Bereitstellung anfordern.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bestelle",
+            "du bestellst",
+            "er/sie/es bestellt",
+            "wir bestellen",
+            "ihr bestellt",
+            "sie bestellen"
+          ],
+          "präteritum": [
+            "ich bestellte",
+            "du bestelltest",
+            "er/sie/es bestellte",
+            "wir bestellten",
+            "ihr bestelltet",
+            "sie bestellten"
+          ]
+        },
+        "examples": [
+          "Wir bestellen eine Pizza."
+        ]
+      }
+    },
+    {
+      "lemma": "besuchen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Zu jemandem gehen, um Zeit miteinander zu verbringen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich besuche",
+            "du besuchst",
+            "er/sie/es besucht",
+            "wir besuchen",
+            "ihr besucht",
+            "sie besuchen"
+          ],
+          "präteritum": [
+            "ich besuchte",
+            "du besuchtest",
+            "er/sie/es besuchte",
+            "wir besuchten",
+            "ihr besuchtet",
+            "sie besuchten"
+          ]
+        },
+        "examples": [
+          "Am Wochenende besuche ich meine Großeltern."
+        ]
+      }
+    },
+    {
+      "lemma": "bezahlen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Geld für eine Ware oder Dienstleistung geben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bezahle",
+            "du bezahlst",
+            "er/sie/es bezahlt",
+            "wir bezahlen",
+            "ihr bezahlt",
+            "sie bezahlen"
+          ],
+          "präteritum": [
+            "ich bezahlte",
+            "du bezahltest",
+            "er/sie/es bezahlte",
+            "wir bezahlten",
+            "ihr bezahltet",
+            "sie bezahlten"
+          ]
+        },
+        "examples": [
+          "Ich bezahle die Rechnung bar."
+        ]
+      }
+    },
+    {
+      "lemma": "bitten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Eine höfliche Bitte an jemanden richten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bitte",
+            "du bittest",
+            "er/sie/es bittet",
+            "wir bitten",
+            "ihr bittet",
+            "sie bitten"
+          ],
+          "präteritum": [
+            "ich bat",
+            "du batest",
+            "er/sie/es bat",
+            "wir baten",
+            "ihr batet",
+            "sie baten"
+          ]
+        },
+        "examples": [
+          "Er bittet um Verzeihung."
+        ]
+      }
+    },
+    {
+      "lemma": "brauchen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas nötig haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich brauche",
+            "du brauchst",
+            "er/sie/es braucht",
+            "wir brauchen",
+            "ihr braucht",
+            "sie brauchen"
+          ],
+          "präteritum": [
+            "ich brauchte",
+            "du brauchtest",
+            "er/sie/es brauchte",
+            "wir brauchten",
+            "ihr brauchtet",
+            "sie brauchten"
+          ]
+        },
+        "examples": [
+          "Ich brauche Hilfe bei dieser Aufgabe."
+        ]
+      }
+    },
+    {
+      "lemma": "bringen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Etwas an einen bestimmten Ort befördern.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich bringe",
+            "du bringst",
+            "er/sie/es bringt",
+            "wir bringen",
+            "ihr bringt",
+            "sie bringen"
+          ],
+          "präteritum": [
+            "ich brachte",
+            "du brachtest",
+            "er/sie/es brachte",
+            "wir brachten",
+            "ihr brachtet",
+            "sie brachten"
+          ]
+        },
+        "examples": [
+          "Der Kellner bringt das Essen."
+        ]
+      }
+    },
+    {
+      "lemma": "danken",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Dank zum Ausdruck bringen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich danke",
+            "du dankst",
+            "er/sie/es dankt",
+            "wir danken",
+            "ihr dankt",
+            "sie danken"
+          ],
+          "präteritum": [
+            "ich dankte",
+            "du danktest",
+            "er/sie/es dankte",
+            "wir dankten",
+            "ihr danktet",
+            "sie dankten"
+          ]
+        },
+        "examples": [
+          "Ich danke dir für deine Hilfe."
+        ]
+      }
+    },
+    {
+      "lemma": "dauern",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Einen gewissen Zeitraum in Anspruch nehmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich dauere",
+            "du dauerst",
+            "er/sie/es dauert",
+            "wir dauern",
+            "ihr dauert",
+            "sie dauern"
+          ],
+          "präteritum": [
+            "ich dauerte",
+            "du dauertest",
+            "er/sie/es dauerte",
+            "wir dauerten",
+            "ihr dauertet",
+            "sie dauerten"
+          ]
+        },
+        "examples": [
+          "Der Film dauert zwei Stunden."
+        ]
+      }
+    },
+    {
+      "lemma": "denken",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Den Verstand gebrauchen, eine Überlegung anstellen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich denke",
+            "du denkst",
+            "er/sie/es denkt",
+            "wir denken",
+            "ihr denkt",
+            "sie denken"
+          ],
+          "präteritum": [
+            "ich dachte",
+            "du dachtest",
+            "er/sie/es dachte",
+            "wir dachten",
+            "ihr dachtet",
+            "sie dachten"
+          ]
+        },
+        "examples": [
+          "Ich denke oft an meine Heimat."
+        ]
+      }
+    },
+    {
+      "lemma": "duschen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Sich unter der Dusche waschen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich dusche",
+            "du duschst",
+            "er/sie/es duscht",
+            "wir duschen",
+            "ihr duscht",
+            "sie duschen"
+          ],
+          "präteritum": [
+            "ich duschte",
+            "du duschtest",
+            "er/sie/es duschte",
+            "wir duschten",
+            "ihr duschtet",
+            "sie duschten"
+          ]
+        },
+        "examples": [
+          "Nach dem Sport dusche ich warm."
+        ]
+      }
+    },
+    {
+      "lemma": "einladen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Jemanden auffordern, Gast zu sein.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich lade ein",
+            "du lädst ein",
+            "er/sie/es lädt ein",
+            "wir laden ein",
+            "ihr ladet ein",
+            "sie laden ein"
+          ],
+          "präteritum": [
+            "ich lud ein",
+            "du ludest ein",
+            "er/sie/es lud ein",
+            "wir luden ein",
+            "ihr ludet ein",
+            "sie luden ein"
+          ]
+        },
+        "examples": [
+          "Ich lade dich zum Geburtstag ein."
+        ]
+      }
+    },
+    {
+      "lemma": "einschlafen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "In den Zustand des Schlafens geraten.",
+        "antonyms": [
+          "aufwachen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich schlafe ein",
+            "du schläfst ein",
+            "er/sie/es schläft ein",
+            "wir schlafen ein",
+            "ihr schlaft ein",
+            "sie schlafen ein"
+          ],
+          "präteritum": [
+            "ich schlief ein",
+            "du schliefst ein",
+            "er/sie/es schlief ein",
+            "wir schliefen ein",
+            "ihr schlieft ein",
+            "sie schliefen ein"
+          ]
+        },
+        "examples": [
+          "Das Kind schläft schnell ein."
+        ]
+      }
+    },
+    {
+      "lemma": "einsteigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "In ein Fahrzeug hineingehen.",
+        "antonyms": [
+          "aussteigen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich steige ein",
+            "du steigst ein",
+            "er/sie/es steigt ein",
+            "wir steigen ein",
+            "ihr steigt ein",
+            "sie steigen ein"
+          ],
+          "präteritum": [
+            "ich stieg ein",
+            "du stiegst ein",
+            "er/sie/es stieg ein",
+            "wir stiegen ein",
+            "ihr stiegt ein",
+            "sie stiegen ein"
+          ]
+        },
+        "examples": [
+          "Bitte steigen Sie schnell ein."
+        ]
+      }
+    },
+    {
+      "lemma": "entscheiden",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Eine Wahl treffen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich entscheide",
+            "du entscheidest",
+            "er/sie/es entscheidet",
+            "wir entscheiden",
+            "ihr entscheidet",
+            "sie entscheiden"
+          ],
+          "präteritum": [
+            "ich entschied",
+            "du entschiedest",
+            "er/sie/es entschied",
+            "wir entschieden",
+            "ihr entschiedet",
+            "sie entschieden"
+          ]
+        },
+        "examples": [
+          "Er entscheidet sich für das Studium."
+        ]
+      }
+    },
+    {
+      "lemma": "entschuldigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Um Verzeihung bitten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich entschuldige",
+            "du entschuldigst",
+            "er/sie/es entschuldigt",
+            "wir entschuldigen",
+            "ihr entschuldigt",
+            "sie entschuldigen"
+          ],
+          "präteritum": [
+            "ich entschuldigte",
+            "du entschuldigtest",
+            "er/sie/es entschuldigte",
+            "wir entschuldigten",
+            "ihr entschuldigtet",
+            "sie entschuldigten"
+          ]
+        },
+        "examples": [
+          "Entschuldigen Sie bitte den Fehler."
+        ]
+      }
+    },
+    {
+      "lemma": "erinnern",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Sich etwas ins Gedächtnis zurückrufen.",
+        "antonyms": [
+          "vergessen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich erinnere",
+            "du erinnerst",
+            "er/sie/es erinnert",
+            "wir erinnern",
+            "ihr erinnert",
+            "sie erinnern"
+          ],
+          "präteritum": [
+            "ich erinnerte",
+            "du erinnertest",
+            "er/sie/es erinnerte",
+            "wir erinnerten",
+            "ihr erinnertet",
+            "sie erinnerten"
+          ]
+        },
+        "examples": [
+          "Ich erinnere mich gut an diesen Tag."
+        ]
+      }
+    },
+    {
+      "lemma": "erklären",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas verständlich machen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich erkläre",
+            "du erklärst",
+            "er/sie/es erklärt",
+            "wir erklären",
+            "ihr erklärt",
+            "sie erklären"
+          ],
+          "präteritum": [
+            "ich erklärte",
+            "du erklärtest",
+            "er/sie/es erklärte",
+            "wir erklärten",
+            "ihr erklärtet",
+            "sie erklärten"
+          ]
+        },
+        "examples": [
+          "Die Lehrerin erklärt die Aufgabe."
+        ]
+      }
+    },
+    {
+      "lemma": "erreichen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Ein Ziel oder eine Person kontaktieren.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich erreiche",
+            "du erreichst",
+            "er/sie/es erreicht",
+            "wir erreichen",
+            "ihr erreicht",
+            "sie erreichen"
+          ],
+          "präteritum": [
+            "ich erreichte",
+            "du erreichtest",
+            "er/sie/es erreichte",
+            "wir erreichten",
+            "ihr erreichtet",
+            "sie erreichten"
+          ]
+        },
+        "examples": [
+          "Wir erreichen das Hotel am Abend."
+        ]
+      }
+    },
+    {
+      "lemma": "erzählen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Eine Geschichte oder Begebenheit berichten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich erzähle",
+            "du erzählst",
+            "er/sie/es erzählt",
+            "wir erzählen",
+            "ihr erzählt",
+            "sie erzählen"
+          ],
+          "präteritum": [
+            "ich erzählte",
+            "du erzähltest",
+            "er/sie/es erzählte",
+            "wir erzählten",
+            "ihr erzähltet",
+            "sie erzählten"
+          ]
+        },
+        "examples": [
+          "Oma erzählt den Kindern ein Märchen."
         ]
       }
     },
@@ -257,6 +2290,371 @@
         },
         "examples": [
           "Wir essen um 12 Uhr zu Mittag."
+        ]
+      }
+    },
+    {
+      "lemma": "fahren",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich mit einem Fahrzeug fortbewegen.",
+        "antonyms": [
+          "gehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich fahre",
+            "du fährst",
+            "er/sie/es fährt",
+            "wir fahren",
+            "ihr fahrt",
+            "sie fahren"
+          ],
+          "präteritum": [
+            "ich fuhr",
+            "du fuhrst",
+            "er/sie/es fuhr",
+            "wir fuhren",
+            "ihr fuhrt",
+            "sie fuhren"
+          ]
+        },
+        "examples": [
+          "Wir fahren mit dem Zug nach München."
+        ]
+      }
+    },
+    {
+      "lemma": "fallen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Durch Schwerkraft nach unten bewegen.",
+        "antonyms": [
+          "steigen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich falle",
+            "du fällst",
+            "er/sie/es fällt",
+            "wir fallen",
+            "ihr fallt",
+            "sie fallen"
+          ],
+          "präteritum": [
+            "ich fiel",
+            "du fielst",
+            "er/sie/es fiel",
+            "wir fielen",
+            "ihr fielt",
+            "sie fielen"
+          ]
+        },
+        "examples": [
+          "Blätter fallen im Herbst vom Baum."
+        ]
+      }
+    },
+    {
+      "lemma": "fangen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Etwas in der Luft oder bei der Flucht ergreifen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich fange",
+            "du fängst",
+            "er/sie/es fängt",
+            "wir fangen",
+            "ihr fangt",
+            "sie fangen"
+          ],
+          "präteritum": [
+            "ich fing",
+            "du fingst",
+            "er/sie/es fing",
+            "wir fingen",
+            "ihr fingt",
+            "sie fingen"
+          ]
+        },
+        "examples": [
+          "Der Hund fängt den Ball."
+        ]
+      }
+    },
+    {
+      "lemma": "finden",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas Gesuchtes entdecken oder wahrnehmen.",
+        "antonyms": [
+          "suchen",
+          "verlieren"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich finde",
+            "du findest",
+            "er/sie/es findet",
+            "wir finden",
+            "ihr findet",
+            "sie finden"
+          ],
+          "präteritum": [
+            "ich fand",
+            "du fandest",
+            "er/sie/es fand",
+            "wir fanden",
+            "ihr fandet",
+            "sie fanden"
+          ]
+        },
+        "examples": [
+          "Endlich finde ich die richtige Antwort."
+        ]
+      }
+    },
+    {
+      "lemma": "fliegen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich durch die Luft bewegen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich fliege",
+            "du fliegst",
+            "er/sie/es fliegt",
+            "wir fliegen",
+            "ihr fliegt",
+            "sie fliegen"
+          ],
+          "präteritum": [
+            "ich flog",
+            "du flogst",
+            "er/sie/es flog",
+            "wir flogen",
+            "ihr flogt",
+            "sie flogen"
+          ]
+        },
+        "examples": [
+          "Das Flugzeug fliegt sehr hoch."
+        ]
+      }
+    },
+    {
+      "lemma": "folgen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Hinter jemandem hergehen oder zustimmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich folge",
+            "du folgst",
+            "er/sie/es folgt",
+            "wir folgen",
+            "ihr folgt",
+            "sie folgen"
+          ],
+          "präteritum": [
+            "ich folgte",
+            "du folgtest",
+            "er/sie/es folgte",
+            "wir folgten",
+            "ihr folgtet",
+            "sie folgten"
+          ]
+        },
+        "examples": [
+          "Folgen Sie bitte dieser Straße."
+        ]
+      }
+    },
+    {
+      "lemma": "fragen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Eine Frage an jemanden richten.",
+        "antonyms": [
+          "antworten"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich frage",
+            "du fragst",
+            "er/sie/es fragt",
+            "wir fragen",
+            "ihr fragt",
+            "sie fragen"
+          ],
+          "präteritum": [
+            "ich fragte",
+            "du fragtest",
+            "er/sie/es fragte",
+            "wir fragten",
+            "ihr fragtet",
+            "sie fragten"
+          ]
+        },
+        "examples": [
+          "Er fragt nach dem Weg."
+        ]
+      }
+    },
+    {
+      "lemma": "fühlen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Eine körperliche oder seelische Empfindung wahrnehmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich fühle",
+            "du fühlst",
+            "er/sie/es fühlt",
+            "wir fühlen",
+            "ihr fühlt",
+            "sie fühlen"
+          ],
+          "präteritum": [
+            "ich fühlte",
+            "du fühltest",
+            "er/sie/es fühlte",
+            "wir fühlten",
+            "ihr fühltet",
+            "sie fühlten"
+          ]
+        },
+        "examples": [
+          "Ich fühle mich heute sehr gut."
+        ]
+      }
+    },
+    {
+      "lemma": "geben",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Jemandem etwas überreichen.",
+        "antonyms": [
+          "nehmen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich gebe",
+            "du gibst",
+            "er/sie/es gibt",
+            "wir geben",
+            "ihr gebt",
+            "sie geben"
+          ],
+          "präteritum": [
+            "ich gab",
+            "du gabst",
+            "er/sie/es gab",
+            "wir gaben",
+            "ihr gabt",
+            "sie gaben"
+          ]
+        },
+        "examples": [
+          "Bitte gib mir das Buch."
+        ]
+      }
+    },
+    {
+      "lemma": "gebrauchen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Nützen oder verwenden.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich gebrauche",
+            "du gebrauchst",
+            "er/sie/es gebraucht",
+            "wir gebrauchen",
+            "ihr gebraucht",
+            "sie gebrauchen"
+          ],
+          "präteritum": [
+            "ich gebrauchte",
+            "du gebrauchtest",
+            "er/sie/es gebrauchte",
+            "wir gebrauchten",
+            "ihr gebrauchtet",
+            "sie gebrauchten"
+          ]
+        },
+        "examples": [
+          "Diese Werkzeuge kann man gut gebrauchen."
+        ]
+      }
+    },
+    {
+      "lemma": "gefallen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Positiven Eindruck oder Wohlgefallen erwecken.",
+        "antonyms": [
+          "missfallen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich gefalle",
+            "du gefällst",
+            "er/sie/es gefällt",
+            "wir gefallen",
+            "ihr gefallt",
+            "sie gefallen"
+          ],
+          "präteritum": [
+            "ich gefiel",
+            "du gefielst",
+            "er/sie/es gefiel",
+            "wir gefielen",
+            "ihr gefielt",
+            "sie gefielen"
+          ]
+        },
+        "examples": [
+          "Das neue Bild gefällt mir sehr."
         ]
       }
     },
@@ -296,6 +2694,138 @@
       }
     },
     {
+      "lemma": "gehören",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Eigentum von jemandem sein.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich gehöre",
+            "du gehörst",
+            "er/sie/es gehört",
+            "wir gehören",
+            "ihr gehört",
+            "sie gehören"
+          ],
+          "präteritum": [
+            "ich gehörte",
+            "du gehörtest",
+            "er/sie/es gehörte",
+            "wir gehörten",
+            "ihr gehörtet",
+            "sie gehörten"
+          ]
+        },
+        "examples": [
+          "Das Fahrrad gehört meinem Bruder."
+        ]
+      }
+    },
+    {
+      "lemma": "geschehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Sich ereignen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich geschehe",
+            "du geschiehst",
+            "er/sie/es geschieht",
+            "wir geschehen",
+            "ihr gescheht",
+            "sie geschehen"
+          ],
+          "präteritum": [
+            "ich geschah",
+            "du geschahst",
+            "er/sie/es geschah",
+            "wir geschahen",
+            "ihr geschaht",
+            "sie geschahen"
+          ]
+        },
+        "examples": [
+          "Das ist gestern geschehen."
+        ]
+      }
+    },
+    {
+      "lemma": "gewinnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "In einem Spiel oder Wettkampf Sieger werden.",
+        "antonyms": [
+          "verlieren"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich gewinne",
+            "du gewinnst",
+            "er/sie/es gewinnt",
+            "wir gewinnen",
+            "ihr gewinnt",
+            "sie gewinnen"
+          ],
+          "präteritum": [
+            "ich gewann",
+            "du gewannst",
+            "er/sie/es gewann",
+            "wir gewannen",
+            "ihr gewannt",
+            "sie gewannen"
+          ]
+        },
+        "examples": [
+          "Unsere Mannschaft gewinnt das Spiel."
+        ]
+      }
+    },
+    {
+      "lemma": "glauben",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas für wahr oder wahrscheinlich halten.",
+        "antonyms": [
+          "bezweifeln"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich glaube",
+            "du glaubst",
+            "er/sie/es glaubt",
+            "wir glauben",
+            "ihr glaubt",
+            "sie glauben"
+          ],
+          "präteritum": [
+            "ich glaubte",
+            "du glaubtest",
+            "er/sie/es glaubte",
+            "wir glaubten",
+            "ihr glaubtet",
+            "sie glaubten"
+          ]
+        },
+        "examples": [
+          "Ich glaube, das ist richtig."
+        ]
+      }
+    },
+    {
       "lemma": "haben",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -324,6 +2854,266 @@
         },
         "examples": [
           "Wir haben viele Freunde."
+        ]
+      }
+    },
+    {
+      "lemma": "halten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Festhalten oder stoppen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich halte",
+            "du hältst",
+            "er/sie/es hält",
+            "wir halten",
+            "ihr haltet",
+            "sie halten"
+          ],
+          "präteritum": [
+            "ich hielt",
+            "du hieltst",
+            "er/sie/es hielt",
+            "wir hielten",
+            "ihr hieltet",
+            "sie hielten"
+          ]
+        },
+        "examples": [
+          "Der Bus hält vor dem Museum."
+        ]
+      }
+    },
+    {
+      "lemma": "heißen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Einen Namen haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich heiße",
+            "du heißt",
+            "er/sie/es heißt",
+            "wir heißen",
+            "ihr heißt",
+            "sie heißen"
+          ],
+          "präteritum": [
+            "ich hieß",
+            "du hießest",
+            "er/sie/es hieß",
+            "wir hießen",
+            "ihr hießt",
+            "sie hießen"
+          ]
+        },
+        "examples": [
+          "Ich heiße Maria."
+        ]
+      }
+    },
+    {
+      "lemma": "helfen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Jemandem Unterstützung leisten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich helfe",
+            "du hilfst",
+            "er/sie/es hilft",
+            "wir helfen",
+            "ihr helft",
+            "sie helfen"
+          ],
+          "präteritum": [
+            "ich half",
+            "du halfst",
+            "er/sie/es half",
+            "wir halfen",
+            "ihr halft",
+            "sie halfen"
+          ]
+        },
+        "examples": [
+          "Er hilft seinen Freunden gern."
+        ]
+      }
+    },
+    {
+      "lemma": "hoffen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Den Wunsch haben, dass etwas Erwünschtes eintrifft.",
+        "antonyms": [
+          "befürchten"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich hoffe",
+            "du hoffst",
+            "er/sie/es hofft",
+            "wir hoffen",
+            "ihr hofft",
+            "sie hoffen"
+          ],
+          "präteritum": [
+            "ich hoffte",
+            "du hofftest",
+            "er/sie/es hoffte",
+            "wir hofften",
+            "ihr hofftet",
+            "sie hofften"
+          ]
+        },
+        "examples": [
+          "Wir hoffen auf schönes Wetter."
+        ]
+      }
+    },
+    {
+      "lemma": "hören",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Geräusche oder Töne mit den Ohren wahrnehmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich höre",
+            "du hörst",
+            "er/sie/es hört",
+            "wir hören",
+            "ihr hört",
+            "sie hören"
+          ],
+          "präteritum": [
+            "ich hörte",
+            "du hörtest",
+            "er/sie/es hörte",
+            "wir hörten",
+            "ihr hörtet",
+            "sie hörten"
+          ]
+        },
+        "examples": [
+          "Ich höre gerne Musik."
+        ]
+      }
+    },
+    {
+      "lemma": "kaufen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Gegen Geld eine Ware erwerben.",
+        "antonyms": [
+          "verkaufen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich kaufe",
+            "du kaufst",
+            "er/sie/es kauft",
+            "wir kaufen",
+            "ihr kauft",
+            "sie kaufen"
+          ],
+          "präteritum": [
+            "ich kaufte",
+            "du kauftest",
+            "er/sie/es kaufte",
+            "wir kauften",
+            "ihr kauftet",
+            "sie kauften"
+          ]
+        },
+        "examples": [
+          "Ich kaufe im Supermarkt frisches Brot."
+        ]
+      }
+    },
+    {
+      "lemma": "kennen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Mit jemandem oder etwas vertraut sein.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich kenne",
+            "du kennst",
+            "er/sie/es kennt",
+            "wir kennen",
+            "ihr kennt",
+            "sie kennen"
+          ],
+          "präteritum": [
+            "ich kannte",
+            "du kanntest",
+            "er/sie/es kannte",
+            "wir kannten",
+            "ihr kanntet",
+            "sie kannten"
+          ]
+        },
+        "examples": [
+          "Kennst du diese Stadt schon?"
+        ]
+      }
+    },
+    {
+      "lemma": "kochen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Speisen durch Erhitzen zubereiten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich koche",
+            "du kochst",
+            "er/sie/es kocht",
+            "wir kochen",
+            "ihr kocht",
+            "sie kochen"
+          ],
+          "präteritum": [
+            "ich kochte",
+            "du kochtest",
+            "er/sie/es kochte",
+            "wir kochten",
+            "ihr kochtet",
+            "sie kochten"
+          ]
+        },
+        "examples": [
+          "Heute koche ich eine leckere Suppe."
         ]
       }
     },
@@ -358,6 +3148,139 @@
         },
         "examples": [
           "Er kommt aus Deutschland."
+        ]
+      }
+    },
+    {
+      "lemma": "kosten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Einen bestimmten Preis haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich koste",
+            "du kostest",
+            "er/sie/es kostet",
+            "wir kosten",
+            "ihr kostet",
+            "sie kosten"
+          ],
+          "präteritum": [
+            "ich kostete",
+            "du kostetest",
+            "er/sie/es kostete",
+            "wir kosteten",
+            "ihr kostetet",
+            "sie kosteten"
+          ]
+        },
+        "examples": [
+          "Das Buch kostet fünfzehn Euro."
+        ]
+      }
+    },
+    {
+      "lemma": "lachen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Freude oder Erheiterung durch Laute zeigen.",
+        "antonyms": [
+          "weinen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich lache",
+            "du lachst",
+            "er/sie/es lacht",
+            "wir lachen",
+            "ihr lacht",
+            "sie lachen"
+          ],
+          "präteritum": [
+            "ich lachte",
+            "du lachtest",
+            "er/sie/es lachte",
+            "wir lachten",
+            "ihr lachtet",
+            "sie lachten"
+          ]
+        },
+        "examples": [
+          "Alle lachen über den Witz."
+        ]
+      }
+    },
+    {
+      "lemma": "laufen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich schnell zu Fuß fortbewegen.",
+        "antonyms": [
+          "gehen",
+          "stehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich laufe",
+            "du läufst",
+            "er/sie/es läuft",
+            "wir laufen",
+            "ihr lauft",
+            "sie laufen"
+          ],
+          "präteritum": [
+            "ich lief",
+            "du liefst",
+            "er/sie/es lief",
+            "wir liefen",
+            "ihr lieft",
+            "sie liefen"
+          ]
+        },
+        "examples": [
+          "Die Kinder laufen durch den Park."
+        ]
+      }
+    },
+    {
+      "lemma": "legen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas in eine flache Lage bringen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich lege",
+            "du legst",
+            "er/sie/es legt",
+            "wir legen",
+            "ihr legt",
+            "sie legen"
+          ],
+          "präteritum": [
+            "ich legte",
+            "du legtest",
+            "er/sie/es legte",
+            "wir legten",
+            "ihr legtet",
+            "sie legten"
+          ]
+        },
+        "examples": [
+          "Sie legt den Schlüssel auf den Tisch."
         ]
       }
     },
@@ -428,6 +3351,40 @@
       }
     },
     {
+      "lemma": "liegen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich in waagerechter Lage befinden.",
+        "antonyms": [
+          "stehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich liege",
+            "du liegst",
+            "er/sie/es liegt",
+            "wir liegen",
+            "ihr liegt",
+            "sie liegen"
+          ],
+          "präteritum": [
+            "ich lag",
+            "du lagst",
+            "er/sie/es lag",
+            "wir lagen",
+            "ihr lagt",
+            "sie lagen"
+          ]
+        },
+        "examples": [
+          "Das Buch liegt auf dem Tisch."
+        ]
+      }
+    },
+    {
       "lemma": "machen",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -456,6 +3413,622 @@
         },
         "examples": [
           "Wir machen unsere Hausaufgaben."
+        ]
+      }
+    },
+    {
+      "lemma": "malen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Bilder mit Farben gestalten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich male",
+            "du malst",
+            "er/sie/es malt",
+            "wir malen",
+            "ihr malt",
+            "sie malen"
+          ],
+          "präteritum": [
+            "ich malte",
+            "du maltest",
+            "er/sie/es malte",
+            "wir malten",
+            "ihr maltet",
+            "sie malten"
+          ]
+        },
+        "examples": [
+          "Das Kind malt ein buntes Bild."
+        ]
+      }
+    },
+    {
+      "lemma": "mieten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Gegen Bezahlung zur Nutzung überlassen bekommen.",
+        "antonyms": [
+          "vermieten"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich miete",
+            "du mietest",
+            "er/sie/es mietet",
+            "wir mieten",
+            "ihr mietet",
+            "sie mieten"
+          ],
+          "präteritum": [
+            "ich mietete",
+            "du mietetest",
+            "er/sie/es mietete",
+            "wir mieteten",
+            "ihr mietetet",
+            "sie mieteten"
+          ]
+        },
+        "examples": [
+          "Wir mieten eine Wohnung in der Stadt."
+        ]
+      }
+    },
+    {
+      "lemma": "mitkommen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Jemanden an einen Ort begleiten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich komme mit",
+            "du kommst mit",
+            "er/sie/es kommt mit",
+            "wir kommen mit",
+            "ihr kommt mit",
+            "sie kommen mit"
+          ],
+          "präteritum": [
+            "ich kam mit",
+            "du kamst mit",
+            "er/sie/es kam mit",
+            "wir kamen mit",
+            "ihr kamt mit",
+            "sie kamen mit"
+          ]
+        },
+        "examples": [
+          "Möchtest du ins Kino mitkommen?"
+        ]
+      }
+    },
+    {
+      "lemma": "mitnehmen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Etwas oder jemanden mit sich führen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich nehme mit",
+            "du nimmst mit",
+            "er/sie/es nimmt mit",
+            "wir nehmen mit",
+            "ihr nehmt mit",
+            "sie nehmen mit"
+          ],
+          "präteritum": [
+            "ich nahm mit",
+            "du nahmst mit",
+            "er/sie/es nahm mit",
+            "wir nahmen mit",
+            "ihr nahmt mit",
+            "sie nahmen mit"
+          ]
+        },
+        "examples": [
+          "Vergiss nicht, deinen Regenschirm mitzunehmen."
+        ]
+      }
+    },
+    {
+      "lemma": "nehmen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas in die Hand greifen oder an sich nehmen.",
+        "antonyms": [
+          "geben"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich nehme",
+            "du nimmst",
+            "er/sie/es nimmt",
+            "wir nehmen",
+            "ihr nehmt",
+            "sie nehmen"
+          ],
+          "präteritum": [
+            "ich nahm",
+            "du nahmst",
+            "er/sie/es nahm",
+            "wir nahmen",
+            "ihr nahmt",
+            "sie nahmen"
+          ]
+        },
+        "examples": [
+          "Er nimmt ein Stück Kuchen."
+        ]
+      }
+    },
+    {
+      "lemma": "öffnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas Geschlossenes aufmachen.",
+        "antonyms": [
+          "schließen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich öffne",
+            "du öffnest",
+            "er/sie/es öffnet",
+            "wir öffnen",
+            "ihr öffnet",
+            "sie öffnen"
+          ],
+          "präteritum": [
+            "ich öffnete",
+            "du öffnetest",
+            "er/sie/es öffnete",
+            "wir öffneten",
+            "ihr öffnetet",
+            "sie öffneten"
+          ]
+        },
+        "examples": [
+          "Er öffnet das Fenster."
+        ]
+      }
+    },
+    {
+      "lemma": "passen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Die richtige Größe oder Eignung haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich passe",
+            "du passt",
+            "er/sie/es passt",
+            "wir passen",
+            "ihr passt",
+            "sie passen"
+          ],
+          "präteritum": [
+            "ich passte",
+            "du passtest",
+            "er/sie/es passte",
+            "wir passten",
+            "ihr passtet",
+            "sie passten"
+          ]
+        },
+        "examples": [
+          "Die Hose passt mir perfekt."
+        ]
+      }
+    },
+    {
+      "lemma": "passieren",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Sich ereignen oder geschehen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich passiere",
+            "du passierst",
+            "er/sie/es passiert",
+            "wir passieren",
+            "ihr passiert",
+            "sie passieren"
+          ],
+          "präteritum": [
+            "ich passierte",
+            "du passiertest",
+            "er/sie/es passierte",
+            "wir passierten",
+            "ihr passiertet",
+            "sie passierten"
+          ]
+        },
+        "examples": [
+          "Was ist passiert?"
+        ]
+      }
+    },
+    {
+      "lemma": "prüfen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Untersuchen, ob etwas in Ordnung ist.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich prüfe",
+            "du prüfst",
+            "er/sie/es prüft",
+            "wir prüfen",
+            "ihr prüft",
+            "sie prüfen"
+          ],
+          "präteritum": [
+            "ich prüfte",
+            "du prüftest",
+            "er/sie/es prüfte",
+            "wir prüften",
+            "ihr prüftet",
+            "sie prüften"
+          ]
+        },
+        "examples": [
+          "Der Lehrer prüft die Aufgaben."
+        ]
+      }
+    },
+    {
+      "lemma": "putzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Schmutz entfernen, säubern.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich putze",
+            "du putzt",
+            "er/sie/es putzt",
+            "wir putzen",
+            "ihr putzt",
+            "sie putzen"
+          ],
+          "präteritum": [
+            "ich putzte",
+            "du putztest",
+            "er/sie/es putzte",
+            "wir putzten",
+            "ihr putztet",
+            "sie putzten"
+          ]
+        },
+        "examples": [
+          "Ich putze jeden Tag meine Zähne."
+        ]
+      }
+    },
+    {
+      "lemma": "rechnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Mathematische Aufgaben lösen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich rechne",
+            "du rechnest",
+            "er/sie/es rechnet",
+            "wir rechnen",
+            "ihr rechnet",
+            "sie rechnen"
+          ],
+          "präteritum": [
+            "ich rechnete",
+            "du rechnetest",
+            "er/sie/es rechnete",
+            "wir rechneten",
+            "ihr rechnetet",
+            "sie rechneten"
+          ]
+        },
+        "examples": [
+          "Wir rechnen im Mathematikunterricht."
+        ]
+      }
+    },
+    {
+      "lemma": "reisen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Eine Fahrt oder ein Urlaub an andere Orte machen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich reise",
+            "du reist",
+            "er/sie/es reist",
+            "wir reisen",
+            "ihr reist",
+            "sie reisen"
+          ],
+          "präteritum": [
+            "ich reiste",
+            "du reistest",
+            "er/sie/es reiste",
+            "wir reisten",
+            "ihr reistet",
+            "sie reisten"
+          ]
+        },
+        "examples": [
+          "Im Sommer reisen wir nach Spanien."
+        ]
+      }
+    },
+    {
+      "lemma": "riechen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Einen Geruch mit der Nase wahrnehmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich rieche",
+            "du riechst",
+            "er/sie/es riecht",
+            "wir riechen",
+            "ihr riecht",
+            "sie riechen"
+          ],
+          "präteritum": [
+            "ich roch",
+            "du rochst",
+            "er/sie/es roch",
+            "wir rochen",
+            "ihr rocht",
+            "sie rochen"
+          ]
+        },
+        "examples": [
+          "Die Blumen riechen sehr frisch."
+        ]
+      }
+    },
+    {
+      "lemma": "rufen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Mit lauter Stimme nach jemandem verlangen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich rufe",
+            "du rufst",
+            "er/sie/es ruft",
+            "wir rufen",
+            "ihr ruft",
+            "sie rufen"
+          ],
+          "präteritum": [
+            "ich rief",
+            "du riefst",
+            "er/sie/es rief",
+            "wir riefen",
+            "ihr rieft",
+            "sie riefen"
+          ]
+        },
+        "examples": [
+          "Die Mutter ruft die Kinder zum Essen."
+        ]
+      }
+    },
+    {
+      "lemma": "sagen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Worte sprechen oder mitteilen.",
+        "antonyms": [
+          "schweigen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich sage",
+            "du sagst",
+            "er/sie/es sagt",
+            "wir sagen",
+            "ihr sagt",
+            "sie sagen"
+          ],
+          "präteritum": [
+            "ich sagte",
+            "du sagtest",
+            "er/sie/es sagte",
+            "wir sagten",
+            "ihr sagtet",
+            "sie sagten"
+          ]
+        },
+        "examples": [
+          "Was sagst du dazu?"
+        ]
+      }
+    },
+    {
+      "lemma": "schauen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Den Blick auf etwas richten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schaue",
+            "du schaust",
+            "er/sie/es schaut",
+            "wir schauen",
+            "ihr schaut",
+            "sie schauen"
+          ],
+          "präteritum": [
+            "ich schaute",
+            "du schautest",
+            "er/sie/es schaute",
+            "wir schauten",
+            "ihr schautet",
+            "sie schauten"
+          ]
+        },
+        "examples": [
+          "Wir schauen aus dem Fenster."
+        ]
+      }
+    },
+    {
+      "lemma": "scheinen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Licht aussenden oder den Eindruck machen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich scheine",
+            "du scheinst",
+            "er/sie/es scheint",
+            "wir scheinen",
+            "ihr scheint",
+            "sie scheinen"
+          ],
+          "präteritum": [
+            "ich schien",
+            "du schienst",
+            "er/sie/es schien",
+            "wir schienen",
+            "ihr schient",
+            "sie schienen"
+          ]
+        },
+        "examples": [
+          "Die Sonne scheint den ganzen Tag."
+        ]
+      }
+    },
+    {
+      "lemma": "schenken",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Jemandem etwas als Geschenk geben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schenke",
+            "du schenkst",
+            "er/sie/es schenkt",
+            "wir schenken",
+            "ihr schenkt",
+            "sie schenken"
+          ],
+          "präteritum": [
+            "ich schenkte",
+            "du schenktest",
+            "er/sie/es schenkte",
+            "wir schenkten",
+            "ihr schenktet",
+            "sie schenkten"
+          ]
+        },
+        "examples": [
+          "Sie schenkt ihrer Mutter zum Geburtstag Blumen."
+        ]
+      }
+    },
+    {
+      "lemma": "schicken",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas per Post oder digital versenden.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schicke",
+            "du schickst",
+            "er/sie/es schickt",
+            "wir schicken",
+            "ihr schickt",
+            "sie schicken"
+          ],
+          "präteritum": [
+            "ich schickte",
+            "du schicktest",
+            "er/sie/es schickte",
+            "wir schickten",
+            "ihr schicktet",
+            "sie schickten"
+          ]
+        },
+        "examples": [
+          "Er schickt eine Postkarte aus dem Urlaub."
         ]
       }
     },
@@ -494,6 +4067,104 @@
       }
     },
     {
+      "lemma": "schlagen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Treffen, hauen oder klopfen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schlage",
+            "du schlägst",
+            "er/sie/es schlägt",
+            "wir schlagen",
+            "ihr schlagt",
+            "sie schlagen"
+          ],
+          "präteritum": [
+            "ich schlug",
+            "du schlugst",
+            "er/sie/es schlug",
+            "wir schlugen",
+            "ihr schlugt",
+            "sie schlugen"
+          ]
+        },
+        "examples": [
+          "Das Herz schlägt regelmäßig."
+        ]
+      }
+    },
+    {
+      "lemma": "schließen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas Offenes zumachen.",
+        "antonyms": [
+          "öffnen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich schließe",
+            "du schließt",
+            "er/sie/es schließt",
+            "wir schließen",
+            "ihr schließt",
+            "sie schließen"
+          ],
+          "präteritum": [
+            "ich schloss",
+            "du schlossest",
+            "er/sie/es schloss",
+            "wir schlossen",
+            "ihr schlosst",
+            "sie schlossen"
+          ]
+        },
+        "examples": [
+          "Bitte schließe die Tür."
+        ]
+      }
+    },
+    {
+      "lemma": "schmecken",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Einen Geschmack im Mund empfinden.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schmecke",
+            "du schmeckst",
+            "er/sie/es schmeckt",
+            "wir schmecken",
+            "ihr schmeckt",
+            "sie schmecken"
+          ],
+          "präteritum": [
+            "ich schmeckte",
+            "du schmecktest",
+            "er/sie/es schmeckte",
+            "wir schmeckten",
+            "ihr schmecktet",
+            "sie schmeckten"
+          ]
+        },
+        "examples": [
+          "Das Essen schmeckt hervorragend."
+        ]
+      }
+    },
+    {
       "lemma": "schreiben",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -528,6 +4199,70 @@
       }
     },
     {
+      "lemma": "schwimmen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich im Wasser fortbewegen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schwimme",
+            "du schwimmst",
+            "er/sie/es schwimmt",
+            "wir schwimmen",
+            "ihr schwimmt",
+            "sie schwimmen"
+          ],
+          "präteritum": [
+            "ich schwamm",
+            "du schwammst",
+            "er/sie/es schwamm",
+            "wir schwammen",
+            "ihr schwammt",
+            "sie schwammen"
+          ]
+        },
+        "examples": [
+          "Im Sommer schwimmen wir im See."
+        ]
+      }
+    },
+    {
+      "lemma": "sehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Optische Eindrücke mit den Augen wahrnehmen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich sehe",
+            "du siehst",
+            "er/sie/es sieht",
+            "wir sehen",
+            "ihr seht",
+            "sie sehen"
+          ],
+          "präteritum": [
+            "ich sah",
+            "du sahst",
+            "er/sie/es sah",
+            "wir sahen",
+            "ihr saht",
+            "sie sahen"
+          ]
+        },
+        "examples": [
+          "Sie sieht einen Vogel am Himmel."
+        ]
+      }
+    },
+    {
       "lemma": "sein",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -556,6 +4291,168 @@
         },
         "examples": [
           "Das Leben ist schön."
+        ]
+      }
+    },
+    {
+      "lemma": "senden",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A2",
+        "definition": "Nachrichten oder Signale übermitteln.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich sende",
+            "du sendest",
+            "er/sie/es sendet",
+            "wir senden",
+            "ihr sendet",
+            "sie senden"
+          ],
+          "präteritum": [
+            "ich sandte",
+            "du sandtest",
+            "er/sie/es sandte",
+            "wir sandten",
+            "ihr sandtet",
+            "sie sandten"
+          ]
+        },
+        "examples": [
+          "Wir senden die Unterlagen per E-Mail."
+        ]
+      }
+    },
+    {
+      "lemma": "setzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Jemanden oder sich selbst irgendwohin setzen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich setze",
+            "du setzt",
+            "er/sie/es setzt",
+            "wir setzen",
+            "ihr setzt",
+            "sie setzen"
+          ],
+          "präteritum": [
+            "ich setzte",
+            "du setztest",
+            "er/sie/es setzte",
+            "wir setzten",
+            "ihr setztet",
+            "sie setzten"
+          ]
+        },
+        "examples": [
+          "Wir setzen uns auf den Stuhl."
+        ]
+      }
+    },
+    {
+      "lemma": "singen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Melodische Töne mit der Stimme erzeugen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich singe",
+            "du singst",
+            "er/sie/es singt",
+            "wir singen",
+            "ihr singt",
+            "sie singen"
+          ],
+          "präteritum": [
+            "ich sang",
+            "du sangst",
+            "er/sie/es sang",
+            "wir sangen",
+            "ihr sangt",
+            "sie sangen"
+          ]
+        },
+        "examples": [
+          "Der Chor singt ein schönes Lied."
+        ]
+      }
+    },
+    {
+      "lemma": "sitzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich auf dem Gesäß befinden.",
+        "antonyms": [
+          "stehen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich sitze",
+            "du sitzt",
+            "er/sie/es sitzt",
+            "wir sitzen",
+            "ihr sitzt",
+            "sie sitzen"
+          ],
+          "präteritum": [
+            "ich saß",
+            "du saßest",
+            "er/sie/es saß",
+            "wir saßen",
+            "ihr saßt",
+            "sie saßen"
+          ]
+        },
+        "examples": [
+          "Wir sitzen am Tisch und essen."
+        ]
+      }
+    },
+    {
+      "lemma": "spielen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Sich zum Vergnügen oder sportlich betätigen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich spiele",
+            "du spielst",
+            "er/sie/es spielt",
+            "wir spielen",
+            "ihr spielt",
+            "sie spielen"
+          ],
+          "präteritum": [
+            "ich spielte",
+            "du spieltest",
+            "er/sie/es spielte",
+            "wir spielten",
+            "ihr spieltet",
+            "sie spielten"
+          ]
+        },
+        "examples": [
+          "Die Kinder spielen gerne im Garten."
         ]
       }
     },
@@ -594,6 +4491,336 @@
       }
     },
     {
+      "lemma": "stehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Sich in aufrechter Haltung auf den Füßen befinden.",
+        "antonyms": [
+          "sitzen",
+          "liegen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich stehe",
+            "du stehst",
+            "er/sie/es steht",
+            "wir stehen",
+            "ihr steht",
+            "sie stehen"
+          ],
+          "präteritum": [
+            "ich stand",
+            "du standest",
+            "er/sie/es stand",
+            "wir standen",
+            "ihr standet",
+            "sie standen"
+          ]
+        },
+        "examples": [
+          "Der Bus steht an der Haltestelle."
+        ]
+      }
+    },
+    {
+      "lemma": "steigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Sich nach oben bewegen oder klettern.",
+        "antonyms": [
+          "fallen",
+          "sinken"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich steige",
+            "du steigst",
+            "er/sie/es steigt",
+            "wir steigen",
+            "ihr steigt",
+            "sie steigen"
+          ],
+          "präteritum": [
+            "ich stieg",
+            "du stiegst",
+            "er/sie/es stieg",
+            "wir stiegen",
+            "ihr stiegt",
+            "sie stiegen"
+          ]
+        },
+        "examples": [
+          "Die Temperaturen steigen im Frühling."
+        ]
+      }
+    },
+    {
+      "lemma": "stellen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas in eine aufrechte Position bringen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich stelle",
+            "du stellst",
+            "er/sie/es stellt",
+            "wir stellen",
+            "ihr stellt",
+            "sie stellen"
+          ],
+          "präteritum": [
+            "ich stellte",
+            "du stelltest",
+            "er/sie/es stellte",
+            "wir stellten",
+            "ihr stelltet",
+            "sie stellten"
+          ]
+        },
+        "examples": [
+          "Er stellt die Flasche in den Schrank."
+        ]
+      }
+    },
+    {
+      "lemma": "stoppen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Anhalten oder unterbrechen.",
+        "antonyms": [
+          "starten"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich stoppe",
+            "du stoppst",
+            "er/sie/es stoppt",
+            "wir stoppen",
+            "ihr stoppt",
+            "sie stoppen"
+          ],
+          "präteritum": [
+            "ich stoppte",
+            "du stopptest",
+            "er/sie/es stoppte",
+            "wir stoppten",
+            "ihr stopptet",
+            "sie stoppten"
+          ]
+        },
+        "examples": [
+          "Der Bus stoppt an der roten Ampel."
+        ]
+      }
+    },
+    {
+      "lemma": "streiten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Meinungsverschiedenheiten austragen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich streite",
+            "du streitest",
+            "er/sie/es streitet",
+            "wir streiten",
+            "ihr streitet",
+            "sie streiten"
+          ],
+          "präteritum": [
+            "ich stritt",
+            "du strittest",
+            "er/sie/es stritt",
+            "wir stritten",
+            "ihr strittet",
+            "sie stritten"
+          ]
+        },
+        "examples": [
+          "Die Geschwister streiten sich manchmal."
+        ]
+      }
+    },
+    {
+      "lemma": "suchen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Versuchen, etwas oder jemanden zu finden.",
+        "antonyms": [
+          "finden"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich suche",
+            "du suchst",
+            "er/sie/es sucht",
+            "wir suchen",
+            "ihr sucht",
+            "sie suchen"
+          ],
+          "präteritum": [
+            "ich suchte",
+            "du suchtest",
+            "er/sie/es suchte",
+            "wir suchten",
+            "ihr suchtet",
+            "sie suchten"
+          ]
+        },
+        "examples": [
+          "Wir suchen unseren Schlüssel."
+        ]
+      }
+    },
+    {
+      "lemma": "tanzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Rhythmische Bewegungen zur Musik ausführen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich tanze",
+            "du tanzt",
+            "er/sie/es tanzt",
+            "wir tanzen",
+            "ihr tanzt",
+            "sie tanzen"
+          ],
+          "präteritum": [
+            "ich tanzte",
+            "du tanztest",
+            "er/sie/es tanzte",
+            "wir tanzten",
+            "ihr tanztet",
+            "sie tanzten"
+          ]
+        },
+        "examples": [
+          "Sie tanzen gern auf Partys."
+        ]
+      }
+    },
+    {
+      "lemma": "testen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Eine Ausprobierung oder Überprüfung durchführen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich teste",
+            "du testest",
+            "er/sie/es testet",
+            "wir testen",
+            "ihr testet",
+            "sie testen"
+          ],
+          "präteritum": [
+            "ich testete",
+            "du testetest",
+            "er/sie/es testete",
+            "wir testeten",
+            "ihr testetet",
+            "sie testeten"
+          ]
+        },
+        "examples": [
+          "Wir testen das neue Programm."
+        ]
+      }
+    },
+    {
+      "lemma": "tragen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas mit den Händen oder Armen befördern.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich trage",
+            "du trägst",
+            "er/sie/es trägt",
+            "wir tragen",
+            "ihr tragt",
+            "sie tragen"
+          ],
+          "präteritum": [
+            "ich trug",
+            "du trugst",
+            "er/sie/es trug",
+            "wir trugen",
+            "ihr trugt",
+            "sie trugen"
+          ]
+        },
+        "examples": [
+          "Er trägt eine schwere Tasche."
+        ]
+      }
+    },
+    {
+      "lemma": "treffen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Mit jemandem zusammenkommen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich treffe",
+            "du triffst",
+            "er/sie/es trifft",
+            "wir treffen",
+            "ihr trefft",
+            "sie treffen"
+          ],
+          "präteritum": [
+            "ich traf",
+            "du trafst",
+            "er/sie/es traf",
+            "wir trafen",
+            "ihr traft",
+            "sie trafen"
+          ]
+        },
+        "examples": [
+          "Wir treffen uns um acht Uhr im Café."
+        ]
+      }
+    },
+    {
       "lemma": "trinken",
       "kind": "verbs",
       "source": "tools/de/konjugation/data/verbs.json",
@@ -622,6 +4849,819 @@
         },
         "examples": [
           "Er trinkt morgens immer Kaffee."
+        ]
+      }
+    },
+    {
+      "lemma": "üben",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Durch Wiederholung Fertigkeiten verbessern.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich übe",
+            "du übst",
+            "er/sie/es übt",
+            "wir üben",
+            "ihr übt",
+            "sie üben"
+          ],
+          "präteritum": [
+            "ich übte",
+            "du übtest",
+            "er/sie/es übte",
+            "wir übten",
+            "ihr übtet",
+            "sie übten"
+          ]
+        },
+        "examples": [
+          "Sie übt jeden Tag Klavier."
+        ]
+      }
+    },
+    {
+      "lemma": "übersetzen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Text von einer Sprache in eine andere übertragen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich übersetze",
+            "du übersetzt",
+            "er/sie/es übersetzt",
+            "wir übersetzen",
+            "ihr übersetzt",
+            "sie übersetzen"
+          ],
+          "präteritum": [
+            "ich übersetzte",
+            "du übersetztest",
+            "er/sie/es übersetzte",
+            "wir übersetzten",
+            "ihr übersetztet",
+            "sie übersetzten"
+          ]
+        },
+        "examples": [
+          "Sie übersetzt ein Buch ins Deutsche."
+        ]
+      }
+    },
+    {
+      "lemma": "umsteigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Von einem Verkehrsmittel in ein anderes wechseln.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich steige um",
+            "du steigst um",
+            "er/sie/es steigt um",
+            "wir steigen um",
+            "ihr steigt um",
+            "sie steigen um"
+          ],
+          "präteritum": [
+            "ich stieg um",
+            "du stiegst um",
+            "er/sie/es stieg um",
+            "wir stiegen um",
+            "ihr stiegt um",
+            "sie stiegen um"
+          ]
+        },
+        "examples": [
+          "In Frankfurt müssen wir umsteigen."
+        ]
+      }
+    },
+    {
+      "lemma": "umziehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Den Wohnort wechseln.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich ziehe um",
+            "du ziehst um",
+            "er/sie/es zieht um",
+            "wir ziehen um",
+            "ihr zieht um",
+            "sie ziehen um"
+          ],
+          "präteritum": [
+            "ich zog um",
+            "du zogst um",
+            "er/sie/es zog um",
+            "wir zogen um",
+            "ihr zogt um",
+            "sie zogen um"
+          ]
+        },
+        "examples": [
+          "Nächsten Monat ziehen wir um."
+        ]
+      }
+    },
+    {
+      "lemma": "vergessen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Etwas nicht mehr im Gedächtnis haben.",
+        "antonyms": [
+          "erinnern"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich vergesse",
+            "du vergisst",
+            "er/sie/es vergisst",
+            "wir vergessen",
+            "ihr vergesst",
+            "sie vergessen"
+          ],
+          "präteritum": [
+            "ich vergaß",
+            "du vergaßest",
+            "er/sie/es vergaß",
+            "wir vergaßen",
+            "ihr vergaßt",
+            "sie vergaßen"
+          ]
+        },
+        "examples": [
+          "Ich vergesse oft Namen."
+        ]
+      }
+    },
+    {
+      "lemma": "vergleichen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Gemeinsamkeiten und Unterschiede feststellen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich vergleiche",
+            "du vergleichst",
+            "er/sie/es vergleicht",
+            "wir vergleichen",
+            "ihr vergleicht",
+            "sie vergleichen"
+          ],
+          "präteritum": [
+            "ich verglich",
+            "du verglichst",
+            "er/sie/es verglich",
+            "wir verglichen",
+            "ihr verglicht",
+            "sie verglichen"
+          ]
+        },
+        "examples": [
+          "Wir vergleichen die Preise im Geschäft."
+        ]
+      }
+    },
+    {
+      "lemma": "verkaufen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Eine Ware gegen Geld abgeben.",
+        "antonyms": [
+          "kaufen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich verkaufe",
+            "du verkaufst",
+            "er/sie/es verkauft",
+            "wir verkaufen",
+            "ihr verkauft",
+            "sie verkaufen"
+          ],
+          "präteritum": [
+            "ich verkaufte",
+            "du verkauftest",
+            "er/sie/es verkaufte",
+            "wir verkauften",
+            "ihr verkauftet",
+            "sie verkauften"
+          ]
+        },
+        "examples": [
+          "Er verkauft sein altes Auto."
+        ]
+      }
+    },
+    {
+      "lemma": "verlieren",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Etwas nicht mehr besitzen oder ein Spiel nicht gewinnen.",
+        "antonyms": [
+          "gewinnen",
+          "finden"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich verliere",
+            "du verlierst",
+            "er/sie/es verliert",
+            "wir verlieren",
+            "ihr verliert",
+            "sie verlieren"
+          ],
+          "präteritum": [
+            "ich verlor",
+            "du verlorst",
+            "er/sie/es verlor",
+            "wir verloren",
+            "ihr verlort",
+            "sie verloren"
+          ]
+        },
+        "examples": [
+          "Er verliert oft seinen Schlüssel."
+        ]
+      }
+    },
+    {
+      "lemma": "vermieten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Einen Raum gegen Bezahlung zur Nutzung überlassen.",
+        "antonyms": [
+          "mieten"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich vermiete",
+            "du vermietest",
+            "er/sie/es vermietet",
+            "wir vermieten",
+            "ihr vermietet",
+            "sie vermieten"
+          ],
+          "präteritum": [
+            "ich vermietete",
+            "du vermietetest",
+            "er/sie/es vermietete",
+            "wir vermieteten",
+            "ihr vermietetet",
+            "sie vermieteten"
+          ]
+        },
+        "examples": [
+          "Herr Müller vermietet Zimmer an Studenten."
+        ]
+      }
+    },
+    {
+      "lemma": "verstehen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Den Sinn von etwas erfassen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich verstehe",
+            "du verstehst",
+            "er/sie/es versteht",
+            "wir verstehen",
+            "ihr versteht",
+            "sie verstehen"
+          ],
+          "präteritum": [
+            "ich verstand",
+            "du verstandest",
+            "er/sie/es verstand",
+            "wir verstanden",
+            "ihr verstandet",
+            "sie verstanden"
+          ]
+        },
+        "examples": [
+          "Ich verstehe diese Grammatikregel gut."
+        ]
+      }
+    },
+    {
+      "lemma": "versuchen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Anstrengungen machen, um ein Ziel zu erreichen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich versuche",
+            "du versuchst",
+            "er/sie/es versucht",
+            "wir versuchen",
+            "ihr versucht",
+            "sie versuchen"
+          ],
+          "präteritum": [
+            "ich versuchte",
+            "du versuchtest",
+            "er/sie/es versuchte",
+            "wir versuchten",
+            "ihr versuchtet",
+            "sie versuchten"
+          ]
+        },
+        "examples": [
+          "Wir versuchen, die Übung zu lösen."
+        ]
+      }
+    },
+    {
+      "lemma": "vorschlagen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A2",
+        "definition": "Einen Plan oder eine Idee vorlegen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich schlage vor",
+            "du schlägst vor",
+            "er/sie/es schlägt vor",
+            "wir schlagen vor",
+            "ihr schlagt vor",
+            "sie schlagen vor"
+          ],
+          "präteritum": [
+            "ich schlug vor",
+            "du schlugst vor",
+            "er/sie/es schlug vor",
+            "wir schlugen vor",
+            "ihr schlugt vor",
+            "sie schlugen vor"
+          ]
+        },
+        "examples": [
+          "Ich schlage vor, wir machen eine Pause."
+        ]
+      }
+    },
+    {
+      "lemma": "wählen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Eine Entscheidung zwischen Möglichkeiten treffen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wähle",
+            "du wählst",
+            "er/sie/es wählt",
+            "wir wählen",
+            "ihr wählt",
+            "sie wählen"
+          ],
+          "präteritum": [
+            "ich wählte",
+            "du wähltest",
+            "er/sie/es wählte",
+            "wir wählten",
+            "ihr wähltet",
+            "sie wählten"
+          ]
+        },
+        "examples": [
+          "Wir wählen das rote Kleid."
+        ]
+      }
+    },
+    {
+      "lemma": "wandern",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Zu Fuß in der Natur unterwegs sein.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wandere",
+            "du wanderst",
+            "er/sie/es wandert",
+            "wir wandern",
+            "ihr wandert",
+            "sie wandern"
+          ],
+          "präteritum": [
+            "ich wanderte",
+            "du wandertest",
+            "er/sie/es wanderte",
+            "wir wanderten",
+            "ihr wandertet",
+            "sie wanderten"
+          ]
+        },
+        "examples": [
+          "Wir wandern gern in den Bergen."
+        ]
+      }
+    },
+    {
+      "lemma": "warten",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "An einem Ort verbleiben, bis etwas geschieht.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich warte",
+            "du wartest",
+            "er/sie/es wartet",
+            "wir warten",
+            "ihr wartet",
+            "sie warten"
+          ],
+          "präteritum": [
+            "ich wartete",
+            "du wartetest",
+            "er/sie/es wartete",
+            "wir warteten",
+            "ihr wartetet",
+            "sie warteten"
+          ]
+        },
+        "examples": [
+          "Ich warte an der Bushaltestelle."
+        ]
+      }
+    },
+    {
+      "lemma": "waschen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Starkes Verb",
+        "level": "A1",
+        "definition": "Mit Wasser und Seife reinigen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wasche",
+            "du wäschst",
+            "er/sie/es wäscht",
+            "wir waschen",
+            "ihr wascht",
+            "sie waschen"
+          ],
+          "präteritum": [
+            "ich wusch",
+            "du wuschst",
+            "er/sie/es wusch",
+            "wir wuschen",
+            "ihr wuscht",
+            "sie wuschen"
+          ]
+        },
+        "examples": [
+          "Sie wäscht sich die Hände."
+        ]
+      }
+    },
+    {
+      "lemma": "wechseln",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Etwas gegen etwas anderes austauschen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wechsele",
+            "du wechselst",
+            "er/sie/es wechselt",
+            "wir wechseln",
+            "ihr wechselt",
+            "sie wechseln"
+          ],
+          "präteritum": [
+            "ich wechselte",
+            "du wechseltest",
+            "er/sie/es wechselte",
+            "wir wechselten",
+            "ihr wechseltet",
+            "sie wechselten"
+          ]
+        },
+        "examples": [
+          "Er wechselt das Geld an der Bank."
+        ]
+      }
+    },
+    {
+      "lemma": "weinen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Tränen vergießen aus Trauer oder Schmerz.",
+        "antonyms": [
+          "lachen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich weine",
+            "du weinst",
+            "er/sie/es weint",
+            "wir weinen",
+            "ihr weint",
+            "sie weinen"
+          ],
+          "präteritum": [
+            "ich weinte",
+            "du weintest",
+            "er/sie/es weinte",
+            "wir weinten",
+            "ihr weintet",
+            "sie weinten"
+          ]
+        },
+        "examples": [
+          "Das kleine Kind weint leise."
+        ]
+      }
+    },
+    {
+      "lemma": "wiederholen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas noch einmal sagen oder tun.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wiederhole",
+            "du wiederholst",
+            "er/sie/es wiederholt",
+            "wir wiederholen",
+            "ihr wiederholt",
+            "sie wiederholen"
+          ],
+          "präteritum": [
+            "ich wiederholte",
+            "du wiederholtest",
+            "er/sie/es wiederholte",
+            "wir wiederholten",
+            "ihr wiederholtet",
+            "sie wiederholten"
+          ]
+        },
+        "examples": [
+          "Können Sie den Satz bitte wiederholen?"
+        ]
+      }
+    },
+    {
+      "lemma": "wissen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Unregelmäßiges Verb",
+        "level": "A1",
+        "definition": "Kenntnis von etwas im Gedächtnis haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich weiß",
+            "du weißt",
+            "er/sie/es weiß",
+            "wir wissen",
+            "ihr wisst",
+            "sie wissen"
+          ],
+          "präteritum": [
+            "ich wusste",
+            "du wusstest",
+            "er/sie/es wusste",
+            "wir wussten",
+            "ihr wusstet",
+            "sie wussten"
+          ]
+        },
+        "examples": [
+          "Ich weiß die Antwort nicht."
+        ]
+      }
+    },
+    {
+      "lemma": "wohnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Seinen Wohnsitz an einem Ort haben.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich wohne",
+            "du wohnst",
+            "er/sie/es wohnt",
+            "wir wohnen",
+            "ihr wohnt",
+            "sie wohnen"
+          ],
+          "präteritum": [
+            "ich wohnte",
+            "du wohntest",
+            "er/sie/es wohnte",
+            "wir wohnten",
+            "ihr wohntet",
+            "sie wohnten"
+          ]
+        },
+        "examples": [
+          "Wir wohnen seit drei Jahren in Berlin."
+        ]
+      }
+    },
+    {
+      "lemma": "zählen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Zahlen der Reihe nach nennen oder Anzahl ermitteln.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich zähle",
+            "du zählst",
+            "er/sie/es zählt",
+            "wir zählen",
+            "ihr zählt",
+            "sie zählen"
+          ],
+          "präteritum": [
+            "ich zählte",
+            "du zähltest",
+            "er/sie/es zählte",
+            "wir zählten",
+            "ihr zähltet",
+            "sie zählten"
+          ]
+        },
+        "examples": [
+          "Das Kind zählt von eins bis zehn."
+        ]
+      }
+    },
+    {
+      "lemma": "zeichnen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Bilder mit Stiften oder Linien gestalten.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich zeichne",
+            "du zeichnest",
+            "er/sie/es zeichnet",
+            "wir zeichnen",
+            "ihr zeichnet",
+            "sie zeichnen"
+          ],
+          "präteritum": [
+            "ich zeichnete",
+            "du zeichnetest",
+            "er/sie/es zeichnete",
+            "wir zeichneten",
+            "ihr zeichnetet",
+            "sie zeichneten"
+          ]
+        },
+        "examples": [
+          "Er zeichnet ein Haus auf das Papier."
+        ]
+      }
+    },
+    {
+      "lemma": "zeigen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A1",
+        "definition": "Etwas sichtbar machen oder darauf hinweisen.",
+        "antonyms": [],
+        "tenses": {
+          "präsens": [
+            "ich zeige",
+            "du zeigst",
+            "er/sie/es zeigt",
+            "wir zeigen",
+            "ihr zeigt",
+            "sie zeigen"
+          ],
+          "präteritum": [
+            "ich zeigte",
+            "du zeigtest",
+            "er/sie/es zeigte",
+            "wir zeigten",
+            "ihr zeigtet",
+            "sie zeigten"
+          ]
+        },
+        "examples": [
+          "Er zeigt mir seine neuen Fotos."
+        ]
+      }
+    },
+    {
+      "lemma": "zustimmen",
+      "kind": "verbs",
+      "source": "tools/de/konjugation/data/verbs.json",
+      "data": {
+        "group": "Schwaches Verb",
+        "level": "A2",
+        "definition": "Gleicher Meinung sein.",
+        "antonyms": [
+          "ablehnen"
+        ],
+        "tenses": {
+          "präsens": [
+            "ich stimme zu",
+            "du stimmst zu",
+            "er/sie/es stimmt zu",
+            "wir stimmen zu",
+            "ihr stimmt zu",
+            "sie stimmen zu"
+          ],
+          "präteritum": [
+            "ich stimmte zu",
+            "du stimmtest zu",
+            "er/sie/es stimmte zu",
+            "wir stimmten zu",
+            "ihr stimmtet zu",
+            "sie stimmten zu"
+          ]
+        },
+        "examples": [
+          "Ich stimme deinem Vorschlag zu."
         ]
       }
     }
