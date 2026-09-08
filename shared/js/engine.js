@@ -516,22 +516,8 @@ function injectStyles() {
     }
 }
 
-function ensureI18nLoaded() {
-    if (window.COSY_I18N || window.setLanguage) return;
-
-    // Check if script is already present in DOM
-    const existing = document.querySelector('script[src*="js/core/i18n.js"]');
-    if (existing) return;
-
-    const p = getPrefix();
-    const s = document.createElement('script');
-    s.src = p + 'js/core/i18n.js';
-    document.head.appendChild(s);
-}
-
 function inject () {
     injectStyles();
-    ensureI18nLoaded();
     if (!document.getElementById('cosy-mobile-menu')) {
         const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
     }
