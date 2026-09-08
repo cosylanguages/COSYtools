@@ -3,6 +3,8 @@
     "group": "I խոնարհում (-ել)",
     "level": "A1",
     "definition": "Մտքերն արտահայտել բառերով:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; entries not directly in morphology.json",
     "tenses": {
       "present": [
         "խոսում եմ",
@@ -12,30 +14,22 @@
         "խոսում եք",
         "խոսում են"
       ],
-      "past": {
-        "forms": [
-          "խոսեցի",
-          "խոսեցիր",
-          "խոսեց",
-          "խոսեցինք",
-          "խոսեցիք",
-          "խոսեցին"
-        ],
-        "needs_review": true,
-        "note": "Standard aorist past forms derived; lemma entry not directly in morphology.json"
-      },
-      "future": {
-        "forms": [
-          "կխոսեմ",
-          "կխոսես",
-          "կխոսի",
-          "կխոսենք",
-          "կխոսեք",
-          "կխոսեն"
-        ],
-        "needs_review": true,
-        "note": "Standard indicative future forms derived; lemma entry not directly in morphology.json"
-      }
+      "past": [
+        "խոսեցի",
+        "խոսեցիր",
+        "խոսեց",
+        "խոսեցինք",
+        "խոսեցիք",
+        "խոսեցին"
+      ],
+      "future": [
+        "կխոսեմ",
+        "կխոսես",
+        "կխոսի",
+        "կխոսենք",
+        "կխոսեք",
+        "կխոսեն"
+      ]
     },
     "examples": [
       "Ես խոսում եմ հայերեն ամեն օր:"
@@ -45,6 +39,8 @@
     "group": "II խոնարհում (-ալ)",
     "level": "A1",
     "definition": "Տեքստն ընկալել աչքերով:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; entries not directly in morphology.json",
     "tenses": {
       "present": [
         "կարդում եմ",
@@ -54,30 +50,22 @@
         "կարդում եք",
         "կարդում են"
       ],
-      "past": {
-        "forms": [
-          "կարդացի",
-          "կարդացիր",
-          "կարդաց",
-          "կարդացինք",
-          "կարդացիք",
-          "կարդացին"
-        ],
-        "needs_review": true,
-        "note": "Standard aorist past forms derived; lemma entry not directly in morphology.json"
-      },
-      "future": {
-        "forms": [
-          "կկարդամ",
-          "կկարդաս",
-          "կկարդա",
-          "կկարդանք",
-          "կկարդաք",
-          "կկարդան"
-        ],
-        "needs_review": true,
-        "note": "Standard indicative future forms derived; lemma entry not directly in morphology.json"
-      }
+      "past": [
+        "կարդացի",
+        "կարդացիր",
+        "կարդաց",
+        "կարդացինք",
+        "կարդացիք",
+        "կարդացին"
+      ],
+      "future": [
+        "կկարդամ",
+        "կկարդաս",
+        "կկարդա",
+        "կկարդանք",
+        "կկարդաք",
+        "կկարդան"
+      ]
     },
     "examples": [
       "Նա կարդում է նոր գիրք:"
@@ -87,6 +75,8 @@
     "group": "I խոնարհում (-ել)",
     "level": "A1",
     "definition": "Տառերով արտահայտել մտքերը:",
+    "needs_review": true,
+    "review_notes": "Standard Eastern Armenian aorist past and կ- future forms derived; root entry not directly in morphology.json",
     "tenses": {
       "present": [
         "գրում եմ",
@@ -96,30 +86,22 @@
         "գրում եք",
         "գրում են"
       ],
-      "past": {
-        "forms": [
-          "գրեցի",
-          "գրեցիր",
-          "գրեց",
-          "գրեցինք",
-          "գրեցիք",
-          "գրեցին"
-        ],
-        "needs_review": true,
-        "note": "Standard aorist past forms derived; root entry not directly in morphology.json"
-      },
-      "future": {
-        "forms": [
-          "կգրեմ",
-          "կգրես",
-          "կգրի",
-          "կգրենք",
-          "կգրեք",
-          "կգրեն"
-        ],
-        "needs_review": true,
-        "note": "Standard indicative future forms derived; root entry not directly in morphology.json"
-      }
+      "past": [
+        "գրեցի",
+        "գրեցիր",
+        "գրեց",
+        "գրեցինք",
+        "գրեցիք",
+        "գրեցին"
+      ],
+      "future": [
+        "կգրեմ",
+        "կգրես",
+        "կգրի",
+        "կգրենք",
+        "կգրեք",
+        "կգրեն"
+      ]
     },
     "examples": [
       "Ես նամակ եմ գրում ընկերոջս:"
