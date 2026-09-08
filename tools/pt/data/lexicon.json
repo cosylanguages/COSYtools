@@ -2,6 +2,21 @@
   "language": "pt",
   "units": [
     {
+      "lemma": "aeroporto",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Instalação para aterragem e descolagem de aviões.",
+        "article": "o",
+        "plural": "aeroportos",
+        "examples": [
+          "Chegamos cedo ao aeroporto de Lisboa."
+        ]
+      }
+    },
+    {
       "lemma": "água",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -32,6 +47,111 @@
       }
     },
     {
+      "lemma": "armário",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Móvel com portas para guardar roupa.",
+        "article": "o",
+        "plural": "armários",
+        "examples": [
+          "Guardo os casacos no armário."
+        ]
+      }
+    },
+    {
+      "lemma": "árvore",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Planta grande de tronco de madeira.",
+        "article": "a",
+        "plural": "árvores",
+        "examples": [
+          "A árvore dá sombras agradáveis no Verão."
+        ]
+      }
+    },
+    {
+      "lemma": "autocarro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Veículo automóvel grande para passageiros.",
+        "article": "o",
+        "plural": "autocarros",
+        "examples": [
+          "Apanho o autocarro para ir à escola."
+        ]
+      }
+    },
+    {
+      "lemma": "avião",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Aeronave com asas e motor.",
+        "article": "o",
+        "plural": "aviões",
+        "examples": [
+          "O avião voa alto acima das nuvens."
+        ]
+      }
+    },
+    {
+      "lemma": "banco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Instituição financeira de depósitos.",
+        "article": "o",
+        "plural": "bancos",
+        "examples": [
+          "Vou ao banco levantar dinheiro."
+        ]
+      }
+    },
+    {
+      "lemma": "barco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Embarcação para navegar na água.",
+        "article": "o",
+        "plural": "barcos",
+        "examples": [
+          "O barco navega tranquilamente no rio."
+        ]
+      }
+    },
+    {
+      "lemma": "bicicleta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Veículo de duas rodas movido a pedais.",
+        "article": "a",
+        "plural": "bicicletas",
+        "examples": [
+          "Andar de bicicleta é muito divertido."
+        ]
+      }
+    },
+    {
       "lemma": "cadeira",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -43,6 +163,156 @@
         "plural": "cadeiras",
         "examples": [
           "Senta-te na cadeira confortável."
+        ]
+      }
+    },
+    {
+      "lemma": "café",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Bebida quente preparada com grãos torrados.",
+        "article": "o",
+        "plural": "cafés",
+        "examples": [
+          "O café expresso é muito popular em Portugal."
+        ]
+      }
+    },
+    {
+      "lemma": "calças",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Peça de vestuário que cobre as pernas.",
+        "article": "as",
+        "plural": "calças",
+        "examples": [
+          "Compro umas calças azuis confortáveis."
+        ]
+      }
+    },
+    {
+      "lemma": "cama",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Móvel usado para dormir e descansar.",
+        "article": "a",
+        "plural": "camas",
+        "examples": [
+          "A cama é muito confortável."
+        ]
+      }
+    },
+    {
+      "lemma": "caminho",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Faixa de terra para transitar.",
+        "article": "o",
+        "plural": "caminhos",
+        "examples": [
+          "O caminho leva até à praia."
+        ]
+      }
+    },
+    {
+      "lemma": "camisa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Peça de vestuário com mangas e botões.",
+        "article": "a",
+        "plural": "camisas",
+        "examples": [
+          "Visto uma camisa branca e elegante."
+        ]
+      }
+    },
+    {
+      "lemma": "caneta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Instrumento usado para escrever com tinta.",
+        "article": "a",
+        "plural": "canetas",
+        "examples": [
+          "Escrevo uma nota com a caneta azul."
+        ]
+      }
+    },
+    {
+      "lemma": "cão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Animal doméstico muito leal.",
+        "article": "o",
+        "plural": "cães",
+        "examples": [
+          "O cão passeia com o dono no parque."
+        ]
+      }
+    },
+    {
+      "lemma": "carne",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Parte comestível do corpo de animais.",
+        "article": "a",
+        "plural": "carnes",
+        "examples": [
+          "A carne assada está muito saborosa."
+        ]
+      }
+    },
+    {
+      "lemma": "carta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Mensagem escrita enviada num envelope.",
+        "article": "a",
+        "plural": "cartas",
+        "examples": [
+          "Envio uma carta para o meu amigo em Lisboa."
+        ]
+      }
+    },
+    {
+      "lemma": "cartão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Objeto pequeno de plástico para pagamentos.",
+        "article": "o",
+        "plural": "cartões",
+        "examples": [
+          "Pago a conta com cartão bancário."
         ]
       }
     },
@@ -62,6 +332,51 @@
       }
     },
     {
+      "lemma": "casaco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Peça de vestuário quente para o Frio.",
+        "article": "o",
+        "plural": "casacos",
+        "examples": [
+          "Visto o casaco quando está frio."
+        ]
+      }
+    },
+    {
+      "lemma": "chá",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Infusão de folhas de plantas em água quente.",
+        "article": "o",
+        "plural": "chás",
+        "examples": [
+          "Prefiro chá de camomila à noite."
+        ]
+      }
+    },
+    {
+      "lemma": "chapéu",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Acessório usado para cobrir a cabeça.",
+        "article": "o",
+        "plural": "chapéus",
+        "examples": [
+          "Usa um chapéu para se proteger do sol."
+        ]
+      }
+    },
+    {
       "lemma": "cidade",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -73,6 +388,21 @@
         "plural": "cidades",
         "examples": [
           "Lisboa é uma cidade magnífica."
+        ]
+      }
+    },
+    {
+      "lemma": "comboio",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Veículo sobre carris para transporte de passageiros.",
+        "article": "o",
+        "plural": "comboios",
+        "examples": [
+          "Viajamos de comboio para o Porto."
         ]
       }
     },
@@ -92,6 +422,81 @@
       }
     },
     {
+      "lemma": "dinheiro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Moedas e notas usadas para comprar bens.",
+        "article": "o",
+        "plural": "dinheiros",
+        "examples": [
+          "Tenho dinheiro suficiente na carteira."
+        ]
+      }
+    },
+    {
+      "lemma": "estação",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Local de paragem de comboios e autocarros.",
+        "article": "a",
+        "plural": "estações",
+        "examples": [
+          "O comboio chega à estação às dez horas."
+        ]
+      }
+    },
+    {
+      "lemma": "flor",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Parte colorida das plantas.",
+        "article": "a",
+        "plural": "flores",
+        "examples": [
+          "Ofereço uma flor bonita à minha amiga."
+        ]
+      }
+    },
+    {
+      "lemma": "fruta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Fruto comestível de sabor doce ou ácido.",
+        "article": "a",
+        "plural": "frutas",
+        "examples": [
+          "Compro fruta fresca no mercado local."
+        ]
+      }
+    },
+    {
+      "lemma": "gato",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pequeno animal felino doméstico.",
+        "article": "o",
+        "plural": "gatos",
+        "examples": [
+          "O gato dorme na almofada da sala."
+        ]
+      }
+    },
+    {
       "lemma": "homem",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -107,6 +512,96 @@
       }
     },
     {
+      "lemma": "hotel",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Estabelecimento que dá alojamento a clientes.",
+        "article": "o",
+        "plural": "hotéis",
+        "examples": [
+          "Ficamos hospedados num hotel central."
+        ]
+      }
+    },
+    {
+      "lemma": "jaqueta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Casaco curto de fecho ou botões.",
+        "article": "a",
+        "plural": "jaquetas",
+        "examples": [
+          "A jaqueta de cabedal é muito estilosa."
+        ]
+      }
+    },
+    {
+      "lemma": "jardim",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Espaço com plantas e flores ornamentais.",
+        "article": "o",
+        "plural": "jardins",
+        "examples": [
+          "O jardim da casa é encantador."
+        ]
+      }
+    },
+    {
+      "lemma": "lâmpada",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Dispositivo que produz luz elétrica.",
+        "article": "a",
+        "plural": "lâmpadas",
+        "examples": [
+          "Acendo a lâmpada da mesa."
+        ]
+      }
+    },
+    {
+      "lemma": "legume",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Planta hortaliça usada na culinária.",
+        "article": "o",
+        "plural": "legumes",
+        "examples": [
+          "Preparo uma sopa com legumes frescos."
+        ]
+      }
+    },
+    {
+      "lemma": "leite",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Líquido branco produzido pelas vacas.",
+        "article": "o",
+        "plural": "leites",
+        "examples": [
+          "Bebo café com leite logo cedo."
+        ]
+      }
+    },
+    {
       "lemma": "livro",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -118,6 +613,36 @@
         "plural": "livros",
         "examples": [
           "Eu leio um livro interessante."
+        ]
+      }
+    },
+    {
+      "lemma": "maçã",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Fruta arredondada de casca vermelha ou verde.",
+        "article": "a",
+        "plural": "maçãs",
+        "examples": [
+          "Como uma maçã deliciosa no lanche."
+        ]
+      }
+    },
+    {
+      "lemma": "mala",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Bagagem rígida usada em viagens.",
+        "article": "a",
+        "plural": "malas",
+        "examples": [
+          "Faço a mala na véspera da viagem."
         ]
       }
     },
@@ -152,6 +677,96 @@
       }
     },
     {
+      "lemma": "óculos",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Aparelho de lentes usado para ver melhor.",
+        "article": "os",
+        "plural": "óculos",
+        "examples": [
+          "Uso óculos para ler livros."
+        ]
+      }
+    },
+    {
+      "lemma": "ovo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Alimento produzido por aves.",
+        "article": "o",
+        "plural": "ovos",
+        "examples": [
+          "Como dois ovos mexidos no pequeno-almoço."
+        ]
+      }
+    },
+    {
+      "lemma": "pão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Alimento básico feito de farinha, água e fermento.",
+        "article": "o",
+        "plural": "pães",
+        "examples": [
+          "Compro pão fresco todas as manhãs na padaria."
+        ]
+      }
+    },
+    {
+      "lemma": "papel",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Folha fina usada para escrever ou desenhar.",
+        "article": "o",
+        "plural": "papéis",
+        "examples": [
+          "Escrevo o meu nome numa folha de papel."
+        ]
+      }
+    },
+    {
+      "lemma": "pássaro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Ave pequena com penas e asas.",
+        "article": "o",
+        "plural": "pássaros",
+        "examples": [
+          "Um pássaro canta na árvore."
+        ]
+      }
+    },
+    {
+      "lemma": "peixe",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Animal aquático servido como alimento.",
+        "article": "o",
+        "plural": "peixes",
+        "examples": [
+          "O peixe grelhado é uma refeição saudável."
+        ]
+      }
+    },
+    {
       "lemma": "porta",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -167,6 +782,141 @@
       }
     },
     {
+      "lemma": "praça",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Espaço público aberto numa localidade.",
+        "article": "a",
+        "plural": "praças",
+        "examples": [
+          "Encontramo-nos na praça principal."
+        ]
+      }
+    },
+    {
+      "lemma": "quadro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pintura emoldurada decorativa.",
+        "article": "o",
+        "plural": "quadros",
+        "examples": [
+          "Na parede está pendurado um quadro bonito."
+        ]
+      }
+    },
+    {
+      "lemma": "quarto",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Divisão da casa destinada a dormir.",
+        "article": "o",
+        "plural": "quartos",
+        "examples": [
+          "O meu quarto é grande e limpo."
+        ]
+      }
+    },
+    {
+      "lemma": "queijo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Alimento sólido derivado do leite.",
+        "article": "o",
+        "plural": "queijos",
+        "examples": [
+          "Gosto de comer queijo com pão."
+        ]
+      }
+    },
+    {
+      "lemma": "relógio",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Instrumento para medir o tempo.",
+        "article": "o",
+        "plural": "relógios",
+        "examples": [
+          "Olho para o relógio para saber as horas."
+        ]
+      }
+    },
+    {
+      "lemma": "roupa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Vestuário usado para cobrir o corpo.",
+        "article": "a",
+        "plural": "roupas",
+        "examples": [
+          "Lavo a roupa ao fim de semana."
+        ]
+      }
+    },
+    {
+      "lemma": "rua",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Via pública nas vilas e cidades.",
+        "article": "a",
+        "plural": "ruas",
+        "examples": [
+          "A rua está muito movimentada hoje."
+        ]
+      }
+    },
+    {
+      "lemma": "saco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Recipiente flexível para transportar objetos.",
+        "article": "o",
+        "plural": "sacos",
+        "examples": [
+          "Levo as compras num saco de pano."
+        ]
+      }
+    },
+    {
+      "lemma": "sapato",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Calçado que protege o pé.",
+        "article": "o",
+        "plural": "sapatos",
+        "examples": [
+          "Calço os meus sapatos pretos."
+        ]
+      }
+    },
+    {
       "lemma": "sol",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -178,6 +928,371 @@
         "plural": "sóis",
         "examples": [
           "O sol brilha no céu azul."
+        ]
+      }
+    },
+    {
+      "lemma": "abrir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "3ª conjugação (-ir)",
+        "level": "A1",
+        "definition": "Deslocar o que fecha uma entrada.",
+        "antonyms": [
+          "fechar"
+        ],
+        "tenses": {
+          "presente": [
+            "abro",
+            "abres",
+            "abre",
+            "abrimos",
+            "abris",
+            "abrem"
+          ],
+          "passado": [
+            "abri",
+            "abriste",
+            "abriu",
+            "abrimos",
+            "abristes",
+            "abriram"
+          ]
+        },
+        "examples": [
+          "Abro a janela para arejar o quarto."
+        ]
+      }
+    },
+    {
+      "lemma": "acreditar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Ter como verdadeiro determinado facto.",
+        "antonyms": [
+          "duvidar"
+        ],
+        "tenses": {
+          "presente": [
+            "acredito",
+            "acreditas",
+            "acredita",
+            "acreditamos",
+            "acreditais",
+            "acreditam"
+          ],
+          "passado": [
+            "acreditei",
+            "acreditaste",
+            "acreditou",
+            "acreditamos",
+            "acreditastes",
+            "acreditaram"
+          ]
+        },
+        "examples": [
+          "Acredito que tudo vai correr bem."
+        ]
+      }
+    },
+    {
+      "lemma": "agradecer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A2",
+        "definition": "Demonstrar gratidão por um favor.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "agradeço",
+            "agradeces",
+            "agradece",
+            "agradecemos",
+            "agradeceis",
+            "agradecem"
+          ],
+          "passado": [
+            "agradeci",
+            "agradeceste",
+            "agradeceu",
+            "agradecemos",
+            "agradecestes",
+            "agradeceram"
+          ]
+        },
+        "examples": [
+          "Agradeço a tua ajuda preciosa."
+        ]
+      }
+    },
+    {
+      "lemma": "alugar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Cedência ou uso mediante um pagamento.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "alugo",
+            "alugas",
+            "aluga",
+            "alugamos",
+            "alugais",
+            "alugam"
+          ],
+          "passado": [
+            "aluguei",
+            "alugaste",
+            "alugou",
+            "alugamos",
+            "alugastes",
+            "alugaram"
+          ]
+        },
+        "examples": [
+          "Alugamos uma casa de férias na praia."
+        ]
+      }
+    },
+    {
+      "lemma": "aprender",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Adquirir o conhecimento de algo.",
+        "antonyms": [
+          "esquecer"
+        ],
+        "tenses": {
+          "presente": [
+            "aprendo",
+            "aprendes",
+            "aprende",
+            "aprendemos",
+            "aprendeis",
+            "aprendem"
+          ],
+          "passado": [
+            "aprendi",
+            "aprendeste",
+            "aprendeu",
+            "aprendemos",
+            "aprendestes",
+            "aprenderam"
+          ]
+        },
+        "examples": [
+          "Aprendo português com facilidade."
+        ]
+      }
+    },
+    {
+      "lemma": "caminhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Andar a pé com ritmo regular.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "caminho",
+            "caminhas",
+            "caminha",
+            "caminhamos",
+            "caminhais",
+            "caminham"
+          ],
+          "passado": [
+            "caminhei",
+            "caminhaste",
+            "caminhou",
+            "caminhamos",
+            "caminhastes",
+            "caminharam"
+          ]
+        },
+        "examples": [
+          "Caminho meia hora na praia."
+        ]
+      }
+    },
+    {
+      "lemma": "cantar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Emitir sons melodiosos com a voz.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "canto",
+            "cantas",
+            "canta",
+            "cantamos",
+            "cantais",
+            "cantam"
+          ],
+          "passado": [
+            "cantei",
+            "cantaste",
+            "cantou",
+            "cantamos",
+            "cantastes",
+            "cantaram"
+          ]
+        },
+        "examples": [
+          "Canto uma canção tradicional."
+        ]
+      }
+    },
+    {
+      "lemma": "chamar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Dizer o nome de alguém para atrair a atenção.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "chamo",
+            "chamas",
+            "chama",
+            "chamamos",
+            "chamais",
+            "chamam"
+          ],
+          "passado": [
+            "chamei",
+            "chamaste",
+            "chamou",
+            "chamamos",
+            "chamastes",
+            "chamaram"
+          ]
+        },
+        "examples": [
+          "Chamo o táxi para ir ao centro."
+        ]
+      }
+    },
+    {
+      "lemma": "chegar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Atingir o fim de um percurso.",
+        "antonyms": [
+          "partir"
+        ],
+        "tenses": {
+          "presente": [
+            "chego",
+            "chegas",
+            "chega",
+            "chegamos",
+            "chegais",
+            "chegam"
+          ],
+          "passado": [
+            "cheguei",
+            "chegaste",
+            "chegou",
+            "chegamos",
+            "chegastes",
+            "chegaram"
+          ]
+        },
+        "examples": [
+          "O comboio chega à estação a tempo."
+        ]
+      }
+    },
+    {
+      "lemma": "chorar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Derramar lágrimas por dor ou comoção.",
+        "antonyms": [
+          "rir"
+        ],
+        "tenses": {
+          "presente": [
+            "choro",
+            "choras",
+            "chora",
+            "choramos",
+            "chorais",
+            "choram"
+          ],
+          "passado": [
+            "chorei",
+            "choraste",
+            "chorou",
+            "choramos",
+            "chorastes",
+            "choraram"
+          ]
+        },
+        "examples": [
+          "O bebé chora quando sente fome."
+        ]
+      }
+    },
+    {
+      "lemma": "começar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Dar início a uma atividade.",
+        "antonyms": [
+          "acabar",
+          "terminar"
+        ],
+        "tenses": {
+          "presente": [
+            "começo",
+            "começas",
+            "começa",
+            "começamos",
+            "começais",
+            "começam"
+          ],
+          "passado": [
+            "comecei",
+            "começaste",
+            "começou",
+            "começamos",
+            "começastes",
+            "começaram"
+          ]
+        },
+        "examples": [
+          "A aula começa às nove da manhã."
         ]
       }
     },
@@ -216,6 +1331,634 @@
       }
     },
     {
+      "lemma": "comprar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Adquirir algo em troca de dinheiro.",
+        "antonyms": [
+          "vender"
+        ],
+        "tenses": {
+          "presente": [
+            "compro",
+            "compras",
+            "compra",
+            "compramos",
+            "comprais",
+            "compram"
+          ],
+          "passado": [
+            "comprei",
+            "compraste",
+            "comprou",
+            "compramos",
+            "comprastes",
+            "compraram"
+          ]
+        },
+        "examples": [
+          "Compro pão fresco todos os dias."
+        ]
+      }
+    },
+    {
+      "lemma": "conhecer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Tender ideia ou familiaridade com algo.",
+        "antonyms": [
+          "ignorar"
+        ],
+        "tenses": {
+          "presente": [
+            "conheço",
+            "conheces",
+            "conhece",
+            "conhecemos",
+            "conheceis",
+            "conhecem"
+          ],
+          "passado": [
+            "conheci",
+            "conheceste",
+            "conheceu",
+            "conhecemos",
+            "conhecestes",
+            "conheceram"
+          ]
+        },
+        "examples": [
+          "Conheço muito bem a cidade de Lisboa."
+        ]
+      }
+    },
+    {
+      "lemma": "contar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Narrar uma história ou somar unidades.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "conto",
+            "contas",
+            "conta",
+            "contamos",
+            "contais",
+            "contam"
+          ],
+          "passado": [
+            "contei",
+            "contaste",
+            "contou",
+            "contamos",
+            "contastes",
+            "contaram"
+          ]
+        },
+        "examples": [
+          "O avô conta histórias aos netos."
+        ]
+      }
+    },
+    {
+      "lemma": "continuar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Prosseguir uma ação iniciada.",
+        "antonyms": [
+          "parar"
+        ],
+        "tenses": {
+          "presente": [
+            "continuo",
+            "continuas",
+            "continua",
+            "continuamos",
+            "continuais",
+            "continuam"
+          ],
+          "passado": [
+            "continuei",
+            "continuaste",
+            "continuou",
+            "continuamos",
+            "continuastes",
+            "continuaram"
+          ]
+        },
+        "examples": [
+          "Continuo a estudar à noite."
+        ]
+      }
+    },
+    {
+      "lemma": "convidar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Pedir a presença de alguém num evento.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "convido",
+            "convidas",
+            "convida",
+            "convidamos",
+            "convidais",
+            "convidam"
+          ],
+          "passado": [
+            "convidei",
+            "convidaste",
+            "convidou",
+            "convidamos",
+            "convidastes",
+            "convidaram"
+          ]
+        },
+        "examples": [
+          "Convido os meus amigos para jantar."
+        ]
+      }
+    },
+    {
+      "lemma": "correr",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Deslocar-se com rapidez a pé.",
+        "antonyms": [
+          "caminhar"
+        ],
+        "tenses": {
+          "presente": [
+            "corro",
+            "corres",
+            "corre",
+            "corremos",
+            "correis",
+            "correm"
+          ],
+          "passado": [
+            "corri",
+            "correste",
+            "correu",
+            "corremos",
+            "correstes",
+            "correram"
+          ]
+        },
+        "examples": [
+          "Corro no parque todas as manhãs."
+        ]
+      }
+    },
+    {
+      "lemma": "cozinhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Preparar refeições e alimentos ao lume.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "cozinho",
+            "cozinhas",
+            "cozinha",
+            "cozinhamos",
+            "cozinhais",
+            "cozinham"
+          ],
+          "passado": [
+            "cozinhei",
+            "cozinhaste",
+            "cozinhou",
+            "cozinhamos",
+            "cozinhastes",
+            "cozinharam"
+          ]
+        },
+        "examples": [
+          "Cozinho um jantar delicioso para a família."
+        ]
+      }
+    },
+    {
+      "lemma": "dançar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Mover o corpo ritmicamente ao som da música.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "danço",
+            "danças",
+            "dança",
+            "dançamos",
+            "dançais",
+            "dançam"
+          ],
+          "passado": [
+            "dancei",
+            "dançaste",
+            "dançou",
+            "dançamos",
+            "dançastes",
+            "dançaram"
+          ]
+        },
+        "examples": [
+          "Dançamos na festa de aniversário."
+        ]
+      }
+    },
+    {
+      "lemma": "dar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Entregar algo a alguém gratuitamente.",
+        "antonyms": [
+          "receber"
+        ],
+        "tenses": {
+          "presente": [
+            "dou",
+            "dás",
+            "dá",
+            "damos",
+            "dais",
+            "dão"
+          ],
+          "passado": [
+            "dei",
+            "deste",
+            "deu",
+            "demos",
+            "destes",
+            "deram"
+          ]
+        },
+        "examples": [
+          "Dou um presente ao meu irmão."
+        ]
+      }
+    },
+    {
+      "lemma": "decidir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "3ª conjugação (-ir)",
+        "level": "A2",
+        "definition": "Tomar uma resolução sobre algo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "decido",
+            "decides",
+            "decide",
+            "decidimos",
+            "decidis",
+            "decidem"
+          ],
+          "passado": [
+            "decidi",
+            "decidiste",
+            "decidiu",
+            "decidimos",
+            "decidistes",
+            "decidiram"
+          ]
+        },
+        "examples": [
+          "Decido ir passear esta tarde."
+        ]
+      }
+    },
+    {
+      "lemma": "desenhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Traçar contornos e figuras num papel.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "desenho",
+            "desenhas",
+            "desenha",
+            "desenhamos",
+            "desenhais",
+            "desenham"
+          ],
+          "passado": [
+            "desenhei",
+            "desenhaste",
+            "desenhou",
+            "desenhamos",
+            "desenhastes",
+            "desenharam"
+          ]
+        },
+        "examples": [
+          "Desenho uma paisagem de montanhas."
+        ]
+      }
+    },
+    {
+      "lemma": "dizer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Exprimir pensamentos por meio de palavras.",
+        "antonyms": [
+          "calar"
+        ],
+        "tenses": {
+          "presente": [
+            "digo",
+            "dizes",
+            "diz",
+            "dizemos",
+            "dizeis",
+            "dizem"
+          ],
+          "passado": [
+            "disse",
+            "disseste",
+            "disse",
+            "dissemos",
+            "dissestes",
+            "disseram"
+          ]
+        },
+        "examples": [
+          "Digo sempre a verdade."
+        ]
+      }
+    },
+    {
+      "lemma": "durar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Perdurar ou ter duração num tempo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "duro",
+            "duras",
+            "dura",
+            "duramos",
+            "durais",
+            "duram"
+          ],
+          "passado": [
+            "durei",
+            "duraste",
+            "durou",
+            "duramos",
+            "durastes",
+            "duraram"
+          ]
+        },
+        "examples": [
+          "O filme dura duas horas."
+        ]
+      }
+    },
+    {
+      "lemma": "encontrar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Achar o que se procurava.",
+        "antonyms": [
+          "perder"
+        ],
+        "tenses": {
+          "presente": [
+            "encontro",
+            "encontras",
+            "encontra",
+            "encontramos",
+            "encontrais",
+            "encontram"
+          ],
+          "passado": [
+            "encontrei",
+            "encontraste",
+            "encontrou",
+            "encontramos",
+            "encontrastes",
+            "encontraram"
+          ]
+        },
+        "examples": [
+          "Encontro os meus amigos na praça."
+        ]
+      }
+    },
+    {
+      "lemma": "entrar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Passar para dentro de um espaço.",
+        "antonyms": [
+          "sair"
+        ],
+        "tenses": {
+          "presente": [
+            "entro",
+            "entras",
+            "entra",
+            "entramos",
+            "entrais",
+            "entram"
+          ],
+          "passado": [
+            "entrei",
+            "entraste",
+            "entrou",
+            "entramos",
+            "entrastes",
+            "entraram"
+          ]
+        },
+        "examples": [
+          "Entro na biblioteca com calma."
+        ]
+      }
+    },
+    {
+      "lemma": "enviar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Mandar alguma coisa a um destinatário.",
+        "antonyms": [
+          "receber"
+        ],
+        "tenses": {
+          "presente": [
+            "envio",
+            "envias",
+            "envia",
+            "enviamos",
+            "enviais",
+            "enviam"
+          ],
+          "passado": [
+            "enviei",
+            "enviaste",
+            "enviou",
+            "enviamos",
+            "enviastes",
+            "enviaram"
+          ]
+        },
+        "examples": [
+          "Envio uma mensagem de texto."
+        ]
+      }
+    },
+    {
+      "lemma": "escolher",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A2",
+        "definition": "Selecionar uma opção entre várias.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "escolho",
+            "escolhes",
+            "escolhe",
+            "escolhemos",
+            "escolheis",
+            "escolhem"
+          ],
+          "passado": [
+            "escolhi",
+            "escolheste",
+            "escolheu",
+            "escolhemos",
+            "escolhestes",
+            "escolheram"
+          ]
+        },
+        "examples": [
+          "Escolho um livro na livraria."
+        ]
+      }
+    },
+    {
+      "lemma": "esperar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Aguardar a chegada de alguém ou algo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "espero",
+            "esperas",
+            "espera",
+            "esperamos",
+            "esperais",
+            "esperam"
+          ],
+          "passado": [
+            "esperei",
+            "esperaste",
+            "esperou",
+            "esperamos",
+            "esperastes",
+            "esperaram"
+          ]
+        },
+        "examples": [
+          "Espero o autocarro na paragem."
+        ]
+      }
+    },
+    {
+      "lemma": "esquecer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Deixar de ter na memória.",
+        "antonyms": [
+          "lembrar"
+        ],
+        "tenses": {
+          "presente": [
+            "esqueço",
+            "esqueces",
+            "esquece",
+            "esquecemos",
+            "esqueceis",
+            "esquecem"
+          ],
+          "passado": [
+            "esqueci",
+            "esqueceste",
+            "esqueceu",
+            "esquecemos",
+            "esquecestes",
+            "esqueceram"
+          ]
+        },
+        "examples": [
+          "Às vezes esqueço-me das chaves."
+        ]
+      }
+    },
+    {
       "lemma": "estar",
       "kind": "verbs",
       "source": "tools/pt/conjugeur/data/verbs.json",
@@ -244,6 +1987,70 @@
         },
         "examples": [
           "Como estás? Estou muito bem, obrigado."
+        ]
+      }
+    },
+    {
+      "lemma": "estudar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Aplicar a mente no aprendizado de uma matéria.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "estudo",
+            "estudas",
+            "estuda",
+            "estudamos",
+            "estudais",
+            "estudam"
+          ],
+          "passado": [
+            "estudei",
+            "estudaste",
+            "estudou",
+            "estudamos",
+            "estudastes",
+            "estudaram"
+          ]
+        },
+        "examples": [
+          "Estudo línguas estrangeiras diariamente."
+        ]
+      }
+    },
+    {
+      "lemma": "explicar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Dar a conhecer algo de forma clara.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "explico",
+            "explicas",
+            "explica",
+            "explicamos",
+            "explicais",
+            "explicam"
+          ],
+          "passado": [
+            "expliquei",
+            "explicaste",
+            "explicou",
+            "explicamos",
+            "explicastes",
+            "explicaram"
+          ]
+        },
+        "examples": [
+          "O professor explica a matéria com atenção."
         ]
       }
     },
@@ -315,6 +2122,140 @@
       }
     },
     {
+      "lemma": "fechar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Mover para tapar uma abertura.",
+        "antonyms": [
+          "abrir"
+        ],
+        "tenses": {
+          "presente": [
+            "fecho",
+            "fechas",
+            "fecha",
+            "fechamos",
+            "fechais",
+            "fecham"
+          ],
+          "passado": [
+            "fechei",
+            "fechaste",
+            "fechou",
+            "fechamos",
+            "fechastes",
+            "fecharam"
+          ]
+        },
+        "examples": [
+          "Por favor, fecha a porta da entrada."
+        ]
+      }
+    },
+    {
+      "lemma": "ficar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Permanecer num local determinado.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "fico",
+            "ficas",
+            "fica",
+            "ficamos",
+            "ficais",
+            "ficam"
+          ],
+          "passado": [
+            "fiquei",
+            "ficaste",
+            "ficou",
+            "ficamos",
+            "ficastes",
+            "ficaram"
+          ]
+        },
+        "examples": [
+          "Fico em casa durante o fim de semana."
+        ]
+      }
+    },
+    {
+      "lemma": "ganhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Obter a vitória num concurso ou jogo.",
+        "antonyms": [
+          "perder"
+        ],
+        "tenses": {
+          "presente": [
+            "ganho",
+            "ganhas",
+            "ganha",
+            "ganhamos",
+            "ganhais",
+            "ganham"
+          ],
+          "passado": [
+            "ganhei",
+            "ganhaste",
+            "ganhou",
+            "ganhamos",
+            "ganhastes",
+            "ganharam"
+          ]
+        },
+        "examples": [
+          "A nossa equipa ganha o jogo."
+        ]
+      }
+    },
+    {
+      "lemma": "gostar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Achar agradável uma coisa.",
+        "antonyms": [
+          "desgostar"
+        ],
+        "tenses": {
+          "presente": [
+            "gosto",
+            "gostas",
+            "gosta",
+            "gostamos",
+            "gostais",
+            "gostam"
+          ],
+          "passado": [
+            "gostei",
+            "gostaste",
+            "gostou",
+            "gostamos",
+            "gostastes",
+            "gostaram"
+          ]
+        },
+        "examples": [
+          "Gosto muito de ler romances."
+        ]
+      }
+    },
+    {
       "lemma": "ir",
       "kind": "verbs",
       "source": "tools/pt/conjugeur/data/verbs.json",
@@ -345,6 +2286,767 @@
         },
         "examples": [
           "Amanhã vou ao mercado."
+        ]
+      }
+    },
+    {
+      "lemma": "jogar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Participar num jogo ou desporto.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "jogo",
+            "jogas",
+            "joga",
+            "jogamos",
+            "jogais",
+            "jogam"
+          ],
+          "passado": [
+            "joguei",
+            "jogaste",
+            "jogou",
+            "jogamos",
+            "jogastes",
+            "jogaram"
+          ]
+        },
+        "examples": [
+          "As crianças jogam futebol no parque."
+        ]
+      }
+    },
+    {
+      "lemma": "lembrar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Trazer à memória um facto passado.",
+        "antonyms": [
+          "esquecer"
+        ],
+        "tenses": {
+          "presente": [
+            "lembro",
+            "lembras",
+            "lembra",
+            "lembramos",
+            "lembrais",
+            "lembram"
+          ],
+          "passado": [
+            "lembrei",
+            "lembraste",
+            "lembrou",
+            "lembramos",
+            "lembrastes",
+            "lembraram"
+          ]
+        },
+        "examples": [
+          "Lembro-me com carinho desses tempos."
+        ]
+      }
+    },
+    {
+      "lemma": "levar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Transportar algo de um lugar para outro.",
+        "antonyms": [
+          "trazer"
+        ],
+        "tenses": {
+          "presente": [
+            "levo",
+            "levas",
+            "leva",
+            "levamos",
+            "levais",
+            "levam"
+          ],
+          "passado": [
+            "levei",
+            "levaste",
+            "levou",
+            "levamos",
+            "levastes",
+            "levaram"
+          ]
+        },
+        "examples": [
+          "Levo o guarda-chuva porque vai chover."
+        ]
+      }
+    },
+    {
+      "lemma": "nadar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Mover-se na água através de braçadas.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "nado",
+            "nadas",
+            "nada",
+            "nadamos",
+            "nadais",
+            "nadam"
+          ],
+          "passado": [
+            "nadei",
+            "nadaste",
+            "nadou",
+            "nadamos",
+            "nadastes",
+            "nadaram"
+          ]
+        },
+        "examples": [
+          "Nado no mar durante as férias."
+        ]
+      }
+    },
+    {
+      "lemma": "oferecer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Dar um presente voluntariamente.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "ofereço",
+            "ofereces",
+            "oferece",
+            "oferecemos",
+            "ofereceis",
+            "oferecem"
+          ],
+          "passado": [
+            "ofereci",
+            "ofereceste",
+            "ofereceu",
+            "oferecemos",
+            "oferecestes",
+            "ofereceram"
+          ]
+        },
+        "examples": [
+          "Ofereço flores à minha mãe."
+        ]
+      }
+    },
+    {
+      "lemma": "olhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Fixar a vista em alguém ou algo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "olho",
+            "olhas",
+            "olha",
+            "olhamos",
+            "olhais",
+            "olham"
+          ],
+          "passado": [
+            "olhei",
+            "olhaste",
+            "olhou",
+            "olhamos",
+            "olhastes",
+            "olharam"
+          ]
+        },
+        "examples": [
+          "Olho para as estrelas no céu."
+        ]
+      }
+    },
+    {
+      "lemma": "parar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Cessar o movimento ou ação.",
+        "antonyms": [
+          "continuar"
+        ],
+        "tenses": {
+          "presente": [
+            "paro",
+            "paras",
+            "para",
+            "paramos",
+            "parais",
+            "param"
+          ],
+          "passado": [
+            "parei",
+            "paraste",
+            "parou",
+            "paramos",
+            "parastes",
+            "pararam"
+          ]
+        },
+        "examples": [
+          "O autocarro para na paragem."
+        ]
+      }
+    },
+    {
+      "lemma": "parecer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A2",
+        "definition": "Ter aspeto ou dar determinada impressão.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "pareço",
+            "pareces",
+            "parece",
+            "parecemos",
+            "pareceis",
+            "parecem"
+          ],
+          "passado": [
+            "pareci",
+            "pareceste",
+            "pareceu",
+            "parecemos",
+            "parecestes",
+            "pareceram"
+          ]
+        },
+        "examples": [
+          "Esta ideia parece excelente."
+        ]
+      }
+    },
+    {
+      "lemma": "passar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Mover-se de um ponto para outro.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "passo",
+            "passas",
+            "passa",
+            "passamos",
+            "passais",
+            "passam"
+          ],
+          "passado": [
+            "passei",
+            "passaste",
+            "passou",
+            "passamos",
+            "passastes",
+            "passaram"
+          ]
+        },
+        "examples": [
+          "Passo o fim de semana com a família."
+        ]
+      }
+    },
+    {
+      "lemma": "pedir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Solicitar algo a alguém.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "peço",
+            "pedes",
+            "pede",
+            "pedimos",
+            "pedis",
+            "pedem"
+          ],
+          "passado": [
+            "pedi",
+            "pediste",
+            "pediu",
+            "pedimos",
+            "pedistes",
+            "pediram"
+          ]
+        },
+        "examples": [
+          "Peço a conta ao empregado de mesa."
+        ]
+      }
+    },
+    {
+      "lemma": "pensar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Refletir ou formar ideias na mente.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "penso",
+            "pensas",
+            "pensa",
+            "pensamos",
+            "pensais",
+            "pensam"
+          ],
+          "passado": [
+            "pensei",
+            "pensaste",
+            "pensou",
+            "pensamos",
+            "pensastes",
+            "pensaram"
+          ]
+        },
+        "examples": [
+          "Penso muitas vezes nas minhas férias."
+        ]
+      }
+    },
+    {
+      "lemma": "perder",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A2",
+        "definition": "Deixar de ter a posse de algo.",
+        "antonyms": [
+          "ganhar",
+          "encontrar"
+        ],
+        "tenses": {
+          "presente": [
+            "perco",
+            "perdes",
+            "perde",
+            "perdemos",
+            "perdeis",
+            "perdem"
+          ],
+          "passado": [
+            "perdi",
+            "perdeste",
+            "perdeu",
+            "perdemos",
+            "perdestes",
+            "perderam"
+          ]
+        },
+        "examples": [
+          "Às vezes perco o autocarro por atraso."
+        ]
+      }
+    },
+    {
+      "lemma": "perguntar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Fazer uma questão a alguém.",
+        "antonyms": [
+          "responder"
+        ],
+        "tenses": {
+          "presente": [
+            "pergunto",
+            "perguntas",
+            "pergunta",
+            "perguntamos",
+            "perguntais",
+            "perguntam"
+          ],
+          "passado": [
+            "perguntei",
+            "perguntaste",
+            "perguntou",
+            "perguntamos",
+            "perguntastes",
+            "perguntaram"
+          ]
+        },
+        "examples": [
+          "Pergunto a direção ao transeunte."
+        ]
+      }
+    },
+    {
+      "lemma": "pintar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Representar imagens usando tintas.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "pinto",
+            "pintas",
+            "pinta",
+            "pintamos",
+            "pintais",
+            "pintam"
+          ],
+          "passado": [
+            "pintei",
+            "pintaste",
+            "pintou",
+            "pintamos",
+            "pintastes",
+            "pintaram"
+          ]
+        },
+        "examples": [
+          "Pinto um quadro bonito."
+        ]
+      }
+    },
+    {
+      "lemma": "pôr",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Colocar alguma coisa num determinado local.",
+        "antonyms": [
+          "tirar"
+        ],
+        "tenses": {
+          "presente": [
+            "ponho",
+            "pões",
+            "põe",
+            "pomos",
+            "pondes",
+            "põem"
+          ],
+          "passado": [
+            "pus",
+            "puseste",
+            "pôs",
+            "pusemos",
+            "pusestes",
+            "puseram"
+          ]
+        },
+        "examples": [
+          "Ponho os pratos sobre a mesa."
+        ]
+      }
+    },
+    {
+      "lemma": "precisar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Ter necessidade de alguma coisa.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "preciso",
+            "precisas",
+            "precisa",
+            "precisamos",
+            "precisais",
+            "precisam"
+          ],
+          "passado": [
+            "precisei",
+            "precisaste",
+            "precisou",
+            "precisamos",
+            "precisastes",
+            "precisaram"
+          ]
+        },
+        "examples": [
+          "Preciso de ajuda com este exercício."
+        ]
+      }
+    },
+    {
+      "lemma": "procurar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Tentar encontrar algo ou alguém.",
+        "antonyms": [
+          "encontrar"
+        ],
+        "tenses": {
+          "presente": [
+            "procuro",
+            "procuras",
+            "procura",
+            "procuramos",
+            "procurais",
+            "procuram"
+          ],
+          "passado": [
+            "procurei",
+            "procuraste",
+            "procurou",
+            "procuramos",
+            "procurastes",
+            "procuraram"
+          ]
+        },
+        "examples": [
+          "Procuro as minhas chaves de casa."
+        ]
+      }
+    },
+    {
+      "lemma": "quebrar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Partir algo em bocados.",
+        "antonyms": [
+          "reparar"
+        ],
+        "tenses": {
+          "presente": [
+            "quebro",
+            "quebras",
+            "quebra",
+            "quebramos",
+            "quebrais",
+            "quebram"
+          ],
+          "passado": [
+            "quebrei",
+            "quebraste",
+            "quebrou",
+            "quebramos",
+            "quebrastes",
+            "quebraram"
+          ]
+        },
+        "examples": [
+          "O copo de vidro quebra ao cair."
+        ]
+      }
+    },
+    {
+      "lemma": "receber",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Tomar posse do que lhe é enviado.",
+        "antonyms": [
+          "enviar"
+        ],
+        "tenses": {
+          "presente": [
+            "recebo",
+            "recebes",
+            "recebe",
+            "recebemos",
+            "recebeis",
+            "recebem"
+          ],
+          "passado": [
+            "recebi",
+            "recebeste",
+            "recebeu",
+            "recebemos",
+            "recebestes",
+            "receberam"
+          ]
+        },
+        "examples": [
+          "Recebo uma carta do meu amigo."
+        ]
+      }
+    },
+    {
+      "lemma": "responder",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A1",
+        "definition": "Dar resposta a uma pergunta.",
+        "antonyms": [
+          "perguntar"
+        ],
+        "tenses": {
+          "presente": [
+            "respondo",
+            "respondes",
+            "responde",
+            "respondemos",
+            "respondeis",
+            "respondem"
+          ],
+          "passado": [
+            "respondi",
+            "respondeste",
+            "respondeu",
+            "respondemos",
+            "respondestes",
+            "responderam"
+          ]
+        },
+        "examples": [
+          "Respondo a todas as mensagens com brevidade."
+        ]
+      }
+    },
+    {
+      "lemma": "rir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Manifestar alegria emitindo risos.",
+        "antonyms": [
+          "chorar"
+        ],
+        "tenses": {
+          "presente": [
+            "rio",
+            "ris",
+            "ri",
+            "rimos",
+            "rides",
+            "riem"
+          ],
+          "passado": [
+            "ri",
+            "riste",
+            "riu",
+            "rimos",
+            "ristes",
+            "riram"
+          ]
+        },
+        "examples": [
+          "Rimos bastante com o espetáculo."
+        ]
+      }
+    },
+    {
+      "lemma": "sair",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Passar do interior para o exterior.",
+        "antonyms": [
+          "entrar"
+        ],
+        "tenses": {
+          "presente": [
+            "saio",
+            "sais",
+            "sai",
+            "saímos",
+            "saís",
+            "saem"
+          ],
+          "passado": [
+            "saí",
+            "saíste",
+            "saiu",
+            "saímos",
+            "saístes",
+            "saíram"
+          ]
+        },
+        "examples": [
+          "Saio de casa bem cedo."
+        ]
+      }
+    },
+    {
+      "lemma": "sentir",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A2",
+        "definition": "Experimentar uma sensação física ou emoção.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "sinto",
+            "sentes",
+            "sente",
+            "sentimos",
+            "sentis",
+            "sentem"
+          ],
+          "passado": [
+            "senti",
+            "sentiste",
+            "sentiu",
+            "sentimos",
+            "sentistes",
+            "sentiram"
+          ]
+        },
+        "examples": [
+          "Sinto-me muito feliz com o resultado."
         ]
       }
     },
@@ -381,6 +3083,70 @@
       }
     },
     {
+      "lemma": "significar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Quer dizer ou ter certo sentido.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "significo",
+            "significas",
+            "significa",
+            "significamos",
+            "significais",
+            "significam"
+          ],
+          "passado": [
+            "signifiquei",
+            "significaste",
+            "significou",
+            "significamos",
+            "significastes",
+            "significaram"
+          ]
+        },
+        "examples": [
+          "O que significa esta palavra em português?"
+        ]
+      }
+    },
+    {
+      "lemma": "tentar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A2",
+        "definition": "Fazer esforço para alcançar um objetivo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "tento",
+            "tentas",
+            "tenta",
+            "tentamos",
+            "tentais",
+            "tentam"
+          ],
+          "passado": [
+            "tentei",
+            "tentaste",
+            "tentou",
+            "tentamos",
+            "tentastes",
+            "tentaram"
+          ]
+        },
+        "examples": [
+          "Tento resolver o problema sozinho."
+        ]
+      }
+    },
+    {
       "lemma": "ter",
       "kind": "verbs",
       "source": "tools/pt/conjugeur/data/verbs.json",
@@ -409,6 +3175,302 @@
         },
         "examples": [
           "Nós temos muitos livros em casa."
+        ]
+      }
+    },
+    {
+      "lemma": "terminar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Chegar ao fim de uma tarefa.",
+        "antonyms": [
+          "começar"
+        ],
+        "tenses": {
+          "presente": [
+            "termino",
+            "terminas",
+            "termina",
+            "terminamos",
+            "terminais",
+            "terminam"
+          ],
+          "passado": [
+            "terminei",
+            "terminaste",
+            "terminou",
+            "terminamos",
+            "terminastes",
+            "terminaram"
+          ]
+        },
+        "examples": [
+          "Termino o trabalho antes do almoço."
+        ]
+      }
+    },
+    {
+      "lemma": "tocar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Pôr as mãos em algo ou interpretar música.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "toco",
+            "tocas",
+            "toca",
+            "tocamos",
+            "tocais",
+            "tocam"
+          ],
+          "passado": [
+            "toquei",
+            "tocaste",
+            "tocou",
+            "tocamos",
+            "tocastes",
+            "tocaram"
+          ]
+        },
+        "examples": [
+          "Toco piano nas horas vagas."
+        ]
+      }
+    },
+    {
+      "lemma": "tomar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Beber ou pegar em algo.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "tomo",
+            "tomas",
+            "toma",
+            "tomamos",
+            "tomais",
+            "tomam"
+          ],
+          "passado": [
+            "tomei",
+            "tomaste",
+            "tomou",
+            "tomamos",
+            "tomastes",
+            "tomaram"
+          ]
+        },
+        "examples": [
+          "Tomo o pequeno-almoço às oito horas."
+        ]
+      }
+    },
+    {
+      "lemma": "trabalhar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Exercer uma atividade ou profissão.",
+        "antonyms": [
+          "descansar"
+        ],
+        "tenses": {
+          "presente": [
+            "trabalho",
+            "trabalhas",
+            "trabalha",
+            "trabalhamos",
+            "trabalhais",
+            "trabalham"
+          ],
+          "passado": [
+            "trabalhei",
+            "trabalhaste",
+            "trabalhou",
+            "trabalhamos",
+            "trabalhastes",
+            "trabalharam"
+          ]
+        },
+        "examples": [
+          "Trabalho num escritório no centro."
+        ]
+      }
+    },
+    {
+      "lemma": "trazer",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "Irregular",
+        "level": "A1",
+        "definition": "Conduzir ou transportar para onde se está.",
+        "antonyms": [
+          "levar"
+        ],
+        "tenses": {
+          "presente": [
+            "trago",
+            "trazes",
+            "traz",
+            "trazemos",
+            "trazeis",
+            "trazem"
+          ],
+          "passado": [
+            "trouxe",
+            "trouxeste",
+            "trouxe",
+            "trouxemos",
+            "trouxestes",
+            "trouxeram"
+          ]
+        },
+        "examples": [
+          "O empregado traz o café quente."
+        ]
+      }
+    },
+    {
+      "lemma": "usar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Fazer servir-se de uma coisa.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "uso",
+            "usas",
+            "usa",
+            "usamos",
+            "usais",
+            "usam"
+          ],
+          "passado": [
+            "usei",
+            "usaste",
+            "usou",
+            "usamos",
+            "usastes",
+            "usaram"
+          ]
+        },
+        "examples": [
+          "Uso o computador para trabalhar."
+        ]
+      }
+    },
+    {
+      "lemma": "vender",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "2ª conjugação (-er)",
+        "level": "A2",
+        "definition": "Ceder um bem em troca de pagamento.",
+        "antonyms": [
+          "comprar"
+        ],
+        "tenses": {
+          "presente": [
+            "vendo",
+            "vendes",
+            "vende",
+            "vendemos",
+            "vendeis",
+            "vendem"
+          ],
+          "passado": [
+            "vendi",
+            "vendeste",
+            "vendeu",
+            "vendemos",
+            "vendestes",
+            "venderam"
+          ]
+        },
+        "examples": [
+          "Ele vende o seu carro usado."
+        ]
+      }
+    },
+    {
+      "lemma": "viajar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Fazer uma jornada para um local distante.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "viajo",
+            "viajas",
+            "viaja",
+            "viajamos",
+            "viajais",
+            "viajam"
+          ],
+          "passado": [
+            "viajei",
+            "viajaste",
+            "viajou",
+            "viajamos",
+            "viajastes",
+            "viajaram"
+          ]
+        },
+        "examples": [
+          "Viajo pelo país durante o Verão."
+        ]
+      }
+    },
+    {
+      "lemma": "visitar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Ir ver alguém ou conhecer um monumento.",
+        "antonyms": [],
+        "tenses": {
+          "presente": [
+            "visito",
+            "visitas",
+            "visita",
+            "visitamos",
+            "visitais",
+            "visitam"
+          ],
+          "passado": [
+            "visitei",
+            "visitaste",
+            "visitou",
+            "visitamos",
+            "visitastes",
+            "visitaram"
+          ]
+        },
+        "examples": [
+          "Visito os meus avós ao fim de semana."
         ]
       }
     },
@@ -443,6 +3505,40 @@
         },
         "examples": [
           "Eles vivem numa cidade acolhedora."
+        ]
+      }
+    },
+    {
+      "lemma": "voltar",
+      "kind": "verbs",
+      "source": "tools/pt/conjugeur/data/verbs.json",
+      "data": {
+        "group": "1ª conjugação (-ar)",
+        "level": "A1",
+        "definition": "Regressar ao local de partida.",
+        "antonyms": [
+          "ir"
+        ],
+        "tenses": {
+          "presente": [
+            "volto",
+            "voltas",
+            "volta",
+            "voltamos",
+            "voltais",
+            "voltam"
+          ],
+          "passado": [
+            "voltei",
+            "voltaste",
+            "voltou",
+            "voltamos",
+            "voltastes",
+            "voltaram"
+          ]
+        },
+        "examples": [
+          "Volto a casa ao fim da tarde."
         ]
       }
     }
