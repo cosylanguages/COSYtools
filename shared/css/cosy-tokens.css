@@ -7,7 +7,7 @@
  *
  * Consumer Repositories Policy:
  * Consumer repos (e.g., COSYtools, COSYgames, COSYevents, COSYworld) MUST link
- * this file via a raw.githubusercontent.com URL pinned to a specific commit or tag,
+ * this file via local relative paths or tagged release assets,
  * and NEVER reference "main".
  */
 
