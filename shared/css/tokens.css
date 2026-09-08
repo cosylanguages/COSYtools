@@ -1,22 +1,22 @@
 :root {
     /* ── Core Colors ───────────────────────────────────── */
-    --sage:       #416b49;
-    --sage-dark:  #375742;
-    --sage-deep:  #233827;
-    --sage-soft:  #6b9474;
-    --sage-mist:  #f0f5f1;
-    --sage-pale:  #e8f0e9;
-    --sage-light: #e8f0e9;
+    --sage:       var(--cosy-color-sage);
+    --sage-dark:  var(--cosy-color-sage-dark);
+    --sage-deep:  var(--cosy-color-sage-deep);
+    --sage-soft:  var(--cosy-color-sage-soft);
+    --sage-mist:  var(--cosy-color-sage-mist);
+    --sage-pale:  var(--cosy-color-sage-pale);
+    --sage-light: var(--cosy-color-sage-light);
 
-    --cream:      #fdfcf8;
-    --cream-dark: #f5ede0;
-    --warm-white: #FFFEFB;
+    --cream:      var(--cosy-color-cream);
+    --cream-dark: var(--cosy-color-cream-dark);
+    --warm-white: var(--cosy-color-warm-white);
 
-    --ink:        #2a2a2a;
-    --ink-soft:   #4a4a4a;
-    --ink-muted:  #4a4a4a;
-    --ink-faint:  #5c5957;
-    --muted:      #5c5957;
+    --ink:        var(--cosy-color-ink);
+    --ink-soft:   var(--cosy-color-ink-soft);
+    --ink-muted:  var(--cosy-color-ink-muted);
+    --ink-faint:  var(--cosy-color-ink-faint);
+    --muted:      var(--cosy-color-muted);
 
     /* ── Tag Colors for accessibility ── */
     --a2-tag-bg: #FAF0E6;
@@ -28,33 +28,33 @@
     --teal:       var(--sage);
     --teal-light: var(--sage-light);
 
-    --honey:      #945e05;
-    --honey-dark: #7d4d03;
-    --honey-pale: #fff8e7;
-    --honey-mid:  #fef0c7;
+    --honey:      var(--cosy-color-honey);
+    --honey-dark: var(--cosy-color-honey-dark);
+    --honey-pale: var(--cosy-color-honey-pale);
+    --honey-mid:  var(--cosy-color-honey-mid);
 
-    --coral:      #B84318;
-    --coral-light: #faeee8;
+    --coral:      var(--cosy-color-coral);
+    --coral-light: var(--cosy-color-coral-light);
 
-    --gold:       #945e05;
-    --gold-light: #fff8e7;
+    --gold:       var(--cosy-color-amber);
+    --gold-light: var(--cosy-color-amber-pale);
 
-    --plum:       #7a5c3a;
-    --plum-light: #f5ede0;
+    --plum:       var(--cosy-color-plum);
+    --plum-light: var(--cosy-color-plum-light);
 
-    --blue:       #3a5298;
-    --blue-light: #eef1fb;
+    --blue:       var(--cosy-color-blue);
+    --blue-light: var(--cosy-color-blue-light);
 
-    --green:      #4a6b50;
-    --green-light: #e5f4ec;
+    --green:      var(--cosy-color-green);
+    --green-light: var(--cosy-color-green-light);
 
-    --rose:       #a32d2d;
-    --rose-light: #fcebeb;
+    --rose:       var(--cosy-color-rose);
+    --rose-light: var(--cosy-color-rose-light);
 
-    --navy:       #1e2f6b;
-    --navy-light: #e8ecf5;
+    --navy:       var(--cosy-color-navy);
+    --navy-light: var(--cosy-color-navy-light);
 
-    --accent-color: #d66161;
+    --accent-color: var(--cosy-color-accent);
 
     /* ── Language Accents ── */
     --fr-accent: #b84d2a;
@@ -109,27 +109,27 @@
     --btn-tertiary-weight: 700;
 
     /* ── Borders & Shadows ──────────────────────────────── */
-    --border:        rgba(74,107,80,.12);
-    --border-hover:  rgba(74,107,80,.25);
-    --shadow-sm:     0 2px 12px rgba(46,74,51,.07);
-    --shadow:        0 6px 28px rgba(46,74,51,.10);
+    --border:        var(--cosy-color-border);
+    --border-hover:  var(--cosy-color-border-hover);
+    --shadow-sm:     var(--cosy-shadow-sm);
+    --shadow:        var(--cosy-shadow-base);
     --box-shadow:    var(--shadow);
 
     /* ── Spacing Scale ─────────────────────────────────── */
-    --space-xs:  4px;
-    --space-sm:  8px;
-    --space-md:  16px;
-    --space-lg:  24px;
-    --space-xl:  32px;
-    --space-xxl: 48px;
+    --space-xs:  var(--cosy-space-xs);
+    --space-sm:  var(--cosy-space-sm);
+    --space-md:  var(--cosy-space-md);
+    --space-lg:  var(--cosy-space-lg);
+    --space-xl:  var(--cosy-space-xl);
+    --space-xxl: var(--cosy-space-xxl);
 
     /* ── Border Radius ─────────────────────────────────── */
-    --r-sm:   8px;
-    --r-md:   14px;
-    --r-lg:   22px;
-    --r-xl:   32px;
-    --radius: 18px;
-    --radius-sm: 10px;
+    --r-sm:   var(--cosy-r-sm);
+    --r-md:   var(--cosy-r-md);
+    --r-lg:   var(--cosy-r-lg);
+    --r-xl:   var(--cosy-r-xl);
+    --radius: var(--cosy-radius-base);
+    --radius-sm: var(--cosy-radius-smm);
     --border-radius: var(--radius);
 
     /* ── Theme Logic & Radial Paper Gradients ──────────── */
@@ -147,14 +147,14 @@
     --speaking-color:  var(--honey);
 
     --background-color: var(--cream);
-    --surface-color:    #FFFFFF;
+    --surface-color:    var(--cosy-color-surface);
     --text-color:       var(--ink);
     --light-gray:       var(--cream-dark);
     --transition-speed: 0.3s;
 
     /* ── Typography ────────────────────────────────────── */
-    --font-sans: 'Nunito', 'DM Sans', sans-serif;
-    --font-serif: 'Fraunces', 'Lora', serif;
+    --font-sans: var(--cosy-font-sans);
+    --font-serif: var(--cosy-font-serif);
 
     /* ── Legacy Support ────────────────────────────────── */
     --are-col: var(--blue, #3a5298);
@@ -163,31 +163,31 @@
 }
 
 html[data-theme="dark"], body.theme-dark {
-    --cream:      #1a1f1a;
-    --cream-dark: #141914;
-    --warm-white: #222b22;
-    --ink:        #e8f0e9;
-    --ink-soft:   #c8d8c9;
-    --ink-muted:  #c8d8c9;
-    --ink-faint:  #8a9e8b;
-    --muted:      #8a9e8b;
-    --border:     rgba(107,143,113,.2);
-    --border-hover: rgba(107,143,113,.35);
+    --cream:      var(--cosy-color-cream);
+    --cream-dark: var(--cosy-color-cream-dark);
+    --warm-white: var(--cosy-color-warm-white);
+    --ink:        var(--cosy-color-ink);
+    --ink-soft:   var(--cosy-color-ink-soft);
+    --ink-muted:  var(--cosy-color-ink-muted);
+    --ink-faint:  var(--cosy-color-ink-faint);
+    --muted:      var(--cosy-color-muted);
+    --border:     var(--cosy-color-border);
+    --border-hover: var(--cosy-color-border-hover);
 
     /* Sage Theme dark variations */
-    --sage:       #5a7a5f;
-    --sage-dark:  #8a9e8b;
-    --sage-deep:  #e8f0e9;
-    --sage-pale:  #222c23;
-    --sage-mist:  #1f2720;
-    --sage-light: #222c23;
+    --sage:       var(--cosy-color-sage);
+    --sage-dark:  var(--cosy-color-sage-dark);
+    --sage-deep:  var(--cosy-color-sage-deep);
+    --sage-pale:  var(--cosy-color-sage-pale);
+    --sage-mist:  var(--cosy-color-sage-mist);
+    --sage-light: var(--cosy-color-sage-light);
 
     --paper-bg:   #1a1f1a;
     --paper-gradient: radial-gradient(circle at 50% 0%, #202720 0%, #141914 100%);
     --paper-txt:  #e8f0e9;
 
     --background-color: var(--cream);
-    --surface-color:    #222b22;
+    --surface-color:    var(--cosy-color-surface);
     --text-color:       var(--ink);
     --light-gray:       var(--cream-dark);
 
@@ -199,15 +199,15 @@ html[data-theme="dark"], body.theme-dark {
     --en-accent: #fb923c;
 
     /* ── Dark overrides for light color tints ── */
-    --honey-pale:  #2d2417;
-    --honey-mid:   #35291b;
-    --coral-light: #2d1a15;
-    --gold-light:  #2d2417;
-    --plum-light:  #26201a;
-    --blue-light:  #1a202d;
-    --green-light: #15241b;
-    --rose-light:  #2d1515;
-    --navy-light:  #141a29;
+    --honey-pale:  var(--cosy-color-honey-pale);
+    --honey-mid:   var(--cosy-color-honey-mid);
+    --coral-light: var(--cosy-color-coral-light);
+    --gold-light:  var(--cosy-color-honey-pale);
+    --plum-light:  var(--cosy-color-plum-light);
+    --blue-light:  var(--cosy-color-blue-light);
+    --green-light: var(--cosy-color-green-light);
+    --rose-light:  var(--cosy-color-rose-light);
+    --navy-light:  var(--cosy-color-navy-light);
 
     /* ── Mistake block variables ── */
     --mistake-bg:          #241a15;
