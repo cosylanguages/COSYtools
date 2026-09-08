@@ -109,6 +109,8 @@
         "group": "I төркем",
         "level": "A1",
         "definition": "Сүзләр белән аңлату.",
+        "needs_review": true,
+        "review_notes": "Standard Tatar definite past and definite future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "сөйлим",
@@ -117,6 +119,22 @@
             "сөйлибез",
             "сөйлисез",
             "сөйлиләр"
+          ],
+          "past": [
+            "сөйләдем",
+            "сөйләдең",
+            "сөйләде",
+            "сөйләдек",
+            "сөйләдегез",
+            "сөйләделәр"
+          ],
+          "future": [
+            "сөйләячәкмен",
+            "сөйләячәксең",
+            "сөйләячәк",
+            "сөйләячәкбез",
+            "сөйләячәксез",
+            "сөйләячәкләр"
           ]
         },
         "examples": [
@@ -132,6 +150,8 @@
         "group": "I төркем",
         "level": "A1",
         "definition": "Текстның мәгънәсен аңлап кабул итү.",
+        "needs_review": true,
+        "review_notes": "Standard Tatar definite past and definite future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "укыйм",
@@ -140,6 +160,22 @@
             "укыйбыз",
             "укыйсыз",
             "укыйлар"
+          ],
+          "past": [
+            "укыдым",
+            "укыдың",
+            "укыды",
+            "укыдык",
+            "укыдыгыз",
+            "укыдылар"
+          ],
+          "future": [
+            "укыячакмын",
+            "укыячаксың",
+            "укыячак",
+            "укыячакбыз",
+            "укыячаксыз",
+            "укыячаклар"
           ]
         },
         "examples": [
@@ -155,6 +191,8 @@
         "group": "I төркем",
         "level": "A1",
         "definition": "Хезмәт эшчәнлеге алып бару.",
+        "needs_review": true,
+        "review_notes": "Standard Tatar definite past and definite future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "эшлим",
@@ -163,6 +201,22 @@
             "эшлибез",
             "эшлисез",
             "эшлиләр"
+          ],
+          "past": [
+            "эшләдем",
+            "эшләдең",
+            "эшләде",
+            "эшләдек",
+            "эшләдегез",
+            "эшләделәр"
+          ],
+          "future": [
+            "эшләячәкмен",
+            "эшләячәксең",
+            "эшләячәк",
+            "эшләячәкбез",
+            "эшләячәксез",
+            "эшләячәкләр"
           ]
         },
         "examples": [
@@ -178,6 +232,8 @@
         "group": "I төркем",
         "level": "A1",
         "definition": "Хәрефләр белән фикерне белдерү.",
+        "needs_review": true,
+        "review_notes": "Standard Tatar definite past and definite future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "язам",
@@ -186,6 +242,22 @@
             "язабыз",
             "язасыз",
             "язалар"
+          ],
+          "past": [
+            "яздым",
+            "яздың",
+            "язды",
+            "яздык",
+            "яздыгыз",
+            "яздылар"
+          ],
+          "future": [
+            "язачакмын",
+            "язачаксың",
+            "язачак",
+            "язачакбыз",
+            "язачаксыз",
+            "язачаклар"
           ]
         },
         "examples": [
