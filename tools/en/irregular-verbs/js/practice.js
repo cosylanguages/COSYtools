@@ -289,7 +289,7 @@ class PracticeManager {
             </div>
 
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1.25rem;">
-                <input type="text" id="blank-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type the correct ${targetForm === 'past_simple' ? 'Past Simple' : 'Past Participle'} form..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkBlankAnswer()">
+                <input type="text" id="blank-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type the correct ${targetForm === 'past_simple' ? 'Past Simple' : 'Past Participle'} form..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkBlankAnswer()" aria-label="Type verb form answer">
                 <button class="game-btn" style="width: auto; padding: 0.8rem 1.5rem;" onclick="appEngine.practice.checkBlankAnswer()">Check ➔</button>
             </div>
 
@@ -407,11 +407,11 @@ class PracticeManager {
             <div class="sprint-inputs-form">
                 <div class="sprint-input-group">
                     <label>Past Simple (V2):</label>
-                    <input type="text" id="sprint-v2-input" autocomplete="off" autofocus placeholder="e.g. ${verb.past_simple.includes('/') ? verb.past_simple.split('/')[0] : 'went'}">
+                    <input type="text" id="sprint-v2-input" autocomplete="off" autofocus placeholder="e.g. ${verb.past_simple.includes('/') ? verb.past_simple.split('/')[0] : 'went'}" aria-label="Past Simple form">
                 </div>
                 <div class="sprint-input-group">
                     <label>Past Participle (V3):</label>
-                    <input type="text" id="sprint-v3-input" autocomplete="off" placeholder="e.g. gone" onkeydown="if(event.key==='Enter') appEngine.practice.checkSprintAnswer()">
+                    <input type="text" id="sprint-v3-input" autocomplete="off" placeholder="e.g. gone" onkeydown="if(event.key==='Enter') appEngine.practice.checkSprintAnswer()" aria-label="Past Participle form">
                 </div>
             </div>
 

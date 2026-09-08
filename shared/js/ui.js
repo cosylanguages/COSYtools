@@ -959,7 +959,8 @@
     class VimImage extends HTMLElement {
       connectedCallback() {
         const resId = this.getAttribute('resource-id');
-        this.innerHTML = `<img src="https://api.cosylanguages.com/assets/${resId}" style="width:100%;border-radius:10px;margin-bottom:10px;" onerror="this.src='../images/ui/placeholder.png'">`;
+        const altText = this.getAttribute('alt') || 'Resource illustration';
+        this.innerHTML = `<img src="https://api.cosylanguages.com/assets/${resId}" alt="${altText}" style="width:100%;border-radius:10px;margin-bottom:10px;" onerror="this.src='../images/ui/placeholder.png'">`;
       }
     }
 
@@ -1323,7 +1324,7 @@
             card.innerHTML = `
                 <div class="chc-header">
                     <span>✨ Harvest Word</span>
-                    <button class="chc-close" onclick="this.closest('.cosy-harvest-card').remove()">×</button>
+                    <button class="chc-close" onclick="this.closest('.cosy-harvest-card').remove()" aria-label="Close">×</button>
                 </div>
                 <div class="chc-body">
                     <div class="chc-word">${text}</div>
@@ -2213,7 +2214,7 @@
             tooltip.innerHTML = `
                 <div class="ctb-header">
                     <span class="ctb-step-tag">✨ ${getTourText('step')} ${index + 1} ${getTourText('of')} ${TOUR_STEPS.length}</span>
-                    <button class="ctb-close" onclick="window.endHomepageTour()">✕</button>
+                    <button class="ctb-close" onclick="window.endHomepageTour()" aria-label="Close">✕</button>
                 </div>
                 <h4 class="ctb-title">${getTourText(step.titleKey)}</h4>
                 <p class="ctb-desc">${getTourText(step.descKey)}</p>
@@ -2282,7 +2283,7 @@
             <div class="cosy-tour-modal">
                 <div class="ctm-header">
                     <h3>${getTourText('help_title')}</h3>
-                    <button class="ctm-close-btn" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">×</button>
+                    <button class="ctm-close-btn" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'" aria-label="Close">×</button>
                 </div>
                 <div class="ctm-body">
                     ${contextIntroHtml}

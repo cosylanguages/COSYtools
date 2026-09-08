@@ -14,7 +14,7 @@
     <header class="app-header" data-icon="🇪🇸" data-title="Conjugación Española" data-tagline="Spanish Verb Engine"></header>
     <main class="tool-container">
         <div class="search-box">
-            <input type="text" id="verb-search-input" placeholder="Buscar verbo en español (ej. hablar, comer, vivir)...">
+            <input type="text" id="verb-search-input" placeholder="Buscar verbo en español (ej. hablar, comer, vivir)..." aria-label="Search verb or entry">
             <div id="search-suggestions" class="suggestions-box"></div>
         </div>
         <div id="verb-display" class="result-card"></div>
@@ -29,7 +29,7 @@
             </div>
             <p id="practice-prompt" class="practice-prompt"></p>
             <div class="practice-controls">
-                <input id="practice-answer" type="text" autocomplete="off" placeholder="Escribe la forma...">
+                <input id="practice-answer" type="text" autocomplete="off" placeholder="Escribe la forma..." aria-label="Type practice answer">
                 <button id="practice-check" type="button">Comprobar</button>
                 <button id="practice-next" type="button" class="secondary">Nueva forma</button>
             </div>

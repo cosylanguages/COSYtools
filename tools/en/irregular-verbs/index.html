@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="practice-filters-group">
-                        <select id="practice-level-select" class="select-dropdown" onchange="appEngine.onPracticeFilterChange()">
+                        <select id="practice-level-select" class="select-dropdown" aria-label="Filter by proficiency level" onchange="appEngine.onPracticeFilterChange()">
                             <option value="all">All Levels (A1–B2+)</option>
                             <option value="A1">A1 Beginner</option>
                             <option value="A2">A2 Elementary</option>
@@ -107,8 +107,8 @@
 
                     <div class="search-box">
                         <span class="search-icon">🔍</span>
-                        <input type="text" id="verb-search-input" placeholder="Search an irregular verb (e.g. go, went, gone, speak, spoke, buy, bought)..." autocomplete="off" autofocus>
-                        <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                        <input type="text" id="verb-search-input" placeholder="Search an irregular verb (e.g. go, went, gone, speak, spoke, buy, bought)..." autocomplete="off" autofocus aria-label="Search verb or entry">
+                        <button id="clear-search-btn" class="clear-btn" style="display: none;" aria-label="Clear search">&times;</button>
                     </div>
                     <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
                 </section>

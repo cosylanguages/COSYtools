@@ -33,8 +33,8 @@
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Αναζητήστε ρήμα (π.χ. γράφω, αγαπώ, είμαι, ξέρω)..." autocomplete="off" autofocus>
-                    <button id="clear-search-btn" class="clear-btn">&times;</button>
+                    <input type="text" id="verb-search-input" placeholder="Αναζητήστε ρήμα (π.χ. γράφω, αγαπώ, είμαι, ξέρω)..." autocomplete="off" autofocus aria-label="Search verb or entry">
+                    <button id="clear-search-btn" class="clear-btn" aria-label="Clear search">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list"></div>
             </section>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="game-input-group">
-                    <input type="text" id="game-answer-input" placeholder="Πληκτρολογήστε την απάντηση..." autocomplete="off">
+                    <input type="text" id="game-answer-input" placeholder="Πληκτρολογήστε την απάντηση..." autocomplete="off" aria-label="Type your answer">
                     <button id="game-submit-btn" class="game-btn" onclick="appEngine.checkGameAnswer()">Έλεγχος</button>
                 </div>
                 <div id="game-feedback-box" class="feedback-card hidden"></div>
