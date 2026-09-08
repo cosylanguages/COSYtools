@@ -89,6 +89,8 @@
         "group": "1-мĕш ушкăн",
         "level": "A1",
         "definition": "Сăмахсене хут çинче палăртни.",
+        "needs_review": true,
+        "review_notes": "Standard Chuvash simple past and future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "çыратăп",
@@ -97,6 +99,22 @@
             "çыратпăр",
             "çыратăр",
             "çыраççĕ"
+          ],
+          "past": [
+            "çыртăм",
+            "çыртăн",
+            "çырчĕ",
+            "çыртăмăр",
+            "çыртăр",
+            "çырчĕç"
+          ],
+          "future": [
+            "çырап",
+            "çыран",
+            "çырĕ",
+            "çырапăр",
+            "çырăр",
+            "çырĕç"
           ]
         },
         "examples": [
@@ -112,6 +130,8 @@
         "group": "1-мĕш ушкăн",
         "level": "A1",
         "definition": "Ĕç туса пыни.",
+        "needs_review": true,
+        "review_notes": "Standard Chuvash simple past and future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "ĕçлетĕп",
@@ -120,6 +140,22 @@
             "ĕçлетпĕр",
             "ĕçлетĕр",
             "ĕçлеççĕ"
+          ],
+          "past": [
+            "ĕçлерĕм",
+            "ĕçлерĕн",
+            "ĕçлерĕ",
+            "ĕçлерĕмĕр",
+            "ĕçлерĕр",
+            "ĕçлерĕç"
+          ],
+          "future": [
+            "ĕçлем",
+            "ĕçлен",
+            "ĕçлĕ",
+            "ĕçлемĕр",
+            "ĕçлĕр",
+            "ĕçлĕç"
           ]
         },
         "examples": [
@@ -135,6 +171,8 @@
         "group": "1-мĕш ушкăн",
         "level": "A1",
         "definition": "Текст пĕлтерĕшне ăнланса илни.",
+        "needs_review": true,
+        "review_notes": "Standard Chuvash simple past and future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "вулатăп",
@@ -143,6 +181,22 @@
             "вулатпăр",
             "вулатăр",
             "вулаççĕ"
+          ],
+          "past": [
+            "вуларăм",
+            "вуларăн",
+            "вуларĕ",
+            "вуларăмăр",
+            "вуларăр",
+            "вуларĕç"
+          ],
+          "future": [
+            "вулам",
+            "вулан",
+            "вулĕ",
+            "вуламăр",
+            "вулăр",
+            "вулĕç"
           ]
         },
         "examples": [
@@ -158,6 +212,8 @@
         "group": "1-мĕш ушкăн",
         "level": "A1",
         "definition": "Сăмахсемпе пĕлтерни.",
+        "needs_review": true,
+        "review_notes": "Standard Chuvash simple past and future forms derived; verb entries not directly present in morphology dataset",
         "tenses": {
           "present": [
             "калатăп",
@@ -166,6 +222,22 @@
             "калатпăр",
             "калатăр",
             "калаççĕ"
+          ],
+          "past": [
+            "каларăм",
+            "каларăн",
+            "каларĕ",
+            "каларăмăр",
+            "каларăр",
+            "каларĕç"
+          ],
+          "future": [
+            "калам",
+            "калан",
+            "калĕ",
+            "каламăр",
+            "калăр",
+            "калĕç"
           ]
         },
         "examples": [
