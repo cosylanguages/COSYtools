@@ -38,5 +38,1589 @@
     "examples": [
       "Brest zo ur gêr gaer."
     ]
+  },
+  "te": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "tea",
+    "article": "an",
+    "plural": "theoù",
+    "examples": [
+      "Un te eo."
+    ],
+    "needs_review": true
+  },
+  "bank": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "bench",
+    "article": "ar",
+    "plural": "bankeier",
+    "examples": [
+      "Ur bank eo."
+    ],
+    "needs_review": true
+  },
+  "person": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "vicar",
+    "article": "ar",
+    "plural": "personed",
+    "examples": [
+      "Ur person eo."
+    ],
+    "needs_review": true
+  },
+  "ant": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "furrow",
+    "article": "an",
+    "plural": "antoù",
+    "examples": [
+      "Un ant eo."
+    ],
+    "needs_review": true
+  },
+  "tan": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "fire",
+    "article": "an",
+    "plural": "tanioù",
+    "examples": [
+      "Un tan eo."
+    ],
+    "needs_review": true
+  },
+  "bed": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "world",
+    "article": "ar",
+    "plural": "bedoù",
+    "examples": [
+      "Ur bed eo."
+    ],
+    "needs_review": true
+  },
+  "bran": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "crow, raven",
+    "article": "ar",
+    "plural": "brini",
+    "examples": [
+      "Ur vran eo."
+    ],
+    "needs_review": true
+  },
+  "re": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "pair (of shoes, eyes, etc.)",
+    "article": "ar",
+    "plural": "reo",
+    "examples": [
+      "Ur re eo."
+    ],
+    "needs_review": true
+  },
+  "had": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "seed",
+    "article": "an",
+    "plural": "hadoù",
+    "examples": [
+      "Un had eo."
+    ],
+    "needs_review": true
+  },
+  "lost": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "A tail.",
+    "article": "al",
+    "plural": "lostoù",
+    "examples": [
+      "Ul lost eo."
+    ],
+    "needs_review": true
+  },
+  "rod": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "wheel",
+    "article": "ar",
+    "plural": "rodoù",
+    "examples": [
+      "Ur rod eo."
+    ],
+    "needs_review": true
+  },
+  "sell": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "look, glance",
+    "article": "ar",
+    "plural": "selloù",
+    "examples": [
+      "Ur sell eo."
+    ],
+    "needs_review": true
+  },
+  "broad": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "person from a country",
+    "article": "ar",
+    "plural": "broiz",
+    "examples": [
+      "Ur broad eo."
+    ],
+    "needs_review": true
+  },
+  "metal": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "metal",
+    "article": "ar",
+    "plural": "metaloù",
+    "examples": [
+      "Ur metal eo."
+    ],
+    "needs_review": true
+  },
+  "proton": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "protons",
+    "article": "ar",
+    "plural": "protonennoù",
+    "examples": [
+      "Ur proton eo."
+    ],
+    "needs_review": true
+  },
+  "neutron": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "neutrons",
+    "article": "an",
+    "plural": "neutronennoù",
+    "examples": [
+      "Un neutron eo."
+    ],
+    "needs_review": true
+  },
+  "fri": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "nose",
+    "article": "ar",
+    "plural": "frioù",
+    "examples": [
+      "Ur fri eo."
+    ],
+    "needs_review": true
+  },
+  "labour": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "work, labor",
+    "article": "al",
+    "plural": "labourioù",
+    "examples": [
+      "Ul labour eo."
+    ],
+    "needs_review": true
+  },
+  "ni": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "nephew",
+    "article": "an",
+    "plural": "nied",
+    "examples": [
+      "Un ni eo."
+    ],
+    "needs_review": true
+  },
+  "atom": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "atoms",
+    "article": "an",
+    "plural": "atomennoù",
+    "examples": [
+      "Un atom eo."
+    ],
+    "needs_review": true
+  },
+  "bont": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "plug",
+    "article": "ar",
+    "plural": "bontoù",
+    "examples": [
+      "Ur bont eo."
+    ],
+    "needs_review": true
+  },
+  "glad": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "arable land",
+    "article": "ar",
+    "plural": "gladoù",
+    "examples": [
+      "Ur c'hlad eo."
+    ],
+    "needs_review": true
+  },
+  "aber": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "ria, estuary, mouth of a river",
+    "article": "an",
+    "plural": "aberioù",
+    "examples": [
+      "Un aber eo."
+    ],
+    "needs_review": true
+  },
+  "anal": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "breath",
+    "article": "an",
+    "plural": "analioù",
+    "examples": [
+      "Un anal eo."
+    ],
+    "needs_review": true
+  },
+  "per": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "pears",
+    "article": "ar",
+    "plural": "perenn",
+    "examples": [
+      "Ur ber eo."
+    ],
+    "needs_review": true
+  },
+  "arme": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "army",
+    "article": "an",
+    "plural": "armeoù",
+    "examples": [
+      "Un arme eo."
+    ],
+    "needs_review": true
+  },
+  "gar": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "leg",
+    "article": "ar",
+    "plural": "divc’har",
+    "examples": [
+      "Ur c'har eo."
+    ],
+    "needs_review": true
+  },
+  "tor": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "belly, stomach, abdomen",
+    "article": "an",
+    "plural": "torioù",
+    "examples": [
+      "Un tor eo."
+    ],
+    "needs_review": true
+  },
+  "den": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "human being",
+    "article": "an",
+    "plural": "tud",
+    "examples": [
+      "Un den eo."
+    ],
+    "needs_review": true
+  },
+  "aer": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "air",
+    "article": "an",
+    "plural": "aerioù",
+    "examples": [
+      "Un aer eo."
+    ],
+    "needs_review": true
+  },
+  "tour": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "tower",
+    "article": "an",
+    "plural": "tourioù",
+    "examples": [
+      "Un tour eo."
+    ],
+    "needs_review": true
+  },
+  "abad": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "abbot",
+    "article": "an",
+    "plural": "ebed",
+    "examples": [
+      "Un abad eo."
+    ],
+    "needs_review": true
+  },
+  "boue": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "buoy",
+    "article": "ar",
+    "plural": "boueoù",
+    "examples": [
+      "Ur boue eo."
+    ],
+    "needs_review": true
+  },
+  "loa": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "spoon",
+    "article": "al",
+    "plural": "loaioù",
+    "examples": [
+      "Ul loa eo."
+    ],
+    "needs_review": true
+  },
+  "park": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "field",
+    "article": "ar",
+    "plural": "parkeier",
+    "examples": [
+      "Ur park eo."
+    ],
+    "needs_review": true
+  },
+  "avel": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "wind",
+    "article": "an",
+    "plural": "avelioù",
+    "examples": [
+      "Un avel eo."
+    ],
+    "needs_review": true
+  },
+  "bro": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "country (nation state); homeland",
+    "article": "ar",
+    "plural": "broioù",
+    "examples": [
+      "Ur vro eo."
+    ],
+    "needs_review": true
+  },
+  "chug": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "juice",
+    "article": "ar",
+    "plural": "chugoù",
+    "examples": [
+      "Ur chug eo."
+    ],
+    "needs_review": true
+  },
+  "dor": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "door",
+    "article": "an",
+    "plural": "dorioù",
+    "examples": [
+      "Ur zor eo."
+    ],
+    "needs_review": true
+  },
+  "hogan": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "haw (fruit of the hawthorn)",
+    "article": "an",
+    "plural": "hogin",
+    "examples": [
+      "Un hogan eo."
+    ],
+    "needs_review": true
+  },
+  "tad": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "father",
+    "article": "an",
+    "plural": "tadoù",
+    "examples": [
+      "Un tad eo."
+    ],
+    "needs_review": true
+  },
+  "gluon": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "gluons",
+    "article": "ar",
+    "plural": "gluonennoù",
+    "examples": [
+      "Ur gluon eo."
+    ],
+    "needs_review": true
+  },
+  "ki": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "dog",
+    "article": "ar",
+    "plural": "chas",
+    "examples": [
+      "Ur ki eo."
+    ],
+    "needs_review": true
+  },
+  "post": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "pillar; post; pole",
+    "article": "ar",
+    "plural": "postoù",
+    "examples": [
+      "Ur post eo."
+    ],
+    "needs_review": true
+  },
+  "stad": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "state",
+    "article": "ar",
+    "plural": "stadoù",
+    "examples": [
+      "Ur stad eo."
+    ],
+    "needs_review": true
+  },
+  "mil": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "animal",
+    "article": "ar",
+    "plural": "miled",
+    "examples": [
+      "Ur mil eo."
+    ],
+    "needs_review": true
+  },
+  "heol": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "sun",
+    "article": "an",
+    "plural": "heolioù",
+    "examples": [
+      "Un heol eo."
+    ],
+    "needs_review": true
+  },
+  "derv": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "oak",
+    "article": "an",
+    "plural": "dervennoù",
+    "examples": [
+      "Ur zerv eo."
+    ],
+    "needs_review": true
+  },
+  "tal": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "forehead",
+    "article": "an",
+    "plural": "talioù",
+    "examples": [
+      "Un tal eo."
+    ],
+    "needs_review": true
+  },
+  "mor": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "sea",
+    "article": "ar",
+    "plural": "morioù",
+    "examples": [
+      "Ur mor eo."
+    ],
+    "needs_review": true
+  },
+  "leur": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "floor, ground, surface",
+    "article": "al",
+    "plural": "leurioù",
+    "examples": [
+      "Ul leur eo."
+    ],
+    "needs_review": true
+  },
+  "polis": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "police",
+    "article": "ar",
+    "plural": "polisoù",
+    "examples": [
+      "Ur polis eo."
+    ],
+    "needs_review": true
+  },
+  "studi": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "study",
+    "article": "ar",
+    "plural": "studioù",
+    "examples": [
+      "Ur studi eo."
+    ],
+    "needs_review": true
+  },
+  "avu": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "liver",
+    "article": "an",
+    "plural": "avuoù",
+    "examples": [
+      "Un avu eo."
+    ],
+    "needs_review": true
+  },
+  "aod": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "coast; shore",
+    "article": "an",
+    "plural": "aodoù",
+    "examples": [
+      "Un aod eo."
+    ],
+    "needs_review": true
+  },
+  "gov": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "smith",
+    "article": "ar",
+    "plural": "govien",
+    "examples": [
+      "Ur gov eo."
+    ],
+    "needs_review": true
+  },
+  "leon": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "lion",
+    "article": "al",
+    "plural": "leoned",
+    "examples": [
+      "Ul leon eo."
+    ],
+    "needs_review": true
+  },
+  "klon": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "clone",
+    "article": "ar",
+    "plural": "klonoù",
+    "examples": [
+      "Ur klon eo."
+    ],
+    "needs_review": true
+  },
+  "bara": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "bread",
+    "article": "ar",
+    "plural": "baraioù",
+    "examples": [
+      "Ur bara eo."
+    ],
+    "needs_review": true
+  },
+  "tir": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "land",
+    "article": "an",
+    "plural": "tirioù",
+    "examples": [
+      "Un tir eo."
+    ],
+    "needs_review": true
+  },
+  "kolo": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "straw",
+    "article": "ar",
+    "plural": "koloenn",
+    "examples": [
+      "Ur kolo eo."
+    ],
+    "needs_review": true
+  },
+  "koan": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "dinner, supper",
+    "article": "ar",
+    "plural": "koanioù",
+    "examples": [
+      "Ur goan eo."
+    ],
+    "needs_review": true
+  },
+  "ger": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "word",
+    "article": "ar",
+    "plural": "gerioù",
+    "examples": [
+      "Ur ger eo."
+    ],
+    "needs_review": true
+  },
+  "forn": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "oven",
+    "article": "ar",
+    "plural": "ferniel",
+    "examples": [
+      "Ur forn eo."
+    ],
+    "needs_review": true
+  },
+  "yar": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "hen",
+    "article": "ar",
+    "plural": "yer",
+    "examples": [
+      "Ur yar eo."
+    ],
+    "needs_review": true
+  },
+  "paun": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "peacock",
+    "article": "ar",
+    "plural": "pauned",
+    "examples": [
+      "Ur paun eo."
+    ],
+    "needs_review": true
+  },
+  "kazh": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "cat, tomcat",
+    "article": "ar",
+    "plural": "kizhier",
+    "examples": [
+      "Ur kazh eo."
+    ],
+    "needs_review": true
+  },
+  "ster": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "stars",
+    "article": "ar",
+    "plural": "sterenn",
+    "examples": [
+      "Ur ster eo."
+    ],
+    "needs_review": true
+  },
+  "kein": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "back (the rear of body)",
+    "article": "ar",
+    "plural": "keinoù",
+    "examples": [
+      "Ur kein eo."
+    ],
+    "needs_review": true
+  },
+  "klas": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "class",
+    "article": "ar",
+    "plural": "klasoù",
+    "examples": [
+      "Ur klas eo."
+    ],
+    "needs_review": true
+  },
+  "douar": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "earth, soil",
+    "article": "an",
+    "plural": "douaroù",
+    "examples": [
+      "Un douar eo."
+    ],
+    "needs_review": true
+  },
+  "prof": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "gift",
+    "article": "ar",
+    "plural": "profoù",
+    "examples": [
+      "Ur prof eo."
+    ],
+    "needs_review": true
+  },
+  "biz": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "finger",
+    "article": "ar",
+    "plural": "bizied",
+    "examples": [
+      "Ur biz eo."
+    ],
+    "needs_review": true
+  },
+  "roue": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "king",
+    "article": "ar",
+    "plural": "rouanez",
+    "examples": [
+      "Ur roue eo."
+    ],
+    "needs_review": true
+  },
+  "mignon": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "friend",
+    "article": "ar",
+    "plural": "mignoned",
+    "examples": [
+      "Ur mignon eo."
+    ],
+    "needs_review": true
+  },
+  "kar": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "relative",
+    "article": "ar",
+    "plural": "kerent",
+    "examples": [
+      "Ur kar eo."
+    ],
+    "needs_review": true
+  },
+  "kas": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "hatred",
+    "article": "ar",
+    "plural": "gas",
+    "examples": [
+      "Ur kas eo."
+    ],
+    "needs_review": true
+  },
+  "mol": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "mole",
+    "article": "ar",
+    "plural": "moloù",
+    "examples": [
+      "Ur mol eo."
+    ],
+    "needs_review": true
+  },
+  "dorn": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "hand",
+    "article": "an",
+    "plural": "dornioù",
+    "examples": [
+      "Un dorn eo."
+    ],
+    "needs_review": true
+  },
+  "arz": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "art",
+    "article": "an",
+    "plural": "arzoù",
+    "examples": [
+      "Un arz eo."
+    ],
+    "needs_review": true
+  },
+  "azen": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "donkey, ass",
+    "article": "an",
+    "plural": "ezen",
+    "examples": [
+      "Un azen eo."
+    ],
+    "needs_review": true
+  },
+  "kell": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "testicle",
+    "article": "ar",
+    "plural": "kelloù",
+    "examples": [
+      "Ur gell eo."
+    ],
+    "needs_review": true
+  },
+  "mur": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "wall",
+    "article": "ar",
+    "plural": "murioù",
+    "examples": [
+      "Ur vur eo."
+    ],
+    "needs_review": true
+  },
+  "tann": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "sessile oak",
+    "article": "an",
+    "plural": "tannen",
+    "examples": [
+      "Un tann eo."
+    ],
+    "needs_review": true
+  },
+  "lapin": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "rabbit",
+    "article": "al",
+    "plural": "lapined",
+    "examples": [
+      "Ul lapin eo."
+    ],
+    "needs_review": true
+  },
+  "boz": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "hollow of the hand",
+    "article": "ar",
+    "plural": "bozioù",
+    "examples": [
+      "Ur voz eo."
+    ],
+    "needs_review": true
+  },
+  "mez": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "acorns",
+    "article": "ar",
+    "plural": "mezenn",
+    "examples": [
+      "Ur vez eo."
+    ],
+    "needs_review": true
+  },
+  "kod": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "code (body of law or set of regulations and rules)",
+    "article": "ar",
+    "plural": "kodoù",
+    "examples": [
+      "Ur kod eo."
+    ],
+    "needs_review": true
+  },
+  "glin": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "knee",
+    "article": "ar",
+    "plural": "glinoù",
+    "examples": [
+      "Ur glin eo."
+    ],
+    "needs_review": true
+  },
+  "alc'hwez": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "key",
+    "article": "an",
+    "plural": "alc'hwezioù",
+    "examples": [
+      "Un alc'hwez eo."
+    ],
+    "needs_review": true
+  },
+  "pesk": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "fish",
+    "article": "ar",
+    "plural": "pesked",
+    "examples": [
+      "Ur pesk eo."
+    ],
+    "needs_review": true
+  },
+  "skol": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "school",
+    "article": "ar",
+    "plural": "skolioù",
+    "examples": [
+      "Ur skol eo."
+    ],
+    "needs_review": true
+  },
+  "maen": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "stone",
+    "article": "ar",
+    "plural": "mein",
+    "examples": [
+      "Ur maen eo."
+    ],
+    "needs_review": true
+  },
+  "hanter": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "half",
+    "article": "an",
+    "plural": "hanterioù",
+    "examples": [
+      "Un hanter eo."
+    ],
+    "needs_review": true
+  },
+  "tarv": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "bull",
+    "article": "an",
+    "plural": "tirvi",
+    "examples": [
+      "Un tarv eo."
+    ],
+    "needs_review": true
+  },
+  "noz": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "night",
+    "article": "an",
+    "plural": "nozioù",
+    "examples": [
+      "Un noz eo."
+    ],
+    "needs_review": true
+  },
+  "heiz": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "barley",
+    "article": "an",
+    "plural": "heizenn",
+    "examples": [
+      "Un heiz eo."
+    ],
+    "needs_review": true
+  },
+  "mestr": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "master",
+    "article": "ar",
+    "plural": "mestroù",
+    "examples": [
+      "Ur mestr eo."
+    ],
+    "needs_review": true
+  },
+  "draen": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "thorn",
+    "article": "an",
+    "plural": "drein",
+    "examples": [
+      "Ur zraen eo."
+    ],
+    "needs_review": true
+  },
+  "korrigan": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "korrigan",
+    "article": "ar",
+    "plural": "korriganed",
+    "examples": [
+      "Ur korrigan eo."
+    ],
+    "needs_review": true
+  },
+  "stumm": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "form",
+    "article": "ar",
+    "plural": "stummoù",
+    "examples": [
+      "Ur stumm eo."
+    ],
+    "needs_review": true
+  },
+  "arar": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "plough",
+    "article": "an",
+    "plural": "erer",
+    "examples": [
+      "Un arar eo."
+    ],
+    "needs_review": true
+  },
+  "chokolad": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "chocolate",
+    "article": "ar",
+    "plural": "chokoladoù",
+    "examples": [
+      "Ur chokolad eo."
+    ],
+    "needs_review": true
+  },
+  "loar": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "moon",
+    "article": "al",
+    "plural": "loarioù",
+    "examples": [
+      "Ul loar eo."
+    ],
+    "needs_review": true
+  },
+  "loen": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "animal",
+    "article": "al",
+    "plural": "loened",
+    "examples": [
+      "Ul loen eo."
+    ],
+    "needs_review": true
+  },
+  "korr": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "dwarf, gnome, sprite",
+    "article": "ar",
+    "plural": "korred",
+    "examples": [
+      "Ur korr eo."
+    ],
+    "needs_review": true
+  },
+  "oan": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "lamb",
+    "article": "an",
+    "plural": "ein",
+    "examples": [
+      "Un oan eo."
+    ],
+    "needs_review": true
+  },
+  "died": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "drink; beverage",
+    "article": "an",
+    "plural": "diedoù",
+    "examples": [
+      "Ur zied eo."
+    ],
+    "needs_review": true
+  },
+  "aval": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "apple",
+    "article": "an",
+    "plural": "avaloù",
+    "examples": [
+      "Un aval eo."
+    ],
+    "needs_review": true
+  },
+  "kafe": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "coffee",
+    "article": "ar",
+    "plural": "kafeoù",
+    "examples": [
+      "Ur kafe eo."
+    ],
+    "needs_review": true
+  },
+  "roz": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "roses",
+    "article": "ar",
+    "plural": "rozenn",
+    "examples": [
+      "Ur roz eo."
+    ],
+    "needs_review": true
+  },
+  "itron": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "lady",
+    "article": "an",
+    "plural": "itronezed",
+    "examples": [
+      "Un itron eo."
+    ],
+    "needs_review": true
+  },
+  "aotrou": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "lord, gentleman",
+    "article": "an",
+    "plural": "aotrounez",
+    "examples": [
+      "Un aotrou eo."
+    ],
+    "needs_review": true
+  },
+  "kalon": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "heart",
+    "article": "ar",
+    "plural": "kalonoù",
+    "examples": [
+      "Ur galon eo."
+    ],
+    "needs_review": true
+  },
+  "menez": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "mountain",
+    "article": "ar",
+    "plural": "menezioù",
+    "examples": [
+      "Ur menez eo."
+    ],
+    "needs_review": true
+  },
+  "lein": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "breakfast",
+    "article": "al",
+    "plural": "leinoù",
+    "examples": [
+      "Ul lein eo."
+    ],
+    "needs_review": true
+  },
+  "naer": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "snake",
+    "article": "an",
+    "plural": "naered",
+    "examples": [
+      "Un naer eo."
+    ],
+    "needs_review": true
+  },
+  "merien": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "ants",
+    "article": "ar",
+    "plural": "merienenn",
+    "examples": [
+      "Ur verien eo."
+    ],
+    "needs_review": true
+  },
+  "karvan": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "jaw",
+    "article": "ar",
+    "plural": "karvanioù",
+    "examples": [
+      "Ur garvan eo."
+    ],
+    "needs_review": true
+  },
+  "merc'hig": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "diminutive of merc'h (“daughter; girl, maiden”)",
+    "article": "ar",
+    "plural": "merc'higoù",
+    "examples": [
+      "Ur verc'hig eo."
+    ],
+    "needs_review": true
+  },
+  "plac'hig": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "little girl",
+    "article": "ar",
+    "plural": "plac'higed",
+    "examples": [
+      "Ur blac'hig eo."
+    ],
+    "needs_review": true
+  },
+  "plac'h": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "girl",
+    "article": "ar",
+    "plural": "plac'hed",
+    "examples": [
+      "Ur blac'h eo."
+    ],
+    "needs_review": true
+  },
+  "merc'h": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "daughter",
+    "article": "ar",
+    "plural": "merc'hed",
+    "examples": [
+      "Ur verc'h eo."
+    ],
+    "needs_review": true
+  },
+  "markiz": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "marquess, marquis",
+    "article": "ar",
+    "plural": "markizien",
+    "examples": [
+      "Ur markiz eo."
+    ],
+    "needs_review": true
+  },
+  "belo": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "bicycle",
+    "article": "ar",
+    "plural": "beloioù",
+    "examples": [
+      "Ur velo eo."
+    ],
+    "needs_review": true
+  },
+  "kristen": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "Christian",
+    "article": "ar",
+    "plural": "kristenien",
+    "examples": [
+      "Ur kristen eo."
+    ],
+    "needs_review": true
+  },
+  "stêr": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "river",
+    "article": "ar",
+    "plural": "stêrioù",
+    "examples": [
+      "Ur stêr eo."
+    ],
+    "needs_review": true
+  },
+  "penn": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "head",
+    "article": "ar",
+    "plural": "pennoù",
+    "examples": [
+      "Ur penn eo."
+    ],
+    "needs_review": true
+  },
+  "gevel": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "pliers",
+    "article": "ar",
+    "plural": "gevelioù",
+    "examples": [
+      "Ur c'hevel eo."
+    ],
+    "needs_review": true
+  },
+  "beure": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "morning",
+    "article": "ar",
+    "plural": "beureoù",
+    "examples": [
+      "Ur beure eo."
+    ],
+    "needs_review": true
+  },
+  "kiez": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "female dog, bitch",
+    "article": "ar",
+    "plural": "kiezed",
+    "examples": [
+      "Ur giez eo."
+    ],
+    "needs_review": true
+  },
+  "merc'hetaer": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "womanizer, wencher",
+    "article": "ar",
+    "plural": "merc'hetaerien",
+    "examples": [
+      "Ur merc'hetaer eo."
+    ],
+    "needs_review": true
+  },
+  "kog": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "rooster",
+    "article": "ar",
+    "plural": "keger",
+    "examples": [
+      "Ur kog eo."
+    ],
+    "needs_review": true
+  },
+  "maer": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "mayor",
+    "article": "ar",
+    "plural": "maered",
+    "examples": [
+      "Ur maer eo."
+    ],
+    "needs_review": true
+  },
+  "niver": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "number, numeral",
+    "article": "an",
+    "plural": "niveroù",
+    "examples": [
+      "Un niver eo."
+    ],
+    "needs_review": true
+  },
+  "kambr": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "room, chamber",
+    "article": "ar",
+    "plural": "kambroù",
+    "examples": [
+      "Ur gambr eo."
+    ],
+    "needs_review": true
+  },
+  "izotop": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "isotope",
+    "article": "an",
+    "plural": "izotopoù",
+    "examples": [
+      "Un izotop eo."
+    ],
+    "needs_review": true
+  },
+  "parez": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "female (of a species)",
+    "article": "ar",
+    "plural": "parezed",
+    "examples": [
+      "Ur barez eo."
+    ],
+    "needs_review": true
+  },
+  "lizherenn": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "letter (of the alphabet)",
+    "article": "al",
+    "plural": "lizherennoù",
+    "examples": [
+      "Ul lizherenn eo."
+    ],
+    "needs_review": true
+  },
+  "maout": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "ram (male sheep)",
+    "article": "ar",
+    "plural": "meot",
+    "examples": [
+      "Ur maout eo."
+    ],
+    "needs_review": true
+  },
+  "mab": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "son",
+    "article": "ar",
+    "plural": "mibien",
+    "examples": [
+      "Ur mab eo."
+    ],
+    "needs_review": true
+  },
+  "teod": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "tongue",
+    "article": "an",
+    "plural": "teodoù",
+    "examples": [
+      "Un teod eo."
+    ],
+    "needs_review": true
+  },
+  "yezh": {
+    "gender": "Benel",
+    "level": "A1",
+    "definition": "language",
+    "article": "ar",
+    "plural": "yezhoù",
+    "examples": [
+      "Ur yezh eo."
+    ],
+    "needs_review": true
+  },
+  "breur": {
+    "gender": "Gourel",
+    "level": "A1",
+    "definition": "brother",
+    "article": "ar",
+    "plural": "breudeur",
+    "examples": [
+      "Ur breur eo."
+    ],
+    "needs_review": true
   }
 }
