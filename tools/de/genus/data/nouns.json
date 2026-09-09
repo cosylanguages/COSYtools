@@ -44,26 +44,27 @@
     "indefinite_article": "ein"
   },
   "Frau": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
-    "definition": "Erwachsener weiblicher Mensch.",
+    "definition": "Erwachsener weiblicher Mensch oder Ehefrau.",
     "article": "die",
     "plural": "Frauen",
     "examples": [
-      "Die Frau arbeitet im Büro."
+      "Die Frau liest ein Buch."
     ],
     "indefinite_article": "eine"
   },
   "Mann": {
-    "gender": "Maskulinum",
+    "gender": "Maskulin",
     "level": "A1",
-    "definition": "Erwachsener männlicher Mensch.",
+    "definition": "Erwachsener männlicher Mensch oder Ehemann.",
     "article": "der",
     "plural": "Männer",
     "examples": [
-      "Der Mann liest eine Zeitung."
+      "Der Mann arbeitet im Büro."
     ],
-    "indefinite_article": "ein"
+    "indefinite_article": "ein",
+    "irregular": true
   },
   "Kind": {
     "gender": "Neutrum",
@@ -88,13 +89,13 @@
     "indefinite_article": "eine"
   },
   "Schule": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
-    "definition": "Institution für Unterricht.",
+    "definition": "Institution zum Lernen für Kinder.",
     "article": "die",
     "plural": "Schulen",
     "examples": [
-      "Die Kinder gehen zur Schule."
+      "Die Kinder gehen in die Schule."
     ],
     "indefinite_article": "eine"
   },
@@ -134,18 +135,18 @@
   "Fenster": {
     "gender": "Neutrum",
     "level": "A1",
-    "definition": "Lichtöffnung in der Wand.",
+    "definition": "Öffnung in der Wand für Licht.",
     "article": "das",
     "plural": "Fenster",
     "examples": [
-      "Das Fenster ist offen."
+      "Öffne das Fenster."
     ],
     "indefinite_article": "ein"
   },
   "Auto": {
     "gender": "Neutrum",
     "level": "A1",
-    "definition": "Kraftfahrzeug zur Personenbeförderung.",
+    "definition": "Kraftfahrzeug für Personen.",
     "article": "das",
     "plural": "Autos",
     "examples": [
@@ -363,13 +364,13 @@
     "indefinite_article": "ein"
   },
   "Straße": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
-    "definition": "Befestigter Fahrweg für Fahrzeuge.",
+    "definition": "Öffentlicher Verkehrsweg in der Stadt.",
     "article": "die",
     "plural": "Straßen",
     "examples": [
-      "Die Straße ist sehr breit."
+      "Die Straße ist breit."
     ],
     "indefinite_article": "eine"
   },
@@ -572,13 +573,13 @@
     "indefinite_article": "eine"
   },
   "Tasche": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
-    "definition": "Behälter zum Tragen von Gegenständen.",
+    "definition": "Behältnis zum Tragen von Gegenständen.",
     "article": "die",
     "plural": "Taschen",
     "examples": [
-      "Sie trägt eine schwarze Tasche."
+      "Die Tasche ist schwer."
     ],
     "indefinite_article": "eine"
   },
@@ -607,7 +608,7 @@
   "Hemd": {
     "gender": "Neutrum",
     "level": "A1",
-    "definition": "Oberbekleidungsstück mit Knöpfen.",
+    "definition": "Oberbekleidung mit Kragen und Knöpfen.",
     "article": "das",
     "plural": "Hemden",
     "examples": [
@@ -616,59 +617,61 @@
     "indefinite_article": "ein"
   },
   "Hose": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
     "definition": "Kleidungsstück für die Beine.",
     "article": "die",
     "plural": "Hosen",
     "examples": [
-      "Die Hose passt sehr gut."
+      "Die Hose ist neu."
     ],
     "indefinite_article": "eine"
   },
   "Schuh": {
-    "gender": "Maskulinum",
+    "gender": "Maskulin",
     "level": "A1",
     "definition": "Fußbekleidung.",
     "article": "der",
     "plural": "Schuhe",
     "examples": [
-      "Ich ziehe meine Schuhe an."
+      "Die Schuhe passen gut."
     ],
     "indefinite_article": "ein"
   },
   "Mantel": {
-    "gender": "Maskulinum",
+    "gender": "Maskulin",
     "level": "A1",
-    "definition": "Langes Kleidungsstück für kalte Tage.",
+    "definition": "Warmes Kleidungsstück für draußen.",
     "article": "der",
     "plural": "Mäntel",
     "examples": [
-      "Im Winter braucht man einen warmen Mantel."
+      "Im Winter brauche ich einen Mantel."
     ],
-    "indefinite_article": "ein"
+    "indefinite_article": "ein",
+    "irregular": true
   },
   "Jacke": {
-    "gender": "Femininum",
+    "gender": "Feminin",
     "level": "A1",
-    "definition": "Kurzes Oberbekleidungsstück.",
+    "definition": "Kurzes Oberkleidungsstück.",
     "article": "die",
     "plural": "Jacken",
     "examples": [
-      "Nimm eine Jacke mit."
+      "Zieh deine Jacke an."
     ],
     "indefinite_article": "eine"
   },
   "Hut": {
-    "gender": "Maskulinum",
+    "gender": "Maskulin",
     "level": "A1",
-    "definition": "Kopfbedeckung.",
+    "definition": "Kopfbedeckung mit Krempe.",
     "article": "der",
     "plural": "Hüte",
     "examples": [
-      "Der Mann trägt einen braunen Hut."
+      "Der Hut ist elegant."
     ],
-    "indefinite_article": "ein"
+    "indefinite_article": "ein",
+    "irregular": true
   },
   "Brille": {
     "gender": "Femininum",
@@ -713,5 +716,1169 @@
       "Sie schreibt einen Brief an ihren Freund."
     ],
     "indefinite_article": "ein"
+  },
+  "Hand": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Teil des menschlichen Körpers am Ende des Arms.",
+    "article": "die",
+    "plural": "Hände",
+    "examples": [
+      "Sie wäscht ihre Hände."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Kopf": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Oberster Teil des menschlichen Körpers.",
+    "article": "der",
+    "plural": "Köpfe",
+    "examples": [
+      "Mein Kopf tut weh."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Auge": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Sehorgan des Menschen.",
+    "article": "das",
+    "plural": "Augen",
+    "examples": [
+      "Er hat blaue Augen."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Mund": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Öffnung im Gesicht zum Essen und Sprechen.",
+    "article": "der",
+    "plural": "Münder",
+    "examples": [
+      "Öffne den Mund."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Ohr": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Hörorgan des Menschen.",
+    "article": "das",
+    "plural": "Ohren",
+    "examples": [
+      "Die Ohren sind kalt."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Nase": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Riechorgan im Gesicht.",
+    "article": "die",
+    "plural": "Nasen",
+    "examples": [
+      "Sie hat eine kleine Nase."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Haar": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Menschliches Kopfhaar.",
+    "article": "das",
+    "plural": "Haare",
+    "examples": [
+      "Sie hat blonde Haare."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Arm": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Obere Extremität des Körpers.",
+    "article": "der",
+    "plural": "Arme",
+    "examples": [
+      "Er hebt den Arm."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Bein": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Untere Extremität des Körpers.",
+    "article": "das",
+    "plural": "Beine",
+    "examples": [
+      "Mein Bein tut weh."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Fuß": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Unterster Teil des Beins.",
+    "article": "der",
+    "plural": "Füße",
+    "examples": [
+      "Wir gehen zu Fuß."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Herz": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Lebenswichtiges Organ im Brustkorb.",
+    "article": "das",
+    "plural": "Herzen",
+    "examples": [
+      "Das Herz schlägt schnell."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Körper": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Menschliche physische Gestalt.",
+    "article": "der",
+    "plural": "Körper",
+    "examples": [
+      "Sport ist gut für den Körper."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Vater": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Männlicher Elternteil.",
+    "article": "der",
+    "plural": "Väter",
+    "examples": [
+      "Mein Vater arbeitet hier."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Mutter": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Weiblicher Elternteil.",
+    "article": "die",
+    "plural": "Mütter",
+    "examples": [
+      "Meine Mutter ist Lehrerin."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Sohn": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Männliches Kind der Eltern.",
+    "article": "der",
+    "plural": "Söhne",
+    "examples": [
+      "Sie haben einen Sohn."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Tochter": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Weibliches Kind der Eltern.",
+    "article": "die",
+    "plural": "Töchter",
+    "examples": [
+      "Ihre Tochter geht zur Schule."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Bruder": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Männliches Geschwisterteil.",
+    "article": "der",
+    "plural": "Brüder",
+    "examples": [
+      "Ich habe einen Bruder."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Schwester": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Weibliches Geschwisterteil.",
+    "article": "die",
+    "plural": "Schwestern",
+    "examples": [
+      "Meine Schwester studiert."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Familie": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Gruppe verwandter Personen.",
+    "article": "die",
+    "plural": "Familien",
+    "examples": [
+      "Die Familie lebt zusammen."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Großvater": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Vater von Vater oder Mutter.",
+    "article": "der",
+    "plural": "Großväter",
+    "examples": [
+      "Mein Großvater liest viel."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Großmutter": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Mutter von Vater oder Mutter.",
+    "article": "die",
+    "plural": "Großmütter",
+    "examples": [
+      "Die Großmutter kocht Suppe."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Onkel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Bruder von Vater oder Mutter.",
+    "article": "der",
+    "plural": "Onkel",
+    "examples": [
+      "Mein Onkel wohnt in Berlin."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Tante": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Schwester von Vater oder Mutter.",
+    "article": "die",
+    "plural": "Tanten",
+    "examples": [
+      "Meine Tante besucht uns."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Cousin": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Sohn von Onkel oder Tante.",
+    "article": "der",
+    "plural": "Cousins",
+    "examples": [
+      "Ich spiele mit meinem Cousin."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Cousine": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Tochter von Onkel oder Tante.",
+    "article": "die",
+    "plural": "Cousinen",
+    "examples": [
+      "Meine Cousine wohnt in Wien."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Kleid": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Einteiliges Kleidungsstück für Frauen.",
+    "article": "das",
+    "plural": "Kleider",
+    "examples": [
+      "Sie trägt ein rotes Kleid."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Rock": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Kleidungsstück von der Taille abwärts.",
+    "article": "der",
+    "plural": "Röcke",
+    "examples": [
+      "Der Rock ist blau."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Socke": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Strumpf für den Fuß.",
+    "article": "die",
+    "plural": "Socken",
+    "examples": [
+      "Er trägt schwarze Socken."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Mütze": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Weiche Kopfbedeckung.",
+    "article": "die",
+    "plural": "Mützen",
+    "examples": [
+      "Im Winter trage ich eine Mütze."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Handschuh": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Bekleidung für die Hände.",
+    "article": "der",
+    "plural": "Handschuhe",
+    "examples": [
+      "Wo sind meine Handschuhe?"
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schal": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Langes Tuch für den Hals.",
+    "article": "der",
+    "plural": "Schals",
+    "examples": [
+      "Der Schal ist warm."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Gürtel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Band zum Halten der Hose.",
+    "article": "der",
+    "plural": "Gürtel",
+    "examples": [
+      "Der Gürtel ist aus Leder."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Reis": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Gekochtes Getreide von Reispflanzen.",
+    "article": "der",
+    "plural": "Reise",
+    "examples": [
+      "Wir essen Reis mit Gemüse."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Suppe": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Flüssiges Gericht im Teller.",
+    "article": "die",
+    "plural": "Suppen",
+    "examples": [
+      "Die Suppe schmeckt gut."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Salat": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Gericht aus frischem Gemüse.",
+    "article": "der",
+    "plural": "Salate",
+    "examples": [
+      "Ich bestelle einen Salat."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Butter": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Streichfett aus Milch.",
+    "article": "die",
+    "plural": "Butter",
+    "examples": [
+      "Bitte gib mir die Butter."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Zucker": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Süßungsmittel.",
+    "article": "der",
+    "plural": "Zucker",
+    "examples": [
+      "Möchtest du Zucker im Kaffee?"
+    ],
+    "indefinite_article": "ein"
+  },
+  "Salz": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Gewürz zum Salzen von Speisen.",
+    "article": "das",
+    "plural": "Salze",
+    "examples": [
+      "Das Salz steht auf dem Tisch."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Pfeffer": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Scharfes Gewürz.",
+    "article": "der",
+    "plural": "Pfeffer",
+    "examples": [
+      "Gib etwas Pfeffer dazu."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Öl": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Flüssiges Pflanzenfett zum Kochen.",
+    "article": "das",
+    "plural": "Öle",
+    "examples": [
+      "Wir braten mit Olivenöl."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Teller": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Flaches Geschirr für Essen.",
+    "article": "der",
+    "plural": "Teller",
+    "examples": [
+      "Der Teller steht auf dem Tisch."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Glas": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Trinkgefäß aus Glas.",
+    "article": "das",
+    "plural": "Gläser",
+    "examples": [
+      "Ein Glas Wasser, bitte."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Tasse": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Trinkgefäß mit Henkel.",
+    "article": "die",
+    "plural": "Tassen",
+    "examples": [
+      "Ich trinke eine Tasse Tee."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Flasche": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Gefäß für Flüssigkeiten.",
+    "article": "die",
+    "plural": "Flaschen",
+    "examples": [
+      "Eine Flasche Wasser, bitte."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Löffel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Besteckteil für Flüssigkeiten.",
+    "article": "der",
+    "plural": "Löffel",
+    "examples": [
+      "Ich brauche einen Löffel."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Gabel": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Besteckteil mit Zinken.",
+    "article": "die",
+    "plural": "Gabeln",
+    "examples": [
+      "Essen Sie mit Messer und Gabel."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Messer": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Werkzeug zum Schneiden.",
+    "article": "das",
+    "plural": "Messer",
+    "examples": [
+      "Das Messer ist scharf."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Pferd": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Großes Huftier.",
+    "article": "das",
+    "plural": "Pferde",
+    "examples": [
+      "Das Pferd läuft schnell."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Kuh": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Weibliches Rind.",
+    "article": "die",
+    "plural": "Kühe",
+    "examples": [
+      "Die Kuh gibt Milch."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Schwein": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Rosa Haustier auf dem Bauernhof.",
+    "article": "das",
+    "plural": "Schweine",
+    "examples": [
+      "Das Schwein lebt im Stall."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schaf": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Wolliges Haustier.",
+    "article": "das",
+    "plural": "Schafe",
+    "examples": [
+      "Das Schaf hat weiche Wolle."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Huhn": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Vogel auf dem Bauernhof.",
+    "article": "das",
+    "plural": "Hühner",
+    "examples": [
+      "Das Huhn legt ein Ei."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Ente": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Wasservogel mit breitem Schnabel.",
+    "article": "die",
+    "plural": "Enten",
+    "examples": [
+      "Die Ente schwimmt auf dem See."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Hase": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Kleine Säugetier mit langen Ohren.",
+    "article": "der",
+    "plural": "Hasen",
+    "examples": [
+      "Der Hase hoppelt im Gras."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Maus": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Kleine Nagetier mit langem Schwanz.",
+    "article": "die",
+    "plural": "Mäuse",
+    "examples": [
+      "Die Katze jagt die Maus."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Elefant": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Großes Graues Säugetier mit Rüssel.",
+    "article": "der",
+    "plural": "Elefanten",
+    "examples": [
+      "Der Elefant ist riesig."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Löwe": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Große Raubkatze mit Mähne.",
+    "article": "der",
+    "plural": "Löwen",
+    "examples": [
+      "Der Löwe brüllt."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Bär": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Großes Raubtier im Wald.",
+    "article": "der",
+    "plural": "Bären",
+    "examples": [
+      "Der Bär schläft im Winter."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Affe": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Primat mit langem Schwanz.",
+    "article": "der",
+    "plural": "Affen",
+    "examples": [
+      "Der Affe frisst eine Banane."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schlange": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Reptil ohne Beine.",
+    "article": "die",
+    "plural": "Schlangen",
+    "examples": [
+      "Die Schlange kriecht am Boden."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Frosch": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Grünes Amphibium das hüpft.",
+    "article": "der",
+    "plural": "Frösche",
+    "examples": [
+      "Der Frosch hüpft ins Wasser."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Wand": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Senkrechte Begrenzung eines Raumes.",
+    "article": "die",
+    "plural": "Wände",
+    "examples": [
+      "Das Bild hängt an der Wand."
+    ],
+    "indefinite_article": "eine",
+    "irregular": true
+  },
+  "Boden": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Unterste Fläche eines Raumes.",
+    "article": "der",
+    "plural": "Böden",
+    "examples": [
+      "Der Boden ist sauber."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Dach": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Obere Abdeckung eines Hauses.",
+    "article": "das",
+    "plural": "Dächer",
+    "examples": [
+      "Das Dach ist rot."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Schreibtisch": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Arbeitstisch im Büro.",
+    "article": "der",
+    "plural": "Schreibtische",
+    "examples": [
+      "Er sitzt am Schreibtisch."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Spiegel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Reflektierende Glasfläche.",
+    "article": "der",
+    "plural": "Spiegel",
+    "examples": [
+      "Sie schaut in den Spiegel."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schlüssel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Werkzeug zum Öffnen von Schlössern.",
+    "article": "der",
+    "plural": "Schlüssel",
+    "examples": [
+      "Ich habe den Schlüssel vergessen."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Dorf": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Kleine ländliche Siedlung.",
+    "article": "das",
+    "plural": "Dörfer",
+    "examples": [
+      "Er wohnt in einem kleinen Dorf."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Land": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Staat oder ländliches Gebiet.",
+    "article": "das",
+    "plural": "Länder",
+    "examples": [
+      "Deutschland ist ein schönes Land."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Wetter": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Zustand der Atmosphäre.",
+    "article": "das",
+    "plural": "Wetter",
+    "examples": [
+      "Das Wetter ist heute schön."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Regen": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Niederschlag aus Wasser Tropfen.",
+    "article": "der",
+    "plural": "Regen",
+    "examples": [
+      "Der Regen fällt laut."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schnee": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Gefrorener weißer Niederschlag.",
+    "article": "der",
+    "plural": "Schnee",
+    "examples": [
+      "Im Winter liegt viel Schnee."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Wind": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Bewegte Luft.",
+    "article": "der",
+    "plural": "Winde",
+    "examples": [
+      "Der Wind weht stark."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Wolke": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Sichtbare Ansammlung von Wasserdampf.",
+    "article": "die",
+    "plural": "Wolken",
+    "examples": [
+      "Es gibt Wolken am Himmel."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Himmel": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Sichtbarer Raum über der Erde.",
+    "article": "der",
+    "plural": "Himmel",
+    "examples": [
+      "Der Himmel ist blau."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Stern": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Leuchtender Himmelskörper am Nacht-Himmel.",
+    "article": "der",
+    "plural": "Sterne",
+    "examples": [
+      "Die Sterne leuchten nachts."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Mond": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Natürlicher Satellit der Erde.",
+    "article": "der",
+    "plural": "Monde",
+    "examples": [
+      "Der Mond ist heute voll."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Wald": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Große mit Bäumen bewachsene Fläche.",
+    "article": "der",
+    "plural": "Wälder",
+    "examples": [
+      "Wir spazieren im Wald."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Park": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Öffentliche Grünanlage.",
+    "article": "der",
+    "plural": "Parks",
+    "examples": [
+      "Kinder spielen im Park."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Welt": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Der Erde und alles was darauf existiert.",
+    "article": "die",
+    "plural": "Welten",
+    "examples": [
+      "Er reist um die Welt."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Erde": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Unser Heimatplanet oder der Boden.",
+    "article": "die",
+    "plural": "Erden",
+    "examples": [
+      "Die Erde dreht sich um die Sonne."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Universität": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Hochschule für Studium und Forschung.",
+    "article": "die",
+    "plural": "Universitäten",
+    "examples": [
+      "Sie studiert an der Universität."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Geschäft": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Laden zum Einkaufen.",
+    "article": "das",
+    "plural": "Geschäfte",
+    "examples": [
+      "Das Geschäft schließt um acht."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Supermarkt": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Großes Lebensmittelgeschäft.",
+    "article": "der",
+    "plural": "Supermärkte",
+    "examples": [
+      "Wir kaufen im Supermarkt ein."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Markt": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Platz für den Verkauf von Frischewaren.",
+    "article": "der",
+    "plural": "Märkte",
+    "examples": [
+      "Der Markt verkauft frisches Obst."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Büro": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Arbeitsraum für administrative Tätigkeiten.",
+    "article": "das",
+    "plural": "Büros",
+    "examples": [
+      "Er arbeitet im Büro."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Krankenhaus": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Einrichtung für medizinische Versorgung.",
+    "article": "das",
+    "plural": "Krankenhäuser",
+    "examples": [
+      "Der Arzt arbeitet im Krankenhaus."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Kino": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Veranstaltungsort für Filme.",
+    "article": "das",
+    "plural": "Kinos",
+    "examples": [
+      "Wir gehen heute ins Kino."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Theater": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Aufführungsort für Schauspiel.",
+    "article": "das",
+    "plural": "Theater",
+    "examples": [
+      "Wir sehen ein Stück im Theater."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Museum": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Gebäude für Kunst und Geschichte.",
+    "article": "das",
+    "plural": "Museen",
+    "examples": [
+      "Das Museum ist sehr bekannt."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Kirche": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Gotteshaus für Christen.",
+    "article": "die",
+    "plural": "Kirchen",
+    "examples": [
+      "Die Kirche steht im Zentrum."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Brücke": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Bauwerk über einen Fluss.",
+    "article": "die",
+    "plural": "Brücken",
+    "examples": [
+      "Wir gehen über die Brücke."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Taxi": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Mietwagen mit Fahrer.",
+    "article": "das",
+    "plural": "Taxis",
+    "examples": [
+      "Wir nehmen ein Taxi zum Flughafen."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Fahrkarte": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Ticket für Bus oder Bahn.",
+    "article": "die",
+    "plural": "Fahrkarten",
+    "examples": [
+      "Ich kaufe eine Fahrkarte."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Lehrer": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Person die an der Schule unterrichtet.",
+    "article": "der",
+    "plural": "Lehrer",
+    "examples": [
+      "Der Lehrer erklärt die Aufgabe."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Schüler": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Person die eine Schule besucht.",
+    "article": "der",
+    "plural": "Schüler",
+    "examples": [
+      "Der Schüler lernt Deutsch."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Klasse": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Unterrichtsgruppe in der Schule.",
+    "article": "die",
+    "plural": "Klassen",
+    "examples": [
+      "Die Klasse beginnt um acht."
+    ],
+    "indefinite_article": "eine"
+  },
+  "Arzt": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Medizinische Fachkraft.",
+    "article": "der",
+    "plural": "Ärzte",
+    "examples": [
+      "Der Arzt hilft dem Patienten."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Kellner": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Bedienung im Restaurant.",
+    "article": "der",
+    "plural": "Kellner",
+    "examples": [
+      "Der Kellner bringt die Karte."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Koch": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Person die beruflich kocht.",
+    "article": "der",
+    "plural": "Köche",
+    "examples": [
+      "Der Koch bereitet das Essen zu."
+    ],
+    "indefinite_article": "ein",
+    "irregular": true
+  },
+  "Computer": {
+    "gender": "Maskulin",
+    "level": "A1",
+    "definition": "Elektronisches Arbeitsgerät.",
+    "article": "der",
+    "plural": "Computer",
+    "examples": [
+      "Er arbeitet am Computer."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Telefon": {
+    "gender": "Neutrum",
+    "level": "A1",
+    "definition": "Gerät zum Telefonieren.",
+    "article": "das",
+    "plural": "Telefone",
+    "examples": [
+      "Das Telefon klingelt."
+    ],
+    "indefinite_article": "ein"
+  },
+  "Nachricht": {
+    "gender": "Feminin",
+    "level": "A1",
+    "definition": "Geschriebene oder gesprochene Information.",
+    "article": "die",
+    "plural": "Nachrichten",
+    "examples": [
+      "Ich schreibe eine Nachricht."
+    ],
+    "indefinite_article": "eine"
   }
 }

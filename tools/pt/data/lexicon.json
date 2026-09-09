@@ -2,6 +2,22 @@
   "language": "pt",
   "units": [
     {
+      "lemma": "açúcar",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Substância doce para adoçar.",
+        "article": "o",
+        "plural": "açúcares",
+        "examples": [
+          "Queres açúcar no café?"
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "aeroporto",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -66,6 +82,23 @@
       }
     },
     {
+      "lemma": "arroz",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Cereal de grão branco cozinhado.",
+        "article": "o",
+        "plural": "arrozes",
+        "examples": [
+          "Cozinhamos arroz de pato."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
       "lemma": "árvore",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -77,6 +110,22 @@
         "plural": "árvores",
         "examples": [
           "A árvore dá sombras agradáveis no Verão."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "aula",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Lição escolar ou divisão.",
+        "article": "a",
+        "plural": "aulas",
+        "examples": [
+          "A aula começa às nove."
         ],
         "indefinite_article": "uma"
       }
@@ -109,6 +158,54 @@
         "plural": "aviões",
         "examples": [
           "O avião voa alto acima das nuvens."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "avó",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Mãe do pai ou da mãe.",
+        "article": "a",
+        "plural": "avós",
+        "examples": [
+          "A minha avó faz bolo."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "avô",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pai do pai ou da mãe.",
+        "article": "o",
+        "plural": "avôs",
+        "examples": [
+          "O meu avô lê o jornal."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "azeite",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Óleo comestível da azeitona.",
+        "article": "o",
+        "plural": "azeites",
+        "examples": [
+          "Usa azeite de oliva."
         ],
         "indefinite_article": "um"
       }
@@ -159,6 +256,103 @@
           "Andar de bicicleta é muito divertido."
         ],
         "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "bilhete",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Documento de passagem.",
+        "article": "o",
+        "plural": "bilhetes",
+        "examples": [
+          "Compro um bilhete de comboio."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "boca",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Abertura no rosto para comer e falar.",
+        "article": "a",
+        "plural": "bocas",
+        "examples": [
+          "Abre a boca."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "braço",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Membro superior do corpo.",
+        "article": "o",
+        "plural": "braços",
+        "examples": [
+          "Levanta o braço."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "cabeça",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Parte superior do corpo humano.",
+        "article": "a",
+        "plural": "cabeças",
+        "examples": [
+          "Dói-me a cabeça."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "cabelo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pelo da cabeça humana.",
+        "article": "o",
+        "plural": "cabelos",
+        "examples": [
+          "Ela tem cabelo preto."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "cachecol",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Tira de lã para aquecer o pescoço.",
+        "article": "o",
+        "plural": "cachecóis",
+        "examples": [
+          "O cachecol é quente."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
       }
     },
     {
@@ -306,6 +500,22 @@
       }
     },
     {
+      "lemma": "carro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Veículo automóvel.",
+        "article": "o",
+        "plural": "carros",
+        "examples": [
+          "Conduz um carro novo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "carta",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -370,6 +580,38 @@
       }
     },
     {
+      "lemma": "cavalo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Grande mamífero equídeo.",
+        "article": "o",
+        "plural": "cavalos",
+        "examples": [
+          "Monta a cavalo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "céu",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Espaço visível acima da Terra.",
+        "article": "o",
+        "plural": "céus",
+        "examples": [
+          "O céu está limpo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "chá",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -381,6 +623,22 @@
         "plural": "chás",
         "examples": [
           "Prefiro chá de camomila à noite."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "chão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Piso sobre o qual se anda.",
+        "article": "o",
+        "plural": "chãos",
+        "examples": [
+          "O chão está limpo."
         ],
         "indefinite_article": "um"
       }
@@ -402,6 +660,54 @@
       }
     },
     {
+      "lemma": "chave",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Objeto metálico para abrir fechaduras.",
+        "article": "a",
+        "plural": "chaves",
+        "examples": [
+          "Tenho a chave de casa."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "chávena",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Recipiente com asa para bebidas quentes.",
+        "article": "a",
+        "plural": "chávenas",
+        "examples": [
+          "Tomo uma chávena de café."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "chuva",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Água que cai das nuvens.",
+        "article": "a",
+        "plural": "chuvas",
+        "examples": [
+          "A chuva cai suavemente."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "cidade",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -418,6 +724,86 @@
       }
     },
     {
+      "lemma": "cinema",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Sala de exibição de filmes.",
+        "article": "o",
+        "plural": "cinemas",
+        "examples": [
+          "Vamos ao cinema no sábado."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "cinto",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Tira para segurar as calças.",
+        "article": "o",
+        "plural": "cintos",
+        "examples": [
+          "Usa um cinto preto."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "cobra",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Réptil sem patas.",
+        "article": "a",
+        "plural": "cobras",
+        "examples": [
+          "A cobra rasteja no chão."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "coelho",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pequeno mamífero de orelhas compridas.",
+        "article": "o",
+        "plural": "coelhos",
+        "examples": [
+          "O coelho salta no jardim."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "colher",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Talo côncavo para líquidos.",
+        "article": "a",
+        "plural": "colheres",
+        "examples": [
+          "Preciso de uma colher."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "comboio",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -429,6 +815,88 @@
         "plural": "comboios",
         "examples": [
           "Viajamos de comboio para o Porto."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "computador",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Máquina eletrónica de trabalho.",
+        "article": "o",
+        "plural": "computadores",
+        "examples": [
+          "Trabalha no computador."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "copo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Recipiente para beber líquidos.",
+        "article": "o",
+        "plural": "copos",
+        "examples": [
+          "Um copo de água, por favor."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "coração",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Órgão muscular que bombeia o sangue.",
+        "article": "o",
+        "plural": "corações",
+        "examples": [
+          "O coração bate rápido."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "corpo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Estrutura física do ser humano.",
+        "article": "o",
+        "plural": "corpos",
+        "examples": [
+          "O exercício é bom para o corpo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "cozinheiro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pessoa que prepara comida.",
+        "article": "o",
+        "plural": "cozinheiros",
+        "examples": [
+          "O cozinheiro prepara o jantar."
         ],
         "indefinite_article": "um"
       }
@@ -466,6 +934,118 @@
       }
     },
     {
+      "lemma": "elefante",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Grande mamífero com tromba.",
+        "article": "o",
+        "plural": "elefantes",
+        "examples": [
+          "O elefante é enorme."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "empregado",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Trabalhador de um restaurante ou loja.",
+        "article": "o",
+        "plural": "empregados",
+        "examples": [
+          "O empregado traz a conta."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "enfermeiro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Profissional de enfermagem.",
+        "article": "o",
+        "plural": "enfermeiros",
+        "examples": [
+          "O enfermeiro ajuda o médico."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "escola",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Lugar de ensino para crianças.",
+        "article": "a",
+        "plural": "escolas",
+        "examples": [
+          "As crianças vão para a escola."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "escritório",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Local de trabalho administrativo.",
+        "article": "o",
+        "plural": "escritórios",
+        "examples": [
+          "Trabalha num escritório grande."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "espelho",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Superfície que reflete imagens.",
+        "article": "o",
+        "plural": "espelhos",
+        "examples": [
+          "Olha-te ao espelho."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "esposa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Mulher casada.",
+        "article": "a",
+        "plural": "esposas",
+        "examples": [
+          "A minha esposa trabalha no banco."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "estação",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -479,6 +1059,102 @@
           "O comboio chega à estação às dez horas."
         ],
         "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "estrela",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Corpo celeste brilhante na noite.",
+        "article": "a",
+        "plural": "estrelas",
+        "examples": [
+          "As estrelas brilham muito."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "estudante",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino / Feminino",
+        "level": "A1",
+        "definition": "Pessoa que estuda.",
+        "article": "o",
+        "plural": "estudantes",
+        "examples": [
+          "O estudante lê o livro."
+        ],
+        "indefinite_article": "um / uma"
+      }
+    },
+    {
+      "lemma": "faca",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Utensílio com lâmina para cortar.",
+        "article": "a",
+        "plural": "facas",
+        "examples": [
+          "Corta o pão com a faca."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "família",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Grupo de pessoas unidas por laços de sangue.",
+        "article": "a",
+        "plural": "famílias",
+        "examples": [
+          "A família vive junta."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "filha",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Descendente direta do sexo feminino.",
+        "article": "a",
+        "plural": "filhas",
+        "examples": [
+          "A filha deles vai à escola."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "filho",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Descendente direto do sexo masculino.",
+        "article": "o",
+        "plural": "filhos",
+        "examples": [
+          "Eles têm um filho e uma filha."
+        ],
+        "indefinite_article": "um"
       }
     },
     {
@@ -498,6 +1174,38 @@
       }
     },
     {
+      "lemma": "floresta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Grande terreno com árvores.",
+        "article": "a",
+        "plural": "florestas",
+        "examples": [
+          "Caminhamos pela floresta."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "frango",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Carne de ave ou frango jovem.",
+        "article": "o",
+        "plural": "frangos",
+        "examples": [
+          "Comemos frango assado."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "fruta",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -509,6 +1217,38 @@
         "plural": "frutas",
         "examples": [
           "Compro fruta fresca no mercado local."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "garfo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Utensílio de mesa com dentes.",
+        "article": "o",
+        "plural": "garfos",
+        "examples": [
+          "Usa o garfo para a carne."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "garrafa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Recipiente para guardar líquidos.",
+        "article": "a",
+        "plural": "garrafas",
+        "examples": [
+          "Abre uma garrafa de água."
         ],
         "indefinite_article": "uma"
       }
@@ -546,6 +1286,23 @@
       }
     },
     {
+      "lemma": "hospital",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Estabelecimento de saúde.",
+        "article": "o",
+        "plural": "hospitais",
+        "examples": [
+          "O médico está no hospital."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
       "lemma": "hotel",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -559,6 +1316,71 @@
           "Ficamos hospedados num hotel central."
         ],
         "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "igreja",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Templo do culto cristão.",
+        "article": "a",
+        "plural": "igrejas",
+        "examples": [
+          "A igreja fica no centro."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "irmã",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Pessoa feminina dos mesmos pais.",
+        "article": "a",
+        "plural": "irmãs",
+        "examples": [
+          "A minha irmã estuda medicina."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "irmão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pessoa em relação a outra dos mesmos pais.",
+        "article": "o",
+        "plural": "irmãos",
+        "examples": [
+          "Tenho um irmão mais velho."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "janela",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Abertura na parede para luz e ar.",
+        "article": "a",
+        "plural": "janelas",
+        "examples": [
+          "Abre a janela."
+        ],
+        "indefinite_article": "uma"
       }
     },
     {
@@ -610,6 +1432,23 @@
       }
     },
     {
+      "lemma": "leão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Grande felino com juba.",
+        "article": "o",
+        "plural": "leões",
+        "examples": [
+          "O leão é o rei da selva."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
       "lemma": "legume",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -658,6 +1497,54 @@
       }
     },
     {
+      "lemma": "loja",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Estabelecimento comercial.",
+        "article": "a",
+        "plural": "lojas",
+        "examples": [
+          "A loja abre às nove."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "lua",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Satélite natural da Terra.",
+        "article": "a",
+        "plural": "luas",
+        "examples": [
+          "A lua está cheia."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "luva",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Peça para cobrir as mãos.",
+        "article": "a",
+        "plural": "luvas",
+        "examples": [
+          "Usa luvas de cabedal."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "maçã",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -669,6 +1556,38 @@
         "plural": "maçãs",
         "examples": [
           "Como uma maçã deliciosa no lanche."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "macaco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Primate com cauda.",
+        "article": "o",
+        "plural": "macacos",
+        "examples": [
+          "O macaco come uma banana."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "mãe",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Progenitora feminina.",
+        "article": "a",
+        "plural": "mães",
+        "examples": [
+          "A minha mãe é professora."
         ],
         "indefinite_article": "uma"
       }
@@ -687,6 +1606,120 @@
           "Faço a mala na véspera da viagem."
         ],
         "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "manteiga",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Gordura do leite para barrar.",
+        "article": "a",
+        "plural": "manteigas",
+        "examples": [
+          "Põe manteiga no pão."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "mão",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Parte do corpo humano no final do braço.",
+        "article": "a",
+        "plural": "mãos",
+        "examples": [
+          "Ela lava as mãos."
+        ],
+        "indefinite_article": "uma",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "marido",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Homem casado.",
+        "article": "o",
+        "plural": "maridos",
+        "examples": [
+          "O marido dela é médico."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "médico",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Profissional de medicina.",
+        "article": "o",
+        "plural": "médicos",
+        "examples": [
+          "O médico examina o doente."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "meia",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Peça de roupa para o pé e perna.",
+        "article": "a",
+        "plural": "meias",
+        "examples": [
+          "Perdeu uma meia."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "mensagem",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Texto curto enviado a alguém.",
+        "article": "a",
+        "plural": "mensagens",
+        "examples": [
+          "Envio uma mensagem."
+        ],
+        "indefinite_article": "uma",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "mercado",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Local de venda de produtos frescos.",
+        "article": "o",
+        "plural": "mercados",
+        "examples": [
+          "O mercado vende fruta fresca."
+        ],
+        "indefinite_article": "um"
       }
     },
     {
@@ -722,6 +1755,88 @@
       }
     },
     {
+      "lemma": "mundo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Conjunto do nosso planeta e humanidade.",
+        "article": "o",
+        "plural": "mundos",
+        "examples": [
+          "Viaja por todo o mundo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "museu",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Local de exposição de arte.",
+        "article": "o",
+        "plural": "museus",
+        "examples": [
+          "Visitamos o museu de arte."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "nariz",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Órgão do olfato.",
+        "article": "o",
+        "plural": "narizes",
+        "examples": [
+          "Tem o nariz frio."
+        ],
+        "indefinite_article": "um",
+        "irregular": true
+      }
+    },
+    {
+      "lemma": "neve",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Água congelada em flocos.",
+        "article": "a",
+        "plural": "neves",
+        "examples": [
+          "A neve cobre a montanha."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "nuvem",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Massa de vapor de água no céu.",
+        "article": "a",
+        "plural": "nuvens",
+        "examples": [
+          "Há nuvens no céu."
+        ],
+        "indefinite_article": "uma",
+        "irregular": true
+      }
+    },
+    {
       "lemma": "óculos",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -738,6 +1853,54 @@
       }
     },
     {
+      "lemma": "olho",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Órgão da visão.",
+        "article": "o",
+        "plural": "olhos",
+        "examples": [
+          "Ele tem olhos azuis."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "orelha",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Órgão externo da audição.",
+        "article": "a",
+        "plural": "orelhas",
+        "examples": [
+          "As orelhas do coelho são grandes."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "ovelha",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Mamífero que produz lã.",
+        "article": "a",
+        "plural": "ovelhas",
+        "examples": [
+          "A ovelha tem lã branca."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "ovo",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -749,6 +1912,38 @@
         "plural": "ovos",
         "examples": [
           "Como dois ovos mexidos no pequeno-almoço."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "pai",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Progenitor masculino.",
+        "article": "o",
+        "plural": "pais",
+        "examples": [
+          "O meu pai trabalha aqui."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "país",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Território soberano nacional.",
+        "article": "o",
+        "plural": "países",
+        "examples": [
+          "Portugal é um país bonito."
         ],
         "indefinite_article": "um"
       }
@@ -786,6 +1981,38 @@
       }
     },
     {
+      "lemma": "parede",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Estrutura vertical que divide divisões.",
+        "article": "a",
+        "plural": "paredes",
+        "examples": [
+          "O quadro está na parede."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "parque",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Espaço verde público.",
+        "article": "o",
+        "plural": "parques",
+        "examples": [
+          "As crianças brincam no parque."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "pássaro",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -802,6 +2029,38 @@
       }
     },
     {
+      "lemma": "pato",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Ave aquática de bico largo.",
+        "article": "o",
+        "plural": "patos",
+        "examples": [
+          "O pato nada no lago."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "pé",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Parte inferior da perna.",
+        "article": "o",
+        "plural": "pés",
+        "examples": [
+          "Vamos a pé."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
       "lemma": "peixe",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -813,6 +2072,70 @@
         "plural": "peixes",
         "examples": [
           "O peixe grelhado é uma refeição saudável."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "perna",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Membro inferior do corpo.",
+        "article": "a",
+        "plural": "pernas",
+        "examples": [
+          "Dói-lhe a perna."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "pimenta",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Especiaria picante.",
+        "article": "a",
+        "plural": "pimentas",
+        "examples": [
+          "Adiciona um pouco de pimenta."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "ponte",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Construção para passar sobre um rio.",
+        "article": "a",
+        "plural": "pontes",
+        "examples": [
+          "Atravessamos a ponte."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "porco",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Mamífero doméstico de quinta.",
+        "article": "o",
+        "plural": "porcos",
+        "examples": [
+          "O porco vive na quinta."
         ],
         "indefinite_article": "um"
       }
@@ -847,6 +2170,70 @@
           "Encontramo-nos na praça principal."
         ],
         "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "prato",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Utensílio raso para servir comida.",
+        "article": "o",
+        "plural": "pratos",
+        "examples": [
+          "Põe o prato na mesa."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "prima",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Filha do tio ou da tia.",
+        "article": "a",
+        "plural": "primas",
+        "examples": [
+          "A minha prima mora no Porto."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "primo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Filho do tio ou da tia.",
+        "article": "o",
+        "plural": "primos",
+        "examples": [
+          "Jogo com o meu primo."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "professor",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pessoa que ensina.",
+        "article": "o",
+        "plural": "professores",
+        "examples": [
+          "O professor explica a aula."
+        ],
+        "indefinite_article": "um"
       }
     },
     {
@@ -893,6 +2280,22 @@
         "plural": "queijos",
         "examples": [
           "Gosto de comer queijo com pão."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "rato",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Pequeno roedor de cauda longa.",
+        "article": "o",
+        "plural": "ratos",
+        "examples": [
+          "O gato persegue o rato."
         ],
         "indefinite_article": "um"
       }
@@ -962,6 +2365,54 @@
       }
     },
     {
+      "lemma": "saia",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Peça de vestuário a partir da cintura.",
+        "article": "a",
+        "plural": "saias",
+        "examples": [
+          "Comprou uma saia azul."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "sal",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Tempero branco mineral.",
+        "article": "o",
+        "plural": "sais",
+        "examples": [
+          "Passa o sal, por favor."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "salada",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Prato de vegetais frescos.",
+        "article": "a",
+        "plural": "saladas",
+        "examples": [
+          "Prepara uma salada mista."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "sapato",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -978,6 +2429,38 @@
       }
     },
     {
+      "lemma": "sapo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Anfíbio que dá saltos.",
+        "article": "o",
+        "plural": "sapos",
+        "examples": [
+          "O sapo salta no lago."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "secretária",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Mesa de trabalho com gavetas.",
+        "article": "a",
+        "plural": "secretárias",
+        "examples": [
+          "Trabalha na secretária."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
       "lemma": "sol",
       "kind": "nouns",
       "source": "tools/pt/genre/data/nouns.json",
@@ -991,6 +2474,278 @@
           "O sol brilha no céu azul."
         ],
         "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "sopa",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Prato líquido quente.",
+        "article": "a",
+        "plural": "sopas",
+        "examples": [
+          "A sopa está deliciosa."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "supermercado",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Grande loja de alimentos.",
+        "article": "o",
+        "plural": "supermercados",
+        "examples": [
+          "Compramos no supermercado."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "t-shirt",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Camisola de mangas curtas casual.",
+        "article": "a",
+        "plural": "t-shirts",
+        "examples": [
+          "Veste uma t-shirt branca."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "táxi",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Carro de aluguer com condutor.",
+        "article": "o",
+        "plural": "táxis",
+        "examples": [
+          "Apanhamos um táxi."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "teatro",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Local de representação dramática.",
+        "article": "o",
+        "plural": "teatros",
+        "examples": [
+          "Vemos uma peça no teatro."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "telefone",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Aparelho de comunicação.",
+        "article": "o",
+        "plural": "telefones",
+        "examples": [
+          "O telefone está a tocar."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "tempo",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Duração dos acontecimentos ou clima.",
+        "article": "o",
+        "plural": "tempos",
+        "examples": [
+          "Como está o tempo hoje?"
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "terra",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Planeta Terra ou solo.",
+        "article": "a",
+        "plural": "terras",
+        "examples": [
+          "A Terra gira à volta do sol."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "teto",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Parte superior interior de uma divisão.",
+        "article": "o",
+        "plural": "tetos",
+        "examples": [
+          "O teto é alto."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "tia",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Irmã do pai ou da mãe.",
+        "article": "a",
+        "plural": "tias",
+        "examples": [
+          "A minha tia visita-nos hoje."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "tio",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Irmão do pai ou da mãe.",
+        "article": "o",
+        "plural": "tios",
+        "examples": [
+          "O meu tio mora em Lisboa."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "universidade",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Instituição de ensino superior.",
+        "article": "a",
+        "plural": "universidades",
+        "examples": [
+          "Estuda na universidade."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "urso",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Grande mamífero carnívoro.",
+        "article": "o",
+        "plural": "ursos",
+        "examples": [
+          "O urso dorme no inverno."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "vaca",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Fêmea do touro que dá leite.",
+        "article": "a",
+        "plural": "vacas",
+        "examples": [
+          "A vaca dá leite fresco."
+        ],
+        "indefinite_article": "uma"
+      }
+    },
+    {
+      "lemma": "vento",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Ar em movimento.",
+        "article": "o",
+        "plural": "ventos",
+        "examples": [
+          "O vento sopra forte."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "vestido",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Masculino",
+        "level": "A1",
+        "definition": "Peça de vestuário feminino de uma só peça.",
+        "article": "o",
+        "plural": "vestidos",
+        "examples": [
+          "Ela veste um vestido vermelho."
+        ],
+        "indefinite_article": "um"
+      }
+    },
+    {
+      "lemma": "vila",
+      "kind": "nouns",
+      "source": "tools/pt/genre/data/nouns.json",
+      "data": {
+        "gender": "Feminino",
+        "level": "A1",
+        "definition": "Povoação pequena.",
+        "article": "a",
+        "plural": "vilas",
+        "examples": [
+          "Mora numa vila bonita."
+        ],
+        "indefinite_article": "uma"
       }
     },
     {

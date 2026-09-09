@@ -680,5 +680,1215 @@
       "Envio uma carta para o meu amigo em Lisboa."
     ],
     "indefinite_article": "uma"
+  },
+  "mão": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Parte do corpo humano no final do braço.",
+    "article": "a",
+    "plural": "mãos",
+    "examples": [
+      "Ela lava as mãos."
+    ],
+    "indefinite_article": "uma",
+    "irregular": true
+  },
+  "cabeça": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Parte superior do corpo humano.",
+    "article": "a",
+    "plural": "cabeças",
+    "examples": [
+      "Dói-me a cabeça."
+    ],
+    "indefinite_article": "uma"
+  },
+  "olho": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Órgão da visão.",
+    "article": "o",
+    "plural": "olhos",
+    "examples": [
+      "Ele tem olhos azuis."
+    ],
+    "indefinite_article": "um"
+  },
+  "boca": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Abertura no rosto para comer e falar.",
+    "article": "a",
+    "plural": "bocas",
+    "examples": [
+      "Abre a boca."
+    ],
+    "indefinite_article": "uma"
+  },
+  "orelha": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Órgão externo da audição.",
+    "article": "a",
+    "plural": "orelhas",
+    "examples": [
+      "As orelhas do coelho são grandes."
+    ],
+    "indefinite_article": "uma"
+  },
+  "nariz": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Órgão do olfato.",
+    "article": "o",
+    "plural": "narizes",
+    "examples": [
+      "Tem o nariz frio."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "cabelo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pelo da cabeça humana.",
+    "article": "o",
+    "plural": "cabelos",
+    "examples": [
+      "Ela tem cabelo preto."
+    ],
+    "indefinite_article": "um"
+  },
+  "braço": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Membro superior do corpo.",
+    "article": "o",
+    "plural": "braços",
+    "examples": [
+      "Levanta o braço."
+    ],
+    "indefinite_article": "um"
+  },
+  "perna": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Membro inferior do corpo.",
+    "article": "a",
+    "plural": "pernas",
+    "examples": [
+      "Dói-lhe a perna."
+    ],
+    "indefinite_article": "uma"
+  },
+  "pé": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Parte inferior da perna.",
+    "article": "o",
+    "plural": "pés",
+    "examples": [
+      "Vamos a pé."
+    ],
+    "indefinite_article": "um"
+  },
+  "coração": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Órgão muscular que bombeia o sangue.",
+    "article": "o",
+    "plural": "corações",
+    "examples": [
+      "O coração bate rápido."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "corpo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Estrutura física do ser humano.",
+    "article": "o",
+    "plural": "corpos",
+    "examples": [
+      "O exercício é bom para o corpo."
+    ],
+    "indefinite_article": "um"
+  },
+  "pai": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Progenitor masculino.",
+    "article": "o",
+    "plural": "pais",
+    "examples": [
+      "O meu pai trabalha aqui."
+    ],
+    "indefinite_article": "um"
+  },
+  "mãe": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Progenitora feminina.",
+    "article": "a",
+    "plural": "mães",
+    "examples": [
+      "A minha mãe é professora."
+    ],
+    "indefinite_article": "uma"
+  },
+  "filho": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Descendente direto do sexo masculino.",
+    "article": "o",
+    "plural": "filhos",
+    "examples": [
+      "Eles têm um filho e uma filha."
+    ],
+    "indefinite_article": "um"
+  },
+  "filha": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Descendente direta do sexo feminino.",
+    "article": "a",
+    "plural": "filhas",
+    "examples": [
+      "A filha deles vai à escola."
+    ],
+    "indefinite_article": "uma"
+  },
+  "irmão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pessoa em relação a outra dos mesmos pais.",
+    "article": "o",
+    "plural": "irmãos",
+    "examples": [
+      "Tenho um irmão mais velho."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "irmã": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Pessoa feminina dos mesmos pais.",
+    "article": "a",
+    "plural": "irmãs",
+    "examples": [
+      "A minha irmã estuda medicina."
+    ],
+    "indefinite_article": "uma"
+  },
+  "família": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Grupo de pessoas unidas por laços de sangue.",
+    "article": "a",
+    "plural": "famílias",
+    "examples": [
+      "A família vive junta."
+    ],
+    "indefinite_article": "uma"
+  },
+  "avô": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pai do pai ou da mãe.",
+    "article": "o",
+    "plural": "avôs",
+    "examples": [
+      "O meu avô lê o jornal."
+    ],
+    "indefinite_article": "um"
+  },
+  "avó": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Mãe do pai ou da mãe.",
+    "article": "a",
+    "plural": "avós",
+    "examples": [
+      "A minha avó faz bolo."
+    ],
+    "indefinite_article": "uma"
+  },
+  "tio": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Irmão do pai ou da mãe.",
+    "article": "o",
+    "plural": "tios",
+    "examples": [
+      "O meu tio mora em Lisboa."
+    ],
+    "indefinite_article": "um"
+  },
+  "tia": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Irmã do pai ou da mãe.",
+    "article": "a",
+    "plural": "tias",
+    "examples": [
+      "A minha tia visita-nos hoje."
+    ],
+    "indefinite_article": "uma"
+  },
+  "primo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Filho do tio ou da tia.",
+    "article": "o",
+    "plural": "primos",
+    "examples": [
+      "Jogo com o meu primo."
+    ],
+    "indefinite_article": "um"
+  },
+  "prima": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Filha do tio ou da tia.",
+    "article": "a",
+    "plural": "primas",
+    "examples": [
+      "A minha prima mora no Porto."
+    ],
+    "indefinite_article": "uma"
+  },
+  "marido": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Homem casado.",
+    "article": "o",
+    "plural": "maridos",
+    "examples": [
+      "O marido dela é médico."
+    ],
+    "indefinite_article": "um"
+  },
+  "esposa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Mulher casada.",
+    "article": "a",
+    "plural": "esposas",
+    "examples": [
+      "A minha esposa trabalha no banco."
+    ],
+    "indefinite_article": "uma"
+  },
+  "vestido": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Peça de vestuário feminino de uma só peça.",
+    "article": "o",
+    "plural": "vestidos",
+    "examples": [
+      "Ela veste um vestido vermelho."
+    ],
+    "indefinite_article": "um"
+  },
+  "saia": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Peça de vestuário a partir da cintura.",
+    "article": "a",
+    "plural": "saias",
+    "examples": [
+      "Comprou uma saia azul."
+    ],
+    "indefinite_article": "uma"
+  },
+  "t-shirt": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Camisola de mangas curtas casual.",
+    "article": "a",
+    "plural": "t-shirts",
+    "examples": [
+      "Veste uma t-shirt branca."
+    ],
+    "indefinite_article": "uma"
+  },
+  "meia": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Peça de roupa para o pé e perna.",
+    "article": "a",
+    "plural": "meias",
+    "examples": [
+      "Perdeu uma meia."
+    ],
+    "indefinite_article": "uma"
+  },
+  "luva": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Peça para cobrir as mãos.",
+    "article": "a",
+    "plural": "luvas",
+    "examples": [
+      "Usa luvas de cabedal."
+    ],
+    "indefinite_article": "uma"
+  },
+  "cachecol": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Tira de lã para aquecer o pescoço.",
+    "article": "o",
+    "plural": "cachecóis",
+    "examples": [
+      "O cachecol é quente."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "cinto": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Tira para segurar as calças.",
+    "article": "o",
+    "plural": "cintos",
+    "examples": [
+      "Usa um cinto preto."
+    ],
+    "indefinite_article": "um"
+  },
+  "arroz": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Cereal de grão branco cozinhado.",
+    "article": "o",
+    "plural": "arrozes",
+    "examples": [
+      "Cozinhamos arroz de pato."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "sopa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Prato líquido quente.",
+    "article": "a",
+    "plural": "sopas",
+    "examples": [
+      "A sopa está deliciosa."
+    ],
+    "indefinite_article": "uma"
+  },
+  "salada": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Prato de vegetais frescos.",
+    "article": "a",
+    "plural": "saladas",
+    "examples": [
+      "Prepara uma salada mista."
+    ],
+    "indefinite_article": "uma"
+  },
+  "manteiga": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Gordura do leite para barrar.",
+    "article": "a",
+    "plural": "manteigas",
+    "examples": [
+      "Põe manteiga no pão."
+    ],
+    "indefinite_article": "uma"
+  },
+  "açúcar": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Substância doce para adoçar.",
+    "article": "o",
+    "plural": "açúcares",
+    "examples": [
+      "Queres açúcar no café?"
+    ],
+    "indefinite_article": "um"
+  },
+  "sal": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Tempero branco mineral.",
+    "article": "o",
+    "plural": "sais",
+    "examples": [
+      "Passa o sal, por favor."
+    ],
+    "indefinite_article": "um"
+  },
+  "pimenta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Especiaria picante.",
+    "article": "a",
+    "plural": "pimentas",
+    "examples": [
+      "Adiciona um pouco de pimenta."
+    ],
+    "indefinite_article": "uma"
+  },
+  "azeite": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Óleo comestível da azeitona.",
+    "article": "o",
+    "plural": "azeites",
+    "examples": [
+      "Usa azeite de oliva."
+    ],
+    "indefinite_article": "um"
+  },
+  "prato": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Utensílio raso para servir comida.",
+    "article": "o",
+    "plural": "pratos",
+    "examples": [
+      "Põe o prato na mesa."
+    ],
+    "indefinite_article": "um"
+  },
+  "copo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Recipiente para beber líquidos.",
+    "article": "o",
+    "plural": "copos",
+    "examples": [
+      "Um copo de água, por favor."
+    ],
+    "indefinite_article": "um"
+  },
+  "chávena": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Recipiente com asa para bebidas quentes.",
+    "article": "a",
+    "plural": "chávenas",
+    "examples": [
+      "Tomo uma chávena de café."
+    ],
+    "indefinite_article": "uma"
+  },
+  "garrafa": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Recipiente para guardar líquidos.",
+    "article": "a",
+    "plural": "garrafas",
+    "examples": [
+      "Abre uma garrafa de água."
+    ],
+    "indefinite_article": "uma"
+  },
+  "colher": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Talo côncavo para líquidos.",
+    "article": "a",
+    "plural": "colheres",
+    "examples": [
+      "Preciso de uma colher."
+    ],
+    "indefinite_article": "uma"
+  },
+  "garfo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Utensílio de mesa com dentes.",
+    "article": "o",
+    "plural": "garfos",
+    "examples": [
+      "Usa o garfo para a carne."
+    ],
+    "indefinite_article": "um"
+  },
+  "faca": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Utensílio com lâmina para cortar.",
+    "article": "a",
+    "plural": "facas",
+    "examples": [
+      "Corta o pão com a faca."
+    ],
+    "indefinite_article": "uma"
+  },
+  "cavalo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Grande mamífero equídeo.",
+    "article": "o",
+    "plural": "cavalos",
+    "examples": [
+      "Monta a cavalo."
+    ],
+    "indefinite_article": "um"
+  },
+  "vaca": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Fêmea do touro que dá leite.",
+    "article": "a",
+    "plural": "vacas",
+    "examples": [
+      "A vaca dá leite fresco."
+    ],
+    "indefinite_article": "uma"
+  },
+  "porco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Mamífero doméstico de quinta.",
+    "article": "o",
+    "plural": "porcos",
+    "examples": [
+      "O porco vive na quinta."
+    ],
+    "indefinite_article": "um"
+  },
+  "ovelha": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Mamífero que produz lã.",
+    "article": "a",
+    "plural": "ovelhas",
+    "examples": [
+      "A ovelha tem lã branca."
+    ],
+    "indefinite_article": "uma"
+  },
+  "frango": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Carne de ave ou frango jovem.",
+    "article": "o",
+    "plural": "frangos",
+    "examples": [
+      "Comemos frango assado."
+    ],
+    "indefinite_article": "um"
+  },
+  "pato": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Ave aquática de bico largo.",
+    "article": "o",
+    "plural": "patos",
+    "examples": [
+      "O pato nada no lago."
+    ],
+    "indefinite_article": "um"
+  },
+  "coelho": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pequeno mamífero de orelhas compridas.",
+    "article": "o",
+    "plural": "coelhos",
+    "examples": [
+      "O coelho salta no jardim."
+    ],
+    "indefinite_article": "um"
+  },
+  "rato": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pequeno roedor de cauda longa.",
+    "article": "o",
+    "plural": "ratos",
+    "examples": [
+      "O gato persegue o rato."
+    ],
+    "indefinite_article": "um"
+  },
+  "elefante": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Grande mamífero com tromba.",
+    "article": "o",
+    "plural": "elefantes",
+    "examples": [
+      "O elefante é enorme."
+    ],
+    "indefinite_article": "um"
+  },
+  "leão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Grande felino com juba.",
+    "article": "o",
+    "plural": "leões",
+    "examples": [
+      "O leão é o rei da selva."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "urso": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Grande mamífero carnívoro.",
+    "article": "o",
+    "plural": "ursos",
+    "examples": [
+      "O urso dorme no inverno."
+    ],
+    "indefinite_article": "um"
+  },
+  "macaco": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Primate com cauda.",
+    "article": "o",
+    "plural": "macacos",
+    "examples": [
+      "O macaco come uma banana."
+    ],
+    "indefinite_article": "um"
+  },
+  "cobra": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Réptil sem patas.",
+    "article": "a",
+    "plural": "cobras",
+    "examples": [
+      "A cobra rasteja no chão."
+    ],
+    "indefinite_article": "uma"
+  },
+  "sapo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Anfíbio que dá saltos.",
+    "article": "o",
+    "plural": "sapos",
+    "examples": [
+      "O sapo salta no lago."
+    ],
+    "indefinite_article": "um"
+  },
+  "janela": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Abertura na parede para luz e ar.",
+    "article": "a",
+    "plural": "janelas",
+    "examples": [
+      "Abre a janela."
+    ],
+    "indefinite_article": "uma"
+  },
+  "parede": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Estrutura vertical que divide divisões.",
+    "article": "a",
+    "plural": "paredes",
+    "examples": [
+      "O quadro está na parede."
+    ],
+    "indefinite_article": "uma"
+  },
+  "chão": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Piso sobre o qual se anda.",
+    "article": "o",
+    "plural": "chãos",
+    "examples": [
+      "O chão está limpo."
+    ],
+    "indefinite_article": "um"
+  },
+  "teto": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Parte superior interior de uma divisão.",
+    "article": "o",
+    "plural": "tetos",
+    "examples": [
+      "O teto é alto."
+    ],
+    "indefinite_article": "um"
+  },
+  "secretária": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Mesa de trabalho com gavetas.",
+    "article": "a",
+    "plural": "secretárias",
+    "examples": [
+      "Trabalha na secretária."
+    ],
+    "indefinite_article": "uma"
+  },
+  "espelho": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Superfície que reflete imagens.",
+    "article": "o",
+    "plural": "espelhos",
+    "examples": [
+      "Olha-te ao espelho."
+    ],
+    "indefinite_article": "um"
+  },
+  "chave": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Objeto metálico para abrir fechaduras.",
+    "article": "a",
+    "plural": "chaves",
+    "examples": [
+      "Tenho a chave de casa."
+    ],
+    "indefinite_article": "uma"
+  },
+  "vila": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Povoação pequena.",
+    "article": "a",
+    "plural": "vilas",
+    "examples": [
+      "Mora numa vila bonita."
+    ],
+    "indefinite_article": "uma"
+  },
+  "país": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Território soberano nacional.",
+    "article": "o",
+    "plural": "países",
+    "examples": [
+      "Portugal é um país bonito."
+    ],
+    "indefinite_article": "um"
+  },
+  "tempo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Duração dos acontecimentos ou clima.",
+    "article": "o",
+    "plural": "tempos",
+    "examples": [
+      "Como está o tempo hoje?"
+    ],
+    "indefinite_article": "um"
+  },
+  "chuva": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Água que cai das nuvens.",
+    "article": "a",
+    "plural": "chuvas",
+    "examples": [
+      "A chuva cai suavemente."
+    ],
+    "indefinite_article": "uma"
+  },
+  "neve": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Água congelada em flocos.",
+    "article": "a",
+    "plural": "neves",
+    "examples": [
+      "A neve cobre a montanha."
+    ],
+    "indefinite_article": "uma"
+  },
+  "vento": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Ar em movimento.",
+    "article": "o",
+    "plural": "ventos",
+    "examples": [
+      "O vento sopra forte."
+    ],
+    "indefinite_article": "um"
+  },
+  "nuvem": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Massa de vapor de água no céu.",
+    "article": "a",
+    "plural": "nuvens",
+    "examples": [
+      "Há nuvens no céu."
+    ],
+    "indefinite_article": "uma",
+    "irregular": true
+  },
+  "céu": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Espaço visível acima da Terra.",
+    "article": "o",
+    "plural": "céus",
+    "examples": [
+      "O céu está limpo."
+    ],
+    "indefinite_article": "um"
+  },
+  "estrela": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Corpo celeste brilhante na noite.",
+    "article": "a",
+    "plural": "estrelas",
+    "examples": [
+      "As estrelas brilham muito."
+    ],
+    "indefinite_article": "uma"
+  },
+  "lua": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Satélite natural da Terra.",
+    "article": "a",
+    "plural": "luas",
+    "examples": [
+      "A lua está cheia."
+    ],
+    "indefinite_article": "uma"
+  },
+  "floresta": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Grande terreno com árvores.",
+    "article": "a",
+    "plural": "florestas",
+    "examples": [
+      "Caminhamos pela floresta."
+    ],
+    "indefinite_article": "uma"
+  },
+  "parque": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Espaço verde público.",
+    "article": "o",
+    "plural": "parques",
+    "examples": [
+      "As crianças brincam no parque."
+    ],
+    "indefinite_article": "um"
+  },
+  "mundo": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Conjunto do nosso planeta e humanidade.",
+    "article": "o",
+    "plural": "mundos",
+    "examples": [
+      "Viaja por todo o mundo."
+    ],
+    "indefinite_article": "um"
+  },
+  "terra": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Planeta Terra ou solo.",
+    "article": "a",
+    "plural": "terras",
+    "examples": [
+      "A Terra gira à volta do sol."
+    ],
+    "indefinite_article": "uma"
+  },
+  "escola": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Lugar de ensino para crianças.",
+    "article": "a",
+    "plural": "escolas",
+    "examples": [
+      "As crianças vão para a escola."
+    ],
+    "indefinite_article": "uma"
+  },
+  "universidade": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Instituição de ensino superior.",
+    "article": "a",
+    "plural": "universidades",
+    "examples": [
+      "Estuda na universidade."
+    ],
+    "indefinite_article": "uma"
+  },
+  "loja": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Estabelecimento comercial.",
+    "article": "a",
+    "plural": "lojas",
+    "examples": [
+      "A loja abre às nove."
+    ],
+    "indefinite_article": "uma"
+  },
+  "supermercado": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Grande loja de alimentos.",
+    "article": "o",
+    "plural": "supermercados",
+    "examples": [
+      "Compramos no supermercado."
+    ],
+    "indefinite_article": "um"
+  },
+  "mercado": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Local de venda de produtos frescos.",
+    "article": "o",
+    "plural": "mercados",
+    "examples": [
+      "O mercado vende fruta fresca."
+    ],
+    "indefinite_article": "um"
+  },
+  "escritório": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Local de trabalho administrativo.",
+    "article": "o",
+    "plural": "escritórios",
+    "examples": [
+      "Trabalha num escritório grande."
+    ],
+    "indefinite_article": "um"
+  },
+  "hospital": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Estabelecimento de saúde.",
+    "article": "o",
+    "plural": "hospitais",
+    "examples": [
+      "O médico está no hospital."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "cinema": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Sala de exibição de filmes.",
+    "article": "o",
+    "plural": "cinemas",
+    "examples": [
+      "Vamos ao cinema no sábado."
+    ],
+    "indefinite_article": "um"
+  },
+  "teatro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Local de representação dramática.",
+    "article": "o",
+    "plural": "teatros",
+    "examples": [
+      "Vemos uma peça no teatro."
+    ],
+    "indefinite_article": "um"
+  },
+  "museu": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Local de exposição de arte.",
+    "article": "o",
+    "plural": "museus",
+    "examples": [
+      "Visitamos o museu de arte."
+    ],
+    "indefinite_article": "um"
+  },
+  "igreja": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Templo do culto cristão.",
+    "article": "a",
+    "plural": "igrejas",
+    "examples": [
+      "A igreja fica no centro."
+    ],
+    "indefinite_article": "uma"
+  },
+  "ponte": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Construção para passar sobre um rio.",
+    "article": "a",
+    "plural": "pontes",
+    "examples": [
+      "Atravessamos a ponte."
+    ],
+    "indefinite_article": "uma"
+  },
+  "carro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Veículo automóvel.",
+    "article": "o",
+    "plural": "carros",
+    "examples": [
+      "Conduz um carro novo."
+    ],
+    "indefinite_article": "um"
+  },
+  "táxi": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Carro de aluguer com condutor.",
+    "article": "o",
+    "plural": "táxis",
+    "examples": [
+      "Apanhamos um táxi."
+    ],
+    "indefinite_article": "um"
+  },
+  "bilhete": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Documento de passagem.",
+    "article": "o",
+    "plural": "bilhetes",
+    "examples": [
+      "Compro um bilhete de comboio."
+    ],
+    "indefinite_article": "um"
+  },
+  "professor": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pessoa que ensina.",
+    "article": "o",
+    "plural": "professores",
+    "examples": [
+      "O professor explica a aula."
+    ],
+    "indefinite_article": "um"
+  },
+  "estudante": {
+    "gender": "Masculino / Feminino",
+    "level": "A1",
+    "definition": "Pessoa que estuda.",
+    "article": "o",
+    "plural": "estudantes",
+    "examples": [
+      "O estudante lê o livro."
+    ],
+    "indefinite_article": "um / uma"
+  },
+  "aula": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Lição escolar ou divisão.",
+    "article": "a",
+    "plural": "aulas",
+    "examples": [
+      "A aula começa às nove."
+    ],
+    "indefinite_article": "uma"
+  },
+  "médico": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Profissional de medicina.",
+    "article": "o",
+    "plural": "médicos",
+    "examples": [
+      "O médico examina o doente."
+    ],
+    "indefinite_article": "um"
+  },
+  "enfermeiro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Profissional de enfermagem.",
+    "article": "o",
+    "plural": "enfermeiros",
+    "examples": [
+      "O enfermeiro ajuda o médico."
+    ],
+    "indefinite_article": "um"
+  },
+  "empregado": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Trabalhador de um restaurante ou loja.",
+    "article": "o",
+    "plural": "empregados",
+    "examples": [
+      "O empregado traz a conta."
+    ],
+    "indefinite_article": "um"
+  },
+  "cozinheiro": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Pessoa que prepara comida.",
+    "article": "o",
+    "plural": "cozinheiros",
+    "examples": [
+      "O cozinheiro prepara o jantar."
+    ],
+    "indefinite_article": "um"
+  },
+  "computador": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Máquina eletrónica de trabalho.",
+    "article": "o",
+    "plural": "computadores",
+    "examples": [
+      "Trabalha no computador."
+    ],
+    "indefinite_article": "um",
+    "irregular": true
+  },
+  "telefone": {
+    "gender": "Masculino",
+    "level": "A1",
+    "definition": "Aparelho de comunicação.",
+    "article": "o",
+    "plural": "telefones",
+    "examples": [
+      "O telefone está a tocar."
+    ],
+    "indefinite_article": "um"
+  },
+  "mensagem": {
+    "gender": "Feminino",
+    "level": "A1",
+    "definition": "Texto curto enviado a alguém.",
+    "article": "a",
+    "plural": "mensagens",
+    "examples": [
+      "Envio uma mensagem."
+    ],
+    "indefinite_article": "uma",
+    "irregular": true
   }
 }
