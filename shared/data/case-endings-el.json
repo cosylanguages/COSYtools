@@ -1,0 +1,66 @@
+{
+  "language": "el",
+  "language_name": "Greek",
+  "cases": [
+    {
+      "id": "nom",
+      "name": "Ονομαστική (Nominative)",
+      "question": "Ποιος; Ποια; Ποιο;",
+      "usage": "Subject of the sentence.",
+      "articles": { "masculine": "ο / οι", "feminine": "η / οι", "neuter": "το / τα" },
+      "endings": {
+        "masculine": { "singular": "-ος / -ας / -ης", "plural": "-οι / -ες / -ες" },
+        "feminine": { "singular": "-α / -η / -ος", "plural": "-ες / -ες / -οι" },
+        "neuter": { "singular": "-ο / -ι / -μα", "plural": "-α / -ια / -ματα" }
+      },
+      "examples": [
+        { "sentence": "Ο μαθητής διαβάζει.", "translation": "The student is studying.", "highlight": "Ο μαθητής" }
+      ]
+    },
+    {
+      "id": "gen",
+      "name": "Γενική (Genitive)",
+      "question": "Ποιανού; Ποιας;",
+      "usage": "Possession, relationship, indirect object, post-prepositional complements.",
+      "articles": { "masculine": "του / των", "feminine": "της / των", "neuter": "του / των" },
+      "endings": {
+        "masculine": { "singular": "-ου / -α / -η", "plural": "-ων" },
+        "feminine": { "singular": "-ας / -ης / -ου", "plural": "-ων" },
+        "neuter": { "singular": "-ου / -ιου / -ματος", "plural": "-ων / -ιων / -ματων" }
+      },
+      "examples": [
+        { "sentence": "Το βιβλίο του καθηγητή.", "translation": "The professor's book.", "highlight": "του καθηγητή" }
+      ]
+    },
+    {
+      "id": "acc",
+      "name": "Αιτιατική (Accusative)",
+      "question": "Ποιον; Ποια; Ποιο;",
+      "usage": "Direct object, object of prepositions (σε, με, για, από...).",
+      "articles": { "masculine": "τον / τους", "feminine": "τη(ν) / τις", "neuter": "το / τα" },
+      "endings": {
+        "masculine": { "singular": "-ο / -α / -η", "plural": "-ους / -ες / -ες" },
+        "feminine": { "singular": "-α / -η / -ο", "plural": "-ες / -ες / -ους" },
+        "neuter": { "singular": "-ο / -ι / -μα", "plural": "-α / -ια / -ματα" }
+      },
+      "examples": [
+        { "sentence": "Βλέπω τον φίλο μου.", "translation": "I see my friend.", "highlight": "τον φίλο" }
+      ]
+    },
+    {
+      "id": "voc",
+      "name": "Κλητική (Vocative)",
+      "question": "—",
+      "usage": "Addressing someone directly.",
+      "articles": { "masculine": "—", "feminine": "—", "neuter": "—" },
+      "endings": {
+        "masculine": { "singular": "-ε / -α / -η", "plural": "-οι / -ες / -ες" },
+        "feminine": { "singular": "-α / -η", "plural": "-ες" },
+        "neuter": { "singular": "-ο / -ι", "plural": "-α / -ια" }
+      },
+      "examples": [
+        { "sentence": "Καλημέρα, Νίκο!", "translation": "Good morning, Nikos!", "highlight": "Νίκο" }
+      ]
+    }
+  ]
+}

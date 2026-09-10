@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verb Patterns Reference 🔄 | COSYtools</title>
+    <meta name="description" content="Reference guide for verb pattern groups, root vowel shifts, aspectual pairs, and stem changes.">
+    <link rel="icon" href="../shared/images/cosylanguages.png">
+    <link rel="stylesheet" href="../shared/styles/reference.css">
+    <script src="../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Verb Patterns</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../index.html">Hub</a>
+            <a href="../conjugation/template.html">Conjugation</a>
+            <a href="../gender/index.html">Gender</a>
+            <a href="../cases/index.html">Cases</a>
+            <a href="../prepositions/index.html">Prepositions</a>
+            <a href="../practice/index.html">Practice</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero">
+        <h1>Verb Pattern Classification Guide</h1>
+        <p>Master verbs faster by learning pattern groups rather than memorizing individual verbs in isolation.</p>
+    </div>
+
+    <main style="max-width:1000px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Filter Pills for Language -->
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin-bottom:2rem;">
+            <button class="vbtn active" onclick="filterPatternLang('all', this)">All Languages</button>
+            <button class="vbtn" onclick="filterPatternLang('en', this)">🇬🇧 English</button>
+            <button class="vbtn" onclick="filterPatternLang('fr', this)">🇫🇷 French</button>
+            <button class="vbtn" onclick="filterPatternLang('it', this)">🇮🇹 Italian</button>
+            <button class="vbtn" onclick="filterPatternLang('ru', this)">🇷🇺 Russian</button>
+            <button class="vbtn" onclick="filterPatternLang('el', this)">🇬🇷 Greek</button>
+        </div>
+
+        <div id="patterns-container">
+
+            <!-- English Pattern Cards -->
+            <div class="ref-practice-box pattern-card" data-lang="en">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇬🇧 English: Pattern Group 1 — No Change (V1 = V2 = V3)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">25+ Verbs</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Base form, Past Simple, and Past Participle remain identical.</p>
+                <div class="ref-table-container">
+                    <table class="ref-table">
+                        <thead><tr><th>Base Form (V1)</th><th>Past Simple (V2)</th><th>Past Participle (V3)</th><th>Meaning</th></tr></thead>
+                        <tbody>
+                            <tr><td>cut</td><td>cut</td><td>cut</td><td>to divide with a sharp tool</td></tr>
+                            <tr><td>put</td><td>put</td><td>put</td><td>to place somewhere</td></tr>
+                            <tr><td>set</td><td>set</td><td>set</td><td>to adjust / establish</td></tr>
+                            <tr><td>cost</td><td>cost</td><td>cost</td><td>to require payment</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="ref-practice-box pattern-card" data-lang="en">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇬🇧 English: Pattern Group 2 — Vowel Shift (i -> a -> u)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">15+ Verbs</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Predictable vowel transition from 'i' in V1 to 'a' in V2 to 'u' in V3.</p>
+                <div class="ref-table-container">
+                    <table class="ref-table">
+                        <thead><tr><th>Base Form (V1)</th><th>Past Simple (V2)</th><th>Past Participle (V3)</th><th>Meaning</th></tr></thead>
+                        <tbody>
+                            <tr><td>sing</td><td>sang</td><td>sung</td><td>to make musical sounds with voice</td></tr>
+                            <tr><td>swim</td><td>swam</td><td>swum</td><td>to move through water</td></tr>
+                            <tr><td>drink</td><td>drank</td><td>drunk</td><td>to swallow liquids</td></tr>
+                            <tr><td>begin</td><td>began</td><td>begun</td><td>to start something</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- French Pattern Cards -->
+            <div class="ref-practice-box pattern-card" data-lang="fr">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇫🇷 French: 1st Conjugation (-er verbs)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">Regular (90% of verbs)</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Standard present endings: -e, -es, -e, -ons, -ez, -ent.</p>
+                <p><em>Examples: parler, aimer, chanter, regarder, danser.</em></p>
+            </div>
+
+            <!-- Italian Pattern Cards -->
+            <div class="ref-practice-box pattern-card" data-lang="it">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇮🇹 Italian: -isc- Inchoative Verbs (-ire)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">30+ Verbs</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Insert -isc- in singular and 3rd person plural present indicative.</p>
+                <p><em>Examples: finire (finisco), capire (capisco), preferire (preferisco).</em></p>
+            </div>
+
+            <!-- Russian Pattern Cards -->
+            <div class="ref-practice-box pattern-card" data-lang="ru">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇷🇺 Russian: Aspectual Pairs (НСВ / СВ)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">Systemic Feature</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Imperfective (process/habit) vs Perfective (completed result).</p>
+                <p><em>Examples: читать / прочитать, делать / сделать, писать / написать.</em></p>
+            </div>
+
+            <!-- Greek Pattern Cards -->
+            <div class="ref-practice-box pattern-card" data-lang="el">
+                <div style="display:flex; align-items:center; justify-content:space-between;">
+                    <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">🇬🇷 Greek: Contracted Verbs Class A (-άω / -ώ)</h3>
+                    <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">40+ Verbs</span>
+                </div>
+                <p style="margin:0.5rem 0 1rem 0; color:var(--ref-text-muted);">Aorist (past simple) stem shifts with -ησ- affix.</p>
+                <p><em>Examples: μιλώ (μίλησα), αγαπώ (αγάπησα), απαντώ (απάντησα).</em></p>
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:2rem;">
+            <a href="../practice/index.html" class="ref-btn">⚡ Practice Verb Patterns on Quick Drills</a>
+        </div>
+
+    </main>
+
+    <script>
+        function filterPatternLang(lang, btn) {
+            document.querySelectorAll('.vbtn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const cards = document.querySelectorAll('.pattern-card');
+            cards.forEach(card => {
+                if (lang === 'all' || card.getAttribute('data-lang') === lang) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

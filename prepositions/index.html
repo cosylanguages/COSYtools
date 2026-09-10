@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preposition Rules & Regimes 📍 | COSYtools</title>
+    <meta name="description" content="Dependent prepositions, prepositional regimes, and case governing rules for English, French, Italian, Russian, and Greek.">
+    <link rel="icon" href="../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../shared/styles/reference.css">
+    <script src="../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Preposition Rules</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../index.html">Hub</a>
+            <a href="../conjugation/template.html">Conjugation</a>
+            <a href="../gender/index.html">Gender</a>
+            <a href="../cases/index.html">Cases</a>
+            <a href="../practice/index.html">Practice</a>
+            <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Courses ↗</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1>Preposition Rules &amp; Verb Regimes</h1>
+        <p>Master dependent prepositions and case requirements after verbs, nouns, and adjectives across 5 languages.</p>
+
+        <!-- Search & Filter -->
+        <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; max-width:700px; margin: 0 auto 1.5rem auto;">
+            <div style="flex:1; min-width:240px; position:relative;">
+                <input type="text" id="prep-search-input" class="ref-search-input" placeholder="Search for verb or preposition (e.g. depend, parler, pensare)..." oninput="onPrepSearchChange()">
+            </div>
+            <select id="prep-lang-selector" onchange="onPrepLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
+                <option value="en" selected>🇬🇧 English</option>
+                <option value="fr">🇫🇷 French</option>
+                <option value="it">🇮🇹 Italian</option>
+                <option value="ru">🇷🇺 Russian</option>
+                <option value="el">🇬🇷 Greek</option>
+            </select>
+        </div>
+    </div>
+
+    <main style="max-width:1000px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Rules Display Container -->
+        <div id="prep-rules-container">
+            <!-- Rules cards generated dynamically -->
+        </div>
+
+        <div style="text-align:center; margin-top:2rem;">
+            <a href="../practice/index.html" class="ref-btn">⚡ Practice Prepositions on Quick Drills</a>
+        </div>
+
+    </main>
+
+    <script>
+        let allPrepData = null;
+
+        async function initPrepRules() {
+            try {
+                allPrepData = await COSYReferenceUtils.loadData('../shared/data/preposition-rules.json');
+                renderPrepRules();
+            } catch (e) {
+                console.error('Failed loading preposition rules data', e);
+            }
+        }
+
+        function renderPrepRules() {
+            if (!allPrepData) return;
+            const lang = document.getElementById('prep-lang-selector').value;
+            const query = document.getElementById('prep-search-input').value.trim().toLowerCase();
+
+            const items = allPrepData[lang] || [];
+            const filtered = items.filter(item => {
+                if (!query) return true;
+                return item.verb.toLowerCase().includes(query) ||
+                       item.preposition.toLowerCase().includes(query) ||
+                       (item.grammar_rule && item.grammar_rule.toLowerCase().includes(query));
+            });
+
+            const container = document.getElementById('prep-rules-container');
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="ref-practice-box" style="text-align:center;">
+                        <h3>No matching preposition rules found</h3>
+                        <p style="color:var(--ref-text-muted)">Try adjusting your search query or selecting another language.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filtered.map(item => `
+                <div class="ref-practice-box">
+                    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+                        <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.5rem;">
+                            ${item.verb} + <span style="color:var(--accent);">${item.preposition}</span>
+                        </h3>
+                        <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">
+                            CEFR ${item.level || 'A2'}
+                        </span>
+                    </div>
+                    <p style="margin:0 0 0.75rem 0; color:var(--ref-text);">
+                        <strong>Grammar Rule:</strong> ${item.grammar_rule}
+                    </p>
+                    ${item.common_mistake ? `<p style="margin:0 0 0.75rem 0; color:#9d174d; background:#fce7f3; padding:0.5rem 0.75rem; border-radius:8px; font-size:0.9rem;"><strong>⚠️ Common Mistake:</strong> ${item.common_mistake}</p>` : ''}
+                    <div style="background:var(--paper-bg); padding:0.85rem 1rem; border-radius:10px; border:1px solid var(--ref-border);">
+                        <strong>Examples:</strong>
+                        ${(item.examples || []).map(ex => `<p style="margin:0.25rem 0;">💬 "${ex.sentence}" — <em>${ex.translation}</em></p>`).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function onPrepSearchChange() {
+            const val = document.getElementById('prep-search-input').value;
+            const detected = COSYReferenceUtils.detectLanguage(val);
+            if (['en', 'fr', 'it', 'ru', 'el'].includes(detected)) {
+                document.getElementById('prep-lang-selector').value = detected;
+            }
+            renderPrepRules();
+        }
+
+        function onPrepLangChange() {
+            renderPrepRules();
+        }
+
+        window.addEventListener('DOMContentLoaded', initPrepRules);
+    </script>
+</body>
+</html>

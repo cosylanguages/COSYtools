@@ -1,0 +1,4987 @@
+{
+  "άνθρωπος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Το ανθρώπινο ον.",
+    "antonyms": [
+      "ζώο"
+    ],
+    "cases": {
+      "nom_sing": "ο άνθρωπος",
+      "gen_sing": "του ανθρώπου",
+      "acc_sing": "τον άνθρωπο",
+      "voc_sing": "άνθρωπε",
+      "nom_plur": "οι άνθρωποι",
+      "gen_plur": "των ανθρώπων",
+      "acc_plur": "τους ανθρώπους",
+      "voc_plur": "άνθρωποι"
+    },
+    "irregular": false
+  },
+  "φίλος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Πρόσωπο συνδεδεμένο με φιλία.",
+    "antonyms": [
+      "εχθρός"
+    ],
+    "cases": {
+      "nom_sing": "ο φίλος",
+      "gen_sing": "του φίλου",
+      "acc_sing": "τον φίλο",
+      "voc_sing": "φίλε",
+      "nom_plur": "οι φίλοι",
+      "gen_plur": "των φίλων",
+      "acc_plur": "τους φίλους",
+      "voc_plur": "φίλοι"
+    },
+    "irregular": false
+  },
+  "εχθρός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Πρόσωπο που τρέφει εχθρότητα.",
+    "antonyms": [
+      "φίλος"
+    ],
+    "cases": {
+      "nom_sing": "ο εχθρός",
+      "gen_sing": "του εχθρού",
+      "acc_sing": "τον εχθρό",
+      "voc_sing": "εχθρέ",
+      "nom_plur": "οι εχθροί",
+      "gen_plur": "των εχθρών",
+      "acc_plur": "τους εχθρούς",
+      "voc_plur": "εχθροί"
+    },
+    "irregular": false
+  },
+  "αδελφός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Αρσενικό τέκνο των ίδιων γονέων.",
+    "antonyms": [
+      "αδελφή"
+    ],
+    "cases": {
+      "nom_sing": "ο αδελφός",
+      "gen_sing": "του αδελφού",
+      "acc_sing": "τον αδελφό",
+      "voc_sing": "αδελφέ",
+      "nom_plur": "οι αδελφοί",
+      "gen_plur": "των αδελφών",
+      "acc_plur": "τους αδελφούς",
+      "voc_plur": "αδελφοί"
+    },
+    "irregular": false
+  },
+  "πατέρας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο γονέας αρσενικού γένους.",
+    "antonyms": [
+      "μητέρα"
+    ],
+    "cases": {
+      "nom_sing": "ο πατέρας",
+      "gen_sing": "του πατέρα",
+      "acc_sing": "τον πατέρα",
+      "voc_sing": "πατέρα",
+      "nom_plur": "οι πατέρες",
+      "gen_plur": "των πατέρων",
+      "acc_plur": "τους πατέρες",
+      "voc_plur": "πατέρες"
+    },
+    "irregular": false
+  },
+  "άνδρας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ενήλικο πρόσωπο αρσενικού γένους.",
+    "antonyms": [
+      "γυναίκα"
+    ],
+    "cases": {
+      "nom_sing": "ο άνδρας",
+      "gen_sing": "του άνδρα",
+      "acc_sing": "τον άνδρα",
+      "voc_sing": "άνδρα",
+      "nom_plur": "οι άνδρες",
+      "gen_plur": "των ανδρών",
+      "acc_plur": "τους άνδρες",
+      "voc_plur": "άνδρες"
+    },
+    "irregular": false
+  },
+  "μαθητής": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Πρόσωπο που διδάσκεται σε σχολείο.",
+    "antonyms": [
+      "δάσκαλος"
+    ],
+    "cases": {
+      "nom_sing": "ο μαθητής",
+      "gen_sing": "του μαθητή",
+      "acc_sing": "τον μαθητή",
+      "voc_sing": "μαθητή",
+      "nom_plur": "οι μαθητές",
+      "gen_plur": "των μαθητών",
+      "acc_plur": "τους μαθητές",
+      "voc_plur": "μαθητές"
+    },
+    "irregular": false
+  },
+  "δάσκαλος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Πρόσωπο που διδάσκει παιδιά.",
+    "antonyms": [
+      "μαθητής"
+    ],
+    "cases": {
+      "nom_sing": "ο δάσκαλος",
+      "gen_sing": "του δασκάλου",
+      "acc_sing": "τον δάσκαλο",
+      "voc_sing": "δάσκαλε",
+      "nom_plur": "οι δάσκαλοι",
+      "gen_plur": "των δασκάλων",
+      "acc_plur": "τους δασκάλους",
+      "voc_plur": "δάσκαλοι"
+    },
+    "irregular": false
+  },
+  "γιατρός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Επιστήμονας που θεραπεύει ασθενείς.",
+    "antonyms": [
+      "ασθενής"
+    ],
+    "cases": {
+      "nom_sing": "ο γιατρός",
+      "gen_sing": "του γιατρού",
+      "acc_sing": "τον γιατρό",
+      "voc_sing": "γιατρέ",
+      "nom_plur": "οι γιατροί",
+      "gen_plur": "των γιατρών",
+      "acc_plur": "τους γιατρούς",
+      "voc_plur": "γιατροί"
+    },
+    "irregular": false
+  },
+  "ήλιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Το άστρο του ηλιακού μας συστήματος.",
+    "antonyms": [
+      "σελήνη"
+    ],
+    "cases": {
+      "nom_sing": "ο ήλιος",
+      "gen_sing": "του ήλιου",
+      "acc_sing": "τον ήλιο",
+      "voc_sing": "ήλιε",
+      "nom_plur": "οι ήλιοι",
+      "gen_plur": "των ήλιων",
+      "acc_plur": "τους ήλιους",
+      "voc_plur": "ήλιοι"
+    },
+    "irregular": false
+  },
+  "ουρανός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο ορατός χώρος πάνω από τη γη.",
+    "antonyms": [
+      "γη"
+    ],
+    "cases": {
+      "nom_sing": "ο ουρανός",
+      "gen_sing": "του ουρανού",
+      "acc_sing": "τον ουρανό",
+      "voc_sing": "ουρανέ",
+      "nom_plur": "οι ουρανοί",
+      "gen_plur": "των ουρανών",
+      "acc_plur": "τους ουρανούς",
+      "voc_plur": "ουρανοί"
+    },
+    "irregular": false
+  },
+  "καιρός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Οι ατμοσφαιρικές συνθήκες.",
+    "antonyms": [
+      "κλίμα"
+    ],
+    "cases": {
+      "nom_sing": "ο καιρός",
+      "gen_sing": "του καιρού",
+      "acc_sing": "τον καιρό",
+      "voc_sing": "καιρέ",
+      "nom_plur": "οι καιροί",
+      "gen_plur": "των καιρών",
+      "acc_plur": "τους καιρούς",
+      "voc_plur": "καιροί"
+    },
+    "irregular": false
+  },
+  "δρόμος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Χώρος μετακίνησης οχημάτων.",
+    "antonyms": [
+      "πεζοδρόμιο"
+    ],
+    "cases": {
+      "nom_sing": "ο δρόμος",
+      "gen_sing": "του δρόμου",
+      "acc_sing": "τον δρόμο",
+      "voc_sing": "δρόμε",
+      "nom_plur": "οι δρόμοι",
+      "gen_plur": "των δρόμων",
+      "acc_plur": "τους δρόμους",
+      "voc_plur": "δρόμοι"
+    },
+    "irregular": false
+  },
+  "κήπος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Έκταση με φυτά και λουλούδια.",
+    "antonyms": [
+      "σπίτι"
+    ],
+    "cases": {
+      "nom_sing": "ο κήπος",
+      "gen_sing": "του κήπου",
+      "acc_sing": "τον κήπο",
+      "voc_sing": "κήπε",
+      "nom_plur": "οι κήποι",
+      "gen_plur": "των κήπων",
+      "acc_plur": "τους κήπους",
+      "voc_plur": "κήποι"
+    },
+    "irregular": false
+  },
+  "τοίχος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Κατακόρυφη κατασκευή κτιρίου.",
+    "antonyms": [
+      "πόρτα"
+    ],
+    "cases": {
+      "nom_sing": "ο τοίχος",
+      "gen_sing": "του τοίχου",
+      "acc_sing": "τον τοίχο",
+      "voc_sing": "τοίχε",
+      "nom_plur": "οι τοίχοι",
+      "gen_plur": "των τοίχων",
+      "acc_plur": "τους τοίχους",
+      "voc_plur": "τοίχοι"
+    },
+    "irregular": false
+  },
+  "υπολογιστής": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ηλεκτρονική συσκευή επεξεργασίας.",
+    "antonyms": [
+      "χαρτί"
+    ],
+    "cases": {
+      "nom_sing": "ο υπολογιστής",
+      "gen_sing": "του υπολογιστή",
+      "acc_sing": "τον υπολογιστή",
+      "voc_sing": "υπολογιστή",
+      "nom_plur": "οι υπολογιστές",
+      "gen_plur": "των υπολογιστών",
+      "acc_plur": "τους υπολογιστές",
+      "voc_plur": "υπολογιστές"
+    },
+    "irregular": false
+  },
+  "σταθμός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Σημείο στάσης μέσων μεταφοράς.",
+    "antonyms": [
+      "δρόμος"
+    ],
+    "cases": {
+      "nom_sing": "ο σταθμός",
+      "gen_sing": "του σταθμού",
+      "acc_sing": "τον σταθμό",
+      "voc_sing": "σταθμέ",
+      "nom_plur": "οι σταθμοί",
+      "gen_plur": "των σταθμών",
+      "acc_plur": "τους σταθμούς",
+      "voc_plur": "σταθμοί"
+    },
+    "irregular": false
+  },
+  "μήνας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Διάστημα 30 ημερών.",
+    "antonyms": [
+      "έτος"
+    ],
+    "cases": {
+      "nom_sing": "ο μήνας",
+      "gen_sing": "του μήνα",
+      "acc_sing": "τον μήνα",
+      "voc_sing": "μήνα",
+      "nom_plur": "οι μήνες",
+      "gen_plur": "των μηνών",
+      "acc_plur": "τους μήνες",
+      "voc_plur": "μήνες"
+    },
+    "irregular": false
+  },
+  "αγώνας": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Αθλητική ή άλλη προσπάθεια.",
+    "antonyms": [
+      "ειρήνη"
+    ],
+    "cases": {
+      "nom_sing": "ο αγώνας",
+      "gen_sing": "του αγώνα",
+      "acc_sing": "τον αγώνα",
+      "voc_sing": "αγώνα",
+      "nom_plur": "οι αγώνες",
+      "gen_plur": "των αγώνων",
+      "acc_plur": "τους αγώνες",
+      "voc_plur": "αγώνες"
+    },
+    "irregular": false
+  },
+  "σκύλος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Κατοικίδιο τετράποδο ζώο.",
+    "antonyms": [
+      "γάτα"
+    ],
+    "cases": {
+      "nom_sing": "ο σκύλος",
+      "gen_sing": "του σκύλου",
+      "acc_sing": "τον σκύλο",
+      "voc_sing": "σκύλε",
+      "nom_plur": "οι σκύλοι",
+      "gen_plur": "των σκύλων",
+      "acc_plur": "τους σκύλους",
+      "voc_plur": "σκύλοι"
+    },
+    "irregular": false
+  },
+  "καφές": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ρόφημα από καβουρδισμένους κόκκους.",
+    "antonyms": [
+      "τσάι"
+    ],
+    "cases": {
+      "nom_sing": "ο καφές",
+      "gen_sing": "του καφέ",
+      "acc_sing": "τον καφέ",
+      "voc_sing": "καφέ",
+      "nom_plur": "οι καφέδες",
+      "gen_plur": "των καφέδων",
+      "acc_plur": "τους καφέδες",
+      "voc_plur": "καφέδες"
+    },
+    "irregular": false
+  },
+  "αέρας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Το αέριο περίβλημα της γης.",
+    "antonyms": [
+      "νερό"
+    ],
+    "cases": {
+      "nom_sing": "ο αέρας",
+      "gen_sing": "του αέρα",
+      "acc_sing": "τον αέρα",
+      "voc_sing": "αέρα",
+      "nom_plur": "οι αέρες",
+      "gen_plur": "των αέρων",
+      "acc_plur": "τους αέρες",
+      "voc_plur": "αέρες"
+    },
+    "irregular": false
+  },
+  "αριθμός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Μαθηματικό σύμβολο ποσότητας.",
+    "antonyms": [
+      "γράμμα"
+    ],
+    "cases": {
+      "nom_sing": "ο αριθμός",
+      "gen_sing": "του αριθμού",
+      "acc_sing": "τον αριθμό",
+      "voc_sing": "αριθμέ",
+      "nom_plur": "οι αριθμοί",
+      "gen_plur": "των αριθμών",
+      "acc_plur": "τους αριθμούς",
+      "voc_plur": "αριθμοί"
+    },
+    "irregular": false
+  },
+  "τομέας": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Εξειδικευμένο πεδίο δραστηριότητας.",
+    "antonyms": [
+      "σύνολο"
+    ],
+    "cases": {
+      "nom_sing": "ο τομέας",
+      "gen_sing": "του τομέα",
+      "acc_sing": "τον τομέα",
+      "voc_sing": "τομέα",
+      "nom_plur": "οι τομείς",
+      "gen_plur": "των τομέων",
+      "acc_plur": "τους τομείς",
+      "voc_plur": "τομείς"
+    },
+    "irregular": false
+  },
+  "αρχηγός": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Ο επικεφαλής μιας ομάδας.",
+    "antonyms": [
+      "υπήκοος"
+    ],
+    "cases": {
+      "nom_sing": "ο αρχηγός",
+      "gen_sing": "του αρχηγού",
+      "acc_sing": "τον αρχηγό",
+      "voc_sing": "αρχηγέ",
+      "nom_plur": "οι αρχηγοί",
+      "gen_plur": "των αρχηγών",
+      "acc_plur": "τους αρχηγούς",
+      "voc_plur": "αρχηγοί"
+    },
+    "irregular": false
+  },
+  "λόγος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Αιτία ή ομιλία.",
+    "antonyms": [
+      "έργο"
+    ],
+    "cases": {
+      "nom_sing": "ο λόγος",
+      "gen_sing": "του λόγου",
+      "acc_sing": "τον λόγο",
+      "voc_sing": "λόγε",
+      "nom_plur": "οι λόγοι",
+      "gen_plur": "των λόγων",
+      "acc_plur": "τους λόγους",
+      "voc_plur": "λόγοι"
+    },
+    "irregular": false
+  },
+  "νόμος": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Κανόνας δικαίου της πολιτείας.",
+    "antonyms": [
+      "αναρχία"
+    ],
+    "cases": {
+      "nom_sing": "ο νόμος",
+      "gen_sing": "του νόμου",
+      "acc_sing": "τον νόμο",
+      "voc_sing": "νόμε",
+      "nom_plur": "οι νόμοι",
+      "gen_plur": "των νόμων",
+      "acc_plur": "τους νόμους",
+      "voc_plur": "νόμοι"
+    },
+    "irregular": false
+  },
+  "τρόπος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Mέθοδος ή μορφή ενέργειας.",
+    "antonyms": [
+      "αποτέλεσμα"
+    ],
+    "cases": {
+      "nom_sing": "ο τρόπος",
+      "gen_sing": "του τρόπου",
+      "acc_sing": "τον τρόπο",
+      "voc_sing": "τρόπε",
+      "nom_plur": "οι τρόποι",
+      "gen_plur": "των τρόπων",
+      "acc_plur": "τους τρόπους",
+      "voc_plur": "τρόποι"
+    },
+    "irregular": false
+  },
+  "τόπος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Γεωγραφική περιοχή ή σημείο.",
+    "antonyms": [
+      "χρόνος"
+    ],
+    "cases": {
+      "nom_sing": "ο τόπος",
+      "gen_sing": "του τόπου",
+      "acc_sing": "τον τόπο",
+      "voc_sing": "τόπε",
+      "nom_plur": "οι τόποι",
+      "gen_plur": "των τόπων",
+      "acc_plur": "τους τόπους",
+      "voc_plur": "τόποι"
+    },
+    "irregular": false
+  },
+  "πόλεμος": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Ένοπλη σύγκρουση κρατών.",
+    "antonyms": [
+      "ειρήνη"
+    ],
+    "cases": {
+      "nom_sing": "ο πόλεμος",
+      "gen_sing": "του πολέμου",
+      "acc_sing": "τον πόλεμο",
+      "voc_sing": "πόλεμε",
+      "nom_plur": "οι πόλεμοι",
+      "gen_plur": "των πολέμων",
+      "acc_plur": "τους πόλεμους",
+      "voc_plur": "πόλεμοι"
+    },
+    "irregular": false
+  },
+  "κόσμος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Η ανθρωπότητα ή το σύμπαν.",
+    "antonyms": [
+      "ερημιά"
+    ],
+    "cases": {
+      "nom_sing": "ο κόσμος",
+      "gen_sing": "του κόσμου",
+      "acc_sing": "τον κόσμο",
+      "voc_sing": "κόσμε",
+      "nom_plur": "οι κόσμοι",
+      "gen_plur": "των κόσμων",
+      "acc_plur": "τους κόσμους",
+      "voc_plur": "κόσμοι"
+    },
+    "irregular": false
+  },
+  "υπουργός": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Μέλος της κυβέρνησης.",
+    "antonyms": [
+      "πολίτης"
+    ],
+    "cases": {
+      "nom_sing": "ο υπουργός",
+      "gen_sing": "του υπουργού",
+      "acc_sing": "τον υπουργό",
+      "voc_sing": "υπουργέ",
+      "nom_plur": "οι υπουργοί",
+      "gen_plur": "των υπουργών",
+      "acc_plur": "τους υπουργούς",
+      "voc_plur": "υπουργοί"
+    },
+    "irregular": false
+  },
+  "σεισμός": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Φυσικό φαινόμενο δόνησης της γης.",
+    "antonyms": [
+      "νηνεμία"
+    ],
+    "cases": {
+      "nom_sing": "ο σεισμός",
+      "gen_sing": "του σεισμού",
+      "acc_sing": "τον σεισμό",
+      "voc_sing": "σεισμέ",
+      "nom_plur": "οι σεισμοί",
+      "gen_plur": "των σεισμών",
+      "acc_plur": "τους σεισμούς",
+      "voc_plur": "σεισμοί"
+    },
+    "irregular": false
+  },
+  "γυναίκα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ενήλικο θηλυκό πρόσωπο.",
+    "antonyms": [
+      "άνδρας"
+    ],
+    "cases": {
+      "nom_sing": "η γυναίκα",
+      "gen_sing": "της γυναίκας",
+      "acc_sing": "τη γυναίκα",
+      "voc_sing": "γυναίκα",
+      "nom_plur": "οι γυναίκες",
+      "gen_plur": "των γυναικών",
+      "acc_plur": "τις γυναίκες",
+      "voc_plur": "γυναίκες"
+    },
+    "irregular": false
+  },
+  "μητέρα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Η γονέας θηλυκού γένους.",
+    "antonyms": [
+      "πατέρας"
+    ],
+    "cases": {
+      "nom_sing": "η μητέρα",
+      "gen_sing": "της μητέρας",
+      "acc_sing": "τη μητέρα",
+      "voc_sing": "μητέρα",
+      "nom_plur": "οι μητέρες",
+      "gen_plur": "των μητέρων",
+      "acc_plur": "τις μητέρες",
+      "voc_plur": "μητέρες"
+    },
+    "irregular": false
+  },
+  "αδελφή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Θηλυκό τέκνο των ίδιων γονέων.",
+    "antonyms": [
+      "αδελφός"
+    ],
+    "cases": {
+      "nom_sing": "η αδελφή",
+      "gen_sing": "της αδελφής",
+      "acc_sing": "την αδελφή",
+      "voc_sing": "αδελφή",
+      "nom_plur": "οι αδελφές",
+      "gen_plur": "των αδελφών",
+      "acc_plur": "τις αδελφές",
+      "voc_plur": "αδελφές"
+    },
+    "irregular": false
+  },
+  "κόρη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Θηλυκό τέκνο γονέα.",
+    "antonyms": [
+      "γιος"
+    ],
+    "cases": {
+      "nom_sing": "η κόρη",
+      "gen_sing": "της κόρης",
+      "acc_sing": "την κόρη",
+      "voc_sing": "κόρη",
+      "nom_plur": "οι κόρες",
+      "gen_plur": "των κορών",
+      "acc_plur": "τις κόρες",
+      "voc_plur": "κόρες"
+    },
+    "irregular": false
+  },
+  "πόλη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μεγάλος οικισμός ανθρώπων.",
+    "antonyms": [
+      "χωριό"
+    ],
+    "cases": {
+      "nom_sing": "η πόλη",
+      "gen_sing": "της πόλης",
+      "acc_sing": "την πόλη",
+      "voc_sing": "πόλη",
+      "nom_plur": "οι πόλεις",
+      "gen_plur": "των πόλεων",
+      "acc_plur": "τις πόλεις",
+      "voc_plur": "πόλεις"
+    },
+    "irregular": false
+  },
+  "θάλασσα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μεγάλη έκταση αλμυρού νερού.",
+    "antonyms": [
+      "ξηρά"
+    ],
+    "cases": {
+      "nom_sing": "η θάλασσα",
+      "gen_sing": "της θάλασσας",
+      "acc_sing": "τη θάλασσα",
+      "voc_sing": "θάλασσα",
+      "nom_plur": "οι θάλασσες",
+      "gen_plur": "των θαλασσών",
+      "acc_plur": "τις θάλασσες",
+      "voc_plur": "θάλασσες"
+    },
+    "irregular": false
+  },
+  "γη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ο πλανήτης μας ή το έδαφος.",
+    "antonyms": [
+      "ουρανός"
+    ],
+    "cases": {
+      "nom_sing": "η γη",
+      "gen_sing": "της γης",
+      "acc_sing": "τη γη",
+      "voc_sing": "γη",
+      "nom_plur": "οι γαίες",
+      "gen_plur": "των γαιών",
+      "acc_plur": "τις γαίες",
+      "voc_plur": "γαίες"
+    },
+    "irregular": true
+  },
+  "ημέρα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Χρονικό διάστημα από την ανατολή ως τη δύση.",
+    "antonyms": [
+      "νύχτα"
+    ],
+    "cases": {
+      "nom_sing": "η ημέρα",
+      "gen_sing": "της ημέρας",
+      "acc_sing": "την ημέρα",
+      "voc_sing": "ημέρα",
+      "nom_plur": "οι ημέρες",
+      "gen_plur": "των ημερών",
+      "acc_plur": "τις ημέρες",
+      "voc_plur": "ημέρες"
+    },
+    "irregular": false
+  },
+  "νύχτα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Το σκοτεινό διάστημα του εικοσιτετραώρου.",
+    "antonyms": [
+      "ημέρα"
+    ],
+    "cases": {
+      "nom_sing": "η νύχτα",
+      "gen_sing": "της νύχτας",
+      "acc_sing": "τη νύχτα",
+      "voc_sing": "νύχτα",
+      "nom_plur": "οι νύχτες",
+      "gen_plur": "των νυχτών",
+      "acc_plur": "τις νύχτες",
+      "voc_plur": "νύχτες"
+    },
+    "irregular": false
+  },
+  "ώρα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μονάδα μέτρησης χρόνου (60 λεπτά).",
+    "antonyms": [
+      "λεπτό"
+    ],
+    "cases": {
+      "nom_sing": "η ώρα",
+      "gen_sing": "της ώρας",
+      "acc_sing": "την ώρα",
+      "voc_sing": "ώρα",
+      "nom_plur": "οι ώρες",
+      "gen_plur": "των ωρών",
+      "acc_plur": "τις ώρες",
+      "voc_plur": "ώρες"
+    },
+    "irregular": true
+  },
+  "ζωή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Η κατάσταση των ζωντανών οργανισμών.",
+    "antonyms": [
+      "θάνατος"
+    ],
+    "cases": {
+      "nom_sing": "η ζωή",
+      "gen_sing": "της ζωής",
+      "acc_sing": "τη ζωή",
+      "voc_sing": "ζωή",
+      "nom_plur": "οι ζωές",
+      "gen_plur": "των ζωών",
+      "acc_plur": "τις ζωές",
+      "voc_plur": "ζωές"
+    },
+    "irregular": true
+  },
+  "αγάπη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Έντονο συναίσθημα αφοσίωσης.",
+    "antonyms": [
+      "μίσος"
+    ],
+    "cases": {
+      "nom_sing": "η αγάπη",
+      "gen_sing": "της αγάπης",
+      "acc_sing": "την αγάπη",
+      "voc_sing": "αγάπη",
+      "nom_plur": "οι αγάπες",
+      "gen_plur": "των αγαπών",
+      "acc_plur": "τις αγάπες",
+      "voc_plur": "αγάπες"
+    },
+    "irregular": false
+  },
+  "ειρήνη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Κατάσταση απουσίας πολέμου.",
+    "antonyms": [
+      "πόλεμος"
+    ],
+    "cases": {
+      "nom_sing": "η ειρήνη",
+      "gen_sing": "της ειρήνης",
+      "acc_sing": "την ειρήνη",
+      "voc_sing": "ειρήνη",
+      "nom_plur": "οι ειρήνες",
+      "gen_plur": "των ειρηνών",
+      "acc_plur": "τις ειρήνες",
+      "voc_plur": "ειρήνες"
+    },
+    "irregular": false
+  },
+  "αλήθεια": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Η πραγματική κατάσταση πραγμάτων.",
+    "antonyms": [
+      "ψέμα"
+    ],
+    "cases": {
+      "nom_sing": "η αλήθεια",
+      "gen_sing": "της αλήθειας",
+      "acc_sing": "την αλήθεια",
+      "voc_sing": "αλήθεια",
+      "nom_plur": "οι αλήθειες",
+      "gen_plur": "των αληθειών",
+      "acc_plur": "τις αλήθειες",
+      "voc_plur": "αλήθειες"
+    },
+    "irregular": false
+  },
+  "καρδιά": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Το όργανο κυκλοφορίας του αίματος.",
+    "antonyms": [
+      "μυαλό"
+    ],
+    "cases": {
+      "nom_sing": "η καρδιά",
+      "gen_sing": "της καρδιάς",
+      "acc_sing": "την καρδιά",
+      "voc_sing": "καρδιά",
+      "nom_plur": "οι καρδιές",
+      "gen_plur": "των καρδιών",
+      "acc_plur": "τις καρδιές",
+      "voc_plur": "καρδιές"
+    },
+    "irregular": false
+  },
+  "ψυχή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Το άυλο μέρος του ανθρώπου.",
+    "antonyms": [
+      "σώμα"
+    ],
+    "cases": {
+      "nom_sing": "η ψυχή",
+      "gen_sing": "της ψυχής",
+      "acc_sing": "την ψυχή",
+      "voc_sing": "ψυχή",
+      "nom_plur": "οι ψυχές",
+      "gen_plur": "των ψυχών",
+      "acc_plur": "τις ψυχές",
+      "voc_plur": "ψυχές"
+    },
+    "irregular": false
+  },
+  "φωνή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ο ήχος που παράγεται από τις φωνητικές χορδές.",
+    "antonyms": [
+      "σιωπή"
+    ],
+    "cases": {
+      "nom_sing": "η φωνή",
+      "gen_sing": "της φωνής",
+      "acc_sing": "τη φωνή",
+      "voc_sing": "φωνή",
+      "nom_plur": "οι φωνές",
+      "gen_plur": "των φωνών",
+      "acc_plur": "τις φωνές",
+      "voc_plur": "φωνές"
+    },
+    "irregular": false
+  },
+  "σιωπή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Απουσία ήχου ή ομιλίας.",
+    "antonyms": [
+      "φωνή"
+    ],
+    "cases": {
+      "nom_sing": "η σιωπή",
+      "gen_sing": "της σιωπής",
+      "acc_sing": "τη σιωπή",
+      "voc_sing": "σιωπή",
+      "nom_plur": "οι σιωπές",
+      "gen_plur": "των σιωπών",
+      "acc_plur": "τις σιωπές",
+      "voc_plur": "σιωπές"
+    },
+    "irregular": false
+  },
+  "αρχή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Το πρώτο σημείο μιας ενέργειας.",
+    "antonyms": [
+      "τέλος"
+    ],
+    "cases": {
+      "nom_sing": "η αρχή",
+      "gen_sing": "της αρχής",
+      "acc_sing": "την αρχή",
+      "voc_sing": "αρχή",
+      "nom_plur": "οι αρχές",
+      "gen_plur": "των αρχών",
+      "acc_plur": "τις αρχές",
+      "voc_plur": "αρχές"
+    },
+    "irregular": false
+  },
+  "τέχνη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Δημιουργική έκφραση αισθητικής.",
+    "antonyms": [
+      "επιστήμη"
+    ],
+    "cases": {
+      "nom_sing": "η τέχνη",
+      "gen_sing": "της τέχνης",
+      "acc_sing": "την τέχνη",
+      "voc_sing": "τέχνη",
+      "nom_plur": "οι τέχνες",
+      "gen_plur": "των τεχνών",
+      "acc_plur": "τις τέχνες",
+      "voc_plur": "τέχνες"
+    },
+    "irregular": false
+  },
+  "φύση": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ο φυσικός κόσμος και τα πλάσματα.",
+    "antonyms": [
+      "πολιτισμός"
+    ],
+    "cases": {
+      "nom_sing": "η φύση",
+      "gen_sing": "της φύσης",
+      "acc_sing": "τη φύση",
+      "voc_sing": "φύση",
+      "nom_plur": "οι φύσεις",
+      "gen_plur": "των φύσεων",
+      "acc_plur": "τις φύσεις",
+      "voc_plur": "φύσεις"
+    },
+    "irregular": false
+  },
+  "επιστήμη": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Συστηματική γνώση του κόσμου.",
+    "antonyms": [
+      "άγνοια"
+    ],
+    "cases": {
+      "nom_sing": "η επιστήμη",
+      "gen_sing": "της επιστήμης",
+      "acc_sing": "την επιστήμη",
+      "voc_sing": "επιστήμη",
+      "nom_plur": "οι επιστήμες",
+      "gen_plur": "των επιστημών",
+      "acc_plur": "τις επιστήμες",
+      "voc_plur": "επιστήμες"
+    },
+    "irregular": false
+  },
+  "ελευθερία": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Η δυνατότητα αυτόνομης επιλογής.",
+    "antonyms": [
+      "δουλεία"
+    ],
+    "cases": {
+      "nom_sing": "η ελευθερία",
+      "gen_sing": "της ελευθερίας",
+      "acc_sing": "την ελευθερία",
+      "voc_sing": "ελευθερία",
+      "nom_plur": "οι ελευθερίες",
+      "gen_plur": "των ελευθεριών",
+      "acc_plur": "τις ελευθερίες",
+      "voc_plur": "ελευθερίες"
+    },
+    "irregular": false
+  },
+  "δικαιοσύνη": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Η απόδοση του ορθού και δίκαιου.",
+    "antonyms": [
+      "αδικία"
+    ],
+    "cases": {
+      "nom_sing": "η δικαιοσύνη",
+      "gen_sing": "της δικαιοσύνης",
+      "acc_sing": "τη δικαιοσύνη",
+      "voc_sing": "δικαιοσύνη",
+      "nom_plur": "οι δικαιοσύνες",
+      "gen_plur": "των δικαιοσυνών",
+      "acc_plur": "τις δικαιοσύνες",
+      "voc_plur": "δικαιοσύνες"
+    },
+    "irregular": false
+  },
+  "οικογένεια": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ομάδα συγγενών προσώπων.",
+    "antonyms": [
+      "μοναξιά"
+    ],
+    "cases": {
+      "nom_sing": "η οικογένεια",
+      "gen_sing": "της οικογένειας",
+      "acc_sing": "την οικογένεια",
+      "voc_sing": "οικογένεια",
+      "nom_plur": "οι οικογένειες",
+      "gen_plur": "των οικογενειών",
+      "acc_plur": "τις οικογένειες",
+      "voc_plur": "οικογένειες"
+    },
+    "irregular": false
+  },
+  "επαναστάτρια": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Πρόσωπο που επαναστατεί.",
+    "antonyms": [
+      "υπήκοος"
+    ],
+    "cases": {
+      "nom_sing": "η επαναστάτρια",
+      "gen_sing": "της επαναστάτριας",
+      "acc_sing": "την επαναστάτρια",
+      "voc_sing": "επαναστάτρια",
+      "nom_plur": "οι επαναστάτριες",
+      "gen_plur": "των επαναστατριών",
+      "acc_plur": "τις επαναστάτριες",
+      "voc_plur": "επαναστάτριες"
+    },
+    "irregular": false
+  },
+  "εξουσία": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Το δικαίωμα ή η δύναμη διακυβέρνησης.",
+    "antonyms": [
+      "υποταγή"
+    ],
+    "cases": {
+      "nom_sing": "η εξουσία",
+      "gen_sing": "της εξουσίας",
+      "acc_sing": "την εξουσία",
+      "voc_sing": "εξουσία",
+      "nom_plur": "οι εξουσίες",
+      "gen_plur": "των εξουσιών",
+      "acc_plur": "τις εξουσίες",
+      "voc_plur": "εξουσίες"
+    },
+    "irregular": false
+  },
+  "ιδέα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Σύλληψη του νου.",
+    "antonyms": [
+      "πράξη"
+    ],
+    "cases": {
+      "nom_sing": "η ιδέα",
+      "gen_sing": "της ιδέας",
+      "acc_sing": "την ιδέα",
+      "voc_sing": "ιδέα",
+      "nom_plur": "οι ιδέες",
+      "gen_plur": "των ιδεών",
+      "acc_plur": "τις ιδέες",
+      "voc_plur": "ιδέες"
+    },
+    "irregular": false
+  },
+  "αποστολή": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Ανατεθειμένο έργο.",
+    "antonyms": [
+      "αδράνεια"
+    ],
+    "cases": {
+      "nom_sing": "η αποστολή",
+      "gen_sing": "της αποστολής",
+      "acc_sing": "την αποστολή",
+      "voc_sing": "αποστολή",
+      "nom_plur": "οι αποστολές",
+      "gen_plur": "των αποστολών",
+      "acc_plur": "τις αποστολές",
+      "voc_plur": "αποστολές"
+    },
+    "irregular": false
+  },
+  "ευθύνη": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Η υποχρέωση λογοδοσίας.",
+    "antonyms": [
+      "ανευθυνότητα"
+    ],
+    "cases": {
+      "nom_sing": "η ευθύνη",
+      "gen_sing": "της ευθύνης",
+      "acc_sing": "την ευθύνη",
+      "voc_sing": "ευθύνη",
+      "nom_plur": "οι ευθύνες",
+      "gen_plur": "των ευθυνών",
+      "acc_plur": "τις ευθύνες",
+      "voc_plur": "ευθύνες"
+    },
+    "irregular": false
+  },
+  "ελπίδα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Προσδοκία θετικού αποτελέσματος.",
+    "antonyms": [
+      "απελπισία"
+    ],
+    "cases": {
+      "nom_sing": "η ελπίδα",
+      "gen_sing": "της ελπίδας",
+      "acc_sing": "την ελπίδα",
+      "voc_sing": "ελπίδα",
+      "nom_plur": "οι ελπίδες",
+      "gen_plur": "των ελπίδων",
+      "acc_plur": "τις ελπίδες",
+      "voc_plur": "ελπίδες"
+    },
+    "irregular": false
+  },
+  "χαρά": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Συναίσθημα ευτυχίας.",
+    "antonyms": [
+      "λύπη"
+    ],
+    "cases": {
+      "nom_sing": "η χαρά",
+      "gen_sing": "της χαράς",
+      "acc_sing": "τη χαρά",
+      "voc_sing": "χαρά",
+      "nom_plur": "οι χαρές",
+      "gen_plur": "των χαρών",
+      "acc_plur": "τις χαρές",
+      "voc_plur": "χαρές"
+    },
+    "irregular": false
+  },
+  "λύπη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Συναίσθημα στενοχώριας.",
+    "antonyms": [
+      "χαρά"
+    ],
+    "cases": {
+      "nom_sing": "η λύπη",
+      "gen_sing": "της λύπης",
+      "acc_sing": "τη λύπη",
+      "voc_sing": "λύπη",
+      "nom_plur": "οι λύπες",
+      "gen_plur": "των λυπών",
+      "acc_plur": "τις λύπες",
+      "voc_plur": "λύπες"
+    },
+    "irregular": false
+  },
+  "νίκη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Επιτυχία σε αγώνα ή πόλεμο.",
+    "antonyms": [
+      "ήττα"
+    ],
+    "cases": {
+      "nom_sing": "η νίκη",
+      "gen_sing": "της νίκης",
+      "acc_sing": "τη νίκη",
+      "voc_sing": "νίκη",
+      "nom_plur": "οι νίκες",
+      "gen_plur": "των νικών",
+      "acc_plur": "τις νίκες",
+      "voc_plur": "νίκες"
+    },
+    "irregular": false
+  },
+  "σπίτι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Κτίριο κατοικίας ανθρώπων.",
+    "antonyms": [
+      "δρόμος"
+    ],
+    "cases": {
+      "nom_sing": "το σπίτι",
+      "gen_sing": "του σπιτιού",
+      "acc_sing": "το σπίτι",
+      "voc_sing": "σπίτι",
+      "nom_plur": "τα σπίτια",
+      "gen_plur": "των σπιτιών",
+      "acc_plur": "τα σπίτια",
+      "voc_plur": "σπίτια"
+    },
+    "irregular": false
+  },
+  "παιδί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Νεαρό ανθρώπινο ον.",
+    "antonyms": [
+      "γέρος"
+    ],
+    "cases": {
+      "nom_sing": "το παιδί",
+      "gen_sing": "του παιδιού",
+      "acc_sing": "το παιδί",
+      "voc_sing": "παιδί",
+      "nom_plur": "τα παιδιά",
+      "gen_plur": "των παιδιών",
+      "acc_plur": "τα παιδιά",
+      "voc_plur": "παιδιά"
+    },
+    "irregular": false
+  },
+  "βιβλίο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Έντυπο με σελίδες και κείμενο.",
+    "antonyms": [
+      "περιοδικό"
+    ],
+    "cases": {
+      "nom_sing": "το βιβλίο",
+      "gen_sing": "του βιβλίου",
+      "acc_sing": "το βιβλίο",
+      "voc_sing": "βιβλίο",
+      "nom_plur": "τα βιβλία",
+      "gen_plur": "των βιβλίων",
+      "acc_plur": "τα βιβλία",
+      "voc_plur": "βιβλία"
+    },
+    "irregular": false
+  },
+  "σχολείο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ίδρυμα εκπαίδευσης.",
+    "antonyms": [
+      "σπίτι"
+    ],
+    "cases": {
+      "nom_sing": "το σχολείο",
+      "gen_sing": "του σχολείου",
+      "acc_sing": "το σχολείο",
+      "voc_sing": "σχολείο",
+      "nom_plur": "τα σχολεία",
+      "gen_plur": "των σχολείων",
+      "acc_plur": "τα σχολεία",
+      "voc_plur": "σχολεία"
+    },
+    "irregular": false
+  },
+  "νερό": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Υγρό απαραίτητο για τη ζωή.",
+    "antonyms": [
+      "φωτιά"
+    ],
+    "cases": {
+      "nom_sing": "το νερό",
+      "gen_sing": "του νερού",
+      "acc_sing": "το νερό",
+      "voc_sing": "νερό",
+      "nom_plur": "τα νερά",
+      "gen_plur": "των νερών",
+      "acc_plur": "τα νερά",
+      "voc_plur": "νερά"
+    },
+    "irregular": false
+  },
+  "ψωμί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Βασική τροφή από αλεύρι.",
+    "antonyms": [
+      "νερό"
+    ],
+    "cases": {
+      "nom_sing": "το ψωμί",
+      "gen_sing": "του ψωμιού",
+      "acc_sing": "το ψωμί",
+      "voc_sing": "ψωμί",
+      "nom_plur": "τα ψωμιά",
+      "gen_plur": "των ψωμιών",
+      "acc_plur": "τα ψωμιά",
+      "voc_plur": "ψωμιά"
+    },
+    "irregular": false
+  },
+  "δέντρο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ψηλό φυτό με ξύλινο κορμό.",
+    "antonyms": [
+      "χόρτο"
+    ],
+    "cases": {
+      "nom_sing": "το δέντρο",
+      "gen_sing": "του δέντρου",
+      "acc_sing": "το δέντρο",
+      "voc_sing": "δέντρο",
+      "nom_plur": "τα δέντρα",
+      "gen_plur": "των δέντρων",
+      "acc_plur": "τα δέντρα",
+      "voc_plur": "δέντρα"
+    },
+    "irregular": false
+  },
+  "λουλούδι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Έγχρωμο μέρος φυτού.",
+    "antonyms": [
+      "αγκάθι"
+    ],
+    "cases": {
+      "nom_sing": "το λουλούδι",
+      "gen_sing": "του λουλουδιού",
+      "acc_sing": "το λουλούδι",
+      "voc_sing": "λουλούδι",
+      "nom_plur": "τα λουλούδια",
+      "gen_plur": "των λουλουδιών",
+      "acc_plur": "τα λουλούδια",
+      "voc_plur": "λουλούδια"
+    },
+    "irregular": false
+  },
+  "αυτοκίνητο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Τροχοφόρο όχημα μεταφοράς.",
+    "antonyms": [
+      "πεζός"
+    ],
+    "cases": {
+      "nom_sing": "το αυτοκίνητο",
+      "gen_sing": "του αυτοκινήτου",
+      "acc_sing": "το αυτοκίνητο",
+      "voc_sing": "αυτοκίνητο",
+      "nom_plur": "τα αυτοκίνητα",
+      "gen_plur": "των αυτοκινήτων",
+      "acc_plur": "τα αυτοκίνητα",
+      "voc_plur": "αυτοκίνητα"
+    },
+    "irregular": false
+  },
+  "τρένο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Σιδηροδρομικό όχημα.",
+    "antonyms": [
+      "αεροπλάνο"
+    ],
+    "cases": {
+      "nom_sing": "το τρένο",
+      "gen_sing": "του τρένου",
+      "acc_sing": "το τρένο",
+      "voc_sing": "τρένο",
+      "nom_plur": "τα τρένα",
+      "gen_plur": "των τρένων",
+      "acc_plur": "τα τρένα",
+      "voc_plur": "τρένα"
+    },
+    "irregular": false
+  },
+  "αεροπλάνο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Εναέριο μεταφορικό μέσο.",
+    "antonyms": [
+      "πλοίο"
+    ],
+    "cases": {
+      "nom_sing": "το αεροπλάνο",
+      "gen_sing": "του αεροπλάνου",
+      "acc_sing": "το αεροπλάνο",
+      "voc_sing": "αεροπλάνο",
+      "nom_plur": "τα αεροπλάνα",
+      "gen_plur": "των αεροπλάνων",
+      "acc_plur": "τα αεροπλάνα",
+      "voc_plur": "αεροπλάνα"
+    },
+    "irregular": false
+  },
+  "πλοίο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Θαλάσσιο μεταφορικό μέσο.",
+    "antonyms": [
+      "αεροπλάνο"
+    ],
+    "cases": {
+      "nom_sing": "το πλοίο",
+      "gen_sing": "του πλοίου",
+      "acc_sing": "το πλοίο",
+      "voc_sing": "πλοίο",
+      "nom_plur": "τα πλοία",
+      "gen_plur": "των πλοίων",
+      "acc_plur": "τα πλοία",
+      "voc_plur": "πλοία"
+    },
+    "irregular": false
+  },
+  "γράμμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Σύμβολο αλφαβήτου ή επιστολή.",
+    "antonyms": [
+      "αριθμός"
+    ],
+    "cases": {
+      "nom_sing": "το γράμμα",
+      "gen_sing": "του γράμματος",
+      "acc_sing": "το γράμμα",
+      "voc_sing": "γράμμα",
+      "nom_plur": "τα γράμματα",
+      "gen_plur": "των γραμμάτων",
+      "acc_plur": "τα γράμματα",
+      "voc_plur": "γράμματα"
+    },
+    "irregular": false
+  },
+  "όνομα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η ονομασία ενός προσώπου.",
+    "antonyms": [
+      "επώνυμο"
+    ],
+    "cases": {
+      "nom_sing": "το όνομα",
+      "gen_sing": "του ονόματος",
+      "acc_sing": "το όνομα",
+      "voc_sing": "όνομα",
+      "nom_plur": "τα ονόματα",
+      "gen_plur": "των ονομάτων",
+      "acc_plur": "τα ονόματα",
+      "voc_plur": "ονόματα"
+    },
+    "irregular": false
+  },
+  "πράγμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Άψυχο αντικείμενο.",
+    "antonyms": [
+      "πρόσωπο"
+    ],
+    "cases": {
+      "nom_sing": "το πράγμα",
+      "gen_sing": "του πράγματος",
+      "acc_sing": "το πράγμα",
+      "voc_sing": "πράγμα",
+      "nom_plur": "τα πράγματα",
+      "gen_plur": "των πραγμάτων",
+      "acc_plur": "τα πράγματα",
+      "voc_plur": "πράγματα"
+    },
+    "irregular": false
+  },
+  "σώμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η υλική υπόσταση ανθρώπου.",
+    "antonyms": [
+      "ψυχή"
+    ],
+    "cases": {
+      "nom_sing": "το σώμα",
+      "gen_sing": "του σώματος",
+      "acc_sing": "το σώμα",
+      "voc_sing": "σώμα",
+      "nom_plur": "τα σώματα",
+      "gen_plur": "των σωμάτων",
+      "acc_plur": "τα σώματα",
+      "voc_plur": "σώματα"
+    },
+    "irregular": false
+  },
+  "φως": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η ακτινοβολία που κάνει τα πράγματα ορατά.",
+    "antonyms": [
+      "σκότος"
+    ],
+    "cases": {
+      "nom_sing": "το φως",
+      "gen_sing": "του φωτός",
+      "acc_sing": "το φως",
+      "voc_sing": "φως",
+      "nom_plur": "τα φώτα",
+      "gen_plur": "των φώτων",
+      "acc_plur": "τα φώτα",
+      "voc_plur": "φώτα"
+    },
+    "irregular": true
+  },
+  "σκότος": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Η απουσία φωτός.",
+    "antonyms": [
+      "φως"
+    ],
+    "cases": {
+      "nom_sing": "το σκότος",
+      "gen_sing": "του σκότους",
+      "acc_sing": "το σκότος",
+      "voc_sing": "σκότος",
+      "nom_plur": "τα σκότη",
+      "gen_plur": "των σκοτών",
+      "acc_plur": "τα σκότη",
+      "voc_plur": "σκότη"
+    },
+    "irregular": false
+  },
+  "τέλος": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το σημείο ολοκλήρωσης.",
+    "antonyms": [
+      "αρχή"
+    ],
+    "cases": {
+      "nom_sing": "το τέλος",
+      "gen_sing": "του τέλους",
+      "acc_sing": "το τέλος",
+      "voc_sing": "τέλος",
+      "nom_plur": "τα τέλη",
+      "gen_plur": "των τελών",
+      "acc_plur": "τα τέλη",
+      "voc_plur": "τέλη"
+    },
+    "irregular": false
+  },
+  "μέρος": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Τμήμα ενός συνόλου.",
+    "antonyms": [
+      "όλον"
+    ],
+    "cases": {
+      "nom_sing": "το μέρος",
+      "gen_sing": "του μέρους",
+      "acc_sing": "το μέρος",
+      "voc_sing": "μέρος",
+      "nom_plur": "τα μέρη",
+      "gen_plur": "των μερών",
+      "acc_plur": "τα μέρη",
+      "voc_plur": "μέρη"
+    },
+    "irregular": false
+  },
+  "έτος": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Χρονική περίοδος 365 ημερών.",
+    "antonyms": [
+      "μήνας"
+    ],
+    "cases": {
+      "nom_sing": "το έτος",
+      "gen_sing": "του έτους",
+      "acc_sing": "το έτος",
+      "voc_sing": "έτος",
+      "nom_plur": "τα έτη",
+      "gen_plur": "των ετών",
+      "acc_plur": "τα έτη",
+      "voc_plur": "έτη"
+    },
+    "irregular": true
+  },
+  "κράτος": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Πολιτικά οργανωμένη κοινωνία.",
+    "antonyms": [
+      "πολίτης"
+    ],
+    "cases": {
+      "nom_sing": "το κράτος",
+      "gen_sing": "του κράτους",
+      "acc_sing": "το κράτος",
+      "voc_sing": "κράτος",
+      "nom_plur": "τα κράτη",
+      "gen_plur": "των κρατών",
+      "acc_plur": "τα κράτη",
+      "voc_plur": "κράτη"
+    },
+    "irregular": false
+  },
+  "μέλλον": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Ο χρόνος που πρόκειται να έρθει.",
+    "antonyms": [
+      "παρελθόν"
+    ],
+    "cases": {
+      "nom_sing": "το μέλλον",
+      "gen_sing": "του μέλλοντος",
+      "acc_sing": "το μέλλον",
+      "voc_sing": "μέλλον",
+      "nom_plur": "τα μέλλοντα",
+      "gen_plur": "των μελλόντων",
+      "acc_plur": "τα μέλλοντα",
+      "voc_plur": "μέλλοντα"
+    },
+    "irregular": false
+  },
+  "παρελθόν": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Ο χρόνος που έχει ήδη περάσει.",
+    "antonyms": [
+      "μέλλον"
+    ],
+    "cases": {
+      "nom_sing": "το παρελθόν",
+      "gen_sing": "του παρελθόντος",
+      "acc_sing": "το παρελθόν",
+      "voc_sing": "παρελθόν",
+      "nom_plur": "τα παρελθόντα",
+      "gen_plur": "των παρελθόντων",
+      "acc_plur": "τα παρελθόντα",
+      "voc_plur": "παρελθόντα"
+    },
+    "irregular": false
+  },
+  "πρόσωπο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "To μπροστινό μέρος του κεφαλιού.",
+    "antonyms": [
+      "πλάτη"
+    ],
+    "cases": {
+      "nom_sing": "το πρόσωπο",
+      "gen_sing": "του προσώπου",
+      "acc_sing": "το πρόσωπο",
+      "voc_sing": "πρόσωπο",
+      "nom_plur": "τα πρόσωπα",
+      "gen_plur": "των προσώπων",
+      "acc_plur": "τα πρόσωπα",
+      "voc_plur": "πρόσωπα"
+    },
+    "irregular": false
+  },
+  "χέρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το άνω άκρο του ανθρώπου.",
+    "antonyms": [
+      "πόδι"
+    ],
+    "cases": {
+      "nom_sing": "το χέρι",
+      "gen_sing": "του χεριού",
+      "acc_sing": "το χέρι",
+      "voc_sing": "χέρι",
+      "nom_plur": "τα χέρια",
+      "gen_plur": "των χεριών",
+      "acc_plur": "τα χέρια",
+      "voc_plur": "χέρια"
+    },
+    "irregular": false
+  },
+  "πόδι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το κάτω άκρο του ανθρώπου.",
+    "antonyms": [
+      "χέρι"
+    ],
+    "cases": {
+      "nom_sing": "το πόδι",
+      "gen_sing": "του ποδιού",
+      "acc_sing": "το πόδι",
+      "voc_sing": "πόδι",
+      "nom_plur": "τα πόδια",
+      "gen_plur": "των ποδιών",
+      "acc_plur": "τα πόδια",
+      "voc_plur": "πόδια"
+    },
+    "irregular": false
+  },
+  "μάτι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το όργανο της όρασης.",
+    "antonyms": [
+      "αυτί"
+    ],
+    "cases": {
+      "nom_sing": "το μάτι",
+      "gen_sing": "του ματιού",
+      "acc_sing": "το μάτι",
+      "voc_sing": "μάτι",
+      "nom_plur": "τα μάτια",
+      "gen_plur": "των ματιών",
+      "acc_plur": "τα μάτια",
+      "voc_plur": "μάτια"
+    },
+    "irregular": false
+  },
+  "αυτί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το όργανο της ακοής.",
+    "antonyms": [
+      "μάτι"
+    ],
+    "cases": {
+      "nom_sing": "το αυτί",
+      "gen_sing": "του αυτιού",
+      "acc_sing": "το αυτί",
+      "voc_sing": "αυτί",
+      "nom_plur": "τα αυτιά",
+      "gen_plur": "των αυτιών",
+      "acc_plur": "τα αυτιά",
+      "voc_plur": "αυτιά"
+    },
+    "irregular": false
+  },
+  "στόμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το όργανο λήψης τροφής και ομιλίας.",
+    "antonyms": [
+      "μύτη"
+    ],
+    "cases": {
+      "nom_sing": "το στόμα",
+      "gen_sing": "του στόματος",
+      "acc_sing": "το στόμα",
+      "voc_sing": "στόμα",
+      "nom_plur": "τα στόματα",
+      "gen_plur": "των στομάτων",
+      "acc_plur": "τα στόματα",
+      "voc_plur": "στόματα"
+    },
+    "irregular": false
+  },
+  "τυρί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Γαλακτοκομικό προϊόν.",
+    "antonyms": [
+      "γάλα"
+    ],
+    "cases": {
+      "nom_sing": "το τυρί",
+      "gen_sing": "του τυριού",
+      "acc_sing": "το τυρί",
+      "voc_sing": "τυρί",
+      "nom_plur": "τα τυριά",
+      "gen_plur": "των τυριών",
+      "acc_plur": "τα τυριά",
+      "voc_plur": "τυριά"
+    },
+    "irregular": false
+  },
+  "γάλα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Θρεπτικό λευκό υγρό.",
+    "antonyms": [
+      "νερό"
+    ],
+    "cases": {
+      "nom_sing": "το γάλα",
+      "gen_sing": "του γάλακτος",
+      "acc_sing": "το γάλα",
+      "voc_sing": "γάλα",
+      "nom_plur": "τα γάλατα",
+      "gen_plur": "των γαλάκτων",
+      "acc_plur": "τα γάλατα",
+      "voc_plur": "γάλατα"
+    },
+    "irregular": false
+  },
+  "κρέας": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Τροφή από σάρκα ζώου.",
+    "antonyms": [
+      "λάχανο"
+    ],
+    "cases": {
+      "nom_sing": "το κρέας",
+      "gen_sing": "του κρέατος",
+      "acc_sing": "το κρέας",
+      "voc_sing": "κρέας",
+      "nom_plur": "τα κρέατα",
+      "gen_plur": "των κρεάτων",
+      "acc_plur": "τα κρέατα",
+      "voc_plur": "κρέατα"
+    },
+    "irregular": false
+  },
+  "τραπέζι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Έπιπλο με οριζόντια επιφάνεια.",
+    "antonyms": [
+      "καρέκλα"
+    ],
+    "cases": {
+      "nom_sing": "το τραπέζι",
+      "gen_sing": "του τραπεζιού",
+      "acc_sing": "το τραπέζι",
+      "voc_sing": "τραπέζι",
+      "nom_plur": "τα τραπέζια",
+      "gen_plur": "των τραπεζιών",
+      "acc_plur": "τα τραπέζια",
+      "voc_plur": "τραπέζια"
+    },
+    "irregular": false
+  },
+  "αγορά": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Χώρος εμπορίου.",
+    "antonyms": [
+      "ερημιά"
+    ],
+    "cases": {
+      "nom_sing": "η αγορά",
+      "gen_sing": "της αγοράς",
+      "acc_sing": "την αγορά",
+      "voc_sing": "αγορά",
+      "nom_plur": "οι αγορές",
+      "gen_plur": "των αγορών",
+      "acc_plur": "τις αγορές",
+      "voc_plur": "αγορές"
+    },
+    "irregular": false
+  },
+  "αγρός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Έκταση γης για καλλιέργεια.",
+    "antonyms": [
+      "πόλη"
+    ],
+    "cases": {
+      "nom_sing": "ο αγρός",
+      "gen_sing": "του αγρού",
+      "acc_sing": "τον αγρό",
+      "voc_sing": "αγρέ",
+      "nom_plur": "οι αγροί",
+      "gen_plur": "των αγρών",
+      "acc_plur": "τους αγρούς",
+      "voc_plur": "αγροί"
+    },
+    "irregular": false
+  },
+  "αίθουσα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μεγάλο δωμάτιο.",
+    "antonyms": [
+      "διάδρομος"
+    ],
+    "cases": {
+      "nom_sing": "η αίθουσα",
+      "gen_sing": "της αίθουσας",
+      "acc_sing": "την αίθουσα",
+      "voc_sing": "αίθουσα",
+      "nom_plur": "οι αίθουσες",
+      "gen_plur": "των αιθουσών",
+      "acc_plur": "τις αίθουσες",
+      "voc_plur": "αίθουσες"
+    },
+    "irregular": false
+  },
+  "άνοιξη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Η εποχή των λουλουδιών.",
+    "antonyms": [
+      "φθινόπωρο"
+    ],
+    "cases": {
+      "nom_sing": "η άνοιξη",
+      "gen_sing": "της άνοιξης",
+      "acc_sing": "την άνοιξη",
+      "voc_sing": "άνοιξη",
+      "nom_plur": "οι ανοίξεις",
+      "gen_plur": "των ανοίξεων",
+      "acc_plur": "τις ανοίξεις",
+      "voc_plur": "ανοίξεις"
+    },
+    "grammar_rule": "💡 REMEMBER: Τα ονόματα των εποχών στην ελληνική έχουν διαφορετικό γένος: η άνοιξη (θηλυκό), το καλοκαίρι (ουδέτερο), το φθινόπωρο (ουδέτερο), ο χειμώνας (αρσενικό).",
+    "irregular": false
+  },
+  "αυλή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Υπαίθριος χώρος σπιτιού.",
+    "antonyms": [
+      "σπίτι"
+    ],
+    "cases": {
+      "nom_sing": "η αυλή",
+      "gen_sing": "της αυλής",
+      "acc_sing": "την αυλή",
+      "voc_sing": "αυλή",
+      "nom_plur": "οι αυλές",
+      "gen_plur": "των αυλών",
+      "acc_plur": "τις αυλές",
+      "voc_plur": "αυλές"
+    },
+    "irregular": false
+  },
+  "βουνό": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Υψηλός ορεινός όγκος.",
+    "antonyms": [
+      "πεδιάδα"
+    ],
+    "cases": {
+      "nom_sing": "το βουνό",
+      "gen_sing": "του βουνού",
+      "acc_sing": "το βουνό",
+      "voc_sing": "βουνό",
+      "nom_plur": "τα βουνά",
+      "gen_plur": "των βουνών",
+      "acc_plur": "τα βουνά",
+      "voc_plur": "βουνά"
+    },
+    "irregular": false
+  },
+  "γλάστρα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Δοχείο για φυτά.",
+    "antonyms": [
+      "κήπος"
+    ],
+    "cases": {
+      "nom_sing": "η γλάστρα",
+      "gen_sing": "της γλάστρας",
+      "acc_sing": "τη γλάστρα",
+      "voc_sing": "γλάστρα",
+      "nom_plur": "οι γλάστρες",
+      "gen_plur": "των γλαστρών",
+      "acc_plur": "τις γλάστρες",
+      "voc_plur": "γλάστρες"
+    },
+    "irregular": false
+  },
+  "δωμάτιο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Χώρος σπιτιού.",
+    "antonyms": [
+      "αυλή"
+    ],
+    "cases": {
+      "nom_sing": "το δωμάτιο",
+      "gen_sing": "του δωματίου",
+      "acc_sing": "το δωμάτιο",
+      "voc_sing": "δωμάτιο",
+      "nom_plur": "τα δωμάτια",
+      "gen_plur": "των δωματίων",
+      "acc_plur": "τα δωμάτια",
+      "voc_plur": "δωμάτια"
+    },
+    "irregular": false
+  },
+  "εικόνα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Παράσταση προσώπου.",
+    "antonyms": [
+      "τοίχος"
+    ],
+    "cases": {
+      "nom_sing": "η εικόνα",
+      "gen_sing": "της εικόνας",
+      "acc_sing": "την εικόνα",
+      "voc_sing": "εικόνα",
+      "nom_plur": "οι εικόνες",
+      "gen_plur": "των εικόνων",
+      "acc_plur": "τις εικόνες",
+      "voc_plur": "εικόνες"
+    },
+    "irregular": false
+  },
+  "καρέκλα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Έπιπλο καθίσματος.",
+    "antonyms": [
+      "τραπέζι"
+    ],
+    "cases": {
+      "nom_sing": "η καρέκλα",
+      "gen_sing": "της καρέκλας",
+      "acc_sing": "την καρέκλα",
+      "voc_sing": "καρέκλα",
+      "nom_plur": "οι καρέκλες",
+      "gen_plur": "των καρεκλών",
+      "acc_plur": "τις καρέκλες",
+      "voc_plur": "καρέκλες"
+    },
+    "irregular": false
+  },
+  "αίμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Κόκκινο υγρό σώματος.",
+    "antonyms": [
+      "νερό"
+    ],
+    "cases": {
+      "nom_sing": "το αίμα",
+      "gen_sing": "του αίματος",
+      "acc_sing": "το αίμα",
+      "voc_sing": "αίμα",
+      "nom_plur": "τα αίματα",
+      "gen_plur": "των αιμάτων",
+      "acc_plur": "τα αίματα",
+      "voc_plur": "αίματα"
+    },
+    "irregular": false
+  },
+  "ακρογιάλι": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Παραλία.",
+    "antonyms": [
+      "βουνό"
+    ],
+    "cases": {
+      "nom_sing": "το ακρογιάλι",
+      "gen_sing": "του ακρογιαλιού",
+      "acc_sing": "το ακρογιάλι",
+      "voc_sing": "ακρογιάλι",
+      "nom_plur": "τα ακρογιάλια",
+      "gen_plur": "των ακρογιαλιών",
+      "acc_plur": "τα ακρογιάλια",
+      "voc_plur": "ακρογιάλια"
+    },
+    "irregular": false
+  },
+  "αμάξι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Αυτοκίνητο.",
+    "antonyms": [
+      "πεζός"
+    ],
+    "cases": {
+      "nom_sing": "το αμάξι",
+      "gen_sing": "του αμαξιού",
+      "acc_sing": "το αμάξι",
+      "voc_sing": "αμάξι",
+      "nom_plur": "τα αμάξια",
+      "gen_plur": "των αμαξιών",
+      "acc_plur": "τα αμάξια",
+      "voc_plur": "αμάξια"
+    },
+    "irregular": false
+  },
+  "άγγελος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ουράνιο ον.",
+    "antonyms": [
+      "δαίμονας"
+    ],
+    "cases": {
+      "nom_sing": "ο άγγελος",
+      "gen_sing": "του αγγέλου",
+      "acc_sing": "τον άγγελο",
+      "voc_sing": "άγγελε",
+      "nom_plur": "οι άγγελοι",
+      "gen_plur": "των αγγέλων",
+      "acc_plur": "τους αγγέλους",
+      "voc_plur": "άγγελοι"
+    },
+    "irregular": false
+  },
+  "άνεμος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ισχυρός αέρας.",
+    "antonyms": [
+      "νηνεμία"
+    ],
+    "cases": {
+      "nom_sing": "ο άνεμος",
+      "gen_sing": "του ανέμου",
+      "acc_sing": "τον άνεμο",
+      "voc_sing": "άνεμε",
+      "nom_plur": "οι άνεμοι",
+      "gen_plur": "των ανέμων",
+      "acc_plur": "τους ανέμους",
+      "voc_plur": "άνεμοι"
+    },
+    "irregular": false
+  },
+  "αστέρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ουράνιο σώμα.",
+    "antonyms": [
+      "ήλιος"
+    ],
+    "cases": {
+      "nom_sing": "το αστέρι",
+      "gen_sing": "του αστεριού",
+      "acc_sing": "το αστέρι",
+      "voc_sing": "αστέρι",
+      "nom_plur": "τα αστέρια",
+      "gen_plur": "των αστεριών",
+      "acc_plur": "τα αστέρια",
+      "voc_plur": "αστέρια"
+    },
+    "irregular": false
+  },
+  "βασιλιάς": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Ηγεμόνας.",
+    "antonyms": [
+      "υπήκοος"
+    ],
+    "cases": {
+      "nom_sing": "ο βασιλιάς",
+      "gen_sing": "του βασιλιά",
+      "acc_sing": "τον βασιλιά",
+      "voc_sing": "βασιλιά",
+      "nom_plur": "οι βασιλιάδες",
+      "gen_plur": "των βασιλιάδων",
+      "acc_plur": "τους βασιλιάδες",
+      "voc_plur": "βασιλιάδες"
+    },
+    "irregular": false
+  },
+  "βροχή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Νερό από τον ουρανό.",
+    "antonyms": [
+      "ξηρασία"
+    ],
+    "cases": {
+      "nom_sing": "η βροχή",
+      "gen_sing": "της βροχής",
+      "acc_sing": "τη βροχή",
+      "voc_sing": "βροχή",
+      "nom_plur": "οι βροχές",
+      "gen_plur": "των βροχών",
+      "acc_plur": "τις βροχές",
+      "voc_plur": "βροχές"
+    },
+    "irregular": false
+  },
+  "γήπεδο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Χώρος αθλητισμού.",
+    "antonyms": [
+      "σπίτι"
+    ],
+    "cases": {
+      "nom_sing": "το γήπεδο",
+      "gen_sing": "του γηπέδου",
+      "acc_sing": "το γήπεδο",
+      "voc_sing": "γήπεδο",
+      "nom_plur": "τα γήπεδα",
+      "gen_plur": "των γηπέδων",
+      "acc_plur": "τα γήπεδα",
+      "voc_plur": "γήπεδα"
+    },
+    "irregular": false
+  },
+  "γλώσσα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Όργανο λόγου ή σύστημα.",
+    "antonyms": [
+      "σιωπή"
+    ],
+    "cases": {
+      "nom_sing": "η γλώσσα",
+      "gen_sing": "της γλώσσας",
+      "acc_sing": "τη γλώσσα",
+      "voc_sing": "γλώσσα",
+      "nom_plur": "οι γλώσσες",
+      "gen_plur": "των γλωσσών",
+      "acc_plur": "τις γλώσσες",
+      "voc_plur": "γλώσσες"
+    },
+    "irregular": false
+  },
+  "δείπνο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Βραδινό φαγητό.",
+    "antonyms": [
+      "γεύμα"
+    ],
+    "cases": {
+      "nom_sing": "το δείπνο",
+      "gen_sing": "του δείπνου",
+      "acc_sing": "το δείπνο",
+      "voc_sing": "δείπνο",
+      "nom_plur": "τα δείπνα",
+      "gen_plur": "των δείπνων",
+      "acc_plur": "τα δείπνα",
+      "voc_plur": "δείπνα"
+    },
+    "irregular": false
+  },
+  "δεσποινίς": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Νεαρή γυναίκα.",
+    "antonyms": [
+      "κύριος"
+    ],
+    "cases": {
+      "nom_sing": "η δεσποινίς",
+      "gen_sing": "της δεσποινίδος",
+      "acc_sing": "την δεσποινίδα",
+      "voc_sing": "δεσποινίς",
+      "nom_plur": "οι δεσποινίδες",
+      "gen_plur": "των δεσποινίδων",
+      "acc_plur": "τις δεσποινίδες",
+      "voc_plur": "δεσποινίδες"
+    },
+    "irregular": false
+  },
+  "διαβήτης": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Όργανο σχεδίασης.",
+    "antonyms": [
+      "χάρακας"
+    ],
+    "cases": {
+      "nom_sing": "ο διαβήτης",
+      "gen_sing": "του διαβήτη",
+      "acc_sing": "τον διαβήτη",
+      "voc_sing": "διαβήτη",
+      "nom_plur": "οι διαβήτες",
+      "gen_plur": "των διαβητών",
+      "acc_plur": "τους διαβήτες",
+      "voc_plur": "διαβήτες"
+    },
+    "irregular": false
+  },
+  "δραχμή": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Νόμισμα.",
+    "antonyms": [
+      "ευρώ"
+    ],
+    "cases": {
+      "nom_sing": "η δραχμή",
+      "gen_sing": "της δραχμής",
+      "acc_sing": "τη δραχμή",
+      "voc_sing": "δραχμή",
+      "nom_plur": "οι δραχμές",
+      "gen_plur": "των δραχμών",
+      "acc_plur": "τις δραχμές",
+      "voc_plur": "δραχμές"
+    },
+    "irregular": false
+  },
+  "δύναμη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ισχύς.",
+    "antonyms": [
+      "αδυναμία"
+    ],
+    "cases": {
+      "nom_sing": "η δύναμη",
+      "gen_sing": "της δύναμης",
+      "acc_sing": "τη δύναμη",
+      "voc_sing": "δύναμη",
+      "nom_plur": "οι δυνάμεις",
+      "gen_plur": "των δυνάμεων",
+      "acc_plur": "τις δυνάμεις",
+      "voc_plur": "δυνάμεις"
+    },
+    "irregular": false
+  },
+  "εβδομάδα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Επτά ημέρες.",
+    "antonyms": [
+      "μήνας"
+    ],
+    "cases": {
+      "nom_sing": "η εβδομάδα",
+      "gen_sing": "της εβδομάδας",
+      "acc_sing": "την εβδομάδα",
+      "voc_sing": "εβδομάδα",
+      "nom_plur": "οι εβδομάδες",
+      "gen_plur": "των εβδομάδων",
+      "acc_plur": "τις εβδομάδες",
+      "voc_plur": "εβδομάδες"
+    },
+    "irregular": false
+  },
+  "ελάφι": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Ζώο του δάσους.",
+    "antonyms": [
+      "λύκος"
+    ],
+    "cases": {
+      "nom_sing": "το ελάφι",
+      "gen_sing": "του ελαφιού",
+      "acc_sing": "το ελάφι",
+      "voc_sing": "ελάφι",
+      "nom_plur": "τα ελάφια",
+      "gen_plur": "των ελαφιών",
+      "acc_plur": "τα ελάφια",
+      "voc_plur": "ελάφια"
+    },
+    "irregular": false
+  },
+  "επιστολή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Γράμμα.",
+    "antonyms": [
+      "τηλεφώνημα"
+    ],
+    "cases": {
+      "nom_sing": "η επιστολή",
+      "gen_sing": "της επιστολής",
+      "acc_sing": "την επιστολή",
+      "voc_sing": "επιστολή",
+      "nom_plur": "οι επιστολές",
+      "gen_plur": "των επιστολών",
+      "acc_plur": "τις επιστολές",
+      "voc_plur": "επιστολές"
+    },
+    "irregular": false
+  },
+  "ευτυχία": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Χαρά.",
+    "antonyms": [
+      "δυστυχία"
+    ],
+    "cases": {
+      "nom_sing": "η ευτυχία",
+      "gen_sing": "της ευτυχίας",
+      "acc_sing": "την ευτυχία",
+      "voc_sing": "ευτυχία",
+      "nom_plur": "οι ευτυχίες",
+      "gen_plur": "των ευτυχιών",
+      "acc_plur": "τις ευτυχίες",
+      "voc_plur": "ευτυχίες"
+    },
+    "irregular": false
+  },
+  "εφημερίδα": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Έντυπο νέων.",
+    "antonyms": [
+      "βιβλίο"
+    ],
+    "cases": {
+      "nom_sing": "η εφημερίδα",
+      "gen_sing": "της εφημερίδας",
+      "acc_sing": "την εφημερίδα",
+      "voc_sing": "εφημερίδα",
+      "nom_plur": "οι εφημερίδες",
+      "gen_plur": "των εφημερίδων",
+      "acc_plur": "τις εφημερίδες",
+      "voc_plur": "εφημερίδες"
+    },
+    "irregular": false
+  },
+  "ζώο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Έμβιο ον.",
+    "antonyms": [
+      "φυτό"
+    ],
+    "cases": {
+      "nom_sing": "το ζώο",
+      "gen_sing": "του ζώου",
+      "acc_sing": "το ζώο",
+      "voc_sing": "ζώο",
+      "nom_plur": "τα ζώα",
+      "gen_plur": "των ζώων",
+      "acc_plur": "τα ζώα",
+      "voc_plur": "ζώα"
+    },
+    "irregular": true
+  },
+  "πρόβλημα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ζήτημα που απαιτεί λύση.",
+    "antonyms": [
+      "λύση"
+    ],
+    "cases": {
+      "nom_sing": "το πρόβλημα",
+      "gen_sing": "του προβλήματος",
+      "acc_sing": "το πρόβλημα",
+      "voc_sing": "πρόβλημα",
+      "nom_plur": "τα προβλήματα",
+      "gen_plur": "των προβλημάτων",
+      "acc_plur": "τα προβλήματα",
+      "voc_plur": "προβλήματα"
+    },
+    "grammar_rule": "💡 REMEMBER: Ουδέτερο ουσιαστικό της κλίσης σε -μα (γενική ενικού σε -ματος, πληθυντικός σε -ματα, -μάτων).",
+    "irregular": false
+  },
+  "λαός": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Το σύνολο των ανθρώπων μιας χώρας.",
+    "antonyms": [
+      "ηγεμονία"
+    ],
+    "cases": {
+      "nom_sing": "ο λαός",
+      "gen_sing": "του λαού",
+      "acc_sing": "τον λαό",
+      "voc_sing": "λαέ",
+      "nom_plur": "οι λαοί",
+      "gen_plur": "των λαών",
+      "acc_plur": "τους λαούς",
+      "voc_plur": "λαοί"
+    },
+    "grammar_rule": "💡 REMEMBER: Αρσενικό σε -ός (κανονική κλίση). Προσοχή στη διάκριση από το επίθετο 'λαϊκός' (δημοφιλής).",
+    "irregular": false
+  },
+  "κόκκινο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του αίματος και της φωτιάς.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το κόκκινο",
+      "gen_sing": "του κόκκινου",
+      "acc_sing": "το κόκκινο",
+      "voc_sing": "κόκκινο",
+      "nom_plur": "τα κόκκινα",
+      "gen_plur": "των κόκκινων",
+      "acc_plur": "τα κόκκινα",
+      "voc_plur": "κόκκινα"
+    },
+    "irregular": false
+  },
+  "μπλε": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του καθαρού ουρανού και της θάλασσας.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το μπλε",
+      "gen_sing": "του μπλε",
+      "acc_sing": "το μπλε",
+      "voc_sing": "μπλε",
+      "nom_plur": "τα μπλε",
+      "gen_plur": "των μπλε",
+      "acc_plur": "τα μπλε",
+      "voc_plur": "μπλε"
+    },
+    "irregular": true
+  },
+  "πράσινο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του γρασιδιού και των φύλλων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το πράσινο",
+      "gen_sing": "του πράσινου",
+      "acc_sing": "το πράσινο",
+      "voc_sing": "πράσινο",
+      "nom_plur": "τα πράσινα",
+      "gen_plur": "των πράσινων",
+      "acc_plur": "τα πράσινα",
+      "voc_plur": "πράσινα"
+    },
+    "irregular": false
+  },
+  "κίτρινο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του ήλιου και του λεμονιού.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το κίτρινο",
+      "gen_sing": "του κίτρινου",
+      "acc_sing": "το κίτρινο",
+      "voc_sing": "κίτρινο",
+      "nom_plur": "τα κίτρινα",
+      "gen_plur": "των κίτρινων",
+      "acc_plur": "τα κίτρινα",
+      "voc_plur": "κίτρινα"
+    },
+    "irregular": false
+  },
+  "μαύρο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα της σκοτεινής νύχτας χωρίς φως.",
+    "antonyms": [
+      "άσπρο"
+    ],
+    "cases": {
+      "nom_sing": "το μαύρο",
+      "gen_sing": "του μαύρου",
+      "acc_sing": "το μαύρο",
+      "voc_sing": "μαύρο",
+      "nom_plur": "τα μαύρα",
+      "gen_plur": "των μαύρων",
+      "acc_plur": "τα μαύρα",
+      "voc_plur": "μαύρα"
+    },
+    "irregular": false
+  },
+  "άσπρο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του φρέσκου χιονιού και του γάλακτος.",
+    "antonyms": [
+      "μαύρο"
+    ],
+    "cases": {
+      "nom_sing": "το άσπρο",
+      "gen_sing": "του άσπρου",
+      "acc_sing": "το άσπρο",
+      "voc_sing": "άσπρο",
+      "nom_plur": "τα άσπρα",
+      "gen_plur": "των άσπρων",
+      "acc_plur": "τα άσπρα",
+      "voc_plur": "άσπρα"
+    },
+    "irregular": false
+  },
+  "πορτοκαλί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Δευτερεύον χρώμα ανάμεσα στο κόκκινο και το κίτρινο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το πορτοκαλί",
+      "gen_sing": "του πορτοκαλί",
+      "acc_sing": "το πορτοκαλί",
+      "voc_sing": "πορτοκαλί",
+      "nom_plur": "τα πορτοκαλί",
+      "gen_plur": "των πορτοκαλί",
+      "acc_plur": "τα πορτοκαλί",
+      "voc_plur": "πορτοκαλί"
+    },
+    "irregular": true
+  },
+  "μοβ": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Δευτερεύον χρώμα ανάμεσα στο μπλε και το κόκκινο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το μοβ",
+      "gen_sing": "του μοβ",
+      "acc_sing": "το μοβ",
+      "voc_sing": "μοβ",
+      "nom_plur": "τα μοβ",
+      "gen_plur": "των μοβ",
+      "acc_plur": "τα μοβ",
+      "voc_plur": "μοβ"
+    },
+    "irregular": true
+  },
+  "ροζ": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ανοιχτό χρώμα που προκύπτει από την ανάμειξη κόκκινου και άσπρου.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το ροζ",
+      "gen_sing": "του ροζ",
+      "acc_sing": "το ροζ",
+      "voc_sing": "ροζ",
+      "nom_plur": "τα ροζ",
+      "gen_plur": "των ροζ",
+      "acc_plur": "τα ροζ",
+      "voc_plur": "ροζ"
+    },
+    "irregular": true
+  },
+  "καφέ": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το χρώμα του ξύλου και του καφέ.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το καφέ",
+      "gen_sing": "του καφέ",
+      "acc_sing": "το καφέ",
+      "voc_sing": "καφέ",
+      "nom_plur": "τα καφέ",
+      "gen_plur": "των καφέ",
+      "acc_plur": "τα καφέ",
+      "voc_plur": "καφέ"
+    },
+    "irregular": true
+  },
+  "γκρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ουδέτερο χρώμα ανάμεσα στο μαύρο και το άσπρο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το γκρι",
+      "gen_sing": "του γκρι",
+      "acc_sing": "το γκρι",
+      "voc_sing": "γκρι",
+      "nom_plur": "τα γκρι",
+      "gen_plur": "των γκρι",
+      "acc_plur": "τα γκρι",
+      "voc_plur": "γκρι"
+    },
+    "irregular": true
+  },
+  "αδερφός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Αρσενικό τέκνο των ίδιων γονέων.",
+    "antonyms": [
+      "αδελφή"
+    ],
+    "cases": {
+      "nom_sing": "ο αδερφός",
+      "gen_sing": "του αδερφού",
+      "acc_sing": "τον αδερφό",
+      "voc_sing": "αδερφέ",
+      "nom_plur": "οι αδερφοί",
+      "gen_plur": "των αδερφών",
+      "acc_plur": "τους αδερφούς",
+      "voc_plur": "αδερφοί"
+    },
+    "irregular": false
+  },
+  "γιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Αρσενικό τέκνο γονέα.",
+    "antonyms": [
+      "κόρη"
+    ],
+    "cases": {
+      "nom_sing": "ο γιος",
+      "gen_sing": "του γιου",
+      "acc_sing": "τον γιο",
+      "voc_sing": "γιε",
+      "nom_plur": "οι γιοι",
+      "gen_plur": "των γιών",
+      "acc_plur": "τους γιους",
+      "voc_plur": "γιοι"
+    },
+    "irregular": false
+  },
+  "παππούς": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο πατέρας του πατέρα ή της μητέρας.",
+    "antonyms": [
+      "γιαγιά"
+    ],
+    "cases": {
+      "nom_sing": "ο παππούς",
+      "gen_sing": "του παππού",
+      "acc_sing": "τον παππού",
+      "voc_sing": "παππού",
+      "nom_plur": "οι παππούδες",
+      "gen_plur": "των παππούδων",
+      "acc_plur": "τους παππούδες",
+      "voc_plur": "παππούδες"
+    },
+    "grammar_rule": "💡 REMEMBER: Αρσενικό ουσιαστικό σε -ούς με ανισοσύλλαβο πληθυντικό σε -δες (παππούδες, παππούδων).",
+    "irregular": false
+  },
+  "γιαγιά": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Η μητέρα του πατέρα ή της μητέρας.",
+    "antonyms": [
+      "παππούς"
+    ],
+    "cases": {
+      "nom_sing": "η γιαγιά",
+      "gen_sing": "της γιαγιάς",
+      "acc_sing": "τη γιαγιά",
+      "voc_sing": "γιαγιά",
+      "nom_plur": "οι γιαγιάδες",
+      "gen_plur": "των γιαγιάδων",
+      "acc_plur": "τις γιαγιάδες",
+      "voc_plur": "γιαγιάδες"
+    },
+    "grammar_rule": "💡 REMEMBER: Θηλυκό ουσιαστικό σε -ά με ανισοσύλλαβο πληθυντικό σε -δες (γιαγιάδες, γιαγιάδων).",
+    "irregular": false
+  },
+  "μύτη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Το όργανο της όσφρησης στο πρόσωπο.",
+    "antonyms": [
+      "στόμα"
+    ],
+    "cases": {
+      "nom_sing": "η μύτη",
+      "gen_sing": "της μύτης",
+      "acc_sing": "τη μύτη",
+      "voc_sing": "μύτη",
+      "nom_plur": "οι μύτες",
+      "gen_plur": "των μυτών",
+      "acc_plur": "τις μύτες",
+      "voc_plur": "μύτες"
+    },
+    "irregular": false
+  },
+  "πιάτο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Σκεύος φαγητού.",
+    "antonyms": [
+      "ποτήρι"
+    ],
+    "cases": {
+      "nom_sing": "το πιάτο",
+      "gen_sing": "του πιάτου",
+      "acc_sing": "το πιάτο",
+      "voc_sing": "πιάτο",
+      "nom_plur": "τα πιάτα",
+      "gen_plur": "των πιάτων",
+      "acc_plur": "τα πιάτα",
+      "voc_plur": "πιάτα"
+    },
+    "irregular": false
+  },
+  "ποτήρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Σκεύος για πόση υγρών.",
+    "antonyms": [
+      "πιάτο"
+    ],
+    "cases": {
+      "nom_sing": "το ποτήρι",
+      "gen_sing": "του ποτηριού",
+      "acc_sing": "το ποτήρι",
+      "voc_sing": "ποτήρι",
+      "nom_plur": "τα ποτήρια",
+      "gen_plur": "των ποτηριών",
+      "acc_plur": "τα ποτήρια",
+      "voc_plur": "ποτήρια"
+    },
+    "irregular": false
+  },
+  "πιρούνι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Εργαλείο φαγητού με δόντια.",
+    "antonyms": [
+      "κουτάλι"
+    ],
+    "cases": {
+      "nom_sing": "το πιρούνι",
+      "gen_sing": "του πιρουνιού",
+      "acc_sing": "το πιρούνι",
+      "voc_sing": "πιρούνι",
+      "nom_plur": "τα πιρούνια",
+      "gen_plur": "των πιρουνιών",
+      "acc_plur": "τα πιρούνια",
+      "voc_plur": "πιρούνια"
+    },
+    "irregular": false
+  },
+  "μαχαίρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Εργαλείο κοπής.",
+    "antonyms": [
+      "πιρούνι"
+    ],
+    "cases": {
+      "nom_sing": "το μαχαίρι",
+      "gen_sing": "του μαχαιριού",
+      "acc_sing": "το μαχαίρι",
+      "voc_sing": "μαχαίρι",
+      "nom_plur": "τα μαχαίρια",
+      "gen_plur": "των μαχαιριών",
+      "acc_plur": "τα μαχαίρια",
+      "voc_plur": "μαχαίρια"
+    },
+    "irregular": false
+  },
+  "κουτάλι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Εργαλείο φαγητού για υγρά.",
+    "antonyms": [
+      "πιρούνι"
+    ],
+    "cases": {
+      "nom_sing": "το κουτάλι",
+      "gen_sing": "του κουταλιού",
+      "acc_sing": "το κουτάλι",
+      "voc_sing": "κουτάλι",
+      "nom_plur": "τα κουτάλια",
+      "gen_plur": "των κουταλιών",
+      "acc_plur": "τα κουτάλια",
+      "voc_plur": "κουτάλια"
+    },
+    "irregular": false
+  },
+  "αλάτι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ορυκτό καρύκευμα.",
+    "antonyms": [
+      "πιπέρι"
+    ],
+    "cases": {
+      "nom_sing": "το αλάτι",
+      "gen_sing": "του αλατιού",
+      "acc_sing": "το αλάτι",
+      "voc_sing": "αλάτι",
+      "nom_plur": "τα αλάτια",
+      "gen_plur": "των αλατιών",
+      "acc_plur": "τα αλάτια",
+      "voc_plur": "αλάτια"
+    },
+    "irregular": false
+  },
+  "πιπέρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Καυτερό καρύκευμα.",
+    "antonyms": [
+      "αλάτι"
+    ],
+    "cases": {
+      "nom_sing": "το πιπέρι",
+      "gen_sing": "του πιπεριού",
+      "acc_sing": "το πιπέρι",
+      "voc_sing": "πιπέρι",
+      "nom_plur": "τα πιπέρια",
+      "gen_plur": "των πιπεριών",
+      "acc_plur": "τα πιπέρια",
+      "voc_plur": "πιπέρια"
+    },
+    "irregular": false
+  },
+  "ζάχαρη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Γλυκιά ουσία.",
+    "antonyms": [
+      "αλάτι"
+    ],
+    "cases": {
+      "nom_sing": "η ζάχαρη",
+      "gen_sing": "της ζάχαρης",
+      "acc_sing": "τη ζάχαρη",
+      "voc_sing": "ζάχαρη",
+      "nom_plur": "οι ζάχαρες",
+      "gen_plur": "των ζαχάρων",
+      "acc_plur": "τις ζάχαρες",
+      "voc_plur": "ζάχαρες"
+    },
+    "irregular": false
+  },
+  "πουκάμισο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ένδυμα για το πάνω μέρος του σώματος.",
+    "antonyms": [
+      "παντελόνι"
+    ],
+    "cases": {
+      "nom_sing": "το πουκάμισο",
+      "gen_sing": "του πουκάμισου",
+      "acc_sing": "το πουκάμισο",
+      "voc_sing": "πουκάμισο",
+      "nom_plur": "τα πουκάμισα",
+      "gen_plur": "των πουκάμισων",
+      "acc_plur": "τα πουκάμισα",
+      "voc_plur": "πουκάμισα"
+    },
+    "irregular": false
+  },
+  "φόρεμα": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Γυναικείο μονοκόμματο ένδυμα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το φόρεμα",
+      "gen_sing": "του φορέματος",
+      "acc_sing": "το φόρεμα",
+      "voc_sing": "φόρεμα",
+      "nom_plur": "τα φορέματα",
+      "gen_plur": "των φορεμάτων",
+      "acc_plur": "τα φορέματα",
+      "voc_plur": "φορέματα"
+    },
+    "irregular": false
+  },
+  "φούστα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Γυναικείο ένδυμα από τη μέση και κάτω.",
+    "antonyms": [
+      "παντελόνι"
+    ],
+    "cases": {
+      "nom_sing": "η φούστα",
+      "gen_sing": "της φούστας",
+      "acc_sing": "τη φούστα",
+      "voc_sing": "φούστα",
+      "nom_plur": "οι φούστες",
+      "gen_plur": "των φουστών",
+      "acc_plur": "τις φούστες",
+      "voc_plur": "φούστες"
+    },
+    "irregular": false
+  },
+  "ζακέτα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ένδυμα με μανίκια που φοριέται πάνω από τη μπλούζα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ζακέτα",
+      "gen_sing": "της ζακέτας",
+      "acc_sing": "τη ζακέτα",
+      "voc_sing": "ζακέτα",
+      "nom_plur": "οι ζακέτες",
+      "gen_plur": "των ζακετών",
+      "acc_plur": "τις ζακέτες",
+      "voc_plur": "ζακέτες"
+    },
+    "irregular": false
+  },
+  "κάλτσα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ένδυμα που καλύπτει το πόδι.",
+    "antonyms": [
+      "παπούτσι"
+    ],
+    "cases": {
+      "nom_sing": "η κάλτσα",
+      "gen_sing": "της κάλτσας",
+      "acc_sing": "την κάλτσα",
+      "voc_sing": "κάλτσα",
+      "nom_plur": "οι κάλτσες",
+      "gen_plur": "των καλτσών",
+      "acc_plur": "τις κάλτσες",
+      "voc_plur": "κάλτσες"
+    },
+    "irregular": false
+  },
+  "παπούτσι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Υπόδημα για την προστασία του ποδιού.",
+    "antonyms": [
+      "κάλτσα"
+    ],
+    "cases": {
+      "nom_sing": "το παπούτσι",
+      "gen_sing": "του παπουτσιού",
+      "acc_sing": "το παπούτσι",
+      "voc_sing": "παπούτσι",
+      "nom_plur": "τα παπούτσια",
+      "gen_plur": "των παπουτσιών",
+      "acc_plur": "τα παπούτσια",
+      "voc_plur": "παπούτσια"
+    },
+    "irregular": false
+  },
+  "γάντι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ένδυμα προστασίας για το χέρι.",
+    "antonyms": [
+      "κάλτσα"
+    ],
+    "cases": {
+      "nom_sing": "το γάντι",
+      "gen_sing": "του γαντιού",
+      "acc_sing": "το γάντι",
+      "voc_sing": "γάντι",
+      "nom_plur": "τα γάντια",
+      "gen_plur": "των γαντιών",
+      "acc_plur": "τα γάντια",
+      "voc_plur": "γάντια"
+    },
+    "irregular": false
+  },
+  "χιόνι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Παγωμένο νερό σε νιφάδες.",
+    "antonyms": [
+      "βροχή"
+    ],
+    "cases": {
+      "nom_sing": "το χιόνι",
+      "gen_sing": "του χιονιού",
+      "acc_sing": "το χιόνι",
+      "voc_sing": "χιόνι",
+      "nom_plur": "τα χιόνια",
+      "gen_plur": "των χιονιών",
+      "acc_plur": "τα χιόνια",
+      "voc_plur": "χιόνια"
+    },
+    "irregular": false
+  },
+  "πάγος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Νερό σε στερεά μορφή λόγω ψύχους.",
+    "antonyms": [
+      "φωτιά"
+    ],
+    "cases": {
+      "nom_sing": "ο πάγος",
+      "gen_sing": "του πάγου",
+      "acc_sing": "τον πάγο",
+      "voc_sing": "πάγε",
+      "nom_plur": "οι πάγοι",
+      "gen_plur": "των πάγων",
+      "acc_plur": "τους πάγους",
+      "voc_plur": "πάγοι"
+    },
+    "irregular": false
+  },
+  "σύννεφο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Συσσώρευση υδρατμών στον ουρανό.",
+    "antonyms": [
+      "ήλιος"
+    ],
+    "cases": {
+      "nom_sing": "το σύννεφο",
+      "gen_sing": "του σύννεφου",
+      "acc_sing": "το σύννεφο",
+      "voc_sing": "σύννεφο",
+      "nom_plur": "τα σύννεφα",
+      "gen_plur": "των σύννεφων",
+      "acc_plur": "τα σύννεφα",
+      "voc_plur": "σύννεφα"
+    },
+    "irregular": false
+  },
+  "φεγγάρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ο φυσικός δορυφόρος της γης.",
+    "antonyms": [
+      "ήλιος"
+    ],
+    "cases": {
+      "nom_sing": "το φεγγάρι",
+      "gen_sing": "του φεγγαριού",
+      "acc_sing": "το φεγγάρι",
+      "voc_sing": "φεγγάρι",
+      "nom_plur": "τα φεγγάρια",
+      "gen_plur": "των φεγγαριών",
+      "acc_plur": "τα φεγγάρια",
+      "voc_plur": "φεγγάρια"
+    },
+    "irregular": false
+  },
+  "ποτάμι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ρεύμα γλυκού νερού.",
+    "antonyms": [
+      "θάλασσα"
+    ],
+    "cases": {
+      "nom_sing": "το ποτάμι",
+      "gen_sing": "του ποταμιού",
+      "acc_sing": "το ποτάμι",
+      "voc_sing": "ποτάμι",
+      "nom_plur": "τα ποτάμια",
+      "gen_plur": "των ποταμιών",
+      "acc_plur": "τα ποτάμια",
+      "voc_plur": "ποτάμια"
+    },
+    "irregular": false
+  },
+  "δάσος": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Μεγάλη έκταση με δέντρα.",
+    "antonyms": [
+      "ερημιά"
+    ],
+    "cases": {
+      "nom_sing": "το δάσος",
+      "gen_sing": "του δάσους",
+      "acc_sing": "το δάσος",
+      "voc_sing": "δάσος",
+      "nom_plur": "τα δάση",
+      "gen_plur": "των δασών",
+      "acc_plur": "τα δάση",
+      "voc_plur": "δάση"
+    },
+    "grammar_rule": "💡 REMEMBER: Ουδέτερο σε -ος της γ' κλίσης (γενική ενικού -ους, πληθυντικός -η, -ών).",
+    "irregular": false
+  },
+  "μαγαζί": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Κατάστημα εμπορίου.",
+    "antonyms": [
+      "αγορά"
+    ],
+    "cases": {
+      "nom_sing": "το μαγαζί",
+      "gen_sing": "του μαγαζιού",
+      "acc_sing": "το μαγαζί",
+      "voc_sing": "μαγαζί",
+      "nom_plur": "τα μαγαζιά",
+      "gen_plur": "των μαγαζιών",
+      "acc_plur": "τα μαγαζιά",
+      "voc_plur": "μαγαζιά"
+    },
+    "irregular": false
+  },
+  "τράπεζα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Πιστωτικό ίδρυμα.",
+    "antonyms": [
+      "μαγαζί"
+    ],
+    "cases": {
+      "nom_sing": "η τράπεζα",
+      "gen_sing": "της τράπεζας",
+      "acc_sing": "την τράπεζα",
+      "voc_sing": "τράπεζα",
+      "nom_plur": "οι τράπεζες",
+      "gen_plur": "των τραπεζών",
+      "acc_plur": "τις τράπεζες",
+      "voc_plur": "τράπεζες"
+    },
+    "irregular": false
+  },
+  "εκκλησία": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ναός χριστιανικής λατρείας.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η εκκλησία",
+      "gen_sing": "της εκκλησίας",
+      "acc_sing": "την εκκλησία",
+      "voc_sing": "εκκλησία",
+      "nom_plur": "οι εκκλησίες",
+      "gen_plur": "των εκκλησιών",
+      "acc_plur": "τις εκκλησίες",
+      "voc_plur": "εκκλησίες"
+    },
+    "irregular": false
+  },
+  "νοσοκομείο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Ίδρυμα περίθαλψης ασθενών.",
+    "antonyms": [
+      "φαρμακείο"
+    ],
+    "cases": {
+      "nom_sing": "το νοσοκομείο",
+      "gen_sing": "του νοσοκομείου",
+      "acc_sing": "το νοσοκομείο",
+      "voc_sing": "νοσοκομείο",
+      "nom_plur": "τα νοσοκομεία",
+      "gen_plur": "των νοσοκομείων",
+      "acc_plur": "τα νοσοκομεία",
+      "voc_plur": "νοσοκομεία"
+    },
+    "irregular": false
+  },
+  "φαρμακείο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Κατάστημα διάθεσης φαρμάκων.",
+    "antonyms": [
+      "νοσοκομείο"
+    ],
+    "cases": {
+      "nom_sing": "το φαρμακείο",
+      "gen_sing": "του φαρμακείου",
+      "acc_sing": "το φαρμακείο",
+      "voc_sing": "φαρμακείο",
+      "nom_plur": "τα φαρμακεία",
+      "gen_plur": "των φαρμακείων",
+      "acc_plur": "τα φαρμακεία",
+      "voc_plur": "φαρμακεία"
+    },
+    "irregular": false
+  },
+  "γέφυρα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Κατασκευή πάνω από εμπόδιο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η γέφυρα",
+      "gen_sing": "της γέφυρας",
+      "acc_sing": "τη γέφυρα",
+      "voc_sing": "γέφυρα",
+      "nom_plur": "οι γέφυρες",
+      "gen_plur": "των γεφυρών",
+      "acc_plur": "τις γέφυρες",
+      "voc_plur": "γέφυρες"
+    },
+    "irregular": false
+  },
+  "καθηγητής": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Εκπαιδευτικός δευτεροβάθμιας ή τριτοβάθμιας εκπαίδευσης.",
+    "antonyms": [
+      "μαθητής"
+    ],
+    "cases": {
+      "nom_sing": "ο καθηγητής",
+      "gen_sing": "του καθηγητή",
+      "acc_sing": "τον καθηγητή",
+      "voc_sing": "καθηγητή",
+      "nom_plur": "οι καθηγητές",
+      "gen_plur": "των καθηγητών",
+      "acc_plur": "τους καθηγητές",
+      "voc_plur": "καθηγητές"
+    },
+    "grammar_rule": "💡 REMEMBER: Το θηλυκό είναι 'καθηγήτρια' (διαφορετική κλίση σε -τρια: της καθηγήτριας, οι καθηγήτριες).",
+    "irregular": false
+  },
+  "δικηγόρος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Νομικός που υπερασπίζεται πολίτες στο δικαστήριο.",
+    "antonyms": [
+      "πελάτης"
+    ],
+    "cases": {
+      "nom_sing": "ο δικηγόρος",
+      "gen_sing": "του δικηγόρου",
+      "acc_sing": "τον δικηγόρο",
+      "voc_sing": "δικηγόρε",
+      "nom_plur": "οι δικηγόροι",
+      "gen_plur": "των δικηγόρων",
+      "acc_plur": "τους δικηγόρους",
+      "voc_plur": "δικηγόροι"
+    },
+    "grammar_rule": "💡 REMEMBER: Χρησιμοποιείται αμετάβλητο και για γυναίκες στην πρότυπη γλώσσα ('η δικηγόρος', 'της δικηγόρου').",
+    "irregular": false
+  },
+  "μηχανικός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Επιστήμονας σχεδιασμού και κατασκευής τεχνικών έργων.",
+    "antonyms": [
+      "εργάτης"
+    ],
+    "cases": {
+      "nom_sing": "ο μηχανικός",
+      "gen_sing": "του μηχανικού",
+      "acc_sing": "τον μηχανικό",
+      "voc_sing": "μηχανικέ",
+      "nom_plur": "οι μηχανικοί",
+      "gen_plur": "των μηχανικών",
+      "acc_plur": "τους μηχανικούς",
+      "voc_plur": "μηχανικοί"
+    },
+    "grammar_rule": "💡 REMEMBER: Χρησιμοποιείται αμετάβλητο και για γυναίκες στην πρότυπη γλώσσα ('η μηχανικός', 'της μηχανικού').",
+    "irregular": false
+  },
+  "νοσοκόμος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Επαγγελματίας υγείας που φροντίζει ασθενείς.",
+    "antonyms": [
+      "ασθενής"
+    ],
+    "cases": {
+      "nom_sing": "ο νοσοκόμος",
+      "gen_sing": "του νοσοκόμου",
+      "acc_sing": "τον νοσοκόμο",
+      "voc_sing": "νοσοκόμε",
+      "nom_plur": "οι νοσοκόμοι",
+      "gen_plur": "των νοσοκόμων",
+      "acc_plur": "τους νοσοκόμους",
+      "voc_plur": "νοσοκόμοι"
+    },
+    "grammar_rule": "💡 REMEMBER: Το θηλυκό σχηματίζεται κανονικά σε -α ('η νοσοκόμα', 'οι νοσοκόμες').",
+    "irregular": false
+  },
+  "αστυνομικός": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Όργανο επιβολής του νόμου και τάξης.",
+    "antonyms": [
+      "εγκληματίας"
+    ],
+    "cases": {
+      "nom_sing": "ο αστυνομικός",
+      "gen_sing": "του αστυνομικού",
+      "acc_sing": "τον αστυνομικό",
+      "voc_sing": "αστυνομικέ",
+      "nom_plur": "οι αστυνομικοί",
+      "gen_plur": "των αστυνομικών",
+      "acc_plur": "τους αστυνομικούς",
+      "voc_plur": "αστυνομικοί"
+    },
+    "grammar_rule": "💡 REMEMBER: Χρησιμοποιείται αμετάβλητο για γυναίκες ('η αστυνομικός'), αν και υπάρχει και ο τύπος 'αρχιφύλακας/αστυνομικίνα' στον προφορικό λόγο.",
+    "irregular": false
+  },
+  "μάγειρας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Επαγγελματίας παρασκευής φαγητού.",
+    "antonyms": [
+      "σερβιτόρος"
+    ],
+    "cases": {
+      "nom_sing": "ο μάγειρας",
+      "gen_sing": "του μάγειρα",
+      "acc_sing": "τον μάγειρα",
+      "voc_sing": "μάγειρα",
+      "nom_plur": "οι μάγειροι",
+      "gen_plur": "των μαγείρων",
+      "acc_plur": "τους μάγειρους",
+      "voc_plur": "μάγειροι"
+    },
+    "grammar_rule": "💡 REMEMBER: Το θηλυκό είναι 'μαγείρισσα' ('η μαγείρισσα', 'οι μαγείρισσες').",
+    "irregular": false
+  },
+  "φιλία": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Σχέση αμοιβαίας αγάπης και εκτίμησης.",
+    "antonyms": [
+      "έκθρα"
+    ],
+    "cases": {
+      "nom_sing": "η φιλία",
+      "gen_sing": "της φιλίας",
+      "acc_sing": "τη φιλία",
+      "voc_sing": "φιλία",
+      "nom_plur": "οι φιλίες",
+      "gen_plur": "των φιλιών",
+      "acc_plur": "τις φιλίες",
+      "voc_plur": "φιλίες"
+    },
+    "irregular": false
+  },
+  "εμπιστοσύνη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Συναίσθημα σιγουριάς για κάποιον.",
+    "antonyms": [
+      "καχυποψία"
+    ],
+    "cases": {
+      "nom_sing": "η εμπιστοσύνη",
+      "gen_sing": "της εμπιστοσύνης",
+      "acc_sing": "την εμπιστοσύνη",
+      "voc_sing": "εμπιστοσύνη",
+      "nom_plur": "οι εμπιστοσύνες",
+      "gen_plur": "των εμπιστοσυνών",
+      "acc_plur": "τις εμπιστοσύνες",
+      "voc_plur": "εμπιστοσύνες"
+    },
+    "irregular": false
+  },
+  "υπομονή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ικανότητα αναμονής χωρίς εκνευρισμό.",
+    "antonyms": [
+      "ανυπομονησία"
+    ],
+    "cases": {
+      "nom_sing": "η υπομονή",
+      "gen_sing": "της υπομονής",
+      "acc_sing": "την υπομονή",
+      "voc_sing": "υπομονή",
+      "nom_plur": "οι υπομονές",
+      "gen_plur": "των υπομονών",
+      "acc_plur": "τις υπομονές",
+      "voc_plur": "υπομονές"
+    },
+    "irregular": false
+  },
+  "ντροπή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Συναίσθημα αμηχανίας ή ταπείνωσης.",
+    "antonyms": [
+      "περηφάνια"
+    ],
+    "cases": {
+      "nom_sing": "η ντροπή",
+      "gen_sing": "της ντροπής",
+      "acc_sing": "τη ντροπή",
+      "voc_sing": "ντροπή",
+      "nom_plur": "οι ντροπές",
+      "gen_plur": "των ντροπών",
+      "acc_plur": "τις ντροπές",
+      "voc_plur": "ντροπές"
+    },
+    "irregular": false
+  },
+  "περηφάνια": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Αίσθημα ικανοποίησης και αυτοσεβασμού.",
+    "antonyms": [
+      "ντροπή"
+    ],
+    "cases": {
+      "nom_sing": "η περηφάνια",
+      "gen_sing": "της περηφάνιας",
+      "acc_sing": "την περηφάνια",
+      "voc_sing": "περηφάνια",
+      "nom_plur": "οι περηφάνιες",
+      "gen_plur": "των περηφάνιων",
+      "acc_plur": "τις περηφάνιες",
+      "voc_plur": "περηφάνιες"
+    },
+    "irregular": false
+  },
+  "περιέργεια": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Επιθυμία μάθησης νέων πραγμάτων.",
+    "antonyms": [
+      "αδιαφορία"
+    ],
+    "cases": {
+      "nom_sing": "η περιέργεια",
+      "gen_sing": "της περιέργειας",
+      "acc_sing": "την περιέργεια",
+      "voc_sing": "περιέργεια",
+      "nom_plur": "οι περιέργειες",
+      "gen_plur": "των περιεργειών",
+      "acc_plur": "τις περιέργειες",
+      "voc_plur": "περιέργειες"
+    },
+    "irregular": false
+  },
+  "τηλέφωνο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Συσκευή επικοινωνίας φωνής.",
+    "antonyms": [
+      "γράμμα"
+    ],
+    "cases": {
+      "nom_sing": "το τηλέφωνο",
+      "gen_sing": "του τηλεφώνου",
+      "acc_sing": "το τηλέφωνο",
+      "voc_sing": "τηλέφωνο",
+      "nom_plur": "τα τηλέφωνα",
+      "gen_plur": "των τηλεφώνων",
+      "acc_plur": "τα τηλέφωνα",
+      "voc_plur": "τηλέφωνα"
+    },
+    "irregular": false
+  },
+  "ίντερνετ": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Παγκόσμιο δίκτυο υπολογιστών.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το ίντερνετ",
+      "gen_sing": "του ίντερνετ",
+      "acc_sing": "το ίντερνετ",
+      "voc_sing": "ίντερνετ",
+      "nom_plur": "τα ίντερνετ",
+      "gen_plur": "των ίντερνετ",
+      "acc_plur": "τα ίντερνετ",
+      "voc_plur": "ίντερνετ"
+    },
+    "grammar_rule": "💡 REMEMBER: Άκλιτο ουδέτερο δάνειο από τα αγγλικά (διατηρεί την ίδια μορφή σε όλες τις πτώσεις).",
+    "irregular": true
+  },
+  "οθόνη": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Επιφάνεια προβολής εικόνων.",
+    "antonyms": [
+      "πληκτρολόγιο"
+    ],
+    "cases": {
+      "nom_sing": "η οθόνη",
+      "gen_sing": "της οθόνης",
+      "acc_sing": "την οθόνη",
+      "voc_sing": "οθόνη",
+      "nom_plur": "οι οθόνες",
+      "gen_plur": "των οθονών",
+      "acc_plur": "τις οθόνες",
+      "voc_plur": "οθόνες"
+    },
+    "irregular": false
+  },
+  "πληκτρολόγιο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Σύνολο πλήκτρων εισαγωγής κειμένου.",
+    "antonyms": [
+      "οθόνη"
+    ],
+    "cases": {
+      "nom_sing": "το πληκτρολόγιο",
+      "gen_sing": "του πληκτρολογίου",
+      "acc_sing": "το πληκτρολόγιο",
+      "voc_sing": "πληκτρολόγιο",
+      "nom_plur": "τα πληκτρολόγια",
+      "gen_plur": "των πληκτρολογίων",
+      "acc_plur": "τα πληκτρολόγια",
+      "voc_plur": "πληκτρολόγια"
+    },
+    "irregular": false
+  },
+  "μήνυμα": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Γραπτό ή προφορικό κείμενο επικοινωνίας.",
+    "antonyms": [
+      "σιωπή"
+    ],
+    "cases": {
+      "nom_sing": "το μήνυμα",
+      "gen_sing": "του μηνύματος",
+      "acc_sing": "το μήνυμα",
+      "voc_sing": "μήνυμα",
+      "nom_plur": "τα μηνύματα",
+      "gen_plur": "των μηνυμάτων",
+      "acc_plur": "τα μηνύματα",
+      "voc_plur": "μηνύματα"
+    },
+    "irregular": false
+  },
+  "Ιανουάριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο πρώτος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Ιανουάριος",
+      "gen_sing": "του Ιανουαρίου",
+      "acc_sing": "τον Ιανουάριο",
+      "voc_sing": "Ιανουάριε",
+      "nom_plur": "οι Ιανουάριοι",
+      "gen_plur": "των Ιανουαρίων",
+      "acc_plur": "τους Ιανουαρίους",
+      "voc_plur": "Ιανουάριοι"
+    },
+    "irregular": false
+  },
+  "Φεβρουάριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο δεύτερος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Φεβρουάριος",
+      "gen_sing": "του Φεβρουαρίου",
+      "acc_sing": "τον Φεβρουάριο",
+      "voc_sing": "Φεβρουάριε",
+      "nom_plur": "οι Φεβρουάριοι",
+      "gen_plur": "των Φεβρουαρίων",
+      "acc_plur": "τους Φεβρουαρίους",
+      "voc_plur": "Φεβρουάριοι"
+    },
+    "irregular": false
+  },
+  "Μάρτιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο τρίτος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Μάρτιος",
+      "gen_sing": "του Μαρτίου",
+      "acc_sing": "τον Μάρτιο",
+      "voc_sing": "Μάρτιε",
+      "nom_plur": "οι Μάρτιοι",
+      "gen_plur": "των Μαρτίων",
+      "acc_plur": "τους Μαρτίους",
+      "voc_plur": "Μάρτιοι"
+    },
+    "irregular": false
+  },
+  "Απρίλιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο τέταρτος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Απρίλιος",
+      "gen_sing": "του Απριλίου",
+      "acc_sing": "τον Απρίλιο",
+      "voc_sing": "Απρίλιε",
+      "nom_plur": "οι Απρίλιοι",
+      "gen_plur": "των Απριλίων",
+      "acc_plur": "τους Απριλίους",
+      "voc_plur": "Απρίλιοι"
+    },
+    "irregular": false
+  },
+  "Μάιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο πέμπτος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Μάιος",
+      "gen_sing": "του Μαΐου",
+      "acc_sing": "τον Μάιο",
+      "voc_sing": "Μάιε",
+      "nom_plur": "οι Μάιοι",
+      "gen_plur": "των Μαΐων",
+      "acc_plur": "τους Μαΐους",
+      "voc_plur": "Μάιοι"
+    },
+    "irregular": false
+  },
+  "Ιούνιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο έκτος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Ιούνιος",
+      "gen_sing": "του Ιουνίου",
+      "acc_sing": "τον Ιούνιο",
+      "voc_sing": "Ιούνιε",
+      "nom_plur": "οι Ιούνιοι",
+      "gen_plur": "των Ιουνίων",
+      "acc_plur": "τους Ιουνίους",
+      "voc_plur": "Ιούνιοι"
+    },
+    "irregular": false
+  },
+  "Ιούλιος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο έβδομος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Ιούλιος",
+      "gen_sing": "του Ιουλίου",
+      "acc_sing": "τον Ιούλιο",
+      "voc_sing": "Ιούλιε",
+      "nom_plur": "οι Ιούλιοι",
+      "gen_plur": "των Ιουλίων",
+      "acc_plur": "τους Ιουλίους",
+      "voc_plur": "Ιούλιοι"
+    },
+    "irregular": false
+  },
+  "Αύγουστος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο όγδοος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Αύγουστος",
+      "gen_sing": "του Αυγούστου",
+      "acc_sing": "τον Αύγουστο",
+      "voc_sing": "Αύγουστε",
+      "nom_plur": "οι Αύγουστοι",
+      "gen_plur": "των Αυγούστων",
+      "acc_plur": "τους Αυγούστους",
+      "voc_plur": "Αύγουστοι"
+    },
+    "irregular": false
+  },
+  "Σεπτέμβριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο ένατος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Σεπτέμβριος",
+      "gen_sing": "του Σεπτεμβρίου",
+      "acc_sing": "τον Σεπτέμβριο",
+      "voc_sing": "Σεπτέμβριε",
+      "nom_plur": "οι Σεπτέμβριοι",
+      "gen_plur": "των Σεπτεμβρίων",
+      "acc_plur": "τους Σεπτεμβρίους",
+      "voc_plur": "Σεπτέμβριοι"
+    },
+    "irregular": false
+  },
+  "Οκτώβριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο δέκατος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Οκτώβριος",
+      "gen_sing": "του Οκτωβρίου",
+      "acc_sing": "τον Οκτώβριο",
+      "voc_sing": "Οκτώβριε",
+      "nom_plur": "οι Οκτώβριοι",
+      "gen_plur": "των Οκτωβρίων",
+      "acc_plur": "τους Οκτωβρίους",
+      "voc_plur": "Οκτώβριοι"
+    },
+    "irregular": false
+  },
+  "Νοέμβριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο ενδέκατος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Νοέμβριος",
+      "gen_sing": "του Νοεμβρίου",
+      "acc_sing": "τον Νοέμβριο",
+      "voc_sing": "Νοέμβριε",
+      "nom_plur": "οι Νοέμβριοι",
+      "gen_plur": "των Νοεμβρίων",
+      "acc_plur": "τους Νοεμβρίους",
+      "voc_plur": "Νοέμβριοι"
+    },
+    "irregular": false
+  },
+  "Δεκέμβριος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Ο δωδέκατος μήνας του έτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο Δεκέμβριος",
+      "gen_sing": "του Δεκεμβρίου",
+      "acc_sing": "τον Δεκέμβριο",
+      "voc_sing": "Δεκέμβριε",
+      "nom_plur": "οι Δεκέμβριοι",
+      "gen_plur": "των Δεκεμβρίων",
+      "acc_plur": "τους Δεκεμβρίους",
+      "voc_plur": "Δεκέμβριοι"
+    },
+    "irregular": false
+  },
+  "καλοκαίρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η θερμότερη εποχή του έτους.",
+    "antonyms": [
+      "χειμώνας"
+    ],
+    "cases": {
+      "nom_sing": "το καλοκαίρι",
+      "gen_sing": "του καλοκαιριού",
+      "acc_sing": "το καλοκαίρι",
+      "voc_sing": "καλοκαίρι",
+      "nom_plur": "τα καλοκαίρια",
+      "gen_plur": "των καλοκαιριών",
+      "acc_plur": "τα καλοκαίρια",
+      "voc_plur": "καλοκαίρια"
+    },
+    "grammar_rule": "💡 REMEMBER: Τα ονόματα των εποχών στην ελληνική έχουν διαφορετικό γένος: η άνοιξη (θηλυκό), το καλοκαίρι (ουδέτερο), το φθινόπωρο (ουδέτερο), ο χειμώνας (αρσενικό).",
+    "irregular": false
+  },
+  "φθινόπωρο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η εποχή ανάμεσα στο καλοκαίρι και το χειμώνα.",
+    "antonyms": [
+      "άνοιξη"
+    ],
+    "cases": {
+      "nom_sing": "το φθινόπωρο",
+      "gen_sing": "του φθινοπώρου",
+      "acc_sing": "το φθινόπωρο",
+      "voc_sing": "φθινόπωρο",
+      "nom_plur": "τα φθινόπωρα",
+      "gen_plur": "των φθινοπώρων",
+      "acc_plur": "τα φθινόπωρα",
+      "voc_plur": "φθινόπωρα"
+    },
+    "grammar_rule": "💡 REMEMBER: Τα ονόματα των εποχών στην ελληνική έχουν διαφορετικό γένος: η άνοιξη (θηλυκό), το καλοκαίρι (ουδέτερο), το φθινόπωρο (ουδέτερο), ο χειμώνας (αρσενικό).",
+    "irregular": false
+  },
+  "χειμώνας": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Η ψυχρότερη εποχή του έτους.",
+    "antonyms": [
+      "καλοκαίρι"
+    ],
+    "cases": {
+      "nom_sing": "ο χειμώνας",
+      "gen_sing": "του χειμώνα",
+      "acc_sing": "τον χειμώνα",
+      "voc_sing": "χειμώνα",
+      "nom_plur": "οι χειμώνες",
+      "gen_plur": "των χειμώνων",
+      "acc_plur": "τους χειμώνες",
+      "voc_plur": "χειμώνες"
+    },
+    "grammar_rule": "💡 REMEMBER: Τα ονόματα των εποχών στην ελληνική έχουν διαφορετικό γένος: η άνοιξη (θηλυκό), το καλοκαίρι (ουδέτερο), το φθινόπωρο (ουδέτερο), ο χειμώνας (αρσενικό).",
+    "irregular": false
+  },
+  "βαλίτσα": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Αποσκευή για τη μεταφορά ρούχων στο ταξίδι.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η βαλίτσα",
+      "gen_sing": "της βαλίτσας",
+      "acc_sing": "τη βαλίτσα",
+      "voc_sing": "βαλίτσα",
+      "nom_plur": "οι βαλίτσες",
+      "gen_plur": "των βαλιτσών",
+      "acc_plur": "τις βαλίτσες",
+      "voc_plur": "βαλίτσες"
+    },
+    "irregular": false
+  },
+  "εισιτήριο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Έγγραφο που επιτρέπει την είσοδο ή τη μετακίνηση.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το εισιτήριο",
+      "gen_sing": "του εισιτηρίου",
+      "acc_sing": "το εισιτήριο",
+      "voc_sing": "εισιτήριο",
+      "nom_plur": "τα εισιτήρια",
+      "gen_plur": "των εισιτηρίων",
+      "acc_plur": "τα εισιτήρια",
+      "voc_plur": "εισιτήρια"
+    },
+    "irregular": false
+  },
+  "αεροδρόμιο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Εγκατάσταση για την απογείωση και προσγείωση αεροπλάνων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το αεροδρόμιο",
+      "gen_sing": "του αεροδρομίου",
+      "acc_sing": "το αεροδρόμιο",
+      "voc_sing": "αεροδρόμιο",
+      "nom_plur": "τα αεροδρόμια",
+      "gen_plur": "των αεροδρομίων",
+      "acc_plur": "τα αεροδρόμια",
+      "voc_plur": "αεροδρόμια"
+    },
+    "irregular": false
+  },
+  "διαβατήριο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Επίσημο ταξιδιωτικό έγγραφο ταυτοποίησης.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το διαβατήριο",
+      "gen_sing": "του διαβατηρίου",
+      "acc_sing": "το διαβατήριο",
+      "voc_sing": "διαβατήριο",
+      "nom_plur": "τα διαβατήρια",
+      "gen_plur": "των διαβατηρίων",
+      "acc_plur": "τα διαβατήρια",
+      "voc_plur": "διαβατήρια"
+    },
+    "irregular": false
+  },
+  "άθλημα": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Σωματική δραστηριότητα με κανόνες.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουδέτερο ουσιαστικό σε '-μα' (γενική ενικού σε '-ματος', πληθυντικός σε '-ματα').",
+    "cases": {
+      "nom_sing": "το άθλημα",
+      "gen_sing": "του αθλήματος",
+      "acc_sing": "το άθλημα",
+      "voc_sing": "άθλημα",
+      "nom_plur": "τα αθλήματα",
+      "gen_plur": "των αθλημάτων",
+      "acc_plur": "τα αθλήματα",
+      "voc_plur": "αθλήματα"
+    },
+    "irregular": false
+  },
+  "ομάδα": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Σύνολο ατόμων που συνεργάζονται.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ομάδα",
+      "gen_sing": "της ομάδας",
+      "acc_sing": "την ομάδα",
+      "voc_sing": "ομάδα",
+      "nom_plur": "οι ομάδες",
+      "gen_plur": "των ομάδων",
+      "acc_plur": "τις ομάδες",
+      "voc_plur": "ομάδες"
+    },
+    "irregular": false
+  },
+  "πισίνα": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Δεξαμενή νερού για κολύμβηση.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η πισίνα",
+      "gen_sing": "της πισίνας",
+      "acc_sing": "την πισίνα",
+      "voc_sing": "πισίνα",
+      "nom_plur": "οι πισίνες",
+      "gen_plur": "των πισινών",
+      "acc_plur": "τις πισίνες",
+      "voc_plur": "πισίνες"
+    },
+    "irregular": false
+  },
+  "τιμή": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Το χρηματικό ποσό που απαιτείται για την αγορά αγαθού.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η τιμή",
+      "gen_sing": "της τιμής",
+      "acc_sing": "την τιμή",
+      "voc_sing": "τιμή",
+      "nom_plur": "οι τιμές",
+      "gen_plur": "των τιμών",
+      "acc_plur": "τις τιμές",
+      "voc_plur": "τιμές"
+    },
+    "irregular": false
+  },
+  "χρήμα": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Μέσο συναλλαγής για την αγορά αγαθών.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουδέτερο ουσιαστικό σε '-μα' (γενική ενικού σε '-ματος', πληθυντικός σε '-ματα').",
+    "cases": {
+      "nom_sing": "το χρήμα",
+      "gen_sing": "του χρήματος",
+      "acc_sing": "το χρήμα",
+      "voc_sing": "χρήμα",
+      "nom_plur": "τα χρήματα",
+      "gen_plur": "των χρημάτων",
+      "acc_plur": "τα χρήματα",
+      "voc_plur": "χρήματα"
+    },
+    "irregular": false
+  },
+  "διαφήμιση": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Προβολή προϊόντος ή υπηρεσίας στο κοινό.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η διαφήμιση",
+      "gen_sing": "της διαφήμισης",
+      "acc_sing": "τη διαφήμιση",
+      "voc_sing": "διαφήμιση",
+      "nom_plur": "οι διαφημίσεις",
+      "gen_plur": "των διαφημίσεων",
+      "acc_plur": "τις διαφημίσεις",
+      "voc_plur": "διαφημίσεις"
+    },
+    "irregular": false
+  },
+  "εκπομπή": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Πρόγραμμα στην τηλεόραση ή το ραδιόφωνο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η εκπομπή",
+      "gen_sing": "της εκπομπής",
+      "acc_sing": "την εκπομπή",
+      "voc_sing": "εκπομπή",
+      "nom_plur": "οι εκπομπές",
+      "gen_plur": "των εκπομπών",
+      "acc_plur": "τις εκπομπές",
+      "voc_plur": "εκπομπές"
+    },
+    "irregular": false
+  },
+  "υγεία": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Κατάσταση σωματικής και ψυχικής ευεξίας.",
+    "antonyms": [
+      "ασθένεια"
+    ],
+    "cases": {
+      "nom_sing": "η υγεία",
+      "gen_sing": "της υγείας",
+      "acc_sing": "την υγεία",
+      "voc_sing": "υγεία",
+      "nom_plur": "οι υγείες",
+      "gen_plur": "των υγειών",
+      "acc_plur": "τις υγείες",
+      "voc_plur": "υγείες"
+    },
+    "irregular": false
+  },
+  "φάρμακο": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Ουσία που χρησιμοποιείται για θεραπεία.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το φάρμακο",
+      "gen_sing": "του φαρμάκου",
+      "acc_sing": "το φάρμακο",
+      "voc_sing": "φάρμακο",
+      "nom_plur": "τα φάρμακα",
+      "gen_plur": "των φαρμάκων",
+      "acc_plur": "τα φάρμακα",
+      "voc_plur": "φάρμακα"
+    },
+    "irregular": false
+  },
+  "πυρετός": {
+    "gender": "Αρσενικό",
+    "level": "A2",
+    "definition": "Άνοδος της θερμοκρασίας του σώματος.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο πυρετός",
+      "gen_sing": "του πυρετού",
+      "acc_sing": "τον πυρετό",
+      "voc_sing": "πυρετέ",
+      "nom_plur": "οι πυρετοί",
+      "gen_plur": "των πυρετών",
+      "acc_plur": "τους πυρετούς",
+      "voc_plur": "πυρετοί"
+    },
+    "irregular": false
+  },
+  "κρυολόγημα": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Ήπια λοίμωξη του αναπνευστικού.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουδέτερο ουσιαστικό σε '-μα' (γενική ενικού σε '-ματος', πληθυντικός σε '-ματα').",
+    "cases": {
+      "nom_sing": "το κρυολόγημα",
+      "gen_sing": "του κρυολογήματος",
+      "acc_sing": "το κρυολόγημα",
+      "voc_sing": "κρυολόγημα",
+      "nom_plur": "τα κρυολογήματα",
+      "gen_plur": "των κρυολογημάτων",
+      "acc_plur": "τα κρυολογήματα",
+      "voc_plur": "κρυολογήματα"
+    },
+    "irregular": false
+  },
+  "περιβάλλον": {
+    "gender": "Ουδέτερο",
+    "level": "B1",
+    "definition": "Το φυσικό και κοινωνικό πλαίσιο μέσα στο οποίο ζει ο άνθρωπος.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το περιβάλλον",
+      "gen_sing": "του περιβάλλοντος",
+      "acc_sing": "το περιβάλλον",
+      "voc_sing": "περιβάλλον",
+      "nom_plur": "τα περιβάλλοντα",
+      "gen_plur": "των περιβαλλόντων",
+      "acc_plur": "τα περιβάλλοντα",
+      "voc_plur": "περιβάλλοντα"
+    },
+    "irregular": false
+  },
+  "μόλυνση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Επιβάρυνση του φυσικού περιβάλλοντος από τοξικές ουσίες.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η μόλυνση",
+      "gen_sing": "της μόλυνσης",
+      "acc_sing": "τη μόλυνση",
+      "voc_sing": "μόλυνση",
+      "nom_plur": "οι μολύνσεις",
+      "gen_plur": "των μολύνσεων",
+      "acc_plur": "τις μολύνσεις",
+      "voc_plur": "μολύνσεις"
+    },
+    "irregular": false
+  },
+  "κοινωνία": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Σύνολο ανθρώπων που ζουν οργανωμένα με κοινούς κανόνες.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η κοινωνία",
+      "gen_sing": "της κοινωνίας",
+      "acc_sing": "την κοινωνία",
+      "voc_sing": "κοινωνία",
+      "nom_plur": "οι κοινωνίες",
+      "gen_plur": "των κοινωνιών",
+      "acc_plur": "τις κοινωνίες",
+      "voc_plur": "κοινωνίες"
+    },
+    "irregular": false
+  },
+  "κυβέρνηση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Το ανώτατο εκτελεστικό όργανο διοίκησης ενός κράτους.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η κυβέρνηση",
+      "gen_sing": "της κυβέρνησης",
+      "acc_sing": "την κυβέρνηση",
+      "voc_sing": "κυβέρνηση",
+      "nom_plur": "οι κυβερνήσεις",
+      "gen_plur": "των κυβερνήσεων",
+      "acc_plur": "τις κυβερνήσεις",
+      "voc_plur": "κυβερνήσεις"
+    },
+    "irregular": false
+  },
+  "οικονομία": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Το σύστημα παραγωγής, διανομής και κατανάλωσης αγαθών.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η οικονομία",
+      "gen_sing": "της οικονομίας",
+      "acc_sing": "την οικονομία",
+      "voc_sing": "οικονομία",
+      "nom_plur": "οι οικονομίες",
+      "gen_plur": "των οικονομιών",
+      "acc_plur": "τις οικονομίες",
+      "voc_plur": "οικονομίες"
+    },
+    "irregular": false
+  },
+  "επιχείρηση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Οικονομική μονάδα που παράγει αγαθά ή προσφέρει υπηρεσίες.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η επιχείρηση",
+      "gen_sing": "της επιχείρησης",
+      "acc_sing": "την επιχείρηση",
+      "voc_sing": "επιχείρηση",
+      "nom_plur": "οι επιχειρήσεις",
+      "gen_plur": "των επιχειρήσεων",
+      "acc_plur": "τις επιχειρήσεις",
+      "voc_plur": "επιχειρήσεις"
+    },
+    "irregular": false
+  },
+  "συνάδελφος": {
+    "gender": "Αρσενικό / Θηλυκό",
+    "level": "B1",
+    "definition": "Πρόσωπο που εργάζεται στον ίδιο χώρο ή επάγγελμα.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ίδια μορφή για αρσενικό και θηλυκό ('ο συνάδελφος' / 'η συνάδελφος').",
+    "cases": {
+      "nom_sing": "ο/η συνάδελφος",
+      "gen_sing": "του/της συναδέλφου",
+      "acc_sing": "τον/την συνάδελφο",
+      "voc_sing": "συνάδελφε",
+      "nom_plur": "οι συνάδελφοι",
+      "gen_plur": "των συναδέλφων",
+      "acc_plur": "τους/τις συναδέλφους",
+      "voc_plur": "συνάδελφοι"
+    },
+    "irregular": false
+  },
+  "συνάντηση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Προγραμματισμένη επαφή προσώπων για συζήτηση.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η συνάντηση",
+      "gen_sing": "της συνάντησης",
+      "acc_sing": "τη συνάντηση",
+      "voc_sing": "συνάντηση",
+      "nom_plur": "οι συναντήσεις",
+      "gen_plur": "των συναντήσεων",
+      "acc_plur": "τις συναντήσεις",
+      "voc_plur": "συναντήσεις"
+    },
+    "irregular": false
+  },
+  "καριέρα": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Επαγγελματική πορεία και εξέλιξη στη διάρκεια του βίου.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η καριέρα",
+      "gen_sing": "της καριέρας",
+      "acc_sing": "την καριέρα",
+      "voc_sing": "καριέρα",
+      "nom_plur": "οι καριέρες",
+      "gen_plur": "των καριερών",
+      "acc_plur": "τις καριέρες",
+      "voc_plur": "καριέρες"
+    },
+    "irregular": false
+  },
+  "μισθός": {
+    "gender": "Αρσενικό",
+    "level": "B1",
+    "definition": "Χρηματική αμοιβή που καταβάλλεται στον εργαζόμενο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο μισθός",
+      "gen_sing": "του μισθού",
+      "acc_sing": "τον μισθό",
+      "voc_sing": "μισθέ",
+      "nom_plur": "οι μισθοί",
+      "gen_plur": "των μισθών",
+      "acc_plur": "τους μισθούς",
+      "voc_plur": "μισθοί"
+    },
+    "irregular": false
+  },
+  "σχέση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Δεσμός ή αλληλεπίδραση μεταξύ προσώπων ή ομάδων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η σχέση",
+      "gen_sing": "της σχέσης",
+      "acc_sing": "τη σχέση",
+      "voc_sing": "σχέση",
+      "nom_plur": "οι σχέσεις",
+      "gen_plur": "των σχέσεων",
+      "acc_plur": "τις σχέσεις",
+      "voc_plur": "σχέσεις"
+    },
+    "irregular": false
+  },
+  "παρεξήγηση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Εσφαλμένη ερμηνεία των λόγων ή των πράξεων κάποιου.",
+    "antonyms": [
+      "συνεννόηση"
+    ],
+    "cases": {
+      "nom_sing": "η παρεξήγηση",
+      "gen_sing": "της παρεξήγησης",
+      "acc_sing": "την παρεξήγηση",
+      "voc_sing": "παρεξήγηση",
+      "nom_plur": "οι παρεξηγήσεις",
+      "gen_plur": "των παρεξηγήσεων",
+      "acc_plur": "τις παρεξηγήσεις",
+      "voc_plur": "παρεξηγήσεις"
+    },
+    "irregular": false
+  },
+  "απογοήτευση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Πικρό αίσθημα που προκαλείται όταν διαψεύδονται οι προσδοκίες.",
+    "antonyms": [
+      "ικανοποίηση"
+    ],
+    "cases": {
+      "nom_sing": "η απογοήτευση",
+      "gen_sing": "της απογοήτευσης",
+      "acc_sing": "την απογοήτευση",
+      "voc_sing": "απογοήτευση",
+      "nom_plur": "οι απογοητεύσεις",
+      "gen_plur": "των απογοητεύσεων",
+      "acc_plur": "τις απογοητεύσεις",
+      "voc_plur": "απογοητεύσεις"
+    },
+    "irregular": false
+  },
+  "γνώμη": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Προσωπική άποψη ή τοποθέτηση για ένα ζήτημα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η γνώμη",
+      "gen_sing": "της γνώμης",
+      "acc_sing": "τη γνώμη",
+      "voc_sing": "γνώμη",
+      "nom_plur": "οι γνώμες",
+      "gen_plur": "των γνωμών",
+      "acc_plur": "τις γνώμες",
+      "voc_plur": "γνώμες"
+    },
+    "irregular": false
+  },
+  "συζήτηση": {
+    "gender": "Θηλυκό",
+    "level": "B1",
+    "definition": "Διάλογος μεταξύ προσώπων για την ανταλλαγή αμερόληπτων απόψεων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η συζήτηση",
+      "gen_sing": "της συζήτησης",
+      "acc_sing": "τη συζήτηση",
+      "voc_sing": "συζήτηση",
+      "nom_plur": "οι συζητήσεις",
+      "gen_plur": "των συζητήσεων",
+      "acc_plur": "τις συζητήσεις",
+      "voc_plur": "συζητήσεις"
+    },
+    "irregular": false
+  },
+  "μέσα ενημέρωσης": {
+    "gender": "Ουδέτερο",
+    "level": "B1",
+    "definition": "Οργανισμοί και δίαυλοι μαζικής επικοινωνίας και ειδήσεων.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουσιαστικό σε πληθυντικό αριθμό για τα μέσα μαζικής ενημέρωσης.",
+    "cases": {
+      "nom_sing": "τα μέσα ενημέρωσης",
+      "gen_sing": "των μέσων ενημέρωσης",
+      "acc_sing": "τα μέσα ενημέρωσης",
+      "voc_sing": "μέσα ενημέρωσης",
+      "nom_plur": "τα μέσα ενημέρωσης",
+      "gen_plur": "των μέσων ενημέρωσης",
+      "acc_plur": "τα μέσα ενημέρωσης",
+      "voc_plur": "μέσα ενημέρωσης"
+    },
+    "irregular": true
+  },
+  "δίκτυο": {
+    "gender": "Ουδέτερο",
+    "level": "B1",
+    "definition": "Σύστημα διασυνδεδεμένων κόμβων, υπολογιστών ή ατόμων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το δίκτυο",
+      "gen_sing": "του δικτύου",
+      "acc_sing": "το δίκτυο",
+      "voc_sing": "δίκτυο",
+      "nom_plur": "τα δίκτυα",
+      "gen_plur": "των δικτύων",
+      "acc_plur": "τα δίκτυα",
+      "voc_plur": "δίκτυα"
+    },
+    "irregular": false
+  },
+  "ντουλάπα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μεγάλο έπιπλο με πόρτες για τη φύλαξη ρούχων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ντουλάπα",
+      "gen_sing": "της ντουλάπας",
+      "acc_sing": "τη ντουλάπα",
+      "voc_sing": "ντουλάπα",
+      "nom_plur": "οι ντουλάπες",
+      "gen_plur": "των ντουλαπών",
+      "acc_plur": "τις ντουλάπες",
+      "voc_plur": "ντουλάπες"
+    },
+    "irregular": false
+  },
+  "ράφι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Οριζόντια επιφάνεια τοποθετημένη στον τοίχο ή σε έπιπλο.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το ράφι",
+      "gen_sing": "του ραφιού",
+      "acc_sing": "το ράφι",
+      "voc_sing": "ράφι",
+      "nom_plur": "τα ράφια",
+      "gen_plur": "των ραφιών",
+      "acc_plur": "τα ράφια",
+      "voc_plur": "ράφια"
+    },
+    "irregular": false
+  },
+  "συρτάρι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Κινητό πλαίσιο επίπλου που σύρεται για φύλαξη αντικειμένων.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το συρτάρι",
+      "gen_sing": "του συρταριού",
+      "acc_sing": "το συρτάρι",
+      "voc_sing": "συρτάρι",
+      "nom_plur": "τα συρτάρια",
+      "gen_plur": "των συρταριών",
+      "acc_plur": "τα συρτάρια",
+      "voc_plur": "συρτάρια"
+    },
+    "irregular": false
+  },
+  "λάμπα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Συσκευή παραγωγής τεχνητού φωτός.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η λάμπα",
+      "gen_sing": "της λάμπας",
+      "acc_sing": "τη λάμπα",
+      "voc_sing": "λάμπα",
+      "nom_plur": "οι λάμπες",
+      "gen_plur": "των λαμπών",
+      "acc_plur": "τις λάμπες",
+      "voc_plur": "λάμπες"
+    },
+    "irregular": false
+  },
+  "καναπές": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Άνετο έπιπλο για να κάθονται περισσότερα από ένα άτομα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "ο καναπές",
+      "gen_sing": "του καναπέ",
+      "acc_sing": "τον καναπέ",
+      "voc_sing": "καναπέ",
+      "nom_plur": "οι καναπέδες",
+      "gen_plur": "των καναπέδων",
+      "acc_plur": "τους καναπέδες",
+      "voc_plur": "καναπέδες"
+    },
+    "irregular": false
+  },
+  "λαχανικό": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Βρώσιμο φυτό ή μέρος φυτού που καλλιεργείται στον κήπο.",
+    "antonyms": [
+      "φρούτο"
+    ],
+    "cases": {
+      "nom_sing": "το λαχανικό",
+      "gen_sing": "του λαχανικού",
+      "acc_sing": "το λαχανικό",
+      "voc_sing": "λαχανικό",
+      "nom_plur": "τα λαχανικά",
+      "gen_plur": "των λαχανικών",
+      "acc_plur": "τα λαχανικά",
+      "voc_plur": "λαχανικά"
+    },
+    "irregular": false
+  },
+  "ρύζι": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Δημητριακός καρπός που μαγειρεύεται και τρώγεται βραστός.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το ρύζι",
+      "gen_sing": "του ρυζιού",
+      "acc_sing": "το ρύζι",
+      "voc_sing": "ρύζι",
+      "nom_plur": "τα ρύζια",
+      "gen_plur": "των ρυζιών",
+      "acc_plur": "τα ρύζια",
+      "voc_plur": "ρύζια"
+    },
+    "irregular": false
+  },
+  "ζυμαρικά": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Τρόφιμα παρασκευασμένα από ζύμη σιμιγδαλιού (μακαρόνια, σπαγγέτι).",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουσιαστικό σε πληθυντικό αριθμό για τα ζυμαρικά / μακαρόνια.",
+    "cases": {
+      "nom_sing": "τα ζυμαρικά",
+      "gen_sing": "των ζυμαρικών",
+      "acc_sing": "τα ζυμαρικά",
+      "voc_sing": "ζυμαρικά",
+      "nom_plur": "τα ζυμαρικά",
+      "gen_plur": "των ζυμαρικών",
+      "acc_plur": "τα ζυμαρικά",
+      "voc_plur": "ζυμαρικά"
+    },
+    "irregular": false
+  },
+  "αυγό": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Τρόφιμο που γεννά η κοτόπουλα και χρησιμοποιείται στη μαγειρική.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το αυγό",
+      "gen_sing": "του αυγού",
+      "acc_sing": "το αυγό",
+      "voc_sing": "αυγό",
+      "nom_plur": "τα αυγά",
+      "gen_plur": "των αυγών",
+      "acc_plur": "τα αυγά",
+      "voc_plur": "αυγά"
+    },
+    "irregular": false
+  },
+  "ποδήλατο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Δίκυκλο όχημα μεταφοράς που κινείται με πετάλια.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το ποδήλατο",
+      "gen_sing": "του ποδηλάτου",
+      "acc_sing": "το ποδήλατο",
+      "voc_sing": "ποδήλατο",
+      "nom_plur": "τα ποδήλατα",
+      "gen_plur": "των ποδηλάτων",
+      "acc_plur": "τα ποδήλατα",
+      "voc_plur": "ποδήλατα"
+    },
+    "irregular": false
+  },
+  "λεωφορείο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Μεγάλο όχημα δημόσιας συγκοινωνίας για τη μεταφορά επιβατών.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "το λεωφορείο",
+      "gen_sing": "του λεωφορείου",
+      "acc_sing": "το λεωφορείο",
+      "voc_sing": "λεωφορείο",
+      "nom_plur": "τα λεωφορεία",
+      "gen_plur": "των λεωφορείων",
+      "acc_plur": "τα λεωφορεία",
+      "voc_plur": "λεωφορεία"
+    },
+    "irregular": false
+  },
+  "μηχανή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Δίκυκλο μηχανοκίνητο όχημα μεταφοράς (μοτοσικλέτα).",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η μηχανή",
+      "gen_sing": "της μηχανής",
+      "acc_sing": "τη μηχανή",
+      "voc_sing": "μηχανή",
+      "nom_plur": "οι μηχανές",
+      "gen_plur": "των μηχανών",
+      "acc_plur": "τις μηχανές",
+      "voc_plur": "μηχανές"
+    },
+    "irregular": false
+  },
+  "ταξί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Επιβατικό αυτοκίνητο δημόσιας χρήσης με ναύλο.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Άκλιτο ουσιαστικό — η μορφή παραμένει ίδια σε όλες τις πτώσεις.",
+    "cases": {
+      "nom_sing": "το ταξί",
+      "gen_sing": "του ταξί",
+      "acc_sing": "το ταξί",
+      "voc_sing": "ταξί",
+      "nom_plur": "τα ταξί",
+      "gen_plur": "των ταξί",
+      "acc_plur": "τα ταξί",
+      "voc_plur": "ταξί"
+    },
+    "irregular": true
+  },
+  "μαθηματικά": {
+    "gender": "Ουδέτερο",
+    "level": "A2",
+    "definition": "Επιστήμη των αριθμών, των σχημάτων και των λογικών υπολογισμών.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουσιαστικό σε πληθυντικό αριθμό (pluralia tantum) για τη σχολική επιστήμη.",
+    "cases": {
+      "nom_sing": "τα μαθηματικά",
+      "gen_sing": "των μαθηματικών",
+      "acc_sing": "τα μαθηματικά",
+      "voc_sing": "μαθηματικά",
+      "nom_plur": "τα μαθηματικά",
+      "gen_plur": "των μαθηματικών",
+      "acc_plur": "τα μαθηματικά",
+      "voc_plur": "μαθηματικά"
+    },
+    "irregular": false
+  },
+  "ιστορία": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Επιστήμη που μελετά και καταγράφει το παρελθόν της ανθρωπότητας.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ιστορία",
+      "gen_sing": "της ιστορίας",
+      "acc_sing": "την ιστορία",
+      "voc_sing": "ιστορία",
+      "nom_plur": "οι ιστορίες",
+      "gen_plur": "των ιστοριών",
+      "acc_plur": "τις ιστορίες",
+      "voc_plur": "ιστορίες"
+    },
+    "irregular": false
+  },
+  "γεωγραφία": {
+    "gender": "Θηλυκό",
+    "level": "A2",
+    "definition": "Επιστήμη της μελέτης της επιφάνειας της Γης και των φαινομένων της.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η γεωγραφία",
+      "gen_sing": "της γεωγραφίας",
+      "acc_sing": "τη γεωγραφία",
+      "voc_sing": "γεωγραφία",
+      "nom_plur": "οι γεωγραφίες",
+      "gen_plur": "των γεωγραφιών",
+      "acc_plur": "τις γεωγραφίες",
+      "voc_plur": "γεωγραφίες"
+    },
+    "irregular": false
+  },
+  "επώνυμο": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Το οικογενειακό όνομα που κληρονομείται από τους γονείς.",
+    "antonyms": [
+      "όνομα"
+    ],
+    "cases": {
+      "nom_sing": "το επώνυμο",
+      "gen_sing": "του επωνύμου",
+      "acc_sing": "το επώνυμο",
+      "voc_sing": "επώνυμο",
+      "nom_plur": "τα επώνυμα",
+      "gen_plur": "των επωνύμων",
+      "acc_plur": "τα επώνυμα",
+      "voc_plur": "επώνυμα"
+    },
+    "irregular": false
+  },
+  "ηλικία": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ο αριθμός των ετών που έχει ζήσει ένα άτομο από τη γέννησή του.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ηλικία",
+      "gen_sing": "της ηλικίας",
+      "acc_sing": "την ηλικία",
+      "voc_sing": "ηλικία",
+      "nom_plur": "οι ηλικίες",
+      "gen_plur": "των ηλικιών",
+      "acc_plur": "τις ηλικίες",
+      "voc_plur": "ηλικίες"
+    },
+    "irregular": false
+  },
+  "διεύθυνση": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Πληροφορίες τόπου κατοικίας με οδό, αριθμό και ταχυδρομικό κώδικα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η διεύθυνση",
+      "gen_sing": "της διεύθυνσης",
+      "acc_sing": "τη διεύθυνση",
+      "voc_sing": "διεύθυνση",
+      "nom_plur": "οι διευθύνσεις",
+      "gen_plur": "των διευθύνσεων",
+      "acc_plur": "τις διευθύνσεις",
+      "voc_plur": "διευθύνσεις"
+    },
+    "irregular": false
+  },
+  "γενέθλια": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Η ετήσια επέτειος της ημέρας γέννησης ενός ατόμου.",
+    "antonyms": [],
+    "grammar_rule": "💡 REMEMBER: Ουσιαστικό μόνο στον πληθυντικό αριθμό (pluralia tantum).",
+    "cases": {
+      "nom_sing": "τα γενέθλια",
+      "gen_sing": "των γενεθλίων",
+      "acc_sing": "τα γενέθλια",
+      "voc_sing": "γενέθλια",
+      "nom_plur": "τα γενέθλια",
+      "gen_plur": "των γενεθλίων",
+      "acc_plur": "τα γενέθλια",
+      "voc_plur": "γενέθλια"
+    },
+    "irregular": false
+  },
+  "λίμνη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Μεγάλη φυσική συγκέντρωση νερού στην ξηρά.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η λίμνη",
+      "gen_sing": "της λίμνης",
+      "acc_sing": "τη λίμνη",
+      "voc_sing": "λίμνη",
+      "nom_plur": "οι λίμνες",
+      "gen_plur": "των λιμνών",
+      "acc_plur": "τις λίμνες",
+      "voc_plur": "λίμνες"
+    },
+    "irregular": false
+  },
+  "νησί": {
+    "gender": "Ουδέτερο",
+    "level": "A1",
+    "definition": "Έκταση ξηράς που περιβάλλεται πλήρως από νερό.",
+    "antonyms": [
+      "ήπειρος"
+    ],
+    "cases": {
+      "nom_sing": "το νησί",
+      "gen_sing": "του νησιού",
+      "acc_sing": "το νησί",
+      "voc_sing": "νησί",
+      "nom_plur": "τα νησιά",
+      "gen_plur": "των νησιών",
+      "acc_plur": "τα νησιά",
+      "voc_plur": "νησιά"
+    },
+    "irregular": false
+  },
+  "έρημος": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Εκτεταμένη αμμώδης ή ξερή περιοχή χωρίς νερό.",
+    "antonyms": [
+      "δάσος"
+    ],
+    "grammar_rule": "💡 REMEMBER: Θηλυκό ουσιαστικό σε '-ος' ('η έρημος').",
+    "cases": {
+      "nom_sing": "η έρημος",
+      "gen_sing": "της ερήμου",
+      "acc_sing": "την έρημο",
+      "voc_sing": "έρημε",
+      "nom_plur": "οι έρημοι",
+      "gen_plur": "των ερήμων",
+      "acc_plur": "τις ερήμους",
+      "voc_plur": "έρημοι"
+    },
+    "irregular": false
+  },
+  "κοιλάδα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Χαμηλή έκταση γης ανάμεσα σε βουνά.",
+    "antonyms": [
+      "βουνό"
+    ],
+    "cases": {
+      "nom_sing": "η κοιλάδα",
+      "gen_sing": "της κοιλάδας",
+      "acc_sing": "την κοιλάδα",
+      "voc_sing": "κοιλάδα",
+      "nom_plur": "οι κοιλάδες",
+      "gen_plur": "των κοιλάδων",
+      "acc_plur": "τις κοιλάδες",
+      "voc_plur": "κοιλάδες"
+    },
+    "irregular": false
+  },
+  "λόφος": {
+    "gender": "Αρσενικό",
+    "level": "A1",
+    "definition": "Φυσικό ύψωμα του εδάφους χαμηλότερο από βουνό.",
+    "antonyms": [
+      "κοιλάδα"
+    ],
+    "cases": {
+      "nom_sing": "ο λόφος",
+      "gen_sing": "του λόφου",
+      "acc_sing": "τον λόφο",
+      "voc_sing": "λόφε",
+      "nom_plur": "οι λόφοι",
+      "gen_plur": "των λόφων",
+      "acc_plur": "τους λόφους",
+      "voc_plur": "λόφοι"
+    },
+    "irregular": false
+  },
+  "καταιγίδα": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Έντονο και βίαιο καιρικό φαινόμενο με βροχή και αστραπές.",
+    "antonyms": [
+      "νηνεμία"
+    ],
+    "cases": {
+      "nom_sing": "η καταιγίδα",
+      "gen_sing": "της καταιγίδας",
+      "acc_sing": "την καταιγίδα",
+      "voc_sing": "καταιγίδα",
+      "nom_plur": "οι καταιγίδες",
+      "gen_plur": "των καταιγίδων",
+      "acc_plur": "τις καταιγίδες",
+      "voc_plur": "καταιγίδες"
+    },
+    "irregular": false
+  },
+  "βροντή": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Ο δυνατός ήχος που ακούγεται κατά την αστραπή.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η βροντή",
+      "gen_sing": "της βροντής",
+      "acc_sing": "τη βροντή",
+      "voc_sing": "βροντή",
+      "nom_plur": "οι βροντές",
+      "gen_plur": "των βροντών",
+      "acc_plur": "τις βροντές",
+      "voc_plur": "βροντές"
+    },
+    "irregular": false
+  },
+  "ομίχλη": {
+    "gender": "Θηλυκό",
+    "level": "A1",
+    "definition": "Σύννεφο κοντά στην επιφάνεια του εδάφους που μειώνει την ορατότητα.",
+    "antonyms": [],
+    "cases": {
+      "nom_sing": "η ομίχλη",
+      "gen_sing": "της ομίχλης",
+      "acc_sing": "την ομίχλη",
+      "voc_sing": "ομίχλη",
+      "nom_plur": "οι ομίχλες",
+      "gen_plur": "των ομιχλών",
+      "acc_plur": "τις ομίχλες",
+      "voc_plur": "ομίχλες"
+    },
+    "irregular": false
+  }
+}

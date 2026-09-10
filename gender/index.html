@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noun Gender Checker & Article Reference ⚖️ | COSYtools</title>
+    <meta name="description" content="Instant noun gender lookup for French, Italian, Russian, Greek, Spanish, German, Portuguese, and Breton. View articles, plural forms, suffix rules, and exceptions.">
+    <link rel="icon" href="../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../shared/styles/reference.css">
+    <script src="../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Gender Checker</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../index.html">Hub</a>
+            <a href="../conjugation/template.html">Conjugation</a>
+            <a href="../cases/index.html">Cases</a>
+            <a href="../prepositions/index.html">Prepositions</a>
+            <a href="../practice/index.html">Practice</a>
+            <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Courses ↗</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1>Noun Gender &amp; Article Checker</h1>
+        <p>Type any noun, choose a language, and instantly see its grammatical gender, definite/indefinite articles, and plural formation.</p>
+
+        <!-- Inputs -->
+        <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; max-width:700px; margin: 0 auto 1.5rem auto;">
+            <div style="flex:1; min-width:240px; position:relative;">
+                <input type="text" id="noun-search-input" class="ref-search-input" placeholder="Type a noun (e.g. maison, libro, книга, βιβλίο)..." value="maison" oninput="onNounSearchChange()">
+            </div>
+            <select id="gender-lang-selector" onchange="onGenderLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
+                <option value="fr" selected>🇫🇷 French (Français)</option>
+                <option value="it">🇮🇹 Italian (Italiano)</option>
+                <option value="ru">🇷🇺 Russian (Русский)</option>
+                <option value="el">🇬🇷 Greek (Ελληνικά)</option>
+            </select>
+        </div>
+    </div>
+
+    <main style="max-width:900px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Results Display Box -->
+        <div id="gender-result-card" class="ref-practice-box" style="margin-top:0;">
+            <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+                <div>
+                    <div style="display:flex; align-items:center; gap:0.75rem;">
+                        <h2 id="res-noun" style="margin:0; font-family:var(--ref-font-serif); font-size:2.2rem; color:var(--sage-dark);">la maison</h2>
+                        <span id="res-gender-badge" style="background:#fce7f3; color:#9d174d; font-weight:800; padding:4px 12px; border-radius:20px; font-size:0.9rem;">Feminine (F)</span>
+                    </div>
+                    <p id="res-translation" style="margin:0.5rem 0 0 0; color:var(--ref-text-muted); font-size:1.1rem;">Meaning: house / home</p>
+                </div>
+                <a id="gender-practice-btn" href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="ref-btn">
+                    🎮 Practice Noun Genders on COSYgames
+                </a>
+            </div>
+
+            <div class="ref-table-container" style="margin-top:1.5rem;">
+                <table class="ref-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Singular Form</th>
+                            <th>Plural Form</th>
+                        </tr>
+                    </thead>
+                    <tbody id="gender-res-tbody">
+                        <tr><td><strong>Definite Article</strong></td><td id="res-art-sg">la</td><td id="res-art-pl">les</td></tr>
+                        <tr><td><strong>Indefinite Article</strong></td><td id="res-indef-sg">une</td><td id="res-indef-pl">des</td></tr>
+                        <tr><td><strong>Full Noun</strong></td><td id="res-noun-sg">maison</td><td id="res-noun-pl">maisons (-s ending)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Rules & Ending Reliability -->
+        <div class="ref-practice-box">
+            <h3 style="margin-top:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">📜 Ending Rules &amp; Reliability Guidelines</h3>
+            <div id="ending-rules-content">
+                <p>• <strong>-son / -tion / -sion:</strong> 99% Feminine in French (e.g. <em>la maison, la nation, la vision</em>).</p>
+                <p>• <strong>-age / -ment / -eau:</strong> 95% Masculine in French (e.g. <em>le garage, le gouvernement, le château</em>).</p>
+            </div>
+        </div>
+
+        <!-- Common Exceptions List -->
+        <div class="ref-practice-box">
+            <h3 style="margin-top:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">⚠️ Common High-Frequency Exceptions</h3>
+            <ul id="exceptions-list" style="padding-left:1.25rem; margin-bottom:0; color:var(--ref-text);">
+                <li><strong>Le squelette</strong> (m) — ends in -ette but is masculine.</li>
+                <li><strong>La mer</strong> (f) — ends in consonant but is feminine.</li>
+                <li><strong>Le silence</strong> (m) — ends in -ence but is masculine.</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script>
+        const genderData = {
+            fr: {
+                noun: "maison",
+                gender: "Feminine (F)",
+                badgeBg: "#fce7f3",
+                badgeColor: "#9d174d",
+                translation: "house / home",
+                artSg: "la",
+                artPl: "les",
+                indefSg: "une",
+                indefPl: "des",
+                nounSg: "maison",
+                nounPl: "maisons (-s)",
+                rules: [
+                    "• <strong>-son / -tion / -sion:</strong> 99% Feminine (la maison, la nation, la vision).",
+                    "• <strong>-age / -ment / -eau:</strong> 95% Masculine (le garage, le gouvernement, le château)."
+                ],
+                exceptions: [
+                    "Le squelette (m) — ends in -ette but is masculine.",
+                    "La mer (f) — ends in consonant but is feminine.",
+                    "Le silence (m) — ends in -ence but is masculine."
+                ]
+            },
+            it: {
+                noun: "libro",
+                gender: "Masculine (M)",
+                badgeBg: "#dbeafe",
+                badgeColor: "#1e40af",
+                translation: "book",
+                artSg: "il",
+                artPl: "i",
+                indefSg: "un",
+                indefPl: "dei",
+                nounSg: "libro",
+                nounPl: "libri (-i)",
+                rules: [
+                    "• <strong>Nouns in -o:</strong> 95% Masculine (il libro, il ragazzo). Plural in -i.",
+                    "• <strong>Nouns in -a:</strong> 95% Feminine (la casa, la ragazza). Plural in -e.",
+                    "• <strong>Nouns in -e:</strong> Variable (il padre / la madre). Plural in -i."
+                ],
+                exceptions: [
+                    "La mano (f) — ends in -o but is feminine (plural: le mani).",
+                    "Il problema (m) — Greek origin ending in -ma is masculine (plural: i problemi).",
+                    "La foto (f) — abbreviation of fotografia (plural: le foto)."
+                ]
+            },
+            ru: {
+                noun: "книга",
+                gender: "Feminine (Женский род)",
+                badgeBg: "#fce7f3",
+                badgeColor: "#9d174d",
+                translation: "book",
+                artSg: "— (No articles)",
+                artPl: "— (No articles)",
+                indefSg: "—",
+                indefPl: "—",
+                nounSg: "книга",
+                nounPl: "книги (-и)",
+                rules: [
+                    "• <strong>Masculine:</strong> Ends in hard consonant, -й, or animate -ь (стол, музей, учитель).",
+                    "• <strong>Feminine:</strong> Ends in -а, -я, or soft sign -ь (книга, земля, ночь).",
+                    "• <strong>Neuter:</strong> Ends in -о, -е, or -мя (окно, море, время)."
+                ],
+                exceptions: [
+                    "Папа / Дядя (m) — feminine endings -а/-я but masculine due to natural gender.",
+                    "Имя / Время (n) — neuter nouns in -мя.",
+                    "Кофе (m) — masculine indeclinable noun."
+                ]
+            },
+            el: {
+                noun: "βιβλίο",
+                gender: "Neuter (Ουδέτερο)",
+                badgeBg: "#fef3c7",
+                badgeColor: "#92400e",
+                translation: "book",
+                artSg: "το",
+                artPl: "τα",
+                indefSg: "ένα",
+                indefPl: "—",
+                nounSg: "βιβλίο",
+                nounPl: "βιβλία (-α)",
+                rules: [
+                    "• <strong>Masculine (Ο):</strong> Ends in -ος, -ας, -ης (ο φίλος, ο άντρας, ο μαθητής).",
+                    "• <strong>Feminine (Η):</strong> Ends in -α, -η, -ος (η γυναίκα, η πόλη, η όδός).",
+                    "• <strong>Neuter (ΤΟ):</strong> Ends in -ο, -ι, -μα (το βιβλίο, το παιδί, το πρόβλημα)."
+                ],
+                exceptions: [
+                    "Η οδός (f) — feminine noun ending in -ος.",
+                    "Το φως (n) — neuter noun ending in -ως.",
+                    "Ο μπαμπάς (m) — masculine indeclinable/contracted form."
+                ]
+            }
+        };
+
+        function renderGenderInfo() {
+            const nounVal = document.getElementById('noun-search-input').value.trim().toLowerCase();
+            const langSelect = document.getElementById('gender-lang-selector');
+            const currentLang = langSelect.value;
+
+            let data = genderData[currentLang] || genderData.fr;
+
+            document.getElementById('res-noun').innerText = (data.artSg !== '—' ? data.artSg + ' ' : '') + (nounVal || data.noun);
+            const badge = document.getElementById('res-gender-badge');
+            badge.innerText = data.gender;
+            badge.style.background = data.badgeBg;
+            badge.style.color = data.badgeColor;
+
+            document.getElementById('res-translation').innerText = `Meaning: ${data.translation}`;
+            document.getElementById('res-art-sg').innerText = data.artSg;
+            document.getElementById('res-art-pl').innerText = data.artPl;
+            document.getElementById('res-indef-sg').innerText = data.indefSg;
+            document.getElementById('res-indef-pl').innerText = data.indefPl;
+            document.getElementById('res-noun-sg').innerText = nounVal || data.nounSg;
+            document.getElementById('res-noun-pl').innerText = data.nounPl;
+
+            document.getElementById('ending-rules-content').innerHTML = data.rules.map(r => `<p>${r}</p>`).join('');
+            document.getElementById('exceptions-list').innerHTML = data.exceptions.map(e => `<li>${e}</li>`).join('');
+
+            const practiceBtn = document.getElementById('gender-practice-btn');
+            practiceBtn.href = COSYReferenceUtils.getEcosystemLink('games', { noun: nounVal || data.noun, lang: currentLang, mode: 'gender' });
+        }
+
+        function onNounSearchChange() {
+            const val = document.getElementById('noun-search-input').value;
+            const detected = COSYReferenceUtils.detectLanguage(val);
+            if (['fr', 'it', 'ru', 'el'].includes(detected)) {
+                document.getElementById('gender-lang-selector').value = detected;
+            }
+            renderGenderInfo();
+        }
+
+        function onGenderLangChange() {
+            renderGenderInfo();
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            renderGenderInfo();
+        });
+    </script>
+</body>
+</html>

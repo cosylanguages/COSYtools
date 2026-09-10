@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weak Spots Tracker &amp; SRS Review 🎯 | COSYtools</title>
+    <meta name="description" content="Review saved weak spots and missed items using spaced repetition principles.">
+    <link rel="icon" href="../../shared/images/cosylanguages.png">
+    <link rel="stylesheet" href="../../shared/styles/reference.css">
+    <script src="../../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:600;">Practice</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Weak Spots</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../../index.html">Hub</a>
+            <a href="../index.html">Practice Hub</a>
+            <a href="../quick-drills/index.html">Quick Drills</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero">
+        <h1>Weak Spots Tracker &amp; SRS Deck</h1>
+        <p>Review items that need extra practice based on your past quiz performance.</p>
+    </div>
+
+    <main style="max-width:800px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+        <div id="weak-spots-list">
+            <!-- Rendered dynamically -->
+        </div>
+    </main>
+
+    <script>
+        function renderWeakSpotsList() {
+            const container = document.getElementById('weak-spots-list');
+            const spots = COSYReferenceUtils.getWeakSpots();
+
+            if (!spots || spots.length === 0) {
+                container.innerHTML = `
+                    <div class="ref-practice-box" style="text-align:center;">
+                        <h3>🎉 No Weak Spots Registered!</h3>
+                        <p style="color:var(--ref-text-muted)">You have not missed any items recently or have cleared all saved items.</p>
+                        <a href="../quick-drills/index.html" class="ref-btn">Try Quick Drills ⚡</a>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = spots.map(s => `
+                <div class="ref-practice-box">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark)">${s.prompt || s.id}</h3>
+                        <span style="background:#fee2e2; color:#991b1b; font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">Failed ${s.failCount || 1}x</span>
+                    </div>
+                    <p style="margin:0.5rem 0; color:var(--ref-text);">Expected Answer: <strong>${s.answer}</strong></p>
+                    <button class="ref-btn ref-btn-secondary" style="padding:0.4rem 0.8rem; font-size:0.85rem;" onclick="masterItem('${s.id}', '${s.lang}')">Mark as Mastered ✓</button>
+                </div>
+            `).join('');
+        }
+
+        function masterItem(id, lang) {
+            COSYReferenceUtils.removeWeakSpot(id, lang);
+            renderWeakSpotsList();
+        }
+
+        window.addEventListener('DOMContentLoaded', renderWeakSpotsList);
+    </script>
+</body>
+</html>

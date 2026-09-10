@@ -1,0 +1,305 @@
+/* COSYtools Shared Reference & Engine Styles */
+@import url('../css/cosy-tokens.css');
+@import url('../css/tokens.css');
+@import url('../css/base.css');
+@import url('../css/components.css');
+@import url('../css/layout.css');
+@import url('../css/cosy-icons.css');
+
+:root {
+  --ref-primary: var(--sage);
+  --ref-primary-dark: var(--sage-dark);
+  --ref-accent: var(--accent);
+  --ref-bg: var(--paper-bg);
+  --ref-surface: var(--surface-color);
+  --ref-border: var(--border);
+  --ref-text: var(--ink);
+  --ref-text-muted: var(--ink-soft);
+  --ref-font-serif: var(--font-serif, "Fraunces", Georgia, serif);
+  --ref-font-sans: var(--font-sans, "DM Sans", -apple-system, sans-serif);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--ref-font-sans);
+  background-color: var(--ref-bg);
+  color: var(--ref-text);
+  line-height: 1.6;
+}
+
+/* Header & Nav */
+.ref-header {
+  background: var(--ref-surface);
+  border-bottom: 1px solid var(--ref-border);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.ref-nav-links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.ref-nav-links a {
+  color: var(--ref-text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.ref-nav-links a:hover,
+.ref-nav-links a.active {
+  color: var(--ref-primary-dark);
+}
+
+/* Hero Section */
+.ref-hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ref-hero h1 {
+  font-family: var(--ref-font-serif);
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--ref-text);
+}
+
+.ref-hero p {
+  font-size: 1.15rem;
+  color: var(--ref-text-muted);
+  max-width: 680px;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* Search Bar */
+.ref-search-container {
+  max-width: 640px;
+  margin: 0 auto 2.5rem auto;
+  position: relative;
+}
+
+.ref-search-input {
+  width: 100%;
+  padding: 1rem 1.25rem 1rem 3rem;
+  font-size: 1.1rem;
+  border-radius: 14px;
+  border: 2px solid var(--ref-border);
+  background: var(--warm-white, #ffffff);
+  color: var(--ref-text);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.ref-search-input:focus {
+  outline: none;
+  border-color: var(--ref-primary-dark);
+  box-shadow: 0 0 0 4px var(--sage-mist, rgba(65,107,73,0.15));
+}
+
+.ref-search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: var(--ref-text-muted);
+  pointer-events: none;
+}
+
+/* Category Grid & Cards */
+.ref-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem 1.5rem;
+}
+
+.ref-card {
+  background: var(--ref-surface);
+  border: 1px solid var(--ref-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.ref-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-color: var(--ref-primary);
+}
+
+.ref-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.ref-card-icon {
+  font-size: 2rem;
+}
+
+.ref-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--ref-text);
+}
+
+.ref-card-desc {
+  font-size: 0.95rem;
+  color: var(--ref-text-muted);
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+/* Tables */
+.ref-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  background: var(--ref-surface);
+  border-radius: 12px;
+  border: 1px solid var(--ref-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ref-table th,
+.ref-table td {
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--ref-border);
+}
+
+.ref-table th {
+  background: var(--sage-mist, #eef4f0);
+  color: var(--ref-primary-dark);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ref-table tr:last-child td {
+  border-bottom: none;
+}
+
+.ref-table tr.clickable {
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.ref-table tr.clickable:hover {
+  background: var(--sage-pale, #f4f8f5);
+}
+
+/* Practice & Quiz Box */
+.ref-practice-box {
+  background: var(--ref-surface);
+  border: 1px solid var(--ref-border);
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.ref-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background: var(--ref-primary);
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.ref-btn:hover {
+  background: var(--ref-primary-dark);
+  transform: translateY(-1px);
+}
+
+.ref-btn-secondary {
+  background: transparent;
+  color: var(--ref-primary-dark);
+  border: 2px solid var(--ref-primary);
+}
+
+.ref-btn-secondary:hover {
+  background: var(--sage-mist);
+}
+
+/* Footer Banner */
+.ref-promo-banner {
+  background: linear-gradient(135deg, var(--sage-dark) 0%, var(--sage) 100%);
+  color: #ffffff;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-radius: 16px;
+  margin: 3rem 1.5rem;
+}
+
+.ref-promo-banner h2 {
+  font-family: var(--ref-font-serif);
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.ref-promo-banner p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  opacity: 0.95;
+}
+
+.ref-promo-banner a {
+  display: inline-block;
+  background: #ffffff;
+  color: var(--sage-dark);
+  font-weight: 800;
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.ref-promo-banner a:hover {
+  background: var(--warm-white, #fdf8f0);
+}
+
+@media (max-width: 768px) {
+  .ref-hero h1 { font-size: 1.8rem; }
+  .ref-nav-links { gap: 0.75rem; font-size: 0.85rem; }
+  .ref-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Drills ⚡ | COSYtools</title>
+    <meta name="description" content="Rapid-fire grammar drills for verb conjugations, noun genders, case declensions, and preposition rules.">
+    <link rel="icon" href="../../shared/images/cosylanguages.png">
+    <link rel="stylesheet" href="../../shared/styles/reference.css">
+    <script src="../../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:600;">Practice</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Quick Drills</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../../index.html">Hub</a>
+            <a href="../index.html">Practice Hub</a>
+            <a href="../weak-spots/index.html">Weak Spots</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero">
+        <h1>Quick Drills Trainer</h1>
+        <p>Rapid-fire practice questions designed to reinforce automatic retrieval of key grammar rules.</p>
+    </div>
+
+    <main style="max-width:800px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+        <div class="ref-practice-box" style="text-align:center;">
+            <h2 id="qd-question" style="font-family:var(--ref-font-serif); color:var(--sage-dark)">Loading question...</h2>
+            <div id="qd-options" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; max-width:500px; margin:1.5rem auto;">
+                <!-- Options buttons rendered dynamically -->
+            </div>
+            <div id="qd-feedback" style="margin-top:1rem; font-weight:700;"></div>
+        </div>
+    </main>
+
+    <script>
+        const questions = [
+            { q: "What is the past simple (V2) of 'speak'?", opts: ["speaks", "spoke", "spoken", "speaking"], ans: "spoke" },
+            { q: "What is the gender of 'la maison' in French?", opts: ["Masculine", "Feminine", "Neuter", "Plural"], ans: "Feminine" },
+            { q: "Which case is used for direction in Russian with 'в'?", opts: ["Nominative", "Genitive", "Accusative", "Instrumental"], ans: "Accusative" },
+            { q: "What preposition follows 'depend' in English?", opts: ["of", "to", "on", "from"], ans: "on" }
+        ];
+
+        let qIdx = 0;
+
+        function renderQD() {
+            const current = questions[qIdx % questions.length];
+            document.getElementById('qd-question').innerText = current.q;
+            const optsContainer = document.getElementById('qd-options');
+            optsContainer.innerHTML = '';
+            document.getElementById('qd-feedback').innerText = '';
+
+            current.opts.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'ref-btn ref-btn-secondary';
+                btn.innerText = opt;
+                btn.onclick = () => checkQD(opt, current.ans);
+                optsContainer.appendChild(btn);
+            });
+        }
+
+        function checkQD(selected, correct) {
+            const feedback = document.getElementById('qd-feedback');
+            if (selected === correct) {
+                feedback.style.color = '#166534';
+                feedback.innerText = '✅ Correct!';
+            } else {
+                feedback.style.color = '#991b1b';
+                feedback.innerText = `❌ Incorrect. Correct answer: ${correct}`;
+            }
+            setTimeout(() => {
+                qIdx++;
+                renderQD();
+            }, 1500);
+        }
+
+        window.addEventListener('DOMContentLoaded', renderQD);
+    </script>
+</body>
+</html>
