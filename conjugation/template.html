@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verb Conjugation Engine Template 📜 | COSYtools</title>
+    <meta name="description" content="Offline multi-language verb conjugation reference engine. View complete tense tables, grammar rules, and practice drills.">
+    <link rel="icon" href="../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../shared/styles/reference.css">
+    <script src="../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Conjugation Engine</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../index.html">Hub</a>
+            <a href="../gender/index.html">Gender</a>
+            <a href="../cases/index.html">Cases</a>
+            <a href="../prepositions/index.html">Prepositions</a>
+            <a href="../practice/index.html">Practice</a>
+            <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Courses ↗</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1>Verb Conjugation Reference Engine</h1>
+        <p>Type any verb, select a target language, and view complete conjugation tables across all moods and tenses.</p>
+
+        <!-- Controls Bar -->
+        <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; max-width:700px; margin: 0 auto 1.5rem auto;">
+            <div style="flex:1; min-width:240px; position:relative;">
+                <input type="text" id="verb-search-input" class="ref-search-input" placeholder="Type a verb (e.g. speak, parler, parlare, читать, γράφω)..." value="speak" oninput="onVerbSearchChange()">
+            </div>
+            <select id="lang-selector" onchange="onLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
+                <option value="en" selected>🇬🇧 English</option>
+                <option value="fr">🇫🇷 French (Français)</option>
+                <option value="it">🇮🇹 Italian (Italiano)</option>
+                <option value="ru">🇷🇺 Russian (Русский)</option>
+                <option value="el">🇬🇷 Greek (Ελληνικά)</option>
+            </select>
+        </div>
+
+        <!-- Tense Filters -->
+        <div id="tense-filter-row" style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin-bottom:1.5rem;">
+            <button class="vbtn active" onclick="filterTense('all', this)">All Tenses</button>
+            <button class="vbtn" onclick="filterTense('present', this)">Present</button>
+            <button class="vbtn" onclick="filterTense('past', this)">Past / Preterite</button>
+            <button class="vbtn" onclick="filterTense('future', this)">Future</button>
+            <button class="vbtn" onclick="filterTense('subjunctive', this)">Subjunctive / Conditional</button>
+        </div>
+    </div>
+
+    <main style="max-width:900px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Result Verb Header -->
+        <div id="verb-info-card" class="ref-practice-box" style="margin-top:0;">
+            <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+                <div>
+                    <h2 id="verb-title" style="margin:0 0 0.25rem 0; font-family:var(--ref-font-serif); font-size:2rem; color:var(--sage-dark)">speak</h2>
+                    <p id="verb-subtitle" style="margin:0; color:var(--ref-text-muted); font-size:1.05rem;">Meaning: to utter words / talk | CEFR Level: A1</p>
+                </div>
+                <a id="practice-verb-btn" href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="ref-btn">
+                    🎮 Practice this verb on COSYgames
+                </a>
+            </div>
+        </div>
+
+        <!-- Conjugation Results Table -->
+        <div class="ref-table-container">
+            <table class="ref-table">
+                <thead>
+                    <tr>
+                        <th>Pronoun / Person</th>
+                        <th>Present Tense</th>
+                        <th>Past Tense</th>
+                        <th>Perfect / Future Tense</th>
+                    </tr>
+                </thead>
+                <tbody id="conjugation-tbody">
+                    <!-- Populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Related Grammar Rules Section -->
+        <div class="ref-practice-box">
+            <h3 style="margin-top:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">💡 Related Grammar Rules &amp; Patterns</h3>
+            <ul id="grammar-rules-list" style="padding-left:1.25rem; margin-bottom:0; color:var(--ref-text);">
+                <li><strong>Irregular Vowel Shift:</strong> Changes root vowel in past forms (e.g. speak -> spoke -> spoken).</li>
+                <li><strong>Third-Person Singular -s:</strong> Regular English present tense appends -s or -es for He/She/It.</li>
+                <li><strong>Auxiliary Formations:</strong> Perfect tenses combine auxiliary <em>have</em> with the past participle.</li>
+            </ul>
+        </div>
+
+        <!-- Example Sentences -->
+        <div class="ref-practice-box">
+            <h3 style="margin-top:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">💬 Example Sentences</h3>
+            <div id="example-sentences-container">
+                <p>• <em>"She speaks three languages fluently."</em> (Present Simple)</p>
+                <p>• <em>"We spoke with the professor after class."</em> (Past Simple)</p>
+                <p>• <em>"They have spoken about this issue before."</em> (Present Perfect)</p>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="ref-promo-banner">
+        <h2>Master Verbs in Context with COSYlanguages</h2>
+        <p>Improve your fluency with contextual vocabulary games and structured courses.</p>
+        <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Enroll in COSYlanguages ↗</a>
+    </div>
+
+    <script>
+        let currentLang = 'en';
+        let currentTenseFilter = 'all';
+
+        const sampleVerbs = {
+            en: {
+                title: "speak",
+                meaning: "to utter words / talk",
+                level: "A1",
+                rows: [
+                    ["I", "speak", "spoke", "have spoken"],
+                    ["You", "speak", "spoke", "have spoken"],
+                    ["He / She / It", "speaks", "spoke", "has spoken"],
+                    ["We", "speak", "spoke", "have spoken"],
+                    ["They", "speak", "spoke", "have spoken"]
+                ],
+                rules: [
+                    "Irregular Vowel Pattern: speak / spoke / spoken.",
+                    "Present Third Person Singular adds -s (speaks).",
+                    "Perfect Tense: have/has + past participle (spoken)."
+                ],
+                examples: [
+                    "• \"She speaks three languages fluently.\"",
+                    "• \"We spoke with the professor after class.\"",
+                    "• \"They have spoken about this issue before.\""
+                ]
+            },
+            fr: {
+                title: "parler",
+                meaning: "to speak / talk",
+                level: "A1",
+                rows: [
+                    ["Je", "parle", "parlais", "parlerai / ai parlé"],
+                    ["Tu", "parles", "parlais", "parleras / as parlé"],
+                    ["Il / Elle / On", "parle", "parlait", "parlera / a parlé"],
+                    ["Nous", "parlons", "parliez", "parlerons / avons parlé"],
+                    ["Vous", "parlez", "parliez", "parlerez / avez parlé"],
+                    ["Ils / Elles", "parlent", "parlaient", "parleront / ont parlé"]
+                ],
+                rules: [
+                    "1st Group Regular (-er) verb endings: -e, -es, -e, -ons, -ez, -ent.",
+                    "Passé Composé uses auxiliary 'avoir' + parlé.",
+                    "Imparfait stem parl- + -ais, -ais, -ait, -ions, -iez, -aient."
+                ],
+                examples: [
+                    "• \"Je parle français tous les jours.\"",
+                    "• \"Nous avons parlé au professeur.\"",
+                    "• \"Elle parlait doucement.\""
+                ]
+            },
+            it: {
+                title: "parlare",
+                meaning: "to speak / talk",
+                level: "A1",
+                rows: [
+                    ["Io", "parlo", "parlavo", "parlerò / ho parlato"],
+                    ["Tu", "parli", "parlavi", "parlerai / hai parlato"],
+                    ["Lui / Lei", "parla", "parlava", "parlerà / ha parlato"],
+                    ["Noi", "parliamo", "parlavamo", "parleremo / abbiamo parlato"],
+                    ["Voi", "parlate", "parlavate", "parlerete / avete parlato"],
+                    ["Loro", "parlano", "parlavano", "parleranno / hanno parlato"]
+                ],
+                rules: [
+                    "1st Conjugation (-are) present endings: -o, -i, -a, -iamo, -ate, -ano.",
+                    "Passato Prossimo formed with 'avere' + parlato.",
+                    "Imperfetto endings: -vo, -vi, -va, -vamo, -vate, -vano."
+                ],
+                examples: [
+                    "• \"Parlo italiano con gli amici.\"",
+                    "• \"Abbiamo parlato della vacanza.\"",
+                    "• \"Parleranno domani col direttore.\""
+                ]
+            },
+            ru: {
+                title: "говорить (НСВ)",
+                meaning: "to speak / talk (Imperfective)",
+                level: "A1",
+                rows: [
+                    ["Я", "говорю", "говорил / говорила", "буду говорить"],
+                    ["Ты", "говоришь", "говорил / говорила", "будешь говорить"],
+                    ["Он / Она / Оно", "говорит", "говорил / говорила / говорило", "будет говорить"],
+                    ["Мы", "говорим", "говорили", "будем говорить"],
+                    ["Вы", "говорите", "говорили", "будете говорить"],
+                    ["Они", "говорят", "говорили", "будут говорить"]
+                ],
+                rules: [
+                    "2nd Conjugation (-ить): -ю, -ишь, -ит, -им, -ите, -ят.",
+                    "Past tense agrees in gender: -л (masc), -ла (fem), -ло (neut), -ли (pl).",
+                    "Aspectual Pair: говорить (НСВ) / сказать (СВ)."
+                ],
+                examples: [
+                    "• \"Я говорю по-русски.\"",
+                    "• \"Мы говорили о поездке.\"",
+                    "• \"Она говорит очень быстро.\""
+                ]
+            },
+            el: {
+                title: "μιλώ / μιλάω",
+                meaning: "to speak / talk",
+                level: "A1",
+                rows: [
+                    ["Εγώ", "μιλώ / μιλάω", "μίλησα", "θα μιλήσω"],
+                    ["Εσύ", "μιλάς", "μίλησες", "θα μιλήσεις"],
+                    ["Αυτός / Αυτή / Αυτό", "μιλά", "μίλησε", "θα μιλήσει"],
+                    ["Εμείς", "μιλούμε / μιλάμε", "μιλήσαμε", "θα μιλήσουμε"],
+                    ["Εσείς", "μιλάτε", "μιλήσατε", "θα μιλήσετε"],
+                    ["Αυτοί / Αυτές / Αυτά", "μιλούν / μιλάνε", "μίλησαν", "θα μιλήσουν"]
+                ],
+                rules: [
+                    "Contracted Verb Class A1 (-άω/-ώ).",
+                    "Aorist (Past Simple) stem shift: μιλ- -> μίλησ-.",
+                    "Stress accent stays on penultimate syllable in present tense."
+                ],
+                examples: [
+                    "• \"Μιλώ ελληνικά κάθε μέρα.\"",
+                    "• \"Μιλήσαμε με τον καθηγητή.\"",
+                    "• \"Θα μιλήσω μαζί σου αργότερα.\""
+                ]
+            }
+        };
+
+        function renderVerbData() {
+            const verbInput = document.getElementById('verb-search-input').value.trim().toLowerCase();
+            const langSelect = document.getElementById('lang-selector');
+            currentLang = langSelect.value;
+
+            let data = sampleVerbs[currentLang] || sampleVerbs.en;
+
+            document.getElementById('verb-title').innerText = verbInput || data.title;
+            document.getElementById('verb-subtitle').innerText = `Meaning: ${data.meaning} | CEFR Level: ${data.level}`;
+
+            const practiceBtn = document.getElementById('practice-verb-btn');
+            practiceBtn.href = COSYReferenceUtils.getEcosystemLink('games', { verb: verbInput || data.title, lang: currentLang });
+
+            const tbody = document.getElementById('conjugation-tbody');
+            tbody.innerHTML = '';
+            data.rows.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td><strong>${row[0]}</strong></td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td>`;
+                tbody.appendChild(tr);
+            });
+
+            const rulesList = document.getElementById('grammar-rules-list');
+            rulesList.innerHTML = data.rules.map(r => `<li>${r}</li>`).join('');
+
+            const examplesContainer = document.getElementById('example-sentences-container');
+            examplesContainer.innerHTML = data.examples.map(ex => `<p>${ex}</p>`).join('');
+        }
+
+        function onVerbSearchChange() {
+            const val = document.getElementById('verb-search-input').value;
+            const detected = COSYReferenceUtils.detectLanguage(val);
+            if (['en', 'fr', 'it', 'ru', 'el'].includes(detected) && detected !== currentLang) {
+                currentLang = detected;
+                document.getElementById('lang-selector').value = detected;
+            }
+            renderVerbData();
+        }
+
+        function onLangChange() {
+            renderVerbData();
+        }
+
+        function filterTense(tense, btn) {
+            currentTenseFilter = tense;
+            document.querySelectorAll('#tense-filter-row .vbtn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderVerbData();
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            renderVerbData();
+        });
+    </script>
+</body>
+</html>

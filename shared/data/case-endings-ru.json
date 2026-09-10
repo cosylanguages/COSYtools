@@ -1,0 +1,90 @@
+{
+  "language": "ru",
+  "language_name": "Russian",
+  "cases": [
+    {
+      "id": "nom",
+      "name": "Именительный (Nominative)",
+      "question": "Кто? Что?",
+      "usage": "Subject of sentence, dictionary form.",
+      "endings": {
+        "masculine": { "singular": "cons / -ь / -й", "plural": "-ы / -и" },
+        "feminine": { "singular": "-а / -я / -ь", "plural": "-ы / -и" },
+        "neuter": { "singular": "-о / -е / -мя", "plural": "-а / -я" }
+      },
+      "examples": [
+        { "sentence": "Студент читает книгу.", "translation": "The student is reading a book.", "highlight": "Студент" }
+      ]
+    },
+    {
+      "id": "acc",
+      "name": "Винительный (Accusative)",
+      "question": "Кого? Что?",
+      "usage": "Direct object, direction of movement with в/на.",
+      "endings": {
+        "masculine": { "singular": "Inanimate: =Nom | Animate: =Gen (-а/-я)", "plural": "Inanimate: =Nom | Animate: =Gen" },
+        "feminine": { "singular": "-у / -ю / -ь", "plural": "Inanimate: =Nom | Animate: =Gen" },
+        "neuter": { "singular": "-о / -е", "plural": "-а / -я" }
+      },
+      "examples": [
+        { "sentence": "Я вижу красивую девушку.", "translation": "I see a beautiful girl.", "highlight": "красивую девушку" }
+      ]
+    },
+    {
+      "id": "gen",
+      "name": "Родительный (Genitive)",
+      "question": "Кого? Чего?",
+      "usage": "Possession, absence/negation (нет), after numbers 2-4 (sg) and 5+ (pl), prepositions из/от/до/без/около.",
+      "endings": {
+        "masculine": { "singular": "-а / -я", "plural": "-ов / -ев / -ей" },
+        "feminine": { "singular": "-ы / -и", "plural": "Ø / -ь / -ей" },
+        "neuter": { "singular": "-а / -я", "plural": "Ø / -ей" }
+      },
+      "examples": [
+        { "sentence": "У меня нет времени.", "translation": "I have no time.", "highlight": "времени" }
+      ]
+    },
+    {
+      "id": "dat",
+      "name": "Дательный (Dative)",
+      "question": "Кому? Чему?",
+      "usage": "Indirect object (recipient), age expressions, modal verbs (нужно, можно), prepositions к/по.",
+      "endings": {
+        "masculine": { "singular": "-у / -ю", "plural": "-ам / -ям" },
+        "feminine": { "singular": "-е / -и", "plural": "-ам / -ям" },
+        "neuter": { "singular": "-у / -ю", "plural": "-ам / -ям" }
+      },
+      "examples": [
+        { "sentence": "Я звоню другу.", "translation": "I am calling a friend.", "highlight": "другу" }
+      ]
+    },
+    {
+      "id": "inst",
+      "name": "Творительный (Instrumental)",
+      "question": "Кем? Чем?",
+      "usage": "Means/instrument, accompaniment with с, professions with быть/работать.",
+      "endings": {
+        "masculine": { "singular": "-ом / -ем", "plural": "-ами / -ями" },
+        "feminine": { "singular": "-ой / -ей / -ью", "plural": "-ами / -ями" },
+        "neuter": { "singular": "-ом / -ем", "plural": "-ами / -ями" }
+      },
+      "examples": [
+        { "sentence": "Она работает учителем.", "translation": "She works as a teacher.", "highlight": "учителем" }
+      ]
+    },
+    {
+      "id": "prep",
+      "name": "Предложный (Prepositional)",
+      "question": "О ком? О чём? Где?",
+      "usage": "Location with в/на, topic of thought/speech with о/об.",
+      "endings": {
+        "masculine": { "singular": "-е / -и (locative -у)", "plural": "-ах / -ях" },
+        "feminine": { "singular": "-е / -и", "plural": "-ах / -ях" },
+        "neuter": { "singular": "-е / -и", "plural": "-ах / -ях" }
+      },
+      "examples": [
+        { "sentence": "Мы живем в Москве.", "translation": "We live in Moscow.", "highlight": "Москве" }
+      ]
+    }
+  ]
+}

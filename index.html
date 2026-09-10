@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages</title>
-    <meta name="description" content="Offline reference engines for English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
-    <meta property="og:title" content="Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages">
+    <title>Language Reference & Practice Tools 🔎 | COSYlanguages</title>
+    <meta name="description" content="Offline reference tools for English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
+    <meta property="og:title" content="Language Reference & Practice Tools 🔎 | COSYlanguages">
     <meta property="og:description" content="Offline reference engines with pattern-recognition color coding, SRS memory review, and drill games.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <link rel="icon" href="shared/images/cosylanguages.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#1b4332">
+    <meta name="theme-color" content="#416b49">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
@@ -22,259 +22,54 @@
     <link rel="stylesheet" href="shared/css/layout.css">
     <link rel="stylesheet" href="shared/css/cosy-icons.css">
     <link rel="stylesheet" href="shared/css/tools.css">
+    <link rel="stylesheet" href="shared/styles/reference.css">
 
     <script src="shared/js/languages.js"></script>
     <script src="shared/js/engine.js"></script>
-    <style>
-        .engines-hub-page {
-            background-color: var(--paper-bg);
-            color: var(--ink);
-        }
-        .hero-tag {
-            display: inline-block;
-            background: var(--sage-light);
-            color: var(--sage-dark);
-            padding: 4px 12px;
-            border-radius: 99px;
-            font-size: 0.85rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            letter-spacing: 0.03em;
-        }
-        .filter-section {
-            margin-bottom: 2rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1.25rem;
-            background: var(--surface-color);
-            padding: 1.5rem;
-            border-radius: 16px;
-            border: 1px solid var(--border);
-            box-shadow: var(--shadow-sm);
-        }
-        .search-box-hub {
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-        .search-box-hub input {
-            width: 100%;
-            padding: 0.8rem 1rem 0.8rem 2.8rem;
-            border-radius: 12px;
-            border: 1.5px solid var(--border);
-            font-size: 1rem;
-            background: var(--warm-white);
-            color: var(--ink);
-            transition: border-color 0.2s ease, box-shadow 0.2s ease;
-        }
-        .search-box-hub input:focus {
-            outline: none;
-            border-color: var(--sage-dark);
-            box-shadow: 0 0 0 3px var(--sage-mist);
-        }
-        .search-box-hub .search-icon {
-            position: absolute;
-            left: 1rem;
-            font-size: 1.1rem;
-            color: var(--ink-faint);
-            pointer-events: none;
-        }
-        .filter-row {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .filter-label {
-            font-weight: 700;
-            font-size: 0.85rem;
-            color: var(--ink-soft);
-            min-width: 100px;
-        }
-        .view-mode-toggle {
-            display: flex;
-            gap: 0.5rem;
-            background: var(--paper-bg);
-            padding: 4px;
-            border-radius: 10px;
-            border: 1px solid var(--border);
-        }
-        .vbtn {
-            padding: 6px 14px;
-            border-radius: 8px;
-            border: none;
-            background: transparent;
-            color: var(--ink-soft);
-            font-weight: 700;
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-        .vbtn.active {
-            background: var(--surface-color);
-            color: var(--sage-dark);
-            box-shadow: var(--shadow-sm);
-        }
-        .engine-card {
-            background: var(--surface-color);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
-            box-shadow: var(--shadow-sm);
-            text-decoration: none;
-            color: inherit;
-        }
-        .engine-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow);
-            border-color: var(--sage);
-        }
-        .engine-card-top {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-        .engine-icon {
-            font-size: 2.2rem;
-            line-height: 1;
-            flex-shrink: 0;
-            background: var(--warm-white);
-            padding: 10px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-        }
-        .engine-title-area h3 {
-            margin: 0 0 0.25rem 0;
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--ink);
-            font-family: var(--font-sans);
-        }
-        .engine-subtitle {
-            font-size: 0.85rem;
-            color: var(--sage-dark);
-            font-weight: 600;
-        }
-        .engine-desc {
-            font-size: 0.9rem;
-            color: var(--ink-soft);
-            line-height: 1.5;
-            margin-bottom: 1.25rem;
-        }
-        .engine-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.4rem;
-            margin-bottom: 1.25rem;
-        }
-        .engine-tag {
-            font-size: 0.75rem;
-            padding: 2px 8px;
-            border-radius: 6px;
-            background: var(--sage-mist);
-            color: var(--sage-dark);
-            font-weight: 600;
-        }
-        .engine-tag.no-gender {
-            background: #eef2ff;
-            color: #3730a3;
-        }
-        .engine-cta-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            background: var(--sage);
-            color: #ffffff;
-            font-weight: 700;
-            padding: 0.65rem 1rem;
-            border-radius: 10px;
-            font-size: 0.9rem;
-            transition: background 0.2s ease;
-            text-align: center;
-        }
-        .engine-card:hover .engine-cta-btn {
-            background: var(--sage-dark);
-        }
-        .engines-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 1.4rem;
-            font-weight: 800;
-            margin: 2.5rem 0 1.25rem 0;
-            color: var(--ink);
-            border-bottom: 2px solid var(--sage-pale);
-            padding-bottom: 0.5rem;
-        }
-        .category-header span {
-            font-size: 0.9rem;
-            color: var(--ink-faint);
-            font-weight: 500;
-            margin-left: auto;
-        }
-        .no-results {
-            text-align: center;
-            padding: 3rem 1.5rem;
-            background: var(--surface-color);
-            border-radius: 16px;
-            border: 1px dashed var(--border);
-            margin: 2rem 0;
-            display: none;
-        }
-    </style>
+    <script src="shared/engines/reference-utils.js"></script>
 </head>
 <body class="engines-hub-page">
 
-    <!-- Sticky Navigation Header -->
+    <!-- Sticky Header & Ecosystem Navigation -->
     <header class="sd-sticky-header">
       <div class="sd-header-inner">
         <div class="sd-breadcrumbs">
-          <a href="index.html">Home</a>
+          <a href="index.html"><strong>COSYtools</strong></a>
           <span class="sep">/</span>
-          <span class="current">Reference Apps &amp; Engines</span>
+          <span class="current">Reference Hub</span>
         </div>
-        <nav class="sd-jump-links" aria-label="Page jump links">
-          <a href="#cat-conjugation" class="sd-jump-link">Conjugation</a>
-          <a href="#cat-gender" class="sd-jump-link">Gender &amp; Cases</a>
-          <a href="#cat-syntax" class="sd-jump-link">Prepositions &amp; Syntax</a>
-          <a href="https://cosylanguages.github.io/COSYlanguages/index.html" target="_blank" rel="noopener" class="sd-jump-link">Official Website ↗</a>
+        <nav class="sd-jump-links" aria-label="Ecosystem Links">
+          <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" class="sd-jump-link">Home</a>
+          <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="sd-jump-link">Games</a>
+          <a href="https://cosylanguages.github.io/COSYworld/" target="_blank" rel="noopener" class="sd-jump-link">World</a>
+          <a href="index.html" class="sd-jump-link active">Tools</a>
+          <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="sd-jump-link">Events</a>
         </nav>
       </div>
     </header>
 
     <div id="hub" class="hub-main-container">
-      <div class="hero">
+      <!-- Hero Section -->
+      <div class="hero ref-hero">
         <div class="hero-inner hero-centered-panel">
-            <div class="hero-tag">📲 Always Free · Offline First · 100% Client-Side</div>
-            <h1 class="hero-fraunces-title">Conjugation, Gender &amp; Syntax Engines</h1>
+            <div class="hero-tag">📲 Always Free · Offline Reference · 100% Client-Side</div>
+            <h1 class="hero-fraunces-title">Language Reference &amp; Practice Tools</h1>
             <p class="hero-hub-subtext">
-                Offline interactive reference tools for 14 languages: English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash.
+                Conjugation engines, gender checkers, case systems, and more across 14 languages.
             </p>
+
+            <!-- Prominent Center Search Bar -->
+            <div class="ref-search-container">
+                <span class="ref-search-icon cosy-icon icon-search" aria-hidden="true"></span>
+                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search for a verb, noun, or grammar rule..." oninput="onHubSearchChange()" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
+            </div>
         </div>
       </div>
 
-      <div class="page">
-        <!-- Interactive Filtering & Search Bar -->
-        <div class="filter-section">
-          <!-- Search Row -->
-          <div class="search-box-hub">
-            <span class="search-icon cosy-icon icon-search" aria-hidden="true"></span>
-            <input type="text" id="hub-search-input" placeholder="Search by language, keyword, or grammar feature (e.g. German, Tatar, cases, postpositions)..." oninput="onHubSearchChange()" autocomplete="off" aria-label="Search languages, tools, and grammar features">
-          </div>
+      <div class="page" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
 
-          <!-- Family / Language Pills -->
+        <!-- Filter Bar -->
+        <div class="filter-section">
           <div class="filter-row">
             <span class="filter-label">Language:</span>
             <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)">All Languages (14)</button>
@@ -286,54 +81,129 @@
             <button class="fpill" data-filter-lang="es" onclick="filterEngines('lang', 'es', this)">🇪🇸 Español</button>
             <button class="fpill" data-filter-lang="de" onclick="filterEngines('lang', 'de', this)">🇩🇪 Deutsch</button>
             <button class="fpill" data-filter-lang="pt" onclick="filterEngines('lang', 'pt', this)">🇵🇹 Português</button>
-            <button class="fpill" data-filter-lang="hy" onclick="filterEngines('lang', 'hy', this)">🇦🇲 Հայերեն</button>
-            <button class="fpill" data-filter-lang="ka" onclick="filterEngines('lang', 'ka', this)">🇬🇪 ქართული</button>
-            <button class="fpill" data-filter-lang="tt" onclick="filterEngines('lang', 'tt', this)">🏴 Татарча</button>
-            <button class="fpill" data-filter-lang="ba" onclick="filterEngines('lang', 'ba', this)">🏴 Башҡортса</button>
-            <button class="fpill" data-filter-lang="br" onclick="filterEngines('lang', 'br', this)">🏴 Brezhoneg</button>
-            <button class="fpill" data-filter-lang="cv" onclick="filterEngines('lang', 'cv', this)">🏴 Чӑвашла</button>
-          </div>
-
-          <!-- Language Family Pills -->
-          <div class="filter-row">
-            <span class="filter-label">Family:</span>
-            <button class="fpill active" data-filter-family="all" onclick="filterEngines('family', 'all', this)">All Families</button>
-            <button class="fpill" data-filter-family="romance" onclick="filterEngines('family', 'romance', this)">Romance</button>
-            <button class="fpill" data-filter-family="germanic" onclick="filterEngines('family', 'germanic', this)">Germanic</button>
-            <button class="fpill" data-filter-family="slavic" onclick="filterEngines('family', 'slavic', this)">Slavic</button>
-            <button class="fpill" data-filter-family="hellenic" onclick="filterEngines('family', 'hellenic', this)">Hellenic</button>
-            <button class="fpill" data-filter-family="turkic" onclick="filterEngines('family', 'turkic', this)">Turkic</button>
-            <button class="fpill" data-filter-family="armenian" onclick="filterEngines('family', 'armenian', this)">Armenian</button>
-            <button class="fpill" data-filter-family="kartvelian" onclick="filterEngines('family', 'kartvelian', this)">Kartvelian</button>
-            <button class="fpill" data-filter-family="celtic" onclick="filterEngines('family', 'celtic', this)">Celtic</button>
-          </div>
-
-          <!-- Category Pills & Display Mode Toggle -->
-          <div class="filter-row" style="justify-content: space-between;">
-            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;">
-                <span class="filter-label">Tool Type:</span>
-                <button class="fpill active" data-filter-cat="all" onclick="filterEngines('cat', 'all', this)">All Categories</button>
-                <button class="fpill" data-filter-cat="conjugation" onclick="filterEngines('cat', 'conjugation', this)">📜 Conjugation</button>
-                <button class="fpill" data-filter-cat="gender" onclick="filterEngines('cat', 'gender', this)">⚖️ Gender &amp; Cases</button>
-                <button class="fpill" data-filter-cat="syntax" onclick="filterEngines('cat', 'syntax', this)">📍 Prepositions &amp; Syntax</button>
-            </div>
           </div>
         </div>
 
         <div id="no-results-box" class="no-results">
             <span class="cosy-icon icon-search no-results-icon" aria-hidden="true"></span>
             <h3 style="margin: 0 0 0.5rem 0;">No matching reference tools found</h3>
-            <p style="margin: 0; color: var(--ink-soft);">Try clearing your search term or selecting another language or family filter.</p>
+            <p style="margin: 0; color: var(--ink-soft);">Try clearing your search term or selecting another language filter.</p>
         </div>
 
-        <!-- 📜 CONJUGATION ENGINES -->
+        <!-- Featured Reference Categories Grid -->
+        <div class="category-header">
+            <span>✨</span> Core Reference Tools
+        </div>
+        <div class="ref-grid" id="core-tools-grid">
+
+            <!-- Conjugation Engines -->
+            <a href="conjugation/template.html" class="ref-card" data-search="conjugation engines verbs tenses mood english french italian russian greek">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">📜</span>
+                        <h3 class="ref-card-title">Conjugation Engines</h3>
+                    </div>
+                    <p class="ref-card-desc">Interactive conjugation tables with tense/mood filters for English 🇬🇧, French 🇫🇷, Italian 🇮🇹, Russian 🇷🇺, and Greek 🇬🇷.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ Launch Conjugation Engines</span>
+                </div>
+            </a>
+
+            <!-- Gender Checker -->
+            <a href="gender/index.html" class="ref-card" data-search="gender checker nouns articles feminine masculine neuter">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">⚖️</span>
+                        <h3 class="ref-card-title">Gender Checker</h3>
+                    </div>
+                    <p class="ref-card-desc">Instant noun gender lookup with article guidelines, plural rules, and common exceptions.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ Launch Gender Checker</span>
+                </div>
+            </a>
+
+            <!-- Case Systems -->
+            <a href="cases/index.html" class="ref-card" data-search="case systems declensions russian 6 cases greek 4 cases nominative accusative genitive dative">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">🏛️</span>
+                        <h3 class="ref-card-title">Case Systems</h3>
+                    </div>
+                    <p class="ref-card-desc">Interactive declension matrices for Russian (6 cases) and Greek (4 cases) with clickable rule breakdowns.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ Launch Case Reference</span>
+                </div>
+            </a>
+
+            <!-- Preposition Rules -->
+            <a href="prepositions/index.html" class="ref-card" data-search="preposition rules dependent prepositions verb regimes case government">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">📍</span>
+                        <h3 class="ref-card-title">Preposition Rules</h3>
+                    </div>
+                    <p class="ref-card-desc">Master dependent prepositions, case governing rules, and usage examples across 5 major languages.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ Launch Preposition Rules</span>
+                </div>
+            </a>
+
+            <!-- Verb Patterns -->
+            <a href="verb-patterns/index.html" class="ref-card" data-search="verb patterns regular irregular pattern groups stem changes">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">🔄</span>
+                        <h3 class="ref-card-title">Verb Patterns</h3>
+                    </div>
+                    <p class="ref-card-desc">Pedagogical pattern groups (vowel change, add -en, same past participle, radical shifts).</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ View Verb Patterns</span>
+                </div>
+            </a>
+
+            <!-- Noun Declensions -->
+            <a href="noun-declensions/index.html" class="ref-card" data-search="noun declensions endings plurals suffixes">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">📚</span>
+                        <h3 class="ref-card-title">Noun Declensions</h3>
+                    </div>
+                    <p class="ref-card-desc">Complete noun ending guides, plural formation rules, and vocalic stem paradigms.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ View Noun Declensions</span>
+                </div>
+            </a>
+
+            <!-- Quick Practice Drills -->
+            <a href="practice/index.html" class="ref-card" data-search="quick practice drills weak spots srs review flashcards">
+                <div>
+                    <div class="ref-card-header">
+                        <span class="ref-card-icon">⚡</span>
+                        <h3 class="ref-card-title">Quick Practice Drills</h3>
+                    </div>
+                    <p class="ref-card-desc">Targeted drills, SRS memory review, weak spots tracker, and direct integration with COSYgames.</p>
+                </div>
+                <div class="engine-cta-btn">
+                    <span>▶ Open Practice Drills</span>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Language Specific Engines -->
         <div class="category-header" id="cat-conjugation">
-            <span>📜</span> Verb Conjugation Engines
+            <span>📜</span> Detailed Language Reference Applications
         </div>
         <div class="engines-grid" id="grid-conjugation">
 
           <!-- EN Irregular Verbs -->
-          <a href="tools/en/irregular-verbs/" class="engine-card" data-lang="en" data-family="germanic" data-cat="conjugation" data-search="english en irregular verbs principal parts base past simple past participle pattern groups conjugation">
+          <a href="tools/en/irregular-verbs/" class="engine-card" data-lang="en" data-cat="conjugation" data-search="english en irregular verbs principal parts base past simple past participle pattern groups conjugation">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon">🇬🇧</div>
@@ -343,22 +213,14 @@
                 </div>
               </div>
               <p class="engine-desc">
-                Master 200+ English irregular verbs across 5 pedagogical pattern groups with flashcards, fill-the-blank drills, 60s timed sprints, and SRS dashboard.
+                Master 200+ English irregular verbs across 5 pedagogical pattern groups with flashcards, fill-the-blank drills, and SRS dashboard.
               </p>
-              <div class="engine-tags">
-                <span class="engine-tag">200+ Irregular Verbs</span>
-                <span class="engine-tag">V1 - V2 - V3 Forms</span>
-                <span class="engine-tag">5 Pattern Groups</span>
-                <span class="engine-tag">4 Practice Modes</span>
-              </div>
             </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch EN Irregular Verbs</span>
-            </div>
+            <div class="engine-cta-btn"><span>▶ Launch EN Irregular Verbs</span></div>
           </a>
 
           <!-- FR Conjugeur -->
-          <a href="tools/fr/conjugeur/" class="engine-card" data-lang="fr" data-family="romance" data-cat="conjugation" data-search="french fr français verb conjugation conjugeur">
+          <a href="tools/fr/conjugeur/" class="engine-card" data-lang="fr" data-cat="conjugation" data-search="french fr français verb conjugation conjugeur">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon">🇫🇷</div>
@@ -368,22 +230,14 @@
                 </div>
               </div>
               <p class="engine-desc">
-                Instant conjugation of 200+ essential French verbs across all tenses with color-coded stem &amp; ending rules, irregular highlights, and drill practice game.
+                Instant conjugation of 200+ essential French verbs across all tenses with color-coded stem &amp; ending rules.
               </p>
-              <div class="engine-tags">
-                <span class="engine-tag">200+ Verbs</span>
-                <span class="engine-tag">All Tenses</span>
-                <span class="engine-tag">Color-Coded Endings</span>
-                <span class="engine-tag">Drill Game</span>
-              </div>
             </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch FR Conjugeur</span>
-            </div>
+            <div class="engine-cta-btn"><span>▶ Launch FR Conjugeur</span></div>
           </a>
 
           <!-- IT Coniugatore -->
-          <a href="tools/it/coniugatore/" class="engine-card" data-lang="it" data-family="romance" data-cat="conjugation" data-search="italian it italiano verb conjugation coniugatore">
+          <a href="tools/it/coniugatore/" class="engine-card" data-lang="it" data-cat="conjugation" data-search="italian it italiano verb conjugation coniugatore">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon">🇮🇹</div>
@@ -393,22 +247,14 @@
                 </div>
               </div>
               <p class="engine-desc">
-                Full Italian verb conjugation tables, definitions, antonyms, irregular verb ending highlights, and interactive practice trainer.
+                Full Italian verb conjugation tables, definitions, antonyms, irregular verb ending highlights, and practice trainer.
               </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbi Italiani</span>
-                <span class="engine-tag">Passato &amp; Congiuntivo</span>
-                <span class="engine-tag">Antonym Lookups</span>
-                <span class="engine-tag">Allenamento</span>
-              </div>
             </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch IT Coniugatore</span>
-            </div>
+            <div class="engine-cta-btn"><span>▶ Launch IT Coniugatore</span></div>
           </a>
 
           <!-- RU Спряжение -->
-          <a href="tools/ru/spryazhenie/" class="engine-card" data-lang="ru" data-family="slavic" data-cat="conjugation" data-search="russian ru русский verb conjugation спряжение aspectual pairs">
+          <a href="tools/ru/spryazhenie/" class="engine-card" data-lang="ru" data-cat="conjugation" data-search="russian ru русский verb conjugation спряжение aspectual pairs">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon">🇷🇺</div>
@@ -418,22 +264,14 @@
                 </div>
               </div>
               <p class="engine-desc">
-                Russian verb conjugation engine featuring aspectual pairs (НСВ/СВ), accurate stress accent marks, antonym references, and drill game.
+                Russian verb conjugation engine featuring aspectual pairs (НСВ/СВ) and accurate stress accent marks.
               </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Глаголы</span>
-                <span class="engine-tag">Видовые пары (НСВ/СВ)</span>
-                <span class="engine-tag">Ударения</span>
-                <span class="engine-tag">Тренажёр</span>
-              </div>
             </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch RU Спряжение</span>
-            </div>
+            <div class="engine-cta-btn"><span>▶ Launch RU Спряжение</span></div>
           </a>
 
           <!-- EL Κλίση Ρημάτων -->
-          <a href="tools/el/klisi-rimaton/" class="engine-card" data-lang="el" data-family="hellenic" data-cat="conjugation" data-search="greek el ελληνικά verb conjugation κλίση ρημάτων">
+          <a href="tools/el/klisi-rimaton/" class="engine-card" data-lang="el" data-cat="conjugation" data-search="greek el ελληνικά verb conjugation κλίση ρημάτων">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon">🇬🇷</div>
@@ -443,907 +281,19 @@
                 </div>
               </div>
               <p class="engine-desc">
-                Modern Greek verb conjugation across active &amp; passive voices, contracted verb classes (-άω/-ώ), stress accents, and practice game.
+                Modern Greek verb conjugation across active &amp; passive voices, contracted verb classes (-άω/-ώ), and stress accents.
               </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Ελληνικά Ρήματα</span>
-                <span class="engine-tag">Ενεργητική &amp; Παθητική</span>
-                <span class="engine-tag">Τονισμός</span>
-                <span class="engine-tag">Εξάσκηση</span>
-              </div>
             </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch EL Κλίση</span>
-            </div>
-          </a>
-
-          <!-- ES Conjugación -->
-          <a href="tools/es/conjugeur/" class="engine-card" data-lang="es" data-family="romance" data-cat="conjugation" data-search="spanish es español verb conjugation conjugación pretérito subjuntivo">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇪🇸</div>
-                <div class="engine-title-area">
-                  <h3>Conjugación Española</h3>
-                  <div class="engine-subtitle">Spanish Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Spanish verb conjugation tables (Presente, Pretérito, Subjuntivo, Imperfecto) with root change highlights and practice drill game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbos Españoles</span>
-                <span class="engine-tag">Pretérito &amp; Subjuntivo</span>
-                <span class="engine-tag">Radical Changes</span>
-                <span class="engine-tag">Práctica</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch ES Conjugación</span>
-            </div>
-          </a>
-
-          <!-- DE Konjugation -->
-          <a href="tools/de/konjugation/" class="engine-card" data-lang="de" data-family="germanic" data-cat="conjugation" data-search="german de deutsch verb conjugation konjugation starke schwache verben">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇩🇪</div>
-                <div class="engine-title-area">
-                  <h3>Deutsche Verbkonjugation</h3>
-                  <div class="engine-subtitle">German Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                German strong/weak verb conjugation lookup (Präsens, Präteritum, Perfekt) with separable prefix highlights and drill game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Deutsche Verben</span>
-                <span class="engine-tag">Starke / Schwache</span>
-                <span class="engine-tag">Trennbare Verben</span>
-                <span class="engine-tag">Übung</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch DE Konjugation</span>
-            </div>
-          </a>
-
-          <!-- PT Conjugação -->
-          <a href="tools/pt/conjugeur/" class="engine-card" data-lang="pt" data-family="romance" data-cat="conjugation" data-search="portuguese pt português verb conjugation conjugação futuro do subjuntivo">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇵🇹</div>
-                <div class="engine-title-area">
-                  <h3>Conjugação Portuguesa</h3>
-                  <div class="engine-subtitle">Portuguese Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Portuguese verb conjugations across indicative and subjunctive moods, including personal infinitive patterns and speed practice.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbos Portugueses</span>
-                <span class="engine-tag">Infinitivo Pessoal</span>
-                <span class="engine-tag">Subjuntivo</span>
-                <span class="engine-tag">Treino</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch PT Conjugação</span>
-            </div>
-          </a>
-
-          <!-- HY Armenian Conjugation -->
-          <a href="tools/hy/conjugeur/" class="engine-card" data-lang="hy" data-family="armenian" data-cat="conjugation" data-search="armenian hy հայերեն verb conjugation խոնարհում">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇦🇲</div>
-                <div class="engine-title-area">
-                  <h3>Հայերեն Բայերի Խոնարհում</h3>
-                  <div class="engine-subtitle">Armenian Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Armenian Eastern/Western verb conjugation paradigms, present/past tenses, negative particle shifts, and practice trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Հայերեն Բայեր</span>
-                <span class="engine-tag">Խոնարհում</span>
-                <span class="engine-tag">Ժամանակներ</span>
-                <span class="engine-tag">Վարժություն</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch HY Conjugation</span>
-            </div>
-          </a>
-
-          <!-- KA Georgian Conjugation -->
-          <a href="tools/ka/conjugeur/" class="engine-card" data-lang="ka" data-family="kartvelian" data-cat="conjugation" data-search="georgian ka ქართული verb conjugation უղლება screeves">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇪</div>
-                <div class="engine-title-area">
-                  <h3>ქართული ზმნების უღლება</h3>
-                  <div class="engine-subtitle">Georgian Verb Screeve Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Georgian polypersonal verb screeves, preverbes, subject/object marker highlights, and practice drill game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">ქართული ზმნები</span>
-                <span class="engine-tag">მწკრივები</span>
-                <span class="engine-tag">პრეფიქსები</span>
-                <span class="engine-tag">სავარჯიშო</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch KA Conjugation</span>
-            </div>
-          </a>
-
-          <!-- TT Tatar Conjugation -->
-          <a href="tools/tt/conjugeur/" class="engine-card" data-lang="tt" data-family="turkic" data-cat="conjugation" data-search="tatar tt татарча verb conjugation глагол төрләнеше agglutination">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Татар Глагол Төрләнеше</h3>
-                  <div class="engine-subtitle">Tatar Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Tatar agglutinative verb conjugation engine with tense affixes (-а/-ый, -ды/-де, -ачак), negation markers (-ма/-мә), and drill game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Татар Глаголлары</span>
-                <span class="engine-tag">Заман Кушымчалары</span>
-                <span class="engine-tag">Инкярлек</span>
-                <span class="engine-tag">Тренажёр</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch TT Conjugation</span>
-            </div>
-          </a>
-
-          <!-- BA Bashkir Conjugation -->
-          <a href="tools/ba/conjugeur/" class="engine-card" data-lang="ba" data-family="turkic" data-cat="conjugation" data-search="bashkir ba башҡортса verb conjugation глагол төрләнеше">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Башҡорт Глагол Төрләнеше</h3>
-                  <div class="engine-subtitle">Bashkir Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Bashkir verb conjugation with vowel harmony variants, tense affixes, ability suffixes (-а ала / -а алмай), and trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Башҡорт Глаголдары</span>
-                <span class="engine-tag">Сынлау</span>
-                <span class="engine-tag">Төньяҡ / Көньяҡ</span>
-                <span class="engine-tag">Күнегеү</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BA Conjugation</span>
-            </div>
-          </a>
-
-          <!-- BR Breton Conjugation -->
-          <a href="tools/br/conjugeur/" class="engine-card" data-lang="br" data-family="celtic" data-cat="conjugation" data-search="breton br brezhoneg verb conjugation verboù gwerziat">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Kevreañ Verboù Brezhonek</h3>
-                  <div class="engine-subtitle">Breton Verb &amp; Conjugated Preposition Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Breton verb conjugation tables plus unique Celtic conjugated prepositions (gant, deoc'h, warno) with drill game mode.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verboù Brezhonek</span>
-                <span class="engine-tag">Araogennou Engouestlet</span>
-                <span class="engine-tag">Amzerioù</span>
-                <span class="engine-tag">C'hoari</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BR Conjugation</span>
-            </div>
-          </a>
-
-          <!-- CV Chuvash Conjugation -->
-          <a href="tools/cv/conjugeur/" class="engine-card" data-lang="cv" data-family="turkic" data-cat="conjugation" data-search="chuvash cv чӑвашла verb conjugation глагол улшӑнвӗ">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Чӑваш Глагол Улшӑнвӗ</h3>
-                  <div class="engine-subtitle">Chuvash Verb Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Chuvash verb conjugation paradigms, present/past tenses, negative form affixes, and interactive practice trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Чӑваш Глаголӗсем</span>
-                <span class="engine-tag">Вӑхӑт Кушымчисене</span>
-                <span class="engine-tag">Хӑнӑхтару</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch CV Conjugation</span>
-            </div>
+            <div class="engine-cta-btn"><span>▶ Launch EL Κλίση</span></div>
           </a>
 
         </div>
 
-        <!-- GENDER & CASES ENGINES -->
-        <div class="category-header" id="cat-gender">
-            <span class="cosy-icon icon-scale category-header-icon" aria-hidden="true"></span> Noun Gender &amp; Case Declension Engines
-        </div>
-        <div class="engines-grid" id="grid-gender">
-
-          <!-- FR Genre -->
-          <a href="tools/fr/genre/" class="engine-card" data-lang="fr" data-family="romance" data-cat="gender" data-search="french fr français noun gender plurals genre">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇫🇷</div>
-                <div class="engine-title-area">
-                  <h3>Genre &amp; Pluriels Français</h3>
-                  <div class="engine-subtitle">French Gender &amp; Plural Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Determine French noun gender (Le / La) instantly, view plural formation rules (-x, -s, irregulars), ending reliability badges, and game mode.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Masculin / Féminin</span>
-                <span class="engine-tag">Pluriels Irréguliers</span>
-                <span class="engine-tag">Suffix Rules</span>
-                <span class="engine-tag">Mode Entraînement</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch FR Genre</span>
-            </div>
-          </a>
-
-          <!-- IT Genere -->
-          <a href="tools/it/genere/" class="engine-card" data-lang="it" data-family="romance" data-cat="gender" data-search="italian it italiano gender preposizioni articolate genere">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇮🇹</div>
-                <div class="engine-title-area">
-                  <h3>Genere &amp; Preposizioni Articolate</h3>
-                  <div class="engine-subtitle">Italian Gender &amp; Combined Prepositions</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Italian noun gender detector (Il / La), irregular plurals, and complete preposizioni articolate matrices (del, al, dal, nel, sul...).
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Maschile / Femminile</span>
-                <span class="engine-tag">Plurali Irregolari</span>
-                <span class="engine-tag">Preposizioni Articolate</span>
-                <span class="engine-tag">Allenamento</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch IT Genere</span>
-            </div>
-          </a>
-
-          <!-- RU Род & Падежи -->
-          <a href="tools/ru/rod-padezhi/" class="engine-card" data-lang="ru" data-family="slavic" data-cat="gender" data-search="russian ru русский gender 6 cases declension род падежи">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇷🇺</div>
-                <div class="engine-title-area">
-                  <h3>Род &amp; 6 Падежей</h3>
-                  <div class="engine-subtitle">Russian Gender &amp; Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Russian noun gender, animacy detection, and complete 6-case declension tables (Singular/Plural) with stress marks and declension practice.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Мужской/Женский/Средний</span>
-                <span class="engine-tag">6 Падежей</span>
-                <span class="engine-tag">Одушевлённость</span>
-                <span class="engine-tag">Тренажёр</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch RU Род &amp; Падежи</span>
-            </div>
-          </a>
-
-          <!-- EL Γένος & Πτώσεις -->
-          <a href="tools/el/genos-ptoseis/" class="engine-card" data-lang="el" data-family="hellenic" data-cat="gender" data-search="greek el ελληνικά gender 4 cases declension γένος πτώσεις">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇷</div>
-                <div class="engine-title-area">
-                  <h3>Γένος &amp; Πτώσεις</h3>
-                  <div class="engine-subtitle">Greek Gender &amp; 4 Cases Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Modern Greek noun gender determination (Ο / Η / ΤΟ) and complete declension matrices across all 4 cases (Nominative, Genitive, Accusative, Vocative).
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Ο / Η / ΤΟ</span>
-                <span class="engine-tag">4 Πτώσεις</span>
-                <span class="engine-tag">Κλίσεις Ουσιαστικών</span>
-                <span class="engine-tag">Εξάσκηση</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch EL Γένος &amp; Πτώσεις</span>
-            </div>
-          </a>
-
-          <!-- ES Género -->
-          <a href="tools/fr/genre/?lang=es" class="engine-card" data-lang="es" data-family="romance" data-cat="gender" data-search="spanish es español noun gender género el la sustantivos">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇪🇸</div>
-                <div class="engine-title-area">
-                  <h3>Género &amp; Plurales Españoles</h3>
-                  <div class="engine-subtitle">Spanish Gender &amp; Plural Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Instant Spanish noun gender detector (El / La), ending rules (-ción, -dad, -o/a), irregular plurals, and drill game mode.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Masculino / Femenino</span>
-                <span class="engine-tag">El / La / Los / Las</span>
-                <span class="engine-tag">Reglas de Sufijos</span>
-                <span class="engine-tag">Juego</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch ES Género</span>
-            </div>
-          </a>
-
-          <!-- DE Genus & 4 Kasus -->
-          <a href="tools/ru/rod-padezhi/?lang=de" class="engine-card" data-lang="de" data-family="germanic" data-cat="gender" data-search="german de deutsch noun gender 4 cases genus kasus der die das">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇩🇪</div>
-                <div class="engine-title-area">
-                  <h3>Genus &amp; 4 Kasus (Der/Die/Das)</h3>
-                  <div class="engine-subtitle">German Gender &amp; 4-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                German noun gender determination (Der, Die, Das) and complete 4-case declension matrices (Nominativ, Akkusativ, Dativ, Genitiv) with article shifts.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Der / Die / Das</span>
-                <span class="engine-tag">4 Kasus</span>
-                <span class="engine-tag">Deklination</span>
-                <span class="engine-tag">Übung</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch DE Genus &amp; Kasus</span>
-            </div>
-          </a>
-
-          <!-- PT Gênero -->
-          <a href="tools/fr/genre/?lang=pt" class="engine-card" data-lang="pt" data-family="romance" data-cat="gender" data-search="portuguese pt português noun gender gênero o a substantivos">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇵🇹</div>
-                <div class="engine-title-area">
-                  <h3>Gênero &amp; Plurais Portugueses</h3>
-                  <div class="engine-subtitle">Portuguese Gender &amp; Plural Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Portuguese noun gender (O / A), ending rules (-ção, -gem, -ade), metaphony plural highlights, and practice game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Masculino / Feminino</span>
-                <span class="engine-tag">O / A</span>
-                <span class="engine-tag">Plurais em -ões/-ães</span>
-                <span class="engine-tag">Treino</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch PT Gênero</span>
-            </div>
-          </a>
-
-          <!-- HY Armenian 7 Cases -->
-          <a href="tools/ru/rod-padezhi/?lang=hy" class="engine-card" data-lang="hy" data-family="armenian" data-cat="gender" data-search="armenian hy հայերեն noun declension 7 cases հոլովում no gender">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇦🇲</div>
-                <div class="engine-title-area">
-                  <h3>Հայերեն 7 Հոլովներ</h3>
-                  <div class="engine-subtitle">Armenian 7-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Armenian 7-case declension tables (Nominative, Genitive, Dative, Accusative, Ablative, Instrumental, Locative) with definite article suffixes.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag no-gender">No Gender (Neutral)</span>
-                <span class="engine-tag">7 Հոլովներ</span>
-                <span class="engine-tag">Հոլովում</span>
-                <span class="engine-tag">Վարժություն</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch HY 7 Cases</span>
-            </div>
-          </a>
-
-          <!-- KA Georgian 7 Cases -->
-          <a href="tools/ru/rod-padezhi/?lang=ka" class="engine-card" data-lang="ka" data-family="kartvelian" data-cat="gender" data-search="georgian ka ქართული noun declension 7 cases ბრუნვა no gender">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇪</div>
-                <div class="engine-title-area">
-                  <h3>ქართული 7 ბრუნვა</h3>
-                  <div class="engine-subtitle">Georgian 7-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Georgian 7-case declension matrices (Nominative, Ergative, Dative, Genitive, Instrumental, Adverbial, Vocative) with vocalic stem rules.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag no-gender">No Gender (Neutral)</span>
-                <span class="engine-tag">7 ბრუნვა</span>
-                <span class="engine-tag">ერგატივი</span>
-                <span class="engine-tag">სავარჯიშო</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch KA 7 Cases</span>
-            </div>
-          </a>
-
-          <!-- TT Tatar 6 Cases -->
-          <a href="tools/ru/rod-padezhi/?lang=tt" class="engine-card" data-lang="tt" data-family="turkic" data-cat="gender" data-search="tatar tt татарча noun declension 6 cases килешләр possessive no gender">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Татар 6 Килеше &amp; Төрләнеш</h3>
-                  <div class="engine-subtitle">Tatar 6-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Tatar 6-case declension matrices (Баш, Иялек, Yүнәлеш, Төшөм, Урын-вакыт, Чыгыш) with possessive affixes (-ым/-ем, -ы/-е) and drill game.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag no-gender">No Gender (Neutral)</span>
-                <span class="engine-tag">6 Килеш</span>
-                <span class="engine-tag">Тартым Кушымчалары</span>
-                <span class="engine-tag">Тренажёр</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch TT 6 Cases</span>
-            </div>
-          </a>
-
-          <!-- BA Bashkir 6 Cases -->
-          <a href="tools/ru/rod-padezhi/?lang=ba" class="engine-card" data-lang="ba" data-family="turkic" data-cat="gender" data-search="bashkir ba башҡортса noun declension 6 cases килештәр vowel harmony no gender">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Башҡорт 6 Килеше</h3>
-                  <div class="engine-subtitle">Bashkir 6-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Bashkir 6-case noun declension tables with vowel harmony variants (-ға/-гә/-ҡа/-кә, -дан/-дән) and interactive trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag no-gender">No Gender (Neutral)</span>
-                <span class="engine-tag">6 Килеш</span>
-                <span class="engine-tag">Уңайлашыу</span>
-                <span class="engine-tag">Күнегеү</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BA 6 Cases</span>
-            </div>
-          </a>
-
-          <!-- BR Breton Gender & Mutations -->
-          <a href="tools/fr/genre/?lang=br" class="engine-card" data-lang="br" data-family="celtic" data-cat="gender" data-search="breton br brezhoneg noun gender mutations ar an al">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Rhyw an Anvioù Brezhonek</h3>
-                  <div class="engine-subtitle">Breton Noun Gender &amp; Initial Mutations Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Breton noun gender determination (Gourel / Benel), article selection (Ar / An / Al), and initial consonant mutation rules (k->g, p->b, t->d).
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Gourel / Benel</span>
-                <span class="engine-tag">Ar / An / Al</span>
-                <span class="engine-tag">Kemmadurioù (Mutations)</span>
-                <span class="engine-tag">C'hoari</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BR Gender</span>
-            </div>
-          </a>
-
-          <!-- CV Chuvash 8 Cases -->
-          <a href="tools/ru/rod-padezhi/?lang=cv" class="engine-card" data-lang="cv" data-family="turkic" data-cat="gender" data-search="chuvash cv чӑвашла noun declension 8 cases падежсем no gender">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Чӑваш 8 Падежӗ</h3>
-                  <div class="engine-subtitle">Chuvash 8-Case Declension Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Chuvash 8-case noun declension matrices (Tĕp, Parnalanu, Wyryn, Tuhi, Пĕрлелĕх...) with possessive suffix highlights and trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag no-gender">No Gender (Neutral)</span>
-                <span class="engine-tag">8 Падеж</span>
-                <span class="engine-tag">Улшӑну</span>
-                <span class="engine-tag">Хӑнӑхтару</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch CV 8 Cases</span>
-            </div>
-          </a>
-
-        </div>
-
-        <!-- 📍 PREPOSITIONS & SYNTAX ENGINES -->
-        <div class="category-header" id="cat-syntax">
-            <span>📍</span> Prepositional Regimes &amp; Verb Syntax Engines
-        </div>
-        <div class="engines-grid" id="grid-syntax">
-
-          <!-- EN Prepositions -->
-          <a href="tools/en/verb-prep/" class="engine-card" data-lang="en" data-family="germanic" data-cat="syntax" data-search="english en dependent prepositions phrasal verbs syntax">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇧</div>
-                <div class="engine-title-area">
-                  <h3>English Prepositions Engine</h3>
-                  <div class="engine-subtitle">Dependent Prepositions &amp; Phrasals</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Master dependent prepositions after verbs, nouns &amp; adjectives. Includes contrast pairs (depend on vs depend upon), SRS memory review, and speed drills.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbs, Nouns &amp; Adjectives</span>
-                <span class="engine-tag">Phrasal Verbs</span>
-                <span class="engine-tag">SRS Memory Deck</span>
-                <span class="engine-tag">Contrasts</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch EN Prepositions</span>
-            </div>
-          </a>
-
-          <!-- FR Régime -->
-          <a href="tools/fr/regime/" class="engine-card" data-lang="fr" data-family="romance" data-cat="syntax" data-search="french fr français prepositional regimes régime prépositions à de">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇫🇷</div>
-                <div class="engine-title-area">
-                  <h3>Régime Prépositionnel Français</h3>
-                  <div class="engine-subtitle">French Prepositional Regimes</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Master French prepositional constructions (à, de, pour, sur, par...) for verbs, nouns, and adjectives with spaced repetition and practice drills.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbes &amp; Noms</span>
-                <span class="engine-tag">Prépositions (à / de)</span>
-                <span class="engine-tag">Répétition Espacée</span>
-                <span class="engine-tag">Entraînement</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch FR Régime</span>
-            </div>
-          </a>
-
-          <!-- IT Reggenza -->
-          <a href="tools/it/reggenza/" class="engine-card" data-lang="it" data-family="romance" data-cat="syntax" data-search="italian it italiano prepositional reggenze reggenza a di da per in su">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇮🇹</div>
-                <div class="engine-title-area">
-                  <h3>Reggenza Verbale &amp; Nominale</h3>
-                  <div class="engine-subtitle">Italian Prepositional Reggenze</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Italian governing prepositions (a, di, da, per, in, su) after verbs, nouns, and adjectives with contrast matrices and SRS progress dashboard.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbi, Nomi &amp; Aggettivi</span>
-                <span class="engine-tag">Preposizioni Reggenti</span>
-                <span class="engine-tag">SRS Dashboard</span>
-                <span class="engine-tag">Esercitati</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch IT Reggenza</span>
-            </div>
-          </a>
-
-          <!-- EL Σύνταξη -->
-          <a href="tools/el/syntaxi/" class="engine-card" data-lang="el" data-family="hellenic" data-cat="syntax" data-search="greek el ελληνικά syntax prepositions σύνταξη προθέσεις">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇷</div>
-                <div class="engine-title-area">
-                  <h3>Σύνταξη Ρημάτων</h3>
-                  <div class="engine-subtitle">Greek Verb Syntax &amp; Prepositions</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Modern Greek verb syntax, case governing (Accusative / Genitive), prepositional complements (σε, με, για, από...), and example sentences.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Σύνταξη Ρημάτων</span>
-                <span class="engine-tag">Πτώσεις &amp; Προθέσεις</span>
-                <span class="engine-tag">Αιτιατική &amp; Γενική</span>
-                <span class="engine-tag">Παραδείγματα</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch EL Σύνταξη</span>
-            </div>
-          </a>
-
-          <!-- ES Régimen Preposicional -->
-          <a href="tools/fr/regime/?lang=es" class="engine-card" data-lang="es" data-family="romance" data-cat="syntax" data-search="spanish es español prepositional regime régimen preposicional preposiciones a de con en por para">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇪🇸</div>
-                <div class="engine-title-area">
-                  <h3>Régimen Preposicional Español</h3>
-                  <div class="engine-subtitle">Spanish Prepositional Regime Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Master Spanish governing prepositions (*soñar con*, *pensar en*, *depender de*, *insistir en*) with contrast pairs and SRS memory review.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbos &amp; Adjetivos</span>
-                <span class="engine-tag">Preposiciones (a/de/en/con)</span>
-                <span class="engine-tag">SRS Repaso</span>
-                <span class="engine-tag">Práctica</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch ES Régimen</span>
-            </div>
-          </a>
-
-          <!-- DE Verb-Präpositionen -->
-          <a href="tools/de/praepositionen/" class="engine-card" data-lang="de" data-family="germanic" data-cat="syntax" data-search="german de deutsch verb prepositions präpositionen akkusativ dativ warten auf">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇩🇪</div>
-                <div class="engine-title-area">
-                  <h3>Verben mit Präpositionen &amp; Kasus</h3>
-                  <div class="engine-subtitle">German Dependent Prepositions &amp; Case Regime</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                German governing prepositions after verbs &amp; adjectives (*warten auf + Akk*, *träumen von + Dat*) with case indicators and drill practice.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verben &amp; Adjektive</span>
-                <span class="engine-tag">Akkusativ / Dativ</span>
-                <span class="engine-tag">SRS Kartei</span>
-                <span class="engine-tag">Übung</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch DE Präpositionen</span>
-            </div>
-          </a>
-
-          <!-- PT Regência Verbal -->
-          <a href="tools/fr/regime/?lang=pt" class="engine-card" data-lang="pt" data-family="romance" data-cat="syntax" data-search="portuguese pt português regência verbal preposições gostar de confiar em">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇵🇹</div>
-                <div class="engine-title-area">
-                  <h3>Regência Verbal &amp; Nominal Portuguesa</h3>
-                  <div class="engine-subtitle">Portuguese Regência &amp; Preposition Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Portuguese verb &amp; noun prepositions (*gostar de*, *confiar em*, *consistir em*, *ir a/para*) with SRS dashboard and speed drills.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Verbos &amp; Substantivos</span>
-                <span class="engine-tag">Preposições (de/em/a/com)</span>
-                <span class="engine-tag">SRS Dashboard</span>
-                <span class="engine-tag">Treino</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch PT Regência</span>
-            </div>
-          </a>
-
-          <!-- HY Armenian Postpositions & Cases -->
-          <a href="tools/el/syntaxi/?lang=hy" class="engine-card" data-lang="hy" data-family="armenian" data-cat="syntax" data-search="armenian hy հայերեն postpositions prepositions syntax կառույցներ">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇦🇲</div>
-                <div class="engine-title-area">
-                  <h3>Հայերեն Կապեր &amp; Խնդրառություն</h3>
-                  <div class="engine-subtitle">Armenian Postpositions &amp; Case Complements</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Armenian postposition governance (*մասին*, *համար*, *մոտ*) and verb case complements (Dative/Ablative/Instrumental complements).
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Կապեր (Postpositions)</span>
-                <span class="engine-tag">Խնդրառություն</span>
-                <span class="engine-tag">Օրինակներ</span>
-                <span class="engine-tag">Վարժություն</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch HY Syntax</span>
-            </div>
-          </a>
-
-          <!-- KA Georgian Postpositions & Syntax -->
-          <a href="tools/el/syntaxi/?lang=ka" class="engine-card" data-lang="ka" data-family="kartvelian" data-cat="syntax" data-search="georgian ka ქართული postpositions syntax თანდებული">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🇬🇪</div>
-                <div class="engine-title-area">
-                  <h3>ქართული თანდებულები და მართვა</h3>
-                  <div class="engine-subtitle">Georgian Postpositional Suffixes &amp; Case Regime</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Georgian postpositional suffixes (-ზე, -ში, -თან, -თვის) and verb case government (Dative / Ergative / Genitive complements).
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">თანდებულები (-ზე/-ში)</span>
-                <span class="engine-tag">ზმნის მართვა</span>
-                <span class="engine-tag">მაგალითები</span>
-                <span class="engine-tag">სავარჯიშო</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch KA Syntax</span>
-            </div>
-          </a>
-
-          <!-- TT Tatar Postpositions -->
-          <a href="tools/el/syntaxi/?lang=tt" class="engine-card" data-lang="tt" data-family="turkic" data-cat="syntax" data-search="tatar tt татарча postpositions бәйлекләр очраклар">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Татар Бәйлекләре &amp; Фигыль Идарәсе</h3>
-                  <div class="engine-subtitle">Tatar Postpositions &amp; Verb Case Governance</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Tatar postpositions (белән, өчен, турында, соң, кадәр) and verb case government (Dative vs Ablative complements) with example sentences.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Бәйлекләр (Postpositions)</span>
-                <span class="engine-tag">Идарә Итү</span>
-                <span class="engine-tag">Мисаллар</span>
-                <span class="engine-tag">Тренажёр</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch TT Syntax</span>
-            </div>
-          </a>
-
-          <!-- BA Bashkir Postpositions -->
-          <a href="tools/el/syntaxi/?lang=ba" class="engine-card" data-lang="ba" data-family="turkic" data-cat="syntax" data-search="bashkir ba башҡортса postpositions бәйләүестәр">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Башҡорт Бәйләүестәре</h3>
-                  <div class="engine-subtitle">Bashkir Postposition &amp; Syntax Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Bashkir postpositions (менән, өсөн, турала, һуң) and case government rules with interactive drills and practice cards.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Бәйләүестәр</span>
-                <span class="engine-tag">Килеш Идарәһе</span>
-                <span class="engine-tag">Күнегеү</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BA Syntax</span>
-            </div>
-          </a>
-
-          <!-- BR Breton Prepositions -->
-          <a href="tools/fr/regime/?lang=br" class="engine-card" data-lang="br" data-family="celtic" data-cat="syntax" data-search="breton br brezhoneg prepositions araogennou e gant da">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Araogennou &amp; Renad Verboù Brezhonek</h3>
-                  <div class="engine-subtitle">Breton Prepositional Regime &amp; Conjugated Forms</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Breton verb prepositional regimes (plijout da, ober gant, kregiñ e) and conjugated prepositions with practice trainer.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Araogennou (e/gant/da)</span>
-                <span class="engine-tag">Renad Verboù</span>
-                <span class="engine-tag">C'hoari</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch BR Prepositions</span>
-            </div>
-          </a>
-
-          <!-- CV Chuvash Postpositions -->
-          <a href="tools/el/syntaxi/?lang=cv" class="engine-card" data-lang="cv" data-family="turkic" data-cat="syntax" data-search="chuvash cv чӑвашла postpositions хыҫсӑмахсем">
-            <div>
-              <div class="engine-card-top">
-                <div class="engine-icon">🏴</div>
-                <div class="engine-title-area">
-                  <h3>Чӑваш Хыҫсӑмахӗсем</h3>
-                  <div class="engine-subtitle">Chuvash Postposition &amp; Syntax Engine</div>
-                </div>
-              </div>
-              <p class="engine-desc">
-                Chuvash postpositions (паллӑ, пирки, валли, хыҫҫӑн) and verb case government with example sentences and practice cards.
-              </p>
-              <div class="engine-tags">
-                <span class="engine-tag">Хыҫсӑмахсем</span>
-                <span class="engine-tag">Падеж Улшӑну</span>
-                <span class="engine-tag">Хӑнӑхтару</span>
-              </div>
-            </div>
-            <div class="engine-cta-btn">
-              <span>▶ Launch CV Syntax</span>
-            </div>
-          </a>
-
+        <!-- Course Enrollment Promo Banner -->
+        <div class="ref-promo-banner">
+            <h2>Ready to Take Your Language Skills Further?</h2>
+            <p>Enroll in structured courses, grammar guides, and live conversation practice on COSYlanguages!</p>
+            <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Explore COSYlanguages Courses ↗</a>
         </div>
 
       </div>
@@ -1351,8 +301,6 @@
 
     <script>
         let currentLangFilter = 'all';
-        let currentFamilyFilter = 'all';
-        let currentCatFilter = 'all';
         let currentSearchQuery = '';
 
         function onHubSearchChange() {
@@ -1367,58 +315,33 @@
                 const buttons = document.querySelectorAll('[data-filter-lang]');
                 buttons.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-            } else if (type === 'family') {
-                currentFamilyFilter = val;
-                const buttons = document.querySelectorAll('[data-filter-family]');
-                buttons.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-            } else if (type === 'cat') {
-                currentCatFilter = val;
-                const buttons = document.querySelectorAll('[data-filter-cat]');
-                buttons.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
             }
-
             applyFilters();
         }
 
         function applyFilters() {
-            const cards = document.querySelectorAll('.engine-card');
+            const refCards = document.querySelectorAll('.ref-card');
+            const engineCards = document.querySelectorAll('.engine-card');
             let totalVisible = 0;
 
-            cards.forEach(card => {
+            refCards.forEach(card => {
+                const search = (card.getAttribute('data-search') || '') + ' ' + card.innerText.toLowerCase();
+                const match = (!currentSearchQuery || search.includes(currentSearchQuery));
+                card.style.display = match ? 'flex' : 'none';
+                if (match) totalVisible++;
+            });
+
+            engineCards.forEach(card => {
                 const cardLang = card.getAttribute('data-lang');
-                const cardFamily = card.getAttribute('data-family');
-                const cardCat = card.getAttribute('data-cat');
-                const cardSearch = (card.getAttribute('data-search') || '') + ' ' + card.innerText.toLowerCase();
-
+                const search = (card.getAttribute('data-search') || '') + ' ' + card.innerText.toLowerCase();
                 const langMatch = (currentLangFilter === 'all' || cardLang === currentLangFilter);
-                const familyMatch = (currentFamilyFilter === 'all' || cardFamily === currentFamilyFilter);
-                const catMatch = (currentCatFilter === 'all' || cardCat === currentCatFilter);
-                const searchMatch = (!currentSearchQuery || cardSearch.toLowerCase().includes(currentSearchQuery));
+                const searchMatch = (!currentSearchQuery || search.includes(currentSearchQuery));
 
-                if (langMatch && familyMatch && catMatch && searchMatch) {
+                if (langMatch && searchMatch) {
                     card.style.display = 'flex';
                     totalVisible++;
                 } else {
                     card.style.display = 'none';
-                }
-            });
-
-            // Hide/show category headers based on active category filter or card visibility
-            const categories = ['conjugation', 'gender', 'syntax'];
-            categories.forEach(cat => {
-                const header = document.getElementById('cat-' + cat);
-                const grid = document.getElementById('grid-' + cat);
-                if (header && grid) {
-                    const visibleInGrid = grid.querySelectorAll('.engine-card[style*="display: flex"]').length;
-                    if (visibleInGrid > 0) {
-                        header.style.display = 'flex';
-                        grid.style.display = 'grid';
-                    } else {
-                        header.style.display = 'none';
-                        grid.style.display = 'none';
-                    }
                 }
             });
 

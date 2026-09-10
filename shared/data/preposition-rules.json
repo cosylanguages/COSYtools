@@ -1,0 +1,92 @@
+{
+  "en": [
+    {
+      "verb": "depend",
+      "preposition": "on / upon",
+      "level": "A2",
+      "grammar_rule": "Always followed by 'on' when expressing reliance on someone/something.",
+      "examples": [{ "sentence": "It depends on the weather.", "translation": "It depends on the weather." }],
+      "common_mistake": "Avoid using 'depend of'."
+    },
+    {
+      "verb": "listen",
+      "preposition": "to",
+      "level": "A1",
+      "grammar_rule": "Requires 'to' before the object/person listened to.",
+      "examples": [{ "sentence": "I listen to music every day.", "translation": "I listen to music every day." }],
+      "common_mistake": "Avoid omitting 'to' (e.g. 'listen music')."
+    }
+  ],
+  "fr": [
+    {
+      "verb": "parler",
+      "preposition": "à / de",
+      "level": "A1",
+      "grammar_rule": "Parler à quelqu'un (recipient), parler de quelque chose (topic).",
+      "examples": [{ "sentence": "Je parle à Marie de mon projet.", "translation": "I am speaking to Marie about my project." }],
+      "common_mistake": "Ne pas confondre 'parler à' et 'parler de'."
+    },
+    {
+      "verb": "dépendre",
+      "preposition": "de",
+      "level": "A2",
+      "grammar_rule": "Suivi de la préposition 'de'.",
+      "examples": [{ "sentence": "Cela dépend de la situation.", "translation": "That depends on the situation." }],
+      "common_mistake": "Éviter d'utiliser 'sur'."
+    }
+  ],
+  "it": [
+    {
+      "verb": "pensare",
+      "preposition": "a / di",
+      "level": "A2",
+      "grammar_rule": "Pensare a (think about/direct focus), pensare di (have an opinion/intend to).",
+      "examples": [{ "sentence": "Penso a te ogni giorno.", "translation": "I think of you every day." }],
+      "common_mistake": "Non usare 'pensare su'."
+    },
+    {
+      "verb": "dipendere",
+      "preposition": "da",
+      "level": "A2",
+      "grammar_rule": "Seguito dalla preposizione 'da'.",
+      "examples": [{ "sentence": "Tutto dipende da te.", "translation": "Everything depends on you." }],
+      "common_mistake": "Evitare 'dipendere su'."
+    }
+  ],
+  "ru": [
+    {
+      "verb": "зависеть",
+      "preposition": "от (+ Genitive)",
+      "level": "A2",
+      "grammar_rule": "Требует предлога 'от' и родительного падежа.",
+      "examples": [{ "sentence": "Всё зависит от погоды.", "translation": "Everything depends on the weather." }],
+      "common_mistake": "Не путать падеж существительного после 'от'."
+    },
+    {
+      "verb": "слушать",
+      "preposition": "— (+ Accusative)",
+      "level": "A1",
+      "grammar_rule": "Прямое действие, используется с винительным падежом без предлога.",
+      "examples": [{ "sentence": "Я слушаю музыку.", "translation": "I am listening to music." }],
+      "common_mistake": "Не добавлять лишний предлог."
+    }
+  ],
+  "el": [
+    {
+      "verb": "εξαρτώμαι",
+      "preposition": "από (+ Accusative)",
+      "level": "B1",
+      "grammar_rule": "Συντάσσεται με την πρόθεση 'από' και αιτιατική.",
+      "examples": [{ "sentence": "Όλα εξαρτώνται από τον καιρό.", "translation": "Everything depends on the weather." }],
+      "common_mistake": "Μην παραλείπετε την πρόθεση 'από'."
+    },
+    {
+      "verb": "ακούω",
+      "preposition": "— (+ Accusative)",
+      "level": "A1",
+      "grammar_rule": "Συντάσσεται άμεσα με αιτιατική.",
+      "examples": [{ "sentence": "Ακούω μουσική.", "translation": "I listen to music." }],
+      "common_mistake": "Δεν απαιτείται πρόθεση."
+    }
+  ]
+}

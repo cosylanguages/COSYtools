@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Systems & Declension Tables 🏛️ | COSYtools</title>
+    <meta name="description" content="Interactive case tables for Russian (6 cases) and Greek (4 cases). Click cells to view detailed ending rules, usage guidelines, and example sentences.">
+    <link rel="icon" href="../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../shared/styles/reference.css">
+    <script src="../shared/engines/reference-utils.js"></script>
+</head>
+<body>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)">Case Systems</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../index.html">Hub</a>
+            <a href="../conjugation/template.html">Conjugation</a>
+            <a href="../gender/index.html">Gender</a>
+            <a href="../prepositions/index.html">Prepositions</a>
+            <a href="../practice/index.html">Practice</a>
+            <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener">Courses ↗</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1>Interactive Case System Reference</h1>
+        <p>Explore noun declension matrices for Russian (6 cases) and Modern Greek (4 cases). Click any case row or cell for full grammatical breakdowns and examples.</p>
+
+        <!-- Language Selector Pills -->
+        <div style="display:flex; justify-content:center; gap:0.5rem; margin-bottom:1.5rem;">
+            <button class="vbtn active" id="btn-lang-ru" onclick="switchCaseLang('ru', this)">🇷🇺 Russian (6 Cases)</button>
+            <button class="vbtn" id="btn-lang-el" onclick="switchCaseLang('el', this)">🇬🇷 Greek (4 Cases)</button>
+        </div>
+    </div>
+
+    <main style="max-width:1000px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Case Overview Cards / Table -->
+        <div class="ref-table-container">
+            <table class="ref-table" id="case-matrix-table">
+                <thead>
+                    <tr id="case-matrix-head">
+                        <th>Case Name</th>
+                        <th>Key Question</th>
+                        <th>Masculine Endings</th>
+                        <th>Feminine Endings</th>
+                        <th>Neuter Endings</th>
+                    </tr>
+                </thead>
+                <tbody id="case-matrix-tbody">
+                    <!-- Populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Detail Modal / Explanation Box -->
+        <div id="case-detail-box" class="ref-practice-box">
+            <h3 id="case-detail-title" style="margin-top:0; font-family:var(--ref-font-serif); color:var(--sage-dark);">Click any row above to view full case rule breakdown</h3>
+            <p id="case-detail-usage" style="color:var(--ref-text-muted); font-size:1.05rem;">Select a case from the table to see usage triggers, prepositions, and sample sentences.</p>
+            <div id="case-detail-examples" style="background:var(--paper-bg); padding:1rem; border-radius:10px; border:1px solid var(--ref-border); margin-top:1rem;">
+                <p style="margin:0; font-style:italic;">Example sentences will appear here...</p>
+            </div>
+        </div>
+
+        <!-- Practice Drills Button -->
+        <div style="text-align:center; margin-top:2rem;">
+            <a id="case-practice-btn" href="../practice/index.html" class="ref-btn">
+                ⚡ Practice Case Drills on COSYgames
+            </a>
+        </div>
+
+    </main>
+
+    <script>
+        let currentCaseLang = 'ru';
+        let ruData = null;
+        let elData = null;
+
+        async function initCases() {
+            try {
+                ruData = await COSYReferenceUtils.loadData('../shared/data/case-endings-ru.json');
+                elData = await COSYReferenceUtils.loadData('../shared/data/case-endings-el.json');
+                renderCaseTable();
+            } catch (e) {
+                console.error('Failed loading case data', e);
+            }
+        }
+
+        function switchCaseLang(lang, btn) {
+            currentCaseLang = lang;
+            document.querySelectorAll('.vbtn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderCaseTable();
+        }
+
+        function renderCaseTable() {
+            const data = (currentCaseLang === 'ru') ? ruData : elData;
+            if (!data || !data.cases) return;
+
+            const tbody = document.getElementById('case-matrix-tbody');
+            tbody.innerHTML = '';
+
+            data.cases.forEach((c, idx) => {
+                const tr = document.createElement('tr');
+                tr.className = 'clickable';
+                tr.onclick = () => showCaseDetail(c);
+
+                if (currentCaseLang === 'ru') {
+                    tr.innerHTML = `
+                        <td><strong>${c.name}</strong></td>
+                        <td>${c.question}</td>
+                        <td>Sg: ${c.endings.masculine.singular}<br><small>Pl: ${c.endings.masculine.plural}</small></td>
+                        <td>Sg: ${c.endings.feminine.singular}<br><small>Pl: ${c.endings.feminine.plural}</small></td>
+                        <td>Sg: ${c.endings.neuter.singular}<br><small>Pl: ${c.endings.neuter.plural}</small></td>
+                    `;
+                } else {
+                    tr.innerHTML = `
+                        <td><strong>${c.name}</strong></td>
+                        <td>${c.question}</td>
+                        <td>Art: ${c.articles.masculine}<br>End: ${c.endings.masculine.singular}</td>
+                        <td>Art: ${c.articles.feminine}<br>End: ${c.endings.feminine.singular}</td>
+                        <td>Art: ${c.articles.neuter}<br>End: ${c.endings.neuter.singular}</td>
+                    `;
+                }
+                tbody.appendChild(tr);
+
+                // Auto select first case
+                if (idx === 0) showCaseDetail(c);
+            });
+
+            const practiceBtn = document.getElementById('case-practice-btn');
+            practiceBtn.href = COSYReferenceUtils.getEcosystemLink('games', { lang: currentCaseLang, mode: 'cases' });
+        }
+
+        function showCaseDetail(c) {
+            document.getElementById('case-detail-title').innerText = c.name + ` (${c.question})`;
+            document.getElementById('case-detail-usage').innerHTML = `<strong>Usage:</strong> ${c.usage}`;
+
+            const exContainer = document.getElementById('case-detail-examples');
+            if (c.examples && c.examples.length > 0) {
+                exContainer.innerHTML = c.examples.map(ex => `
+                    <p style="margin:0.25rem 0;">
+                        💬 <strong>${ex.sentence}</strong> — <em>${ex.translation}</em>
+                    </p>
+                `).join('');
+            } else {
+                exContainer.innerHTML = '<p style="margin:0;">No example sentences specified.</p>';
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', initCases);
+    </script>
+</body>
+</html>
