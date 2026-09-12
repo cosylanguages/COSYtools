@@ -1,0 +1,286 @@
+[
+  {
+    "word_id": "en_verb_become",
+    "word": "become",
+    "pos": "verb",
+    "level": "A1",
+    "definition": "To begin to be or turn into something.",
+    "topic": "common_verbs_actions",
+    "examples": [
+      "He wants to become a doctor.",
+      "It becomes cold in winter."
+    ],
+    "synonyms": ["turn into", "grow"]
+  },
+  {
+    "word_id": "en_verb_let",
+    "word": "let",
+    "pos": "verb",
+    "level": "A1",
+    "definition": "To allow or permit someone to do something.",
+    "topic": "common_verbs_actions",
+    "examples": [
+      "Let's go to the park.",
+      "Please let me help you."
+    ],
+    "synonyms": ["allow", "permit"]
+  },
+  {
+    "word_id": "en_phrasal_pick_up",
+    "word": "pick up",
+    "pos": "verb",
+    "level": "A1",
+    "is_phrasal": true,
+    "is_multiword": true,
+    "prepositions": ["up"],
+    "pattern": "pick up [object/person] / pick [it] up",
+    "definition": "To lift something, collect a person or item, or learn a skill casually.",
+    "topic": "daily_routines",
+    "examples": [
+      "He picked up the heavy box from the floor.",
+      "I will pick you up at six."
+    ],
+    "synonyms": ["lift", "collect"]
+  },
+  {
+    "word_id": "en_verb_apply",
+    "word": "apply",
+    "pos": "verb",
+    "level": "A1",
+    "prepositions": ["for", "to"],
+    "pattern": "apply for [job/visa] / apply to [company]",
+    "definition": "To make a formal request for a job, position, visa, or program.",
+    "topic": "work_and_study",
+    "examples": [
+      "She applied for a job yesterday.",
+      "I am applying to three universities."
+    ],
+    "synonyms": ["request", "solicit"]
+  },
+  {
+    "word_id": "en_verb_belong_to",
+    "word": "belong to",
+    "pos": "verb",
+    "level": "A1",
+    "is_phrasal": true,
+    "is_multiword": true,
+    "prepositions": ["to"],
+    "pattern": "belong to [owner / group]",
+    "definition": "To be owned by someone, or be a member of a group.",
+    "topic": "possession_and_belongings",
+    "examples": [
+      "This book belongs to me.",
+      "Does this coat belong to you?"
+    ]
+  },
+  {
+    "word_id": "en_verb_search",
+    "word": "search",
+    "pos": "verb",
+    "level": "A1",
+    "prepositions": ["for"],
+    "pattern": "search for [someone / something]",
+    "definition": "To try to find someone or something by looking carefully.",
+    "topic": "common_verbs_actions",
+    "examples": [
+      "I am searching for my lost keys.",
+      "They searched for information online."
+    ],
+    "synonyms": ["look for", "seek"]
+  },
+  {
+    "word_id": "en_verb_greet",
+    "word": "greet",
+    "pos": "verb",
+    "level": "A1",
+    "pattern": "greet [someone]",
+    "definition": "To welcome or give a sign of recognition to someone.",
+    "topic": "social_interactions",
+    "examples": [
+      "She greeted her friend with a smile.",
+      "The teacher greets the students every morning."
+    ],
+    "synonyms": ["welcome", "salute"]
+  },
+  {
+    "word_id": "en_verb_enter",
+    "word": "enter",
+    "pos": "verb",
+    "level": "A1",
+    "pattern": "enter [a room / building]",
+    "definition": "To come or go into a place.",
+    "topic": "movement_places",
+    "examples": [
+      "Please enter the room quietly.",
+      "They entered the building at nine."
+    ],
+    "synonyms": ["go into", "come into"]
+  },
+  {
+    "word_id": "en_verb_reach",
+    "word": "reach",
+    "pos": "verb",
+    "level": "A1",
+    "pattern": "reach [a destination / goal]",
+    "definition": "To arrive at or attain a place, goal, or stage.",
+    "topic": "movement_places",
+    "examples": [
+      "We reached the hotel late in the evening.",
+      "They reached London at five."
+    ],
+    "synonyms": ["arrive at", "get to"]
+  },
+  {
+    "word_id": "en_phrase_sort_of",
+    "word": "sort of",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "definition": "Used to describe a type or kind of something, or as a mild qualifier.",
+    "topic": "descriptions_qualifiers",
+    "examples": [
+      "What sort of music do you like?",
+      "It is a sort of game."
+    ]
+  },
+  {
+    "word_id": "en_phrase_lot_of",
+    "word": "lot of",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "definition": "A large number or amount of something.",
+    "topic": "quantifiers_numbers",
+    "examples": [
+      "There are a lot of people in the park.",
+      "We have a lot of work today."
+    ],
+    "synonyms": ["many", "much", "plenty of"]
+  },
+  {
+    "word_id": "en_phrase_request_for",
+    "word": "request for",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["for"],
+    "definition": "A polite or formal ask for something.",
+    "topic": "communication_requests",
+    "examples": [
+      "She sent a request for help.",
+      "He submitted a request for information."
+    ]
+  },
+  {
+    "word_id": "en_phrase_interest_in",
+    "word": "interest in",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["in"],
+    "definition": "The feeling of wanting to know or learn about something.",
+    "topic": "hobbies_interests",
+    "examples": [
+      "He has a strong interest in art.",
+      "She showed great interest in science."
+    ]
+  },
+  {
+    "word_id": "en_phrase_way_to",
+    "word": "way to",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["to"],
+    "definition": "A route, direction, or method to reach a place or goal.",
+    "topic": "directions_travel",
+    "examples": [
+      "Can you tell me the way to the station?",
+      "This is the best way to learn English."
+    ]
+  },
+  {
+    "word_id": "en_phrase_invitation_to",
+    "word": "invitation to",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["to"],
+    "definition": "A request to attend an event or social occasion.",
+    "topic": "social_events",
+    "examples": [
+      "I received an invitation to her birthday party.",
+      "Thank you for the invitation to dinner."
+    ]
+  },
+  {
+    "word_id": "en_phrase_slice_of",
+    "word": "slice of",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["of"],
+    "definition": "A thin, flat piece cut from food such as bread, pizza, or cake.",
+    "topic": "food_and_drink",
+    "examples": [
+      "Would you like a slice of pizza?",
+      "He ate a slice of bread with butter."
+    ]
+  },
+  {
+    "word_id": "en_phrase_place_for",
+    "word": "place for",
+    "pos": "noun",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["for"],
+    "definition": "A particular location or space suitable for a purpose or person.",
+    "topic": "locations_spaces",
+    "examples": [
+      "This is a good place for lunch.",
+      "Is there a place for my coat?"
+    ]
+  },
+  {
+    "word_id": "en_phrase_interested_in",
+    "word": "interested in",
+    "pos": "adjective",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["in"],
+    "definition": "Wanting to give attention to something or learn more about it.",
+    "topic": "personal_feelings",
+    "examples": [
+      "Are you interested in history?",
+      "She is interested in learning new languages."
+    ]
+  },
+  {
+    "word_id": "en_phrase_crazy_about",
+    "word": "crazy about",
+    "pos": "adjective",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["about"],
+    "definition": "Extremely enthusiastic or passionate about someone or something.",
+    "topic": "personal_feelings",
+    "examples": [
+      "He is crazy about football.",
+      "My sister is crazy about pop music."
+    ]
+  },
+  {
+    "word_id": "en_phrase_mad_about",
+    "word": "mad about",
+    "pos": "adjective",
+    "level": "A1",
+    "is_multiword": true,
+    "prepositions": ["about"],
+    "definition": "Very fond of or enthusiastic about something or someone.",
+    "topic": "personal_feelings",
+    "examples": [
+      "They are mad about dancing.",
+      "She is mad about her new puppy."
+    ]
+  }
+]
