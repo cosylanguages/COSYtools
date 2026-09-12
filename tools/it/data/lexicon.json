@@ -14127,6 +14127,36 @@
       }
     },
     {
+      "lemma": "abbondare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "abbondare + di/in + [risorsa/qualità]",
+        "level": "B1",
+        "definition": "Possedere o essere fornito in ricca misura di qualcosa.",
+        "grammar_rule": "Usa « di » o « in » con relative articolazioni (abbondare di particolari, in dettagli).",
+        "related_forms": "⚡ Verbo: 'abbondare di' ➜ Nome correlato: 'vantaggio di' / Aggettivo correlato: 'ricco di'",
+        "examples": [
+          "Il testo abbonda di citazioni colte.",
+          "Un territorio che abbonda di risorse naturali."
+        ],
+        "common_mistake": "❌ Abbonda per monumenti storici. ➜ ✅ Abbonda di monumenti storici.",
+        "synonyms": [
+          "straripare di",
+          "essere ricco di"
+        ],
+        "antonyms": [
+          "scarseggiare di",
+          "mancare di"
+        ]
+      }
+    },
+    {
       "lemma": "abitare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -14241,6 +14271,93 @@
       }
     },
     {
+      "lemma": "abitare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "abitare + a/in + [città/paese]",
+        "level": "A1",
+        "definition": "Avere la propria residenza o domicilio in un luogo.",
+        "grammar_rule": "Usa « a » per città e paesi piccoli (abitare a Roma, a Capri) e « in » per nazioni o regioni (abitare in Italia).",
+        "related_forms": "⚡ Verbo: 'abitare a' ➜ Nome correlato: 'città di' / Aggettivo correlato: 'vicino a'",
+        "examples": [
+          "Abitiamo a Torino da più di cinque anni.",
+          "Mio zio abita in Germania per lavoro."
+        ],
+        "common_mistake": "❌ Abito in Milano vicino al duomo. ➜ ✅ Abito a Milano vicino al duomo.",
+        "synonyms": [
+          "risiedere a",
+          "vivere a"
+        ],
+        "antonyms": [
+          "traslocare da"
+        ]
+      }
+    },
+    {
+      "lemma": "abituare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "abituare + [persona] + a + [infinito/cosa]",
+        "level": "B1",
+        "definition": "Insegnare e rendere avvezzo qualcuno a una prassi.",
+        "grammar_rule": "Usa « a » con relative articolazioni per la consuetudine creata (abituare i figli al rispetto, a studiare).",
+        "related_forms": "⚡ Verbo: 'abituare a' ➜ Nome correlato: 'abitudine a' / Aggettivo correlato: 'avvezzo a'",
+        "examples": [
+          "Bisogna abituare i bambini a mangiare le verdure.",
+          "Ha abituato la squadra a vincere."
+        ],
+        "common_mistake": "❌ Abituare gli alunni di ascoltare. ➜ ✅ Abituare gli alunni ad ascoltare.",
+        "synonyms": [
+          "assuefare a",
+          "educare a"
+        ],
+        "antonyms": [
+          "disabituare da"
+        ]
+      }
+    },
+    {
+      "lemma": "abituarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "abituarsi + a + [situazione/infinito]",
+        "level": "A2",
+        "definition": "Contractare la consuetudine a un nuovo stile di vita.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « a » con relative articolazioni (abituarsi al freddo, a svegliarsi presto).",
+        "related_forms": "⚡ Verbo: 'abituarsi a' ➜ Nome correlato: 'abitudine a' / Aggettivo correlato: 'abituato a'",
+        "examples": [
+          "Ci si abitua presto alle cose belle.",
+          "Devo abituarmi a svegliarmi prima la mattina."
+        ],
+        "common_mistake": "❌ Mi abituo di questo clima rigido. ➜ ✅ Mi abituo a questo clima rigido.",
+        "synonyms": [
+          "assuefarsi a",
+          "adattarsi a"
+        ],
+        "antonyms": [
+          "disabituarsi da"
+        ]
+      }
+    },
+    {
       "lemma": "accendere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -14352,6 +14469,35 @@
         "usage_hint": "+ oggetto diretto (accendere la luce)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "accennare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "accennare + a + [tema/fatto]",
+        "level": "B1",
+        "definition": "Trattare di sfuggita o iniziare un gesto.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (accennare al problema, a un sorriso).",
+        "related_forms": "⚡ Verbo: 'accennare a' ➜ Nome correlato: 'discorso su' / Aggettivo correlato: 'cauto in'",
+        "examples": [
+          "Ha accennato alla possibilità di un aumento salariale.",
+          "Accennare un cenno di intesa."
+        ],
+        "common_mistake": "❌ Ha accennato di la sua partenza. ➜ ✅ Ha accennato alla sua partenza.",
+        "synonyms": [
+          "sfiorare",
+          "fare cenno a"
+        ],
+        "antonyms": [
+          "approfondire"
+        ]
       }
     },
     {
@@ -14583,6 +14729,96 @@
       }
     },
     {
+      "lemma": "acconsentire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "acconsentire + a + [richiesta/proposta]",
+        "level": "A2",
+        "definition": "Dare il proprio consenso favorevole a un'iniziativa.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (acconsentire alla richiesta, al matrimonio).",
+        "related_forms": "⚡ Verbo: 'acconsentire a' ➜ Nome correlato: 'consenso a' / Aggettivo correlato: 'favorevole a'",
+        "examples": [
+          "Il padre ha acconsentito alle nozze della figlia.",
+          "Non posso acconsentire a questa clausola."
+        ],
+        "common_mistake": "❌ Acconsento per la tua proposta. ➜ ✅ Acconsento alla tua proposta.",
+        "synonyms": [
+          "approvare",
+          "accondiscendere a"
+        ],
+        "antonyms": [
+          "rifiutare",
+          "opporsi a"
+        ]
+      }
+    },
+    {
+      "lemma": "adattarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "adattarsi + a + [ambiente/regola]",
+        "level": "B1",
+        "definition": "Modificare la propria condotta per uniformarsi all'ambiente.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » (adattarsi al clima, alle nuove regole).",
+        "related_forms": "⚡ Verbo: 'adattarsi a' ➜ Nome correlato: 'aderenza a' / Aggettivo correlato: 'adatto a'",
+        "examples": [
+          "Bisogna sapersi adattare alle situazioni impreviste.",
+          "I lavoratori si sono adattati ai nuovi orari."
+        ],
+        "common_mistake": "❌ Mi adatto di le nuove regole aziendali. ➜ ✅ Mi adatto alle nuove regole aziendali.",
+        "synonyms": [
+          "conformarsi a",
+          "adeguarsi a"
+        ],
+        "antonyms": [
+          "ribellarsi a",
+          "opporsi a"
+        ]
+      }
+    },
+    {
+      "lemma": "adeguarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "adeguarsi + a + [standard/legge]",
+        "level": "B1",
+        "definition": "Rendersi conforme alle norme prescritte.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (adeguarsi agli standard, alle leggi).",
+        "related_forms": "⚡ Verbo: 'adeguarsi a' ➜ Nome correlato: 'conformità a' / Aggettivo correlato: 'conforme a'",
+        "examples": [
+          "Tutti i locali devono adeguarsi alle norme di sicurezza.",
+          "Ci siamo adeguati alla decisione della maggioranza."
+        ],
+        "common_mistake": "❌ Adeguarsi con le direttive comunitarie. ➜ ✅ Adeguarsi sulle/alle direttive comunitarie.",
+        "synonyms": [
+          "conformarsi a",
+          "allinearsi a"
+        ],
+        "antonyms": [
+          "difformare da",
+          "dissentire da"
+        ]
+      }
+    },
+    {
       "lemma": "afferrare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -14697,6 +14933,66 @@
       }
     },
     {
+      "lemma": "affrancarsi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "affrancarsi + da + [servitù/pregiudizi]",
+        "level": "B2",
+        "definition": "Riscattarsi ed emanciparsi da una soggezione.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (affrancarsi dal bisogno, dai pregiudizi).",
+        "related_forms": "⚡ Verbo: 'affrancarsi da' ➜ Nome correlato: 'distacco da' / Aggettivo correlato: 'libero da'",
+        "examples": [
+          "Il popolo si è affrancato dal giogo della tirannia.",
+          "Affrancarsi dalla povertà con lo studio."
+        ],
+        "common_mistake": "❌ Affrancarsi di il controllo dello Stato. ➜ ✅ Affrancarsi dal controllo dello Stato.",
+        "synonyms": [
+          "emanciparsi da",
+          "liberarsi da"
+        ],
+        "antonyms": [
+          "assoggettarsi a",
+          "sottomettersi a"
+        ]
+      }
+    },
+    {
+      "lemma": "aggrapparsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "aggrapparsi + a + [sostegno/illusione]",
+        "level": "B2",
+        "definition": "Tenersi strettissimo fisicamente o con la mente a un riparo.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (aggrapparsi ai rami, alle illusioni).",
+        "related_forms": "⚡ Verbo: 'aggrapparsi a' ➜ Nome correlato: 'difesa di' / Aggettivo correlato: 'ancorato a'",
+        "examples": [
+          "Il naufrago si è aggrappato a uno scoglio.",
+          "Aggrapparsi ai ricordi dell'infanzia."
+        ],
+        "common_mistake": "❌ Aggrapparsi su la corda di sicurezza. ➜ ✅ Aggrapparsi alla corda di sicurezza.",
+        "synonyms": [
+          "appigliarsi a",
+          "afferrarsi a"
+        ],
+        "antonyms": [
+          "staccarsi da",
+          "lasciarsi andare"
+        ]
+      }
+    },
+    {
       "lemma": "aiutare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -14808,6 +15104,64 @@
         "usage_hint": "aiutare (qualcuno) a (fare qualcosa)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "aiutare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "aiutare + [persona] + a + [infinito]",
+        "level": "A1",
+        "definition": "Offrire assistenza a qualcuno affinché compia un'azione.",
+        "grammar_rule": "La persona aiutata è complemento diretto, mentre il verbo successivo è introdotto da « a » (aiutare qualcuno a fare).",
+        "related_forms": "⚡ Verbo: 'aiutare a' ➜ Nome correlato: 'aiuto a' / Aggettivo correlato: 'buono con'",
+        "examples": [
+          "Mio fratello mi aiuta a fare i compiti di matematica.",
+          "Possiamo aiutare la nonna a portare la spesa?"
+        ],
+        "common_mistake": "❌ Aiuto mio fratello di studiare. ➜ ✅ Aiuto mio fratello a studiare.",
+        "synonyms": [
+          "assistere in",
+          "coadiuvare in"
+        ],
+        "antonyms": [
+          "ostacolare in"
+        ]
+      }
+    },
+    {
+      "lemma": "alludere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "alludere + a + [fatto/persona]",
+        "level": "B1",
+        "definition": "Fare un cenno indiretto senza nominare apertamente.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (alludere al fatto, alla situazione).",
+        "related_forms": "⚡ Verbo: 'alludere a' ➜ Nome correlato: 'discorso su' / Aggettivo correlato: 'sospettoso di'",
+        "examples": [
+          "Credo stesse alludendo al nostro ultimo diverbio.",
+          "Non alludere a cose che non conosci."
+        ],
+        "common_mistake": "❌ Alludere di quel grave episodio. ➜ ✅ Alludere a quel grave episodio.",
+        "synonyms": [
+          "riferirsi a",
+          "sottintendere"
+        ],
+        "antonyms": [
+          "dichiarare esplicitamente"
+        ]
       }
     },
     {
@@ -15268,6 +15622,36 @@
       }
     },
     {
+      "lemma": "andare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "andare + a + [città/luogo/infinito]",
+        "level": "A1",
+        "definition": "Spostarsi verso una destinazione, una città o un'azione imminente.",
+        "grammar_rule": "Si usa « a » davanti a nomi di città (andare a Roma), luoghi circoscritti (andare a casa, a scuola) o prima di un altro verbo all'infinito (andare a mangiare).",
+        "related_forms": "⚡ Verbo: 'andare a' ➜ Nome correlato: 'partenza per' / Aggettivo correlato: 'pronto a'",
+        "examples": [
+          "Domani vado a Milano per un incontro di lavoro.",
+          "Andiamo a mangiare una pizza in centro?"
+        ],
+        "common_mistake": "❌ Vado in Roma il mese prossimo. ➜ ✅ Vado a Roma il mese prossimo.",
+        "synonyms": [
+          "recarsi a",
+          "dirigersi a"
+        ],
+        "antonyms": [
+          "tornare da",
+          "venire da"
+        ]
+      }
+    },
+    {
       "lemma": "annullare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -15613,6 +15997,95 @@
       }
     },
     {
+      "lemma": "appellarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "appellarsi + a + [senso morale/corte]",
+        "level": "B2",
+        "definition": "Invocare la tutela di un principio supremo o d'una corte.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » (appellarsi alla clemenza, al buon senso).",
+        "related_forms": "⚡ Verbo: 'appellarsi a' ➜ Nome correlato: 'appello a' / Aggettivo correlato: 'fiducioso in'",
+        "examples": [
+          "Mi appello alla vostra generosità d'animo.",
+          "L'imputato si è appellato alla Corte di Cassazione."
+        ],
+        "common_mistake": "❌ Appellarsi di il buon senso dei giudici. ➜ ✅ Appellarsi al buon senso dei giudici.",
+        "synonyms": [
+          "invocare",
+          "richiamarsi a"
+        ],
+        "antonyms": [
+          "rinunciare a"
+        ]
+      }
+    },
+    {
+      "lemma": "appigliarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "appigliarsi + a + [pretesto/speranza]",
+        "level": "B2",
+        "definition": "Afferrarsi disperatamente a una scusa per difendersi.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » (appigliarsi alle scuse, ad ogni cavillo).",
+        "related_forms": "⚡ Verbo: 'appigliarsi a' ➜ Nome correlato: 'speranza di' / Aggettivo correlato: 'vulnerabile a'",
+        "examples": [
+          "L'imputato si è appigliato a un cavillo burocratico.",
+          "Appigliarsi all'ultima vaga speranza."
+        ],
+        "common_mistake": "❌ Appigliarsi di un pretesto banale. ➜ ✅ Appigliarsi a un pretesto banale.",
+        "synonyms": [
+          "aggrapparsi a",
+          "sostenersi su"
+        ],
+        "antonyms": [
+          "mollare",
+          "rassegnarsi a"
+        ]
+      }
+    },
+    {
+      "lemma": "approfittare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "approfittare + di + [occasione/situazione]",
+        "level": "A2",
+        "definition": "Tirare utile o vantaggio da un'opportunità.",
+        "grammar_rule": "Richiede la preposizione « di » con relative articolazioni (approfittare del bel tempo, dell'offerta).",
+        "related_forms": "⚡ Verbo: 'approfittare di' ➜ Nome correlato: 'vantaggio di' / Aggettivo correlato: 'soddisfatto di'",
+        "examples": [
+          "Approfittiamo del bel tempo per fare una passeggiata.",
+          "Ha approfittato dell'occasione per parlare."
+        ],
+        "common_mistake": "❌ Approfitto a le vacanze per riposare. ➜ ✅ Approfitto delle vacanze per riposare.",
+        "synonyms": [
+          "sfruttare",
+          "volgere a favore"
+        ],
+        "antonyms": [
+          "sprecare",
+          "lasciarsi sfuggire"
+        ]
+      }
+    },
+    {
       "lemma": "aprire",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -15838,6 +16311,36 @@
         "usage_hint": "intransitivo: arrivare a (città) / in (stazione) / da",
         "auxiliary": "essere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "arrivare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "arrivare + a + [città/luogo]",
+        "level": "A1",
+        "definition": "Giungere a destinazione in un luogo o città.",
+        "grammar_rule": "Richiede « a » davanti a nomi di città e luoghi specifici (arrivare a Milano, alla stazione). N.B.: si usa « in » per i paesi/regioni.",
+        "related_forms": "⚡ Verbo: 'arrivare a' ➜ Nome correlato: 'arrivo a' / Aggettivo correlato: 'vicino a'",
+        "examples": [
+          "Il treno arriverà a Roma con dieci minuti di ritardo.",
+          "Siamo arrivati alla stazione appena in tempo."
+        ],
+        "common_mistake": "❌ Arriviamo in Milano alle cinque. ➜ ✅ Arriviamo a Milano alle cinque.",
+        "synonyms": [
+          "giungere a",
+          "pervenire a"
+        ],
+        "antonyms": [
+          "partire da",
+          "uscire da"
+        ]
       }
     },
     {
@@ -16069,6 +16572,65 @@
       }
     },
     {
+      "lemma": "assistere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "assistere + a + [spettacolo/fatto]",
+        "level": "B1",
+        "definition": "Trovarsi presente come spettatore a un evento.",
+        "grammar_rule": "Si usa « a » per indicare la presenza da spettatore (assistere al concerto, all'incidente). N.B.: assistere qualcuno = aiutarlo.",
+        "related_forms": "⚡ Verbo: 'assistere a' ➜ Nome correlato: 'attenzione a' / Aggettivo correlato: 'attento a'",
+        "examples": [
+          "Abbiamo assistito a uno spettacolo davvero emozionante.",
+          "Gli astanti hanno assistito alla scena."
+        ],
+        "common_mistake": "❌ Ho assistito il match di calcio ieri. ➜ ✅ Ho assistito al match di calcio ieri.",
+        "synonyms": [
+          "presenziare a",
+          "vedere"
+        ],
+        "antonyms": [
+          "assentarsi da"
+        ]
+      }
+    },
+    {
+      "lemma": "assomigliare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "assomigliare + a + [persona/modello]",
+        "level": "B1",
+        "definition": "Avere tratti fisici o morali simili a qualcun altro.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (assomigliare al padre, alla madre).",
+        "related_forms": "⚡ Verbo: 'assomigliare a' ➜ Nome correlato: 'somiglianza con' / Aggettivo correlato: 'simile a'",
+        "examples": [
+          "Il bambino assomiglia in modo impressionante al papà.",
+          "Questa storia assomiglia a una fiaba."
+        ],
+        "common_mistake": "❌ Assomiglia con sua madre negli occhi. ➜ ✅ Assomiglia a sua madre negli occhi.",
+        "synonyms": [
+          "somigliare a",
+          "ricordare"
+        ],
+        "antonyms": [
+          "differire da",
+          "distinguersi da"
+        ]
+      }
+    },
+    {
       "lemma": "assumere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -16180,6 +16742,36 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "astenersi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "astenersi + da + [azione/voto]",
+        "level": "B2",
+        "definition": "Trattenersi di propria volontà dal compiere un atto.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (astenersi dal fumo, dal giudicare, dal voto).",
+        "related_forms": "⚡ Verbo: 'astenersi da' ➜ Nome correlato: 'distacco da' / Aggettivo correlato: 'disinteressato a'",
+        "examples": [
+          "I testimoni devono astenersi da qualsiasi commento pubblico.",
+          "Ci siamo astenuti dal votare la mozione."
+        ],
+        "common_mistake": "❌ Mi astengo di fare polemiche inutili. ➜ ✅ Mi astengo dal fare polemiche inutili.",
+        "synonyms": [
+          "trattenersi da",
+          "privarsi di"
+        ],
+        "antonyms": [
+          "intervenire in",
+          "partecipare a"
+        ]
       }
     },
     {
@@ -18019,6 +18611,36 @@
       }
     },
     {
+      "lemma": "cedere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "cedere + a + [pressione/ricatto/lusinghe]",
+        "level": "B2",
+        "definition": "Rinunciare a lottare piegandosi alle richieste.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (cedere al ricatto, alle lusinghe).",
+        "related_forms": "⚡ Verbo: 'cedere a' ➜ Nome correlato: 'sottomissione a' / Aggettivo correlato: 'vulnerabile a'",
+        "examples": [
+          "Il sindaco ha dovuto cedere alle proteste della piazza.",
+          "Non cedere mai allo scoraggiamento."
+        ],
+        "common_mistake": "❌ Cedere davanti di il nemico. ➜ ✅ Cedere al nemico.",
+        "synonyms": [
+          "capitolare davanti a",
+          "soccombere a"
+        ],
+        "antonyms": [
+          "resistere a",
+          "opporsi a"
+        ]
+      }
+    },
+    {
       "lemma": "cenare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -18245,6 +18867,35 @@
         "usage_hint": "cercare + oggetto diretto / cercare di (fare)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "cercare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "cercare + di + [infinito]",
+        "level": "A1",
+        "definition": "Fare sforzi continui al fine di realizzare un intento.",
+        "grammar_rule": "Richiede « di » prima di un verbo all'infinito (cercare di capire, di fare). Con un nome è transitivo diretto (cercare le chiavi).",
+        "related_forms": "⚡ Verbo: 'cercare di' ➜ Nome correlato: 'ricerca di' / Aggettivo correlato: 'ansioso di'",
+        "examples": [
+          "Cerca di arrivare in orario all'appuntamento.",
+          "Cerchiamo di trovare un punto d'incontro."
+        ],
+        "common_mistake": "❌ Cerca a capire la mia situazione. ➜ ✅ Cerca di capire la mia situazione.",
+        "synonyms": [
+          "sforzarsi di",
+          "tentare di"
+        ],
+        "antonyms": [
+          "desistere da"
+        ]
       }
     },
     {
@@ -18476,6 +19127,35 @@
       }
     },
     {
+      "lemma": "chiedere di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "chiedere + a + [persona] + di + [infinito]",
+        "level": "A1",
+        "definition": "Sollicitare qualcuno di compiere un'azione.",
+        "grammar_rule": "Si usa « a » per la persona e « di » per introdurre l'azione richiesta all'infinito (chiedere a Marco di venire).",
+        "related_forms": "⚡ Verbo: 'chiedere di' ➜ Nome correlato: 'richiesta di' / Aggettivo correlato: 'curioso di'",
+        "examples": [
+          "Ho chiesto al professore di rispiegare la regola.",
+          "Gli ha chiesto di mantenere il segreto."
+        ],
+        "common_mistake": "❌ Ho chiesto a Marco a venire stasera. ➜ ✅ Ho chiesto a Marco di venire stasera.",
+        "synonyms": [
+          "domandare di",
+          "pregare di"
+        ],
+        "antonyms": [
+          "ordinare di"
+        ]
+      }
+    },
+    {
       "lemma": "chiudere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -18587,6 +19267,66 @@
         "usage_hint": "+ oggetto diretto (chiudere la porta)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "coincidere con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "coincidere + con + [evento/data]",
+        "level": "B1",
+        "definition": "Verificarsi nel medesimo istante di tempo d'un altro fatto.",
+        "grammar_rule": "Richiede la preposizione « con » con relative articolazioni (coincidere con le vacanze, con la festa).",
+        "related_forms": "⚡ Verbo: 'coincidere con' ➜ Nome correlato: 'accordanza con' / Aggettivo correlato: 'identico a'",
+        "examples": [
+          "La data dell'esame coincide con il mio compleanno.",
+          "La sua visione coincide con la mia."
+        ],
+        "common_mistake": "❌ Coincide a il giorno festivo. ➜ ✅ Coincide con il giorno festivo.",
+        "synonyms": [
+          "corrispondere a",
+          "combaciare con"
+        ],
+        "antonyms": [
+          "divergere da",
+          "differire da"
+        ]
+      }
+    },
+    {
+      "lemma": "collaborare con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "collaborare + con + [persona/ente] + a + [progetto]",
+        "level": "B1",
+        "definition": "Lavorare d'intesa insieme a un'altra parte.",
+        "grammar_rule": "Usa « con » per i partner e « a » per il lavoro svolto (collaborare con i colleghi al progetto).",
+        "related_forms": "⚡ Verbo: 'collaborare con' ➜ Nome correlato: 'accordo con' / Aggettivo correlato: 'disposto a'",
+        "examples": [
+          "L'azienda collabora con università straniere al progetto.",
+          "Collaborare con i compagni di gruppo."
+        ],
+        "common_mistake": "❌ Collaborare a il professore per la ricerca. ➜ ✅ Collaborare con il professore per la ricerca.",
+        "synonyms": [
+          "cooperare con",
+          "lavorare insieme a"
+        ],
+        "antonyms": [
+          "osteggiare",
+          "boicottare"
+        ]
       }
     },
     {
@@ -18711,6 +19451,66 @@
             "example": "La lezione è cominciata."
           }
         }
+      }
+    },
+    {
+      "lemma": "cominciare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "cominciare + a + [infinito]",
+        "level": "A1",
+        "definition": "Dare inizio a un'azione o a un processo.",
+        "grammar_rule": "Richiede sempre la preposizione « a » prima di un verbo all'infinito (cominciare a studiare, a piovere).",
+        "related_forms": "⚡ Verbo: 'cominciare a' ➜ Nome correlato: 'inizio di' / Aggettivo correlato: 'pronto a'",
+        "examples": [
+          "La lezione comincia a fare effetto sui ragazzi.",
+          "Ha cominciato a piovere proprio quando siamo usciti."
+        ],
+        "common_mistake": "❌ Comincio di studiare italiano oggi. ➜ ✅ Comincio a studiare italiano oggi.",
+        "synonyms": [
+          "iniziare a",
+          "entrare in"
+        ],
+        "antonyms": [
+          "finire di",
+          "smettere di"
+        ]
+      }
+    },
+    {
+      "lemma": "compiacersi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "compiacersi + di + [lode/successo/infinito]",
+        "level": "B2",
+        "definition": "Mostrare palese compiacimento e compiacenza per un merito.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (compiacersi dei risultati, di aver vinto).",
+        "related_forms": "⚡ Verbo: 'compiacersi di' ➜ Nome correlato: 'compiacimento per' / Aggettivo correlato: 'orgoglioso di'",
+        "examples": [
+          "Si compiace sempre dei complimenti ricevuti.",
+          "La giuria si è compiaciuta del livello alto."
+        ],
+        "common_mistake": "❌ Si compiace per il successo ottenuto. ➜ ✅ Si compiace del successo ottenuto.",
+        "synonyms": [
+          "rallegrarsi di",
+          "farsi vanto di"
+        ],
+        "antonyms": [
+          "rammaricarsi di",
+          "scontentarsi di"
+        ]
       }
     },
     {
@@ -18943,6 +19743,35 @@
       }
     },
     {
+      "lemma": "concorrere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "concorrere + a + [risultato/vittoria]",
+        "level": "B1",
+        "definition": "Incanalare le energie insieme ad altri per una meta.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (concorrere alla formazione, alla vittoria).",
+        "related_forms": "⚡ Verbo: 'concorrere a' ➜ Nome correlato: 'risultato di' / Aggettivo correlato: 'idoneo a'",
+        "examples": [
+          "Moltissimi fattori concorrono alla formazione del prezzo.",
+          "Concorrere alla vittoria finale."
+        ],
+        "common_mistake": "❌ Concorrere per il successo dell'opera. ➜ ✅ Concorrere al successo dell'opera.",
+        "synonyms": [
+          "contribuire a",
+          "cooperare a"
+        ],
+        "antonyms": [
+          "dissentire da"
+        ]
+      }
+    },
+    {
       "lemma": "confermare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -19054,6 +19883,65 @@
         "usage_hint": "confermare (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "conformarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "conformarsi + a + [modello/regola]",
+        "level": "B1",
+        "definition": "Agire in modo del tutto identico a un modello prescrittivo.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » (conformarsi alle consuetudini, al volere).",
+        "related_forms": "⚡ Verbo: 'conformarsi a' ➜ Nome correlato: 'conformità a' / Aggettivo correlato: 'conforme a'",
+        "examples": [
+          "Occorre conformarsi alle decisioni del giudice.",
+          "Si è conformato alle usanze del luogo."
+        ],
+        "common_mistake": "❌ Conformarsi di le regole di condotta. ➜ ✅ Conformarsi alle regole di condotta.",
+        "synonyms": [
+          "adeguarsi a",
+          "uniformarsi a"
+        ],
+        "antonyms": [
+          "scostarsi da",
+          "difformare da"
+        ]
+      }
+    },
+    {
+      "lemma": "confrontarsi con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": true,
+        "pattern": "confrontarsi + con + [collega/realtà]",
+        "level": "B2",
+        "definition": "Scambiarsi opinioni per misurare la propria preparazione.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « con » (confrontarsi con gli esperti, con i dati).",
+        "related_forms": "⚡ Verbo: 'confrontarsi con' ➜ Nome correlato: 'confronto tra' / Aggettivo correlato: 'competente in'",
+        "examples": [
+          "È utile confrontarsi con i colleghi prima di scegliere.",
+          "Confrontarsi con il mercato globale."
+        ],
+        "common_mistake": "❌ Confrontarsi a i problemi quotidiani. ➜ ✅ Confrontarsi con i problemi quotidiani.",
+        "synonyms": [
+          "misurarsi con",
+          "paragonarsi a"
+        ],
+        "antonyms": [
+          "isolarsi da"
+        ]
       }
     },
     {
@@ -19400,6 +20288,93 @@
       }
     },
     {
+      "lemma": "consigliare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "consigliare + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Offrire un suggerimento orientativo a una persona.",
+        "grammar_rule": "Usa « a » per la persona consigliata e « di » prima del verbo all'infinito (consigliare al cliente di valutare).",
+        "related_forms": "⚡ Verbo: 'consigliare di' ➜ Nome correlato: 'consiglio di' / Aggettivo correlato: 'competente in'",
+        "examples": [
+          "Ti consiglio di fare una pausa ogni due ore.",
+          "Il medico ha consigliato a Marco di fare sport."
+        ],
+        "common_mistake": "❌ Consiglio a te a riposare un po'. ➜ ✅ Ti consiglio di riposare un po'.",
+        "synonyms": [
+          "suggerire di",
+          "raccomandare di"
+        ],
+        "antonyms": [
+          "sconsigliare di"
+        ]
+      }
+    },
+    {
+      "lemma": "consistere in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "consistere + in + [materia/elementi]",
+        "level": "B1",
+        "definition": "Essere costituito materialmente da determinati componenti.",
+        "grammar_rule": "Usa « in » per la composizione di oggetti/somme (consistere in tre parti, in mille euro) e « a » per l'azione.",
+        "related_forms": "⚡ Verbo: 'consistere in' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'composto da'",
+        "examples": [
+          "La prova consiste in un test a risposta multipla.",
+          "Il premio consiste in un viaggio a Parigi."
+        ],
+        "common_mistake": "❌ Il lavoro consiste di verificare i dati. ➜ ✅ Il lavoro consiste nel verificare i dati / consiste in tre parti.",
+        "synonyms": [
+          "essere composto da",
+          "articolarsi in"
+        ],
+        "antonyms": [
+          "prescindere da"
+        ]
+      }
+    },
+    {
+      "lemma": "consistere nel",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "consistere + nel/nella + [infinito/azione]",
+        "level": "B2",
+        "definition": "Avere per contenuto e compito principale un'azione.",
+        "grammar_rule": "Si usa « nel » (in + articolo) davanti ad azioni definite (Il mio lavoro consiste nel gestire i clienti).",
+        "related_forms": "⚡ Verbo: 'consistere nel' ➜ Nome correlato: 'lavoro in' / Aggettivo correlato: 'responsabile di'",
+        "examples": [
+          "Il mio compito consiste nel coordinare i vari reparti.",
+          "La sfida consiste nel trovare un accordo."
+        ],
+        "common_mistake": "❌ Il suo ruolo consiste a spiegare la lezioni. ➜ ✅ Il suo ruolo consiste nel spiegare le lezioni.",
+        "synonyms": [
+          "risiedere in",
+          "subordinarsi a"
+        ],
+        "antonyms": [
+          "prescindere da"
+        ]
+      }
+    },
+    {
       "lemma": "contare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -19628,6 +20603,36 @@
       }
     },
     {
+      "lemma": "contribuire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "contribuire + a + [progetto/risultato/infinito]",
+        "level": "B1",
+        "definition": "Portare il proprio apporto a un'opera comune.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni o prima dell'infinito (contribuire alle spese, a migliorare).",
+        "related_forms": "⚡ Verbo: 'contribuire a' ➜ Nome correlato: 'aiuto a' / Aggettivo correlato: 'utile per'",
+        "examples": [
+          "Tutti dobbiamo contribuire al successo dell'iniziativa.",
+          "Il turismo contribuisce a sviluppare l'economia."
+        ],
+        "common_mistake": "❌ Contribuire per le spese del viaggio. ➜ ✅ Contribuire alle spese del viaggio.",
+        "synonyms": [
+          "cooperare a",
+          "concorrere a"
+        ],
+        "antonyms": [
+          "ostacolare",
+          "impedire"
+        ]
+      }
+    },
+    {
       "lemma": "convincere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -19740,6 +20745,64 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "convincere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "convincere + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Persuadere qualcuno con argomenti validi a fare un'azione.",
+        "grammar_rule": "Si usa « a » per spingere un'azione (convincere a partire) e « di » per la certezza di una tesi (convincere della verità).",
+        "related_forms": "⚡ Verbo: 'convincere a' ➜ Nome correlato: 'persuasione a' / Aggettivo correlato: 'persuaso di'",
+        "examples": [
+          "Siamo riusciti a convincerlo a venire con noi.",
+          "L'ho convinto ad accettare la proposta."
+        ],
+        "common_mistake": "❌ L'ho convinto di uscire stasera. ➜ ✅ L'ho convinto ad uscire stasera.",
+        "synonyms": [
+          "persuadere a",
+          "indurre a"
+        ],
+        "antonyms": [
+          "dissuadere da"
+        ]
+      }
+    },
+    {
+      "lemma": "cooperare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "cooperare + a + [progetto/fine]",
+        "level": "B1",
+        "definition": "Unire i propri sforzi a quelli altrui per un obiettivo.",
+        "grammar_rule": "Richiede la preposizione « a » per lo scopo o « con » per i compagni (cooperare alla pace, con le forze).",
+        "related_forms": "⚡ Verbo: 'cooperare a' ➜ Nome correlato: 'aiuto a' / Aggettivo correlato: 'utile per'",
+        "examples": [
+          "Tutte le nazioni devono cooperare alla salvaguardia del clima.",
+          "Cooperare alla riuscita della festa."
+        ],
+        "common_mistake": "❌ Cooperare per il progetto di sviluppo. ➜ ✅ Cooperare al progetto di sviluppo.",
+        "synonyms": [
+          "collaborare a",
+          "concorrere a"
+        ],
+        "antonyms": [
+          "ostacolare"
+        ]
       }
     },
     {
@@ -20095,6 +21158,66 @@
       }
     },
     {
+      "lemma": "corrispondere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "corrispondere + a + [valore/descrizione]",
+        "level": "B1",
+        "definition": "Esercitare piena rispondenza a una descrizione o prezzo.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (corrispondere alla descrizione, al vero).",
+        "related_forms": "⚡ Verbo: 'corrispondere a' ➜ Nome correlato: 'risposta a' / Aggettivo correlato: 'conforme a'",
+        "examples": [
+          "L'oggetto ricevuto non corrisponde alla foto del sito.",
+          "Questa somma corrisponde al saldo."
+        ],
+        "common_mistake": "❌ Corrisponde con la descrizione del testimone. ➜ ✅ Corrisponde alla descrizione del testimone.",
+        "synonyms": [
+          "coincidere con",
+          "rispondere a"
+        ],
+        "antonyms": [
+          "differire da",
+          "divergere da"
+        ]
+      }
+    },
+    {
+      "lemma": "costringere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "costringere + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Obbligare con la forza o le circostanze qualcuno a fare una cosa.",
+        "grammar_rule": "La persona è complemento diretto, l'azione imposta richiede la preposizione « a » prima dell'infinito.",
+        "related_forms": "⚡ Verbo: 'costringere a' ➜ Nome correlato: 'ordine di' / Aggettivo correlato: 'vincolato a'",
+        "examples": [
+          "La pioggia ci ha costretti a rimanere in casa.",
+          "Lo hanno costretto a firmare le dimissioni."
+        ],
+        "common_mistake": "❌ Mi ha costretto di parlare subito. ➜ ✅ Mi ha costretto a parlare subito.",
+        "synonyms": [
+          "obbligare a",
+          "forzare a"
+        ],
+        "antonyms": [
+          "esentare da",
+          "dispensare da"
+        ]
+      }
+    },
+    {
       "lemma": "costruire",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -20321,6 +21444,65 @@
         "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi di opinione e credenza ('credo che vengano').",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "credere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "credere + a + [persona/notizia]",
+        "level": "A2",
+        "definition": "Ritenere vera la parola di qualcuno o una notizia.",
+        "grammar_rule": "Si usa « a » per indicare la fiducia nella verità di un fatto o persona (credere a Marco, alla storia).",
+        "related_forms": "⚡ Verbo: 'credere a' ➜ Nome correlato: 'fiducia in' / Aggettivo correlato: 'fiducioso in'",
+        "examples": [
+          "Non credo a una sola parola di quello che dice.",
+          "Bisogna credere alle promesse fatte?"
+        ],
+        "common_mistake": "❌ Non credo in la tua storia. ➜ ✅ Non credo alla tua storia.",
+        "synonyms": [
+          "fidarsi di",
+          "dare credito a"
+        ],
+        "antonyms": [
+          "dubitare di",
+          "diffidare di"
+        ]
+      }
+    },
+    {
+      "lemma": "credere in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "credere + in + [Dio/ideale/persona]",
+        "level": "A2",
+        "definition": "Avere fede in una divinità o riporre profonda fiducia nelle doti di qualcuno.",
+        "grammar_rule": "Si usa « in » con articolazione per esprimere fede religiosa o ideale (credere in Dio, nella giustizia, in se stessi).",
+        "related_forms": "⚡ Verbo: 'credere in' ➜ Nome correlato: 'fiducia in' / Aggettivo correlato: 'fiducioso in'",
+        "examples": [
+          "Credo fermamente nei valori della libertà.",
+          "Devi credere di più in te stesso!"
+        ],
+        "common_mistake": "❌ Credo a Dio e a la giustizia. ➜ ✅ Credo in Dio e nella giustizia.",
+        "synonyms": [
+          "avere fede in",
+          "confidare in"
+        ],
+        "antonyms": [
+          "sfiduciare"
+        ]
       }
     },
     {
@@ -20669,6 +21851,36 @@
       }
     },
     {
+      "lemma": "decidere di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "decidere + di + [infinito]",
+        "level": "A2",
+        "definition": "Prendere la risoluzione di compiere un'azione.",
+        "grammar_rule": "Richiede sempre la preposizione « di » prima di un verbo all'infinito (decidere di cambiare, di partire).",
+        "related_forms": "⚡ Verbo: 'decidere di' ➜ Nome correlato: 'decisione di' / Aggettivo correlato: 'deciso a'",
+        "examples": [
+          "Abbiamo deciso di cambiare casa a fine anno.",
+          "Ha deciso di iscriversi all'università."
+        ],
+        "common_mistake": "❌ Ho deciso a comprare quella macchina. ➜ ✅ Ho deciso di comprare quella macchina.",
+        "synonyms": [
+          "stabilire di",
+          "deliberare di"
+        ],
+        "antonyms": [
+          "esitare a",
+          "tentennare"
+        ]
+      }
+    },
+    {
       "lemma": "descrivere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -21012,6 +22224,96 @@
       }
     },
     {
+      "lemma": "difendere da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "difendere + [persona/diritto] + da + [minaccia]",
+        "level": "A2",
+        "definition": "Sostenere e riparare qualcuno da un attacco nemico.",
+        "grammar_rule": "Usa « da » con relative articolazioni per l'agente aggressore (difendere dai nemici, dalle accuse).",
+        "related_forms": "⚡ Verbo: 'difendere da' ➜ Nome correlato: 'difesa di' / Aggettivo correlato: 'sicuro da'",
+        "examples": [
+          "L'avvocato difende l'imputato dalle accuse infondate.",
+          "I soldati difendono la città dall'attacco."
+        ],
+        "common_mistake": "❌ Difendere per i pericoli del bosco. ➜ ✅ Difendere dai pericoli del bosco.",
+        "synonyms": [
+          "proteggere da",
+          "tutelare da"
+        ],
+        "antonyms": [
+          "attaccare",
+          "offendere"
+        ]
+      }
+    },
+    {
+      "lemma": "differire da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "differire + da + [termine di paragone]",
+        "level": "B1",
+        "definition": "Essere diverso e presentare scostamenti da un modello.",
+        "grammar_rule": "Richiede la preposizione « da » con relative articolazioni (differire dal progetto, dalla prima bozza).",
+        "related_forms": "⚡ Verbo: 'differire da' ➜ Nome correlato: 'differenza tra' / Aggettivo correlato: 'diverso da'",
+        "examples": [
+          "La seconda versione differisce sensibilmente dalla prima.",
+          "Il mio parere differisce dal tuo."
+        ],
+        "common_mistake": "❌ Differisce di la copia originale. ➜ ✅ Differisce dalla copia originale.",
+        "synonyms": [
+          "diversificarsi da",
+          "distinguersi da"
+        ],
+        "antonyms": [
+          "coincidere con",
+          "assomigliare a"
+        ]
+      }
+    },
+    {
+      "lemma": "diffidare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "diffidare + di + [persona/offerta]",
+        "level": "A2",
+        "definition": "Nutrire sospetto e cautela verso qualcuno o qualcosa.",
+        "grammar_rule": "Richiede la preposizione « di » con relative articolazioni (diffidare delle offerte facili, degli sconosciuti).",
+        "related_forms": "⚡ Verbo: 'diffidare di' ➜ Nome correlato: 'dubbio su' / Aggettivo correlato: 'diffidente di'",
+        "examples": [
+          "Diffida di chi promette guadagni facili.",
+          "I cittadini diffidano delle nuove regole."
+        ],
+        "common_mistake": "❌ Diffido con i venditori ambulanti. ➜ ✅ Diffido dei venditori ambulanti.",
+        "synonyms": [
+          "sospettare di",
+          "dubitare di"
+        ],
+        "antonyms": [
+          "fidarsi di",
+          "credere in"
+        ]
+      }
+    },
+    {
       "lemma": "dimenticare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -21123,6 +22425,35 @@
         "usage_hint": "dimenticare + oggetto diretto / di (fare)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "dimenticare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "dimenticare + di + [infinito]",
+        "level": "A2",
+        "definition": "Non ricordarsi di compiere un'azione necessaria.",
+        "grammar_rule": "Richiede la preposizione « di » davanti a un verbo all'infinito (dimenticare di chiudere, di chiamare).",
+        "related_forms": "⚡ Verbo: 'dimenticare di' ➜ Nome correlato: 'ricordo di' / Aggettivo correlato: 'disattento a'",
+        "examples": [
+          "Non dimenticare di chiudere la porta a chiave.",
+          "Ho dimenticato di comprare il latte."
+        ],
+        "common_mistake": "❌ Dimentico a spegnere la luce. ➜ ✅ Dimentico di spegnere la luce.",
+        "synonyms": [
+          "scordarsi di",
+          "omettere di"
+        ],
+        "antonyms": [
+          "ricordarsi di"
+        ]
       }
     },
     {
@@ -21349,6 +22680,35 @@
         "usage_hint": "dimostrare (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "dipendere da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "dipendere + da + [fattore/persona]",
+        "level": "A2",
+        "definition": "Essere condizionato o subordinato all'azione di qualcosa.",
+        "grammar_rule": "Richiede sempre la preposizione « da » con relative articolazioni (dipendere dal meteo, dai genitori). Mai usare 'su'!",
+        "related_forms": "⚡ Verbo: 'dipendere da' ➜ Nome correlato: 'dipendenza da' / Aggettivo correlato: 'condizionato da'",
+        "examples": [
+          "La nostra partenza dipende dal tempo che farà domani.",
+          "Il prezzo dipende dalla qualità del prodotto."
+        ],
+        "common_mistake": "❌ Questo dipende su la situazione. ➜ ✅ Questo dipende dalla situazione.",
+        "synonyms": [
+          "essere subordinato a",
+          "derivare da"
+        ],
+        "antonyms": [
+          "essere indipendente da"
+        ]
       }
     },
     {
@@ -21696,6 +23056,156 @@
       }
     },
     {
+      "lemma": "disfarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "disfarsi + di + [oggetto/bene]",
+        "level": "B2",
+        "definition": "Vendere o gettare via un bene che non serve più.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « di » (disfarsi delle scorte, delle azioni).",
+        "related_forms": "⚡ Verbo: 'disfarsi di' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'privo di'",
+        "examples": [
+          "Ha deciso di disfarsi delle vecchie azioni in perdita.",
+          "Disfarsi delle cose inutili in casa."
+        ],
+        "common_mistake": "❌ Disfarsi da i vestiti usati. ➜ ✅ Disfarsi dei vestiti usati.",
+        "synonyms": [
+          "sbarazzarsi di",
+          "alienare"
+        ],
+        "antonyms": [
+          "acquistare",
+          "conservare"
+        ]
+      }
+    },
+    {
+      "lemma": "disobbedire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "disobbedire + a + [comando/legge]",
+        "level": "B1",
+        "definition": "Trasgredire di proposito un ordine o un divieto.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (disobbedire alle norme, al padre).",
+        "related_forms": "⚡ Verbo: 'disobbedire a' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'irresponsabile di'",
+        "examples": [
+          "Ha disobbedito agli ordini diretti del comandante.",
+          "Disobbedire alle regole comporta sanzioni."
+        ],
+        "common_mistake": "❌ Disobbedire i consigli ricevuti. ➜ ✅ Disobbedire ai consigli ricevuti.",
+        "synonyms": [
+          "trasgredire",
+          "infrangere"
+        ],
+        "antonyms": [
+          "obbedire a",
+          "ubbidire a"
+        ]
+      }
+    },
+    {
+      "lemma": "dispensare da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "dispensare + [persona] + da + [obbligo]",
+        "level": "B2",
+        "definition": "Azzuerare e liberare formalmente qualcuno da una mansione.",
+        "grammar_rule": "Usa « da » per l'obbligo tolto (dispensare dal servizio, dal pagamento).",
+        "related_forms": "⚡ Verbo: 'dispensare da' ➜ Nome correlato: 'esenzione da' / Aggettivo correlato: 'esente da'",
+        "examples": [
+          "Il medico lo ha dispensato dalla lezione di ginnastica.",
+          "Dispensare gli anziani dal pagamento."
+        ],
+        "common_mistake": "❌ Dispensare la persona di le tasse. ➜ ✅ Dispensare la persona dalle tasse.",
+        "synonyms": [
+          "esentare da",
+          "esonerare da"
+        ],
+        "antonyms": [
+          "obbligare a",
+          "costringere a"
+        ]
+      }
+    },
+    {
+      "lemma": "dissuadere da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "dissuadere + [persona] + da + [infinito/azione]",
+        "level": "B1",
+        "definition": "Distogliere qualcuno dal compiere un proposito errato.",
+        "grammar_rule": "Richiede la preposizione « da » con relative articolazioni o prima dell'infinito (dissuadere dal partire, dalla truffa).",
+        "related_forms": "⚡ Verbo: 'dissuadere da' ➜ Nome correlato: 'freno a' / Aggettivo correlato: 'contrario a'",
+        "examples": [
+          "I genitori hanno dissuaso il figlio dal lasciare gli studi.",
+          "Lo abbiamo dissuaso dal compiere quel gesto."
+        ],
+        "common_mistake": "❌ L'ho dissuaso di fare quell'errore. ➜ ✅ L'ho dissuaso dal fare quell'errore.",
+        "synonyms": [
+          "sconsigliare di",
+          "trattenere da"
+        ],
+        "antonyms": [
+          "incitare a",
+          "persuadere a"
+        ]
+      }
+    },
+    {
+      "lemma": "distinguersi per",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "per"
+        ],
+        "pronominal": true,
+        "pattern": "distinguersi + per + [qualità/merito]",
+        "level": "B1",
+        "definition": "Farsi notare e apprezzare per un merito specifico.",
+        "grammar_rule": "Verbo pronominale che richiede « per » o « in » (distinguersi per l'onestà, nella pittura).",
+        "related_forms": "⚡ Verbo: 'distinguersi per' ➜ Nome correlato: 'interesse per' / Aggettivo correlato: 'famoso per'",
+        "examples": [
+          "Si distingue per la sua grande eleganza e cortesia.",
+          "Si è distinto negli studi universitari."
+        ],
+        "common_mistake": "❌ Si distingue di la sua intelligenza. ➜ ✅ Si distingue per la sua intelligenza.",
+        "synonyms": [
+          "eccellere per",
+          "spiccare per"
+        ],
+        "antonyms": [
+          "confondersi con",
+          "mimetizzarsi in"
+        ]
+      }
+    },
+    {
       "lemma": "distruggere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -21924,6 +23434,35 @@
       }
     },
     {
+      "lemma": "dolersi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "dolersi + di + [fatto/offesa]",
+        "level": "B2",
+        "definition": "Risentirsi con amarezza di un torto subito.",
+        "grammar_rule": "Verbo pronominale sostenuto che richiede « di » (dolersi del ritardo, del comportamento).",
+        "related_forms": "⚡ Verbo: 'dolersi di' ➜ Nome correlato: 'rammarico per' / Aggettivo correlato: 'offeso da'",
+        "examples": [
+          "Il direttore si è doluto dell'accaduto con i soci.",
+          "Si duole di non essere stato ascoltato."
+        ],
+        "common_mistake": "❌ Si duole per il malinteso nato. ➜ ✅ Si duole del malinteso nato.",
+        "synonyms": [
+          "rammaricarsi di",
+          "lamentarsi di"
+        ],
+        "antonyms": [
+          "rallegrarsi di"
+        ]
+      }
+    },
+    {
       "lemma": "domandare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -22035,6 +23574,35 @@
         "usage_hint": "domandare (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "domandare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "domandare + a + [persona] + di + [infinito]",
+        "level": "A1",
+        "definition": "Rivolgere una richiesta di fare qualcosa a qualcuno.",
+        "grammar_rule": "Usa « a » per la persona e « di » prima dell'infinito (domandare al medico di spiegare).",
+        "related_forms": "⚡ Verbo: 'domandare di' ➜ Nome correlato: 'domanda su' / Aggettivo correlato: 'curioso di'",
+        "examples": [
+          "Le ho domandato di prestarmi il suo appunto.",
+          "I turisti domandano al vigile di indicare la strada."
+        ],
+        "common_mistake": "❌ Le domando a portarmi un bicchiere. ➜ ✅ Le domando di portarmi un bicchiere.",
+        "synonyms": [
+          "chiedere di",
+          "interrogare su"
+        ],
+        "antonyms": [
+          "rispondere a"
+        ]
       }
     },
     {
@@ -22381,6 +23949,36 @@
       }
     },
     {
+      "lemma": "eccellere in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "eccellere + in + [materia/campo]",
+        "level": "B1",
+        "definition": "Rivelarsi nettamente superiore agli altri in un campo.",
+        "grammar_rule": "Richiede la preposizione « in » con relative articolazioni (eccellere negli studi, nella corsa).",
+        "related_forms": "⚡ Verbo: 'eccellere in' ➜ Nome correlato: 'risultato di' / Aggettivo correlato: 'esperto di'",
+        "examples": [
+          "È uno studente che eccelle in tutte le materie scientifiche.",
+          "Eccellere nello sport."
+        ],
+        "common_mistake": "❌ Eccelle di il disegno artistico. ➜ ✅ Eccelle nel disegno artistico.",
+        "synonyms": [
+          "distinguersi in",
+          "primeggiare in"
+        ],
+        "antonyms": [
+          "sfigurare in",
+          "fallire in"
+        ]
+      }
+    },
+    {
       "lemma": "entrare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -22495,6 +24093,125 @@
       }
     },
     {
+      "lemma": "entrare in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "entrare + in + [luogo/ambiente]",
+        "level": "A1",
+        "definition": "Passare dall'esterno all'interno di un luogo.",
+        "grammar_rule": "Richiede la preposizione « in » con articolazioni (entrare in casa, nella stanza, nel museo).",
+        "related_forms": "⚡ Verbo: 'entrare in' ➜ Nome correlato: 'entrata in' / Aggettivo correlato: 'coinvolto in'",
+        "examples": [
+          "Siamo entrati nel museo senza fare la fila.",
+          "Entra in casa, fuori fa molto freddo!"
+        ],
+        "common_mistake": "❌ Entrare a la casa con le scarpe sporche. ➜ ✅ Entrare in casa con le scarpe sporche.",
+        "synonyms": [
+          "accedere a",
+          "penetrare in"
+        ],
+        "antonyms": [
+          "uscire da"
+        ]
+      }
+    },
+    {
+      "lemma": "esentare da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "esentare + [persona] + da + [tassa/imposta]",
+        "level": "B2",
+        "definition": "Riconoscere l'immunità di una persona da un pagamento.",
+        "grammar_rule": "Richiede la preposizione « da » con relative articolazioni (esentare dalle imposte, dal ticket).",
+        "related_forms": "⚡ Verbo: 'esentare da' ➜ Nome correlato: 'esenzione da' / Aggettivo correlato: 'esente da'",
+        "examples": [
+          "La legge esenta i redditi bassi dal versamento.",
+          "Esentare gli studenti meritevoli dalle tasse."
+        ],
+        "common_mistake": "❌ Esentare di le spese di spedizione. ➜ ✅ Esentare dalle spese di spedizione.",
+        "synonyms": [
+          "dispensare da",
+          "affrancare da"
+        ],
+        "antonyms": [
+          "assoggettare a",
+          "imporre a"
+        ]
+      }
+    },
+    {
+      "lemma": "esimersi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "esimersi + da + [obbligo/compito]",
+        "level": "B2",
+        "definition": "Sottrarsi al compimento d'un dovere imposto.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (esimersi dal rispondere, dai compiti).",
+        "related_forms": "⚡ Verbo: 'esimersi da' ➜ Nome correlato: 'esenzione da' / Aggettivo correlato: 'esente da'",
+        "examples": [
+          "Nessun cittadino può esimersi dal pagare le imposte.",
+          "Non mi esimo dal dire la verità."
+        ],
+        "common_mistake": "❌ Si esime di rispettare gli orari. ➜ ✅ Si esime dal rispettare gli orari.",
+        "synonyms": [
+          "sottrarsi a",
+          "schivare"
+        ],
+        "antonyms": [
+          "assumersi",
+          "obbligarsi a"
+        ]
+      }
+    },
+    {
+      "lemma": "esortare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "esortare + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Rivolgere un caloroso invito a seguire una buona condotta.",
+        "grammar_rule": "Richiede la preposizione « a » prima dell'infinito (esortare alla pace, a collaborare).",
+        "related_forms": "⚡ Verbo: 'esortare a' ➜ Nome correlato: 'esortazione a' / Aggettivo correlato: 'propenso a'",
+        "examples": [
+          "Il presidente ha esortato i cittadini alla calma.",
+          "Vi esorto a riflettere sulle conseguenze."
+        ],
+        "common_mistake": "❌ Vi esorto di rimanere uniti. ➜ ✅ Vi esorto a rimanere uniti.",
+        "synonyms": [
+          "incoraggiare a",
+          "invitare a"
+        ],
+        "antonyms": [
+          "sconsigliare di",
+          "dissuadere da"
+        ]
+      }
+    },
+    {
       "lemma": "essere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -22606,6 +24323,36 @@
         "usage_hint": "essere di (possesso) / in / a / + aggettivo",
         "auxiliary": "essere",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "estraniarsi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "estraniarsi + da + [gruppo/realtà]",
+        "level": "B2",
+        "definition": "Isolarsi volontariamente tagliando ogni contatto.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (estraniarsi dal gruppo, dalla realtà).",
+        "related_forms": "⚡ Verbo: 'estraniarsi da' ➜ Nome correlato: 'distacco da' / Aggettivo correlato: 'estraneo a'",
+        "examples": [
+          "Durante la crisi tende ad estraniarsi dalla famiglia.",
+          "Estraniarsi dal contesto sociale."
+        ],
+        "common_mistake": "❌ Estraniarsi di il mondo circostante. ➜ ✅ Estraniarsi dal mondo circostante.",
+        "synonyms": [
+          "isolarsi da",
+          "staccarsi da"
+        ],
+        "antonyms": [
+          "integrarsi in",
+          "coinvolgersi in"
+        ]
       }
     },
     {
@@ -22837,6 +24584,36 @@
       }
     },
     {
+      "lemma": "farsi carico di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "farsi carico + di + [spese/problema/persona]",
+        "level": "B2",
+        "definition": "Assumersi spontaneamente l'onere e la cura di qualcosa.",
+        "grammar_rule": "Locuzione pronominale che richiede « di » con articolazioni (farsi carico delle spese, del malato).",
+        "related_forms": "⚡ Verbo: 'farsi carico di' ➜ Nome correlato: 'cura di' / Aggettivo correlato: 'responsabile di'",
+        "examples": [
+          "L'azienda si farà carico di tutte le spese di viaggio.",
+          "Farsi carico dei problemi altrui."
+        ],
+        "common_mistake": "❌ Farsi carico per del debito contratto. ➜ ✅ Farsi carico del debito contratto.",
+        "synonyms": [
+          "assumersi",
+          "prendere in cura"
+        ],
+        "antonyms": [
+          "scaricare",
+          "delegare"
+        ]
+      }
+    },
+    {
       "lemma": "fermare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -22948,6 +24725,36 @@
         "usage_hint": "fermare + oggetto diretto / fermarsi a",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "fidarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "fidarsi + di + [persona/consiglio]",
+        "level": "A2",
+        "definition": "Riporre piena fiducia e stima in qualcuno.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » con relative articolazioni (fidarsi degli amici, del medico).",
+        "related_forms": "⚡ Verbo: 'fidarsi di' ➜ Nome correlato: 'fiducia in' / Aggettivo correlato: 'fiducioso in'",
+        "examples": [
+          "Mi fido ciecamente del mio migliore amico.",
+          "Non dovresti fidarti delle apparenze."
+        ],
+        "common_mistake": "❌ Mi fido a questo avvocato. ➜ ✅ Mi fido di questo avvocato.",
+        "synonyms": [
+          "confidare in",
+          "farsi forte di"
+        ],
+        "antonyms": [
+          "diffidare di",
+          "dubitare di"
+        ]
       }
     },
     {
@@ -23072,6 +24879,36 @@
             "example": "Il film è finito tardi."
           }
         }
+      }
+    },
+    {
+      "lemma": "finire di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "finire + di + [infinito]",
+        "level": "A1",
+        "definition": "Portare a termine o completare un'azione.",
+        "grammar_rule": "Richiede sempre la preposizione « di » prima di un verbo all'infinito (finire di mangiare, di studiare).",
+        "related_forms": "⚡ Verbo: 'finire di' ➜ Nome correlato: 'fine di' / Aggettivo correlato: 'stanco di'",
+        "examples": [
+          "Quando finisci di studiare andiamo al parco.",
+          "Abbiamo finito di cenare tardissimo ieri sera."
+        ],
+        "common_mistake": "❌ Ho finito a leggere il capitolo. ➜ ✅ Ho finito di leggere il capitolo.",
+        "synonyms": [
+          "terminare di",
+          "concludere"
+        ],
+        "antonyms": [
+          "cominciare a",
+          "iniziare a"
+        ]
       }
     },
     {
@@ -23873,6 +25710,65 @@
       }
     },
     {
+      "lemma": "imbattersi in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": true,
+        "pattern": "imbattersi + in + [persona/difficoltà]",
+        "level": "B2",
+        "definition": "Incontrare per puro caso un amico o ostacolo.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « in » (imbattersi in un vecchio amico, nei guai).",
+        "related_forms": "⚡ Verbo: 'imbattersi in' ➜ Nome correlato: 'notizia su' / Aggettivo correlato: 'sorpreso da'",
+        "examples": [
+          "Mi sono imbattuto in Marco mentre passeggiavo.",
+          "Imbattersi in problemi imprevisti."
+        ],
+        "common_mistake": "❌ Imbattersi con uno sconosciuto per strada. ➜ ✅ Imbattersi in uno sconosciuto per strada.",
+        "synonyms": [
+          "incappare in",
+          "incrociare per caso"
+        ],
+        "antonyms": [
+          "evitare",
+          "schivare"
+        ]
+      }
+    },
+    {
+      "lemma": "immischiarsi in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": true,
+        "pattern": "immischiarsi + in + [fatti illeciti/liti]",
+        "level": "B2",
+        "definition": "Mettersi in mezzo a storie oscure o liti altrui.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « in » (immischiarsi negli affari sporchi, nelle liti).",
+        "related_forms": "⚡ Verbo: 'immischiarsi in' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'implicato in'",
+        "examples": [
+          "Ti sconsiglio di immischiarti in quella brutta storia.",
+          "Si immischia sempre nei fatti miei."
+        ],
+        "common_mistake": "❌ Immischiarsi di i problemi finanziari altrui. ➜ ✅ Immischiarsi nei problemi finanziari altrui.",
+        "synonyms": [
+          "intromettersi in",
+          "invischiarsi in"
+        ],
+        "antonyms": [
+          "estraniarsi da"
+        ]
+      }
+    },
+    {
       "lemma": "imparare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -23987,6 +25883,66 @@
       }
     },
     {
+      "lemma": "incappare in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "incappare + in + [errore/ostacolo/multa]",
+        "level": "B2",
+        "definition": "Imbattersi senza volerlo in un guaio o sanzione.",
+        "grammar_rule": "Richiede la preposizione « in » con articolazioni (incappare in un errore, nei controlli).",
+        "related_forms": "⚡ Verbo: 'incappare in' ➜ Nome correlato: 'ostacolo a' / Aggettivo correlato: 'vulnerabile a'",
+        "examples": [
+          "Sono incappato in una serie di controlli burocratici.",
+          "Incappare in una pesante contravvenzione."
+        ],
+        "common_mistake": "❌ Incappare con una multa salata. ➜ ✅ Incappare in una multa salata.",
+        "synonyms": [
+          "imbattersi in",
+          "cadere in"
+        ],
+        "antonyms": [
+          "schivare",
+          "evitare"
+        ]
+      }
+    },
+    {
+      "lemma": "incitare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "incitare + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Spronare con parole calorose qualcuno ad agire.",
+        "grammar_rule": "Richiede la preposizione « a » prima del verbo all'infinito (incitare a lottare, a studiare).",
+        "related_forms": "⚡ Verbo: 'incitare a' ➜ Nome correlato: 'incitamento a' / Aggettivo correlato: 'animato da'",
+        "examples": [
+          "Il pubblico incita la squadra a vincere.",
+          "Il maestro incita gli allievi a non arrendersi."
+        ],
+        "common_mistake": "❌ Incita gli studenti di fare di più. ➜ ✅ Incita gli studenti a fare di più.",
+        "synonyms": [
+          "spronare a",
+          "esortare a"
+        ],
+        "antonyms": [
+          "dissuadere da",
+          "frenare"
+        ]
+      }
+    },
+    {
       "lemma": "incontrare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -24098,6 +26054,94 @@
         "usage_hint": "+ oggetto diretto (incontrare un amico)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "ingerirsi in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": true,
+        "pattern": "ingerirsi + in + [affari interni/politica]",
+        "level": "B2",
+        "definition": "Esercitare ingerenza abusiva nella politica altrui.",
+        "grammar_rule": "Verbo pronominale sostenuto che richiede « in » (ingerirsi negli affari di Stato).",
+        "related_forms": "⚡ Verbo: 'ingerirsi in' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'estraneo a'",
+        "examples": [
+          "Nessun paese estero deve ingerirsi nelle nostre elezioni.",
+          "Ingerirsi nelle scelte della giunta."
+        ],
+        "common_mistake": "❌ Ingerirsi a le questioni private. ➜ ✅ Ingerirsi nelle questioni private.",
+        "synonyms": [
+          "intromettersi in",
+          "ingerire"
+        ],
+        "antonyms": [
+          "rispettare l'autonomia"
+        ]
+      }
+    },
+    {
+      "lemma": "iniziare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "iniziare + a + [infinito]",
+        "level": "A1",
+        "definition": "Avviare un'attività o un corso di studi.",
+        "grammar_rule": "Richiede la preposizione « a » davanti a un verbo all'infinito (iniziare a lavorare, a parlare).",
+        "related_forms": "⚡ Verbo: 'iniziare a' ➜ Nome correlato: 'inizio di' / Aggettivo correlato: 'pronto a'",
+        "examples": [
+          "Iniziamo a preparare la cena insieme?",
+          "Ha iniziato a lavorare in quella ditta un mese fa."
+        ],
+        "common_mistake": "❌ Inizio di leggere questo libro stasera. ➜ ✅ Inizio a leggere questo libro stasera.",
+        "synonyms": [
+          "cominciare a",
+          "intraprendere"
+        ],
+        "antonyms": [
+          "terminare di",
+          "concludere"
+        ]
+      }
+    },
+    {
+      "lemma": "innamorarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "innamorarsi + di + [persona/cosa]",
+        "level": "A2",
+        "definition": "Provare un vivo e improvviso sentimento d'amore per qualcuno.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « di » con relative articolazioni (innamorarsi di una ragazza, del mare).",
+        "related_forms": "⚡ Verbo: 'innamorarsi di' ➜ Nome correlato: 'amore per' / Aggettivo correlato: 'innamorato di'",
+        "examples": [
+          "Marco si è innamorato di Francesca al primo sguardo.",
+          "Ci siamo innamorati della bellezza di Venezia."
+        ],
+        "common_mistake": "❌ Si è innamorato con la sua collega. ➜ ✅ Si è innamorato della sua collega.",
+        "synonyms": [
+          "s'invaghire di",
+          "appassionarsi di"
+        ],
+        "antonyms": [
+          "disamorarsi di"
+        ]
       }
     },
     {
@@ -24444,6 +26488,95 @@
       }
     },
     {
+      "lemma": "interessarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "interessarsi + a/di + [materia/argomento]",
+        "level": "A2",
+        "definition": "Rivolgere l'attenzione e la curiosità verso un settore.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » o « di » con relative articolazioni (interessarsi alla storia, di politica).",
+        "related_forms": "⚡ Verbo: 'interessarsi a' ➜ Nome correlato: 'interesse per' / Aggettivo correlato: 'interessato a'",
+        "examples": [
+          "Mio figlio si interessa molto alla scienza.",
+          "Si interessa di arte moderna da anni."
+        ],
+        "common_mistake": "❌ Si interessa per la musica classica. ➜ ✅ Si interessa alla musica classica.",
+        "synonyms": [
+          "appassionarsi a",
+          "curiosare su"
+        ],
+        "antonyms": [
+          "disinteressarsi di"
+        ]
+      }
+    },
+    {
+      "lemma": "intervenire in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "intervenire + in + [dibattito/fatto/questione]",
+        "level": "B2",
+        "definition": "Prendere la parola o agire d'autorità in una vicenda.",
+        "grammar_rule": "Usa « in » con articolazioni per indicare il dibattito o ambito d'azione (intervenire nella discussione, nel merito).",
+        "related_forms": "⚡ Verbo: 'intervenire in' ➜ Nome correlato: 'discorso su' / Aggettivo correlato: 'competente in'",
+        "examples": [
+          "Il ministro è intervenuto nella polemica con fermezza.",
+          "Intervenire in aiuto dei bisognosi."
+        ],
+        "common_mistake": "❌ Intervenire a il dibattito parlamentare. ➜ ✅ Intervenire nel dibattito parlamentare.",
+        "synonyms": [
+          "intromettersi in",
+          "prendere parte a"
+        ],
+        "antonyms": [
+          "astenersi da",
+          "disinteressarsi di"
+        ]
+      }
+    },
+    {
+      "lemma": "intromettersi in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": true,
+        "pattern": "intromettersi + in + [affari/discussione]",
+        "level": "B2",
+        "definition": "Infiltrarsi e immischiarsi in modo indebito nelle cose altrui.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « in » (intromettersi nella vita privata, nei litigi).",
+        "related_forms": "⚡ Verbo: 'intromettersi in' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'inopportuno per'",
+        "examples": [
+          "Non dovresti intrometterti nelle questioni di famiglia.",
+          "Si è intromesso nella conversazione."
+        ],
+        "common_mistake": "❌ Intromettersi a le decisioni dei colleghi. ➜ ✅ Intromettersi nelle decisioni dei colleghi.",
+        "synonyms": [
+          "immischiarsi in",
+          "ingerirsi in"
+        ],
+        "antonyms": [
+          "farsi i fatti propri",
+          "astenersi da"
+        ]
+      }
+    },
+    {
       "lemma": "inviare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -24673,6 +26806,64 @@
       }
     },
     {
+      "lemma": "invitare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "invitare + [persona] + a + [evento/infinito]",
+        "level": "A1",
+        "definition": "Chiedere la presenza di qualcuno a una festa o azione.",
+        "grammar_rule": "Richiede « a » sia davanti a un nome di evento (invitare alla festa) sia prima dell'infinito (invitare a cena, a ballare).",
+        "related_forms": "⚡ Verbo: 'invitare a' ➜ Nome correlato: 'invito a' / Aggettivo correlato: 'gentile con'",
+        "examples": [
+          "Ti invito alla mia festa di compleanno sabato.",
+          "Ci hanno invitato a pranzo a casa loro."
+        ],
+        "common_mistake": "❌ Vi invito di venire alla mia laurea. ➜ ✅ Vi invito a venire alla mia laurea.",
+        "synonyms": [
+          "convocare a",
+          "sollecitare a"
+        ],
+        "antonyms": [
+          "escludere da"
+        ]
+      }
+    },
+    {
+      "lemma": "ispirarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "ispirarsi + a + [modello/opera/autore]",
+        "level": "B2",
+        "definition": "Prendere a modello o guida la creatività altrui.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (ispirarsi a Dante, al Rinascimento).",
+        "related_forms": "⚡ Verbo: 'ispirarsi a' ➜ Nome correlato: 'amore per' / Aggettivo correlato: 'conforme a'",
+        "examples": [
+          "Il romanzo si ispira a fatti realmente accaduti.",
+          "Il pittore si ispira ai grandi maestri."
+        ],
+        "common_mistake": "❌ Si ispira di la natura incontaminata. ➜ ✅ Si ispira alla natura incontaminata.",
+        "synonyms": [
+          "rifarsi a",
+          "trarre spunto da"
+        ],
+        "antonyms": [
+          "prescindere da"
+        ]
+      }
+    },
+    {
       "lemma": "lamentarsi",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -24784,6 +26975,36 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "lamentarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "lamentarsi + di + [problema/persona]",
+        "level": "A2",
+        "definition": "Esprimere il proprio disappunto o dolore per qualcosa.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » con relative articolazioni (lamentarsi del rumore, del servizio).",
+        "related_forms": "⚡ Verbo: 'lamentarsi di' ➜ Nome correlato: 'preoccupazione per' / Aggettivo correlato: 'insoddisfatto di'",
+        "examples": [
+          "I clienti si lamentano del ritardo delle consegne.",
+          "Si lamenta sempre del freddo in ufficio."
+        ],
+        "common_mistake": "❌ Si lamenta per del prezzo alto. ➜ ✅ Si lamenta del prezzo alto.",
+        "synonyms": [
+          "protestare per",
+          "lagnarsi di"
+        ],
+        "antonyms": [
+          "compiacersi di",
+          "soddisfarsi di"
+        ]
       }
     },
     {
@@ -25814,6 +28035,65 @@
       }
     },
     {
+      "lemma": "mancare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "mancare + a + [persona]",
+        "level": "B1",
+        "definition": "Far sentire il vuoto della propria assenza a qualcuno.",
+        "grammar_rule": "Si usa « a » per indicare la persona che soffre l'assenza (Mi manchi = Tu manchi a me).",
+        "related_forms": "⚡ Verbo: 'mancare a' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'affezionato a'",
+        "examples": [
+          "Mi mancano tanto i miei genitori lontani.",
+          "Gli mancano gli amici d'infanzia."
+        ],
+        "common_mistake": "❌ Tu manchi di me ogni giorno. ➜ ✅ Tu manchi a me (Mi manchi) ogni giorno.",
+        "synonyms": [
+          "essere desiderato da",
+          "creare vuoto a"
+        ],
+        "antonyms": [
+          "saziare"
+        ]
+      }
+    },
+    {
+      "lemma": "mancare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "mancare + di + [qualità/risorsa]",
+        "level": "B1",
+        "definition": "Soffrire la privazione o scarsità di un bene.",
+        "grammar_rule": "Usa « di » per la privazione di doti o cose (mancare di rispetto, di fondi). N.B.: mancare a = fare nostalgia.",
+        "related_forms": "⚡ Verbo: 'mancare di' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'povero di'",
+        "examples": [
+          "Questa proposta manca di concretezza.",
+          "Non mancare di rispetto alle persone anziane!"
+        ],
+        "common_mistake": "❌ Manca a il coraggio per agire. ➜ ✅ Manca di coraggio per agire.",
+        "synonyms": [
+          "scarseggiare di",
+          "difettare di"
+        ],
+        "antonyms": [
+          "abbondare di",
+          "eccellere in"
+        ]
+      }
+    },
+    {
       "lemma": "mangiare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -26043,6 +28323,35 @@
       }
     },
     {
+      "lemma": "meravigliarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "meravigliarsi + di + [fatto/sorpresa]",
+        "level": "A2",
+        "definition": "Provare stupore per un fatto inaspettato.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (meravigliarsi del risultato, di vedere qualcuno).",
+        "related_forms": "⚡ Verbo: 'meravigliarsi di' ➜ Nome correlato: 'notizia su' / Aggettivo correlato: 'attonito davanti a'",
+        "examples": [
+          "Mi meraviglio della tua reazione così fredda.",
+          "Si è meravigliato di trovarci ancora qui."
+        ],
+        "common_mistake": "❌ Mi meraviglio a la sua risposta. ➜ ✅ Mi meraviglio della sua risposta.",
+        "synonyms": [
+          "stupirsi di",
+          "sorprendersi di"
+        ],
+        "antonyms": [
+          "darsi per inteso"
+        ]
+      }
+    },
+    {
       "lemma": "mettere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -26154,6 +28463,35 @@
         "usage_hint": "mettere (qualcosa) in / su",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "misurarsi con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": true,
+        "pattern": "misurarsi + con + [avversario/sfida]",
+        "level": "B2",
+        "definition": "Mettere alla prova le proprie forze contro un rivale.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « con » (misurarsi con i migliori, con le sfide).",
+        "related_forms": "⚡ Verbo: 'misurarsi con' ➜ Nome correlato: 'confronto tra' / Aggettivo correlato: 'pronto a'",
+        "examples": [
+          "Gli atleti si misurano con i campioni olimpici.",
+          "Misurarsi con compiti sempre più complessi."
+        ],
+        "common_mistake": "❌ Misurarsi a la realtà dei fatti. ➜ ✅ Misurarsi con la realtà dei fatti.",
+        "synonyms": [
+          "confrontarsi con",
+          "sfidare"
+        ],
+        "antonyms": [
+          "ritirarsi da"
+        ]
       }
     },
     {
@@ -26953,6 +29291,95 @@
       }
     },
     {
+      "lemma": "obbedire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "obbedire + a + [norma/superiore]",
+        "level": "B1",
+        "definition": "Attenersi alla disciplina accettando le regole.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (obbedire alla costituzione, ai regolamenti).",
+        "related_forms": "⚡ Verbo: 'obbedire a' ➜ Nome correlato: 'obbedienza a' / Aggettivo correlato: 'soggetto a'",
+        "examples": [
+          "Occorre obbedire alle leggi dello Stato.",
+          "I ragazzi obbediscono al docente in aula."
+        ],
+        "common_mistake": "❌ Obbedire le regole del gioco. ➜ ✅ Obbedire alle regole del gioco.",
+        "synonyms": [
+          "ubbidire a",
+          "stare ai comandi"
+        ],
+        "antonyms": [
+          "disobbedire a"
+        ]
+      }
+    },
+    {
+      "lemma": "obbligare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "obbligare + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Imporre un dovere inderogabile a una persona.",
+        "grammar_rule": "Richiede la preposizione « a » davanti al verbo all'infinito (obbligare a pagare, a risarcire).",
+        "related_forms": "⚡ Verbo: 'obbligare a' ➜ Nome correlato: 'ordine di' / Aggettivo correlato: 'vincolato a'",
+        "examples": [
+          "La legge obbliga gli automobilisti ad allacciare le cinture.",
+          "Mi hanno obbligato a rifare il lavoro."
+        ],
+        "common_mistake": "❌ Mi obbliga di restare in ufficio. ➜ ✅ Mi obbliga a restare in ufficio.",
+        "synonyms": [
+          "costringere a",
+          "imporre di"
+        ],
+        "antonyms": [
+          "dispensare da",
+          "liberare da"
+        ]
+      }
+    },
+    {
+      "lemma": "occuparsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "occuparsi + di + [lavoro/persona/fatto]",
+        "level": "A2",
+        "definition": "Prendere in carico una gestione o prendersi cura di qualcuno.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » con relative articolazioni (occuparsi del progetto, dei figli).",
+        "related_forms": "⚡ Verbo: 'occuparsi di' ➜ Nome correlato: 'cura di' / Aggettivo correlato: 'responsabile di'",
+        "examples": [
+          "Mio fratello si occupa della gestione della contabilità.",
+          "La mamma si occupa dei bambini il pomeriggio."
+        ],
+        "common_mistake": "❌ Mi occupo a questo problema urgente. ➜ ✅ Mi occupo di questo problema urgente.",
+        "synonyms": [
+          "curare",
+          "badare a"
+        ],
+        "antonyms": [
+          "trascurare",
+          "disinteressarsi di"
+        ]
+      }
+    },
+    {
       "lemma": "offendere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -27181,6 +29608,36 @@
       }
     },
     {
+      "lemma": "opporsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "opporsi + a + [legge/decisione]",
+        "level": "A2",
+        "definition": "Lottare e mettersi di traverso contro un provvedimento.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con relative articolazioni (opporsi alla riforma, ai tagli).",
+        "related_forms": "⚡ Verbo: 'opporsi a' ➜ Nome correlato: 'opposizione a' / Aggettivo correlato: 'contrario a'",
+        "examples": [
+          "I cittadini si oppongono alla costruzione della discarica.",
+          "Si è opposto con fermezza al progetto."
+        ],
+        "common_mistake": "❌ Si oppone contro la nuova legge. ➜ ✅ Si oppone alla nuova legge.",
+        "synonyms": [
+          "combattere contro",
+          "resistere a"
+        ],
+        "antonyms": [
+          "aderire a",
+          "acconsentire a"
+        ]
+      }
+    },
+    {
       "lemma": "ordinare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -27292,6 +29749,36 @@
         "usage_hint": "ordinare (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "ordinare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "ordinare + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Impartire un comando d'autorità a qualcuno.",
+        "grammar_rule": "Usa « a » per la persona comandata e « di » prima dell'infinito (ordinare ai soldati di avanzare).",
+        "related_forms": "⚡ Verbo: 'ordinare di' ➜ Nome correlato: 'ordine di' / Aggettivo correlato: 'severo con'",
+        "examples": [
+          "Il capitano ha ordinato ai soldati di fermarsi.",
+          "Il medico mi ha ordinato di riposare."
+        ],
+        "common_mistake": "❌ Ha ordinato a me a pagare subito. ➜ ✅ Mi ha ordinato di pagare subito.",
+        "synonyms": [
+          "comandare di",
+          "imporre di"
+        ],
+        "antonyms": [
+          "pregare di",
+          "chiedere di"
+        ]
       }
     },
     {
@@ -27637,6 +30124,94 @@
       }
     },
     {
+      "lemma": "parlare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "parlare + a + [interlocutore]",
+        "level": "A1",
+        "definition": "Indirizzare la parola a una persona per comunicare.",
+        "grammar_rule": "Richiede la preposizione « a » per introdurre il destinatario della comunicazione (parlare al professore, parlare agli studenti).",
+        "related_forms": "⚡ Verbo: 'parlare a' ➜ Nome correlato: 'discorso su' / Aggettivo correlato: 'gentile con'",
+        "examples": [
+          "Ho parlato al direttore per chiedere un giorno di ferie.",
+          "Il professore parla agli studenti dell'esame."
+        ],
+        "common_mistake": "❌ Ho parlato con il professore a la lezione. ➜ ✅ Ho parlato al professore della lezione.",
+        "synonyms": [
+          "rivolgersi a",
+          "dire a"
+        ],
+        "antonyms": [
+          "tacere"
+        ]
+      }
+    },
+    {
+      "lemma": "parlare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "parlare + di + [argomento/persona]",
+        "level": "A1",
+        "definition": "Trattare o discutere un determinato argomento o persona.",
+        "grammar_rule": "Richiede la preposizione « di » con relative preposizioni articolate per specificare il tema trattato (parlare del viaggio, di politica).",
+        "related_forms": "⚡ Verbo: 'parlare di' ➜ Nome correlato: 'discorso su' / Aggettivo correlato: 'esperto di'",
+        "examples": [
+          "Stiamo parlando delle nostre prossime vacanze.",
+          "Non mi piace parlare di politica a cena."
+        ],
+        "common_mistake": "❌ Parlano su le vacanze tutto il tempo. ➜ ✅ Parlano delle vacanze tutto il tempo.",
+        "synonyms": [
+          "discutere di",
+          "trattare di"
+        ],
+        "antonyms": [
+          "tacere su"
+        ]
+      }
+    },
+    {
+      "lemma": "partecipare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "partecipare + a + [evento/riunione]",
+        "level": "B1",
+        "definition": "Essere presente ed agire attivamente in una riunione o gara.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (partecipare alla gara, al convegno).",
+        "related_forms": "⚡ Verbo: 'partecipare a' ➜ Nome correlato: 'partecipazione a' / Aggettivo correlato: 'coinvolto in'",
+        "examples": [
+          "Tutti i soci sono invitati a partecipare all'assemblea.",
+          "Ha partecipato alla maratona."
+        ],
+        "common_mistake": "❌ Partecipare in la riunione di lavoro. ➜ ✅ Partecipare alla riunione di lavoro.",
+        "synonyms": [
+          "intervenire a",
+          "presenziare a"
+        ],
+        "antonyms": [
+          "disertare",
+          "assentarsi da"
+        ]
+      }
+    },
+    {
       "lemma": "partire",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -27748,6 +30323,36 @@
         "usage_hint": "intransitivo: partire per (destinazione) / da (luogo)",
         "auxiliary": "essere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "partire per",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "per"
+        ],
+        "pronominal": false,
+        "pattern": "partire + per + [destinazione]",
+        "level": "A1",
+        "definition": "Mettersi in viaggio verso una destinazione.",
+        "grammar_rule": "Richiede la preposizione « per » per indicare la meta del viaggio (partire per Parigi, per le vacanze).",
+        "related_forms": "⚡ Verbo: 'partire per' ➜ Nome correlato: 'partenza per' / Aggettivo correlato: 'pronto per'",
+        "examples": [
+          "Partiamo per le vacanze domani mattina presto.",
+          "Mia sorella parte per la Spagna martedì."
+        ],
+        "common_mistake": "❌ Parto a Parigi la settimana prossima. ➜ ✅ Parto per Parigi la settimana prossima.",
+        "synonyms": [
+          "avviarsi verso",
+          "salpare per"
+        ],
+        "antonyms": [
+          "arrivare a",
+          "tornare a"
+        ]
       }
     },
     {
@@ -27990,6 +30595,94 @@
       }
     },
     {
+      "lemma": "pensare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "pensare + a + [persona/cosa/infinito]",
+        "level": "A1",
+        "definition": "Rivolgere la mente o il ricordo a qualcuno o qualcosa.",
+        "grammar_rule": "Richiede la preposizione « a » per indicare l'oggetto del pensiero o ricordo (penso a Maria, pensare alle vacanze).",
+        "related_forms": "⚡ Verbo: 'pensare a' ➜ Nome correlato: 'attenzione a' / Aggettivo correlato: 'attento a'",
+        "examples": [
+          "Penso sempre a te quando ascolto questa canzone.",
+          "Dobbiamo pensare al nostro futuro con ottimismo."
+        ],
+        "common_mistake": "❌ Penso di a te tutti i giorni. ➜ ✅ Penso a te tutti i giorni.",
+        "synonyms": [
+          "riflettere su",
+          "ricordarsi di"
+        ],
+        "antonyms": [
+          "dimenticare",
+          "scordarsi di"
+        ]
+      }
+    },
+    {
+      "lemma": "pensare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "pensare + di + [infinito/opinione]",
+        "level": "A1",
+        "definition": "Avere l'intenzione di fare qualcosa oppure esprimere un'opinione su qualcuno.",
+        "grammar_rule": "Si usa « di » prima di un verbo all'infinito per esprimere intenzione (penso di partire) o nelle domande d'opinione (Che pensi di questo libro?).",
+        "related_forms": "⚡ Verbo: 'pensare di' ➜ Nome correlato: 'decisione di' / Aggettivo correlato: 'sicuro di'",
+        "examples": [
+          "Penso di partire per Roma questo fine settimana.",
+          "Che cosa pensi di questa nuova proposta di lavoro?"
+        ],
+        "common_mistake": "❌ Penso a partire domani mattina. ➜ ✅ Penso di partire domani mattina.",
+        "synonyms": [
+          "intendere",
+          "valutare di"
+        ],
+        "antonyms": [
+          "esitare a"
+        ]
+      }
+    },
+    {
+      "lemma": "pentirsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "pentirsi + di + [errore/azione]",
+        "level": "A2",
+        "definition": "Ressentire rammarico e dolore per un'azione compiuta.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « di » (pentirsi della scelta, di aver mentito).",
+        "related_forms": "⚡ Verbo: 'pentirsi di' ➜ Nome correlato: 'rammarico per' / Aggettivo correlato: 'colpevole di'",
+        "examples": [
+          "Si è pentito amaramente delle parole dette.",
+          "Mi pento di non aver studiato di più."
+        ],
+        "common_mistake": "❌ Mi pento per la decisione presa. ➜ ✅ Mi pento della decisione presa.",
+        "synonyms": [
+          "rammaricarsi di",
+          "dolersi di"
+        ],
+        "antonyms": [
+          "compiacersi di"
+        ]
+      }
+    },
+    {
       "lemma": "perdere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -28215,6 +30908,65 @@
         "usage_hint": "permettere (qualcosa) a (qualcuno) / di (fare)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "permettere di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "permettere + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Concedere l'autorizzazione o la possibilità di fare qualcosa.",
+        "grammar_rule": "Usa « a » per la persona autorizzata e « di » prima del verbo all'infinito (permettere ai figli di uscire).",
+        "related_forms": "⚡ Verbo: 'permettere di' ➜ Nome correlato: 'permesso di' / Aggettivo correlato: 'legittimato a'",
+        "examples": [
+          "Il regolamento permette agli studenti di usare il dizionario.",
+          "Questo lasciapassare permette di entrare."
+        ],
+        "common_mistake": "❌ Permetto a te a uscire stasera. ➜ ✅ Ti permetto di uscire stasera.",
+        "synonyms": [
+          "autorizzare a",
+          "concedere di"
+        ],
+        "antonyms": [
+          "proibire di",
+          "vietare di"
+        ]
+      }
+    },
+    {
+      "lemma": "persuadere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "persuadere + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Vincere le esitazioni altrui e spingere ad agire.",
+        "grammar_rule": "Usa « a » davanti all'infinito per indicare l'azione promossa (persuadere a firmare).",
+        "related_forms": "⚡ Verbo: 'persuadere a' ➜ Nome correlato: 'persuasione a' / Aggettivo correlato: 'disposto a'",
+        "examples": [
+          "Il venditore ha persuaso il cliente a comprare l'auto.",
+          "Non riuscirai a persuadermi a cedere."
+        ],
+        "common_mistake": "❌ Mi ha persuaso di firmare il contratto. ➜ ✅ Mi ha persuaso a firmare il contratto.",
+        "synonyms": [
+          "convincere a",
+          "allettare a"
+        ],
+        "antonyms": [
+          "sconsigliare di"
+        ]
       }
     },
     {
@@ -28905,6 +31657,65 @@
       }
     },
     {
+      "lemma": "preoccuparsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "preoccuparsi + di + [infinito/fatto]",
+        "level": "A2",
+        "definition": "Prendere a cuore di fare qualcosa per tempo.",
+        "grammar_rule": "Si usa « di » prima di un verbo all'infinito (preoccuparsi di prenotare, di informare).",
+        "related_forms": "⚡ Verbo: 'preoccuparsi di' ➜ Nome correlato: 'preoccupazione per' / Aggettivo correlato: 'preoccupato per'",
+        "examples": [
+          "Si è preoccupato di prenotare i biglietti in anticipo.",
+          "Preoccupati di finire il tuo lavoro!"
+        ],
+        "common_mistake": "❌ Mi preoccupo a preparare la cena. ➜ ✅ Mi preoccupo di preparare la cena.",
+        "synonyms": [
+          "curarsi di",
+          "preoccuparsi per"
+        ],
+        "antonyms": [
+          "fregarsene di",
+          "trascurare"
+        ]
+      }
+    },
+    {
+      "lemma": "preoccuparsi per",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "per"
+        ],
+        "pronominal": true,
+        "pattern": "preoccuparsi + per + [persona/salute]",
+        "level": "A2",
+        "definition": "Provare ansia e timore per la sorte di qualcuno o qualcosa.",
+        "grammar_rule": "Si usa « per » davanti al nome della persona o della situazione che crea ansia (preoccuparsi per la salute, per i figli).",
+        "related_forms": "⚡ Verbo: 'preoccuparsi per' ➜ Nome correlato: 'preoccupazione per' / Aggettivo correlato: 'preoccupato per'",
+        "examples": [
+          "I genitori si preoccupano molto per il futuro dei figli.",
+          "Non preoccuparti per me, sto bene."
+        ],
+        "common_mistake": "❌ Mi preoccupo di la tua salute. ➜ ✅ Mi preoccupo per la tua salute.",
+        "synonyms": [
+          "angosciarsi per",
+          "stare in ansia per"
+        ],
+        "antonyms": [
+          "tranquillizzarsi per"
+        ]
+      }
+    },
+    {
       "lemma": "preparare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -29016,6 +31827,65 @@
         "usage_hint": "preparare + oggetto diretto / prepararsi a",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "prescindere da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "prescindere + da + [fattore/elemento]",
+        "level": "B2",
+        "definition": "Non tenere conto e lasciare da parte una circostanza.",
+        "grammar_rule": "Richiede la preposizione « da » con relative articolazioni (prescindere dall'origine, dai costi).",
+        "related_forms": "⚡ Verbo: 'prescindere da' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'autonomo da'",
+        "examples": [
+          "Bisogna prescindere dalle simpatie personali nel giudizio.",
+          "Il diritto si applica prescindendo dall'età."
+        ],
+        "common_mistake": "❌ Prescindere di le difficoltà economiche. ➜ ✅ Prescindere dalle difficoltà economiche.",
+        "synonyms": [
+          "non considerare",
+          "astranersi da"
+        ],
+        "antonyms": [
+          "dipendere da",
+          "considerare"
+        ]
+      }
+    },
+    {
+      "lemma": "presenziare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "presenziare + a + [cerimonia/evento]",
+        "level": "B1",
+        "definition": "Essere presente d'persona a una cerimonia ufficiale.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (presenziare all'inaugurazione, alla cerimonia).",
+        "related_forms": "⚡ Verbo: 'presenziare a' ➜ Nome correlato: 'partecipazione a' / Aggettivo correlato: 'presente a'",
+        "examples": [
+          "Il sindaco ha presenziato all'inaugurazione del parco.",
+          "Presenziare alla seduta della giunta."
+        ],
+        "common_mistake": "❌ Presenziare la cerimonia solenne. ➜ ✅ Presenziare alla cerimonia solenne.",
+        "synonyms": [
+          "assistere a",
+          "partecipare a"
+        ],
+        "antonyms": [
+          "assentarsi da"
+        ]
       }
     },
     {
@@ -29134,6 +32004,66 @@
       }
     },
     {
+      "lemma": "privarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "privarsi + di + [bene/comfort]",
+        "level": "B2",
+        "definition": "Rinunciare spontaneamente a un beneficio per altruismo.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (privarsi del necessario, del sonno).",
+        "related_forms": "⚡ Verbo: 'privarsi di' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'privo di'",
+        "examples": [
+          "Si è privato di tutto per garantire gli studi ai figli.",
+          "Privarsi del riposo per lavorare."
+        ],
+        "common_mistake": "❌ Privarsi da i propri diritti morali. ➜ ✅ Privarsi dei propri diritti morali.",
+        "synonyms": [
+          "spogliarsi di",
+          "rinunciare a"
+        ],
+        "antonyms": [
+          "godere di",
+          "usufruire di"
+        ]
+      }
+    },
+    {
+      "lemma": "proibire di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "proibire + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Vietare con fermezza a qualcuno di compiere un atto.",
+        "grammar_rule": "Usa « a » per la persona e « di » davanti all'infinito (proibire ai minori di fumare).",
+        "related_forms": "⚡ Verbo: 'proibire di' ➜ Nome correlato: 'divieto di' / Aggettivo correlato: 'intollerante a'",
+        "examples": [
+          "Il medico le ha proibito di mangiare dolci.",
+          "La legge proibisce ai minori di acquistare alcolici."
+        ],
+        "common_mistake": "❌ Proibisco a te a parlare così. ➜ ✅ Ti proibisco di parlare così.",
+        "synonyms": [
+          "vietare di",
+          "interdire di"
+        ],
+        "antonyms": [
+          "permettere di",
+          "autorizzare a"
+        ]
+      }
+    },
+    {
       "lemma": "promettere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -29245,6 +32175,66 @@
         "usage_hint": "promettere (qualcosa) a (qualcuno) / di (fare)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "proteggere da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "proteggere + [persona] + da + [pericolo]",
+        "level": "A2",
+        "definition": "Offrire riparo e difesa a qualcuno contro un male.",
+        "grammar_rule": "Usa « da » con relative articolazioni per l'agente pericoloso (proteggere dal freddo, dai pericoli).",
+        "related_forms": "⚡ Verbo: 'proteggere da' ➜ Nome correlato: 'protezione da' / Aggettivo correlato: 'sicuro da'",
+        "examples": [
+          "Questa giacca protegge dal freddo e dalla pioggia.",
+          "I genitori proteggono i figli dalle insidie."
+        ],
+        "common_mistake": "❌ Proteggere di il vento gelido. ➜ ✅ Proteggere dal vento gelido.",
+        "synonyms": [
+          "difendere da",
+          "riparare da"
+        ],
+        "antonyms": [
+          "esporre a",
+          "vulnerabile a"
+        ]
+      }
+    },
+    {
+      "lemma": "protestare per",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "per"
+        ],
+        "pronominal": false,
+        "pattern": "protestare + per/contro + [ingiustizia/tagli]",
+        "level": "B2",
+        "definition": "Elevare viva voce di dissenso contro un abuso.",
+        "grammar_rule": "Usa « per » per indicare la causa (protestare per i ritardi) e « contro » per l'avversario/misura.",
+        "related_forms": "⚡ Verbo: 'protestare per' ➜ Nome correlato: 'critica di' / Aggettivo correlato: 'indignato da'",
+        "examples": [
+          "I lavoratori protestano per i licenziamenti ingiustificati.",
+          "Protestare contro la nuova tassa."
+        ],
+        "common_mistake": "❌ Protestare di il disservizio subìto. ➜ ✅ Protestare per il disservizio subìto.",
+        "synonyms": [
+          "insorgere contro",
+          "reclamare per"
+        ],
+        "antonyms": [
+          "approvare",
+          "accettare"
+        ]
       }
     },
     {
@@ -29360,6 +32350,35 @@
         },
         "usage_hint": "+ oggetto diretto / a (fare)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "provare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "provare + a + [infinito]",
+        "level": "A1",
+        "definition": "Fare un tentativo per compiere un'azione.",
+        "grammar_rule": "Richiede la preposizione « a » prima del verbo all'infinito (provare a spiegare, a capire). N.B.: con un nome è transitivo diretto (provare una maglia).",
+        "related_forms": "⚡ Verbo: 'provare a' ➜ Nome correlato: 'tentativo di' / Aggettivo correlato: 'disposto a'",
+        "examples": [
+          "Prova a concentrarti meglio sul testo.",
+          "Possiamo provare ad aprire la finestra?"
+        ],
+        "common_mistake": "❌ Prova di chiamare il medico. ➜ ✅ Prova a chiamare il medico.",
+        "synonyms": [
+          "tentare di",
+          "sperimentare"
+        ],
+        "antonyms": [
+          "rinunciare a"
+        ]
       }
     },
     {
@@ -29593,6 +32612,35 @@
       }
     },
     {
+      "lemma": "raccomandare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "raccomandare + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Esortare caldamente e con premura qualcuno.",
+        "grammar_rule": "Usa « a » per la persona e « di » prima dell'infinito (raccomandare ai figli di stare attenti).",
+        "related_forms": "⚡ Verbo: 'raccomandare di' ➜ Nome correlato: 'attenzione a' / Aggettivo correlato: 'attento a'",
+        "examples": [
+          "Mi raccomando di essere puntuale domani!",
+          "Ha raccomandato agli studenti di ripassare."
+        ],
+        "common_mistake": "❌ Raccomando a te a stare attento. ➜ ✅ Ti raccomando di stare attento.",
+        "synonyms": [
+          "esortare a",
+          "consigliare di"
+        ],
+        "antonyms": [
+          "sconsigliare di"
+        ]
+      }
+    },
+    {
       "lemma": "raccontare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -29823,6 +32871,96 @@
       }
     },
     {
+      "lemma": "rallegrarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "rallegrarsi + di + [successo/notizia]",
+        "level": "A2",
+        "definition": "Provare viva gioia per un evento felice.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (rallegrarsi del successo, di rivedere un amico).",
+        "related_forms": "⚡ Verbo: 'rallegrarsi di' ➜ Nome correlato: 'festa di' / Aggettivo correlato: 'contento di'",
+        "examples": [
+          "Ci rallegriamo della vostra splendida vittoria.",
+          "Mi rallegro di vederti così sereno."
+        ],
+        "common_mistake": "❌ Mi rallegro per del tuo arrivo. ➜ ✅ Mi rallegro del tuo arrivo.",
+        "synonyms": [
+          "compiacersi di",
+          "gioire di"
+        ],
+        "antonyms": [
+          "rammaricarsi di",
+          "affliggersi di"
+        ]
+      }
+    },
+    {
+      "lemma": "rammaricarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "rammaricarsi + di + [errore/assenza/infinito]",
+        "level": "B2",
+        "definition": "Éprouvare sincera amarezza per un'occasione perduta.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (rammaricarsi della sconfitta, di non esserci).",
+        "related_forms": "⚡ Verbo: 'rammaricarsi di' ➜ Nome correlato: 'rammarico per' / Aggettivo correlato: 'dispiaciuto per'",
+        "examples": [
+          "Ci rammarichiamo della vostra mancata partecipazione.",
+          "Si rammarica di non aver parlato prima."
+        ],
+        "common_mistake": "❌ Mi rammarico per la decisione affrettata. ➜ ✅ Mi rammarico della decisione affrettata.",
+        "synonyms": [
+          "rammaricarsi per",
+          "dolersi di"
+        ],
+        "antonyms": [
+          "compiacersi di",
+          "rallegrarsi di"
+        ]
+      }
+    },
+    {
+      "lemma": "reclamare contro",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "contro"
+        ],
+        "pronominal": false,
+        "pattern": "reclamare + contro + [decisione/torto]",
+        "level": "B2",
+        "definition": "Avanzare formale doglianza legale contro una delibera.",
+        "grammar_rule": "Usa « contro » con articolazioni per indicare l'oggetto del ricorso (reclamare contro il verdetto).",
+        "related_forms": "⚡ Verbo: 'reclamare contro' ➜ Nome correlato: 'appello a' / Aggettivo correlato: 'indignato da'",
+        "examples": [
+          "La società ha deciso di reclamare contro la sanzione.",
+          "Reclamare contro l'esito della gara."
+        ],
+        "common_mistake": "❌ Reclamare di la decisione del arbitro. ➜ ✅ Reclamare contro la decisione dell'arbitro.",
+        "synonyms": [
+          "impugnare",
+          "ricorrere contro"
+        ],
+        "antonyms": [
+          "accettare",
+          "rinunciare a"
+        ]
+      }
+    },
+    {
       "lemma": "regalare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -29935,6 +33073,66 @@
         },
         "usage_hint": "regalare (qualcosa) a (qualcuno)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "resistere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "resistere + a + [pressione/tentazione/nemico]",
+        "level": "B2",
+        "definition": "Opporre salda forza per non cedere all'assalto.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (resistere al dolore, alle tentazioni).",
+        "related_forms": "⚡ Verbo: 'resistere a' ➜ Nome correlato: 'resistenza a' / Aggettivo correlato: 'invulnerabile a'",
+        "examples": [
+          "È difficile resistere alla tentazione di quel dolce.",
+          "La struttura ha resistito al terremoto."
+        ],
+        "common_mistake": "❌ Resistere contro la pressione dei colleghi. ➜ ✅ Resistere alla pressione dei colleghi.",
+        "synonyms": [
+          "opporsi a",
+          "tenere testa a"
+        ],
+        "antonyms": [
+          "soccombere a",
+          "cedere a"
+        ]
+      }
+    },
+    {
+      "lemma": "ribellarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "ribellarsi + a/contro + [oppressore/incontromania]",
+        "level": "B1",
+        "definition": "Insorgere con fierezza rifiutando un'imposizione.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » o « contro » (ribellarsi alle ingiustizie, al regime).",
+        "related_forms": "⚡ Verbo: 'ribellarsi a' ➜ Nome correlato: 'opposizione a' / Aggettivo correlato: 'intollerante verso'",
+        "examples": [
+          "I cittadini si sono ribellati all'aumento sproporzionato delle tasse.",
+          "Ribellarsi contro la tirannia."
+        ],
+        "common_mistake": "❌ Ribellarsi di l'oppressione della dittatura. ➜ ✅ Ribellarsi all'oppressione della dittatura.",
+        "synonyms": [
+          "insorgere contro",
+          "opporsi a"
+        ],
+        "antonyms": [
+          "sottomettersi a",
+          "obbedire a"
+        ]
       }
     },
     {
@@ -30281,6 +33479,65 @@
       }
     },
     {
+      "lemma": "ricordarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "ricordarsi + di + [persona/cosa/infinito]",
+        "level": "A2",
+        "definition": "Rievocare nella memoria qualcuno o qualcosa.",
+        "grammar_rule": "Verbo pronominal che richiede sempre la preposizione « di » con relative articolazioni (ricordarsi del compleanno, di fare).",
+        "related_forms": "⚡ Verbo: 'ricordarsi di' ➜ Nome correlato: 'ricordo di' / Aggettivo correlato: 'attento a'",
+        "examples": [
+          "Ti ricordi di quel viaggio in Sicilia?",
+          "Ricordati di chiamare la nonna stasera."
+        ],
+        "common_mistake": "❌ Ti ricordi a il mio nome? ➜ ✅ Ti ricordi del mio nome?",
+        "synonyms": [
+          "rammentarsi di",
+          "conservare memoria"
+        ],
+        "antonyms": [
+          "dimenticarsi di",
+          "scordarsi di"
+        ]
+      }
+    },
+    {
+      "lemma": "ricorrere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "ricorrere + a + [mezzo/giudice/violenza]",
+        "level": "B2",
+        "definition": "Avere ricorso a un mezzo estremo o adire le vie legali.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (ricorrere al TAR, alle armi, ai ripari).",
+        "related_forms": "⚡ Verbo: 'ricorrere a' ➜ Nome correlato: 'ricorso a' / Aggettivo correlato: 'legittimato a'",
+        "examples": [
+          "È stato necessario ricorrere alle cure mediche.",
+          "La difesa ricorrerà in appello al tribunale."
+        ],
+        "common_mistake": "❌ Ricorrere con la forza pubblica. ➜ ✅ Ricorrere alla forza pubblica.",
+        "synonyms": [
+          "avvalersi di",
+          "farsi forza di"
+        ],
+        "antonyms": [
+          "rinunciare a"
+        ]
+      }
+    },
+    {
       "lemma": "ridere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -30392,6 +33649,35 @@
         "usage_hint": "ridere di (qualcosa/qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "riferirsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "riferirsi + a + [argomento/fatto]",
+        "level": "B1",
+        "definition": "Avere per oggetto o rimandare a una cosa precisa.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (riferirsi alla norma, al testo).",
+        "related_forms": "⚡ Verbo: 'riferirsi a' ➜ Nome correlato: 'relazione con' / Aggettivo correlato: 'pertinente a'",
+        "examples": [
+          "I miei commenti si riferiscono al testo letto prima.",
+          "A cosa ti riferisci precisamente?"
+        ],
+        "common_mistake": "❌ Questo si riferisce di il vecchio accordo. ➜ ✅ Questo si riferisce al vecchio accordo.",
+        "synonyms": [
+          "richiamarsi a",
+          "alludere a"
+        ],
+        "antonyms": [
+          "prescindere da"
+        ]
       }
     },
     {
@@ -30738,6 +34024,65 @@
       }
     },
     {
+      "lemma": "ringraziare per",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "per"
+        ],
+        "pronominal": false,
+        "pattern": "ringraziare + [persona] + per + [motivo]",
+        "level": "A2",
+        "definition": "Atteggiare gratitudine verso una persona per un favore.",
+        "grammar_rule": "La persona è complemento diretto, il motivo del grazie è introdotto da « per » (o « di » per cose astratte).",
+        "related_forms": "⚡ Verbo: 'ringraziare per' ➜ Nome correlato: 'ringraziamento per' / Aggettivo correlato: 'gentile con'",
+        "examples": [
+          "Ti ringrazio per il bellissimo regalo di compleanno.",
+          "Vi ringraziamo per la gentile ospitalità."
+        ],
+        "common_mistake": "❌ Ringrazio a te per l'aiuto dato. ➜ ✅ Ti ringrazio per l'aiuto dato.",
+        "synonyms": [
+          "rendere grazie a",
+          "gratifcare"
+        ],
+        "antonyms": [
+          "biasimare per"
+        ]
+      }
+    },
+    {
+      "lemma": "rinunciare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "rinunciare + a + [diritto/progetto/infinito]",
+        "level": "A2",
+        "definition": "Abbandonare volontariamente un diritto o un intento.",
+        "grammar_rule": "Richiede sempre la preposizione « a » con relative articolazioni (rinunciare alla carica, a uscire).",
+        "related_forms": "⚡ Verbo: 'rinunciare a' ➜ Nome correlato: 'rinuncia a' / Aggettivo correlato: 'distaccato da'",
+        "examples": [
+          "Ha dovuto rinunciare al viaggio per motivi di salute.",
+          "Non voglio rinunciare ai miei sogni."
+        ],
+        "common_mistake": "❌ Ha rinunciato di partecipare al concorso. ➜ ✅ Ha rinunciato a partecipare al concorso.",
+        "synonyms": [
+          "abbandonare",
+          "desistere da"
+        ],
+        "antonyms": [
+          "persistere in",
+          "insistere su"
+        ]
+      }
+    },
+    {
       "lemma": "ripetere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -30969,6 +34314,35 @@
       }
     },
     {
+      "lemma": "riposarsi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "riposarsi + da + [fatica/lavoro]",
+        "level": "A2",
+        "definition": "Prendere una pausa di ristoro staccandosi dalla fatica.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (riposarsi dal viaggio, dalle fatiche).",
+        "related_forms": "⚡ Verbo: 'riposarsi da' ➜ Nome correlato: 'pausa da' / Aggettivo correlato: 'stanco di'",
+        "examples": [
+          "Ci riposiamo dal lungo viaggio prima di uscire.",
+          "Ha bisogno di riposarsi dallo stress lavorativo."
+        ],
+        "common_mistake": "❌ Mi riposo di il lavoro settimanale. ➜ ✅ Mi riposo dal lavoro settimanale.",
+        "synonyms": [
+          "ristorarsi da",
+          "prendere fiato"
+        ],
+        "antonyms": [
+          "affaticarsi in"
+        ]
+      }
+    },
+    {
       "lemma": "rispondere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -31080,6 +34454,66 @@
         "usage_hint": "rispondere a (qualcuno / qualcosa)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "rispondere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "rispondere + a + [domanda/persona/mail]",
+        "level": "A1",
+        "definition": "Fornire un riscontro o replica a una domanda o persona.",
+        "grammar_rule": "Richiede sempre la preposizione « a » con articolazioni (rispondere alla mail, al messaggio, agli amici).",
+        "related_forms": "⚡ Verbo: 'rispondere a' ➜ Nome correlato: 'risposta a' / Aggettivo correlato: 'responsabile di'",
+        "examples": [
+          "Devo ancora rispondere al messaggio di Lucia.",
+          "L'imputato non ha voluto rispondere alle domande."
+        ],
+        "common_mistake": "❌ Rispondo il messaggio subito. ➜ ✅ Rispondo al messaggio subito.",
+        "synonyms": [
+          "replicare a",
+          "riscontrare"
+        ],
+        "antonyms": [
+          "domandare a",
+          "chiedere a"
+        ]
+      }
+    },
+    {
+      "lemma": "riuscire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "riuscire + a + [infinito]",
+        "level": "B1",
+        "definition": "Avere successo nell'intento di portare a compimento un'azione.",
+        "grammar_rule": "Richiede la preposizione « a » prima del verbo all'infinito (riuscire a capire, a vincere).",
+        "related_forms": "⚡ Verbo: 'riuscire a' ➜ Nome correlato: 'risultato di' / Aggettivo correlato: 'capace di'",
+        "examples": [
+          "Sei riuscito a trovare i biglietti per il concerto?",
+          "Non riesco a concentrarmi con questo rumore."
+        ],
+        "common_mistake": "❌ Non riesco di aprire la porta. ➜ ✅ Non riesco ad aprire la porta.",
+        "synonyms": [
+          "parvenire a",
+          "ce la fare a"
+        ],
+        "antonyms": [
+          "fallire in",
+          "mancare di"
+        ]
       }
     },
     {
@@ -31780,6 +35214,96 @@
       }
     },
     {
+      "lemma": "sbarazzarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "sbarazzarsi + di + [peso/persona/cosa]",
+        "level": "B2",
+        "definition": "Liberarsi con sollievo di una cosa ingombrante.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « di » con articolazioni (sbarazzarsi dei rifiuti, dei dubbi).",
+        "related_forms": "⚡ Verbo: 'sbarazzarsi di' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'libero da'",
+        "examples": [
+          "Dobbiamo sbarazzarci dei vecchi mobili prima del trasloco.",
+          "Si è sbarazzato di ogni sospetto."
+        ],
+        "common_mistake": "❌ Sbarazzarsi da i documenti inutili. ➜ ✅ Sbarazzarsi dei documenti inutili.",
+        "synonyms": [
+          "disfarsi di",
+          "liberarsi di"
+        ],
+        "antonyms": [
+          "caricarsi di",
+          "sopportare"
+        ]
+      }
+    },
+    {
+      "lemma": "scampare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "scampare + a + [pericolo/tragedia]",
+        "level": "B2",
+        "definition": "Uscire illeggeso da una grave sciagura.",
+        "grammar_rule": "Richiede la preposizione « a » con articolazioni (scampare al pericolo, all'incidente).",
+        "related_forms": "⚡ Verbo: 'scampare a' ➜ Nome correlato: 'difesa di' / Aggettivo correlato: 'sicuro da'",
+        "examples": [
+          "Miracolosamente sono scampati tutti all'incendio.",
+          "Scampare a un terribile naufragio."
+        ],
+        "common_mistake": "❌ Scampare da la morte certa. ➜ ✅ Scampare alla morte certa.",
+        "synonyms": [
+          "salvarsi da",
+          "sfuggire a"
+        ],
+        "antonyms": [
+          "soccombere a",
+          "cadere vittima di"
+        ]
+      }
+    },
+    {
+      "lemma": "scarseggiare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "scarseggiare + di + [beni/scorte]",
+        "level": "B1",
+        "definition": "Rivelarsi insufficiente o scarso di beni.",
+        "grammar_rule": "Richiede la preposizione « di » (scarseggiare di cibo, di scorte).",
+        "related_forms": "⚡ Verbo: 'scarseggiare di' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'povero di'",
+        "examples": [
+          "I magazzini scarseggiano di materie prime.",
+          "La regione scarseggia di acqua potabile."
+        ],
+        "common_mistake": "❌ Scarseggia per la legna da ardere. ➜ ✅ Scarseggia di legna da ardere.",
+        "synonyms": [
+          "deflettere di",
+          "mancare di"
+        ],
+        "antonyms": [
+          "abbondare di",
+          "eccellere in"
+        ]
+      }
+    },
+    {
       "lemma": "scegliere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -32132,6 +35656,66 @@
       }
     },
     {
+      "lemma": "sconsigliare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "sconsigliare + a + [persona] + di + [infinito]",
+        "level": "B1",
+        "definition": "Suggerire opportunamente di non compiere un atto.",
+        "grammar_rule": "Usa « a » per la persona e « di » prima dell'infinito (sconsigliare ai turisti di uscire).",
+        "related_forms": "⚡ Verbo: 'sconsigliare di' ➜ Nome correlato: 'consiglio di' / Aggettivo correlato: 'cauto in'",
+        "examples": [
+          "Il medico mi ha sconsigliato di fare sforzi fisici.",
+          "Le sconsiglio di mettersi in viaggio ora."
+        ],
+        "common_mistake": "❌ Ti sconsiglio a viaggiare di notte. ➜ ✅ Ti sconsiglio di viaggiare di notte.",
+        "synonyms": [
+          "dissuadere da",
+          "suggerire contro"
+        ],
+        "antonyms": [
+          "consigliare di",
+          "raccomandare di"
+        ]
+      }
+    },
+    {
+      "lemma": "scontrarsi con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": true,
+        "pattern": "scontrarsi + con + [avversario/ostacolo]",
+        "level": "B2",
+        "definition": "Entrare in collisione fisica o contrasto d'idee.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « con » (scontrarsi con la realtà, con i rivali).",
+        "related_forms": "⚡ Verbo: 'scontrarsi con' ➜ Nome correlato: 'disaccordo con' / Aggettivo correlato: 'contrario a'",
+        "examples": [
+          "I nostri progetti si scontrano con la cruda realtà.",
+          "Scontrarsi con il parere del direttore."
+        ],
+        "common_mistake": "❌ Scontrarsi contro le difficoltà dell'esame. ➜ ✅ Scontrarsi con le difficoltà dell'esame.",
+        "synonyms": [
+          "collidere con",
+          "urtarsi con"
+        ],
+        "antonyms": [
+          "concordare con",
+          "armonizzarsi con"
+        ]
+      }
+    },
+    {
       "lemma": "scoprire",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -32358,6 +35942,35 @@
         "usage_hint": "scrivere (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "scrivere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "scrivere + a + [persona]",
+        "level": "A1",
+        "definition": "Inviare un messaggio scritto a un destinatario.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni per il destinatario (scrivere al professore, alla mamma).",
+        "related_forms": "⚡ Verbo: 'scrivere a' ➜ Nome correlato: 'lettera a' / Aggettivo correlato: 'gentile con'",
+        "examples": [
+          "Ho scritto una mail al professore per informazioni.",
+          "Scrivo spesso ai miei amici all'estero."
+        ],
+        "common_mistake": "❌ Scrivo per il direttore un messaggio. ➜ ✅ Scrivo al direttore un messaggio.",
+        "synonyms": [
+          "inviare a",
+          "comunicare a"
+        ],
+        "antonyms": [
+          "tacere"
+        ]
       }
     },
     {
@@ -32701,6 +36314,155 @@
       }
     },
     {
+      "lemma": "servire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "servire + a + [scopo/infinito]",
+        "level": "A2",
+        "definition": "Essere utile o necessario a un determinato fine.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni o prima dell'infinito (servire al progetto, a capire). N.B.: 'servirsi di' = usare.",
+        "related_forms": "⚡ Verbo: 'servire a' ➜ Nome correlato: 'mezzo di' / Aggettivo correlato: 'utile per'",
+        "examples": [
+          "A cosa serve questo strumento digitale?",
+          "Questo corso serve a migliorare la pronuncia."
+        ],
+        "common_mistake": "❌ Questo libro serve per di studiare. ➜ ✅ Questo libro serve a studiare.",
+        "synonyms": [
+          "giovare a",
+          "essere utile a"
+        ],
+        "antonyms": [
+          "essere inutile a"
+        ]
+      }
+    },
+    {
+      "lemma": "servirsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "servirsi + di + [strumento/mezzo]",
+        "level": "A2",
+        "definition": "Fare uso pratico di un oggetto o mezzo.",
+        "grammar_rule": "Verbo pronominale che richiede sempre la preposizione « di » con relative articolazioni (servirsi del dizionario, dei mezzi pubblici).",
+        "related_forms": "⚡ Verbo: 'servirsi di' ➜ Nome correlato: 'mezzo di' / Aggettivo correlato: 'dotato di'",
+        "examples": [
+          "Gli studenti si servono del dizionario durante la prova.",
+          "Ci serviamo del treno per viaggiare."
+        ],
+        "common_mistake": "❌ Mi servo con la macchina per lavorare. ➜ ✅ Mi servo della macchina per lavorare.",
+        "synonyms": [
+          "utilizzare",
+          "impiegare"
+        ],
+        "antonyms": [
+          "scartare",
+          "rinunciare a"
+        ]
+      }
+    },
+    {
+      "lemma": "sfuggire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "sfuggire + a + [pericolo/controllo/memoria]",
+        "level": "B2",
+        "definition": "Riuscire a scampare a una minaccia o non essere notato.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (sfuggire all'arresto, alla vista).",
+        "related_forms": "⚡ Verbo: 'sfuggire a' ➜ Nome correlato: 'uscita da' / Aggettivo correlato: 'sicuro da'",
+        "examples": [
+          "L'evaso è riuscito a sfuggire alle ricerche della polizia.",
+          "Quel dettaglio mi era sfuggito."
+        ],
+        "common_mistake": "❌ Sfuggire da il controllo dei vigili. ➜ ✅ Sfuggire al controllo dei vigili.",
+        "synonyms": [
+          "scampare a",
+          "schivare"
+        ],
+        "antonyms": [
+          "incappare in",
+          "cadere in"
+        ]
+      }
+    },
+    {
+      "lemma": "smettere di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "smettere + di + [infinito]",
+        "level": "A2",
+        "definition": "Interrompere o cesser una determinata attività.",
+        "grammar_rule": "Richiede la preposizione « di » prima di un verbo all'infinito (smettere di fumer, di urlare).",
+        "related_forms": "⚡ Verbo: 'smettere di' ➜ Nome correlato: 'pausa da' / Aggettivo correlato: 'stanco di'",
+        "examples": [
+          "Ha smesso di fumo l'anno scorso per salute.",
+          "Smetti di fare rumore, sto studiando!"
+        ],
+        "common_mistake": "❌ Smetto a lavorare alle cinque. ➜ ✅ Smetto di lavorare alle cinque.",
+        "synonyms": [
+          "cessare di",
+          "interrompere"
+        ],
+        "antonyms": [
+          "cominciare a",
+          "continuare a"
+        ]
+      }
+    },
+    {
+      "lemma": "soccombere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "soccombere + a + [tentazione/malattia/forza]",
+        "level": "B2",
+        "definition": "Cedere senza scampo davanti a una forza travolgente.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (soccombere alle fatiche, al fascino).",
+        "related_forms": "⚡ Verbo: 'soccombere a' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'vulnerabile a'",
+        "examples": [
+          "Ha finito per soccombere alle lusinghe del denaro.",
+          "Soccombere alle gravi ferite riportate."
+        ],
+        "common_mistake": "❌ Soccombere di la malattia grave. ➜ ✅ Soccombere alla malattia grave.",
+        "synonyms": [
+          "cedere a",
+          "capitolare davanti a"
+        ],
+        "antonyms": [
+          "resistere a",
+          "vincere"
+        ]
+      }
+    },
+    {
       "lemma": "sognare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -32815,6 +36577,124 @@
       }
     },
     {
+      "lemma": "sognare con",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "sognare + con + [persona/fantasia]",
+        "level": "A2",
+        "definition": "Vedere in sogno una persona o fantasticare insieme.",
+        "grammar_rule": "Si usa « con » per indicare la comparsa in sogno di qualcuno o nell'uso poetico.",
+        "related_forms": "⚡ Verbo: 'sognare con' ➜ Nome correlato: 'sogno di' / Aggettivo correlato: 'innamorato di'",
+        "examples": [
+          "Stanotte ho sognato con i miei vecchi compagni di classe.",
+          "Sognare a occhi aperti con la musica."
+        ],
+        "common_mistake": "❌ Ho sognato di te tutto il tempo. ➜ ✅ Ho sognato te / Ho sognato con te.",
+        "synonyms": [
+          "visualizzare",
+          "immaginare"
+        ],
+        "antonyms": [
+          "dimenticare"
+        ]
+      }
+    },
+    {
+      "lemma": "sognare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "sognare + di + [infinito/desiderio]",
+        "level": "A2",
+        "definition": "Avere la grande aspirazione ideale di realizzare una cosa.",
+        "grammar_rule": "Richiede la preposizione « di » prima dell'infinito (sognare di viaggiare, di vincere).",
+        "related_forms": "⚡ Verbo: 'sognare di' ➜ Nome correlato: 'sogno di' / Aggettivo correlato: 'ansioso di'",
+        "examples": [
+          "Sogno di comprare una piccola casa in campagna.",
+          "Ha sempre sognato di diventare medico."
+        ],
+        "common_mistake": "❌ Sogno a viaggiare nel mondo. ➜ ✅ Sogno di viaggiare nel mondo.",
+        "synonyms": [
+          "aspirare a",
+          "desiderare"
+        ],
+        "antonyms": [
+          "temere di"
+        ]
+      }
+    },
+    {
+      "lemma": "sollecitare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "sollecitare + [persona] + a + [infinito/risposta]",
+        "level": "B2",
+        "definition": "Incalzare con premura qualcuno affinché intervenga.",
+        "grammar_rule": "La persona è complemento diretto, l'azione incalzata richiede « a » prima dell'infinito.",
+        "related_forms": "⚡ Verbo: 'sollecitare a' ➜ Nome correlato: 'sollecitazione a' / Aggettivo correlato: 'sollecito in'",
+        "examples": [
+          "Ho sollecitato l'ufficio ad inviare la risposta.",
+          "Sollecitare i ritardatari a saldare."
+        ],
+        "common_mistake": "❌ Sollecitare il cliente di pagare. ➜ ✅ Sollecitare il cliente a pagare.",
+        "synonyms": [
+          "incalzare a",
+          "premere su"
+        ],
+        "antonyms": [
+          "differire",
+          "rinviare"
+        ]
+      }
+    },
+    {
+      "lemma": "sottarsi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "sottrarsi + a + [dovere/controllo]",
+        "level": "B2",
+        "definition": "Schivare ed evitare con astuzia un obbligo grave.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (sottrarsi ai controlli, al dovere).",
+        "related_forms": "⚡ Verbo: 'sottrarsi a' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'autonomo da'",
+        "examples": [
+          "Nessuno può sottrarsi alle proprie responsabilità morali.",
+          "Sottrarsi al pagamento delle imposte."
+        ],
+        "common_mistake": "❌ Sottrarsi da i controlli doganali. ➜ ✅ Sottrarsi ai controlli doganali.",
+        "synonyms": [
+          "sfuggire a",
+          "esimersi da"
+        ],
+        "antonyms": [
+          "sottomettersi a",
+          "assumersi"
+        ]
+      }
+    },
+    {
       "lemma": "sottolineare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -32924,6 +36804,36 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "sottomettersi a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "sottomettersi + a + [autorità/volere]",
+        "level": "B1",
+        "definition": "Piegarsi con ubbidienza alla volontà altrui.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « a » con articolazioni (sottomettersi al re, alla legge).",
+        "related_forms": "⚡ Verbo: 'sottomettersi a' ➜ Nome correlato: 'sottomissione a' / Aggettivo correlato: 'assoggettato a'",
+        "examples": [
+          "Il popolo rifiuta di sottomettersi al tiranno.",
+          "Devi sottometterti alle decisioni del tribunale."
+        ],
+        "common_mistake": "❌ Sottomettersi di il volere altrui. ➜ ✅ Sottomettersi al volere altrui.",
+        "synonyms": [
+          "assoggettarsi a",
+          "piegarsi a"
+        ],
+        "antonyms": [
+          "ribellarsi a",
+          "insorgere contro"
+        ]
       }
     },
     {
@@ -33156,6 +37066,35 @@
       }
     },
     {
+      "lemma": "sperare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "sperare + di + [infinito]",
+        "level": "A2",
+        "definition": "Attendere con fiducia la realizzazione di un proprio desiderio.",
+        "grammar_rule": "Richiede la preposizione « di » prima di un verbo all'infinito quando il soggetto è lo stesso (spero di passare l'esame).",
+        "related_forms": "⚡ Verbo: 'sperare di' ➜ Nome correlato: 'speranza di' / Aggettivo correlato: 'fiducioso in'",
+        "examples": [
+          "Spero di superare l'esame senza difficoltà.",
+          "Speriamo di vederti presto a Roma."
+        ],
+        "common_mistake": "❌ Spero a vincere la gara. ➜ ✅ Spero di vincere la gara.",
+        "synonyms": [
+          "confidare di",
+          "augurarsi di"
+        ],
+        "antonyms": [
+          "disperare di"
+        ]
+      }
+    },
+    {
       "lemma": "spiegare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -33267,6 +37206,36 @@
         "usage_hint": "spiegare (qualcosa) a (qualcuno)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "spingere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "spingere + [persona] + a + [infinito]",
+        "level": "B1",
+        "definition": "Incitare ed essere di incentivo a compiere un atto.",
+        "grammar_rule": "Richiede la preposizione « a » prima dell'infinito (spingere a riflettere, a comprare).",
+        "related_forms": "⚡ Verbo: 'spingere a' ➜ Nome correlato: 'spinta a' / Aggettivo correlato: 'mosso da'",
+        "examples": [
+          "La sua passione lo ha spinto a iscriversi al conservatorio.",
+          "Cosa ti spinge a fare questa scelta?"
+        ],
+        "common_mistake": "❌ Mi spinge di cambiare idea. ➜ ✅ Mi spinge a cambiare idea.",
+        "synonyms": [
+          "incitare a",
+          "indurre a"
+        ],
+        "antonyms": [
+          "dissuadere da",
+          "trattenere da"
+        ]
       }
     },
     {
@@ -33612,6 +37581,35 @@
       }
     },
     {
+      "lemma": "suggerire di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "suggerire + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Proporre con discrezione un'idea o soluzione.",
+        "grammar_rule": "Usa « a » per la persona e « di » prima del verbo all'infinito (suggerire al collega di verificare).",
+        "related_forms": "⚡ Verbo: 'suggerire di' ➜ Nome correlato: 'proposta di' / Aggettivo correlato: 'opportuno per'",
+        "examples": [
+          "Gli ho suggerito di controllare meglio i dati.",
+          "Mi suggerisce di accettare l'offerta."
+        ],
+        "common_mistake": "❌ Suggerisco a te a partire presto. ➜ ✅ Ti suggerisco di partire presto.",
+        "synonyms": [
+          "consigliare di",
+          "proporre di"
+        ],
+        "antonyms": [
+          "sconsigliare di"
+        ]
+      }
+    },
+    {
       "lemma": "suonare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -33842,6 +37840,36 @@
       }
     },
     {
+      "lemma": "svincolarsi da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "svincolarsi + da + [obbligo/contratto]",
+        "level": "B2",
+        "definition": "Liberarsi con destrezza da un impegno vincolante.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « da » (svincolarsi dal contratto, dalla presa).",
+        "related_forms": "⚡ Verbo: 'svincolarsi da' ➜ Nome correlato: 'mancanza di' / Aggettivo correlato: 'svincolato da'",
+        "examples": [
+          "È riuscito a svincolarsi da quella clausola penalizzante.",
+          "Svincolarsi dai condizionamenti."
+        ],
+        "common_mistake": "❌ Svincolarsi di le regole sociali. ➜ ✅ Svincolarsi dalle regole sociali.",
+        "synonyms": [
+          "liberarsi da",
+          "affrancarsi da"
+        ],
+        "antonyms": [
+          "vincolarsi a",
+          "legarsi a"
+        ]
+      }
+    },
+    {
       "lemma": "telefonare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -33954,6 +37982,65 @@
         },
         "usage_hint": "telefonare a (qualcuno)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "tentare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "tentare + di + [infinito]",
+        "level": "A1",
+        "definition": "Compiere uno sforzo per raggiungere un fine.",
+        "grammar_rule": "Richiede la preposizione « di » prima dell'infinito (tentare di scappare, di risolvere).",
+        "related_forms": "⚡ Verbo: 'tentare di' ➜ Nome correlato: 'tentativo di' / Aggettivo correlato: 'capace di'",
+        "examples": [
+          "Ha tentato di risolvere l'enigma senza successo.",
+          "I vigili hanno tentato di domare l'incendio."
+        ],
+        "common_mistake": "❌ Ha tentato a convincerlo. ➜ ✅ Ha tentato di convincerlo.",
+        "synonyms": [
+          "provare a",
+          "sforzarsi di"
+        ],
+        "antonyms": [
+          "desistere da",
+          "rinunciare a"
+        ]
+      }
+    },
+    {
+      "lemma": "terminare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "terminare + di + [infinito]",
+        "level": "A1",
+        "definition": "Giungere al termine d'un lavoro o compito.",
+        "grammar_rule": "Richiede la preposizione « di » prima dell'infinito (terminare di scrivere, di lavorare).",
+        "related_forms": "⚡ Verbo: 'terminare di' ➜ Nome correlato: 'fine di' / Aggettivo correlato: 'soddisfatto di'",
+        "examples": [
+          "Ha terminato di redigere la relazione annuale.",
+          "Appena termino di pulire la stanza ti chiamo."
+        ],
+        "common_mistake": "❌ Termino a lavorare alle diciotto. ➜ ✅ Termino di lavorare alle diciotto.",
+        "synonyms": [
+          "finire di",
+          "completare"
+        ],
+        "antonyms": [
+          "cominciare a"
+        ]
       }
     },
     {
@@ -34071,6 +38158,36 @@
       }
     },
     {
+      "lemma": "tornare a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "tornare + a + [luogo/città/infinito]",
+        "level": "A1",
+        "definition": "Rientrare in un luogo o ricominciare a fare un'azione.",
+        "grammar_rule": "Usa « a » davanti a nomi di città e casa (tornare a casa, a Roma) e prima di un infinito per indicare ripresa dell'azione.",
+        "related_forms": "⚡ Verbo: 'tornare a' ➜ Nome correlato: 'ritorno a' / Aggettivo correlato: 'abituato a'",
+        "examples": [
+          "Torno a casa subito dopo il lavoro.",
+          "Dopo le vacanze torna a studiare con impegno."
+        ],
+        "common_mistake": "❌ Torno in casa alle otto. ➜ ✅ Torno a casa alle otto.",
+        "synonyms": [
+          "rientrare a",
+          "ritornare a"
+        ],
+        "antonyms": [
+          "partire per",
+          "uscire da"
+        ]
+      }
+    },
+    {
       "lemma": "tossire",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -34180,6 +38297,35 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "trarre da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "trarre + [vantaggio/ispirazione] + da + [fonte]",
+        "level": "B2",
+        "definition": "Ricavare o estrarre un utile/spunto da una fonte.",
+        "grammar_rule": "Usa « da » con relative articolazioni per la fonte (trarre vantaggio dalla lezione, spunto dal libro).",
+        "related_forms": "⚡ Verbo: 'trarre da' ➜ Nome correlato: 'risultato di' / Aggettivo correlato: 'ricco di'",
+        "examples": [
+          "Abbiamo tratto grande beneficio dalle tue spiegazioni.",
+          "Trarre origine da un antico mito."
+        ],
+        "common_mistake": "❌ Trarre vantaggio di la situazione favorevole. ➜ ✅ Trarre vantaggio dalla situazione favorevole.",
+        "synonyms": [
+          "ricavare da",
+          "dedurre da"
+        ],
+        "antonyms": [
+          "fornire a"
+        ]
       }
     },
     {
@@ -34294,6 +38440,36 @@
         "usage_hint": "+ oggetto diretto (trovare le chiavi)",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "ubbidire a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "ubbidire + a + [ordine/persona]",
+        "level": "B1",
+        "definition": "Eseguire con scrupolo le disposizioni impartite.",
+        "grammar_rule": "Richiede la preposizione « a » con relative articolazioni (ubbidire ai genitori, alle leggi).",
+        "related_forms": "⚡ Verbo: 'ubbidire a' ➜ Nome correlato: 'obbedienza a' / Aggettivo correlato: 'educato con'",
+        "examples": [
+          "I soldati devono ubbidire agli ordini dei superiori.",
+          "Ubbidisci a tua madre e fai il bravo!"
+        ],
+        "common_mistake": "❌ Ubbidire gli ordini del capo. ➜ ✅ Ubbidire agli ordini del capo.",
+        "synonyms": [
+          "obbedire a",
+          "sottomettersi a"
+        ],
+        "antonyms": [
+          "disubbidire a",
+          "trasgredire"
+        ]
       }
     },
     {
@@ -34643,6 +38819,35 @@
       }
     },
     {
+      "lemma": "uscire da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "uscire + da + [luogo/ambiente]",
+        "level": "A1",
+        "definition": "Passare dall'interno all'esterno di un ambiente.",
+        "grammar_rule": "Richiede la preposizione « da » con articolazioni obbligatorie (uscire dalla stanza, dall'ufficio, dal teatro).",
+        "related_forms": "⚡ Verbo: 'uscire da' ➜ Nome correlato: 'uscita da' / Aggettivo correlato: 'stacco da'",
+        "examples": [
+          "Gli studenti escono dalla scuola alle una e mezza.",
+          "È uscito dall'ufficio molto stanco stasera."
+        ],
+        "common_mistake": "❌ Esco di la stanza subito. ➜ ✅ Esco dalla stanza subito.",
+        "synonyms": [
+          "abbandonare",
+          "sfilarsi da"
+        ],
+        "antonyms": [
+          "entrare in"
+        ]
+      }
+    },
+    {
       "lemma": "vedere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -34986,6 +39191,66 @@
       }
     },
     {
+      "lemma": "venire da",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "venire + da + [luogo/origine]",
+        "level": "A1",
+        "definition": "Provenire da un luogo di origine o partenza.",
+        "grammar_rule": "Richiede la preposizione « da » con relative preposizioni articolate per indicare provenienza (vengo da Torino, dal Giappone).",
+        "related_forms": "⚡ Verbo: 'venire da' ➜ Nome correlato: 'paese di' / Aggettivo correlato: 'lontano da'",
+        "examples": [
+          "Marco viene da Firenze e studia a Bologna.",
+          "I turisti vengono dal nord Europa per il mare."
+        ],
+        "common_mistake": "❌ Vengo di Italia per lavorare. ➜ ✅ Vengo dall'Italia per lavorare.",
+        "synonyms": [
+          "provenire da",
+          "derivare da"
+        ],
+        "antonyms": [
+          "andare a",
+          "partire per"
+        ]
+      }
+    },
+    {
+      "lemma": "vergognarsi di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "vergognarsi + di + [errore/fatto/infinito]",
+        "level": "A2",
+        "definition": "Provare un senso di umiliazione e imbarazzo morale.",
+        "grammar_rule": "Verbo pronominale che richiede la preposizione « di » (vergognarsi del comportamento, di parlare).",
+        "related_forms": "⚡ Verbo: 'vergognarsi di' ➜ Nome correlato: 'vergogna di' / Aggettivo correlato: 'indegno di'",
+        "examples": [
+          "Si vergogna del suo accento straniero.",
+          "Non devi vergognarti di chiedere aiuto."
+        ],
+        "common_mistake": "❌ Mi vergogno a il mio errore. ➜ ✅ Mi vergogno del mio errore.",
+        "synonyms": [
+          "arrossire di",
+          "provare imbarazzo"
+        ],
+        "antonyms": [
+          "farsi vanto di",
+          "orgogliosi di"
+        ]
+      }
+    },
+    {
       "lemma": "viaggiare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -35097,6 +39362,36 @@
         "usage_hint": "viaggiare in / a / con",
         "auxiliary": "avere",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "vietare di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "vietare + a + [persona] + di + [infinito]",
+        "level": "A2",
+        "definition": "Imporre il divieto di un comportamento.",
+        "grammar_rule": "Usa « a » per il destinatario del divieto e « di » prima dell'infinito (vietare ai dipendenti di fumare).",
+        "related_forms": "⚡ Verbo: 'vietare di' ➜ Nome correlato: 'divieto di' / Aggettivo correlato: 'rigido con'",
+        "examples": [
+          "Il cartello vieta di calpestare le aiuole.",
+          "Gli ha vietato di uscire la sera."
+        ],
+        "common_mistake": "❌ Vieta a tutti a entrare nel cantiere. ➜ ✅ Vieta a tutti di entrare nel cantiere.",
+        "synonyms": [
+          "proibire di",
+          "impedire di"
+        ],
+        "antonyms": [
+          "consentire di",
+          "permettere di"
+        ]
       }
     },
     {
@@ -35439,6 +39734,35 @@
         "usage_hint": "vivere a / in / con / di",
         "auxiliary": "avere",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "vivere in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "vivere + in/a + [paese/città]",
+        "level": "A1",
+        "definition": "Condurre la propria esistenza o risiedere abitualmente in un luogo.",
+        "grammar_rule": "Usa « in » per paesi, continenti e regioni (vivere in Italia, in Toscana) e « a » per città (vivere a Roma).",
+        "related_forms": "⚡ Verbo: 'vivere in' ➜ Nome correlato: 'paese di' / Aggettivo correlato: 'abituato a'",
+        "examples": [
+          "Vorrei vivere in Italia per migliorare la lingua.",
+          "Vive a Firenze con la sua famiglia."
+        ],
+        "common_mistake": "❌ Vive a Italia da due anni. ➜ ✅ Vive in Italia da due anni.",
+        "synonyms": [
+          "dimorare in",
+          "risiedere in"
+        ],
+        "antonyms": [
+          "emigrare da"
+        ]
       }
     },
     {
