@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugueur Français 🇫🇷 | COSYtools</title>
-    <meta name="description" content="Conjugaison des verbes français à tous les temps et tous les modes.">
+    <meta http-equiv="refresh" content="0;url=../../tools/fr/conjugeur/">
+    <title>Tool Moved | Conjugueur Français 🇫🇷 | COSYtools</title>
     <link rel="icon" href="../../shared/images/cosylanguages.png">
-    <link rel="stylesheet" href="../../shared/styles/reference.css">
-    <script src="../../shared/engines/reference-utils.js"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; text-align: center; padding: 3rem; background: #fdf8f0; color: #1c1917; }
+        .card { background: #ffffff; padding: 2rem; border-radius: 16px; display: inline-block; box-shadow: 0 4px 12px rgba(0,0,0,0.08); max-width: 480px; }
+        .btn { display: inline-block; background: #416b49; color: #fff; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 1rem; }
+    </style>
 </head>
 <body>
+    <div class="card">
+        <h2>Conjugueur Français 🚀</h2>
+        <p>Ce calendrier / outil a déménagé vers le moteur canonique de conjugaison française.</p>
+        <a class="btn" id="redirect-btn" href="../../tools/fr/conjugeur/">Ouvrir le Conjugueur Français ↗</a>
+        <p><small>Si la redirection automatique ne fonctionne pas, cliquez sur le bouton ci-dessus.</small></p>
+    </div>
     <script>
-        window.location.href = "../template.html?lang=fr";
+        (function() {
+            const canonicalPath = "../../tools/fr/conjugeur/";
+            const targetUrl = new URL(canonicalPath, window.location.href);
+            const searchParams = new URLSearchParams(window.location.search);
+            searchParams.forEach((value, key) => targetUrl.searchParams.set(key, value));
+            document.getElementById('redirect-btn').href = targetUrl.toString();
+            window.location.replace(targetUrl.toString());
+        })();
     </script>
-    <p style="padding:2rem; text-align:center;">Redirection vers le conjugueur français... <a href="../template.html?lang=fr">Cliquez ici si la redirection échoue</a>.</p>
 </body>
 </html>
