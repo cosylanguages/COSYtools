@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Спряжение Глаголов 🇷🇺 | COSYtools</title>
-    <meta name="description" content="Спряжение русских глаголов, видовые пары (НСВ/СВ) и ударения.">
+    <meta http-equiv="refresh" content="0;url=../../tools/ru/spryazhenie/">
+    <title>Tool Moved | Спряжение Глаголов 🇷🇺 | COSYtools</title>
     <link rel="icon" href="../../shared/images/cosylanguages.png">
-    <link rel="stylesheet" href="../../shared/styles/reference.css">
-    <script src="../../shared/engines/reference-utils.js"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; text-align: center; padding: 3rem; background: #fdf8f0; color: #1c1917; }
+        .card { background: #ffffff; padding: 2rem; border-radius: 16px; display: inline-block; box-shadow: 0 4px 12px rgba(0,0,0,0.08); max-width: 480px; }
+        .btn { display: inline-block; background: #416b49; color: #fff; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 1rem; }
+    </style>
 </head>
 <body>
+    <div class="card">
+        <h2>Спряжение Русских Глаголов 🚀</h2>
+        <p>Перенаправление на каноническое приложение для спряжения русских глаголов.</p>
+        <a class="btn" id="redirect-btn" href="../../tools/ru/spryazhenie/">Открыть Спряжение Глаголов ↗</a>
+        <p><small>Если автоматическое перенаправление не сработало, нажмите на кнопку выше.</small></p>
+    </div>
     <script>
-        window.location.href = "../template.html?lang=ru";
+        (function() {
+            const canonicalPath = "../../tools/ru/spryazhenie/";
+            const targetUrl = new URL(canonicalPath, window.location.href);
+            const searchParams = new URLSearchParams(window.location.search);
+            searchParams.forEach((value, key) => targetUrl.searchParams.set(key, value));
+            document.getElementById('redirect-btn').href = targetUrl.toString();
+            window.location.replace(targetUrl.toString());
+        })();
     </script>
-    <p style="padding:2rem; text-align:center;">Перенаправление... <a href="../template.html?lang=ru">Нажмите здесь</a>.</p>
 </body>
 </html>
