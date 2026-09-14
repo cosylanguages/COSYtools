@@ -154,6 +154,9 @@
             const feedback = document.getElementById('drill-feedback');
 
             feedback.style.display = 'block';
+            feedback.classList.remove('feedback-pop', 'feedback-shake');
+            void feedback.offsetWidth; // Trigger reflow for re-animation
+
             reviewedCount++;
             document.getElementById('stat-reviewed').innerText = reviewedCount;
 
@@ -161,11 +164,13 @@
                 feedback.style.background = '#dcfce7';
                 feedback.style.color = '#166534';
                 feedback.innerHTML = '✅ Correct! Great job.';
+                feedback.classList.add('feedback-pop');
                 COSYReferenceUtils.removeWeakSpot(drill.id, 'en');
             } else {
                 feedback.style.background = '#fee2e2';
                 feedback.style.color = '#991b1b';
                 feedback.innerHTML = `❌ Not quite. Expected: <strong>${drill.answer}</strong>. Saved to Weak Spots!`;
+                feedback.classList.add('feedback-shake');
 
                 COSYReferenceUtils.recordWeakSpot({
                     id: drill.id,
