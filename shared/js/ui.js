@@ -281,6 +281,52 @@
       'Hot Seat':         { id: 'hot-seat',       prefix: 'hot-seat',      icon: '🎯' }
     };
 
+    /* ─── PROJECTOR & PRESENTATION MODE ENGINE ──────────────────── */
+    window.COSY.isProjectorModeActive = function() {
+        return document.body.classList.contains('mode-projector');
+    };
+
+    window.COSY.toggleProjectorMode = function(forceState) {
+        const body = document.body;
+        const nextState = typeof forceState === 'boolean' ? forceState : !body.classList.contains('mode-projector');
+
+        if (nextState) {
+            body.classList.add('mode-projector');
+            localStorage.setItem('cosy_projector_mode', 'true');
+            if (typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast('📽️ Projector & Presentation Mode Enabled (Alt+P)');
+            }
+        } else {
+            body.classList.remove('mode-projector');
+            localStorage.setItem('cosy_projector_mode', 'false');
+            if (typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast('📺 Standard Display Mode Restored');
+            }
+        }
+
+        document.querySelectorAll('.btn-projector-toggle, [data-action="toggle-projector"]').forEach(btn => {
+            btn.innerHTML = nextState ? '📺 Exit Projector' : '📽️ Projector Mode';
+            btn.setAttribute('aria-pressed', nextState ? 'true' : 'false');
+        });
+    };
+
+    window.COSY.initProjectorMode = function() {
+        const saved = localStorage.getItem('cosy_projector_mode');
+        if (saved === 'true') {
+            document.body.classList.add('mode-projector');
+        }
+
+        if (!window.cosyProjectorKeyboardBound) {
+            window.cosyProjectorKeyboardBound = true;
+            document.addEventListener('keydown', (e) => {
+                if (e.altKey && (e.key === 'p' || e.key === 'P' || e.key === 'π' || e.key === 'з')) {
+                    e.preventDefault();
+                    window.COSY.toggleProjectorMode();
+                }
+            });
+        }
+    };
+
     /* ─── GLOBAL HELPERS ────────────────────────────────────────── */
     const getDayOfYear = () => {
         const now = new Date();
@@ -2328,6 +2374,7 @@
                 </div>
                 <div class="ctm-footer">
                     <button class="btn-secondary" onclick="document.getElementById('cosy-nav-help-modal').style.display='none'">${getTourText('close')}</button>
+                    <button class="btn-projector-toggle" onclick="window.COSY.toggleProjectorMode()" style="margin-right:auto; margin-left:8px;">${window.COSY.isProjectorModeActive() ? '📺 Exit Projector' : '📽️ Projector Mode'}</button>
                     <a href="${p}index.html?startTour=true" class="btn-primary" style="text-decoration:none;">${getTourText('btn_take_tour')}</a>
                 </div>
             </div>
@@ -5545,6 +5592,7 @@
             });
         }
 
+        window.COSY.initProjectorMode();
         setupHeaderShrink();
         setupBackToTop();
         setupScrollReveal();

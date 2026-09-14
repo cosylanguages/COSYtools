@@ -249,6 +249,38 @@ body.theme-dark #cosy-nav {
 }
 
 
+/* ── Projector Mode Toggle Button Utilities ────────────── */
+.btn-projector-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface-color, #ffffff);
+  border: 1.5px solid var(--border, #E2D9D2);
+  color: var(--ink, #1C1917);
+  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-projector-toggle:hover {
+  background: var(--sage-pale, #E8F0E9);
+  border-color: var(--sage, #416b49);
+  color: var(--sage-dark, #375742);
+}
+
+body.mode-projector .btn-projector-toggle,
+body.theme-projector .btn-projector-toggle {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000 !important;
+}
+
 /* ── Buttons (Unified Cosy Button System) ──────────── */
 .btn-primary, a.btn-primary, button.btn-primary {
   display: inline-flex;
@@ -1576,6 +1608,16 @@ body.theme-dark #cosy-nav {
 
 /* ── Mobile Responsive Overrides (max-width: 800px) ── */
 @media (max-width: 800px) {
+  /* Touch target sizes for phone screens (minimum 44px height) */
+  button, .btn-primary, .btn-secondary, .btn-tertiary, .fpill, .styled-sel,
+  .btn-projector-toggle, .mobile-nav-item, .sd-jump-link, .comp-lang-chip,
+  .comp-btn-chip, .chc-add-btn, .vht-add-btn, .ref-btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* Navigation & Mobile Bottom Bar */
   #cosy-nav { padding: 0 0.5rem; }
   .btn-primary, .btn-secondary { max-width: 100%; box-sizing: border-box; text-align: center; }
