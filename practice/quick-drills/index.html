@@ -33,11 +33,16 @@
 
     <main style="max-width:800px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
         <div class="ref-practice-box" style="text-align:center;">
+            <div class="qd-progress-bar-wrap">
+                <div id="qd-progress-bar-fill" class="qd-progress-bar-fill"></div>
+            </div>
+
             <h2 id="qd-question" style="font-family:var(--ref-font-serif); color:var(--sage-dark)">Loading question...</h2>
             <div id="qd-options" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; max-width:500px; margin:1.5rem auto;">
                 <!-- Options buttons rendered dynamically -->
             </div>
-            <div id="qd-feedback" style="margin-top:1rem; font-weight:700;"></div>
+            <div id="qd-feedback" style="margin-top:1rem; font-weight:700; padding:0.5rem 1rem; border-radius:10px; display:inline-block;"></div>
+            <p style="margin-top:1rem; font-size:0.8rem; color:var(--ink-soft);">Pro-tip: Use keyboard keys 1, 2, 3, 4 to select options quickly!</p>
         </div>
     </main>
 
@@ -50,37 +55,69 @@
         ];
 
         let qIdx = 0;
+        let isAnswering = false;
 
         function renderQD() {
+            isAnswering = false;
             const current = questions[qIdx % questions.length];
             document.getElementById('qd-question').innerText = current.q;
             const optsContainer = document.getElementById('qd-options');
             optsContainer.innerHTML = '';
-            document.getElementById('qd-feedback').innerText = '';
 
-            current.opts.forEach(opt => {
+            const feedback = document.getElementById('qd-feedback');
+            feedback.innerText = '';
+            feedback.style.display = 'none';
+            feedback.classList.remove('feedback-pop', 'feedback-shake');
+
+            const pct = Math.round(((qIdx % questions.length) + 1) / questions.length * 100);
+            const barFill = document.getElementById('qd-progress-bar-fill');
+            if (barFill) barFill.style.width = pct + '%';
+
+            current.opts.forEach((opt, idx) => {
                 const btn = document.createElement('button');
                 btn.className = 'ref-btn ref-btn-secondary';
-                btn.innerText = opt;
+                btn.innerText = `${idx + 1}. ${opt}`;
                 btn.onclick = () => checkQD(opt, current.ans);
                 optsContainer.appendChild(btn);
             });
         }
 
         function checkQD(selected, correct) {
+            if (isAnswering) return;
+            isAnswering = true;
+
             const feedback = document.getElementById('qd-feedback');
+            feedback.style.display = 'inline-block';
+            feedback.classList.remove('feedback-pop', 'feedback-shake');
+            void feedback.offsetWidth;
+
             if (selected === correct) {
+                feedback.style.background = '#dcfce7';
                 feedback.style.color = '#166534';
                 feedback.innerText = '✅ Correct!';
+                feedback.classList.add('feedback-pop');
             } else {
+                feedback.style.background = '#fee2e2';
                 feedback.style.color = '#991b1b';
                 feedback.innerText = `❌ Incorrect. Correct answer: ${correct}`;
+                feedback.classList.add('feedback-shake');
             }
+
             setTimeout(() => {
                 qIdx++;
                 renderQD();
-            }, 1500);
+            }, 1400);
         }
+
+        window.addEventListener('keydown', (e) => {
+            if (['1', '2', '3', '4'].includes(e.key)) {
+                const optIdx = parseInt(e.key, 10) - 1;
+                const current = questions[qIdx % questions.length];
+                if (current && current.opts[optIdx]) {
+                    checkQD(current.opts[optIdx], current.ans);
+                }
+            }
+        });
 
         window.addEventListener('DOMContentLoaded', renderQD);
     </script>

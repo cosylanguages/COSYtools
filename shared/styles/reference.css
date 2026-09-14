@@ -344,3 +344,35 @@ body.theme-projector .ref-table td {
   .ref-nav-links { gap: 0.75rem; font-size: 0.85rem; }
   .ref-grid { grid-template-columns: 1fr; }
 }
+
+/* Practice Section Micro-Interactions & Input Glow */
+.ref-practice-box {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.ref-practice-box:hover {
+  box-shadow: 0 8px 24px rgba(46,74,51,0.08);
+}
+
+.ref-search-input:focus, #drill-user-input:focus {
+  outline: none;
+  border-color: var(--ref-primary-dark);
+  box-shadow: 0 0 0 4px var(--sage-mist, rgba(65,107,73,0.2));
+}
+
+.qd-progress-bar-wrap {
+  width: 100%;
+  height: 8px;
+  background: var(--ref-border);
+  border-radius: 100px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.qd-progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--sage), var(--sage-dark));
+  width: 0%;
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 100px;
+}

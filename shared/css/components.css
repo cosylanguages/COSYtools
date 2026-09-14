@@ -2621,3 +2621,28 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   color: var(--ink-soft);
   font-style: italic;
 }
+
+/* ── Practice Section Micro-Interactions & Feedback Effects ── */
+button:active, .btn-primary:active, .btn-secondary:active, .ref-btn:active {
+  transform: scale(0.97);
+}
+
+@keyframes feedbackPop {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.02); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes feedbackShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+.feedback-pop {
+  animation: feedbackPop 0.35s ease-out forwards;
+}
+
+.feedback-shake {
+  animation: feedbackShake 0.4s ease-in-out forwards;
+}
