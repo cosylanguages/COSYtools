@@ -72,6 +72,60 @@ body.theme-contrast {
     color: var(--contrast-txt);
 }
 
+/* ── Projector & Classroom Presentation Mode ───────── */
+body.mode-projector, body.theme-projector {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 1.18rem !important;
+    line-height: 1.8 !important;
+}
+
+body.mode-projector main,
+body.mode-projector .page,
+body.mode-projector .container,
+body.mode-projector .content-container,
+body.theme-projector main,
+body.theme-projector .page,
+body.theme-projector .container,
+body.theme-projector .content-container {
+    max-width: 1400px !important;
+    width: 95vw !important;
+}
+
+body.mode-projector h1, body.theme-projector h1 { font-size: 2.8rem !important; font-weight: 800 !important; color: #000000 !important; }
+body.mode-projector h2, body.theme-projector h2 { font-size: 2.2rem !important; font-weight: 800 !important; color: #000000 !important; }
+body.mode-projector h3, body.theme-projector h3 { font-size: 1.7rem !important; font-weight: 700 !important; color: #000000 !important; }
+
+body.mode-projector th, body.mode-projector td,
+body.theme-projector th, body.theme-projector td {
+    font-size: 1.15rem !important;
+    padding: 14px 20px !important;
+    border: 2px solid #111111 !important;
+    color: #000000 !important;
+}
+
+body.mode-projector .card,
+body.mode-projector .tool-card,
+body.mode-projector .game-card,
+body.mode-projector .ref-card,
+body.mode-projector .round-block,
+body.mode-projector .vocab-card,
+body.theme-projector .card,
+body.theme-projector .tool-card,
+body.theme-projector .game-card,
+body.theme-projector .ref-card,
+body.theme-projector .round-block,
+body.theme-projector .vocab-card {
+    border: 2px solid #111111 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+}
+
+body.mode-projector .projector-badge-indicator {
+    display: inline-flex !important;
+}
+
 /* Utility visibility classes */
 .hidden { display: none !important; }
 .text-center { text-align: center !important; }

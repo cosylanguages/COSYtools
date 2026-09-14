@@ -298,6 +298,47 @@ body {
   background: var(--warm-white, #fdf8f0);
 }
 
+/* ── Projector Mode Overrides for Reference Engine ── */
+body.mode-projector .ref-hero h1,
+body.theme-projector .ref-hero h1 {
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  color: #000000 !important;
+}
+
+body.mode-projector .ref-search-input,
+body.theme-projector .ref-search-input {
+  font-size: 1.3rem !important;
+  border: 2px solid #000000 !important;
+  padding: 1.2rem 1.5rem 1.2rem 3.2rem !important;
+}
+
+body.mode-projector .ref-card,
+body.theme-projector .ref-card,
+body.mode-projector .ref-table-container,
+body.theme-projector .ref-table-container,
+body.mode-projector .ref-practice-box,
+body.theme-projector .ref-practice-box {
+  border: 2px solid #000000 !important;
+  background: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+}
+
+body.mode-projector .ref-table th,
+body.theme-projector .ref-table th {
+  background: #e6f4ea !important;
+  color: #000000 !important;
+  border-bottom: 2px solid #000000 !important;
+  font-size: 1.1rem !important;
+}
+
+body.mode-projector .ref-table td,
+body.theme-projector .ref-table td {
+  font-size: 1.1rem !important;
+  border-bottom: 1px solid #000000 !important;
+  color: #000000 !important;
+}
+
 @media (max-width: 768px) {
   .ref-hero h1 { font-size: 1.8rem; }
   .ref-nav-links { gap: 0.75rem; font-size: 0.85rem; }

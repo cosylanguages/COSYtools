@@ -340,6 +340,19 @@ body.theme-dark .btn-gender {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
   background: var(--surface-color, #ffffff);
+  position: relative;
+}
+
+.table-wrapper::after, .conjugation-wrapper::after, .declension-wrapper::after, .ref-table-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.08));
+  pointer-events: none;
+  border-radius: 0 var(--r-md) var(--r-md) 0;
 }
 
 .table-wrapper table, .conjugation-table, .declension-table {
@@ -487,6 +500,74 @@ body.theme-dark .table-wrapper tr:hover td, body.theme-dark .conjugation-table t
   color: var(--gold);
   margin-bottom: 1rem;
   border: 1px solid rgba(176,125,43,0.2);
+}
+
+/* ── Projector & Classroom Presentation Overrides for Tools & Games ── */
+body.mode-projector .gc,
+body.theme-projector .gc {
+    background: #ffffff !important;
+    border: 2px solid #000000 !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15) !important;
+}
+
+body.mode-projector .game-card,
+body.theme-projector .game-card,
+body.mode-projector .setup-screen,
+body.theme-projector .setup-screen {
+    background: #ffffff !important;
+    border: 2px solid #000000 !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
+    color: #000000 !important;
+}
+
+body.mode-projector .game-prompt,
+body.theme-projector .game-prompt {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
+
+body.mode-projector .word-opt,
+body.theme-projector .word-opt,
+body.mode-projector .setup-opt,
+body.theme-projector .setup-opt {
+    border: 2px solid #000000 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    padding: 1.1rem 1.5rem !important;
+}
+
+body.mode-projector .word-opt.correct,
+body.theme-projector .word-opt.correct {
+    background: #e6f4ea !important;
+    border: 3px solid #137333 !important;
+    color: #137333 !important;
+    font-weight: 800 !important;
+}
+
+body.mode-projector .word-opt.wrong,
+body.theme-projector .word-opt.wrong {
+    background: #fce8e6 !important;
+    border: 3px solid #c5221f !important;
+    color: #c5221f !important;
+    font-weight: 800 !important;
+}
+
+body.mode-projector .feedback-bar,
+body.theme-projector .feedback-bar {
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    border: 2px solid #000000 !important;
+}
+
+body.mode-projector .chain-display,
+body.theme-projector .chain-display {
+    font-size: 1.6rem !important;
+    border: 2px solid #000000 !important;
+    background: #ffffff !important;
+    color: #000000 !important;
 }
 
 /* Standalone Overlay, Loader & Toast Utilities */
