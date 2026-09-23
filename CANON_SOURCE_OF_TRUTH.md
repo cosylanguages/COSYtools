@@ -6,32 +6,33 @@ This document establishes the official synchronization policy and authority hier
 
 ## 1. Governance & Single Source of Truth Declarations
 
-To prevent data divergence, duplicate maintenance, and drift across ecosystem repositories:
+The COSY ecosystem operates under a **two-canon governance model**:
 
-1. **Vocabulary Canon Authority**:
-   - `vocabulary/_canonical/en/A0-A1_master.json` in **COSYlanguages** is the **sole writable master copy** of the A0-A1 English vocabulary canon for the entire COSY ecosystem.
-2. **Curriculum Canon Authority**:
-   - `curriculum/en/general/*.json` (e.g., `A1.json`, `A2.json`, etc.) in **COSYlanguages** is the **sole writable master copy** of general-course curriculum data for the entire COSY ecosystem.
-3. **Read-Only Mirror Requirement**:
-   - Any other repository or application within the COSY ecosystem (**COSYgames**, **COSYtools**, **COSYworld**, **COSYmanuals**) holding a copy or subset of these datasets MUST treat its local copy as a **read-only mirror** and label it as such.
+1. **Vocabulary Canon Authority (COSYdata)**:
+   - **COSYdata** is the canonical source of truth for **VOCABULARY UNITS** — one dictionary-style entry per word/sense (definitions, translations, basic grammar tags, examples).
+   - *Note on Legacy Stub*: `vocabulary/_canonical/en/A0-A1_master.json` (or any legacy path under `vocabulary/_canonical/`) is a stale 20-entry stub inconsistent with this governance model. It is flagged for removal or replacement with a pointer to COSYdata's stable URL in a follow-up task.
+2. **Verb Mechanics Canon Authority (COSYtools)**:
+   - **COSYtools** is the canonical source of truth for **DEEPER VERB MECHANICS** — full conjugation tables, prepositional regimes/government, and morphological tables under `tools/<lang>/<tool>/data/*.json`. These deep structures live in COSYtools to avoid bloating dictionary entries in COSYdata.
+3. **Downstream Consumer Status**:
+   - Other repositories (**COSYgames**, **COSYworld**, **COSYmanuals**, **COSYplatform**) are read-only downstream consumers with respect to both vocabulary and verb mechanics data.
 4. **Change Management Protocol**:
    - Downstream repositories must **NEVER** edit local mirror copies directly.
-   - Any proposed addition, removal, definition change, or spelling correction must be submitted to **COSYlanguages** via a GitHub Issue or Pull Request referencing the specific `word` / `word_id` or `lesson` / `unit` number.
-   - Once merged in **COSYlanguages**, mirror repositories should update their read-only copies directly from this repository.
+   - Any proposed vocabulary addition, definition change, or spelling correction must be submitted to **COSYdata**.
+   - Any proposed verb mechanics update (conjugations, prepositional regimes) must be submitted to **COSYtools**.
 
 ---
 
 ## 2. Drift Detection Utility Usage
 
-A standalone checker tool is provided in `scripts/check-canon-drift.mjs` to detect and audit drift between local mirror files and the canonical files in `COSYlanguages`.
+A standalone checker tool is provided in `scripts/check-canon-drift.mjs` to detect and audit drift between local mirror files and canonical files.
 
 ### Running the Checker
 
 ```bash
-# Audit a vocabulary mirror against vocabulary/_canonical/en/A0-A1_master.json
+# Audit a vocabulary mirror against vocabulary canon source
 node scripts/check-canon-drift.mjs path/to/mirror_A0-A1_master.json
 
-# Audit a curriculum mirror against curriculum/en/general/A1.json
+# Audit a curriculum mirror against curriculum canon source
 node scripts/check-canon-drift.mjs path/to/mirror_A1.json
 ```
 
@@ -61,7 +62,7 @@ The following companion note must be added manually to the READMEs of downstream
 
 ```markdown
 > ⚠️ **Read-Only Mirror Notice**:
-> The vocabulary datasets (`A0-A1_master.json`) and general curriculum files (`A1.json` - `C2.json`) in this repository are **read-only mirrors** synced from [COSYlanguages](https://github.com/cosylanguages/COSYlanguages).
+> Vocabulary datasets are synced from [COSYdata](https://github.com/cosylanguages/COSYdata), and verb mechanics datasets are synced from [COSYtools](https://github.com/cosylanguages/COSYtools).
 > 
-> **Do not edit these dataset files directly in this repository.** Proposed changes (word additions, definition edits, lesson adjustments) must be submitted as an Issue or PR to [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) referencing the specific word or lesson ID. See `CANON_SOURCE_OF_TRUTH.md` in `COSYlanguages` for details.
+> **Do not edit these dataset files directly in this repository.** Proposed vocabulary changes must be submitted to COSYdata, and verb mechanics changes must be submitted to COSYtools. See `CANON_SOURCE_OF_TRUTH.md` in `COSYtools` for details.
 ```
