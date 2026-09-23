@@ -9,14 +9,64 @@ class PracticeEngine {
         this.engine = options.engine || null;
         this.srsStore = options.srsStore || null;
         this.containerId = options.containerId || 'practice-card-content';
-        this.sessionLength = options.sessionLength || 10;
-        this.scorePerCorrect = options.scorePerCorrect || 10;
         this.practiceModes = options.practiceModes || null;
+
+        // Default session length for "conjugate" mode is 5 verb+tense rounds (instead of 10-item sessions used elsewhere)
+        // because each round requires 6 input responses (30 total inputs per session).
+        const isConjugateMode = Boolean(
+            (this.practiceModes && this.practiceModes.includes('conjugate')) ||
+            (options.engine && options.engine.manifest && Array.isArray(options.engine.manifest.practiceModes) && options.engine.manifest.practiceModes.includes('conjugate'))
+        );
+        this.sessionLength = options.sessionLength || (isConjugateMode ? 5 : 10);
+        this.scorePerCorrect = options.scorePerCorrect || 10;
 
         // Custom pool provider function (targetLevel, targetType, isWeakSpot, extraParams)
         this.poolProvider = options.poolProvider || ((targetLevel = 'all', targetType = 'all', isWeakSpot = false) => {
             if (!this.srsStore || !this.engine) return [];
             const dbMap = this.engine.dbMap || this.engine.verbDb;
+            if (!dbMap) return [];
+
+            const isConjugateEngine = Boolean(
+                (this.practiceModes && this.practiceModes.includes('conjugate')) ||
+                (Object.values(dbMap)[0] && Object.values(dbMap)[0].tenses && !Object.values(dbMap)[0].prepositions)
+            );
+
+            if (isConjugateEngine) {
+                const candidates = [];
+                const nowIso = new Date().toISOString();
+                for (const [verbKey, entry] of Object.entries(dbMap)) {
+                    if (targetLevel !== 'all' && entry.level !== targetLevel) continue;
+                    if (!entry.tenses) continue;
+                    for (const [tenseName, forms] of Object.entries(entry.tenses)) {
+                        if (!forms || forms.length === 0) continue;
+                        const itemKey = `${verbKey}:${tenseName}`;
+                        const prog = this.srsStore.getWordProgress('conjugate', itemKey);
+                        const isDue = !prog.dueDate || prog.dueDate <= nowIso;
+                        if (isWeakSpot && prog.masteryLevel > 1) continue;
+
+                        candidates.push({
+                            type: 'conjugate',
+                            key: itemKey,
+                            verbKey: verbKey,
+                            tenseName: tenseName,
+                            entry: entry,
+                            data: entry,
+                            tenseForms: forms,
+                            progress: prog,
+                            state: prog,
+                            isDue: isDue,
+                            mastery: prog.masteryLevel
+                        });
+                    }
+                }
+                candidates.sort((a, b) => {
+                    if (a.isDue !== b.isDue) return a.isDue ? -1 : 1;
+                    if (a.mastery !== b.mastery) return a.mastery - b.mastery;
+                    return Math.random() - 0.5;
+                });
+                return candidates;
+            }
+
             if (isWeakSpot) {
                 return this.srsStore.getWeakCandidates(dbMap);
             }
@@ -48,6 +98,7 @@ class PracticeEngine {
         this.registerFormat('spot_mistake', (item, format, container) => this.renderSpotMistakeQuestion(item, format, container));
         this.registerFormat('blank', (item, format, container) => this.renderBlankQuestion(item, format, container));
         this.registerFormat('match', (item, format, container) => this.renderMatchQuestion(item, format, container));
+        this.registerFormat('conjugate', (item, format, container) => this.renderConjugateQuestion(item, format, container));
 
         if (options.renderers) {
             Object.keys(options.renderers).forEach(format => {
@@ -71,6 +122,51 @@ class PracticeEngine {
         const options = expectedStr.split('/').map(s => s.trim()).filter(Boolean);
 
         return options.some(opt => normalizedTyped === opt || normalizedTyped.split(/\s+/).includes(opt));
+    }
+
+    /**
+     * Accent-insensitive answer normalization logic for conjugation inputs:
+     * - Strips diacritics / accents (e.g., é, è, ê, à, ò, ό, ά) for typing friction reduction
+     * - Strips pronoun/prefix from expected form to accept both stripped and full inputs
+     */
+    static normalizeConjugationAnswer(typed, expectedRaw) {
+        if (typed === undefined || typed === null) return false;
+        const rawTypedStr = String(typed).trim();
+        if (!rawTypedStr) return false;
+
+        const stripAccents = (str) => String(str || '').normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+        const cleanExpected = String(expectedRaw || '').replace(/[!.,;]/g, '').trim();
+
+        const prefixRegex = /^(je\s+|j'|tu\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|que\s+je\s+|que\s+j'|que\s+tu\s+|qu'il\/elle\s+|que\s+nous\s+|que\s+vous\s+|qu'ils\/elles\s+|che\s+io\s+|che\s+tu\s+|che\s+egli\s+|che\s+noi\s+|che\s+voi\s+|che\s+essi\s+|io\s+|tu\s+|lui\/lei\s+|noi\s+|voi\s+|loro\s+|я\s+|ты\s+|он\/она́\s+|он\/она\s+|он\s+|она\s+|оно\s+|мы\s+|вы\s+|они́\s+|они\s+|я\s+бы\s+|ты\s+бы\s+|он\s+бы\s+|мы\s+бы\s+|вы\s+бы\s+|они\s+бы\s+|εγώ\s+|εσύ\s+|αυτός\/η\/ο\s+|αυτός\/αυτή\/αυτό\s+|εμείς\s+|εσείς\s+|αυτοί\/ες\/α\s+|αυτοί\/αυτές\/αυτά\s+)/i;
+
+        const strippedExpected = cleanExpected.replace(prefixRegex, '').trim();
+
+        const normTypedStripped = stripAccents(rawTypedStr.replace(prefixRegex, '').trim());
+        const normTypedFull = stripAccents(rawTypedStr);
+        const normExpectedFull = stripAccents(cleanExpected);
+        const normExpectedStripped = stripAccents(strippedExpected);
+
+        const expectedOptions = cleanExpected.split('/').map(s => s.trim());
+        for (const opt of expectedOptions) {
+            const optStripped = opt.replace(prefixRegex, '').trim();
+            const normOptFull = stripAccents(opt);
+            const normOptStripped = stripAccents(optStripped);
+
+            if (
+                normTypedStripped === normOptStripped ||
+                normTypedFull === normOptFull ||
+                normTypedStripped === normOptFull
+            ) {
+                return true;
+            }
+        }
+
+        return (
+            normTypedStripped === normExpectedStripped ||
+            normTypedFull === normExpectedFull ||
+            normTypedStripped === normExpectedFull
+        );
     }
 
     registerFormat(formatName, renderFn) {
@@ -342,6 +438,222 @@ class PracticeEngine {
 
     renderBlankQuestion(item, format, container) {
         return this.renderTypeQuestion(item, format, container);
+    }
+
+    renderConjugateQuestion(item, format, container) {
+        const data = item.entry || item.data || item;
+        const verbKey = item.verbKey || (typeof item.key === 'string' && item.key.includes(':') ? item.key.split(':')[0] : item.key);
+
+        let tenseName = item.tenseName;
+        let forms = item.tenseForms;
+
+        if (!tenseName || !forms) {
+            const availableTenses = Object.keys(data.tenses || {});
+            tenseName = availableTenses[Math.floor(Math.random() * availableTenses.length)];
+            forms = data.tenses?.[tenseName] || [];
+        }
+
+        const tenseMap = PracticeEngine.TENSE_NAMES || {};
+        const tenseDisplay = tenseMap[tenseName] ||
+            tenseName.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+        const defaultPronounMap = {
+            6: ["1st Sg (je / io / я / εγώ)", "2nd Sg (tu / ты / εσύ)", "3rd Sg (il/elle / lui / он / αυτός)", "1st Pl (nous / noi / мы / εμείς)", "2nd Pl (vous / voi / вы / εσείς)", "3rd Pl (ils/elles / loro / они / αυτοί)"],
+            4: ["Masculine (он)", "Feminine (она)", "Neuter (оно)", "Plural (они)"],
+            3: ["2nd Sg (tu / tu / εσύ)", "1st Pl (nous / noi / εμείς)", "2nd Pl (vous / voi / εσείς)"],
+            2: ["Singular / Pres.", "Plural / Pass."],
+            1: ["Form"]
+        };
+
+        const prefixRegex = /^(je\s+|j'|tu\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|que\s+je\s+|que\s+j'|que\s+tu\s+|qu'il\/elle\s+|que\s+nous\s+|que\s+vous\s+|qu'ils\/elles\s+|che\s+io\s+|che\s+tu\s+|che\s+egli\s+|che\s+noi\s+|che\s+voi\s+|che\s+essi\s+|io\s+|tu\s+|lui\/lei\s+|noi\s+|voi\s+|loro\s+|я\s+|ты\s+|он\/она́\s+|он\/она\s+|он\s+|она\s+|оно\s+|мы\s+|вы\s+|они́\s+|они\s+|я\s+бы\s+|ты\s+бы\s+|он\s+бы\s+|мы\s+бы\s+|вы\s+бы\s+|они\s+бы\s+|εγώ\s+|εσύ\s+|αυτός\/η\/ο\s+|αυτός\/αυτή\/αυτό\s+|εμείς\s+|εσείς\s+|αυτοί\/ες\/α\s+|αυτοί\/αυτές\/αυτά\s+)/i;
+
+        const rowItems = forms.map((rawForm, idx) => {
+            const match = rawForm.match(prefixRegex);
+            let label = match ? match[0].trim() : null;
+            if (!label) {
+                const defaults = defaultPronounMap[forms.length] || defaultPronounMap[6];
+                label = defaults[idx] || `Form ${idx + 1}`;
+            }
+            return {
+                index: idx,
+                label: label,
+                expected: rawForm
+            };
+        });
+
+        this.activeQuestion = {
+            item: item,
+            format: 'conjugate',
+            verbKey: verbKey,
+            tenseName: tenseName,
+            rowItems: rowItems,
+            forms: forms
+        };
+
+        this.injectConjugateStyles();
+
+        const rowsHtml = rowItems.map(row => `
+            <div class="conjugate-row" id="conj-row-${row.index}">
+                <label class="conj-label" for="conj-input-${row.index}">${row.label}</label>
+                <input type="text" id="conj-input-${row.index}" class="conj-input" autocomplete="off" ${row.index === 0 ? 'autofocus' : ''} placeholder="Type conjugated form..." aria-label="${row.label} form">
+                <span class="conj-feedback-text" id="conj-feedback-${row.index}"></span>
+            </div>
+        `).join('');
+
+        container.innerHTML = `
+            <div class="question-header">
+                <div class="meta-info">
+                    <span class="badge type-badge">CONJUGAISON</span>
+                    ${data.level ? `<span class="badge cefr-badge">Level: ${data.level}</span>` : ''}
+                    <span class="progress-count">Round ${this.currentIndex + 1} of ${this.currentSession.length}</span>
+                </div>
+            </div>
+
+            <div class="blank-prompt">
+                <span class="prompt-badge blank-badge">✍️ Conjugate Verb</span>
+                <h3 style="margin-bottom: 0.25rem;">${verbKey}</h3>
+                <p class="definition-hint" style="margin-bottom: 0.5rem;">Tense: <strong style="color: var(--sage, #416b49);">${tenseDisplay}</strong></p>
+                ${data.definition ? `<p class="definition-hint"><em>${data.definition}</em></p>` : ''}
+            </div>
+
+            <form id="conjugate-form" onsubmit="event.preventDefault(); appEngine.practice.checkConjugateAnswer();">
+                <div class="conjugate-grid">
+                    ${rowsHtml}
+                </div>
+                <button type="submit" id="conjugate-submit-btn" class="game-btn" style="margin-top: 1.25rem;">Valider / Check All Forms ➔</button>
+            </form>
+
+            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none; margin-top: 1rem;"></div>
+            <button id="practice-next-btn" class="game-btn" style="display: none; margin-top: 1rem;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
+        `;
+    }
+
+    checkConjugateAnswer() {
+        if (!this.activeQuestion || this.activeQuestion.format !== 'conjugate') return;
+
+        const q = this.activeQuestion;
+        let correctCount = 0;
+        const totalForms = q.rowItems.length;
+
+        q.rowItems.forEach(row => {
+            const input = document.getElementById(`conj-input-${row.index}`);
+            const rowEl = document.getElementById(`conj-row-${row.index}`);
+            const fbEl = document.getElementById(`conj-feedback-${row.index}`);
+
+            if (!input || !rowEl) return;
+
+            const typed = input.value;
+            const isCorrect = PracticeEngine.normalizeConjugationAnswer(typed, row.expected);
+
+            input.disabled = true;
+
+            if (isCorrect) {
+                correctCount += 1;
+                rowEl.classList.add('correct-row');
+                if (fbEl) fbEl.innerHTML = '<span style="color: #276749; font-weight: bold;">✅</span>';
+            } else {
+                rowEl.classList.add('wrong-row');
+                const cleanExpected = row.expected.replace(/^[!.,;]+|[!.,;]+$/g, '').trim();
+                if (fbEl) fbEl.innerHTML = `<span style="color: #9b2c2c; font-size: 0.88rem;">❌ ${cleanExpected}</span>`;
+            }
+        });
+
+        const overallCorrect = (correctCount === totalForms);
+        const itemKey = `${q.verbKey}:${q.tenseName}`;
+
+        let newProg = null;
+        if (this.srsStore) {
+            newProg = this.srsStore.recordAnswer('conjugate', itemKey, overallCorrect);
+        } else {
+            newProg = { masteryLevel: 0 };
+        }
+
+        const scoreEarned = Math.round((correctCount / totalForms) * this.scorePerCorrect);
+        this.sessionScore += scoreEarned;
+
+        if (overallCorrect) {
+            this.sessionCorrectItems.push(q.item);
+            if ((newProg.masteryLevel ?? 0) >= 4) {
+                this.masteredThisSession.push(q.item);
+            }
+        } else {
+            this.sessionWrongItems.push(q.item);
+        }
+
+        const feedbackBox = document.getElementById('practice-feedback-box');
+        const submitBtn = document.getElementById('conjugate-submit-btn');
+        const nextBtn = document.getElementById('practice-next-btn');
+
+        if (submitBtn) submitBtn.style.display = 'none';
+
+        if (feedbackBox) {
+            feedbackBox.className = overallCorrect ? 'inline-feedback-card feedback-correct' : 'inline-feedback-card feedback-wrong';
+            feedbackBox.innerHTML = `
+                <div class="feedback-title">${overallCorrect ? '🎉 Perfect Conjugation!' : '📊 Round Results: ' + correctCount + ' / ' + totalForms + ' forms correct'}</div>
+                <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ SRS Mastery (${q.verbKey} - ${q.tenseName}): Level ${newProg.masteryLevel}/5</div>
+            `;
+            feedbackBox.style.display = 'block';
+        }
+
+        if (nextBtn) nextBtn.style.display = 'block';
+    }
+
+    injectConjugateStyles() {
+        if (document.getElementById('practice-conjugate-styles')) return;
+        const style = document.createElement('style');
+        style.id = 'practice-conjugate-styles';
+        style.textContent = `
+            .conjugate-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 0.65rem;
+                margin-top: 1rem;
+            }
+            .conjugate-row {
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                background: var(--paper-light, #ffffff);
+                padding: 0.5rem 0.85rem;
+                border-radius: 10px;
+                border: 1.5px solid var(--border-color, #d2c8be);
+                transition: all 0.2s ease;
+            }
+            .conjugate-row.correct-row {
+                border-color: #48bb78;
+                background: #f0fff4;
+            }
+            .conjugate-row.wrong-row {
+                border-color: #f56565;
+                background: #fff5f5;
+            }
+            .conj-label {
+                min-width: 100px;
+                font-weight: 600;
+                color: var(--sage, #416b49);
+                font-size: 0.95rem;
+                text-align: right;
+            }
+            .conj-input {
+                flex: 1;
+                padding: 0.5rem 0.85rem;
+                border-radius: 8px;
+                border: 1.5px solid var(--border-color, #ccc);
+                font-size: 1rem;
+                outline: none;
+                font-family: var(--font-sans, inherit);
+                background: var(--paper-light, #ffffff);
+            }
+            .conj-input:focus {
+                border-color: var(--sage, #416b49);
+                box-shadow: 0 0 0 2px rgba(65, 107, 73, 0.2);
+            }
+            .conj-feedback-text {
+                min-width: 120px;
+                text-align: left;
+            }
+        `;
+        document.head.appendChild(style);
     }
 
     getRightTextForItem(batchItem) {
@@ -764,6 +1076,34 @@ class PracticeEngine {
         return this.srsStore ? this.srsStore.getStreakInfo() : { streakDays: 0, todayCount: 0, goal: 10 };
     }
 }
+
+PracticeEngine.TENSE_NAMES = {
+    'indicatif_present': 'Présent (Indicatif)',
+    'indicatif_imparfait': 'Imparfait (Indicatif)',
+    'pc': 'Passé composé',
+    'indicatif_passe_compose': 'Passé composé',
+    'indicatif_futur_simple': 'Futur simple',
+    'conditionnel_present': 'Conditionnel présent',
+    'subjonctif_present': 'Subjonctif présent',
+    'pqp': 'Plus-que-parfait',
+    'fut_ant': 'Futur antérieur',
+    'cond_pass': 'Conditionnel passé',
+    'subj_pass': 'Subjonctif passé',
+    'pres': 'Present / Presente / Настоящее',
+    'imp': 'Imperfect / Imperfetto / Παρατατικός',
+    'fut': 'Future / Futuro / Будущее / Μέλλοντας',
+    'cond': 'Conditional / Condizionale / Δυνητική',
+    'subj': 'Subjunctive / Congiuntivo / Υποτακτική',
+    'subj_imp': 'Congiuntivo imperfetto',
+    'trap_pass': 'Trapassato prossimo',
+    'past': 'Past / Прошедшее время',
+    'aor': 'Aorist / Αόριστος',
+    'perf': 'Perfect / Παρακείμενος',
+    'pluperfect': 'Pluperfect / Υπερσυντέλικος',
+    'future_perfect': 'Future Perfect / Συντελεσμένος Μέλλοντας',
+    'impv': 'Imperative / Impératif / Повелительное',
+    'part': 'Participle / Participe / Причастие'
+};
 
 window.PracticeEngine = PracticeEngine;
 if (typeof module !== 'undefined') {
