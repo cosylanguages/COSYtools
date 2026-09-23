@@ -6,6 +6,7 @@
   "background_color": "#FAF7F2",
   "theme_color": "#416b49",
   "description": "Master English dependent prepositions, transitivity, phrasal verbs, nouns, and adjectives offline.",
+  "practiceModes": ["mc", "type", "spot_mistake", "match"],
   "icons": [
     {
       "src": "../../images/logos/cosylanguages.png",

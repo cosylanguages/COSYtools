@@ -6,6 +6,7 @@
   "background_color": "#FAF7F2",
   "theme_color": "#416b49",
   "description": "Master English irregular verb forms (base, past simple, past participle) offline.",
+  "practiceModes": ["flashcard", "blank", "sprint", "pattern", "match"],
   "icons": [
     {
       "src": "../../../shared/images/cosylanguages.png",
