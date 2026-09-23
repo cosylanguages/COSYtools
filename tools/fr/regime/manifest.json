@@ -6,6 +6,12 @@
   "background_color": "#FAF7F2",
   "theme_color": "#416b49",
   "description": "Guide unifié du régime prépositionnel des verbes, noms et adjectifs français offline.",
+  "practiceModes": [
+    "mc",
+    "type",
+    "match",
+    "spot_mistake"
+  ],
   "icons": [
     {
       "src": "../../images/logos/cosylanguages.png",

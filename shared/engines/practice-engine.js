@@ -449,7 +449,7 @@ class PracticeEngine {
             <div class="question-header">
                 <div class="meta-info">
                     <span class="badge type-badge">MATCHING</span>
-                    <span class="progress-count">Matched <span id="match-score-count">0</span> of ${uniquePairs.length} pairs</span>
+                    <span class="progress-count">Matched <span id="match-score-count">0</span> of ${pairs.length} pairs</span>
                 </div>
             </div>
 

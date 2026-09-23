@@ -46,12 +46,18 @@ class GermanPraepositionenEngine {
 
             this.renderFilterPills();
             this.updateFilteredKeys();
+            this.practice = new PracticeManager(this, this.srs);
+
             this.updateSrsStatsBar();
             this.bindEvents();
             this.setAppMode('practice');
         } catch (err) {
             console.error("Fehler beim Laden der deutschen Präpositionsdatensätze:", err);
         }
+    }
+
+    get dbMap() {
+        return this.datasets;
     }
 
     get activeDb() {
@@ -131,21 +137,15 @@ class GermanPraepositionenEngine {
     }
 
     startSrsSession() {
-        this.sessionItems = this.srs.getDailySessionItems(this.datasets, this.sessionFilter, 10);
-        if (this.sessionItems.length === 0) {
-            alert("Keine Wörter in dieser Kategorie zum Wiederholen!");
-            return;
+        const typeFilter = (this.sessionFilter === 'mixed' || this.sessionFilter === 'weak') ? 'all' : this.sessionFilter;
+        const isWeak = (this.sessionFilter === 'weak');
+
+        const launcherCard = document.getElementById('session-launcher-card');
+        if (launcherCard) launcherCard.style.display = 'none';
+
+        if (this.practice) {
+            this.practice.startSession('all', typeFilter, isWeak);
         }
-
-        this.sessionIndex = 0;
-        this.sessionScore = 0;
-        this.sessionCorrectCount = 0;
-
-        document.getElementById('session-launcher-card').style.display = 'none';
-        document.getElementById('srs-summary-card').style.display = 'none';
-        document.getElementById('srs-practice-card').style.display = 'block';
-
-        this.nextSrsQuestion();
     }
 
     nextSrsQuestion() {

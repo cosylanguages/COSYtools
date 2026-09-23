@@ -32,6 +32,9 @@ class GreekSyntaxiEngine {
                 this.nounDb = await nounsRes.json();
             }
 
+            this.srsStore = new SpacedRepetitionStore('cosy-el-syntaxi');
+            this.practice = new PracticeManager(this, this.srsStore);
+
             this.verbKeys = Object.keys(this.verbDb);
             this.filteredKeys = [...this.verbKeys];
 
@@ -40,6 +43,10 @@ class GreekSyntaxiEngine {
         } catch (err) {
             console.error("Failed to load Greek syntax database:", err);
         }
+    }
+
+    get dbMap() {
+        return { verbs: this.verbDb };
     }
 
     setAppMode(mode) {
@@ -328,7 +335,9 @@ class GreekSyntaxiEngine {
             practiceView.style.display = 'block';
             if (lookupBtn) lookupBtn.className = 'nav-mode-btn';
             if (practiceBtn) practiceBtn.className = 'nav-mode-btn active';
-            this.nextPracticeQuestion();
+            if (this.practice) {
+                this.practice.startSession();
+            }
         } else {
             lookupView.style.display = 'block';
             practiceView.style.display = 'none';

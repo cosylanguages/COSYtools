@@ -6,6 +6,12 @@
   "background_color": "#FAF7F2",
   "theme_color": "#1b4332",
   "description": "Interaktives Nachschlagewerk und Lernsystem für deutsche Verben, Nomen und Adjektive mit Präpositionen und Rektion (Akkusativ / Dativ / Genitiv / Wechselpräpositionen).",
+  "practiceModes": [
+    "mc",
+    "type",
+    "match",
+    "spot_mistake"
+  ],
   "icons": [
     {
       "src": "../../images/logos/cosylanguages.png",
