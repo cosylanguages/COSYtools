@@ -2,10 +2,13 @@ class RussianConjugationEngine {
     constructor() {
         this.verbDb = {};
         this.isGameActive = false;
-        this.gameScore = 0;
-        this.gameStreak = 0;
-        this.currentQuestion = null;
-        this.gamePracticeMode = 'conjugation';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-ru-spryazhenie') : null;
+        this.practice = typeof PracticeEngine !== 'undefined' ? new PracticeEngine({
+            engine: this,
+            srsStore: this.srsStore,
+            containerId: 'practice-card-content',
+            practiceModes: ['conjugate']
+        }) : null;
         this.init();
     }
 
@@ -188,7 +191,7 @@ class RussianConjugationEngine {
         document.getElementById('search-section-container').style.display = this.isGameActive ? 'none' : 'block';
         document.getElementById('verb-result-container').style.display = 'none';
         document.getElementById('empty-state').style.display = this.isGameActive ? 'none' : 'block';
-        if (this.isGameActive) this.nextGameQuestion();
+        if (this.isGameActive && this.practice) this.practice.startSession();
     }
 
     setPracticeMode(mode) {

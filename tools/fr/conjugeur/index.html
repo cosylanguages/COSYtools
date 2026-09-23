@@ -46,34 +46,7 @@
 
             <!-- Practice Game View Container -->
             <section id="game-container" class="game-card" style="display: none;">
-                <div class="game-header">
-                    <div class="game-title">
-                        <h2>🎮 Jeu d'Entraînement</h2>
-                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-conj-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('conjugation')">📝 Conjugaison</button> <button id="mode-irregular-btn" class="badge" onclick="appEngine.setPracticeMode('irregular')">🧩 Irréguliers</button> <button id="mode-aux-btn" class="badge" onclick="appEngine.setPracticeMode('auxiliary')">⚡ Être ou Avoir ?</button> <button id="mode-prep-btn" class="badge" onclick="appEngine.setPracticeMode('preposition')">💡 Prépositions &amp; Construction</button></div>
-                    </div>
-                    <div class="score-badge">
-                        <span>Score : <strong id="game-score">0</strong></span>
-                        <span class="streak">🔥 Streak: <strong id="game-streak">0</strong></span>
-                    </div>
-                </div>
-
-                <div class="game-prompt-box">
-                    <span class="prompt-label">Conjuguez le verbe :</span>
-                    <h3 id="game-verb-prompt">parler</h3>
-                    <div class="prompt-details">
-                        <span id="game-tense-badge" class="badge">Présent</span>
-                        <span id="game-pronoun-prompt" class="prompt-pronoun">nous</span>
-                    </div>
-                </div>
-
-                <div class="game-input-group">
-                    <input type="text" id="game-answer-input" placeholder="Tapez votre réponse ici..." autocomplete="off" aria-label="Type your answer">
-                    <button id="game-submit-btn" class="game-btn" onclick="appEngine.checkGameAnswer()">Valider</button>
-                </div>
-
-                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
-
-                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Question Suivante ➔</button>
+                <div id="practice-card-content"></div>
             </section>
 
             <!-- Verb Result Display -->
@@ -197,8 +170,10 @@
         </footer>
     </div>
 
+    <script src="../../../shared/engines/srs-store.js"></script>
+    <script src="../../../shared/engines/practice-engine.js"></script>
     <script src="js/engine.js"></script>
-<script src="../../../shared/js/languages.js"></script>
-<script src="../../../shared/js/ui.js"></script>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/ui.js"></script>
 </body>
 </html>

@@ -40,30 +40,7 @@
             </section>
 
             <section id="game-container" class="game-card hidden">
-                <div class="game-header">
-                    <div class="game-title">
-                        <h2>🎮 Παιχνίδι Εξάσκησης</h2>
-                        <div class="game-mode-selector game-mode-selector-spaced"><button id="mode-conj-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('conjugation')">📝 Κλίσεις</button> <button id="mode-prep-btn" class="badge" onclick="appEngine.setPracticeMode('preposition')">💡 Προθέσεις &amp; Πτώσεις</button></div>
-                    </div>
-                    <div class="score-badge">
-                        <span>Σκορ: <strong id="game-score">0</strong></span>
-                        <span class="streak">🔥 Σερί: <strong id="game-streak">0</strong></span>
-                    </div>
-                </div>
-                <div class="game-prompt-box">
-                    <span class="prompt-label">Κλίνατε το ρήμα:</span>
-                    <h3 id="game-verb-prompt">γράφω</h3>
-                    <div class="prompt-details">
-                        <span id="game-tense-badge" class="badge">Ενεστώτας</span>
-                        <span id="game-pronoun-prompt" class="prompt-pronoun">εμείς</span>
-                    </div>
-                </div>
-                <div class="game-input-group">
-                    <input type="text" id="game-answer-input" placeholder="Πληκτρολογήστε την απάντηση..." autocomplete="off" aria-label="Type your answer">
-                    <button id="game-submit-btn" class="game-btn" onclick="appEngine.checkGameAnswer()">Έλεγχος</button>
-                </div>
-                <div id="game-feedback-box" class="feedback-card hidden"></div>
-                <button id="game-next-btn" class="game-btn secondary-btn hidden" onclick="appEngine.nextGameQuestion()">Επόμενη Ερώτηση ➔</button>
+                <div id="practice-card-content"></div>
             </section>
 
             <section id="verb-result-container" class="verb-result-card hidden">
@@ -130,8 +107,10 @@
             <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Αυτόνομη εφαρμογή, 100% εκτός σύνδεσης.</p>
         </footer>
     </div>
+    <script src="../../../shared/engines/srs-store.js"></script>
+    <script src="../../../shared/engines/practice-engine.js"></script>
     <script src="js/engine.js"></script>
-<script src="../../../shared/js/languages.js"></script>
-<script src="../../../shared/js/ui.js"></script>
+    <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/ui.js"></script>
 </body>
 </html>

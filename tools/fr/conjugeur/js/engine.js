@@ -8,10 +8,13 @@ class ConjugationEngine {
         this.verbDb = {};
         this.formToInfinitiveMap = {};
         this.isGameActive = false;
-        this.gameScore = 0;
-        this.gameStreak = 0;
-        this.currentQuestion = null;
-        this.gamePracticeMode = 'conjugation';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-fr-conjugeur') : null;
+        this.practice = typeof PracticeEngine !== 'undefined' ? new PracticeEngine({
+            engine: this,
+            srsStore: this.srsStore,
+            containerId: 'practice-card-content',
+            practiceModes: ['conjugate']
+        }) : null;
         this.init();
     }
 
@@ -312,20 +315,24 @@ class ConjugationEngine {
         const emptyState = document.getElementById('empty-state');
 
         if (this.isGameActive) {
-            toggleBtn.textContent = '📖 Mode Dictionnaire';
-            toggleBtn.style.backgroundColor = 'var(--sage-primary)';
-            toggleBtn.style.color = '#ffffff';
-            gameContainer.style.display = 'block';
-            searchContainer.style.display = 'none';
-            resultContainer.style.display = 'none';
-            emptyState.style.display = 'none';
-            this.nextGameQuestion();
+            if (toggleBtn) {
+                toggleBtn.textContent = '📖 Mode Dictionnaire';
+                toggleBtn.style.backgroundColor = 'var(--sage-primary)';
+                toggleBtn.style.color = '#ffffff';
+            }
+            if (gameContainer) gameContainer.style.display = 'block';
+            if (searchContainer) searchContainer.style.display = 'none';
+            if (resultContainer) resultContainer.style.display = 'none';
+            if (emptyState) emptyState.style.display = 'none';
+            if (this.practice) this.practice.startSession();
         } else {
-            toggleBtn.textContent = '🎮 Mode Entraînement';
-            toggleBtn.style.backgroundColor = 'var(--cream-card)';
-            toggleBtn.style.color = 'var(--sage-primary)';
-            gameContainer.style.display = 'none';
-            searchContainer.style.display = 'block';
+            if (toggleBtn) {
+                toggleBtn.textContent = '🎮 Mode Entraînement';
+                toggleBtn.style.backgroundColor = 'var(--cream-card)';
+                toggleBtn.style.color = 'var(--sage-primary)';
+            }
+            if (gameContainer) gameContainer.style.display = 'none';
+            if (searchContainer) searchContainer.style.display = 'block';
             this.resetDisplay();
         }
     }
