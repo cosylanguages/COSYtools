@@ -8,7 +8,6 @@ const filesToVerify = [
     'index.html',
     'style.css',
     'data/verbs.json',
-    'js/spaced_repetition.js',
     'js/practice.js',
     'js/dashboard.js',
     'js/engine.js'

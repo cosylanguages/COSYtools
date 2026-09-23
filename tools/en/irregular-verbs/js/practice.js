@@ -1,24 +1,47 @@
 /**
  * Practice Manager for en-irregular-verbs
- * Implements 4 distinct practice modes:
+ * Extends PracticeEngine shared base class for 4 distinct practice modes:
  * 1. Flashcard Mode (base form prompt -> flip card to reveal past_simple + past_participle)
  * 2. Fill-the-blank Mode (complete sentences with correct past_simple or past_participle form)
  * 3. Timed Sprint Mode (60s rapid-fire drill for base -> past simple / past participle)
  * 4. Pattern-Grouped Deck Mode (mnemonic drill restricted to a chosen pattern group)
  */
 
-class PracticeManager {
+class PracticeManager extends PracticeEngine {
     constructor(engine, srsStore) {
-        this.engine = engine;
-        this.srsStore = srsStore;
+        super({
+            engine: engine,
+            srsStore: srsStore,
+            containerId: 'practice-card-content',
+            sessionLength: 10,
+            poolProvider: (targetLevel, targetType, isWeakSpotOnly) => {
+                let patternGroup = 'all';
+                if (this.activeMode === 'pattern') {
+                    patternGroup = this.selectedPatternGroup;
+                }
+
+                let pool = [];
+                if (isWeakSpotOnly) {
+                    pool = this.srsStore.getWeakCandidates(this.engine.verbDb);
+                } else {
+                    pool = this.srsStore.getDueCandidatePool(this.engine.verbDb, targetLevel, patternGroup);
+                }
+
+                if (this.selectedFormPattern !== 'all') {
+                    pool = pool.filter(item => this.engine.getFormPattern(item.entry || item.data).key === this.selectedFormPattern);
+                }
+
+                if (pool.length === 0) {
+                    pool = this.srsStore.getDueCandidatePool(this.engine.verbDb, 'all', 'all');
+                    if (this.selectedFormPattern !== 'all') {
+                        pool = pool.filter(item => this.engine.getFormPattern(item.entry || item.data).key === this.selectedFormPattern);
+                    }
+                }
+                return pool;
+            }
+        });
+
         this.activeMode = 'flashcard'; // 'flashcard' | 'blank' | 'sprint' | 'pattern'
-        this.currentSession = [];
-        this.currentIndex = 0;
-        this.sessionScore = 0;
-        this.sessionCorrectItems = [];
-        this.sessionWrongItems = [];
-        this.masteredThisSession = [];
-        this.activeQuestion = null;
 
         // Timed sprint state
         this.sprintTimer = null;
@@ -29,6 +52,11 @@ class PracticeManager {
         // Pattern filter state
         this.selectedPatternGroup = 'all';
         this.selectedFormPattern = 'all';
+
+        this.registerFormat('flashcard', (item, format, container) => this.renderFlashcardQuestion(item, item.entry || item.data));
+        this.registerFormat('blank', (item, format, container) => this.renderFillBlankQuestion(item, item.entry || item.data));
+        this.registerFormat('sprint', (item, format, container) => this.renderSprintQuestion());
+        this.registerFormat('pattern', (item, format, container) => this.renderPatternQuestion(item, item.entry || item.data));
     }
 
     setPracticeMode(mode) {
@@ -93,45 +121,15 @@ class PracticeManager {
             this.sprintActive = false;
         }
 
-        let patternGroup = 'all';
-        if (this.activeMode === 'pattern') {
-            patternGroup = this.selectedPatternGroup;
-        }
-
-        let pool = [];
-        if (isWeakSpotOnly) {
-            pool = this.srsStore.getWeakCandidates(this.engine.verbDb);
-        } else {
-            pool = this.srsStore.getDueCandidatePool(this.engine.verbDb, targetLevel, patternGroup);
-        }
-
-        if (this.selectedFormPattern !== 'all') {
-            pool = pool.filter(item => this.engine.getFormPattern(item.entry).key === this.selectedFormPattern);
-        }
-
-        if (pool.length === 0) {
-            pool = this.srsStore.getDueCandidatePool(this.engine.verbDb, 'all', 'all');
-            if (this.selectedFormPattern !== 'all') {
-                pool = pool.filter(item => this.engine.getFormPattern(item.entry).key === this.selectedFormPattern);
-            }
-        }
-
-        this.currentSession = pool;
-        this.currentIndex = 0;
-        this.sessionScore = 0;
-        this.sessionCorrectItems = [];
-        this.sessionWrongItems = [];
-        this.masteredThisSession = [];
+        super.startSession(targetLevel, 'all', isWeakSpotOnly);
 
         if (this.activeMode === 'sprint') {
             this.startTimedSprint();
-        } else {
-            this.renderQuestion();
         }
     }
 
     renderQuestion() {
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
         if (!practiceContainer) return;
 
         if (this.currentIndex >= this.currentSession.length) {
@@ -140,7 +138,7 @@ class PracticeManager {
         }
 
         const item = this.currentSession[this.currentIndex];
-        const verb = item.entry;
+        const verb = item.entry || item.data;
 
         if (this.activeMode === 'flashcard') {
             this.renderFlashcardQuestion(item, verb);
@@ -153,7 +151,7 @@ class PracticeManager {
 
     /* ── 1. FLASHCARD MODE ── */
     renderFlashcardQuestion(item, verb) {
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
         this.activeQuestion = { item, verb, flipped: false };
 
         const patternLabels = {
@@ -247,28 +245,24 @@ class PracticeManager {
 
     /* ── 2. FILL-IN-THE-BLANK MODE ── */
     renderFillBlankQuestion(item, verb) {
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
 
-        // Choose sentence target tense: 'past_simple' or 'past_participle'
         const exList = verb.examples || [];
         let targetSentence = exList[1] || exList[0] || `They [${verb.base}] yesterday.`;
         let targetForm = 'past_simple';
         let targetAns = verb.past_simple;
 
-        // If example sentence 3 (usually contains present perfect / past participle), pick past_participle
         if (exList.length >= 3 && Math.random() > 0.5) {
             targetSentence = exList[2];
             targetForm = 'past_participle';
             targetAns = verb.past_participle;
         }
 
-        // Build blank sentence by replacing target answer or base form
         let blankSentence = targetSentence;
         const regAns = new RegExp(`\\b${targetAns.replace(/[\/]/g, '|')}\\b`, 'gi');
         if (regAns.test(blankSentence)) {
             blankSentence = blankSentence.replace(regAns, `<strong class="blank-spot">[ ___ ]</strong>`);
         } else {
-            // Fallback replace base form
             blankSentence = blankSentence.replace(new RegExp(`\\b${verb.base}\\b`, 'gi'), `<strong class="blank-spot">[ ___ ]</strong>`);
         }
 
@@ -309,7 +303,6 @@ class PracticeManager {
         const verb = this.activeQuestion.verb;
         const expected = this.activeQuestion.targetAns.toLowerCase();
 
-        // Support slashed answers e.g. "was/were"
         const expectedOptions = expected.split('/').map(s => s.trim());
         const isCorrect = expectedOptions.includes(typed);
 
@@ -352,7 +345,7 @@ class PracticeManager {
         this.sprintStreak = 0;
         this.sprintActive = true;
 
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
         if (!practiceContainer) return;
 
         if (this.sprintTimer) clearInterval(this.sprintTimer);
@@ -376,7 +369,7 @@ class PracticeManager {
     renderSprintQuestion() {
         if (!this.sprintActive) return;
 
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
         if (!practiceContainer) return;
 
         if (this.currentIndex >= this.currentSession.length) {
@@ -384,7 +377,7 @@ class PracticeManager {
         }
 
         const item = this.currentSession[this.currentIndex];
-        const verb = item.entry;
+        const verb = item.entry || item.data;
 
         this.activeQuestion = { item, verb };
 
@@ -458,8 +451,7 @@ class PracticeManager {
 
     /* ── 4. PATTERN-GROUPED DECK MODE ── */
     renderPatternQuestion(item, verb) {
-        // Uses multiple choice or fill format focused on pattern group memory
-        const practiceContainer = document.getElementById('practice-card-content');
+        const practiceContainer = this.getContainer();
         this.activeQuestion = { item, verb };
 
         const patternLabels = {
@@ -470,11 +462,9 @@ class PracticeManager {
             "add_en_or_n": "Add -en / -n (speak - spoke - spoken)"
         };
 
-        // Pick 4 multiple choice sets of (Past Simple / Past Participle)
         const correctCombo = `${verb.past_simple} / ${verb.past_participle}`;
         const distractors = [];
 
-        // Generate 3 plausible distractors from database
         const verbKeys = Object.keys(this.engine.verbDb);
         while (distractors.length < 3) {
             const randKey = verbKeys[Math.floor(Math.random() * verbKeys.length)];
@@ -556,55 +546,13 @@ class PracticeManager {
         if (nextBtn) nextBtn.style.display = 'block';
     }
 
-    nextQuestion() {
-        this.currentIndex += 1;
-        this.renderQuestion();
-    }
-
     finishSession() {
         if (this.sprintTimer) {
             clearInterval(this.sprintTimer);
             this.sprintTimer = null;
         }
 
-        this.srsStore.recordSessionCompletion();
-
-        const practiceContainer = document.getElementById('practice-card-content');
-        if (!practiceContainer) return;
-
-        const streakInfo = this.srsStore.getStreakInfo();
-
-        practiceContainer.innerHTML = `
-            <div class="session-summary-box">
-                <span class="summary-icon">🎉</span>
-                <h3>Practice Round Complete!</h3>
-                <p>Great job! You scored <strong>${this.sessionScore}</strong> points in this session.</p>
-
-                <div class="summary-stats-grid">
-                    <div class="stat-box">
-                        <span class="stat-num">${this.sessionScore}</span>
-                        <span class="stat-lbl">Points Earned</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="stat-num">${this.masteredThisSession.length}</span>
-                        <span class="stat-lbl">Verbs Mastered</span>
-                    </div>
-                    <div class="stat-box">
-                        <span class="stat-num">${streakInfo.streakDays}🔥</span>
-                        <span class="stat-lbl">Daily Streak</span>
-                    </div>
-                </div>
-
-                <div class="summary-actions">
-                    <button class="game-btn secondary-btn" onclick="appEngine.practice.startSession('all', true)">
-                        🔁 Review Weak Spots Now
-                    </button>
-                    <button class="game-btn" onclick="appEngine.setAppMode('practice')">
-                        ✅ Done for Today
-                    </button>
-                </div>
-            </div>
-        `;
+        super.finishSession();
     }
 }
 

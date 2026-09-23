@@ -1,53 +1,26 @@
 /**
  * Practice Manager for en-verb-prep
- * Manages 10-item sessions, question formats (fill-in-blank, pick-correct, spot-mistake),
+ * Uses PracticeEngine shared base class for 10-item sessions, question formats (fill-in-blank, pick-correct, spot-mistake),
  * immediate inline feedback, session summary, weak-spot reviews, and cross-family nudges.
  */
 
-class PracticeManager {
+class PracticeManager extends PracticeEngine {
     constructor(engine, srsStore) {
-        this.engine = engine;
-        this.srsStore = srsStore;
-        this.currentSession = [];
-        this.currentIndex = 0;
-        this.sessionScore = 0;
-        this.sessionCorrectItems = [];
-        this.sessionWrongItems = [];
-        this.masteredThisSession = [];
-        this.activeQuestion = null;
+        super({
+            engine: engine,
+            srsStore: srsStore,
+            containerId: 'practice-card-content',
+            sessionLength: 10,
+            onSessionComplete: (practice) => this.renderSessionSummary()
+        });
+
+        this.registerFormat('mc', (item, format, container) => this.renderVerbPrepQuestion(item, 'mc', container));
+        this.registerFormat('blank', (item, format, container) => this.renderVerbPrepQuestion(item, 'blank', container));
+        this.registerFormat('spot_mistake', (item, format, container) => this.renderVerbPrepQuestion(item, 'spot_mistake', container));
     }
 
-    startSession(targetLevel = 'all', targetWordType = 'all', isWeakSpotOnly = false) {
-        let pool = [];
-        if (isWeakSpotOnly) {
-            pool = this.srsStore.getWeakCandidates(this.engine.dbMap);
-        } else {
-            pool = this.srsStore.getDueCandidatePool(this.engine.dbMap, targetLevel, targetWordType);
-        }
-
-        if (pool.length === 0) {
-            // Fallback: pick any 10 items
-            pool = this.srsStore.getDueCandidatePool(this.engine.dbMap, 'all', 'all');
-        }
-
-        this.currentSession = pool.slice(0, 10);
-        this.currentIndex = 0;
-        this.sessionScore = 0;
-        this.sessionCorrectItems = [];
-        this.sessionWrongItems = [];
-        this.masteredThisSession = [];
-
-        this.renderQuestion();
-    }
-
-    renderQuestion() {
-        if (this.currentIndex >= this.currentSession.length) {
-            this.finishSession();
-            return;
-        }
-
-        const item = this.currentSession[this.currentIndex];
-        const data = item.entry;
+    renderVerbPrepQuestion(item, format, container) {
+        const data = item.entry || item.data;
         const rawKey = item.key;
         const type = item.type;
 
@@ -63,15 +36,6 @@ class PracticeManager {
                 }
             }
             promptWord = promptWord.trim();
-        }
-
-        // Choose question format: 'mc' (pick prep), 'blank' (fill in blank), or 'spot_mistake' (if common_mistake exists)
-        const randVal = Math.random();
-        let format = 'mc';
-        if (data.common_mistake && randVal < 0.35) {
-            format = 'spot_mistake';
-        } else if (data.examples && data.examples.length > 0 && randVal < 0.7) {
-            format = 'blank';
         }
 
         const primaryPrep = data.prepositions?.[0] || 'none';
@@ -91,11 +55,7 @@ class PracticeManager {
             choices: choices
         };
 
-        const practiceContainer = document.getElementById('practice-card-content');
-        if (!practiceContainer) return;
-
         let questionPromptHtml = '';
-        let sentenceText = '';
 
         if (format === 'spot_mistake' && data.common_mistake) {
             questionPromptHtml = `
@@ -142,7 +102,7 @@ class PracticeManager {
             </button>
         `).join('');
 
-        practiceContainer.innerHTML = `
+        container.innerHTML = `
             <div class="question-header">
                 <div class="meta-info">
                     <span class="badge type-badge">${typeBadgeLabel}</span>
@@ -165,36 +125,31 @@ class PracticeManager {
     checkAnswer(userChoice) {
         if (!this.activeQuestion) return;
 
+        const result = super.checkAnswer(userChoice);
+        if (!result) return;
+
+        const { isCorrect, expected, newProg, item } = result;
+
         const feedbackBox = document.getElementById('practice-feedback-box');
         const nextBtn = document.getElementById('practice-next-btn');
         const choiceGrid = document.querySelector('.choice-grid');
 
-        const item = this.activeQuestion.item;
-        const expected = this.activeQuestion.expected;
-        const isCorrect = userChoice.toLowerCase() === expected.toLowerCase();
-
-        const newProg = this.srsStore.recordAnswer(item.type, item.key, isCorrect);
+        const entry = item.entry || item.data;
 
         if (isCorrect) {
-            this.sessionScore += 10;
-            this.sessionCorrectItems.push(item);
-            if (newProg.masteryLevel >= 4) {
-                this.masteredThisSession.push(item);
-            }
             feedbackBox.className = 'inline-feedback-card feedback-correct';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">✅ Correct! (${expected === 'none' ? 'No Preposition' : expected})</div>
                 <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Mastery: Level ${newProg.masteryLevel}/5</div>
-                <div class="feedback-rule">📌 Rule: ${item.entry.grammar_rule}</div>
+                <div class="feedback-rule">📌 Rule: ${entry.grammar_rule}</div>
             `;
         } else {
-            this.sessionWrongItems.push(item);
             feedbackBox.className = 'inline-feedback-card feedback-wrong';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">❌ Incorrect! Correct choice: <strong>${expected === 'none' ? 'No Preposition (Direct)' : expected}</strong></div>
                 <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Mastery: Level ${newProg.masteryLevel}/5</div>
-                <div class="feedback-rule">📌 Rule: ${item.entry.grammar_rule}</div>
-                ${item.entry.common_mistake ? `<div class="feedback-mistake">⚠️ Pitfall Fix: ${item.entry.common_mistake}</div>` : ''}
+                <div class="feedback-rule">📌 Rule: ${entry.grammar_rule}</div>
+                ${entry.common_mistake ? `<div class="feedback-mistake">⚠️ Pitfall Fix: ${entry.common_mistake}</div>` : ''}
             `;
         }
 
@@ -203,22 +158,16 @@ class PracticeManager {
         if (nextBtn) nextBtn.style.display = 'block';
     }
 
-    nextQuestion() {
-        this.currentIndex += 1;
-        this.renderQuestion();
-    }
-
-    finishSession() {
-        this.srsStore.recordSessionCompletion();
-
-        const practiceContainer = document.getElementById('practice-card-content');
+    renderSessionSummary() {
+        const practiceContainer = this.getContainer();
         if (!practiceContainer) return;
 
         // Check for cross-family nudge
         let nudgeHtml = '';
         if (this.masteredThisSession.length > 0) {
             const masteredItem = this.masteredThisSession[0];
-            const contrastText = masteredItem.entry.related_forms || masteredItem.entry.noun_parallel;
+            const entry = masteredItem.entry || masteredItem.data;
+            const contrastText = entry.related_forms || entry.noun_parallel;
             if (contrastText) {
                 const crossRefs = this.engine.extractCrossReferences(contrastText, masteredItem.type);
                 if (crossRefs.length > 0) {
@@ -239,7 +188,7 @@ class PracticeManager {
             }
         }
 
-        const streakInfo = this.srsStore.getStreakInfo();
+        const streakInfo = this.srsStore ? this.srsStore.getStreakInfo() : { streakDays: 0, todayCount: 0, goal: 10 };
 
         practiceContainer.innerHTML = `
             <div class="session-summary-box">
