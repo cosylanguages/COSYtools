@@ -76,40 +76,11 @@
                     </button>
                 </div>
 
-                <!-- Session Practice Card -->
-                <div id="srs-practice-card" class="game-card hidden">
-                    <div class="game-header">
-                        <div class="game-title">
-                            <span id="srs-step-indicator" class="step-indicator">Frage 1 / 10</span>
-                            <h2 id="srs-word-prompt">warten</h2>
-                        </div>
-                        <div class="score-badge">
-                            <span id="srs-word-type-tag" class="badge word-type-badge">Verb</span>
-                            <span id="srs-cefr-tag" class="badge cefr-badge">Niveau: A1</span>
-                        </div>
+                <!-- Practice Card Container -->
+                <div id="practice-card-container" class="practice-card">
+                    <div id="practice-card-content">
+                        <!-- Injected dynamically by PracticeManager -->
                     </div>
-
-                    <!-- Question Container -->
-                    <div class="srs-question-box">
-                        <p id="srs-question-type-label" class="question-type-label">Format: Präposition wählen</p>
-                        <div id="srs-sentence-prompt" class="game-sentence-box">
-                            "Ich warte <strong class="blank-spot">[ ? ]</strong> den Bus."
-                        </div>
-                    </div>
-
-                    <!-- Multiple Choice Format -->
-                    <div id="srs-choices-grid" class="game-choice-grid"></div>
-
-                    <!-- Fill-in-the-blank Format -->
-                    <div id="srs-fill-container" class="fill-input-box hidden">
-                        <input type="text" id="srs-blank-input" placeholder="Präposition eingeben (z.B. auf, an, für, mit, von...)" autocomplete="off" aria-label="Type preposition answer">
-                        <button id="srs-submit-blank-btn" class="choice-btn submit-input-btn" onclick="appEngine.submitBlankAnswer()">Prüfen ➔</button>
-                    </div>
-
-                    <!-- Inline Feedback Box -->
-                    <div id="srs-feedback-box" class="feedback-card hidden"></div>
-
-                    <button id="srs-next-btn" class="game-btn secondary-btn hidden" onclick="appEngine.nextSrsQuestion()">Nächste Frage ➔</button>
                 </div>
 
                 <!-- Session Summary Screen -->
@@ -249,6 +220,8 @@
     </div>
 
     <script src="../../../shared/engines/srs-store.js"></script>
+    <script src="../../../shared/engines/practice-engine.js"></script>
+    <script src="js/practice.js"></script>
     <script src="js/engine.js"></script>
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/engine.js"></script>
