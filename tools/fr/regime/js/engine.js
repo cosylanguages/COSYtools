@@ -11,7 +11,7 @@ class FrenchRegimeEngine {
             nouns: {},
             adjectives: {}
         };
-        this.srs = new FrRegimeSrsManager();
+        this.srs = new SpacedRepetitionStore('cosy-fr-regime');
         this.appMode = 'practice'; // 'practice' or 'dictionary'
         this.currentWordType = 'verbs';
         this.activeFilter = 'all';

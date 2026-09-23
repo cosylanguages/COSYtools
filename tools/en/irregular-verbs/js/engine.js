@@ -28,7 +28,7 @@ class EnglishIrregularVerbsEngine {
             this.verbKeys = Object.keys(this.verbDb);
             this.filteredKeys = [...this.verbKeys];
 
-            this.srsStore = new SpacedRepetitionStore();
+            this.srsStore = new SpacedRepetitionStore('cosy-en-irregular-verbs');
             this.practice = new PracticeManager(this, this.srsStore);
             this.dashboard = new DashboardManager(this, this.srsStore);
 

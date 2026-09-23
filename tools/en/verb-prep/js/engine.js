@@ -34,7 +34,7 @@ class EnglishVerbPrepEngine {
             this.dbMap.nouns = await nounsRes.json();
             this.dbMap.adjectives = await adjRes.json();
 
-            this.srsStore = new SpacedRepetitionStore();
+            this.srsStore = new SpacedRepetitionStore('cosy-en-verb-prep');
             this.practice = new PracticeManager(this, this.srsStore);
             this.dashboard = new DashboardManager(this, this.srsStore);
 

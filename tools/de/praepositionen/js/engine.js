@@ -12,7 +12,7 @@ class GermanPraepositionenEngine {
             adjectives: {},
             two_way: {}
         };
-        this.srs = new DePraepositionenSrsManager();
+        this.srs = new SpacedRepetitionStore('cosy-de-praepositionen');
         this.appMode = 'practice'; // 'practice' or 'dictionary'
         this.currentWordType = 'verbs';
         this.activeFilter = 'all';
