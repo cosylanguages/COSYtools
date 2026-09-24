@@ -1,12 +1,12 @@
 # Ecosystem Canon Source of Truth Policy
 
-This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYworld**, **COSYmanuals**, **COSYplatform**).
+This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYmanuals**, **COSYplatform**).
 
 The COSY ecosystem operates under a **two-canon split governance model**:
 - **COSYdata**: Canonical source for **VOCABULARY UNITS** — dictionary-style entries per word/sense (definitions, translations, basic grammar tags, example sentences).
 - **COSYtools**: Canonical source for **DEEPER VERB MECHANICS & MORPHOLOGY** — full conjugation tables, prepositional regimes/government, and morphosyntactic mechanics (`tools/<lang>/<tool>/data/*.json` and `shared/data/*.json`).
 
-Downstream repositories (**COSYgames**, **COSYworld**, **COSYmanuals**, **COSYplatform**, **COSYlanguages**) are read-only consumers with respect to both canonical datasets.
+Downstream repositories (**COSYgames**, **COSYmanuals**, **COSYplatform**, **COSYlanguages**) are read-only consumers with respect to both canonical datasets.
 
 ---
 
@@ -69,7 +69,6 @@ The following companion note must be included in the READMEs of downstream repos
 
 ### Repositories to Update:
 - `COSYgames` (`README.md`)
-- `COSYworld` (`README.md`)
 - `COSYmanuals` (`README.md`)
 - `COSYplatform` (`README.md`)
 - `COSYlanguages` (`README.md`)

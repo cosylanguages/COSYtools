@@ -6,7 +6,7 @@
  * for COSYlanguages and ecosystem consumer applications.
  *
  * Consumer Repositories Policy:
- * Consumer repos (e.g., COSYtools, COSYgames, COSYevents, COSYworld) MUST link
+ * Consumer repos (e.g., COSYtools, COSYgames, COSYevents) MUST link
  * this file via local relative paths or tagged release assets,
  * and NEVER reference "main".
  */

@@ -174,7 +174,7 @@ window.COSYReferenceUtils = (function () {
 
   /**
    * Generate ecosystem cross-links.
-   * @param {string} destination - 'games', 'home', 'world', 'events', 'tools'
+   * @param {string} destination - 'games', 'home', 'events', 'tools'
    * @param {Object} [params] - Query params to append
    * @returns {string} URL string
    */
@@ -182,7 +182,6 @@ window.COSYReferenceUtils = (function () {
     const baseUrls = {
       home: 'https://cosylanguages.github.io/COSYlanguages/',
       games: 'https://cosylanguages.github.io/COSYgames/',
-      world: 'https://cosylanguages.github.io/COSYworld/',
       events: 'https://cosylanguages.github.io/COSYevents/',
       tools: 'https://cosylanguages.github.io/COSYtools/'
     };
