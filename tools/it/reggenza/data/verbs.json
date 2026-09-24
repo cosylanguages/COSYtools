@@ -987,7 +987,7 @@
     ],
     "pronominal": false,
     "pattern": "decidere + di + [infinito]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Prendere la risoluzione di compiere un'azione.",
     "grammar_rule": "Richiede sempre la preposizione « di » prima di un verbo all'infinito (decidere di cambiare, di partire).",
     "related_forms": "⚡ Verbo: 'decidere di' ➜ Nome correlato: 'decisione di' / Aggettivo correlato: 'deciso a'",
@@ -1085,7 +1085,7 @@
     ],
     "pronominal": true,
     "pattern": "ricordarsi + di + [persona/cosa/infinito]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Rievocare nella memoria qualcuno o qualcosa.",
     "grammar_rule": "Verbo pronominal che richiede sempre la preposizione « di » con relative articolazioni (ricordarsi del compleanno, di fare).",
     "related_forms": "⚡ Verbo: 'ricordarsi di' ➜ Nome correlato: 'ricordo di' / Aggettivo correlato: 'attento a'",
@@ -1231,7 +1231,7 @@
     ],
     "pronominal": false,
     "pattern": "credere + in + [Dio/ideale/persona]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Avere fede in una divinità o riporre profonda fiducia nelle doti di qualcuno.",
     "grammar_rule": "Si usa « in » con articolazione per esprimere fede religiosa o ideale (credere in Dio, nella giustizia, in se stessi).",
     "related_forms": "⚡ Verbo: 'credere in' ➜ Nome correlato: 'fiducia in' / Aggettivo correlato: 'fiducioso in'",
@@ -3938,5 +3938,771 @@
       "assoggettarsi a",
       "sottomettersi a"
     ]
+  },
+  "essere a": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "essere + a/in + luogo",
+    "level": "A1",
+    "definition": "Esistere o trovarsi in un luogo.",
+    "grammar_rule": "Richiede 'a' per città e 'in' per nazioni/stati.",
+    "related_forms": "",
+    "examples": [
+      "Sono a casa oggi.",
+      "Marco è in Italia."
+    ],
+    "common_mistake": "Errore ➜ Sono a casa oggi.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "avere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "avere + [qualcosa]",
+    "level": "A1",
+    "definition": "Possedere qualcosa.",
+    "grammar_rule": "Verbo transitivo diretto senza preposizione.",
+    "related_forms": "",
+    "examples": [
+      "Ho un libro nuovo.",
+      "Abbiamo due gatti."
+    ],
+    "common_mistake": "Errore ➜ Ho un libro nuovo.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "esistere": {
+    "word_type": "verb",
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "esistere + in + [luogo]",
+    "level": "A1",
+    "definition": "Avere realtà effettiva.",
+    "grammar_rule": "Verbo intransitivo usato con 'in'.",
+    "related_forms": "",
+    "examples": [
+      "L'amore esiste in ogni cultura.",
+      "Esistono molte possibilità."
+    ],
+    "common_mistake": "Errore ➜ L'amore esiste in ogni cultura.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "diventare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "diventare + [qualcosa]",
+    "level": "A1",
+    "definition": "Passare da uno stato a un altro.",
+    "grammar_rule": "Verbo seguito direttamente da nome o aggettivo.",
+    "related_forms": "",
+    "examples": [
+      "Vuole diventare un medico.",
+      "È diventato famoso."
+    ],
+    "common_mistake": "Errore ➜ Vuole diventare un medico.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "morire di": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "morire + di + [causa]",
+    "level": "A1",
+    "definition": "Cessare di vivere.",
+    "grammar_rule": "Richiede la preposizione 'di' per indicare la causa.",
+    "related_forms": "",
+    "examples": [
+      "È morto di vecchiaia.",
+      "Morire di freddo."
+    ],
+    "common_mistake": "Errore ➜ È morto di vecchiaia.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "restare": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "restare + a/in + [luogo]",
+    "level": "A1",
+    "definition": "Rimanere in un luogo.",
+    "grammar_rule": "Si usa con 'a' o 'in' per indicare la permanenza.",
+    "related_forms": "",
+    "examples": [
+      "Resto a casa stasera.",
+      "Sono restati in albergo."
+    ],
+    "common_mistake": "Errore ➜ Resto a casa stasera.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "rimanere a": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "rimanere + a/in + [luogo]",
+    "level": "A1",
+    "definition": "Restare in un luogo.",
+    "grammar_rule": "Richiede 'a' o 'in' a seconda del complemento.",
+    "related_forms": "",
+    "examples": [
+      "Rimaniamo a casa.",
+      "È rimasto in silenzio."
+    ],
+    "common_mistake": "Errore ➜ Rimaniamo a casa.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "appartenere a": {
+    "word_type": "verb",
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "appartenere + a + [qualcuno]",
+    "level": "A1",
+    "definition": "Essere di proprietà di qualcuno.",
+    "grammar_rule": "Richiede la preposizione 'a'.",
+    "related_forms": "",
+    "examples": [
+      "Questo libro appartiene a me.",
+      "La casa appartiene alla famiglia."
+    ],
+    "common_mistake": "Errore ➜ Questo libro appartiene a me.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "sembrare": {
+    "word_type": "verb",
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "sembrare + a + [persona]",
+    "level": "A1",
+    "definition": "Dare l'impressione di essere.",
+    "grammar_rule": "Richiede 'a' quando si specifica la persona (mi sembra).",
+    "related_forms": "",
+    "examples": [
+      "Mi sembra una buona idea.",
+      "Sembra stanco oggi."
+    ],
+    "common_mistake": "Errore ➜ Mi sembra una buona idea.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "significare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "significare + [qualcosa]",
+    "level": "A1",
+    "definition": "Esprimere o indicare un senso.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Che cosa significa questa parola?",
+      "Significa che abbiamo tempo."
+    ],
+    "common_mistake": "Errore ➜ Che cosa significa questa parola?",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "avere bisogno di": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "avere bisogno + di + [qualcosa/infinito]",
+    "level": "A1",
+    "definition": "Necessitare di qualcosa.",
+    "grammar_rule": "Richiede la preposizione 'di'.",
+    "related_forms": "",
+    "examples": [
+      "Ho bisogno di un caffè.",
+      "Abbiamo bisogno di aiuto."
+    ],
+    "common_mistake": "Errore ➜ Ho bisogno di un caffè.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "piacere": {
+    "word_type": "verb",
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "piacere + a + [persona]",
+    "level": "A1",
+    "definition": "Essere gradito a qualcuno.",
+    "grammar_rule": "Costruzione indiretta con 'a' (es. mi piace).",
+    "related_forms": "",
+    "examples": [
+      "Mi piace il gelato.",
+      "A Marco piace la musica."
+    ],
+    "common_mistake": "Errore ➜ Mi piace il gelato.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "odiare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "odiare + [qualcuno/qualcosa]",
+    "level": "A1",
+    "definition": "Provare aversione profonda.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Odio il freddo intenso.",
+      "Odia arrivare in ritardo."
+    ],
+    "common_mistake": "Errore ➜ Odio il freddo intenso.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "capire": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "capire + [qualcuno/qualcosa]",
+    "level": "A1",
+    "definition": "Comprendere il significato.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Capisco la lezione.",
+      "Non capisco questa parola."
+    ],
+    "common_mistake": "Errore ➜ Capisco la lezione.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "dimenticare": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "dimenticare + [qualcosa / di + infinito]",
+    "level": "A1",
+    "definition": "Perdere il ricordo.",
+    "grammar_rule": "Richiede 'di' prima dell'infinito.",
+    "related_forms": "",
+    "examples": [
+      "Ho dimenticato le chiavi.",
+      "Non dimenticare di studiare."
+    ],
+    "common_mistake": "Errore ➜ Ho dimenticato le chiavi.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "riconoscere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "riconoscere + [qualcuno/qualcosa]",
+    "level": "A2",
+    "definition": "Identificare per esperienza precedente.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Ho riconosciuto il mio vecchio amico.",
+      "Riconosco questa canzone."
+    ],
+    "common_mistake": "Errore ➜ Ho riconosciuto il mio vecchio amico.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "sentirsi": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "sentirsi + [aggettivo]",
+    "level": "A1",
+    "definition": "Provare una sensazione fisica o emotiva.",
+    "grammar_rule": "Verbo riflessivo seguito da aggettivo.",
+    "related_forms": "",
+    "examples": [
+      "Mi sento felice.",
+      "Si sente molto stanco."
+    ],
+    "common_mistake": "Errore ➜ Mi sento felice.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "sperare in": {
+    "word_type": "verb",
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "sperare + in + [qualcosa]",
+    "level": "A1",
+    "definition": "Avere speranza in qualcosa.",
+    "grammar_rule": "Richiede la preposizione 'in' con i sostantivi.",
+    "related_forms": "",
+    "examples": [
+      "Spero in un futuro migliore.",
+      "Speriamo di vincere."
+    ],
+    "common_mistake": "Errore ➜ Spero in un futuro migliore.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "immaginare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "immaginare + [qualcosa]",
+    "level": "A1",
+    "definition": "Rappresentarsi nella mente.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Immagina un posto bellissimo.",
+      "Non posso immaginarlo."
+    ],
+    "common_mistake": "Errore ➜ Immagina un posto bellissimo.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "scegliere tra": {
+    "word_type": "verb",
+    "prepositions": [
+      "tra",
+      "fra"
+    ],
+    "pronominal": false,
+    "pattern": "scegliere + tra/fra + [opzioni]",
+    "level": "A1",
+    "definition": "Selezionare tra più possibilità.",
+    "grammar_rule": "Richiede 'tra' o 'fra' con le opzioni.",
+    "related_forms": "",
+    "examples": [
+      "Scegli tra queste due possibilità.",
+      "Ha scelto un bel regalo."
+    ],
+    "common_mistake": "Errore ➜ Scegli tra queste due possibilità.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "identificarsi in": {
+    "word_type": "verb",
+    "prepositions": [
+      "in",
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "identificarsi + in/con + [qualcuno]",
+    "level": "A2",
+    "definition": "Provare immedesimazione.",
+    "grammar_rule": "Richiede 'in' o 'con'.",
+    "related_forms": "",
+    "examples": [
+      "Mi identifico nel protagonista.",
+      "Si identifica con la squadra."
+    ],
+    "common_mistake": "Errore ➜ Mi identifico nel protagonista.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "svegliarsi": {
+    "word_type": "verb",
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "svegliarsi + [a orario]",
+    "level": "A1",
+    "definition": "Uscire dal sonno.",
+    "grammar_rule": "Verbo riflessivo.",
+    "related_forms": "",
+    "examples": [
+      "Mi sveglio alle sette.",
+      "Si è svegliata presto."
+    ],
+    "common_mistake": "Errore ➜ Mi sveglio alle sette.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "alzarsi": {
+    "word_type": "verb",
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": true,
+    "pattern": "alzarsi + da + [sedia/letto]",
+    "level": "A1",
+    "definition": "Alzarsi in piedi.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Mi alzai dal letto.",
+      "Si alza presto."
+    ],
+    "common_mistake": "Errore ➜ Mi alzai dal letto.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "lavarsi": {
+    "word_type": "verb",
+    "prepositions": [
+      "con"
+    ],
+    "pronominal": true,
+    "pattern": "lavarsi + [le mani/il viso]",
+    "level": "A1",
+    "definition": "Detergere il proprio corpo.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Lavati le mani.",
+      "Si lava con acqua calda."
+    ],
+    "common_mistake": "Errore ➜ Lavati le mani.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "spazzolare": {
+    "word_type": "verb",
+    "prepositions": [
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "spazzolarsi + [i denti/i capelli]",
+    "level": "A1",
+    "definition": "Pulire o pettinare con spazzola.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Spazzolati i denti.",
+      "Si spazzola i capelli."
+    ],
+    "common_mistake": "Errore ➜ Spazzolati i denti.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "farsi la barba": {
+    "word_type": "verb",
+    "prepositions": [
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "farsi la barba",
+    "level": "A1",
+    "definition": "Tagliare la barba.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Si fa la barba ogni mattina.",
+      "Mi faccio la barba con cura."
+    ],
+    "common_mistake": "Errore ➜ Si fa la barba ogni mattina.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "vestirsi": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "vestirsi + di/con + [abiti]",
+    "level": "A1",
+    "definition": "Mettersi i vestiti.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Mi vesto per andare al lavoro.",
+      "Si veste di nero."
+    ],
+    "common_mistake": "Errore ➜ Mi vesto per andare al lavoro.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "mettere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "mettere + [un abito]",
+    "level": "A1",
+    "definition": "Indossare un capo d'abbigliamento.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Metti il cappotto.",
+      "Ha messo le scarpe."
+    ],
+    "common_mistake": "Errore ➜ Metti il cappotto.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "togliere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "togliere + [un abito]",
+    "level": "A1",
+    "definition": "Rimuovere un capo.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Togliti le scarpe.",
+      "Ha tolto il cappello."
+    ],
+    "common_mistake": "Errore ➜ Togliti le scarpe.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "sedersi": {
+    "word_type": "verb",
+    "prepositions": [
+      "su"
+    ],
+    "pronominal": true,
+    "pattern": "sedersi + su + [sedia]",
+    "level": "A1",
+    "definition": "Porsi a sedere.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Siediti sulla sedia.",
+      "Ci sediamo al tavolo."
+    ],
+    "common_mistake": "Errore ➜ Siediti sulla sedia.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "alzarsi in piedi": {
+    "word_type": "verb",
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "alzarsi in piedi da [sedia]",
+    "level": "A1",
+    "definition": "Porsi in piedi.",
+    "grammar_rule": "Reggenza verbale comune.",
+    "related_forms": "",
+    "examples": [
+      "Alzati in piedi.",
+      "Si è alzato dal divano."
+    ],
+    "common_mistake": "Errore ➜ Alzati in piedi.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "aprire": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "aprire + [porta/finestra]",
+    "level": "A1",
+    "definition": "Rendere aperto.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Apri la finestra.",
+      "Ha aperto la porta."
+    ],
+    "common_mistake": "Errore ➜ Apri la finestra.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "chiudere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "chiudere + [porta/libro]",
+    "level": "A1",
+    "definition": "Rendere chiuso.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Chiudi la porta.",
+      "Abbiamo chiuso la finestra."
+    ],
+    "common_mistake": "Errore ➜ Chiudi la porta.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "iniziare": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "iniziare + a + [infinito] / con + [cosa]",
+    "level": "A1",
+    "definition": "Dare inizio a qualcosa.",
+    "grammar_rule": "Richiede 'a' prima dell'infinito.",
+    "related_forms": "",
+    "examples": [
+      "Iniziamo a studiare.",
+      "Inizia con un saluto."
+    ],
+    "common_mistake": "Errore ➜ Iniziamo a studiare.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "finire": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "finire + di + [infinito]",
+    "level": "A1",
+    "definition": "Terminare un'azione.",
+    "grammar_rule": "Richiede 'di' prima dell'infinito.",
+    "related_forms": "",
+    "examples": [
+      "Ho finito di lavorare.",
+      "Finisci il tuo piatto."
+    ],
+    "common_mistake": "Errore ➜ Ho finito di lavorare.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "smettere": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "smettere + di + [infinito]",
+    "level": "A1",
+    "definition": "Cessare un'azione.",
+    "grammar_rule": "Richiede 'di' prima dell'infinito.",
+    "related_forms": "",
+    "examples": [
+      "Smettila di parlare.",
+      "Ha smesso di piovere."
+    ],
+    "common_mistake": "Errore ➜ Smettila di parlare.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "fare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "fare + [azione]",
+    "level": "A1",
+    "definition": "Compiere un'azione.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Faccio i compiti.",
+      "Che cosa fai?"
+    ],
+    "common_mistake": "Errore ➜ Faccio i compiti.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "pulire": {
+    "word_type": "verb",
+    "prepositions": [
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "pulire + [stanza/oggetto]",
+    "level": "A1",
+    "definition": "Togliere la sporcizia.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Pulisco la mia stanza.",
+      "Pulisci la cucina."
+    ],
+    "common_mistake": "Errore ➜ Pulisco la mia stanza.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "riparare": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "riparare + [oggetto]",
+    "level": "A1",
+    "definition": "Aggiustare qualcosa.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Riparo la bicicletta.",
+      "Puoi riparare il telefono?"
+    ],
+    "common_mistake": "Errore ➜ Riparo la bicicletta.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "cambiare": {
+    "word_type": "verb",
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "cambiare + [abito]",
+    "level": "A1",
+    "definition": "Rendere diverso.",
+    "grammar_rule": "Verbo transitivo diretto o con 'di'.",
+    "related_forms": "",
+    "examples": [
+      "Cambio i vestiti.",
+      "Ha cambiato idea."
+    ],
+    "common_mistake": "Errore ➜ Cambio i vestiti.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

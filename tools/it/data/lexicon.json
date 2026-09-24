@@ -15279,6 +15279,54 @@
       }
     },
     {
+      "lemma": "alzarsi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": true,
+        "pattern": "alzarsi + da + [sedia/letto]",
+        "level": "A1",
+        "definition": "Alzarsi in piedi.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Mi alzai dal letto.",
+          "Si alza presto."
+        ],
+        "common_mistake": "Errore ➜ Mi alzai dal letto.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
+      "lemma": "alzarsi in piedi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "da"
+        ],
+        "pronominal": false,
+        "pattern": "alzarsi in piedi da [sedia]",
+        "level": "A1",
+        "definition": "Porsi in piedi.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Alzati in piedi.",
+          "Si è alzato dal divano."
+        ],
+        "common_mistake": "Errore ➜ Alzati in piedi.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "amare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -15994,6 +16042,30 @@
         "usage_hint": "appartenere a (qualcuno)",
         "irregular": true,
         "needs_review": true
+      }
+    },
+    {
+      "lemma": "appartenere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": false,
+        "pattern": "appartenere + a + [qualcuno]",
+        "level": "A1",
+        "definition": "Essere di proprietà di qualcuno.",
+        "grammar_rule": "Richiede la preposizione 'a'.",
+        "related_forms": "",
+        "examples": [
+          "Questo libro appartiene a me.",
+          "La casa appartiene alla famiglia."
+        ],
+        "common_mistake": "Errore ➜ Questo libro appartiene a me.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -17115,6 +17187,30 @@
         "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto",
         "auxiliary": "avere",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "avere bisogno di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "avere bisogno + di + [qualcosa/infinito]",
+        "level": "A1",
+        "definition": "Necessitare di qualcosa.",
+        "grammar_rule": "Richiede la preposizione 'di'.",
+        "related_forms": "",
+        "examples": [
+          "Ho bisogno di un caffè.",
+          "Abbiamo bisogno di aiuto."
+        ],
+        "common_mistake": "Errore ➜ Ho bisogno di un caffè.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -21487,7 +21583,7 @@
         ],
         "pronominal": false,
         "pattern": "credere + in + [Dio/ideale/persona]",
-        "level": "A2",
+        "level": "A1",
         "definition": "Avere fede in una divinità o riporre profonda fiducia nelle doti di qualcuno.",
         "grammar_rule": "Si usa « in » con articolazione per esprimere fede religiosa o ideale (credere in Dio, nella giustizia, in se stessi).",
         "related_forms": "⚡ Verbo: 'credere in' ➜ Nome correlato: 'fiducia in' / Aggettivo correlato: 'fiducioso in'",
@@ -21861,7 +21957,7 @@
         ],
         "pronominal": false,
         "pattern": "decidere + di + [infinito]",
-        "level": "A2",
+        "level": "A1",
         "definition": "Prendere la risoluzione di compiere un'azione.",
         "grammar_rule": "Richiede sempre la preposizione « di » prima di un verbo all'infinito (decidere di cambiare, di partire).",
         "related_forms": "⚡ Verbo: 'decidere di' ➜ Nome correlato: 'decisione di' / Aggettivo correlato: 'deciso a'",
@@ -24182,6 +24278,30 @@
       }
     },
     {
+      "lemma": "esistere",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "esistere + in + [luogo]",
+        "level": "A1",
+        "definition": "Avere realtà effettiva.",
+        "grammar_rule": "Verbo intransitivo usato con 'in'.",
+        "related_forms": "",
+        "examples": [
+          "L'amore esiste in ogni cultura.",
+          "Esistono molte possibilità."
+        ],
+        "common_mistake": "Errore ➜ L'amore esiste in ogni cultura.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "esortare a",
       "kind": "verbs",
       "source": "tools/it/reggenza/data/verbs.json",
@@ -24323,6 +24443,31 @@
         "usage_hint": "essere di (possesso) / in / a / + aggettivo",
         "auxiliary": "essere",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "essere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "essere + a/in + luogo",
+        "level": "A1",
+        "definition": "Esistere o trovarsi in un luogo.",
+        "grammar_rule": "Richiede 'a' per città e 'in' per nazioni/stati.",
+        "related_forms": "",
+        "examples": [
+          "Sono a casa oggi.",
+          "Marco è in Italia."
+        ],
+        "common_mistake": "Errore ➜ Sono a casa oggi.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -24611,6 +24756,30 @@
           "scaricare",
           "delegare"
         ]
+      }
+    },
+    {
+      "lemma": "farsi la barba",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "farsi la barba",
+        "level": "A1",
+        "definition": "Tagliare la barba.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Si fa la barba ogni mattina.",
+          "Mi faccio la barba con cura."
+        ],
+        "common_mistake": "Errore ➜ Si fa la barba ogni mattina.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -25710,6 +25879,31 @@
       }
     },
     {
+      "lemma": "identificarsi in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in",
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "identificarsi + in/con + [qualcuno]",
+        "level": "A2",
+        "definition": "Provare immedesimazione.",
+        "grammar_rule": "Richiede 'in' o 'con'.",
+        "related_forms": "",
+        "examples": [
+          "Mi identifico nel protagonista.",
+          "Si identifica con la squadra."
+        ],
+        "common_mistake": "Errore ➜ Mi identifico nel protagonista.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "imbattersi in",
       "kind": "verbs",
       "source": "tools/it/reggenza/data/verbs.json",
@@ -25737,6 +25931,30 @@
           "evitare",
           "schivare"
         ]
+      }
+    },
+    {
+      "lemma": "immaginare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "immaginare + [qualcosa]",
+        "level": "A1",
+        "definition": "Rappresentarsi nella mente.",
+        "grammar_rule": "Verbo transitivo diretto.",
+        "related_forms": "",
+        "examples": [
+          "Immagina un posto bellissimo.",
+          "Non posso immaginarlo."
+        ],
+        "common_mistake": "Errore ➜ Immagina un posto bellissimo.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -26083,6 +26301,31 @@
         "antonyms": [
           "rispettare l'autonomia"
         ]
+      }
+    },
+    {
+      "lemma": "iniziare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a",
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "iniziare + a + [infinito] / con + [cosa]",
+        "level": "A1",
+        "definition": "Dare inizio a qualcosa.",
+        "grammar_rule": "Richiede 'a' prima dell'infinito.",
+        "related_forms": "",
+        "examples": [
+          "Iniziamo a studiare.",
+          "Inizia con un saluto."
+        ],
+        "common_mistake": "Errore ➜ Iniziamo a studiare.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -27464,6 +27707,30 @@
       }
     },
     {
+      "lemma": "lavarsi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": true,
+        "pattern": "lavarsi + [le mani/il viso]",
+        "level": "A1",
+        "definition": "Detergere il proprio corpo.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Lavati le mani.",
+          "Si lava con acqua calda."
+        ],
+        "common_mistake": "Errore ➜ Lavati le mani.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "lavorare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -28609,6 +28876,30 @@
       }
     },
     {
+      "lemma": "morire di",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "morire + di + [causa]",
+        "level": "A1",
+        "definition": "Cessare di vivere.",
+        "grammar_rule": "Richiede la preposizione 'di' per indicare la causa.",
+        "related_forms": "",
+        "examples": [
+          "È morto di vecchiaia.",
+          "Morire di freddo."
+        ],
+        "common_mistake": "Errore ➜ È morto di vecchiaia.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "mostrare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -29377,6 +29668,30 @@
           "trascurare",
           "disinteressarsi di"
         ]
+      }
+    },
+    {
+      "lemma": "odiare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "odiare + [qualcuno/qualcosa]",
+        "level": "A1",
+        "definition": "Provare aversione profonda.",
+        "grammar_rule": "Verbo transitivo diretto.",
+        "related_forms": "",
+        "examples": [
+          "Odio il freddo intenso.",
+          "Odia arrivare in ritardo."
+        ],
+        "common_mistake": "Errore ➜ Odio il freddo intenso.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -33106,6 +33421,31 @@
       }
     },
     {
+      "lemma": "restare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "restare + a/in + [luogo]",
+        "level": "A1",
+        "definition": "Rimanere in un luogo.",
+        "grammar_rule": "Si usa con 'a' o 'in' per indicare la permanenza.",
+        "related_forms": "",
+        "examples": [
+          "Resto a casa stasera.",
+          "Sono restati in albergo."
+        ],
+        "common_mistake": "Errore ➜ Resto a casa stasera.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "ribellarsi a",
       "kind": "verbs",
       "source": "tools/it/reggenza/data/verbs.json",
@@ -33248,6 +33588,30 @@
         },
         "usage_hint": "ricevere (qualcosa) da (qualcuno)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "riconoscere",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "riconoscere + [qualcuno/qualcosa]",
+        "level": "A2",
+        "definition": "Identificare per esperienza precedente.",
+        "grammar_rule": "Verbo transitivo diretto.",
+        "related_forms": "",
+        "examples": [
+          "Ho riconosciuto il mio vecchio amico.",
+          "Riconosco questa canzone."
+        ],
+        "common_mistake": "Errore ➜ Ho riconosciuto il mio vecchio amico.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -33489,7 +33853,7 @@
         ],
         "pronominal": true,
         "pattern": "ricordarsi + di + [persona/cosa/infinito]",
-        "level": "A2",
+        "level": "A1",
         "definition": "Rievocare nella memoria qualcuno o qualcosa.",
         "grammar_rule": "Verbo pronominal che richiede sempre la preposizione « di » con relative articolazioni (ricordarsi del compleanno, di fare).",
         "related_forms": "⚡ Verbo: 'ricordarsi di' ➜ Nome correlato: 'ricordo di' / Aggettivo correlato: 'attento a'",
@@ -33909,6 +34273,31 @@
       }
     },
     {
+      "lemma": "rimanere a",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a",
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "rimanere + a/in + [luogo]",
+        "level": "A1",
+        "definition": "Restare in un luogo.",
+        "grammar_rule": "Richiede 'a' o 'in' a seconda del complemento.",
+        "related_forms": "",
+        "examples": [
+          "Rimaniamo a casa.",
+          "È rimasto in silenzio."
+        ],
+        "common_mistake": "Errore ➜ Rimaniamo a casa.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "ringraziare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -34080,6 +34469,30 @@
           "persistere in",
           "insistere su"
         ]
+      }
+    },
+    {
+      "lemma": "riparare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "riparare + [oggetto]",
+        "level": "A1",
+        "definition": "Aggiustare qualcosa.",
+        "grammar_rule": "Verbo transitivo diretto.",
+        "related_forms": "",
+        "examples": [
+          "Riparo la bicicletta.",
+          "Puoi riparare il telefono?"
+        ],
+        "common_mistake": "Errore ➜ Riparo la bicicletta.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -35420,6 +35833,31 @@
       }
     },
     {
+      "lemma": "scegliere tra",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "tra",
+          "fra"
+        ],
+        "pronominal": false,
+        "pattern": "scegliere + tra/fra + [opzioni]",
+        "level": "A1",
+        "definition": "Selezionare tra più possibilità.",
+        "grammar_rule": "Richiede 'tra' o 'fra' con le opzioni.",
+        "related_forms": "",
+        "examples": [
+          "Scegli tra queste due possibilità.",
+          "Ha scelto un bel regalo."
+        ],
+        "common_mistake": "Errore ➜ Scegli tra queste due possibilità.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "scendere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -36086,6 +36524,30 @@
       }
     },
     {
+      "lemma": "sedersi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "su"
+        ],
+        "pronominal": true,
+        "pattern": "sedersi + su + [sedia]",
+        "level": "A1",
+        "definition": "Porsi a sedere.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Siediti sulla sedia.",
+          "Ci sediamo al tavolo."
+        ],
+        "common_mistake": "Errore ➜ Siediti sulla sedia.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "sembrare",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -36314,6 +36776,30 @@
       }
     },
     {
+      "lemma": "sentirsi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": true,
+        "pattern": "sentirsi + [aggettivo]",
+        "level": "A1",
+        "definition": "Provare una sensazione fisica o emotiva.",
+        "grammar_rule": "Verbo riflessivo seguito da aggettivo.",
+        "related_forms": "",
+        "examples": [
+          "Mi sento felice.",
+          "Si sente molto stanco."
+        ],
+        "common_mistake": "Errore ➜ Mi sento felice.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "servire a",
       "kind": "verbs",
       "source": "tools/it/reggenza/data/verbs.json",
@@ -36400,6 +36886,54 @@
           "incappare in",
           "cadere in"
         ]
+      }
+    },
+    {
+      "lemma": "significare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "significare + [qualcosa]",
+        "level": "A1",
+        "definition": "Esprimere o indicare un senso.",
+        "grammar_rule": "Verbo transitivo diretto.",
+        "related_forms": "",
+        "examples": [
+          "Che cosa significa questa parola?",
+          "Significa che abbiamo tempo."
+        ],
+        "common_mistake": "Errore ➜ Che cosa significa questa parola?",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
+      "lemma": "smettere",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": false,
+        "pattern": "smettere + di + [infinito]",
+        "level": "A1",
+        "definition": "Cessare un'azione.",
+        "grammar_rule": "Richiede 'di' prima dell'infinito.",
+        "related_forms": "",
+        "examples": [
+          "Smettila di parlare.",
+          "Ha smesso di piovere."
+        ],
+        "common_mistake": "Errore ➜ Smettila di parlare.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -36837,6 +37371,30 @@
       }
     },
     {
+      "lemma": "spazzolare",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "con"
+        ],
+        "pronominal": false,
+        "pattern": "spazzolarsi + [i denti/i capelli]",
+        "level": "A1",
+        "definition": "Pulire o pettinare con spazzola.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Spazzolati i denti.",
+          "Si spazzola i capelli."
+        ],
+        "common_mistake": "Errore ➜ Spazzolati i denti.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "spegnere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",
@@ -37092,6 +37650,30 @@
         "antonyms": [
           "disperare di"
         ]
+      }
+    },
+    {
+      "lemma": "sperare in",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "in"
+        ],
+        "pronominal": false,
+        "pattern": "sperare + in + [qualcosa]",
+        "level": "A1",
+        "definition": "Avere speranza in qualcosa.",
+        "grammar_rule": "Richiede la preposizione 'in' con i sostantivi.",
+        "related_forms": "",
+        "examples": [
+          "Spero in un futuro migliore.",
+          "Speriamo di vincere."
+        ],
+        "common_mistake": "Errore ➜ Spero in un futuro migliore.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -37840,6 +38422,30 @@
       }
     },
     {
+      "lemma": "svegliarsi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "a"
+        ],
+        "pronominal": true,
+        "pattern": "svegliarsi + [a orario]",
+        "level": "A1",
+        "definition": "Uscire dal sonno.",
+        "grammar_rule": "Verbo riflessivo.",
+        "related_forms": "",
+        "examples": [
+          "Mi sveglio alle sette.",
+          "Si è svegliata presto."
+        ],
+        "common_mistake": "Errore ➜ Mi sveglio alle sette.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "svincolarsi da",
       "kind": "verbs",
       "source": "tools/it/reggenza/data/verbs.json",
@@ -38041,6 +38647,30 @@
         "antonyms": [
           "cominciare a"
         ]
+      }
+    },
+    {
+      "lemma": "togliere",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "togliere + [un abito]",
+        "level": "A1",
+        "definition": "Rimuovere un capo.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Togliti le scarpe.",
+          "Ha tolto il cappello."
+        ],
+        "common_mistake": "Errore ➜ Togliti le scarpe.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -39248,6 +39878,30 @@
           "farsi vanto di",
           "orgogliosi di"
         ]
+      }
+    },
+    {
+      "lemma": "vestirsi",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "di"
+        ],
+        "pronominal": true,
+        "pattern": "vestirsi + di/con + [abiti]",
+        "level": "A1",
+        "definition": "Mettersi i vestiti.",
+        "grammar_rule": "Reggenza verbale comune.",
+        "related_forms": "",
+        "examples": [
+          "Mi vesto per andare al lavoro.",
+          "Si veste di nero."
+        ],
+        "common_mistake": "Errore ➜ Mi vesto per andare al lavoro.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {

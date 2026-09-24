@@ -921,7 +921,7 @@
     ],
     "pronominal": false,
     "pattern": "arrêter de [faire quelque chose]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Cesser ou interrompre une action.",
     "grammar_rule": "Régime obligatoire « de » devant un infinitif. Devant un nom, contraction obligatoire : de + le = du, de + les = des.",
     "noun_parallel": "⚡ Verbe : 'Arrêter de fumer' ➜ Nom : 'L'arrêt DU tabac'",
@@ -1064,7 +1064,7 @@
     ],
     "pronominal": false,
     "pattern": "finir de [faire quelque chose]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Arriver au terme ou à l'achèvement d'une action.",
     "grammar_rule": "Demande la préposition « de » devant un infinitif. Devant un nom masculin/pluriel : contractions du/des.",
     "noun_parallel": "⚡ Verbe : 'Finir le travail (COD) / Finir de manger (de)' ➜ Nom : 'La fin DU cours'",
@@ -1112,7 +1112,7 @@
     ],
     "pronominal": false,
     "pattern": "oublier de [faire quelque chose]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Ne pas se rappeler d'accomplir une tâche.",
     "grammar_rule": "Demande la préposition « de » devant l'infinitif. Devant un nom direct, aucun emploi de préposition (oublier ses clés).",
     "noun_parallel": "⚡ Verbe : 'Oublier ses clés (COD) / Oublier de fermer (de)' ➜ Nom : 'L'oubli DU mot de passe'",
@@ -1839,7 +1839,7 @@
     ],
     "pronominal": false,
     "pattern": "espérer [quelque chose / verbe]",
-    "level": "A2",
+    "level": "A1",
     "definition": "Attendre avec confiance la réalisation d'un désir.",
     "grammar_rule": "Verbe transitif direct. Ne prenez pas de préposition ('de' ou 'à') devant l'infinitif en français moderne.",
     "noun_parallel": "⚡ Verbe : 'Espérer le succès' ➜ Nom : 'L'espoir DU succès'",
@@ -3758,5 +3758,658 @@
       "ignorer",
       "se moquer de"
     ]
+  },
+  "être": {
+    "prepositions": [
+      "à",
+      "dans"
+    ],
+    "pronominal": false,
+    "pattern": "être + à/dans + lieu",
+    "level": "A1",
+    "definition": "Exister, se trouver dans un lieu.",
+    "grammar_rule": "Utiliser 'à' pour les villes/points et 'dans' pour les espaces fermés.",
+    "noun_parallel": "",
+    "examples": [
+      "Je suis à la maison.",
+      "Il est dans sa chambre."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je suis à la maison.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "avoir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "avoir [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Posséder quelque chose.",
+    "grammar_rule": "Verbe transitif direct sans préposition.",
+    "noun_parallel": "",
+    "examples": [
+      "J'ai une voiture.",
+      "Elle a deux frères."
+    ],
+    "common_mistake": "Usage incorrect ➜ J'ai une voiture.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "exister": {
+    "prepositions": [
+      "dans"
+    ],
+    "pronominal": false,
+    "pattern": "exister [dans un lieu]",
+    "level": "A1",
+    "definition": "Avoir une réalité, être réel.",
+    "grammar_rule": "Verbe intransitif employé avec 'dans'.",
+    "noun_parallel": "",
+    "examples": [
+      "Ce problème existe dans tous les pays.",
+      "La possibilité existe."
+    ],
+    "common_mistake": "Usage incorrect ➜ Ce problème existe dans tous les pays.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "devenir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "devenir [quelque chose]",
+    "level": "A1",
+    "definition": "Passer d'un état à un autre.",
+    "grammar_rule": "Verbe d'état suivi directement du nom/adjectif.",
+    "noun_parallel": "",
+    "examples": [
+      "Il est devenu médecin.",
+      "Le temps devient froid."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il est devenu médecin.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "mourir": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "mourir de [cause]",
+    "level": "A1",
+    "definition": "Cesser de vivre.",
+    "grammar_rule": "Utiliser la préposition 'de' pour indiquer la cause.",
+    "noun_parallel": "",
+    "examples": [
+      "Il est mort de vieillesse.",
+      "Mourir de faim."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il est mort de vieillesse.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "rester": {
+    "prepositions": [
+      "à",
+      "dans"
+    ],
+    "pronominal": false,
+    "pattern": "rester à / dans [lieu]",
+    "level": "A1",
+    "definition": "Demeurer quelque part.",
+    "grammar_rule": "S'utilise avec 'à' ou 'dans' pour marquer le lieu.",
+    "noun_parallel": "",
+    "examples": [
+      "Je reste à la maison.",
+      "Elle reste dans sa chambre."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je reste à la maison.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "demeurer": {
+    "prepositions": [
+      "à",
+      "dans"
+    ],
+    "pronominal": false,
+    "pattern": "demeurer à / dans [lieu]",
+    "level": "A1",
+    "definition": "Rester dans le même lieu.",
+    "grammar_rule": "Usage soutenu de rester; s'utilise avec 'à' ou 'dans'.",
+    "noun_parallel": "",
+    "examples": [
+      "Il demeure à Paris.",
+      "Seul le souvenir demeure."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il demeure à Paris.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "appartenir à": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "appartenir à [quelqu'un]",
+    "level": "A1",
+    "definition": "Être la propriété de quelqu'un.",
+    "grammar_rule": "Régime prépositionnel 'à' obligatoire.",
+    "noun_parallel": "",
+    "examples": [
+      "Ce livre appartient à Pierre.",
+      "La maison appartient à la famille."
+    ],
+    "common_mistake": "Usage incorrect ➜ Ce livre appartient à Pierre.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "sembler": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "sembler [adjectif / infinitif]",
+    "level": "A1",
+    "definition": "Donner l'impression d'être.",
+    "grammar_rule": "Directement suivi d'un adjectif ou infinitif.",
+    "noun_parallel": "",
+    "examples": [
+      "Il semble fatigué.",
+      "Cela semble fonctionner."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il semble fatigué.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "vouloir dire": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "vouloir dire [quelque chose]",
+    "level": "A1",
+    "definition": "Signifier quelque chose.",
+    "grammar_rule": "Locution verbale sans préposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Que veut dire ce mot ?",
+      "Je voulais dire autre chose."
+    ],
+    "common_mistake": "Usage incorrect ➜ Que veut dire ce mot ?",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "avoir besoin de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "avoir besoin de [quelque chose / verbe]",
+    "level": "A1",
+    "definition": "Manquer de quelque chose d'essentiel.",
+    "grammar_rule": "Régime prépositionnel 'de' obligatoire.",
+    "noun_parallel": "",
+    "examples": [
+      "J'ai besoin d'eau.",
+      "Nous avons besoin de partir."
+    ],
+    "common_mistake": "Usage incorrect ➜ J'ai besoin d'eau.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "aimer bien": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "aimer bien [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Trouver agréable.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "J'aime bien ce film.",
+      "Elle aime bien le chocolat."
+    ],
+    "common_mistake": "Usage incorrect ➜ J'aime bien ce film.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "savoir": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": false,
+    "pattern": "savoir / savoir sur [sujet]",
+    "level": "A1",
+    "definition": "Avoir la connaissance de quelque chose.",
+    "grammar_rule": "Directement suivi du fait ou 'sur' pour le sujet.",
+    "noun_parallel": "",
+    "examples": [
+      "Je sais la vérité.",
+      "Il sait tout sur l'histoire."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je sais la vérité.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "comprendre": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "comprendre [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Saisir le sens de quelque chose.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Je comprends la question.",
+      "Elle comprend l'italien."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je comprends la question.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "se souvenir de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "se souvenir de [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Garder en mémoire.",
+    "grammar_rule": "Régime prépositionnel 'de' obligatoire.",
+    "noun_parallel": "",
+    "examples": [
+      "Je me souviens de ce jour.",
+      "Elle se souvient de toi."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je me souviens de ce jour.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "reconnaître": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "reconnaître [quelqu'un / quelque chose]",
+    "level": "A2",
+    "definition": "Identifier quelqu'un ou quelque chose.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Je l'ai reconnu tout de suite.",
+      "Elle reconnaît cette voix."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je l'ai reconnu tout de suite.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "penser à": {
+    "prepositions": [
+      "à",
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "penser à / de [quelqu'un / quelque chose]",
+    "level": "A1",
+    "definition": "Avoir à l'esprit ou donner un avis.",
+    "grammar_rule": "Utiliser 'à' pour l'attention et 'de' pour l'opinion.",
+    "noun_parallel": "",
+    "examples": [
+      "Je pense à mes vacances.",
+      "Que penses-tu de ce film ?"
+    ],
+    "common_mistake": "Usage incorrect ➜ Je pense à mes vacances.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "croire en": {
+    "prepositions": [
+      "en",
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "croire en / à [quelque chose]",
+    "level": "A1",
+    "definition": "Avoir la foi ou faire confiance.",
+    "grammar_rule": "Utiliser 'en' pour les valeurs/personnes et 'à' pour les concepts.",
+    "noun_parallel": "",
+    "examples": [
+      "Je crois en toi.",
+      "Elle croit aux miracles."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je crois en toi.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "se sentir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": true,
+    "pattern": "se sentir [adjectif]",
+    "level": "A1",
+    "definition": "Éprouver une sensation physique ou morale.",
+    "grammar_rule": "Verbe pronominal suivi d'un adjectif.",
+    "noun_parallel": "",
+    "examples": [
+      "Je me sens bien.",
+      "Elle se sent fatiguée."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je me sens bien.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "imaginer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "imaginer [quelque chose]",
+    "level": "A1",
+    "definition": "Se représenter mentalement.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "J'imagine la scène.",
+      "Il imagine son avenir."
+    ],
+    "common_mistake": "Usage incorrect ➜ J'imagine la scène.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "choisir": {
+    "prepositions": [
+      "entre"
+    ],
+    "pronominal": false,
+    "pattern": "choisir entre [options]",
+    "level": "A1",
+    "definition": "Sélectionner parmi plusieurs possibilités.",
+    "grammar_rule": "S'utilise avec 'entre' pour désigner les options.",
+    "noun_parallel": "",
+    "examples": [
+      "Choisir entre deux options.",
+      "Elle a choisi ce livre."
+    ],
+    "common_mistake": "Usage incorrect ➜ Choisir entre deux options.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "décider de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "décider de [quelque chose / infinitif]",
+    "level": "A1",
+    "definition": "Prendre une décision.",
+    "grammar_rule": "Régime prépositionnel 'de' obligatoire.",
+    "noun_parallel": "",
+    "examples": [
+      "Il a décidé de partir.",
+      "Nous décidons de la suite."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il a décidé de partir.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "s'identifier à": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "s'identifier à [quelqu'un]",
+    "level": "A2",
+    "definition": "Ressentir une affinité profonde.",
+    "grammar_rule": "Régime pronominal prépositionnel 'à'.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'identifie à ce personnage.",
+      "Elle s'identifie à son héros."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je m'identifie à ce personnage.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "se réveiller": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": true,
+    "pattern": "se réveiller [à heure]",
+    "level": "A1",
+    "definition": "Cesser de dormir.",
+    "grammar_rule": "Verbe pronominal.",
+    "noun_parallel": "",
+    "examples": [
+      "Je me réveille à sept heures.",
+      "Il se réveille tôt."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je me réveille à sept heures.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "brosser": {
+    "prepositions": [
+      "avec"
+    ],
+    "pronominal": false,
+    "pattern": "se brosser [les dents/les cheveux]",
+    "level": "A1",
+    "definition": "Nettoyer ou coiffer avec une brosse.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Je me brosse les dents.",
+      "Elle se brosse les cheveux."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je me brosse les dents.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "se raser": {
+    "prepositions": [
+      "avec"
+    ],
+    "pronominal": true,
+    "pattern": "se raser [le visage]",
+    "level": "A1",
+    "definition": "Couper le poil au ras de la peau.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Il se rase tous les matins.",
+      "Je me rase avec un rasoir."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il se rase tous les matins.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "s'habiller": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": true,
+    "pattern": "s'habiller [de/en vêtements]",
+    "level": "A1",
+    "definition": "Mettre des vêtements.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Je m'habille pour sortir.",
+      "Elle s'habille toujours bien."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je m'habille pour sortir.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "mettre": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "mettre [un vêtement]",
+    "level": "A1",
+    "definition": "Placer un vêtement sur soi.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Je mets mon manteau.",
+      "Mets tes chaussures."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je mets mon manteau.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "enlever": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "enlever [un vêtement]",
+    "level": "A1",
+    "definition": "Ôter un vêtement.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Enlève tes chaussures.",
+      "Il a enlevé sa veste."
+    ],
+    "common_mistake": "Usage incorrect ➜ Enlève tes chaussures.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "s'asseoir": {
+    "prepositions": [
+      "sur"
+    ],
+    "pronominal": true,
+    "pattern": "s'asseoir [sur une chaise]",
+    "level": "A1",
+    "definition": "Se placer sur un siège.",
+    "grammar_rule": "Régime prépositionnel usuel.",
+    "noun_parallel": "",
+    "examples": [
+      "Asseyez-vous sur cette chaise.",
+      "Je m'assois ici."
+    ],
+    "common_mistake": "Usage incorrect ➜ Asseyez-vous sur cette chaise.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "ouvrir": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "ouvrir [porte/fenêtre]",
+    "level": "A1",
+    "definition": "Rendre ouvert.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "J'ouvre la porte.",
+      "Il ouvre la fenêtre."
+    ],
+    "common_mistake": "Usage incorrect ➜ J'ouvre la porte.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "fermer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "fermer [porte/livre]",
+    "level": "A1",
+    "definition": "Obstruer une ouverture.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Ferme la porte.",
+      "Elle ferme son livre."
+    ],
+    "common_mistake": "Usage incorrect ➜ Ferme la porte.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "faire": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "faire [action]",
+    "level": "A1",
+    "definition": "Accomplir une action.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Je fais mes devoirs.",
+      "Que fais-tu ?"
+    ],
+    "common_mistake": "Usage incorrect ➜ Je fais mes devoirs.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "nettoyer": {
+    "prepositions": [
+      "avec"
+    ],
+    "pronominal": false,
+    "pattern": "nettoyer [lieu/objet]",
+    "level": "A1",
+    "definition": "Rendre propre.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Je nettoie ma chambre.",
+      "Il nettoie la table."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je nettoie ma chambre.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "réparer": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "réparer [objet]",
+    "level": "A1",
+    "definition": "Remettre en bon état.",
+    "grammar_rule": "Verbe transitif direct.",
+    "noun_parallel": "",
+    "examples": [
+      "Il répare sa voiture.",
+      "Elle répare le vélo."
+    ],
+    "common_mistake": "Usage incorrect ➜ Il répare sa voiture.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "changer de": {
+    "prepositions": [
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "changer de [vêtement]",
+    "level": "A1",
+    "definition": "Rendre différent ou remplacer.",
+    "grammar_rule": "Régime prépositionnel 'de'.",
+    "noun_parallel": "",
+    "examples": [
+      "Je change de vêtements.",
+      "Changer d'avis."
+    ],
+    "common_mistake": "Usage incorrect ➜ Je change de vêtements.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

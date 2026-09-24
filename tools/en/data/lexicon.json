@@ -10330,7 +10330,7 @@
           "in"
         ],
         "pattern": "believe in [principle / ghost / ability]",
-        "level": "A2",
+        "level": "A1",
         "definition": "To feel confident in the truth, existence, or value of something.",
         "grammar_rule": "Requires 'in' when expressing faith in existence or confidence in abilities.",
         "noun_parallel": "⚡ Verb: 'Believe in success' ➔ Noun: 'Have belief IN success'",
@@ -10338,7 +10338,7 @@
           "Do you believe in ghosts?",
           "I believe in your ability to succeed."
         ],
-        "common_mistake": "❌ I believe on you. ➔ ✅ I believe in you.",
+        "common_mistake": "❌ I believe on honesty. ➔ ✅ I believe in honesty.",
         "synonyms": [
           "trust in",
           "have faith in"
@@ -10407,7 +10407,7 @@
           "This laptop belongs to the IT department.",
           "Does this notebook belong to you?"
         ],
-        "common_mistake": "❌ It belongs for me. ➔ ✅ It belongs to me.",
+        "common_mistake": "❌ This belongs me. ➔ ✅ This belongs to me.",
         "synonyms": [
           "be owned by",
           "pertain to"
@@ -10926,6 +10926,33 @@
       }
     },
     {
+      "lemma": "brush",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with"
+        ],
+        "pattern": "brush [teeth/hair] with [brush]",
+        "level": "A1",
+        "definition": "To clean/groom with a brush.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Brush your teeth twice a day.",
+          "She brushed her hair."
+        ],
+        "common_mistake": "❌ Brush teeth by a toothbrush. ➔ ✅ Brush teeth with a toothbrush.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "build",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -11260,6 +11287,33 @@
       }
     },
     {
+      "lemma": "change",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "into"
+        ],
+        "pattern": "change / change into [clothes]",
+        "level": "A1",
+        "definition": "To make or become different.",
+        "grammar_rule": "Direct object or 'into'.",
+        "noun_parallel": "",
+        "examples": [
+          "Change your clothes.",
+          "Caterpillars change into butterflies."
+        ],
+        "common_mistake": "❌ Change into your mind. ➔ ✅ Change your mind.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "into",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "check in",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -11350,6 +11404,33 @@
       }
     },
     {
+      "lemma": "clean",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with"
+        ],
+        "pattern": "clean [room/house]",
+        "level": "A1",
+        "definition": "To make free from dirt.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Clean your room.",
+          "She cleaned the house."
+        ],
+        "common_mistake": "❌ Clean to your room. ➔ ✅ Clean your room.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "cleave",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -11389,6 +11470,33 @@
         ],
         "subgroup": "base_past_past",
         "vowel_pattern": "i-u-u"
+      }
+    },
+    {
+      "lemma": "close",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "close [door/window]",
+        "level": "A1",
+        "definition": "To cover an opening.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Close the door behind you.",
+          "Please close the book."
+        ],
+        "common_mistake": "❌ Close to the door. ➔ ✅ Close the door.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
       }
     },
     {
@@ -12221,6 +12329,34 @@
       }
     },
     {
+      "lemma": "decide about",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "on",
+          "about"
+        ],
+        "pattern": "decide on/about [something]",
+        "level": "A1",
+        "definition": "To make a choice or resolution.",
+        "grammar_rule": "Use 'on' or 'about' when settling a matter.",
+        "noun_parallel": "",
+        "examples": [
+          "We decided on a location.",
+          "They are deciding about the date."
+        ],
+        "common_mistake": "❌ Decide on to go home. ➔ ✅ Decide to go home.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "on",
+        "particle_count": 2
+      }
+    },
+    {
       "lemma": "deliberate on",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -12394,6 +12530,34 @@
         ],
         "preposition_structure": "single",
         "particle_count": 1
+      }
+    },
+    {
+      "lemma": "die",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "from",
+          "of"
+        ],
+        "pattern": "die of/from [cause]",
+        "level": "A1",
+        "definition": "To stop living or cease to exist.",
+        "grammar_rule": "Use 'die of' for disease and 'die from' for external factors.",
+        "noun_parallel": "",
+        "examples": [
+          "He died of old age.",
+          "Plants die from lack of water."
+        ],
+        "common_mistake": "❌ He died from old age. ➔ ✅ He died of old age.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "from",
+        "particle_count": 2
       }
     },
     {
@@ -12637,6 +12801,33 @@
         ],
         "subgroup": "base_past_past",
         "vowel_pattern": "e-e-e"
+      }
+    },
+    {
+      "lemma": "dress",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "dress in [clothes]",
+        "level": "A1",
+        "definition": "To put on clothes.",
+        "grammar_rule": "Often used as 'get dressed'.",
+        "noun_parallel": "",
+        "examples": [
+          "Get dressed quickly.",
+          "She was dressed in white."
+        ],
+        "common_mistake": "❌ Get dressed by fast. ➔ ✅ Get dressed quickly.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "in",
+        "particle_count": 1
       }
     },
     {
@@ -12898,6 +13089,33 @@
       }
     },
     {
+      "lemma": "exist",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "in"
+        ],
+        "pattern": "exist in [place/state]",
+        "level": "A1",
+        "definition": "To have objective reality or being.",
+        "grammar_rule": "Intransitive verb often used with 'in'.",
+        "noun_parallel": "",
+        "examples": [
+          "Hope exists in everyone's heart.",
+          "Many species exist in nature."
+        ],
+        "common_mistake": "❌ Hope exists on everyone's heart. ➔ ✅ Hope exists in everyone's heart.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "in",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "face up to",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -13105,6 +13323,33 @@
         ],
         "subgroup": "base_past_past",
         "vowel_pattern": "i-o-o"
+      }
+    },
+    {
+      "lemma": "finish",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with"
+        ],
+        "pattern": "finish [work]",
+        "level": "A1",
+        "definition": "To bring to an end.",
+        "grammar_rule": "Direct object or 'with'.",
+        "noun_parallel": "",
+        "examples": [
+          "I finished my homework.",
+          "Are you finished with that book?"
+        ],
+        "common_mistake": "❌ Finish to working. ➔ ✅ Finish working.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
+        "particle_count": 1
       }
     },
     {
@@ -13600,14 +13845,14 @@
           "from"
         ],
         "pattern": "get up (at [time] / from [bed])",
-        "level": "A2",
+        "level": "A1",
         "definition": "To rise from bed or from a seated position.",
         "grammar_rule": "Intransitive phrasal verb. Use 'at' for time and 'from' for bed or chair.",
         "examples": [
           "I get up at six-thirty every morning.",
           "He got up from his chair to open the door."
         ],
-        "common_mistake": "❌ I get up on 7 AM. ➔ ✅ I get up at 7 AM.",
+        "common_mistake": "❌ I get up at bed. ➔ ✅ I get up from bed.",
         "synonyms": [
           "arise",
           "stand up"
@@ -13969,6 +14214,33 @@
       }
     },
     {
+      "lemma": "hate",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "hate [someone / something]",
+        "level": "A1",
+        "definition": "To feel intense dislike.",
+        "grammar_rule": "Direct transitive verb without preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "I hate getting up early.",
+          "He hates traffic jams."
+        ],
+        "common_mistake": "❌ I hate to early mornings. ➔ ✅ I hate early mornings.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "have",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -14198,6 +14470,33 @@
       }
     },
     {
+      "lemma": "hope for",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "for"
+        ],
+        "pattern": "hope for [something]",
+        "level": "A1",
+        "definition": "To want something to happen and expect it.",
+        "grammar_rule": "Requires 'for' when followed by a noun.",
+        "noun_parallel": "",
+        "examples": [
+          "We hope for good weather.",
+          "I hope to see you soon."
+        ],
+        "common_mistake": "❌ We hope good weather. ➔ ✅ We hope for good weather.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "for",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "hurt",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -14216,6 +14515,60 @@
         ],
         "subgroup": "no_change",
         "vowel_pattern": "u-u-u"
+      }
+    },
+    {
+      "lemma": "identify with",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with"
+        ],
+        "pattern": "identify with [someone]",
+        "level": "A2",
+        "definition": "To feel a strong connection or affinity.",
+        "grammar_rule": "Requires 'with' when expressing empathy/connection.",
+        "noun_parallel": "",
+        "examples": [
+          "I identify with the main character.",
+          "Many people identify with this story."
+        ],
+        "common_mistake": "❌ I identify to this character. ➔ ✅ I identify with this character.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
+        "particle_count": 1
+      }
+    },
+    {
+      "lemma": "imagine",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "imagine [something]",
+        "level": "A1",
+        "definition": "To form a mental image or concept.",
+        "grammar_rule": "Direct transitive verb without preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "Imagine a world without war.",
+          "I can't imagine living there."
+        ],
+        "common_mistake": "❌ Imagine about a quiet place. ➔ ✅ Imagine a quiet place.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
       }
     },
     {
@@ -14903,6 +15256,33 @@
       }
     },
     {
+      "lemma": "like",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "like [someone / something]",
+        "level": "A1",
+        "definition": "To find agreeable or enjoyable.",
+        "grammar_rule": "Direct transitive verb without preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "I like chocolate ice cream.",
+          "Do you like classical music?"
+        ],
+        "common_mistake": "❌ I like to chocolate ice cream. ➔ ✅ I like chocolate ice cream.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "listen",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -14988,7 +15368,7 @@
           "I live in London with my family.",
           "She lives at 42 Park Street."
         ],
-        "common_mistake": "❌ I live to Rome. ➔ ✅ I live in Rome.",
+        "common_mistake": "❌ I live at London. ➔ ✅ I live in London.",
         "synonyms": [
           "reside in",
           "dwell in"
@@ -15332,6 +15712,33 @@
       }
     },
     {
+      "lemma": "love",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "love [someone / something]",
+        "level": "A1",
+        "definition": "To feel deep affection or strong liking.",
+        "grammar_rule": "Direct transitive verb without preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "I love my family.",
+          "She loves reading novels."
+        ],
+        "common_mistake": "❌ I love to my family. ➔ ✅ I love my family.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "make",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -15532,6 +15939,33 @@
       }
     },
     {
+      "lemma": "need",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "need [something / to do]",
+        "level": "A1",
+        "definition": "To require something essential.",
+        "grammar_rule": "Followed directly by noun or 'to' + infinitive.",
+        "noun_parallel": "",
+        "examples": [
+          "I need a glass of water.",
+          "We need to talk."
+        ],
+        "common_mistake": "❌ I need to a glass of water. ➔ ✅ I need a glass of water.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "obey",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -15620,6 +16054,33 @@
         ],
         "subgroup": "no_change",
         "vowel_pattern": "o-o-o"
+      }
+    },
+    {
+      "lemma": "open",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "open [door/window]",
+        "level": "A1",
+        "definition": "To move something so it is no longer closed.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Open the window, please.",
+          "She opened the door."
+        ],
+        "common_mistake": "❌ Open for the window. ➔ ✅ Open the window.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
       }
     },
     {
@@ -16206,6 +16667,33 @@
       }
     },
     {
+      "lemma": "prefer",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to"
+        ],
+        "pattern": "prefer [A] to [B]",
+        "level": "A1",
+        "definition": "To like one thing better than another.",
+        "grammar_rule": "Use 'to' between the preferred item and alternative.",
+        "noun_parallel": "",
+        "examples": [
+          "I prefer tea to coffee.",
+          "She prefers walking to driving."
+        ],
+        "common_mistake": "❌ I prefer tea than coffee. ➔ ✅ I prefer tea to coffee.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "to",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "prepare",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -16225,7 +16713,7 @@
           "Students are preparing for their final examinations.",
           "Chef prepared dinner for twenty guests."
         ],
-        "common_mistake": "❌ We must prepare to the interview. ➔ ✅ We must prepare for the interview.",
+        "common_mistake": "❌ Prepare to the test. ➔ ✅ Prepare for the test.",
         "synonyms": [
           "get ready for",
           "arrange"
@@ -16457,6 +16945,33 @@
       }
     },
     {
+      "lemma": "put on",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "put on [clothes/shoes]",
+        "level": "A1",
+        "definition": "To place clothes on one's body.",
+        "grammar_rule": "Phrasal verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Put on your coat.",
+          "She put on her glasses."
+        ],
+        "common_mistake": "❌ Put on to your coat. ➔ ✅ Put on your coat.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "put up with",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -16631,6 +17146,33 @@
       }
     },
     {
+      "lemma": "recognize",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "recognize [someone / something]",
+        "level": "A2",
+        "definition": "To identify from previous knowledge.",
+        "grammar_rule": "Direct transitive verb without preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "I recognized her instantly.",
+          "Do you recognize this song?"
+        ],
+        "common_mistake": "❌ I recognize to her. ➔ ✅ I recognize her.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "redo",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -16721,6 +17263,34 @@
       }
     },
     {
+      "lemma": "remain",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "in",
+          "at"
+        ],
+        "pattern": "remain in/at [place]",
+        "level": "A1",
+        "definition": "To stay in the same place or condition.",
+        "grammar_rule": "Formal synonym of stay; used with 'in' or 'at'.",
+        "noun_parallel": "",
+        "examples": [
+          "Please remain in your seats.",
+          "They remained at home."
+        ],
+        "common_mistake": "❌ Remain on your seats. ➔ ✅ Remain in your seats.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "in",
+        "particle_count": 2
+      }
+    },
+    {
       "lemma": "remake",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -16739,6 +17309,60 @@
         ],
         "subgroup": "base_past_past",
         "vowel_pattern": "e-e-e"
+      }
+    },
+    {
+      "lemma": "remember",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "about"
+        ],
+        "pattern": "remember [something / about something]",
+        "level": "A1",
+        "definition": "To bring to mind or retain in memory.",
+        "grammar_rule": "Can take a direct object or 'about'.",
+        "noun_parallel": "",
+        "examples": [
+          "I remember your name.",
+          "Remember about the meeting."
+        ],
+        "common_mistake": "❌ I remember about your name. ➔ ✅ I remember your name.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "about",
+        "particle_count": 1
+      }
+    },
+    {
+      "lemma": "repair",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "repair [object]",
+        "level": "A1",
+        "definition": "To fix or restore to good condition.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "He repaired his bicycle.",
+          "Can you repair this car?"
+        ],
+        "common_mistake": "❌ Repair to the bike. ➔ ✅ Repair the bike.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
       }
     },
     {
@@ -17286,6 +17910,34 @@
       }
     },
     {
+      "lemma": "seem",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to",
+          "like"
+        ],
+        "pattern": "seem to be / seem like [something]",
+        "level": "A1",
+        "definition": "To give the impression of being.",
+        "grammar_rule": "Often used with 'to' or 'like'.",
+        "noun_parallel": "",
+        "examples": [
+          "It seems to be true.",
+          "He seems like a nice person."
+        ],
+        "common_mistake": "❌ It seems like true. ➔ ✅ It seems to be true.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "to",
+        "particle_count": 2
+      }
+    },
+    {
       "lemma": "sell",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -17681,6 +18333,33 @@
         ],
         "subgroup": "base_past_past",
         "vowel_pattern": "i-a-a"
+      }
+    },
+    {
+      "lemma": "sit down",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "on"
+        ],
+        "pattern": "sit down on [chair/sofa]",
+        "level": "A1",
+        "definition": "To move into a sitting position.",
+        "grammar_rule": "Phrasal verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Sit down on the chair.",
+          "Please sit down."
+        ],
+        "common_mistake": "❌ Sit down in the chair. ➔ ✅ Sit down on the chair.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "on",
+        "particle_count": 1
       }
     },
     {
@@ -18205,6 +18884,33 @@
       }
     },
     {
+      "lemma": "stand up",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "from"
+        ],
+        "pattern": "stand up from [seat]",
+        "level": "A1",
+        "definition": "To rise to an upright position.",
+        "grammar_rule": "Phrasal verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Stand up when called.",
+          "He stood up from the sofa."
+        ],
+        "common_mistake": "❌ Stand up at the sofa. ➔ ✅ Stand up from the sofa.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "from",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "stand up for",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -18271,6 +18977,34 @@
         ],
         "preposition_structure": "single",
         "particle_count": 1
+      }
+    },
+    {
+      "lemma": "start",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with",
+          "by"
+        ],
+        "pattern": "start [work] with/by [action]",
+        "level": "A1",
+        "definition": "To begin an activity.",
+        "grammar_rule": "Followed by direct object or preposition.",
+        "noun_parallel": "",
+        "examples": [
+          "Let's start the lesson.",
+          "We start with a warm-up."
+        ],
+        "common_mistake": "❌ Start for reading. ➔ ✅ Start reading.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
+        "particle_count": 2
       }
     },
     {
@@ -18425,6 +19159,33 @@
         ],
         "subgroup": "i_a_u_ablaut",
         "vowel_pattern": "i-a-u"
+      }
+    },
+    {
+      "lemma": "stop",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "from"
+        ],
+        "pattern": "stop [action/someone]",
+        "level": "A1",
+        "definition": "To cease moving or operating.",
+        "grammar_rule": "Requires 'from' when preventing action.",
+        "noun_parallel": "",
+        "examples": [
+          "The bus stopped at the station.",
+          "Stop talking, please."
+        ],
+        "common_mistake": "❌ Stop to talk. ➔ ✅ Stop talking.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "from",
+        "particle_count": 1
       }
     },
     {
@@ -18969,7 +19730,7 @@
           "off"
         ],
         "pattern": "take off (plane/success - VI) / take off [clothing] (VT separable)",
-        "level": "A2",
+        "level": "A1",
         "definition": "To leave the ground (aircraft), become successful, or remove clothing.",
         "grammar_rule": "Intransitive for planes/success ('The plane took off'). Separable transitive for clothing ('take off your coat' / 'take it off').",
         "examples": [
@@ -18977,7 +19738,7 @@
           "Please take off your shoes before entering.",
           "It was hot, so he took it off."
         ],
-        "common_mistake": "❌ Take off it. ➔ ✅ Take it off.",
+        "common_mistake": "❌ Take off to your shoes. ➔ ✅ Take off your shoes.",
         "synonyms": [
           "remove",
           "depart",
@@ -19246,7 +20007,7 @@
           "I need some time to think about your offer.",
           "What are you thinking about so intently?"
         ],
-        "common_mistake": "❌ I am thinking to buy a house. ➔ ✅ I am thinking about buying a house.",
+        "common_mistake": "❌ I am thinking of my future plans. ➔ ✅ I am thinking about my future plans.",
         "synonyms": [
           "ponder",
           "consider",
@@ -19677,7 +20438,7 @@
           "I am waiting for the bus at the stop.",
           "She waited for her friend for thirty minutes."
         ],
-        "common_mistake": "❌ I am waiting my friend. ➔ ✅ I am waiting for my friend.",
+        "common_mistake": "❌ I wait the bus. ➔ ✅ I wait for the bus.",
         "synonyms": [
           "await"
         ],
@@ -19731,7 +20492,7 @@
           "I usually wake up at seven o'clock on weekdays.",
           "She woke up early to catch the morning train."
         ],
-        "common_mistake": "❌ I wake up in 7 o'clock. ➔ ✅ I wake up at 7 o'clock.",
+        "common_mistake": "❌ I wake up on 7 AM. ➔ ✅ I wake up at 7 AM.",
         "synonyms": [
           "awaken",
           "get up"
@@ -19780,6 +20541,33 @@
       }
     },
     {
+      "lemma": "want",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Transitive",
+        "transitivity_code": "VT",
+        "prepositions": [
+          "none"
+        ],
+        "pattern": "want [something / to do]",
+        "level": "A1",
+        "definition": "To feel a desire for something.",
+        "grammar_rule": "Followed by direct object or 'to' + infinitive.",
+        "noun_parallel": "",
+        "examples": [
+          "I want a new bicycle.",
+          "She wants to learn French."
+        ],
+        "common_mistake": "❌ I want for a coffee. ➔ ✅ I want a coffee.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "none",
+        "particle_count": 0
+      }
+    },
+    {
       "lemma": "warn",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -19811,6 +20599,33 @@
           "encourage danger"
         ],
         "preposition_structure": "single",
+        "particle_count": 1
+      }
+    },
+    {
+      "lemma": "wash",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "with"
+        ],
+        "pattern": "wash [hands/face] with [soap/water]",
+        "level": "A1",
+        "definition": "To clean with water/soap.",
+        "grammar_rule": "Direct transitive verb.",
+        "noun_parallel": "",
+        "examples": [
+          "Wash your hands before eating.",
+          "He washed with warm water."
+        ],
+        "common_mistake": "❌ Wash hands by soap. ➔ ✅ Wash hands with soap.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "with",
         "particle_count": 1
       }
     },

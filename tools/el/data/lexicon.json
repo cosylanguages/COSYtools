@@ -10970,6 +10970,31 @@
       }
     },
     {
+      "lemma": "αγαπώ",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "αγαπώ + αιτιατική",
+        "level": "A1",
+        "definition": "Νιώθω βαθιά αγάπη.",
+        "grammar_rule": "Άμεσο μεταβατικό ρήμα με αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Αγαπώ την οικογένειά μου.",
+          "Αγαπάει τα ζώα."
+        ],
+        "common_mistake": "Λάθος ➜ Αγαπώ την οικογένειά μου.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "αγοράζω",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -11654,6 +11679,31 @@
         "antonyms": [
           "αποδέχομαι"
         ]
+      }
+    },
+    {
+      "lemma": "αναγνωρίζω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "αναγνωρίζω + αιτιατική",
+        "level": "A2",
+        "definition": "Αναγνωρίζω κάποιον ή κάτι.",
+        "grammar_rule": "Άμεσο μεταβατικό ρήμα.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Αναγνώρισα τη φωνή του.",
+          "Τον αναγνωρίζεις;"
+        ],
+        "common_mistake": "Λάθος ➜ Αναγνώρισα τη φωνή του.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -12914,6 +12964,31 @@
       }
     },
     {
+      "lemma": "αποφασίζω για",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "για"
+          }
+        ],
+        "pattern": "αποφασίζω + για + αιτιατική",
+        "level": "A1",
+        "definition": "Παίρνω απόφαση για κάτι.",
+        "grammar_rule": "Συντάσσεται με 'για' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Αποφάσισα για το ταξίδι.",
+          "Αποφασίσαμε να φύγουμε."
+        ],
+        "common_mistake": "Λάθος ➜ Αποφάσισα για το ταξίδι.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "αποφεύγω",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",
@@ -13854,6 +13929,31 @@
       }
     },
     {
+      "lemma": "βουρτσίζω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "βουρτσίζω + αιτιατική",
+        "level": "A1",
+        "definition": "Καθαρίζω με βούρτσα.",
+        "grammar_rule": "Σύνταξη ρήματος.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Βουρτσίζω τα δόντια μου.",
+          "Βούρτσισε τα μαλλιά της."
+        ],
+        "common_mistake": "Λάθος ➜ Βουρτσίζω τα δόντια μου.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "βρίσκω",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -14263,6 +14363,31 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "γίνομαι",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "nominative",
+            "preposition": null
+          }
+        ],
+        "pattern": "γίνομαι + ονομαστική",
+        "level": "A1",
+        "definition": "Μεταβαίνω σε μια νέα κατάσταση.",
+        "grammar_rule": "Συνδετικό ρήμα που συντάσσεται με ονομαστική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Θέλει να γίνει γιατρός.",
+          "Ο καιρός έγινε κρύος."
+        ],
+        "common_mistake": "Λάθος ➜ Θέλει να γίνει γιατρός.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -16108,6 +16233,31 @@
       }
     },
     {
+      "lemma": "ελπίζω σε",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "σε"
+          }
+        ],
+        "pattern": "ελπίζω + σε + αιτιατική",
+        "level": "A1",
+        "definition": "Έχω ελπίδα για κάτι.",
+        "grammar_rule": "Συντάσσεται με 'σε' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Ελπίζω σε ένα καλύτερο μέλλον.",
+          "Ελπίζουμε να έρθεις."
+        ],
+        "common_mistake": "Λάθος ➜ Ελπίζω σε ένα καλύτερο μέλλον.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "εμπιστεύομαι",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",
@@ -16652,6 +16802,31 @@
       }
     },
     {
+      "lemma": "επιλέγω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "μεταξύ"
+          }
+        ],
+        "pattern": "επιλέγω + μεταξύ + γενική",
+        "level": "A1",
+        "definition": "Διαλέγω ανάμεσα σε επιλογές.",
+        "grammar_rule": "Συντάσσεται με 'μεταξύ' + γενική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Επιλέγω μεταξύ δύο λύσεων.",
+          "Επέλεξε ένα βιβλίο."
+        ],
+        "common_mistake": "Λάθος ➜ Επιλέγω μεταξύ δύο λύσεων.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "επιμένω",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -16743,6 +16918,31 @@
           ]
         },
         "irregular": false
+      }
+    },
+    {
+      "lemma": "επισκευάζω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "επισκευάζω + αιτιατική",
+        "level": "A1",
+        "definition": "Διορθώνω μια βλάβη.",
+        "grammar_rule": "Άμεσο μεταβατικό ρήμα.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Επισκευάζω το ποδήλατο.",
+          "Επισκεύασε το αυτοκίνητο."
+        ],
+        "common_mistake": "Λάθος ➜ Επισκευάζω το ποδήλατο.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -20260,6 +20460,31 @@
       }
     },
     {
+      "lemma": "μου αρέσει",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "dative",
+            "preposition": null
+          }
+        ],
+        "pattern": "μου αρέσει + ονομαστική",
+        "level": "A1",
+        "definition": "Είναι ευχάριστο σε μένα.",
+        "grammar_rule": "Σύνταξη με ασθενή τύπο προσωπικής αντωνυμίας.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Μου αρέσει το σοκολατένιο παγωτό.",
+          "Σου αρέσει η μουσική;"
+        ],
+        "common_mistake": "Λάθος ➜ Μου αρέσει το σοκολατένιο παγωτό.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "μπορώ",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -21045,6 +21270,31 @@
       }
     },
     {
+      "lemma": "ξυρίζομαι",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "με"
+          }
+        ],
+        "pattern": "ξυρίζομαι + με + αιτιατική",
+        "level": "A1",
+        "definition": "Κόβω τις τρίχες.",
+        "grammar_rule": "Σύνταξη ρήματος.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Ξυρίζεται κάθε πρωί.",
+          "Ξυρίστηκα με ξυράφι."
+        ],
+        "common_mistake": "Λάθος ➜ Ξυρίζεται κάθε πρωί.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "οδηγώ",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -21517,6 +21767,31 @@
       }
     },
     {
+      "lemma": "παραμένω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "σε"
+          }
+        ],
+        "pattern": "παραμένω + σε + αιτιατική",
+        "level": "A1",
+        "definition": "Παραμένω σε ένα μέρος.",
+        "grammar_rule": "Συντάσσεται με 'σε' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Μείναμε στο ξενοδοχείο.",
+          "Θα μείνω στο σπίτι."
+        ],
+        "common_mistake": "Λάθος ➜ Μείναμε στο ξενοδοχείο.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "παραμορφώνω",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",
@@ -21769,6 +22044,31 @@
         },
         "usage_hint": "πάω σε / στο / στη (+ αιτιατική)",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "πεθαίνω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "από"
+          }
+        ],
+        "pattern": "πεθαίνω + από + αιτιατική",
+        "level": "A1",
+        "definition": "Παύω να ζω.",
+        "grammar_rule": "Συντάσσεται με 'από' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Πέθανε από γηρατειά.",
+          "Τα φυτά πεθαίνουν από τη ζέστη."
+        ],
+        "common_mistake": "❌ Πεθαίνω από της ζέστης. ➜ ✅ Πεθαίνω από τη ζέστη.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -22738,6 +23038,31 @@
         },
         "usage_hint": "πιστεύω σε (+ αιτιατική) / ότι...",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "πιστεύω σε",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "σε"
+          }
+        ],
+        "pattern": "πιστεύω + σε + αιτιατική",
+        "level": "A1",
+        "definition": "Έχω εμπιστοσύνη ή πίστη.",
+        "grammar_rule": "Συντάσσεται με 'σε' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Πιστεύω σε σένα.",
+          "Πιστεύεις στα θαύματα;"
+        ],
+        "common_mistake": "Λάθος ➜ Πιστεύω σε σένα.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -23881,6 +24206,31 @@
       }
     },
     {
+      "lemma": "προτιμώ",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "από"
+          }
+        ],
+        "pattern": "προτιμώ + αιτιατική + από + αιτιατική",
+        "level": "A1",
+        "definition": "Έχω προτίμηση σε κάτι.",
+        "grammar_rule": "Συντάσσεται με 'από' για τη σύγκριση.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Προτιμώ το τσάι από τον καφέ.",
+          "Προτιμάει τη μουσική."
+        ],
+        "common_mistake": "Λάθος ➜ Προτιμώ το τσάι από τον καφέ.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "ρισκάρω",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",
@@ -24097,6 +24447,56 @@
         },
         "usage_hint": "σηκώνομαι από (κρεβάτι)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "σηκώνομαι όρθιος",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "από"
+          }
+        ],
+        "pattern": "σηκώνομαι όρθιος + από + αιτιατική",
+        "level": "A1",
+        "definition": "Σηκώνομαι στα πόδια μου.",
+        "grammar_rule": "Σύνταξη ρήματος.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Σηκώσου όρθιος.",
+          "Σηκώθηκε από τον καναπέ."
+        ],
+        "common_mistake": "Λάθος ➜ Σηκώσου όρθιος.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
+      "lemma": "σημαίνω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "σημαίνω + αιτιατική",
+        "level": "A1",
+        "definition": "Έχω τη σημασία του.",
+        "grammar_rule": "Άμεσο μεταβατικό ρήμα.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Τι σημαίνει αυτή η λέξη;",
+          "Αυτό σημαίνει πολλά."
+        ],
+        "common_mistake": "Λάθος ➜ Τι σημαίνει αυτή η λέξη;",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -25450,6 +25850,31 @@
       }
     },
     {
+      "lemma": "ταυτίζομαι με",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "με"
+          }
+        ],
+        "pattern": "ταυτίζομαι + με + αιτιατική",
+        "level": "A2",
+        "definition": "Αισθάνομαι ταύτιση.",
+        "grammar_rule": "Συντάσσεται με 'με' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Ταυτίζομαι με τον ήρωα.",
+          "Ταυτίζεται με τη μουσική."
+        ],
+        "common_mistake": "Λάθος ➜ Ταυτίζομαι με τον ήρωα.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "τελειώνω",
       "kind": "verbs",
       "source": "tools/el/klisi-rimaton/data/verbs.json",
@@ -25984,6 +26409,31 @@
       }
     },
     {
+      "lemma": "υπάρχω",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "σε"
+          }
+        ],
+        "pattern": "υπάρχω + σε + αιτιατική",
+        "level": "A1",
+        "definition": "Έχω πραγματική υπόσταση.",
+        "grammar_rule": "Αμετάβατο ρήμα με 'σε' + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Υπάρχει ελπίδα στην καρδιά μας.",
+          "Υπάρχουν πολλά προβλήματα."
+        ],
+        "common_mistake": "Λάθος ➜ Υπάρχει ελπίδα στην καρδιά μας.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "υπερασπίζομαι",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",
@@ -26166,6 +26616,56 @@
         "antonyms": [
           "αντιστέκομαι"
         ]
+      }
+    },
+    {
+      "lemma": "φαίνομαι",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "nominative",
+            "preposition": null
+          }
+        ],
+        "pattern": "φαίνομαι + ονομαστική",
+        "level": "A1",
+        "definition": "Δίνω την εντύπωση ότι είμαι.",
+        "grammar_rule": "Συνδετικό ρήμα που παίρνει ονομαστική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Φαίνεται κουρασμένος.",
+          "Αυτό φαίνεται σωστό."
+        ],
+        "common_mistake": "Λάθος ➜ Φαίνεται κουρασμένος.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
+      "lemma": "φαντάζομαι",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": null
+          }
+        ],
+        "pattern": "φαντάζομαι + αιτιατική",
+        "level": "A1",
+        "definition": "Πλάθω στο μυαλό μου.",
+        "grammar_rule": "Άμεσο μεταβατικό ρήμα.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Φαντάσου το μέλλον.",
+          "Δεν μπορώ να το φανταστώ."
+        ],
+        "common_mistake": "Λάθος ➜ Φαντάσου το μέλλον.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
