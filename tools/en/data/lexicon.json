@@ -9601,7 +9601,7 @@
           "disagree",
           "dissent"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -9724,7 +9724,7 @@
           "ask",
           "question"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -9757,7 +9757,7 @@
           "blame",
           "insist"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -9824,7 +9824,7 @@
           "withdraw",
           "cancel application"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -9947,7 +9947,7 @@
           "depart",
           "leave"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -10083,7 +10083,7 @@
           "answer",
           "reply"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -10382,7 +10382,7 @@
           "be out of place in",
           "mismatch"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -10948,7 +10948,7 @@
         "common_mistake": "❌ Brush teeth by a toothbrush. ➔ ✅ Brush teeth with a toothbrush.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -11136,7 +11136,7 @@
           "ignore",
           "disregard"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11162,7 +11162,7 @@
         "common_mistake": "❌ Carry this box in kitchen. ➔ ✅ Carry this box to the kitchen.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -11272,7 +11272,7 @@
         "antonyms": [
           "fall behind"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -11308,7 +11308,7 @@
           "neglect",
           "ignore"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11335,7 +11335,7 @@
         "common_mistake": "❌ Change into your mind. ➔ ✅ Change your mind.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "into",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -11370,7 +11370,7 @@
         "antonyms": [
           "check out"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11404,7 +11404,7 @@
         "antonyms": [
           "check in"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11452,7 +11452,7 @@
         "common_mistake": "❌ Clean to your room. ➔ ✅ Clean your room.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -11647,7 +11647,7 @@
           "go away",
           "leave"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11681,7 +11681,7 @@
         "antonyms": [
           "recover from"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -11708,7 +11708,7 @@
         "common_mistake": "❌ I come of Italy. ➔ ✅ I come from Italy.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "from",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -11743,7 +11743,7 @@
           "copy",
           "imitate"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -11779,7 +11779,7 @@
           "cooperate with",
           "collaborate with"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11814,7 +11814,7 @@
           "praise",
           "commend"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11921,7 +11921,7 @@
           "revoke from",
           "withhold from"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -11958,7 +11958,7 @@
           "deviate from",
           "rebel against"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12130,7 +12130,7 @@
           "disregard",
           "work independently of"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12299,7 +12299,7 @@
           "increase",
           "boost"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -12405,7 +12405,7 @@
         "common_mistake": "❌ Decide on to go home. ➔ ✅ Decide to go home.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "on",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -12441,7 +12441,7 @@
           "decide spontaneously",
           "ignore"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12476,7 +12476,7 @@
           "offer",
           "concede"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12510,7 +12510,7 @@
           "be independent of",
           "stand alone"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12609,7 +12609,7 @@
         "common_mistake": "❌ He died from old age. ➔ ✅ He died of old age.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "from",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -12698,7 +12698,7 @@
         "antonyms": [
           "treat equally"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -12879,7 +12879,7 @@
         "common_mistake": "❌ Get dressed by fast. ➔ ✅ Get dressed quickly.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "in",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -12956,7 +12956,7 @@
           "graduate",
           "complete"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13013,7 +13013,7 @@
           "move past",
           "forget"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -13103,7 +13103,7 @@
           "conclude",
           "terminate"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -13164,7 +13164,7 @@
         "common_mistake": "❌ Hope exists on everyone's heart. ➔ ✅ Hope exists in everyone's heart.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "in",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -13200,7 +13200,7 @@
           "dodge",
           "ignore"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13255,7 +13255,7 @@
           "make up with",
           "get along with"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13401,7 +13401,7 @@
         "common_mistake": "❌ Finish to working. ➔ ✅ Finish working.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -13743,7 +13743,7 @@
           "fall out with",
           "clash with"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13777,7 +13777,7 @@
           "pay for",
           "be punished for"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13811,7 +13811,7 @@
           "argue with",
           "clash with"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13846,7 +13846,7 @@
           "take on",
           "undertake"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -13914,7 +13914,7 @@
           "lie down",
           "go to bed"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -14063,7 +14063,7 @@
           "resist",
           "object to"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -14097,7 +14097,7 @@
         "antonyms": [
           "stay in"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -14159,7 +14159,7 @@
         "common_mistake": "❌ I go in school. ➔ ✅ I go to school.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -14436,7 +14436,7 @@
           "be independent of",
           "disregard"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -14572,7 +14572,7 @@
         "common_mistake": "❌ We hope good weather. ➔ ✅ We hope for good weather.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "for",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -14620,7 +14620,7 @@
         "common_mistake": "❌ I identify to this character. ➔ ✅ I identify with this character.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -14716,7 +14716,7 @@
           "respect",
           "leave unimpaired"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -14854,7 +14854,7 @@
           "respect",
           "uphold"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -14947,7 +14947,7 @@
           "assist",
           "facilitate"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -15033,7 +15033,7 @@
         "antonyms": [
           "fall behind"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -15457,7 +15457,7 @@
           "move away",
           "leave"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -15594,7 +15594,7 @@
           "stare at",
           "look at"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -15629,7 +15629,7 @@
           "look up to",
           "respect"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -15696,7 +15696,7 @@
         "antonyms": [
           "dread"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -15766,7 +15766,7 @@
           "look down on",
           "despise"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -16769,7 +16769,7 @@
         "common_mistake": "❌ I prefer tea than coffee. ➔ ✅ I prefer tea to coffee.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -16838,7 +16838,7 @@
           "succumb to",
           "yield to"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -16873,7 +16873,7 @@
         "antonyms": [
           "discourage from"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -16942,7 +16942,7 @@
           "expose to",
           "endanger"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -17083,7 +17083,7 @@
           "protest",
           "reject"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -17366,7 +17366,7 @@
         "common_mistake": "❌ Remain on your seats. ➔ ✅ Remain in your seats.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "in",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -17414,7 +17414,7 @@
         "common_mistake": "❌ I remember about your name. ➔ ✅ I remember your name.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "about",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -17477,7 +17477,7 @@
           "lead",
           "command"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -17735,7 +17735,7 @@
         "common_mistake": "❌ Return in office. ➔ ✅ Return to his office.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -17895,7 +17895,7 @@
           "replenish",
           "stock up on"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -18040,7 +18040,7 @@
         "common_mistake": "❌ It seems like true. ➔ ✅ It seems to be true.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -18298,7 +18298,7 @@
           "whisper to",
           "mutter to"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -18465,7 +18465,7 @@
         "common_mistake": "❌ Sit down in the chair. ➔ ✅ Sit down on the chair.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "on",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -18735,7 +18735,7 @@
         "common_mistake": "❌ Speak with to teacher. ➔ ✅ Speak to my teacher.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "to",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -19041,7 +19041,7 @@
         "common_mistake": "❌ Stand up at the sofa. ➔ ✅ Stand up from the sofa.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "from",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -19076,7 +19076,7 @@
           "abandon",
           "betray"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -19138,7 +19138,7 @@
         "common_mistake": "❌ Start for reading. ➔ ✅ Start reading.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "dual",
         "particle_count": 2
       }
     },
@@ -19173,7 +19173,7 @@
           "leave",
           "depart"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -19319,7 +19319,7 @@
         "common_mistake": "❌ Stop to talk. ➔ ✅ Stop talking.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "from",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -19550,7 +19550,7 @@
           "keep",
           "retain original"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -19847,7 +19847,7 @@
         "antonyms": [
           "neglect"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -19918,7 +19918,7 @@
           "be silent",
           "keep quiet"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -20636,7 +20636,7 @@
           "fall asleep",
           "go to sleep"
         ],
-        "preposition_structure": "verb_plus_dependent_prep",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -20671,7 +20671,7 @@
           "stand by",
           "support"
         ],
-        "preposition_structure": "double_phrasal",
+        "preposition_structure": "single",
         "particle_count": 2
       }
     },
@@ -20733,7 +20733,7 @@
           "reassure",
           "encourage danger"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },
@@ -20760,7 +20760,7 @@
         "common_mistake": "❌ Wash hands by soap. ➔ ✅ Wash hands with soap.",
         "synonyms": [],
         "antonyms": [],
-        "preposition_structure": "with",
+        "preposition_structure": "single",
         "particle_count": 1
       }
     },
@@ -20962,8 +20962,36 @@
           "be unemployed",
           "retire"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
+      }
+    },
+    {
+      "lemma": "work on",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "on",
+          "for"
+        ],
+        "pattern": "work on [project] / work for [company]",
+        "level": "A1",
+        "definition": "To engage in labor or effort.",
+        "grammar_rule": "Requires on for projects and for for employers.",
+        "noun_parallel": "",
+        "examples": [
+          "I am working on a new project.",
+          "She works for a company."
+        ],
+        "common_mistake": "❌ Work in a project. ➔ ✅ Work on a project.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "dual",
+        "particle_count": 2
       }
     },
     {
@@ -21034,7 +21062,7 @@
           "work against",
           "oppose"
         ],
-        "preposition_structure": "single",
+        "preposition_structure": "dual",
         "particle_count": 1
       }
     },

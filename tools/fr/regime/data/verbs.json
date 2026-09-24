@@ -4485,5 +4485,24 @@
     "common_mistake": "❌ Je parle avec à mon ami. ➜ ✅ Je parle à mon ami.",
     "synonyms": [],
     "antonyms": []
+  },
+  "travailler sur": {
+    "prepositions": [
+      "sur",
+      "pour"
+    ],
+    "pronominal": false,
+    "pattern": "travailler sur [projet] / pour [entreprise]",
+    "level": "A1",
+    "definition": "Exercer une activité professionnelle.",
+    "grammar_rule": "Utiliser sur pour un projet et pour pour un employeur.",
+    "noun_parallel": "",
+    "examples": [
+      "Je travaille sur un dossier.",
+      "Elle travaille pour une grande entreprise."
+    ],
+    "common_mistake": "❌ Travailler dans un projet. ➜ ✅ Travailler sur un projet.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

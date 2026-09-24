@@ -27845,6 +27845,31 @@
       }
     },
     {
+      "lemma": "lavorare su",
+      "kind": "verbs",
+      "source": "tools/it/reggenza/data/verbs.json",
+      "data": {
+        "word_type": "verb",
+        "prepositions": [
+          "su",
+          "per"
+        ],
+        "pronominal": false,
+        "pattern": "lavorare + su + [progetto] / per + [azienda]",
+        "level": "A1",
+        "definition": "Svolgere un'attività lavorativa.",
+        "grammar_rule": "Richiede su per i progetti e per per i datori di lavoro.",
+        "related_forms": "",
+        "examples": [
+          "Lavoro su un nuovo progetto.",
+          "Lavora per una ditta."
+        ],
+        "common_mistake": "❌ Lavorare in un progetto. ➜ ✅ Lavorare su un progetto.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "leggere",
       "kind": "verbs",
       "source": "tools/it/coniugatore/data/verbs.json",

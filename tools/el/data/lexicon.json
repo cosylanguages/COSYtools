@@ -15954,6 +15954,31 @@
       }
     },
     {
+      "lemma": "δουλεύω πάνω σε",
+      "kind": "verbs",
+      "source": "tools/el/syntaxi/data/verbs.json",
+      "data": {
+        "government": [
+          {
+            "case": "accusative",
+            "preposition": "σε"
+          }
+        ],
+        "pattern": "δουλεύω + πάνω σε + αιτιατική",
+        "level": "A1",
+        "definition": "Εργάζομαι.",
+        "grammar_rule": "Συντάσσεται με πάνω σε + αιτιατική.",
+        "linked_noun_keys": [],
+        "examples": [
+          "Δουλεύω πάνω σε ένα έργο.",
+          "Δουλεύει για μια εταιρεία."
+        ],
+        "common_mistake": "❌ Δουλεύω σε ένα έργο. ➜ ✅ Δουλεύω πάνω σε ένα έργο.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "εγγυώμαι",
       "kind": "verbs",
       "source": "tools/el/syntaxi/data/verbs.json",

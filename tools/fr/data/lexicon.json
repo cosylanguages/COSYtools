@@ -33286,6 +33286,30 @@
       }
     },
     {
+      "lemma": "travailler sur",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "sur",
+          "pour"
+        ],
+        "pronominal": false,
+        "pattern": "travailler sur [projet] / pour [entreprise]",
+        "level": "A1",
+        "definition": "Exercer une activité professionnelle.",
+        "grammar_rule": "Utiliser sur pour un projet et pour pour un employeur.",
+        "noun_parallel": "",
+        "examples": [
+          "Je travaille sur un dossier.",
+          "Elle travaille pour une grande entreprise."
+        ],
+        "common_mistake": "❌ Travailler dans un projet. ➜ ✅ Travailler sur un projet.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "traverser",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
