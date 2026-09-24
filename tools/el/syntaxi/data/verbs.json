@@ -5180,5 +5180,24 @@
     "common_mistake": "❌ Δουλεύω σε ένα έργο. ➜ ✅ Δουλεύω πάνω σε ένα έργο.",
     "synonyms": [],
     "antonyms": []
+  },
+  "ταξιδεύω σε": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "ταξιδεύω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Πηγαίνω ταξίδι.",
+    "grammar_rule": "Συντάσσεται με σε + αιτιατική.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Ταξιδεύω στην Ελλάδα."
+    ],
+    "common_mistake": "❌ Ταξιδεύω για Ελλάδα. ➜ ✅ Ταξιδεύω στην Ελλάδα.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

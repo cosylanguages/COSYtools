@@ -4504,5 +4504,23 @@
     "common_mistake": "❌ Travailler dans un projet. ➜ ✅ Travailler sur un projet.",
     "synonyms": [],
     "antonyms": []
+  },
+  "voyager à": {
+    "prepositions": [
+      "à",
+      "vers"
+    ],
+    "pronominal": false,
+    "pattern": "voyager à / vers + [lieu]",
+    "level": "A1",
+    "definition": "Effectuer un voyage.",
+    "grammar_rule": "Utiliser à ou vers pour la destination.",
+    "noun_parallel": "",
+    "examples": [
+      "Je voyage en France."
+    ],
+    "common_mistake": "❌ Voyager dans France. ➜ ✅ Voyager en France.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

@@ -34804,6 +34804,29 @@
         "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
         "irregular": false
       }
+    },
+    {
+      "lemma": "voyager à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "vers"
+        ],
+        "pronominal": false,
+        "pattern": "voyager à / vers + [lieu]",
+        "level": "A1",
+        "definition": "Effectuer un voyage.",
+        "grammar_rule": "Utiliser à ou vers pour la destination.",
+        "noun_parallel": "",
+        "examples": [
+          "Je voyage en France."
+        ],
+        "common_mistake": "❌ Voyager dans France. ➜ ✅ Voyager en France.",
+        "synonyms": [],
+        "antonyms": []
+      }
     }
   ]
 }

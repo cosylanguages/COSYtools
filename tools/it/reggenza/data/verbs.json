@@ -4744,5 +4744,24 @@
     "common_mistake": "❌ Lavorare in un progetto. ➜ ✅ Lavorare su un progetto.",
     "synonyms": [],
     "antonyms": []
+  },
+  "viaggiare verso": {
+    "word_type": "verb",
+    "prepositions": [
+      "verso",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "viaggiare + verso/in + [luogo]",
+    "level": "A1",
+    "definition": "Fare un viaggio.",
+    "grammar_rule": "Usato con verso o in.",
+    "related_forms": "",
+    "examples": [
+      "Viaggio in Italia."
+    ],
+    "common_mistake": "❌ Viaggiare a Italia. ➜ ✅ Viaggiare in Italia.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

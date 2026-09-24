@@ -20233,6 +20233,32 @@
       }
     },
     {
+      "lemma": "travel to",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to"
+        ],
+        "pattern": "travel to + [place]",
+        "level": "A1",
+        "definition": "To journey to a destination.",
+        "grammar_rule": "Requires to before destination.",
+        "noun_parallel": "",
+        "examples": [
+          "I travel to France every summer."
+        ],
+        "common_mistake": "❌ Travel in France. ➔ ✅ Travel to France.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "single",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "tread",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
