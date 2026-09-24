@@ -5363,7 +5363,7 @@
       "at"
     ],
     "pattern": "arrive at [building / station / conclusion]",
-    "level": "A2",
+    "level": "A1",
     "definition": "To reach a specific building, station, or decision point.",
     "grammar_rule": "Use 'arrive at' for specific locations, buildings, airports, or conclusions. NEVER 'to'!",
     "examples": [
@@ -6497,6 +6497,50 @@
     "synonyms": [],
     "antonyms": [],
     "preposition_structure": "into",
+    "particle_count": 1
+  },
+  "go to": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "go to + [place]",
+    "level": "A1",
+    "definition": "To move or travel to a destination.",
+    "grammar_rule": "Requires 'to' before destinations.",
+    "noun_parallel": "",
+    "examples": [
+      "I go to school by bus.",
+      "Let's go to the beach."
+    ],
+    "common_mistake": "❌ I go in school. ➔ ✅ I go to school.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "to",
+    "particle_count": 1
+  },
+  "come from": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "come from + [place]",
+    "level": "A1",
+    "definition": "To originate or travel from a place.",
+    "grammar_rule": "Requires 'from' before origin.",
+    "noun_parallel": "",
+    "examples": [
+      "Where do you come from?",
+      "He comes from Italy."
+    ],
+    "common_mistake": "❌ I come of Italy. ➔ ✅ I come from Italy.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "from",
     "particle_count": 1
   }
 }

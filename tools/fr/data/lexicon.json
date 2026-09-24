@@ -7661,7 +7661,7 @@
           "J'aime bien ce film.",
           "Elle aime bien le chocolat."
         ],
-        "common_mistake": "Usage incorrect ➜ J'aime bien ce film.",
+        "common_mistake": "❌ J'aime bien de ce film. ➜ ✅ J'aime bien ce film.",
         "synonyms": [],
         "antonyms": []
       }
@@ -7878,6 +7878,29 @@
         },
         "usage_hint": "aller à (ville/lieu) / en / chez (qqn)",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "aller à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à"
+        ],
+        "pronominal": false,
+        "pattern": "aller à + [lieu]",
+        "level": "A1",
+        "definition": "Se déplacer vers un endroit.",
+        "grammar_rule": "Contraction obligatoire: à + le = au.",
+        "noun_parallel": "",
+        "examples": [
+          "Je vais au cinéma.",
+          "Elle va à la banque."
+        ],
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -8112,7 +8135,7 @@
           "Ce livre appartient à Pierre.",
           "La maison appartient à la famille."
         ],
-        "common_mistake": "Usage incorrect ➜ Ce livre appartient à Pierre.",
+        "common_mistake": "❌ Ce livre appartient Pierre. ➜ ✅ Ce livre appartient à Pierre.",
         "synonyms": [],
         "antonyms": []
       }
@@ -8761,6 +8784,30 @@
       }
     },
     {
+      "lemma": "arriver à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "en"
+        ],
+        "pronominal": false,
+        "pattern": "arriver à / en + [lieu]",
+        "level": "A1",
+        "definition": "Atteindre une destination.",
+        "grammar_rule": "Utiliser 'à' pour les villes et 'en' pour les pays féminins.",
+        "noun_parallel": "",
+        "examples": [
+          "J'arrive à la gare.",
+          "Nous arrivons en France."
+        ],
+        "common_mistake": "❌ Arriver dans la gare. ➜ ✅ Arriver à la gare.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "aspirer",
       "kind": "verbs",
       "source": "tools/fr/regime/data/verbs.json",
@@ -9210,7 +9257,7 @@
           "J'ai besoin d'eau.",
           "Nous avons besoin de partir."
         ],
-        "common_mistake": "Usage incorrect ➜ J'ai besoin d'eau.",
+        "common_mistake": "❌ J'ai besoin eau. ➜ ✅ J'ai besoin d'eau.",
         "synonyms": [],
         "antonyms": []
       }
@@ -9776,7 +9823,7 @@
           "Je me brosse les dents.",
           "Elle se brosse les cheveux."
         ],
-        "common_mistake": "Usage incorrect ➜ Je me brosse les dents.",
+        "common_mistake": "❌ Je me brosse de les dents. ➜ ✅ Je me brosse les dents.",
         "synonyms": [],
         "antonyms": []
       }
@@ -10334,7 +10381,7 @@
           "Je change de vêtements.",
           "Changer d'avis."
         ],
-        "common_mistake": "Usage incorrect ➜ Je change de vêtements.",
+        "common_mistake": "❌ Je change les vêtements. ➜ ✅ Je change de vêtements.",
         "synonyms": [],
         "antonyms": []
       }
@@ -10999,7 +11046,7 @@
           "Il commence à pleuvoir sur la ville.",
           "Nous commençons au début du chapitre."
         ],
-        "common_mistake": "❌ Elle commence de parler français. ➜ ✅ Elle commence à parler français.",
+        "common_mistake": "❌ Nous commençons de lire. ➜ ✅ Nous commençons à lire.",
         "synonyms": [
           "débuter",
           "entamer"
@@ -12775,7 +12822,7 @@
           "Je crois en toi.",
           "Elle croit aux miracles."
         ],
-        "common_mistake": "Usage incorrect ➜ Je crois en toi.",
+        "common_mistake": "❌ Je crois à toi. ➜ ✅ Je crois en toi.",
         "synonyms": [],
         "antonyms": []
       }
@@ -13117,7 +13164,7 @@
           "Il a décidé de partir.",
           "Nous décidons de la suite."
         ],
-        "common_mistake": "Usage incorrect ➜ Il a décidé de partir.",
+        "common_mistake": "❌ Il a décidé pour partir. ➜ ✅ Il a décidé de partir.",
         "synonyms": [],
         "antonyms": []
       }
@@ -13705,7 +13752,7 @@
           "Il demeure à Paris.",
           "Seul le souvenir demeure."
         ],
-        "common_mistake": "Usage incorrect ➜ Il demeure à Paris.",
+        "common_mistake": "❌ Il demeure sur Paris. ➜ ✅ Il demeure à Paris.",
         "synonyms": [],
         "antonyms": []
       }
@@ -14085,7 +14132,7 @@
           "Je déteste attendre sous la pluie.",
           "Il déteste les embouteillages du matin."
         ],
-        "common_mistake": "❌ Je déteste de faire la vaisselle. ➜ ✅ Je déteste faire la vaisselle.",
+        "common_mistake": "❌ Je déteste de le froid. ➜ ✅ Je déteste le froid.",
         "synonyms": [
           "haïr",
           "excéder"
@@ -14221,7 +14268,7 @@
           "Il est devenu médecin.",
           "Le temps devient froid."
         ],
-        "common_mistake": "Usage incorrect ➜ Il est devenu médecin.",
+        "common_mistake": "❌ Il est devenu à médecin. ➜ ✅ Il est devenu médecin.",
         "synonyms": [],
         "antonyms": []
       }
@@ -15850,7 +15897,7 @@
           "Enlève tes chaussures.",
           "Il a enlevé sa veste."
         ],
-        "common_mistake": "Usage incorrect ➜ Enlève tes chaussures.",
+        "common_mistake": "❌ Enlève de tes chaussures. ➜ ✅ Enlève tes chaussures.",
         "synonyms": [],
         "antonyms": []
       }
@@ -17185,7 +17232,7 @@
           "Ce problème existe dans tous les pays.",
           "La possibilité existe."
         ],
-        "common_mistake": "Usage incorrect ➜ Ce problème existe dans tous les pays.",
+        "common_mistake": "❌ Ce problème existe sur tous les pays. ➜ ✅ Ce problème existe dans tous les pays.",
         "synonyms": [],
         "antonyms": []
       }
@@ -23878,7 +23925,7 @@
           "Je pense à mes vacances.",
           "Que penses-tu de ce film ?"
         ],
-        "common_mistake": "Usage incorrect ➜ Je pense à mes vacances.",
+        "common_mistake": "❌ Je pense de mes vacances. ➜ ✅ Je pense à mes vacances.",
         "synonyms": [],
         "antonyms": []
       }
@@ -26216,7 +26263,7 @@
           "Je l'ai reconnu tout de suite.",
           "Elle reconnaît cette voix."
         ],
-        "common_mistake": "Usage incorrect ➜ Je l'ai reconnu tout de suite.",
+        "common_mistake": "❌ Je l'ai reconnu à tout de suite. ➜ ✅ Je l'ai reconnu tout de suite.",
         "synonyms": [],
         "antonyms": []
       }
@@ -28787,7 +28834,7 @@
           "Asseyez-vous sur cette chaise.",
           "Je m'assois ici."
         ],
-        "common_mistake": "Usage incorrect ➜ Asseyez-vous sur cette chaise.",
+        "common_mistake": "❌ Asseyez-vous à cette chaise. ➜ ✅ Asseyez-vous sur cette chaise.",
         "synonyms": [],
         "antonyms": []
       }
@@ -29310,7 +29357,7 @@
           "Je m'habille pour sortir.",
           "Elle s'habille toujours bien."
         ],
-        "common_mistake": "Usage incorrect ➜ Je m'habille pour sortir.",
+        "common_mistake": "❌ Je m'habille de pour sortir. ➜ ✅ Je m'habille pour sortir.",
         "synonyms": [],
         "antonyms": []
       }
@@ -29361,7 +29408,7 @@
           "Je m'identifie à ce personnage.",
           "Elle s'identifie à son héros."
         ],
-        "common_mistake": "Usage incorrect ➜ Je m'identifie à ce personnage.",
+        "common_mistake": "❌ Je m'identifie de ce personnage. ➜ ✅ Je m'identifie à ce personnage.",
         "synonyms": [],
         "antonyms": []
       }
@@ -30353,7 +30400,7 @@
           "Il faut se laver les mains avant de manger.",
           "Elle se lave les cheveux tous les deux jours."
         ],
-        "common_mistake": "❌ Elle se lave de ses mains. ➜ ✅ Elle se lave les mains.",
+        "common_mistake": "❌ Je me lave de les mains. ➜ ✅ Je me lave les mains.",
         "synonyms": [
           "se nettoyer",
           "se faire la toilette"
@@ -30381,7 +30428,7 @@
           "Je me lève à six heures du matin en semaine.",
           "Elle se lève doucement de sa chaise."
         ],
-        "common_mistake": "❌ Je me lève dans sept heures. ➜ ✅ Je me lève à sept heures.",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
         "synonyms": [
           "s'éveiller",
           "se mettre debout"
@@ -30686,7 +30733,7 @@
           "Il se rase tous les matins.",
           "Je me rase avec un rasoir."
         ],
-        "common_mistake": "Usage incorrect ➜ Il se rase tous les matins.",
+        "common_mistake": "❌ Il se rase de tous les matins. ➜ ✅ Il se rase tous les matins.",
         "synonyms": [],
         "antonyms": []
       }
@@ -30823,7 +30870,7 @@
           "Je me réveille à sept heures.",
           "Il se réveille tôt."
         ],
-        "common_mistake": "Usage incorrect ➜ Je me réveille à sept heures.",
+        "common_mistake": "❌ Je me réveille dans sept heures. ➜ ✅ Je me réveille à sept heures.",
         "synonyms": [],
         "antonyms": []
       }
@@ -30846,7 +30893,7 @@
           "Je me sens bien.",
           "Elle se sent fatiguée."
         ],
-        "common_mistake": "Usage incorrect ➜ Je me sens bien.",
+        "common_mistake": "❌ Je me sens de bien. ➜ ✅ Je me sens bien.",
         "synonyms": [],
         "antonyms": []
       }
@@ -33913,6 +33960,29 @@
       }
     },
     {
+      "lemma": "venir de",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "venir de + [lieu]",
+        "level": "A1",
+        "definition": "Provenir d'un lieu.",
+        "grammar_rule": "Contraction obligatoire: de + le = du.",
+        "noun_parallel": "",
+        "examples": [
+          "Je viens du Canada.",
+          "Elle vient de Paris."
+        ],
+        "common_mistake": "❌ Je viens de le Canada. ➜ ✅ Je viens du Canada.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "vieillir",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -34574,7 +34644,7 @@
           "Que veut dire ce mot ?",
           "Je voulais dire autre chose."
         ],
-        "common_mistake": "Usage incorrect ➜ Que veut dire ce mot ?",
+        "common_mistake": "❌ Que veut dire de ce mot ? ➜ ✅ Que veut dire ce mot ?",
         "synonyms": [],
         "antonyms": []
       }
