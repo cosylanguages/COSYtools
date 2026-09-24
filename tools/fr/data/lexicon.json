@@ -7644,6 +7644,29 @@
       }
     },
     {
+      "lemma": "aimer bien",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "aimer bien [quelqu'un / quelque chose]",
+        "level": "A1",
+        "definition": "Trouver agréable.",
+        "grammar_rule": "Verbe transitif direct.",
+        "noun_parallel": "",
+        "examples": [
+          "J'aime bien ce film.",
+          "Elle aime bien le chocolat."
+        ],
+        "common_mistake": "❌ J'aime bien de ce film. ➜ ✅ J'aime bien ce film.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "ajouter",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -7858,6 +7881,29 @@
       }
     },
     {
+      "lemma": "aller à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à"
+        ],
+        "pronominal": false,
+        "pattern": "aller à + [lieu]",
+        "level": "A1",
+        "definition": "Se déplacer vers un endroit.",
+        "grammar_rule": "Contraction obligatoire: à + le = au.",
+        "noun_parallel": "",
+        "examples": [
+          "Je vais au cinéma.",
+          "Elle va à la banque."
+        ],
+        "common_mistake": "❌ Je vais en le cinéma. ➜ ✅ Je vais au cinéma.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "allumer",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -8069,6 +8115,29 @@
         },
         "usage_hint": "+ COD / s'amuser avec",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "appartenir à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à"
+        ],
+        "pronominal": false,
+        "pattern": "appartenir à [quelqu'un]",
+        "level": "A1",
+        "definition": "Être la propriété de quelqu'un.",
+        "grammar_rule": "Régime prépositionnel 'à' obligatoire.",
+        "noun_parallel": "",
+        "examples": [
+          "Ce livre appartient à Pierre.",
+          "La maison appartient à la famille."
+        ],
+        "common_mistake": "❌ Ce livre appartient Pierre. ➜ ✅ Ce livre appartient à Pierre.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -8715,6 +8784,30 @@
       }
     },
     {
+      "lemma": "arriver à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "en"
+        ],
+        "pronominal": false,
+        "pattern": "arriver à / en + [lieu]",
+        "level": "A1",
+        "definition": "Atteindre une destination.",
+        "grammar_rule": "Utiliser 'à' pour les villes et 'en' pour les pays féminins.",
+        "noun_parallel": "",
+        "examples": [
+          "J'arrive à la gare.",
+          "Nous arrivons en France."
+        ],
+        "common_mistake": "❌ Arriver dans la gare. ➜ ✅ Arriver à la gare.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "aspirer",
       "kind": "verbs",
       "source": "tools/fr/regime/data/verbs.json",
@@ -9144,6 +9237,29 @@
         "antonyms": [
           "se passer de"
         ]
+      }
+    },
+    {
+      "lemma": "avoir besoin de",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "avoir besoin de [quelque chose / verbe]",
+        "level": "A1",
+        "definition": "Manquer de quelque chose d'essentiel.",
+        "grammar_rule": "Régime prépositionnel 'de' obligatoire.",
+        "noun_parallel": "",
+        "examples": [
+          "J'ai besoin d'eau.",
+          "Nous avons besoin de partir."
+        ],
+        "common_mistake": "❌ J'ai besoin eau. ➜ ✅ J'ai besoin d'eau.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -9690,6 +9806,29 @@
       }
     },
     {
+      "lemma": "brosser",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "avec"
+        ],
+        "pronominal": false,
+        "pattern": "se brosser [les dents/les cheveux]",
+        "level": "A1",
+        "definition": "Nettoyer ou coiffer avec une brosse.",
+        "grammar_rule": "Régime prépositionnel usuel.",
+        "noun_parallel": "",
+        "examples": [
+          "Je me brosse les dents.",
+          "Elle se brosse les cheveux."
+        ],
+        "common_mistake": "❌ Je me brosse de les dents. ➜ ✅ Je me brosse les dents.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "brûler",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -10222,6 +10361,29 @@
         },
         "usage_hint": "changer de (train/avis) / + COD",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "changer de",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "changer de [vêtement]",
+        "level": "A1",
+        "definition": "Rendre différent ou remplacer.",
+        "grammar_rule": "Régime prépositionnel 'de'.",
+        "noun_parallel": "",
+        "examples": [
+          "Je change de vêtements.",
+          "Changer d'avis."
+        ],
+        "common_mistake": "❌ Je change les vêtements. ➜ ✅ Je change de vêtements.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -10884,7 +11046,7 @@
           "Il commence à pleuvoir sur la ville.",
           "Nous commençons au début du chapitre."
         ],
-        "common_mistake": "❌ Elle commence de parler français. ➜ ✅ Elle commence à parler français.",
+        "common_mistake": "❌ Nous commençons de lire. ➜ ✅ Nous commençons à lire.",
         "synonyms": [
           "débuter",
           "entamer"
@@ -12642,6 +12804,30 @@
       }
     },
     {
+      "lemma": "croire en",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "en",
+          "à"
+        ],
+        "pronominal": false,
+        "pattern": "croire en / à [quelque chose]",
+        "level": "A1",
+        "definition": "Avoir la foi ou faire confiance.",
+        "grammar_rule": "Utiliser 'en' pour les valeurs/personnes et 'à' pour les concepts.",
+        "noun_parallel": "",
+        "examples": [
+          "Je crois en toi.",
+          "Elle croit aux miracles."
+        ],
+        "common_mistake": "❌ Je crois à toi. ➜ ✅ Je crois en toi.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "cuisiner",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -12958,6 +13144,29 @@
         },
         "usage_hint": "décider de (faire qqch)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "décider de",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "décider de [quelque chose / infinitif]",
+        "level": "A1",
+        "definition": "Prendre une décision.",
+        "grammar_rule": "Régime prépositionnel 'de' obligatoire.",
+        "noun_parallel": "",
+        "examples": [
+          "Il a décidé de partir.",
+          "Nous décidons de la suite."
+        ],
+        "common_mistake": "❌ Il a décidé pour partir. ➜ ✅ Il a décidé de partir.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -13525,6 +13734,30 @@
       }
     },
     {
+      "lemma": "demeurer",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "dans"
+        ],
+        "pronominal": false,
+        "pattern": "demeurer à / dans [lieu]",
+        "level": "A1",
+        "definition": "Rester dans le même lieu.",
+        "grammar_rule": "Usage soutenu de rester; s'utilise avec 'à' ou 'dans'.",
+        "noun_parallel": "",
+        "examples": [
+          "Il demeure à Paris.",
+          "Seul le souvenir demeure."
+        ],
+        "common_mistake": "❌ Il demeure sur Paris. ➜ ✅ Il demeure à Paris.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "démissionner",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -13899,7 +14132,7 @@
           "Je déteste attendre sous la pluie.",
           "Il déteste les embouteillages du matin."
         ],
-        "common_mistake": "❌ Je déteste de faire la vaisselle. ➜ ✅ Je déteste faire la vaisselle.",
+        "common_mistake": "❌ Je déteste de le froid. ➜ ✅ Je déteste le froid.",
         "synonyms": [
           "haïr",
           "excéder"
@@ -14015,6 +14248,29 @@
         },
         "usage_hint": "+ COD (détruire un bâtiment)",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "devenir",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "devenir [quelque chose]",
+        "level": "A1",
+        "definition": "Passer d'un état à un autre.",
+        "grammar_rule": "Verbe d'état suivi directement du nom/adjectif.",
+        "noun_parallel": "",
+        "examples": [
+          "Il est devenu médecin.",
+          "Le temps devient froid."
+        ],
+        "common_mistake": "❌ Il est devenu à médecin. ➜ ✅ Il est devenu médecin.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -15624,6 +15880,29 @@
       }
     },
     {
+      "lemma": "enlever",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "enlever [un vêtement]",
+        "level": "A1",
+        "definition": "Ôter un vêtement.",
+        "grammar_rule": "Régime prépositionnel usuel.",
+        "noun_parallel": "",
+        "examples": [
+          "Enlève tes chaussures.",
+          "Il a enlevé sa veste."
+        ],
+        "common_mistake": "❌ Enlève de tes chaussures. ➜ ✅ Enlève tes chaussures.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "enseigner",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -16933,6 +17212,29 @@
         },
         "usage_hint": "éviter + COD / de (faire qqch)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "exister",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "dans"
+        ],
+        "pronominal": false,
+        "pattern": "exister [dans un lieu]",
+        "level": "A1",
+        "definition": "Avoir une réalité, être réel.",
+        "grammar_rule": "Verbe intransitif employé avec 'dans'.",
+        "noun_parallel": "",
+        "examples": [
+          "Ce problème existe dans tous les pays.",
+          "La possibilité existe."
+        ],
+        "common_mistake": "❌ Ce problème existe sur tous les pays. ➜ ✅ Ce problème existe dans tous les pays.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -23031,6 +23333,30 @@
       }
     },
     {
+      "lemma": "parler à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "avec"
+        ],
+        "pronominal": false,
+        "pattern": "parler à [quelqu'un]",
+        "level": "A1",
+        "definition": "S'exprimer par la parole.",
+        "grammar_rule": "Régime prépositionnel à.",
+        "noun_parallel": "",
+        "examples": [
+          "Je parle à mon ami.",
+          "Elle parle français."
+        ],
+        "common_mistake": "❌ Je parle avec à mon ami. ➜ ✅ Je parle à mon ami.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "partager",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -23602,6 +23928,30 @@
         },
         "usage_hint": "penser à (qqch/qqn) / penser de (opinion)",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "penser à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "penser à / de [quelqu'un / quelque chose]",
+        "level": "A1",
+        "definition": "Avoir à l'esprit ou donner un avis.",
+        "grammar_rule": "Utiliser 'à' pour l'attention et 'de' pour l'opinion.",
+        "noun_parallel": "",
+        "examples": [
+          "Je pense à mes vacances.",
+          "Que penses-tu de ce film ?"
+        ],
+        "common_mistake": "❌ Je pense de mes vacances. ➜ ✅ Je pense à mes vacances.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -25917,6 +26267,29 @@
         },
         "usage_hint": "recevoir (qqch) de (qqn)",
         "irregular": true
+      }
+    },
+    {
+      "lemma": "reconnaître",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "reconnaître [quelqu'un / quelque chose]",
+        "level": "A2",
+        "definition": "Identifier quelqu'un ou quelque chose.",
+        "grammar_rule": "Verbe transitif direct.",
+        "noun_parallel": "",
+        "examples": [
+          "Je l'ai reconnu tout de suite.",
+          "Elle reconnaît cette voix."
+        ],
+        "common_mistake": "❌ Je l'ai reconnu à tout de suite. ➜ ✅ Je l'ai reconnu tout de suite.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -28468,6 +28841,29 @@
       }
     },
     {
+      "lemma": "s'asseoir",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "sur"
+        ],
+        "pronominal": true,
+        "pattern": "s'asseoir [sur une chaise]",
+        "level": "A1",
+        "definition": "Se placer sur un siège.",
+        "grammar_rule": "Régime prépositionnel usuel.",
+        "noun_parallel": "",
+        "examples": [
+          "Asseyez-vous sur cette chaise.",
+          "Je m'assois ici."
+        ],
+        "common_mistake": "❌ Asseyez-vous à cette chaise. ➜ ✅ Asseyez-vous sur cette chaise.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "s'associer",
       "kind": "verbs",
       "source": "tools/fr/regime/data/verbs.json",
@@ -28968,6 +29364,29 @@
       }
     },
     {
+      "lemma": "s'habiller",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": true,
+        "pattern": "s'habiller [de/en vêtements]",
+        "level": "A1",
+        "definition": "Mettre des vêtements.",
+        "grammar_rule": "Régime prépositionnel usuel.",
+        "noun_parallel": "",
+        "examples": [
+          "Je m'habille pour sortir.",
+          "Elle s'habille toujours bien."
+        ],
+        "common_mistake": "❌ Je m'habille de pour sortir. ➜ ✅ Je m'habille pour sortir.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "s'habituer",
       "kind": "verbs",
       "source": "tools/fr/regime/data/verbs.json",
@@ -28993,6 +29412,29 @@
         "antonyms": [
           "se déshabituer de"
         ]
+      }
+    },
+    {
+      "lemma": "s'identifier à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à"
+        ],
+        "pronominal": true,
+        "pattern": "s'identifier à [quelqu'un]",
+        "level": "A2",
+        "definition": "Ressentir une affinité profonde.",
+        "grammar_rule": "Régime pronominal prépositionnel 'à'.",
+        "noun_parallel": "",
+        "examples": [
+          "Je m'identifie à ce personnage.",
+          "Elle s'identifie à son héros."
+        ],
+        "common_mistake": "❌ Je m'identifie de ce personnage. ➜ ✅ Je m'identifie à ce personnage.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -29982,7 +30424,7 @@
           "Il faut se laver les mains avant de manger.",
           "Elle se lave les cheveux tous les deux jours."
         ],
-        "common_mistake": "❌ Elle se lave de ses mains. ➜ ✅ Elle se lave les mains.",
+        "common_mistake": "❌ Je me lave de les mains. ➜ ✅ Je me lave les mains.",
         "synonyms": [
           "se nettoyer",
           "se faire la toilette"
@@ -30010,7 +30452,7 @@
           "Je me lève à six heures du matin en semaine.",
           "Elle se lève doucement de sa chaise."
         ],
-        "common_mistake": "❌ Je me lève dans sept heures. ➜ ✅ Je me lève à sept heures.",
+        "common_mistake": "❌ Je me lève à tôt. ➜ ✅ Je me lève tôt.",
         "synonyms": [
           "s'éveiller",
           "se mettre debout"
@@ -30298,6 +30740,29 @@
       }
     },
     {
+      "lemma": "se raser",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "avec"
+        ],
+        "pronominal": true,
+        "pattern": "se raser [le visage]",
+        "level": "A1",
+        "definition": "Couper le poil au ras de la peau.",
+        "grammar_rule": "Régime prépositionnel usuel.",
+        "noun_parallel": "",
+        "examples": [
+          "Il se rase tous les matins.",
+          "Je me rase avec un rasoir."
+        ],
+        "common_mistake": "❌ Il se rase de tous les matins. ➜ ✅ Il se rase tous les matins.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "se raviser",
       "kind": "verbs",
       "source": "tools/fr/regime/data/verbs.json",
@@ -30409,6 +30874,52 @@
           "ignorer",
           "méconnaître"
         ]
+      }
+    },
+    {
+      "lemma": "se réveiller",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à"
+        ],
+        "pronominal": true,
+        "pattern": "se réveiller [à heure]",
+        "level": "A1",
+        "definition": "Cesser de dormir.",
+        "grammar_rule": "Verbe pronominal.",
+        "noun_parallel": "",
+        "examples": [
+          "Je me réveille à sept heures.",
+          "Il se réveille tôt."
+        ],
+        "common_mistake": "❌ Je me réveille dans sept heures. ➜ ✅ Je me réveille à sept heures.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
+      "lemma": "se sentir",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": true,
+        "pattern": "se sentir [adjectif]",
+        "level": "A1",
+        "definition": "Éprouver une sensation physique ou morale.",
+        "grammar_rule": "Verbe pronominal suivi d'un adjectif.",
+        "noun_parallel": "",
+        "examples": [
+          "Je me sens bien.",
+          "Elle se sent fatiguée."
+        ],
+        "common_mistake": "❌ Je me sens de bien. ➜ ✅ Je me sens bien.",
+        "synonyms": [],
+        "antonyms": []
       }
     },
     {
@@ -32775,6 +33286,30 @@
       }
     },
     {
+      "lemma": "travailler sur",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "sur",
+          "pour"
+        ],
+        "pronominal": false,
+        "pattern": "travailler sur [projet] / pour [entreprise]",
+        "level": "A1",
+        "definition": "Exercer une activité professionnelle.",
+        "grammar_rule": "Utiliser sur pour un projet et pour pour un employeur.",
+        "noun_parallel": "",
+        "examples": [
+          "Je travaille sur un dossier.",
+          "Elle travaille pour une grande entreprise."
+        ],
+        "common_mistake": "❌ Travailler dans un projet. ➜ ✅ Travailler sur un projet.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "traverser",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -33473,6 +34008,29 @@
       }
     },
     {
+      "lemma": "venir de",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "de"
+        ],
+        "pronominal": false,
+        "pattern": "venir de + [lieu]",
+        "level": "A1",
+        "definition": "Provenir d'un lieu.",
+        "grammar_rule": "Contraction obligatoire: de + le = du.",
+        "noun_parallel": "",
+        "examples": [
+          "Je viens du Canada.",
+          "Elle vient de Paris."
+        ],
+        "common_mistake": "❌ Je viens de le Canada. ➜ ✅ Je viens du Canada.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "vieillir",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -34117,6 +34675,29 @@
       }
     },
     {
+      "lemma": "vouloir dire",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "none"
+        ],
+        "pronominal": false,
+        "pattern": "vouloir dire [quelque chose]",
+        "level": "A1",
+        "definition": "Signifier quelque chose.",
+        "grammar_rule": "Locution verbale sans préposition.",
+        "noun_parallel": "",
+        "examples": [
+          "Que veut dire ce mot ?",
+          "Je voulais dire autre chose."
+        ],
+        "common_mistake": "❌ Que veut dire de ce mot ? ➜ ✅ Que veut dire ce mot ?",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "voyager",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
@@ -34222,6 +34803,29 @@
         "usage_hint": "voyager en / à / avec",
         "grammar_rule": "💡 REMEMBER: Orthographe en -ger — conserve le 'e' devant 'a' et 'o' ('nous voyageons').",
         "irregular": false
+      }
+    },
+    {
+      "lemma": "voyager à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "vers"
+        ],
+        "pronominal": false,
+        "pattern": "voyager à / vers + [lieu]",
+        "level": "A1",
+        "definition": "Effectuer un voyage.",
+        "grammar_rule": "Utiliser à ou vers pour la destination.",
+        "noun_parallel": "",
+        "examples": [
+          "Je voyage en France."
+        ],
+        "common_mistake": "❌ Voyager dans France. ➜ ✅ Voyager en France.",
+        "synonyms": [],
+        "antonyms": []
       }
     }
   ]

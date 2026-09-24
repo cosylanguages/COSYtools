@@ -111,7 +111,7 @@
       "ask",
       "question"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "contact": {
@@ -254,7 +254,7 @@
       "offer",
       "concede"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "request": {
@@ -310,7 +310,7 @@
       "depart",
       "leave"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "agree": {
@@ -340,7 +340,7 @@
       "disagree",
       "dissent"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "ask": {
@@ -369,7 +369,7 @@
       "answer",
       "reply"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "pay": {
@@ -398,7 +398,7 @@
       "receive payment",
       "default"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "believe": {
@@ -599,7 +599,7 @@
     "antonyms": [
       "neglect"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "think of": {
@@ -648,7 +648,7 @@
       "I need some time to think about your offer.",
       "What are you thinking about so intently?"
     ],
-    "common_mistake": "❌ I am thinking to buy a house. ➔ ✅ I am thinking about buying a house.",
+    "common_mistake": "❌ I am thinking of my future plans. ➔ ✅ I am thinking about my future plans.",
     "synonyms": [
       "ponder",
       "consider",
@@ -687,7 +687,7 @@
       "be independent of",
       "stand alone"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "apologize": {
@@ -715,7 +715,7 @@
       "blame",
       "insist"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "discuss": {
@@ -771,7 +771,7 @@
     "antonyms": [
       "dread"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "listen": {
@@ -920,7 +920,7 @@
       "look down on",
       "despise"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "break down": {
@@ -979,7 +979,7 @@
       "replenish",
       "stock up on"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "take off": {
@@ -992,7 +992,7 @@
       "off"
     ],
     "pattern": "take off (plane/success - VI) / take off [clothing] (VT separable)",
-    "level": "A2",
+    "level": "A1",
     "definition": "To leave the ground (aircraft), become successful, or remove clothing.",
     "grammar_rule": "Intransitive for planes/success ('The plane took off'). Separable transitive for clothing ('take off your coat' / 'take it off').",
     "examples": [
@@ -1000,7 +1000,7 @@
       "Please take off your shoes before entering.",
       "It was hot, so he took it off."
     ],
-    "common_mistake": "❌ Take off it. ➔ ✅ Take it off.",
+    "common_mistake": "❌ Take off to your shoes. ➔ ✅ Take off your shoes.",
     "synonyms": [
       "remove",
       "depart",
@@ -1101,7 +1101,7 @@
       "fall out with",
       "clash with"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "call off": {
@@ -1221,7 +1221,7 @@
       "make up with",
       "get along with"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "set up": {
@@ -1311,7 +1311,7 @@
     "antonyms": [
       "fall behind"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "keep up with": {
@@ -1339,7 +1339,7 @@
     "antonyms": [
       "fall behind"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "pass out": {
@@ -1429,7 +1429,7 @@
       "protest",
       "reject"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "go through": {
@@ -1518,7 +1518,7 @@
       "increase",
       "boost"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "get over": {
@@ -1725,7 +1725,7 @@
       "graduate",
       "complete"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "turn up": {
@@ -1786,7 +1786,7 @@
       "work against",
       "oppose"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "report to": {
@@ -1817,7 +1817,7 @@
       "lead",
       "command"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "coordinate with": {
@@ -1848,7 +1848,7 @@
       "disregard",
       "work independently of"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "responsible for": {
@@ -2082,7 +2082,7 @@
       "withdraw",
       "cancel application"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "focus on": {
@@ -2161,7 +2161,7 @@
       "This laptop belongs to the IT department.",
       "Does this notebook belong to you?"
     ],
-    "common_mistake": "❌ It belongs for me. ➔ ✅ It belongs to me.",
+    "common_mistake": "❌ This belongs me. ➔ ✅ This belongs to me.",
     "synonyms": [
       "be owned by",
       "pertain to"
@@ -2440,7 +2440,7 @@
       "look up to",
       "respect"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "come up with": {
@@ -2470,7 +2470,7 @@
       "copy",
       "imitate"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "get away with": {
@@ -2499,7 +2499,7 @@
       "pay for",
       "be punished for"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "face up to": {
@@ -2530,7 +2530,7 @@
       "dodge",
       "ignore"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "stand up for": {
@@ -2560,7 +2560,7 @@
       "abandon",
       "betray"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "go along with": {
@@ -2591,7 +2591,7 @@
       "resist",
       "object to"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "come down with": {
@@ -2620,7 +2620,7 @@
     "antonyms": [
       "recover from"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "get out of": {
@@ -2650,7 +2650,7 @@
       "take on",
       "undertake"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "compete": {
@@ -2681,7 +2681,7 @@
       "cooperate with",
       "collaborate with"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "differ": {
@@ -2823,7 +2823,7 @@
       "reassure",
       "encourage danger"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "protect": {
@@ -2852,7 +2852,7 @@
       "expose to",
       "endanger"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "embark on": {
@@ -2883,7 +2883,7 @@
       "conclude",
       "terminate"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "capitalize on": {
@@ -3070,7 +3070,7 @@
       "deviate from",
       "rebel against"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "cope with": {
@@ -3192,7 +3192,7 @@
       "succumb to",
       "yield to"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "dwell on": {
@@ -3223,7 +3223,7 @@
       "move past",
       "forget"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "hinge on": {
@@ -3254,7 +3254,7 @@
       "be independent of",
       "disregard"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "culminate in": {
@@ -3525,7 +3525,7 @@
       "neglect",
       "ignore"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "tamper with": {
@@ -3585,7 +3585,7 @@
     "antonyms": [
       "treat equally"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "substitute for": {
@@ -3616,7 +3616,7 @@
       "keep",
       "retain original"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "interfere with": {
@@ -3648,7 +3648,7 @@
       "assist",
       "facilitate"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "impinge on": {
@@ -3679,7 +3679,7 @@
       "respect",
       "leave unimpaired"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "infringe on": {
@@ -3711,7 +3711,7 @@
       "respect",
       "uphold"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "deliberate on": {
@@ -3742,7 +3742,7 @@
       "decide spontaneously",
       "ignore"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "prevail upon": {
@@ -3772,7 +3772,7 @@
     "antonyms": [
       "discourage from"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "yield to": {
@@ -3980,7 +3980,7 @@
       "leave",
       "depart"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "get": {
@@ -4055,7 +4055,7 @@
       "I am waiting for the bus at the stop.",
       "She waited for her friend for thirty minutes."
     ],
-    "common_mistake": "❌ I am waiting my friend. ➔ ✅ I am waiting for my friend.",
+    "common_mistake": "❌ I wait the bus. ➔ ✅ I wait for the bus.",
     "synonyms": [
       "await"
     ],
@@ -4093,7 +4093,7 @@
       "be silent",
       "keep quiet"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "speak": {
@@ -4122,7 +4122,7 @@
     "antonyms": [
       "be quiet"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "thank": {
@@ -4320,7 +4320,7 @@
       "whisper to",
       "mutter to"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "live": {
@@ -4340,7 +4340,7 @@
       "I live in London with my family.",
       "She lives at 42 Park Street."
     ],
-    "common_mistake": "❌ I live to Rome. ➔ ✅ I live in Rome.",
+    "common_mistake": "❌ I live at London. ➔ ✅ I live in London.",
     "synonyms": [
       "reside in",
       "dwell in"
@@ -4349,7 +4349,7 @@
       "move away",
       "leave"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "search": {
@@ -4659,7 +4659,7 @@
       "argue with",
       "clash with"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "check in": {
@@ -4689,7 +4689,7 @@
     "antonyms": [
       "check out"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "check out": {
@@ -4718,7 +4718,7 @@
     "antonyms": [
       "check in"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "wake up": {
@@ -4738,7 +4738,7 @@
       "I usually wake up at seven o'clock on weekdays.",
       "She woke up early to catch the morning train."
     ],
-    "common_mistake": "❌ I wake up in 7 o'clock. ➔ ✅ I wake up at 7 o'clock.",
+    "common_mistake": "❌ I wake up on 7 AM. ➔ ✅ I wake up at 7 AM.",
     "synonyms": [
       "awaken",
       "get up"
@@ -4747,7 +4747,7 @@
       "fall asleep",
       "go to sleep"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "single",
     "particle_count": 1
   },
   "work": {
@@ -4776,7 +4776,7 @@
       "be unemployed",
       "retire"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "stay": {
@@ -4806,7 +4806,7 @@
       "leave",
       "depart"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "complain": {
@@ -4836,7 +4836,7 @@
       "praise",
       "commend"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "care": {
@@ -4864,7 +4864,7 @@
       "ignore",
       "disregard"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "dream": {
@@ -4892,7 +4892,7 @@
       "confront reality",
       "be pragmatic"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "prepare": {
@@ -4911,7 +4911,7 @@
       "Students are preparing for their final examinations.",
       "Chef prepared dinner for twenty guests."
     ],
-    "common_mistake": "❌ We must prepare to the interview. ➔ ✅ We must prepare for the interview.",
+    "common_mistake": "❌ Prepare to the test. ➔ ✅ Prepare for the test.",
     "synonyms": [
       "get ready for",
       "arrange"
@@ -4999,7 +4999,7 @@
       "stare at",
       "look at"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "single",
     "particle_count": 1
   },
   "come back": {
@@ -5028,7 +5028,7 @@
       "go away",
       "leave"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "go out": {
@@ -5057,7 +5057,7 @@
     "antonyms": [
       "stay in"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "get up": {
@@ -5071,14 +5071,14 @@
       "from"
     ],
     "pattern": "get up (at [time] / from [bed])",
-    "level": "A2",
+    "level": "A1",
     "definition": "To rise from bed or from a seated position.",
     "grammar_rule": "Intransitive phrasal verb. Use 'at' for time and 'from' for bed or chair.",
     "examples": [
       "I get up at six-thirty every morning.",
       "He got up from his chair to open the door."
     ],
-    "common_mistake": "❌ I get up on 7 AM. ➔ ✅ I get up at 7 AM.",
+    "common_mistake": "❌ I get up at bed. ➔ ✅ I get up from bed.",
     "synonyms": [
       "arise",
       "stand up"
@@ -5087,7 +5087,7 @@
       "lie down",
       "go to bed"
     ],
-    "preposition_structure": "verb_plus_dependent_prep",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "turn on": {
@@ -5205,7 +5205,7 @@
       "be out of place in",
       "mismatch"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "walk out on": {
@@ -5235,7 +5235,7 @@
       "stand by",
       "support"
     ],
-    "preposition_structure": "double_phrasal",
+    "preposition_structure": "single",
     "particle_count": 2
   },
   "talk about": {
@@ -5363,7 +5363,7 @@
       "at"
     ],
     "pattern": "arrive at [building / station / conclusion]",
-    "level": "A2",
+    "level": "A1",
     "definition": "To reach a specific building, station, or decision point.",
     "grammar_rule": "Use 'arrive at' for specific locations, buildings, airports, or conclusions. NEVER 'to'!",
     "examples": [
@@ -5421,7 +5421,7 @@
       "in"
     ],
     "pattern": "believe in [principle / ghost / ability]",
-    "level": "A2",
+    "level": "A1",
     "definition": "To feel confident in the truth, existence, or value of something.",
     "grammar_rule": "Requires 'in' when expressing faith in existence or confidence in abilities.",
     "noun_parallel": "⚡ Verb: 'Believe in success' ➔ Noun: 'Have belief IN success'",
@@ -5429,7 +5429,7 @@
       "Do you believe in ghosts?",
       "I believe in your ability to succeed."
     ],
-    "common_mistake": "❌ I believe on you. ➔ ✅ I believe in you.",
+    "common_mistake": "❌ I believe on honesty. ➔ ✅ I believe in honesty.",
     "synonyms": [
       "trust in",
       "have faith in"
@@ -5557,7 +5557,7 @@
       "revoke from",
       "withhold from"
     ],
-    "preposition_structure": "single",
+    "preposition_structure": "dual",
     "particle_count": 1
   },
   "desist from": {
@@ -5587,6 +5587,1156 @@
       "continue",
       "persist in"
     ],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "be": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "in"
+    ],
+    "pattern": "be + at/in + place",
+    "level": "A1",
+    "definition": "To exist or occupy a place.",
+    "grammar_rule": "Use 'at' for specific points, 'in' for enclosed spaces/cities.",
+    "noun_parallel": "",
+    "examples": [
+      "I am at home.",
+      "She is in London."
+    ],
+    "common_mistake": "Incorrect usage ➔ Correct: I am at home.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "have": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "have [something]",
+    "level": "A1",
+    "definition": "To possess or hold something.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I have a new book.",
+      "They have two children."
+    ],
+    "common_mistake": "❌ I have to a car. ➔ ✅ I have a car.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "exist": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "exist in [place/state]",
+    "level": "A1",
+    "definition": "To have objective reality or being.",
+    "grammar_rule": "Intransitive verb often used with 'in'.",
+    "noun_parallel": "",
+    "examples": [
+      "Hope exists in everyone's heart.",
+      "Many species exist in nature."
+    ],
+    "common_mistake": "❌ Hope exists on everyone's heart. ➔ ✅ Hope exists in everyone's heart.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "become": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "become [something]",
+    "level": "A1",
+    "definition": "To begin to be or grow into.",
+    "grammar_rule": "Linking verb followed directly by noun/adj.",
+    "noun_parallel": "",
+    "examples": [
+      "He wants to become a doctor.",
+      "It became cold."
+    ],
+    "common_mistake": "❌ He wants to become to a doctor. ➔ ✅ He wants to become a doctor.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "die": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from",
+      "of"
+    ],
+    "pattern": "die of/from [cause]",
+    "level": "A1",
+    "definition": "To stop living or cease to exist.",
+    "grammar_rule": "Use 'die of' for disease and 'die from' for external factors.",
+    "noun_parallel": "",
+    "examples": [
+      "He died of old age.",
+      "Plants die from lack of water."
+    ],
+    "common_mistake": "❌ He died from old age. ➔ ✅ He died of old age.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "remain": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in",
+      "at"
+    ],
+    "pattern": "remain in/at [place]",
+    "level": "A1",
+    "definition": "To stay in the same place or condition.",
+    "grammar_rule": "Formal synonym of stay; used with 'in' or 'at'.",
+    "noun_parallel": "",
+    "examples": [
+      "Please remain in your seats.",
+      "They remained at home."
+    ],
+    "common_mistake": "❌ Remain on your seats. ➔ ✅ Remain in your seats.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "seem": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "like"
+    ],
+    "pattern": "seem to be / seem like [something]",
+    "level": "A1",
+    "definition": "To give the impression of being.",
+    "grammar_rule": "Often used with 'to' or 'like'.",
+    "noun_parallel": "",
+    "examples": [
+      "It seems to be true.",
+      "He seems like a nice person."
+    ],
+    "common_mistake": "❌ It seems like true. ➔ ✅ It seems to be true.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "mean": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "mean [something]",
+    "level": "A1",
+    "definition": "To signify or intend to express.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "What does this word mean?",
+      "I didn't mean to hurt you."
+    ],
+    "common_mistake": "❌ What means this word? ➔ ✅ What does this word mean?",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "need": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "need [something / to do]",
+    "level": "A1",
+    "definition": "To require something essential.",
+    "grammar_rule": "Followed directly by noun or 'to' + infinitive.",
+    "noun_parallel": "",
+    "examples": [
+      "I need a glass of water.",
+      "We need to talk."
+    ],
+    "common_mistake": "❌ I need to a glass of water. ➔ ✅ I need a glass of water.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "want": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "want [something / to do]",
+    "level": "A1",
+    "definition": "To feel a desire for something.",
+    "grammar_rule": "Followed by direct object or 'to' + infinitive.",
+    "noun_parallel": "",
+    "examples": [
+      "I want a new bicycle.",
+      "She wants to learn French."
+    ],
+    "common_mistake": "❌ I want for a coffee. ➔ ✅ I want a coffee.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "like": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "like [someone / something]",
+    "level": "A1",
+    "definition": "To find agreeable or enjoyable.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I like chocolate ice cream.",
+      "Do you like classical music?"
+    ],
+    "common_mistake": "❌ I like to chocolate ice cream. ➔ ✅ I like chocolate ice cream.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "love": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "love [someone / something]",
+    "level": "A1",
+    "definition": "To feel deep affection or strong liking.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I love my family.",
+      "She loves reading novels."
+    ],
+    "common_mistake": "❌ I love to my family. ➔ ✅ I love my family.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "hate": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "hate [someone / something]",
+    "level": "A1",
+    "definition": "To feel intense dislike.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I hate getting up early.",
+      "He hates traffic jams."
+    ],
+    "common_mistake": "❌ I hate to early mornings. ➔ ✅ I hate early mornings.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "prefer": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "prefer [A] to [B]",
+    "level": "A1",
+    "definition": "To like one thing better than another.",
+    "grammar_rule": "Use 'to' between the preferred item and alternative.",
+    "noun_parallel": "",
+    "examples": [
+      "I prefer tea to coffee.",
+      "She prefers walking to driving."
+    ],
+    "common_mistake": "❌ I prefer tea than coffee. ➔ ✅ I prefer tea to coffee.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "know": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "know / know about [something]",
+    "level": "A1",
+    "definition": "To have information or be familiar with.",
+    "grammar_rule": "Direct object for facts/people; 'about' for topic knowledge.",
+    "noun_parallel": "",
+    "examples": [
+      "I know the answer.",
+      "Do you know about the new project?"
+    ],
+    "common_mistake": "❌ I know about the answer. ➔ ✅ I know the answer.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "understand": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "understand [someone / something]",
+    "level": "A1",
+    "definition": "To comprehend the meaning.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I understand the lesson.",
+      "Do you understand me?"
+    ],
+    "common_mistake": "❌ I understand about the lesson. ➔ ✅ I understand the lesson.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "remember": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "remember [something / about something]",
+    "level": "A1",
+    "definition": "To bring to mind or retain in memory.",
+    "grammar_rule": "Can take a direct object or 'about'.",
+    "noun_parallel": "",
+    "examples": [
+      "I remember your name.",
+      "Remember about the meeting."
+    ],
+    "common_mistake": "❌ I remember about your name. ➔ ✅ I remember your name.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "forget": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "about"
+    ],
+    "pattern": "forget [something / about something]",
+    "level": "A1",
+    "definition": "To fail to remember.",
+    "grammar_rule": "Can take a direct object or 'about'.",
+    "noun_parallel": "",
+    "examples": [
+      "Don't forget your keys.",
+      "I forgot about the appointment."
+    ],
+    "common_mistake": "❌ Forget to your keys. ➔ ✅ Don't forget your keys.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "recognize": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "recognize [someone / something]",
+    "level": "A2",
+    "definition": "To identify from previous knowledge.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "I recognized her instantly.",
+      "Do you recognize this song?"
+    ],
+    "common_mistake": "❌ I recognize to her. ➔ ✅ I recognize her.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "feel": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "like"
+    ],
+    "pattern": "feel / feel like [something]",
+    "level": "A1",
+    "definition": "To experience an emotion or physical sensation.",
+    "grammar_rule": "Use 'feel like' when expressing a desire or inclination.",
+    "noun_parallel": "",
+    "examples": [
+      "I feel happy today.",
+      "I feel like going for a walk."
+    ],
+    "common_mistake": "❌ I feel like happy. ➔ ✅ I feel happy.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "hope for": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "hope for [something]",
+    "level": "A1",
+    "definition": "To want something to happen and expect it.",
+    "grammar_rule": "Requires 'for' when followed by a noun.",
+    "noun_parallel": "",
+    "examples": [
+      "We hope for good weather.",
+      "I hope to see you soon."
+    ],
+    "common_mistake": "❌ We hope good weather. ➔ ✅ We hope for good weather.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "imagine": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "imagine [something]",
+    "level": "A1",
+    "definition": "To form a mental image or concept.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Imagine a world without war.",
+      "I can't imagine living there."
+    ],
+    "common_mistake": "❌ Imagine about a quiet place. ➔ ✅ Imagine a quiet place.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "choose": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "between",
+      "from"
+    ],
+    "pattern": "choose between / from [options]",
+    "level": "A1",
+    "definition": "To select from options.",
+    "grammar_rule": "Use 'between' for two options and 'from' for multiple options.",
+    "noun_parallel": "",
+    "examples": [
+      "Choose between option A and B.",
+      "Choose a gift from the list."
+    ],
+    "common_mistake": "❌ Choose between many options. ➔ ✅ Choose from many options.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "decide about": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "about"
+    ],
+    "pattern": "decide on/about [something]",
+    "level": "A1",
+    "definition": "To make a choice or resolution.",
+    "grammar_rule": "Use 'on' or 'about' when settling a matter.",
+    "noun_parallel": "",
+    "examples": [
+      "We decided on a location.",
+      "They are deciding about the date."
+    ],
+    "common_mistake": "❌ Decide on to go home. ➔ ✅ Decide to go home.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "identify with": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "identify with [someone]",
+    "level": "A2",
+    "definition": "To feel a strong connection or affinity.",
+    "grammar_rule": "Requires 'with' when expressing empathy/connection.",
+    "noun_parallel": "",
+    "examples": [
+      "I identify with the main character.",
+      "Many people identify with this story."
+    ],
+    "common_mistake": "❌ I identify to this character. ➔ ✅ I identify with this character.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "wash": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "wash [hands/face] with [soap/water]",
+    "level": "A1",
+    "definition": "To clean with water/soap.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Wash your hands before eating.",
+      "He washed with warm water."
+    ],
+    "common_mistake": "❌ Wash hands by soap. ➔ ✅ Wash hands with soap.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "brush": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "brush [teeth/hair] with [brush]",
+    "level": "A1",
+    "definition": "To clean/groom with a brush.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Brush your teeth twice a day.",
+      "She brushed her hair."
+    ],
+    "common_mistake": "❌ Brush teeth by a toothbrush. ➔ ✅ Brush teeth with a toothbrush.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "shave": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "shave [face/legs] with [razor]",
+    "level": "A1",
+    "definition": "To remove hair with a razor.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "He shaves every morning.",
+      "Shave with care."
+    ],
+    "common_mistake": "❌ Shave by razor. ➔ ✅ Shave with a razor.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "dress": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "in"
+    ],
+    "pattern": "dress in [clothes]",
+    "level": "A1",
+    "definition": "To put on clothes.",
+    "grammar_rule": "Often used as 'get dressed'.",
+    "noun_parallel": "",
+    "examples": [
+      "Get dressed quickly.",
+      "She was dressed in white."
+    ],
+    "common_mistake": "❌ Get dressed by fast. ➔ ✅ Get dressed quickly.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "put on": {
+    "is_phrasal": true,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "put on [clothes/shoes]",
+    "level": "A1",
+    "definition": "To place clothes on one's body.",
+    "grammar_rule": "Phrasal verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Put on your coat.",
+      "She put on her glasses."
+    ],
+    "common_mistake": "❌ Put on to your coat. ➔ ✅ Put on your coat.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "sit down": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on"
+    ],
+    "pattern": "sit down on [chair/sofa]",
+    "level": "A1",
+    "definition": "To move into a sitting position.",
+    "grammar_rule": "Phrasal verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Sit down on the chair.",
+      "Please sit down."
+    ],
+    "common_mistake": "❌ Sit down in the chair. ➔ ✅ Sit down on the chair.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "stand up": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "stand up from [seat]",
+    "level": "A1",
+    "definition": "To rise to an upright position.",
+    "grammar_rule": "Phrasal verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Stand up when called.",
+      "He stood up from the sofa."
+    ],
+    "common_mistake": "❌ Stand up at the sofa. ➔ ✅ Stand up from the sofa.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "open": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "open [door/window]",
+    "level": "A1",
+    "definition": "To move something so it is no longer closed.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Open the window, please.",
+      "She opened the door."
+    ],
+    "common_mistake": "❌ Open for the window. ➔ ✅ Open the window.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "close": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "close [door/window]",
+    "level": "A1",
+    "definition": "To cover an opening.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Close the door behind you.",
+      "Please close the book."
+    ],
+    "common_mistake": "❌ Close to the door. ➔ ✅ Close the door.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "start": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with",
+      "by"
+    ],
+    "pattern": "start [work] with/by [action]",
+    "level": "A1",
+    "definition": "To begin an activity.",
+    "grammar_rule": "Followed by direct object or preposition.",
+    "noun_parallel": "",
+    "examples": [
+      "Let's start the lesson.",
+      "We start with a warm-up."
+    ],
+    "common_mistake": "❌ Start for reading. ➔ ✅ Start reading.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "finish": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "finish [work]",
+    "level": "A1",
+    "definition": "To bring to an end.",
+    "grammar_rule": "Direct object or 'with'.",
+    "noun_parallel": "",
+    "examples": [
+      "I finished my homework.",
+      "Are you finished with that book?"
+    ],
+    "common_mistake": "❌ Finish to working. ➔ ✅ Finish working.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "stop": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "stop [action/someone]",
+    "level": "A1",
+    "definition": "To cease moving or operating.",
+    "grammar_rule": "Requires 'from' when preventing action.",
+    "noun_parallel": "",
+    "examples": [
+      "The bus stopped at the station.",
+      "Stop talking, please."
+    ],
+    "common_mistake": "❌ Stop to talk. ➔ ✅ Stop talking.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "do": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "do [action/homework]",
+    "level": "A1",
+    "definition": "To perform or execute an action.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "I do my homework every day.",
+      "What are you doing?"
+    ],
+    "common_mistake": "❌ Make your homework. ➔ ✅ Do your homework.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "clean": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "with"
+    ],
+    "pattern": "clean [room/house]",
+    "level": "A1",
+    "definition": "To make free from dirt.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "Clean your room.",
+      "She cleaned the house."
+    ],
+    "common_mistake": "❌ Clean to your room. ➔ ✅ Clean your room.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "repair": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "repair [object]",
+    "level": "A1",
+    "definition": "To fix or restore to good condition.",
+    "grammar_rule": "Direct transitive verb.",
+    "noun_parallel": "",
+    "examples": [
+      "He repaired his bicycle.",
+      "Can you repair this car?"
+    ],
+    "common_mistake": "❌ Repair to the bike. ➔ ✅ Repair the bike.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "change": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "into"
+    ],
+    "pattern": "change / change into [clothes]",
+    "level": "A1",
+    "definition": "To make or become different.",
+    "grammar_rule": "Direct object or 'into'.",
+    "noun_parallel": "",
+    "examples": [
+      "Change your clothes.",
+      "Caterpillars change into butterflies."
+    ],
+    "common_mistake": "❌ Change into your mind. ➔ ✅ Change your mind.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "go to": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "go to + [place]",
+    "level": "A1",
+    "definition": "To move or travel to a destination.",
+    "grammar_rule": "Requires 'to' before destinations.",
+    "noun_parallel": "",
+    "examples": [
+      "I go to school by bus.",
+      "Let's go to the beach."
+    ],
+    "common_mistake": "❌ I go in school. ➔ ✅ I go to school.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "come from": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from"
+    ],
+    "pattern": "come from + [place]",
+    "level": "A1",
+    "definition": "To originate or travel from a place.",
+    "grammar_rule": "Requires 'from' before origin.",
+    "noun_parallel": "",
+    "examples": [
+      "Where do you come from?",
+      "He comes from Italy."
+    ],
+    "common_mistake": "❌ I come of Italy. ➔ ✅ I come from Italy.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "speak to": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "with"
+    ],
+    "pattern": "speak to/with [someone]",
+    "level": "A1",
+    "definition": "To converse or utter words.",
+    "grammar_rule": "Requires to/with for recipient.",
+    "noun_parallel": "",
+    "examples": [
+      "I speak to my teacher.",
+      "She speaks English."
+    ],
+    "common_mistake": "❌ Speak with to teacher. ➔ ✅ Speak to my teacher.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "eat": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "with"
+    ],
+    "pattern": "eat at [place] / eat with [someone]",
+    "level": "A1",
+    "definition": "To consume food.",
+    "grammar_rule": "Direct object without prep, at for location.",
+    "noun_parallel": "",
+    "examples": [
+      "I eat lunch at 1 PM.",
+      "We eat at a restaurant."
+    ],
+    "common_mistake": "❌ Eat to a restaurant. ➔ ✅ Eat at a restaurant.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "carry": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "carry [something] to [place]",
+    "level": "A1",
+    "definition": "To hold and transport.",
+    "grammar_rule": "Requires to for destination.",
+    "noun_parallel": "",
+    "examples": [
+      "Carry this box to the kitchen."
+    ],
+    "common_mistake": "❌ Carry this box in kitchen. ➔ ✅ Carry this box to the kitchen.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "bring": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "bring [something] to [someone]",
+    "level": "A1",
+    "definition": "To take with oneself to a place.",
+    "grammar_rule": "Requires to for recipient.",
+    "noun_parallel": "",
+    "examples": [
+      "Bring me the book, please."
+    ],
+    "common_mistake": "❌ Bring me at the book. ➔ ✅ Bring me the book.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "take": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from",
+      "to"
+    ],
+    "pattern": "take [something] from [place]",
+    "level": "A1",
+    "definition": "To lay hold of.",
+    "grammar_rule": "Use from for source and to for destination.",
+    "noun_parallel": "",
+    "examples": [
+      "He took the money from the table."
+    ],
+    "common_mistake": "❌ Take money at table. ➔ ✅ Take money from the table.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 1
+  },
+  "leave": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "leave [place] for [destination]",
+    "level": "A1",
+    "definition": "To go away from a place.",
+    "grammar_rule": "Use for before destination.",
+    "noun_parallel": "",
+    "examples": [
+      "The train leaves for Rome at 9."
+    ],
+    "common_mistake": "❌ Leave to Rome. ➔ ✅ Leave for Rome.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
+  },
+  "return": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "from"
+    ],
+    "pattern": "return to/from [place]",
+    "level": "A1",
+    "definition": "To come or go back.",
+    "grammar_rule": "Use to for destination and from for origin.",
+    "noun_parallel": "",
+    "examples": [
+      "He returned to his office."
+    ],
+    "common_mistake": "❌ Return in office. ➔ ✅ Return to his office.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 1
+  },
+  "work on": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "on",
+      "for"
+    ],
+    "pattern": "work on [project] / work for [company]",
+    "level": "A1",
+    "definition": "To engage in labor or effort.",
+    "grammar_rule": "Requires on for projects and for for employers.",
+    "noun_parallel": "",
+    "examples": [
+      "I am working on a new project.",
+      "She works for a company."
+    ],
+    "common_mistake": "❌ Work in a project. ➔ ✅ Work on a project.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "dual",
+    "particle_count": 2
+  },
+  "travel to": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "travel to + [place]",
+    "level": "A1",
+    "definition": "To journey to a destination.",
+    "grammar_rule": "Requires to before destination.",
+    "noun_parallel": "",
+    "examples": [
+      "I travel to France every summer."
+    ],
+    "common_mistake": "❌ Travel in France. ➔ ✅ Travel to France.",
+    "synonyms": [],
+    "antonyms": [],
     "preposition_structure": "single",
     "particle_count": 1
   }
