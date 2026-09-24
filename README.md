@@ -116,7 +116,7 @@ Performs fast, multi-field search across verbs, nouns, definitions, and grammar 
 Manages weak-spot items saved locally for SRS review.
 
 ### `COSYReferenceUtils.getEcosystemLink(destination, params)`
-Generates uniform ecosystem URLs (`'home'`, `'games'`, `'world'`, `'events'`, `'tools'`) with URL search parameters.
+- **`COSYReferenceUtils.getEcosystemLink(destination, params)`**: Generates uniform ecosystem URLs (`'home'`, `'games'`, `'events'`, `'tools'`) with URL search parameters.
 
 ---
 
@@ -125,5 +125,4 @@ Generates uniform ecosystem URLs (`'home'`, `'games'`, `'world'`, `'events'`, `'
 Take your language learning to the next level:
 - 🏠 **Official Home & Courses:** [COSYlanguages](https://cosylanguages.github.io/COSYlanguages/)
 - 🎮 **Self-Study Games:** [COSYgames](https://cosylanguages.github.io/COSYgames/)
-- 🌍 **Language World Map:** [COSYworld](https://cosylanguages.github.io/COSYworld/)
 - 📅 **Live Events & Workshops:** [COSYevents](https://cosylanguages.github.io/COSYevents/)

@@ -1,13 +1,15 @@
 # COSYtools Data Contract Specification (v1.0)
 
 ## Overview
-This document specifies the official, versioned **Data Contract (v1.0)** for `COSYtools`. It defines stable public REST/URL access patterns, standardized JSON data schemas, offline caching guidelines, and consumption protocols for sibling repositories in the COSY ecosystem (`COSYplatform`, `COSYevents`, `COSYworld`, `COSYgames`, `COSYmanuals`).
+This document specifies the official, versioned **Data Contract (v1.0)** for `COSYtools`. It defines stable public REST/URL access patterns, standardized JSON data schemas, offline caching guidelines, and consumption protocols for sibling repositories in the COSY ecosystem (`COSYplatform`, `COSYevents`, `COSYgames`, `COSYmanuals`).
 
 ---
 
 ## 1. Stable JSON Endpoint URL Patterns
 
 External client applications and sibling repositories can reference, fetch, or embed grammar mechanics datasets directly using stable URL paths relative to the `COSYtools` host domain (`https://cosylanguages.github.io/COSYtools/`).
+
+> 📌 **Repository Layout Alignment**: All tool-specific reference data files live strictly within the `tools/<lang>/<feature>/data/` directory structure (e.g. `tools/fr/conjugeur/data/verbs.json`, `tools/it/coniugatore/data/verbs.json`, `tools/en/verb-prep/data/verbs.json`). The `/tools/` prefix is part of the canonical directory path in this repository, ensuring full alignment between local repository files and published REST URLs.
 
 ### 1.1 Tool-Specific Datasets (`/tools/<lang>/<feature>/data.json`)
 
@@ -159,7 +161,7 @@ Keyed by base word or phrase entry.
 
 ## 3. Client Integration & Offline Caching Guidelines
 
-Consumer applications (such as lesson decks in `COSYplatform` or quest cards in `COSYworld`) SHOULD load data using `COSYReferenceUtils.loadData(url)` or implement equivalent HTTP caching:
+Consumer applications (such as lesson decks in `COSYplatform` or games in `COSYgames`) SHOULD load data using `COSYReferenceUtils.loadData(url)` or implement equivalent HTTP caching:
 
 ```javascript
 // Recommended client fetch snippet with localStorage caching

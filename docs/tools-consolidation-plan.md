@@ -12,7 +12,7 @@ Prior to this consolidation, `COSYtools` maintained two parallel structural tree
 1. **Per-Language Engine Structure (`tools/{lang}/{tool-name}/`)**: Dedicated standalone reference applications containing rich JSON datasets (hundreds of conjugated verbs/nouns, complete case matrices, prepositional regimes), SRS spaced repetition engines (`spaced_repetition.js`, `srs.js`), practice trainers, and custom stylesheets.
 2. **Unified Category Structure (`conjugation/`, `gender/`, `cases/`, `prepositions/`)**: Simplified category index pages and template wrappers that originally acted as entry points.
 
-Allowing two active implementations created drift risks and potential routing confusion for ecosystem applications (`COSYlanguages`, `COSYgames`, `COSYworld`, `COSYevents`).
+Allowing two active implementations created drift risks and potential routing confusion for ecosystem applications (`COSYlanguages`, `COSYgames`, `COSYevents`).
 
 Per the **COSYtools Data Contract (v1.0)** (`docs/DATA_CONTRACT.md`) and **Data Inventory Audit** (`docs/DATA_INVENTORY.md`), the `tools/{lang}/{tool-name}/` structure is established as the canonical source of truth.
 
