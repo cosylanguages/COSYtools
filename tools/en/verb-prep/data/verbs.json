@@ -6542,5 +6542,158 @@
     "antonyms": [],
     "preposition_structure": "from",
     "particle_count": 1
+  },
+  "speak to": {
+    "is_phrasal": true,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "with"
+    ],
+    "pattern": "speak to/with [someone]",
+    "level": "A1",
+    "definition": "To converse or utter words.",
+    "grammar_rule": "Requires to/with for recipient.",
+    "noun_parallel": "",
+    "examples": [
+      "I speak to my teacher.",
+      "She speaks English."
+    ],
+    "common_mistake": "❌ Speak with to teacher. ➔ ✅ Speak to my teacher.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "to",
+    "particle_count": 2
+  },
+  "eat": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "at",
+      "with"
+    ],
+    "pattern": "eat at [place] / eat with [someone]",
+    "level": "A1",
+    "definition": "To consume food.",
+    "grammar_rule": "Direct object without prep, at for location.",
+    "noun_parallel": "",
+    "examples": [
+      "I eat lunch at 1 PM.",
+      "We eat at a restaurant."
+    ],
+    "common_mistake": "❌ Eat to a restaurant. ➔ ✅ Eat at a restaurant.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "at",
+    "particle_count": 2
+  },
+  "carry": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "carry [something] to [place]",
+    "level": "A1",
+    "definition": "To hold and transport.",
+    "grammar_rule": "Requires to for destination.",
+    "noun_parallel": "",
+    "examples": [
+      "Carry this box to the kitchen."
+    ],
+    "common_mistake": "❌ Carry this box in kitchen. ➔ ✅ Carry this box to the kitchen.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "to",
+    "particle_count": 1
+  },
+  "bring": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to"
+    ],
+    "pattern": "bring [something] to [someone]",
+    "level": "A1",
+    "definition": "To take with oneself to a place.",
+    "grammar_rule": "Requires to for recipient.",
+    "noun_parallel": "",
+    "examples": [
+      "Bring me the book, please."
+    ],
+    "common_mistake": "❌ Bring me at the book. ➔ ✅ Bring me the book.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "to",
+    "particle_count": 1
+  },
+  "take": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "from",
+      "to"
+    ],
+    "pattern": "take [something] from [place]",
+    "level": "A1",
+    "definition": "To lay hold of.",
+    "grammar_rule": "Use from for source and to for destination.",
+    "noun_parallel": "",
+    "examples": [
+      "He took the money from the table."
+    ],
+    "common_mistake": "❌ Take money at table. ➔ ✅ Take money from the table.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "from",
+    "particle_count": 1
+  },
+  "leave": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "for"
+    ],
+    "pattern": "leave [place] for [destination]",
+    "level": "A1",
+    "definition": "To go away from a place.",
+    "grammar_rule": "Use for before destination.",
+    "noun_parallel": "",
+    "examples": [
+      "The train leaves for Rome at 9."
+    ],
+    "common_mistake": "❌ Leave to Rome. ➔ ✅ Leave for Rome.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "for",
+    "particle_count": 1
+  },
+  "return": {
+    "is_phrasal": false,
+    "transitivity": "Prepositional",
+    "transitivity_code": "VI",
+    "prepositions": [
+      "to",
+      "from"
+    ],
+    "pattern": "return to/from [place]",
+    "level": "A1",
+    "definition": "To come or go back.",
+    "grammar_rule": "Use to for destination and from for origin.",
+    "noun_parallel": "",
+    "examples": [
+      "He returned to his office."
+    ],
+    "common_mistake": "❌ Return in office. ➔ ✅ Return to his office.",
+    "synonyms": [],
+    "antonyms": [],
+    "preposition_structure": "to",
+    "particle_count": 1
   }
 }

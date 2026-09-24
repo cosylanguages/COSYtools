@@ -4524,7 +4524,7 @@
   "μου αρέσει": {
     "government": [
       {
-        "case": "dative",
+        "case": "genitive",
         "preposition": null
       }
     ],
@@ -5138,6 +5138,26 @@
       "Έφτασε στην Αθήνα."
     ],
     "common_mistake": "❌ Φτάνω για σταθμό. ➜ ✅ Φτάνω στον σταθμό.",
+    "synonyms": [],
+    "antonyms": []
+  },
+  "μιλάω σε": {
+    "government": [
+      {
+        "case": "accusative",
+        "preposition": "σε"
+      }
+    ],
+    "pattern": "μιλάω + σε + αιτιατική",
+    "level": "A1",
+    "definition": "Συνομιλώ.",
+    "grammar_rule": "Συντάσσεται με σε + αιτιατική.",
+    "linked_noun_keys": [],
+    "examples": [
+      "Μιλάω στον φίλο μου.",
+      "Μιλάει ελληνικά."
+    ],
+    "common_mistake": "❌ Μιλάω για στον φίλο. ➜ ✅ Μιλάω στον φίλο μου.",
     "synonyms": [],
     "antonyms": []
   }

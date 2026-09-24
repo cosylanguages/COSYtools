@@ -11141,6 +11141,32 @@
       }
     },
     {
+      "lemma": "carry",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to"
+        ],
+        "pattern": "carry [something] to [place]",
+        "level": "A1",
+        "definition": "To hold and transport.",
+        "grammar_rule": "Requires to for destination.",
+        "noun_parallel": "",
+        "examples": [
+          "Carry this box to the kitchen."
+        ],
+        "common_mistake": "❌ Carry this box in kitchen. ➔ ✅ Carry this box to the kitchen.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "to",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "carry on",
       "kind": "verbs",
       "source": "tools/en/verb-prep/data/verbs.json",
@@ -17687,6 +17713,33 @@
       }
     },
     {
+      "lemma": "return",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": false,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to",
+          "from"
+        ],
+        "pattern": "return to/from [place]",
+        "level": "A1",
+        "definition": "To come or go back.",
+        "grammar_rule": "Use to for destination and from for origin.",
+        "noun_parallel": "",
+        "examples": [
+          "He returned to his office."
+        ],
+        "common_mistake": "❌ Return in office. ➔ ✅ Return to his office.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "to",
+        "particle_count": 1
+      }
+    },
+    {
       "lemma": "rewind",
       "kind": "verbs",
       "source": "tools/en/irregular-verbs/data/verbs.json",
@@ -18656,6 +18709,34 @@
         ],
         "subgroup": "ablaut_plus_en",
         "vowel_pattern": "e-o-o"
+      }
+    },
+    {
+      "lemma": "speak to",
+      "kind": "verbs",
+      "source": "tools/en/verb-prep/data/verbs.json",
+      "data": {
+        "is_phrasal": true,
+        "transitivity": "Prepositional",
+        "transitivity_code": "VI",
+        "prepositions": [
+          "to",
+          "with"
+        ],
+        "pattern": "speak to/with [someone]",
+        "level": "A1",
+        "definition": "To converse or utter words.",
+        "grammar_rule": "Requires to/with for recipient.",
+        "noun_parallel": "",
+        "examples": [
+          "I speak to my teacher.",
+          "She speaks English."
+        ],
+        "common_mistake": "❌ Speak with to teacher. ➔ ✅ Speak to my teacher.",
+        "synonyms": [],
+        "antonyms": [],
+        "preposition_structure": "to",
+        "particle_count": 2
       }
     },
     {

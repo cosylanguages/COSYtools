@@ -4704,5 +4704,25 @@
     "common_mistake": "❌ Cambio di i vestiti. ➜ ✅ Cambio i vestiti.",
     "synonyms": [],
     "antonyms": []
+  },
+  "mangiare": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "mangiare + [cibo] / al + [ristorante]",
+    "level": "A1",
+    "definition": "Cibarsi di qualcosa.",
+    "grammar_rule": "Verbo transitivo diretto.",
+    "related_forms": "",
+    "examples": [
+      "Mangio una mela.",
+      "Mangiamo al ristorante."
+    ],
+    "common_mistake": "❌ Mangiare in il ristorante. ➜ ✅ Mangiare al ristorante.",
+    "synonyms": [],
+    "antonyms": []
   }
 }

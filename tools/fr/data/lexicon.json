@@ -23333,6 +23333,30 @@
       }
     },
     {
+      "lemma": "parler à",
+      "kind": "verbs",
+      "source": "tools/fr/regime/data/verbs.json",
+      "data": {
+        "prepositions": [
+          "à",
+          "avec"
+        ],
+        "pronominal": false,
+        "pattern": "parler à [quelqu'un]",
+        "level": "A1",
+        "definition": "S'exprimer par la parole.",
+        "grammar_rule": "Régime prépositionnel à.",
+        "noun_parallel": "",
+        "examples": [
+          "Je parle à mon ami.",
+          "Elle parle français."
+        ],
+        "common_mistake": "❌ Je parle avec à mon ami. ➜ ✅ Je parle à mon ami.",
+        "synonyms": [],
+        "antonyms": []
+      }
+    },
+    {
       "lemma": "partager",
       "kind": "verbs",
       "source": "tools/fr/conjugeur/data/verbs.json",
