@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.com/schemas/verb-pattern.schema.json",
+  "title": "Irregular Verb Pattern Group",
+  "description": "Schema for irregular verb pattern groups and rhyme families across languages.",
+  "type": "object",
+  "required": [
+    "infinitive",
+    "language",
+    "forms",
+    "pattern_group",
+    "pattern_description"
+  ],
+  "properties": {
+    "infinitive": {
+      "type": "string",
+      "description": "The base infinitive form of the verb."
+    },
+    "language": {
+      "type": "string",
+      "description": "The ISO language code or language name."
+    },
+    "forms": {
+      "type": "array",
+      "description": "List of conjugated forms (e.g. [past simple, past participle] or [present, past, participle]).",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "pattern_group": {
+      "type": "string",
+      "description": "Identifier or label of the pattern group (e.g. 'A-B-B', 'sing-sang-sung', 'e->ie stem-changing')."
+    },
+    "pattern_description": {
+      "type": "string",
+      "description": "Detailed description of how the conjugation pattern works."
+    },
+    "rhyme_family": {
+      "type": "string",
+      "description": "Optional rhyme family grouping key (e.g. 'sing-ring-sink-drink')."
+    }
+  },
+  "additionalProperties": false
+}
