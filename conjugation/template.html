@@ -292,6 +292,17 @@
         }
 
         window.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const targetLang = params.get('lang');
+            const targetVerb = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
+
+            if (targetLang && ['en', 'fr', 'it', 'ru', 'el'].includes(targetLang)) {
+                currentLang = targetLang;
+                document.getElementById('lang-selector').value = targetLang;
+            }
+            if (targetVerb) {
+                document.getElementById('verb-search-input').value = targetVerb;
+            }
             renderVerbData();
         });
     </script>

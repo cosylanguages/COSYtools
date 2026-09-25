@@ -17,7 +17,18 @@ class ItalianConjugationEngine {
             const res = await fetch('data/verbs.json');
             this.verbDb = await res.json();
             this.bindEvents();
+            this.handleInitialQueryParams();
         } catch (e) { console.error(e); }
+    }
+
+    handleInitialQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+        const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
+        if (target) {
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
+        }
     }
 
     bindEvents() {

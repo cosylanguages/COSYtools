@@ -14,7 +14,18 @@ class NounGenderEngine {
             const res = await fetch('data/nouns.json');
             this.nounDb = await res.json();
             this.bindEvents();
+            this.handleInitialQueryParams();
         } catch (err) { console.error(err); }
+    }
+
+    handleInitialQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+        const target = params.get('noun') || params.get('word') || params.get('q') || params.get('search');
+        if (target) {
+            const input = document.getElementById('noun-search-input');
+            if (input) input.value = target;
+            this.searchNoun(target);
+        }
     }
 
     bindEvents() {

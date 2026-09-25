@@ -34,8 +34,20 @@ class EnglishIrregularVerbsEngine {
 
             this.bindEvents();
             this.setAppMode('practice');
+            this.handleInitialQueryParams();
         } catch (err) {
             console.error("Failed to load irregular verbs database:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+        const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
+        if (target) {
+            this.setAppMode('lookup');
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 
