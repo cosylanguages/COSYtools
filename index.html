@@ -51,12 +51,21 @@
           <span class="sep">/</span>
           <span class="current">Reference Hub</span>
         </div>
-        <nav class="sd-jump-links" aria-label="Ecosystem Links">
+        <nav class="sd-jump-links" aria-label="Ecosystem Links" style="display: flex; align-items: center; gap: 0.75rem;">
           <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" class="sd-jump-link">Home 🏠</a>
           <a href="https://cosylanguages.github.io/COSYlanguages/practice/" target="_blank" rel="noopener" class="sd-jump-link">Practice 💡</a>
           <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="sd-jump-link">Games 🎮</a>
           <a href="index.html" class="sd-jump-link active">Tools 🔎</a>
           <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="sd-jump-link">Events 🎉</a>
+          <div class="cosy-ui-lang-switcher" style="margin-left: 0.5rem;">
+            <select id="cosy-ui-language-select" onchange="COSY_UI.setUILanguage(this.value)" class="styled-sel" style="padding: 4px 8px; font-size: 0.85rem; border-radius: var(--r-sm); background: var(--surface-color); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
+              <option value="en">🇬🇧 English</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="it">🇮🇹 Italiano</option>
+              <option value="ru">🇷🇺 Русский</option>
+              <option value="el">🇬🇷 Ελληνικά</option>
+            </select>
+          </div>
         </nav>
       </div>
     </header>
@@ -65,16 +74,16 @@
       <!-- Hero Section -->
       <div class="hero ref-hero">
         <div class="hero-inner hero-centered-panel">
-            <div class="hero-tag">📲 Always Free · Offline Reference · 100% Client-Side</div>
-            <h1 class="hero-fraunces-title">Language Reference &amp; Practice Tools</h1>
-            <p class="hero-hub-subtext">
+            <div class="hero-tag" data-i18n="hero_tag">📲 Always Free · Offline Reference · 100% Client-Side</div>
+            <h1 class="hero-fraunces-title" data-i18n="hero_title">Language Reference &amp; Practice Tools</h1>
+            <p class="hero-hub-subtext" data-i18n="hero_subtext">
                 Conjugation engines, gender checkers, case systems, and more across 14 languages.
             </p>
 
             <!-- Prominent Center Search Bar -->
             <div class="ref-search-container">
                 <span class="ref-search-icon cosy-icon icon-search" aria-hidden="true"></span>
-                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search for a verb, noun, or grammar rule..." oninput="onHubSearchChange()" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
+                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search for a verb, noun, or grammar rule..." data-i18n-ph="search_placeholder" oninput="onHubSearchChange()" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
             </div>
         </div>
       </div>

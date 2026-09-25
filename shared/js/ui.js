@@ -5792,6 +5792,64 @@
         container.querySelector('.lead-capture').innerHTML = `<span>Thanks! ✅</span>`;
     };
 
+    // UI Language Translations for COSYtools Hub Pages
+    const HUB_I18N = {
+        en: {
+            hero_tag: "📲 Always Free · Offline Reference · 100% Client-Side",
+            hero_title: "Language Reference & Practice Tools",
+            hero_subtext: "Conjugation engines, gender checkers, case systems, and more across 14 languages.",
+            search_placeholder: "Search for a verb, noun, or grammar rule..."
+        },
+        fr: {
+            hero_tag: "📲 Toujours Gratuit · Référence Hors Ligne · 100% Côté Client",
+            hero_title: "Outils de Référence & Pratique Linguistique",
+            hero_subtext: "Moteurs de conjugaison, vérificateurs de genre, déclinaisons de cas et plus dans 14 langues.",
+            search_placeholder: "Rechercher un verbe, un nom ou une règle de grammaire..."
+        },
+        it: {
+            hero_tag: "📲 Sempre Gratuito · Consultazione Offline · 100% Lato Client",
+            hero_title: "Strumenti di Consultazione e Esercitazione Linguistica",
+            hero_subtext: "Motori di coniugazione, controllo del genere, declinazioni e molto altro in 14 lingue.",
+            search_placeholder: "Cerca un verbo, un sostantivo o una regola grammaticale..."
+        },
+        ru: {
+            hero_tag: "📲 Всегда Бесплатно · Офлайн-Справочники · 100% Клиентский Код",
+            hero_title: "Языковые Справочники и Тренажеры",
+            hero_subtext: "Глагольное спряжение, род существительных, падежные системы и другое для 14 языков.",
+            search_placeholder: "Поиск глагола, существительного или грамматического правила..."
+        },
+        el: {
+            hero_tag: "📲 Πάντα Δωρεάν · Εκτός Σύνδεσης · 100% Client-Side",
+            hero_title: "Εργαλεία Αναφοράς & Εξάσκησης Γλωσσών",
+            hero_subtext: "Μηχανές κλίσης ρημάτων, έλεγχος γένους, πτώσεις και πολλά άλλα σε 14 γλώσσες.",
+            search_placeholder: "Αναζήτηση ρήματος, ουσιαστικού ή κανόνα γραμματικής..."
+        }
+    };
+
+    window.COSY_UI = window.COSY_UI || {};
+    window.COSY_UI.setUILanguage = function(langCode) {
+        if (!HUB_I18N[langCode]) langCode = 'en';
+        localStorage.setItem('cosy_ui_lang', langCode);
+
+        const select = document.getElementById('cosy-ui-language-select');
+        if (select) select.value = langCode;
+
+        const dict = HUB_I18N[langCode];
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (dict[key]) el.textContent = dict[key];
+        });
+        document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+            const key = el.getAttribute('data-i18n-ph');
+            if (dict[key]) el.setAttribute('placeholder', dict[key]);
+        });
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedLang = localStorage.getItem('cosy_ui_lang') || 'en';
+        window.COSY_UI.setUILanguage(savedLang);
+    });
+
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();
 
