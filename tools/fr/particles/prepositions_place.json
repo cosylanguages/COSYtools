@@ -1,0 +1,46 @@
+{
+  "id": "fr_prepositions_place",
+  "category": "prepositions_place",
+  "language": "fr",
+  "title": "Prépositions de Lieu en Français",
+  "level": "A1",
+  "definition": "Les prépositions de lieu indiquent la position spatiale d'un objet ou d'une personne par rapport à un autre repère.",
+  "rules": [
+    {
+      "preposition": "dans",
+      "rule": "S'utilise pour un espace fermé, un conteneur ou une zone géographique délimitée (dans la maison, dans la boîte).",
+      "notes": "Suivi d'un déterminant (dans le sac)."
+    },
+    {
+      "preposition": "sur",
+      "rule": "S'utilise pour le contact avec une surface plate ou supérieure (sur la table, sur le toit).",
+      "notes": "Contraire de 'sous'."
+    },
+    {
+      "preposition": "à",
+      "rule": "Indique un lieu général, une ville ou un point précis (à Paris, à la gare, au cinéma).",
+      "notes": "Se contracte avec 'le' (au) et 'les' (aux)."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Le livre est sur la table.",
+      "translation": "The book is on the table.",
+      "preposition_used": "sur"
+    },
+    {
+      "sentence": "Elle habite à Paris.",
+      "translation": "She lives in Paris.",
+      "preposition_used": "à"
+    },
+    {
+      "sentence": "Les clés sont dans le sac.",
+      "translation": "The keys are in the bag.",
+      "preposition_used": "dans"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-place",
+    "../../tools/fr/regime/"
+  ]
+}

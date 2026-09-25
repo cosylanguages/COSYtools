@@ -1,0 +1,46 @@
+{
+  "id": "ru_prepositions_place",
+  "category": "prepositions_place",
+  "language": "ru",
+  "title": "Русские предлоги места (Prepositions of Place)",
+  "level": "A1",
+  "definition": "Предлоги места в русском языке указывают на расположение предмета и управляют предложным или родительным падежом.",
+  "rules": [
+    {
+      "preposition": "в (+ предложный падеж)",
+      "rule": "Указывает на нахождение внутри помещения, страны или закрытого пространства (в комнате, в Москве).",
+      "notes": "Вопрос: Где? (Предложный падеж - П.п.)"
+    },
+    {
+      "preposition": "на (+ предложный падеж)",
+      "rule": "Указывает на нахождение на поверхности, открытом пространстве или мероприятии (на столе, на улице, на концерте).",
+      "notes": "Вопрос: Где? (Предложный падеж - П.п.)"
+    },
+    {
+      "preposition": "около / у (+ родительный падеж)",
+      "rule": "Указывает на близость к объекту (около дома, у окна).",
+      "notes": "Вопрос: Около чего? (Родительный падеж - Р.п.)"
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Книга лежит на столе.",
+      "translation": "The book lies on the table.",
+      "preposition_used": "на"
+    },
+    {
+      "sentence": "Мы живём в Москве.",
+      "translation": "We live in Moscow.",
+      "preposition_used": "в"
+    },
+    {
+      "sentence": "Машина стоит около дома.",
+      "translation": "The car is parked near the house.",
+      "preposition_used": "около"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-place",
+    "../../tools/ru/rod-padezhi/"
+  ]
+}

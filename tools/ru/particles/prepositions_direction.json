@@ -1,0 +1,46 @@
+{
+  "id": "ru_prepositions_direction",
+  "category": "prepositions_direction",
+  "language": "ru",
+  "title": "Предлоги направления и движения (Direction)",
+  "level": "A2",
+  "definition": "Описывают движение к цели или из исходного пункта с соответствующими падежами.",
+  "rules": [
+    {
+      "preposition": "в / на (+ винительный падеж)",
+      "rule": "Указывает направление движения внутрь или на поверхность (идти в школу, ехать на работу).",
+      "notes": "Отвечает на вопрос: Куда?"
+    },
+    {
+      "preposition": "из / с (+ родительный падеж)",
+      "rule": "Указывает исходный пункт движения изнутри или с поверхности (вернуться из школы, уйти с работы).",
+      "notes": "Отвечает на вопрос: Откуда?"
+    },
+    {
+      "preposition": "к (+ дательный падеж)",
+      "rule": "Направление к человеку или объекту (идти к врачу, подойти к окну).",
+      "notes": "Отвечает на вопрос: К кому? К чему?"
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Мы идем в театр.",
+      "translation": "We are going to the theater.",
+      "preposition_used": "в"
+    },
+    {
+      "sentence": "Она вернулась из магазина.",
+      "translation": "She returned from the store.",
+      "preposition_used": "из"
+    },
+    {
+      "sentence": "Подойдите к доске.",
+      "translation": "Come up to the board.",
+      "preposition_used": "к"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-direction",
+    "../../tools/ru/rod-padezhi/"
+  ]
+}

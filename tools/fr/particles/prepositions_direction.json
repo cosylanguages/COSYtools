@@ -1,0 +1,46 @@
+{
+  "id": "fr_prepositions_direction",
+  "category": "prepositions_direction",
+  "language": "fr",
+  "title": "Prépositions de Direction & Déplacement",
+  "level": "A2",
+  "definition": "Expriment la direction, le mouvement ou la provenance vers un lieu.",
+  "rules": [
+    {
+      "preposition": "vers",
+      "rule": "Indique la direction du mouvement sans garantir l'arrivée (marcher vers le parc).",
+      "notes": "S'utilise aussi pour les heures approximatives (vers 18h)."
+    },
+    {
+      "preposition": "jusqu'à",
+      "rule": "Marque la limite ultime d'un déplacement (aller jusqu'au bout).",
+      "notes": "Se contracte avec les articles définis (jusqu'au, jusqu'aux)."
+    },
+    {
+      "preposition": "de",
+      "rule": "Indique l'origine ou le point de départ d'un déplacement (venir de Lyon).",
+      "notes": "Se contracte en 'du' ou 'des'."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Le train va vers la gare centrale.",
+      "translation": "The train is going towards the central station.",
+      "preposition_used": "vers"
+    },
+    {
+      "sentence": "Nous marchons jusqu'au musée.",
+      "translation": "We are walking up to the museum.",
+      "preposition_used": "jusqu'à"
+    },
+    {
+      "sentence": "Elle revient de l'école.",
+      "translation": "She is coming back from school.",
+      "preposition_used": "de"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-direction",
+    "../../tools/fr/regime/"
+  ]
+}

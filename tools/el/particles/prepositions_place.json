@@ -1,0 +1,46 @@
+{
+  "id": "el_prepositions_place",
+  "category": "prepositions_place",
+  "language": "el",
+  "title": "Ελληνικές Προθέσεις Χώρου (Greek Prepositions of Place)",
+  "level": "A1",
+  "definition": "Οι προθέσεις χώρου δηλώνουν τη θέση ή το σημείο όπου βρίσκεται ένα πρόσωπο ή πράγμα.",
+  "rules": [
+    {
+      "preposition": "σε (+ αιτιατική)",
+      "rule": "Η βασική πρόθεση για θέση 'σε' συγχωνεύεται με το οριστικό άρθρο (στο, στη, στο, στους, στις).",
+      "notes": "Δηλώνει 'σε/στο' (in / at / on)."
+    },
+    {
+      "preposition": "πάνω σε (+ αιτιατική)",
+      "rule": "Δηλώνει επαφή με επιφάνεια (πάνω στο τραπέζι).",
+      "notes": "Σύνθετη πρόθεση."
+    },
+    {
+      "preposition": "κοντά σε (+ αιτιατική)",
+      "rule": "Δηλώνει εγγύτητα ή μικρή απόσταση (κοντά στο σταθμό).",
+      "notes": "Αντίθετο: μακριά από."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Το βιβλίο είναι πάνω στο τραπέζι.",
+      "translation": "The book is on the table.",
+      "preposition_used": "πάνω σε"
+    },
+    {
+      "sentence": "Μένουμε στην Αθήνα.",
+      "translation": "We live in Athens.",
+      "preposition_used": "σε"
+    },
+    {
+      "sentence": "Το σπίτι είναι κοντά στη θάλασσα.",
+      "translation": "The house is near the sea.",
+      "preposition_used": "κοντά σε"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-place",
+    "../../tools/el/syntaxi/"
+  ]
+}

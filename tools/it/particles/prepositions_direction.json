@@ -1,0 +1,46 @@
+{
+  "id": "it_prepositions_direction",
+  "category": "prepositions_direction",
+  "language": "it",
+  "title": "Preposizioni di Moto e Direzione",
+  "level": "A2",
+  "definition": "Indicano lo spostamento o movimento da o verso un luogo.",
+  "rules": [
+    {
+      "preposition": "verso",
+      "rule": "Indica la direzione del movimento verso un punto (camminare verso il centro).",
+      "notes": "Utilizzato anche per orari approssimativi."
+    },
+    {
+      "preposition": "fino a",
+      "rule": "Indica il limite finale del movimento (arrivare fino alla stazione).",
+      "notes": "Richiede la preposizione 'a'."
+    },
+    {
+      "preposition": "da",
+      "rule": "Indica la provenienza o l'origine del movimento (vengo da Milano).",
+      "notes": "Usato anche per dire 'andare da qualcuno'."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Camminiamo verso la piazza.",
+      "translation": "We walk towards the square.",
+      "preposition_used": "verso"
+    },
+    {
+      "sentence": "Siamo arrivati fino al fiume.",
+      "translation": "We made it up to the river.",
+      "preposition_used": "fino a"
+    },
+    {
+      "sentence": "Torno da Milano stasera.",
+      "translation": "I am returning from Milan tonight.",
+      "preposition_used": "da"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-direction",
+    "../../tools/it/reggenza/"
+  ]
+}

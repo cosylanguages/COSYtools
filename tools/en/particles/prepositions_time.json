@@ -1,0 +1,46 @@
+{
+  "id": "en_prepositions_time",
+  "category": "prepositions_time",
+  "language": "en",
+  "title": "English Prepositions of Time",
+  "level": "A1",
+  "definition": "Prepositions of time indicate when an action happens, including specific times, days, dates, and longer periods.",
+  "rules": [
+    {
+      "preposition": "at",
+      "rule": "Used for specific clock times, mealtimes, holidays, and exact points in time (at 5 PM, at noon, at Christmas).",
+      "notes": "Used for precise time indicators."
+    },
+    {
+      "preposition": "on",
+      "rule": "Used for days of the week, specific dates, and special single days (on Monday, on July 4th, on my birthday).",
+      "notes": "Used for calendar days."
+    },
+    {
+      "preposition": "in",
+      "rule": "Used for months, years, centuries, seasons, and periods of time (in May, in 2026, in summer, in the morning).",
+      "notes": "Used for broader timeframes."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "The movie starts at 8:00 PM.",
+      "translation": "The movie starts at 8:00 PM.",
+      "preposition_used": "at"
+    },
+    {
+      "sentence": "We have a meeting on Tuesday.",
+      "translation": "We have a meeting on Tuesday.",
+      "preposition_used": "on"
+    },
+    {
+      "sentence": "They visit us in summer.",
+      "translation": "They visit us in summer.",
+      "preposition_used": "in"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-time",
+    "../../tools/en/verb-prep/"
+  ]
+}

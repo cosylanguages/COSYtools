@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.com/schemas/particle.schema.json",
+  "title": "Preposition Particle Category Rule",
+  "description": "Schema for preposition rule datasets grouped by category across languages.",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "language",
+    "title",
+    "level",
+    "definition",
+    "rules",
+    "examples",
+    "practice_links"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the particle rule category entry (e.g. 'en_prepositions_place')."
+    },
+    "category": {
+      "type": "string",
+      "description": "Preposition category group (e.g. 'prepositions_place', 'prepositions_time', 'prepositions_direction', 'dependent_prepositions')."
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO language code (e.g. 'en', 'fr', 'it', 'ru', 'el')."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable title of the particle rule category."
+    },
+    "level": {
+      "type": "string",
+      "enum": ["A1", "A2", "B1", "B2", "B2+"],
+      "description": "CEFR proficiency level required for this rule set."
+    },
+    "definition": {
+      "type": "string",
+      "description": "Core explanation of how prepositions operate within this category."
+    },
+    "rules": {
+      "type": "array",
+      "description": "List of specific grammar rules or usage guidelines.",
+      "items": {
+        "type": "object",
+        "required": ["rule", "preposition"],
+        "properties": {
+          "preposition": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "examples": {
+      "type": "array",
+      "description": "Contextual example sentences illustrating the preposition rules.",
+      "items": {
+        "type": "object",
+        "required": ["sentence", "translation"],
+        "properties": {
+          "sentence": {
+            "type": "string"
+          },
+          "translation": {
+            "type": "string"
+          },
+          "preposition_used": {
+            "type": "string"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "practice_links": {
+      "type": "array",
+      "description": "Links or routes to interactive drills and tools.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}
