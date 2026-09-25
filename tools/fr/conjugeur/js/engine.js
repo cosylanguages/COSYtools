@@ -24,8 +24,19 @@ class ConjugationEngine {
             this.verbDb = await response.json();
             this.buildLemmatizationIndex();
             this.bindEvents();
+            this.handleInitialQueryParams();
         } catch (err) {
             console.error("Failed to load verbs database:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const params = new URLSearchParams(window.location.search);
+        const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
+        if (target) {
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 

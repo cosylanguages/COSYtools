@@ -76,22 +76,48 @@
 
 ---
 
-## 📘 Integration Guide for COSYmanuals
+## 📘 Integration Guide & Deep-Linking Specifications
 
-**COSYmanuals** (the written grammar textbook modules) link directly into COSYtools reference engines for interactive rule verification:
+External applications, COSYlanguages practice pages, and COSYmanuals can link directly into specific COSYtools engines and lexical items using standard query parameters:
 
-```html
-<!-- Example COSYmanuals embedding/link snippet -->
-<a href="https://cosylanguages.github.io/COSYtools/conjugation/template.html?lang=fr&verb=parler"
-   target="_blank" class="cosy-ref-link">
-   🔎 Verify French conjugation for "parler" on COSYtools
-</a>
+### Supported Deep-Linking Parameters
+- **Verb Conjugation Engines:**
+  - `tools/fr/conjugeur/?verb=aimer` (also accepts `infinitive`, `word`, `q`, `search`)
+  - `tools/it/coniugatore/?verb=parlare`
+  - `tools/ru/spryazhenie/?verb=читать`
+  - `tools/el/klisi-rimaton/?verb=γράφω`
+  - `tools/en/irregular-verbs/?verb=speak`
+  - `conjugation/template.html?lang=fr&verb=parler`
+- **Noun Gender & Declension Engines:**
+  - `tools/fr/genre/?noun=maison` (also accepts `word`, `q`, `search`)
+  - `tools/it/genere/?noun=libro`
+
+When loaded with a target query parameter, engines automatically populate the lookup input and trigger the search view immediately.
+
+---
+
+## 🔗 COSYdata `related_forms` Resolution Convention
+
+COSYdata vocabulary dataset entries reference canonical grammar engines in COSYtools using the structured identifier format:
+
+```
+COSYtools:<engine-id>:<lemma>
 ```
 
-When linking from COSYmanuals into COSYtools:
-1. Pass `lang=<code` parameter (`en`, `fr`, `it`, `ru`, `el`).
-2. Pass `verb=<infinitive>` or `noun=<word>` query parameter.
-3. Include target `mode=gender|cases|prepositions` if linking to specific sub-engines.
+### Mapping Convention to Resolvable URLs
+
+| COSYdata `related_forms` ID | Target Engine | Resolvable URL Pattern |
+| :--- | :--- | :--- |
+| `COSYtools:fr-conjugeur:aimer` | French Conjuguer | `https://cosylanguages.github.io/COSYtools/tools/fr/conjugeur/?verb=aimer` |
+| `COSYtools:it-coniugatore:parlare` | Italian Coniugatore | `https://cosylanguages.github.io/COSYtools/tools/it/coniugatore/?verb=parlare` |
+| `COSYtools:ru-spryazhenie:читать` | Russian Spryazhenie | `https://cosylanguages.github.io/COSYtools/tools/ru/spryazhenie/?verb=читать` |
+| `COSYtools:el-klisi-rimaton:γράφω` | Modern Greek Klisi | `https://cosylanguages.github.io/COSYtools/tools/el/klisi-rimaton/?verb=γράφω` |
+| `COSYtools:en-irregular-verbs:speak` | English Irregular Verbs | `https://cosylanguages.github.io/COSYtools/tools/en/irregular-verbs/?verb=speak` |
+| `COSYtools:fr-genre:maison` | French Gender Engine | `https://cosylanguages.github.io/COSYtools/tools/fr/genre/?noun=maison` |
+| `COSYtools:it-genere:libro` | Italian Gender Engine | `https://cosylanguages.github.io/COSYtools/tools/it/genere/?noun=libro` |
+
+Other repos (e.g., COSYlanguages, COSYdata) can reliably generate external links using this standard scheme:
+`https://cosylanguages.github.io/COSYtools/tools/<lang>/<engine>/?verb=<lemma>` (or `?noun=<lemma>`).
 
 ---
 
