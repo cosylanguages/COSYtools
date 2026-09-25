@@ -383,6 +383,21 @@ body.theme-dark .btn-gender {
   transition: background-color 0.18s ease;
 }
 
+.table-wrapper td:first-child, .conjugation-table td:first-child, .declension-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--surface-color, #ffffff);
+  font-weight: 600;
+}
+
+.table-wrapper th:first-child, .conjugation-table th:first-child, .declension-table th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--sage-light, #e8f0e9);
+}
+
 .table-wrapper tr:nth-child(even), .conjugation-table tr:nth-child(even), .declension-table tr:nth-child(even) {
   background: rgba(0, 0, 0, 0.015);
 }

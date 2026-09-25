@@ -6,6 +6,7 @@ class NounGenderEngine {
         this.gameStreak = 0;
         this.currentQuestion = null;
         this.gamePracticeMode = 'gender';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-fr-genre') : null;
         this.init();
     }
 
@@ -243,6 +244,7 @@ class NounGenderEngine {
             : `❌ Classe attendue : <strong>${expected.label}</strong>. Genre : ${data.gender}.`;
         this.gameScore += isCorrect ? 10 : 0;
         this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
+        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -314,6 +316,7 @@ class NounGenderEngine {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Oups ! La forme correcte est : <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
         }
+        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -334,6 +337,7 @@ class NounGenderEngine {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Erreur ! <strong>${this.currentQuestion.noun}</strong> est ${this.currentQuestion.expectedGender}.`;
         }
+        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
