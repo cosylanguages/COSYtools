@@ -93,8 +93,8 @@
         <!-- Filter Bar -->
         <div class="filter-section">
           <div class="filter-row">
-            <span class="filter-label">Language:</span>
-            <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)">All Languages (14)</button>
+            <span class="filter-label" data-i18n="filter_lang_label">Language:</span>
+            <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)" data-i18n="filter_all_langs">All Languages (14)</button>
             <button class="fpill" data-filter-lang="en" onclick="filterEngines('lang', 'en', this)">🇬🇧 English</button>
             <button class="fpill" data-filter-lang="fr" onclick="filterEngines('lang', 'fr', this)">🇫🇷 Français</button>
             <button class="fpill" data-filter-lang="it" onclick="filterEngines('lang', 'it', this)">🇮🇹 Italiano</button>
@@ -113,8 +113,8 @@
         </div>
 
         <!-- Featured Reference Categories Grid -->
-        <div class="category-header">
-            <span>✨</span> Core Reference Tools
+        <div class="category-header" data-i18n="cat_core_tools">
+            ✨ Core Reference Tools
         </div>
         <div class="ref-grid" id="core-tools-grid">
 
@@ -220,7 +220,7 @@
 
         <!-- Language Specific Engines -->
         <div class="category-header" id="cat-conjugation">
-            <span>📜</span> Detailed Language Reference Applications
+            📜 Detailed Language Reference Applications
         </div>
         <div class="engines-grid" id="grid-conjugation">
 
@@ -432,11 +432,11 @@
 
         <!-- Course Enrollment Promo Banner -->
         <div class="ref-promo-banner">
-            <h2>Ready to Practice &amp; Apply Your Grammar Knowledge?</h2>
-            <p>Visit the main COSYlanguages Practice Hub for interactive curriculum exercises, lessons, and multi-skill drills!</p>
+            <h2 data-i18n="promo_title">Ready to Practice &amp; Apply Your Grammar Knowledge?</h2>
+            <p data-i18n="promo_subtext">Visit the main COSYlanguages Practice Hub for interactive curriculum exercises, lessons, and multi-skill drills!</p>
             <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:1rem;">
-                <a href="https://cosylanguages.github.io/COSYlanguages/practice/" target="_blank" rel="noopener">Visit COSYlanguages Practice Hub 🎯</a>
-                <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" style="background:var(--sage-dark);">Explore All Courses ↗</a>
+                <a href="https://cosylanguages.github.io/COSYlanguages/practice/" target="_blank" rel="noopener" data-i18n="promo_btn_practice">Visit COSYlanguages Practice Hub 🎯</a>
+                <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" style="background:var(--sage-dark);" data-i18n="promo_btn_courses">Explore All Courses ↗</a>
             </div>
         </div>
 
