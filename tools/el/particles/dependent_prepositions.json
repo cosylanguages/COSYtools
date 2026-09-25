@@ -1,0 +1,46 @@
+{
+  "id": "el_dependent_prepositions",
+  "category": "dependent_prepositions",
+  "language": "el",
+  "title": "Ελληνική Σύνταξη Ρημάτων (Dependent Prepositions)",
+  "level": "A2",
+  "definition": "Σύνταξη ρημάτων και επιθέτων με συγκεκριμένες προθέσεις και πτώσεις.",
+  "rules": [
+    {
+      "preposition": "εξαρτώμαι από (+ αιτιατική)",
+      "rule": "Το ρήμα εξαρτώμαι συντάσσεται πάντα με την πρόθεση 'από' και αιτιατική.",
+      "notes": "Εξαρτάται από τον καιρό."
+    },
+    {
+      "preposition": "μιλώ σε / για (+ αιτιατική)",
+      "rule": "Μιλώ σε κάποιον (αποδέκτης) και μιλώ για κάποιο θέμα (θέμα).",
+      "notes": "Σε για το πρόσωπο, Για για το θέμα."
+    },
+    {
+      "preposition": "ενδιαφέρομαι για (+ αιτιατική)",
+      "rule": "Το ρήμα ενδιαφέρομαι απαιτεί 'για' + αιτιατική.",
+      "notes": "Ενδιαφέρομαι για τη μουσική."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Όλα εξαρτώνται από τις συνθήκες.",
+      "translation": "Everything depends on the conditions.",
+      "preposition_used": "εξαρτώμαι από"
+    },
+    {
+      "sentence": "Μίλησα στον καθηγητή για την εξέταση.",
+      "translation": "I spoke to the teacher about the exam.",
+      "preposition_used": "σε / για"
+    },
+    {
+      "sentence": "Ενδιαφέρομαι για τη μουσική.",
+      "translation": "I am interested in music.",
+      "preposition_used": "για"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=dependent_prepositions",
+    "../../tools/el/syntaxi/"
+  ]
+}

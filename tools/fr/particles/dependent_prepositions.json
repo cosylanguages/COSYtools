@@ -1,0 +1,46 @@
+{
+  "id": "fr_dependent_prepositions",
+  "category": "dependent_prepositions",
+  "language": "fr",
+  "title": "Régime Prépositionnel Français (Prépositions Dépendantes)",
+  "level": "A2",
+  "definition": "Construction obligatoire d'un verbe ou adjectif exigeant 'à' ou 'de' suivi d'un complément ou infinitif.",
+  "rules": [
+    {
+      "preposition": "parler à / de",
+      "rule": "Parler à quelqu'un (destinataire) vs parler de quelque chose (sujet).",
+      "notes": "À pour la personne, De pour le thème."
+    },
+    {
+      "preposition": "dépendre de",
+      "rule": "Le verbe dépendre exige la préposition 'de'.",
+      "notes": "Ne jamais utiliser 'sur'."
+    },
+    {
+      "preposition": "décider de",
+      "rule": "Décider suivi d'un infinitif prend la préposition 'de' (décider de partir).",
+      "notes": "À ne pas confondre avec se décider à."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Je parle à Marie de mon projet.",
+      "translation": "I am speaking to Marie about my project.",
+      "preposition_used": "à / de"
+    },
+    {
+      "sentence": "Cela dépend de la situation.",
+      "translation": "That depends on the situation.",
+      "preposition_used": "de"
+    },
+    {
+      "sentence": "Nous avons décidé de partir.",
+      "translation": "We decided to leave.",
+      "preposition_used": "de"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=dependent_prepositions",
+    "../../tools/fr/regime/"
+  ]
+}

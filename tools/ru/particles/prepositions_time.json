@@ -1,0 +1,46 @@
+{
+  "id": "ru_prepositions_time",
+  "category": "prepositions_time",
+  "language": "ru",
+  "title": "Русские предлоги времени (Prepositions of Time)",
+  "level": "A1",
+  "definition": "Указывают на точное время, дни недели, месяцы и временные промежутки.",
+  "rules": [
+    {
+      "preposition": "в (+ винительный падеж)",
+      "rule": "Указывает на точное время по часам и дни недели (в 5 часов, в понедельник).",
+      "notes": "Вопрос: Когда?"
+    },
+    {
+      "preposition": "в (+ предложный падеж)",
+      "rule": "Указывает на месяц или год (в мае, в 2026 году).",
+      "notes": "Вопрос: В каком месяце/году?"
+    },
+    {
+      "preposition": "через (+ винительный падеж)",
+      "rule": "Обозначает промежуток времени, спустя который произойдет действие (через час, через два дня).",
+      "notes": "Указывает на будущее время."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Урок начинается в 9 часов.",
+      "translation": "The lesson starts at 9 o'clock.",
+      "preposition_used": "в"
+    },
+    {
+      "sentence": "Экзамен будет в июне.",
+      "translation": "The exam will be in June.",
+      "preposition_used": "в"
+    },
+    {
+      "sentence": "Я приеду через час.",
+      "translation": "I will arrive in an hour.",
+      "preposition_used": "через"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-time",
+    "../../tools/ru/rod-padezhi/"
+  ]
+}

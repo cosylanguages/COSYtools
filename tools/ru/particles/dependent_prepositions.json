@@ -1,0 +1,46 @@
+{
+  "id": "ru_dependent_prepositions",
+  "category": "dependent_prepositions",
+  "language": "ru",
+  "title": "Глагольное управление в русском языке (Dependent Prepositions)",
+  "level": "A2",
+  "definition": "Фиксированное предложное управление глаголов и существительных в русском языке.",
+  "rules": [
+    {
+      "preposition": "зависеть от (+ родительный падеж)",
+      "rule": "Глагол зависеть всегда требует предлога 'от' и родительного падежа.",
+      "notes": "Зависеть от погоды / от решения."
+    },
+    {
+      "preposition": "надеяться на (+ винительный падеж)",
+      "rule": "Глагол надеяться управляет предлогом 'на' и винительным падежом.",
+      "notes": "Надеяться на помощь / на успех."
+    },
+    {
+      "preposition": "заботиться о (+ предложный падеж)",
+      "rule": "Заботиться требует предлога 'о/об' и предложного падежа.",
+      "notes": "Заботиться о детях."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Всё зависит от погоды.",
+      "translation": "Everything depends on the weather.",
+      "preposition_used": "зависеть от"
+    },
+    {
+      "sentence": "Мы надеемся на лучшую погоду.",
+      "translation": "We hope for better weather.",
+      "preposition_used": "надеяться на"
+    },
+    {
+      "sentence": "Родители заботятся о детях.",
+      "translation": "Parents take care of children.",
+      "preposition_used": "заботиться о"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=dependent_prepositions",
+    "../../tools/ru/rod-padezhi/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "en_prepositions_direction",
+  "category": "prepositions_direction",
+  "language": "en",
+  "title": "English Prepositions of Direction & Movement",
+  "level": "A2",
+  "definition": "Prepositions of direction describe movement from one place to another.",
+  "rules": [
+    {
+      "preposition": "to",
+      "rule": "Indicates movement towards a specific target or destination (walk to school, drive to work).",
+      "notes": "Focuses on the endpoint."
+    },
+    {
+      "preposition": "into",
+      "rule": "Indicates movement entering an enclosed space or surface from outside (walk into the room).",
+      "notes": "Combines direction 'to' with interior position 'in'."
+    },
+    {
+      "preposition": "towards",
+      "rule": "Indicates direction of movement without implying arrival at the final destination (walking towards the park).",
+      "notes": "Focuses on orientation."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "He walked into the office.",
+      "translation": "He walked into the office.",
+      "preposition_used": "into"
+    },
+    {
+      "sentence": "She is driving to work.",
+      "translation": "She is driving to work.",
+      "preposition_used": "to"
+    },
+    {
+      "sentence": "They ran towards the exit.",
+      "translation": "They ran towards the exit.",
+      "preposition_used": "towards"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-direction",
+    "../../tools/en/verb-prep/"
+  ]
+}

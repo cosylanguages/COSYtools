@@ -1,0 +1,46 @@
+{
+  "id": "it_dependent_prepositions",
+  "category": "dependent_prepositions",
+  "language": "it",
+  "title": "Reggenza Verbale Italiana (Preposizioni Dipendenti)",
+  "level": "A2",
+  "definition": "Preposizioni fisse richieste da verbi, sostantivi o aggettivi italiani.",
+  "rules": [
+    {
+      "preposition": "pensare a / di",
+      "rule": "Pensare a (rivolgere l'attenzione a persona/cosa) vs pensare di (avere un'opinione o intenzione).",
+      "notes": "Non usare mai 'pensare su'."
+    },
+    {
+      "preposition": "dipendere da",
+      "rule": "Il verbo dipendere richiede sempre la preposizione 'da'.",
+      "notes": "Seguito da sostantivo o pronome."
+    },
+    {
+      "preposition": "cercare di",
+      "rule": "Il verbo cercare con significato di tentare richiede 'di' + infinito.",
+      "notes": "Cercare + diretto = cercare un oggetto smarrito."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Penso a te ogni giorno.",
+      "translation": "I think of you every day.",
+      "preposition_used": "a"
+    },
+    {
+      "sentence": "Tutto dipende dalla risposta.",
+      "translation": "Everything depends on the answer.",
+      "preposition_used": "da"
+    },
+    {
+      "sentence": "Cerco di capire la regola.",
+      "translation": "I am trying to understand the rule.",
+      "preposition_used": "di"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=dependent_prepositions",
+    "../../tools/it/reggenza/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "el_prepositions_direction",
+  "category": "prepositions_direction",
+  "language": "el",
+  "title": "Προθέσεις Κατεύθυνσης & Κίνησης (Direction)",
+  "level": "A2",
+  "definition": "Δηλώνουν την κατεύθυνση, την προέλευση ή την κίνηση προς έναν στόχο.",
+  "rules": [
+    {
+      "preposition": "προς (+ αιτιατική)",
+      "rule": "Δηλώνει κατεύθυνση κίνησης προς ένα σημείο (προχωρώ προς το κέντρο).",
+      "notes": "Χωρίς απαραίτητα να σημαίνει άφιξη."
+    },
+    {
+      "preposition": "από (+ αιτιατική)",
+      "rule": "Δηλώνει προέλευση ή σημείο εκκίνησης (έρχομαι από την Ελλάδα).",
+      "notes": "Συγχωνεύεται με άρθρο (από το, από τη)."
+    },
+    {
+      "preposition": "μέχρι (+ αιτιατική)",
+      "rule": "Δηλώνει το τελικό όριο της κίνησης (περπατώ μέχρι το πάρκο).",
+      "notes": "Επίσης 'ως'."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Πηγαίνουμε προς την παραλία.",
+      "translation": "We are heading towards the beach.",
+      "preposition_used": "προς"
+    },
+    {
+      "sentence": "Κατάγεται από την Αθήνα.",
+      "translation": "He comes from Athens.",
+      "preposition_used": "από"
+    },
+    {
+      "sentence": "Περπατήσαμε μέχρι το λιμάνι.",
+      "translation": "We walked as far as the port.",
+      "preposition_used": "μέχρι"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-direction",
+    "../../tools/el/syntaxi/"
+  ]
+}

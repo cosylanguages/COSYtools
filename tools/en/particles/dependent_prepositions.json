@@ -1,0 +1,46 @@
+{
+  "id": "en_dependent_prepositions",
+  "category": "dependent_prepositions",
+  "language": "en",
+  "title": "English Dependent Prepositions",
+  "level": "A2",
+  "definition": "Dependent prepositions are fixed prepositions required by specific verbs, adjectives, or nouns to complete their meaning.",
+  "rules": [
+    {
+      "preposition": "depend on",
+      "rule": "The verb 'depend' takes 'on' or 'upon' when expressing reliance or conditionality.",
+      "notes": "Never use 'depend of'."
+    },
+    {
+      "preposition": "listen to",
+      "rule": "The verb 'listen' requires 'to' when indicating the target of hearing or attention.",
+      "notes": "Never omit 'to' before the object."
+    },
+    {
+      "preposition": "interested in",
+      "rule": "The adjective 'interested' is followed by 'in' when expressing curiosity or concern.",
+      "notes": "Followed by a noun or gerund (-ing)."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Our trip depends on the weather.",
+      "translation": "Our trip depends on the weather.",
+      "preposition_used": "depend on"
+    },
+    {
+      "sentence": "Please listen to the instructions.",
+      "translation": "Please listen to the instructions.",
+      "preposition_used": "listen to"
+    },
+    {
+      "sentence": "She is interested in learning French.",
+      "translation": "She is interested in learning French.",
+      "preposition_used": "interested in"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=dependent_prepositions",
+    "../../tools/en/verb-prep/"
+  ]
+}

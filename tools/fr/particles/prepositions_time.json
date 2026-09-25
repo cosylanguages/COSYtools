@@ -1,0 +1,46 @@
+{
+  "id": "fr_prepositions_time",
+  "category": "prepositions_time",
+  "language": "fr",
+  "title": "Prépositions de Temps en Français",
+  "level": "A1",
+  "definition": "Les prépositions de temps permettent d'exprimer le moment, la durée ou l'échéance d'une action.",
+  "rules": [
+    {
+      "preposition": "à",
+      "rule": "Utilisé pour indiquer l'heure exacte (à 8 heures, à midi).",
+      "notes": "Indique un point précis dans la journée."
+    },
+    {
+      "preposition": "en",
+      "rule": "Utilisé pour les mois, les années et les saisons précédées d'une voyelle (en mai, en 2026, en été).",
+      "notes": "Attention : 'au printemps'."
+    },
+    {
+      "preposition": "pendant",
+      "rule": "Exprime la durée d'une action délimitée dans le temps (pendant trois jours).",
+      "notes": "Contraire de 'depuis' (qui continue dans le présent)."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Le cours commence à 9h00.",
+      "translation": "The class starts at 9:00 AM.",
+      "preposition_used": "à"
+    },
+    {
+      "sentence": "Nous partons en vacances en juillet.",
+      "translation": "We are going on vacation in July.",
+      "preposition_used": "en"
+    },
+    {
+      "sentence": "Il a dormi pendant huit heures.",
+      "translation": "He slept for eight hours.",
+      "preposition_used": "pendant"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-time",
+    "../../tools/fr/regime/"
+  ]
+}

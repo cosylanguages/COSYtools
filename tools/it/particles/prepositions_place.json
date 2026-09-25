@@ -1,0 +1,46 @@
+{
+  "id": "it_prepositions_place",
+  "category": "prepositions_place",
+  "language": "it",
+  "title": "Preposizioni di Luogo in Italiano",
+  "level": "A1",
+  "definition": "Le preposizioni di luogo indicano la posizione di persone o cose nello spazio.",
+  "rules": [
+    {
+      "preposition": "in",
+      "rule": "Si usa per nazioni, regioni, grandi isole e ambienti chiusi (in Italia, in cucina, in banca).",
+      "notes": "Non richiede l'articolo con nomi di paesi al singolare."
+    },
+    {
+      "preposition": "a",
+      "rule": "Si usa per città, piccole isole e luoghi specifici (a Roma, a scuola, a casa).",
+      "notes": "Si fonde con gli articoli definiti (al, alla, agli)."
+    },
+    {
+      "preposition": "su",
+      "rule": "Indica contatto su una superficie (su quel tavolo, sulla sedia).",
+      "notes": "Diventa preposizione articolata (sul, sulla, sui)."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Abito a Roma.",
+      "translation": "I live in Rome.",
+      "preposition_used": "a"
+    },
+    {
+      "sentence": "Il libro è sul tavolo.",
+      "translation": "The book is on the table.",
+      "preposition_used": "su"
+    },
+    {
+      "sentence": "Siamo in Italia.",
+      "translation": "We are in Italy.",
+      "preposition_used": "in"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-place",
+    "../../tools/it/reggenza/"
+  ]
+}

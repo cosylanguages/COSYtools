@@ -1,0 +1,46 @@
+{
+  "id": "it_prepositions_time",
+  "category": "prepositions_time",
+  "language": "it",
+  "title": "Preposizioni di Tempo in Italiano",
+  "level": "A1",
+  "definition": "Esprimono momenti, orari, date e durate temporali.",
+  "rules": [
+    {
+      "preposition": "a",
+      "rule": "Si usa per le ore precise, mesi e festività (alle 8:00, a maggio, a Natale).",
+      "notes": "Per i mesi si usa sia 'a' che 'in'."
+    },
+    {
+      "preposition": "in",
+      "rule": "Si usa per stagioni, anni e secoli (in estate, nel 2026).",
+      "notes": "Diventa articolata con gli anni (nel 2026)."
+    },
+    {
+      "preposition": "da",
+      "rule": "Indica un'azione iniziata nel passato che continua nel presente (studio da due anni).",
+      "notes": "Corrisponde all'inglese 'for/since' con il presente."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "La lezione comincia alle 9.",
+      "translation": "The lesson starts at 9.",
+      "preposition_used": "a"
+    },
+    {
+      "sentence": "Andiamo in vacanza in estate.",
+      "translation": "We go on vacation in summer.",
+      "preposition_used": "in"
+    },
+    {
+      "sentence": "Lavoro qui da tre anni.",
+      "translation": "I have been working here for three years.",
+      "preposition_used": "da"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-time",
+    "../../tools/it/reggenza/"
+  ]
+}

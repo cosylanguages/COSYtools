@@ -1,0 +1,46 @@
+{
+  "id": "en_prepositions_place",
+  "category": "prepositions_place",
+  "language": "en",
+  "title": "English Prepositions of Place",
+  "level": "A1",
+  "definition": "Prepositions of place show the position or location of something in relation to another object or place.",
+  "rules": [
+    {
+      "preposition": "in",
+      "rule": "Used for enclosed spaces, geographical areas, or three-dimensional volumes (in a room, in London, in a box).",
+      "notes": "Think of 'in' as being inside boundaries."
+    },
+    {
+      "preposition": "on",
+      "rule": "Used for surfaces, lines, floors of a building, or public transport vehicles (on the table, on the 2nd floor, on the bus).",
+      "notes": "Implies contact with a surface."
+    },
+    {
+      "preposition": "at",
+      "rule": "Used for specific points, addresses, events, or general locations (at the door, at 10 Downing Street, at the bus stop).",
+      "notes": "Targeted point rather than area."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "The keys are on the table.",
+      "translation": "The keys are on the table.",
+      "preposition_used": "on"
+    },
+    {
+      "sentence": "She lives in London.",
+      "translation": "She lives in London.",
+      "preposition_used": "in"
+    },
+    {
+      "sentence": "We met at the station.",
+      "translation": "We met at the station.",
+      "preposition_used": "at"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-place",
+    "../../tools/en/verb-prep/"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "el_prepositions_time",
+  "category": "prepositions_time",
+  "language": "el",
+  "title": "Ελληνικές Προθέσεις Χρόνου (Greek Prepositions of Time)",
+  "level": "A1",
+  "definition": "Δηλώνουν τη χρονική στιγμή, την ώρα, τις ημέρες και τις περιόδους.",
+  "rules": [
+    {
+      "preposition": "σε (+ αιτιατική)",
+      "rule": "Χρησιμοποιείται για την ώρα, τους μήνες και τις περιόδους (στις 8:00, το Μάιο / στη διάρκεια).",
+      "notes": "Στη συγχώνευση: στις 5, στο Μάιο."
+    },
+    {
+      "preposition": "πριν (+ από)",
+      "rule": "Δηλώνει χρόνο προγενέστερο (πριν από το μάθημα).",
+      "notes": "Συντάσσεται με 'από'."
+    },
+    {
+      "preposition": "μετά (+ από)",
+      "rule": "Δηλώνει χρόνο μεταγενέστερο (μετά από τη δουλειά).",
+      "notes": "Συντάσσεται με 'από'."
+    }
+  ],
+  "examples": [
+    {
+      "sentence": "Το μάθημα αρχίζει στις 9:00.",
+      "translation": "The class starts at 9:00.",
+      "preposition_used": "σε"
+    },
+    {
+      "sentence": "Έφτασα πριν από τη συναυλία.",
+      "translation": "I arrived before the concert.",
+      "preposition_used": "πριν"
+    },
+    {
+      "sentence": "Θα συναντηθούμε μετά τη δουλειά.",
+      "translation": "We will meet after work.",
+      "preposition_used": "μετά"
+    }
+  ],
+  "practice_links": [
+    "../../practice/index.html?topic=prepositions-time",
+    "../../tools/el/syntaxi/"
+  ]
+}
