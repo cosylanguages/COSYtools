@@ -25,6 +25,28 @@
         return null;
     };
 
+    /**
+     * Renders autocomplete suggestions box items.
+     * @param {string} containerId
+     * @param {Array<{title: string, sub: string, onClick: string}>} items
+     */
+    window.COSY.renderSuggestionsBox = function(containerId, items) {
+        const box = document.getElementById(containerId);
+        if (!box) return;
+        if (!items || items.length === 0) {
+            box.style.display = 'none';
+            box.innerHTML = '';
+            return;
+        }
+        box.innerHTML = items.map(item => `
+            <div class="suggestion-item" onclick="${item.onClick}">
+                <span><strong>${item.title}</strong></span>
+                <span style="color: var(--ink-muted); font-size: 0.85rem;">${item.sub || ''}</span>
+            </div>
+        `).join('');
+        box.style.display = 'block';
+    };
+
     /* ─── THEME CONFIGURATION ────────────────────────────────────── */
     window.COMMON_THEMES = [
         { id: "numbers_math", label: "common_theme_numbers_math" },

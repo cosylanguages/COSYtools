@@ -6,6 +6,7 @@ class RussianGenderCasesEngine {
         this.gameStreak = 0;
         this.currentQuestion = null;
         this.gamePracticeMode = 'gender';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-ru-rod-padezhi') : null;
         this.init();
     }
 
@@ -238,6 +239,9 @@ class RussianGenderCasesEngine {
             : `❌ Правильный класс: <strong>${expected.label}</strong>. ${data.gender} род.`;
         this.gameScore += isCorrect ? 10 : 0;
         this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`ending:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -333,6 +337,9 @@ class RussianGenderCasesEngine {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Ошибка! Правильно: <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${this.currentQuestion.expected}</strong>.`;
         }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`cases:${this.currentQuestion.caseName}:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -351,6 +358,9 @@ class RussianGenderCasesEngine {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Ошибка! Слово <strong>${this.currentQuestion.noun}</strong> — ${this.currentQuestion.expectedGender} род.`;
+        }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`gender:${this.currentQuestion.noun}`, isCorrect);
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
