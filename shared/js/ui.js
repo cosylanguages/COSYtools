@@ -5795,6 +5795,12 @@
     // UI Language Translations for COSYtools Hub Pages
     const HUB_I18N = {
         en: {
+            nav_core_tools: "Core Tools 🛠️",
+            nav_conjugation: "Conjugation 📜",
+            nav_gender: "Gender ⚖️",
+            nav_cases: "Cases 🏛️",
+            nav_prepositions: "Prepositions 📍",
+            nav_practice: "Practice Drills ⚡",
             hero_tag: "📲 Always Free · Offline Reference · 100% Client-Side",
             hero_title: "Language Reference & Practice Tools",
             hero_subtext: "Conjugation engines, gender checkers, case systems, and more across 14 languages.",
@@ -5829,6 +5835,12 @@
             promo_btn_courses: "Explore All Courses ↗"
         },
         fr: {
+            nav_core_tools: "Outils Principaux 🛠️",
+            nav_conjugation: "Conjugaison 📜",
+            nav_gender: "Genre ⚖️",
+            nav_cases: "Cas 🏛️",
+            nav_prepositions: "Prépositions 📍",
+            nav_practice: "Exercices ⚡",
             hero_tag: "📲 Toujours Gratuit · Référence Hors Ligne · 100% Côté Client",
             hero_title: "Outils de Référence & Pratique Linguistique",
             hero_subtext: "Moteurs de conjugaison, vérificateurs de genre, déclinaisons de cas et plus dans 14 langues.",
@@ -5863,6 +5875,12 @@
             promo_btn_courses: "Explorer tous les cours ↗"
         },
         it: {
+            nav_core_tools: "Strumenti Principali 🛠️",
+            nav_conjugation: "Coniugazione 📜",
+            nav_gender: "Genere ⚖️",
+            nav_cases: "Casi 🏛️",
+            nav_prepositions: "Preposizioni 📍",
+            nav_practice: "Esercitazioni ⚡",
             hero_tag: "📲 Sempre Gratuito · Consultazione Offline · 100% Lato Client",
             hero_title: "Strumenti di Consultazione e Esercitazione Linguistica",
             hero_subtext: "Motori di coniugazione, controllo del genere, declinazioni e molto altro in 14 lingue.",
@@ -5897,6 +5915,12 @@
             promo_btn_courses: "Esplora tutti i corsi ↗"
         },
         ru: {
+            nav_core_tools: "Основные Инструменты 🛠️",
+            nav_conjugation: "Спряжение 📜",
+            nav_gender: "Род ⚖️",
+            nav_cases: "Падежи 🏛️",
+            nav_prepositions: "Предлоги 📍",
+            nav_practice: "Тренажеры ⚡",
             hero_tag: "📲 Всегда Бесплатно · Офлайн-Справочники · 100% Клиентский Код",
             hero_title: "Языковые Справочники и Тренажеры",
             hero_subtext: "Глагольное спряжение, род существительных, падежные системы и другое для 14 языков.",
@@ -5931,6 +5955,12 @@
             promo_btn_courses: "Все курсы COSYlanguages ↗"
         },
         el: {
+            nav_core_tools: "Βασικά Εργαλεία 🛠️",
+            nav_conjugation: "Κλίση 📜",
+            nav_gender: "Γένος ⚖️",
+            nav_cases: "Πτώσεις 🏛️",
+            nav_prepositions: "Προθέσεις 📍",
+            nav_practice: "Ασκήσεις ⚡",
             hero_tag: "📲 Πάντα Δωρεάν · Εκτός Σύνδεσης · 100% Client-Side",
             hero_title: "Εργαλεία Αναφοράς & Εξάσκησης Γλωσσών",
             hero_subtext: "Μηχανές κλίσης ρημάτων, έλεγχος γένους, πτώσεις και πολλά άλλα σε 14 γλώσσες.",

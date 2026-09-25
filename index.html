@@ -26,6 +26,7 @@
 
     <script src="shared/js/languages.js"></script>
     <script src="shared/js/engine.js"></script>
+    <script src="shared/js/ui.js"></script>
     <script src="shared/engines/reference-utils.js"></script>
 </head>
 <body class="engines-hub-page">
@@ -51,12 +52,13 @@
           <span class="sep">/</span>
           <span class="current">Reference Hub</span>
         </div>
-        <nav class="sd-jump-links" aria-label="Ecosystem Links" style="display: flex; align-items: center; gap: 0.75rem;">
-          <a href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" class="sd-jump-link">Home 🏠</a>
-          <a href="https://cosylanguages.github.io/COSYlanguages/practice/" target="_blank" rel="noopener" class="sd-jump-link">Practice 💡</a>
-          <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="sd-jump-link">Games 🎮</a>
-          <a href="index.html" class="sd-jump-link active">Tools 🔎</a>
-          <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="sd-jump-link">Events 🎉</a>
+        <nav class="sd-jump-links" aria-label="COSYtools Quick Navigation" style="display: flex; align-items: center; gap: 0.75rem;">
+          <a href="#core-tools-grid" class="sd-jump-link" data-i18n="nav_core_tools">Core Tools 🛠️</a>
+          <a href="conjugation/template.html" class="sd-jump-link" data-i18n="nav_conjugation">Conjugation 📜</a>
+          <a href="gender/index.html" class="sd-jump-link" data-i18n="nav_gender">Gender ⚖️</a>
+          <a href="cases/index.html" class="sd-jump-link" data-i18n="nav_cases">Cases 🏛️</a>
+          <a href="prepositions/index.html" class="sd-jump-link" data-i18n="nav_prepositions">Prepositions 📍</a>
+          <a href="practice/index.html" class="sd-jump-link" data-i18n="nav_practice">Practice Drills ⚡</a>
           <div class="cosy-ui-lang-switcher" style="margin-left: 0.5rem;">
             <select id="cosy-ui-language-select" onchange="COSY_UI.setUILanguage(this.value)" class="styled-sel" style="padding: 4px 8px; font-size: 0.85rem; border-radius: var(--r-sm); background: var(--surface-color); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
               <option value="en">🇬🇧 English</option>
@@ -123,12 +125,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">📜</span>
-                        <h3 class="ref-card-title">Multi-Language Conjugation</h3>
+                        <h3 class="ref-card-title" data-i18n="card_conj_title">Multi-Language Conjugation</h3>
                     </div>
-                    <p class="ref-card-desc">Compare verb conjugation tables with tense/mood filters across English, French, Italian, Russian, and Greek.</p>
+                    <p class="ref-card-desc" data-i18n="card_conj_desc">Compare verb conjugation tables with tense/mood filters across English, French, Italian, Russian, and Greek.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ Compare Across Languages</span>
+                    <span data-i18n="btn_compare_langs">▶ Compare Across Languages</span>
                 </div>
             </a>
 
@@ -137,12 +139,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">⚖️</span>
-                        <h3 class="ref-card-title">Gender Checker</h3>
+                        <h3 class="ref-card-title" data-i18n="card_gender_title">Gender Checker</h3>
                     </div>
-                    <p class="ref-card-desc">Instant noun gender lookup with article guidelines, plural rules, and common exceptions.</p>
+                    <p class="ref-card-desc" data-i18n="card_gender_desc">Instant noun gender lookup with article guidelines, plural rules, and common exceptions.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ Launch Gender Checker</span>
+                    <span data-i18n="btn_launch_gender">▶ Launch Gender Checker</span>
                 </div>
             </a>
 
@@ -151,12 +153,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">🏛️</span>
-                        <h3 class="ref-card-title">Case Systems</h3>
+                        <h3 class="ref-card-title" data-i18n="card_cases_title">Case Systems</h3>
                     </div>
-                    <p class="ref-card-desc">Interactive declension matrices for Russian (6 cases) and Greek (4 cases) with clickable rule breakdowns.</p>
+                    <p class="ref-card-desc" data-i18n="card_cases_desc">Interactive declension matrices for Russian (6 cases) and Greek (4 cases) with clickable rule breakdowns.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ Launch Case Reference</span>
+                    <span data-i18n="btn_launch_cases">▶ Launch Case Reference</span>
                 </div>
             </a>
 
@@ -165,12 +167,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">📍</span>
-                        <h3 class="ref-card-title">Multi-Language Prepositions</h3>
+                        <h3 class="ref-card-title" data-i18n="card_prep_title">Multi-Language Prepositions</h3>
                     </div>
-                    <p class="ref-card-desc">Compare dependent prepositions, case governing rules, and usage examples across 5 major languages.</p>
+                    <p class="ref-card-desc" data-i18n="card_prep_desc">Compare dependent prepositions, case governing rules, and usage examples across 5 major languages.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ Compare Across Languages</span>
+                    <span data-i18n="btn_compare_langs">▶ Compare Across Languages</span>
                 </div>
             </a>
 
@@ -179,12 +181,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">🔄</span>
-                        <h3 class="ref-card-title">Verb Patterns</h3>
+                        <h3 class="ref-card-title" data-i18n="card_patterns_title">Verb Patterns</h3>
                     </div>
-                    <p class="ref-card-desc">Pedagogical pattern groups (vowel change, add -en, same past participle, radical shifts).</p>
+                    <p class="ref-card-desc" data-i18n="card_patterns_desc">Pedagogical pattern groups (vowel change, add -en, same past participle, radical shifts).</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ View Verb Patterns</span>
+                    <span data-i18n="btn_view_patterns">▶ View Verb Patterns</span>
                 </div>
             </a>
 
@@ -193,12 +195,12 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">📚</span>
-                        <h3 class="ref-card-title">Noun Declensions</h3>
+                        <h3 class="ref-card-title" data-i18n="card_declensions_title">Noun Declensions</h3>
                     </div>
-                    <p class="ref-card-desc">Complete noun ending guides, plural formation rules, and vocalic stem paradigms.</p>
+                    <p class="ref-card-desc" data-i18n="card_declensions_desc">Complete noun ending guides, plural formation rules, and vocalic stem paradigms.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ View Noun Declensions</span>
+                    <span data-i18n="btn_view_declensions">▶ View Noun Declensions</span>
                 </div>
             </a>
 
@@ -207,19 +209,19 @@
                 <div>
                     <div class="ref-card-header">
                         <span class="ref-card-icon">⚡</span>
-                        <h3 class="ref-card-title">Quick Practice Drills</h3>
+                        <h3 class="ref-card-title" data-i18n="card_practice_title">Quick Practice Drills</h3>
                     </div>
-                    <p class="ref-card-desc">Targeted drills, SRS memory review, weak spots tracker, and direct integration with COSYgames.</p>
+                    <p class="ref-card-desc" data-i18n="card_practice_desc">Targeted drills, SRS memory review, weak spots tracker, and direct integration with COSYgames.</p>
                 </div>
                 <div class="engine-cta-btn">
-                    <span>▶ Open Practice Drills</span>
+                    <span data-i18n="btn_open_drills">▶ Open Practice Drills</span>
                 </div>
             </a>
 
         </div>
 
         <!-- Language Specific Engines -->
-        <div class="category-header" id="cat-conjugation">
+        <div class="category-header" id="cat-conjugation" data-i18n="cat_detailed_tools">
             📜 Detailed Language Reference Applications
         </div>
         <div class="engines-grid" id="grid-conjugation">
