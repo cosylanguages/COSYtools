@@ -3,21 +3,21 @@
 @import url("../../../shared/css/components.css");
 
 :root {
-    --sage-primary: #1b4332;
-    --sage-dark: #081c15;
-    --sage-light: #2d6a4f;
-    --sage-pale: #d8f3dc;
-    --sage-mist: #e8f5e9;
-    --terracotta: #b7094c;
-    --terracotta-light: #ffccd5;
-    --paper-bg: #faf7f2;
-    --surface-white: #ffffff;
-    --ink-main: #2b2d42;
-    --ink-soft: #4a4e69;
-    --ink-faint: #8d99ae;
-    --border-color: #e2d9cd;
-    --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
-    --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.08);
+    --sage-primary: var(--cosy-color-sage, #416b49);
+    --sage-dark: var(--cosy-color-sage-dark, #375742);
+    --sage-light: var(--cosy-color-sage-light, #e8f0e9);
+    --sage-pale: var(--cosy-color-sage-pale, #e8f0e9);
+    --sage-mist: var(--cosy-color-sage-mist, #f0f5f1);
+    --terracotta: var(--cosy-color-coral, #B84318);
+    --terracotta-light: var(--cosy-color-coral-light, #faeee8);
+    --paper-bg: var(--cream, #fdfcf8);
+    --surface-white: var(--surface-color, #FFFFFF);
+    --ink-main: var(--ink, #2a2a2a);
+    --ink-soft: var(--ink-soft, #4a4a4a);
+    --ink-faint: var(--ink-faint, #5c5957);
+    --border-color: var(--border, rgba(74, 107, 80, 0.12));
+    --shadow-soft: var(--shadow-sm);
+    --shadow-medium: var(--shadow);
 }
 
 body {
@@ -135,7 +135,7 @@ body {
 
 .ring-fill {
     fill: none;
-    stroke: var(--sage-light);
+    stroke: var(--sage-soft);
     stroke-width: 4;
     stroke-linecap: round;
     transform: rotate(-90deg);
@@ -246,18 +246,18 @@ body {
 }
 
 .cefr-badge {
-    background: #e0f2fe;
-    color: #0369a1;
+    background: var(--blue-light, #eef1fb);
+    color: var(--blue, #3a5298);
 }
 
 .case-badge {
-    background: #fef3c7;
-    color: #92400e;
+    background: var(--honey-pale, #fff8e7);
+    color: var(--honey-dark, #7d4d03);
 }
 
 .prep-badge {
-    background: #f1f5f9;
-    color: #334155;
+    background: var(--sage-mist);
+    color: var(--ink-soft);
     border: 1px solid var(--border-color);
 }
 
@@ -360,9 +360,9 @@ body {
 }
 
 .feedback-card.wrong {
-    background: #fff1f2;
-    border: 1px solid #fecdd3;
-    color: #9f1239;
+    background: var(--cosy-semantic-error-light, #fcebeb);
+    border: 1px solid var(--border-color);
+    color: var(--cosy-semantic-error, #a32d2d);
 }
 
 .word-type-tabs-bar {
