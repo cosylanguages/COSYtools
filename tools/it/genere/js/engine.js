@@ -6,6 +6,7 @@ class ItalianGenderEngine {
         this.gameStreak = 0;
         this.currentQuestion = null;
         this.gamePracticeMode = 'gender';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-it-genere') : null;
         this.init();
     }
 
@@ -215,6 +216,9 @@ class ItalianGenderEngine {
             : `❌ Classe attesa: <strong>${expected.label}</strong>. Genere: ${data.gender}.`;
         this.gameScore += isCorrect ? 10 : 0;
         this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`ending:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -287,6 +291,9 @@ class ItalianGenderEngine {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Ops! La forma corretta era: <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
         }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`articles:${this.currentQuestion.prep}:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -305,6 +312,9 @@ class ItalianGenderEngine {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Errore! <strong>${this.currentQuestion.noun}</strong> è ${this.currentQuestion.expectedGender}.`;
+        }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`gender:${this.currentQuestion.noun}`, isCorrect);
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;

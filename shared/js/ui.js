@@ -8,6 +8,45 @@
 
     window.COSY = window.COSY || {};
 
+    /**
+     * Extracts query parameter value from standard query parameter aliases.
+     * @param {Array<string>} [keys]
+     * @returns {string|null}
+     */
+    window.COSY.getInitialSearchQuery = function(keys) {
+        const searchKeys = keys || ['verb', 'infinitive', 'noun', 'word', 'q', 'search'];
+        const params = new URLSearchParams(window.location.search);
+        for (const key of searchKeys) {
+            const val = params.get(key);
+            if (val && val.trim()) {
+                return val.trim();
+            }
+        }
+        return null;
+    };
+
+    /**
+     * Renders autocomplete suggestions box items.
+     * @param {string} containerId
+     * @param {Array<{title: string, sub: string, onClick: string}>} items
+     */
+    window.COSY.renderSuggestionsBox = function(containerId, items) {
+        const box = document.getElementById(containerId);
+        if (!box) return;
+        if (!items || items.length === 0) {
+            box.style.display = 'none';
+            box.innerHTML = '';
+            return;
+        }
+        box.innerHTML = items.map(item => `
+            <div class="suggestion-item" onclick="${item.onClick}">
+                <span><strong>${item.title}</strong></span>
+                <span style="color: var(--ink-muted); font-size: 0.85rem;">${item.sub || ''}</span>
+            </div>
+        `).join('');
+        box.style.display = 'block';
+    };
+
     /* ─── THEME CONFIGURATION ────────────────────────────────────── */
     window.COMMON_THEMES = [
         { id: "numbers_math", label: "common_theme_numbers_math" },

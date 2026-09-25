@@ -6,6 +6,7 @@ class GreekGenderCasesEngine {
         this.gameStreak = 0;
         this.currentQuestion = null;
         this.gamePracticeMode = 'gender';
+        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-el-genos-ptoseis') : null;
         this.init();
     }
 
@@ -234,6 +235,9 @@ class GreekGenderCasesEngine {
             : `❌ Σωστή κλάση: <strong>${expected.label}</strong>. Γένος: ${data.gender}.`;
         this.gameScore += isCorrect ? 10 : 0;
         this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`ending:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -325,6 +329,9 @@ class GreekGenderCasesEngine {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Λάθος! Η σωστή απάντηση είναι: <strong>${this.currentQuestion.noun}</strong> (${this.currentQuestion.caseName}) ➔ <strong>${this.currentQuestion.expected}</strong>.`;
         }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`cases:${this.currentQuestion.caseName}:${this.currentQuestion.noun}`, isCorrect);
+        }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
         document.getElementById('game-next-btn').style.display = 'block';
@@ -343,6 +350,9 @@ class GreekGenderCasesEngine {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Λάθος! Η λέξη <strong>${this.currentQuestion.noun}</strong> είναι ${this.currentQuestion.expectedGender}.`;
+        }
+        if (this.srsStore) {
+            this.srsStore.recordAnswer(`gender:${this.currentQuestion.noun}`, isCorrect);
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;

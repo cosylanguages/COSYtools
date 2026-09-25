@@ -31,8 +31,9 @@ class ConjugationEngine {
     }
 
     handleInitialQueryParams() {
-        const params = new URLSearchParams(window.location.search);
-        const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
+        const target = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : new URLSearchParams(window.location.search).get('verb');
         if (target) {
             const input = document.getElementById('verb-search-input');
             if (input) input.value = target;
