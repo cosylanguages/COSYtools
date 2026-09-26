@@ -865,6 +865,13 @@ window.COSY = {
         return window.morphologyData[langLow];
     },
 
+    syncUserScore(gameName, score, maxScore, accuracyPercentage) {
+        if (window.COSYReferenceUtils && typeof window.COSYReferenceUtils.syncUserScore === 'function') {
+            return window.COSYReferenceUtils.syncUserScore(gameName, score, maxScore, accuracyPercentage);
+        }
+        return Promise.resolve(false);
+    },
+
     setNavContext(html) {
         const ctx = document.getElementById('cosy-nav-context');
         if (ctx) ctx.innerHTML = html;
