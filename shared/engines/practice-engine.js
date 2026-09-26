@@ -1029,6 +1029,19 @@ class PracticeEngine {
             this.srsStore.recordSessionCompletion();
         }
 
+        // Parallel best-effort Supabase user_scores sync (if user is authenticated in ecosystem)
+        const totalItems = this.currentSession.length || 1;
+        const correctItems = this.sessionCorrectItems.length || 0;
+        const maxScore = totalItems * this.scorePerCorrect;
+        const accuracy = Math.round((correctItems / totalItems) * 100);
+        const toolName = (this.engine && this.engine.srsStore && this.engine.srsStore.prefix)
+            ? this.engine.srsStore.prefix
+            : (this.srsStore && this.srsStore.prefix ? this.srsStore.prefix : 'cosy-practice');
+
+        if (window.COSYReferenceUtils && typeof window.COSYReferenceUtils.syncUserScore === 'function') {
+            window.COSYReferenceUtils.syncUserScore(toolName, this.sessionScore, maxScore, accuracy);
+        }
+
         if (typeof this.onSessionComplete === 'function') {
             this.onSessionComplete(this);
             return;

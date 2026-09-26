@@ -178,6 +178,55 @@ window.COSYReferenceUtils = (function () {
    * @param {Object} [params] - Query params to append
    * @returns {string} URL string
    */
+  /**
+   * Best-effort sync of score to Supabase user_scores table if a Supabase session exists.
+   * @param {string} gameName - e.g. tool or game name
+   * @param {number} score - score achieved
+   * @param {number} maxScore - max possible score
+   * @param {number} accuracyPercentage - accuracy percentage (0-100)
+   * @returns {Promise<boolean>} Resolves to true if synced, false otherwise
+   */
+  async function syncUserScore(gameName, score, maxScore = 0, accuracyPercentage = 0) {
+    try {
+      // Check for globally available Supabase client instances
+      const client = window.supabaseClient || window.supabase;
+      if (!client) return false;
+
+      // Verify active session exists
+      let session = null;
+      if (typeof client.auth?.getSession === 'function') {
+        const { data } = await client.auth.getSession();
+        session = data?.session;
+      } else if (typeof client.auth?.session === 'function') {
+        session = client.auth.session();
+      }
+
+      if (!session || !session.user) return false;
+
+      // Attempt non-blocking insert into user_scores table
+      const payload = {
+        user_id: session.user.id,
+        game_name: gameName || 'COSYtool',
+        score: Number(score) || 0,
+        max_score: Number(maxScore) || 0,
+        accuracy_percentage: Number(accuracyPercentage) || 0,
+        created_at: new Date().toISOString()
+      };
+
+      if (typeof client.from === 'function') {
+        const { error } = await client.from('user_scores').insert([payload]);
+        if (error) {
+          console.warn('COSYReferenceUtils: Supabase score sync notice', error.message || error);
+          return false;
+        }
+        return true;
+      }
+    } catch (err) {
+      console.warn('COSYReferenceUtils: Best-effort score sync skipped', err);
+    }
+    return false;
+  }
+
   function getEcosystemLink(destination, params = {}) {
     const baseUrls = {
       home: 'https://cosylanguages.github.io/COSYlanguages/',
@@ -198,6 +247,7 @@ window.COSYReferenceUtils = (function () {
     recordWeakSpot,
     getWeakSpots,
     removeWeakSpot,
-    getEcosystemLink
+    getEcosystemLink,
+    syncUserScore
   };
 })();
