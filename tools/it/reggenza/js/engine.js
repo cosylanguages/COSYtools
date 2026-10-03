@@ -41,9 +41,22 @@ class ItalianReggenzaEngine {
 
             this.setWordType('verbs');
             this.bindEvents();
-            this.setAppMode('practice');
+            this.handleInitialQueryParams();
+            if (!location.search) this.setAppMode('practice');
         } catch (err) {
             console.error("Failed to load Italian prepositions database:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const target = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : new URLSearchParams(window.location.search).get('q');
+        if (target) {
+            this.setAppMode('lookup');
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 
@@ -64,7 +77,7 @@ class ItalianReggenzaEngine {
 
         if (mode === 'practice') {
             this.updateStreakWidget();
-            if (!this.practice.currentSession || this.practice.currentSession.length === 0) {
+            if (this.practice && (!this.practice.currentSession || this.practice.currentSession.length === 0)) {
                 this.startNewPracticeSession();
             }
         } else if (mode === 'dashboard') {
@@ -102,7 +115,6 @@ class ItalianReggenzaEngine {
         if (!this.dbMap[wordType]) return;
         this.currentWordType = wordType;
 
-        // Update tab button styling
         ['verbs', 'nouns', 'adjectives'].forEach(wt => {
             const tabBtn = document.getElementById(`tab-${wt}`);
             if (tabBtn) {
@@ -111,11 +123,9 @@ class ItalianReggenzaEngine {
             }
         });
 
-        // Update current DB reference and keys
         this.verbDb = this.dbMap[this.currentWordType];
         this.verbKeys = Object.keys(this.verbDb);
 
-        // Update filter pills bar based on word type
         const filterBar = document.getElementById('filter-pills-bar');
         if (filterBar) {
             if (wordType === 'verbs') {
@@ -148,11 +158,9 @@ class ItalianReggenzaEngine {
             }
         }
 
-        // Reset filter state
         this.activeFilter = 'all';
         this.updateFilteredKeys();
 
-        // Update search input placeholder
         const input = document.getElementById('verb-search-input');
         if (input) {
             if (wordType === 'verbs') input.placeholder = "Cerca un verbo (es. pensare, parlare, abituarsi, avere bisogno, guardare)...";
@@ -339,7 +347,6 @@ class ItalianReggenzaEngine {
 
         document.getElementById('verb-title').textContent = verbKey;
 
-        // Badge (Pronominal or Word Type)
         const proBadge = document.getElementById('pronominal-badge');
         if (data.pronominal) {
             proBadge.style.display = 'inline-block';
@@ -351,7 +358,6 @@ class ItalianReggenzaEngine {
             proBadge.style.display = 'none';
         }
 
-        // Preposition Badge
         const prepBadge = document.getElementById('prep-badge');
         const prepList = (data.prepositions || []).join(' / ');
         if (prepList === 'none') {
@@ -362,14 +368,11 @@ class ItalianReggenzaEngine {
             prepBadge.className = 'badge prep-badge';
         }
 
-        // CEFR Level
         document.getElementById('verb-cefr-badge').textContent = `Livello: ${data.level || 'A1'}`;
 
-        // Lexical details
         document.getElementById('verb-definition').textContent = data.definition || 'Definizione non disponibile.';
         document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
 
-        // Noun Parallel or Related Forms / Cross References Box
         const nounParallelBox = document.getElementById('noun-parallel-container');
         const nounParallelText = document.getElementById('noun-parallel-text');
         const contrastContent = data.related_forms || data.noun_parallel;
@@ -392,7 +395,6 @@ class ItalianReggenzaEngine {
 
         document.getElementById('grammar-rule-text').textContent = data.grammar_rule || '';
 
-        // Mistake box
         const mistakeBox = document.getElementById('mistake-container');
         const mistakeEl = document.getElementById('mistake-text');
         if (data.common_mistake) {
@@ -402,7 +404,6 @@ class ItalianReggenzaEngine {
             mistakeBox.style.display = 'none';
         }
 
-        // Example sentences
         const examplesList = document.getElementById('examples-list');
         if (data.examples && data.examples.length > 0) {
             examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
@@ -411,7 +412,6 @@ class ItalianReggenzaEngine {
             document.getElementById('examples-container').style.display = 'none';
         }
 
-        // Synonyms & Antonyms
         const antonymsBox = document.getElementById('antonyms-pills');
         const items = [...(data.synonyms || []).map(s => `≈ ${s}`), ...(data.antonyms || []).map(a => `↔ ${a}`)];
         if (items.length > 0) {
@@ -455,7 +455,6 @@ class ItalianReggenzaEngine {
         this.searchVerb(targetKey);
     }
 
-    /* Sequential navigation */
     navigateNext() {
         const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
         if (pool.length === 0) return;

@@ -40,9 +40,22 @@ class EnglishVerbPrepEngine {
 
             this.setWordType('verbs');
             this.bindEvents();
-            this.setAppMode('practice');
+            this.handleInitialQueryParams();
+            if (!location.search) this.setAppMode('practice');
         } catch (err) {
             console.error("Failed to load prepositions database:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const target = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : new URLSearchParams(window.location.search).get('q');
+        if (target) {
+            this.setAppMode('lookup');
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 
@@ -63,7 +76,7 @@ class EnglishVerbPrepEngine {
 
         if (mode === 'practice') {
             this.updateStreakWidget();
-            if (!this.practice.currentSession || this.practice.currentSession.length === 0) {
+            if (this.practice && (!this.practice.currentSession || this.practice.currentSession.length === 0)) {
                 this.startNewPracticeSession();
             }
         } else if (mode === 'dashboard') {
@@ -101,7 +114,6 @@ class EnglishVerbPrepEngine {
         if (!this.dbMap[wordType]) return;
         this.currentWordType = wordType;
 
-        // Update tab button styling
         ['verbs', 'nouns', 'adjectives'].forEach(wt => {
             const tabBtn = document.getElementById(`tab-${wt}`);
             if (tabBtn) {
@@ -110,11 +122,9 @@ class EnglishVerbPrepEngine {
             }
         });
 
-        // Update current DB reference and keys
         this.verbDb = this.dbMap[this.currentWordType];
         this.verbKeys = Object.keys(this.verbDb);
 
-        // Update filter pills bar based on word type
         const filterBar = document.getElementById('filter-pills-bar');
         if (filterBar) {
             if (wordType === 'verbs') {
@@ -135,11 +145,9 @@ class EnglishVerbPrepEngine {
             }
         }
 
-        // Reset filter state
         this.activeFilter = 'all';
         this.updateFilteredKeys();
 
-        // Update search input placeholder
         const input = document.getElementById('verb-search-input');
         if (input) {
             if (wordType === 'verbs') input.placeholder = "Search a verb (e.g. influence, affect, depend, answer, turn down, give up)...";
@@ -322,7 +330,6 @@ class EnglishVerbPrepEngine {
 
         document.getElementById('verb-title').textContent = verbKey;
 
-        // Phrasal Verb / Word Type Badge
         const phrasalBadge = document.getElementById('phrasal-badge');
         if (data.is_phrasal) {
             phrasalBadge.style.display = 'inline-block';
@@ -334,7 +341,6 @@ class EnglishVerbPrepEngine {
             phrasalBadge.style.display = 'none';
         }
 
-        // Separability Badge
         const sepBadge = document.getElementById('separability-badge');
         if (data.is_phrasal && data.separability) {
             sepBadge.style.display = 'inline-block';
@@ -343,7 +349,6 @@ class EnglishVerbPrepEngine {
             sepBadge.style.display = 'none';
         }
 
-        // Transitivity Badge
         const transBadge = document.getElementById('transitivity-badge');
         if (data.transitivity_code) {
             transBadge.style.display = 'inline-block';
@@ -359,19 +364,15 @@ class EnglishVerbPrepEngine {
             transBadge.style.display = 'none';
         }
 
-        // Preposition / Particle Badge
         const prepBadge = document.getElementById('prep-badge');
         const prepList = (data.prepositions || []).join(' / ');
         prepBadge.textContent = prepList === 'none' ? 'No preposition (Direct Object)' : (data.is_phrasal ? `Particle: ${prepList}` : `Prep: ${prepList}`);
 
-        // CEFR Level
         document.getElementById('verb-cefr-badge').textContent = `Level: ${data.level || 'A2'}`;
 
-        // Lexical details
         document.getElementById('verb-definition').textContent = data.definition || 'Definition unavailable.';
         document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
 
-        // Noun Parallel or Related Forms Box
         const nounParallelBox = document.getElementById('noun-parallel-container');
         const nounParallelText = document.getElementById('noun-parallel-text');
         const contrastContent = data.related_forms || data.noun_parallel;
@@ -394,7 +395,6 @@ class EnglishVerbPrepEngine {
 
         document.getElementById('grammar-rule-text').textContent = data.grammar_rule || '';
 
-        // Mistake box
         const mistakeBox = document.getElementById('mistake-container');
         const mistakeEl = document.getElementById('mistake-text');
         if (data.common_mistake) {
@@ -404,7 +404,6 @@ class EnglishVerbPrepEngine {
             mistakeBox.style.display = 'none';
         }
 
-        // Example sentences
         const examplesList = document.getElementById('examples-list');
         if (data.examples && data.examples.length > 0) {
             examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
@@ -413,7 +412,6 @@ class EnglishVerbPrepEngine {
             document.getElementById('examples-container').style.display = 'none';
         }
 
-        // Synonyms & Antonyms
         const antonymsBox = document.getElementById('antonyms-pills');
         const items = [...(data.synonyms || []).map(s => `≈ ${s}`), ...(data.antonyms || []).map(a => `↔ ${a}`)];
         if (items.length > 0) {
