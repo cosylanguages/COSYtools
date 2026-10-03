@@ -47,9 +47,22 @@ class FrenchRegimeEngine {
 
             this.updateSrsStatsBar();
             this.bindEvents();
-            this.setAppMode('practice');
+            this.handleInitialQueryParams();
+            if (!location.search) this.setAppMode('practice');
         } catch (err) {
             console.error("Failed to load French regime datasets:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const target = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : new URLSearchParams(window.location.search).get('q');
+        if (target) {
+            this.setAppMode('dictionary');
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 
@@ -73,15 +86,15 @@ class FrenchRegimeEngine {
         const dictBtn = document.getElementById('mode-dictionary-btn');
 
         if (mode === 'practice') {
-            practiceView.style.display = 'block';
-            dictionaryView.style.display = 'none';
+            if (practiceView) practiceView.style.display = 'block';
+            if (dictionaryView) dictionaryView.style.display = 'none';
             if (pracBtn) pracBtn.className = 'mode-btn active';
             if (dictBtn) dictBtn.className = 'mode-btn';
             this.updateSrsStatsBar();
             this.resetSrsLauncher();
         } else {
-            practiceView.style.display = 'none';
-            dictionaryView.style.display = 'block';
+            if (practiceView) practiceView.style.display = 'none';
+            if (dictionaryView) dictionaryView.style.display = 'block';
             if (pracBtn) pracBtn.className = 'mode-btn';
             if (dictBtn) dictBtn.className = 'mode-btn active';
             this.resetDisplay();
@@ -143,10 +156,6 @@ class FrenchRegimeEngine {
         const data = current.data;
         const primaryPrep = data.prepositions?.[0] || 'none';
 
-        // Select Question Format randomly:
-        // 1: pick_prep (multiple choice)
-        // 2: fill_blank (type in preposition)
-        // 3: spot_mistake (multiple choice sentence fixing mistake)
         const formats = ['pick_prep', 'fill_blank', 'spot_mistake'];
         const format = formats[Math.floor(Math.random() * formats.length)];
 
@@ -157,7 +166,6 @@ class FrenchRegimeEngine {
             data: data
         };
 
-        // Header info
         document.getElementById('srs-step-indicator').textContent = `Question ${this.sessionIndex + 1} / ${this.sessionItems.length}`;
         document.getElementById('srs-word-prompt').textContent = current.key;
 
@@ -166,7 +174,6 @@ class FrenchRegimeEngine {
 
         document.getElementById('srs-cefr-tag').textContent = `Niveau : ${data.level || 'A1'}`;
 
-        // Reset views
         document.getElementById('srs-choices-grid').style.display = 'none';
         document.getElementById('srs-fill-container').style.display = 'none';
         document.getElementById('srs-feedback-box').style.display = 'none';
@@ -203,7 +210,6 @@ class FrenchRegimeEngine {
             `).join('');
 
         } else {
-            // pick_prep
             document.getElementById('srs-question-type-label').textContent = "Format : Choix de la préposition";
             let sentencePrompt = exampleSentence;
             if (primaryPrep !== 'none') {
@@ -227,7 +233,6 @@ class FrenchRegimeEngine {
         const pool = ['à', 'de', 'sur', 'en', 'pour', 'avec', 'par', 'envers', 'none'];
         let choices = [primaryPrep];
 
-        // Add contractions if primary is à or de
         if (primaryPrep === 'à') choices.push('au');
         if (primaryPrep === 'de') choices.push('du');
 
@@ -253,7 +258,6 @@ class FrenchRegimeEngine {
         const cleanUser = userAnswer.toLowerCase().trim();
         const cleanExpected = expected.toLowerCase().trim();
 
-        // Contraction awareness checking
         let isCorrect = false;
         if (cleanUser === cleanExpected) {
             isCorrect = true;
@@ -280,7 +284,6 @@ class FrenchRegimeEngine {
             feedback.innerHTML = `❌ Incorrect ! <strong>${current.key}</strong> demande : <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><small class="rule-box-spaced"><strong>Règle :</strong> ${data.grammar_rule}</small>${data.common_mistake ? `<small class="trap-box-spaced"><strong>Piège :</strong> ${data.common_mistake}</small>` : ''}`;
         }
 
-        // Check for cross-family "Le saviez-vous ?" nudge on mastery or review
         if (srsResult.leveledUp || data.related_forms || data.noun_parallel) {
             const rawText = data.related_forms || data.noun_parallel || '';
             if (rawText) {

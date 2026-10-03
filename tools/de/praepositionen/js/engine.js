@@ -50,9 +50,22 @@ class GermanPraepositionenEngine {
 
             this.updateSrsStatsBar();
             this.bindEvents();
-            this.setAppMode('practice');
+            this.handleInitialQueryParams();
+            if (!location.search) this.setAppMode('practice');
         } catch (err) {
             console.error("Fehler beim Laden der deutschen Präpositionsdatensätze:", err);
+        }
+    }
+
+    handleInitialQueryParams() {
+        const target = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : new URLSearchParams(window.location.search).get('q');
+        if (target) {
+            this.setAppMode('dictionary');
+            const input = document.getElementById('verb-search-input');
+            if (input) input.value = target;
+            this.searchVerb(target);
         }
     }
 

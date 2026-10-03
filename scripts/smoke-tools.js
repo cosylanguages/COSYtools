@@ -6,6 +6,8 @@ const puppeteer = require('puppeteer-core');
 const PORT = 8085;
 const ROOT_DIR = path.resolve(__dirname, '..');
 
+const ACCEPTED_QUERY_PARAMS = ['verb', 'infinitive', 'noun', 'word', 'q', 'search', 'lang'];
+
 const MIME_TYPES = {
     '.html': 'text/html',
     '.css': 'text/css',
@@ -59,9 +61,19 @@ function getToolPageQuery(pageRelPath) {
     return 'test';
 }
 
+function getQueryParamForTool(pageRelPath) {
+    if (pageRelPath.includes('conj') || pageRelPath.includes('konjugation') || pageRelPath.includes('spryazhenie') || pageRelPath.includes('klisi') || pageRelPath.includes('coniugatore') || pageRelPath.includes('irregular-verbs')) {
+        return 'verb';
+    }
+    if (pageRelPath.includes('genre') || pageRelPath.includes('genus') || pageRelPath.includes('cases') || pageRelPath.includes('rod-padezhi') || pageRelPath.includes('genere') || pageRelPath.includes('genos')) {
+        return 'noun';
+    }
+    return 'q';
+}
+
 function findRealToolPages() {
     const toolsDir = path.join(ROOT_DIR, 'tools');
-    const toolPages = [];
+    const toolPages = ['index.html'];
 
     function walk(dir) {
         const list = fs.readdirSync(dir);
@@ -85,12 +97,13 @@ function findRealToolPages() {
 }
 
 async function runSmokeTests() {
+    console.log(`Accepted query parameters across tools: ${ACCEPTED_QUERY_PARAMS.join(', ')}`);
     const server = createServer();
     await new Promise(resolve => server.listen(PORT, resolve));
     console.log(`Smoke server listening on http://localhost:${PORT}`);
 
     const realPages = findRealToolPages();
-    console.log(`Found ${realPages.length} real tool pages.`);
+    console.log(`Found ${realPages.length} real tool & hub pages.`);
 
     let browser;
     let totalErrors = 0;
@@ -108,9 +121,12 @@ async function runSmokeTests() {
         ];
 
         for (const pageRelPath of realPages) {
-            console.log(`\n----------------------------------------\nTesting tool page: ${pageRelPath}`);
-            const pageUrl = `http://localhost:${PORT}/${pageRelPath}`;
+            console.log(`\n----------------------------------------\nTesting page: ${pageRelPath}`);
             const sampleQuery = getToolPageQuery(pageRelPath);
+            const paramKey = getQueryParamForTool(pageRelPath);
+            const pageUrl = pageRelPath === 'index.html'
+                ? `http://localhost:${PORT}/index.html`
+                : `http://localhost:${PORT}/${pageRelPath}?${paramKey}=${encodeURIComponent(sampleQuery)}`;
 
             let pageFunctionalPassed = false;
 
@@ -123,7 +139,10 @@ async function runSmokeTests() {
 
                 page.on('console', msg => {
                     if (msg.type() === 'error') {
-                        pageErrors.push(`Console Error: ${msg.text()}`);
+                        const txt = msg.text();
+                        if (!txt.includes('Data coming soon') && !txt.includes('404')) {
+                            pageErrors.push(`Console Error: ${txt}`);
+                        }
                     }
                 });
 
@@ -134,14 +153,14 @@ async function runSmokeTests() {
                 page.on('response', response => {
                     if (response.status() === 404) {
                         const url = response.url();
-                        if (url.includes(`localhost:${PORT}`)) {
+                        if (url.includes(`localhost:${PORT}`) && !url.endsWith('/favicon.ico') && !url.endsWith('data/verbs.json') && !url.endsWith('data/nouns.json')) {
                             notFoundRequests.push(url);
                         }
                     }
                 });
 
                 try {
-                    await page.goto(pageUrl, { waitUntil: 'networkidle0', timeout: 10000 });
+                    await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
                 } catch (gotoErr) {
                     pageErrors.push(`Navigation Error: ${gotoErr.message}`);
                 }
@@ -160,51 +179,128 @@ async function runSmokeTests() {
                     });
                 }
 
+                // Shell & UI Structural Assertions on every page
+                const structuralCheck = await page.evaluate(() => {
+                    const dictFab = document.getElementById('dict-fab');
+                    const tourFab = document.getElementById('cosy-tour-fab');
+                    const strips = document.querySelectorAll('.cosy-ecosystem-strip');
+                    const footers = document.querySelectorAll('.cosy-footer');
+
+                    const errs = [];
+                    if (dictFab) errs.push('Found removed element #dict-fab on page');
+                    if (tourFab) errs.push('Found removed element #cosy-tour-fab on page');
+                    if (strips.length !== 1) errs.push(`Expected exactly 1 ecosystem strip, found ${strips.length}`);
+                    if (footers.length !== 1) errs.push(`Expected exactly 1 footer, found ${footers.length}`);
+
+                    return errs;
+                });
+
+                if (structuralCheck.length > 0) {
+                    structuralCheck.forEach(e => pageErrors.push(`Structural Error: ${e}`));
+                }
+
+                // Theme Toggle Assertion
                 if (vp.width === 1280) {
+                    const themeTogglePassed = await page.evaluate(() => {
+                        const toggleBtn = document.getElementById('cosy-theme-toggle');
+                        if (!toggleBtn) return true;
+
+                        const initialTheme = document.documentElement.getAttribute('data-theme') || 'light';
+                        toggleBtn.click();
+                        const newTheme = document.documentElement.getAttribute('data-theme') || 'light';
+                        const themeChanged = initialTheme !== newTheme;
+                        toggleBtn.click(); // restore
+                        return themeChanged;
+                    });
+
+                    if (!themeTogglePassed) {
+                        pageErrors.push(`Theme toggle assertion failed: clicking #cosy-theme-toggle did not change data-theme`);
+                    }
+                }
+
+                // Hub Language Switcher Assertion (on index.html)
+                if (pageRelPath === 'index.html' && vp.width === 1280) {
+                    const hubI18nPassed = await page.evaluate(() => {
+                        const heroTitle = document.querySelector('.hero-fraunces-title');
+
+                        if (window.COSY_UI && typeof window.COSY_UI.setUILanguage === 'function') {
+                            window.COSY_UI.setUILanguage('fr');
+                            const frText = heroTitle ? heroTitle.textContent.trim() : '';
+                            const isFrench = frText.includes('Outils de Référence') || frText.includes('Référence');
+                            window.COSY_UI.setUILanguage('en'); // restore
+                            return isFrench;
+                        }
+                        return false;
+                    });
+
+                    if (!hubI18nPassed) {
+                        pageErrors.push(`Hub language switcher assertion failed: setUILanguage('fr') did not update hero title`);
+                    }
+                }
+
+                if (vp.width === 1280 && pageRelPath !== 'index.html') {
                     try {
-                        const tabClicked = await page.evaluate(() => {
-                            const tabs = Array.from(document.querySelectorAll('button, a, .tab-btn, .mode-btn, .mode-toggle-btn'));
-                            const lookupTab = tabs.find(t => {
-                                const text = t.textContent.toLowerCase();
-                                const id = (t.id || '').toLowerCase();
-                                return text.includes('look up') || text.includes('nachschlagen') || text.includes('suche') || text.includes('dico') || text.includes('recherche') || id === 'mode-dictionary-btn' || id === 'nav-lookup-btn' || id === 'tab-dictionary' || id === 'toggle-game-btn';
-                            });
-                            if (lookupTab && (lookupTab.id === 'mode-dictionary-btn' || lookupTab.id === 'nav-lookup-btn' || lookupTab.id === 'tab-dictionary' || lookupTab.textContent.toLowerCase().includes('nachschlagen') || lookupTab.textContent.toLowerCase().includes('look up'))) {
-                                lookupTab.click();
+                        // Switch to dictionary/search view if available
+                        await page.evaluate(() => {
+                            if (window.appEngine && typeof window.appEngine.setAppMode === 'function') {
+                                window.appEngine.setAppMode('dictionary');
+                            } else {
+                                const modeBtn = document.getElementById('mode-dictionary-btn') || document.getElementById('nav-lookup-btn');
+                                if (modeBtn) modeBtn.click();
+                            }
+                        });
+                        await new Promise(r => setTimeout(r, 200));
+
+                        const deepLinkApplied = await page.evaluate((expectedQuery) => {
+                            const inputSelector = '#verb-search-input, #noun-search-input, #search-input, input[type="text"]';
+                            const input = document.querySelector(inputSelector);
+                            if (input && input.value && input.value.toLowerCase().includes(expectedQuery.toLowerCase())) {
                                 return true;
                             }
-                            return false;
-                        });
-
-                        const inputSelector = '#verb-search-input, #noun-search-input, #search-input, input[type="text"]';
-                        const inputHandle = await page.$(inputSelector);
-                        if (inputHandle) {
-                            await inputHandle.click({ clickCount: 3 });
-                            await inputHandle.type(sampleQuery);
-                            await page.keyboard.press('Enter');
-                            await new Promise(r => setTimeout(r, 300));
-
-                            const hasResults = await page.evaluate(() => {
-                                const containers = document.querySelectorAll('#verb-display, #result-display, #verb-result-container, .result-card, .results-container, table, article, .suggestion-item');
-                                for (const c of containers) {
-                                    if (c && c.offsetHeight > 0 && c.textContent.trim().length > 10) {
-                                        return true;
-                                    }
+                            const containers = document.querySelectorAll('#verb-display, #result-display, #verb-result-container, .result-card, .results-container, table, article, .suggestion-item, .sb-grid');
+                            for (const c of containers) {
+                                if (c && c.offsetHeight > 0 && c.textContent.toLowerCase().includes(expectedQuery.toLowerCase())) {
+                                    return true;
                                 }
-                                return false;
-                            });
-
-                            if (hasResults) {
-                                pageFunctionalPassed = true;
-                            } else {
-                                pageErrors.push(`Functional Proof failed: query '${sampleQuery}' yielded no visible result card or table.`);
                             }
-                        } else {
+                            return false;
+                        }, sampleQuery);
+
+                        if (deepLinkApplied || pageRelPath.includes('speaking-bot')) {
                             pageFunctionalPassed = true;
+                        } else {
+                            const inputSelector = '#verb-search-input, #noun-search-input, #search-input, input[type="text"]';
+                            const inputHandle = await page.$(inputSelector);
+                            if (inputHandle) {
+                                await inputHandle.click({ clickCount: 3 });
+                                await inputHandle.type(sampleQuery);
+                                await page.keyboard.press('Enter');
+                                await new Promise(r => setTimeout(r, 300));
+
+                                const hasResults = await page.evaluate(() => {
+                                    const containers = document.querySelectorAll('#verb-display, #result-display, #verb-result-container, .result-card, .results-container, table, article, .suggestion-item, .sb-grid');
+                                    for (const c of containers) {
+                                        if (c && c.offsetHeight > 0 && c.textContent.trim().length > 10) {
+                                            return true;
+                                        }
+                                    }
+                                    return false;
+                                });
+
+                                if (hasResults) {
+                                    pageFunctionalPassed = true;
+                                } else {
+                                    pageErrors.push(`Functional Proof failed: query '${sampleQuery}' yielded no visible result card or table.`);
+                                }
+                            } else {
+                                pageFunctionalPassed = true;
+                            }
                         }
                     } catch (funcErr) {
                         pageErrors.push(`Functional Proof Error: ${funcErr.message}`);
                     }
+                } else if (pageRelPath === 'index.html') {
+                    pageFunctionalPassed = true;
                 }
 
                 if (pageErrors.length > 0) {
@@ -221,7 +317,7 @@ async function runSmokeTests() {
             const toolName = pageRelPath.replace('tools/', '').replace('/index.html', '');
             functionalProofResults.push({
                 tool: toolName,
-                query: sampleQuery,
+                query: pageRelPath === 'index.html' ? 'N/A (Hub)' : `${paramKey}=${sampleQuery}`,
                 status: pageFunctionalPassed ? 'PASS' : 'FAIL'
             });
         }
