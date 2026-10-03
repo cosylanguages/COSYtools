@@ -55,7 +55,20 @@
     <script src="../../../shared/js/ui.js"></script>
 
     <script>
-        Promise.all([fetch('data/verbs.json').then(r => r.json()), fetch('../data/morphology.json').then(r => r.json())]).then(([db, morphology]) => {
+        async function fetchDataset(primaryPath) {
+      if (primaryPath) {
+          try {
+              const r = await fetch(primaryPath);
+              if (r.ok) return await r.json();
+          } catch(e) {}
+      }
+      try {
+          const r = await fetch('../data/lexicon.json');
+          if (r.ok) return await r.json();
+      } catch(e) {}
+      throw new Error('Data coming soon');
+  }
+        Promise.all([fetchDataset('data/verbs.json'), fetch('../data/morphology.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))]).then(([db, morphology]) => {
             const input = document.getElementById('verb-search-input');
             const display = document.getElementById('verb-display');
             const sourceUnits = (morphology.units || []).filter(unit => unit.pos === 'V');

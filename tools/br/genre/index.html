@@ -37,8 +37,21 @@
     <script src="../../../shared/js/ui.js"></script>
 
     <script>
+        async function fetchDataset(primaryPath) {
+      if (primaryPath) {
+          try {
+              const r = await fetch(primaryPath);
+              if (r.ok) return await r.json();
+          } catch(e) {}
+      }
+      try {
+          const r = await fetch('../data/lexicon.json');
+          if (r.ok) return await r.json();
+      } catch(e) {}
+      throw new Error('Data coming soon');
+  }
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
-        fetch(dataFile).then(r => { if (!r.ok) throw new Error('Data coming soon'); return r.json(); }).then(db => {
+        fetchDataset(dataFile).then(db => {
           if (!db || Object.keys(db).length === 0) {
               const display = document.getElementById('result-display') || document.getElementById('verb-display');
               if (display) display.innerHTML = '<h2>Data coming soon</h2><p>This language tool is under active development.</p>';

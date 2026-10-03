@@ -20,6 +20,9 @@ const MIME_TYPES = {
 function createServer() {
     return http.createServer((req, res) => {
         let reqPath = decodeURIComponent(req.url.split('?')[0]);
+        if (reqPath === '/favicon.ico') {
+            reqPath = '/shared/images/cosylanguages.png';
+        }
         if (reqPath.endsWith('/')) reqPath += 'index.html';
         const filePath = path.join(ROOT_DIR, reqPath);
 
@@ -97,10 +100,20 @@ async function runSmokeTests() {
     const functionalProofResults = [];
 
     try {
-        browser = await puppeteer.launch({
-            executablePath: '/usr/bin/google-chrome',
+        const launchOpts = {
             args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
+        };
+        if (process.env.PUPPETEER_EXECUTABLE_PATH) {
+            launchOpts.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
+        } else if (fs.existsSync('/usr/bin/google-chrome')) {
+            launchOpts.executablePath = '/usr/bin/google-chrome';
+        } else if (fs.existsSync('/usr/bin/chromium-browser')) {
+            launchOpts.executablePath = '/usr/bin/chromium-browser';
+        } else if (fs.existsSync('/usr/bin/chromium')) {
+            launchOpts.executablePath = '/usr/bin/chromium';
+        }
+
+        browser = await puppeteer.launch(launchOpts);
 
         const viewports = [
             { width: 390, height: 844, name: '390px (mobile)' },

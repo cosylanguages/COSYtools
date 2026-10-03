@@ -31,7 +31,18 @@ htmlFiles.forEach(file => {
     let match;
     let blockIndex = 0;
     while ((match = scriptRegex.exec(content)) !== null) {
+        const tag = match[0];
         const code = match[1];
+
+        // Skip non-JS scripts like type="application/json" or type="template"
+        const typeMatch = tag.match(/type\s*=\s*[\"']([^\"']+)[\"']/i);
+        if (typeMatch) {
+            const typeVal = typeMatch[1].toLowerCase();
+            if (!typeVal.includes('javascript') && !typeVal.includes('ecmascript') && typeVal !== 'module') {
+                continue;
+            }
+        }
+
         if (!code.trim()) continue;
 
         totalBlocks++;
