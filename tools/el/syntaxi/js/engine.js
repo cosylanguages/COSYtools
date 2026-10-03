@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — Greek Verbs Syntax Engine (el-syntaxi)
- * Provides offline search, case government (Accusative / Genitive), prepositions,
+ * Provides search, case government (Accusative / Genitive), prepositions,
  * English-contrast rules, cross-reference links to el-genos-ptoseis nouns dataset.
  */
 

@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — Deutsche Präpositionen & Kasus (de-praepositionen)
- * Provides offline search across German Verbs, Nouns & Adjectives with prepositional regimes & cases (Akkusativ/Dativ),
+ * Provides search across German Verbs, Nouns & Adjectives with prepositional regimes & cases (Akkusativ/Dativ),
  * Wechselpräpositionen reference section, word-type switching & Spaced Repetition System (SRS) practice mode.
  */
 

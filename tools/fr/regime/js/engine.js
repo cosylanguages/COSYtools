@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — Régime prépositionnel français (fr-regime)
- * Provides offline search across French Verbs, Noms & Adjectifs with prepositional rules,
+ * Provides search across French Verbs, Noms & Adjectifs with prepositional rules,
  * word-type switching, cross-reference chips & Spaced Repetition System (SRS) practice mode.
  */
 

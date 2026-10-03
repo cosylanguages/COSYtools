@@ -1,6 +1,6 @@
 /**
  * COSYtools Shared Reference & Engine Utilities
- * Provides offline-first search, language detection, data loading, caching,
+ * Provides client-side search, language detection, data loading, caching,
  * weak-spot/SRS tracking, and link generation across reference tools.
  */
 
@@ -56,7 +56,7 @@ window.COSYReferenceUtils = (function () {
   }
 
   /**
-   * Load JSON dataset with offline fallback and caching.
+   * Load JSON dataset with local caching.
    * @param {string} url
    * @returns {Promise<any>}
    */

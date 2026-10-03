@@ -43,7 +43,7 @@ To redirect old tool locations in COSYlanguages to COSYtools, place the followin
 <body>
     <div class="card">
         <h2>This reference tool has moved to COSYtools! 🚀</h2>
-        <p>You are being automatically redirected to the updated, offline-first reference engine.</p>
+        <p>You are being automatically redirected to the updated reference engine.</p>
         <a class="btn" href="https://cosylanguages.github.io/COSYtools/conjugation/french/">Open Tool in COSYtools ↗</a>
         <p><small>If you are not redirected within 3 seconds, click the button above.</small></p>
     </div>
@@ -62,4 +62,4 @@ To redirect old tool locations in COSYlanguages to COSYtools, place the followin
 - [x] **Preposition Rules Verification:** Verified dependent prepositions and case governing rules.
 - [x] **Cross-App Search & Navigation:** Tested multi-lingual search in `index.html` and `shared/engines/reference-utils.js`.
 - [x] **Mobile Responsiveness & Visual UI:** Verified Playwright screen and video recording across desktop and mobile viewports.
-- [x] **Offline Capabilities:** Offline caching supported via `localStorage` and `COSYReferenceUtils.loadData()`.
+- [x] **Client Capabilities:** Local caching supported via `localStorage` and `COSYReferenceUtils.loadData()`.

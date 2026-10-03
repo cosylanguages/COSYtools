@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — Reggenza verbale, nominale e aggettivale italiana (it-reggenza)
- * Provides offline search, Italian prepositional regime rules (a, di, su, in, con, da, direct),
+ * Provides search, Italian prepositional regime rules (a, di, su, in, con, da, direct),
  * pronominal verb patterns, articulation flags, word-type switcher (Verbi / Nomi / Aggettivi),
  * cross-reference navigation, spaced-repetition practice mode & dashboard.
  */
