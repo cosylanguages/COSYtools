@@ -475,188 +475,9 @@
 
                     window.addEventListener('scroll', onStaticScroll, { passive: true });
                     onStaticScroll();
-                    return;
                 }
             }
         }
-
-        const main = document.querySelector('main.content-container, main.practice-container, main.page, main#main-content, main#notebook-container, main, article, .page, #hub') || document.body;
-        if (!main) return;
-
-        const cleanLabelText = (rawText) => {
-            if (!rawText) return '';
-            let t = rawText.replace(/[▲▼]/g, '').replace(/\s*\d+\s*(games|sessions|words|items)\s*$/gi, '').trim();
-            if (t.length > 25) {
-                const shortText = t.split(/\s*[\u2014\-–:]\s*/)[0].trim();
-                if (shortText && shortText.length <= 25) {
-                    return shortText;
-                }
-                return t.substring(0, 22) + '...';
-            }
-            return t;
-        };
-
-        const candidates = [];
-        const seenIds = new Set();
-        let sectionCounter = 0;
-
-        // Select major section elements and headers dynamically
-        const selectors = [
-            'section[id]',
-            'section',
-            '#vocabulary',
-            '#listening-exercise',
-            '#discussion',
-            '#lang-focus',
-            '#final-challenge',
-            '.round-block',
-            '.mistake-block',
-            '.private-step',
-            '.sec-title',
-            'h2.section-title',
-            'h2.sec-h2',
-            'h2'
-        ];
-
-        const elements = main.querySelectorAll(selectors.join(', '));
-
-        elements.forEach(el => {
-            // Avoid selecting internal elements like modals, FABs, form fields, footer
-            if (el.closest('#cosy-nav, #dict-panel, #pin-modal, #back-to-top, .mobile-nav, footer, header, #sd-drawer, .summary-modal')) {
-                return;
-            }
-
-            // Find target section container
-            let targetEl = el;
-            if (el.classList.contains('round-header') || el.classList.contains('mistake-header') || el.classList.contains('section-title') || el.classList.contains('sec-title') || el.classList.contains('sec-h2') || el.tagName === 'H2') {
-                targetEl = el.closest('.round-block, .mistake-block, section, article') || el;
-            }
-
-            // Skip hidden mode containers or invisible blocks
-            if (targetEl.closest('[data-session-mode][style*="display: none"], [data-session-mode][style*="display:none"], [style*="display: none"]')) {
-                return;
-            }
-
-            // Generate ID if missing
-            if (!targetEl.id) {
-                sectionCounter++;
-                targetEl.id = 'sec-node-' + sectionCounter;
-            }
-
-            const sid = targetEl.id;
-            if (seenIds.has(sid)) return;
-
-            const blacklistedIds = [
-                'cosy-nav', 'description', 'structure', 'wonder-passcode-gate',
-                'kus-dynamic-switcher-placeholder', 'session-mini-nav', 'back-to-top',
-                'go-deeper', 'dict-panel', 'pin-modal', 'main-content', 'main', 'notebook-container'
-            ];
-            if (blacklistedIds.includes(sid)) return;
-
-            // Extract title
-            const headerEl = targetEl.querySelector('.section-title, .sec-title, .sec-h2, .round-header, .mistake-header, h2, h3, summary') || (targetEl.matches('h2, h3, .sec-title, .sec-h2') ? targetEl : null);
-            let rawTitle = headerEl ? headerEl.textContent.trim() : '';
-
-            if (!rawTitle) {
-                const cleanSid = sid.replace(/^[smp]-/, '').replace(/-/g, ' ').trim();
-                rawTitle = cleanSid.charAt(0).toUpperCase() + cleanSid.slice(1);
-            }
-
-            const label = cleanLabelText(rawTitle);
-            if (!label) return;
-
-            seenIds.add(sid);
-            candidates.push({ id: sid, label: label, el: targetEl });
-        });
-
-        if (candidates.length < 2) return;
-
-        const navContainer = document.createElement('nav');
-        navContainer.id = 'session-mini-nav';
-        navContainer.className = 'session-mini-nav sd-jump-links';
-        navContainer.setAttribute('aria-label', 'Page section jump links');
-
-        let linksHtml = '';
-        candidates.forEach(sec => {
-            linksHtml += `<a href="#${sec.id}" class="sd-jump-link">${sec.label}</a>`;
-        });
-        navContainer.innerHTML = linksHtml;
-
-        // Insert position
-        const targetAnchor = main.querySelector('.science-session-info-box') ||
-                             main.querySelector('.session-meta-grid') ||
-                             main.querySelector('.cosy-session-switcher-placeholder') ||
-                             main.querySelector('.back-link') ||
-                             main.querySelector('.cosy-breadcrumbs') ||
-                             main.querySelector('.filter-bar') ||
-                             main.querySelector('.hero-ctas') ||
-                             main.firstElementChild;
-
-        if (targetAnchor && targetAnchor.nextSibling) {
-            targetAnchor.parentNode.insertBefore(navContainer, targetAnchor.nextSibling);
-        } else if (targetAnchor) {
-            targetAnchor.parentNode.appendChild(navContainer);
-        } else {
-            main.prepend(navContainer);
-        }
-
-        const jumpLinks = navContainer.querySelectorAll('.sd-jump-link');
-        jumpLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                const href = link.getAttribute('href');
-                if (href && href.startsWith('#')) {
-                    e.preventDefault();
-                    const targetEl = document.querySelector(href);
-                    if (targetEl) {
-                        const offset = 125;
-                        const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
-                        const offsetPosition = elementPosition - offset;
-                        window.scrollTo({
-                            top: offsetPosition,
-                            behavior: 'smooth'
-                        });
-                    }
-                }
-            });
-        });
-
-        const onScroll = () => {
-            let currentId = '';
-            const scrollPosition = window.scrollY + 140;
-
-            candidates.forEach(sec => {
-                const top = sec.el.offsetTop;
-                const height = sec.el.offsetHeight;
-                if (scrollPosition >= top && scrollPosition < top + height) {
-                    currentId = sec.id;
-                }
-            });
-
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50 && candidates.length > 0) {
-                currentId = candidates[candidates.length - 1].id;
-            }
-
-            jumpLinks.forEach(link => {
-                const href = link.getAttribute('href');
-                if (href === '#' + currentId) {
-                    link.classList.add('active');
-                    if (navContainer.scrollWidth > navContainer.clientWidth) {
-                        const linkLeft = link.offsetLeft;
-                        const linkWidth = link.offsetWidth;
-                        const navWidth = navContainer.clientWidth;
-                        navContainer.scrollTo({
-                            left: linkLeft - (navWidth / 2) + (linkWidth / 2),
-                            behavior: 'smooth'
-                        });
-                    }
-                } else {
-                    link.classList.remove('active');
-                }
-            });
-        };
-
-        window.addEventListener('scroll', onScroll, { passive: true });
-        onScroll();
     };
 
     const setupScrollReveal = () => {
@@ -5795,10 +5616,10 @@
             nav_cases: "Cases 🏛️",
             nav_prepositions: "Prepositions 📍",
             nav_practice: "Practice Drills ⚡",
-            hero_tag: "📲 Always Free · Offline Reference · 100% Client-Side",
+            hero_tag: "📲 Always Free · 100% Client-Side · No Tracking",
             hero_title: "Language Reference & Practice Tools",
             hero_subtext: "Conjugation engines, gender checkers, case systems, and more across 14 languages.",
-            search_placeholder: "Search for a verb, noun, or grammar rule...",
+            search_placeholder: "Search verbs, nouns, or rules...",
             filter_lang_label: "Language:",
             filter_all_langs: "All Languages (14)",
             cat_core_tools: "✨ Core Reference Tools",
@@ -5835,10 +5656,10 @@
             nav_cases: "Cas 🏛️",
             nav_prepositions: "Prépositions 📍",
             nav_practice: "Exercices ⚡",
-            hero_tag: "📲 Toujours Gratuit · Référence Hors Ligne · 100% Côté Client",
+            hero_tag: "📲 Toujours Gratuit · 100% Côté Client · Sans Traçage",
             hero_title: "Outils de Référence & Pratique Linguistique",
             hero_subtext: "Moteurs de conjugaison, vérificateurs de genre, déclinaisons de cas et plus dans 14 langues.",
-            search_placeholder: "Rechercher un verbe, un nom ou une règle de grammaire...",
+            search_placeholder: "Rechercher un verbe, nom...",
             filter_lang_label: "Langue :",
             filter_all_langs: "Toutes les langues (14)",
             cat_core_tools: "✨ Outils de Référence Principaux",
@@ -5875,10 +5696,10 @@
             nav_cases: "Casi 🏛️",
             nav_prepositions: "Preposizioni 📍",
             nav_practice: "Esercitazioni ⚡",
-            hero_tag: "📲 Sempre Gratuito · Consultazione Offline · 100% Lato Client",
+            hero_tag: "📲 Sempre Gratuito · 100% Lato Client · Nessun Tracciamento",
             hero_title: "Strumenti di Consultazione e Esercitazione Linguistica",
             hero_subtext: "Motori di coniugazione, controllo del genere, declinazioni e molto altro in 14 lingue.",
-            search_placeholder: "Cerca un verbo, un sostantivo o una regola grammaticale...",
+            search_placeholder: "Cerca un verbo, nome...",
             filter_lang_label: "Lingua:",
             filter_all_langs: "Tutte le lingue (14)",
             cat_core_tools: "✨ Strumenti di Riferimento Principali",
@@ -5915,10 +5736,10 @@
             nav_cases: "Падежи 🏛️",
             nav_prepositions: "Предлоги 📍",
             nav_practice: "Тренажеры ⚡",
-            hero_tag: "📲 Всегда Бесплатно · Офлайн-Справочники · 100% Клиентский Код",
+            hero_tag: "📲 Всегда бесплатно · 100% на стороне клиента · Без трекинга",
             hero_title: "Языковые Справочники и Тренажеры",
             hero_subtext: "Глагольное спряжение, род существительных, падежные системы и другое для 14 языков.",
-            search_placeholder: "Поиск глагола, существительного или грамматического правила...",
+            search_placeholder: "Поиск глагола, существительного...",
             filter_lang_label: "Язык:",
             filter_all_langs: "Все языки (14)",
             cat_core_tools: "✨ Основные Справочные Инструменты",
@@ -5955,10 +5776,10 @@
             nav_cases: "Πτώσεις 🏛️",
             nav_prepositions: "Προθέσεις 📍",
             nav_practice: "Ασκήσεις ⚡",
-            hero_tag: "📲 Πάντα Δωρεάν · Εκτός Σύνδεσης · 100% Client-Side",
+            hero_tag: "📲 Πάντα Δωρεάν · 100% Client-Side · Χωρίς Παρακολούθηση",
             hero_title: "Εργαλεία Αναφοράς & Εξάσκησης Γλωσσών",
             hero_subtext: "Μηχανές κλίσης ρημάτων, έλεγχος γένους, πτώσεις και πολλά άλλα σε 14 γλώσσες.",
-            search_placeholder: "Αναζήτηση ρήματος, ουσιαστικού ή κανόνα γραμματικής...",
+            search_placeholder: "Αναζήτηση ρήματος, ουσιαστικού...",
             filter_lang_label: "Γλώσσα:",
             filter_all_langs: "Όλες οι Γλώσσες (14)",
             cat_core_tools: "✨ Βασικά Εργαλεία Αναφοράς",

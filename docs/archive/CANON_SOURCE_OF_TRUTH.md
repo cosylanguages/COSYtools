@@ -1,3 +1,5 @@
+> **Note:** This document is historical and preserved for archival purposes.
+
 # Ecosystem Canon Source of Truth Policy
 
 This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYmanuals**, **COSYplatform**).

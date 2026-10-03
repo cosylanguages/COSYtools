@@ -1,3 +1,5 @@
+> **Note:** This document is historical and preserved for archival purposes.
+
 # COSYtools Front-End Audit Report 🛠️
 
 This report presents a thorough, read-and-report front-end audit across the 12 core COSYtools applications (`tools/fr/conjugeur`, `tools/it/coniugatore`, `tools/ru/spryazhenie`, `tools/el/klisi-rimaton`, `tools/fr/genre`, `tools/it/genere`, `tools/ru/rod-padezhi`, `tools/el/genos-ptoseis`, `tools/en/verb-prep`, `tools/fr/regime`, `tools/it/reggenza`, `tools/el/syntaxi`) and the main hub (`index.html`).

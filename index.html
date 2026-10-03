@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Reference & Practice Tools 🔎 | COSYlanguages</title>
-    <meta name="description" content="Offline reference tools for English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
+    <title>Language Reference & Practice Tools | COSYtools</title>
+    <meta name="description" content="Reference tools for English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton, and Chuvash. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
     <meta property="og:title" content="Language Reference & Practice Tools 🔎 | COSYlanguages">
-    <meta property="og:description" content="Offline reference engines with pattern-recognition color coding, SRS memory review, and drill games.">
-    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:description" content="Language reference engines with pattern-recognition color coding, SRS memory review, and drill games.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYtools/shared/images/cosylanguages.png">
     <link rel="icon" href="shared/images/cosylanguages.png">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#416b49">
@@ -28,6 +28,7 @@
     <script src="shared/js/engine.js"></script>
     <script src="shared/js/ui.js"></script>
     <script src="shared/engines/reference-utils.js"></script>
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/index.html">
 </head>
 <body class="engines-hub-page">
 
@@ -76,7 +77,7 @@
       <!-- Hero Section -->
       <div class="hero ref-hero">
         <div class="hero-inner hero-centered-panel">
-            <div class="hero-tag" data-i18n="hero_tag">📲 Always Free · Offline Reference · 100% Client-Side</div>
+            <div class="hero-tag" data-i18n="hero_tag">📲 Always Free · 100% Client-Side · No Tracking</div>
             <h1 class="hero-fraunces-title" data-i18n="hero_title">Language Reference &amp; Practice Tools</h1>
             <p class="hero-hub-subtext" data-i18n="hero_subtext">
                 Conjugation engines, gender checkers, case systems, and more across 14 languages.
@@ -85,7 +86,7 @@
             <!-- Prominent Center Search Bar -->
             <div class="ref-search-container">
                 <span class="ref-search-icon cosy-icon icon-search" aria-hidden="true"></span>
-                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search for a verb, noun, or grammar rule..." data-i18n-ph="search_placeholder" oninput="onHubSearchChange()" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
+                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search verbs, nouns, or rules..." data-i18n-ph="search_placeholder" oninput="onHubSearchChange()" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
             </div>
         </div>
       </div>
@@ -93,7 +94,7 @@
       <div class="page" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
 
         <!-- Filter Bar -->
-        <div class="filter-section">
+        <div class="filter-section" style="margin-top: 2rem; margin-bottom: 1.5rem;">
           <div class="filter-row">
             <span class="filter-label" data-i18n="filter_lang_label">Language:</span>
             <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)" data-i18n="filter_all_langs">All Languages (14)</button>
@@ -108,7 +109,7 @@
           </div>
         </div>
 
-        <div id="no-results-box" class="no-results">
+        <div id="no-results-box" class="no-results" style="display: none;">
             <span class="cosy-icon icon-search no-results-icon" aria-hidden="true"></span>
             <h3 style="margin: 0 0 0.5rem 0;">No matching reference tools found</h3>
             <p style="margin: 0; color: var(--ink-soft);">Try clearing your search term or selecting another language filter.</p>
@@ -497,5 +498,12 @@
             }
         }
     </script>
+    <!-- Shared Shell Footer -->
+    <footer class="app-footer cosy-footer">
+      <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
+        <p>🌿 <strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side &amp; private.</p>
+        <p><small>© COSYlanguages. Open language reference tools.</small></p>
+      </div>
+    </footer>
 </body>
 </html>

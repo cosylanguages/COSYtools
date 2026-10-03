@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — English Irregular Verbs Engine (en-irregular-verbs)
- * Provides offline verb lookup, principal parts (Base, Past Simple, Past Participle, 3rd Person),
+ * Provides verb lookup, principal parts (Base, Past Simple, Past Participle, 3rd Person),
  * pedagogical pattern grouping, spaced-repetition practice modes & dashboard.
  */
 

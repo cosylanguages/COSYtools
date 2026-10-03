@@ -1,154 +1,130 @@
 # COSYtools 🛠️
 
-**COSYtools** is the comprehensive offline reference hub and grammar engine suite for [COSYlanguages](https://cosylanguages.github.io/COSYlanguages/). It serves as an encyclopedia and reference library for language learners to verify grammar rules, lookup verb conjugations, inspect noun genders, study case declension tables, and practice targeted concepts.
+**COSYtools** is the comprehensive reference hub and grammar engine suite for [COSYlanguages](https://cosylanguages.github.io/COSYlanguages/). It serves as an encyclopedia and reference library for language learners to verify grammar rules, lookup verb conjugations, inspect noun genders, study case declension tables, and practice targeted concepts.
 
 ---
 
 ## 🧰 Overview of Included Tools & Reference Engines
 
-### 📜 Verb Conjugation Engines
-1. **`conjugation/template.html` & `conjugation/`** — Unified Multi-lingual Verb Conjugation Engine (English, French, Italian, Russian, Greek) with tense/mood filters, verb input, practice drills link, grammar rules, and contextual example sentences.
-2. **`tools/en/irregular-verbs/`** — English Irregular Verbs Engine (200+ verbs, V1/V2/V3 forms, 5 pattern groups, 4 practice modes, SRS deck).
-3. **`tools/fr/conjugeur/`** — French Verb Conjugation Engine (200+ verbs, all tenses, color-coded endings, practice game).
-4. **`tools/it/coniugatore/`** — Italian Verb Conjugation Engine (full conjugation tables, definitions, antonyms, irregular highlights).
-5. **`tools/ru/spryazhenie/`** — Russian Verb Conjugation Engine (aspectual pairs НСВ/СВ, stress accents, practice trainer).
-6. **`tools/el/klisi-rimaton/`** — Modern Greek Verb Conjugation Engine (active & passive voices, contracted verbs, stress accents).
+COSYtools includes **31 dedicated tool applications across 14 languages**, unified cross-language comparison hubs, practice drills, and client-side redirect stubs.
 
-### ⚖️ Noun Gender & Case Declension Engines
-7. **`gender/index.html` & `gender/`** — Universal Noun Gender & Article Checker for French, Italian, Russian, and Greek with singular/plural forms, suffix rules, ending reliability badges, and common exception lists.
-8. **`cases/index.html` & `cases/`** — Interactive Case Systems Matrix for Russian (6 cases) and Greek (4 cases) with clickable rule cells, question triggers, usage guidelines, and example sentences.
-9. **`noun-declensions/index.html`** — Complete Noun Declension Guide covering vocalic stems, consonant shifts, and irregular plural shifts.
-10. **`tools/fr/genre/`** — French Gender & Plural Engine.
-11. **`tools/it/genere/`** — Italian Gender & Preposizioni Articolate matrices.
-12. **`tools/ru/rod-padezhi/`** — Russian Gender & 6-Case Declension Engine.
-13. **`tools/el/genos-ptoseis/`** — Modern Greek Gender & 4-Case Engine.
+### 🌐 Unified Reference Hubs
+- **`index.html`** — Main Reference Hub & Cross-Language Application Search
+- **`conjugation/template.html`** — Multi-Language Conjugation Comparison Engine (English, French, Italian, Russian, Greek)
+- **`gender/index.html`** — Multi-Language Noun Gender Checker & Article Guidelines
+- **`cases/index.html`** — Multi-Language Case Systems & Declension Matrices
+- **`prepositions/index.html`** — Multi-Language Dependent Prepositions & Case Government
+- **`verb-patterns/index.html`** — Verb Pattern Classification & Vowel Shift Guide
+- **`noun-declensions/index.html`** — Noun Ending Paradigms & Plural Rules
+- **`practice/index.html`**, **`practice/quick-drills/`**, **`practice/weak-spots/`** — Practice Hub & Spaced Repetition (SRS) Review
 
-### 📍 Prepositional Regimes & Verb Syntax Engines
-14. **`prepositions/index.html` & `prepositions/`** — Preposition Rules & Verb Regimes Reference Engine covering dependent prepositions and case government in English, French, Italian, Russian, and Greek.
-15. **`tools/en/verb-prep/`** — English Dependent Prepositions & Phrasals Engine.
-16. **`tools/fr/regime/`** — French Prepositional Regimes Engine.
-17. **`tools/it/reggenza/`** — Italian Prepositional Reggenze Engine.
-18. **`tools/el/syntaxi/`** — Modern Greek Verb Syntax Engine.
+### 🛠️ 31 Native Tool Applications (14 Languages)
 
-### ⚡ Practice & SRS Review Modules
-19. **`practice/index.html`** — Comprehensive Practice Hub with stats tracking (streaks, items reviewed, weak spots count).
-20. **`practice/quick-drills/index.html`** — Dedicated Rapid-Fire Quick Drills trainer.
-21. **`practice/weak-spots/index.html`** — Weak Spots Tracker powered by Spaced Repetition (SRS).
+1. **🇬🇧 English (`en`)**
+   - `tools/en/irregular-verbs/` — English Irregular Verbs Engine
+   - `tools/en/speaking-bot/` — English Speaking Practice Bot
+   - `tools/en/verb-prep/` — English Prepositions & Regimes Engine
 
----
+2. **🇫🇷 French (`fr`)**
+   - `tools/fr/conjugeur/` — Conjugueur Français
+   - `tools/fr/genre/` — Genre & Pluriels des Noms Français
+   - `tools/fr/regime/` — Régime Prépositionnel Français
 
-## 📖 How to Use Each Tool
+3. **🇮🇹 Italian (`it`)**
+   - `tools/it/coniugatore/` — Coniugatore Italiano
+   - `tools/it/genere/` — Genere & Preposizioni Italiane
+   - `tools/it/reggenza/` — Reggenza Verbale, Nominale e Aggettivale
 
-### Using the Conjugation Engine (`/conjugation/`)
-1. Enter any verb infinitive into the search box or select a target language from the dropdown selector.
-2. Filter table results by tense/mood (Present, Past/Preterite, Future, Subjunctive/Conditional).
-3. Review person-by-person conjugation rows, related grammar rules, and example sentences.
-4. Click **"Practice this verb on COSYgames"** to launch interactive drill exercises in [COSYgames](https://cosylanguages.github.io/COSYgames/).
+4. **🇷🇺 Russian (`ru`)**
+   - `tools/ru/spryazhenie/` — Спряжение Глаголов (Russian Verb Engine)
+   - `tools/ru/rod-padezhi/` — Род и 6 Падежей (Russian Gender & 6 Cases)
 
-### Using the Gender Checker (`/gender/`)
-1. Type any noun in French, Italian, Russian, or Greek.
-2. View the noun's grammatical gender badge, definite/indefinite articles, and singular/plural forms.
-3. Consult the **Ending Rules & Reliability Guidelines** to understand suffix patterns.
-4. Review the **High-Frequency Exceptions** list to avoid common learner traps.
+5. **🇬🇷 Greek (`el`)**
+   - `tools/el/klisi-rimaton/` — Κλίση Ρημάτων (Greek Verb Engine)
+   - `tools/el/genos-ptoseis/` — Γένος & 4 Πτώσεις (Greek Gender & 4 Cases)
+   - `tools/el/syntaxi/` — Σύνταξη Ρημάτων (Greek Syntax & Prepositions)
 
-### Using Case Systems (`/cases/`)
-1. Toggle between **Russian (6 Cases)** and **Greek (4 Cases)** using the top language pills.
-2. Click on any case row in the declension matrix table to expand its detailed rule breakdown.
-3. Review question triggers (e.g., *Кто? Что?*, *Ποιος; Ποια;*) and contextually highlighted example sentences.
+6. **🇩🇪 German (`de`)**
+   - `tools/de/konjugation/` — German Verb Conjugation Engine
+   - `tools/de/genus/` — German Noun Gender Checker
+   - `tools/de/praepositionen/` — Deutsche Verben mit Präpositionen
 
-### Using Preposition Rules (`/prepositions/`)
-1. Search for a verb, noun, or preposition keyword.
-2. Inspect the governing preposition, CEFR level tag, grammar rule, common mistake warnings, and example sentences.
+7. **🇪🇸 Spanish (`es`)**
+   - `tools/es/conjugeur/` — Conjugación Española
+   - `tools/es/genre/` — Género de Sustantivos
 
-### Using Practice & Weak Spots (`/practice/`)
-1. Answer quick fill-in-the-blank questions on the Practice Hub or Quick Drills page.
-2. Incorrect answers are automatically recorded into your local **Weak Spots Tracker**.
-3. Re-test missed items on `/practice/weak-spots/` until mastered.
+8. **🇵🇹 Portuguese (`pt`)**
+   - `tools/pt/conjugeur/` — Conjugação Portuguesa
+   - `tools/pt/genre/` — Gênero de Substantivos
 
----
+9. **🇦🇲 Armenian (`hy`)**
+   - `tools/hy/conjugeur/` — Armenian Verb Conjugator
+   - `tools/hy/cases/` — Armenian Noun Case Declensions
 
-## 📊 Data Sources & Accuracy Notes
+10. **🇬🇪 Georgian (`ka`)**
+    - `tools/ka/conjugeur/` — Georgian Verb Conjugator
+    - `tools/ka/cases/` — Georgian Noun Case Declensions
 
-- **UniMorph Morphological Data:** Paradigm tables and inflectional forms are generated and verified against UniMorph morphological datasets.
-- **Kaikki / Wiktionary Lexical Pipeline:** Definitions, translations, and auxiliary usage notes are harvested via Kaikki lexical datasets.
-- **Human Pedagogical Curation:** All datasets undergo strict CEFR validation (`scripts/validate_levels.js`) and structural assertions (`scripts/validate_verbs.js`, `scripts/assert_tenses.js`).
-- **CEFR Capping:** Reference data caps at **B2+** (`A1`, `A2`, `B1`, `B2`, `B2+`) to keep tables focused and highly actionable. Full C1/C2 immersion curriculum is available through [COSYlanguages](https://cosylanguages.github.io/COSYlanguages/).
+11. **Bashkir (`ba`)**
+    - `tools/ba/conjugeur/` — Bashkir Verb Conjugator
+    - `tools/ba/cases/` — Bashkir Noun Case Declensions
 
----
+12. **Breton (`br`)**
+    - `tools/br/conjugeur/` — Breton Verb Conjugator
+    - `tools/br/genre/` — Breton Noun Gender Reference
 
-## 📘 Integration Guide & Deep-Linking Specifications
+13. **Chuvash (`cv`)**
+    - `tools/cv/conjugeur/` — Chuvash Verb Conjugator
+    - `tools/cv/cases/` — Chuvash Noun Case Declensions
 
-External applications, COSYlanguages practice pages, and COSYmanuals can link directly into specific COSYtools engines and lexical items using standard query parameters:
+14. **Tatar (`tt`)**
+    - `tools/tt/conjugeur/` — Tatar Verb Conjugator
+    - `tools/tt/cases/` — Tatar Noun Case Declensions
 
-### Supported Deep-Linking Parameters
-- **Verb Conjugation Engines:**
-  - `tools/fr/conjugeur/?verb=aimer` (also accepts `infinitive`, `word`, `q`, `search`)
-  - `tools/it/coniugatore/?verb=parlare`
-  - `tools/ru/spryazhenie/?verb=читать`
-  - `tools/el/klisi-rimaton/?verb=γράφω`
-  - `tools/en/irregular-verbs/?verb=speak`
-  - `conjugation/template.html?lang=fr&verb=parler`
-- **Noun Gender & Declension Engines:**
-  - `tools/fr/genre/?noun=maison` (also accepts `word`, `q`, `search`)
-  - `tools/it/genere/?noun=libro`
-
-When loaded with a target query parameter, engines automatically populate the lookup input and trigger the search view immediately.
+### 🔀 Client-Side Redirect Stubs (16 Pages)
+Legacy category routes are maintained as client-side redirect stubs pointing to canonical tool engines:
+- **Cases:** `cases/greek/`, `cases/russian/`
+- **Conjugation:** `conjugation/english/`, `conjugation/french/`, `conjugation/greek/`, `conjugation/italian/`, `conjugation/russian/`
+- **Gender:** `gender/french/`, `gender/greek/`, `gender/italian/`, `gender/russian/`
+- **Prepositions:** `prepositions/english/`, `prepositions/french/`, `prepositions/greek/`, `prepositions/italian/`, `prepositions/russian/`
 
 ---
 
-## 🔗 COSYdata `related_forms` Resolution Convention
+## 🎨 Shared Shell & Ecosystem Consistency
 
-COSYdata vocabulary dataset entries reference canonical grammar engines in COSYtools using the structured identifier format:
-
-```
-COSYtools:<engine-id>:<lemma>
-```
-
-### Mapping Convention to Resolvable URLs
-
-| COSYdata `related_forms` ID | Target Engine | Resolvable URL Pattern |
-| :--- | :--- | :--- |
-| `COSYtools:fr-conjugeur:aimer` | French Conjuguer | `https://cosylanguages.github.io/COSYtools/tools/fr/conjugeur/?verb=aimer` |
-| `COSYtools:it-coniugatore:parlare` | Italian Coniugatore | `https://cosylanguages.github.io/COSYtools/tools/it/coniugatore/?verb=parlare` |
-| `COSYtools:ru-spryazhenie:читать` | Russian Spryazhenie | `https://cosylanguages.github.io/COSYtools/tools/ru/spryazhenie/?verb=читать` |
-| `COSYtools:el-klisi-rimaton:γράφω` | Modern Greek Klisi | `https://cosylanguages.github.io/COSYtools/tools/el/klisi-rimaton/?verb=γράφω` |
-| `COSYtools:en-irregular-verbs:speak` | English Irregular Verbs | `https://cosylanguages.github.io/COSYtools/tools/en/irregular-verbs/?verb=speak` |
-| `COSYtools:fr-genre:maison` | French Gender Engine | `https://cosylanguages.github.io/COSYtools/tools/fr/genre/?noun=maison` |
-| `COSYtools:it-genere:libro` | Italian Gender Engine | `https://cosylanguages.github.io/COSYtools/tools/it/genere/?noun=libro` |
-
-Other repos (e.g., COSYlanguages, COSYdata) can reliably generate external links using this standard scheme:
-`https://cosylanguages.github.io/COSYtools/tools/<lang>/<engine>/?verb=<lemma>` (or `?noun=<lemma>`).
+All HTML pages in COSYtools enforce a unified ecosystem shell:
+- **Ecosystem Header Strip:** `cosy-ecosystem-strip` provides navigation across COSYlanguages, COSYdata, COSYtools, and COSYgames.
+- **Shell Footer:** `cosy-footer` provides copyright and client-side privacy notices.
+- **Shell Tooling & CI:** The ecosystem strip and footer are stamped and kept in sync across all HTML pages using `scripts/sync-shell.js`, and validated in CI via `npm run check:shell`.
 
 ---
 
-## 🛠️ API Documentation (`COSYReferenceUtils`)
+## 🚀 Shared JavaScript Utilities (`shared/js/`)
 
-`shared/engines/reference-utils.js` exposes global helper functions on `window.COSYReferenceUtils`:
-
-### `COSYReferenceUtils.detectLanguage(text)`
+### `COSYReferenceUtils.detectLanguage(input)`
 Detects language from input character sets and key tokens. Returns language code string (`'ru'`, `'el'`, `'fr'`, `'it'`, `'en'`, etc.).
 
 ### `COSYReferenceUtils.loadData(url)`
-Loads JSON data with automatic offline caching in `localStorage`. Returns a Promise resolving to the parsed object.
+Loads JSON data with automatic caching in `localStorage`. Returns a Promise resolving to the parsed object.
 
 ```javascript
 const verbs = await COSYReferenceUtils.loadData('/shared/data/verbs-fr.json');
 ```
 
-### `COSYReferenceUtils.searchDataset(dataset, query)`
-Performs fast, multi-field search across verbs, nouns, definitions, and grammar rules.
-
-### `COSYReferenceUtils.recordWeakSpot(item)` / `getWeakSpots()` / `removeWeakSpot(id, lang)`
-Manages weak-spot items saved locally for SRS review.
-
-### `COSYReferenceUtils.getEcosystemLink(destination, params)`
-- **`COSYReferenceUtils.getEcosystemLink(destination, params)`**: Generates uniform ecosystem URLs (`'home'`, `'games'`, `'events'`, `'tools'`) with URL search parameters.
-
 ---
 
-## 🚀 Course Enrollment & Ecosystem Links
+## 🧪 CI & Verification Scripts
 
-Take your language learning to the next level:
-- 🏠 **Official Home & Courses:** [COSYlanguages](https://cosylanguages.github.io/COSYlanguages/)
-- 🎮 **Self-Study Games:** [COSYgames](https://cosylanguages.github.io/COSYgames/)
-- 📅 **Live Events & Workshops:** [COSYevents](https://cosylanguages.github.io/COSYevents/)
+```bash
+# Verify JavaScript syntax across .js files
+npm run check:js-syntax
+
+# Verify inline JavaScript blocks in HTML files
+npm run check:inline-js
+
+# Verify ecosystem shell strip and footer consistency
+npm run check:shell
+
+# Run Puppeteer smoke tests and mobile viewport checks
+npm run check:smoke
+```

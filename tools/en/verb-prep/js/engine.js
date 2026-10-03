@@ -1,6 +1,6 @@
 /**
  * COSYlanguages Standalone App — English Prepositions Engine (en-verb-prep)
- * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs,
+ * Provides search, transitivity rules, dependent prepositions, phrasal verbs,
  * nouns, adjectives, cross-reference navigation, spaced-repetition practice mode & dashboard.
  */
 

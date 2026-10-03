@@ -1,7 +1,7 @@
 # COSYtools Data Contract Specification (v1.0)
 
 ## Overview
-This document specifies the official, versioned **Data Contract (v1.0)** for `COSYtools`. It defines stable public REST/URL access patterns, standardized JSON data schemas, offline caching guidelines, and consumption protocols for sibling repositories in the COSY ecosystem (`COSYplatform`, `COSYevents`, `COSYgames`, `COSYmanuals`).
+This document specifies the official, versioned **Data Contract (v1.0)** for `COSYtools`. It defines stable public REST/URL access patterns, standardized JSON data schemas, caching guidelines, and consumption protocols for sibling repositories in the COSY ecosystem (`COSYplatform`, `COSYevents`, `COSYgames`, `COSYmanuals`).
 
 ---
 
@@ -159,7 +159,7 @@ Keyed by base word or phrase entry.
 
 ---
 
-## 3. Client Integration & Offline Caching Guidelines
+## 3. Client Integration & Caching Guidelines
 
 Consumer applications (such as lesson decks in `COSYplatform` or games in `COSYgames`) SHOULD load data using `COSYReferenceUtils.loadData(url)` or implement equivalent HTTP caching:
 

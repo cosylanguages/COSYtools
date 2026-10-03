@@ -90,7 +90,7 @@ A structural comparison was conducted against the `COSYlanguages` repository tre
 | Domain / Language | `COSYtools` Engine Data | `COSYlanguages/reference-grammar/` Data | Coverage Notes |
 | :--- | :--- | :--- | :--- |
 | **Languages Supported** | `ba`, `br`, `cv`, `de`, `el`, `en`, `es`, `fr`, `hy`, `it`, `ka`, `pt`, `ru`, `tt` (14 languages) | `br`, `de`, `el`, `en`, `es`, `fr`, `hy`, `it`, `ka`, `pt`, `ru`, `tt` (12 languages) | `ba` (Bashkir) and `cv` (Chuvash) are **only** present in `COSYtools`. |
-| **Verbs / Conjugation** | **Deep Interactive Datasets**: Individual verb entries (80–370+ verbs per lang) with full tense arrays, aspectual pairs, voice, and offline practice links. | **High-Level Rule Schemas**: `morphology/verbs.json` containing group definitions, ending rule patterns, and lesson markdown/JSON references. | `COSYtools` contains complete conjugation lookup tables; `COSYlanguages` contains rule metadata. |
+| **Verbs / Conjugation** | **Deep Interactive Datasets**: Individual verb entries (80–370+ verbs per lang) with full tense arrays, aspectual pairs, voice, and practice links. | **High-Level Rule Schemas**: `morphology/verbs.json` containing group definitions, ending rule patterns, and lesson markdown/JSON references. | `COSYtools` contains complete conjugation lookup tables; `COSYlanguages` contains rule metadata. |
 | **Nouns / Gender / Cases** | **Deep Declension Tables**: Detailed noun entries with exact case forms (`nom_sing`, `gen_sing`, etc.), article rules, and SRS practice items. | **Category Metadata**: `morphology/nouns.json` & `morphology/cases.json` specifying case lists, question triggers, and high-level rules. | `COSYtools` holds concrete declension dictionary items; `COSYlanguages` holds textbook lesson outlines. |
 | **Prepositions & Regimes** | **Syntax Regimes Datasets**: Detailed verb/adjective/noun prepositional government entries across 5 major languages. | **Particle Lists**: `particles/prepositions.json` containing basic list of prepositions without detailed verb regimes. | Verb syntax regimes with common mistake warnings exist **only** in `COSYtools`. |
 | **Phonology & Syntax** | None (focused on morphological mechanics). | `phonology/` (sounds, stress, intonation) & `syntax/` (word order, clause types). | Phonology and syntax rule trees exist **only** in `COSYlanguages`. |
@@ -102,7 +102,7 @@ A structural comparison was conducted against the `COSYlanguages` repository tre
 
 ### Recommendation: `COSYtools` as Canonical Canonical Source for Grammar Mechanics
 
-Given that `COSYtools` serves explicitly as the "full encyclopedia and reference hub" with dedicated offline lookup engines, UniMorph/Kaikki pipelines, and validated CEFR datasets:
+Given that `COSYtools` serves explicitly as the "full encyclopedia and reference hub" with dedicated lookup engines, UniMorph/Kaikki pipelines, and validated CEFR datasets:
 
 1. **`COSYtools` as Canonical Data Authority**:
    `COSYtools` will be the single canonical source of truth for all morphological datasets (verb conjugations, noun gender/declensions, case tables, prepositional regimes, irregular verb lists).
@@ -114,7 +114,7 @@ Given that `COSYtools` serves explicitly as the "full encyclopedia and reference
 
 3. **Technical Rationale**:
    - `COSYtools` already maintains strict validation scripts (`scripts/validate_levels.js`, `scripts/assert_tenses.js`, `scripts/build_language_lexicons.js`).
-   - `COSYtools` data files are structured specifically for real-time frontend search and offline caching.
+   - `COSYtools` data files are structured specifically for real-time frontend search and local caching.
    - Consolidating morphology into `COSYtools` prevents drift and duplicate curation effort across repos.
 
 ---

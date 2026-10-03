@@ -9,7 +9,7 @@
  * gives immediate feedback + a model answer.
  *
  * No external API: response evaluation is keyword/pattern based, so the app
- * is fully static and offline-capable.
+ * is fully static and client-side.
  */
 (function () {
     'use strict';

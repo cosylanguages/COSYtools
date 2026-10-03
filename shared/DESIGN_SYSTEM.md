@@ -6,7 +6,7 @@ This document specifies the COSY ecosystem visual identity standards, vendored t
 ---
 
 ## 1. Vendored Base Tokens Synchronization
-COSYtools is a standalone offline-capable reference and practice tool. To ensure complete offline functionality and independence from external CDNs or network outages, canonical base tokens are **vendored** locally into:
+COSYtools is a standalone client-side reference and practice tool. To ensure complete standalone functionality and independence from external CDNs or network outages, canonical base tokens are **vendored** locally into:
 - `shared/css/tokens.css`
 - `shared/css/cosy-tokens.css`
 

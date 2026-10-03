@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Чӑвашла 🏴 | COSYlanguages</title>
+    <title>Chuvash verb conjugator | COSYtools</title>
     <link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
     <link rel="stylesheet" href="../../../shared/css/tool-lookup.css">
     <link rel="stylesheet" href="../../../shared/css/components.css">
+    <meta name="description" content="Chuvash verb conjugation reference and ending patterns.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/tools/cv/conjugeur/index.html">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYtools/shared/images/cosylanguages.png">
 </head>
 <body>
 
@@ -41,7 +44,7 @@
         fetch(dataFile).then(r => { if (!r.ok) throw new Error('Data coming soon'); return r.json(); }).then(db => {
           if (!db || Object.keys(db).length === 0) {
               const display = document.getElementById('result-display') || document.getElementById('verb-display');
-              if (display) display.innerHTML = '<h2>Data coming soon</h2><p>This language tool is under active development.</p>';
+              if (display) display.innerHTML = '<h1>Data coming soon</h1><p>This language tool is under active development.</p>';
               return;
           }
             const input = document.getElementById('search-input');
@@ -62,5 +65,12 @@
           if (display) display.innerHTML = '<h2>Data coming soon</h2><p>This language tool is under active development.</p>';
       });
     </script>
+    <!-- Shared Shell Footer -->
+    <footer class="app-footer cosy-footer">
+      <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
+        <p>🌿 <strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side &amp; private.</p>
+        <p><small>© COSYlanguages. Open language reference tools.</small></p>
+      </div>
+    </footer>
 </body>
 </html>

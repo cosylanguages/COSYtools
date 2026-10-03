@@ -1,6 +1,6 @@
 # Contributing to COSY Tools
 
-Thank you for your interest in contributing to **COSY Tools**! We build offline-first, client-side reference engines and practice applications (conjugation, gender, declension, and syntax/prepositions) across multiple languages.
+Thank you for your interest in contributing to **COSY Tools**! We build client-side reference engines and practice applications (conjugation, gender, declension, and syntax/prepositions) across multiple languages.
 
 ---
 
