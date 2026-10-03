@@ -191,7 +191,7 @@ class FrenchRegimeEngine {
 
         } else if (format === 'spot_mistake' && data.common_mistake) {
             document.getElementById('srs-question-type-label').textContent = "Format : Corrigez l'erreur";
-            document.getElementById('srs-sentence-prompt').innerHTML = `Erreur courante : <span class="text-terracotta">${data.common_mistake.split('➜')[0]}</span><br>Quelle est la forme correcte ?`;
+            document.getElementById('srs-sentence-prompt').innerHTML = `Erreur courante : <span class="text-terracotta">${(data.common_mistake || '').split('➜')[0]}</span><br>Quelle est la forme correcte ?`;
 
             const choices = this.generatePrepositionChoices(primaryPrep);
             const grid = document.getElementById('srs-choices-grid');

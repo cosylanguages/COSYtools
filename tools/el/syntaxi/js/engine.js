@@ -24,7 +24,7 @@ class GreekSyntaxiEngine {
         try {
             const [verbsRes, nounsRes] = await Promise.all([
                 fetch('data/verbs.json'),
-                fetch('../el-genos-ptoseis/data/nouns.json').catch(() => null)
+                fetch('../genos-ptoseis/data/nouns.json').catch(() => null)
             ]);
 
             this.verbDb = await verbsRes.json();

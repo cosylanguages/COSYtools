@@ -1,0 +1,58 @@
+{
+  "ba": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "br": {
+    "morphology": true,
+    "kaikki": true
+  },
+  "cv": {
+    "morphology": false,
+    "kaikki": true
+  },
+  "de": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "el": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "en": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "es": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "fr": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "hy": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "it": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "ka": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "pt": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "ru": {
+    "morphology": true,
+    "kaikki": false
+  },
+  "tt": {
+    "morphology": true,
+    "kaikki": false
+  }
+}

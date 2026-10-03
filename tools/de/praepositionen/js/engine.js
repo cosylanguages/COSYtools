@@ -201,7 +201,7 @@ class GermanPraepositionenEngine {
 
         } else if (format === 'spot_mistake' && data.common_mistake) {
             document.getElementById('srs-question-type-label').textContent = `Format: Fehler korrigieren (${itemCase})`;
-            document.getElementById('srs-sentence-prompt').innerHTML = `Typischer Fehler: <span class="blank-spot">${data.common_mistake.split('➜')[0]}</span><br>Welche Präposition gehört dazu?`;
+            document.getElementById('srs-sentence-prompt').innerHTML = `Typischer Fehler: <span class="blank-spot">${(data.common_mistake || '').split('➜')[0]}</span><br>Welche Präposition gehört dazu?`;
 
             const choices = this.generatePrepositionChoices(primaryPrep);
             const grid = document.getElementById('srs-choices-grid');
