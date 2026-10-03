@@ -9,7 +9,7 @@
   "practiceModes": ["mc", "type", "spot_mistake", "match"],
   "icons": [
     {
-      "src": "../../images/logos/cosylanguages.png",
+      "src": "../../../shared/images/cosylanguages.png",
       "sizes": "192x192",
       "type": "image/png"
     }

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
+
+      - name: Check JS Syntax
+        run: npm run check:js-syntax
+
+      - name: Check Inline JS
+        run: npm run check:inline-js
+
+      - name: Run Smoke Tests
+        run: npm run check:smoke

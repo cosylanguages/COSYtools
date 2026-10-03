@@ -1,21 +1,21 @@
 {
-  "name": "COSYlanguages Free Portal",
-  "short_name": "COSY Free",
-  "description": "Learn languages you'll actually speak - Free grammar manuals and self-study vocabulary games.",
-  "start_url": "../../index.html",
+  "name": "COSYtools",
+  "short_name": "COSYtools",
+  "description": "Offline language reference tools, verb conjugations, case matrices, and grammar engines.",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#fdf8f0",
   "theme_color": "#416b49",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "../../images/logos/cosylanguages.png",
+      "src": "shared/images/cosylanguages.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "../../images/logos/cosylanguages.png",
+      "src": "shared/images/cosylanguages.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -23,7 +23,7 @@
   ],
   "categories": [
     "education",
-    "games"
+    "reference"
   ],
   "lang": "en"
 }

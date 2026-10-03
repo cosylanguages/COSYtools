@@ -1,0 +1,15 @@
+{
+  "name": "cosytools",
+  "version": "1.0.0",
+  "description": "COSYtools offline reference tools and engines",
+  "private": true,
+  "scripts": {
+    "check:js-syntax": "node scripts/check-js-syntax.js",
+    "check:inline-js": "node scripts/check-inline-js.js",
+    "check:smoke": "node scripts/smoke-tools.js",
+    "generate:data-manifest": "node scripts/generate_data_manifest.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.3.0"
+  }
+}

@@ -5609,13 +5609,7 @@
             window.COSY.reinit = init;
         }
 
-        // Initialize local privacy-respecting analytics script dynamically if not loaded
-        if (typeof window.cosyTrackEvent === 'undefined') {
-            const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
-            const script = document.createElement('script');
-            script.src = `${prefix}js/core/analytics.js`;
-            document.head.appendChild(script);
-        }
+
 
         // Global keydown handler to activate role="button" elements on Space/Enter
         if (!window.cosyRoleButtonKeyboardHandlerSetup) {
