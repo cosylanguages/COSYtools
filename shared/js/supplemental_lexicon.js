@@ -1,92 +1,319 @@
-(function initialiseSupplementalLexicon() {
-    const input = document.querySelector('#verb-search-input, #noun-search-input, #search-input');
-    if (!input || document.getElementById('supplemental-lexicon-panel')) return;
+(function () {
+    /**
+     * Shared Shard Loader & Supplemental Lexicon Module for COSYtools
+     * Maintains a single cached instance of index.json and loaded shards per language.
+     */
 
-    const pathParts = window.location.pathname.replace(/^\//, '').split('/');
-    const toolsIdx = pathParts.indexOf('tools');
-
-    let lang = null;
-    let rootPath = '';
-
-    if (toolsIdx !== -1 && toolsIdx + 1 < pathParts.length) {
-        lang = pathParts[toolsIdx + 1];
-        const depth = pathParts.length - 1;
-        rootPath = '../'.repeat(depth);
+    function getFirstLetter(word) {
+        if (!word) return 'other';
+        const norm = String(word).normalize('NFC').toLowerCase().trim();
+        if (!norm) return 'other';
+        const char = norm.charAt(0);
+        if (/[a-z0-9\u00C0-\u024F\u0370-\u03FF\u0400-\u04FF\u0530-\u058F\u10A0-\u10FF]/i.test(char)) {
+            return char;
+        }
+        return 'other';
     }
 
-    if (!lang) return;
+    class ShardLoader {
+        constructor() {
+            this.cache = new Map(); // lang -> { indexPromise, index, shardPromises: Map(letter -> promise), shardUnits: Map(letter -> units) }
+        }
 
-    const manifestUrl = `${rootPath}shared/data/data-manifest.json`;
-
-    fetch(manifestUrl)
-        .then(res => {
-            if (!res.ok) throw new Error(`Manifest response error: ${res.status}`);
-            return res.json();
-        })
-        .then(manifest => {
-            const langData = manifest[lang];
-            if (!langData) return;
-
-            const filesToFetch = [];
-            if (langData.morphology) {
-                filesToFetch.push(`${rootPath}tools/${lang}/data/morphology.json`);
+        getRootPath() {
+            const pathParts = window.location.pathname.replace(/^\//, '').split('/');
+            const toolsIdx = pathParts.indexOf('tools');
+            if (toolsIdx !== -1) {
+                const depth = pathParts.length - 1;
+                return '../'.repeat(depth);
             }
-            if (langData.kaikki) {
-                filesToFetch.push(`${rootPath}tools/${lang}/data/kaikki.json`);
+            return '';
+        }
+
+        getLangState(lang) {
+            if (!this.cache.has(lang)) {
+                this.cache.set(lang, {
+                    indexPromise: null,
+                    index: null,
+                    shardPromises: new Map(),
+                    shardUnits: new Map()
+                });
+            }
+            return this.cache.get(lang);
+        }
+
+        async loadIndex(lang) {
+            const state = this.getLangState(lang);
+            if (state.index) return state.index;
+            if (state.indexPromise) return state.indexPromise;
+
+            const rootPath = this.getRootPath();
+            const url = `${rootPath}tools/${lang}/data/shards/index.json`;
+
+            state.indexPromise = fetch(url)
+                .then(res => {
+                    if (!res.ok) throw new Error(`Index status ${res.status}`);
+                    return res.json();
+                })
+                .then(indexData => {
+                    state.index = indexData;
+                    return indexData;
+                })
+                .catch(err => {
+                    state.indexPromise = null;
+                    throw err;
+                });
+
+            return state.indexPromise;
+        }
+
+        async loadShard(lang, letter) {
+            const state = this.getLangState(lang);
+            const normLetter = getFirstLetter(letter);
+
+            if (state.shardUnits.has(normLetter)) {
+                return state.shardUnits.get(normLetter);
+            }
+            if (state.shardPromises.has(normLetter)) {
+                return state.shardPromises.get(normLetter);
             }
 
-            if (filesToFetch.length === 0) {
+            const index = await this.loadIndex(lang);
+            if (!index.letters.includes(normLetter)) {
+                state.shardUnits.set(normLetter, []);
+                return [];
+            }
+
+            const rootPath = this.getRootPath();
+            const url = `${rootPath}tools/${lang}/data/shards/${normLetter}.json`;
+
+            const promise = fetch(url)
+                .then(res => {
+                    if (!res.ok) throw new Error(`Shard status ${res.status}`);
+                    return res.json();
+                })
+                .then(shardData => {
+                    const units = shardData.units || [];
+                    state.shardUnits.set(normLetter, units);
+                    return units;
+                })
+                .catch(err => {
+                    state.shardPromises.delete(normLetter);
+                    state.shardUnits.set(normLetter, []);
+                    return [];
+                });
+
+            state.shardPromises.set(normLetter, promise);
+            return promise;
+        }
+
+        async getUnitByLemma(lang, lemma) {
+            if (!lemma) return null;
+            const normLemma = lemma.normalize('NFC').toLowerCase().trim();
+            const letter = getFirstLetter(normLemma);
+            const units = await this.loadShard(lang, letter);
+            const matches = units.filter(u => (u.lemma || u.headword || u.word || '').normalize('NFC').toLowerCase().trim() === normLemma);
+            if (!matches.length) return null;
+            const vUnit = matches.find(u => (u.pos === 'V' || u.kind === 'verbs') && u.forms && u.forms.length > 0);
+            if (vUnit) return vUnit;
+            const formsUnit = matches.find(u => u.forms && u.forms.length > 0);
+            if (formsUnit) return formsUnit;
+            return matches[0];
+        }
+
+        async getAllVerbUnits(lang) {
+            const index = await this.loadIndex(lang);
+            const allShards = await Promise.all(index.letters.map(l => this.loadShard(lang, l)));
+            const verbUnits = [];
+            for (const shard of allShards) {
+                for (const u of shard) {
+                    if (u.pos === 'V' || u.kind === 'verbs') {
+                        verbUnits.push(u);
+                    }
+                }
+            }
+            return verbUnits;
+        }
+
+        async searchUnits(lang, query) {
+            if (!query) return [];
+            const cleanQuery = query.normalize('NFC').toLowerCase().trim();
+            if (!cleanQuery) return [];
+
+            const index = await this.loadIndex(lang);
+            const matchingLetters = new Set();
+            const firstChar = getFirstLetter(cleanQuery);
+            if (index.letters.includes(firstChar)) {
+                matchingLetters.add(firstChar);
+            }
+
+            // Also check headwords list in index for prefix/substring matches
+            if (index.headwords) {
+                for (const hw of index.headwords) {
+                    if (hw.includes(cleanQuery)) {
+                        matchingLetters.add(getFirstLetter(hw));
+                    }
+                }
+            }
+
+            const shards = await Promise.all(Array.from(matchingLetters).map(l => this.loadShard(lang, l)));
+            const results = [];
+            for (const shard of shards) {
+                for (const u of shard) {
+                    const lemma = (u.lemma || u.headword || u.word || '').normalize('NFC').toLowerCase();
+                    const formsStr = (u.forms || []).map(f => typeof f === 'string' ? f : (f.form || '')).join(' ').toLowerCase();
+                    if (lemma.includes(cleanQuery) || formsStr.includes(cleanQuery)) {
+                        results.push(u);
+                    }
+                }
+            }
+            return results;
+        }
+    }
+
+    window.COSYSupplementalLexicon = new ShardLoader();
+
+    // UI Controller for Supplemental Lexicon Panel
+    function initUI() {
+        const input = document.querySelector('#verb-search-input, #noun-search-input, #search-input');
+        if (!input || document.getElementById('supplemental-lexicon-panel')) return;
+
+        const pathParts = window.location.pathname.replace(/^\//, '').split('/');
+        const toolsIdx = pathParts.indexOf('tools');
+        let lang = null;
+        if (toolsIdx !== -1 && toolsIdx + 1 < pathParts.length) {
+            lang = pathParts[toolsIdx + 1];
+        }
+        if (!lang) return;
+
+        const panel = document.createElement('section');
+        panel.id = 'supplemental-lexicon-panel';
+        panel.setAttribute('aria-live', 'polite');
+        panel.innerHTML = '<h3>Source-backed additions</h3><p class="supplemental-status">Imported vocabulary ready</p><div class="supplemental-results"></div>';
+        input.closest('main')?.appendChild(panel);
+
+        const resultsContainer = panel.querySelector('.supplemental-results');
+
+        async function renderResults(query) {
+            if (!query.trim()) {
+                resultsContainer.innerHTML = '';
                 return;
             }
 
-            const panel = document.createElement('section');
-            panel.id = 'supplemental-lexicon-panel';
-            panel.setAttribute('aria-live', 'polite');
-            panel.innerHTML = '<h3>Source-backed additions</h3><p class="supplemental-status">Loading imported vocabulary...</p><div class="supplemental-results"></div>';
-            input.closest('main')?.appendChild(panel);
+            try {
+                const matches = await window.COSYSupplementalLexicon.searchUnits(lang, query);
 
-            const status = panel.querySelector('.supplemental-status');
-            const results = panel.querySelector('.supplemental-results');
-            let units = [];
+                // Item 3 filtering & formatting logic:
+                // 1. Group matches by source
+                // 2. Hide rows with POS "OTHER" whose forms are unrelated to headword
+                // 3. Deduplicate forms and group by tag
+                // 4. Limit to 12 forms per row with "Show more" control
+                // 5. Title block "Imported forms (UniMorph)" / "Imported entries (Kaikki)" with source_url link
 
-            Promise.allSettled(filesToFetch.map(file => fetch(file).then(response => {
-                if (!response.ok) throw new Error(`${file}: ${response.status}`);
-                return response.json();
-            }))).then(responses => {
-                units = responses
-                    .filter(response => response.status === 'fulfilled' && response.value && Array.isArray(response.value.units))
-                    .flatMap(response => response.value.units);
-
-                if (!units.length) {
-                    panel.remove();
-                    return;
-                }
-
-                status.textContent = `${units.length} imported units available`;
-                renderResults(input.value);
-            });
-
-            function renderResults(query) {
-                const cleanQuery = query.trim().toLocaleLowerCase();
-                if (!cleanQuery || !units.length) {
-                    results.innerHTML = '';
-                    return;
-                }
-
-                const matches = units.filter(unit => {
-                    const forms = (unit.forms || []).map(form => typeof form === 'string' ? form : form.form).join(' ');
-                    return unit.lemma.toLocaleLowerCase().includes(cleanQuery) || forms.toLocaleLowerCase().includes(cleanQuery);
+                const filtered = matches.filter(unit => {
+                    if (unit.pos === 'OTHER') {
+                        // Check if forms are unrelated to headword
+                        const hw = (unit.lemma || '').toLowerCase();
+                        const hasRelatedForm = (unit.forms || []).some(f => {
+                            const str = (typeof f === 'string' ? f : f.form || '').toLowerCase();
+                            return str.includes(hw) || hw.includes(str);
+                        });
+                        if (!hasRelatedForm) {
+                            return false; // Hide unrelated OTHER POS row
+                        }
+                    }
+                    return true;
                 }).slice(0, 12);
 
-                results.innerHTML = matches.length ? matches.map(unit => {
-                    const forms = (unit.forms || []).slice(0, 8).map(form => typeof form === 'string' ? form : form.form).join(', ');
-                    const details = unit.definition || `${unit.pos || 'lexical unit'}: ${forms}`;
-                    return `<article class="supplemental-result"><strong>${unit.lemma}</strong><span>${details}</span><small>${unit.source || 'Imported source'}</small></article>`;
-                }).join('') : '<p class="supplemental-empty">No imported match.</p>';
-            }
+                if (!filtered.length) {
+                    resultsContainer.innerHTML = '<p class="supplemental-empty">No imported match.</p>';
+                    return;
+                }
 
-            input.addEventListener('input', () => renderResults(input.value));
-        })
-        .catch(err => {
-        });
+                resultsContainer.innerHTML = filtered.map((unit, unitIdx) => {
+                    const sourceName = unit.source === 'Kaikki/Wiktionary' || (unit.source_url && unit.source_url.includes('kaikki'))
+                        ? 'Imported entries (Kaikki)'
+                        : 'Imported forms (UniMorph)';
+
+                    const sourceUrl = unit.source_url || '#';
+                    const linkHtml = sourceUrl !== '#' ? `<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>` : sourceName;
+
+                    // Deduplicate forms and group by tag
+                    const rawForms = unit.forms || [];
+                    const groupedByTag = new Map();
+
+                    rawForms.forEach(f => {
+                        if (typeof f === 'string') {
+                            if (!groupedByTag.has('Form')) groupedByTag.set('Form', new Set());
+                            groupedByTag.get('Form').add(f);
+                        } else if (f && f.form) {
+                            const tagStr = (f.features || []).join(' ') || 'Form';
+                            if (!groupedByTag.has(tagStr)) groupedByTag.set(tagStr, new Set());
+                            groupedByTag.get(tagStr).add(f.form);
+                        }
+                    });
+
+                    const allFormItems = [];
+                    groupedByTag.forEach((formSet, tag) => {
+                        const uniqueForms = Array.from(formSet).join(', ');
+                        allFormItems.push({ tag, forms: uniqueForms });
+                    });
+
+                    let formsDisplayHtml = '';
+                    if (allFormItems.length > 0) {
+                        const visibleItems = allFormItems.slice(0, 12);
+                        const hiddenItems = allFormItems.slice(12);
+
+                        const renderItem = item => `<li><small class="tag-label">${item.tag}:</small> <span>${item.forms}</span></li>`;
+
+                        formsDisplayHtml = `<ul class="supplemental-forms-list">${visibleItems.map(renderItem).join('')}</ul>`;
+
+                        if (hiddenItems.length > 0) {
+                            const hiddenListId = `supp-hidden-${unitIdx}`;
+                            formsDisplayHtml += `
+                                <ul id="${hiddenListId}" class="supplemental-forms-list hidden-forms" style="display:none;">
+                                    ${hiddenItems.map(renderItem).join('')}
+                                </ul>
+                                <button type="button" class="show-more-btn" onclick="
+                                    const el = document.getElementById('${hiddenListId}');
+                                    if (el.style.display === 'none') {
+                                        el.style.display = 'block';
+                                        this.textContent = 'Show less';
+                                    } else {
+                                        el.style.display = 'none';
+                                        this.textContent = 'Show more (${hiddenItems.length} more)';
+                                    }
+                                ">Show more (${hiddenItems.length} more)</button>
+                            `;
+                        }
+                    } else {
+                        formsDisplayHtml = `<span>${unit.definition || unit.pos || ''}</span>`;
+                    }
+
+                    return `
+                        <article class="supplemental-result">
+                            <div class="supplemental-header">
+                                <strong>${unit.lemma}</strong>
+                                <span class="supplemental-source-title">${linkHtml}</span>
+                            </div>
+                            <div class="supplemental-body">
+                                ${formsDisplayHtml}
+                            </div>
+                        </article>
+                    `;
+                }).join('');
+
+            } catch (err) {
+                resultsContainer.innerHTML = '';
+            }
+        }
+
+        input.addEventListener('input', () => renderResults(input.value));
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initUI);
+    } else {
+        initUI();
+    }
 })();
