@@ -1785,6 +1785,13 @@ body.theme-projector .btn-projector-toggle {
   gap: 1.25rem;
 }
 
+@media (min-width: 1024px) {
+  .sd-header-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 .sd-breadcrumbs {
   display: flex;
   align-items: center;

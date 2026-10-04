@@ -8,6 +8,7 @@
     "check:inline-js": "node scripts/check-inline-js.js",
     "check:smoke": "node scripts/smoke-tools.js",
     "check:shell": "node scripts/check-shell.js",
+    "check:data": "node scripts/validate-data.js",
     "generate:data-manifest": "node scripts/generate_data_manifest.js"
   },
   "devDependencies": {
