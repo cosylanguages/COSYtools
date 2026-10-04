@@ -235,7 +235,7 @@ class EnglishVerbPrepEngine {
     handleSearchInput(query) {
         const clearBtn = document.getElementById('clear-search-btn');
         const suggestionsBox = document.getElementById('search-suggestions');
-        const cleanQuery = query.trim().toLowerCase();
+        const cleanQuery = (query || '').trim().toLowerCase();
 
         if (clearBtn) {
             clearBtn.style.display = cleanQuery ? 'block' : 'none';
@@ -246,21 +246,21 @@ class EnglishVerbPrepEngine {
             return;
         }
 
-        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
-        const matches = pool.filter(key => key.toLowerCase().includes(cleanQuery));
+        const pool = (this.filteredKeys && this.filteredKeys.length > 0) ? this.filteredKeys : (this.verbKeys || []);
+        const matches = pool.filter(key => key && key.toLowerCase().includes(cleanQuery));
 
         if (matches.length > 0 && suggestionsBox) {
             suggestionsBox.innerHTML = matches.slice(0, 6).map(key => {
-                const data = this.verbDb[key];
+                const data = (this.verbDb && this.verbDb[key]) || {};
                 let typeLabel = '';
                 if (data.is_phrasal) {
                     typeLabel = 'Phrasal Verb';
                 } else if (data.transitivity_code) {
-                    typeLabel = `${data.transitivity} (${data.transitivity_code})`;
+                    typeLabel = `${data.transitivity || ''} (${data.transitivity_code})`;
                 } else if (data.word_type) {
                     typeLabel = data.word_type.toUpperCase();
                 } else {
-                    typeLabel = this.currentWordType.slice(0, -1).toUpperCase();
+                    typeLabel = (this.currentWordType || 'verbs').slice(0, -1).toUpperCase();
                 }
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
@@ -291,20 +291,21 @@ class EnglishVerbPrepEngine {
         if (!query) return;
 
         const cleanQuery = query.trim().toLowerCase();
-        let matchedKey = this.verbKeys.find(k => k.toLowerCase() === cleanQuery);
+        const keys = this.verbKeys || [];
+        let matchedKey = keys.find(k => k && k.toLowerCase() === cleanQuery);
 
         if (!matchedKey) {
-            matchedKey = this.verbKeys.find(k => k.toLowerCase().startsWith(cleanQuery));
+            matchedKey = keys.find(k => k && k.toLowerCase().startsWith(cleanQuery));
         }
 
-        if (matchedKey) {
-            const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
+        if (matchedKey && this.verbDb && this.verbDb[matchedKey]) {
+            const pool = (this.filteredKeys && this.filteredKeys.length > 0) ? this.filteredKeys : keys;
             this.currentIndex = pool.indexOf(matchedKey);
             this.renderVerbResult(matchedKey, this.verbDb[matchedKey]);
         } else {
             this.currentIndex = -1;
             const fallbackData = {
-                word_type: this.currentWordType.slice(0, -1),
+                word_type: (this.currentWordType || 'verbs').slice(0, -1),
                 is_phrasal: cleanQuery.includes(' '),
                 prepositions: ["none"],
                 pattern: `${cleanQuery} [object]`,
@@ -324,101 +325,128 @@ class EnglishVerbPrepEngine {
     }
 
     renderVerbResult(verbKey, data) {
-        document.getElementById('empty-state').style.display = 'none';
-        const resultCard = document.getElementById('verb-result-container');
-        resultCard.style.display = 'block';
+        if (!data) return;
+        const emptyState = document.getElementById('empty-state');
+        if (emptyState) emptyState.style.display = 'none';
 
-        document.getElementById('verb-title').textContent = verbKey;
+        const resultCard = document.getElementById('verb-result-container');
+        if (resultCard) resultCard.style.display = 'block';
+
+        const titleEl = document.getElementById('verb-title');
+        if (titleEl) titleEl.textContent = verbKey;
 
         const phrasalBadge = document.getElementById('phrasal-badge');
-        if (data.is_phrasal) {
-            phrasalBadge.style.display = 'inline-block';
-            phrasalBadge.textContent = 'Phrasal Verb 🧩';
-        } else if (data.word_type && data.word_type !== 'verb') {
-            phrasalBadge.style.display = 'inline-block';
-            phrasalBadge.textContent = data.word_type === 'noun' ? 'Noun 📦' : 'Adjective 🎨';
-        } else {
-            phrasalBadge.style.display = 'none';
+        if (phrasalBadge) {
+            if (data.is_phrasal) {
+                phrasalBadge.style.display = 'inline-block';
+                phrasalBadge.textContent = 'Phrasal Verb 🧩';
+            } else if (data.word_type && data.word_type !== 'verb') {
+                phrasalBadge.style.display = 'inline-block';
+                phrasalBadge.textContent = data.word_type === 'noun' ? 'Noun 📦' : 'Adjective 🎨';
+            } else {
+                phrasalBadge.style.display = 'none';
+            }
         }
 
         const sepBadge = document.getElementById('separability-badge');
-        if (data.is_phrasal && data.separability) {
-            sepBadge.style.display = 'inline-block';
-            sepBadge.textContent = data.separability;
-        } else {
-            sepBadge.style.display = 'none';
+        if (sepBadge) {
+            if (data.is_phrasal && data.separability) {
+                sepBadge.style.display = 'inline-block';
+                sepBadge.textContent = data.separability;
+            } else {
+                sepBadge.style.display = 'none';
+            }
         }
 
         const transBadge = document.getElementById('transitivity-badge');
-        if (data.transitivity_code) {
-            transBadge.style.display = 'inline-block';
-            transBadge.textContent = `${data.transitivity} (${data.transitivity_code})`;
-            if (data.transitivity_code === 'VT') {
-                transBadge.className = 'badge trans-vt';
-            } else if (data.transitivity_code === 'VI') {
-                transBadge.className = 'badge trans-vi';
+        if (transBadge) {
+            if (data.transitivity_code) {
+                transBadge.style.display = 'inline-block';
+                transBadge.textContent = `${data.transitivity || ''} (${data.transitivity_code})`;
+                if (data.transitivity_code === 'VT') {
+                    transBadge.className = 'badge trans-vt';
+                } else if (data.transitivity_code === 'VI') {
+                    transBadge.className = 'badge trans-vi';
+                } else {
+                    transBadge.className = 'badge trans-both';
+                }
             } else {
-                transBadge.className = 'badge trans-both';
+                transBadge.style.display = 'none';
             }
-        } else {
-            transBadge.style.display = 'none';
         }
 
         const prepBadge = document.getElementById('prep-badge');
-        const prepList = (data.prepositions || []).join(' / ');
-        prepBadge.textContent = prepList === 'none' ? 'No preposition (Direct Object)' : (data.is_phrasal ? `Particle: ${prepList}` : `Prep: ${prepList}`);
+        if (prepBadge) {
+            const prepList = (data.prepositions || []).join(' / ');
+            prepBadge.textContent = prepList === 'none' ? 'No preposition (Direct Object)' : (data.is_phrasal ? `Particle: ${prepList}` : `Prep: ${prepList}`);
+        }
 
-        document.getElementById('verb-cefr-badge').textContent = `Level: ${data.level || 'A2'}`;
+        const cefrBadge = document.getElementById('verb-cefr-badge');
+        if (cefrBadge) cefrBadge.textContent = `Level: ${data.level || 'A2'}`;
 
-        document.getElementById('verb-definition').textContent = data.definition || 'Definition unavailable.';
-        document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
+        const defEl = document.getElementById('verb-definition');
+        if (defEl) defEl.textContent = data.definition || 'Definition unavailable.';
+
+        const patternEl = document.getElementById('verb-pattern-text');
+        if (patternEl) patternEl.textContent = data.pattern || verbKey;
 
         const nounParallelBox = document.getElementById('noun-parallel-container');
         const nounParallelText = document.getElementById('noun-parallel-text');
         const contrastContent = data.related_forms || data.noun_parallel;
 
-        if (contrastContent) {
-            const crossRefs = this.extractCrossReferences(contrastContent, this.currentWordType);
-            let html = `<div>${contrastContent}</div>`;
-            if (crossRefs.length > 0) {
-                html += `<div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;">`;
-                crossRefs.forEach(ref => {
-                    html += `<button class="xref-chip" onclick="appEngine.navigateToCrossReference('${ref.type}', '${ref.key.replace(/'/g, "\\'")}')">${ref.label}</button>`;
-                });
-                html += `</div>`;
+        if (nounParallelBox && nounParallelText) {
+            if (contrastContent) {
+                const crossRefs = this.extractCrossReferences(contrastContent, this.currentWordType);
+                let html = `<div>${contrastContent}</div>`;
+                if (crossRefs.length > 0) {
+                    html += `<div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;">`;
+                    crossRefs.forEach(ref => {
+                        html += `<button class="xref-chip" onclick="appEngine.navigateToCrossReference('${ref.type}', '${ref.key.replace(/'/g, "\\'")}')">${ref.label}</button>`;
+                    });
+                    html += `</div>`;
+                }
+                nounParallelText.innerHTML = html;
+                nounParallelBox.style.display = 'block';
+            } else {
+                nounParallelBox.style.display = 'none';
             }
-            nounParallelText.innerHTML = html;
-            nounParallelBox.style.display = 'block';
-        } else {
-            nounParallelBox.style.display = 'none';
         }
 
-        document.getElementById('grammar-rule-text').textContent = data.grammar_rule || '';
+        const ruleEl = document.getElementById('grammar-rule-text');
+        if (ruleEl) ruleEl.textContent = data.grammar_rule || '';
 
         const mistakeBox = document.getElementById('mistake-container');
         const mistakeEl = document.getElementById('mistake-text');
-        if (data.common_mistake) {
-            mistakeEl.textContent = data.common_mistake;
-            mistakeBox.style.display = 'block';
-        } else {
-            mistakeBox.style.display = 'none';
+        if (mistakeBox && mistakeEl) {
+            if (data.common_mistake) {
+                mistakeEl.textContent = data.common_mistake;
+                mistakeBox.style.display = 'block';
+            } else {
+                mistakeBox.style.display = 'none';
+            }
         }
 
         const examplesList = document.getElementById('examples-list');
-        if (data.examples && data.examples.length > 0) {
-            examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
-            document.getElementById('examples-container').style.display = 'block';
-        } else {
-            document.getElementById('examples-container').style.display = 'none';
+        const examplesBox = document.getElementById('examples-container');
+        if (examplesList && examplesBox) {
+            if (data.examples && data.examples.length > 0) {
+                examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
+                examplesBox.style.display = 'block';
+            } else {
+                examplesBox.style.display = 'none';
+            }
         }
 
         const antonymsBox = document.getElementById('antonyms-pills');
-        const items = [...(data.synonyms || []).map(s => `≈ ${s}`), ...(data.antonyms || []).map(a => `↔ ${a}`)];
-        if (items.length > 0) {
-            antonymsBox.innerHTML = items.map(item => `<span class="antonym-pill">${item}</span>`).join('');
-            document.getElementById('antonyms-container').style.display = 'block';
-        } else {
-            document.getElementById('antonyms-container').style.display = 'none';
+        const antonymsContainer = document.getElementById('antonyms-container');
+        if (antonymsBox && antonymsContainer) {
+            const items = [...(data.synonyms || []).map(s => `≈ ${s}`), ...(data.antonyms || []).map(a => `↔ ${a}`)];
+            if (items.length > 0) {
+                antonymsBox.innerHTML = items.map(item => `<span class="antonym-pill">${item}</span>`).join('');
+                antonymsContainer.style.display = 'block';
+            } else {
+                antonymsContainer.style.display = 'none';
+            }
         }
     }
 

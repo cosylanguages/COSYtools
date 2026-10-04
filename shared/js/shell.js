@@ -34,14 +34,76 @@
         applyTheme(next);
     }
 
-    // Bind theme toggle button when DOM is ready
+    // --------------------------------------------------------------------------
+    // App Header Rendering
+    // --------------------------------------------------------------------------
+    const BACK_LINK_TRANSLATIONS = {
+        en: '← COSYtools',
+        fr: '← COSYtools',
+        it: '← COSYtools',
+        ru: '← COSYtools',
+        el: '← COSYtools',
+        de: '← COSYtools',
+        es: '← COSYtools',
+        pt: '← COSYtools'
+    };
+
+    function renderAppHeader() {
+        const header = document.querySelector('header.app-header[data-icon]');
+        if (!header) return;
+
+        const icon = header.getAttribute('data-icon') || '';
+        const title = header.getAttribute('data-title') || '';
+        const tagline = header.getAttribute('data-tagline') || '';
+
+        const lang = (document.documentElement.lang || 'en').toLowerCase();
+        const backText = BACK_LINK_TRANSLATIONS[lang] || '← COSYtools';
+
+        // Calculate relative path to root index.html based on pathname depth
+        const depth = window.location.pathname.split('/').filter(Boolean).length - 1;
+        const relativeRoot = depth > 0 ? '../'.repeat(depth) + 'index.html' : 'index.html';
+
+        header.innerHTML = `
+            <div class="logo-badge">
+                ${icon ? `<span class="brand-icon">${icon}</span>` : ''}
+                <div class="brand-text">
+                    <h1>${title}</h1>
+                    ${tagline ? `<p class="tagline">${tagline}</p>` : ''}
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="${relativeRoot}" class="back-link nav-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem; padding:0.5rem 0.9rem; font-weight:600;">${backText}</a>
+            </div>
+        `;
+    }
+
+    // --------------------------------------------------------------------------
+    // Initial Query Search Deep Links
+    // --------------------------------------------------------------------------
+    function handleInitialDeepLink() {
+        const query = window.COSY && typeof window.COSY.getInitialSearchQuery === 'function'
+            ? window.COSY.getInitialSearchQuery()
+            : null;
+        if (!query) return;
+
+        const input = document.getElementById('search-input') || document.getElementById('verb-search-input');
+        if (!input) return;
+
+        input.value = query;
+        // Dispatch 'input' event so tool inline listeners trigger search & render
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+
+    // Bind theme toggle button & app header rendering when DOM is ready
     function bindEvents() {
         initTheme();
+        renderAppHeader();
         const toggleBtn = document.getElementById('cosy-theme-toggle');
         if (toggleBtn) {
             toggleBtn.removeEventListener('click', toggleTheme);
             toggleBtn.addEventListener('click', toggleTheme);
         }
+        handleInitialDeepLink();
     }
 
     if (document.readyState === 'loading') {

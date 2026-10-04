@@ -116,7 +116,8 @@ async function runSmokeTests() {
         });
 
         const viewports = [
-            { width: 390, height: 844, name: '390px (mobile)' },
+            { width: 360, height: 800, name: '360px (mobile)' },
+            { width: 768, height: 1024, name: '768px (tablet)' },
             { width: 1280, height: 800, name: '1280px (desktop)' }
         ];
 
@@ -130,6 +131,10 @@ async function runSmokeTests() {
 
             let pageFunctionalPassed = false;
 
+            // For tools/en/verb-prep, run the page load 10 times to verify no race conditions or crashes occur
+            const loadIterations = pageRelPath.includes('en/verb-prep') ? 10 : 1;
+
+            for (let iter = 0; iter < loadIterations; iter++) {
             for (const vp of viewports) {
                 const page = await browser.newPage();
                 await page.setViewport({ width: vp.width, height: vp.height });
@@ -312,6 +317,7 @@ async function runSmokeTests() {
                 }
 
                 await page.close();
+            }
             }
 
             const toolName = pageRelPath.replace('tools/', '').replace('/index.html', '');
