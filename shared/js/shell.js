@@ -4,6 +4,17 @@
     // --------------------------------------------------------------------------
     // Theme Management
     // --------------------------------------------------------------------------
+    const THEME_TOGGLE_TRANSLATIONS = {
+        en: { dark: 'Switch to light theme', light: 'Switch to dark theme' },
+        fr: { dark: 'Passer au thème clair', light: 'Changer de thème' },
+        it: { dark: 'Passa al tema chiaro', light: 'Cambia tema' },
+        ru: { dark: 'Переключить на светлую тему', light: 'Переключить тему' },
+        el: { dark: 'Αλλαγή σε φωτεινό θέμα', light: 'Αλλαγή θέματος' },
+        de: { dark: 'Zu hellem Design wechseln', light: 'Design wechseln' },
+        es: { dark: 'Cambiar a tema claro', light: 'Cambiar tema' },
+        pt: { dark: 'Alternar para tema claro', light: 'Alternar tema' }
+    };
+
     function applyTheme(theme) {
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
@@ -12,8 +23,13 @@
         }
         const btn = document.getElementById('cosy-theme-toggle');
         if (btn) {
+            const lang = (document.documentElement.lang || 'en').toLowerCase();
+            const trans = THEME_TOGGLE_TRANSLATIONS[lang] || THEME_TOGGLE_TRANSLATIONS.en;
+            const label = theme === 'dark' ? trans.dark : trans.light;
+
             btn.textContent = theme === 'dark' ? '☀️' : '🌙';
-            btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+            btn.setAttribute('aria-label', label);
+            btn.setAttribute('title', label);
         }
     }
 

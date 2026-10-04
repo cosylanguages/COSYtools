@@ -194,43 +194,54 @@
 
         const resultsContainer = panel.querySelector('.supplemental-results');
 
+        const RELATED_VERBS_TITLES = {
+            es: 'Verbos relacionados',
+            pt: 'Verbos relacionados',
+            de: 'Verwandte Verben',
+            en: 'Related verbs',
+            fr: 'Verbes apparentés',
+            it: 'Verbi correlati',
+            ru: 'Родственные глаголы',
+            el: 'Σχετικά ρήματα'
+        };
+
         async function renderResults(query) {
-            if (!query.trim()) {
+            const normQuery = (query || '').normalize('NFC').toLowerCase().trim();
+            if (!normQuery) {
                 resultsContainer.innerHTML = '';
                 return;
             }
 
             try {
-                const matches = await window.COSYSupplementalLexicon.searchUnits(lang, query);
+                const matches = await window.COSYSupplementalLexicon.searchUnits(lang, normQuery);
 
-                // Item 3 filtering & formatting logic:
-                // 1. Group matches by source
-                // 2. Hide rows with POS "OTHER" whose forms are unrelated to headword
-                // 3. Deduplicate forms and group by tag
-                // 4. Limit to 12 forms per row with "Show more" control
-                // 5. Title block "Imported forms (UniMorph)" / "Imported entries (Kaikki)" with source_url link
+                const exactMatches = [];
+                const relatedMatches = [];
 
-                const filtered = matches.filter(unit => {
+                matches.forEach(unit => {
                     if (unit.pos === 'OTHER') {
-                        // Check if forms are unrelated to headword
                         const hw = (unit.lemma || '').toLowerCase();
                         const hasRelatedForm = (unit.forms || []).some(f => {
                             const str = (typeof f === 'string' ? f : f.form || '').toLowerCase();
                             return str.includes(hw) || hw.includes(str);
                         });
-                        if (!hasRelatedForm) {
-                            return false; // Hide unrelated OTHER POS row
-                        }
+                        if (!hasRelatedForm) return;
                     }
-                    return true;
-                }).slice(0, 12);
 
-                if (!filtered.length) {
+                    const lemmaNorm = (unit.lemma || unit.headword || unit.word || '').normalize('NFC').toLowerCase().trim();
+                    if (lemmaNorm === normQuery) {
+                        exactMatches.push(unit);
+                    } else {
+                        relatedMatches.push(unit);
+                    }
+                });
+
+                if (!exactMatches.length && !relatedMatches.length) {
                     resultsContainer.innerHTML = '<p class="supplemental-empty">No imported match.</p>';
                     return;
                 }
 
-                resultsContainer.innerHTML = filtered.map((unit, unitIdx) => {
+                function renderUnitCard(unit, unitIdx) {
                     const sourceName = unit.source === 'Kaikki/Wiktionary' || (unit.source_url && unit.source_url.includes('kaikki'))
                         ? 'Imported entries (Kaikki)'
                         : 'Imported forms (UniMorph)';
@@ -238,7 +249,6 @@
                     const sourceUrl = unit.source_url || '#';
                     const linkHtml = sourceUrl !== '#' ? `<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>` : sourceName;
 
-                    // Deduplicate forms and group by tag
                     const rawForms = unit.forms || [];
                     const groupedByTag = new Map();
 
@@ -269,7 +279,7 @@
                         formsDisplayHtml = `<ul class="supplemental-forms-list">${visibleItems.map(renderItem).join('')}</ul>`;
 
                         if (hiddenItems.length > 0) {
-                            const hiddenListId = `supp-hidden-${unitIdx}`;
+                            const hiddenListId = `supp-hidden-${unitIdx}-${Math.random().toString(36).substr(2, 5)}`;
                             formsDisplayHtml += `
                                 <ul id="${hiddenListId}" class="supplemental-forms-list hidden-forms" style="display:none;">
                                     ${hiddenItems.map(renderItem).join('')}
@@ -301,8 +311,24 @@
                             </div>
                         </article>
                     `;
-                }).join('');
+                }
 
+                let html = exactMatches.slice(0, 12).map((u, i) => renderUnitCard(u, i)).join('');
+
+                if (relatedMatches.length > 0) {
+                    const relatedTitle = RELATED_VERBS_TITLES[lang] || RELATED_VERBS_TITLES.en;
+                    const relatedCardsHtml = relatedMatches.slice(0, 12).map((u, i) => renderUnitCard(u, i + 100)).join('');
+                    html += `
+                        <details class="related-verbs-details" style="margin-top: 1rem; border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; padding: 0.5rem 0.75rem;">
+                            <summary style="cursor: pointer; font-weight: 600; color: var(--ink-soft, #475569);">${relatedTitle} (${relatedMatches.length})</summary>
+                            <div class="related-verbs-list" style="margin-top: 0.75rem;">
+                                ${relatedCardsHtml}
+                            </div>
+                        </details>
+                    `;
+                }
+
+                resultsContainer.innerHTML = html;
             } catch (err) {
                 resultsContainer.innerHTML = '';
             }

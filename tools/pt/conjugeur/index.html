@@ -30,8 +30,8 @@
     <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Alternar tema" style="background:none; border:none; cursor:pointer; font-size:1.1rem; padding:0.2rem 0.5rem; margin-left:auto;">🌙</button>
   </div>
 </div>
-    <header class="app-header" data-icon="🇵🇹" data-title="Português" data-tagline="Portuguese Verb Engine"></header>
-    <main class="tool-container">
+        <main class="tool-container">
+        <header class="app-header" data-icon="🇵🇹" data-title="Português" data-tagline="Portuguese Verb Engine"></header>
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search..." aria-label="Search entries">
             <div id="search-suggestions" class="suggestions-box"></div>
@@ -56,6 +56,7 @@
         </section>
     </main>
     <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/supplemental_lexicon.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
         const lang = 'pt';
@@ -66,8 +67,10 @@
 
             let indexHeadwords = [];
             try {
-                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
-                indexHeadwords = indexData.headwords || [];
+                if (window.COSYSupplementalLexicon) {
+                    const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                    indexHeadwords = indexData.headwords || [];
+                }
             } catch (e) {}
 
             const allLemmas = [...new Set([...Object.keys(db), ...indexHeadwords])];
@@ -78,7 +81,12 @@
                 const dbKey = Object.keys(db).find(k => k.toLowerCase() === normV);
                 const item = dbKey ? db[dbKey] : null;
 
-                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                let morphUnit = null;
+                try {
+                    if (window.COSYSupplementalLexicon) {
+                        morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                    }
+                } catch (e) {}
                 const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
 
                 if (item) {
@@ -164,16 +172,12 @@
         });
     </script>
     <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
-<!-- Shared Shell Footer -->
-<!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <footer class="app-footer cosy-footer">
   <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
-    <p>🌿 <strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side & private.</p>
-    <p><small>© COSYlanguages. Open language reference tools.</small></p>
+    <p>🌿 <strong>COSYtools</strong> — Ferramentas de referência linguística em 14 idiomas. 100% no cliente e privado.</p>
+    <p><small>© COSYlanguages. Ferramentas de referência linguística abertas.</small></p>
   </div>
 </footer>
 </body>

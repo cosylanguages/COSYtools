@@ -25,10 +25,10 @@ class PracticeManager extends PracticeEngine {
         const type = item.type;
 
         // Clean prompt word to avoid leaking trailing preposition in key name
-        let promptWord = rawKey;
-        if (data.prepositions && data.prepositions.length > 0 && data.prepositions[0] !== 'none') {
+        let promptWord = rawKey || '';
+        if (data && data.prepositions && Array.isArray(data.prepositions) && data.prepositions.length > 0 && data.prepositions[0] !== 'none') {
             for (const p of data.prepositions) {
-                if (p === 'none') continue;
+                if (!p || typeof p !== 'string' || p === 'none') continue;
                 const reg = new RegExp(`\\s+${p.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}$`, 'i');
                 if (reg.test(promptWord)) {
                     promptWord = promptWord.replace(reg, '');
@@ -57,7 +57,7 @@ class PracticeManager extends PracticeEngine {
 
         let questionPromptHtml = '';
 
-        if (format === 'spot_mistake' && data.common_mistake) {
+        if (format === 'spot_mistake' && data && data.common_mistake && typeof data.common_mistake === 'string') {
             questionPromptHtml = `
                 <div class="mistake-spot-prompt">
                     <span class="prompt-badge spot-badge">⚠️ Spot &amp; Fix Pitfall</span>
@@ -65,14 +65,15 @@ class PracticeManager extends PracticeEngine {
                     <p class="mistake-line">${data.common_mistake.split('➜')[0] || data.common_mistake}</p>
                 </div>
             `;
-        } else if (format === 'blank' && data.examples?.[0]) {
+        } else if (format === 'blank' && data && Array.isArray(data.examples) && typeof data.examples[0] === 'string') {
             const ex = data.examples[0];
             let blankSentence = ex;
             if (primaryPrep !== 'none') {
-                const reg = new RegExp(`\\b${primaryPrep}\\b`, 'i');
+                const reg = new RegExp(`\\b${primaryPrep.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
                 blankSentence = ex.replace(reg, '<strong class="blank-spot">[ ___ ]</strong>');
-            } else {
-                blankSentence = ex.replace(new RegExp(`\\b${promptWord}\\b`, 'i'), `${promptWord} <strong class="blank-spot">[ ___ ]</strong>`);
+            } else if (promptWord) {
+                const reg = new RegExp(`\\b${promptWord.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
+                blankSentence = ex.replace(reg, `${promptWord} <strong class="blank-spot">[ ___ ]</strong>`);
             }
             questionPromptHtml = `
                 <div class="blank-prompt">

@@ -130,29 +130,64 @@ async function runSmokeTests() {
                 : `http://localhost:${PORT}/${pageRelPath}?${paramKey}=${encodeURIComponent(sampleQuery)}`;
 
             let pageFunctionalPassed = false;
+            const pageErrors = [];
 
-            // For tools/en/verb-prep, run the page load 10 times to verify no race conditions or crashes occur
-            const loadIterations = pageRelPath.includes('en/verb-prep') ? 10 : 1;
+            // 1. Run 10 load iterations with CDP 6x CPU throttling and slow network profile to catch race conditions / errors
+            const throttlePage = await browser.newPage();
+            try {
+                const cdp = await throttlePage.target().createCDPSession();
+                await cdp.send('Emulation.setCPUThrottlingRate', { rate: 6 });
+                await cdp.send('Network.enable');
+                await cdp.send('Network.emulateNetworkConditions', {
+                    offline: false,
+                    latency: 150, // 150ms
+                    downloadThroughput: (1.6 * 1024 * 1024) / 8, // ~1.6 Mbps
+                    uploadThroughput: (750 * 1024) / 8
+                });
+            } catch (cdpErr) {
+                console.warn(`CDP Throttling Warning: ${cdpErr.message}`);
+            }
 
-            for (let iter = 0; iter < loadIterations; iter++) {
+            throttlePage.on('console', msg => {
+                if (msg.type() === 'error') {
+                    const txt = msg.text();
+                    if (!txt.includes('Data coming soon') && !txt.includes('404')) {
+                        pageErrors.push(`Console Error: ${txt}`);
+                    }
+                }
+            });
+
+            throttlePage.on('pageerror', err => {
+                pageErrors.push(`Uncaught Page Exception: ${err.message}`);
+            });
+
+            for (let iter = 0; iter < 10; iter++) {
+                try {
+                    await throttlePage.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+                } catch (gotoErr) {
+                    pageErrors.push(`Throttled Load Run #${iter + 1} Error: ${gotoErr.message}`);
+                }
+            }
+            await throttlePage.close();
+
+            // 2. Perform responsive layout & structural assertions across the 3 required viewports (360px, 768px, 1280px)
             for (const vp of viewports) {
                 const page = await browser.newPage();
                 await page.setViewport({ width: vp.width, height: vp.height });
 
-                const pageErrors = [];
                 const notFoundRequests = [];
 
                 page.on('console', msg => {
                     if (msg.type() === 'error') {
                         const txt = msg.text();
                         if (!txt.includes('Data coming soon') && !txt.includes('404')) {
-                            pageErrors.push(`Console Error: ${txt}`);
+                            pageErrors.push(`Console Error [${vp.name}]: ${txt}`);
                         }
                     }
                 });
 
                 page.on('pageerror', err => {
-                    pageErrors.push(`Uncaught Page Exception: ${err.message}`);
+                    pageErrors.push(`Uncaught Page Exception [${vp.name}]: ${err.message}`);
                 });
 
                 page.on('response', response => {
@@ -167,7 +202,7 @@ async function runSmokeTests() {
                 try {
                     await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
                 } catch (gotoErr) {
-                    pageErrors.push(`Navigation Error: ${gotoErr.message}`);
+                    pageErrors.push(`Navigation Error [${vp.name}]: ${gotoErr.message}`);
                 }
 
                 const hasHorizontalScroll = await page.evaluate(() => {
@@ -175,12 +210,12 @@ async function runSmokeTests() {
                 });
 
                 if (hasHorizontalScroll) {
-                    pageErrors.push(`Horizontal scroll detected (scrollWidth > clientWidth)`);
+                    pageErrors.push(`Horizontal scroll detected [${vp.name}] (scrollWidth > clientWidth)`);
                 }
 
                 if (notFoundRequests.length > 0) {
                     notFoundRequests.forEach(reqUrl => {
-                        pageErrors.push(`404 Local Resource: ${reqUrl}`);
+                        pageErrors.push(`404 Local Resource [${vp.name}]: ${reqUrl}`);
                     });
                 }
 
@@ -201,7 +236,7 @@ async function runSmokeTests() {
                 });
 
                 if (structuralCheck.length > 0) {
-                    structuralCheck.forEach(e => pageErrors.push(`Structural Error: ${e}`));
+                    structuralCheck.forEach(e => pageErrors.push(`Structural Error [${vp.name}]: ${e}`));
                 }
 
                 // Theme Toggle Assertion
@@ -308,16 +343,15 @@ async function runSmokeTests() {
                     pageFunctionalPassed = true;
                 }
 
-                if (pageErrors.length > 0) {
-                    console.error(`❌ FAIL [${vp.name}] ${pageRelPath}:`);
-                    pageErrors.forEach(err => console.error(`   - ${err}`));
-                    totalErrors += pageErrors.length;
-                } else {
-                    console.log(`  PASS [${vp.name}]`);
-                }
-
                 await page.close();
             }
+
+            if (pageErrors.length > 0) {
+                console.error(`❌ FAIL ${pageRelPath}:`);
+                pageErrors.forEach(err => console.error(`   - ${err}`));
+                totalErrors += pageErrors.length;
+            } else {
+                console.log(`  PASS 10x throttled loads & 3 viewports check`);
             }
 
             const toolName = pageRelPath.replace('tools/', '').replace('/index.html', '');

@@ -154,15 +154,6 @@
 
         if (sectionsMap.size === 0) return null;
 
-        const personNumbers = [
-            { key: '1_SG', pers: '1', num: 'SG' },
-            { key: '2_SG', pers: '2', num: 'SG' },
-            { key: '3_SG', pers: '3', num: 'SG' },
-            { key: '1_PL', pers: '1', num: 'PL' },
-            { key: '2_PL', pers: '2', num: 'PL' },
-            { key: '3_PL', pers: '3', num: 'PL' }
-        ];
-
         let html = '<div class="conjugation-tables-container" style="margin-top: 1.5rem;">';
 
         sectionsMap.forEach((forms, secKey) => {
@@ -174,27 +165,82 @@
                 html += `<h3 class="section-title" style="margin-bottom: 0.5rem; border-bottom: 1px solid var(--border-color, #e2e8f0); padding-bottom: 0.25rem;">${sectionTitle}</h3>`;
                 html += `<table class="conjugation-table" style="width:100%; border-collapse: collapse;"><thead><tr style="text-align:left; background: var(--bg-soft, #f8fafc);"><th style="padding: 0.5rem;">${lang === 'es' ? 'Persona' : (lang === 'pt' ? 'Pessoa' : (lang === 'de' ? 'Person' : 'Person'))}</th><th style="padding: 0.5rem;">${lang === 'es' ? 'Forma' : (lang === 'pt' ? 'Forma' : (lang === 'de' ? 'Form' : 'Form'))}</th></tr></thead><tbody>`;
 
-                personNumbers.forEach(pn => {
+                const personSlots = [
+                    { pers: '1', num: 'SG' },
+                    { pers: '2', num: 'SG' },
+                    { pers: '3', num: 'SG' },
+                    { pers: '1', num: 'PL' },
+                    { pers: '2', num: 'PL' },
+                    { pers: '3', num: 'PL' }
+                ];
+
+                personSlots.forEach(pn => {
                     const matchingForms = forms.filter(f => f.pers === pn.pers && f.num === pn.num);
                     if (matchingForms.length === 0) return; // Never fill gaps!
 
-                    const rowLabel = getLabel(lang, pn.key, `${pn.pers} ${pn.num}`);
+                    // Check if second-person forms contain distinct INFM / FORM qualifiers or raw tags
+                    const hasFormTag = matchingForms.some(f => f.qualifiers.includes('FORM'));
+                    const hasInfmTag = matchingForms.some(f => f.qualifiers.includes('INFM'));
 
-                    const formMap = new Map();
-                    matchingForms.forEach(f => {
-                        if (!formMap.has(f.form)) formMap.set(f.form, []);
-                        const qualLabels = f.qualifiers.map(q => getLabel(lang, q, q));
-                        if (qualLabels.length > 0) {
-                            formMap.get(f.form).push(qualLabels.join('/'));
-                        }
-                    });
+                    if (pn.pers === '2' && (hasFormTag || hasInfmTag)) {
+                        const groups = [
+                            { tag: 'INFM', forms: matchingForms.filter(f => f.qualifiers.includes('INFM')) },
+                            { tag: 'FORM', forms: matchingForms.filter(f => f.qualifiers.includes('FORM')) },
+                            { tag: 'OTHER', forms: matchingForms.filter(f => !f.qualifiers.includes('INFM') && !f.qualifiers.includes('FORM')) }
+                        ];
 
-                    const cellHtml = Array.from(formMap.entries()).map(([formStr, qualList]) => {
-                        const qualStr = qualList.length > 0 ? ` <small class="qualifier" style="color: var(--ink-soft, #64748b);">(${qualList.join(', ')})</small>` : '';
-                        return `<span class="cell-form"><strong>${formStr}</strong>${qualStr}</span>`;
-                    }).join(' · ');
+                        groups.forEach(g => {
+                            if (g.forms.length === 0) return;
 
-                    html += `<tr style="border-bottom: 1px solid var(--border-color, #f1f5f9);"><td class="person-label" style="padding: 0.5rem; font-weight: 500;">${rowLabel}</td><td class="form-cell" style="padding: 0.5rem;">${cellHtml}</td></tr>`;
+                            let rowLabel = getLabel(lang, `${pn.pers}_${pn.num}`, `${pn.pers} ${pn.num}`);
+
+                            if (g.tag === 'INFM') {
+                                if (lang === 'es') rowLabel = '2.ª singular informal (tú / vos)';
+                                else if (lang === 'pt') rowLabel = '2.ª singular (tu)';
+                                else if (lang === 'de') rowLabel = 'du';
+                                else rowLabel += ' (INFM)';
+                            } else if (g.tag === 'FORM') {
+                                if (lang === 'es') rowLabel = 'formal (usted)';
+                                else if (lang === 'pt') rowLabel = '(você)';
+                                else if (lang === 'de') rowLabel = 'Sie';
+                                else rowLabel += ' (FORM)';
+                            }
+
+                            const formMap = new Map();
+                            g.forms.forEach(f => {
+                                if (!formMap.has(f.form)) formMap.set(f.form, []);
+                                const otherQuals = f.qualifiers.filter(q => q !== 'FORM' && q !== 'INFM').map(q => getLabel(lang, q, q));
+                                if (otherQuals.length > 0) {
+                                    formMap.get(f.form).push(otherQuals.join('/'));
+                                }
+                            });
+
+                            const cellHtml = Array.from(formMap.entries()).map(([formStr, qualList]) => {
+                                const qualStr = qualList.length > 0 ? ` <small class="qualifier" style="color: var(--ink-soft, #64748b);">(${qualList.join(', ')})</small>` : '';
+                                return `<span class="cell-form"><strong>${formStr}</strong>${qualStr}</span>`;
+                            }).join(' · ');
+
+                            html += `<tr style="border-bottom: 1px solid var(--border-color, #f1f5f9);"><td class="person-label" style="padding: 0.5rem; font-weight: 500;">${rowLabel}</td><td class="form-cell" style="padding: 0.5rem;">${cellHtml}</td></tr>`;
+                        });
+                    } else {
+                        const rowLabel = getLabel(lang, `${pn.pers}_${pn.num}`, `${pn.pers} ${pn.num}`);
+
+                        const formMap = new Map();
+                        matchingForms.forEach(f => {
+                            if (!formMap.has(f.form)) formMap.set(f.form, []);
+                            const qualLabels = f.qualifiers.map(q => getLabel(lang, q, q));
+                            if (qualLabels.length > 0) {
+                                formMap.get(f.form).push(qualLabels.join('/'));
+                            }
+                        });
+
+                        const cellHtml = Array.from(formMap.entries()).map(([formStr, qualList]) => {
+                            const qualStr = qualList.length > 0 ? ` <small class="qualifier" style="color: var(--ink-soft, #64748b);">(${qualList.join(', ')})</small>` : '';
+                            return `<span class="cell-form"><strong>${formStr}</strong>${qualStr}</span>`;
+                        }).join(' · ');
+
+                        html += `<tr style="border-bottom: 1px solid var(--border-color, #f1f5f9);"><td class="person-label" style="padding: 0.5rem; font-weight: 500;">${rowLabel}</td><td class="form-cell" style="padding: 0.5rem;">${cellHtml}</td></tr>`;
+                    }
                 });
 
                 html += `</tbody></table></div>`;

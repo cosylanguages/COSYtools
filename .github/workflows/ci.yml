@@ -24,6 +24,9 @@ jobs:
       - name: Check Inline JS
         run: npm run check:inline-js
 
+      - name: Run Data Validation Check
+        run: npm run check:data
+
       - name: Run Shell Check
         run: npm run check:shell
 
