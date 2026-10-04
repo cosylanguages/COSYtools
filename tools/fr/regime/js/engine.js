@@ -304,24 +304,32 @@ class FrenchRegimeEngine {
     }
 
     finishSrsSession() {
-        document.getElementById('srs-practice-card').style.display = 'none';
+        const practiceCard = document.getElementById('srs-practice-card') || document.getElementById('practice-card-container');
+        if (practiceCard) practiceCard.style.display = 'none';
         const summaryCard = document.getElementById('srs-summary-card');
-        summaryCard.style.display = 'block';
+        if (summaryCard) summaryCard.style.display = 'block';
 
-        document.getElementById('summary-score-text').textContent = `Vous avez révisé ${this.sessionItems.length} mots lors de cette session !`;
-        document.getElementById('summary-correct-count').textContent = `${this.sessionCorrectCount} / ${this.sessionItems.length}`;
+        const scoreTextEl = document.getElementById('summary-score-text');
+        if (scoreTextEl) scoreTextEl.textContent = `Vous avez révisé ${this.sessionItems.length} mots lors de cette session !`;
+        const correctCountEl = document.getElementById('summary-correct-count');
+        if (correctCountEl) correctCountEl.textContent = `${this.sessionCorrectCount} / ${this.sessionItems.length}`;
 
         const stats = this.srs.getDashboardStats(this.datasets);
-        document.getElementById('summary-streak-count').textContent = stats.streak;
-        document.getElementById('summary-mastered-count').textContent = stats.totalMastered;
+        const streakEl = document.getElementById('summary-streak-count');
+        if (streakEl) streakEl.textContent = stats.streak;
+        const masteredEl = document.getElementById('summary-mastered-count');
+        if (masteredEl) masteredEl.textContent = stats.totalMastered;
 
         this.updateSrsStatsBar();
     }
 
     resetSrsLauncher() {
-        document.getElementById('session-launcher-card').style.display = 'block';
-        document.getElementById('srs-practice-card').style.display = 'none';
-        document.getElementById('srs-summary-card').style.display = 'none';
+        const launcherCard = document.getElementById('session-launcher-card');
+        if (launcherCard) launcherCard.style.display = 'block';
+        const practiceCard = document.getElementById('srs-practice-card') || document.getElementById('practice-card-container');
+        if (practiceCard) practiceCard.style.display = 'none';
+        const summaryCard = document.getElementById('srs-summary-card');
+        if (summaryCard) summaryCard.style.display = 'none';
         this.updateSrsStatsBar();
     }
 
