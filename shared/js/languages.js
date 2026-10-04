@@ -150,6 +150,11 @@ window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.has_data);
 // Load imported morphology and lexical supplements for every tool page.
 const languageScript = document.currentScript;
 if (languageScript && !document.querySelector('script[data-supplemental-lexicon]')) {
+    const tableScript = document.createElement('script');
+    tableScript.src = new URL('conjugation_table.js', languageScript.src).href;
+    tableScript.dataset.conjugationTable = 'true';
+    document.head.appendChild(tableScript);
+
     const supplementalScript = document.createElement('script');
     supplementalScript.src = new URL('supplemental_lexicon.js', languageScript.src).href;
     supplementalScript.dataset.supplementalLexicon = 'true';

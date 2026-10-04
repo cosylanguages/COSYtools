@@ -58,30 +58,57 @@
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
+        const lang = 'de';
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
-        Promise.all([fetch(dataFile).then(r => r.json()), fetch('../data/morphology.json').then(r => r.json())]).then(([db, morphology]) => {
+        fetch(dataFile).then(r => r.json()).then(async db => {
             const input = document.getElementById('search-input');
             const display = document.getElementById('result-display');
-            const sourceUnits = (morphology.units || []).filter(unit => unit.pos === 'V');
-            const sourceByLemma = new Map(sourceUnits.map(unit => [unit.lemma.toLocaleLowerCase(), unit]));
 
-            function render(v) {
-                const item = db[v];
+            let indexHeadwords = [];
+            try {
+                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                indexHeadwords = indexData.headwords || [];
+            } catch (e) {}
+
+            const allLemmas = [...new Set([...Object.keys(db), ...indexHeadwords])];
+
+            async function render(v) {
+                if (!v) return;
+                const normV = v.trim().toLowerCase();
+                const dbKey = Object.keys(db).find(k => k.toLowerCase() === normV);
+                const item = dbKey ? db[dbKey] : null;
+
+                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
+
                 if (item) {
-                    display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
+                    let html = `<h2 style="margin-top:0;">${dbKey} <span class="tag">${item.level || 'A1'}</span></h2>`;
+                    if (item.definition) html += `<p><strong>Definition:</strong> ${item.definition}</p>`;
+                    if (item.examples && item.examples.length > 0) html += `<p><strong>Beispiel:</strong> ${item.examples[0]}</p>`;
+
+                    if (tableHtml) {
+                        html += tableHtml;
+                    } else {
+                        html += `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic; margin-top: 1rem;">Full conjugation table not available for this verb yet.</p>`;
+                    }
+                    display.innerHTML = html;
                     return;
                 }
 
-                const source = sourceByLemma.get(v.toLocaleLowerCase());
-                if (!source) return;
-                const groups = new Map();
-                source.forms.forEach(entry => {
-                    const key = entry.features.includes('PRS') ? 'Präsens' : (entry.features.includes('PST') ? 'Präteritum' : (entry.features.includes('IMP') ? 'Imperativ' : 'Weitere Formen'));
-                    if (!groups.has(key)) groups.set(key, new Set());
-                    groups.get(key).add(entry.form);
-                });
-                const forms = [...groups.entries()].map(([label, values]) => `<p><strong>${label}:</strong> ${[...values].slice(0, 12).join(', ')}</p>`).join('');
-                display.innerHTML = `<h2>${source.lemma} <span class="tag">UniMorph</span></h2><p><strong>Quelle:</strong> ${source.source_url}</p>${forms}`;
+                if (morphUnit) {
+                    let html = `<h2 style="margin-top:0;">${morphUnit.lemma} <span class="tag">UniMorph</span></h2>`;
+                    if (morphUnit.source_url) html += `<p><strong>Quelle:</strong> <a href="${morphUnit.source_url}" target="_blank" rel="noopener">${morphUnit.source_url}</a></p>`;
+
+                    if (tableHtml) {
+                        html += tableHtml;
+                    } else {
+                        html += `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic; margin-top: 1rem;">Full conjugation table not available for this verb yet.</p>`;
+                    }
+                    display.innerHTML = html;
+                    return;
+                }
+
+                display.innerHTML = `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic;">Full conjugation table not available for this verb yet.</p>`;
             }
 
             const irregular = Object.entries(db).filter(([, item]) => item.group === 'Unregelmäßiges Verb');
@@ -124,18 +151,15 @@
                 if (event.key === 'Enter') checkAnswer();
             });
 
-            const allLemmas = [...new Set([...Object.keys(db), ...sourceByLemma.keys()])];
-            const firstKey = Object.keys(db)[0] || allLemmas[0];
-            if (firstKey) render(firstKey);
-            input.addEventListener('input', event => {
-                const query = event.target.value.trim().toLocaleLowerCase();
-                const match = allLemmas.find(lemma => lemma.toLocaleLowerCase().startsWith(query));
-                if (match) render(match);
-            });
+            const initialVerb = Object.keys(db)[0] || allLemmas[0];
+            if (initialVerb) render(initialVerb);
             newQuestion();
-            input.addEventListener('input', (e) => {
-                const q = e.target.value.trim().toLowerCase();
-                if (db[q]) render(q);
+
+            input.addEventListener('input', event => {
+                const query = event.target.value.trim().toLowerCase();
+                if (!query) return;
+                const match = allLemmas.find(lemma => lemma.toLowerCase().startsWith(query) || lemma.toLowerCase() === query);
+                if (match) render(match);
             });
         });
     </script>

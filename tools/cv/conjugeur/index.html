@@ -40,30 +40,75 @@
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
+        const lang = 'cv';
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
-        fetch(dataFile).then(r => { if (!r.ok) throw new Error('Data coming soon'); return r.json(); }).then(db => {
-          if (!db || Object.keys(db).length === 0) {
-              const display = document.getElementById('result-display') || document.getElementById('verb-display');
-              if (display) display.innerHTML = '<h1>Data coming soon</h1><p>This language tool is under active development.</p>';
-              return;
-          }
+        fetch(dataFile).then(r => r.ok ? r.json() : {}).then(async db => {
             const input = document.getElementById('search-input');
-            const display = document.getElementById('result-display');
-            function render(v) {
-                const item = db[v];
-                if (!item) return;
-                display.innerHTML = `<h2>${v} <span class="tag">${item.level || 'A1'}</span></h2><p><strong>Definition:</strong> ${item.definition || ''}</p><p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>`;
+            const display = document.getElementById('result-display') || document.getElementById('verb-display');
+
+            let indexHeadwords = [];
+            try {
+                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                indexHeadwords = indexData.headwords || [];
+            } catch (e) {}
+
+            const allLemmas = [...new Set([...Object.keys(db || {}), ...indexHeadwords])];
+
+            async function render(v) {
+                if (!v) return;
+                const normV = v.trim().toLowerCase();
+                const dbKey = Object.keys(db || {}).find(k => k.toLowerCase() === normV);
+                const item = dbKey ? db[dbKey] : null;
+
+                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
+
+                if (item) {
+                    let html = `<h2 style="margin-top:0;">${dbKey} <span class="tag">${item.level || 'A1'}</span></h2>`;
+                    if (item.definition) html += `<p><strong>Definition:</strong> ${item.definition}</p>`;
+                    if (item.examples && item.examples.length > 0) html += `<p><strong>Example:</strong> ${item.examples[0]}</p>`;
+
+                    if (tableHtml) {
+                        html += tableHtml;
+                    } else {
+                        html += `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic; margin-top: 1rem;">Full conjugation table not available for this verb yet.</p>`;
+                    }
+                    display.innerHTML = html;
+                    return;
+                }
+
+                if (morphUnit) {
+                    let html = `<h2 style="margin-top:0;">${morphUnit.lemma} <span class="tag">UniMorph</span></h2>`;
+                    if (morphUnit.source_url) html += `<p><strong>Source:</strong> <a href="${morphUnit.source_url}" target="_blank" rel="noopener">${morphUnit.source_url}</a></p>`;
+
+                    if (tableHtml) {
+                        html += tableHtml;
+                    } else {
+                        html += `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic; margin-top: 1rem;">Full conjugation table not available for this verb yet.</p>`;
+                    }
+                    display.innerHTML = html;
+                    return;
+                }
+
+                display.innerHTML = `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic;">Full conjugation table not available for this verb yet.</p>`;
             }
-            const firstKey = Object.keys(db)[0];
-            if (firstKey) render(firstKey);
-            input.addEventListener('input', (e) => {
-                const q = e.target.value.trim().toLowerCase();
-                if (db[q]) render(q);
-            });
-        }).catch(err => {
-          const display = document.getElementById('result-display') || document.getElementById('verb-display');
-          if (display) display.innerHTML = '<h2>Data coming soon</h2><p>This language tool is under active development.</p>';
-      });
+
+            const initialVerb = Object.keys(db || {})[0] || allLemmas[0];
+            if (initialVerb) {
+                render(initialVerb);
+            } else {
+                display.innerHTML = '<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic;">Full conjugation table not available for this verb yet.</p>';
+            }
+
+            if (input) {
+                input.addEventListener('input', event => {
+                    const query = event.target.value.trim().toLowerCase();
+                    if (!query) return;
+                    const match = allLemmas.find(lemma => lemma.toLowerCase().startsWith(query) || lemma.toLowerCase() === query);
+                    if (match) render(match);
+                });
+            }
+        });
     </script>
     <!-- Shared Shell Footer -->
     <!-- Shared Shell Footer -->
