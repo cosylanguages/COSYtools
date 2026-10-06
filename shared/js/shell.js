@@ -94,10 +94,60 @@
         input.dispatchEvent(new Event('input', { bubbles: true }));
     }
 
-    // Bind theme toggle button & app header rendering when DOM is ready
+    // --------------------------------------------------------------------------
+    // Ecosystem SSO & CMS Dynamic Script Loader
+    // --------------------------------------------------------------------------
+    function loadEcosystemScripts() {
+        const scripts = document.getElementsByTagName('script');
+        let shellScriptSrc = '';
+        for (let i = 0; i < scripts.length; i++) {
+            if (scripts[i].src && scripts[i].src.includes('shell.js')) {
+                shellScriptSrc = scripts[i].src;
+                break;
+            }
+        }
+
+        function loadScript(src, id) {
+            if (document.getElementById(id) || Array.from(document.scripts).some(s => s.src && s.src.includes(src))) {
+                return Promise.resolve();
+            }
+            return new Promise(function(resolve, reject) {
+                const s = document.createElement('script');
+                s.id = id;
+                s.src = src;
+                s.defer = true;
+                s.onload = resolve;
+                s.onerror = reject;
+                document.head.appendChild(s);
+            });
+        }
+
+        const supabaseCdn = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.1';
+        let ssoPath = 'shared/js/auth-sso.js';
+        let cmsPath = 'shared/js/cms-editor.js';
+
+        if (shellScriptSrc) {
+            ssoPath = shellScriptSrc.replace('shell.js', 'auth-sso.js');
+            cmsPath = shellScriptSrc.replace('shell.js', 'cms-editor.js');
+        }
+
+        loadScript(supabaseCdn, 'supabase-js-sdk')
+            .then(function() {
+                return loadScript(ssoPath, 'cosy-auth-sso');
+            })
+            .then(function() {
+                return loadScript(cmsPath, 'cosy-cms-editor');
+            })
+            .catch(function(err) {
+                console.warn('COSY Shell: Ecosystem script loading notice', err);
+            });
+    }
+
+    // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
         initTheme();
         renderAppHeader();
+        loadEcosystemScripts();
         const toggleBtn = document.getElementById('cosy-theme-toggle');
         if (toggleBtn) {
             toggleBtn.removeEventListener('click', toggleTheme);
