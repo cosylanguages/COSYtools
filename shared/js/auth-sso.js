@@ -4,7 +4,7 @@
     /**
      * COSY Ecosystem Cross-Domain Single Sign-On (SSO) Handler
      * Restores user session from URL hash parameters (#access_token=...&refresh_token=...)
-     * and appends token transfers when navigating ecosystem subdomains.
+     * or shared localStorage across ecosystem subdomains without re-prompting for credentials.
      */
 
     function getSupabaseClient() {
@@ -29,13 +29,13 @@
         return null;
     }
 
-    async function handleSSOHash() {
+    async function restoreSessionFromHash() {
         if (!window.location.hash || !window.location.hash.includes('access_token')) {
-            return;
+            return false;
         }
 
         const client = getSupabaseClient();
-        if (!client || !client.auth) return;
+        if (!client || !client.auth) return false;
 
         try {
             const hashStr = window.location.hash.replace(/^#/, '');
@@ -51,10 +51,11 @@
 
                 if (error) {
                     console.warn('COSY SSO: Failed to restore session via setSession:', error.message || error);
-                } else {
-                    console.log('COSY SSO: Session successfully restored from hash tokens.');
-                    window.dispatchEvent(new CustomEvent('cosy:auth:changed', { detail: { session: data?.session } }));
+                    return false;
                 }
+
+                console.log('COSY SSO: Session successfully restored from hash tokens.');
+                window.dispatchEvent(new CustomEvent('cosy:auth:changed', { detail: { session: data?.session } }));
 
                 // Seamlessly clean hash fragment from URL bar
                 if (window.history && window.history.replaceState) {
@@ -63,9 +64,32 @@
                 } else {
                     window.location.hash = '';
                 }
+                return true;
             }
         } catch (err) {
             console.error('COSY SSO: Error handling SSO hash fragment:', err);
+        }
+        return false;
+    }
+
+    async function checkExistingSession() {
+        const client = getSupabaseClient();
+        if (!client || !client.auth) return;
+
+        try {
+            let session = null;
+            if (typeof client.auth.getSession === 'function') {
+                const { data } = await client.auth.getSession();
+                session = data?.session;
+            } else if (typeof client.auth.session === 'function') {
+                session = client.auth.session();
+            }
+
+            if (session) {
+                window.dispatchEvent(new CustomEvent('cosy:auth:changed', { detail: { session } }));
+            }
+        } catch (e) {
+            console.warn('COSY SSO: Session check notice', e);
         }
     }
 
@@ -74,8 +98,14 @@
             const link = e.target.closest('a[href*="COSY"], a[href*="cosylanguages"]');
             if (!link || !link.href) return;
 
+            // Ignore modified clicks (cmd/ctrl click for new tab)
+            if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
             const client = getSupabaseClient();
             if (!client || !client.auth) return;
+
+            e.preventDefault();
+            const originalHref = link.href;
 
             try {
                 let session = null;
@@ -87,22 +117,28 @@
                 }
 
                 if (session && session.access_token && session.refresh_token) {
-                    const targetUrl = new URL(link.href, window.location.origin);
+                    const targetUrl = new URL(originalHref, window.location.origin);
                     const hashParams = new URLSearchParams(targetUrl.hash.replace(/^#/, ''));
                     hashParams.set('access_token', session.access_token);
                     hashParams.set('refresh_token', session.refresh_token);
                     targetUrl.hash = hashParams.toString();
 
-                    link.href = targetUrl.toString();
+                    window.location.href = targetUrl.toString();
+                    return;
                 }
             } catch (err) {
                 console.warn('COSY SSO: Link interception notice:', err);
             }
+
+            window.location.href = originalHref;
         }, true);
     }
 
-    function init() {
-        handleSSOHash();
+    async function init() {
+        const hashRestored = await restoreSessionFromHash();
+        if (!hashRestored) {
+            await checkExistingSession();
+        }
         setupEcosystemLinkInterception();
     }
 
@@ -114,7 +150,7 @@
 
     window.COSY_SSO = {
         getSupabaseClient: getSupabaseClient,
-        handleSSOHash: handleSSOHash
+        handleSSOHash: restoreSessionFromHash
     };
 
 })();
