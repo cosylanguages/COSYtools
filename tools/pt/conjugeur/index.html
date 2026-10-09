@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portuguese Verb Conjugation | COSYtools</title>
-    <meta name="description" content="Portuguese verb conjugation tables across indicativo and subjuntivo tenses.">
+    <title>Conjugação de Verbos Portugueses | COSYtools</title>
+    <meta name="description" content="Tabelas de conjugação de verbos em português em todos os tempos.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/tools/pt/conjugeur/index.html">
-    <meta property="og:title" content="Portuguese Verb Conjugation | COSYtools">
-    <meta property="og:description" content="Portuguese verb conjugation tables across indicativo and subjuntivo tenses.">
+    <meta property="og:title" content="Conjugação de Verbos Portugueses | COSYtools">
+    <meta property="og:description" content="Tabelas de conjugação de verbos em português em todos os tempos.">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/tools/pt/conjugeur/index.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_PT">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Portuguese Verb Conjugation | COSYtools">
-    <meta name="twitter:description" content="Portuguese verb conjugation tables across indicativo and subjuntivo tenses.">
+    <meta name="twitter:title" content="Conjugação de Verbos Portugueses | COSYtools">
+    <meta name="twitter:description" content="Tabelas de conjugação de verbos em português em todos os tempos.">
     <link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
@@ -72,7 +72,7 @@
 
             let indexHeadwords = [];
             try {
-                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                const indexData = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.loadIndex(lang) : null;
                 indexHeadwords = indexData.headwords || [];
             } catch (e) {}
 
@@ -84,7 +84,7 @@
                 const dbKey = Object.keys(db).find(k => k.toLowerCase() === normV);
                 const item = dbKey ? db[dbKey] : null;
 
-                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                const morphUnit = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.getUnitByLemma(lang, v) : null;
                 const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
 
                 if (item) {
@@ -170,6 +170,8 @@
         });
     </script>
     <!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->

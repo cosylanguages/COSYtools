@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bashkir Verb Conjugator | COSYtools</title>
-    <meta name="description" content="Bashkir verb conjugation tables and tense reference lookup.">
+    <title>Башҡорт ҡалыплары | COSYtools</title>
+    <meta name="description" content="Башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/tools/ba/conjugeur/index.html">
-    <meta property="og:title" content="Bashkir Verb Conjugator | COSYtools">
-    <meta property="og:description" content="Bashkir verb conjugation tables and tense reference lookup.">
+    <meta property="og:title" content="Башҡорт ҡалыплары | COSYtools">
+    <meta property="og:description" content="Башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө.">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/tools/ba/conjugeur/index.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ba_RU">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Bashkir Verb Conjugator | COSYtools">
-    <meta name="twitter:description" content="Bashkir verb conjugation tables and tense reference lookup.">
+    <meta name="twitter:title" content="Башҡорт ҡалыплары | COSYtools">
+    <meta name="twitter:description" content="Башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө.">
     <link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
@@ -35,7 +35,7 @@
     <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; border:none; cursor:pointer; font-size:1.1rem; padding:0.2rem 0.5rem; margin-left:auto;">🌙</button>
   </div>
 </div>
-    <header class="app-header" data-icon="🏴" data-title="Башҡортса" data-tagline="Bashkir Verb Engine"><h1>Bashkir Verb Conjugator</h1></header>
+    <header class="app-header" data-icon="🏴" data-title="Башҡортса" data-tagline="Bashkir Verb Engine"><h1>Башҡорт ҡалыплары</h1></header>
     <main class="tool-container">
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search..." aria-label="Search entries">
@@ -54,7 +54,7 @@
 
             let indexHeadwords = [];
             try {
-                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                const indexData = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.loadIndex(lang) : null;
                 indexHeadwords = indexData.headwords || [];
             } catch (e) {}
 
@@ -66,7 +66,7 @@
                 const dbKey = Object.keys(db || {}).find(k => k.toLowerCase() === normV);
                 const item = dbKey ? db[dbKey] : null;
 
-                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                const morphUnit = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.getUnitByLemma(lang, v) : null;
                 const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
 
                 if (item) {
@@ -117,6 +117,8 @@
         });
     </script>
     <!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
