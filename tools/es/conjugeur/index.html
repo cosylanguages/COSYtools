@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spanish verb conjugator | COSYtools</title>
+    <title>Conjugación de Verbos Españoles | COSYtools</title>
+    <meta name="description" content="Tablas de conjugación de verbos en español para todos los tiempos.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/tools/es/conjugeur/index.html">
+    <meta property="og:title" content="Conjugación de Verbos Españoles | COSYtools">
+    <meta property="og:description" content="Tablas de conjugación de verbos en español para todos los tiempos.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/tools/es/conjugeur/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Conjugación de Verbos Españoles | COSYtools">
+    <meta name="twitter:description" content="Tablas de conjugación de verbos en español para todos los tiempos.">
     <link rel="stylesheet" href="../../../shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="../../../shared/css/tokens.css">
     <link rel="stylesheet" href="../../../shared/css/base.css">
     <link rel="stylesheet" href="../../../shared/css/tool-lookup.css">
     <link rel="stylesheet" href="../../../shared/css/components.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Spanish verb conjugation reference across tenses and moods.">
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/tools/es/conjugeur/index.html">
-    <meta property="og:image" content="https://cosylanguages.github.io/COSYtools/shared/images/cosylanguages.png">
-</head>
+    </head>
 <body>
-
     <!-- Shared Ecosystem Strip -->
 <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
   <div class="cosy-strip-inner">
@@ -30,7 +36,7 @@
     <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Cambiar tema" style="background:none; border:none; cursor:pointer; font-size:1.1rem; padding:0.2rem 0.5rem; margin-left:auto;">🌙</button>
   </div>
 </div>
-    <header class="app-header" data-icon="🇪🇸" data-title="Conjugación Española" data-tagline="Spanish Verb Engine"></header>
+    <header class="app-header" data-icon="🇪🇸" data-title="Conjugación Española" data-tagline="Spanish Verb Engine"><h1>Conjugación Española</h1></header>
     <main class="tool-container">
         <div class="search-box">
             <input type="text" id="verb-search-input" placeholder="Buscar verbo en español (ej. hablar, comer, vivir)..." aria-label="Search verb or entry">
@@ -65,7 +71,7 @@
 
             let indexHeadwords = [];
             try {
-                const indexData = await window.COSYSupplementalLexicon.loadIndex(lang);
+                const indexData = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.loadIndex(lang) : null;
                 indexHeadwords = indexData.headwords || [];
             } catch (e) {}
 
@@ -77,7 +83,7 @@
                 const dbKey = Object.keys(db).find(k => k.toLowerCase() === normV);
                 const item = dbKey ? db[dbKey] : null;
 
-                const morphUnit = await window.COSYSupplementalLexicon.getUnitByLemma(lang, v);
+                const morphUnit = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.getUnitByLemma(lang, v) : null;
                 const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
 
                 if (item) {
@@ -172,8 +178,8 @@
         });
     </script>
     <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
+<!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
