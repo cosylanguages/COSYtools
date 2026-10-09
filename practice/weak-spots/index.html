@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weak Spots Tracker & SRS Review | COSYtools</title>
-    <meta name="description" content="Track difficult grammar items and review weak spots using spaced repetition memory decks.">
+    <meta name="description" content="Track difficult grammar items and review weak spots using spaced repetition.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/practice/weak-spots/index.html">
+    <meta property="og:title" content="Weak Spots Tracker & SRS Review | COSYtools">
+    <meta property="og:description" content="Track difficult grammar items and review weak spots using spaced repetition.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/practice/weak-spots/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Weak Spots Tracker & SRS Review | COSYtools">
+    <meta name="twitter:description" content="Track difficult grammar items and review weak spots using spaced repetition.">
     <link rel="icon" href="../../shared/images/cosylanguages.png">
     <link rel="stylesheet" href="../../shared/styles/reference.css">
     <script src="../../shared/engines/reference-utils.js"></script>
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/practice/weak-spots/index.html">
-    <meta property="og:image" content="https://cosylanguages.github.io/COSYtools/shared/images/cosylanguages.png">
-</head>
+    </head>
 <body>
-
     <!-- Shared Ecosystem Strip -->
 <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
   <div class="cosy-strip-inner">
@@ -62,7 +68,7 @@
             if (!spots || spots.length === 0) {
                 container.innerHTML = `
                     <div class="ref-practice-box" style="text-align:center;">
-                        <h3>🎉 No Weak Spots Registered!</h3>
+                        <h2>🎉 No Weak Spots Registered!</h2>
                         <p style="color:var(--ref-text-muted)">You have not missed any items recently or have cleared all saved items.</p>
                         <a href="../quick-drills/index.html" class="ref-btn">Try Quick Drills ⚡</a>
                     </div>
@@ -73,7 +79,7 @@
             container.innerHTML = spots.map(s => `
                 <div class="ref-practice-box">
                     <div style="display:flex; justify-content:space-between; align-items:center;">
-                        <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark)">${s.prompt || s.id}</h3>
+                        <h2 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark)">${s.prompt || s.id}</h2>
                         <span style="background:#fee2e2; color:#991b1b; font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">Failed ${s.failCount || 1}x</span>
                     </div>
                     <p style="margin:0.5rem 0; color:var(--ref-text);">Expected Answer: <strong>${s.answer}</strong></p>
@@ -89,8 +95,6 @@
 
         window.addEventListener('DOMContentLoaded', renderWeakSpotsList);
     </script>
-    <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
     <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->

@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-language preposition rules & regimes | COSYtools</title>
-    <meta name="description" content="Compare dependent prepositions, case governing rules, and usage examples across 5 major languages.">
+    <title>Preposition Rules & Regimes | COSYtools</title>
+    <meta name="description" content="Reference guide for dependent prepositions and case regimes across languages.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/prepositions/index.html">
+    <meta property="og:title" content="Preposition Rules & Regimes | COSYtools">
+    <meta property="og:description" content="Reference guide for dependent prepositions and case regimes across languages.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/prepositions/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Preposition Rules & Regimes | COSYtools">
+    <meta name="twitter:description" content="Reference guide for dependent prepositions and case regimes across languages.">
     <link rel="icon" href="../shared/images/cosylanguages.png">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#416b49">
@@ -14,11 +23,8 @@
 
     <link rel="stylesheet" href="../shared/styles/reference.css">
     <script src="../shared/engines/reference-utils.js"></script>
-    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/prepositions/index.html">
-    <meta property="og:image" content="https://cosylanguages.github.io/COSYtools/shared/images/cosylanguages.png">
-</head>
+    </head>
 <body>
-
     <!-- Shared Ecosystem Strip -->
 <div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
   <div class="cosy-strip-inner">
@@ -111,7 +117,7 @@
             if (filtered.length === 0) {
                 container.innerHTML = `
                     <div class="ref-practice-box" style="text-align:center;">
-                        <h3>No matching preposition rules found</h3>
+                        <h2>No matching preposition rules found</h2>
                         <p style="color:var(--ref-text-muted)">Try adjusting your search query or selecting another language.</p>
                     </div>
                 `;
@@ -121,9 +127,9 @@
             container.innerHTML = filtered.map(item => `
                 <div class="ref-practice-box">
                     <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
-                        <h3 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.5rem;">
+                        <h2 style="margin:0; font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.5rem;">
                             ${item.verb} + <span style="color:var(--accent);">${item.preposition}</span>
-                        </h3>
+                        </h2>
                         <span style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px; font-size:0.85rem;">
                             CEFR ${item.level || 'A2'}
                         </span>
@@ -155,8 +161,6 @@
 
         window.addEventListener('DOMContentLoaded', initPrepRules);
     </script>
-    <!-- Shared Shell Footer -->
-    <!-- Shared Shell Footer -->
     <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
 <!-- Shared Shell Footer -->
