@@ -1,1 +1,6 @@
 node_modules/
+*.log
+screenshots/
+verification/
+videos/
+test-results/

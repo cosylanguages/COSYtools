@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://cosylanguages.com/schemas/verb-pattern.schema.json",
+  "$id": "https://cosylanguages.github.io/COSYtools/schemas/verb-pattern.schema.json",
   "title": "Irregular Verb Pattern Group",
   "description": "Schema for irregular verb pattern groups and rhyme families across languages.",
   "type": "object",
