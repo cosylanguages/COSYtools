@@ -188,6 +188,7 @@
 
         const panel = document.createElement('section');
         panel.id = 'supplemental-lexicon-panel';
+        panel.style.display = 'none';
         panel.setAttribute('aria-live', 'polite');
         panel.innerHTML = '<h3>Source-backed additions</h3><p class="supplemental-status">Imported vocabulary ready</p><div class="supplemental-results"></div>';
         input.closest('main')?.appendChild(panel);
@@ -196,9 +197,11 @@
 
         async function renderResults(query) {
             if (!query.trim()) {
+                panel.style.display = 'none';
                 resultsContainer.innerHTML = '';
                 return;
             }
+            panel.style.display = 'block';
 
             try {
                 const matches = await window.COSYSupplementalLexicon.searchUnits(lang, query);
