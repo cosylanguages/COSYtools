@@ -1,0 +1,517 @@
+[
+  {
+    "id": "ba-cases",
+    "language": "ba",
+    "type": "gender-case",
+    "entry_url": "tools/ba/cases/index.html",
+    "data_file_paths": [
+      "tools/ba/cases/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 5,
+      "by_file": {
+        "tools/ba/cases/data/nouns.json": 5
+      }
+    }
+  },
+  {
+    "id": "ba-conjugeur",
+    "language": "ba",
+    "type": "conjugation",
+    "entry_url": "tools/ba/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/ba/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/ba/conjugeur/data/verbs.json": 4
+      }
+    }
+  },
+  {
+    "id": "br-conjugeur",
+    "language": "br",
+    "type": "conjugation",
+    "entry_url": "tools/br/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/br/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 3,
+      "by_file": {
+        "tools/br/conjugeur/data/verbs.json": 3
+      }
+    }
+  },
+  {
+    "id": "br-genre",
+    "language": "br",
+    "type": "gender-case",
+    "entry_url": "tools/br/genre/index.html",
+    "data_file_paths": [
+      "tools/br/genre/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/br/genre/data/nouns.json": 4
+      }
+    }
+  },
+  {
+    "id": "cv-cases",
+    "language": "cv",
+    "type": "gender-case",
+    "entry_url": "tools/cv/cases/index.html",
+    "data_file_paths": [
+      "tools/cv/cases/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/cv/cases/data/nouns.json": 4
+      }
+    }
+  },
+  {
+    "id": "cv-conjugeur",
+    "language": "cv",
+    "type": "conjugation",
+    "entry_url": "tools/cv/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/cv/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/cv/conjugeur/data/verbs.json": 4
+      }
+    }
+  },
+  {
+    "id": "de-genus",
+    "language": "de",
+    "type": "gender-case",
+    "entry_url": "tools/de/genus/index.html",
+    "data_file_paths": [
+      "tools/de/genus/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 65,
+      "by_file": {
+        "tools/de/genus/data/nouns.json": 65
+      }
+    }
+  },
+  {
+    "id": "de-konjugation",
+    "language": "de",
+    "type": "conjugation",
+    "entry_url": "tools/de/konjugation/index.html",
+    "data_file_paths": [
+      "tools/de/konjugation/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 143,
+      "by_file": {
+        "tools/de/konjugation/data/verbs.json": 143
+      }
+    }
+  },
+  {
+    "id": "de-praepositionen",
+    "language": "de",
+    "type": "prepositions",
+    "entry_url": "tools/de/praepositionen/index.html",
+    "data_file_paths": [
+      "tools/de/praepositionen/data/adjectives.json",
+      "tools/de/praepositionen/data/nouns.json",
+      "tools/de/praepositionen/data/two_way_prepositions.json",
+      "tools/de/praepositionen/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 129,
+      "by_file": {
+        "tools/de/praepositionen/data/adjectives.json": 20,
+        "tools/de/praepositionen/data/nouns.json": 12,
+        "tools/de/praepositionen/data/two_way_prepositions.json": 9,
+        "tools/de/praepositionen/data/verbs.json": 88
+      }
+    }
+  },
+  {
+    "id": "el-genos-ptoseis",
+    "language": "el",
+    "type": "gender-case",
+    "entry_url": "tools/el/genos-ptoseis/index.html",
+    "data_file_paths": [
+      "tools/el/genos-ptoseis/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 269,
+      "by_file": {
+        "tools/el/genos-ptoseis/data/nouns.json": 269
+      }
+    }
+  },
+  {
+    "id": "el-klisi-rimaton",
+    "language": "el",
+    "type": "conjugation",
+    "entry_url": "tools/el/klisi-rimaton/index.html",
+    "data_file_paths": [
+      "tools/el/klisi-rimaton/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 137,
+      "by_file": {
+        "tools/el/klisi-rimaton/data/verbs.json": 137
+      }
+    }
+  },
+  {
+    "id": "el-syntaxi",
+    "language": "el",
+    "type": "syntax",
+    "entry_url": "tools/el/syntaxi/index.html",
+    "data_file_paths": [
+      "tools/el/syntaxi/data/nouns.json",
+      "tools/el/syntaxi/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 344,
+      "by_file": {
+        "tools/el/syntaxi/data/nouns.json": 141,
+        "tools/el/syntaxi/data/verbs.json": 203
+      }
+    }
+  },
+  {
+    "id": "en-irregular-verbs",
+    "language": "en",
+    "type": "conjugation",
+    "entry_url": "tools/en/irregular-verbs/index.html",
+    "data_file_paths": [
+      "tools/en/irregular-verbs/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 215,
+      "by_file": {
+        "tools/en/irregular-verbs/data/verbs.json": 215
+      }
+    }
+  },
+  {
+    "id": "en-speaking-bot",
+    "language": "en",
+    "type": "speaking",
+    "entry_url": "tools/en/speaking-bot/index.html",
+    "data_file_paths": [
+      "tools/en/speaking-bot/data/scenarios.json"
+    ],
+    "entry_counts": {
+      "total": 1,
+      "by_file": {
+        "tools/en/speaking-bot/data/scenarios.json": 1
+      }
+    }
+  },
+  {
+    "id": "en-verb-prep",
+    "language": "en",
+    "type": "prepositions",
+    "entry_url": "tools/en/verb-prep/index.html",
+    "data_file_paths": [
+      "tools/en/verb-prep/data/adjectives.json",
+      "tools/en/verb-prep/data/nouns.json",
+      "tools/en/verb-prep/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 547,
+      "by_file": {
+        "tools/en/verb-prep/data/adjectives.json": 161,
+        "tools/en/verb-prep/data/nouns.json": 144,
+        "tools/en/verb-prep/data/verbs.json": 242
+      }
+    }
+  },
+  {
+    "id": "es-conjugeur",
+    "language": "es",
+    "type": "conjugation",
+    "entry_url": "tools/es/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/es/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 87,
+      "by_file": {
+        "tools/es/conjugeur/data/verbs.json": 87
+      }
+    }
+  },
+  {
+    "id": "es-genre",
+    "language": "es",
+    "type": "gender-case",
+    "entry_url": "tools/es/genre/index.html",
+    "data_file_paths": [
+      "tools/es/genre/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 62,
+      "by_file": {
+        "tools/es/genre/data/nouns.json": 62
+      }
+    }
+  },
+  {
+    "id": "fr-conjugeur",
+    "language": "fr",
+    "type": "conjugation",
+    "entry_url": "tools/fr/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/fr/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 230,
+      "by_file": {
+        "tools/fr/conjugeur/data/verbs.json": 230
+      }
+    }
+  },
+  {
+    "id": "fr-genre",
+    "language": "fr",
+    "type": "gender-case",
+    "entry_url": "tools/fr/genre/index.html",
+    "data_file_paths": [
+      "tools/fr/genre/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 357,
+      "by_file": {
+        "tools/fr/genre/data/nouns.json": 357
+      }
+    }
+  },
+  {
+    "id": "fr-regime",
+    "language": "fr",
+    "type": "prepositions",
+    "entry_url": "tools/fr/regime/index.html",
+    "data_file_paths": [
+      "tools/fr/regime/data/adjectives.json",
+      "tools/fr/regime/data/nouns.json",
+      "tools/fr/regime/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 236,
+      "by_file": {
+        "tools/fr/regime/data/adjectives.json": 16,
+        "tools/fr/regime/data/nouns.json": 18,
+        "tools/fr/regime/data/verbs.json": 202
+      }
+    }
+  },
+  {
+    "id": "hy-cases",
+    "language": "hy",
+    "type": "gender-case",
+    "entry_url": "tools/hy/cases/index.html",
+    "data_file_paths": [
+      "tools/hy/cases/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/hy/cases/data/nouns.json": 4
+      }
+    }
+  },
+  {
+    "id": "hy-conjugeur",
+    "language": "hy",
+    "type": "conjugation",
+    "entry_url": "tools/hy/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/hy/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/hy/conjugeur/data/verbs.json": 4
+      }
+    }
+  },
+  {
+    "id": "it-coniugatore",
+    "language": "it",
+    "type": "conjugation",
+    "entry_url": "tools/it/coniugatore/index.html",
+    "data_file_paths": [
+      "tools/it/coniugatore/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 189,
+      "by_file": {
+        "tools/it/coniugatore/data/verbs.json": 189
+      }
+    }
+  },
+  {
+    "id": "it-genere",
+    "language": "it",
+    "type": "gender-case",
+    "entry_url": "tools/it/genere/index.html",
+    "data_file_paths": [
+      "tools/it/genere/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 331,
+      "by_file": {
+        "tools/it/genere/data/nouns.json": 331
+      }
+    }
+  },
+  {
+    "id": "it-reggenza",
+    "language": "it",
+    "type": "prepositions",
+    "entry_url": "tools/it/reggenza/index.html",
+    "data_file_paths": [
+      "tools/it/reggenza/data/adjectives.json",
+      "tools/it/reggenza/data/nouns.json",
+      "tools/it/reggenza/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 511,
+      "by_file": {
+        "tools/it/reggenza/data/adjectives.json": 163,
+        "tools/it/reggenza/data/nouns.json": 145,
+        "tools/it/reggenza/data/verbs.json": 203
+      }
+    }
+  },
+  {
+    "id": "ka-cases",
+    "language": "ka",
+    "type": "gender-case",
+    "entry_url": "tools/ka/cases/index.html",
+    "data_file_paths": [
+      "tools/ka/cases/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/ka/cases/data/nouns.json": 4
+      }
+    }
+  },
+  {
+    "id": "ka-conjugeur",
+    "language": "ka",
+    "type": "conjugation",
+    "entry_url": "tools/ka/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/ka/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 3,
+      "by_file": {
+        "tools/ka/conjugeur/data/verbs.json": 3
+      }
+    }
+  },
+  {
+    "id": "pt-conjugeur",
+    "language": "pt",
+    "type": "conjugation",
+    "entry_url": "tools/pt/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/pt/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 79,
+      "by_file": {
+        "tools/pt/conjugeur/data/verbs.json": 79
+      }
+    }
+  },
+  {
+    "id": "pt-genre",
+    "language": "pt",
+    "type": "gender-case",
+    "entry_url": "tools/pt/genre/index.html",
+    "data_file_paths": [
+      "tools/pt/genre/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 62,
+      "by_file": {
+        "tools/pt/genre/data/nouns.json": 62
+      }
+    }
+  },
+  {
+    "id": "ru-rod-padezhi",
+    "language": "ru",
+    "type": "gender-case",
+    "entry_url": "tools/ru/rod-padezhi/index.html",
+    "data_file_paths": [
+      "tools/ru/rod-padezhi/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 283,
+      "by_file": {
+        "tools/ru/rod-padezhi/data/nouns.json": 283
+      }
+    }
+  },
+  {
+    "id": "ru-spryazhenie",
+    "language": "ru",
+    "type": "conjugation",
+    "entry_url": "tools/ru/spryazhenie/index.html",
+    "data_file_paths": [
+      "tools/ru/spryazhenie/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 400,
+      "by_file": {
+        "tools/ru/spryazhenie/data/verbs.json": 400
+      }
+    }
+  },
+  {
+    "id": "tt-cases",
+    "language": "tt",
+    "type": "gender-case",
+    "entry_url": "tools/tt/cases/index.html",
+    "data_file_paths": [
+      "tools/tt/cases/data/nouns.json"
+    ],
+    "entry_counts": {
+      "total": 5,
+      "by_file": {
+        "tools/tt/cases/data/nouns.json": 5
+      }
+    }
+  },
+  {
+    "id": "tt-conjugeur",
+    "language": "tt",
+    "type": "conjugation",
+    "entry_url": "tools/tt/conjugeur/index.html",
+    "data_file_paths": [
+      "tools/tt/conjugeur/data/verbs.json"
+    ],
+    "entry_counts": {
+      "total": 4,
+      "by_file": {
+        "tools/tt/conjugeur/data/verbs.json": 4
+      }
+    }
+  }
+]

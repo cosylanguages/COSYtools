@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://cosylanguages.com/schemas/particle.schema.json",
+  "$id": "https://cosylanguages.github.io/COSYtools/schemas/particle.schema.json",
   "title": "Preposition Particle Category Rule",
   "description": "Schema for preposition rule datasets grouped by category across languages.",
   "type": "object",
