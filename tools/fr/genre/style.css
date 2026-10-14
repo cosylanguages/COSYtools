@@ -1,8 +1,1 @@
-/* fr-genre specific styles */
-.gender-masc { background-color: var(--blue-light); color: var(--blue); border-color: var(--border); }
-.gender-fem { background-color: var(--rose-light); color: var(--rose); border-color: var(--border); }
-.game-choice-group { display: flex; gap: 0.8rem; margin: 1.5rem 0; flex-wrap: wrap; }
-.choice-btn { flex: 1; padding: var(--space-lg); border-radius: var(--radius-pill); border: 2px solid var(--border-color); font-size: 1rem; font-weight: 700; cursor: pointer; }
-.masc-btn { background-color: var(--blue-light); color: var(--blue); }
-.fem-btn { background-color: var(--rose-light); color: var(--rose); }
-.antonym-pill { background-color: var(--surface-color); border: 1px solid var(--accent-gold); padding: 0.2rem 0.7rem; border-radius: var(--radius-pill); font-size: 0.85rem; cursor: pointer; }
+/* Tool-specific overrides for fr-genre */

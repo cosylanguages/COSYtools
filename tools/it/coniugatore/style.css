@@ -1,8 +1,1 @@
-/* it-coniugatore specific styles */
-.tense-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
-.tense-card { background-color: var(--cream-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; }
-.tense-card h4 { color: var(--terracotta); font-size: 0.95rem; margin-bottom: 0.5rem; }
-.conjugation-list { list-style: none; display: flex; flex-direction: column; gap: 0.35rem; }
-.conjugation-list li { display: flex; justify-content: space-between; align-items: baseline; white-space: nowrap; gap: 0.5rem; }
-.pronoun { color: var(--ink-muted); white-space: nowrap; }
-.verb-form { white-space: nowrap; }
+/* Tool-specific overrides for it-coniugatore */

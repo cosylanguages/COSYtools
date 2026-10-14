@@ -48,7 +48,7 @@
     <script>
         const lang = 'br';
         const dataFile = location.pathname.includes('cases') || location.pathname.includes('genus') || location.pathname.includes('genre') ? 'data/nouns.json' : 'data/verbs.json';
-        fetch(dataFile).then(r => r.ok ? r.json() : {}).then(async db => {
+        fetch(dataFile).then(r => r.ok ? r.json() : {}).catch(() => ({})).then(async db => {
             const input = document.getElementById('search-input');
             const display = document.getElementById('result-display') || document.getElementById('verb-display');
 

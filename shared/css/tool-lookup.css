@@ -114,3 +114,22 @@ body.theme-dark .noun-result-card, body.theme-dark .verb-result-card, body.theme
 .mc-option-btn { background: var(--cream-card, var(--surface-color)); border: 2px solid var(--sage-light, var(--border)); border-radius: 8px; padding: 0.75rem 0.875rem; font-size: 0.95rem; font-weight: 500; color: var(--ink-main, var(--ink)); cursor: pointer; transition: all 0.2s ease; text-align: left; }
 .mc-option-btn:hover { border-color: var(--terracotta, var(--coral)); background: var(--surface-color); transform: translateY(-2px); }
 .active-mode { background: var(--terracotta, var(--coral)) !important; color: var(--warm-white) !important; cursor: pointer; }
+
+/* Gender Badges & Choice Group Controls */
+.gender-masc { background-color: var(--blue-light); color: var(--blue); border-color: var(--border); }
+.gender-fem { background-color: var(--rose-light); color: var(--rose); border-color: var(--border); }
+.gender-neut { background-color: var(--navy-light); color: var(--navy); border-color: var(--border); }
+.game-choice-group { display: flex; gap: 0.8rem; margin: 1.5rem 0; flex-wrap: wrap; }
+.choice-btn { flex: 1; padding: var(--space-lg); border-radius: var(--radius-pill); border: 2px solid var(--border-color); font-size: 1rem; font-weight: 700; cursor: pointer; }
+.masc-btn { background-color: var(--blue-light); color: var(--blue); }
+.fem-btn { background-color: var(--rose-light); color: var(--rose); }
+.neut-btn { background-color: var(--navy-light); color: var(--navy); }
+
+/* Tense Cards & Conjugation Grid Lists */
+.tense-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.tense-card { background-color: var(--cream-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1rem; }
+.tense-card h4 { color: var(--terracotta); font-size: 0.95rem; margin-bottom: 0.5rem; }
+.conjugation-list { list-style: none; display: flex; flex-direction: column; gap: 0.35rem; }
+.conjugation-list li { display: flex; justify-content: space-between; align-items: baseline; white-space: nowrap; gap: 0.5rem; }
+.pronoun { color: var(--ink-muted); white-space: nowrap; }
+.verb-form { white-space: nowrap; }
