@@ -62,13 +62,15 @@
         // Calculate relative path to root index.html based on pathname depth
         const depth = window.location.pathname.split('/').filter(Boolean).length - 1;
         const relativeRoot = depth > 0 ? '../'.repeat(depth) + 'index.html' : 'index.html';
+        const relativeLogo = depth > 0 ? '../'.repeat(depth) + 'shared/assets/logo.png' : 'shared/assets/logo.png';
 
         header.innerHTML = `
-            <div class="logo-badge">
+            <div class="logo-badge" style="display:flex; align-items:center; gap:0.75rem;">
+                <img src="${relativeLogo}" alt="COSYtools Logo" class="cosy-header-logo" style="width:36px; height:36px; border-radius:8px; object-fit:cover; flex-shrink:0;">
                 ${icon ? `<span class="brand-icon">${icon}</span>` : ''}
                 <div class="brand-text">
-                    <h1>${title}</h1>
-                    ${tagline ? `<p class="tagline">${tagline}</p>` : ''}
+                    <h1 style="margin:0; font-size:1.3rem;">${title}</h1>
+                    ${tagline ? `<p class="tagline" style="margin:0; opacity:0.85; font-size:0.85rem;">${tagline}</p>` : ''}
                 </div>
             </div>
             <div class="header-actions">
