@@ -65,7 +65,7 @@
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
         const lang = 'es';
-        fetch('data/verbs.json').then(r => r.json()).then(async db => {
+        fetch('data/verbs.json').then(r => r.ok ? r.json() : {}).catch(() => ({})).then(async db => {
             const input = document.getElementById('verb-search-input');
             const display = document.getElementById('verb-display');
 
