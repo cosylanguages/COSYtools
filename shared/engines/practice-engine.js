@@ -99,6 +99,9 @@ class PracticeEngine {
         this.registerFormat('blank', (item, format, container) => this.renderBlankQuestion(item, format, container));
         this.registerFormat('match', (item, format, container) => this.renderMatchQuestion(item, format, container));
         this.registerFormat('conjugate', (item, format, container) => this.renderConjugateQuestion(item, format, container));
+        this.registerFormat('odd_one_out', (item, format, container) => this.renderOddOneOutQuestion(item, format, container));
+        this.registerFormat('listen_write', (item, format, container) => this.renderListenWriteQuestion(item, format, container));
+        this.registerFormat('say_it', (item, format, container) => this.renderSayItQuestion(item, format, container));
 
         if (options.renderers) {
             Object.keys(options.renderers).forEach(format => {
@@ -438,6 +441,127 @@ class PracticeEngine {
 
     renderBlankQuestion(item, format, container) {
         return this.renderTypeQuestion(item, format, container);
+    }
+
+    renderOddOneOutQuestion(item, format, container) {
+        const data = item.entry || item.data || item;
+        const key = item.key || data.base || '';
+        const targetCategory = data.prepositions?.[0] || data.pattern_group || 'target';
+
+        const poolOptions = ['at', 'in', 'on', 'with', 'for', 'by', 'from', 'to', 'of', 'about'];
+        const distractors = poolOptions.filter(o => o !== targetCategory).slice(0, 3);
+        const choices = [targetCategory, ...distractors].sort(() => Math.random() - 0.5);
+
+        this.activeQuestion = {
+            item,
+            format: 'odd_one_out',
+            expected: targetCategory
+        };
+
+        const choiceBtns = choices.map(choice => `
+            <button class="choice-btn" onclick="appEngine.practice.checkAnswer('${choice}')">
+                ${choice}
+            </button>
+        `).join('');
+
+        container.innerHTML = `
+            <div class="question-header">
+                <div class="meta-info">
+                    <span class="badge type-badge">ODD ONE OUT</span>
+                    <span class="progress-count">Item ${this.currentIndex + 1} of ${this.currentSession.length}</span>
+                </div>
+            </div>
+
+            <div class="mc-prompt">
+                <span class="prompt-badge mc-badge">🔍 Find the Fitting Preposition/Pattern</span>
+                <h3>${key}</h3>
+                <p class="definition-hint">Select the option that matches this word's governance pattern.</p>
+            </div>
+
+            <div class="choice-grid">
+                ${choiceBtns}
+            </div>
+
+            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
+        `;
+    }
+
+    renderListenWriteQuestion(item, format, container) {
+        const data = item.entry || item.data || item;
+        const targetText = item.key || data.base || data.lemma || '';
+
+        this.activeQuestion = {
+            item,
+            format: 'listen_write',
+            expected: targetText,
+            comparator: (typed, exp) => PracticeEngine.normalizeAnswer(typed, exp)
+        };
+
+        container.innerHTML = `
+            <div class="question-header">
+                <div class="meta-info">
+                    <span class="badge type-badge">LISTEN &amp; WRITE</span>
+                    <span class="progress-count">Item ${this.currentIndex + 1} of ${this.currentSession.length}</span>
+                </div>
+            </div>
+
+            <div class="blank-prompt">
+                <span class="prompt-badge blank-badge">🎧 Listen &amp; Type</span>
+                <div style="margin: 1rem 0;">
+                    <button class="game-btn secondary-btn" type="button" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance('${targetText.replace(/'/g, "\\'")}')) : null">
+                        🔊 Play Audio
+                    </button>
+                </div>
+                ${data.definition ? `<p class="definition-hint">Hint: <em>${data.definition}</em></p>` : ''}
+            </div>
+
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1.25rem;">
+                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type what you hear..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type what you hear">
+                <button class="game-btn" style="width: auto; padding: 0.8rem 1.5rem;" onclick="appEngine.practice.checkTypedAnswer()">Check ➔</button>
+            </div>
+
+            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
+        `;
+    }
+
+    renderSayItQuestion(item, format, container) {
+        const data = item.entry || item.data || item;
+        const targetText = item.key || data.base || data.lemma || '';
+
+        this.activeQuestion = {
+            item,
+            format: 'say_it',
+            expected: targetText
+        };
+
+        container.innerHTML = `
+            <div class="question-header">
+                <div class="meta-info">
+                    <span class="badge type-badge">SAY IT</span>
+                    <span class="progress-count">Item ${this.currentIndex + 1} of ${this.currentSession.length}</span>
+                </div>
+            </div>
+
+            <div class="blank-prompt" style="text-align: center;">
+                <span class="prompt-badge blank-badge">🎙️ Pronunciation Practice</span>
+                <h3 style="font-size: 2rem; margin: 0.5rem 0;">${targetText}</h3>
+                ${data.definition ? `<p class="definition-hint"><em>${data.definition}</em></p>` : ''}
+
+                <div style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1rem;">
+                    <button class="game-btn secondary-btn" type="button" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance('${targetText.replace(/'/g, "\\'")}')) : null">
+                        🔊 Listen
+                    </button>
+                    <button class="game-btn" type="button" onclick="appEngine.practice.checkAnswer(true)">
+                        🎙️ I Said It! / Self-Check ✅
+                    </button>
+                </div>
+            </div>
+
+            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
+        `;
     }
 
     renderConjugateQuestion(item, format, container) {
