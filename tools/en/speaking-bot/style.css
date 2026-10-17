@@ -3,7 +3,7 @@
 .app-header { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px; margin-bottom: 16px; }
 .logo-badge { display:flex; align-items:center; gap:12px; }
 .brand-icon { font-size: 1.8rem; }
-.brand-text h1 { margin:0; font-size:1.4rem; font-family: var(--cosy-font-serif, 'Lora', serif); }
+.brand-text h1 { margin:0; font-size:1.4rem; font-family: var(--cosy-font-serif, 'COSY Serif', serif); }
 .tagline { margin:2px 0 0; color: var(--ink-muted, #5c5957); font-size:.9rem; }
 .back-link { color: var(--sage-dark, #375742); text-decoration:none; font-weight:700; font-size:.9rem; }
 

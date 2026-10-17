@@ -11,7 +11,8 @@
     "generate:data-manifest": "node scripts/generate_data_manifest.js",
     "generate:hub": "node scripts/generate_hub.js",
     "check:hub": "node scripts/generate_hub.js --check",
-    "test:hub": "node scripts/test-hub.js"
+    "test:hub": "node scripts/test-hub.js",
+    "check:fonts": "node scripts/check-fonts.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

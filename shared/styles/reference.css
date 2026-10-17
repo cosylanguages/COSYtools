@@ -15,8 +15,8 @@
   --ref-border: var(--border);
   --ref-text: var(--ink);
   --ref-text-muted: var(--ink-soft);
-  --ref-font-serif: var(--font-serif, "Fraunces", Georgia, serif);
-  --ref-font-sans: var(--font-sans, "DM Sans", -apple-system, sans-serif);
+  --ref-font-serif: var(--font-serif, 'COSY Serif', Georgia, serif);
+  --ref-font-sans: var(--font-sans, "COSY Sans", -apple-system, sans-serif);
 }
 
 body {

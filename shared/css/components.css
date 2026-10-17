@@ -28,7 +28,7 @@
 
 :root {
     /* Button System Variables */
-    --btn-font-sans: var(--font-sans, 'Nunito', 'DM Sans', sans-serif);
+    --btn-font-sans: var(--font-sans, 'COSY Sans', sans-serif);
     --btn-primary-bg: var(--sage, #416b49);
     --btn-primary-color: #ffffff;
     --btn-primary-hover-bg: var(--sage-dark, #375742);
@@ -257,7 +257,7 @@ body.theme-dark #cosy-nav {
   background: var(--surface-color, #ffffff);
   border: 1.5px solid var(--border, #E2D9D2);
   color: var(--ink, #1C1917);
-  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-family: var(--font-sans, 'COSY Sans', sans-serif);
   font-size: 0.82rem;
   font-weight: 700;
   padding: 6px 14px;
@@ -425,7 +425,7 @@ body.theme-projector .btn-projector-toggle {
 
 .hero-tag { display: inline-block; background: var(--teal-light); color: var(--teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
 
-.fpill { background: var(--warm-white); border: 1px solid var(--border); color: var(--ink-muted); font-family: 'DM Sans', sans-serif; font-size: .78rem; font-weight: 500; padding: 6px 14px; border-radius: 100px; cursor: pointer; transition: all .15s; white-space: nowrap; }
+.fpill { background: var(--warm-white); border: 1px solid var(--border); color: var(--ink-muted); font-family: 'COSY Sans', sans-serif; font-size: .78rem; font-weight: 500; padding: 6px 14px; border-radius: 100px; cursor: pointer; transition: all .15s; white-space: nowrap; }
 .fpill:hover { border-color: var(--border-hover); color: var(--ink); }
 .fpill.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 
@@ -618,7 +618,7 @@ body.theme-projector .btn-projector-toggle {
 }
 .power-test-title {
   color: var(--honey-dark, #b7791f);
-  font-family: 'Lora', serif;
+  font-family: 'COSY Serif', serif;
   font-size: 1.45rem;
   margin-bottom: 1rem;
 }
@@ -699,7 +699,7 @@ body.theme-projector .btn-projector-toggle {
 
 .styled-sel {
     width: 100%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'COSY Sans', sans-serif;
     font-size: .88rem;
     padding: 10px 36px 10px 14px;
     border: 1.5px solid var(--border);
@@ -1076,7 +1076,7 @@ body.theme-projector .btn-projector-toggle {
   color: #faf7f2;
   border: none;
   border-radius: 50px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'COSY Sans', sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   cursor: pointer;
@@ -1135,7 +1135,7 @@ body.theme-projector .btn-projector-toggle {
   border-radius: 16px;
   padding: 18px;
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'COSY Sans', sans-serif;
   color: var(--ink, #1a231a);
   display: none;
   animation: tour-fade-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1173,7 +1173,7 @@ body.theme-projector .btn-projector-toggle {
 }
 .ctb-title {
   margin: 0 0 8px 0;
-  font-family: 'Fraunces', serif;
+  font-family: 'COSY Serif', serif;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--sage-dark, #1f3022);
@@ -1304,7 +1304,7 @@ body.theme-projector .btn-projector-toggle {
 }
 .ctm-header h3 {
   margin: 0;
-  font-family: 'Fraunces', serif;
+  font-family: 'COSY Serif', serif;
   font-size: 1.3rem;
   color: var(--sage-dark, #1f3022);
 }
@@ -1391,7 +1391,7 @@ body.theme-projector .btn-projector-toggle {
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   padding: 1rem 1.25rem;
-  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-family: var(--font-sans, 'COSY Sans', sans-serif);
   font-size: 0.85rem;
   color: var(--ink, #1a231b);
   display: none;
@@ -1535,7 +1535,7 @@ body.theme-projector .btn-projector-toggle {
   border: 1.5px solid var(--border);
   padding: 4px 14px;
   border-radius: 100px;
-  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-family: var(--font-sans, 'COSY Sans', sans-serif);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   min-height: 44px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
@@ -1562,7 +1562,7 @@ body.theme-projector .btn-projector-toggle {
   background: transparent;
   border: none;
   outline: none;
-  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-family: var(--font-sans, 'COSY Sans', sans-serif);
   font-size: 0.88rem;
   font-weight: 700;
   color: var(--ink);
@@ -1791,7 +1791,7 @@ body.theme-projector .btn-projector-toggle {
   gap: 0.4rem;
   font-size: 0.85rem;
   color: var(--ink-faint, #8A958A);
-  font-family: var(--font-sans, 'DM Sans', sans-serif);
+  font-family: var(--font-sans, 'COSY Sans', sans-serif);
 }
 
 .sd-breadcrumbs a {
@@ -2057,7 +2057,7 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   margin-bottom: 0.75rem;
 }
 .why-exists-quote {
-  font-family: 'Fraunces', serif;
+  font-family: 'COSY Serif', serif;
   font-size: clamp(1.1rem, 2.5vw, 1.25rem);
   font-style: italic;
   font-weight: 300;
@@ -2301,7 +2301,7 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
 }
 
 .comp-filter-header h2 {
-  font-family: var(--font-heading, 'Fraunces', serif);
+  font-family: var(--font-heading, 'COSY Serif', serif);
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--sage-deep);

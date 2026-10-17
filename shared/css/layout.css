@@ -92,7 +92,7 @@ section {
 }
 
 .sec-h2 {
-    font-family: 'Fraunces', serif;
+    font-family: 'COSY Serif', serif;
     font-size: 2.4rem;
     text-align: center;
     margin-bottom: var(--space-sm);
@@ -158,10 +158,10 @@ footer {
 }
 
 .footer-brand .fb-logo img { height: 38px; }
-.footer-brand .fb-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.2rem; }
+.footer-brand .fb-name { font-family: 'COSY Serif', serif; font-weight: 600; font-size: 1.2rem; }
 .footer-brand p { font-size: .9rem; color: var(--ink-muted); line-height: 1.7; max-width: 240px; }
 
-.footer-links-col h3 { font-family: 'Fraunces', serif; font-size: 1rem; margin-bottom: 1.2rem; }
+.footer-links-col h3 { font-family: 'COSY Serif', serif; font-size: 1rem; margin-bottom: 1.2rem; }
 .footer-links-col a { display: block; font-size: .9rem; color: var(--ink-muted); margin-bottom: .8rem; font-weight: 500; transition: color .2s; }
 .footer-links-col a:hover { color: var(--ink); }
 
