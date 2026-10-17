@@ -111,7 +111,7 @@ files.forEach(f => {
 
   const footer = renderFooter(lang);
   if (content.includes('class="cosy-footer"') || content.includes('<footer')) {
-    content = content.replace(/(<!-- Shared Shell Footer -->\s*)?<footer[\s\S]*?<\/footer>/i, footer.trim());
+    content = content.replace(/(<!-- Shared Shell Footer -->\s*)*<footer[\s\S]*?<\/footer>/i, footer.trim());
   } else if (content.includes('</body>')) {
     content = content.replace('</body>', `    ${footer.trim()}\n</body>`);
   }
