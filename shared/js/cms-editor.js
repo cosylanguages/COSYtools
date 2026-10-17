@@ -76,25 +76,72 @@
         return false;
     }
 
+    // --- HTML sanitizer: ALLOW-LIST, rebuilds a clean tree instead of trying to remove bad parts ---------
+    // All COSY apps share one origin (cosylanguages.github.io), so injected script here could reach the
+    // sessions of every other app. A blocklist ("remove <script>, on* attrs, javascript:") is not safe:
+    // it misses tab-split schemes, SVG xlink:href, <style>, formaction, data: URLs and mutation XSS.
+    const SAFE_TAGS = new Set(['a', 'b', 'strong', 'i', 'em', 'u', 'br', 'p', 'span', 'div', 'ul', 'ol', 'li',
+        'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'code', 'small', 'sup', 'sub', 'blockquote', 'hr']);
+    // Removed together with their content (unknown tags NOT in this set are unwrapped, keeping their text).
+    const DROP_TAGS = new Set(['script', 'style', 'svg', 'math', 'iframe', 'frame', 'frameset', 'object', 'embed',
+        'applet', 'template', 'noscript', 'noembed', 'noframes', 'textarea', 'title', 'head', 'base', 'link',
+        'meta', 'form', 'select', 'option', 'button', 'input', 'video', 'audio', 'source', 'canvas', 'xmp',
+        'plaintext']);
+    const SAFE_LINK_PROTOCOLS = new Set(['http:', 'https:', 'mailto:']);
+    const XHTML_NS = 'http://www.w3.org/1999/xhtml';
+
+    function safeHref(value) {
+        const v = String(value).replace(/[\u0000-\u001f\u007f]/g, '').trim();
+        if (!v) return null;
+        try {
+            // The WHATWG parser applies the same scheme normalisation browsers use for navigation
+            // (it drops tabs/newlines inside "java\tscript:"), so the check cannot be bypassed that way.
+            const u = new URL(v, 'https://relative.invalid/');
+            return SAFE_LINK_PROTOCOLS.has(u.protocol) ? v : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
     function sanitizeHTML(html) {
         if (!html || typeof html !== 'string') return '';
-        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const source = new DOMParser().parseFromString(html, 'text/html');
+        const outDoc = document.implementation.createHTMLDocument('');
+        const out = outDoc.createElement('div');
 
-        // Remove script, iframe, object, embed tags
-        const dangerous = doc.querySelectorAll('script, iframe, object, embed, link, meta');
-        dangerous.forEach(el => el.remove());
-
-        // Strip event handlers (on*) and javascript: links
-        const allElements = doc.body.querySelectorAll('*');
-        allElements.forEach(el => {
-            Array.from(el.attributes).forEach(attr => {
-                if (attr.name.startsWith('on') || (attr.name === 'href' && attr.value.trim().toLowerCase().startsWith('javascript:'))) {
-                    el.removeAttribute(attr.name);
+        (function copy(from, to) {
+            Array.from(from.childNodes).forEach(function(node) {
+                if (node.nodeType === 3) {
+                    to.appendChild(outDoc.createTextNode(node.nodeValue));
+                    return;
                 }
+                if (node.nodeType !== 1) return;
+                const tag = node.localName;
+                if (node.namespaceURI !== XHTML_NS || DROP_TAGS.has(tag)) return;
+                if (!SAFE_TAGS.has(tag)) {            // unknown but harmless wrapper: keep only its (sanitized) children
+                    copy(node, to);
+                    return;
+                }
+                const el = outDoc.createElement(tag);
+                ['class', 'lang', 'title', 'aria-label'].forEach(function(name) {
+                    if (node.hasAttribute(name)) el.setAttribute(name, node.getAttribute(name));
+                });
+                if (node.hasAttribute('dir') && /^(ltr|rtl|auto)$/i.test(node.getAttribute('dir'))) {
+                    el.setAttribute('dir', node.getAttribute('dir').toLowerCase());
+                }
+                if (tag === 'a') {
+                    const href = node.hasAttribute('href') ? safeHref(node.getAttribute('href')) : null;
+                    if (href) {
+                        el.setAttribute('href', href);
+                        el.setAttribute('rel', 'noopener noreferrer');
+                    }
+                }
+                copy(node, el);
+                to.appendChild(el);
             });
-        });
+        })(source.body, out);
 
-        return doc.body.innerHTML;
+        return out.innerHTML;
     }
 
     function getElementSelector(elem) {

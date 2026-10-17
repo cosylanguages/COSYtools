@@ -100,6 +100,15 @@
     // Ecosystem SSO & CMS Dynamic Script Loader
     // --------------------------------------------------------------------------
     function loadEcosystemScripts() {
+        // Opt-in only. These scripts need a Supabase project, which this site does not configure by default.
+        // Without one they can do nothing, so we do not download the SDK from a third-party CDN on every page
+        // (privacy: the hub promises "No Tracking"; speed: ~100 KB; security: one less third-party script).
+        // To enable: set window.COSY_SUPABASE_URL and window.COSY_SUPABASE_ANON_KEY before shell.js loads,
+        // or provide a ready window.supabaseClient. See docs/ECOSYSTEM_AUTH.md.
+        const hasConfig = !!(window.COSY_SUPABASE_URL && window.COSY_SUPABASE_ANON_KEY);
+        const hasClient = !!(window.supabaseClient && window.supabaseClient.auth);
+        if (!hasConfig && !hasClient) return;
+
         const scripts = document.getElementsByTagName('script');
         let shellScriptSrc = '';
         for (let i = 0; i < scripts.length; i++) {
@@ -133,7 +142,8 @@
             cmsPath = shellScriptSrc.replace('shell.js', 'cms-editor.js');
         }
 
-        loadScript(supabaseCdn, 'supabase-js-sdk')
+        const sdkReady = hasClient || !!(window.supabase && window.supabase.createClient);
+        (sdkReady ? Promise.resolve() : loadScript(supabaseCdn, 'supabase-js-sdk'))
             .then(function() {
                 return loadScript(ssoPath, 'cosy-auth-sso');
             })

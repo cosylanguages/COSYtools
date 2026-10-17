@@ -43,6 +43,7 @@ npm run generate:hub      # rebuild the hub (index.html) from catalog.json
 npm run check:js-syntax && npm run check:inline-js && npm run check:shell
 npm run check:hub         # hub in sync with catalog + no uncatalogued tool pages
 npm run test:hub          # hub filter behaviour (jsdom, no browser needed)
+npm run test:security     # CMS sanitizer, SSO token handling, no third-party requests
 npm run check:smoke       # full browser smoke test (needs Chrome)
 ```
 

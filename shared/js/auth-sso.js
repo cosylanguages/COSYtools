@@ -7,6 +7,29 @@
      * and appends token transfers when navigating ecosystem subdomains.
      */
 
+    /**
+     * Origins that may receive the user's session tokens when a link is clicked.
+     * Matching is by exact origin (scheme + host + port) — never by substring — because a URL that merely
+     * *contains* "cosylanguages" (e.g. https://evil.example/cosylanguages) must not get a refresh token.
+     * Extend with window.COSY_SSO_ALLOWED_ORIGINS = ['https://learn.example.org'] (set before this script).
+     */
+    const DEFAULT_ALLOWED_ORIGINS = ['https://cosylanguages.github.io'];
+
+    function isAllowedTarget(href) {
+        let url;
+        try {
+            url = new URL(href, window.location.href);
+        } catch (e) {
+            return false;
+        }
+        if (url.username || url.password) return false;
+        const extra = Array.isArray(window.COSY_SSO_ALLOWED_ORIGINS) ? window.COSY_SSO_ALLOWED_ORIGINS : [];
+        if (DEFAULT_ALLOWED_ORIGINS.concat(extra).indexOf(url.origin) !== -1) return true;
+        // Local development only: same-origin localhost links.
+        const isLocal = url.hostname === 'localhost' || url.hostname === '127.0.0.1';
+        return isLocal && url.origin === window.location.origin;
+    }
+
     function getSupabaseClient() {
         if (window.supabaseClient && window.supabaseClient.auth) {
             return window.supabaseClient;
@@ -71,8 +94,8 @@
 
     function setupEcosystemLinkInterception() {
         document.addEventListener('click', async function(e) {
-            const link = e.target.closest('a[href*="COSY"], a[href*="cosylanguages"]');
-            if (!link || !link.href) return;
+            const link = e.target.closest && e.target.closest('a[href]');
+            if (!link || !link.href || !isAllowedTarget(link.href)) return;
 
             const client = getSupabaseClient();
             if (!client || !client.auth) return;
@@ -114,7 +137,8 @@
 
     window.COSY_SSO = {
         getSupabaseClient: getSupabaseClient,
-        handleSSOHash: handleSSOHash
+        handleSSOHash: handleSSOHash,
+        isAllowedTarget: isAllowedTarget
     };
 
 })();

@@ -12,7 +12,8 @@
     "generate:hub": "node scripts/generate_hub.js",
     "check:hub": "node scripts/generate_hub.js --check",
     "test:hub": "node scripts/test-hub.js",
-    "check:fonts": "node scripts/check-fonts.js"
+    "check:fonts": "node scripts/check-fonts.js",
+    "test:security": "node scripts/test-security.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",
