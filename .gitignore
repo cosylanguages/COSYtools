@@ -4,3 +4,7 @@ screenshots/
 verification/
 videos/
 test-results/
+
+# Raw upstream imports (regenerate with scripts/data-pipeline, see docs/DATA_PIPELINE.md)
+tools/*/data/morphology.json
+tools/*/data/kaikki.json

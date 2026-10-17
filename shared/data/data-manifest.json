@@ -1,58 +1,58 @@
 {
   "ba": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "br": {
-    "morphology": true,
-    "kaikki": true
+    "shards": true,
+    "lexicon": true
   },
   "cv": {
-    "morphology": false,
-    "kaikki": true
+    "shards": true,
+    "lexicon": true
   },
   "de": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "el": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "en": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "es": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "fr": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "hy": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "it": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "ka": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "pt": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "ru": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   },
   "tt": {
-    "morphology": true,
-    "kaikki": false
+    "shards": true,
+    "lexicon": true
   }
 }

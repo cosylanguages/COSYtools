@@ -18,17 +18,9 @@ const manifest = {};
 languages.forEach(lang => {
     const dataDir = path.join(toolsDir, lang, 'data');
     manifest[lang] = {
-        morphology: false,
-        kaikki: false
+        shards: fs.existsSync(path.join(dataDir, 'shards', 'index.json')),
+        lexicon: fs.existsSync(path.join(dataDir, 'lexicon.json'))
     };
-    if (fs.existsSync(dataDir)) {
-        if (fs.existsSync(path.join(dataDir, 'morphology.json'))) {
-            manifest[lang].morphology = true;
-        }
-        if (fs.existsSync(path.join(dataDir, 'kaikki.json'))) {
-            manifest[lang].kaikki = true;
-        }
-    }
 });
 
 const outputPath = path.join(sharedDataDir, 'data-manifest.json');
