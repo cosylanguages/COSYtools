@@ -3,6 +3,9 @@
     "id": "ba-cases",
     "language": "ba",
     "type": "gender-case",
+    "status": "stub",
+    "title": "Башҡорт килештәре",
+    "description": "Башҡорт теле исемдәренең килеш ялғауҙары таблицаһы.",
     "entry_url": "tools/ba/cases/index.html",
     "data_file_paths": [
       "tools/ba/cases/data/nouns.json"
@@ -18,6 +21,9 @@
     "id": "ba-conjugeur",
     "language": "ba",
     "type": "conjugation",
+    "status": "stub",
+    "title": "Башҡорт ҡалыплары",
+    "description": "Башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө.",
     "entry_url": "tools/ba/conjugeur/index.html",
     "data_file_paths": [
       "tools/ba/conjugeur/data/verbs.json"
@@ -33,6 +39,9 @@
     "id": "br-conjugeur",
     "language": "br",
     "type": "conjugation",
+    "status": "stub",
+    "title": "Anvlazh ar Verboù Brezhonek",
+    "description": "Taolennoù anvlazh ar verboù brezhonek e pep amzer.",
     "entry_url": "tools/br/conjugeur/index.html",
     "data_file_paths": [
       "tools/br/conjugeur/data/verbs.json"
@@ -48,6 +57,9 @@
     "id": "br-genre",
     "language": "br",
     "type": "gender-case",
+    "status": "stub",
+    "title": "Rizh an Anvioù Brezhonek",
+    "description": "Reolennoù rizh an anvioù hag kemmoù-iñvadiñ e brezhoneg.",
     "entry_url": "tools/br/genre/index.html",
     "data_file_paths": [
       "tools/br/genre/data/nouns.json"
@@ -63,6 +75,9 @@
     "id": "cv-cases",
     "language": "cv",
     "type": "gender-case",
+    "status": "stub",
+    "title": "Чӑваш ятсен падежĕсем",
+    "description": "Чӑваш ятсен падеж сăпăрлавĕ тата хушăмĕсен правиласем.",
     "entry_url": "tools/cv/cases/index.html",
     "data_file_paths": [
       "tools/cv/cases/data/nouns.json"
@@ -78,6 +93,9 @@
     "id": "cv-conjugeur",
     "language": "cv",
     "type": "conjugation",
+    "status": "stub",
+    "title": "Чӑваш глаголĕсен сăпăрланăвĕ",
+    "description": "Чӑваш глаголĕсен сăпăрлану таблицисем тата вăхăт хушăмĕсем.",
     "entry_url": "tools/cv/conjugeur/index.html",
     "data_file_paths": [
       "tools/cv/conjugeur/data/verbs.json"
@@ -93,6 +111,9 @@
     "id": "de-genus",
     "language": "de",
     "type": "gender-case",
+    "status": "beta",
+    "title": "Genus der Substantive & Artikel",
+    "description": "Regeln für der, die, das und Genusbestimmung deutscher Nomen.",
     "entry_url": "tools/de/genus/index.html",
     "data_file_paths": [
       "tools/de/genus/data/nouns.json"
@@ -108,6 +129,9 @@
     "id": "de-konjugation",
     "language": "de",
     "type": "conjugation",
+    "status": "stable",
+    "title": "Deutsche Verbkonjugation",
+    "description": "Konjugationstabellen deutscher Verben in allen Zeiten und Modi.",
     "entry_url": "tools/de/konjugation/index.html",
     "data_file_paths": [
       "tools/de/konjugation/data/verbs.json"
@@ -123,6 +147,9 @@
     "id": "de-praepositionen",
     "language": "de",
     "type": "prepositions",
+    "status": "stable",
+    "title": "Deutsche Präpositionen & Verben",
+    "description": "Feste Präpositionen bei Verben und Kasusrektion im Deutschen.",
     "entry_url": "tools/de/praepositionen/index.html",
     "data_file_paths": [
       "tools/de/praepositionen/data/adjectives.json",
@@ -144,6 +171,10 @@
     "id": "el-genos-ptoseis",
     "language": "el",
     "type": "gender-case",
+    "status": "stable",
+    "title": "Γένος και Πτώσεις Ουσιαστικών",
+    "description": "Οδηγός γένους και κλίσης ουσιαστικών στις 4 πτώσεις.",
+    "keywords": "greek el ελληνικά genos ptoseis gender cases declension 4 cases",
     "entry_url": "tools/el/genos-ptoseis/index.html",
     "data_file_paths": [
       "tools/el/genos-ptoseis/data/nouns.json"
@@ -159,6 +190,10 @@
     "id": "el-klisi-rimaton",
     "language": "el",
     "type": "conjugation",
+    "status": "stable",
+    "title": "Κλίση Ρημάτων της Ελληνικής",
+    "description": "Πίνακες κλίσης ελληνικών ρημάτων σε όλους τους χρόνους.",
+    "keywords": "greek el ελληνικά verb conjugation κλίση ρημάτων",
     "entry_url": "tools/el/klisi-rimaton/index.html",
     "data_file_paths": [
       "tools/el/klisi-rimaton/data/verbs.json"
@@ -174,6 +209,9 @@
     "id": "el-syntaxi",
     "language": "el",
     "type": "syntax",
+    "status": "stable",
+    "title": "Σύνταξη Ρημάτων και Προθέσεις",
+    "description": "Σύνταξη ελληνικών ρημάτων και εξαρτημένες προθέσεις.",
     "entry_url": "tools/el/syntaxi/index.html",
     "data_file_paths": [
       "tools/el/syntaxi/data/nouns.json",
@@ -191,6 +229,10 @@
     "id": "en-irregular-verbs",
     "language": "en",
     "type": "conjugation",
+    "status": "stable",
+    "title": "English Irregular Verbs Engine",
+    "description": "English irregular verb forms, vowel patterns, and practice drills.",
+    "keywords": "english en irregular verbs principal parts base past simple past participle pattern groups conjugation",
     "entry_url": "tools/en/irregular-verbs/index.html",
     "data_file_paths": [
       "tools/en/irregular-verbs/data/verbs.json"
@@ -206,6 +248,9 @@
     "id": "en-speaking-bot",
     "language": "en",
     "type": "speaking",
+    "status": "stable",
+    "title": "English Speaking Practice Bot",
+    "description": "Interactive English conversation practice bot for grammar and vocabulary.",
     "entry_url": "tools/en/speaking-bot/index.html",
     "data_file_paths": [
       "tools/en/speaking-bot/data/scenarios.json"
@@ -221,6 +266,10 @@
     "id": "en-verb-prep",
     "language": "en",
     "type": "prepositions",
+    "status": "stable",
+    "title": "English Dependent Prepositions",
+    "description": "English dependent prepositions, phrasal verbs, and prepositional patterns.",
+    "keywords": "english en verb prep dependent prepositions phrasals",
     "entry_url": "tools/en/verb-prep/index.html",
     "data_file_paths": [
       "tools/en/verb-prep/data/adjectives.json",
@@ -240,6 +289,9 @@
     "id": "es-conjugeur",
     "language": "es",
     "type": "conjugation",
+    "status": "beta",
+    "title": "Conjugación de Verbos Españoles",
+    "description": "Tablas de conjugación de verbos en español para todos los tiempos.",
     "entry_url": "tools/es/conjugeur/index.html",
     "data_file_paths": [
       "tools/es/conjugeur/data/verbs.json"
@@ -255,6 +307,9 @@
     "id": "es-genre",
     "language": "es",
     "type": "gender-case",
+    "status": "beta",
+    "title": "Género de Sustantivos en Español",
+    "description": "Reglas de género masculino y femenino para sustantivos en español.",
     "entry_url": "tools/es/genre/index.html",
     "data_file_paths": [
       "tools/es/genre/data/nouns.json"
@@ -270,6 +325,10 @@
     "id": "fr-conjugeur",
     "language": "fr",
     "type": "conjugation",
+    "status": "stable",
+    "title": "Conjugueur de Verbes Français",
+    "description": "Tables de conjugaison des verbes français à tous les temps et modes.",
+    "keywords": "french fr français verb conjugation conjugeur",
     "entry_url": "tools/fr/conjugeur/index.html",
     "data_file_paths": [
       "tools/fr/conjugeur/data/verbs.json"
@@ -285,6 +344,10 @@
     "id": "fr-genre",
     "language": "fr",
     "type": "gender-case",
+    "status": "stable",
+    "title": "Genre des Noms et Pluriels en Français",
+    "description": "Vérificateur de genre des noms français, terminaisons et règles du pluriel.",
+    "keywords": "french fr français gender genre nouns articles plurals",
     "entry_url": "tools/fr/genre/index.html",
     "data_file_paths": [
       "tools/fr/genre/data/nouns.json"
@@ -300,6 +363,10 @@
     "id": "fr-regime",
     "language": "fr",
     "type": "prepositions",
+    "status": "stable",
+    "title": "Régimes Prépositionnels du Français",
+    "description": "Prépositions des verbes et adjectifs français et syntaxe.",
+    "keywords": "french fr français regime prepositions prepositions dependent rules",
     "entry_url": "tools/fr/regime/index.html",
     "data_file_paths": [
       "tools/fr/regime/data/adjectives.json",
@@ -319,6 +386,9 @@
     "id": "hy-cases",
     "language": "hy",
     "type": "gender-case",
+    "status": "stub",
+    "title": "Հայերեն հոլովումներ",
+    "description": "Գոյականների հոլովման աղյուսակներ և վերջավորություններ:",
     "entry_url": "tools/hy/cases/index.html",
     "data_file_paths": [
       "tools/hy/cases/data/nouns.json"
@@ -334,6 +404,9 @@
     "id": "hy-conjugeur",
     "language": "hy",
     "type": "conjugation",
+    "status": "stub",
+    "title": "Հայերեն բայերի խոնարհում",
+    "description": "Հայերեն բայերի խոնարհման աղյուսակներ և ժամանակաձևեր:",
     "entry_url": "tools/hy/conjugeur/index.html",
     "data_file_paths": [
       "tools/hy/conjugeur/data/verbs.json"
@@ -349,6 +422,10 @@
     "id": "it-coniugatore",
     "language": "it",
     "type": "conjugation",
+    "status": "stable",
+    "title": "Coniugatore di Verbi Italiani",
+    "description": "Tabelle di coniugazione dei verbi italiani in tutti i tempi e modi.",
+    "keywords": "italian it italiano verb conjugation coniugatore",
     "entry_url": "tools/it/coniugatore/index.html",
     "data_file_paths": [
       "tools/it/coniugatore/data/verbs.json"
@@ -364,6 +441,10 @@
     "id": "it-genere",
     "language": "it",
     "type": "gender-case",
+    "status": "stable",
+    "title": "Genere dei Nomi e Articoli Italiani",
+    "description": "Guida al genere dei nomi italiani, regole ed eccezioni.",
+    "keywords": "italian it italiano genere gender nouns articles",
     "entry_url": "tools/it/genere/index.html",
     "data_file_paths": [
       "tools/it/genere/data/nouns.json"
@@ -379,6 +460,10 @@
     "id": "it-reggenza",
     "language": "it",
     "type": "prepositions",
+    "status": "stable",
+    "title": "Reggenza Preposizionale Italiana",
+    "description": "Preposizioni dei verbi e aggettivi italiani e sintassi.",
+    "keywords": "italian it italiano reggenza prepositions verb prepositions",
     "entry_url": "tools/it/reggenza/index.html",
     "data_file_paths": [
       "tools/it/reggenza/data/adjectives.json",
@@ -398,6 +483,9 @@
     "id": "ka-cases",
     "language": "ka",
     "type": "gender-case",
+    "status": "stub",
+    "title": "ქართული ბრუნება",
+    "description": "არსებითი სახელების ბრუნების ცხრილები და ნიშნები.",
     "entry_url": "tools/ka/cases/index.html",
     "data_file_paths": [
       "tools/ka/cases/data/nouns.json"
@@ -413,6 +501,9 @@
     "id": "ka-conjugeur",
     "language": "ka",
     "type": "conjugation",
+    "status": "stub",
+    "title": "ქართული ზმნების უღვლილება",
+    "description": "ქართული ზმნების უღვლილების ცხრილები და მწკრივები.",
     "entry_url": "tools/ka/conjugeur/index.html",
     "data_file_paths": [
       "tools/ka/conjugeur/data/verbs.json"
@@ -428,6 +519,9 @@
     "id": "pt-conjugeur",
     "language": "pt",
     "type": "conjugation",
+    "status": "beta",
+    "title": "Conjugação de Verbos Portugueses",
+    "description": "Tabelas de conjugação de verbos em português em todos os tempos.",
     "entry_url": "tools/pt/conjugeur/index.html",
     "data_file_paths": [
       "tools/pt/conjugeur/data/verbs.json"
@@ -443,6 +537,9 @@
     "id": "pt-genre",
     "language": "pt",
     "type": "gender-case",
+    "status": "beta",
+    "title": "Gênero dos Substantivos em Português",
+    "description": "Regras de gênero gramatical e uso de artigos em português.",
     "entry_url": "tools/pt/genre/index.html",
     "data_file_paths": [
       "tools/pt/genre/data/nouns.json"
@@ -458,6 +555,10 @@
     "id": "ru-rod-padezhi",
     "language": "ru",
     "type": "gender-case",
+    "status": "stable",
+    "title": "Род и 6 падежей имен существительных",
+    "description": "Определитель рода и таблица 6 падежей существительных русского языка.",
+    "keywords": "russian ru русский gender cases rod padezhi declension 6 cases",
     "entry_url": "tools/ru/rod-padezhi/index.html",
     "data_file_paths": [
       "tools/ru/rod-padezhi/data/nouns.json"
@@ -473,6 +574,10 @@
     "id": "ru-spryazhenie",
     "language": "ru",
     "type": "conjugation",
+    "status": "stable",
+    "title": "Спряжение глаголов русского языка",
+    "description": "Таблицы спряжения русских глаголов, видовые пары и ударения.",
+    "keywords": "russian ru русский verb conjugation спряжение aspectual pairs",
     "entry_url": "tools/ru/spryazhenie/index.html",
     "data_file_paths": [
       "tools/ru/spryazhenie/data/verbs.json"
@@ -488,6 +593,9 @@
     "id": "tt-cases",
     "language": "tt",
     "type": "gender-case",
+    "status": "stub",
+    "title": "Татар килешләре",
+    "description": "Татар теле исемнәренең килеш аффикслары таблицасы.",
     "entry_url": "tools/tt/cases/index.html",
     "data_file_paths": [
       "tools/tt/cases/data/nouns.json"
@@ -503,6 +611,9 @@
     "id": "tt-conjugeur",
     "language": "tt",
     "type": "conjugation",
+    "status": "stub",
+    "title": "Татар фигыльләренең затланышы",
+    "description": "Татар фигыльләренең затланыш таблицалары һәм заман аффикслары.",
     "entry_url": "tools/tt/conjugeur/index.html",
     "data_file_paths": [
       "tools/tt/conjugeur/data/verbs.json"
