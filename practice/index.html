@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../shared/css/fonts.css">
     <link rel="stylesheet" href="../shared/styles/reference.css">
     <script src="../shared/engines/reference-utils.js"></script>
+    <script src="../shared/engines/srs-store.js"></script>
     </head>
 <body>
     <!-- Shared Ecosystem Strip -->
@@ -97,6 +98,16 @@
             </div>
 
             <div id="drill-feedback" style="display:none; padding:0.75rem 1rem; border-radius:10px; font-weight:700;"></div>
+        </div>
+
+        <!-- SRS Export Box -->
+        <div class="ref-practice-box" style="margin-top:2rem; text-align:center;">
+            <h2 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif);">📥 Export Practice &amp; SRS Data</h2>
+            <p style="color:var(--ref-text-muted); font-size:0.95rem; margin-bottom:1.25rem;">Download your progress backup or export your weak spots directly to Anki decks.</p>
+            <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+                <button class="ref-btn" type="button" onclick="exportSrsJSON()">Export JSON Backup 📄</button>
+                <button class="ref-btn" type="button" style="background:var(--sage-dark);" onclick="exportAnkiDeck()">Export Anki Deck (.tsv) 🎴</button>
+            </div>
         </div>
 
         <!-- Links Grid -->
@@ -207,6 +218,30 @@
                 currentDrillIdx++;
                 renderDrill();
             }, 1800);
+        }
+
+        function downloadFile(filename, content, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function exportSrsJSON() {
+            const srs = new SpacedRepetitionStore('cosy-srs');
+            const data = srs.exportProgressJSON();
+            downloadFile('cosy-srs-backup.json', data, 'application/json');
+        }
+
+        function exportAnkiDeck() {
+            const srs = new SpacedRepetitionStore('cosy-srs');
+            const data = srs.exportAnkiCSV();
+            downloadFile('cosy-weak-spots-anki.tsv', data, 'text/tab-separated-values');
         }
 
         window.addEventListener('DOMContentLoaded', renderDrill);

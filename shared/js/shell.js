@@ -155,11 +155,25 @@
             });
     }
 
+    // --------------------------------------------------------------------------
+    // Service Worker Registration for PWA Offline Support
+    // --------------------------------------------------------------------------
+    function registerServiceWorker() {
+        if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+            const depth = window.location.pathname.split('/').filter(Boolean).length - 1;
+            const swPath = depth > 0 ? '../'.repeat(depth) + 'sw.js' : 'sw.js';
+            navigator.serviceWorker.register(swPath).catch(function(err) {
+                console.warn('COSY Shell: Service Worker registration notice', err);
+            });
+        }
+    }
+
     // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
         initTheme();
         renderAppHeader();
         loadEcosystemScripts();
+        registerServiceWorker();
         const toggleBtn = document.getElementById('cosy-theme-toggle');
         if (toggleBtn) {
             toggleBtn.removeEventListener('click', toggleTheme);
