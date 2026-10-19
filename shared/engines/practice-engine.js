@@ -1148,10 +1148,58 @@ class PracticeEngine {
         this.renderQuestion();
     }
 
+    /**
+     * Spawns lightweight DOM particle confetti animation on victory or session completion.
+     */
+    launchVictoryConfetti() {
+        if (typeof document === 'undefined') return;
+
+        const colors = ['#416b49', '#e07a5f', '#f4a261', '#2a9d8f', '#e76f51', '#3a86ff'];
+        const container = document.body;
+        const particleCount = 28;
+
+        for (let i = 0; i < particleCount; i++) {
+            const p = document.createElement('div');
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            const left = Math.random() * 100;
+            const size = Math.floor(Math.random() * 8) + 6;
+            const animDuration = (Math.random() * 1.5 + 1.2).toFixed(2);
+
+            p.style.cssText = `
+                position: fixed;
+                top: -10px;
+                left: ${left}vw;
+                width: ${size}px;
+                height: ${size * 1.4}px;
+                background-color: ${color};
+                border-radius: 2px;
+                opacity: 0.9;
+                pointer-events: none;
+                z-index: 9999;
+                transform: rotate(${Math.floor(Math.random() * 360)}deg);
+                transition: transform ${animDuration}s cubic-bezier(0.25, 0.46, 0.45, 0.94), top ${animDuration}s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity ${animDuration}s ease-out;
+            `;
+
+            container.appendChild(p);
+
+            setTimeout(() => {
+                p.style.top = `${Math.random() * 40 + 60}vh`;
+                p.style.transform = `translate(${Math.random() * 120 - 60}px, 0) rotate(${Math.floor(Math.random() * 720)}deg)`;
+                p.style.opacity = '0';
+            }, 30);
+
+            setTimeout(() => {
+                if (p.parentNode) p.parentNode.removeChild(p);
+            }, parseFloat(animDuration) * 1000 + 100);
+        }
+    }
+
     finishSession() {
         if (this.srsStore) {
             this.srsStore.recordSessionCompletion();
         }
+
+        this.launchVictoryConfetti();
 
         // Parallel best-effort Supabase user_scores sync (if user is authenticated in ecosystem)
         const totalItems = this.currentSession.length || 1;

@@ -495,6 +495,58 @@ class SpacedRepetitionStore {
             goal: streakInfo.goal
         };
     }
+
+    /**
+     * Export full SRS progress state as JSON string for backup or transfer.
+     */
+    exportProgressJSON() {
+        const dump = {
+            prefix: this.prefix,
+            exportedAt: new Date().toISOString(),
+            streak: this.streakData,
+            goal: this.dailyGoal,
+            progress: this.progress
+        };
+        return JSON.stringify(dump, null, 2);
+    }
+
+    /**
+     * Export weak spots or reviewed items in standard Anki tab-separated CSV format.
+     * @param {Object} [datasets] Optional dataset map to retrieve definitions and examples
+     */
+    exportAnkiCSV(datasets) {
+        const rows = ['Front\tBack\tLevel\tMastery'];
+        const isMultiType = datasets && Boolean(datasets.verbs || datasets.nouns || datasets.adjectives);
+
+        Object.keys(this.progress).forEach(id => {
+            const item = this.getWordProgress(id);
+            if (item.totalReviews === 0) return;
+
+            let front = item.key || id;
+            let back = `Level ${item.masteryLevel}/5 - Correct: ${item.timesCorrect}, Wrong: ${item.timesWrong}`;
+            let levelTag = 'A1';
+
+            if (datasets) {
+                let entry = null;
+                if (isMultiType && item.type && datasets[item.type]) {
+                    entry = datasets[item.type][item.key];
+                } else if (!isMultiType) {
+                    entry = datasets[item.key] || datasets[id];
+                }
+
+                if (entry) {
+                    levelTag = entry.level || 'A1';
+                    const def = entry.definition || entry.meaning || '';
+                    const ex = entry.examples && entry.examples.length > 0 ? ` (e.g. ${entry.examples[0]})` : '';
+                    back = `${def}${ex} [SRS Level ${item.masteryLevel}]`;
+                }
+            }
+
+            rows.push(`${front.replace(/\t/g, ' ')}\t${back.replace(/\t/g, ' ')}\t${levelTag}\t${item.masteryLevel}`);
+        });
+
+        return rows.join('\n');
+    }
 }
 
 window.SpacedRepetitionStore = SpacedRepetitionStore;
