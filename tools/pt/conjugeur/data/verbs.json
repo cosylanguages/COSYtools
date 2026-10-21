@@ -5374,5 +5374,1466 @@
     "examples": [
       "Convido os meus amigos para jantar."
     ]
+  },
+  "haver": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Existir ou acontecer; usado como verbo auxiliar.",
+    "antonyms": [
+      "faltar"
+    ],
+    "tenses": {
+      "presente": [
+        "hei",
+        "hás",
+        "há",
+        "havemos",
+        "haveis",
+        "hão"
+      ],
+      "passado": [
+        "houve",
+        "houveste",
+        "houve",
+        "houvemos",
+        "houvestes",
+        "houveram"
+      ],
+      "imperfeito": [
+        "havia",
+        "havias",
+        "havia",
+        "havíamos",
+        "havíeis",
+        "haviam"
+      ],
+      "futuro": [
+        "haverei",
+        "haverás",
+        "haverá",
+        "haveremos",
+        "havereis",
+        "haverão"
+      ],
+      "condicional": [
+        "haveria",
+        "haverias",
+        "haveria",
+        "haveríamos",
+        "haveríeis",
+        "haveriam"
+      ],
+      "subjuntivo_presente": [
+        "haja",
+        "hajas",
+        "haja",
+        "hajamos",
+        "hajais",
+        "hajam"
+      ],
+      "imperativo": [
+        "há!",
+        "haja!",
+        "havei!",
+        "hajam!"
+      ]
+    },
+    "examples": [
+      "Há muitos livros interessantes na biblioteca."
+    ]
+  },
+  "saber": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Ter conhecimento de algo ou capacidade para fazer algo.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "sei",
+        "sabes",
+        "sabe",
+        "sabemos",
+        "sabeis",
+        "sabem"
+      ],
+      "passado": [
+        "soube",
+        "soubeste",
+        "soube",
+        "soubemos",
+        "soubestes",
+        "souberam"
+      ],
+      "imperfeito": [
+        "sabia",
+        "sabias",
+        "sabia",
+        "sabíamos",
+        "sabíeis",
+        "sabiam"
+      ],
+      "futuro": [
+        "saberei",
+        "saberás",
+        "saberá",
+        "saberemos",
+        "sabereis",
+        "saberão"
+      ],
+      "condicional": [
+        "saberia",
+        "saberias",
+        "saberia",
+        "saberíamos",
+        "saberíeis",
+        "saberiam"
+      ],
+      "subjuntivo_presente": [
+        "saiba",
+        "saibas",
+        "saiba",
+        "saibamos",
+        "saibais",
+        "saibam"
+      ],
+      "imperativo": [
+        "sabe!",
+        "saiba!",
+        "sabei!",
+        "saibam!"
+      ]
+    },
+    "examples": [
+      "Eu sei falar três línguas com facilidade."
+    ]
+  },
+  "adorar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Gostar extremamente de algo ou alguém.",
+    "antonyms": [
+      "odiar"
+    ],
+    "tenses": {
+      "presente": [
+        "adoro",
+        "adoras",
+        "adora",
+        "adoramos",
+        "adorais",
+        "adoram"
+      ],
+      "passado": [
+        "adorei",
+        "adoraste",
+        "adorou",
+        "adoramos",
+        "adorastes",
+        "adoraram"
+      ],
+      "imperfeito": [
+        "adorava",
+        "adoravas",
+        "adorava",
+        "adorávamos",
+        "adoráveis",
+        "adoravam"
+      ],
+      "futuro": [
+        "adorarei",
+        "adorarás",
+        "adorará",
+        "adoraremos",
+        "adorareis",
+        "adorarão"
+      ],
+      "condicional": [
+        "adoraria",
+        "adorarias",
+        "adoraria",
+        "adoraríamos",
+        "adoraríeis",
+        "adorariam"
+      ],
+      "subjuntivo_presente": [
+        "adore",
+        "adores",
+        "adore",
+        "adoremos",
+        "adoreis",
+        "adorem"
+      ],
+      "imperativo": [
+        "adora!",
+        "adore!",
+        "adorai!",
+        "adorem!"
+      ]
+    },
+    "examples": [
+      "Ela adora ouvir música enquanto estuda."
+    ]
+  },
+  "amar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Ter amor profundo por alguém ou algo.",
+    "antonyms": [
+      "odiar"
+    ],
+    "tenses": {
+      "presente": [
+        "amo",
+        "amas",
+        "ama",
+        "amamos",
+        "amais",
+        "amam"
+      ],
+      "passado": [
+        "amei",
+        "amaste",
+        "amou",
+        "amamos",
+        "amastes",
+        "amaram"
+      ],
+      "imperfeito": [
+        "amava",
+        "amavas",
+        "amava",
+        "amávamos",
+        "amáveis",
+        "amavam"
+      ],
+      "futuro": [
+        "amarei",
+        "amarás",
+        "amará",
+        "amaremos",
+        "amareis",
+        "amarão"
+      ],
+      "condicional": [
+        "amaria",
+        "amarias",
+        "amaria",
+        "amaríamos",
+        "amaríeis",
+        "amariam"
+      ],
+      "subjuntivo_presente": [
+        "ame",
+        "ames",
+        "ame",
+        "amemos",
+        "ameis",
+        "amem"
+      ],
+      "imperativo": [
+        "ama!",
+        "ame!",
+        "amai!",
+        "amem!"
+      ]
+    },
+    "examples": [
+      "Eles amam viajar pelo mundo nas férias."
+    ]
+  },
+  "odiar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Sentir aversão intensa por alguém ou algo.",
+    "antonyms": [
+      "amar",
+      "adorar"
+    ],
+    "tenses": {
+      "presente": [
+        "odeio",
+        "odeias",
+        "odeia",
+        "odiamos",
+        "odiais",
+        "odeiam"
+      ],
+      "passado": [
+        "odiei",
+        "odiaste",
+        "odiou",
+        "odiamos",
+        "odiastes",
+        "odiaram"
+      ],
+      "imperfeito": [
+        "odiava",
+        "odiavas",
+        "odiava",
+        "odiávamos",
+        "odiáveis",
+        "odiavam"
+      ],
+      "futuro": [
+        "odiarei",
+        "odiarás",
+        "odiará",
+        "odiaremos",
+        "odiareis",
+        "odiarão"
+      ],
+      "condicional": [
+        "odiaria",
+        "odiarias",
+        "odiaria",
+        "odiaríamos",
+        "odiaríeis",
+        "odiariam"
+      ],
+      "subjuntivo_presente": [
+        "odeie",
+        "odeies",
+        "odeie",
+        "odeiemos",
+        "odeieis",
+        "odeiem"
+      ],
+      "imperativo": [
+        "odeia!",
+        "odeie!",
+        "odiai!",
+        "odeiem!"
+      ]
+    },
+    "examples": [
+      "Eu odeio chegar atrasado aos compromissos."
+    ]
+  },
+  "querer": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Desejar ou ter vontade de obter algo.",
+    "antonyms": [
+      "rejeitar"
+    ],
+    "tenses": {
+      "presente": [
+        "quero",
+        "queres",
+        "quer",
+        "queremos",
+        "quereis",
+        "querem"
+      ],
+      "passado": [
+        "quis",
+        "quiseste",
+        "quis",
+        "quisemos",
+        "quisestes",
+        "quiseram"
+      ],
+      "imperfeito": [
+        "queria",
+        "querias",
+        "queria",
+        "queríamos",
+        "queríeis",
+        "queriam"
+      ],
+      "futuro": [
+        "quererei",
+        "quererás",
+        "quererá",
+        "quereremos",
+        "querereis",
+        "quererão"
+      ],
+      "condicional": [
+        "quereria",
+        "quererias",
+        "quereria",
+        "quereríamos",
+        "quereríeis",
+        "quereriam"
+      ],
+      "subjuntivo_presente": [
+        "queira",
+        "queiras",
+        "queira",
+        "queiramos",
+        "queirais",
+        "queiram"
+      ],
+      "imperativo": [
+        "quer!",
+        "queira!",
+        "querei!",
+        "queiram!"
+      ]
+    },
+    "examples": [
+      "Nós queremos aprender português fluentemente."
+    ]
+  },
+  "descansar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Pausar atividades para recuperar energias.",
+    "antonyms": [
+      "trabalhar"
+    ],
+    "tenses": {
+      "presente": [
+        "descanso",
+        "descansas",
+        "descansa",
+        "descansamos",
+        "descansais",
+        "descansam"
+      ],
+      "passado": [
+        "descansei",
+        "descansaste",
+        "descansou",
+        "descansamos",
+        "descansastes",
+        "descansaram"
+      ],
+      "imperfeito": [
+        "descansava",
+        "descansavas",
+        "descansava",
+        "descansávamos",
+        "descansáveis",
+        "descansavam"
+      ],
+      "futuro": [
+        "descansarei",
+        "descansarás",
+        "descansará",
+        "descansaremos",
+        "descansareis",
+        "descansarão"
+      ],
+      "condicional": [
+        "descansaria",
+        "descansarias",
+        "descansaria",
+        "descansaríamos",
+        "descansaríeis",
+        "descansariam"
+      ],
+      "subjuntivo_presente": [
+        "descanse",
+        "descanses",
+        "descanse",
+        "descansemos",
+        "descanseis",
+        "descansem"
+      ],
+      "imperativo": [
+        "descansa!",
+        "descanse!",
+        "descansai!",
+        "descansem!"
+      ]
+    },
+    "examples": [
+      "Vou descansar um pouco depois do almoço."
+    ]
+  },
+  "poder": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Ter a capacidade ou a permissão de fazer algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "posso",
+        "podes",
+        "pode",
+        "podemos",
+        "podeis",
+        "podem"
+      ],
+      "passado": [
+        "pude",
+        "pudeste",
+        "pôde",
+        "pudemos",
+        "pudestes",
+        "puderam"
+      ],
+      "imperfeito": [
+        "podia",
+        "podias",
+        "podia",
+        "podíamos",
+        "podíeis",
+        "podiam"
+      ],
+      "futuro": [
+        "poderei",
+        "poderás",
+        "poderá",
+        "poderemos",
+        "podereis",
+        "poderão"
+      ],
+      "condicional": [
+        "poderia",
+        "poderias",
+        "poderia",
+        "poderíamos",
+        "poderíeis",
+        "poderiam"
+      ],
+      "subjuntivo_presente": [
+        "possa",
+        "possas",
+        "possa",
+        "possamos",
+        "possais",
+        "possam"
+      ],
+      "imperativo": [
+        "pode!",
+        "possa!",
+        "podei!",
+        "possam!"
+      ]
+    },
+    "examples": [
+      "Você pode me ajudar com esta tarefa?"
+    ]
+  },
+  "beber": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Ingerir líquidos.",
+    "antonyms": [
+      "comer"
+    ],
+    "tenses": {
+      "presente": [
+        "bebo",
+        "bebes",
+        "bebe",
+        "bebemos",
+        "bebeis",
+        "bebem"
+      ],
+      "passado": [
+        "bebi",
+        "bebeste",
+        "bebeu",
+        "bebemos",
+        "bebestes",
+        "beberam"
+      ],
+      "imperfeito": [
+        "bebia",
+        "bebias",
+        "bebia",
+        "bebíamos",
+        "bebíeis",
+        "bebiam"
+      ],
+      "futuro": [
+        "beberei",
+        "beberás",
+        "beberá",
+        "beberemos",
+        "bebereis",
+        "beberão"
+      ],
+      "condicional": [
+        "beberia",
+        "beberias",
+        "beberia",
+        "beberíamos",
+        "beberíeis",
+        "beberiam"
+      ],
+      "subjuntivo_presente": [
+        "beba",
+        "bebas",
+        "beba",
+        "bebamos",
+        "bebais",
+        "bebam"
+      ],
+      "imperativo": [
+        "bebe!",
+        "beba!",
+        "bebei!",
+        "bebam!"
+      ]
+    },
+    "examples": [
+      "É importante beber bastante água todos os dias."
+    ]
+  },
+  "criar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A2",
+    "definition": "Dar origem a algo novo ou produzir algo.",
+    "antonyms": [
+      "destruir"
+    ],
+    "tenses": {
+      "presente": [
+        "crio",
+        "crias",
+        "cria",
+        "criamos",
+        "criais",
+        "criam"
+      ],
+      "passado": [
+        "criei",
+        "criaste",
+        "criou",
+        "criamos",
+        "criastes",
+        "criaram"
+      ],
+      "imperfeito": [
+        "criava",
+        "criavas",
+        "criava",
+        "criávamos",
+        "criáveis",
+        "criavam"
+      ],
+      "futuro": [
+        "criarei",
+        "criarás",
+        "criará",
+        "criaremos",
+        "criareis",
+        "criarão"
+      ],
+      "condicional": [
+        "criaria",
+        "criarias",
+        "criaria",
+        "criaríamos",
+        "criaríeis",
+        "criariam"
+      ],
+      "subjuntivo_presente": [
+        "crie",
+        "cries",
+        "crie",
+        "criemos",
+        "crieis",
+        "criem"
+      ],
+      "imperativo": [
+        "cria!",
+        "crie!",
+        "criai!",
+        "criem!"
+      ]
+    },
+    "examples": [
+      "O artista criou uma pintura maravilhosa."
+    ]
+  },
+  "entender": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Compreender o sentido ou significado de algo.",
+    "antonyms": [
+      "confundir"
+    ],
+    "tenses": {
+      "presente": [
+        "entendo",
+        "entendes",
+        "entende",
+        "entendemos",
+        "entendeis",
+        "entendem"
+      ],
+      "passado": [
+        "entendi",
+        "entendeste",
+        "entendeu",
+        "entendemos",
+        "entendestes",
+        "entenderam"
+      ],
+      "imperfeito": [
+        "entendia",
+        "entendias",
+        "entendia",
+        "entendíamos",
+        "entendíeis",
+        "entendiam"
+      ],
+      "futuro": [
+        "entenderei",
+        "entenderás",
+        "entenderá",
+        "entenderemos",
+        "entendereis",
+        "entenderão"
+      ],
+      "condicional": [
+        "entenderia",
+        "entenderias",
+        "entenderia",
+        "entenderíamos",
+        "entenderíeis",
+        "entenderiam"
+      ],
+      "subjuntivo_presente": [
+        "entenda",
+        "entendas",
+        "entenda",
+        "entendamos",
+        "entendais",
+        "entendam"
+      ],
+      "imperativo": [
+        "entende!",
+        "entenda!",
+        "entendei!",
+        "entendam!"
+      ]
+    },
+    "examples": [
+      "Eu entendo a sua explicação agora."
+    ]
+  },
+  "compreender": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Perceber claramente a razão de algo.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "compreendo",
+        "compreendes",
+        "compreende",
+        "compreendemos",
+        "compreendeis",
+        "compreendem"
+      ],
+      "passado": [
+        "compreendi",
+        "compreendeste",
+        "compreendeu",
+        "compreendemos",
+        "compreendestes",
+        "compreenderam"
+      ],
+      "imperfeito": [
+        "compreendia",
+        "compreendias",
+        "compreendia",
+        "compreendíamos",
+        "compreendíeis",
+        "compreendiam"
+      ],
+      "futuro": [
+        "compreenderei",
+        "compreenderás",
+        "compreenderá",
+        "compreenderemos",
+        "compreendereis",
+        "compreenderão"
+      ],
+      "condicional": [
+        "compreenderia",
+        "compreenderias",
+        "compreenderia",
+        "compreenderíamos",
+        "compreenderíeis",
+        "compreenderiam"
+      ],
+      "subjuntivo_presente": [
+        "compreenda",
+        "compreendas",
+        "compreenda",
+        "compreendamos",
+        "compreendais",
+        "compreendam"
+      ],
+      "imperativo": [
+        "compreende!",
+        "compreenda!",
+        "compreendei!",
+        "compreendam!"
+      ]
+    },
+    "examples": [
+      "Todos conseguiram compreender a mensagem."
+    ]
+  },
+  "conversar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Falar de forma amigável com outra pessoa.",
+    "antonyms": [
+      "calar"
+    ],
+    "tenses": {
+      "presente": [
+        "converso",
+        "conversas",
+        "conversa",
+        "conversamos",
+        "conversais",
+        "conversam"
+      ],
+      "passado": [
+        "conversei",
+        "conversaste",
+        "conversou",
+        "conversamos",
+        "conversastes",
+        "conversaram"
+      ],
+      "imperfeito": [
+        "conversava",
+        "conversavas",
+        "conversava",
+        "conversávamos",
+        "conversáveis",
+        "conversavam"
+      ],
+      "futuro": [
+        "conversarei",
+        "conversarás",
+        "conversará",
+        "conversaremos",
+        "conversareis",
+        "conversarão"
+      ],
+      "condicional": [
+        "conversaria",
+        "conversarias",
+        "conversaria",
+        "conversaríamos",
+        "conversaríeis",
+        "conversariam"
+      ],
+      "subjuntivo_presente": [
+        "converse",
+        "converses",
+        "converse",
+        "conversemos",
+        "converseis",
+        "conversem"
+      ],
+      "imperativo": [
+        "conversa!",
+        "converse!",
+        "conversai!",
+        "conversem!"
+      ]
+    },
+    "examples": [
+      "Gostamos de conversar na praça à tarde."
+    ]
+  },
+  "observar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A2",
+    "definition": "Olhar com atenção para examinar algo.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "observo",
+        "observas",
+        "observa",
+        "observamos",
+        "observais",
+        "observam"
+      ],
+      "passado": [
+        "observei",
+        "observaste",
+        "observou",
+        "observamos",
+        "observastes",
+        "observaram"
+      ],
+      "imperfeito": [
+        "observava",
+        "observavas",
+        "observava",
+        "observávamos",
+        "observáveis",
+        "observavam"
+      ],
+      "futuro": [
+        "observarei",
+        "observarás",
+        "observará",
+        "observaremos",
+        "observareis",
+        "observarão"
+      ],
+      "condicional": [
+        "observaria",
+        "observarias",
+        "observaria",
+        "observaríamos",
+        "observaríeis",
+        "observariam"
+      ],
+      "subjuntivo_presente": [
+        "observe",
+        "observes",
+        "observe",
+        "observemos",
+        "observeis",
+        "observem"
+      ],
+      "imperativo": [
+        "observa!",
+        "observe!",
+        "observai!",
+        "observem!"
+      ]
+    },
+    "examples": [
+      "O cientista observa o comportamento das aves."
+    ]
+  },
+  "assistir": {
+    "group": "3ª conjugação (-ir)",
+    "level": "A1",
+    "definition": "Ver ou presenciar um evento ou filme.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "assisto",
+        "assistes",
+        "assiste",
+        "assistimos",
+        "assistis",
+        "assistem"
+      ],
+      "passado": [
+        "assisti",
+        "assististe",
+        "assistiu",
+        "assistimos",
+        "assististes",
+        "assistiram"
+      ],
+      "imperfeito": [
+        "assistia",
+        "assistias",
+        "assistia",
+        "assistíamos",
+        "assistíeis",
+        "assistiam"
+      ],
+      "futuro": [
+        "assistirei",
+        "assistirás",
+        "assistirá",
+        "assistiremos",
+        "assistireis",
+        "assistirão"
+      ],
+      "condicional": [
+        "assistiria",
+        "assistirias",
+        "assistiria",
+        "assistiríamos",
+        "assistiríeis",
+        "assistiriam"
+      ],
+      "subjuntivo_presente": [
+        "assista",
+        "assistas",
+        "assista",
+        "assistamos",
+        "assistais",
+        "assistam"
+      ],
+      "imperativo": [
+        "assiste!",
+        "assista!",
+        "assisti!",
+        "assistam!"
+      ]
+    },
+    "examples": [
+      "Vamos assistir a um filme no cinema hoje."
+    ]
+  },
+  "ver": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Perceber com a visão.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "vejo",
+        "vês",
+        "vê",
+        "vemos",
+        "vedes",
+        "vêem"
+      ],
+      "passado": [
+        "vi",
+        "viste",
+        "viu",
+        "vimos",
+        "vistes",
+        "viram"
+      ],
+      "imperfeito": [
+        "via",
+        "vias",
+        "via",
+        "víamos",
+        "víeis",
+        "viam"
+      ],
+      "futuro": [
+        "verei",
+        "verás",
+        "verá",
+        "veremos",
+        "vereis",
+        "verão"
+      ],
+      "condicional": [
+        "veria",
+        "verias",
+        "veria",
+        "veríamos",
+        "veríeis",
+        "veriam"
+      ],
+      "subjuntivo_presente": [
+        "veja",
+        "vejas",
+        "veja",
+        "vejamos",
+        "vejais",
+        "vejam"
+      ],
+      "imperativo": [
+        "vê!",
+        "veja!",
+        "vede!",
+        "vejam!"
+      ]
+    },
+    "examples": [
+      "Eu vejo um lindo pôr do sol pela janela."
+    ]
+  },
+  "pegar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Tomar na mão ou agarrar algo.",
+    "antonyms": [
+      "soltar"
+    ],
+    "tenses": {
+      "presente": [
+        "pego",
+        "pegas",
+        "pega",
+        "pegamos",
+        "pegais",
+        "pegam"
+      ],
+      "passado": [
+        "peguei",
+        "pegaste",
+        "pegou",
+        "pegamos",
+        "pegastes",
+        "pegaram"
+      ],
+      "imperfeito": [
+        "pegava",
+        "pegavas",
+        "pegava",
+        "pegávamos",
+        "pegáveis",
+        "pegavam"
+      ],
+      "futuro": [
+        "pegarei",
+        "pegarás",
+        "pegará",
+        "pegaremos",
+        "pegareis",
+        "pegarão"
+      ],
+      "condicional": [
+        "pegaria",
+        "pegarias",
+        "pegaria",
+        "pegaríamos",
+        "pegaríeis",
+        "pegariam"
+      ],
+      "subjuntivo_presente": [
+        "pegue",
+        "pegues",
+        "pegue",
+        "peguemos",
+        "pegueis",
+        "peguem"
+      ],
+      "imperativo": [
+        "pega!",
+        "pegue!",
+        "pegai!",
+        "peguem!"
+      ]
+    },
+    "examples": [
+      "Por favor, pega o meu casaco no armário."
+    ]
+  },
+  "obter": {
+    "group": "2ª conjugação (-er)",
+    "level": "A2",
+    "definition": "Conseguir ou alcançar algo pretendido.",
+    "antonyms": [
+      "perder"
+    ],
+    "tenses": {
+      "presente": [
+        "obtenho",
+        "obténs",
+        "obtém",
+        "obtemos",
+        "obtendes",
+        "obtêm"
+      ],
+      "passado": [
+        "obtive",
+        "obtiveste",
+        "obteve",
+        "obtivemos",
+        "obtivestes",
+        "obtiveram"
+      ],
+      "imperfeito": [
+        "obtinha",
+        "obtinhas",
+        "obtinha",
+        "obtínhamos",
+        "obtínheis",
+        "obtinham"
+      ],
+      "futuro": [
+        "obterei",
+        "obterás",
+        "obterá",
+        "obteremos",
+        "obtereis",
+        "obterão"
+      ],
+      "condicional": [
+        "obteria",
+        "obterias",
+        "obteria",
+        "obteríamos",
+        "obteríeis",
+        "obteriam"
+      ],
+      "subjuntivo_presente": [
+        "obtenha",
+        "obtenhas",
+        "obtenha",
+        "obtenhamos",
+        "obtenhais",
+        "obtenham"
+      ],
+      "imperativo": [
+        "obtém!",
+        "obtenha!",
+        "obtede!",
+        "obtenham!"
+      ]
+    },
+    "examples": [
+      "Ela conseguiu obter uma excelente nota na prova."
+    ]
+  },
+  "dever": {
+    "group": "2ª conjugação (-er)",
+    "level": "A1",
+    "definition": "Ter a obrigação moral ou legal de fazer algo.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "devo",
+        "deves",
+        "deve",
+        "devemos",
+        "deveis",
+        "devem"
+      ],
+      "passado": [
+        "devi",
+        "deveste",
+        "deveu",
+        "devemos",
+        "devestes",
+        "deveram"
+      ],
+      "imperfeito": [
+        "devia",
+        "devias",
+        "devia",
+        "devíamos",
+        "devíeis",
+        "deviam"
+      ],
+      "futuro": [
+        "deverei",
+        "deverás",
+        "deverá",
+        "deveremos",
+        "devereis",
+        "deverão"
+      ],
+      "condicional": [
+        "deveria",
+        "deverias",
+        "deveria",
+        "deveríamos",
+        "deveríeis",
+        "deveriam"
+      ],
+      "subjuntivo_presente": [
+        "deva",
+        "devas",
+        "deva",
+        "devamos",
+        "devais",
+        "devam"
+      ],
+      "imperativo": [
+        "deve!",
+        "deva!",
+        "devei!",
+        "devam!"
+      ]
+    },
+    "examples": [
+      "Nós devemos respeitar as regras de trânsito."
+    ]
+  },
+  "morar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Habitar ou ter residência em determinado lugar.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "moro",
+        "moras",
+        "mora",
+        "moramos",
+        "morais",
+        "moram"
+      ],
+      "passado": [
+        "morei",
+        "moraste",
+        "morou",
+        "moramos",
+        "morastes",
+        "moraram"
+      ],
+      "imperfeito": [
+        "morava",
+        "moravas",
+        "morava",
+        "morávamos",
+        "moráveis",
+        "moravam"
+      ],
+      "futuro": [
+        "morarei",
+        "morarás",
+        "morará",
+        "moraremos",
+        "morareis",
+        "morarão"
+      ],
+      "condicional": [
+        "moraria",
+        "morarias",
+        "moraria",
+        "moraríamos",
+        "moraríeis",
+        "morariam"
+      ],
+      "subjuntivo_presente": [
+        "more",
+        "mores",
+        "more",
+        "moremos",
+        "moreis",
+        "morem"
+      ],
+      "imperativo": [
+        "mora!",
+        "more!",
+        "morai!",
+        "morem!"
+      ]
+    },
+    "examples": [
+      "Eu moro perto do centro da cidade."
+    ]
+  },
+  "escutar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Ouvir com atenção.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "escuto",
+        "escutas",
+        "escuta",
+        "escutamos",
+        "escutais",
+        "escutam"
+      ],
+      "passado": [
+        "escutei",
+        "escutaste",
+        "escutou",
+        "escutamos",
+        "escutastes",
+        "escutaram"
+      ],
+      "imperfeito": [
+        "escutava",
+        "escutavas",
+        "escutava",
+        "escutávamos",
+        "escutáveis",
+        "escutavam"
+      ],
+      "futuro": [
+        "escutarei",
+        "escutarás",
+        "escutará",
+        "escutaremos",
+        "escutareis",
+        "escutarão"
+      ],
+      "condicional": [
+        "escutaria",
+        "escutarias",
+        "escutaria",
+        "escutaríamos",
+        "escutaríeis",
+        "escutariam"
+      ],
+      "subjuntivo_presente": [
+        "escute",
+        "escutes",
+        "escute",
+        "escutemos",
+        "escuteis",
+        "escutem"
+      ],
+      "imperativo": [
+        "escuta!",
+        "escute!",
+        "escutai!",
+        "escutem!"
+      ]
+    },
+    "examples": [
+      "Gosto de escutar podcasts no caminho para o trabalho."
+    ]
+  },
+  "ouvir": {
+    "group": "3ª conjugação (-ir)",
+    "level": "A1",
+    "definition": "Perceber sons pelo sentido da audição.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "ouço",
+        "ouves",
+        "ouve",
+        "ouvimos",
+        "ouvis",
+        "ouvem"
+      ],
+      "passado": [
+        "ouvi",
+        "ouviste",
+        "ouviu",
+        "ouvimos",
+        "ouvistes",
+        "ouviram"
+      ],
+      "imperfeito": [
+        "ouvia",
+        "ouvias",
+        "ouvia",
+        "ouvíamos",
+        "ouvíeis",
+        "ouviam"
+      ],
+      "futuro": [
+        "ouvirei",
+        "ouvirás",
+        "ouvirá",
+        "ouviremos",
+        "ouvireis",
+        "ouvirão"
+      ],
+      "condicional": [
+        "ouviria",
+        "ouvirias",
+        "ouviria",
+        "ouviríamos",
+        "ouviríeis",
+        "ouviriam"
+      ],
+      "subjuntivo_presente": [
+        "ouça",
+        "ouças",
+        "ouça",
+        "ouçamos",
+        "ouçais",
+        "ouçam"
+      ],
+      "imperativo": [
+        "ouve!",
+        "ouça!",
+        "ouvi!",
+        "ouçam!"
+      ]
+    },
+    "examples": [
+      "Consegues ouvir aquele barulho lá fora?"
+    ]
   }
 }

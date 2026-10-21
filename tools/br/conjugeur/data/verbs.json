@@ -100,5 +100,50 @@
     "examples": [
       "Skrivañ a ran ur lizher."
     ]
+  },
+  "bezañ": {
+    "group": "Verboù amreizh",
+    "level": "A1",
+    "definition": "Kavout e lec'h pe bezañ en ur statud.",
+    "tenses": {
+      "present": [
+        "on",
+        "out",
+        "eo",
+        "omp",
+        "oc'h",
+        "int"
+      ]
+    }
+  },
+  "debriñ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kemer boued er genou.",
+    "tenses": {
+      "present": [
+        "debram",
+        "debrez",
+        "debr",
+        "debromp",
+        "debrit",
+        "debront"
+      ]
+    }
+  },
+  "evañ": {
+    "group": "Verboù boutin",
+    "level": "A1",
+    "definition": "Kemer evaj er genou.",
+    "tenses": {
+      "present": [
+        "evan",
+        "evez",
+        "ev",
+        "evomp",
+        "evit",
+        "evont"
+      ]
+    }
   }
 }
