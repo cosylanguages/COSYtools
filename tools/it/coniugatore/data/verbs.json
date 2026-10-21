@@ -20712,5 +20712,442 @@
       ]
     },
     "irregular": false
+  },
+  "detestare": {
+    "group": "1a coniugazione",
+    "level": "A1",
+    "definition": "Provare profonda avversione o odio per qualcosa o qualcuno.",
+    "antonyms": [
+      "amare",
+      "adorare"
+    ],
+    "tenses": {
+      "pres": [
+        "detesto",
+        "detesti",
+        "detesta",
+        "detestiamo",
+        "detestate",
+        "detestano"
+      ],
+      "imp": [
+        "detestavo",
+        "detestavi",
+        "detestava",
+        "detestavamo",
+        "detestavate",
+        "detestavano"
+      ],
+      "fut": [
+        "detesterò",
+        "detesterai",
+        "detesterà",
+        "detesteremo",
+        "detesterete",
+        "detesteranno"
+      ],
+      "cond": [
+        "detesterei",
+        "detesteresti",
+        "detesterebbe",
+        "detesteremmo",
+        "detestereste",
+        "detesterebbero"
+      ],
+      "subj": [
+        "che io detesti",
+        "che tu detesti",
+        "che egli detesti",
+        "che noi detestiamo",
+        "che voi detestiate",
+        "che essi detestino"
+      ],
+      "impv": [
+        "detesta!",
+        "detestiamo!",
+        "detestate!"
+      ],
+      "part": [
+        "detestato"
+      ],
+      "pc": [
+        "ho detestato",
+        "hai detestato",
+        "ha detestato",
+        "abbiamo detestato",
+        "avete detestato",
+        "hanno detestato"
+      ],
+      "cond_pass": [
+        "avrei detestato",
+        "avresti detestato",
+        "avrebbe detestato",
+        "avremmo detestato",
+        "avreste detestato",
+        "avrebbero detestato"
+      ],
+      "subj_pass": [
+        "abbia detestato",
+        "abbia detestato",
+        "abbia detestato",
+        "abbiamo detestato",
+        "abbiate detestato",
+        "abbiano detestato"
+      ],
+      "subj_imp": [
+        "detestassi",
+        "detestassi",
+        "detestasse",
+        "detestassimo",
+        "detestaste",
+        "detestassero"
+      ],
+      "trap_pass": [
+        "avevo detestato",
+        "avevi detestato",
+        "aveva detestato",
+        "avevamo detestato",
+        "avevate detestato",
+        "avevano detestato"
+      ],
+      "fut_ant": [
+        "avrò detestato",
+        "avrai detestato",
+        "avrà detestato",
+        "avremo detestato",
+        "avrete detestato",
+        "avranno detestato"
+      ]
+    },
+    "usage_hint": "+ oggetto diretto (detestare qualcosa)",
+    "auxiliary": "avere",
+    "irregular": false
+  },
+  "fabbricare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Produrre oggetti mediante lavoro manuale o industriale.",
+    "antonyms": [
+      "distruggere"
+    ],
+    "tenses": {
+      "pres": [
+        "fabbrico",
+        "fabbrichi",
+        "fabbrica",
+        "fabbrichiamo",
+        "fabbricate",
+        "fabbricano"
+      ],
+      "imp": [
+        "fabbricavo",
+        "fabbricavi",
+        "fabbricava",
+        "fabbricavamo",
+        "fabbricavate",
+        "fabbricavano"
+      ],
+      "fut": [
+        "fabbricherò",
+        "fabbricherai",
+        "fabbricherà",
+        "fabbricheremo",
+        "fabbricherete",
+        "fabbricheranno"
+      ],
+      "cond": [
+        "fabbricherei",
+        "fabbricheresti",
+        "fabbricherebbe",
+        "fabbricheremmo",
+        "fabbrichereste",
+        "fabbricherebbero"
+      ],
+      "subj": [
+        "che io fabbrichi",
+        "che tu fabbrichi",
+        "che egli fabbrichi",
+        "che noi fabbrichiamo",
+        "che voi fabbrichiate",
+        "che essi fabbrichino"
+      ],
+      "impv": [
+        "fabbrica!",
+        "fabbrichiamo!",
+        "fabbricate!"
+      ],
+      "part": [
+        "fabbricato"
+      ],
+      "pc": [
+        "ho fabbricato",
+        "hai fabbricato",
+        "ha fabbricato",
+        "abbiamo fabbricato",
+        "avete fabbricato",
+        "hanno fabbricato"
+      ],
+      "cond_pass": [
+        "avrei fabbricato",
+        "avresti fabbricato",
+        "avrebbe fabbricato",
+        "avremmo fabbricato",
+        "avreste fabbricato",
+        "avrebbero fabbricato"
+      ],
+      "subj_pass": [
+        "abbia fabbricato",
+        "abbia fabbricato",
+        "abbia fabbricato",
+        "abbiamo fabbricato",
+        "abbiate fabbricato",
+        "abbiano fabbricato"
+      ],
+      "subj_imp": [
+        "fabbricassi",
+        "fabbricassi",
+        "fabbricasse",
+        "fabbricassimo",
+        "fabbricaste",
+        "fabbricassero"
+      ],
+      "trap_pass": [
+        "avevo fabbricato",
+        "avevi fabbricato",
+        "aveva fabbricato",
+        "avevamo fabbricato",
+        "avevate fabbricato",
+        "avevano fabbricato"
+      ],
+      "fut_ant": [
+        "avrò fabbricato",
+        "avrai fabbricato",
+        "avrà fabbricato",
+        "avremo fabbricato",
+        "avrete fabbricato",
+        "avranno fabbricato"
+      ]
+    },
+    "usage_hint": "+ oggetto diretto (fabbricare prodotti)",
+    "auxiliary": "avere",
+    "irregular": false
+  },
+  "osservare": {
+    "group": "1a coniugazione",
+    "level": "A2",
+    "definition": "Guardare con molta attenzione per esaminare o studiare.",
+    "antonyms": [
+      "ignorare"
+    ],
+    "tenses": {
+      "pres": [
+        "osservo",
+        "osservi",
+        "osserva",
+        "osserviamo",
+        "osservate",
+        "osservano"
+      ],
+      "imp": [
+        "osservavo",
+        "osservavi",
+        "osservava",
+        "osservavamo",
+        "osservavate",
+        "osservavano"
+      ],
+      "fut": [
+        "osserverò",
+        "osserverai",
+        "osserverà",
+        "osserveremo",
+        "osserverete",
+        "osserveranno"
+      ],
+      "cond": [
+        "osserverei",
+        "osserveresti",
+        "osserverebbe",
+        "osserveremmo",
+        "osservereste",
+        "osserverebbero"
+      ],
+      "subj": [
+        "che io osservi",
+        "che tu osservi",
+        "che egli osservi",
+        "che noi osserviamo",
+        "che voi osserviate",
+        "che essi osservino"
+      ],
+      "impv": [
+        "osserva!",
+        "osserviamo!",
+        "osservate!"
+      ],
+      "part": [
+        "osservato"
+      ],
+      "pc": [
+        "ho osservato",
+        "hai osservato",
+        "ha osservato",
+        "abbiamo osservato",
+        "avete osservato",
+        "hanno osservato"
+      ],
+      "cond_pass": [
+        "avrei osservato",
+        "avresti osservato",
+        "avrebbe osservato",
+        "avremmo osservato",
+        "avreste osservato",
+        "avrebbero osservato"
+      ],
+      "subj_pass": [
+        "abbia osservato",
+        "abbia osservato",
+        "abbia osservato",
+        "abbiamo osservato",
+        "abbiate osservato",
+        "abbiano osservato"
+      ],
+      "subj_imp": [
+        "osservassi",
+        "osservassi",
+        "osservasse",
+        "osservassimo",
+        "osservaste",
+        "osservassero"
+      ],
+      "trap_pass": [
+        "avevo osservato",
+        "avevi osservato",
+        "aveva osservato",
+        "avevamo osservato",
+        "avevate osservato",
+        "avevano osservato"
+      ],
+      "fut_ant": [
+        "avrò osservato",
+        "avrai osservato",
+        "avrà osservato",
+        "avremo osservato",
+        "avrete osservato",
+        "avranno osservato"
+      ]
+    },
+    "usage_hint": "+ oggetto diretto (osservare la natura)",
+    "auxiliary": "avere",
+    "irregular": false
+  },
+  "ottenere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Raggiungere o ricevere qualcosa a seguito di sforzo o richiesta.",
+    "antonyms": [
+      "perdere"
+    ],
+    "tenses": {
+      "pres": [
+        "ottengo",
+        "ottieni",
+        "ottiene",
+        "otteniamo",
+        "ottenete",
+        "ottengono"
+      ],
+      "imp": [
+        "ottenevo",
+        "ottenevi",
+        "otteneva",
+        "ottenevamo",
+        "ottenevate",
+        "ottenevano"
+      ],
+      "fut": [
+        "otterrò",
+        "otterrai",
+        "otterrà",
+        "otterremo",
+        "otterrete",
+        "otterranno"
+      ],
+      "cond": [
+        "otterrei",
+        "otterresti",
+        "otterrebbe",
+        "otterremmo",
+        "otterreste",
+        "otterrebbero"
+      ],
+      "subj": [
+        "che io ottenga",
+        "che tu ottenga",
+        "che egli ottenga",
+        "che noi otteniamo",
+        "che voi otteniate",
+        "che essi ottengano"
+      ],
+      "impv": [
+        "ottieni!",
+        "otteniamo!",
+        "ottenete!"
+      ],
+      "part": [
+        "ottenuto"
+      ],
+      "pc": [
+        "ho ottenuto",
+        "hai ottenuto",
+        "ha ottenuto",
+        "abbiamo ottenuto",
+        "avete ottenuto",
+        "hanno ottenuto"
+      ],
+      "cond_pass": [
+        "avrei ottenuto",
+        "avresti ottenuto",
+        "avrebbe ottenuto",
+        "avremmo ottenuto",
+        "avreste ottenuto",
+        "avrebbero ottenuto"
+      ],
+      "subj_pass": [
+        "abbia ottenuto",
+        "abbia ottenuto",
+        "abbia ottenuto",
+        "abbiamo ottenuto",
+        "abbiate ottenuto",
+        "abbiano ottenuto"
+      ],
+      "subj_imp": [
+        "ottenessi",
+        "ottenessi",
+        "ottenesse",
+        "ottenessimo",
+        "otteneste",
+        "ottenessero"
+      ],
+      "trap_pass": [
+        "avevo ottenuto",
+        "avevi ottenuto",
+        "aveva ottenuto",
+        "avevamo ottenuto",
+        "avevate ottenuto",
+        "avevano ottenuto"
+      ],
+      "fut_ant": [
+        "avrò ottenuto",
+        "avrai ottenuto",
+        "avrà ottenuto",
+        "avremo ottenuto",
+        "avrete ottenuto",
+        "avranno ottenuto"
+      ]
+    },
+    "usage_hint": "+ oggetto diretto (ottenere un risultato)",
+    "auxiliary": "avere",
+    "irregular": true
   }
 }
