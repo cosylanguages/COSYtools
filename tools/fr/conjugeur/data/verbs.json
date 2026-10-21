@@ -23478,5 +23478,612 @@
       ]
     },
     "irregular": true
+  },
+  "connaître": {
+    "group": "3e groupe",
+    "level": "A1",
+    "definition": "Avoir la notion ou la pratique de quelque chose ou quelqu’un.",
+    "antonyms": [
+      "ignorer"
+    ],
+    "auxiliary": "avoir",
+    "irregular": true,
+    "tenses": {
+      "indicatif_present": [
+        "je connais",
+        "tu connais",
+        "il/elle connaît",
+        "nous connaissons",
+        "vous connaissez",
+        "ils/elles connaissent"
+      ],
+      "indicatif_imparfait": [
+        "je connaissais",
+        "tu connaissais",
+        "il/elle connaissait",
+        "nous connaissions",
+        "vous connaissiez",
+        "ils/elles connaissaient"
+      ],
+      "pc": [
+        "j'ai connu",
+        "tu as connu",
+        "il/elle a connu",
+        "nous avons connu",
+        "vous avez connu",
+        "ils/elles ont connu"
+      ],
+      "indicatif_futur_simple": [
+        "je connaîtrai",
+        "tu connaîtras",
+        "il/elle connaîtra",
+        "nous connaîtrons",
+        "vous connaîtrez",
+        "ils/elles connaîtront"
+      ],
+      "conditionnel_present": [
+        "je connaîtrais",
+        "tu connaîtrais",
+        "il/elle connaîtrait",
+        "nous connaîtrions",
+        "vous connaîtriez",
+        "ils/elles connaîtraient"
+      ],
+      "subjonctif_present": [
+        "que je connaisse",
+        "que tu connaisses",
+        "qu'il/elle connaisse",
+        "que nous connaissions",
+        "que vous connaissiez",
+        "qu'ils/elles connaissent"
+      ],
+      "imperatif": [
+        "connais !",
+        "connaissons !",
+        "connaissez !"
+      ],
+      "part": [
+        "connaissant",
+        "connu"
+      ],
+      "pqp": [
+        "j'avais connu",
+        "tu avais connu",
+        "il/elle avait connu",
+        "nous avions connu",
+        "vous aviez connu",
+        "ils/elles avaient connu"
+      ],
+      "fut_ant": [
+        "j'aurai connu",
+        "tu auras connu",
+        "il/elle aura connu",
+        "nous aurons connu",
+        "vous aurez connu",
+        "ils/elles auront connu"
+      ],
+      "cond_pass": [
+        "j'aurais connu",
+        "tu aurais connu",
+        "il/elle aurait connu",
+        "nous aurions connu",
+        "vous auriez connu",
+        "ils/elles auraient connu"
+      ],
+      "subj_pass": [
+        "que j'aie connu",
+        "que tu aies connu",
+        "qu'il/elle ait connu",
+        "que nous ayons connu",
+        "que vous ayez connu",
+        "qu'ils/elles aient connu"
+      ]
+    }
+  },
+  "détester": {
+    "group": "1er groupe",
+    "level": "A1",
+    "definition": "Avoir de l’aversion ou de la haine pour quelqu’un ou quelque chose.",
+    "antonyms": [
+      "aimer",
+      "adorer"
+    ],
+    "auxiliary": "avoir",
+    "irregular": false,
+    "tenses": {
+      "indicatif_present": [
+        "je déteste",
+        "tu détestes",
+        "il/elle déteste",
+        "nous détestons",
+        "vous détestez",
+        "ils/elles détestent"
+      ],
+      "indicatif_imparfait": [
+        "je détestais",
+        "tu détestais",
+        "il/elle détestait",
+        "nous détestions",
+        "vous détestiez",
+        "ils/elles détestaient"
+      ],
+      "pc": [
+        "j'ai détesté",
+        "tu as détesté",
+        "il/elle a détesté",
+        "nous avons détesté",
+        "vous avez détesté",
+        "ils/elles ont détesté"
+      ],
+      "indicatif_futur_simple": [
+        "je détesterai",
+        "tu détesteras",
+        "il/elle détestera",
+        "nous détesterons",
+        "vous détesterez",
+        "ils/elles détesteront"
+      ],
+      "conditionnel_present": [
+        "je détesterais",
+        "tu détesterais",
+        "il/elle détesterait",
+        "nous détesterions",
+        "vous détesteriez",
+        "ils/elles détesteraient"
+      ],
+      "subjonctif_present": [
+        "que je déteste",
+        "que tu détestes",
+        "qu'il/elle déteste",
+        "que nous détestions",
+        "que vous détestiez",
+        "qu'ils/elles détestent"
+      ],
+      "imperatif": [
+        "déteste !",
+        "détestons !",
+        "détestez !"
+      ],
+      "part": [
+        "détestant",
+        "détesté"
+      ],
+      "pqp": [
+        "j'avais détesté",
+        "tu avais détesté",
+        "il/elle avait détesté",
+        "nous avions détesté",
+        "vous aviez détesté",
+        "ils/elles avaient détesté"
+      ],
+      "fut_ant": [
+        "j'aurai détesté",
+        "tu auras détesté",
+        "il/elle aura détesté",
+        "nous aurons détesté",
+        "vous aurez détesté",
+        "ils/elles auront détesté"
+      ],
+      "cond_pass": [
+        "j'aurais détesté",
+        "tu aurais détesté",
+        "il/elle aurait détesté",
+        "nous aurions détesté",
+        "vous auriez détesté",
+        "ils/elles auraient détesté"
+      ],
+      "subj_pass": [
+        "que j'aie détesté",
+        "que tu aies détesté",
+        "qu'il/elle ait détesté",
+        "que nous ayons détesté",
+        "que vous ayez détesté",
+        "qu'ils/elles aient détesté"
+      ]
+    }
+  },
+  "fabriquer": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Produire un objet par un travail manuel ou industriel.",
+    "antonyms": [
+      "détruire"
+    ],
+    "auxiliary": "avoir",
+    "irregular": false,
+    "tenses": {
+      "indicatif_present": [
+        "je fabrique",
+        "tu fabriques",
+        "il/elle fabrique",
+        "nous fabriquons",
+        "vous fabriquez",
+        "ils/elles fabriquent"
+      ],
+      "indicatif_imparfait": [
+        "je fabriquais",
+        "tu fabriquais",
+        "il/elle fabriquait",
+        "nous fabriquions",
+        "vous fabriquiez",
+        "ils/elles fabriquaient"
+      ],
+      "pc": [
+        "j'ai fabriqué",
+        "tu as fabriqué",
+        "il/elle a fabriqué",
+        "nous avons fabriqué",
+        "vous avez fabriqué",
+        "ils/elles ont fabriqué"
+      ],
+      "indicatif_futur_simple": [
+        "je fabriquerai",
+        "tu fabriqueras",
+        "il/elle fabriquera",
+        "nous fabriquerons",
+        "vous fabriquerez",
+        "ils/elles fabriqueront"
+      ],
+      "conditionnel_present": [
+        "je fabriquerais",
+        "tu fabriquerais",
+        "il/elle fabriquerait",
+        "nous fabriquerions",
+        "vous fabriqueriez",
+        "ils/elles fabriqueraient"
+      ],
+      "subjonctif_present": [
+        "que je fabrique",
+        "que tu fabriques",
+        "qu'il/elle fabrique",
+        "que nous fabriquions",
+        "que vous fabriquiez",
+        "qu'ils/elles fabriquent"
+      ],
+      "imperatif": [
+        "fabrique !",
+        "fabriquons !",
+        "fabriquez !"
+      ],
+      "part": [
+        "fabriquant",
+        "fabriqué"
+      ],
+      "pqp": [
+        "j'avais fabriqué",
+        "tu avais fabriqué",
+        "il/elle avait fabriqué",
+        "nous avions fabriqué",
+        "vous aviez fabriqué",
+        "ils/elles avaient fabriqué"
+      ],
+      "fut_ant": [
+        "j'aurai fabriqué",
+        "tu auras fabriqué",
+        "il/elle aura fabriqué",
+        "nous aurons fabriqué",
+        "vous aurez fabriqué",
+        "ils/elles auront fabriqué"
+      ],
+      "cond_pass": [
+        "j'aurais fabriqué",
+        "tu aurais fabriqué",
+        "il/elle aurait fabriqué",
+        "nous aurions fabriqué",
+        "vous auriez fabriqué",
+        "ils/elles auraient fabriqué"
+      ],
+      "subj_pass": [
+        "que j'aie fabriqué",
+        "que tu aies fabriqué",
+        "qu'il/elle ait fabriqué",
+        "que nous ayons fabriqué",
+        "que vous ayez fabriqué",
+        "qu'ils/elles aient fabriqué"
+      ]
+    }
+  },
+  "observer": {
+    "group": "1er groupe",
+    "level": "A2",
+    "definition": "Regarder attentivement pour examiner ou étudier.",
+    "antonyms": [
+      "ignorer"
+    ],
+    "auxiliary": "avoir",
+    "irregular": false,
+    "tenses": {
+      "indicatif_present": [
+        "j'observe",
+        "tu observes",
+        "il/elle observe",
+        "nous observons",
+        "vous observez",
+        "ils/elles observent"
+      ],
+      "indicatif_imparfait": [
+        "j'observais",
+        "tu observais",
+        "il/elle observait",
+        "nous observions",
+        "vous observiez",
+        "ils/elles observaient"
+      ],
+      "pc": [
+        "j'ai observé",
+        "tu as observé",
+        "il/elle a observé",
+        "nous avons observé",
+        "vous avez observé",
+        "ils/elles ont observé"
+      ],
+      "indicatif_futur_simple": [
+        "j'observerai",
+        "tu observeras",
+        "il/elle observera",
+        "nous observerons",
+        "vous observerez",
+        "ils/elles observeront"
+      ],
+      "conditionnel_present": [
+        "j'observerais",
+        "tu observerais",
+        "il/elle observerait",
+        "nous observerions",
+        "vous observeriez",
+        "ils/elles observeraient"
+      ],
+      "subjonctif_present": [
+        "que j'observe",
+        "que tu observes",
+        "qu'il/elle observe",
+        "que nous observions",
+        "que vous observiez",
+        "qu'ils/elles observent"
+      ],
+      "imperatif": [
+        "observe !",
+        "observons !",
+        "observez !"
+      ],
+      "part": [
+        "observant",
+        "observé"
+      ],
+      "pqp": [
+        "j'avais observé",
+        "tu avais observé",
+        "il/elle avait observé",
+        "nous avions observé",
+        "vous aviez observé",
+        "ils/elles avaient observé"
+      ],
+      "fut_ant": [
+        "j'aurai observé",
+        "tu auras observé",
+        "il/elle aura observé",
+        "nous aurons observé",
+        "vous aurez observé",
+        "ils/elles auront observé"
+      ],
+      "cond_pass": [
+        "j'aurais observé",
+        "tu aurais observé",
+        "il/elle aurait observé",
+        "nous aurions observé",
+        "vous auriez observé",
+        "ils/elles auraient observé"
+      ],
+      "subj_pass": [
+        "que j'aie observé",
+        "que tu aies observé",
+        "qu'il/elle ait observé",
+        "que nous ayons observé",
+        "que vous ayez observé",
+        "qu'ils/elles aient observé"
+      ]
+    }
+  },
+  "obtenir": {
+    "group": "3e groupe",
+    "level": "A2",
+    "definition": "Arriver à avoir ou recevoir quelque chose par ses efforts.",
+    "antonyms": [
+      "perdre"
+    ],
+    "auxiliary": "avoir",
+    "irregular": true,
+    "tenses": {
+      "indicatif_present": [
+        "j'obtiens",
+        "tu obtiens",
+        "il/elle obtient",
+        "nous obtenons",
+        "vous obtenez",
+        "ils/elles obtiennent"
+      ],
+      "indicatif_imparfait": [
+        "j'obtenais",
+        "tu obtenais",
+        "il/elle obtenait",
+        "nous obtenions",
+        "vous obteniez",
+        "ils/elles obtenaient"
+      ],
+      "pc": [
+        "j'ai obtenu",
+        "tu as obtenu",
+        "il/elle a obtenu",
+        "nous avons obtenu",
+        "vous avez obtenu",
+        "ils/elles ont obtenu"
+      ],
+      "indicatif_futur_simple": [
+        "j'obtiendrai",
+        "tu obtiendras",
+        "il/elle obtiendra",
+        "nous obtiendrons",
+        "vous obtiendrez",
+        "ils/elles obtiendront"
+      ],
+      "conditionnel_present": [
+        "j'obtiendrais",
+        "tu obtiendrais",
+        "il/elle obtiendrait",
+        "nous obtiendrions",
+        "vous obtiendriez",
+        "ils/elles obtiendraient"
+      ],
+      "subjonctif_present": [
+        "que j'obtienne",
+        "que tu obtiennes",
+        "qu'il/elle obtienne",
+        "que nous obtenions",
+        "que vous obteniez",
+        "qu'ils/elles obtiennent"
+      ],
+      "imperatif": [
+        "obtiens !",
+        "obtenons !",
+        "obtenez !"
+      ],
+      "part": [
+        "obtenant",
+        "obtenu"
+      ],
+      "pqp": [
+        "j'avais obtenu",
+        "tu avais obtenu",
+        "il/elle avait obtenu",
+        "nous avions obtenu",
+        "vous aviez obtenu",
+        "ils/elles avaient obtenu"
+      ],
+      "fut_ant": [
+        "j'aurai obtenu",
+        "tu auras obtenu",
+        "il/elle aura obtenu",
+        "nous aurons obtenu",
+        "vous aurez obtenu",
+        "ils/elles auront obtenu"
+      ],
+      "cond_pass": [
+        "j'aurais obtenu",
+        "tu aurais obtenu",
+        "il/elle aurait obtenu",
+        "nous aurions obtenu",
+        "vous auriez obtenu",
+        "ils/elles auraient obtenu"
+      ],
+      "subj_pass": [
+        "que j'aie obtenu",
+        "que tu aies obtenu",
+        "qu'il/elle ait obtenu",
+        "que nous ayons obtenu",
+        "que vous ayez obtenu",
+        "qu'ils/elles aient obtenu"
+      ]
+    }
+  },
+  "attendre": {
+    "group": "3e groupe",
+    "level": "A1",
+    "definition": "Rester dans un lieu où l’on prévoit que quelqu’un ou quelque chose doit arriver.",
+    "antonyms": [
+      "partir"
+    ],
+    "auxiliary": "avoir",
+    "irregular": false,
+    "tenses": {
+      "indicatif_present": [
+        "j'attends",
+        "tu attends",
+        "il/elle attend",
+        "nous attendons",
+        "vous attendez",
+        "ils/elles attendent"
+      ],
+      "indicatif_imparfait": [
+        "j'attendais",
+        "tu attendais",
+        "il/elle attendait",
+        "nous attendions",
+        "vous attendiez",
+        "ils/elles attendaient"
+      ],
+      "pc": [
+        "j'ai attendu",
+        "tu as attendu",
+        "il/elle a attendu",
+        "nous avons attendu",
+        "vous avez attendu",
+        "ils/elles ont attendu"
+      ],
+      "indicatif_futur_simple": [
+        "j'attendrai",
+        "tu attendras",
+        "il/elle attendra",
+        "nous attendrons",
+        "vous attendrez",
+        "ils/elles attendront"
+      ],
+      "conditionnel_present": [
+        "j'attendrais",
+        "tu attendrais",
+        "il/elle attendrait",
+        "nous attendrions",
+        "vous attendriez",
+        "ils/elles attendraient"
+      ],
+      "subjonctif_present": [
+        "que j'attende",
+        "que tu attendes",
+        "qu'il/elle attende",
+        "que nous attendions",
+        "que vous attendiez",
+        "qu'ils/elles attendent"
+      ],
+      "imperatif": [
+        "attends !",
+        "attendons !",
+        "attendez !"
+      ],
+      "part": [
+        "attendant",
+        "attendu"
+      ],
+      "pqp": [
+        "j'avais attendu",
+        "tu avais attendu",
+        "il/elle avait attendu",
+        "nous avions attendu",
+        "vous aviez attendu",
+        "ils/elles avaient attendu"
+      ],
+      "fut_ant": [
+        "j'aurai attendu",
+        "tu auras attendu",
+        "il/elle aura attendu",
+        "nous aurons attendu",
+        "vous aurez attendu",
+        "ils/elles auront attendu"
+      ],
+      "cond_pass": [
+        "j'aurais attendu",
+        "tu aurais attendu",
+        "il/elle aurait attendu",
+        "nous aurions attendu",
+        "vous auriez attendu",
+        "ils/elles auraient attendu"
+      ],
+      "subj_pass": [
+        "que j'aie attendu",
+        "que tu aies attendu",
+        "qu'il/elle ait attendu",
+        "que nous ayons attendu",
+        "que vous ayez attendu",
+        "qu'ils/elles aient attendu"
+      ]
+    }
   }
 }
