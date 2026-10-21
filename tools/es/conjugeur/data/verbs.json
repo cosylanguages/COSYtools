@@ -6440,5 +6440,1277 @@
     "examples": [
       "Te invito a cenar a mi restaurante favorito."
     ]
+  },
+  "haber": {
+    "group": "Auxiliar / Irregular",
+    "level": "A1",
+    "definition": "Existir o constituir el verbo auxiliar principal para tiempos compuestos.",
+    "antonyms": [
+      "faltar"
+    ],
+    "tenses": {
+      "presente": [
+        "he",
+        "has",
+        "ha / hay",
+        "hemos",
+        "habéis",
+        "han"
+      ],
+      "pasado": [
+        "hube",
+        "hubiste",
+        "hubo",
+        "hubimos",
+        "hubisteis",
+        "hubieron"
+      ],
+      "preterito_imperfecto": [
+        "había",
+        "habías",
+        "había",
+        "habíamos",
+        "habíais",
+        "habían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "habido"
+      ],
+      "futuro_simple": [
+        "habré",
+        "habrás",
+        "habrá",
+        "habremos",
+        "habréis",
+        "habrán"
+      ],
+      "condicional_simple": [
+        "habría",
+        "habrías",
+        "habría",
+        "habríamos",
+        "habríais",
+        "habrían"
+      ],
+      "subjuntivo_presente": [
+        "haya",
+        "hayas",
+        "haya",
+        "hayamos",
+        "hayáis",
+        "hayan"
+      ],
+      "imperativo": [
+        "he!",
+        "haya!",
+        "habed!",
+        "hayan!"
+      ]
+    },
+    "examples": [
+      "Hay muchas personas en la plaza hoy."
+    ]
+  },
+  "adorar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Gustar mucho algo o querer profundamente a alguien.",
+    "antonyms": [
+      "odiar"
+    ],
+    "tenses": {
+      "presente": [
+        "adoro",
+        "adoras",
+        "adora",
+        "adoramos",
+        "adoráis",
+        "adoran"
+      ],
+      "pasado": [
+        "adoré",
+        "adoraste",
+        "adoró",
+        "adoramos",
+        "adorasteis",
+        "adoraron"
+      ],
+      "preterito_imperfecto": [
+        "adoraba",
+        "adorabas",
+        "adoraba",
+        "adorábamos",
+        "adorabais",
+        "adoraban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he adorado",
+        "has adorado",
+        "ha adorado",
+        "hemos adorado",
+        "habéis adorado",
+        "han adorado"
+      ],
+      "futuro_simple": [
+        "adoraré",
+        "adorarás",
+        "adorará",
+        "adoraremos",
+        "adoraréis",
+        "adorarán"
+      ],
+      "condicional_simple": [
+        "adoraría",
+        "adorarías",
+        "adoraría",
+        "adoraríamos",
+        "adoraríais",
+        "adorarían"
+      ],
+      "subjuntivo_presente": [
+        "adore",
+        "adores",
+        "adore",
+        "adoremos",
+        "adoréis",
+        "adoren"
+      ],
+      "imperativo": [
+        "adora!",
+        "adore!",
+        "adorad!",
+        "adoren!"
+      ]
+    },
+    "examples": [
+      "Ella adora viajar a lugares antiguos."
+    ]
+  },
+  "amar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Tener amor por alguien o algo.",
+    "antonyms": [
+      "odiar"
+    ],
+    "tenses": {
+      "presente": [
+        "amo",
+        "amas",
+        "ama",
+        "amamos",
+        "amáis",
+        "aman"
+      ],
+      "pasado": [
+        "amé",
+        "amaste",
+        "amó",
+        "amamos",
+        "amasteis",
+        "amaron"
+      ],
+      "preterito_imperfecto": [
+        "amaba",
+        "amabas",
+        "amaba",
+        "amábamos",
+        "amabais",
+        "amaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he amado",
+        "has amado",
+        "ha amado",
+        "hemos amado",
+        "habéis amado",
+        "han amado"
+      ],
+      "futuro_simple": [
+        "amaré",
+        "amarás",
+        "amará",
+        "amaremos",
+        "amaréis",
+        "amarán"
+      ],
+      "condicional_simple": [
+        "amaría",
+        "amarías",
+        "amaría",
+        "amaríamos",
+        "amaríais",
+        "amarían"
+      ],
+      "subjuntivo_presente": [
+        "ame",
+        "ames",
+        "ame",
+        "amemos",
+        "améis",
+        "amen"
+      ],
+      "imperativo": [
+        "ama!",
+        "ame!",
+        "amad!",
+        "amen!"
+      ]
+    },
+    "examples": [
+      "Amo la música clásica y el arte."
+    ]
+  },
+  "odiar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Sentir aversión o rechazo por alguien o algo.",
+    "antonyms": [
+      "amar",
+      "adorar"
+    ],
+    "tenses": {
+      "presente": [
+        "odio",
+        "odias",
+        "odia",
+        "odiamos",
+        "odiáis",
+        "odian"
+      ],
+      "pasado": [
+        "odié",
+        "odiaste",
+        "odió",
+        "odiamos",
+        "odiasteis",
+        "odiaron"
+      ],
+      "preterito_imperfecto": [
+        "odiaba",
+        "odiabas",
+        "odiaba",
+        "odiábamos",
+        "odiabais",
+        "odiaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he odiado",
+        "has odiado",
+        "ha odiado",
+        "hemos odiado",
+        "habéis odiado",
+        "han odiado"
+      ],
+      "futuro_simple": [
+        "odiaré",
+        "odiarás",
+        "odiará",
+        "odiaremos",
+        "odiaréis",
+        "odiarán"
+      ],
+      "condicional_simple": [
+        "odiaría",
+        "odiarías",
+        "odiaría",
+        "odiaríamos",
+        "odiaríais",
+        "odiarían"
+      ],
+      "subjuntivo_presente": [
+        "odie",
+        "odies",
+        "odie",
+        "odiemos",
+        "odiéis",
+        "odien"
+      ],
+      "imperativo": [
+        "odia!",
+        "odie!",
+        "odiad!",
+        "odien!"
+      ]
+    },
+    "examples": [
+      "No me gusta odiar a nadie."
+    ]
+  },
+  "disgustar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Causar descontento o no gustar.",
+    "antonyms": [
+      "gustar"
+    ],
+    "tenses": {
+      "presente": [
+        "disgusto",
+        "disgustas",
+        "disgusta",
+        "disgustamos",
+        "disgustáis",
+        "disgustan"
+      ],
+      "pasado": [
+        "disgusté",
+        "disgustaste",
+        "disgustó",
+        "disgustamos",
+        "disgustasteis",
+        "disgustaron"
+      ],
+      "preterito_imperfecto": [
+        "disgustaba",
+        "disgustabas",
+        "disgustaba",
+        "disgustábamos",
+        "disgustabais",
+        "disgustaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he disgustado",
+        "has disgustado",
+        "ha disgustado",
+        "hemos disgustado",
+        "habéis disgustado",
+        "han disgustado"
+      ],
+      "futuro_simple": [
+        "disgustaré",
+        "disgustarás",
+        "disgustará",
+        "disgustaremos",
+        "disgustaréis",
+        "disgustarán"
+      ],
+      "condicional_simple": [
+        "disgustaría",
+        "disgustarías",
+        "disgustaría",
+        "disgustaríamos",
+        "disgustaríais",
+        "disgustarían"
+      ],
+      "subjuntivo_presente": [
+        "disguste",
+        "disgustes",
+        "disguste",
+        "disgustemos",
+        "disgustéis",
+        "disgusten"
+      ],
+      "imperativo": [
+        "disgusta!",
+        "disguste!",
+        "disgustad!",
+        "disgusten!"
+      ]
+    },
+    "examples": [
+      "A él le disgusta el ruido fuerte."
+    ]
+  },
+  "descansar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Pausar el trabajo o la actividad para recuperar fuerzas.",
+    "antonyms": [
+      "cansar",
+      "trabajar"
+    ],
+    "tenses": {
+      "presente": [
+        "descanso",
+        "descansas",
+        "descansa",
+        "descansamos",
+        "descansáis",
+        "descansan"
+      ],
+      "pasado": [
+        "descansé",
+        "descansaste",
+        "descansó",
+        "descansamos",
+        "descansasteis",
+        "descansaron"
+      ],
+      "preterito_imperfecto": [
+        "descansaba",
+        "descansabas",
+        "descansaba",
+        "descansábamos",
+        "descansabais",
+        "descansaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he descansado",
+        "has descansado",
+        "ha descansado",
+        "hemos descansado",
+        "habéis descansado",
+        "han descansado"
+      ],
+      "futuro_simple": [
+        "descansaré",
+        "descansarás",
+        "descansará",
+        "descansaremos",
+        "descansaréis",
+        "descansarán"
+      ],
+      "condicional_simple": [
+        "descansaría",
+        "descansarías",
+        "descansaría",
+        "descansaríamos",
+        "descansaríais",
+        "descansarían"
+      ],
+      "subjuntivo_presente": [
+        "descanse",
+        "descanses",
+        "descanse",
+        "descansemos",
+        "descanséis",
+        "descansen"
+      ],
+      "imperativo": [
+        "descansa!",
+        "descanse!",
+        "descansad!",
+        "descansen!"
+      ]
+    },
+    "examples": [
+      "Voy a descansar un poco después del trabajo."
+    ]
+  },
+  "beber": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Ingerir un líquido.",
+    "antonyms": [
+      "comer"
+    ],
+    "tenses": {
+      "presente": [
+        "bebo",
+        "bebes",
+        "bebe",
+        "bebemos",
+        "bebéis",
+        "beben"
+      ],
+      "pasado": [
+        "bebí",
+        "bebiste",
+        "bebió",
+        "bebimos",
+        "bebisteis",
+        "bebieron"
+      ],
+      "preterito_imperfecto": [
+        "bebía",
+        "bebías",
+        "bebía",
+        "bebíamos",
+        "bebíais",
+        "bebían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he bebido",
+        "has bebido",
+        "ha bebido",
+        "hemos bebido",
+        "habéis bebido",
+        "han bebido"
+      ],
+      "futuro_simple": [
+        "beberé",
+        "beberás",
+        "beberá",
+        "beberemos",
+        "beberéis",
+        "beberán"
+      ],
+      "condicional_simple": [
+        "bebería",
+        "beberías",
+        "bebería",
+        "beberíamos",
+        "beberíais",
+        "beberían"
+      ],
+      "subjuntivo_presente": [
+        "beba",
+        "bebas",
+        "beba",
+        "bebamos",
+        "bebáis",
+        "beban"
+      ],
+      "imperativo": [
+        "bebe!",
+        "beba!",
+        "bebed!",
+        "beban!"
+      ]
+    },
+    "examples": [
+      "Debes beber suficiente agua todos los días."
+    ]
+  },
+  "fabricar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Producir objetos con medios industriales o manuales.",
+    "antonyms": [
+      "destruir"
+    ],
+    "tenses": {
+      "presente": [
+        "fabrico",
+        "fabricas",
+        "fabrica",
+        "fabricamos",
+        "fabricáis",
+        "fabrican"
+      ],
+      "pasado": [
+        "fabriqué",
+        "fabricaste",
+        "fabricó",
+        "fabricamos",
+        "fabricasteis",
+        "fabricaron"
+      ],
+      "preterito_imperfecto": [
+        "fabricaba",
+        "fabricabas",
+        "fabricaba",
+        "fabricábamos",
+        "fabricabais",
+        "fabricaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he fabricado",
+        "has fabricado",
+        "ha fabricado",
+        "hemos fabricado",
+        "habéis fabricado",
+        "han fabricado"
+      ],
+      "futuro_simple": [
+        "fabricaré",
+        "fabricarás",
+        "fabricará",
+        "fabricaremos",
+        "fabricaréis",
+        "fabricarán"
+      ],
+      "condicional_simple": [
+        "fabricaría",
+        "fabricarías",
+        "fabricaría",
+        "fabricaríamos",
+        "fabricaríais",
+        "fabricarían"
+      ],
+      "subjuntivo_presente": [
+        "fabrique",
+        "fabriques",
+        "fabrique",
+        "fabriquemos",
+        "fabriquéis",
+        "fabriquen"
+      ],
+      "imperativo": [
+        "fabrica!",
+        "fabrique!",
+        "fabricad!",
+        "fabriquen!"
+      ]
+    },
+    "examples": [
+      "Esta fábrica fabrica piezas de automóviles."
+    ]
+  },
+  "comprender": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Entender el significado de algo.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "comprendo",
+        "comprendes",
+        "comprende",
+        "comprendemos",
+        "comprendéis",
+        "comprenden"
+      ],
+      "pasado": [
+        "comprendí",
+        "comprendiste",
+        "comprendió",
+        "comprendimos",
+        "comprendisteis",
+        "comprendieron"
+      ],
+      "preterito_imperfecto": [
+        "comprendía",
+        "comprendías",
+        "comprendía",
+        "comprendíamos",
+        "comprendíais",
+        "comprendían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he comprendido",
+        "has comprendido",
+        "ha comprendido",
+        "hemos comprendido",
+        "habéis comprendido",
+        "han comprendido"
+      ],
+      "futuro_simple": [
+        "comprenderé",
+        "comprenderás",
+        "comprenderá",
+        "comprenderemos",
+        "comprenderéis",
+        "comprenderán"
+      ],
+      "condicional_simple": [
+        "comprendería",
+        "comprenderías",
+        "comprendería",
+        "comprenderíamos",
+        "comprenderíais",
+        "comprenderían"
+      ],
+      "subjuntivo_presente": [
+        "comprenda",
+        "comprendas",
+        "comprenda",
+        "comprendamos",
+        "comprendáis",
+        "comprendan"
+      ],
+      "imperativo": [
+        "comprende!",
+        "comprenda!",
+        "comprended!",
+        "comprendan!"
+      ]
+    },
+    "examples": [
+      "Ahora comprendo perfectamente tu punto de vista."
+    ]
+  },
+  "entender": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Tener clara la idea de las cosas o captar su sentido.",
+    "antonyms": [
+      "confundir"
+    ],
+    "tenses": {
+      "presente": [
+        "entiendo",
+        "entiendes",
+        "entiende",
+        "entendemos",
+        "entendéis",
+        "entienden"
+      ],
+      "pasado": [
+        "entendí",
+        "entendiste",
+        "entendió",
+        "entendimos",
+        "entendisteis",
+        "entendieron"
+      ],
+      "preterito_imperfecto": [
+        "entendía",
+        "entendías",
+        "entendía",
+        "entendíamos",
+        "entendíais",
+        "entendían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he entendido",
+        "has entendido",
+        "ha entendido",
+        "hemos entendido",
+        "habéis entendido",
+        "han entendido"
+      ],
+      "futuro_simple": [
+        "entenderé",
+        "entenderás",
+        "entenderá",
+        "entenderemos",
+        "entenderéis",
+        "entenderán"
+      ],
+      "condicional_simple": [
+        "entendería",
+        "entenderías",
+        "entendería",
+        "entenderíamos",
+        "entenderíais",
+        "entenderían"
+      ],
+      "subjuntivo_presente": [
+        "entienda",
+        "entiendas",
+        "entienda",
+        "entendamos",
+        "entendáis",
+        "entiendan"
+      ],
+      "imperativo": [
+        "entiende!",
+        "entienda!",
+        "entended!",
+        "entiendan!"
+      ]
+    },
+    "examples": [
+      "¿Entiendes lo que te estoy explicando?"
+    ]
+  },
+  "conversar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Hablar familiarmente una o varias personas con otra u otras.",
+    "antonyms": [
+      "callar"
+    ],
+    "tenses": {
+      "presente": [
+        "converso",
+        "conversas",
+        "conversa",
+        "conversamos",
+        "conversáis",
+        "conversan"
+      ],
+      "pasado": [
+        "conversé",
+        "conversaste",
+        "conversó",
+        "conversamos",
+        "conversasteis",
+        "conversaron"
+      ],
+      "preterito_imperfecto": [
+        "conversaba",
+        "conversabas",
+        "conversaba",
+        "conversábamos",
+        "conversabais",
+        "conversaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he conversado",
+        "has conversado",
+        "ha conversado",
+        "hemos conversado",
+        "habéis conversado",
+        "han conversado"
+      ],
+      "futuro_simple": [
+        "conversaré",
+        "conversarás",
+        "conversará",
+        "conversaremos",
+        "conversaréis",
+        "conversarán"
+      ],
+      "condicional_simple": [
+        "conversaría",
+        "conversarías",
+        "conversaría",
+        "conversaríamos",
+        "conversaríais",
+        "conversarían"
+      ],
+      "subjuntivo_presente": [
+        "converse",
+        "converses",
+        "converse",
+        "conversemos",
+        "converséis",
+        "conversen"
+      ],
+      "imperativo": [
+        "conversa!",
+        "converse!",
+        "conversad!",
+        "conversen!"
+      ]
+    },
+    "examples": [
+      "Nos gusta conversar en el café por las tardes."
+    ]
+  },
+  "observar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Mirar algo o a alguien con atención y detenimiento.",
+    "antonyms": [
+      "ignorar"
+    ],
+    "tenses": {
+      "presente": [
+        "observo",
+        "observas",
+        "observa",
+        "observamos",
+        "observáis",
+        "observan"
+      ],
+      "pasado": [
+        "observé",
+        "observaste",
+        "observó",
+        "observamos",
+        "observasteis",
+        "observaron"
+      ],
+      "preterito_imperfecto": [
+        "observaba",
+        "observabas",
+        "observaba",
+        "observábamos",
+        "observabais",
+        "observaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he observado",
+        "has observado",
+        "ha observado",
+        "hemos observado",
+        "habéis observado",
+        "han observado"
+      ],
+      "futuro_simple": [
+        "observaré",
+        "observarás",
+        "observará",
+        "observaremos",
+        "observaréis",
+        "observarán"
+      ],
+      "condicional_simple": [
+        "observaría",
+        "observarías",
+        "observaría",
+        "observaríamos",
+        "observaríais",
+        "observarían"
+      ],
+      "subjuntivo_presente": [
+        "observe",
+        "observes",
+        "observe",
+        "observemos",
+        "observéis",
+        "observen"
+      ],
+      "imperativo": [
+        "observa!",
+        "observe!",
+        "observad!",
+        "observen!"
+      ]
+    },
+    "examples": [
+      "El científico observa los resultados del experimento."
+    ]
+  },
+  "contestar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Responder a lo que se pregunta o a una llamada.",
+    "antonyms": [
+      "preguntar"
+    ],
+    "tenses": {
+      "presente": [
+        "contesto",
+        "contestas",
+        "contesta",
+        "contestamos",
+        "contestáis",
+        "contestan"
+      ],
+      "pasado": [
+        "contesté",
+        "contestaste",
+        "contestó",
+        "contestamos",
+        "contestasteis",
+        "contestaron"
+      ],
+      "preterito_imperfecto": [
+        "contestaba",
+        "contestabas",
+        "contestaba",
+        "contestábamos",
+        "contestabais",
+        "contestaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he contestado",
+        "has contestado",
+        "ha contestado",
+        "hemos contestado",
+        "habéis contestado",
+        "han contestado"
+      ],
+      "futuro_simple": [
+        "contestaré",
+        "contestarás",
+        "contestará",
+        "contestaremos",
+        "contestaréis",
+        "contestarán"
+      ],
+      "condicional_simple": [
+        "contestaría",
+        "contestarías",
+        "contestaría",
+        "contestaríamos",
+        "contestaríais",
+        "contestarían"
+      ],
+      "subjuntivo_presente": [
+        "conteste",
+        "contestes",
+        "conteste",
+        "contestemos",
+        "contestéis",
+        "contesten"
+      ],
+      "imperativo": [
+        "contesta!",
+        "conteste!",
+        "contestad!",
+        "contesten!"
+      ]
+    },
+    "examples": [
+      "Por favor, contesta a mi pregunta."
+    ]
+  },
+  "conseguir": {
+    "group": "3er grupo (-ir)",
+    "level": "A2",
+    "definition": "Alcanzar, obtener o lograr lo que se pretende.",
+    "antonyms": [
+      "perder"
+    ],
+    "tenses": {
+      "presente": [
+        "consigo",
+        "consigues",
+        "consigue",
+        "conseguimos",
+        "conseguís",
+        "consiguen"
+      ],
+      "pasado": [
+        "conseguí",
+        "conseguiste",
+        "consiguió",
+        "conseguimos",
+        "conseguisteis",
+        "consiguieron"
+      ],
+      "preterito_imperfecto": [
+        "conseguía",
+        "conseguías",
+        "conseguía",
+        "conseguíamos",
+        "conseguíais",
+        "conseguían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he conseguido",
+        "has conseguido",
+        "ha conseguido",
+        "hemos conseguido",
+        "habéis conseguido",
+        "han conseguido"
+      ],
+      "futuro_simple": [
+        "conseguiré",
+        "conseguirás",
+        "conseguirá",
+        "conseguiremos",
+        "conseguiréis",
+        "conseguirán"
+      ],
+      "condicional_simple": [
+        "conseguiría",
+        "conseguirías",
+        "conseguiría",
+        "conseguiríamos",
+        "conseguiríais",
+        "conseguirían"
+      ],
+      "subjuntivo_presente": [
+        "consiga",
+        "consigas",
+        "consiga",
+        "consigamos",
+        "consigáis",
+        "consigan"
+      ],
+      "imperativo": [
+        "consigue!",
+        "consiga!",
+        "conseguid!",
+        "consigan!"
+      ]
+    },
+    "examples": [
+      "Logró conseguir el trabajo que deseaba."
+    ]
+  },
+  "deber": {
+    "group": "2do grupo (-er)",
+    "level": "A1",
+    "definition": "Tener la obligación de hacer algo.",
+    "antonyms": [
+      "eximir"
+    ],
+    "tenses": {
+      "presente": [
+        "debo",
+        "debes",
+        "debe",
+        "debemos",
+        "debéis",
+        "deben"
+      ],
+      "pasado": [
+        "debí",
+        "debiste",
+        "debió",
+        "debimos",
+        "debisteis",
+        "debieron"
+      ],
+      "preterito_imperfecto": [
+        "debía",
+        "debías",
+        "debía",
+        "debíamos",
+        "debíais",
+        "debían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he debido",
+        "has debido",
+        "ha debido",
+        "hemos debido",
+        "habéis debido",
+        "han debido"
+      ],
+      "futuro_simple": [
+        "deberé",
+        "deberás",
+        "deberá",
+        "deberemos",
+        "deberéis",
+        "deberán"
+      ],
+      "condicional_simple": [
+        "debería",
+        "deberías",
+        "debería",
+        "deberíamos",
+        "deberíais",
+        "deberían"
+      ],
+      "subjuntivo_presente": [
+        "deba",
+        "debas",
+        "deba",
+        "debamos",
+        "debáis",
+        "deban"
+      ],
+      "imperativo": [
+        "debe!",
+        "deba!",
+        "debed!",
+        "deban!"
+      ]
+    },
+    "examples": [
+      "Debes estudiar más para el examen."
+    ]
+  },
+  "habitar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Vivir o morar habitualmente en un lugar.",
+    "antonyms": [
+      "desocupar"
+    ],
+    "tenses": {
+      "presente": [
+        "habito",
+        "habitas",
+        "habita",
+        "habitamos",
+        "habitáis",
+        "habitan"
+      ],
+      "pasado": [
+        "habité",
+        "habitaste",
+        "habitó",
+        "habitamos",
+        "habitasteis",
+        "habitaron"
+      ],
+      "preterito_imperfecto": [
+        "habitaba",
+        "habitabas",
+        "habitaba",
+        "habitábamos",
+        "habitabais",
+        "habitaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he habitado",
+        "has habitado",
+        "ha habitado",
+        "hemos habitado",
+        "habéis habitado",
+        "han habitado"
+      ],
+      "futuro_simple": [
+        "habitaré",
+        "habitarás",
+        "habitará",
+        "habitaremos",
+        "habitaréis",
+        "habitarán"
+      ],
+      "condicional_simple": [
+        "habitaría",
+        "habitarías",
+        "habitaría",
+        "habitaríamos",
+        "habitaríais",
+        "habitarían"
+      ],
+      "subjuntivo_presente": [
+        "habite",
+        "habites",
+        "habite",
+        "habitemos",
+        "habitéis",
+        "habiten"
+      ],
+      "imperativo": [
+        "habita!",
+        "habite!",
+        "habitad!",
+        "habiten!"
+      ]
+    },
+    "examples": [
+      "Muchas especies habitan en esta selva."
+    ]
+  },
+  "oír": {
+    "group": "3er grupo (-ir)",
+    "level": "A1",
+    "definition": "Percibir con el oído los sonidos.",
+    "antonyms": [
+      "ensordecer"
+    ],
+    "tenses": {
+      "presente": [
+        "oigo",
+        "oyes",
+        "oye",
+        "oímos",
+        "oís",
+        "oyen"
+      ],
+      "pasado": [
+        "oí",
+        "oíste",
+        "oyó",
+        "oímos",
+        "oísteis",
+        "oyeron"
+      ],
+      "preterito_imperfecto": [
+        "oía",
+        "oías",
+        "oía",
+        "oíamos",
+        "oíais",
+        "oían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he oído",
+        "has oído",
+        "ha oído",
+        "hemos oído",
+        "habéis oído",
+        "han oído"
+      ],
+      "futuro_simple": [
+        "oiré",
+        "oirás",
+        "oirá",
+        "oiremos",
+        "oiréis",
+        "oirán"
+      ],
+      "condicional_simple": [
+        "oiría",
+        "oirías",
+        "oiría",
+        "oiríamos",
+        "oiríais",
+        "oirían"
+      ],
+      "subjuntivo_presente": [
+        "oiga",
+        "oigas",
+        "oiga",
+        "oigamos",
+        "oigáis",
+        "oigan"
+      ],
+      "imperativo": [
+        "oye!",
+        "oiga!",
+        "oíd!",
+        "oigan!"
+      ]
+    },
+    "examples": [
+      "¿Puedes oír el canto de los pájaros?"
+    ]
   }
 }
