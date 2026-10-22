@@ -78,9 +78,11 @@ const click = (doc, sel) => doc.querySelector(sel).click();
   const input = d.getElementById('hub-search-input');
   input.value = 'спряжение';
   input.dispatchEvent(new dom.window.Event('input', { bubbles: true }));
+  await new Promise(r => setTimeout(r, 150));
   check('search matches native titles (ru)', visibleIds(d).includes('ru-spryazhenie'));
   input.value = 'zzzzqq';
   input.dispatchEvent(new dom.window.Event('input', { bubbles: true }));
+  await new Promise(r => setTimeout(r, 150));
   check('nonsense search shows empty state', visibleIds(d).length === 0 && d.getElementById('no-results-box').style.display === 'block');
 
   console.log('Hub: dev toggle & URL state');

@@ -115,7 +115,14 @@
     const input = $('#hub-search-input');
     if (input) {
       input.value = state.q;
-      input.addEventListener('input', () => { state.q = input.value.trim().toLowerCase(); apply(); });
+      let debounceTimer = null;
+      input.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          state.q = input.value.trim().toLowerCase();
+          apply();
+        }, 120);
+      });
     }
     $$('[data-filter-lang]').forEach(b => b.addEventListener('click', () => {
       state.lang = b.getAttribute('data-filter-lang');
