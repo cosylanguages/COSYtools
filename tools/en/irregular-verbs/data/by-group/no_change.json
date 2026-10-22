@@ -1,0 +1,434 @@
+{
+  "cost": {
+    "base": "cost",
+    "past_simple": "cost",
+    "past_participle": "cost",
+    "third_person_singular": "costs",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To require payment or price.",
+    "examples": [
+      "A cup of coffee costs three dollars.",
+      "The ticket cost twenty euros yesterday.",
+      "The repairs have cost a lot of money."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
+  },
+  "cut": {
+    "base": "cut",
+    "past_simple": "cut",
+    "past_participle": "cut",
+    "third_person_singular": "cuts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To slice or divide with a sharp tool.",
+    "examples": [
+      "He cuts the bread into slices.",
+      "She cut her finger while cooking.",
+      "He has cut the grass in the garden."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "hit": {
+    "base": "hit",
+    "past_simple": "hit",
+    "past_participle": "hit",
+    "third_person_singular": "hits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To strike forcibly with hands or object.",
+    "examples": [
+      "He hits the ball with the racket.",
+      "The car hit a lamppost yesterday.",
+      "The storm has hit the coast hard."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
+  },
+  "hurt": {
+    "base": "hurt",
+    "past_simple": "hurt",
+    "past_participle": "hurt",
+    "third_person_singular": "hurts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To cause physical pain or injury.",
+    "examples": [
+      "His leg hurts after running.",
+      "She hurt her wrist playing tennis.",
+      "Nobody has hurt themselves."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "let": {
+    "base": "let",
+    "past_simple": "let",
+    "past_participle": "let",
+    "third_person_singular": "lets",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To allow or permit.",
+    "examples": [
+      "She lets her children play outside.",
+      "He let us borrow his car yesterday.",
+      "They have let us stay at their apartment."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "put": {
+    "base": "put",
+    "past_simple": "put",
+    "past_participle": "put",
+    "third_person_singular": "puts",
+    "pattern_group": "no_change",
+    "level": "A1",
+    "definition": "To place or position something somewhere.",
+    "examples": [
+      "She puts the book on the shelf.",
+      "He put his coat in the closet.",
+      "We have put the furniture in place."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "set": {
+    "base": "set",
+    "past_simple": "set",
+    "past_participle": "set",
+    "third_person_singular": "sets",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To put or place in a specified state.",
+    "examples": [
+      "The sun sets in the west.",
+      "She set the table for four people.",
+      "He has set the alarm for six AM."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "bet": {
+    "base": "bet",
+    "past_simple": "bet",
+    "past_participle": "bet",
+    "third_person_singular": "bets",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To wager money on an outcome.",
+    "examples": [
+      "He bets on horse races occasionally.",
+      "She bet ten dollars on the game.",
+      "They have bet on the winning team."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "burst": {
+    "base": "burst",
+    "past_simple": "burst",
+    "past_participle": "burst",
+    "third_person_singular": "bursts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To break open or split suddenly.",
+    "examples": [
+      "The balloon bursts when poked.",
+      "The pipe burst during the frost.",
+      "The river has burst its banks."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "cast": {
+    "base": "cast",
+    "past_simple": "cast",
+    "past_participle": "cast",
+    "third_person_singular": "casts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To throw or project light/shadow/vote.",
+    "examples": [
+      "The statue casts a long shadow.",
+      "He cast his vote in the election.",
+      "She has cast a spell of enchantment."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "a-a-a"
+  },
+  "fit": {
+    "base": "fit",
+    "past_simple": "fit",
+    "past_participle": "fit",
+    "third_person_singular": "fits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To be of right size and shape.",
+    "examples": [
+      "These shoes fit me perfectly.",
+      "The key fit into the old lock.",
+      "The piece has fit into the puzzle."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
+  },
+  "quit": {
+    "base": "quit",
+    "past_simple": "quit",
+    "past_participle": "quit",
+    "third_person_singular": "quits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To stop doing something or resign.",
+    "examples": [
+      "He quits smoking every New Year.",
+      "She quit her job last month.",
+      "They have quit the tournament."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "shut": {
+    "base": "shut",
+    "past_simple": "shut",
+    "past_participle": "shut",
+    "third_person_singular": "shuts",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To close securely.",
+    "examples": [
+      "She shuts the windows at night.",
+      "He shut the door behind him.",
+      "They have shut down the shop."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "split": {
+    "base": "split",
+    "past_simple": "split",
+    "past_participle": "split",
+    "third_person_singular": "splits",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To divide into parts or share.",
+    "examples": [
+      "He splits wood for the fireplace.",
+      "They split the bill equally yesterday.",
+      "We have split into two groups."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
+  },
+  "spread": {
+    "base": "spread",
+    "past_simple": "spread",
+    "past_participle": "spread",
+    "third_person_singular": "spreads",
+    "pattern_group": "no_change",
+    "level": "A2",
+    "definition": "To expand over an area.",
+    "examples": [
+      "She spreads butter on toast.",
+      "News spread quickly through the town.",
+      "The fire has spread to nearby trees."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "bid": {
+    "base": "bid",
+    "past_simple": "bid",
+    "past_participle": "bid",
+    "third_person_singular": "bids",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To offer a price at auction.",
+    "examples": [
+      "He bids generously at art auctions.",
+      "She bid five hundred euros for painting.",
+      "They have bid higher than competitors."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
+  },
+  "broadcast": {
+    "base": "broadcast",
+    "past_simple": "broadcast",
+    "past_participle": "broadcast",
+    "third_person_singular": "broadcasts",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To transmit by radio or television.",
+    "examples": [
+      "The station broadcasts sports live.",
+      "They broadcast the speech nation-wide.",
+      "The news has been broadcast globally."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
+  },
+  "offset": {
+    "base": "offset",
+    "past_simple": "offset",
+    "past_participle": "offset",
+    "third_person_singular": "offsets",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To balance or counteract effect.",
+    "examples": [
+      "Gains offset losses in portfolio.",
+      "Lower costs offset reduced revenues.",
+      "Tax credits have offset the expense."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
+  },
+  "slit": {
+    "base": "slit",
+    "past_simple": "slit",
+    "past_participle": "slit",
+    "third_person_singular": "slits",
+    "pattern_group": "no_change",
+    "level": "B1",
+    "definition": "To make long narrow cut in.",
+    "examples": [
+      "She slits open the envelope carefully.",
+      "He slit the tape on package box.",
+      "The curtain has been slit open."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "i-i-i"
+  },
+  "beset": {
+    "base": "beset",
+    "past_simple": "beset",
+    "past_participle": "beset",
+    "third_person_singular": "besets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To trouble or harass persistently.",
+    "examples": [
+      "Doubts beset his restless mind.",
+      "Problems beset project from start.",
+      "Poverty has beset the village."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "betide": {
+    "base": "betide",
+    "past_simple": "betid",
+    "past_participle": "betid",
+    "third_person_singular": "betides",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To happen or occur to.",
+    "examples": [
+      "Woe betides anyone who cheats.",
+      "Whatever betid, they remained calm.",
+      "Fate has betid them well."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "recast": {
+    "base": "recast",
+    "past_simple": "recast",
+    "past_participle": "recast",
+    "third_person_singular": "recasts",
+    "pattern_group": "no_change",
+    "level": "B2+",
+    "definition": "To reformulate arguments or roles.",
+    "examples": [
+      "Philosopher recasts classic debate.",
+      "Author recast narrative structure.",
+      "Premise has been recast entirely."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "reset": {
+    "base": "reset",
+    "past_simple": "reset",
+    "past_participle": "reset",
+    "third_person_singular": "resets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To set again or restore default.",
+    "examples": [
+      "System resets automatically overnight.",
+      "He reset router to restore connection.",
+      "Timer has been reset to zero."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "sublet": {
+    "base": "sublet",
+    "past_simple": "sublet",
+    "past_participle": "sublet",
+    "third_person_singular": "sublets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To lease property to tenant.",
+    "examples": [
+      "Tenant sublets apartment summer.",
+      "She sublet room while traveling abroad.",
+      "Flat has been sublet for month."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "thrust": {
+    "base": "thrust",
+    "past_simple": "thrust",
+    "past_participle": "thrust",
+    "third_person_singular": "thrusts",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To push or shove forcefully.",
+    "examples": [
+      "He thrusts hands into pockets.",
+      "She thrust letter into his hands.",
+      "Sword was thrust through target."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "upset": {
+    "base": "upset",
+    "past_simple": "upset",
+    "past_participle": "upset",
+    "third_person_singular": "upsets",
+    "pattern_group": "no_change",
+    "level": "B2",
+    "definition": "To disturb, distress, or overturn.",
+    "examples": [
+      "Bad news upsets her deeply.",
+      "Cat upset glass of water table.",
+      "Plans have been upset completely."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "u-u-u"
+  },
+  "forecast": {
+    "base": "forecast",
+    "past_simple": "forecast",
+    "past_participle": "forecast",
+    "third_person_singular": "forecasts",
+    "pattern_group": "no_change",
+    "level": "B2+",
+    "definition": "To predict weather or trend.",
+    "examples": [
+      "Meteorologist forecasts rain tomorrow.",
+      "Analysts forecast economic growth.",
+      "Traders have forecast market dip."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "o-o-o"
+  }
+}

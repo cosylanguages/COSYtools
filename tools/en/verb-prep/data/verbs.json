@@ -6739,5 +6739,203 @@
     "antonyms": [],
     "preposition_structure": "single",
     "particle_count": 1
+  },
+  "drink": {
+    "is_phrasal": false,
+    "transitivity": "Transitive / Intransitive",
+    "transitivity_code": "VT/VI",
+    "prepositions": [
+      "none",
+      "to"
+    ],
+    "pattern": "drink [something] / drink to [someone/something]",
+    "level": "A1",
+    "definition": "To take liquid into the mouth and swallow it.",
+    "grammar_rule": "Direct transitive verb when consuming a liquid. Uses preposition \"to\" when making a toast (e.g. drink to health).",
+    "examples": [
+      "I drink water every morning.",
+      "Let us drink to your success!"
+    ],
+    "common_mistake": "❌ I drink to coffee. ➔ ✅ I drink coffee.",
+    "synonyms": [
+      "sip",
+      "gulp"
+    ],
+    "antonyms": [
+      "eat"
+    ],
+    "preposition_structure": "none or to",
+    "particle_count": 0
+  },
+  "make": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "of",
+      "from",
+      "for"
+    ],
+    "pattern": "make [something] / make [something] of/from/for [someone]",
+    "level": "A1",
+    "definition": "To create, produce, or construct something.",
+    "grammar_rule": "Direct transitive verb for creating items. Use \"of\" when material is unchanged, \"from\" when material is transformed, and \"for\" for beneficiary.",
+    "examples": [
+      "She made a cake for her brother.",
+      "This table is made of oak wood."
+    ],
+    "common_mistake": "❌ She made to a cake. ➔ ✅ She made a cake.",
+    "synonyms": [
+      "create",
+      "produce",
+      "build"
+    ],
+    "antonyms": [
+      "destroy",
+      "break"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "say": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "to"
+    ],
+    "pattern": "say [something] to [someone]",
+    "level": "A1",
+    "definition": "To utter words so as to convey information or an opinion.",
+    "grammar_rule": "Always use \"to\" when mentioning the listener after \"say\". Contrast with \"tell\" which takes direct object listener.",
+    "examples": [
+      "He said hello to everyone.",
+      "What did you say to her?"
+    ],
+    "common_mistake": "❌ He said me the news. ➔ ✅ He said the news to me. (or: He told me the news.)",
+    "synonyms": [
+      "utter",
+      "state",
+      "express"
+    ],
+    "antonyms": [
+      "be silent"
+    ],
+    "preposition_structure": "none or to",
+    "particle_count": 0
+  },
+  "tell": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "about"
+    ],
+    "pattern": "tell [someone] [something] / tell [someone] about [something]",
+    "level": "A1",
+    "definition": "To communicate information or a story to someone.",
+    "grammar_rule": "Takes direct object listener with NO preposition immediately following verb (tell me). Use \"about\" for the topic.",
+    "examples": [
+      "Tell me a story before bed.",
+      "She told us about her trip to France."
+    ],
+    "common_mistake": "❌ She told to me the truth. ➔ ✅ She told me the truth.",
+    "synonyms": [
+      "inform",
+      "relate",
+      "recount"
+    ],
+    "antonyms": [
+      "conceal",
+      "hide"
+    ],
+    "preposition_structure": "none or about",
+    "particle_count": 0
+  },
+  "watch": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "for"
+    ],
+    "pattern": "watch [someone / something]",
+    "level": "A1",
+    "definition": "To look at or observe attentively over a period of time.",
+    "grammar_rule": "Direct transitive verb requiring NO preposition when watching an event or screen.",
+    "examples": [
+      "We watch movies on Friday nights.",
+      "Watch out for cars!"
+    ],
+    "common_mistake": "❌ I watch to TV every evening. ➔ ✅ I watch TV every evening.",
+    "synonyms": [
+      "observe",
+      "view"
+    ],
+    "antonyms": [
+      "ignore",
+      "look away"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "see": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none"
+    ],
+    "pattern": "see [someone / something]",
+    "level": "A1",
+    "definition": "To perceive with the eyes.",
+    "grammar_rule": "Direct transitive verb without preposition.",
+    "examples": [
+      "I see a rainbow in the sky.",
+      "Did you see my keys?"
+    ],
+    "common_mistake": "❌ I see to him at school. ➔ ✅ I see him at school.",
+    "synonyms": [
+      "perceive",
+      "notice"
+    ],
+    "antonyms": [
+      "miss",
+      "overlook"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
+  },
+  "hear": {
+    "is_phrasal": false,
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": [
+      "none",
+      "about",
+      "from"
+    ],
+    "pattern": "hear [something] / hear about/from [someone]",
+    "level": "A1",
+    "definition": "To perceive sound with the ear.",
+    "grammar_rule": "Direct transitive verb for perceiving sound. Use \"about\" for news topic and \"from\" for receiving communication.",
+    "examples": [
+      "I hear music in the distance.",
+      "Have you heard from John recently?"
+    ],
+    "common_mistake": "❌ I hear to the noise. ➔ ✅ I hear the noise.",
+    "synonyms": [
+      "listen to",
+      "detect"
+    ],
+    "antonyms": [
+      "ignore"
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   }
 }

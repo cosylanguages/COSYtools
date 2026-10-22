@@ -4522,5 +4522,190 @@
     "common_mistake": "❌ Voyager dans France. ➜ ✅ Voyager en France.",
     "synonyms": [],
     "antonyms": []
+  },
+  "connaître": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "connaître [quelqu’un / quelque chose]",
+    "level": "A1",
+    "definition": "Avoir l’idée, la notion, la pratique ou la mémoire de quelqu’un ou de quelque chose.",
+    "grammar_rule": "Verbe transitif direct : aucun emploi de préposition devant le complément d’objet direct.",
+    "examples": [
+      "Je connais cette chanson par cœur.",
+      "Connaissez-vous le docteur Martin ?"
+    ],
+    "common_mistake": "❌ Je connais à Paris. ➔ ✅ Je connais Paris.",
+    "synonyms": [
+      "savoir",
+      "s’y connaître"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
+  },
+  "boire": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "boire [un liquide]",
+    "level": "A1",
+    "definition": "Avaler un liquide pour se désaltérer ou par plaisir.",
+    "grammar_rule": "Verbe transitif direct : pas de préposition.",
+    "examples": [
+      "Elle boit un verre d’eau fraîche.",
+      "Nous buvons du thé le matin."
+    ],
+    "common_mistake": "❌ Boire à du thé. ➔ ✅ Boire du thé.",
+    "synonyms": [
+      "s’abreuver",
+      "déguster"
+    ],
+    "antonyms": [
+      "manger"
+    ]
+  },
+  "dire": {
+    "prepositions": [
+      "none",
+      "à",
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "dire [quelque chose] à [quelqu’un] / dire de [faire quelque chose]",
+    "level": "A1",
+    "definition": "Exprimer quelque chose par la parole.",
+    "grammar_rule": "Prend un complément d’objet direct sans préposition et un complément d’objet indirect introduit par « à » pour le destinataire.",
+    "examples": [
+      "Il dit la vérité à ses parents.",
+      "Le médecin lui a dit de se reposer."
+    ],
+    "common_mistake": "❌ Il a dit moi. ➔ ✅ Il m’a dit / Il a dit à Pierre.",
+    "synonyms": [
+      "exprimer",
+      "déclarer"
+    ],
+    "antonyms": [
+      "taire"
+    ]
+  },
+  "prendre": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "prendre [quelque chose / quelqu’un]",
+    "level": "A1",
+    "definition": "Saisir ou choisir quelque chose ou un moyen de transport.",
+    "grammar_rule": "Verbe transitif direct sans préposition.",
+    "examples": [
+      "Je prends le bus tous les matins.",
+      "Il a pris un café au comptoir."
+    ],
+    "common_mistake": "❌ Je prends à l’autobus. ➔ ✅ Je prends l’autobus.",
+    "synonyms": [
+      "saisir",
+      "attraper"
+    ],
+    "antonyms": [
+      "donner",
+      "lâcher"
+    ]
+  },
+  "donner": {
+    "prepositions": [
+      "none",
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "donner [quelque chose] à [quelqu’un]",
+    "level": "A1",
+    "definition": "Accorder, remettre la possession de quelque chose à quelqu’un.",
+    "grammar_rule": "Prend un complément d’objet direct (la chose) et un complément introduit par « à » (le destinataire).",
+    "examples": [
+      "Elle donne un cadeau à son ami.",
+      "Donnez-moi votre passeport."
+    ],
+    "common_mistake": "❌ Donner pour quelqu’un. ➔ ✅ Donner à quelqu’un.",
+    "synonyms": [
+      "offrir",
+      "remettre"
+    ],
+    "antonyms": [
+      "prendre",
+      "recevoir"
+    ]
+  },
+  "recevoir": {
+    "prepositions": [
+      "none",
+      "de"
+    ],
+    "pronominal": false,
+    "pattern": "recevoir [quelque chose] de [quelqu’un]",
+    "level": "A1",
+    "definition": "Entrer en possession de ce qui est donné ou envoyé.",
+    "grammar_rule": "Verbe transitif direct pour l’objet reçu, introduit par « de » pour la provenance.",
+    "examples": [
+      "J’ai reçu une lettre de ma sœur.",
+      "Elle reçoit ses invités avec le sourire."
+    ],
+    "common_mistake": "❌ Recevoir par mon ami. ➔ ✅ Recevoir de mon ami.",
+    "synonyms": [
+      "obtenir",
+      "accueillir"
+    ],
+    "antonyms": [
+      "donner",
+      "envoyer"
+    ]
+  },
+  "devoir": {
+    "prepositions": [
+      "none",
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "devoir [verbe à l’infinitif] / devoir [somme/chose] à [quelqu’un]",
+    "level": "A1",
+    "definition": "Avoir l’obligation morale ou légale de faire quelque chose.",
+    "grammar_rule": "Suivi directement d’un infinitif sans préposition (devoir faire) ou d’un objet direct avec attribution par « à » (devoir de l’argent à quelqu’un).",
+    "examples": [
+      "Je dois partir maintenant.",
+      "Combien vous dois-je ?"
+    ],
+    "common_mistake": "❌ Je dois de partir. ➔ ✅ Je dois partir.",
+    "synonyms": [
+      "être obligé",
+      "falloir"
+    ],
+    "antonyms": [
+      "pouvoir"
+    ]
+  },
+  "entendre": {
+    "prepositions": [
+      "none",
+      "parler de"
+    ],
+    "pronominal": false,
+    "pattern": "entendre [un bruit/quelqu’un] / entendre parler de [quelque chose]",
+    "level": "A1",
+    "definition": "Percevoir par le sens de l’ouïe.",
+    "grammar_rule": "Verbe transitif direct. S’emploie avec « parler de » pour signifier avoir connaissance de quelque chose.",
+    "examples": [
+      "J’entends des oiseaux chanter.",
+      "Avez-vous entendu parler de cette histoire ?"
+    ],
+    "common_mistake": "❌ J’entends à la musique. ➔ ✅ J’entends la musique.",
+    "synonyms": [
+      "écouter",
+      "ouïr"
+    ],
+    "antonyms": [
+      "ignorer"
+    ]
   }
 }

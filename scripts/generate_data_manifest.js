@@ -9,6 +9,33 @@ if (!fs.existsSync(sharedDataDir)) {
     fs.mkdirSync(sharedDataDir, { recursive: true });
 }
 
+// Sub-tools to check for by-group shards
+const conjugationTools = [
+    'en/irregular-verbs',
+    'fr/conjugeur',
+    'it/coniugatore',
+    'ru/spryazhenie',
+    'el/klisi-rimaton'
+];
+
+// Rebuild master verbs.json from by-group shards if available
+conjugationTools.forEach(relPath => {
+    const dataDir = path.join(toolsDir, relPath, 'data');
+    const groupDir = path.join(dataDir, 'by-group');
+    if (fs.existsSync(groupDir)) {
+        const groupFiles = fs.readdirSync(groupDir).filter(f => f.endsWith('.json')).sort();
+        const mergedVerbs = {};
+        groupFiles.forEach(gf => {
+            const content = JSON.parse(fs.readFileSync(path.join(groupDir, gf), 'utf8'));
+            Object.assign(mergedVerbs, content);
+        });
+        const masterPath = path.join(dataDir, 'verbs.json');
+        fs.writeFileSync(masterPath, JSON.stringify(mergedVerbs, null, 2) + '\n', 'utf8');
+        console.log(`Synced ${Object.keys(mergedVerbs).length} verbs for ${relPath} from ${groupFiles.length} group shards into verbs.json`);
+    }
+});
+
+// Update global manifest
 const languages = fs.readdirSync(toolsDir).filter(f => {
     return fs.statSync(path.join(toolsDir, f)).isDirectory();
 }).sort();
