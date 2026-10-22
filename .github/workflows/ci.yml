@@ -18,14 +18,5 @@ jobs:
       - name: Install dependencies
         run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
 
-      - name: Check JS Syntax
-        run: npm run check:js-syntax
-
-      - name: Check Inline JS
-        run: npm run check:inline-js
-
-      - name: Run Shell Check
-        run: npm run check:shell
-
-      - name: Run Smoke Tests
-        run: npm run check:smoke
+      - name: Run Test Suite
+        run: npm test

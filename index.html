@@ -70,7 +70,8 @@
           <a href="cases/index.html" class="sd-jump-link" data-i18n="nav_cases">Cases 🏛️</a>
           <a href="prepositions/index.html" class="sd-jump-link" data-i18n="nav_prepositions">Prepositions 📍</a>
           <a href="practice/index.html" class="sd-jump-link" data-i18n="nav_practice">Practice Drills ⚡</a>
-          <div class="cosy-ui-lang-switcher" style="margin-left: 0.5rem;">
+          <div class="cosy-ui-lang-switcher" style="margin-left: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+            <label for="cosy-ui-language-select" class="ui-lang-label" data-i18n="ui_lang_label" style="font-size: 0.85rem; font-weight: 600; color: var(--ink-soft);">Interface:</label>
             <select id="cosy-ui-language-select" onchange="COSY_UI.setUILanguage(this.value)" class="styled-sel" aria-label="Select Interface Language">
               <option value="en">🇬🇧 English</option>
               <option value="fr">🇫🇷 Français</option>
@@ -88,16 +89,26 @@
       <div class="hero ref-hero">
         <div class="hero-inner hero-centered-panel">
             <img src="shared/assets/logo.png" alt="COSYtools Logo" class="cosy-hero-logo" style="width: 80px; height: 80px; border-radius: 16px; margin-bottom: 0.75rem; box-shadow: 0 4px 16px rgba(0,0,0,0.12); object-fit: cover;">
-            <div class="hero-tag" data-i18n="hero_tag">📲 Always Free · 100% Client-Side · No Tracking</div>
+            <div class="hero-tag" data-i18n="hero_tag">📲 Always Free · 100% Client-Side · Private &amp; Offline-First</div>
             <h1 class="hero-fraunces-title" data-i18n="hero_title">Language Reference &amp; Practice Tools</h1>
             <p class="hero-hub-subtext" data-i18n="hero_subtext">
-                Conjugation engines, gender checkers, case systems, and more across 14 languages.
+                Fast, private conjugation engines, gender checkers, case declensions, and syntax guides across 14 languages.
             </p>
+
+            <!-- Concise Task Guidance -->
+            <div class="hero-steps-container">
+              <span class="hero-step"><span class="step-num">1</span> <span data-i18n="hero_step_1">Choose a task category</span></span>
+              <span class="hero-step-sep">•</span>
+              <span class="hero-step"><span class="step-num">2</span> <span data-i18n="hero_step_2">Select a target language</span></span>
+              <span class="hero-step-sep">•</span>
+              <span class="hero-step"><span class="step-num">3</span> <span data-i18n="hero_step_3">Search a verb, noun, or rule</span></span>
+            </div>
 
             <!-- Prominent Center Search Bar -->
             <div class="ref-search-container">
                 <span class="ref-search-icon cosy-icon icon-search" aria-hidden="true"></span>
-                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search verbs, nouns, or rules..." data-i18n-ph="search_placeholder" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules">
+                <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search verbs (parler, hablar), nouns (Haus, casa), or grammar rules..." data-i18n-ph="search_placeholder" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules" aria-describedby="search-hint">
+                <span id="search-hint" class="sr-only" data-i18n="search_hint">Type a verb infinitive, noun form, or grammar keyword to filter tools.</span>
             </div>
         </div>
       </div>
@@ -262,13 +273,17 @@
         <section class="hub-section" data-section="conjugation" aria-labelledby="sec-conjugation">
           <div class="category-header" id="sec-conjugation" role="heading" aria-level="2"><span aria-hidden="true">📜</span> <span data-i18n="type_conjugation">Verb conjugation</span></div>
           <div class="engines-grid">
-          <a href="tools/en/irregular-verbs/" class="engine-card" data-tool="en-irregular-verbs" data-lang="en" data-type="conjugation" data-status="stable" data-search="english english en conjugation conjugation english irregular verbs engine english irregular verb forms, vowel patterns, and practice drills. english en irregular verbs principal parts base past simple past participle pattern groups conjugation">
+          <a href="tools/en/irregular-verbs/" class="engine-card" data-tool="en-irregular-verbs" data-lang="en" data-type="conjugation" data-status="stable" data-search="english english en conjugation conjugation verb conjugation english irregular verbs engine english irregular verb forms, vowel patterns, and practice drills. english en irregular verbs principal parts base past simple past participle pattern groups conjugation">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇧</div>
                 <div class="engine-title-area">
                   <h3>English Irregular Verbs Engine</h3>
-                  <div class="engine-subtitle"><span>English</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">English (English)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">English irregular verb forms, vowel patterns, and practice drills.</p>
@@ -276,13 +291,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/fr/conjugeur/" class="engine-card" data-tool="fr-conjugeur" data-lang="fr" data-type="conjugation" data-status="stable" data-search="français french fr conjugation conjugation conjugueur de verbes français tables de conjugaison des verbes français à tous les temps et modes. french fr français verb conjugation conjugeur">
+          <a href="tools/fr/conjugeur/" class="engine-card" data-tool="fr-conjugeur" data-lang="fr" data-type="conjugation" data-status="stable" data-search="français french fr conjugation conjugation verb conjugation conjugueur de verbes français tables de conjugaison des verbes français à tous les temps et modes. french fr français verb conjugation conjugeur">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇫🇷</div>
                 <div class="engine-title-area">
                   <h3>Conjugueur de Verbes Français</h3>
-                  <div class="engine-subtitle"><span>Français</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Français (French)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Tables de conjugaison des verbes français à tous les temps et modes.</p>
@@ -290,13 +309,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/it/coniugatore/" class="engine-card" data-tool="it-coniugatore" data-lang="it" data-type="conjugation" data-status="stable" data-search="italiano italian it conjugation conjugation coniugatore di verbi italiani tabelle di coniugazione dei verbi italiani in tutti i tempi e modi. italian it italiano verb conjugation coniugatore">
+          <a href="tools/it/coniugatore/" class="engine-card" data-tool="it-coniugatore" data-lang="it" data-type="conjugation" data-status="stable" data-search="italiano italian it conjugation conjugation verb conjugation coniugatore di verbi italiani tabelle di coniugazione dei verbi italiani in tutti i tempi e modi. italian it italiano verb conjugation coniugatore">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇮🇹</div>
                 <div class="engine-title-area">
                   <h3>Coniugatore di Verbi Italiani</h3>
-                  <div class="engine-subtitle"><span>Italiano</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Italiano (Italian)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Tabelle di coniugazione dei verbi italiani in tutti i tempi e modi.</p>
@@ -304,13 +327,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ru/spryazhenie/" class="engine-card" data-tool="ru-spryazhenie" data-lang="ru" data-type="conjugation" data-status="stable" data-search="русский russian ru conjugation conjugation спряжение глаголов русского языка таблицы спряжения русских глаголов, видовые пары и ударения. russian ru русский verb conjugation спряжение aspectual pairs">
+          <a href="tools/ru/spryazhenie/" class="engine-card" data-tool="ru-spryazhenie" data-lang="ru" data-type="conjugation" data-status="stable" data-search="русский russian ru conjugation conjugation verb conjugation спряжение глаголов русского языка таблицы спряжения русских глаголов, видовые пары и ударения. russian ru русский verb conjugation спряжение aspectual pairs">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇷🇺</div>
                 <div class="engine-title-area">
                   <h3>Спряжение глаголов русского языка</h3>
-                  <div class="engine-subtitle"><span>Русский</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Русский (Russian)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Таблицы спряжения русских глаголов, видовые пары и ударения.</p>
@@ -318,13 +345,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/el/klisi-rimaton/" class="engine-card" data-tool="el-klisi-rimaton" data-lang="el" data-type="conjugation" data-status="stable" data-search="ελληνικά greek el conjugation conjugation κλίση ρημάτων της ελληνικής πίνακες κλίσης ελληνικών ρημάτων σε όλους τους χρόνους. greek el ελληνικά verb conjugation κλίση ρημάτων">
+          <a href="tools/el/klisi-rimaton/" class="engine-card" data-tool="el-klisi-rimaton" data-lang="el" data-type="conjugation" data-status="stable" data-search="ελληνικά greek el conjugation conjugation verb conjugation κλίση ρημάτων της ελληνικής πίνακες κλίσης ελληνικών ρημάτων σε όλους τους χρόνους. greek el ελληνικά verb conjugation κλίση ρημάτων">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇷</div>
                 <div class="engine-title-area">
                   <h3>Κλίση Ρημάτων της Ελληνικής</h3>
-                  <div class="engine-subtitle"><span>Ελληνικά</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Ελληνικά (Greek)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Πίνακες κλίσης ελληνικών ρημάτων σε όλους τους χρόνους.</p>
@@ -332,13 +363,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/es/conjugeur/" class="engine-card" data-tool="es-conjugeur" data-lang="es" data-type="conjugation" data-status="beta" data-search="español spanish es conjugation conjugation conjugación de verbos españoles tablas de conjugación de verbos en español para todos los tiempos. ">
+          <a href="tools/es/conjugeur/" class="engine-card" data-tool="es-conjugeur" data-lang="es" data-type="conjugation" data-status="beta" data-search="español spanish es conjugation conjugation verb conjugation conjugación de verbos españoles tablas de conjugación de verbos en español para todos los tiempos. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇪🇸</div>
                 <div class="engine-title-area">
                   <h3>Conjugación de Verbos Españoles</h3>
-                  <div class="engine-subtitle"><span>Español</span><span class="status-badge status-beta" data-i18n="status_beta">Beta</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Español (Spanish)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-beta" data-i18n="status_beta">Beta</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Tablas de conjugación de verbos en español para todos los tiempos.</p>
@@ -346,13 +381,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/de/konjugation/" class="engine-card" data-tool="de-konjugation" data-lang="de" data-type="conjugation" data-status="stable" data-search="deutsch german de conjugation conjugation deutsche verbkonjugation konjugationstabellen deutscher verben in allen zeiten und modi. ">
+          <a href="tools/de/konjugation/" class="engine-card" data-tool="de-konjugation" data-lang="de" data-type="conjugation" data-status="stable" data-search="deutsch german de conjugation conjugation verb conjugation deutsche verbkonjugation konjugationstabellen deutscher verben in allen zeiten und modi. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇩🇪</div>
                 <div class="engine-title-area">
                   <h3>Deutsche Verbkonjugation</h3>
-                  <div class="engine-subtitle"><span>Deutsch</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Deutsch (German)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Konjugationstabellen deutscher Verben in allen Zeiten und Modi.</p>
@@ -360,13 +399,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/pt/conjugeur/" class="engine-card" data-tool="pt-conjugeur" data-lang="pt" data-type="conjugation" data-status="beta" data-search="português portuguese pt conjugation conjugation conjugação de verbos portugueses tabelas de conjugação de verbos em português em todos os tempos. ">
+          <a href="tools/pt/conjugeur/" class="engine-card" data-tool="pt-conjugeur" data-lang="pt" data-type="conjugation" data-status="beta" data-search="português portuguese pt conjugation conjugation verb conjugation conjugação de verbos portugueses tabelas de conjugação de verbos em português em todos os tempos. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇵🇹</div>
                 <div class="engine-title-area">
                   <h3>Conjugação de Verbos Portugueses</h3>
-                  <div class="engine-subtitle"><span>Português</span><span class="status-badge status-beta" data-i18n="status_beta">Beta</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Português (Portuguese)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-beta" data-i18n="status_beta">Beta</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Tabelas de conjugação de verbos em português em todos os tempos.</p>
@@ -374,13 +417,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/hy/conjugeur/" class="engine-card" data-tool="hy-conjugeur" data-lang="hy" data-type="conjugation" data-status="stub" data-search="հայերեն armenian hy conjugation conjugation հայերեն բայերի խոնարհում հայերեն բայերի խոնարհման աղյուսակներ և ժամանակաձևեր: ">
+          <a href="tools/hy/conjugeur/" class="engine-card" data-tool="hy-conjugeur" data-lang="hy" data-type="conjugation" data-status="stub" data-search="հայերեն armenian hy conjugation conjugation verb conjugation հայերեն բայերի խոնարհում հայերեն բայերի խոնարհման աղյուսակներ և ժամանակաձևեր: ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇦🇲</div>
                 <div class="engine-title-area">
                   <h3>Հայերեն բայերի խոնարհում</h3>
-                  <div class="engine-subtitle"><span>Հայերեն</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Հայերեն (Armenian)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Հայերեն բայերի խոնարհման աղյուսակներ և ժամանակաձևեր:</p>
@@ -388,13 +435,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ka/conjugeur/" class="engine-card" data-tool="ka-conjugeur" data-lang="ka" data-type="conjugation" data-status="stub" data-search="ქართული georgian ka conjugation conjugation ქართული ზმნების უღვლილება ქართული ზმნების უღვლილების ცხრილები და მწკრივები. ">
+          <a href="tools/ka/conjugeur/" class="engine-card" data-tool="ka-conjugeur" data-lang="ka" data-type="conjugation" data-status="stub" data-search="ქართული georgian ka conjugation conjugation verb conjugation ქართული ზმნების უღვლილება ქართული ზმნების უღვლილების ცხრილები და მწკრივები. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇪</div>
                 <div class="engine-title-area">
                   <h3>ქართული ზმნების უღვლილება</h3>
-                  <div class="engine-subtitle"><span>ქართული</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">ქართული (Georgian)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">ქართული ზმნების უღვლილების ცხრილები და მწკრივები.</p>
@@ -402,13 +453,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/tt/conjugeur/" class="engine-card" data-tool="tt-conjugeur" data-lang="tt" data-type="conjugation" data-status="stub" data-search="татарча tatar tt conjugation conjugation татар фигыльләренең затланышы татар фигыльләренең затланыш таблицалары һәм заман аффикслары. ">
+          <a href="tools/tt/conjugeur/" class="engine-card" data-tool="tt-conjugeur" data-lang="tt" data-type="conjugation" data-status="stub" data-search="татарча tatar tt conjugation conjugation verb conjugation татар фигыльләренең затланышы татар фигыльләренең затланыш таблицалары һәм заман аффикслары. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Татар фигыльләренең затланышы</h3>
-                  <div class="engine-subtitle"><span>Татарча</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Татарча (Tatar)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Татар фигыльләренең затланыш таблицалары һәм заман аффикслары.</p>
@@ -416,13 +471,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ba/conjugeur/" class="engine-card" data-tool="ba-conjugeur" data-lang="ba" data-type="conjugation" data-status="stub" data-search="башҡортса bashkir ba conjugation conjugation башҡорт ҡалыплары башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө. ">
+          <a href="tools/ba/conjugeur/" class="engine-card" data-tool="ba-conjugeur" data-lang="ba" data-type="conjugation" data-status="stub" data-search="башҡортса bashkir ba conjugation conjugation verb conjugation башҡорт ҡалыплары башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Башҡорт ҡалыплары</h3>
-                  <div class="engine-subtitle"><span>Башҡортса</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Башҡортса (Bashkir)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Башҡорт теле ҡалыплары һәм фиғелдәр төҙөлөшө.</p>
@@ -430,13 +489,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/br/conjugeur/" class="engine-card" data-tool="br-conjugeur" data-lang="br" data-type="conjugation" data-status="stub" data-search="brezhoneg breton br conjugation conjugation anvlazh ar verboù brezhonek taolennoù anvlazh ar verboù brezhonek e pep amzer. ">
+          <a href="tools/br/conjugeur/" class="engine-card" data-tool="br-conjugeur" data-lang="br" data-type="conjugation" data-status="stub" data-search="brezhoneg breton br conjugation conjugation verb conjugation anvlazh ar verboù brezhonek taolennoù anvlazh ar verboù brezhonek e pep amzer. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Anvlazh ar Verboù Brezhonek</h3>
-                  <div class="engine-subtitle"><span>Brezhoneg</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Brezhoneg (Breton)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Taolennoù anvlazh ar verboù brezhonek e pep amzer.</p>
@@ -444,13 +507,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/cv/conjugeur/" class="engine-card" data-tool="cv-conjugeur" data-lang="cv" data-type="conjugation" data-status="stub" data-search="чӑвашла chuvash cv conjugation conjugation чӑваш глаголĕсен сăпăрланăвĕ чӑваш глаголĕсен сăпăрлану таблицисем тата вăхăт хушăмĕсем. ">
+          <a href="tools/cv/conjugeur/" class="engine-card" data-tool="cv-conjugeur" data-lang="cv" data-type="conjugation" data-status="stub" data-search="чӑвашла chuvash cv conjugation conjugation verb conjugation чӑваш глаголĕсен сăпăрланăвĕ чӑваш глаголĕсен сăпăрлану таблицисем тата вăхăт хушăмĕсем. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Чӑваш глаголĕсен сăпăрланăвĕ</h3>
-                  <div class="engine-subtitle"><span>Чӑвашла</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Чӑвашла (Chuvash)</span>
+                    <span class="card-type-tag" data-i18n="type_conjugation">Verb conjugation</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Чӑваш глаголĕсен сăпăрлану таблицисем тата вăхăт хушăмĕсем.</p>
@@ -463,13 +530,17 @@
         <section class="hub-section" data-section="gender-case" aria-labelledby="sec-gender-case">
           <div class="category-header" id="sec-gender-case" role="heading" aria-level="2"><span aria-hidden="true">⚖️</span> <span data-i18n="type_gender_case">Gender &amp; cases</span></div>
           <div class="engines-grid">
-          <a href="tools/fr/genre/" class="engine-card" data-tool="fr-genre" data-lang="fr" data-type="gender-case" data-status="stable" data-search="français french fr gender-case gender-case genre des noms et pluriels en français vérificateur de genre des noms français, terminaisons et règles du pluriel. french fr français gender genre nouns articles plurals">
+          <a href="tools/fr/genre/" class="engine-card" data-tool="fr-genre" data-lang="fr" data-type="gender-case" data-status="stable" data-search="français french fr gender-case gender-case gender &amp; cases genre des noms et pluriels en français vérificateur de genre des noms français, terminaisons et règles du pluriel. french fr français gender genre nouns articles plurals">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇫🇷</div>
                 <div class="engine-title-area">
                   <h3>Genre des Noms et Pluriels en Français</h3>
-                  <div class="engine-subtitle"><span>Français</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Français (French)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Vérificateur de genre des noms français, terminaisons et règles du pluriel.</p>
@@ -477,13 +548,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/it/genere/" class="engine-card" data-tool="it-genere" data-lang="it" data-type="gender-case" data-status="stable" data-search="italiano italian it gender-case gender-case genere dei nomi e articoli italiani guida al genere dei nomi italiani, regole ed eccezioni. italian it italiano genere gender nouns articles">
+          <a href="tools/it/genere/" class="engine-card" data-tool="it-genere" data-lang="it" data-type="gender-case" data-status="stable" data-search="italiano italian it gender-case gender-case gender &amp; cases genere dei nomi e articoli italiani guida al genere dei nomi italiani, regole ed eccezioni. italian it italiano genere gender nouns articles">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇮🇹</div>
                 <div class="engine-title-area">
                   <h3>Genere dei Nomi e Articoli Italiani</h3>
-                  <div class="engine-subtitle"><span>Italiano</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Italiano (Italian)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Guida al genere dei nomi italiani, regole ed eccezioni.</p>
@@ -491,13 +566,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ru/rod-padezhi/" class="engine-card" data-tool="ru-rod-padezhi" data-lang="ru" data-type="gender-case" data-status="stable" data-search="русский russian ru gender-case gender-case род и 6 падежей имен существительных определитель рода и таблица 6 падежей существительных русского языка. russian ru русский gender cases rod padezhi declension 6 cases">
+          <a href="tools/ru/rod-padezhi/" class="engine-card" data-tool="ru-rod-padezhi" data-lang="ru" data-type="gender-case" data-status="stable" data-search="русский russian ru gender-case gender-case gender &amp; cases род и 6 падежей имен существительных определитель рода и таблица 6 падежей существительных русского языка. russian ru русский gender cases rod padezhi declension 6 cases">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇷🇺</div>
                 <div class="engine-title-area">
                   <h3>Род и 6 падежей имен существительных</h3>
-                  <div class="engine-subtitle"><span>Русский</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Русский (Russian)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Определитель рода и таблица 6 падежей существительных русского языка.</p>
@@ -505,13 +584,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/el/genos-ptoseis/" class="engine-card" data-tool="el-genos-ptoseis" data-lang="el" data-type="gender-case" data-status="stable" data-search="ελληνικά greek el gender-case gender-case γένος και πτώσεις ουσιαστικών οδηγός γένους και κλίσης ουσιαστικών στις 4 πτώσεις. greek el ελληνικά genos ptoseis gender cases declension 4 cases">
+          <a href="tools/el/genos-ptoseis/" class="engine-card" data-tool="el-genos-ptoseis" data-lang="el" data-type="gender-case" data-status="stable" data-search="ελληνικά greek el gender-case gender-case gender &amp; cases γένος και πτώσεις ουσιαστικών οδηγός γένους και κλίσης ουσιαστικών στις 4 πτώσεις. greek el ελληνικά genos ptoseis gender cases declension 4 cases">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇷</div>
                 <div class="engine-title-area">
                   <h3>Γένος και Πτώσεις Ουσιαστικών</h3>
-                  <div class="engine-subtitle"><span>Ελληνικά</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Ελληνικά (Greek)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Οδηγός γένους και κλίσης ουσιαστικών στις 4 πτώσεις.</p>
@@ -519,13 +602,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/es/genre/" class="engine-card" data-tool="es-genre" data-lang="es" data-type="gender-case" data-status="beta" data-search="español spanish es gender-case gender-case género de sustantivos en español reglas de género masculino y femenino para sustantivos en español. ">
+          <a href="tools/es/genre/" class="engine-card" data-tool="es-genre" data-lang="es" data-type="gender-case" data-status="beta" data-search="español spanish es gender-case gender-case gender &amp; cases género de sustantivos en español reglas de género masculino y femenino para sustantivos en español. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇪🇸</div>
                 <div class="engine-title-area">
                   <h3>Género de Sustantivos en Español</h3>
-                  <div class="engine-subtitle"><span>Español</span><span class="status-badge status-beta" data-i18n="status_beta">Beta</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Español (Spanish)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-beta" data-i18n="status_beta">Beta</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Reglas de género masculino y femenino para sustantivos en español.</p>
@@ -533,13 +620,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/de/genus/" class="engine-card" data-tool="de-genus" data-lang="de" data-type="gender-case" data-status="beta" data-search="deutsch german de gender-case gender-case genus der substantive &amp; artikel regeln für der, die, das und genusbestimmung deutscher nomen. ">
+          <a href="tools/de/genus/" class="engine-card" data-tool="de-genus" data-lang="de" data-type="gender-case" data-status="beta" data-search="deutsch german de gender-case gender-case gender &amp; cases genus der substantive &amp; artikel regeln für der, die, das und genusbestimmung deutscher nomen. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇩🇪</div>
                 <div class="engine-title-area">
                   <h3>Genus der Substantive &amp; Artikel</h3>
-                  <div class="engine-subtitle"><span>Deutsch</span><span class="status-badge status-beta" data-i18n="status_beta">Beta</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Deutsch (German)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-beta" data-i18n="status_beta">Beta</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Regeln für der, die, das und Genusbestimmung deutscher Nomen.</p>
@@ -547,13 +638,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/pt/genre/" class="engine-card" data-tool="pt-genre" data-lang="pt" data-type="gender-case" data-status="beta" data-search="português portuguese pt gender-case gender-case gênero dos substantivos em português regras de gênero gramatical e uso de artigos em português. ">
+          <a href="tools/pt/genre/" class="engine-card" data-tool="pt-genre" data-lang="pt" data-type="gender-case" data-status="beta" data-search="português portuguese pt gender-case gender-case gender &amp; cases gênero dos substantivos em português regras de gênero gramatical e uso de artigos em português. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇵🇹</div>
                 <div class="engine-title-area">
                   <h3>Gênero dos Substantivos em Português</h3>
-                  <div class="engine-subtitle"><span>Português</span><span class="status-badge status-beta" data-i18n="status_beta">Beta</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Português (Portuguese)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-beta" data-i18n="status_beta">Beta</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Regras de gênero gramatical e uso de artigos em português.</p>
@@ -561,13 +656,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/hy/cases/" class="engine-card" data-tool="hy-cases" data-lang="hy" data-type="gender-case" data-status="stub" data-search="հայերեն armenian hy gender-case gender-case հայերեն հոլովումներ գոյականների հոլովման աղյուսակներ և վերջավորություններ: ">
+          <a href="tools/hy/cases/" class="engine-card" data-tool="hy-cases" data-lang="hy" data-type="gender-case" data-status="stub" data-search="հայերեն armenian hy gender-case gender-case gender &amp; cases հայերեն հոլովումներ գոյականների հոլովման աղյուսակներ և վերջավորություններ: ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇦🇲</div>
                 <div class="engine-title-area">
                   <h3>Հայերեն հոլովումներ</h3>
-                  <div class="engine-subtitle"><span>Հայերեն</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Հայերեն (Armenian)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Գոյականների հոլովման աղյուսակներ և վերջավորություններ:</p>
@@ -575,13 +674,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ka/cases/" class="engine-card" data-tool="ka-cases" data-lang="ka" data-type="gender-case" data-status="stub" data-search="ქართული georgian ka gender-case gender-case ქართული ბრუნება არსებითი სახელების ბრუნების ცხრილები და ნიშნები. ">
+          <a href="tools/ka/cases/" class="engine-card" data-tool="ka-cases" data-lang="ka" data-type="gender-case" data-status="stub" data-search="ქართული georgian ka gender-case gender-case gender &amp; cases ქართული ბრუნება არსებითი სახელების ბრუნების ცხრილები და ნიშნები. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇪</div>
                 <div class="engine-title-area">
                   <h3>ქართული ბრუნება</h3>
-                  <div class="engine-subtitle"><span>ქართული</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">ქართული (Georgian)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">არსებითი სახელების ბრუნების ცხრილები და ნიშნები.</p>
@@ -589,13 +692,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/tt/cases/" class="engine-card" data-tool="tt-cases" data-lang="tt" data-type="gender-case" data-status="stub" data-search="татарча tatar tt gender-case gender-case татар килешләре татар теле исемнәренең килеш аффикслары таблицасы. ">
+          <a href="tools/tt/cases/" class="engine-card" data-tool="tt-cases" data-lang="tt" data-type="gender-case" data-status="stub" data-search="татарча tatar tt gender-case gender-case gender &amp; cases татар килешләре татар теле исемнәренең килеш аффикслары таблицасы. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Татар килешләре</h3>
-                  <div class="engine-subtitle"><span>Татарча</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Татарча (Tatar)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Татар теле исемнәренең килеш аффикслары таблицасы.</p>
@@ -603,13 +710,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/ba/cases/" class="engine-card" data-tool="ba-cases" data-lang="ba" data-type="gender-case" data-status="stub" data-search="башҡортса bashkir ba gender-case gender-case башҡорт килештәре башҡорт теле исемдәренең килеш ялғауҙары таблицаһы. ">
+          <a href="tools/ba/cases/" class="engine-card" data-tool="ba-cases" data-lang="ba" data-type="gender-case" data-status="stub" data-search="башҡортса bashkir ba gender-case gender-case gender &amp; cases башҡорт килештәре башҡорт теле исемдәренең килеш ялғауҙары таблицаһы. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Башҡорт килештәре</h3>
-                  <div class="engine-subtitle"><span>Башҡортса</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Башҡортса (Bashkir)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Башҡорт теле исемдәренең килеш ялғауҙары таблицаһы.</p>
@@ -617,13 +728,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/br/genre/" class="engine-card" data-tool="br-genre" data-lang="br" data-type="gender-case" data-status="stub" data-search="brezhoneg breton br gender-case gender-case rizh an anvioù brezhonek reolennoù rizh an anvioù hag kemmoù-iñvadiñ e brezhoneg. ">
+          <a href="tools/br/genre/" class="engine-card" data-tool="br-genre" data-lang="br" data-type="gender-case" data-status="stub" data-search="brezhoneg breton br gender-case gender-case gender &amp; cases rizh an anvioù brezhonek reolennoù rizh an anvioù hag kemmoù-iñvadiñ e brezhoneg. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Rizh an Anvioù Brezhonek</h3>
-                  <div class="engine-subtitle"><span>Brezhoneg</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Brezhoneg (Breton)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Reolennoù rizh an anvioù hag kemmoù-iñvadiñ e brezhoneg.</p>
@@ -631,13 +746,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/cv/cases/" class="engine-card" data-tool="cv-cases" data-lang="cv" data-type="gender-case" data-status="stub" data-search="чӑвашла chuvash cv gender-case gender-case чӑваш ятсен падежĕсем чӑваш ятсен падеж сăпăрлавĕ тата хушăмĕсен правиласем. ">
+          <a href="tools/cv/cases/" class="engine-card" data-tool="cv-cases" data-lang="cv" data-type="gender-case" data-status="stub" data-search="чӑвашла chuvash cv gender-case gender-case gender &amp; cases чӑваш ятсен падежĕсем чӑваш ятсен падеж сăпăрлавĕ тата хушăмĕсен правиласем. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🏴</div>
                 <div class="engine-title-area">
                   <h3>Чӑваш ятсен падежĕсем</h3>
-                  <div class="engine-subtitle"><span>Чӑвашла</span><span class="status-badge status-stub" data-i18n="status_stub">In development</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Чӑвашла (Chuvash)</span>
+                    <span class="card-type-tag" data-i18n="type_gender_case">Gender &amp; cases</span>
+                    <span class="status-badge status-stub" data-i18n="status_stub">In development</span>
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Чӑваш ятсен падеж сăпăрлавĕ тата хушăмĕсен правиласем.</p>
@@ -650,13 +769,17 @@
         <section class="hub-section" data-section="syntax" aria-labelledby="sec-syntax">
           <div class="category-header" id="sec-syntax" role="heading" aria-level="2"><span aria-hidden="true">📍</span> <span data-i18n="type_syntax">Prepositions &amp; syntax</span></div>
           <div class="engines-grid">
-          <a href="tools/en/verb-prep/" class="engine-card" data-tool="en-verb-prep" data-lang="en" data-type="syntax" data-status="stable" data-search="english english en prepositions syntax english dependent prepositions english dependent prepositions, phrasal verbs, and prepositional patterns. english en verb prep dependent prepositions phrasals">
+          <a href="tools/en/verb-prep/" class="engine-card" data-tool="en-verb-prep" data-lang="en" data-type="syntax" data-status="stable" data-search="english english en prepositions syntax prepositions &amp; syntax english dependent prepositions english dependent prepositions, phrasal verbs, and prepositional patterns. english en verb prep dependent prepositions phrasals">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇧</div>
                 <div class="engine-title-area">
                   <h3>English Dependent Prepositions</h3>
-                  <div class="engine-subtitle"><span>English</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">English (English)</span>
+                    <span class="card-type-tag" data-i18n="type_syntax">Prepositions &amp; syntax</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">English dependent prepositions, phrasal verbs, and prepositional patterns.</p>
@@ -664,13 +787,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/fr/regime/" class="engine-card" data-tool="fr-regime" data-lang="fr" data-type="syntax" data-status="stable" data-search="français french fr prepositions syntax régimes prépositionnels du français prépositions des verbes et adjectifs français et syntaxe. french fr français regime prepositions prepositions dependent rules">
+          <a href="tools/fr/regime/" class="engine-card" data-tool="fr-regime" data-lang="fr" data-type="syntax" data-status="stable" data-search="français french fr prepositions syntax prepositions &amp; syntax régimes prépositionnels du français prépositions des verbes et adjectifs français et syntaxe. french fr français regime prepositions prepositions dependent rules">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇫🇷</div>
                 <div class="engine-title-area">
                   <h3>Régimes Prépositionnels du Français</h3>
-                  <div class="engine-subtitle"><span>Français</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Français (French)</span>
+                    <span class="card-type-tag" data-i18n="type_syntax">Prepositions &amp; syntax</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Prépositions des verbes et adjectifs français et syntaxe.</p>
@@ -678,13 +805,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/it/reggenza/" class="engine-card" data-tool="it-reggenza" data-lang="it" data-type="syntax" data-status="stable" data-search="italiano italian it prepositions syntax reggenza preposizionale italiana preposizioni dei verbi e aggettivi italiani e sintassi. italian it italiano reggenza prepositions verb prepositions">
+          <a href="tools/it/reggenza/" class="engine-card" data-tool="it-reggenza" data-lang="it" data-type="syntax" data-status="stable" data-search="italiano italian it prepositions syntax prepositions &amp; syntax reggenza preposizionale italiana preposizioni dei verbi e aggettivi italiani e sintassi. italian it italiano reggenza prepositions verb prepositions">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇮🇹</div>
                 <div class="engine-title-area">
                   <h3>Reggenza Preposizionale Italiana</h3>
-                  <div class="engine-subtitle"><span>Italiano</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Italiano (Italian)</span>
+                    <span class="card-type-tag" data-i18n="type_syntax">Prepositions &amp; syntax</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Preposizioni dei verbi e aggettivi italiani e sintassi.</p>
@@ -692,13 +823,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/el/syntaxi/" class="engine-card" data-tool="el-syntaxi" data-lang="el" data-type="syntax" data-status="stable" data-search="ελληνικά greek el syntax syntax σύνταξη ρημάτων και προθέσεις σύνταξη ελληνικών ρημάτων και εξαρτημένες προθέσεις. ">
+          <a href="tools/el/syntaxi/" class="engine-card" data-tool="el-syntaxi" data-lang="el" data-type="syntax" data-status="stable" data-search="ελληνικά greek el syntax syntax prepositions &amp; syntax σύνταξη ρημάτων και προθέσεις σύνταξη ελληνικών ρημάτων και εξαρτημένες προθέσεις. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇷</div>
                 <div class="engine-title-area">
                   <h3>Σύνταξη Ρημάτων και Προθέσεις</h3>
-                  <div class="engine-subtitle"><span>Ελληνικά</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Ελληνικά (Greek)</span>
+                    <span class="card-type-tag" data-i18n="type_syntax">Prepositions &amp; syntax</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Σύνταξη ελληνικών ρημάτων και εξαρτημένες προθέσεις.</p>
@@ -706,13 +841,17 @@
             <div class="engine-cta-btn"><span data-i18n="btn_open_tool">▶ Open tool</span></div>
           </a>
 
-          <a href="tools/de/praepositionen/" class="engine-card" data-tool="de-praepositionen" data-lang="de" data-type="syntax" data-status="stable" data-search="deutsch german de prepositions syntax deutsche präpositionen &amp; verben feste präpositionen bei verben und kasusrektion im deutschen. ">
+          <a href="tools/de/praepositionen/" class="engine-card" data-tool="de-praepositionen" data-lang="de" data-type="syntax" data-status="stable" data-search="deutsch german de prepositions syntax prepositions &amp; syntax deutsche präpositionen &amp; verben feste präpositionen bei verben und kasusrektion im deutschen. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇩🇪</div>
                 <div class="engine-title-area">
                   <h3>Deutsche Präpositionen &amp; Verben</h3>
-                  <div class="engine-subtitle"><span>Deutsch</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">Deutsch (German)</span>
+                    <span class="card-type-tag" data-i18n="type_syntax">Prepositions &amp; syntax</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Feste Präpositionen bei Verben und Kasusrektion im Deutschen.</p>
@@ -725,13 +864,17 @@
         <section class="hub-section" data-section="speaking" aria-labelledby="sec-speaking">
           <div class="category-header" id="sec-speaking" role="heading" aria-level="2"><span aria-hidden="true">🗣️</span> <span data-i18n="type_speaking">Speaking practice</span></div>
           <div class="engines-grid">
-          <a href="tools/en/speaking-bot/" class="engine-card" data-tool="en-speaking-bot" data-lang="en" data-type="speaking" data-status="stable" data-search="english english en speaking speaking english speaking practice bot interactive english conversation practice bot for grammar and vocabulary. ">
+          <a href="tools/en/speaking-bot/" class="engine-card" data-tool="en-speaking-bot" data-lang="en" data-type="speaking" data-status="stable" data-search="english english en speaking speaking speaking practice english speaking practice bot interactive english conversation practice bot for grammar and vocabulary. ">
             <div>
               <div class="engine-card-top">
                 <div class="engine-icon" aria-hidden="true">🇬🇧</div>
                 <div class="engine-title-area">
                   <h3>English Speaking Practice Bot</h3>
-                  <div class="engine-subtitle"><span>English</span></div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">English (English)</span>
+                    <span class="card-type-tag" data-i18n="type_speaking">Speaking practice</span>
+
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">Interactive English conversation practice bot for grammar and vocabulary.</p>

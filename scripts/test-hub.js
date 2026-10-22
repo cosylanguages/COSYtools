@@ -53,6 +53,9 @@ const click = (doc, sel) => doc.querySelector(sel).click();
   check('every catalog tool has exactly one card', d.querySelectorAll('.engine-card').length === catalog.length &&
     catalog.every(t => d.querySelector(`.engine-card[data-tool="${t.id}"]`)));
   check('every card links to an existing page', [...d.querySelectorAll('.engine-card')].every(a => fs.existsSync(path.join(ROOT, a.getAttribute('href'), 'index.html'))));
+  check('cards render task category badges', [...d.querySelectorAll('.card-type-tag')].length === catalog.length);
+  check('interface language select has explicit label', d.querySelector('label[for="cosy-ui-language-select"]') !== null);
+  check('search input has aria-describedby search hint', d.getElementById('hub-search-input').getAttribute('aria-describedby') === 'search-hint');
 
   console.log('Hub: defaults');
   check('in-development tools are hidden by default', visibleIds(d).length === stable.length, `${visibleIds(d).length} vs ${stable.length}`);
@@ -75,9 +78,11 @@ const click = (doc, sel) => doc.querySelector(sel).click();
   const input = d.getElementById('hub-search-input');
   input.value = 'спряжение';
   input.dispatchEvent(new dom.window.Event('input', { bubbles: true }));
+  await new Promise(r => setTimeout(r, 150));
   check('search matches native titles (ru)', visibleIds(d).includes('ru-spryazhenie'));
   input.value = 'zzzzqq';
   input.dispatchEvent(new dom.window.Event('input', { bubbles: true }));
+  await new Promise(r => setTimeout(r, 150));
   check('nonsense search shows empty state', visibleIds(d).length === 0 && d.getElementById('no-results-box').style.display === 'block');
 
   console.log('Hub: dev toggle & URL state');
@@ -100,7 +105,7 @@ const click = (doc, sel) => doc.querySelector(sel).click();
   console.log('Hub: UI language');
   dom.window.COSY_UI.setUILanguage('fr');
   check('count is translated when UI language changes', /\b1 outil\b/.test(d.getElementById('hub-result-count').textContent), d.getElementById('hub-result-count').textContent);
-  check('filter labels are translated', d.getElementById('hub-type-label').textContent.trim() === 'Type :');
+  check('filter labels are translated', d.getElementById('hub-type-label').textContent.trim() === 'Catégorie :');
   dom.window.close();
 
   server.close();
