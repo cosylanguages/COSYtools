@@ -1882,5 +1882,27 @@
     "antonyms": [
       "widersprechen"
     ]
+  },
+  "schauen": {
+    "prepositions": [
+      "auf"
+    ],
+    "case": "Akkusativ",
+    "pattern": "schauen auf [Akkusativ]",
+    "level": "A1",
+    "definition": "Den Blick auf jemanden oder etwas richten; aufpassen auf.",
+    "grammar_rule": "Feste Präposition «auf» + Akkusativ.",
+    "examples": [
+      "Schau bitte auf die Straße!",
+      "Er schaut auf seine Uhr."
+    ],
+    "common_mistake": "❌ Schau an die Uhr! ➜ ✅ Schau auf die Uhr!",
+    "synonyms": [
+      "gucken auf",
+      "blicken auf"
+    ],
+    "antonyms": [
+      "wegsehen"
+    ]
   }
 }
