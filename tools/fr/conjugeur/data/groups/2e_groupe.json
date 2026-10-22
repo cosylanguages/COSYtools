@@ -1,0 +1,1230 @@
+{
+  "group_name": "2e groupe",
+  "verbs": {
+    "remplir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Rendre plein un espace.",
+      "antonyms": [
+        "vider"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je remplis",
+          "tu remplis",
+          "il/elle remplit",
+          "nous remplissons",
+          "vous remplissez",
+          "ils/elles remplissent"
+        ],
+        "indicatif_imparfait": [
+          "je remplissais",
+          "tu remplissais",
+          "il/elle remplissait",
+          "nous remplissions",
+          "vous remplissiez",
+          "ils/elles remplissaient"
+        ],
+        "pc": [
+          "j'ai rempli",
+          "tu as rempli",
+          "il/elle a rempli",
+          "nous avons rempli",
+          "vous avez rempli",
+          "ils/elles ont rempli"
+        ],
+        "indicatif_futur_simple": [
+          "je remplirai",
+          "tu rempliras",
+          "il/elle remplira",
+          "nous remplirons",
+          "vous remplirez",
+          "ils/elles rempliront"
+        ],
+        "conditionnel_present": [
+          "je remplirais",
+          "tu remplirais",
+          "il/elle remplirait",
+          "nous remplirions",
+          "vous rempliriez",
+          "ils/elles rempliraient"
+        ],
+        "subjonctif_present": [
+          "que je remplisse",
+          "que tu remplisses",
+          "qu'il/elle remplisse",
+          "que nous remplissions",
+          "que vous remplissiez",
+          "qu'ils/elles remplissent"
+        ],
+        "imperatif": [
+          "remplis !",
+          "remplissons !",
+          "remplissez !"
+        ],
+        "part": [
+          "remplissant",
+          "rempli"
+        ],
+        "pqp": [
+          "j'avais rempli",
+          "tu avais rempli",
+          "il/elle avait rempli",
+          "nous avions rempli",
+          "vous aviez rempli",
+          "ils/elles avaient rempli"
+        ],
+        "fut_ant": [
+          "j'aurai rempli",
+          "tu auras rempli",
+          "il/elle aura rempli",
+          "nous aurons rempli",
+          "vous aurez rempli",
+          "ils/elles auront rempli"
+        ],
+        "cond_pass": [
+          "j'aurais rempli",
+          "tu aurais rempli",
+          "il/elle aurait rempli",
+          "nous aurions rempli",
+          "vous auriez rempli",
+          "ils/elles auraient rempli"
+        ],
+        "subj_pass": [
+          "que j'aie rempli",
+          "que tu aies rempli",
+          "qu'il/elle ait rempli",
+          "que nous ayons rempli",
+          "que vous ayez rempli",
+          "qu'ils/elles aient rempli"
+        ]
+      },
+      "usage_hint": "remplir (qqch) de (qqch d'autre)",
+      "irregular": false
+    },
+    "choisir": {
+      "group": "2e groupe",
+      "level": "A1",
+      "definition": "Fixer son choix.",
+      "antonyms": [
+        "hésiter"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je choisis",
+          "tu choisis",
+          "il/elle choisit",
+          "nous choisissons",
+          "vous choisissez",
+          "ils/elles choisissent"
+        ],
+        "indicatif_imparfait": [
+          "je choisissais",
+          "tu choisissais",
+          "il/elle choisissait",
+          "nous choisissions",
+          "vous choisissiez",
+          "ils/elles choisissaient"
+        ],
+        "pc": [
+          "j'ai choisi",
+          "tu as choisi",
+          "il/elle a choisi",
+          "nous avons choisi",
+          "vous avez choisi",
+          "ils/elles ont choisi"
+        ],
+        "indicatif_futur_simple": [
+          "je choisirai",
+          "tu choisiras",
+          "il/elle choisira",
+          "nous choisirons",
+          "vous choisirez",
+          "ils/elles choisiront"
+        ],
+        "conditionnel_present": [
+          "je choisirais",
+          "tu choisirais",
+          "il/elle choisirait",
+          "nous choisirions",
+          "vous choisiriez",
+          "ils/elles choisiraient"
+        ],
+        "subjonctif_present": [
+          "que je choisisse",
+          "que tu choisisses",
+          "qu'il/elle choisisse",
+          "que nous choisissions",
+          "que vous choisissiez",
+          "qu'ils/elles choisissent"
+        ],
+        "imperatif": [
+          "choisis !",
+          "choisissons !",
+          "choisissez !"
+        ],
+        "part": [
+          "choisissant",
+          "choisi"
+        ],
+        "pqp": [
+          "j'avais choisi",
+          "tu avais choisi",
+          "il/elle avait choisi",
+          "nous avions choisi",
+          "vous aviez choisi",
+          "ils/elles avaient choisi"
+        ],
+        "fut_ant": [
+          "j'aurai choisi",
+          "tu auras choisi",
+          "il/elle aura choisi",
+          "nous aurons choisi",
+          "vous aurez choisi",
+          "ils/elles auront choisi"
+        ],
+        "cond_pass": [
+          "j'aurais choisi",
+          "tu aurais choisi",
+          "il/elle aurait choisi",
+          "nous aurions choisi",
+          "vous auriez choisi",
+          "ils/elles auraient choisi"
+        ],
+        "subj_pass": [
+          "que j'aie choisi",
+          "que tu aies choisi",
+          "qu'il/elle ait choisi",
+          "que nous ayons choisi",
+          "que vous ayez choisi",
+          "qu'ils/elles aient choisi"
+        ]
+      },
+      "usage_hint": "choisir + COD / de (faire qqch)",
+      "irregular": false
+    },
+    "finir": {
+      "group": "2e groupe",
+      "level": "A1",
+      "definition": "Arriver au terme.",
+      "antonyms": [
+        "commencer"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je finis",
+          "tu finis",
+          "il/elle finit",
+          "nous finissons",
+          "vous finissez",
+          "ils/elles finissent"
+        ],
+        "indicatif_imparfait": [
+          "je finissais",
+          "tu finissais",
+          "il/elle finissait",
+          "nous finissions",
+          "vous finissiez",
+          "ils/elles finissaient"
+        ],
+        "pc": [
+          "j'ai fini",
+          "tu as fini",
+          "il/elle a fini",
+          "nous avons fini",
+          "vous avez fini",
+          "ils/elles ont fini"
+        ],
+        "indicatif_futur_simple": [
+          "je finirai",
+          "tu finiras",
+          "il/elle finira",
+          "nous finirons",
+          "vous finirez",
+          "ils/elles finiront"
+        ],
+        "conditionnel_present": [
+          "je finirais",
+          "tu finirais",
+          "il/elle finirait",
+          "nous finirions",
+          "vous finiriez",
+          "ils/elles finiraient"
+        ],
+        "subjonctif_present": [
+          "que je finisse",
+          "que tu finisses",
+          "qu'il/elle finisse",
+          "que nous finissions",
+          "que vous finissiez",
+          "qu'ils/elles finissent"
+        ],
+        "imperatif": [
+          "finis !",
+          "finissons !",
+          "finissez !"
+        ],
+        "part": [
+          "finissant",
+          "fini"
+        ],
+        "pqp": [
+          "j'avais fini",
+          "tu avais fini",
+          "il/elle avait fini",
+          "nous avions fini",
+          "vous aviez fini",
+          "ils/elles avaient fini"
+        ],
+        "fut_ant": [
+          "j'aurai fini",
+          "tu auras fini",
+          "il/elle aura fini",
+          "nous aurons fini",
+          "vous aurez fini",
+          "ils/elles auront fini"
+        ],
+        "cond_pass": [
+          "j'aurais fini",
+          "tu aurais fini",
+          "il/elle aurait fini",
+          "nous aurions fini",
+          "vous auriez fini",
+          "ils/elles auraient fini"
+        ],
+        "subj_pass": [
+          "que j'aie fini",
+          "que tu aies fini",
+          "qu'il/elle ait fini",
+          "que nous ayons fini",
+          "que vous ayez fini",
+          "qu'ils/elles aient fini"
+        ]
+      },
+      "usage_hint": "finir par (faire) / de (faire) / + COD",
+      "irregular": false
+    },
+    "réussir": {
+      "group": "2e groupe",
+      "level": "A1",
+      "definition": "Obtenir un résultat heureux.",
+      "antonyms": [
+        "échouer"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je réussis",
+          "tu réussis",
+          "il/elle réussit",
+          "nous réussissons",
+          "vous réussissez",
+          "ils/elles réussissent"
+        ],
+        "indicatif_imparfait": [
+          "je réussissais",
+          "tu réussissais",
+          "il/elle réussissait",
+          "nous réussissions",
+          "vous réussissiez",
+          "ils/elles réussissaient"
+        ],
+        "pc": [
+          "j'ai réussi",
+          "tu as réussi",
+          "il/elle a réussi",
+          "nous avons réussi",
+          "vous avez réussi",
+          "ils/elles ont réussi"
+        ],
+        "indicatif_futur_simple": [
+          "je réussirai",
+          "tu réussiras",
+          "il/elle réussira",
+          "nous réussirons",
+          "vous réussirez",
+          "ils/elles réussiront"
+        ],
+        "conditionnel_present": [
+          "je réussirais",
+          "tu réussirais",
+          "il/elle réussirait",
+          "nous réussirions",
+          "vous réussiriez",
+          "ils/elles réussiraient"
+        ],
+        "subjonctif_present": [
+          "que je réussisse",
+          "que tu réussisses",
+          "qu'il/elle réussisse",
+          "que nous réussissions",
+          "que vous réussissiez",
+          "qu'ils/elles réussissent"
+        ],
+        "imperatif": [
+          "réussis !",
+          "réussissons !",
+          "réussissez !"
+        ],
+        "part": [
+          "réussissant",
+          "réussi"
+        ],
+        "pqp": [
+          "j'avais réussi",
+          "tu avais réussi",
+          "il/elle avait réussi",
+          "nous avions réussi",
+          "vous aviez réussi",
+          "ils/elles avaient réussi"
+        ],
+        "fut_ant": [
+          "j'aurai réussi",
+          "tu auras réussi",
+          "il/elle aura réussi",
+          "nous aurons réussi",
+          "vous aurez réussi",
+          "ils/elles auront réussi"
+        ],
+        "cond_pass": [
+          "j'aurais réussi",
+          "tu aurais réussi",
+          "il/elle aurait réussi",
+          "nous aurions réussi",
+          "vous auriez réussi",
+          "ils/elles auraient réussi"
+        ],
+        "subj_pass": [
+          "que j'aie réussi",
+          "que tu aies réussi",
+          "qu'il/elle ait réussi",
+          "que nous ayons réussi",
+          "que vous ayez réussi",
+          "qu'ils/elles aient réussi"
+        ]
+      },
+      "usage_hint": "réussir à (faire qqch) / un examen (+ COD)",
+      "grammar_rule": "💡 REMEMBER: Exige la préposition 'à' devant un infinitif ('réussir à faire').",
+      "irregular": false
+    },
+    "grandir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Devenir plus grand.",
+      "antonyms": [
+        "rétrécir"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je grandis",
+          "tu grandis",
+          "il/elle grandit",
+          "nous grandissons",
+          "vous grandissez",
+          "ils/elles grandissent"
+        ],
+        "indicatif_imparfait": [
+          "je grandissais",
+          "tu grandissais",
+          "il/elle grandissait",
+          "nous grandissions",
+          "vous grandissiez",
+          "ils/elles grandissaient"
+        ],
+        "pc": [
+          "j'ai grandi",
+          "tu as grandi",
+          "il/elle a grandi",
+          "nous avons grandi",
+          "vous avez grandi",
+          "ils/elles ont grandi"
+        ],
+        "indicatif_futur_simple": [
+          "je grandirai",
+          "tu grandiras",
+          "il/elle grandira",
+          "nous grandirons",
+          "vous grandirez",
+          "ils/elles grandiront"
+        ],
+        "conditionnel_present": [
+          "je grandirais",
+          "tu grandirais",
+          "il/elle grandirait",
+          "nous grandirions",
+          "vous grandiriez",
+          "ils/elles grandiraient"
+        ],
+        "subjonctif_present": [
+          "que je grandisse",
+          "que tu grandisses",
+          "qu'il/elle grandisse",
+          "que nous grandissions",
+          "que vous grandissiez",
+          "qu'ils/elles grandissent"
+        ],
+        "imperatif": [
+          "grandis !",
+          "grandissons !",
+          "grandissez !"
+        ],
+        "part": [
+          "grandissant",
+          "grandi"
+        ],
+        "pqp": [
+          "j'avais grandi",
+          "tu avais grandi",
+          "il/elle avait grandi",
+          "nous avions grandi",
+          "vous aviez grandi",
+          "ils/elles avaient grandi"
+        ],
+        "fut_ant": [
+          "j'aurai grandi",
+          "tu auras grandi",
+          "il/elle aura grandi",
+          "nous aurons grandi",
+          "vous aurez grandi",
+          "ils/elles auront grandi"
+        ],
+        "cond_pass": [
+          "j'aurais grandi",
+          "tu aurais grandi",
+          "il/elle aurait grandi",
+          "nous aurions grandi",
+          "vous auriez grandi",
+          "ils/elles auraient grandi"
+        ],
+        "subj_pass": [
+          "que j'aie grandi",
+          "que tu aies grandi",
+          "qu'il/elle ait grandi",
+          "que nous ayons grandi",
+          "que vous ayez grandi",
+          "qu'ils/elles aient grandi"
+        ]
+      },
+      "usage_hint": "grandir en / dans",
+      "irregular": false
+    },
+    "réfléchir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Penser mûrement.",
+      "antonyms": [
+        "agir sans penser"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je réfléchis",
+          "tu réfléchis",
+          "il/elle réfléchit",
+          "nous réfléchissons",
+          "vous réfléchissez",
+          "ils/elles réfléchissent"
+        ],
+        "indicatif_imparfait": [
+          "je réfléchissais",
+          "tu réfléchissais",
+          "il/elle réfléchissait",
+          "nous réfléchissions",
+          "vous réfléchissiez",
+          "ils/elles réfléchissaient"
+        ],
+        "pc": [
+          "j'ai réfléchi",
+          "tu as réfléchi",
+          "il/elle a réfléchi",
+          "nous avons réfléchi",
+          "vous avez réfléchi",
+          "ils/elles ont réfléchi"
+        ],
+        "indicatif_futur_simple": [
+          "je réfléchirai",
+          "tu réfléchiras",
+          "il/elle réfléchira",
+          "nous réfléchirons",
+          "vous réfléchirez",
+          "ils/elles réfléchiront"
+        ],
+        "conditionnel_present": [
+          "je réfléchirais",
+          "tu réfléchirais",
+          "il/elle réfléchirait",
+          "nous réfléchirions",
+          "vous réfléchiriez",
+          "ils/elles réfléchiraient"
+        ],
+        "subjonctif_present": [
+          "que je réfléchisse",
+          "que tu réfléchisses",
+          "qu'il/elle réfléchisse",
+          "que nous réfléchissions",
+          "que vous réfléchissiez",
+          "qu'ils/elles réfléchissent"
+        ],
+        "imperatif": [
+          "réfléchis !",
+          "réfléchissons !",
+          "réfléchissez !"
+        ],
+        "part": [
+          "réfléchissant",
+          "réfléchi"
+        ],
+        "pqp": [
+          "j'avais réfléchi",
+          "tu avais réfléchi",
+          "il/elle avait réfléchi",
+          "nous avions réfléchi",
+          "vous aviez réfléchi",
+          "ils/elles avaient réfléchi"
+        ],
+        "fut_ant": [
+          "j'aurai réfléchi",
+          "tu auras réfléchi",
+          "il/elle aura réfléchi",
+          "nous aurons réfléchi",
+          "vous aurez réfléchi",
+          "ils/elles auront réfléchi"
+        ],
+        "cond_pass": [
+          "j'aurais réfléchi",
+          "tu aurais réfléchi",
+          "il/elle aurait réfléchi",
+          "nous aurions réfléchi",
+          "vous auriez réfléchi",
+          "ils/elles auraient réfléchi"
+        ],
+        "subj_pass": [
+          "que j'aie réfléchi",
+          "que tu aies réfléchi",
+          "qu'il/elle ait réfléchi",
+          "que nous ayons réfléchi",
+          "que vous ayez réfléchi",
+          "qu'ils/elles aient réfléchi"
+        ]
+      },
+      "usage_hint": "réfléchir à (un problème / une décision)",
+      "irregular": false
+    },
+    "obéir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Se soumettre aux ordres.",
+      "antonyms": [
+        "désobéir"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "j'obéis",
+          "tu obéis",
+          "il/elle obéit",
+          "nous obéissons",
+          "vous obéissez",
+          "ils/elles obéissent"
+        ],
+        "indicatif_imparfait": [
+          "j'obéissais",
+          "tu obéissais",
+          "il/elle obéissait",
+          "nous obéissions",
+          "vous obéissiez",
+          "ils/elles obéissaient"
+        ],
+        "pc": [
+          "j'ai obéi",
+          "tu as obéi",
+          "il/elle a obéi",
+          "nous avons obéi",
+          "vous avez obéi",
+          "ils/elles ont obéi"
+        ],
+        "indicatif_futur_simple": [
+          "j'obéirai",
+          "tu obéiras",
+          "il/elle obéira",
+          "nous obéirons",
+          "vous obéirez",
+          "ils/elles obéiront"
+        ],
+        "conditionnel_present": [
+          "j'obéirais",
+          "tu obéirais",
+          "il/elle obéirait",
+          "nous obéirions",
+          "vous obéiriez",
+          "ils/elles obéiraient"
+        ],
+        "subjonctif_present": [
+          "que j'obéisse",
+          "que tu obéisses",
+          "qu'il/elle obéisse",
+          "que nous obéissions",
+          "que vous obéissiez",
+          "qu'ils/elles obéissent"
+        ],
+        "imperatif": [
+          "obéis !",
+          "obéissons !",
+          "obéissez !"
+        ],
+        "part": [
+          "obéissant",
+          "obéi"
+        ],
+        "pqp": [
+          "j'avais obéi",
+          "tu avais obéi",
+          "il/elle avait obéi",
+          "nous avions obéi",
+          "vous aviez obéi",
+          "ils/elles avaient obéi"
+        ],
+        "fut_ant": [
+          "j'aurai obéi",
+          "tu auras obéi",
+          "il/elle aura obéi",
+          "nous aurons obéi",
+          "vous aurez obéi",
+          "ils/elles auront obéi"
+        ],
+        "cond_pass": [
+          "j'aurais obéi",
+          "tu aurais obéi",
+          "il/elle aurait obéi",
+          "nous aurions obéi",
+          "vous auriez obéi",
+          "ils/elles auraient obéi"
+        ],
+        "subj_pass": [
+          "que j'aie obéi",
+          "que tu aies obéi",
+          "qu'il/elle ait obéi",
+          "que nous ayons obéi",
+          "que vous ayez obéi",
+          "qu'ils/elles aient obéi"
+        ]
+      },
+      "usage_hint": "obéir à (qqn / une règle)",
+      "irregular": false
+    },
+    "punir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Châtier une faute.",
+      "antonyms": [
+        "récompenser"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je punis",
+          "tu punis",
+          "il/elle punit",
+          "nous punissons",
+          "vous punissez",
+          "ils/elles punissent"
+        ],
+        "indicatif_imparfait": [
+          "je punissais",
+          "tu punissais",
+          "il/elle punissait",
+          "nous punissions",
+          "vous punissiez",
+          "ils/elles punissaient"
+        ],
+        "pc": [
+          "j'ai puni",
+          "tu as puni",
+          "il/elle a puni",
+          "nous avons puni",
+          "vous avez puni",
+          "ils/elles ont puni"
+        ],
+        "indicatif_futur_simple": [
+          "je punirai",
+          "tu puniras",
+          "il/elle punira",
+          "nous punirons",
+          "vous punirez",
+          "ils/elles puniront"
+        ],
+        "conditionnel_present": [
+          "je punirais",
+          "tu punirais",
+          "il/elle punirait",
+          "nous punirions",
+          "vous puniriez",
+          "ils/elles puniraient"
+        ],
+        "subjonctif_present": [
+          "que je punisse",
+          "que tu punisses",
+          "qu'il/elle punisse",
+          "que nous punissions",
+          "que vous punissiez",
+          "qu'ils/elles punissent"
+        ],
+        "imperatif": [
+          "punis !",
+          "punissons !",
+          "punissez !"
+        ],
+        "part": [
+          "punissant",
+          "puni"
+        ],
+        "pqp": [
+          "j'avais puni",
+          "tu avais puni",
+          "il/elle avait puni",
+          "nous avions puni",
+          "vous aviez puni",
+          "ils/elles avaient puni"
+        ],
+        "fut_ant": [
+          "j'aurai puni",
+          "tu auras puni",
+          "il/elle aura puni",
+          "nous aurons puni",
+          "vous aurez puni",
+          "ils/elles auront puni"
+        ],
+        "cond_pass": [
+          "j'aurais puni",
+          "tu aurais puni",
+          "il/elle aurait puni",
+          "nous aurions puni",
+          "vous auriez puni",
+          "ils/elles auraient puni"
+        ],
+        "subj_pass": [
+          "que j'aie puni",
+          "que tu aies puni",
+          "qu'il/elle ait puni",
+          "que nous ayons puni",
+          "que vous ayez puni",
+          "qu'ils/elles aient puni"
+        ]
+      },
+      "usage_hint": "punir (qqn) pour (une faute)",
+      "irregular": false
+    },
+    "nourrir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Fournir les aliments.",
+      "antonyms": [
+        "affamer"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je nourris",
+          "tu nourris",
+          "il/elle nourrit",
+          "nous nourrissons",
+          "vous nourrissez",
+          "ils/elles nourrissent"
+        ],
+        "indicatif_imparfait": [
+          "je nourrissais",
+          "tu nourrissais",
+          "il/elle nourrissait",
+          "nous nourrissions",
+          "vous nourrissiez",
+          "ils/elles nourrissaient"
+        ],
+        "pc": [
+          "j'ai nourri",
+          "tu as nourri",
+          "il/elle a nourri",
+          "nous avons nourri",
+          "vous avez nourri",
+          "ils/elles ont nourri"
+        ],
+        "indicatif_futur_simple": [
+          "je nourrirai",
+          "tu nourriras",
+          "il/elle nourrira",
+          "nous nourrirons",
+          "vous nourrirez",
+          "ils/elles nourriront"
+        ],
+        "conditionnel_present": [
+          "je nourrirais",
+          "tu nourrirais",
+          "il/elle nourrirait",
+          "nous nourririons",
+          "vous nourririez",
+          "ils/elles nourriraient"
+        ],
+        "subjonctif_present": [
+          "que je nourrisse",
+          "que tu nourrisses",
+          "qu'il/elle nourrisse",
+          "que nous nourrissions",
+          "que vous nourrissiez",
+          "qu'ils/elles nourrissent"
+        ],
+        "imperatif": [
+          "nourris !",
+          "nourrissons !",
+          "nourrissez !"
+        ],
+        "part": [
+          "nourrissant",
+          "nourri"
+        ],
+        "pqp": [
+          "j'avais nourri",
+          "tu avais nourri",
+          "il/elle avait nourri",
+          "nous avions nourri",
+          "vous aviez nourri",
+          "ils/elles avaient nourri"
+        ],
+        "fut_ant": [
+          "j'aurai nourri",
+          "tu auras nourri",
+          "il/elle aura nourri",
+          "nous aurons nourri",
+          "vous aurez nourri",
+          "ils/elles auront nourri"
+        ],
+        "cond_pass": [
+          "j'aurais nourri",
+          "tu aurais nourri",
+          "il/elle aurait nourri",
+          "nous aurions nourri",
+          "vous auriez nourri",
+          "ils/elles auraient nourri"
+        ],
+        "subj_pass": [
+          "que j'aie nourri",
+          "que tu aies nourri",
+          "qu'il/elle ait nourri",
+          "que nous ayons nourri",
+          "que vous ayez nourri",
+          "qu'ils/elles aient nourri"
+        ]
+      },
+      "usage_hint": "+ COD / se nourrir de",
+      "irregular": false
+    },
+    "vieillir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Devenir plus âgé.",
+      "antonyms": [
+        "rajeunir"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je vieillis",
+          "tu vieillis",
+          "il/elle vieillit",
+          "nous vieillissons",
+          "vous vieillissez",
+          "ils/elles vieillissent"
+        ],
+        "indicatif_imparfait": [
+          "je vieillissais",
+          "tu vieillissais",
+          "il/elle vieillissait",
+          "nous vieillissions",
+          "vous vieillissiez",
+          "ils/elles vieillissaient"
+        ],
+        "pc": [
+          "j'ai vieilli",
+          "tu as vieilli",
+          "il/elle a vieilli",
+          "nous avons vieilli",
+          "vous avez vieilli",
+          "ils/elles ont vieilli"
+        ],
+        "indicatif_futur_simple": [
+          "je vieillirai",
+          "tu vieilliras",
+          "il/elle vieillira",
+          "nous vieillirons",
+          "vous vieillirez",
+          "ils/elles vieilliront"
+        ],
+        "conditionnel_present": [
+          "je vieillirais",
+          "tu vieillirais",
+          "il/elle vieillirait",
+          "nous vieillirions",
+          "vous vieilliriez",
+          "ils/elles vieilliraient"
+        ],
+        "subjonctif_present": [
+          "que je vieillisse",
+          "que tu vieillisses",
+          "qu'il/elle vieillisse",
+          "que nous vieillissions",
+          "que vous vieillissiez",
+          "qu'ils/elles vieillissent"
+        ],
+        "imperatif": [
+          "vieillis !",
+          "vieillissons !",
+          "vieillissez !"
+        ],
+        "part": [
+          "vieillissant",
+          "vieilli"
+        ],
+        "pqp": [
+          "j'avais vieilli",
+          "tu avais vieilli",
+          "il/elle avait vieilli",
+          "nous avions vieilli",
+          "vous aviez vieilli",
+          "ils/elles avaient vieilli"
+        ],
+        "fut_ant": [
+          "j'aurai vieilli",
+          "tu auras vieilli",
+          "il/elle aura vieilli",
+          "nous aurons vieilli",
+          "vous aurez vieilli",
+          "ils/elles auront vieilli"
+        ],
+        "cond_pass": [
+          "j'aurais vieilli",
+          "tu aurais vieilli",
+          "il/elle aurait vieilli",
+          "nous aurions vieilli",
+          "vous auriez vieilli",
+          "ils/elles auraient vieilli"
+        ],
+        "subj_pass": [
+          "que j'aie vieilli",
+          "que tu aies vieilli",
+          "qu'il/elle ait vieilli",
+          "que nous ayons vieilli",
+          "que vous ayez vieilli",
+          "qu'ils/elles aient vieilli"
+        ]
+      },
+      "usage_hint": "vieillir de (quelques années)",
+      "irregular": false
+    },
+    "guérir": {
+      "group": "2e groupe",
+      "level": "A2",
+      "definition": "Rendre la santé.",
+      "antonyms": [
+        "blesser"
+      ],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je guéris",
+          "tu guéris",
+          "il/elle guérit",
+          "nous guérissons",
+          "vous guérissez",
+          "ils/elles guérissent"
+        ],
+        "indicatif_imparfait": [
+          "je guérissais",
+          "tu guérissais",
+          "il/elle guérissait",
+          "nous guérissions",
+          "vous guérissiez",
+          "ils/elles guérissaient"
+        ],
+        "pc": [
+          "j'ai guéri",
+          "tu as guéri",
+          "il/elle a guéri",
+          "nous avons guéri",
+          "vous avez guéri",
+          "ils/elles ont guéri"
+        ],
+        "indicatif_futur_simple": [
+          "je guérirai",
+          "tu guériras",
+          "il/elle guérira",
+          "nous guérirons",
+          "vous guérirez",
+          "ils/elles guériront"
+        ],
+        "conditionnel_present": [
+          "je guérirais",
+          "tu guérirais",
+          "il/elle guérirait",
+          "nous guéririons",
+          "vous guéririez",
+          "ils/elles guériraient"
+        ],
+        "subjonctif_present": [
+          "que je guérisse",
+          "que tu guérisses",
+          "qu'il/elle guérisse",
+          "que nous guérissions",
+          "que vous guérissiez",
+          "qu'ils/elles guérissent"
+        ],
+        "imperatif": [
+          "guéris !",
+          "guérissons !",
+          "guérissez !"
+        ],
+        "part": [
+          "guérissant",
+          "guéri"
+        ],
+        "pqp": [
+          "j'avais guéri",
+          "tu avais guéri",
+          "il/elle avait guéri",
+          "nous avions guéri",
+          "vous aviez guéri",
+          "ils/elles avaient guéri"
+        ],
+        "fut_ant": [
+          "j'aurai guéri",
+          "tu auras guéri",
+          "il/elle aura guéri",
+          "nous aurons guéri",
+          "vous aurez guéri",
+          "ils/elles auront guéri"
+        ],
+        "cond_pass": [
+          "j'aurais guéri",
+          "tu aurais guéri",
+          "il/elle aurait guéri",
+          "nous aurions guéri",
+          "vous auriez guéri",
+          "ils/elles auraient guéri"
+        ],
+        "subj_pass": [
+          "que j'aie guéri",
+          "que tu aies guéri",
+          "qu'il/elle ait guéri",
+          "que nous ayons guéri",
+          "que vous ayez guéri",
+          "qu'ils/elles aient guéri"
+        ]
+      },
+      "usage_hint": "guérir de (une maladie)",
+      "irregular": false
+    },
+    "bâtir": {
+      "group": "2e groupe",
+      "auxiliary": "avoir",
+      "level": "A2",
+      "definition": "Construire un édifice.",
+      "antonyms": [
+        "détruire"
+      ],
+      "tenses": {
+        "indicatif_present": [
+          "je bâtis",
+          "tu bâtis",
+          "il/elle bâtit",
+          "nous bâtissons",
+          "vous bâtissez",
+          "ils/elles bâtissent"
+        ],
+        "indicatif_imparfait": [
+          "je bâtissais",
+          "tu bâtissais",
+          "il/elle bâtissait",
+          "nous bâtissions",
+          "vous bâtissiez",
+          "ils/elles bâtissaient"
+        ],
+        "pc": [
+          "j'ai bâti",
+          "tu as bâti",
+          "il/elle a bâti",
+          "nous avons bâti",
+          "vous avez bâti",
+          "ils/elles ont bâti"
+        ],
+        "indicatif_futur_simple": [
+          "je bâtirai",
+          "tu bâtiras",
+          "il/elle bâtira",
+          "nous bâtirons",
+          "vous bâtirez",
+          "ils/elles bâtiront"
+        ],
+        "conditionnel_present": [
+          "je bâtirais",
+          "tu bâtirais",
+          "il/elle bâtirait",
+          "nous bâtirions",
+          "vous bâtiriez",
+          "ils/elles bâtiraient"
+        ],
+        "subjonctif_present": [
+          "que je bâtisse",
+          "que tu bâtisses",
+          "qu'il/elle bâtisse",
+          "que nous bâtissions",
+          "que vous bâtissiez",
+          "qu'ils/elles bâtissent"
+        ],
+        "imperatif": [
+          "bâtis !",
+          "bâtissons !",
+          "bâtissez !"
+        ],
+        "part": [
+          "bâtissant",
+          "bâti"
+        ],
+        "pqp": [
+          "j'avais bâti",
+          "tu avais bâti",
+          "il/elle avait bâti",
+          "nous avions bâti",
+          "vous aviez bâti",
+          "ils/elles avaient bâti"
+        ],
+        "fut_ant": [
+          "j'aurai bâti",
+          "tu auras bâti",
+          "il/elle aura bâti",
+          "nous aurons bâti",
+          "vous aurez bâti",
+          "ils/elles auront bâti"
+        ],
+        "cond_pass": [
+          "j'aurais bâti",
+          "tu aurais bâti",
+          "il/elle aurait bâti",
+          "nous aurions bâti",
+          "vous auriez bâti",
+          "ils/elles auraient bâti"
+        ],
+        "subj_pass": [
+          "que j'aie bâti",
+          "que tu aies bâti",
+          "qu'il/elle ait bâti",
+          "que nous ayons bâti",
+          "que vous ayez bâti",
+          "qu'ils/elles aient bâti"
+        ]
+      },
+      "usage_hint": "+ COD (bâtir une maison)",
+      "irregular": false
+    }
+  }
+}

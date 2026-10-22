@@ -1,0 +1,905 @@
+{
+  "group_name": "2do grupo (-er)",
+  "verbs": {
+    "comer": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Masticar y deglutir un alimento.",
+      "antonyms": [
+        "ayunar"
+      ],
+      "tenses": {
+        "presente": [
+          "como",
+          "comes",
+          "come",
+          "comemos",
+          "coméis",
+          "comen"
+        ],
+        "pasado": [
+          "comí",
+          "comiste",
+          "comió",
+          "comimos",
+          "comisteis",
+          "comieron"
+        ],
+        "preterito_imperfecto": [
+          "comía",
+          "comías",
+          "comía",
+          "comíamos",
+          "comíais",
+          "comían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he comido",
+          "has comido",
+          "ha comido",
+          "hemos comido",
+          "habéis comido",
+          "han comido"
+        ],
+        "futuro_simple": [
+          "comeré",
+          "comerás",
+          "comerá",
+          "comeremos",
+          "comeréis",
+          "comerán"
+        ],
+        "condicional_simple": [
+          "comería",
+          "comerías",
+          "comería",
+          "comeríamos",
+          "comeríais",
+          "comerían"
+        ],
+        "subjuntivo_presente": [
+          "coma",
+          "comas",
+          "coma",
+          "comamos",
+          "comáis",
+          "coman"
+        ],
+        "imperativo": [
+          "come!",
+          "coma!",
+          "comed!",
+          "coman!"
+        ]
+      },
+      "examples": [
+        "Comemos una paella deliciosa los domingos."
+      ]
+    },
+    "leer": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Pasar la vista por lo escrito comprendiendo su significado.",
+      "antonyms": [
+        "escribir"
+      ],
+      "tenses": {
+        "presente": [
+          "leo",
+          "lees",
+          "lee",
+          "leemos",
+          "leéis",
+          "leen"
+        ],
+        "pasado": [
+          "leí",
+          "leíste",
+          "leyó",
+          "leímos",
+          "leísteis",
+          "leyeron"
+        ],
+        "preterito_imperfecto": [
+          "leía",
+          "leías",
+          "leía",
+          "leíamos",
+          "leíais",
+          "leían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he leído",
+          "has leído",
+          "ha leído",
+          "hemos leído",
+          "habéis leído",
+          "han leído"
+        ],
+        "futuro_simple": [
+          "leeré",
+          "leerás",
+          "leerá",
+          "leeremos",
+          "leeréis",
+          "leerán"
+        ],
+        "condicional_simple": [
+          "leería",
+          "leerías",
+          "leería",
+          "leeríamos",
+          "leeríais",
+          "leerían"
+        ],
+        "subjuntivo_presente": [
+          "lea",
+          "leas",
+          "lea",
+          "leamos",
+          "leáis",
+          "lean"
+        ],
+        "imperativo": [
+          "lee!",
+          "lea!",
+          "leed!",
+          "lean!"
+        ]
+      },
+      "examples": [
+        "Leo las noticias todos los días."
+      ]
+    },
+    "aprender": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Adquirir el conocimiento de algo.",
+      "antonyms": [
+        "olvidar"
+      ],
+      "tenses": {
+        "presente": [
+          "aprendo",
+          "aprendes",
+          "aprende",
+          "aprendemos",
+          "aprendéis",
+          "aprenden"
+        ],
+        "pasado": [
+          "aprendí",
+          "aprendiste",
+          "aprendió",
+          "aprendimos",
+          "aprendisteis",
+          "aprendieron"
+        ],
+        "preterito_imperfecto": [
+          "aprendía",
+          "aprendías",
+          "aprendía",
+          "aprendíamos",
+          "aprendíais",
+          "aprendían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he aprendido",
+          "has aprendido",
+          "ha aprendido",
+          "hemos aprendido",
+          "habéis aprendido",
+          "han aprendido"
+        ],
+        "futuro_simple": [
+          "aprenderé",
+          "aprenderás",
+          "aprenderá",
+          "aprenderemos",
+          "aprenderéis",
+          "aprenderán"
+        ],
+        "condicional_simple": [
+          "aprendería",
+          "aprenderías",
+          "aprendería",
+          "aprenderíamos",
+          "aprenderíais",
+          "aprenderían"
+        ],
+        "subjuntivo_presente": [
+          "aprenda",
+          "aprendas",
+          "aprenda",
+          "aprendamos",
+          "aprendáis",
+          "aprendan"
+        ],
+        "imperativo": [
+          "aprende!",
+          "aprenda!",
+          "aprended!",
+          "aprendan!"
+        ]
+      },
+      "examples": [
+        "Aprendo español con mucho entusiasmo."
+      ]
+    },
+    "vender": {
+      "group": "2do grupo (-er)",
+      "level": "A2",
+      "definition": "Traspasar la propiedad de algo por un precio.",
+      "antonyms": [
+        "comprar"
+      ],
+      "tenses": {
+        "presente": [
+          "vendo",
+          "vendes",
+          "vende",
+          "vendemos",
+          "vendéis",
+          "venden"
+        ],
+        "pasado": [
+          "vendí",
+          "vendiste",
+          "vendió",
+          "vendimos",
+          "vendisteis",
+          "vendieron"
+        ],
+        "preterito_imperfecto": [
+          "vendía",
+          "vendías",
+          "vendía",
+          "vendíamos",
+          "vendíais",
+          "vendían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he vendido",
+          "has vendido",
+          "ha vendido",
+          "hemos vendido",
+          "habéis vendido",
+          "han vendido"
+        ],
+        "futuro_simple": [
+          "venderé",
+          "venderás",
+          "venderá",
+          "venderemos",
+          "venderéis",
+          "venderán"
+        ],
+        "condicional_simple": [
+          "vendería",
+          "venderías",
+          "vendería",
+          "venderíamos",
+          "venderíais",
+          "venderían"
+        ],
+        "subjuntivo_presente": [
+          "venda",
+          "vendas",
+          "venda",
+          "vendamos",
+          "vendáis",
+          "vendan"
+        ],
+        "imperativo": [
+          "vende!",
+          "venda!",
+          "vended!",
+          "vendan!"
+        ]
+      },
+      "examples": [
+        "Vende su coche antiguo a buen precio."
+      ]
+    },
+    "correr": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Moverse rápidamente con pasos largos.",
+      "antonyms": [
+        "caminar"
+      ],
+      "tenses": {
+        "presente": [
+          "corro",
+          "corres",
+          "corre",
+          "corremos",
+          "corréis",
+          "corren"
+        ],
+        "pasado": [
+          "corrí",
+          "corriste",
+          "corrió",
+          "corrimos",
+          "corristeis",
+          "corrieron"
+        ],
+        "preterito_imperfecto": [
+          "corría",
+          "corrías",
+          "corría",
+          "corríamos",
+          "corríais",
+          "corrían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he corrido",
+          "has corrido",
+          "ha corrido",
+          "hemos corrido",
+          "habéis corrido",
+          "han corrido"
+        ],
+        "futuro_simple": [
+          "correré",
+          "correrás",
+          "correrá",
+          "correremos",
+          "correréis",
+          "correrán"
+        ],
+        "condicional_simple": [
+          "correría",
+          "correrías",
+          "correría",
+          "correríamos",
+          "correríais",
+          "correrían"
+        ],
+        "subjuntivo_presente": [
+          "corra",
+          "corras",
+          "corra",
+          "corramos",
+          "corráis",
+          "corran"
+        ],
+        "imperativo": [
+          "corre!",
+          "corra!",
+          "corred!",
+          "corran!"
+        ]
+      },
+      "examples": [
+        "Corro en el parque antes de trabajar."
+      ]
+    },
+    "romper": {
+      "group": "2do grupo (-er)",
+      "level": "A2",
+      "definition": "Hacer pedazos una cosa mediante la fuerza.",
+      "antonyms": [
+        "reparar"
+      ],
+      "tenses": {
+        "presente": [
+          "rompo",
+          "rompes",
+          "rompe",
+          "rompemos",
+          "rompéis",
+          "rompen"
+        ],
+        "pasado": [
+          "rompí",
+          "rompiste",
+          "rompió",
+          "rompimos",
+          "rompisteis",
+          "rompieron"
+        ],
+        "preterito_imperfecto": [
+          "rompía",
+          "rompías",
+          "rompía",
+          "rompíamos",
+          "rompíais",
+          "rompían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he roto",
+          "has roto",
+          "ha roto",
+          "hemos roto",
+          "habéis roto",
+          "han roto"
+        ],
+        "futuro_simple": [
+          "romperé",
+          "romperás",
+          "romperá",
+          "romperemos",
+          "romperéis",
+          "romperán"
+        ],
+        "condicional_simple": [
+          "rompería",
+          "romperías",
+          "rompería",
+          "romperíamos",
+          "romperíais",
+          "romperían"
+        ],
+        "subjuntivo_presente": [
+          "rompa",
+          "rompas",
+          "rompa",
+          "rompamos",
+          "rompáis",
+          "rompan"
+        ],
+        "imperativo": [
+          "rompe!",
+          "rompa!",
+          "romped!",
+          "rompan!"
+        ]
+      },
+      "examples": [
+        "A veces se rompe un plato al lavarlo."
+      ]
+    },
+    "responder": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Contestar a lo que se pregunta.",
+      "antonyms": [
+        "preguntar"
+      ],
+      "tenses": {
+        "presente": [
+          "respondo",
+          "respondes",
+          "responde",
+          "respondemos",
+          "respondéis",
+          "responden"
+        ],
+        "pasado": [
+          "respondí",
+          "respondiste",
+          "respondió",
+          "respondimos",
+          "respondisteis",
+          "respondieron"
+        ],
+        "preterito_imperfecto": [
+          "respondía",
+          "respondías",
+          "respondía",
+          "respondíamos",
+          "respondíais",
+          "respondían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he respondido",
+          "has respondido",
+          "ha respondido",
+          "hemos respondido",
+          "habéis respondido",
+          "han respondido"
+        ],
+        "futuro_simple": [
+          "responderé",
+          "responderás",
+          "responderá",
+          "responderemos",
+          "responderéis",
+          "responderán"
+        ],
+        "condicional_simple": [
+          "respondería",
+          "responderías",
+          "respondería",
+          "responderíamos",
+          "responderíais",
+          "responderían"
+        ],
+        "subjuntivo_presente": [
+          "responda",
+          "respondas",
+          "responda",
+          "respondamos",
+          "respondáis",
+          "respondan"
+        ],
+        "imperativo": [
+          "responde!",
+          "responda!",
+          "responded!",
+          "respondan!"
+        ]
+      },
+      "examples": [
+        "Respondo a todas las preguntas del examen."
+      ]
+    },
+    "creer": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Tener por cierto algo sin certeza absoluta.",
+      "antonyms": [
+        "dudar"
+      ],
+      "tenses": {
+        "presente": [
+          "creo",
+          "crees",
+          "cree",
+          "creemos",
+          "creéis",
+          "creen"
+        ],
+        "pasado": [
+          "creí",
+          "creíste",
+          "creyó",
+          "creímos",
+          "creísteis",
+          "creyeron"
+        ],
+        "preterito_imperfecto": [
+          "creía",
+          "creías",
+          "creía",
+          "creíamos",
+          "creíais",
+          "creían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he creído",
+          "has creído",
+          "ha creído",
+          "hemos creído",
+          "habéis creído",
+          "han creído"
+        ],
+        "futuro_simple": [
+          "creeré",
+          "creerás",
+          "creerá",
+          "creeremos",
+          "creeréis",
+          "creerán"
+        ],
+        "condicional_simple": [
+          "creería",
+          "creerías",
+          "creería",
+          "creeríamos",
+          "creeríais",
+          "creerían"
+        ],
+        "subjuntivo_presente": [
+          "crea",
+          "creas",
+          "crea",
+          "creamos",
+          "creáis",
+          "crean"
+        ],
+        "imperativo": [
+          "cree!",
+          "crea!",
+          "creed!",
+          "crean!"
+        ]
+      },
+      "examples": [
+        "Creo que mañana va a hacer sol."
+      ]
+    },
+    "beber": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Ingerir un líquido.",
+      "antonyms": [
+        "comer"
+      ],
+      "tenses": {
+        "presente": [
+          "bebo",
+          "bebes",
+          "bebe",
+          "bebemos",
+          "bebéis",
+          "beben"
+        ],
+        "pasado": [
+          "bebí",
+          "bebiste",
+          "bebió",
+          "bebimos",
+          "bebisteis",
+          "bebieron"
+        ],
+        "preterito_imperfecto": [
+          "bebía",
+          "bebías",
+          "bebía",
+          "bebíamos",
+          "bebíais",
+          "bebían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he bebido",
+          "has bebido",
+          "ha bebido",
+          "hemos bebido",
+          "habéis bebido",
+          "han bebido"
+        ],
+        "futuro_simple": [
+          "beberé",
+          "beberás",
+          "beberá",
+          "beberemos",
+          "beberéis",
+          "beberán"
+        ],
+        "condicional_simple": [
+          "bebería",
+          "beberías",
+          "bebería",
+          "beberíamos",
+          "beberíais",
+          "beberían"
+        ],
+        "subjuntivo_presente": [
+          "beba",
+          "bebas",
+          "beba",
+          "bebamos",
+          "bebáis",
+          "beban"
+        ],
+        "imperativo": [
+          "bebe!",
+          "beba!",
+          "bebed!",
+          "beban!"
+        ]
+      },
+      "examples": [
+        "Debes beber suficiente agua todos los días."
+      ]
+    },
+    "comprender": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Entender el significado de algo.",
+      "antonyms": [
+        "ignorar"
+      ],
+      "tenses": {
+        "presente": [
+          "comprendo",
+          "comprendes",
+          "comprende",
+          "comprendemos",
+          "comprendéis",
+          "comprenden"
+        ],
+        "pasado": [
+          "comprendí",
+          "comprendiste",
+          "comprendió",
+          "comprendimos",
+          "comprendisteis",
+          "comprendieron"
+        ],
+        "preterito_imperfecto": [
+          "comprendía",
+          "comprendías",
+          "comprendía",
+          "comprendíamos",
+          "comprendíais",
+          "comprendían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he comprendido",
+          "has comprendido",
+          "ha comprendido",
+          "hemos comprendido",
+          "habéis comprendido",
+          "han comprendido"
+        ],
+        "futuro_simple": [
+          "comprenderé",
+          "comprenderás",
+          "comprenderá",
+          "comprenderemos",
+          "comprenderéis",
+          "comprenderán"
+        ],
+        "condicional_simple": [
+          "comprendería",
+          "comprenderías",
+          "comprendería",
+          "comprenderíamos",
+          "comprenderíais",
+          "comprenderían"
+        ],
+        "subjuntivo_presente": [
+          "comprenda",
+          "comprendas",
+          "comprenda",
+          "comprendamos",
+          "comprendáis",
+          "comprendan"
+        ],
+        "imperativo": [
+          "comprende!",
+          "comprenda!",
+          "comprended!",
+          "comprendan!"
+        ]
+      },
+      "examples": [
+        "Ahora comprendo perfectamente tu punto de vista."
+      ]
+    },
+    "entender": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Tener clara la idea de las cosas o captar su sentido.",
+      "antonyms": [
+        "confundir"
+      ],
+      "tenses": {
+        "presente": [
+          "entiendo",
+          "entiendes",
+          "entiende",
+          "entendemos",
+          "entendéis",
+          "entienden"
+        ],
+        "pasado": [
+          "entendí",
+          "entendiste",
+          "entendió",
+          "entendimos",
+          "entendisteis",
+          "entendieron"
+        ],
+        "preterito_imperfecto": [
+          "entendía",
+          "entendías",
+          "entendía",
+          "entendíamos",
+          "entendíais",
+          "entendían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he entendido",
+          "has entendido",
+          "ha entendido",
+          "hemos entendido",
+          "habéis entendido",
+          "han entendido"
+        ],
+        "futuro_simple": [
+          "entenderé",
+          "entenderás",
+          "entenderá",
+          "entenderemos",
+          "entenderéis",
+          "entenderán"
+        ],
+        "condicional_simple": [
+          "entendería",
+          "entenderías",
+          "entendería",
+          "entenderíamos",
+          "entenderíais",
+          "entenderían"
+        ],
+        "subjuntivo_presente": [
+          "entienda",
+          "entiendas",
+          "entienda",
+          "entendamos",
+          "entendáis",
+          "entiendan"
+        ],
+        "imperativo": [
+          "entiende!",
+          "entienda!",
+          "entended!",
+          "entiendan!"
+        ]
+      },
+      "examples": [
+        "¿Entiendes lo que te estoy explicando?"
+      ]
+    },
+    "deber": {
+      "group": "2do grupo (-er)",
+      "level": "A1",
+      "definition": "Tener la obligación de hacer algo.",
+      "antonyms": [
+        "eximir"
+      ],
+      "tenses": {
+        "presente": [
+          "debo",
+          "debes",
+          "debe",
+          "debemos",
+          "debéis",
+          "deben"
+        ],
+        "pasado": [
+          "debí",
+          "debiste",
+          "debió",
+          "debimos",
+          "debisteis",
+          "debieron"
+        ],
+        "preterito_imperfecto": [
+          "debía",
+          "debías",
+          "debía",
+          "debíamos",
+          "debíais",
+          "debían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he debido",
+          "has debido",
+          "ha debido",
+          "hemos debido",
+          "habéis debido",
+          "han debido"
+        ],
+        "futuro_simple": [
+          "deberé",
+          "deberás",
+          "deberá",
+          "deberemos",
+          "deberéis",
+          "deberán"
+        ],
+        "condicional_simple": [
+          "debería",
+          "deberías",
+          "debería",
+          "deberíamos",
+          "deberíais",
+          "deberían"
+        ],
+        "subjuntivo_presente": [
+          "deba",
+          "debas",
+          "deba",
+          "debamos",
+          "debáis",
+          "deban"
+        ],
+        "imperativo": [
+          "debe!",
+          "deba!",
+          "debed!",
+          "deban!"
+        ]
+      },
+      "examples": [
+        "Debes estudiar más para el examen."
+      ]
+    }
+  }
+}

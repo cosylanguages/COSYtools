@@ -1,0 +1,446 @@
+{
+  "group_name": "Unregelmäßiges Verb",
+  "verbs": {
+    "sein": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Existieren oder einen Zustand haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bin",
+          "du bist",
+          "er/sie/es ist",
+          "wir sind",
+          "ihr seid",
+          "sie sind"
+        ],
+        "präteritum": [
+          "ich war",
+          "du warst",
+          "er/sie/es war",
+          "wir waren",
+          "ihr wart",
+          "sie waren"
+        ],
+        "perfekt": [
+          "ich bin gewesen",
+          "du bist gewesen",
+          "er/sie/es ist gewesen",
+          "wir sind gewesen",
+          "ihr seid gewesen",
+          "sie sind gewesen"
+        ],
+        "futur_1": [
+          "ich werde sein",
+          "du wirst sein",
+          "er/sie/es wird sein",
+          "wir werden sein",
+          "ihr werdet sein",
+          "sie werden sein"
+        ],
+        "konjunktiv_2": [
+          "ich wäre",
+          "du wärst",
+          "er/sie/es wäre",
+          "wir wären",
+          "ihr wärt",
+          "sie wären"
+        ],
+        "imperativ": [
+          "sei!",
+          "seid!"
+        ]
+      },
+      "examples": [
+        "Das Leben ist schön."
+      ]
+    },
+    "haben": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "In seinem Besitz oder Verfügung haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich habe",
+          "du hast",
+          "er/sie/es hat",
+          "wir haben",
+          "ihr habt",
+          "sie haben"
+        ],
+        "präteritum": [
+          "ich hatte",
+          "du hattest",
+          "er/sie/es hatte",
+          "wir hatten",
+          "ihr hattet",
+          "sie hatten"
+        ],
+        "perfekt": [
+          "ich habe gehabt",
+          "du hast gehabt",
+          "er/sie/es hat gehabt",
+          "wir haben gehabt",
+          "ihr habt gehabt",
+          "sie haben gehabt"
+        ],
+        "futur_1": [
+          "ich werde haben",
+          "du wirst haben",
+          "er/sie/es wird haben",
+          "wir werden haben",
+          "ihr werdet haben",
+          "sie werden haben"
+        ],
+        "konjunktiv_2": [
+          "ich hätte",
+          "du hättest",
+          "er/sie/es hätte",
+          "wir hätten",
+          "ihr hättet",
+          "sie hätten"
+        ],
+        "imperativ": [
+          "habe!",
+          "habt!"
+        ]
+      },
+      "examples": [
+        "Wir haben viele Freunde."
+      ]
+    },
+    "bringen": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Etwas an einen bestimmten Ort befördern.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bringe",
+          "du bringst",
+          "er/sie/es bringt",
+          "wir bringen",
+          "ihr bringt",
+          "sie bringen"
+        ],
+        "präteritum": [
+          "ich brachte",
+          "du brachtest",
+          "er/sie/es brachte",
+          "wir brachten",
+          "ihr brachtet",
+          "sie brachten"
+        ],
+        "perfekt": [
+          "ich habe gebracht",
+          "du hast gebracht",
+          "er/sie/es hat gebracht",
+          "wir haben gebracht",
+          "ihr habt gebracht",
+          "sie haben gebracht"
+        ],
+        "futur_1": [
+          "ich werde bringen",
+          "du wirst bringen",
+          "er/sie/es wird bringen",
+          "wir werden bringen",
+          "ihr werdet bringen",
+          "sie werden bringen"
+        ],
+        "konjunktiv_2": [
+          "ich brächte",
+          "du brächtest",
+          "er/sie/es brächte",
+          "wir brächten",
+          "ihr brächtet",
+          "sie brächten"
+        ],
+        "imperativ": [
+          "bring!",
+          "bringt!"
+        ]
+      },
+      "examples": [
+        "Der Kellner bringt das Essen."
+      ]
+    },
+    "wissen": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Kenntnis von etwas im Gedächtnis haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich weiß",
+          "du weißt",
+          "er/sie/es weiß",
+          "wir wissen",
+          "ihr wisst",
+          "sie wissen"
+        ],
+        "präteritum": [
+          "ich wusste",
+          "du wusstest",
+          "er/sie/es wusste",
+          "wir wussten",
+          "ihr wusstet",
+          "sie wussten"
+        ],
+        "perfekt": [
+          "ich habe gewusst",
+          "du hast gewusst",
+          "er/sie/es hat gewusst",
+          "wir haben gewusst",
+          "ihr habt gewusst",
+          "sie haben gewusst"
+        ],
+        "futur_1": [
+          "ich werde wissen",
+          "du wirst wissen",
+          "er/sie/es wird wissen",
+          "wir werden wissen",
+          "ihr werdet wissen",
+          "sie werden wissen"
+        ],
+        "konjunktiv_2": [
+          "ich wüsste",
+          "du wüsstest",
+          "er/sie/es wüsste",
+          "wir wüssten",
+          "ihr wüsstet",
+          "sie wüssten"
+        ],
+        "imperativ": [
+          "wisse!",
+          "wisst!"
+        ]
+      },
+      "examples": [
+        "Ich weiß die Antwort nicht."
+      ]
+    },
+    "kennen": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Mit jemandem oder etwas vertraut sein.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich kenne",
+          "du kennst",
+          "er/sie/es kennt",
+          "wir kennen",
+          "ihr kennt",
+          "sie kennen"
+        ],
+        "präteritum": [
+          "ich kannte",
+          "du kanntest",
+          "er/sie/es kannte",
+          "wir kannten",
+          "ihr kanntet",
+          "sie kannten"
+        ],
+        "perfekt": [
+          "ich habe gekannt",
+          "du hast gekannt",
+          "er/sie/es hat gekannt",
+          "wir haben gekannt",
+          "ihr habt gekannt",
+          "sie haben gekannt"
+        ],
+        "futur_1": [
+          "ich werde kennen",
+          "du wirst kennen",
+          "er/sie/es wird kennen",
+          "wir werden kennen",
+          "ihr werdet kennen",
+          "sie werden kennen"
+        ],
+        "konjunktiv_2": [
+          "ich würde kennen",
+          "du würdest kennen",
+          "er/sie/es würde kennen",
+          "wir würden kennen",
+          "ihr würdet kennen",
+          "sie würden kennen"
+        ],
+        "imperativ": [
+          "kenne!",
+          "kennt!"
+        ]
+      },
+      "examples": [
+        "Kennst du diese Stadt schon?"
+      ]
+    },
+    "denken": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Den Verstand gebrauchen, eine Überlegung anstellen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich denke",
+          "du denkst",
+          "er/sie/es denkt",
+          "wir denken",
+          "ihr denkt",
+          "sie denken"
+        ],
+        "präteritum": [
+          "ich dachte",
+          "du dachtest",
+          "er/sie/es dachte",
+          "wir dachten",
+          "ihr dachtet",
+          "sie dachten"
+        ],
+        "perfekt": [
+          "ich habe gedacht",
+          "du hast gedacht",
+          "er/sie/es hat gedacht",
+          "wir haben gedacht",
+          "ihr habt gedacht",
+          "sie haben gedacht"
+        ],
+        "futur_1": [
+          "ich werde denken",
+          "du wirst denken",
+          "er/sie/es wird denken",
+          "wir werden denken",
+          "ihr werdet denken",
+          "sie werden denken"
+        ],
+        "konjunktiv_2": [
+          "ich dächte",
+          "du dächtest",
+          "er/sie/es dächte",
+          "wir dächten",
+          "ihr dächtet",
+          "sie dächten"
+        ],
+        "imperativ": [
+          "denk!",
+          "denkt!"
+        ]
+      },
+      "examples": [
+        "Ich denke oft an meine Heimat."
+      ]
+    },
+    "senden": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A2",
+      "definition": "Nachrichten oder Signale übermitteln.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich sende",
+          "du sendest",
+          "er/sie/es sendet",
+          "wir senden",
+          "ihr sendet",
+          "sie senden"
+        ],
+        "präteritum": [
+          "ich sandte",
+          "du sandtest",
+          "er/sie/es sandte",
+          "wir sandten",
+          "ihr sandtet",
+          "sie sandten"
+        ],
+        "perfekt": [
+          "ich habe gesendet",
+          "du hast gesendet",
+          "er/sie/es hat gesendet",
+          "wir haben gesendet",
+          "ihr habt gesendet",
+          "sie haben gesendet"
+        ],
+        "futur_1": [
+          "ich werde senden",
+          "du wirst senden",
+          "er/sie/es wird senden",
+          "wir werden senden",
+          "ihr werdet senden",
+          "sie werden senden"
+        ],
+        "konjunktiv_2": [
+          "ich würde senden",
+          "du würdest senden",
+          "er/sie/es würde senden",
+          "wir würden senden",
+          "ihr würdet senden",
+          "sie würden senden"
+        ],
+        "imperativ": [
+          "sende!",
+          "sendet!"
+        ]
+      },
+      "examples": [
+        "Wir senden die Unterlagen per E-Mail."
+      ],
+      "needs_review": true
+    },
+    "tun": {
+      "group": "Unregelmäßiges Verb",
+      "level": "A1",
+      "definition": "Eine Handlung oder Aktivität ausführen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich tue",
+          "du tust",
+          "er/sie/es tut",
+          "wir tun",
+          "ihr tut",
+          "sie tun"
+        ],
+        "präteritum": [
+          "ich tat",
+          "du tatest",
+          "er/sie/es tat",
+          "wir taten",
+          "ihr tatet",
+          "sie taten"
+        ],
+        "perfekt": [
+          "ich habe getan",
+          "du hast getan",
+          "er/sie/es hat getan",
+          "wir haben getan",
+          "ihr habt getan",
+          "sie haben getan"
+        ],
+        "futur_1": [
+          "ich werde tun",
+          "du wirst tun",
+          "er/sie/es wird tun",
+          "wir werden tun",
+          "ihr werdet tun",
+          "sie werden tun"
+        ],
+        "konjunktiv_2": [
+          "ich täte",
+          "du tätest",
+          "er/sie/es täte",
+          "wir täten",
+          "ihr tätet",
+          "sie täten"
+        ],
+        "imperativ": [
+          "tu!",
+          "tut!"
+        ]
+      },
+      "examples": [
+        "Was kann ich heute für dich tun?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "group_name": "3ª conjugação (-ir)",
+  "verbs": {
+    "decidir": {
+      "group": "3ª conjugação (-ir)",
+      "level": "A2",
+      "definition": "Tomar uma resolução sobre algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "decido",
+          "decides",
+          "decide",
+          "decidimos",
+          "decidis",
+          "decidem"
+        ],
+        "passado": [
+          "decidi",
+          "decidiste",
+          "decidiu",
+          "decidimos",
+          "decidistes",
+          "decidiram"
+        ],
+        "preterito_imperfeito": [
+          "decidia",
+          "decidias",
+          "decidia",
+          "decidíamos",
+          "decidíeis",
+          "decidiam"
+        ],
+        "futuro_do_presente": [
+          "decidirei",
+          "decidirás",
+          "decidirá",
+          "decidiremos",
+          "decidireis",
+          "decidirão"
+        ],
+        "futuro_do_preterito": [
+          "decidiria",
+          "decidirias",
+          "decidiria",
+          "decidiríamos",
+          "decidiríeis",
+          "decidiriam"
+        ],
+        "presente_subjuntivo": [
+          "decida",
+          "decidas",
+          "decida",
+          "decidamos",
+          "decidais",
+          "decidam"
+        ],
+        "imperativo": [
+          "-",
+          "decide",
+          "decida",
+          "decidamos",
+          "decidi",
+          "decidam"
+        ]
+      },
+      "examples": [
+        "Decido ir passear esta tarde."
+      ]
+    },
+    "abrir": {
+      "group": "3ª conjugação (-ir)",
+      "level": "A1",
+      "definition": "Deslocar o que fecha uma entrada.",
+      "antonyms": [
+        "fechar"
+      ],
+      "tenses": {
+        "presente": [
+          "abro",
+          "abres",
+          "abre",
+          "abrimos",
+          "abris",
+          "abrem"
+        ],
+        "passado": [
+          "abri",
+          "abriste",
+          "abriu",
+          "abrimos",
+          "abristes",
+          "abriram"
+        ],
+        "preterito_imperfeito": [
+          "abria",
+          "abrias",
+          "abria",
+          "abríamos",
+          "abríeis",
+          "abriam"
+        ],
+        "futuro_do_presente": [
+          "abrirei",
+          "abrirás",
+          "abrirá",
+          "abriremos",
+          "abrireis",
+          "abrirão"
+        ],
+        "futuro_do_preterito": [
+          "abriria",
+          "abririas",
+          "abriria",
+          "abriríamos",
+          "abriríeis",
+          "abririam"
+        ],
+        "presente_subjuntivo": [
+          "abra",
+          "abras",
+          "abra",
+          "abramos",
+          "abrais",
+          "abram"
+        ],
+        "imperativo": [
+          "-",
+          "abre",
+          "abra",
+          "abramos",
+          "abri",
+          "abram"
+        ]
+      },
+      "examples": [
+        "Abro a janela para arejar o quarto."
+      ]
+    },
+    "assistir": {
+      "group": "3ª conjugação (-ir)",
+      "level": "A1",
+      "definition": "Ver ou presenciar um evento ou filme.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "assisto",
+          "assistes",
+          "assiste",
+          "assistimos",
+          "assistis",
+          "assistem"
+        ],
+        "passado": [
+          "assisti",
+          "assististe",
+          "assistiu",
+          "assistimos",
+          "assististes",
+          "assistiram"
+        ],
+        "imperfeito": [
+          "assistia",
+          "assistias",
+          "assistia",
+          "assistíamos",
+          "assistíeis",
+          "assistiam"
+        ],
+        "futuro": [
+          "assistirei",
+          "assistirás",
+          "assistirá",
+          "assistiremos",
+          "assistireis",
+          "assistirão"
+        ],
+        "condicional": [
+          "assistiria",
+          "assistirias",
+          "assistiria",
+          "assistiríamos",
+          "assistiríeis",
+          "assistiriam"
+        ],
+        "subjuntivo_presente": [
+          "assista",
+          "assistas",
+          "assista",
+          "assistamos",
+          "assistais",
+          "assistam"
+        ],
+        "imperativo": [
+          "assiste!",
+          "assista!",
+          "assisti!",
+          "assistam!"
+        ]
+      },
+      "examples": [
+        "Vamos assistir a um filme no cinema hoje."
+      ]
+    },
+    "ouvir": {
+      "group": "3ª conjugação (-ir)",
+      "level": "A1",
+      "definition": "Perceber sons pelo sentido da audição.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "ouço",
+          "ouves",
+          "ouve",
+          "ouvimos",
+          "ouvis",
+          "ouvem"
+        ],
+        "passado": [
+          "ouvi",
+          "ouviste",
+          "ouviu",
+          "ouvimos",
+          "ouvistes",
+          "ouviram"
+        ],
+        "imperfeito": [
+          "ouvia",
+          "ouvias",
+          "ouvia",
+          "ouvíamos",
+          "ouvíeis",
+          "ouviam"
+        ],
+        "futuro": [
+          "ouvirei",
+          "ouvirás",
+          "ouvirá",
+          "ouviremos",
+          "ouvireis",
+          "ouvirão"
+        ],
+        "condicional": [
+          "ouviria",
+          "ouvirias",
+          "ouviria",
+          "ouviríamos",
+          "ouviríeis",
+          "ouviriam"
+        ],
+        "subjuntivo_presente": [
+          "ouça",
+          "ouças",
+          "ouça",
+          "ouçamos",
+          "ouçais",
+          "ouçam"
+        ],
+        "imperativo": [
+          "ouve!",
+          "ouça!",
+          "ouvi!",
+          "ouçam!"
+        ]
+      },
+      "examples": [
+        "Consegues ouvir aquele barulho lá fora?"
+      ]
+    }
+  }
+}

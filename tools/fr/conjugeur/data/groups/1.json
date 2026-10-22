@@ -1,0 +1,107 @@
+{
+  "group_name": 1,
+  "verbs": {
+    "manger": {
+      "group": 1,
+      "level": "A1",
+      "definition": "Mâcher et avaler des aliments pour se nourrir.",
+      "antonyms": [
+        "jeûner"
+      ],
+      "auxiliary": "avoir",
+      "usage_hint": "💡 REMEMBER: Verbe du 1er groupe avec particularité orthographique : conserve un 'e' après le 'g' devant 'a' et 'o' pour maintenir le son doux [ʒ] (ex. 'nous mangeons', 'je mangeais', 'mangeant').",
+      "tenses": {
+        "indicatif_present": [
+          "je mange",
+          "tu manges",
+          "il/elle mange",
+          "nous mangeons",
+          "vous mangez",
+          "ils/elles mangent"
+        ],
+        "indicatif_imparfait": [
+          "je mangeais",
+          "tu mangeais",
+          "il/elle mangeait",
+          "nous mangions",
+          "vous mangiez",
+          "ils/elles mangeaient"
+        ],
+        "pc": [
+          "j'ai mangé",
+          "tu as mangé",
+          "il/elle a mangé",
+          "nous avons mangé",
+          "vous avez mangé",
+          "ils/elles ont mangé"
+        ],
+        "indicatif_futur_simple": [
+          "je mangerai",
+          "tu mangeras",
+          "il/elle mangera",
+          "nous mangerons",
+          "vous mangerez",
+          "ils/elles mangeront"
+        ],
+        "conditionnel_present": [
+          "je mangerais",
+          "tu mangerais",
+          "il/elle mangerait",
+          "nous mangerions",
+          "vous mangeriez",
+          "ils/elles mangeraient"
+        ],
+        "subjonctif_present": [
+          "que je mange",
+          "que tu manges",
+          "qu'il/elle mange",
+          "que nous mangions",
+          "que vous mangiez",
+          "qu'ils/elles mangent"
+        ],
+        "imperatif": [
+          "mange !",
+          "mangeons !",
+          "mangez !"
+        ],
+        "part": [
+          "mangeant",
+          "mangé"
+        ],
+        "pqp": [
+          "j'avais mangé",
+          "tu avais mangé",
+          "il/elle avait mangé",
+          "nous avions mangé",
+          "vous aviez mangé",
+          "ils/elles avaient mangé"
+        ],
+        "fut_ant": [
+          "j'aurai mangé",
+          "tu auras mangé",
+          "il/elle aura mangé",
+          "nous aurons mangé",
+          "vous aurez mangé",
+          "ils/elles auront mangé"
+        ],
+        "cond_pass": [
+          "j'aurais mangé",
+          "tu aurais mangé",
+          "il/elle aurait mangé",
+          "nous aurions mangé",
+          "vous auriez mangé",
+          "ils/elles auraient mangé"
+        ],
+        "subj_pass": [
+          "que j'aie mangé",
+          "que tu aies mangé",
+          "qu'il/elle ait mangé",
+          "que nous ayons mangé",
+          "que vous ayez mangé",
+          "qu'ils/elles aient mangé"
+        ]
+      },
+      "irregular": false
+    }
+  }
+}

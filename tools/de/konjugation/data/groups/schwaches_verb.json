@@ -1,0 +1,4351 @@
+{
+  "group_name": "Schwaches Verb",
+  "verbs": {
+    "lernen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Sich Wissen oder Fähigkeiten aneignen.",
+      "antonyms": [
+        "vergessen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich lerne",
+          "du lernst",
+          "er/sie/es lernt",
+          "wir lernen",
+          "ihr lernt",
+          "sie lernen"
+        ],
+        "präteritum": [
+          "ich lernte",
+          "du lerntest",
+          "er/sie/es lernte",
+          "wir lernten",
+          "ihr lerntet",
+          "sie lernten"
+        ],
+        "perfekt": [
+          "ich habe gelernt",
+          "du hast gelernt",
+          "er/sie/es hat gelernt",
+          "wir haben gelernt",
+          "ihr habt gelernt",
+          "sie haben gelernt"
+        ],
+        "futur_1": [
+          "ich werde lernen",
+          "du wirst lernen",
+          "er/sie/es wird lernen",
+          "wir werden lernen",
+          "ihr werdet lernen",
+          "sie werden lernen"
+        ],
+        "konjunktiv_2": [
+          "ich würde lernen",
+          "du würdest lernen",
+          "er/sie/es würde lernen",
+          "wir würden lernen",
+          "ihr würdet lernen",
+          "sie würden lernen"
+        ],
+        "imperativ": [
+          "lerne!",
+          "lernt!"
+        ]
+      },
+      "examples": [
+        "Ich lerne jeden Tag Deutsch."
+      ]
+    },
+    "machen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas hervorbringen oder ausführen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich mache",
+          "du machst",
+          "er/sie/es macht",
+          "wir machen",
+          "ihr macht",
+          "sie machen"
+        ],
+        "präteritum": [
+          "ich machte",
+          "du machtest",
+          "er/sie/es machte",
+          "wir machten",
+          "ihr machtet",
+          "sie machten"
+        ],
+        "perfekt": [
+          "ich habe gemacht",
+          "du hast gemacht",
+          "er/sie/es hat gemacht",
+          "wir haben gemacht",
+          "ihr habt gemacht",
+          "sie haben gemacht"
+        ],
+        "futur_1": [
+          "ich werde machen",
+          "du wirst machen",
+          "er/sie/es wird machen",
+          "wir werden machen",
+          "ihr werdet machen",
+          "sie werden machen"
+        ],
+        "konjunktiv_2": [
+          "ich würde machen",
+          "du würdest machen",
+          "er/sie/es würde machen",
+          "wir würden machen",
+          "ihr würdet machen",
+          "sie würden machen"
+        ],
+        "imperativ": [
+          "mach!",
+          "macht!"
+        ]
+      },
+      "examples": [
+        "Wir machen unsere Hausaufgaben."
+      ]
+    },
+    "arbeiten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Beruflich tätig sein oder eine Aufgabe ausführen.",
+      "antonyms": [
+        "faulenzen",
+        "ruhen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich arbeite",
+          "du arbeitest",
+          "er/sie/es arbeitet",
+          "wir arbeiten",
+          "ihr arbeitet",
+          "sie arbeiten"
+        ],
+        "präteritum": [
+          "ich arbeitete",
+          "du arbeitetest",
+          "er/sie/es arbeitete",
+          "wir arbeiteten",
+          "ihr arbeitetet",
+          "sie arbeiteten"
+        ],
+        "perfekt": [
+          "ich habe gearbeitet",
+          "du hast gearbeitet",
+          "er/sie/es hat gearbeitet",
+          "wir haben gearbeitet",
+          "ihr habt gearbeitet",
+          "sie haben gearbeitet"
+        ],
+        "futur_1": [
+          "ich werde arbeiten",
+          "du wirst arbeiten",
+          "er/sie/es wird arbeiten",
+          "wir werden arbeiten",
+          "ihr werdet arbeiten",
+          "sie werden arbeiten"
+        ],
+        "konjunktiv_2": [
+          "ich würde arbeiten",
+          "du würdest arbeiten",
+          "er/sie/es würde arbeiten",
+          "wir würden arbeiten",
+          "ihr würdet arbeiten",
+          "sie würden arbeiten"
+        ],
+        "imperativ": [
+          "arbeite!",
+          "arbeitet!"
+        ]
+      },
+      "examples": [
+        "Er arbeitet in einer großen Firma."
+      ]
+    },
+    "wohnen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Seinen Wohnsitz an einem Ort haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wohne",
+          "du wohnst",
+          "er/sie/es wohnt",
+          "wir wohnen",
+          "ihr wohnt",
+          "sie wohnen"
+        ],
+        "präteritum": [
+          "ich wohnte",
+          "du wohntest",
+          "er/sie/es wohnte",
+          "wir wohnten",
+          "ihr wohntet",
+          "sie wohnten"
+        ],
+        "perfekt": [
+          "ich habe gewohnt",
+          "du hast gewohnt",
+          "er/sie/es hat gewohnt",
+          "wir haben gewohnt",
+          "ihr habt gewohnt",
+          "sie haben gewohnt"
+        ],
+        "futur_1": [
+          "ich werde wohnen",
+          "du wirst wohnen",
+          "er/sie/es wird wohnen",
+          "wir werden wohnen",
+          "ihr werdet wohnen",
+          "sie werden wohnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde wohnen",
+          "du würdest wohnen",
+          "er/sie/es würde wohnen",
+          "wir würden wohnen",
+          "ihr würdet wohnen",
+          "sie würden wohnen"
+        ],
+        "imperativ": [
+          "wohne!",
+          "wohnt!"
+        ]
+      },
+      "examples": [
+        "Wir wohnen seit drei Jahren in Berlin."
+      ]
+    },
+    "kaufen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Gegen Geld eine Ware erwerben.",
+      "antonyms": [
+        "verkaufen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich kaufe",
+          "du kaufst",
+          "er/sie/es kauft",
+          "wir kaufen",
+          "ihr kauft",
+          "sie kaufen"
+        ],
+        "präteritum": [
+          "ich kaufte",
+          "du kauftest",
+          "er/sie/es kaufte",
+          "wir kauften",
+          "ihr kauftet",
+          "sie kauften"
+        ],
+        "perfekt": [
+          "ich habe gekauft",
+          "du hast gekauft",
+          "er/sie/es hat gekauft",
+          "wir haben gekauft",
+          "ihr habt gekauft",
+          "sie haben gekauft"
+        ],
+        "futur_1": [
+          "ich werde kaufen",
+          "du wirst kaufen",
+          "er/sie/es wird kaufen",
+          "wir werden kaufen",
+          "ihr werdet kaufen",
+          "sie werden kaufen"
+        ],
+        "konjunktiv_2": [
+          "ich würde kaufen",
+          "du würdest kaufen",
+          "er/sie/es würde kaufen",
+          "wir würden kaufen",
+          "ihr würdet kaufen",
+          "sie würden kaufen"
+        ],
+        "imperativ": [
+          "kauf!",
+          "kauft!"
+        ]
+      },
+      "examples": [
+        "Ich kaufe im Supermarkt frisches Brot."
+      ]
+    },
+    "verkaufen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Eine Ware gegen Geld abgeben.",
+      "antonyms": [
+        "kaufen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich verkaufe",
+          "du verkaufst",
+          "er/sie/es verkauft",
+          "wir verkaufen",
+          "ihr verkauft",
+          "sie verkaufen"
+        ],
+        "präteritum": [
+          "ich verkaufte",
+          "du verkauftest",
+          "er/sie/es verkaufte",
+          "wir verkauften",
+          "ihr verkauftet",
+          "sie verkauften"
+        ],
+        "perfekt": [
+          "ich habe verkauft",
+          "du hast verkauft",
+          "er/sie/es hat verkauft",
+          "wir haben verkauft",
+          "ihr habt verkauft",
+          "sie haben verkauft"
+        ],
+        "futur_1": [
+          "ich werde verkaufen",
+          "du wirst verkaufen",
+          "er/sie/es wird verkaufen",
+          "wir werden verkaufen",
+          "ihr werdet verkaufen",
+          "sie werden verkaufen"
+        ],
+        "konjunktiv_2": [
+          "ich würde verkaufen",
+          "du würdest verkaufen",
+          "er/sie/es würde verkaufen",
+          "wir würden verkaufen",
+          "ihr würdet verkaufen",
+          "sie würden verkaufen"
+        ],
+        "imperativ": [
+          "verkauf!",
+          "verkauft!"
+        ]
+      },
+      "examples": [
+        "Er verkauft sein altes Auto."
+      ]
+    },
+    "spielen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Sich zum Vergnügen oder sportlich betätigen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich spiele",
+          "du spielst",
+          "er/sie/es spielt",
+          "wir spielen",
+          "ihr spielt",
+          "sie spielen"
+        ],
+        "präteritum": [
+          "ich spielte",
+          "du spieltest",
+          "er/sie/es spielte",
+          "wir spielten",
+          "ihr spieltet",
+          "sie spielten"
+        ],
+        "perfekt": [
+          "ich habe gespielt",
+          "du hast gespielt",
+          "er/sie/es hat gespielt",
+          "wir haben gespielt",
+          "ihr habt gespielt",
+          "sie haben gespielt"
+        ],
+        "futur_1": [
+          "ich werde spielen",
+          "du wirst spielen",
+          "er/sie/es wird spielen",
+          "wir werden spielen",
+          "ihr werdet spielen",
+          "sie werden spielen"
+        ],
+        "konjunktiv_2": [
+          "ich würde spielen",
+          "du würdest spielen",
+          "er/sie/es würde spielen",
+          "wir würden spielen",
+          "ihr würdet spielen",
+          "sie würden spielen"
+        ],
+        "imperativ": [
+          "spiel!",
+          "spielt!"
+        ]
+      },
+      "examples": [
+        "Die Kinder spielen gerne im Garten."
+      ]
+    },
+    "kochen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Speisen durch Erhitzen zubereiten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich koche",
+          "du kochst",
+          "er/sie/es kocht",
+          "wir kochen",
+          "ihr kocht",
+          "sie kochen"
+        ],
+        "präteritum": [
+          "ich kochte",
+          "du kochtest",
+          "er/sie/es kochte",
+          "wir kochten",
+          "ihr kochtet",
+          "sie kochten"
+        ],
+        "perfekt": [
+          "ich habe gekocht",
+          "du hast gekocht",
+          "er/sie/es hat gekocht",
+          "wir haben gekocht",
+          "ihr habt gekocht",
+          "sie haben gekocht"
+        ],
+        "futur_1": [
+          "ich werde kochen",
+          "du wirst kochen",
+          "er/sie/es wird kochen",
+          "wir werden kochen",
+          "ihr werdet kochen",
+          "sie werden kochen"
+        ],
+        "konjunktiv_2": [
+          "ich würde kochen",
+          "du würdest kochen",
+          "er/sie/es würde kochen",
+          "wir würden kochen",
+          "ihr würdet kochen",
+          "sie würden kochen"
+        ],
+        "imperativ": [
+          "koch!",
+          "kocht!"
+        ]
+      },
+      "examples": [
+        "Heute koche ich eine leckere Suppe."
+      ]
+    },
+    "brauchen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas nötig haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich brauche",
+          "du brauchst",
+          "er/sie/es braucht",
+          "wir brauchen",
+          "ihr braucht",
+          "sie brauchen"
+        ],
+        "präteritum": [
+          "ich brauchte",
+          "du brauchtest",
+          "er/sie/es brauchte",
+          "wir brauchten",
+          "ihr brauchtet",
+          "sie brauchten"
+        ],
+        "perfekt": [
+          "ich habe gebraucht",
+          "du hast gebraucht",
+          "er/sie/es hat gebraucht",
+          "wir haben gebraucht",
+          "ihr habt gebraucht",
+          "sie haben gebraucht"
+        ],
+        "futur_1": [
+          "ich werde brauchen",
+          "du wirst brauchen",
+          "er/sie/es wird brauchen",
+          "wir werden brauchen",
+          "ihr werdet brauchen",
+          "sie werden brauchen"
+        ],
+        "konjunktiv_2": [
+          "ich würde brauchen",
+          "du würdest brauchen",
+          "er/sie/es würde brauchen",
+          "wir würden brauchen",
+          "ihr würdet brauchen",
+          "sie würden brauchen"
+        ],
+        "imperativ": [
+          "brauch!",
+          "braucht!"
+        ]
+      },
+      "examples": [
+        "Ich brauche Hilfe bei dieser Aufgabe."
+      ]
+    },
+    "suchen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Versuchen, etwas oder jemanden zu finden.",
+      "antonyms": [
+        "finden"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich suche",
+          "du suchst",
+          "er/sie/es sucht",
+          "wir suchen",
+          "ihr sucht",
+          "sie suchen"
+        ],
+        "präteritum": [
+          "ich suchte",
+          "du suchtest",
+          "er/sie/es suchte",
+          "wir suchten",
+          "ihr suchtet",
+          "sie suchten"
+        ],
+        "perfekt": [
+          "ich habe gesucht",
+          "du hast gesucht",
+          "er/sie/es hat gesucht",
+          "wir haben gesucht",
+          "ihr habt gesucht",
+          "sie haben gesucht"
+        ],
+        "futur_1": [
+          "ich werde suchen",
+          "du wirst suchen",
+          "er/sie/es wird suchen",
+          "wir werden suchen",
+          "ihr werdet suchen",
+          "sie werden suchen"
+        ],
+        "konjunktiv_2": [
+          "ich würde suchen",
+          "du würdest suchen",
+          "er/sie/es würde suchen",
+          "wir würden suchen",
+          "ihr würdet suchen",
+          "sie würden suchen"
+        ],
+        "imperativ": [
+          "such!",
+          "sucht!"
+        ]
+      },
+      "examples": [
+        "Wir suchen unseren Schlüssel."
+      ]
+    },
+    "hören": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Geräusche oder Töne mit den Ohren wahrnehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich höre",
+          "du hörst",
+          "er/sie/es hört",
+          "wir hören",
+          "ihr hört",
+          "sie hören"
+        ],
+        "präteritum": [
+          "ich hörte",
+          "du hörtest",
+          "er/sie/es hörte",
+          "wir hörten",
+          "ihr hörtet",
+          "sie hörten"
+        ],
+        "perfekt": [
+          "ich habe gehört",
+          "du hast gehört",
+          "er/sie/es hat gehört",
+          "wir haben gehört",
+          "ihr habt gehört",
+          "sie haben gehört"
+        ],
+        "futur_1": [
+          "ich werde hören",
+          "du wirst hören",
+          "er/sie/es wird hören",
+          "wir werden hören",
+          "ihr werdet hören",
+          "sie werden hören"
+        ],
+        "konjunktiv_2": [
+          "ich würde hören",
+          "du würdest hören",
+          "er/sie/es würde hören",
+          "wir würden hören",
+          "ihr würdet hören",
+          "sie würden hören"
+        ],
+        "imperativ": [
+          "hör!",
+          "hört!"
+        ]
+      },
+      "examples": [
+        "Ich höre gerne Musik."
+      ]
+    },
+    "stellen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas in eine aufrechte Position bringen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich stelle",
+          "du stellst",
+          "er/sie/es stellt",
+          "wir stellen",
+          "ihr stellt",
+          "sie stellen"
+        ],
+        "präteritum": [
+          "ich stellte",
+          "du stelltest",
+          "er/sie/es stellte",
+          "wir stellten",
+          "ihr stelltet",
+          "sie stellten"
+        ],
+        "perfekt": [
+          "ich habe gestellt",
+          "du hast gestellt",
+          "er/sie/es hat gestellt",
+          "wir haben gestellt",
+          "ihr habt gestellt",
+          "sie haben gestellt"
+        ],
+        "futur_1": [
+          "ich werde stellen",
+          "du wirst stellen",
+          "er/sie/es wird stellen",
+          "wir werden stellen",
+          "ihr werdet stellen",
+          "sie werden stellen"
+        ],
+        "konjunktiv_2": [
+          "ich würde stellen",
+          "du würdest stellen",
+          "er/sie/es würde stellen",
+          "wir würden stellen",
+          "ihr würdet stellen",
+          "sie würden stellen"
+        ],
+        "imperativ": [
+          "stell!",
+          "stellt!"
+        ]
+      },
+      "examples": [
+        "Er stellt die Flasche in den Schrank."
+      ]
+    },
+    "setzen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Jemanden oder sich selbst irgendwohin setzen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich setze",
+          "du setzt",
+          "er/sie/es setzt",
+          "wir setzen",
+          "ihr setzt",
+          "sie setzen"
+        ],
+        "präteritum": [
+          "ich setzte",
+          "du setztest",
+          "er/sie/es setzte",
+          "wir setzten",
+          "ihr setztet",
+          "sie setzten"
+        ],
+        "perfekt": [
+          "ich habe gesetzt",
+          "du hast gesetzt",
+          "er/sie/es hat gesetzt",
+          "wir haben gesetzt",
+          "ihr habt gesetzt",
+          "sie haben gesetzt"
+        ],
+        "futur_1": [
+          "ich werde setzen",
+          "du wirst setzen",
+          "er/sie/es wird setzen",
+          "wir werden setzen",
+          "ihr werdet setzen",
+          "sie werden setzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde setzen",
+          "du würdest setzen",
+          "er/sie/es würde setzen",
+          "wir würden setzen",
+          "ihr würdet setzen",
+          "sie würden setzen"
+        ],
+        "imperativ": [
+          "setz!",
+          "setzt!"
+        ]
+      },
+      "examples": [
+        "Wir setzen uns auf den Stuhl."
+      ]
+    },
+    "legen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas in eine flache Lage bringen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich lege",
+          "du legst",
+          "er/sie/es legt",
+          "wir legen",
+          "ihr legt",
+          "sie legen"
+        ],
+        "präteritum": [
+          "ich legte",
+          "du legtest",
+          "er/sie/es legte",
+          "wir legten",
+          "ihr legtet",
+          "sie legten"
+        ],
+        "perfekt": [
+          "ich habe gelegt",
+          "du hast gelegt",
+          "er/sie/es hat gelegt",
+          "wir haben gelegt",
+          "ihr habt gelegt",
+          "sie haben gelegt"
+        ],
+        "futur_1": [
+          "ich werde legen",
+          "du wirst legen",
+          "er/sie/es wird legen",
+          "wir werden legen",
+          "ihr werdet legen",
+          "sie werden legen"
+        ],
+        "konjunktiv_2": [
+          "ich würde legen",
+          "du würdest legen",
+          "er/sie/es würde legen",
+          "wir würden legen",
+          "ihr würdet legen",
+          "sie würden legen"
+        ],
+        "imperativ": [
+          "leg!",
+          "legt!"
+        ]
+      },
+      "examples": [
+        "Sie legt den Schlüssel auf den Tisch."
+      ]
+    },
+    "aufhören": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Mit einer Tätigkeit beenden.",
+      "antonyms": [
+        "anfangen",
+        "beginnen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich höre auf",
+          "du hörst auf",
+          "er/sie/es hört auf",
+          "wir hören auf",
+          "ihr hört auf",
+          "sie hören auf"
+        ],
+        "präteritum": [
+          "ich hörte auf",
+          "du hörtest auf",
+          "er/sie/es hörte auf",
+          "wir hörten auf",
+          "ihr hörtet auf",
+          "sie hörten auf"
+        ],
+        "perfekt": [
+          "ich habe aufgehört",
+          "du hast aufgehört",
+          "er/sie/es hat aufgehört",
+          "wir haben aufgehört",
+          "ihr habt aufgehört",
+          "sie haben aufgehört"
+        ],
+        "futur_1": [
+          "ich werde aufhören",
+          "du wirst aufhören",
+          "er/sie/es wird aufhören",
+          "wir werden aufhören",
+          "ihr werdet aufhören",
+          "sie werden aufhören"
+        ],
+        "konjunktiv_2": [
+          "ich würde aufhören",
+          "du würdest aufhören",
+          "er/sie/es würde aufhören",
+          "wir würden aufhören",
+          "ihr würdet aufhören",
+          "sie würden aufhören"
+        ],
+        "imperativ": [
+          "hör auf!",
+          "hört auf!"
+        ]
+      },
+      "examples": [
+        "Es hört endlich auf zu regnen."
+      ]
+    },
+    "öffnen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas Geschlossenes aufmachen.",
+      "antonyms": [
+        "schließen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich öffne",
+          "du öffnest",
+          "er/sie/es öffnet",
+          "wir öffnen",
+          "ihr öffnet",
+          "sie öffnen"
+        ],
+        "präteritum": [
+          "ich öffnete",
+          "du öffnetest",
+          "er/sie/es öffnete",
+          "wir öffneten",
+          "ihr öffnetet",
+          "sie öffneten"
+        ],
+        "perfekt": [
+          "ich habe geöffnet",
+          "du hast geöffnet",
+          "er/sie/es hat geöffnet",
+          "wir haben geöffnet",
+          "ihr habt geöffnet",
+          "sie haben geöffnet"
+        ],
+        "futur_1": [
+          "ich werde öffnen",
+          "du wirst öffnen",
+          "er/sie/es wird öffnen",
+          "wir werden öffnen",
+          "ihr werdet öffnen",
+          "sie werden öffnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde öffnen",
+          "du würdest öffnen",
+          "er/sie/es würde öffnen",
+          "wir würden öffnen",
+          "ihr würdet öffnen",
+          "sie würden öffnen"
+        ],
+        "imperativ": [
+          "öffne!",
+          "öffnet!"
+        ]
+      },
+      "examples": [
+        "Er öffnet das Fenster."
+      ]
+    },
+    "bezahlen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Geld für eine Ware oder Dienstleistung geben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bezahle",
+          "du bezahlst",
+          "er/sie/es bezahlt",
+          "wir bezahlen",
+          "ihr bezahlt",
+          "sie bezahlen"
+        ],
+        "präteritum": [
+          "ich bezahlte",
+          "du bezahltest",
+          "er/sie/es bezahlte",
+          "wir bezahlten",
+          "ihr bezahltet",
+          "sie bezahlten"
+        ],
+        "perfekt": [
+          "ich habe bezahlt",
+          "du hast bezahlt",
+          "er/sie/es hat bezahlt",
+          "wir haben bezahlt",
+          "ihr habt bezahlt",
+          "sie haben bezahlt"
+        ],
+        "futur_1": [
+          "ich werde bezahlen",
+          "du wirst bezahlen",
+          "er/sie/es wird bezahlen",
+          "wir werden bezahlen",
+          "ihr werdet bezahlen",
+          "sie werden bezahlen"
+        ],
+        "konjunktiv_2": [
+          "ich würde bezahlen",
+          "du würdest bezahlen",
+          "er/sie/es würde bezahlen",
+          "wir würden bezahlen",
+          "ihr würdet bezahlen",
+          "sie würden bezahlen"
+        ],
+        "imperativ": [
+          "bezahl!",
+          "bezahlt!"
+        ]
+      },
+      "examples": [
+        "Ich bezahle die Rechnung bar."
+      ]
+    },
+    "bestellen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas zur Lieferung oder Bereitstellung anfordern.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bestelle",
+          "du bestellst",
+          "er/sie/es bestellt",
+          "wir bestellen",
+          "ihr bestellt",
+          "sie bestellen"
+        ],
+        "präteritum": [
+          "ich bestellte",
+          "du bestelltest",
+          "er/sie/es bestellte",
+          "wir bestellten",
+          "ihr bestelltet",
+          "sie bestellten"
+        ],
+        "perfekt": [
+          "ich habe bestellt",
+          "du hast bestellt",
+          "er/sie/es hat bestellt",
+          "wir haben bestellt",
+          "ihr habt bestellt",
+          "sie haben bestellt"
+        ],
+        "futur_1": [
+          "ich werde bestellen",
+          "du wirst bestellen",
+          "er/sie/es wird bestellen",
+          "wir werden bestellen",
+          "ihr werdet bestellen",
+          "sie werden bestellen"
+        ],
+        "konjunktiv_2": [
+          "ich würde bestellen",
+          "du würdest bestellen",
+          "er/sie/es würde bestellen",
+          "wir würden bestellen",
+          "ihr würdet bestellen",
+          "sie würden bestellen"
+        ],
+        "imperativ": [
+          "bestell!",
+          "bestellt!"
+        ]
+      },
+      "examples": [
+        "Wir bestellen eine Pizza."
+      ]
+    },
+    "kosten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Einen bestimmten Preis haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich koste",
+          "du kostest",
+          "er/sie/es kostet",
+          "wir kosten",
+          "ihr kostet",
+          "sie kosten"
+        ],
+        "präteritum": [
+          "ich kostete",
+          "du kostetest",
+          "er/sie/es kostete",
+          "wir kosteten",
+          "ihr kostetet",
+          "sie kosteten"
+        ],
+        "perfekt": [
+          "ich habe gekostet",
+          "du hast gekostet",
+          "er/sie/es hat gekostet",
+          "wir haben gekostet",
+          "ihr habt gekostet",
+          "sie haben gekostet"
+        ],
+        "futur_1": [
+          "ich werde kosten",
+          "du wirst kosten",
+          "er/sie/es wird kosten",
+          "wir werden kosten",
+          "ihr werdet kosten",
+          "sie werden kosten"
+        ],
+        "konjunktiv_2": [
+          "ich würde kosten",
+          "du würdest kosten",
+          "er/sie/es würde kosten",
+          "wir würden kosten",
+          "ihr würdet kosten",
+          "sie würden kosten"
+        ],
+        "imperativ": [
+          "koste!",
+          "kostet!"
+        ]
+      },
+      "examples": [
+        "Das Buch kostet fünfzehn Euro."
+      ]
+    },
+    "fragen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Eine Frage an jemanden richten.",
+      "antonyms": [
+        "antworten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich frage",
+          "du fragst",
+          "er/sie/es fragt",
+          "wir fragen",
+          "ihr fragt",
+          "sie fragen"
+        ],
+        "präteritum": [
+          "ich fragte",
+          "du fragtest",
+          "er/sie/es fragte",
+          "wir fragten",
+          "ihr fragtet",
+          "sie fragten"
+        ],
+        "perfekt": [
+          "ich habe gefragt",
+          "du hast gefragt",
+          "er/sie/es hat gefragt",
+          "wir haben gefragt",
+          "ihr habt gefragt",
+          "sie haben gefragt"
+        ],
+        "futur_1": [
+          "ich werde fragen",
+          "du wirst fragen",
+          "er/sie/es wird fragen",
+          "wir werden fragen",
+          "ihr werdet fragen",
+          "sie werden fragen"
+        ],
+        "konjunktiv_2": [
+          "ich würde fragen",
+          "du würdest fragen",
+          "er/sie/es würde fragen",
+          "wir würden fragen",
+          "ihr würdet fragen",
+          "sie würden fragen"
+        ],
+        "imperativ": [
+          "frag!",
+          "fragt!"
+        ]
+      },
+      "examples": [
+        "Er fragt nach dem Weg."
+      ]
+    },
+    "antworten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Eine Antwort auf eine Frage geben.",
+      "antonyms": [
+        "fragen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich antworte",
+          "du antwortest",
+          "er/sie/es antwortet",
+          "wir antworten",
+          "ihr antwortet",
+          "sie antworten"
+        ],
+        "präteritum": [
+          "ich antwortete",
+          "du antwortetest",
+          "er/sie/es antwortete",
+          "wir antworteten",
+          "ihr antwortetet",
+          "sie antworteten"
+        ],
+        "perfekt": [
+          "ich habe geantwortet",
+          "du hast geantwortet",
+          "er/sie/es hat geantwortet",
+          "wir haben geantwortet",
+          "ihr habt geantwortet",
+          "sie haben geantwortet"
+        ],
+        "futur_1": [
+          "ich werde antworten",
+          "du wirst antworten",
+          "er/sie/es wird antworten",
+          "wir werden antworten",
+          "ihr werdet antworten",
+          "sie werden antworten"
+        ],
+        "konjunktiv_2": [
+          "ich würde antworten",
+          "du würdest antworten",
+          "er/sie/es würde antworten",
+          "wir würden antworten",
+          "ihr würdet antworten",
+          "sie würden antworten"
+        ],
+        "imperativ": [
+          "antworte!",
+          "antwortet!"
+        ]
+      },
+      "examples": [
+        "Sie antwortet freundlich auf die E-Mail."
+      ]
+    },
+    "danken": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Dank zum Ausdruck bringen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich danke",
+          "du dankst",
+          "er/sie/es dankt",
+          "wir danken",
+          "ihr dankt",
+          "sie danken"
+        ],
+        "präteritum": [
+          "ich dankte",
+          "du danktest",
+          "er/sie/es dankte",
+          "wir dankten",
+          "ihr danktet",
+          "sie dankten"
+        ],
+        "perfekt": [
+          "ich habe gedankt",
+          "du hast gedankt",
+          "er/sie/es hat gedankt",
+          "wir haben gedankt",
+          "ihr habt gedankt",
+          "sie haben gedankt"
+        ],
+        "futur_1": [
+          "ich werde danken",
+          "du wirst danken",
+          "er/sie/es wird danken",
+          "wir werden danken",
+          "ihr werdet danken",
+          "sie werden danken"
+        ],
+        "konjunktiv_2": [
+          "ich würde danken",
+          "du würdest danken",
+          "er/sie/es würde danken",
+          "wir würden danken",
+          "ihr würdet danken",
+          "sie würden danken"
+        ],
+        "imperativ": [
+          "dank!",
+          "dankt!"
+        ]
+      },
+      "examples": [
+        "Ich danke dir für deine Hilfe."
+      ]
+    },
+    "sagen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Worte sprechen oder mitteilen.",
+      "antonyms": [
+        "schweigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich sage",
+          "du sagst",
+          "er/sie/es sagt",
+          "wir sagen",
+          "ihr sagt",
+          "sie sagen"
+        ],
+        "präteritum": [
+          "ich sagte",
+          "du sagtest",
+          "er/sie/es sagte",
+          "wir sagten",
+          "ihr sagtet",
+          "sie sagten"
+        ],
+        "perfekt": [
+          "ich habe gesagt",
+          "du hast gesagt",
+          "er/sie/es hat gesagt",
+          "wir haben gesagt",
+          "ihr habt gesagt",
+          "sie haben gesagt"
+        ],
+        "futur_1": [
+          "ich werde sagen",
+          "du wirst sagen",
+          "er/sie/es wird sagen",
+          "wir werden sagen",
+          "ihr werdet sagen",
+          "sie werden sagen"
+        ],
+        "konjunktiv_2": [
+          "ich würde sagen",
+          "du würdest sagen",
+          "er/sie/es würde sagen",
+          "wir würden sagen",
+          "ihr würdet sagen",
+          "sie würden sagen"
+        ],
+        "imperativ": [
+          "sag!",
+          "sagt!"
+        ]
+      },
+      "examples": [
+        "Was sagst du dazu?"
+      ]
+    },
+    "erzählen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Eine Geschichte oder Begebenheit berichten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich erzähle",
+          "du erzählst",
+          "er/sie/es erzählt",
+          "wir erzählen",
+          "ihr erzählt",
+          "sie erzählen"
+        ],
+        "präteritum": [
+          "ich erzählte",
+          "du erzähltest",
+          "er/sie/es erzählte",
+          "wir erzählten",
+          "ihr erzähltet",
+          "sie erzählten"
+        ],
+        "perfekt": [
+          "ich habe erzählt",
+          "du hast erzählt",
+          "er/sie/es hat erzählt",
+          "wir haben erzählt",
+          "ihr habt erzählt",
+          "sie haben erzählt"
+        ],
+        "futur_1": [
+          "ich werde erzählen",
+          "du wirst erzählen",
+          "er/sie/es wird erzählen",
+          "wir werden erzählen",
+          "ihr werdet erzählen",
+          "sie werden erzählen"
+        ],
+        "konjunktiv_2": [
+          "ich würde erzählen",
+          "du würdest erzählen",
+          "er/sie/es würde erzählen",
+          "wir würden erzählen",
+          "ihr würdet erzählen",
+          "sie würden erzählen"
+        ],
+        "imperativ": [
+          "erzähl!",
+          "erzählt!"
+        ]
+      },
+      "examples": [
+        "Oma erzählt den Kindern ein Märchen."
+      ]
+    },
+    "glauben": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas für wahr oder wahrscheinlich halten.",
+      "antonyms": [
+        "bezweifeln"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich glaube",
+          "du glaubst",
+          "er/sie/es glaubt",
+          "wir glauben",
+          "ihr glaubt",
+          "sie glauben"
+        ],
+        "präteritum": [
+          "ich glaubte",
+          "du glaubtest",
+          "er/sie/es glaubte",
+          "wir glaubten",
+          "ihr glaubtet",
+          "sie glaubten"
+        ],
+        "perfekt": [
+          "ich habe geglaubt",
+          "du hast geglaubt",
+          "er/sie/es hat geglaubt",
+          "wir haben geglaubt",
+          "ihr habt geglaubt",
+          "sie haben geglaubt"
+        ],
+        "futur_1": [
+          "ich werde glauben",
+          "du wirst glauben",
+          "er/sie/es wird glauben",
+          "wir werden glauben",
+          "ihr werdet glauben",
+          "sie werden glauben"
+        ],
+        "konjunktiv_2": [
+          "ich würde glauben",
+          "du würdest glauben",
+          "er/sie/es würde glauben",
+          "wir würden glauben",
+          "ihr würdet glauben",
+          "sie würden glauben"
+        ],
+        "imperativ": [
+          "glaub!",
+          "glaubt!"
+        ]
+      },
+      "examples": [
+        "Ich glaube, das ist richtig."
+      ]
+    },
+    "hoffen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Den Wunsch haben, dass etwas Erwünschtes eintrifft.",
+      "antonyms": [
+        "befürchten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich hoffe",
+          "du hoffst",
+          "er/sie/es hofft",
+          "wir hoffen",
+          "ihr hofft",
+          "sie hoffen"
+        ],
+        "präteritum": [
+          "ich hoffte",
+          "du hofftest",
+          "er/sie/es hoffte",
+          "wir hofften",
+          "ihr hofftet",
+          "sie hofften"
+        ],
+        "perfekt": [
+          "ich habe gehofft",
+          "du hast gehofft",
+          "er/sie/es hat gehofft",
+          "wir haben gehofft",
+          "ihr habt gehofft",
+          "sie haben gehofft"
+        ],
+        "futur_1": [
+          "ich werde hoffen",
+          "du wirst hoffen",
+          "er/sie/es wird hoffen",
+          "wir werden hoffen",
+          "ihr werdet hoffen",
+          "sie werden hoffen"
+        ],
+        "konjunktiv_2": [
+          "ich würde hoffen",
+          "du würdest hoffen",
+          "er/sie/es würde hoffen",
+          "wir würden hoffen",
+          "ihr würdet hoffen",
+          "sie würden hoffen"
+        ],
+        "imperativ": [
+          "hoff!",
+          "hofft!"
+        ]
+      },
+      "examples": [
+        "Wir hoffen auf schönes Wetter."
+      ]
+    },
+    "lachen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Freude oder Erheiterung durch Laute zeigen.",
+      "antonyms": [
+        "weinen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich lache",
+          "du lachst",
+          "er/sie/es lacht",
+          "wir lachen",
+          "ihr lacht",
+          "sie lachen"
+        ],
+        "präteritum": [
+          "ich lachte",
+          "du lachtest",
+          "er/sie/es lachte",
+          "wir lachten",
+          "ihr lachtet",
+          "sie lachten"
+        ],
+        "perfekt": [
+          "ich habe gelacht",
+          "du hast gelacht",
+          "er/sie/es hat gelacht",
+          "wir haben gelacht",
+          "ihr habt gelacht",
+          "sie haben gelacht"
+        ],
+        "futur_1": [
+          "ich werde lachen",
+          "du wirst lachen",
+          "er/sie/es wird lachen",
+          "wir werden lachen",
+          "ihr werdet lachen",
+          "sie werden lachen"
+        ],
+        "konjunktiv_2": [
+          "ich würde lachen",
+          "du würdest lachen",
+          "er/sie/es würde lachen",
+          "wir würden lachen",
+          "ihr würdet lachen",
+          "sie würden lachen"
+        ],
+        "imperativ": [
+          "lach!",
+          "lacht!"
+        ]
+      },
+      "examples": [
+        "Alle lachen über den Witz."
+      ]
+    },
+    "weinen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Tränen vergießen aus Trauer oder Schmerz.",
+      "antonyms": [
+        "lachen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich weine",
+          "du weinst",
+          "er/sie/es weint",
+          "wir weinen",
+          "ihr weint",
+          "sie weinen"
+        ],
+        "präteritum": [
+          "ich weinte",
+          "du weintest",
+          "er/sie/es weinte",
+          "wir weinten",
+          "ihr weintet",
+          "sie weinten"
+        ],
+        "perfekt": [
+          "ich habe geweint",
+          "du hast geweint",
+          "er/sie/es hat geweint",
+          "wir haben geweint",
+          "ihr habt geweint",
+          "sie haben geweint"
+        ],
+        "futur_1": [
+          "ich werde weinen",
+          "du wirst weinen",
+          "er/sie/es wird weinen",
+          "wir werden weinen",
+          "ihr werdet weinen",
+          "sie werden weinen"
+        ],
+        "konjunktiv_2": [
+          "ich würde weinen",
+          "du würdest weinen",
+          "er/sie/es würde weinen",
+          "wir würden weinen",
+          "ihr würdet weinen",
+          "sie würden weinen"
+        ],
+        "imperativ": [
+          "wein!",
+          "weint!"
+        ]
+      },
+      "examples": [
+        "Das kleine Kind weint leise."
+      ]
+    },
+    "tanzen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Rhythmische Bewegungen zur Musik ausführen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich tanze",
+          "du tanzt",
+          "er/sie/es tanzt",
+          "wir tanzen",
+          "ihr tanzt",
+          "sie tanzen"
+        ],
+        "präteritum": [
+          "ich tanzte",
+          "du tanztest",
+          "er/sie/es tanzte",
+          "wir tanzten",
+          "ihr tanztet",
+          "sie tanzten"
+        ],
+        "perfekt": [
+          "ich habe getanzt",
+          "du hast getanzt",
+          "er/sie/es hat getanzt",
+          "wir haben getanzt",
+          "ihr habt getanzt",
+          "sie haben getanzt"
+        ],
+        "futur_1": [
+          "ich werde tanzen",
+          "du wirst tanzen",
+          "er/sie/es wird tanzen",
+          "wir werden tanzen",
+          "ihr werdet tanzen",
+          "sie werden tanzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde tanzen",
+          "du würdest tanzen",
+          "er/sie/es würde tanzen",
+          "wir würden tanzen",
+          "ihr würdet tanzen",
+          "sie würden tanzen"
+        ],
+        "imperativ": [
+          "tanz!",
+          "tanzt!"
+        ]
+      },
+      "examples": [
+        "Sie tanzen gern auf Partys."
+      ]
+    },
+    "malen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Bilder mit Farben gestalten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich male",
+          "du malst",
+          "er/sie/es malt",
+          "wir malen",
+          "ihr malt",
+          "sie malen"
+        ],
+        "präteritum": [
+          "ich malte",
+          "du maltest",
+          "er/sie/es malte",
+          "wir malten",
+          "ihr maltet",
+          "sie malten"
+        ],
+        "perfekt": [
+          "ich habe gemalt",
+          "du hast gemalt",
+          "er/sie/es hat gemalt",
+          "wir haben gemalt",
+          "ihr habt gemalt",
+          "sie haben gemalt"
+        ],
+        "futur_1": [
+          "ich werde malen",
+          "du wirst malen",
+          "er/sie/es wird malen",
+          "wir werden malen",
+          "ihr werdet malen",
+          "sie werden malen"
+        ],
+        "konjunktiv_2": [
+          "ich würde malen",
+          "du würdest malen",
+          "er/sie/es würde malen",
+          "wir würden malen",
+          "ihr würdet malen",
+          "sie würden malen"
+        ],
+        "imperativ": [
+          "mal!",
+          "malt!"
+        ]
+      },
+      "examples": [
+        "Das Kind malt ein buntes Bild."
+      ]
+    },
+    "zeichnen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Bilder mit Stiften oder Linien gestalten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich zeichne",
+          "du zeichnest",
+          "er/sie/es zeichnet",
+          "wir zeichnen",
+          "ihr zeichnet",
+          "sie zeichnen"
+        ],
+        "präteritum": [
+          "ich zeichnete",
+          "du zeichnetest",
+          "er/sie/es zeichnete",
+          "wir zeichneten",
+          "ihr zeichnetet",
+          "sie zeichneten"
+        ],
+        "perfekt": [
+          "ich habe gezeichnet",
+          "du hast gezeichnet",
+          "er/sie/es hat gezeichnet",
+          "wir haben gezeichnet",
+          "ihr habt gezeichnet",
+          "sie haben gezeichnet"
+        ],
+        "futur_1": [
+          "ich werde zeichnen",
+          "du wirst zeichnen",
+          "er/sie/es wird zeichnen",
+          "wir werden zeichnen",
+          "ihr werdet zeichnen",
+          "sie werden zeichnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde zeichnen",
+          "du würdest zeichnen",
+          "er/sie/es würde zeichnen",
+          "wir würden zeichnen",
+          "ihr würdet zeichnen",
+          "sie würden zeichnen"
+        ],
+        "imperativ": [
+          "zeichne!",
+          "zeichnet!"
+        ]
+      },
+      "examples": [
+        "Er zeichnet ein Haus auf das Papier."
+      ]
+    },
+    "besuchen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Zu jemandem gehen, um Zeit miteinander zu verbringen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich besuche",
+          "du besuchst",
+          "er/sie/es besucht",
+          "wir besuchen",
+          "ihr besucht",
+          "sie besuchen"
+        ],
+        "präteritum": [
+          "ich besuchte",
+          "du besuchtest",
+          "er/sie/es besuchte",
+          "wir besuchten",
+          "ihr besuchtet",
+          "sie besuchten"
+        ],
+        "perfekt": [
+          "ich habe besucht",
+          "du hast besucht",
+          "er/sie/es hat besucht",
+          "wir haben besucht",
+          "ihr habt besucht",
+          "sie haben besucht"
+        ],
+        "futur_1": [
+          "ich werde besuchen",
+          "du wirst besuchen",
+          "er/sie/es wird besuchen",
+          "wir werden besuchen",
+          "ihr werdet besuchen",
+          "sie werden besuchen"
+        ],
+        "konjunktiv_2": [
+          "ich würde besuchen",
+          "du würdest besuchen",
+          "er/sie/es würde besuchen",
+          "wir würden besuchen",
+          "ihr würdet besuchen",
+          "sie würden besuchen"
+        ],
+        "imperativ": [
+          "besuch!",
+          "besucht!"
+        ]
+      },
+      "examples": [
+        "Am Wochenende besuche ich meine Großeltern."
+      ]
+    },
+    "duschen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Sich unter der Dusche waschen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich dusche",
+          "du duschst",
+          "er/sie/es duscht",
+          "wir duschen",
+          "ihr duscht",
+          "sie duschen"
+        ],
+        "präteritum": [
+          "ich duschte",
+          "du duschtest",
+          "er/sie/es duschte",
+          "wir duschten",
+          "ihr duschtet",
+          "sie duschten"
+        ],
+        "perfekt": [
+          "ich habe geduscht",
+          "du hast geduscht",
+          "er/sie/es hat geduscht",
+          "wir haben geduscht",
+          "ihr habt geduscht",
+          "sie haben geduscht"
+        ],
+        "futur_1": [
+          "ich werde duschen",
+          "du wirst duschen",
+          "er/sie/es wird duschen",
+          "wir werden duschen",
+          "ihr werdet duschen",
+          "sie werden duschen"
+        ],
+        "konjunktiv_2": [
+          "ich würde duschen",
+          "du würdest duschen",
+          "er/sie/es würde duschen",
+          "wir würden duschen",
+          "ihr würdet duschen",
+          "sie würden duschen"
+        ],
+        "imperativ": [
+          "dusch!",
+          "duscht!"
+        ]
+      },
+      "examples": [
+        "Nach dem Sport dusche ich warm."
+      ]
+    },
+    "putzen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Schmutz entfernen, säubern.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich putze",
+          "du putzt",
+          "er/sie/es putzt",
+          "wir putzen",
+          "ihr putzt",
+          "sie putzen"
+        ],
+        "präteritum": [
+          "ich putzte",
+          "du putztest",
+          "er/sie/es putzte",
+          "wir putzten",
+          "ihr putztet",
+          "sie putzten"
+        ],
+        "perfekt": [
+          "ich habe geputzt",
+          "du hast geputzt",
+          "er/sie/es hat geputzt",
+          "wir haben geputzt",
+          "ihr habt geputzt",
+          "sie haben geputzt"
+        ],
+        "futur_1": [
+          "ich werde putzen",
+          "du wirst putzen",
+          "er/sie/es wird putzen",
+          "wir werden putzen",
+          "ihr werdet putzen",
+          "sie werden putzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde putzen",
+          "du würdest putzen",
+          "er/sie/es würde putzen",
+          "wir würden putzen",
+          "ihr würdet putzen",
+          "sie würden putzen"
+        ],
+        "imperativ": [
+          "putz!",
+          "putzt!"
+        ]
+      },
+      "examples": [
+        "Ich putze jeden Tag meine Zähne."
+      ]
+    },
+    "aufräumen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Dinge an ihren ordnungsgemäßen Platz bringen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich räume auf",
+          "du räumst auf",
+          "er/sie/es räumt auf",
+          "wir räumen auf",
+          "ihr räumt auf",
+          "sie räumen auf"
+        ],
+        "präteritum": [
+          "ich räumte auf",
+          "du räumtest auf",
+          "er/sie/es räumte auf",
+          "wir räumten auf",
+          "ihr räumtet auf",
+          "sie räumten auf"
+        ],
+        "perfekt": [
+          "ich habe aufgeräumt",
+          "du hast aufgeräumt",
+          "er/sie/es hat aufgeräumt",
+          "wir haben aufgeräumt",
+          "ihr habt aufgeräumt",
+          "sie haben aufgeräumt"
+        ],
+        "futur_1": [
+          "ich werde aufräumen",
+          "du wirst aufräumen",
+          "er/sie/es wird aufräumen",
+          "wir werden aufräumen",
+          "ihr werdet aufräumen",
+          "sie werden aufräumen"
+        ],
+        "konjunktiv_2": [
+          "ich würde aufräumen",
+          "du würdest aufräumen",
+          "er/sie/es würde aufräumen",
+          "wir würden aufräumen",
+          "ihr würdet aufräumen",
+          "sie würden aufräumen"
+        ],
+        "imperativ": [
+          "räum auf!",
+          "räumt auf!"
+        ]
+      },
+      "examples": [
+        "Am Samstag räumen wir die Wohnung auf."
+      ]
+    },
+    "schmecken": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Einen Geschmack im Mund empfinden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schmecke",
+          "du schmeckst",
+          "er/sie/es schmeckt",
+          "wir schmecken",
+          "ihr schmeckt",
+          "sie schmecken"
+        ],
+        "präteritum": [
+          "ich schmeckte",
+          "du schmecktest",
+          "er/sie/es schmeckte",
+          "wir schmeckten",
+          "ihr schmecktet",
+          "sie schmeckten"
+        ],
+        "perfekt": [
+          "ich habe geschmeckt",
+          "du hast geschmeckt",
+          "er/sie/es hat geschmeckt",
+          "wir haben geschmeckt",
+          "ihr habt geschmeckt",
+          "sie haben geschmeckt"
+        ],
+        "futur_1": [
+          "ich werde schmecken",
+          "du wirst schmecken",
+          "er/sie/es wird schmecken",
+          "wir werden schmecken",
+          "ihr werdet schmecken",
+          "sie werden schmecken"
+        ],
+        "konjunktiv_2": [
+          "ich würde schmecken",
+          "du würdest schmecken",
+          "er/sie/es würde schmecken",
+          "wir würden schmecken",
+          "ihr würdet schmecken",
+          "sie würden schmecken"
+        ],
+        "imperativ": [
+          "schmeck!",
+          "schmeckt!"
+        ]
+      },
+      "examples": [
+        "Das Essen schmeckt hervorragend."
+      ]
+    },
+    "schauen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Den Blick auf etwas richten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schaue",
+          "du schaust",
+          "er/sie/es schaut",
+          "wir schauen",
+          "ihr schaut",
+          "sie schauen"
+        ],
+        "präteritum": [
+          "ich schaute",
+          "du schautest",
+          "er/sie/es schaute",
+          "wir schauten",
+          "ihr schautet",
+          "sie schauten"
+        ],
+        "perfekt": [
+          "ich habe geschaut",
+          "du hast geschaut",
+          "er/sie/es hat geschaut",
+          "wir haben geschaut",
+          "ihr habt geschaut",
+          "sie haben geschaut"
+        ],
+        "futur_1": [
+          "ich werde schauen",
+          "du wirst schauen",
+          "er/sie/es wird schauen",
+          "wir werden schauen",
+          "ihr werdet schauen",
+          "sie werden schauen"
+        ],
+        "konjunktiv_2": [
+          "ich würde schauen",
+          "du würdest schauen",
+          "er/sie/es würde schauen",
+          "wir würden schauen",
+          "ihr würdet schauen",
+          "sie würden schauen"
+        ],
+        "imperativ": [
+          "schau!",
+          "schaut!"
+        ]
+      },
+      "examples": [
+        "Wir schauen aus dem Fenster."
+      ]
+    },
+    "zeigen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas sichtbar machen oder darauf hinweisen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich zeige",
+          "du zeigst",
+          "er/sie/es zeigt",
+          "wir zeigen",
+          "ihr zeigt",
+          "sie zeigen"
+        ],
+        "präteritum": [
+          "ich zeigte",
+          "du zeigtest",
+          "er/sie/es zeigte",
+          "wir zeigten",
+          "ihr zeigtet",
+          "sie zeigten"
+        ],
+        "perfekt": [
+          "ich habe gezeigt",
+          "du hast gezeigt",
+          "er/sie/es hat gezeigt",
+          "wir haben gezeigt",
+          "ihr habt gezeigt",
+          "sie haben gezeigt"
+        ],
+        "futur_1": [
+          "ich werde zeigen",
+          "du wirst zeigen",
+          "er/sie/es wird zeigen",
+          "wir werden zeigen",
+          "ihr werdet zeigen",
+          "sie werden zeigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde zeigen",
+          "du würdest zeigen",
+          "er/sie/es würde zeigen",
+          "wir würden zeigen",
+          "ihr würdet zeigen",
+          "sie würden zeigen"
+        ],
+        "imperativ": [
+          "zeig!",
+          "zeigt!"
+        ]
+      },
+      "examples": [
+        "Er zeigt mir seine neuen Fotos."
+      ]
+    },
+    "erklären": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas verständlich machen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich erkläre",
+          "du erklärst",
+          "er/sie/es erklärt",
+          "wir erklären",
+          "ihr erklärt",
+          "sie erklären"
+        ],
+        "präteritum": [
+          "ich erklärte",
+          "du erklärtest",
+          "er/sie/es erklärte",
+          "wir erklärten",
+          "ihr erklärtet",
+          "sie erklärten"
+        ],
+        "perfekt": [
+          "ich habe erklärt",
+          "du hast erklärt",
+          "er/sie/es hat erklärt",
+          "wir haben erklärt",
+          "ihr habt erklärt",
+          "sie haben erklärt"
+        ],
+        "futur_1": [
+          "ich werde erklären",
+          "du wirst erklären",
+          "er/sie/es wird erklären",
+          "wir werden erklären",
+          "ihr werdet erklären",
+          "sie werden erklären"
+        ],
+        "konjunktiv_2": [
+          "ich würde erklären",
+          "du würdest erklären",
+          "er/sie/es würde erklären",
+          "wir würden erklären",
+          "ihr würdet erklären",
+          "sie würden erklären"
+        ],
+        "imperativ": [
+          "erklär!",
+          "erklärt!"
+        ]
+      },
+      "examples": [
+        "Die Lehrerin erklärt die Aufgabe."
+      ]
+    },
+    "erinnern": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Sich etwas ins Gedächtnis zurückrufen.",
+      "antonyms": [
+        "vergessen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich erinnere",
+          "du erinnerst",
+          "er/sie/es erinnert",
+          "wir erinnern",
+          "ihr erinnert",
+          "sie erinnern"
+        ],
+        "präteritum": [
+          "ich erinnerte",
+          "du erinnertest",
+          "er/sie/es erinnerte",
+          "wir erinnerten",
+          "ihr erinnertet",
+          "sie erinnerten"
+        ],
+        "perfekt": [
+          "ich habe erinnert",
+          "du hast erinnert",
+          "er/sie/es hat erinnert",
+          "wir haben erinnert",
+          "ihr habt erinnert",
+          "sie haben erinnert"
+        ],
+        "futur_1": [
+          "ich werde erinnern",
+          "du wirst erinnern",
+          "er/sie/es wird erinnern",
+          "wir werden erinnern",
+          "ihr werdet erinnern",
+          "sie werden erinnern"
+        ],
+        "konjunktiv_2": [
+          "ich würde erinnern",
+          "du würdest erinnern",
+          "er/sie/es würde erinnern",
+          "wir würden erinnern",
+          "ihr würdet erinnern",
+          "sie würden erinnern"
+        ],
+        "imperativ": [
+          "erinnere!",
+          "erinnert!"
+        ]
+      },
+      "examples": [
+        "Ich erinnere mich gut an diesen Tag."
+      ]
+    },
+    "versuchen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Anstrengungen machen, um ein Ziel zu erreichen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich versuche",
+          "du versuchst",
+          "er/sie/es versucht",
+          "wir versuchen",
+          "ihr versucht",
+          "sie versuchen"
+        ],
+        "präteritum": [
+          "ich versuchte",
+          "du versuchtest",
+          "er/sie/es versuchte",
+          "wir versuchten",
+          "ihr versuchtet",
+          "sie versuchten"
+        ],
+        "perfekt": [
+          "ich habe versucht",
+          "du hast versucht",
+          "er/sie/es hat versucht",
+          "wir haben versucht",
+          "ihr habt versucht",
+          "sie haben versucht"
+        ],
+        "futur_1": [
+          "ich werde versuchen",
+          "du wirst versuchen",
+          "er/sie/es wird versuchen",
+          "wir werden versuchen",
+          "ihr werdet versuchen",
+          "sie werden versuchen"
+        ],
+        "konjunktiv_2": [
+          "ich würde versuchen",
+          "du würdest versuchen",
+          "er/sie/es würde versuchen",
+          "wir würden versuchen",
+          "ihr würdet versuchen",
+          "sie würden versuchen"
+        ],
+        "imperativ": [
+          "versuch!",
+          "versucht!"
+        ]
+      },
+      "examples": [
+        "Wir versuchen, die Übung zu lösen."
+      ]
+    },
+    "wechseln": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Etwas gegen etwas anderes austauschen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wechsele",
+          "du wechselst",
+          "er/sie/es wechselt",
+          "wir wechseln",
+          "ihr wechselt",
+          "sie wechseln"
+        ],
+        "präteritum": [
+          "ich wechselte",
+          "du wechseltest",
+          "er/sie/es wechselte",
+          "wir wechselten",
+          "ihr wechseltet",
+          "sie wechselten"
+        ],
+        "perfekt": [
+          "ich habe gewechselt",
+          "du hast gewechselt",
+          "er/sie/es hat gewechselt",
+          "wir haben gewechselt",
+          "ihr habt gewechselt",
+          "sie haben gewechselt"
+        ],
+        "futur_1": [
+          "ich werde wechseln",
+          "du wirst wechseln",
+          "er/sie/es wird wechseln",
+          "wir werden wechseln",
+          "ihr werdet wechseln",
+          "sie werden wechseln"
+        ],
+        "konjunktiv_2": [
+          "ich würde wechseln",
+          "du würdest wechseln",
+          "er/sie/es würde wechseln",
+          "wir würden wechseln",
+          "ihr würdet wechseln",
+          "sie würden wechseln"
+        ],
+        "imperativ": [
+          "wechsele!",
+          "wechselt!"
+        ]
+      },
+      "examples": [
+        "Er wechselt das Geld an der Bank."
+      ]
+    },
+    "reisen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Eine Fahrt oder ein Urlaub an andere Orte machen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich reise",
+          "du reist",
+          "er/sie/es reist",
+          "wir reisen",
+          "ihr reist",
+          "sie reisen"
+        ],
+        "präteritum": [
+          "ich reiste",
+          "du reistest",
+          "er/sie/es reiste",
+          "wir reisten",
+          "ihr reistet",
+          "sie reisten"
+        ],
+        "perfekt": [
+          "ich bin gereist",
+          "du bist gereist",
+          "er/sie/es ist gereist",
+          "wir sind gereist",
+          "ihr seid gereist",
+          "sie sind gereist"
+        ],
+        "futur_1": [
+          "ich werde reisen",
+          "du wirst reisen",
+          "er/sie/es wird reisen",
+          "wir werden reisen",
+          "ihr werdet reisen",
+          "sie werden reisen"
+        ],
+        "konjunktiv_2": [
+          "ich würde reisen",
+          "du würdest reisen",
+          "er/sie/es würde reisen",
+          "wir würden reisen",
+          "ihr würdet reisen",
+          "sie würden reisen"
+        ],
+        "imperativ": [
+          "reise!",
+          "reist!"
+        ]
+      },
+      "examples": [
+        "Im Sommer reisen wir nach Spanien."
+      ]
+    },
+    "wandern": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Zu Fuß in der Natur unterwegs sein.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wandere",
+          "du wanderst",
+          "er/sie/es wandert",
+          "wir wandern",
+          "ihr wandert",
+          "sie wandern"
+        ],
+        "präteritum": [
+          "ich wanderte",
+          "du wandertest",
+          "er/sie/es wanderte",
+          "wir wanderten",
+          "ihr wandertet",
+          "sie wanderten"
+        ],
+        "perfekt": [
+          "ich bin gewandert",
+          "du bist gewandert",
+          "er/sie/es ist gewandert",
+          "wir sind gewandert",
+          "ihr seid gewandert",
+          "sie sind gewandert"
+        ],
+        "futur_1": [
+          "ich werde wandern",
+          "du wirst wandern",
+          "er/sie/es wird wandern",
+          "wir werden wandern",
+          "ihr werdet wandern",
+          "sie werden wandern"
+        ],
+        "konjunktiv_2": [
+          "ich würde wandern",
+          "du würdest wandern",
+          "er/sie/es würde wandern",
+          "wir würden wandern",
+          "ihr würdet wandern",
+          "sie würden wandern"
+        ],
+        "imperativ": [
+          "wandere!",
+          "wandert!"
+        ]
+      },
+      "examples": [
+        "Wir wandern gern in den Bergen."
+      ]
+    },
+    "warten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "An einem Ort verbleiben, bis etwas geschieht.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich warte",
+          "du wartest",
+          "er/sie/es wartet",
+          "wir warten",
+          "ihr wartet",
+          "sie warten"
+        ],
+        "präteritum": [
+          "ich wartete",
+          "du wartetest",
+          "er/sie/es wartete",
+          "wir warteten",
+          "ihr wartetet",
+          "sie warteten"
+        ],
+        "perfekt": [
+          "ich habe gewartet",
+          "du hast gewartet",
+          "er/sie/es hat gewartet",
+          "wir haben gewartet",
+          "ihr habt gewartet",
+          "sie haben gewartet"
+        ],
+        "futur_1": [
+          "ich werde warten",
+          "du wirst warten",
+          "er/sie/es wird warten",
+          "wir werden warten",
+          "ihr werdet warten",
+          "sie werden warten"
+        ],
+        "konjunktiv_2": [
+          "ich würde warten",
+          "du würdest warten",
+          "er/sie/es würde warten",
+          "wir würden warten",
+          "ihr würdet warten",
+          "sie würden warten"
+        ],
+        "imperativ": [
+          "warte!",
+          "wartet!"
+        ]
+      },
+      "examples": [
+        "Ich warte an der Bushaltestelle."
+      ]
+    },
+    "schenken": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Jemandem etwas als Geschenk geben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schenke",
+          "du schenkst",
+          "er/sie/es schenkt",
+          "wir schenken",
+          "ihr schenkt",
+          "sie schenken"
+        ],
+        "präteritum": [
+          "ich schenkte",
+          "du schenktest",
+          "er/sie/es schenkte",
+          "wir schenkten",
+          "ihr schenktet",
+          "sie schenkten"
+        ],
+        "perfekt": [
+          "ich habe geschenkt",
+          "du hast geschenkt",
+          "er/sie/es hat geschenkt",
+          "wir haben geschenkt",
+          "ihr habt geschenkt",
+          "sie haben geschenkt"
+        ],
+        "futur_1": [
+          "ich werde schenken",
+          "du wirst schenken",
+          "er/sie/es wird schenken",
+          "wir werden schenken",
+          "ihr werdet schenken",
+          "sie werden schenken"
+        ],
+        "konjunktiv_2": [
+          "ich würde schenken",
+          "du würdest schenken",
+          "er/sie/es würde schenken",
+          "wir würden schenken",
+          "ihr würdet schenken",
+          "sie würden schenken"
+        ],
+        "imperativ": [
+          "schenk!",
+          "schenkt!"
+        ]
+      },
+      "examples": [
+        "Sie schenkt ihrer Mutter zum Geburtstag Blumen."
+      ]
+    },
+    "schicken": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas per Post oder digital versenden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schicke",
+          "du schickst",
+          "er/sie/es schickt",
+          "wir schicken",
+          "ihr schickt",
+          "sie schicken"
+        ],
+        "präteritum": [
+          "ich schickte",
+          "du schicktest",
+          "er/sie/es schickte",
+          "wir schickten",
+          "ihr schicktet",
+          "sie schickten"
+        ],
+        "perfekt": [
+          "ich habe geschickt",
+          "du hast geschickt",
+          "er/sie/es hat geschickt",
+          "wir haben geschickt",
+          "ihr habt geschickt",
+          "sie haben geschickt"
+        ],
+        "futur_1": [
+          "ich werde schicken",
+          "du wirst schicken",
+          "er/sie/es wird schicken",
+          "wir werden schicken",
+          "ihr werdet schicken",
+          "sie werden schicken"
+        ],
+        "konjunktiv_2": [
+          "ich würde schicken",
+          "du würdest schicken",
+          "er/sie/es würde schicken",
+          "wir würden schicken",
+          "ihr würdet schicken",
+          "sie würden schicken"
+        ],
+        "imperativ": [
+          "schick!",
+          "schickt!"
+        ]
+      },
+      "examples": [
+        "Er schickt eine Postkarte aus dem Urlaub."
+      ]
+    },
+    "mieten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Gegen Bezahlung zur Nutzung überlassen bekommen.",
+      "antonyms": [
+        "vermieten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich miete",
+          "du mietest",
+          "er/sie/es mietet",
+          "wir mieten",
+          "ihr mietet",
+          "sie mieten"
+        ],
+        "präteritum": [
+          "ich mietete",
+          "du mietetest",
+          "er/sie/es mietete",
+          "wir mieteten",
+          "ihr mietetet",
+          "sie mieteten"
+        ],
+        "perfekt": [
+          "ich habe gemietet",
+          "du hast gemietet",
+          "er/sie/es hat gemietet",
+          "wir haben gemietet",
+          "ihr habt gemietet",
+          "sie haben gemietet"
+        ],
+        "futur_1": [
+          "ich werde mieten",
+          "du wirst mieten",
+          "er/sie/es wird mieten",
+          "wir werden mieten",
+          "ihr werdet mieten",
+          "sie werden mieten"
+        ],
+        "konjunktiv_2": [
+          "ich würde mieten",
+          "du würdest mieten",
+          "er/sie/es würde mieten",
+          "wir würden mieten",
+          "ihr würdet mieten",
+          "sie würden mieten"
+        ],
+        "imperativ": [
+          "miete!",
+          "mietet!"
+        ]
+      },
+      "examples": [
+        "Wir mieten eine Wohnung in der Stadt."
+      ]
+    },
+    "vermieten": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Einen Raum gegen Bezahlung zur Nutzung überlassen.",
+      "antonyms": [
+        "mieten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich vermiete",
+          "du vermietest",
+          "er/sie/es vermietet",
+          "wir vermieten",
+          "ihr vermietet",
+          "sie vermieten"
+        ],
+        "präteritum": [
+          "ich vermietete",
+          "du vermietetest",
+          "er/sie/es vermietete",
+          "wir vermieteten",
+          "ihr vermietetet",
+          "sie vermieteten"
+        ],
+        "perfekt": [
+          "ich habe vermietet",
+          "du hast vermietet",
+          "er/sie/es hat vermietet",
+          "wir haben vermietet",
+          "ihr habt vermietet",
+          "sie haben vermietet"
+        ],
+        "futur_1": [
+          "ich werde vermieten",
+          "du wirst vermieten",
+          "er/sie/es wird vermieten",
+          "wir werden vermieten",
+          "ihr werdet vermieten",
+          "sie werden vermieten"
+        ],
+        "konjunktiv_2": [
+          "ich würde vermieten",
+          "du würdest vermieten",
+          "er/sie/es würde vermieten",
+          "wir würden vermieten",
+          "ihr würdet vermieten",
+          "sie würden vermieten"
+        ],
+        "imperativ": [
+          "vermiete!",
+          "vermietet!"
+        ]
+      },
+      "examples": [
+        "Herr Müller vermietet Zimmer an Studenten."
+      ]
+    },
+    "passen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Die richtige Größe oder Eignung haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich passe",
+          "du passt",
+          "er/sie/es passt",
+          "wir passen",
+          "ihr passt",
+          "sie passen"
+        ],
+        "präteritum": [
+          "ich passte",
+          "du passtest",
+          "er/sie/es passte",
+          "wir passten",
+          "ihr passtet",
+          "sie passten"
+        ],
+        "perfekt": [
+          "ich habe gepasst",
+          "du hast gepasst",
+          "er/sie/es hat gepasst",
+          "wir haben gepasst",
+          "ihr habt gepasst",
+          "sie haben gepasst"
+        ],
+        "futur_1": [
+          "ich werde passen",
+          "du wirst passen",
+          "er/sie/es wird passen",
+          "wir werden passen",
+          "ihr werdet passen",
+          "sie werden passen"
+        ],
+        "konjunktiv_2": [
+          "ich würde passen",
+          "du würdest passen",
+          "er/sie/es würde passen",
+          "wir würden passen",
+          "ihr würdet passen",
+          "sie würden passen"
+        ],
+        "imperativ": [
+          "pass!",
+          "passt!"
+        ]
+      },
+      "examples": [
+        "Die Hose passt mir perfekt."
+      ]
+    },
+    "gehören": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Eigentum von jemandem sein.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich gehöre",
+          "du gehörst",
+          "er/sie/es gehört",
+          "wir gehören",
+          "ihr gehört",
+          "sie gehören"
+        ],
+        "präteritum": [
+          "ich gehörte",
+          "du gehörtest",
+          "er/sie/es gehörte",
+          "wir gehörten",
+          "ihr gehörtet",
+          "sie gehörten"
+        ],
+        "perfekt": [
+          "ich habe gehört",
+          "du hast gehört",
+          "er/sie/es hat gehört",
+          "wir haben gehört",
+          "ihr habt gehört",
+          "sie haben gehört"
+        ],
+        "futur_1": [
+          "ich werde gehören",
+          "du wirst gehören",
+          "er/sie/es wird gehören",
+          "wir werden gehören",
+          "ihr werdet gehören",
+          "sie werden gehören"
+        ],
+        "konjunktiv_2": [
+          "ich würde gehören",
+          "du würdest gehören",
+          "er/sie/es würde gehören",
+          "wir würden gehören",
+          "ihr würdet gehören",
+          "sie würden gehören"
+        ],
+        "imperativ": [
+          "gehör!",
+          "gehört!"
+        ]
+      },
+      "examples": [
+        "Das Fahrrad gehört meinem Bruder."
+      ]
+    },
+    "fühlen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Eine körperliche oder seelische Empfindung wahrnehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich fühle",
+          "du fühlst",
+          "er/sie/es fühlt",
+          "wir fühlen",
+          "ihr fühlt",
+          "sie fühlen"
+        ],
+        "präteritum": [
+          "ich fühlte",
+          "du fühltest",
+          "er/sie/es fühlte",
+          "wir fühlten",
+          "ihr fühltet",
+          "sie fühlten"
+        ],
+        "perfekt": [
+          "ich habe gefühlt",
+          "du hast gefühlt",
+          "er/sie/es hat gefühlt",
+          "wir haben gefühlt",
+          "ihr habt gefühlt",
+          "sie haben gefühlt"
+        ],
+        "futur_1": [
+          "ich werde fühlen",
+          "du wirst fühlen",
+          "er/sie/es wird fühlen",
+          "wir werden fühlen",
+          "ihr werdet fühlen",
+          "sie werden fühlen"
+        ],
+        "konjunktiv_2": [
+          "ich würde fühlen",
+          "du würdest fühlen",
+          "er/sie/es würde fühlen",
+          "wir würden fühlen",
+          "ihr würdet fühlen",
+          "sie würden fühlen"
+        ],
+        "imperativ": [
+          "fühl!",
+          "fühlt!"
+        ]
+      },
+      "examples": [
+        "Ich fühle mich heute sehr gut."
+      ]
+    },
+    "zählen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Zahlen der Reihe nach nennen oder Anzahl ermitteln.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich zähle",
+          "du zählst",
+          "er/sie/es zählt",
+          "wir zählen",
+          "ihr zählt",
+          "sie zählen"
+        ],
+        "präteritum": [
+          "ich zählte",
+          "du zähltest",
+          "er/sie/es zählte",
+          "wir zählten",
+          "ihr zähltet",
+          "sie zählten"
+        ],
+        "perfekt": [
+          "ich habe gezählt",
+          "du hast gezählt",
+          "er/sie/es hat gezählt",
+          "wir haben gezählt",
+          "ihr habt gezählt",
+          "sie haben gezählt"
+        ],
+        "futur_1": [
+          "ich werde zählen",
+          "du wirst zählen",
+          "er/sie/es wird zählen",
+          "wir werden zählen",
+          "ihr werdet zählen",
+          "sie werden zählen"
+        ],
+        "konjunktiv_2": [
+          "ich würde zählen",
+          "du würdest zählen",
+          "er/sie/es würde zählen",
+          "wir würden zählen",
+          "ihr würdet zählen",
+          "sie würden zählen"
+        ],
+        "imperativ": [
+          "zähl!",
+          "zählt!"
+        ]
+      },
+      "examples": [
+        "Das Kind zählt von eins bis zehn."
+      ]
+    },
+    "rechnen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Mathematische Aufgaben lösen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich rechne",
+          "du rechnest",
+          "er/sie/es rechnet",
+          "wir rechnen",
+          "ihr rechnet",
+          "sie rechnen"
+        ],
+        "präteritum": [
+          "ich rechnete",
+          "du rechnetest",
+          "er/sie/es rechnete",
+          "wir rechneten",
+          "ihr rechnetet",
+          "sie rechneten"
+        ],
+        "perfekt": [
+          "ich habe gerechnet",
+          "du hast gerechnet",
+          "er/sie/es hat gerechnet",
+          "wir haben gerechnet",
+          "ihr habt gerechnet",
+          "sie haben gerechnet"
+        ],
+        "futur_1": [
+          "ich werde rechnen",
+          "du wirst rechnen",
+          "er/sie/es wird rechnen",
+          "wir werden rechnen",
+          "ihr werdet rechnen",
+          "sie werden rechnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde rechnen",
+          "du würdest rechnen",
+          "er/sie/es würde rechnen",
+          "wir würden rechnen",
+          "ihr würdet rechnen",
+          "sie würden rechnen"
+        ],
+        "imperativ": [
+          "rechne!",
+          "rechnet!"
+        ]
+      },
+      "examples": [
+        "Wir rechnen im Mathematikunterricht."
+      ]
+    },
+    "prüfen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Untersuchen, ob etwas in Ordnung ist.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich prüfe",
+          "du prüfst",
+          "er/sie/es prüft",
+          "wir prüfen",
+          "ihr prüft",
+          "sie prüfen"
+        ],
+        "präteritum": [
+          "ich prüfte",
+          "du prüftest",
+          "er/sie/es prüfte",
+          "wir prüften",
+          "ihr prüftet",
+          "sie prüften"
+        ],
+        "perfekt": [
+          "ich habe geprüft",
+          "du hast geprüft",
+          "er/sie/es hat geprüft",
+          "wir haben geprüft",
+          "ihr habt geprüft",
+          "sie haben geprüft"
+        ],
+        "futur_1": [
+          "ich werde prüfen",
+          "du wirst prüfen",
+          "er/sie/es wird prüfen",
+          "wir werden prüfen",
+          "ihr werdet prüfen",
+          "sie werden prüfen"
+        ],
+        "konjunktiv_2": [
+          "ich würde prüfen",
+          "du würdest prüfen",
+          "er/sie/es würde prüfen",
+          "wir würden prüfen",
+          "ihr würdet prüfen",
+          "sie würden prüfen"
+        ],
+        "imperativ": [
+          "prüf!",
+          "prüft!"
+        ]
+      },
+      "examples": [
+        "Der Lehrer prüft die Aufgaben."
+      ]
+    },
+    "testen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Eine Ausprobierung oder Überprüfung durchführen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich teste",
+          "du testest",
+          "er/sie/es testet",
+          "wir testen",
+          "ihr testet",
+          "sie testen"
+        ],
+        "präteritum": [
+          "ich testete",
+          "du testetest",
+          "er/sie/es testete",
+          "wir testeten",
+          "ihr testetet",
+          "sie testeten"
+        ],
+        "perfekt": [
+          "ich habe getestet",
+          "du hast getestet",
+          "er/sie/es hat getestet",
+          "wir haben getestet",
+          "ihr habt getestet",
+          "sie haben getestet"
+        ],
+        "futur_1": [
+          "ich werde testen",
+          "du wirst testen",
+          "er/sie/es wird testen",
+          "wir werden testen",
+          "ihr werdet testen",
+          "sie werden testen"
+        ],
+        "konjunktiv_2": [
+          "ich würde testen",
+          "du würdest testen",
+          "er/sie/es würde testen",
+          "wir würden testen",
+          "ihr würdet testen",
+          "sie würden testen"
+        ],
+        "imperativ": [
+          "teste!",
+          "testet!"
+        ]
+      },
+      "examples": [
+        "Wir testen das neue Programm."
+      ]
+    },
+    "üben": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Durch Wiederholung Fertigkeiten verbessern.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich übe",
+          "du übst",
+          "er/sie/es übt",
+          "wir üben",
+          "ihr übt",
+          "sie üben"
+        ],
+        "präteritum": [
+          "ich übte",
+          "du übtest",
+          "er/sie/es übte",
+          "wir übten",
+          "ihr übtet",
+          "sie übten"
+        ],
+        "perfekt": [
+          "ich habe geübt",
+          "du hast geübt",
+          "er/sie/es hat geübt",
+          "wir haben geübt",
+          "ihr habt geübt",
+          "sie haben geübt"
+        ],
+        "futur_1": [
+          "ich werde üben",
+          "du wirst üben",
+          "er/sie/es wird üben",
+          "wir werden üben",
+          "ihr werdet üben",
+          "sie werden üben"
+        ],
+        "konjunktiv_2": [
+          "ich würde üben",
+          "du würdest üben",
+          "er/sie/es würde üben",
+          "wir würden üben",
+          "ihr würdet üben",
+          "sie würden üben"
+        ],
+        "imperativ": [
+          "übe!",
+          "übt!"
+        ]
+      },
+      "examples": [
+        "Sie übt jeden Tag Klavier."
+      ]
+    },
+    "wiederholen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas noch einmal sagen oder tun.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wiederhole",
+          "du wiederholst",
+          "er/sie/es wiederholt",
+          "wir wiederholen",
+          "ihr wiederholt",
+          "sie wiederholen"
+        ],
+        "präteritum": [
+          "ich wiederholte",
+          "du wiederholtest",
+          "er/sie/es wiederholte",
+          "wir wiederholten",
+          "ihr wiederholtet",
+          "sie wiederholten"
+        ],
+        "perfekt": [
+          "ich habe wiederholt",
+          "du hast wiederholt",
+          "er/sie/es hat wiederholt",
+          "wir haben wiederholt",
+          "ihr habt wiederholt",
+          "sie haben wiederholt"
+        ],
+        "futur_1": [
+          "ich werde wiederholen",
+          "du wirst wiederholen",
+          "er/sie/es wird wiederholen",
+          "wir werden wiederholen",
+          "ihr werdet wiederholen",
+          "sie werden wiederholen"
+        ],
+        "konjunktiv_2": [
+          "ich würde wiederholen",
+          "du würdest wiederholen",
+          "er/sie/es würde wiederholen",
+          "wir würden wiederholen",
+          "ihr würdet wiederholen",
+          "sie würden wiederholen"
+        ],
+        "imperativ": [
+          "wiederhole!",
+          "wiederholt!"
+        ]
+      },
+      "examples": [
+        "Können Sie den Satz bitte wiederholen?"
+      ]
+    },
+    "übersetzen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Text von einer Sprache in eine andere übertragen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich übersetze",
+          "du übersetzt",
+          "er/sie/es übersetzt",
+          "wir übersetzen",
+          "ihr übersetzt",
+          "sie übersetzen"
+        ],
+        "präteritum": [
+          "ich übersetzte",
+          "du übersetztest",
+          "er/sie/es übersetzte",
+          "wir übersetzten",
+          "ihr übersetztet",
+          "sie übersetzten"
+        ],
+        "perfekt": [
+          "ich habe übersetzt",
+          "du hast übersetzt",
+          "er/sie/es hat übersetzt",
+          "wir haben übersetzt",
+          "ihr habt übersetzt",
+          "sie haben übersetzt"
+        ],
+        "futur_1": [
+          "ich werde übersetzen",
+          "du wirst übersetzen",
+          "er/sie/es wird übersetzen",
+          "wir werden übersetzen",
+          "ihr werdet übersetzen",
+          "sie werden übersetzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde übersetzen",
+          "du würdest übersetzen",
+          "er/sie/es würde übersetzen",
+          "wir würden übersetzen",
+          "ihr würdet übersetzen",
+          "sie würden übersetzen"
+        ],
+        "imperativ": [
+          "übersetze!",
+          "übersetzt!"
+        ]
+      },
+      "examples": [
+        "Sie übersetzt ein Buch ins Deutsche."
+      ]
+    },
+    "bedeuten": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Einen bestimmten Sinn haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bedeute",
+          "du bedeutest",
+          "er/sie/es bedeutet",
+          "wir bedeuten",
+          "ihr bedeutet",
+          "sie bedeuten"
+        ],
+        "präteritum": [
+          "ich bedeutete",
+          "du bedeutetest",
+          "er/sie/es bedeutete",
+          "wir bedeuteten",
+          "ihr bedeutetet",
+          "sie bedeuteten"
+        ],
+        "perfekt": [
+          "ich habe bedeutet",
+          "du hast bedeutet",
+          "er/sie/es hat bedeutet",
+          "wir haben bedeutet",
+          "ihr habt bedeutet",
+          "sie haben bedeutet"
+        ],
+        "futur_1": [
+          "ich werde bedeuten",
+          "du wirst bedeuten",
+          "er/sie/es wird bedeuten",
+          "wir werden bedeuten",
+          "ihr werdet bedeuten",
+          "sie werden bedeuten"
+        ],
+        "konjunktiv_2": [
+          "ich würde bedeuten",
+          "du würdest bedeuten",
+          "er/sie/es würde bedeuten",
+          "wir würden bedeuten",
+          "ihr würdet bedeuten",
+          "sie würden bedeuten"
+        ],
+        "imperativ": [
+          "bedeute!",
+          "bedeutet!"
+        ]
+      },
+      "examples": [
+        "Was bedeutet dieses Wort?"
+      ]
+    },
+    "passieren": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Sich ereignen oder geschehen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich passiere",
+          "du passierst",
+          "er/sie/es passiert",
+          "wir passieren",
+          "ihr passiert",
+          "sie passieren"
+        ],
+        "präteritum": [
+          "ich passierte",
+          "du passiertest",
+          "er/sie/es passierte",
+          "wir passierten",
+          "ihr passiertet",
+          "sie passierten"
+        ],
+        "perfekt": [
+          "ich bin passiert",
+          "du bist passiert",
+          "er/sie/es ist passiert",
+          "wir sind passiert",
+          "ihr seid passiert",
+          "sie sind passiert"
+        ],
+        "futur_1": [
+          "ich werde passieren",
+          "du wirst passieren",
+          "er/sie/es wird passieren",
+          "wir werden passieren",
+          "ihr werdet passieren",
+          "sie werden passieren"
+        ],
+        "konjunktiv_2": [
+          "ich würde passieren",
+          "du würdest passieren",
+          "er/sie/es würde passieren",
+          "wir würden passieren",
+          "ihr würdet passieren",
+          "sie würden passieren"
+        ],
+        "imperativ": [
+          "passiere!",
+          "passiert!"
+        ]
+      },
+      "examples": [
+        "Was ist passiert?"
+      ]
+    },
+    "dauern": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Einen gewissen Zeitraum in Anspruch nehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich dauere",
+          "du dauerst",
+          "er/sie/es dauert",
+          "wir dauern",
+          "ihr dauert",
+          "sie dauern"
+        ],
+        "präteritum": [
+          "ich dauerte",
+          "du dauertest",
+          "er/sie/es dauerte",
+          "wir dauerten",
+          "ihr dauertet",
+          "sie dauerten"
+        ],
+        "perfekt": [
+          "ich habe gedauert",
+          "du hast gedauert",
+          "er/sie/es hat gedauert",
+          "wir haben gedauert",
+          "ihr habt gedauert",
+          "sie haben gedauert"
+        ],
+        "futur_1": [
+          "ich werde dauern",
+          "du wirst dauern",
+          "er/sie/es wird dauern",
+          "wir werden dauern",
+          "ihr werdet dauern",
+          "sie werden dauern"
+        ],
+        "konjunktiv_2": [
+          "ich würde dauern",
+          "du würdest dauern",
+          "er/sie/es würde dauern",
+          "wir würden dauern",
+          "ihr würdet dauern",
+          "sie würden dauern"
+        ],
+        "imperativ": [
+          "dauere!",
+          "dauert!"
+        ]
+      },
+      "examples": [
+        "Der Film dauert zwei Stunden."
+      ]
+    },
+    "stoppen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Anhalten oder unterbrechen.",
+      "antonyms": [
+        "starten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich stoppe",
+          "du stoppst",
+          "er/sie/es stoppt",
+          "wir stoppen",
+          "ihr stoppt",
+          "sie stoppen"
+        ],
+        "präteritum": [
+          "ich stoppte",
+          "du stopptest",
+          "er/sie/es stoppte",
+          "wir stoppten",
+          "ihr stopptet",
+          "sie stoppten"
+        ],
+        "perfekt": [
+          "ich habe gestoppt",
+          "du hast gestoppt",
+          "er/sie/es hat gestoppt",
+          "wir haben gestoppt",
+          "ihr habt gestoppt",
+          "sie haben gestoppt"
+        ],
+        "futur_1": [
+          "ich werde stoppen",
+          "du wirst stoppen",
+          "er/sie/es wird stoppen",
+          "wir werden stoppen",
+          "ihr werdet stoppen",
+          "sie werden stoppen"
+        ],
+        "konjunktiv_2": [
+          "ich würde stoppen",
+          "du würdest stoppen",
+          "er/sie/es würde stoppen",
+          "wir würden stoppen",
+          "ihr würdet stoppen",
+          "sie würden stoppen"
+        ],
+        "imperativ": [
+          "stopp!",
+          "stoppt!"
+        ]
+      },
+      "examples": [
+        "Der Bus stoppt an der roten Ampel."
+      ]
+    },
+    "folgen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Hinter jemandem hergehen oder zustimmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich folge",
+          "du folgst",
+          "er/sie/es folgt",
+          "wir folgen",
+          "ihr folgt",
+          "sie folgen"
+        ],
+        "präteritum": [
+          "ich folgte",
+          "du folgtest",
+          "er/sie/es folgte",
+          "wir folgten",
+          "ihr folgtet",
+          "sie folgten"
+        ],
+        "perfekt": [
+          "ich bin gefolgt",
+          "du bist gefolgt",
+          "er/sie/es ist gefolgt",
+          "wir sind gefolgt",
+          "ihr seid gefolgt",
+          "sie sind gefolgt"
+        ],
+        "futur_1": [
+          "ich werde folgen",
+          "du wirst folgen",
+          "er/sie/es wird folgen",
+          "wir werden folgen",
+          "ihr werdet folgen",
+          "sie werden folgen"
+        ],
+        "konjunktiv_2": [
+          "ich würde folgen",
+          "du würdest folgen",
+          "er/sie/es würde folgen",
+          "wir würden folgen",
+          "ihr würdet folgen",
+          "sie würden folgen"
+        ],
+        "imperativ": [
+          "folge!",
+          "folgt!"
+        ]
+      },
+      "examples": [
+        "Folgen Sie bitte dieser Straße."
+      ]
+    },
+    "erreichen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Ein Ziel oder eine Person kontaktieren.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich erreiche",
+          "du erreichst",
+          "er/sie/es erreicht",
+          "wir erreichen",
+          "ihr erreicht",
+          "sie erreichen"
+        ],
+        "präteritum": [
+          "ich erreichte",
+          "du erreichtest",
+          "er/sie/es erreichte",
+          "wir erreichten",
+          "ihr erreichtet",
+          "sie erreichten"
+        ],
+        "perfekt": [
+          "ich habe erreicht",
+          "du hast erreicht",
+          "er/sie/es hat erreicht",
+          "wir haben erreicht",
+          "ihr habt erreicht",
+          "sie haben erreicht"
+        ],
+        "futur_1": [
+          "ich werde erreichen",
+          "du wirst erreichen",
+          "er/sie/es wird erreichen",
+          "wir werden erreichen",
+          "ihr werdet erreichen",
+          "sie werden erreichen"
+        ],
+        "konjunktiv_2": [
+          "ich würde erreichen",
+          "du würdest erreichen",
+          "er/sie/es würde erreichen",
+          "wir würden erreichen",
+          "ihr würdet erreichen",
+          "sie würden erreichen"
+        ],
+        "imperativ": [
+          "erreich!",
+          "erreicht!"
+        ]
+      },
+      "examples": [
+        "Wir erreichen das Hotel am Abend."
+      ]
+    },
+    "benutzen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Etwas für einen Zweck verwenden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich benutze",
+          "du benutzt",
+          "er/sie/es benutzt",
+          "wir benutzen",
+          "ihr benutzt",
+          "sie benutzen"
+        ],
+        "präteritum": [
+          "ich benutzte",
+          "du benutztest",
+          "er/sie/es benutzte",
+          "wir benutzten",
+          "ihr benutztet",
+          "sie benutzten"
+        ],
+        "perfekt": [
+          "ich habe benutzt",
+          "du hast benutzt",
+          "er/sie/es hat benutzt",
+          "wir haben benutzt",
+          "ihr habt benutzt",
+          "sie haben benutzt"
+        ],
+        "futur_1": [
+          "ich werde benutzen",
+          "du wirst benutzen",
+          "er/sie/es wird benutzen",
+          "wir werden benutzen",
+          "ihr werdet benutzen",
+          "sie werden benutzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde benutzen",
+          "du würdest benutzen",
+          "er/sie/es würde benutzen",
+          "wir würden benutzen",
+          "ihr würdet benutzen",
+          "sie würden benutzen"
+        ],
+        "imperativ": [
+          "benutz!",
+          "benutzt!"
+        ]
+      },
+      "examples": [
+        "Ich benutze oft den Computer."
+      ]
+    },
+    "gebrauchen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Nützen oder verwenden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich gebrauche",
+          "du gebrauchst",
+          "er/sie/es gebraucht",
+          "wir gebrauchen",
+          "ihr gebraucht",
+          "sie gebrauchen"
+        ],
+        "präteritum": [
+          "ich gebrauchte",
+          "du gebrauchtest",
+          "er/sie/es gebrauchte",
+          "wir gebrauchten",
+          "ihr gebrauchtet",
+          "sie gebrauchten"
+        ],
+        "perfekt": [
+          "ich habe gebraucht",
+          "du hast gebraucht",
+          "er/sie/es hat gebraucht",
+          "wir haben gebraucht",
+          "ihr habt gebraucht",
+          "sie haben gebraucht"
+        ],
+        "futur_1": [
+          "ich werde gebrauchen",
+          "du wirst gebrauchen",
+          "er/sie/es wird gebrauchen",
+          "wir werden gebrauchen",
+          "ihr werdet gebrauchen",
+          "sie werden gebrauchen"
+        ],
+        "konjunktiv_2": [
+          "ich würde gebrauchen",
+          "du würdest gebrauchen",
+          "er/sie/es würde gebrauchen",
+          "wir würden gebrauchen",
+          "ihr würdet gebrauchen",
+          "sie würden gebrauchen"
+        ],
+        "imperativ": [
+          "gebrauch!",
+          "gebraucht!"
+        ]
+      },
+      "examples": [
+        "Diese Werkzeuge kann man gut gebrauchen."
+      ]
+    },
+    "wählen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Eine Entscheidung zwischen Möglichkeiten treffen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wähle",
+          "du wählst",
+          "er/sie/es wählt",
+          "wir wählen",
+          "ihr wählt",
+          "sie wählen"
+        ],
+        "präteritum": [
+          "ich wählte",
+          "du wähltest",
+          "er/sie/es wählte",
+          "wir wählten",
+          "ihr wähltet",
+          "sie wählten"
+        ],
+        "perfekt": [
+          "ich habe gewählt",
+          "du hast gewählt",
+          "er/sie/es hat gewählt",
+          "wir haben gewählt",
+          "ihr habt gewählt",
+          "sie haben gewählt"
+        ],
+        "futur_1": [
+          "ich werde wählen",
+          "du wirst wählen",
+          "er/sie/es wird wählen",
+          "wir werden wählen",
+          "ihr werdet wählen",
+          "sie werden wählen"
+        ],
+        "konjunktiv_2": [
+          "ich würde wählen",
+          "du würdest wählen",
+          "er/sie/es würde wählen",
+          "wir würden wählen",
+          "ihr würdet wählen",
+          "sie würden wählen"
+        ],
+        "imperativ": [
+          "wähl!",
+          "wählt!"
+        ]
+      },
+      "examples": [
+        "Wir wählen das rote Kleid."
+      ]
+    },
+    "zustimmen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Gleicher Meinung sein.",
+      "antonyms": [
+        "ablehnen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich stimme zu",
+          "du stimmst zu",
+          "er/sie/es stimmt zu",
+          "wir stimmen zu",
+          "ihr stimmt zu",
+          "sie stimmen zu"
+        ],
+        "präteritum": [
+          "ich stimmte zu",
+          "du stimmtest zu",
+          "er/sie/es stimmte zu",
+          "wir stimmten zu",
+          "ihr stimmtet zu",
+          "sie stimmten zu"
+        ],
+        "perfekt": [
+          "ich habe zugestimmt",
+          "du hast zugestimmt",
+          "er/sie/es hat zugestimmt",
+          "wir haben zugestimmt",
+          "ihr habt zugestimmt",
+          "sie haben zugestimmt"
+        ],
+        "futur_1": [
+          "ich werde zustimmen",
+          "du wirst zustimmen",
+          "er/sie/es wird zustimmen",
+          "wir werden zustimmen",
+          "ihr werdet zustimmen",
+          "sie werden zustimmen"
+        ],
+        "konjunktiv_2": [
+          "ich würde zustimmen",
+          "du würdest zustimmen",
+          "er/sie/es würde zustimmen",
+          "wir würden zustimmen",
+          "ihr würdet zustimmen",
+          "sie würden zustimmen"
+        ],
+        "imperativ": [
+          "stimme zu!",
+          "stimmt zu!"
+        ]
+      },
+      "examples": [
+        "Ich stimme deinem Vorschlag zu."
+      ]
+    },
+    "ablehnen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Nein sagen zu einem Angebot.",
+      "antonyms": [
+        "zustimmen",
+        "annehmen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich lehne ab",
+          "du lehnst ab",
+          "er/sie/es lehnt ab",
+          "wir lehnen ab",
+          "ihr lehnt ab",
+          "sie lehnen ab"
+        ],
+        "präteritum": [
+          "ich lehnte ab",
+          "du lehntest ab",
+          "er/sie/es lehnte ab",
+          "wir lehnten ab",
+          "ihr lehntet ab",
+          "sie lehnten ab"
+        ],
+        "perfekt": [
+          "ich habe abgelehnt",
+          "du hast abgelehnt",
+          "er/sie/es hat abgelehnt",
+          "wir haben abgelehnt",
+          "ihr habt abgelehnt",
+          "sie haben abgelehnt"
+        ],
+        "futur_1": [
+          "ich werde ablehnen",
+          "du wirst ablehnen",
+          "er/sie/es wird ablehnen",
+          "wir werden ablehnen",
+          "ihr werdet ablehnen",
+          "sie werden ablehnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde ablehnen",
+          "du würdest ablehnen",
+          "er/sie/es würde ablehnen",
+          "wir würden ablehnen",
+          "ihr würdet ablehnen",
+          "sie würden ablehnen"
+        ],
+        "imperativ": [
+          "lehne ab!",
+          "lehnt ab!"
+        ]
+      },
+      "examples": [
+        "Er lehnt die Einladung höflich ab."
+      ]
+    },
+    "entschuldigen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Um Verzeihung bitten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich entschuldige",
+          "du entschuldigst",
+          "er/sie/es entschuldigt",
+          "wir entschuldigen",
+          "ihr entschuldigt",
+          "sie entschuldigen"
+        ],
+        "präteritum": [
+          "ich entschuldigte",
+          "du entschuldigtest",
+          "er/sie/es entschuldigte",
+          "wir entschuldigten",
+          "ihr entschuldigtet",
+          "sie entschuldigten"
+        ],
+        "perfekt": [
+          "ich habe entschuldigt",
+          "du hast entschuldigt",
+          "er/sie/es hat entschuldigt",
+          "wir haben entschuldigt",
+          "ihr habt entschuldigt",
+          "sie haben entschuldigt"
+        ],
+        "futur_1": [
+          "ich werde entschuldigen",
+          "du wirst entschuldigen",
+          "er/sie/es wird entschuldigen",
+          "wir werden entschuldigen",
+          "ihr werdet entschuldigen",
+          "sie werden entschuldigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde entschuldigen",
+          "du würdest entschuldigen",
+          "er/sie/es würde entschuldigen",
+          "wir würden entschuldigen",
+          "ihr würdet entschuldigen",
+          "sie würden entschuldigen"
+        ],
+        "imperativ": [
+          "entschuldige!",
+          "entschuldigt!"
+        ]
+      },
+      "examples": [
+        "Entschuldigen Sie bitte den Fehler."
+      ]
+    },
+    "lieben": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Starke Zuneigung oder Liebe für jemanden oder etwas empfinden.",
+      "antonyms": [
+        "hassen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich liebe",
+          "du liebst",
+          "er/sie/es liebt",
+          "wir lieben",
+          "ihr liebt",
+          "sie lieben"
+        ],
+        "präteritum": [
+          "ich liebte",
+          "du liebtest",
+          "er/sie/es liebte",
+          "wir liebten",
+          "ihr liebtet",
+          "sie liebten"
+        ],
+        "perfekt": [
+          "ich habe geliebt",
+          "du hast geliebt",
+          "er/sie/es hat geliebt",
+          "wir haben geliebt",
+          "ihr habt geliebt",
+          "sie haben geliebt"
+        ],
+        "futur_1": [
+          "ich werde lieben",
+          "du wirst lieben",
+          "er/sie/es wird lieben",
+          "wir werden lieben",
+          "ihr werdet lieben",
+          "sie werden lieben"
+        ],
+        "konjunktiv_2": [
+          "ich würde lieben",
+          "du würdest lieben",
+          "er/sie/es würde lieben",
+          "wir würden lieben",
+          "ihr würdet lieben",
+          "sie würden lieben"
+        ],
+        "imperativ": [
+          "liebe!",
+          "liebt!"
+        ]
+      },
+      "examples": [
+        "Sie liebt klassische Musik und Literatur."
+      ]
+    },
+    "hassen": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Starke Abneigung oder Hass empfinden.",
+      "antonyms": [
+        "lieben",
+        "mögen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich hasse",
+          "du hasst",
+          "er/sie/es hasst",
+          "wir hassen",
+          "ihr hasst",
+          "sie hassen"
+        ],
+        "präteritum": [
+          "ich hasste",
+          "du hasstest",
+          "er/sie/es hasste",
+          "wir hassten",
+          "ihr hasstet",
+          "sie hassten"
+        ],
+        "perfekt": [
+          "ich habe gehasst",
+          "du hast gehasst",
+          "er/sie/es hat gehasst",
+          "wir haben gehasst",
+          "ihr habt gehasst",
+          "sie haben gehasst"
+        ],
+        "futur_1": [
+          "ich werde hassen",
+          "du wirst hassen",
+          "er/sie/es wird hassen",
+          "wir werden hassen",
+          "ihr werdet hassen",
+          "sie werden hassen"
+        ],
+        "konjunktiv_2": [
+          "ich würde hassen",
+          "du würdest hassen",
+          "er/sie/es würde hassen",
+          "wir würden hassen",
+          "ihr würdet hassen",
+          "sie würden hassen"
+        ],
+        "imperativ": [
+          "hasse!",
+          "hasst!"
+        ]
+      },
+      "examples": [
+        "Ich hasse Verspätungen bei Verabredungen."
+      ]
+    },
+    "studieren": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "An einer Hochschule oder Universität lernen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich studiere",
+          "du studierst",
+          "er/sie/es studiert",
+          "wir studieren",
+          "ihr studiert",
+          "sie studieren"
+        ],
+        "präteritum": [
+          "ich studierte",
+          "du studiertest",
+          "er/sie/es studierte",
+          "wir studierten",
+          "ihr studiertet",
+          "sie studierten"
+        ],
+        "perfekt": [
+          "ich habe studiert",
+          "du hast studiert",
+          "er/sie/es hat studiert",
+          "wir haben studiert",
+          "ihr habt studiert",
+          "sie haben studiert"
+        ],
+        "futur_1": [
+          "ich werde studieren",
+          "du wirst studieren",
+          "er/sie/es wird studieren",
+          "wir werden studieren",
+          "ihr werdet studieren",
+          "sie werden studieren"
+        ],
+        "konjunktiv_2": [
+          "ich würde studieren",
+          "du würdest studieren",
+          "er/sie/es würde studieren",
+          "wir würden studieren",
+          "ihr würdet studieren",
+          "sie würden studieren"
+        ],
+        "imperativ": [
+          "studiere!",
+          "studiert!"
+        ]
+      },
+      "examples": [
+        "Er studiert Informatik an der Universität."
+      ]
+    },
+    "ruhen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "In einem Zustand der Entspannung oder Stille sein.",
+      "antonyms": [
+        "arbeiten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich ruhe",
+          "du ruhst",
+          "er/sie/es ruht",
+          "wir ruhen",
+          "ihr ruht",
+          "sie ruhen"
+        ],
+        "präteritum": [
+          "ich ruhte",
+          "du ruhtest",
+          "er/sie/es ruhte",
+          "wir ruhten",
+          "ihr ruhtet",
+          "sie ruhten"
+        ],
+        "perfekt": [
+          "ich habe geruht",
+          "du hast geruht",
+          "er/sie/es hat geruht",
+          "wir haben geruht",
+          "ihr habt geruht",
+          "sie haben geruht"
+        ],
+        "futur_1": [
+          "ich werde ruhen",
+          "du wirst ruhen",
+          "er/sie/es wird ruhen",
+          "wir werden ruhen",
+          "ihr werdet ruhen",
+          "sie werden ruhen"
+        ],
+        "konjunktiv_2": [
+          "ich würde ruhen",
+          "du würdest ruhen",
+          "er/sie/es würde ruhen",
+          "wir würden ruhen",
+          "ihr würdet ruhen",
+          "sie würden ruhen"
+        ],
+        "imperativ": [
+          "ruhe!",
+          "ruht!"
+        ]
+      },
+      "examples": [
+        "Der See ruht stumm im Wald."
+      ]
+    },
+    "reden": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Sich mündlich äußern oder ein Gespräch führen.",
+      "antonyms": [
+        "schweigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich rede",
+          "du redest",
+          "er/sie/es redet",
+          "wir reden",
+          "ihr redet",
+          "sie reden"
+        ],
+        "präteritum": [
+          "ich redete",
+          "du redetest",
+          "er/sie/es redete",
+          "wir redeten",
+          "ihr redetet",
+          "sie redeten"
+        ],
+        "perfekt": [
+          "ich habe geredet",
+          "du hast geredet",
+          "er/sie/es hat geredet",
+          "wir haben geredet",
+          "ihr habt geredet",
+          "sie haben geredet"
+        ],
+        "futur_1": [
+          "ich werde reden",
+          "du wirst reden",
+          "er/sie/es wird reden",
+          "wir werden reden",
+          "ihr werdet reden",
+          "sie werden reden"
+        ],
+        "konjunktiv_2": [
+          "ich würde reden",
+          "du würdest reden",
+          "er/sie/es würde reden",
+          "wir würden reden",
+          "ihr würdet reden",
+          "sie würden reden"
+        ],
+        "imperativ": [
+          "rede!",
+          "redet!"
+        ]
+      },
+      "examples": [
+        "Wir reden oft über unsere Pläne für die Zukunft."
+      ]
+    },
+    "beobachten": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Aufmerksam mit den Augen verfolgen.",
+      "antonyms": [
+        "ignorieren"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich beobachte",
+          "du beobachtest",
+          "er/sie/es beobachtet",
+          "wir beobachten",
+          "ihr beobachtet",
+          "sie beobachten"
+        ],
+        "präteritum": [
+          "ich beobachtete",
+          "du beobachtetest",
+          "er/sie/es beobachtete",
+          "wir beobachteten",
+          "ihr beobachtetet",
+          "sie beobachteten"
+        ],
+        "perfekt": [
+          "ich habe beobachtet",
+          "du hast beobachtet",
+          "er/sie/es hat beobachtet",
+          "wir haben beobachtet",
+          "ihr habt beobachtet",
+          "sie haben beobachtet"
+        ],
+        "futur_1": [
+          "ich werde beobachten",
+          "du wirst beobachten",
+          "er/sie/es wird beobachten",
+          "wir werden beobachten",
+          "ihr werdet beobachten",
+          "sie werden beobachten"
+        ],
+        "konjunktiv_2": [
+          "ich würde beobachten",
+          "du würdest beobachten",
+          "er/sie/es würde beobachten",
+          "wir würden beobachten",
+          "ihr würdet beobachten",
+          "sie würden beobachten"
+        ],
+        "imperativ": [
+          "beobachte!",
+          "beobachtet!"
+        ]
+      },
+      "examples": [
+        "Der Forscher beobachtet die Tiere im Wald."
+      ]
+    },
+    "leben": {
+      "group": "Schwaches Verb",
+      "level": "A1",
+      "definition": "Am Leben sein oder einen Wohnsitz haben.",
+      "antonyms": [
+        "sterben"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich lebe",
+          "du lebst",
+          "er/sie/es lebt",
+          "wir leben",
+          "ihr lebt",
+          "sie leben"
+        ],
+        "präteritum": [
+          "ich lebte",
+          "du lebtest",
+          "er/sie/es lebte",
+          "wir lebten",
+          "ihr lebtet",
+          "sie lebten"
+        ],
+        "perfekt": [
+          "ich habe gelebt",
+          "du hast gelebt",
+          "er/sie/es hat gelebt",
+          "wir haben gelebt",
+          "ihr habt gelebt",
+          "sie haben gelebt"
+        ],
+        "futur_1": [
+          "ich werde leben",
+          "du wirst leben",
+          "er/sie/es wird leben",
+          "wir werden leben",
+          "ihr werdet leben",
+          "sie werden leben"
+        ],
+        "konjunktiv_2": [
+          "ich würde leben",
+          "du würdest leben",
+          "er/sie/es würde leben",
+          "wir würden leben",
+          "ihr würdet leben",
+          "sie würden leben"
+        ],
+        "imperativ": [
+          "lebe!",
+          "lebt!"
+        ]
+      },
+      "examples": [
+        "Meine Großeltern leben in einem kleinen Dorf."
+      ]
+    }
+  }
+}

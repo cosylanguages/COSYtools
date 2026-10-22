@@ -1,0 +1,205 @@
+{
+  "group_name": "Auxiliaire / 3e groupe",
+  "verbs": {
+    "être": {
+      "group": "Auxiliaire / 3e groupe",
+      "level": "A1",
+      "definition": "Exister, avoir une réalité, une nature ou un état.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je suis",
+          "tu es",
+          "il/elle est",
+          "nous sommes",
+          "vous êtes",
+          "ils/elles sont"
+        ],
+        "indicatif_imparfait": [
+          "j'étais",
+          "tu étais",
+          "il/elle était",
+          "nous étions",
+          "vous étiez",
+          "ils/elles étaient"
+        ],
+        "pc": [
+          "j'ai été",
+          "tu as été",
+          "il/elle a été",
+          "nous avons été",
+          "vous avez été",
+          "ils/elles ont été"
+        ],
+        "indicatif_futur_simple": [
+          "je serai",
+          "tu seras",
+          "il/elle sera",
+          "nous serons",
+          "vous serez",
+          "ils/elles seront"
+        ],
+        "conditionnel_present": [
+          "je serais",
+          "tu serais",
+          "il/elle serait",
+          "nous serions",
+          "vous seriez",
+          "ils/elles seraient"
+        ],
+        "subjonctif_present": [
+          "que je sois",
+          "que tu sois",
+          "qu'il/elle soit",
+          "que nous soyons",
+          "que vous soyez",
+          "qu'ils/elles soient"
+        ],
+        "imperatif": [
+          "sois !",
+          "soyons !",
+          "soyez !"
+        ],
+        "part": [
+          "étant",
+          "été"
+        ],
+        "pqp": [
+          "j'avais été",
+          "tu avais été",
+          "il/elle avait été",
+          "nous avions été",
+          "vous aviez été",
+          "ils/elles avaient été"
+        ],
+        "fut_ant": [
+          "j'aurai été",
+          "tu auras été",
+          "il/elle aura été",
+          "nous aurons été",
+          "vous aurez été",
+          "ils/elles auront été"
+        ],
+        "cond_pass": [
+          "j'aurais été",
+          "tu aurais été",
+          "il/elle aurait été",
+          "nous aurions été",
+          "vous auriez été",
+          "ils/elles auraient été"
+        ],
+        "subj_pass": [
+          "que j'aie été",
+          "que tu aies été",
+          "qu'il/elle ait été",
+          "que nous ayons été",
+          "que vous ayez été",
+          "qu'ils/elles aient été"
+        ]
+      },
+      "usage_hint": "être à (appartenance) / en / dans / + adjectif",
+      "irregular": true
+    },
+    "avoir": {
+      "group": "Auxiliaire / 3e groupe",
+      "level": "A1",
+      "definition": "Posséder quelque chose, éprouver une sensation.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "j'ai",
+          "tu as",
+          "il/elle a",
+          "nous avons",
+          "vous avez",
+          "ils/elles ont"
+        ],
+        "indicatif_imparfait": [
+          "j'avais",
+          "tu avais",
+          "il/elle avait",
+          "nous avions",
+          "vous aviez",
+          "ils/elles avaient"
+        ],
+        "pc": [
+          "j'ai eu",
+          "tu as eu",
+          "il/elle a eu",
+          "nous avons eu",
+          "vous avez eu",
+          "ils/elles ont eu"
+        ],
+        "indicatif_futur_simple": [
+          "j'aurai",
+          "tu auras",
+          "il/elle aura",
+          "nous aurons",
+          "vous aurez",
+          "ils/elles auront"
+        ],
+        "conditionnel_present": [
+          "j'aurais",
+          "tu aurais",
+          "il/elle aurait",
+          "nous aurions",
+          "vous auriez",
+          "ils/elles auraient"
+        ],
+        "subjonctif_present": [
+          "que j'aie",
+          "que tu aies",
+          "qu'il/elle ait",
+          "que nous ayons",
+          "que vous ayez",
+          "qu'ils/elles aient"
+        ],
+        "imperatif": [
+          "aie !",
+          "ayons !",
+          "ayez !"
+        ],
+        "part": [
+          "ayant",
+          "eu"
+        ],
+        "pqp": [
+          "j'avais eu",
+          "tu avais eu",
+          "il/elle avait eu",
+          "nous avions eu",
+          "vous aviez eu",
+          "ils/elles avaient eu"
+        ],
+        "fut_ant": [
+          "j'aurai eu",
+          "tu auras eu",
+          "il/elle aura eu",
+          "nous aurons eu",
+          "vous aurez eu",
+          "ils/elles auront eu"
+        ],
+        "cond_pass": [
+          "j'aurais eu",
+          "tu aurais eu",
+          "il/elle aurait eu",
+          "nous aurions eu",
+          "vous auriez eu",
+          "ils/elles auraient eu"
+        ],
+        "subj_pass": [
+          "que j'aie eu",
+          "que tu aies eu",
+          "qu'il/elle ait eu",
+          "que nous ayons eu",
+          "que vous ayez eu",
+          "qu'ils/elles aient eu"
+        ]
+      },
+      "usage_hint": "avoir besoin de / avoir peur de / + COD",
+      "irregular": true
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "group_name": "Trennbares Verb",
+  "verbs": {
+    "ausruhen": {
+      "group": "Trennbares Verb",
+      "level": "A1",
+      "definition": "Sich erholen oder eine Pause machen.",
+      "antonyms": [
+        "arbeiten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich ruhe aus",
+          "du ruhst aus",
+          "er/sie/es ruht aus",
+          "wir ruhen aus",
+          "ihr ruht aus",
+          "sie ruhen aus"
+        ],
+        "präteritum": [
+          "ich ruhte aus",
+          "du ruhtest aus",
+          "er/sie/es ruhte aus",
+          "wir ruhten aus",
+          "ihr ruhtet aus",
+          "sie ruhten aus"
+        ],
+        "perfekt": [
+          "ich habe ausgeruht",
+          "du hast ausgeruht",
+          "er/sie/es hat ausgeruht",
+          "wir haben ausgeruht",
+          "ihr habt ausgeruht",
+          "sie haben ausgeruht"
+        ],
+        "futur_1": [
+          "ich werde ausruhen",
+          "du wirst ausruhen",
+          "er/sie/es wird ausruhen",
+          "wir werden ausruhen",
+          "ihr werdet ausruhen",
+          "sie werden ausruhen"
+        ],
+        "konjunktiv_2": [
+          "ich würde ausruhen",
+          "du würdest ausruhen",
+          "er/sie/es würde ausruhen",
+          "wir würden ausruhen",
+          "ihr würdet ausruhen",
+          "sie würden ausruhen"
+        ],
+        "imperativ": [
+          "ruhe aus!",
+          "ruht aus!"
+        ]
+      },
+      "examples": [
+        "Nach dem Sport muss ich mich ausruhen."
+      ]
+    },
+    "herstellen": {
+      "group": "Trennbares Verb",
+      "level": "A2",
+      "definition": "Produkte oder Gegenstände aus Materialien anfertigen.",
+      "antonyms": [
+        "zerstören"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich stelle her",
+          "du stellst her",
+          "er/sie/es stellt her",
+          "wir stellen her",
+          "ihr stellt her",
+          "sie stellen her"
+        ],
+        "präteritum": [
+          "ich stellte her",
+          "du stelltest her",
+          "er/sie/es stellte her",
+          "wir stellten her",
+          "ihr stelltet her",
+          "sie stellten her"
+        ],
+        "perfekt": [
+          "ich habe hergestellt",
+          "du hast hergestellt",
+          "er/sie/es hat hergestellt",
+          "wir haben hergestellt",
+          "ihr habt hergestellt",
+          "sie haben hergestellt"
+        ],
+        "futur_1": [
+          "ich werde herstellen",
+          "du wirst herstellen",
+          "er/sie/es wird herstellen",
+          "wir werden herstellen",
+          "ihr werdet herstellen",
+          "sie werden herstellen"
+        ],
+        "konjunktiv_2": [
+          "ich würde herstellen",
+          "du würdest herstellen",
+          "er/sie/es würde herstellen",
+          "wir würden herstellen",
+          "ihr würdet herstellen",
+          "sie würden herstellen"
+        ],
+        "imperativ": [
+          "stelle her!",
+          "stellt her!"
+        ]
+      },
+      "examples": [
+        "Die Firma stellt moderne Möbel her."
+      ]
+    },
+    "zuhören": {
+      "group": "Trennbares Verb",
+      "level": "A1",
+      "definition": "Aufmerksam Geräuschen oder Worten lauschen.",
+      "antonyms": [
+        "weghören"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich höre zu",
+          "du hörst zu",
+          "er/sie/es hört zu",
+          "wir hören zu",
+          "ihr hört zu",
+          "sie hören zu"
+        ],
+        "präteritum": [
+          "ich hörte zu",
+          "du hörtest zu",
+          "er/sie/es hörte zu",
+          "wir hörten zu",
+          "ihr hörtet zu",
+          "sie hörten zu"
+        ],
+        "perfekt": [
+          "ich habe zugehört",
+          "du hast zugehört",
+          "er/sie/es hat zugehört",
+          "wir haben zugehört",
+          "ihr habt zugehört",
+          "sie haben zugehört"
+        ],
+        "futur_1": [
+          "ich werde zuhören",
+          "du wirst zuhören",
+          "er/sie/es wird zuhören",
+          "wir werden zuhören",
+          "ihr werdet zuhören",
+          "sie werden zuhören"
+        ],
+        "konjunktiv_2": [
+          "ich würde zuhören",
+          "du würdest zuhören",
+          "er/sie/es würde zuhören",
+          "wir würden zuhören",
+          "ihr würdet zuhören",
+          "sie würden zuhören"
+        ],
+        "imperativ": [
+          "höre zu!",
+          "hört zu!"
+        ]
+      },
+      "examples": [
+        "Bitte hör mir aufmerksam zu!"
+      ]
+    }
+  }
+}
