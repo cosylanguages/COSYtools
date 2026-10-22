@@ -318,6 +318,14 @@ class ConjugationEngine {
        Interactive Practice Game Logic
        ========================================================================== */
 
+    launchPracticeForVerb(infinitive) {
+        const verb = infinitive || document.getElementById('verb-infinitive')?.textContent || 'parler';
+        this.currentPracticeVerb = verb;
+        if (!this.isGameActive) {
+            this.toggleGameMode();
+        }
+    }
+
     toggleGameMode() {
         this.isGameActive = !this.isGameActive;
         const toggleBtn = document.getElementById('toggle-game-btn');
@@ -345,7 +353,11 @@ class ConjugationEngine {
             }
             if (gameContainer) gameContainer.style.display = 'none';
             if (searchContainer) searchContainer.style.display = 'block';
-            this.resetDisplay();
+            if (this.currentPracticeVerb && this.verbDb[this.currentPracticeVerb]) {
+                this.renderVerbResult(this.currentPracticeVerb, this.verbDb[this.currentPracticeVerb]);
+            } else {
+                this.resetDisplay();
+            }
         }
     }
 
@@ -704,7 +716,8 @@ class ConjugationEngine {
     }
 }
 
-// Global initialization
+// Global export & initialization
+window.ConjugationEngine = ConjugationEngine;
 let appEngine;
 document.addEventListener('DOMContentLoaded', () => {
     appEngine = new ConjugationEngine();
