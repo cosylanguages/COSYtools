@@ -90,7 +90,7 @@ The dataset is a JSON object where each top-level key is the verb's infinitive o
 ```
 
 - **Required Fields**: `group`, `level`, `definition`, `tenses`.
-- **Optional Fields**: `auxiliary`, `antonyms`, `examples`, `pair` (Slavic aspectual pair), `voice` (Greek voice), `irregular`, `needs_review`.
+- **Optional Fields**: `auxiliary`, `antonyms`, `examples`, `pair` (Slavic aspectual pair), `voice` (Greek voice), `irregular`, `needs_review`, `review_status` (`unreviewed` | `needs_review` | `reviewed` | `verified_native`), `source`, `reviewer`, `last_reviewed`, `review_notes`.
 
 ---
 
@@ -124,6 +124,7 @@ Keyed by the nominative singular noun form.
 ```
 
 - **Required Fields**: `gender`, `level`, `definition`.
+- **Optional Fields**: `article`, `plural`, `cases`, `irregular`, `needs_review`, `review_status` (`unreviewed` | `needs_review` | `reviewed` | `verified_native`), `source`, `reviewer`, `last_reviewed`, `review_notes`.
 - **Declension Key Naming Convention**: MUST use `_sing` and `_plur` suffixes (`nom_sing`, `gen_sing`, `dat_sing`, `acc_sing`, `ins_sing`, `pre_sing`, `loc_sing`, `voc_sing`, `nom_plur`, `gen_plur`, `acc_plur`).
 
 ---
