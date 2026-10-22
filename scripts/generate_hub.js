@@ -123,10 +123,11 @@ ${typePills}
 function renderCard(t, langMap) {
   const l = langMap.get(t.language);
   const group = TYPE_GROUP[t.type];
+  const groupObj = GROUPS.find(g => g.id === group) || GROUPS[0];
   const href = t.entry_url.replace(/index\.html$/, '');
-  const search = [l.native, l.name, t.language, t.type, group, t.title, t.description, t.keywords || '']
+  const search = [l.native, l.name, t.language, t.type, group, groupObj.label, t.title, t.description, t.keywords || '']
     .join(' ').toLowerCase();
-  const badge = t.status === 'stable' ? '' :
+  const statusBadge = t.status === 'stable' ? '' :
     `<span class="status-badge status-${t.status}" data-i18n="status_${t.status}">${t.status === 'beta' ? 'Beta' : 'In development'}</span>`;
   return `          <a href="${esc(href)}" class="engine-card" data-tool="${esc(t.id)}" data-lang="${t.language}" data-type="${group}" data-status="${t.status}" data-search="${esc(search)}">
             <div>
@@ -134,7 +135,11 @@ function renderCard(t, langMap) {
                 <div class="engine-icon" aria-hidden="true">${esc(l.flag)}</div>
                 <div class="engine-title-area">
                   <h3>${esc(t.title)}</h3>
-                  <div class="engine-subtitle"><span>${esc(l.native)}</span>${badge}</div>
+                  <div class="engine-subtitle">
+                    <span class="card-lang-tag">${esc(l.native)} (${esc(l.name)})</span>
+                    <span class="card-type-tag" data-i18n="${groupObj.i18n}">${esc(groupObj.label)}</span>
+                    ${statusBadge}
+                  </div>
                 </div>
               </div>
               <p class="engine-desc">${esc(t.description)}</p>

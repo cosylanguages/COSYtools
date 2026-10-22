@@ -103,7 +103,10 @@
   function reset() {
     state.lang = 'all'; state.type = 'all'; state.q = ''; state.dev = false;
     const input = $('#hub-search-input');
-    if (input) input.value = '';
+    if (input) {
+      input.value = '';
+      input.focus();
+    }
     apply();
   }
 
