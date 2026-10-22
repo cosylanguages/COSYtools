@@ -1,0 +1,946 @@
+{
+  "break": {
+    "base": "break",
+    "past_simple": "broke",
+    "past_participle": "broken",
+    "third_person_singular": "breaks",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To separate into pieces or damage.",
+    "examples": [
+      "He breaks a dish by accident sometimes.",
+      "She broke her leg while skiing.",
+      "The vase has broken into pieces."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "choose": {
+    "base": "choose",
+    "past_simple": "chose",
+    "past_participle": "chosen",
+    "third_person_singular": "chooses",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To select or pick from options.",
+    "examples": [
+      "She chooses her clothes carefully.",
+      "He chose the blue shirt for the interview.",
+      "They have chosen a new leader."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "draw": {
+    "base": "draw",
+    "past_simple": "drew",
+    "past_participle": "drawn",
+    "third_person_singular": "draws",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To produce a picture using a pen or pencil.",
+    "examples": [
+      "He draws portraits in his free time.",
+      "She drew a beautiful flower on paper.",
+      "He has drawn a detailed map."
+    ],
+    "subgroup": "ew_awe_family",
+    "vowel_pattern": "a-e-a"
+  },
+  "drive": {
+    "base": "drive",
+    "past_simple": "drove",
+    "past_participle": "driven",
+    "third_person_singular": "drives",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To operate and control a vehicle.",
+    "examples": [
+      "He drives to work every morning.",
+      "She drove to the beach last Sunday.",
+      "They have driven across the country."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "fall": {
+    "base": "fall",
+    "past_simple": "fell",
+    "past_participle": "fallen",
+    "third_person_singular": "falls",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To move downward quickly by force of gravity.",
+    "examples": [
+      "Leaves fall from trees in autumn.",
+      "He fell off his bike yesterday.",
+      "The snow has fallen all night."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-e-a"
+  },
+  "fly": {
+    "base": "fly",
+    "past_simple": "flew",
+    "past_participle": "flown",
+    "third_person_singular": "flies",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To move through the air with wings or aircraft.",
+    "examples": [
+      "The bird flies over the trees.",
+      "They flew to Paris last month.",
+      "The pilot has flown this route many times."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "--e-o"
+  },
+  "forget": {
+    "base": "forget",
+    "past_simple": "forgot",
+    "past_participle": "forgotten",
+    "third_person_singular": "forgets",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To fail to remember or recall.",
+    "examples": [
+      "He forgets his password frequently.",
+      "She forgot her umbrella on the bus.",
+      "I have forgotten my umbrella."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "get": {
+    "base": "get",
+    "past_simple": "got",
+    "past_participle": "gotten",
+    "third_person_singular": "gets",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To receive, obtain, or become.",
+    "examples": [
+      "She gets good grades in school.",
+      "He got a new job last month.",
+      "They have gotten many presents."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "give": {
+    "base": "give",
+    "past_simple": "gave",
+    "past_participle": "given",
+    "third_person_singular": "gives",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To present or bestow something to someone.",
+    "examples": [
+      "She gives flowers to her mother.",
+      "He gave me a useful advice yesterday.",
+      "They have given us a warm welcome."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-a-i"
+  },
+  "grow": {
+    "base": "grow",
+    "past_simple": "grew",
+    "past_participle": "grown",
+    "third_person_singular": "grows",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To increase in size or develop.",
+    "examples": [
+      "The plant grows quickly in sunlight.",
+      "He grew two inches over the summer.",
+      "The city has grown significantly."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
+  },
+  "hide": {
+    "base": "hide",
+    "past_simple": "hid",
+    "past_participle": "hidden",
+    "third_person_singular": "hides",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To put or keep out of sight.",
+    "examples": [
+      "The cat hides under the bed during storms.",
+      "He hid the money in a safe box.",
+      "She has hidden the surprise present."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-i-i"
+  },
+  "know": {
+    "base": "know",
+    "past_simple": "knew",
+    "past_participle": "known",
+    "third_person_singular": "knows",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To be aware of or familiar with.",
+    "examples": [
+      "He knows the answer to every question.",
+      "She knew him when they were kids.",
+      "I have known her for ten years."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
+  },
+  "ride": {
+    "base": "ride",
+    "past_simple": "rode",
+    "past_participle": "ridden",
+    "third_person_singular": "rides",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To sit on and control a horse or bike.",
+    "examples": [
+      "She rides her bike to work.",
+      "He rode a horse across the field.",
+      "They have ridden camels in Egypt."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "speak": {
+    "base": "speak",
+    "past_simple": "spoke",
+    "past_participle": "spoken",
+    "third_person_singular": "speaks",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To express thoughts aloud in words.",
+    "examples": [
+      "She speaks three languages fluently.",
+      "He spoke at the conference yesterday.",
+      "We have spoken about this issue."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "steal": {
+    "base": "steal",
+    "past_simple": "stole",
+    "past_participle": "stolen",
+    "third_person_singular": "steals",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To take property without permission.",
+    "examples": [
+      "A thief steals valuable items.",
+      "Someone stole his bicycle yesterday.",
+      "The jewels have been stolen."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "take": {
+    "base": "take",
+    "past_simple": "took",
+    "past_participle": "taken",
+    "third_person_singular": "takes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To lay hold of, receive, or transport.",
+    "examples": [
+      "He takes medicine after meals.",
+      "She took a photo of the sunset.",
+      "They have taken many photos."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-a"
+  },
+  "throw": {
+    "base": "throw",
+    "past_simple": "threw",
+    "past_participle": "thrown",
+    "third_person_singular": "throws",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To propel something through air.",
+    "examples": [
+      "He throws the ball to his dog.",
+      "She threw the paper into the trash.",
+      "He has thrown away old papers."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
+  },
+  "wake": {
+    "base": "wake",
+    "past_simple": "woke",
+    "past_participle": "woken",
+    "third_person_singular": "wakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To emerge from sleep.",
+    "examples": [
+      "He wakes up early every morning.",
+      "She woke up at six today.",
+      "They have woken up refreshed."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-o"
+  },
+  "wear": {
+    "base": "wear",
+    "past_simple": "wore",
+    "past_participle": "worn",
+    "third_person_singular": "wears",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To have clothes or accessories on body.",
+    "examples": [
+      "She wears glasses for reading.",
+      "He wore a black suit to the wedding.",
+      "The coat has been worn out."
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
+  },
+  "write": {
+    "base": "write",
+    "past_simple": "wrote",
+    "past_participle": "written",
+    "third_person_singular": "writes",
+    "pattern_group": "add_en_or_n",
+    "level": "A1",
+    "definition": "To form letters or words on a surface.",
+    "examples": [
+      "She writes articles for a magazine.",
+      "He wrote a long letter yesterday.",
+      "I have written three chapters so far."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "awake": {
+    "base": "awake",
+    "past_simple": "awoke",
+    "past_participle": "awoken",
+    "third_person_singular": "awakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To stop sleeping or cause to wake.",
+    "examples": [
+      "He awakes at sunrise every morning.",
+      "The thunder awoke the sleeping child.",
+      "She has awoken from her long sleep."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
+  },
+  "blow": {
+    "base": "blow",
+    "past_simple": "blew",
+    "past_participle": "blown",
+    "third_person_singular": "blows",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To emit current of air or wind.",
+    "examples": [
+      "A cold wind blows from the north.",
+      "She blew out the candles on her cake.",
+      "The strong gale has blown down trees."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-e-o"
+  },
+  "freeze": {
+    "base": "freeze",
+    "past_simple": "froze",
+    "past_participle": "frozen",
+    "third_person_singular": "freezes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To turn into ice or harden with cold.",
+    "examples": [
+      "Water freezes at zero degrees Celsius.",
+      "The lake froze over last winter.",
+      "The ice cream has frozen hard."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "mistake": {
+    "base": "mistake",
+    "past_simple": "mistook",
+    "past_participle": "mistaken",
+    "third_person_singular": "mistakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To misunderstand or identify wrongly.",
+    "examples": [
+      "He mistakes kindness for weakness.",
+      "She mistook him for her brother.",
+      "I have mistaken the date of meeting."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-i-i"
+  },
+  "rise": {
+    "base": "rise",
+    "past_simple": "rose",
+    "past_participle": "risen",
+    "third_person_singular": "rises",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To move upward or increase.",
+    "examples": [
+      "The sun rises in the east.",
+      "Prices rose sharply last month.",
+      "The river level has risen by two feet."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "shake": {
+    "base": "shake",
+    "past_simple": "shook",
+    "past_participle": "shaken",
+    "third_person_singular": "shakes",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To vibrate or move back and forth.",
+    "examples": [
+      "He shakes hands when meeting people.",
+      "She shook the bottle before drinking.",
+      "An earthquake has shaken the city."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-o-a"
+  },
+  "swear": {
+    "base": "swear",
+    "past_simple": "swore",
+    "past_participle": "sworn",
+    "third_person_singular": "swears",
+    "pattern_group": "add_en_or_n",
+    "level": "A2",
+    "definition": "To state solemnly or use profanity.",
+    "examples": [
+      "He swears to tell the truth.",
+      "She swore an oath in the courtroom.",
+      "They have sworn to secrecy."
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
+  },
+  "arise": {
+    "base": "arise",
+    "past_simple": "arose",
+    "past_participle": "arisen",
+    "third_person_singular": "arises",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To emerge or come into existence.",
+    "examples": [
+      "New opportunities arise unexpected.",
+      "A problem arose during the meeting.",
+      "Complications have arisen unexpectedly."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
+  },
+  "bear": {
+    "base": "bear",
+    "past_simple": "bore",
+    "past_participle": "borne",
+    "third_person_singular": "bears",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To carry, endure, or give birth to.",
+    "examples": [
+      "She bears the responsibility bravely.",
+      "He bore the pain without complaining.",
+      "She has borne three children."
+    ],
+    "subgroup": "ore_orne",
+    "vowel_pattern": "e-o-o"
+  },
+  "forbid": {
+    "base": "forbid",
+    "past_simple": "forbade",
+    "past_participle": "forbidden",
+    "third_person_singular": "forbids",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To prohibit or order not to do.",
+    "examples": [
+      "Law forbids driving without license.",
+      "My doctor forbade me to drink coffee.",
+      "Entry has been forbidden to public."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "forgive": {
+    "base": "forgive",
+    "past_simple": "forgave",
+    "past_participle": "forgiven",
+    "third_person_singular": "forgives",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To pardon or stop feeling anger.",
+    "examples": [
+      "She forgives minor mistakes easily.",
+      "He forgave his friend after apology.",
+      "We have forgiven their shortcomings."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "forsake": {
+    "base": "forsake",
+    "past_simple": "forsook",
+    "past_participle": "forsaken",
+    "third_person_singular": "forsakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To abandon or renounce completely.",
+    "examples": [
+      "He forsakes worldly ambitions.",
+      "She forsook her career for family.",
+      "They have forsaken their old habits."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "outgrow": {
+    "base": "outgrow",
+    "past_simple": "outgrew",
+    "past_participle": "outgrown",
+    "third_person_singular": "outgrows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To grow too large for something.",
+    "examples": [
+      "The child outgrows clothes quickly.",
+      "He outgrew his fear of dark.",
+      "She has outgrown her childhood toys."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-o-o"
+  },
+  "overtake": {
+    "base": "overtake",
+    "past_simple": "overtook",
+    "past_participle": "overtaken",
+    "third_person_singular": "overtakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To catch up with and pass.",
+    "examples": [
+      "A fast car overtakes slow truck.",
+      "She overtook her rival near finish line.",
+      "Inflation has overtaken wage growth."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "overthrow": {
+    "base": "overthrow",
+    "past_simple": "overthrew",
+    "past_participle": "overthrown",
+    "third_person_singular": "overthrows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To depose or remove from power.",
+    "examples": [
+      "Rebels overthrow oppressive regime.",
+      "The army overthrew government in coup.",
+      "Dictators have been overthrown."
+    ],
+    "subgroup": "ew_own",
+    "vowel_pattern": "o-o-o"
+  },
+  "prove": {
+    "base": "prove",
+    "past_simple": "proved",
+    "past_participle": "proven",
+    "third_person_singular": "proves",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To demonstrate truth by evidence.",
+    "examples": [
+      "The experiment proves the hypothesis.",
+      "The theory proved correct in lab.",
+      "His loyalty has been proven."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "saw": {
+    "base": "saw",
+    "past_simple": "sawed",
+    "past_participle": "sawn",
+    "third_person_singular": "saws",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut wood with a saw tool.",
+    "examples": [
+      "The carpenter saws wooden planks.",
+      "He sawed log into firewood logs.",
+      "The fallen tree has been sawn."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "a-a-a"
+  },
+  "sew": {
+    "base": "sew",
+    "past_simple": "sewed",
+    "past_participle": "sewn",
+    "third_person_singular": "sews",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To join or repair with needle/thread.",
+    "examples": [
+      "She sews custom dresses at home.",
+      "He sewed button back onto shirt.",
+      "The quilt has been sewn by hand."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
+  },
+  "shave": {
+    "base": "shave",
+    "past_simple": "shaved",
+    "past_participle": "shaven",
+    "third_person_singular": "shaves",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut hair off skin with razor.",
+    "examples": [
+      "He shaves every morning before work.",
+      "She shaved her legs for summer.",
+      "He has shaved off his beard."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "a-a-a"
+  },
+  "shear": {
+    "base": "shear",
+    "past_simple": "shore",
+    "past_participle": "shorn",
+    "third_person_singular": "shears",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To cut wool from sheep.",
+    "examples": [
+      "The farmer shears sheep in spring.",
+      "They shorn flock in record time.",
+      "All sheep have been shorn clean."
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "e-o-o"
+  },
+  "sow": {
+    "base": "sow",
+    "past_simple": "sowed",
+    "past_participle": "sown",
+    "third_person_singular": "sows",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To plant seed in ground.",
+    "examples": [
+      "Farmers sow seeds in springtime.",
+      "She sowed wildflower seeds in field.",
+      "Generosity has sown good goodwill."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "o-o-o"
+  },
+  "stride": {
+    "base": "stride",
+    "past_simple": "strode",
+    "past_participle": "stridden",
+    "third_person_singular": "strides",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To walk with long decisive steps.",
+    "examples": [
+      "He strides confidently onto stage.",
+      "She strode across room to speak.",
+      "He has stridden into the room."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "strive": {
+    "base": "strive",
+    "past_simple": "strove",
+    "past_participle": "striven",
+    "third_person_singular": "strives",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To make great efforts to achieve.",
+    "examples": [
+      "She strives for excellence always.",
+      "He strove to overcome his limits.",
+      "They have striven for equality."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  },
+  "swell": {
+    "base": "swell",
+    "past_simple": "swelled",
+    "past_participle": "swollen",
+    "third_person_singular": "swells",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To expand or increase in size.",
+    "examples": [
+      "An ankle swells after an injury.",
+      "Her eye swelled after bee sting.",
+      "His ankle has swollen noticeably."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-o"
+  },
+  "tread": {
+    "base": "tread",
+    "past_simple": "trod",
+    "past_participle": "trodden",
+    "third_person_singular": "treads",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To crush underfoot or walk on.",
+    "examples": [
+      "Protesters tread on unjust laws.",
+      "Marchers trod path through snow.",
+      "Grass has been trodden down."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "withdraw": {
+    "base": "withdraw",
+    "past_simple": "withdrew",
+    "past_participle": "withdrawn",
+    "third_person_singular": "withdraws",
+    "pattern_group": "add_en_or_n",
+    "level": "B1",
+    "definition": "To remove, take back, or retreat.",
+    "examples": [
+      "He withdraws cash from ATM machine.",
+      "Troops withdrew from border town.",
+      "She has withdrawn her candidacy."
+    ],
+    "subgroup": "ew_awe_family",
+    "vowel_pattern": "i-i-i"
+  },
+  "befall": {
+    "base": "befall",
+    "past_simple": "befell",
+    "past_participle": "befallen",
+    "third_person_singular": "befalls",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To happen to or occur to someone.",
+    "examples": [
+      "Tragedy befalls unaware travelers.",
+      "Misfortune befell the expedition team.",
+      "Great luck has befallen them."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-e"
+  },
+  "bestrew": {
+    "base": "bestrew",
+    "past_simple": "bestrewed",
+    "past_participle": "bestrewn",
+    "third_person_singular": "bestrews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To scatter over a surface.",
+    "examples": [
+      "Wind bestrews autumn leaves ground.",
+      "Petals bestrewed path before bride.",
+      "Flowers have bestrewn the hall."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
+  },
+  "browbeat": {
+    "base": "browbeat",
+    "past_simple": "browbeat",
+    "past_participle": "browbeaten",
+    "third_person_singular": "browbeats",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To intimidate with stern words.",
+    "examples": [
+      "He browbeats junior staff members.",
+      "Lawyer browbeat witness into confession.",
+      "Witnesses were browbeaten in court."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "hew": {
+    "base": "hew",
+    "past_simple": "hewed",
+    "past_participle": "hewn",
+    "third_person_singular": "hews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To chop or cut with axe.",
+    "examples": [
+      "Lumberjacks hew timber in forest.",
+      "He hewed statue from granite block.",
+      "Columns were hewn from marble quarry."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
+  },
+  "override": {
+    "base": "override",
+    "past_simple": "overrode",
+    "past_participle": "overridden",
+    "third_person_singular": "overrides",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To set aside or overrule.",
+    "examples": [
+      "Captain overrides automatic controls.",
+      "Manager overrode previous decision.",
+      "Veto has been overridden by board."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "rewrite": {
+    "base": "rewrite",
+    "past_simple": "rewrote",
+    "past_participle": "rewritten",
+    "third_person_singular": "rewrites",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To write again or revise text.",
+    "examples": [
+      "Author rewrites draft story chapter.",
+      "She rewrote essay to improve flow.",
+      "Article has been rewritten cleanly."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-e-e"
+  },
+  "slay": {
+    "base": "slay",
+    "past_simple": "slew",
+    "past_participle": "slain",
+    "third_person_singular": "slays",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To kill in violent manner.",
+    "examples": [
+      "Hero slays mythical dragon beast.",
+      "David slew Goliath with sling.",
+      "Monster has been slain by hero."
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "a-e-a"
+  },
+  "strew": {
+    "base": "strew",
+    "past_simple": "strewed",
+    "past_participle": "strewn",
+    "third_person_singular": "strews",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To scatter or spread untidily.",
+    "examples": [
+      "Wind strews autumn leaves lawn.",
+      "Children strewed toys across room floor.",
+      "Papers have been strewn everywhere."
+    ],
+    "subgroup": "regular_past_n_participle",
+    "vowel_pattern": "e-e-e"
+  },
+  "undertake": {
+    "base": "undertake",
+    "past_simple": "undertook",
+    "past_participle": "undertaken",
+    "third_person_singular": "undertakes",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To commit oneself to task.",
+    "examples": [
+      "Scientist undertakes complex study.",
+      "Company undertook major expansion.",
+      "We have undertaken new project."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "u-u-u"
+  },
+  "weave": {
+    "base": "weave",
+    "past_simple": "wove",
+    "past_participle": "woven",
+    "third_person_singular": "weaves",
+    "pattern_group": "add_en_or_n",
+    "level": "B2",
+    "definition": "To form fabric by interlacing.",
+    "examples": [
+      "Weaver weaves tapestry on loom.",
+      "She wove colorful carpet pattern.",
+      "Stories have been woven into myth."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-o-o"
+  },
+  "forswear": {
+    "base": "forswear",
+    "past_simple": "forswore",
+    "past_participle": "forsworn",
+    "third_person_singular": "forswears",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To formally renounce or give up.",
+    "examples": [
+      "He forswears alcohol for good.",
+      "She forswore violence in protest.",
+      "Monks have forsworn luxury items."
+    ],
+    "subgroup": "ore_orn_family",
+    "vowel_pattern": "o-o-o"
+  },
+  "overbear": {
+    "base": "overbear",
+    "past_simple": "overbore",
+    "past_participle": "overborne",
+    "third_person_singular": "overbears",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To overpower or dominate.",
+    "examples": [
+      "His forceful personality overbears dissent.",
+      "Evidence overbore defense arguments.",
+      "Objections were overborne completely."
+    ],
+    "subgroup": "ore_orne",
+    "vowel_pattern": "o-o-o"
+  },
+  "smite": {
+    "base": "smite",
+    "past_simple": "smote",
+    "past_participle": "smitten",
+    "third_person_singular": "smites",
+    "pattern_group": "add_en_or_n",
+    "level": "B2+",
+    "definition": "To strike down or afflict severely.",
+    "examples": [
+      "Disaster smites the prideful king.",
+      "Plague smote ancient empire city.",
+      "He was smitten with sudden illness."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "i-o-i"
+  }
+}

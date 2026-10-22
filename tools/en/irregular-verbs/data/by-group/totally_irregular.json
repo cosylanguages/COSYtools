@@ -1,0 +1,210 @@
+{
+  "be": {
+    "base": "be",
+    "past_simple": "was/were",
+    "past_participle": "been",
+    "third_person_singular": "is",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To exist or live.",
+    "examples": [
+      "She is a doctor at the city hospital.",
+      "They were happy with the results.",
+      "He has been to London twice."
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "e-a-e"
+  },
+  "do": {
+    "base": "do",
+    "past_simple": "did",
+    "past_participle": "done",
+    "third_person_singular": "does",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To perform or carry out an action.",
+    "examples": [
+      "She does her homework after dinner.",
+      "He did a great job on the presentation.",
+      "We have done all the work."
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "o-i-o"
+  },
+  "eat": {
+    "base": "eat",
+    "past_simple": "ate",
+    "past_participle": "eaten",
+    "third_person_singular": "eats",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To consume food through the mouth.",
+    "examples": [
+      "She eats fruit for breakfast daily.",
+      "He ate dinner at a restaurant last night.",
+      "They have eaten all the cake."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-a-e"
+  },
+  "go": {
+    "base": "go",
+    "past_simple": "went",
+    "past_participle": "gone",
+    "third_person_singular": "goes",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To move or travel from one place to another.",
+    "examples": [
+      "She goes to school every day.",
+      "He went home early yesterday.",
+      "They have gone to the market."
+    ],
+    "subgroup": "totally_irregular",
+    "vowel_pattern": "o-e-o"
+  },
+  "have": {
+    "base": "have",
+    "past_simple": "had",
+    "past_participle": "had",
+    "third_person_singular": "has",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To possess or hold.",
+    "examples": [
+      "She has two brothers and one sister.",
+      "He had a cold last week.",
+      "They have had a wonderful holiday."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
+  },
+  "see": {
+    "base": "see",
+    "past_simple": "saw",
+    "past_participle": "seen",
+    "third_person_singular": "sees",
+    "pattern_group": "totally_irregular",
+    "level": "A1",
+    "definition": "To perceive with the eyes.",
+    "examples": [
+      "He sees birds outside his window.",
+      "She saw a great film last night.",
+      "We have seen that movie already."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "e-a-e"
+  },
+  "lie": {
+    "base": "lie",
+    "past_simple": "lay",
+    "past_participle": "lain",
+    "third_person_singular": "lies",
+    "pattern_group": "totally_irregular",
+    "level": "A2",
+    "definition": "To recline or rest in horizontal position.",
+    "examples": [
+      "He lies on the sofa to rest.",
+      "She lay in the sun for an hour.",
+      "The cat has lain on the rug all day."
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "i-a-a"
+  },
+  "outdo": {
+    "base": "outdo",
+    "past_simple": "outdid",
+    "past_participle": "outdone",
+    "third_person_singular": "outdoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To surpass or perform better than.",
+    "examples": [
+      "She always outdoes expectations.",
+      "He outdid himself in the final match.",
+      "They have outdone all competitors."
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "o-o-o"
+  },
+  "overeat": {
+    "base": "overeat",
+    "past_simple": "overate",
+    "past_participle": "overeaten",
+    "third_person_singular": "overeats",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To eat excessively.",
+    "examples": [
+      "He overeats when stressed out.",
+      "She overate at the holiday buffet.",
+      "We have overeaten at dinner party."
+    ],
+    "subgroup": "ablaut_plus_en",
+    "vowel_pattern": "o-o-o"
+  },
+  "undergo": {
+    "base": "undergo",
+    "past_simple": "underwent",
+    "past_participle": "undergone",
+    "third_person_singular": "undergoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To experience or endure process.",
+    "examples": [
+      "The patient undergoes treatment.",
+      "The building underwent major renovation.",
+      "The company has undergone changes."
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "u-u-u"
+  },
+  "undo": {
+    "base": "undo",
+    "past_simple": "undid",
+    "past_participle": "undone",
+    "third_person_singular": "undoes",
+    "pattern_group": "totally_irregular",
+    "level": "B1",
+    "definition": "To cancel or reverse action.",
+    "examples": [
+      "She undoes her hair braid.",
+      "He undid the knot with patience.",
+      "Damage cannot be easily undone."
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "u-u-u"
+  },
+  "overdo": {
+    "base": "overdo",
+    "past_simple": "overdid",
+    "past_participle": "overdone",
+    "third_person_singular": "overdoes",
+    "pattern_group": "totally_irregular",
+    "level": "B2",
+    "definition": "To do to excess or exaggerate.",
+    "examples": [
+      "He overdoes workout exercises.",
+      "She overdid salt in soup dish.",
+      "The meat has been overdone in oven."
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "o-o-o"
+  },
+  "redo": {
+    "base": "redo",
+    "past_simple": "redid",
+    "past_participle": "redone",
+    "third_person_singular": "redoes",
+    "pattern_group": "totally_irregular",
+    "level": "B2",
+    "definition": "To do something again.",
+    "examples": [
+      "He redoes task until perfect.",
+      "She redid entire room interior decoration.",
+      "We have redone electrical wiring."
+    ],
+    "subgroup": "did_done_family",
+    "vowel_pattern": "e-e-e"
+  }
+}

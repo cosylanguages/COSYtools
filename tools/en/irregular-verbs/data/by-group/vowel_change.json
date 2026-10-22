@@ -1,0 +1,850 @@
+{
+  "become": {
+    "base": "become",
+    "past_simple": "became",
+    "past_participle": "become",
+    "third_person_singular": "becomes",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To begin to be or turn into something.",
+    "examples": [
+      "He becomes angry when plans change.",
+      "She became a lawyer last year.",
+      "It has become very cold outside."
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "e-e-e"
+  },
+  "begin": {
+    "base": "begin",
+    "past_simple": "began",
+    "past_participle": "begun",
+    "third_person_singular": "begins",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To start or initiate an action.",
+    "examples": [
+      "The class begins at nine o'clock every morning.",
+      "It began to rain heavily an hour ago.",
+      "We have begun our new project."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "e-e-e"
+  },
+  "come": {
+    "base": "come",
+    "past_simple": "came",
+    "past_participle": "come",
+    "third_person_singular": "comes",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To move towards or arrive at a place.",
+    "examples": [
+      "He comes home at six PM every day.",
+      "She came to visit us last weekend.",
+      "My parents have come to stay with us."
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "o-a-o"
+  },
+  "drink": {
+    "base": "drink",
+    "past_simple": "drank",
+    "past_participle": "drunk",
+    "third_person_singular": "drinks",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To swallow liquid.",
+    "examples": [
+      "She drinks two liters of water daily.",
+      "He drank a glass of milk before bed.",
+      "We have drunk all the orange juice."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "find": {
+    "base": "find",
+    "past_simple": "found",
+    "past_participle": "found",
+    "third_person_singular": "finds",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To discover or locate something.",
+    "examples": [
+      "She finds good deals online.",
+      "He found his missing keys under the sofa.",
+      "We have found a solution to the problem."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
+  },
+  "hold": {
+    "base": "hold",
+    "past_simple": "held",
+    "past_participle": "held",
+    "third_person_singular": "holds",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To grasp or support with hands.",
+    "examples": [
+      "She holds the baby gently.",
+      "He held the door open for everyone.",
+      "They have held the event annually."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-e-e"
+  },
+  "meet": {
+    "base": "meet",
+    "past_simple": "met",
+    "past_participle": "met",
+    "third_person_singular": "meets",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To encounter or assemble with someone.",
+    "examples": [
+      "She meets her friends every weekend.",
+      "He met the director yesterday morning.",
+      "We have met before at a conference."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "read": {
+    "base": "read",
+    "past_simple": "read",
+    "past_participle": "read",
+    "third_person_singular": "reads",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To look at and comprehend written text.",
+    "examples": [
+      "He reads the newspaper every morning.",
+      "She read three books last month.",
+      "I have read that novel twice."
+    ],
+    "subgroup": "no_change",
+    "vowel_pattern": "e-e-e"
+  },
+  "ring": {
+    "base": "ring",
+    "past_simple": "rang",
+    "past_participle": "rung",
+    "third_person_singular": "rings",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To make a clear resonant sound.",
+    "examples": [
+      "The phone rings loudly in the hall.",
+      "He rang the doorbell twice.",
+      "The church bell has rung twelve times."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "run": {
+    "base": "run",
+    "past_simple": "ran",
+    "past_participle": "run",
+    "third_person_singular": "runs",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To move swiftly on foot.",
+    "examples": [
+      "He runs five kilometers every morning.",
+      "She ran to catch the train.",
+      "They have run two marathons this year."
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "u-a-u"
+  },
+  "sing": {
+    "base": "sing",
+    "past_simple": "sang",
+    "past_participle": "sung",
+    "third_person_singular": "sings",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To produce musical sounds with the voice.",
+    "examples": [
+      "She sings in the church choir.",
+      "He sang a beautiful song at the party.",
+      "They have sung that hymn together."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "sit": {
+    "base": "sit",
+    "past_simple": "sat",
+    "past_participle": "sat",
+    "third_person_singular": "sits",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To rest weight on buttocks or seat.",
+    "examples": [
+      "He sits near the window in class.",
+      "She sat on the bench in the park.",
+      "We have sat here for an hour."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-a-a"
+  },
+  "swim": {
+    "base": "swim",
+    "past_simple": "swam",
+    "past_participle": "swum",
+    "third_person_singular": "swims",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To propel body through water.",
+    "examples": [
+      "She swims in the pool every morning.",
+      "He swam across the lake easily.",
+      "They have swum in the ocean."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "win": {
+    "base": "win",
+    "past_simple": "won",
+    "past_participle": "won",
+    "third_person_singular": "wins",
+    "pattern_group": "vowel_change",
+    "level": "A1",
+    "definition": "To achieve victory in a contest.",
+    "examples": [
+      "He wins matches consistently.",
+      "She won first prize in the competition.",
+      "They have won three awards."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
+  },
+  "bind": {
+    "base": "bind",
+    "past_simple": "bound",
+    "past_participle": "bound",
+    "third_person_singular": "binds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To tie or fasten tightly.",
+    "examples": [
+      "The contract binds both parties legally.",
+      "He bound the package with strong rope.",
+      "They have bound the documents together."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
+  },
+  "bleed": {
+    "base": "bleed",
+    "past_simple": "bled",
+    "past_participle": "bled",
+    "third_person_singular": "bleeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To lose blood from body.",
+    "examples": [
+      "A small cut bleeds slightly.",
+      "His nose bled after he fell.",
+      "The wound has bled through the bandage."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "breed": {
+    "base": "breed",
+    "past_simple": "bred",
+    "past_participle": "bred",
+    "third_person_singular": "breeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To raise animals or reproduce.",
+    "examples": [
+      "He breeds racehorses on his farm.",
+      "They bred sheep for wool for generations.",
+      "They have bred high-quality cattle."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "cling": {
+    "base": "cling",
+    "past_simple": "clung",
+    "past_participle": "clung",
+    "third_person_singular": "clings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To hold on tightly or adhere.",
+    "examples": [
+      "The wet shirt clings to his back.",
+      "The child clung to her mother's coat.",
+      "They have clung to old traditions."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "dig": {
+    "base": "dig",
+    "past_simple": "dug",
+    "past_participle": "dug",
+    "third_person_singular": "digs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To break up and turn earth.",
+    "examples": [
+      "The dog digs holes in the garden.",
+      "He dug a deep trench for the pipes.",
+      "They have dug a new well."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "feed": {
+    "base": "feed",
+    "past_simple": "fed",
+    "past_participle": "fed",
+    "third_person_singular": "feeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To supply with food.",
+    "examples": [
+      "She feeds her cat every morning.",
+      "He fed the horses in the barn.",
+      "They have fed the hungry visitors."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "hang": {
+    "base": "hang",
+    "past_simple": "hung",
+    "past_participle": "hung",
+    "third_person_singular": "hangs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To suspend from above.",
+    "examples": [
+      "She hangs her coat on the hook.",
+      "He hung a painting on the living room wall.",
+      "They have hung decorations outside."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-u-u"
+  },
+  "lead": {
+    "base": "lead",
+    "past_simple": "led",
+    "past_participle": "led",
+    "third_person_singular": "leads",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To guide or conduct along a way.",
+    "examples": [
+      "The tour guide leads the group.",
+      "She led the team to a great victory.",
+      "He has led the organization well."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "light": {
+    "base": "light",
+    "past_simple": "lit",
+    "past_participle": "lit",
+    "third_person_singular": "lights",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To ignite or illuminate.",
+    "examples": [
+      "She lights a candle every evening.",
+      "He lit the fireplace when it got cold.",
+      "They have lit up the entire street."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
+  },
+  "overcome": {
+    "base": "overcome",
+    "past_simple": "overcame",
+    "past_participle": "overcome",
+    "third_person_singular": "overcomes",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To succeed in dealing with problem/fear.",
+    "examples": [
+      "She overcomes obstacles with determination.",
+      "He overcame his fear of heights.",
+      "They have overcome great hardship."
+    ],
+    "subgroup": "a_ou_a_come_family",
+    "vowel_pattern": "o-o-o"
+  },
+  "shine": {
+    "base": "shine",
+    "past_simple": "shone",
+    "past_participle": "shone",
+    "third_person_singular": "shines",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To emit or reflect light.",
+    "examples": [
+      "The sun shines brightly today.",
+      "His flashlight shone through the dark.",
+      "Her eyes have shone with joy."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
+  },
+  "shoot": {
+    "base": "shoot",
+    "past_simple": "shot",
+    "past_participle": "shot",
+    "third_person_singular": "shoots",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To fire a weapon or film a scene.",
+    "examples": [
+      "He shoots arrows at the target.",
+      "The photographer shot great pictures.",
+      "They have shot a new documentary."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
+  },
+  "sink": {
+    "base": "sink",
+    "past_simple": "sank",
+    "past_participle": "sunk",
+    "third_person_singular": "sinks",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To submerge or go beneath surface.",
+    "examples": [
+      "A heavy stone sinks in water.",
+      "The boat sank during the storm.",
+      "The sun has sunk below the horizon."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "slide": {
+    "base": "slide",
+    "past_simple": "slid",
+    "past_participle": "slid",
+    "third_person_singular": "slides",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To glide smoothly along a surface.",
+    "examples": [
+      "Children slide down the icy hill.",
+      "The glass slid off the smooth table.",
+      "He has slid into third base."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
+  },
+  "speed": {
+    "base": "speed",
+    "past_simple": "sped",
+    "past_participle": "sped",
+    "third_person_singular": "speeds",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To move at high speed or hurry.",
+    "examples": [
+      "The ambulance speeds through traffic.",
+      "He sped past the radar checkpoint.",
+      "The train has sped away."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "spit": {
+    "base": "spit",
+    "past_simple": "spat",
+    "past_participle": "spat",
+    "third_person_singular": "spits",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To eject saliva or liquid from mouth.",
+    "examples": [
+      "The camel spits when annoyed.",
+      "He spat out the bitter medicine.",
+      "He has spat on the ground."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-a-a"
+  },
+  "spring": {
+    "base": "spring",
+    "past_simple": "sprang",
+    "past_participle": "sprung",
+    "third_person_singular": "springs",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To leap, jump, or arise suddenly.",
+    "examples": [
+      "Grass springs up after warm rain.",
+      "He sprang up from his chair.",
+      "A new idea has sprung to mind."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "stick": {
+    "base": "stick",
+    "past_simple": "stuck",
+    "past_participle": "stuck",
+    "third_person_singular": "sticks",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To adhere or attach firmly.",
+    "examples": [
+      "Glue sticks paper together well.",
+      "The key stuck in the old lock.",
+      "We have stuck to our original plan."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "sting": {
+    "base": "sting",
+    "past_simple": "stung",
+    "past_participle": "stung",
+    "third_person_singular": "stings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To wound with a sharp organ/stinger.",
+    "examples": [
+      "A bee stings when threatened.",
+      "A wasp stung him on his arm.",
+      "The insect has stung her leg."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "strike": {
+    "base": "strike",
+    "past_simple": "struck",
+    "past_participle": "struck",
+    "third_person_singular": "strikes",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To hit sharply or deliver blow.",
+    "examples": [
+      "Clock strikes twelve at midnight.",
+      "Lightning struck the tall tower.",
+      "Disaster has struck the small town."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "swing": {
+    "base": "swing",
+    "past_simple": "swung",
+    "past_participle": "swung",
+    "third_person_singular": "swings",
+    "pattern_group": "vowel_change",
+    "level": "A2",
+    "definition": "To sway or move back and forth.",
+    "examples": [
+      "The pendulum swings continuously.",
+      "He swung the bat and hit the ball.",
+      "The gate has swung wide open."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "grind": {
+    "base": "grind",
+    "past_simple": "ground",
+    "past_participle": "ground",
+    "third_person_singular": "grinds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To crush into small particles.",
+    "examples": [
+      "The mill grinds wheat into flour.",
+      "He ground coffee beans fresh morning.",
+      "The pepper has been ground finely."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-o-o"
+  },
+  "outrun": {
+    "base": "outrun",
+    "past_simple": "outran",
+    "past_participle": "outrun",
+    "third_person_singular": "outruns",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To run faster or further than.",
+    "examples": [
+      "The cheetah outruns its prey easily.",
+      "He outran the defender to score.",
+      "They have outrun the police car."
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "o-o-o"
+  },
+  "shrink": {
+    "base": "shrink",
+    "past_simple": "shrank",
+    "past_participle": "shrunk",
+    "third_person_singular": "shrinks",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To become or make smaller.",
+    "examples": [
+      "Wool shrinks in hot water washes.",
+      "The sweater shrank after washing.",
+      "Market demand has shrunk lately."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "sling": {
+    "base": "sling",
+    "past_simple": "slung",
+    "past_participle": "slung",
+    "third_person_singular": "slings",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To throw or hurl forcefully.",
+    "examples": [
+      "He slings backpack over shoulder.",
+      "She slung stone across river bank.",
+      "The hammock was slung between trees."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "slink": {
+    "base": "slink",
+    "past_simple": "slunk",
+    "past_participle": "slunk",
+    "third_person_singular": "slinks",
+    "pattern_group": "vowel_change",
+    "level": "B2+",
+    "definition": "To move guiltily or stealthily.",
+    "examples": [
+      "Thief slinks through narrow alley.",
+      "He slunk away from accusation scene.",
+      "The shadow has slunk into alley."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "stink": {
+    "base": "stink",
+    "past_simple": "stank",
+    "past_participle": "stunk",
+    "third_person_singular": "stinks",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To emit strong foul odor.",
+    "examples": [
+      "Garbage stinks in hot summer.",
+      "The room stank of stale smoke.",
+      "The sewer pipe has stunk all day."
+    ],
+    "subgroup": "i_a_u_ablaut",
+    "vowel_pattern": "i-a-u"
+  },
+  "unwind": {
+    "base": "unwind",
+    "past_simple": "unwound",
+    "past_participle": "unwound",
+    "third_person_singular": "unwinds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To relax or uncoil string.",
+    "examples": [
+      "She unwinds by reading novels.",
+      "He unwound long garden hose pipe.",
+      "He has unwound after hard day."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "u-u-u"
+  },
+  "withhold": {
+    "base": "withhold",
+    "past_simple": "withheld",
+    "past_participle": "withheld",
+    "third_person_singular": "withholds",
+    "pattern_group": "vowel_change",
+    "level": "B1",
+    "definition": "To refuse to give or hold back.",
+    "examples": [
+      "Company withhold tax from salary.",
+      "He withheld vital information court.",
+      "They have withheld payment details."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
+  },
+  "alight": {
+    "base": "alight",
+    "past_simple": "alit",
+    "past_participle": "alit",
+    "third_person_singular": "alights",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To step down or land upon.",
+    "examples": [
+      "A bird alights on tree branch.",
+      "Passengers alit from train platform.",
+      "The falcon has alit on roof."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "a-a-a"
+  },
+  "dive": {
+    "base": "dive",
+    "past_simple": "dove",
+    "past_participle": "dived",
+    "third_person_singular": "dives",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To plunge headfirst into water.",
+    "examples": [
+      "She dives off high springboard.",
+      "He dove into cold ocean waves.",
+      "They have dived for sunken treasures."
+    ],
+    "subgroup": "other",
+    "vowel_pattern": "i-o-i"
+  },
+  "mislead": {
+    "base": "mislead",
+    "past_simple": "misled",
+    "past_participle": "misled",
+    "third_person_singular": "misleads",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To lead astray or deceive.",
+    "examples": [
+      "False ads mislead consumers easily.",
+      "The map misled hikers into woods.",
+      "Public has been misled by claims."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-i-i"
+  },
+  "overhang": {
+    "base": "overhang",
+    "past_simple": "overhung",
+    "past_participle": "overhung",
+    "third_person_singular": "overhangs",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To project or hang over.",
+    "examples": [
+      "Cliff overhangs stormy sea below.",
+      "Branches overhung narrow forest trail.",
+      "Roof has overhung balcony deck."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
+  },
+  "overrun": {
+    "base": "overrun",
+    "past_simple": "overran",
+    "past_participle": "overrun",
+    "third_person_singular": "overruns",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To swarm over or exceed limit.",
+    "examples": [
+      "Weeds overrun neglected gardens.",
+      "Enemy forces overran border post.",
+      "Budget has overrun initial estimate."
+    ],
+    "subgroup": "base_past_base",
+    "vowel_pattern": "o-o-o"
+  },
+  "overshoot": {
+    "base": "overshoot",
+    "past_simple": "overshot",
+    "past_participle": "overshot",
+    "third_person_singular": "overshoots",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To shoot or pass beyond target.",
+    "examples": [
+      "Plane overshoots runway landing.",
+      "Pilot overshot runway in heavy fog.",
+      "Target metrics have been overshot."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "o-o-o"
+  },
+  "rebind": {
+    "base": "rebind",
+    "past_simple": "rebound",
+    "past_participle": "rebound",
+    "third_person_singular": "rebinds",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To bind again or bounce back.",
+    "examples": [
+      "Prices rebound after drop.",
+      "Stock market rebounded quickly today.",
+      "Economy has rebound from slump."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "rewind": {
+    "base": "rewind",
+    "past_simple": "rewound",
+    "past_participle": "rewound",
+    "third_person_singular": "rewinds",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To wind back to beginning.",
+    "examples": [
+      "He rewinds video cassette tape.",
+      "She rewound film to start scene.",
+      "Tape has been rewound completely."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "e-e-e"
+  },
+  "string": {
+    "base": "string",
+    "past_simple": "strung",
+    "past_participle": "strung",
+    "third_person_singular": "strings",
+    "pattern_group": "vowel_change",
+    "level": "B2",
+    "definition": "To thread on cord or tune guitar.",
+    "examples": [
+      "She strings beads into necklace.",
+      "He strung guitar with new wire.",
+      "Lights have been strung on trees."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  },
+  "wring": {
+    "base": "wring",
+    "past_simple": "wrung",
+    "past_participle": "wrung",
+    "third_person_singular": "wrings",
+    "pattern_group": "vowel_change",
+    "level": "B2+",
+    "definition": "To extract money or truth by force.",
+    "examples": [
+      "Interrogator wrings confession from suspect.",
+      "He wrung promise from reluctant partner.",
+      "Truth was wrung from him."
+    ],
+    "subgroup": "base_past_past",
+    "vowel_pattern": "i-u-u"
+  }
+}
