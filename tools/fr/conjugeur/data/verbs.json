@@ -24085,5 +24085,76 @@
         "qu'ils/elles aient attendu"
       ]
     }
+  },
+  "haïr": {
+    "group": "2e groupe",
+    "level": "A2",
+    "definition": "Éprouver de la haine pour quelqu’un ou quelque chose.",
+    "antonyms": [
+      "aimer",
+      "adorer"
+    ],
+    "auxiliary": "avoir",
+    "tenses": {
+      "indicatif_present": [
+        "je hais",
+        "tu hais",
+        "il/elle hait",
+        "nous haïssons",
+        "vous haïssez",
+        "ils/elles haïssent"
+      ],
+      "indicatif_imparfait": [
+        "je haïssais",
+        "tu haïssais",
+        "il/elle haïssait",
+        "nous haïssions",
+        "vous haïssiez",
+        "ils/elles haïssaient"
+      ],
+      "pc": [
+        "j’ai haï",
+        "tu as haï",
+        "il/elle a haï",
+        "nous avons haï",
+        "vous avez haï",
+        "ils/elles ont haï"
+      ],
+      "indicatif_futur_simple": [
+        "je haïrai",
+        "tu haïras",
+        "il/elle haïra",
+        "nous haïrons",
+        "vous haïrez",
+        "ils/elles haïront"
+      ],
+      "conditionnel_present": [
+        "je haïrais",
+        "tu haïrais",
+        "il/elle haïrait",
+        "nous haïrions",
+        "vous haïriez",
+        "ils/elles haïraient"
+      ],
+      "subjonctif_present": [
+        "que je haïsse",
+        "que tu haïsses",
+        "qu’il/elle haïsse",
+        "que nous haïssions",
+        "que vous haïssiez",
+        "qu’ils/elles haïssent"
+      ],
+      "imperatif": [
+        "hais !",
+        "haïssons !",
+        "haïssez !"
+      ],
+      "part": [
+        "haïssant",
+        "haï"
+      ]
+    },
+    "irregular": true,
+    "usage_hint": "Gardez le tréma sur le i à toutes les personnes sauf au singulier du présent de l’indicatif et de l’impératif."
   }
 }

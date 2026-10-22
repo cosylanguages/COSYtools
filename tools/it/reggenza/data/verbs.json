@@ -4763,5 +4763,169 @@
     "common_mistake": "❌ Viaggiare a Italia. ➜ ✅ Viaggiare in Italia.",
     "synonyms": [],
     "antonyms": []
+  },
+  "bere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "bere + [bevanda]",
+    "level": "A1",
+    "definition": "Inghiottire un liquido.",
+    "grammar_rule": "Verbo transitivo diretto senza preposizione.",
+    "examples": [
+      "Bevo un bicchiere d’acqua ogni mattina.",
+      "A cena beviamo vino rosso."
+    ],
+    "common_mistake": "❌ Bevo a un caffè. ➔ ✅ Bevo un caffè.",
+    "synonyms": [
+      "dissetarsi",
+      "sorseggiare"
+    ],
+    "antonyms": [
+      "mangiare"
+    ]
+  },
+  "dire": {
+    "word_type": "verb",
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pattern": "dire + [qualcosa] + a + [persona] / dire di + [infinito]",
+    "level": "A1",
+    "definition": "Esprimere a parole pensieri o informazioni.",
+    "grammar_rule": "Richiede la preposizione « a » per la persona a cui si parla e « di » prima di un verbo all’infinito.",
+    "examples": [
+      "Ho detto la verità a Luca.",
+      "Gli ho detto di venire presto."
+    ],
+    "common_mistake": "❌ Ho detto per Marco. ➔ ✅ Ho detto a Marco.",
+    "synonyms": [
+      "comunicare",
+      "riferire"
+    ],
+    "antonyms": [
+      "tacere"
+    ]
+  },
+  "vedere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "vedere + [persona/cosa]",
+    "level": "A1",
+    "definition": "Percepire con gli occhi.",
+    "grammar_rule": "Verbo transitivo diretto senza preposizione.",
+    "examples": [
+      "Vedo un bel panorama dalla finestra.",
+      "Ci vediamo domani!"
+    ],
+    "common_mistake": "❌ Vedo a Maria. ➔ ✅ Vedo Maria.",
+    "synonyms": [
+      "scorgere",
+      "osservare"
+    ],
+    "antonyms": [
+      "non notare"
+    ]
+  },
+  "prendere": {
+    "word_type": "verb",
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "prendere + [cosa/mezzo di trasporto]",
+    "level": "A1",
+    "definition": "Afferrare o scegliere qualcosa o un mezzo di trasporto.",
+    "grammar_rule": "Verbo transitivo diretto senza preposizione.",
+    "examples": [
+      "Prendo l’autobus per andare al lavoro.",
+      "Prendiamo una decisione insieme."
+    ],
+    "common_mistake": "❌ Prendo a il treno. ➔ ✅ Prendo il treno.",
+    "synonyms": [
+      "afferrare",
+      "acquistare"
+    ],
+    "antonyms": [
+      "lasciare"
+    ]
+  },
+  "dare": {
+    "word_type": "verb",
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "dare + [cosa] + a + [persona]",
+    "level": "A1",
+    "definition": "Consegnare o offrire qualcosa a qualcuno.",
+    "grammar_rule": "Richiede la preposizione « a » per il destinatario dell’azione.",
+    "examples": [
+      "Dai questo libro a Giulia.",
+      "Mi ha dato un buon consiglio."
+    ],
+    "common_mistake": "❌ Dare per qualcuno. ➔ ✅ Dare a qualcuno.",
+    "synonyms": [
+      "offrire",
+      "donare"
+    ],
+    "antonyms": [
+      "prendere",
+      "ricevere"
+    ]
+  },
+  "ricevere": {
+    "word_type": "verb",
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "ricevere + [cosa] + da + [persona]",
+    "level": "A1",
+    "definition": "Ottenere qualcosa che viene inviato o dato.",
+    "grammar_rule": "Verbo transitivo diretto per l’oggetto, con la preposizione « da » per indicare la provenienza.",
+    "examples": [
+      "Ho ricevuto una bella lettera da mia madre.",
+      "Ricevere un premio per il lavoro svolto."
+    ],
+    "common_mistake": "❌ Ricevere per qualcuno. ➔ ✅ Ricevere da qualcuno.",
+    "synonyms": [
+      "ottenere",
+      "accogliere"
+    ],
+    "antonyms": [
+      "dare",
+      "inviare"
+    ]
+  },
+  "sentire": {
+    "word_type": "verb",
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "sentire + [rumore/persona]",
+    "level": "A1",
+    "definition": "Percepire con l’udito o con i sensi.",
+    "grammar_rule": "Verbo transitivo diretto per percepire suoni o persone.",
+    "examples": [
+      "Sento una bella musica in sottofondo.",
+      "Non ti sento bene, puoi parlare più forte?"
+    ],
+    "common_mistake": "❌ Sento a te. ➔ ✅ Ti sento / Sento la tua voce.",
+    "synonyms": [
+      "ascoltare",
+      "avvertire"
+    ],
+    "antonyms": [
+      "ignorare"
+    ]
   }
 }

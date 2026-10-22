@@ -21149,5 +21149,94 @@
     "usage_hint": "+ oggetto diretto (ottenere un risultato)",
     "auxiliary": "avere",
     "irregular": true
+  },
+  "odiare": {
+    "group": "are",
+    "auxiliary": "avere",
+    "level": "A2",
+    "definition": "Provare odio verso qualcuno o qualcosa.",
+    "antonyms": [
+      "amare"
+    ],
+    "tenses": {
+      "pres": [
+        "odio",
+        "odi",
+        "odia",
+        "odiamo",
+        "odiate",
+        "odiano"
+      ],
+      "pc": [
+        "ho odiato",
+        "hai odiato",
+        "ha odiato",
+        "abbiamo odiato",
+        "avete odiato",
+        "hanno odiato"
+      ],
+      "fut": [
+        "odierò",
+        "odierai",
+        "odierà",
+        "odieremo",
+        "odierete",
+        "odieranno"
+      ],
+      "imp": [
+        "odiavo",
+        "odiavi",
+        "odiava",
+        "odiavamo",
+        "odiavate",
+        "odiavano"
+      ]
+    },
+    "irregular": false
+  },
+  "dispiacere": {
+    "group": "ere",
+    "auxiliary": "essere",
+    "level": "A2",
+    "definition": "Causare dispiacere o rammarico.",
+    "antonyms": [
+      "piacere"
+    ],
+    "tenses": {
+      "pres": [
+        "dispiaccio",
+        "dispiaci",
+        "dispiace",
+        "dispiacciamo",
+        "dispiacete",
+        "dispiacciono"
+      ],
+      "pc": [
+        "sono dispiaciuto",
+        "sei dispiaciuto",
+        "è dispiaciuto",
+        "siamo dispiaciuti",
+        "siete dispiaciuti",
+        "sono dispiaciuti"
+      ],
+      "fut": [
+        "dispiacerò",
+        "dispiacerai",
+        "dispiacerà",
+        "dispiaceremo",
+        "dispiacerete",
+        "dispiaceranno"
+      ],
+      "imp": [
+        "dispiacevo",
+        "dispiacevi",
+        "dispiaceva",
+        "dispiacevamo",
+        "dispiacevate",
+        "dispiacevano"
+      ]
+    },
+    "usage_hint": "mi dispiace (I am sorry / I dislike)",
+    "irregular": true
   }
 }
