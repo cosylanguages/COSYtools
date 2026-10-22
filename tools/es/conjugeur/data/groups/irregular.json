@@ -1,0 +1,2377 @@
+{
+  "group_name": "Irregular",
+  "verbs": {
+    "ser": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Tener una cualidad o identidad permanente.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "soy",
+          "eres",
+          "es",
+          "somos",
+          "sois",
+          "son"
+        ],
+        "pasado": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fuisteis",
+          "fueron"
+        ],
+        "preterito_imperfecto": [
+          "era",
+          "eras",
+          "era",
+          "éramos",
+          "erais",
+          "eran"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he sido",
+          "has sido",
+          "ha sido",
+          "hemos sido",
+          "habéis sido",
+          "han sido"
+        ],
+        "futuro_simple": [
+          "seré",
+          "serás",
+          "será",
+          "seremos",
+          "seréis",
+          "serán"
+        ],
+        "condicional_simple": [
+          "sería",
+          "serías",
+          "sería",
+          "seríamos",
+          "seríais",
+          "serían"
+        ],
+        "subjuntivo_presente": [
+          "sea",
+          "seas",
+          "sea",
+          "seamos",
+          "seáis",
+          "sean"
+        ],
+        "imperativo": [
+          "sé!",
+          "sea!",
+          "sed!",
+          "sean!"
+        ]
+      },
+      "examples": [
+        "Soy estudiante de idiomas."
+      ]
+    },
+    "estar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Ubicarse en un lugar o estar en un estado.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "estoy",
+          "estás",
+          "está",
+          "estamos",
+          "estáis",
+          "están"
+        ],
+        "pasado": [
+          "estuve",
+          "estuviste",
+          "estuvo",
+          "estuvimos",
+          "estuvisteis",
+          "estuvieron"
+        ],
+        "preterito_imperfecto": [
+          "estaba",
+          "estabas",
+          "estaba",
+          "estábamos",
+          "estabais",
+          "estaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he estado",
+          "has estado",
+          "ha estado",
+          "hemos estado",
+          "habéis estado",
+          "han estado"
+        ],
+        "futuro_simple": [
+          "estaré",
+          "estarás",
+          "estará",
+          "estaremos",
+          "estaréis",
+          "estarán"
+        ],
+        "condicional_simple": [
+          "estaría",
+          "estarías",
+          "estaría",
+          "estaríamos",
+          "estaríais",
+          "estarían"
+        ],
+        "subjuntivo_presente": [
+          "esté",
+          "estés",
+          "esté",
+          "estemos",
+          "estéis",
+          "estén"
+        ],
+        "imperativo": [
+          "está!",
+          "esté!",
+          "estad!",
+          "estén!"
+        ]
+      },
+      "examples": [
+        "¿Cómo estás hoy? Estoy muy bien."
+      ]
+    },
+    "tener": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Poseer o sostener algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "tengo",
+          "tienes",
+          "tiene",
+          "tenemos",
+          "tenéis",
+          "tienen"
+        ],
+        "pasado": [
+          "tuve",
+          "tuviste",
+          "tuvo",
+          "tuvimos",
+          "tuvisteis",
+          "tuvieron"
+        ],
+        "preterito_imperfecto": [
+          "tenía",
+          "tenías",
+          "tenía",
+          "teníamos",
+          "teníais",
+          "tenían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he tenido",
+          "has tenido",
+          "ha tenido",
+          "hemos tenido",
+          "habéis tenido",
+          "han tenido"
+        ],
+        "futuro_simple": [
+          "tendré",
+          "tendrás",
+          "tendrá",
+          "tendremos",
+          "tendréis",
+          "tendrán"
+        ],
+        "condicional_simple": [
+          "tendría",
+          "tendrías",
+          "tendría",
+          "tendríamos",
+          "tendríais",
+          "tendrían"
+        ],
+        "subjuntivo_presente": [
+          "tenga",
+          "tengas",
+          "tenga",
+          "tengamos",
+          "tengáis",
+          "tengan"
+        ],
+        "imperativo": [
+          "ten!",
+          "tenga!",
+          "tened!",
+          "tengan!"
+        ]
+      },
+      "examples": [
+        "Tengo dos hermanos y un perro."
+      ]
+    },
+    "ir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Moverse de un lugar hacia otro.",
+      "antonyms": [
+        "venir"
+      ],
+      "tenses": {
+        "presente": [
+          "voy",
+          "vas",
+          "va",
+          "vamos",
+          "vais",
+          "van"
+        ],
+        "pasado": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fuisteis",
+          "fueron"
+        ],
+        "preterito_imperfecto": [
+          "iba",
+          "ibas",
+          "iba",
+          "íbamos",
+          "ibais",
+          "iban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he ido",
+          "has ido",
+          "ha ido",
+          "hemos ido",
+          "habéis ido",
+          "han ido"
+        ],
+        "futuro_simple": [
+          "iré",
+          "irás",
+          "irá",
+          "iremos",
+          "iréis",
+          "irán"
+        ],
+        "condicional_simple": [
+          "iría",
+          "irías",
+          "iría",
+          "iríamos",
+          "iríais",
+          "irían"
+        ],
+        "subjuntivo_presente": [
+          "vaya",
+          "vayas",
+          "vaya",
+          "vayamos",
+          "vayáis",
+          "vayan"
+        ],
+        "imperativo": [
+          "ve!",
+          "vaya!",
+          "id!",
+          "vayan!"
+        ]
+      },
+      "examples": [
+        "Voy al parque con mi familia."
+      ]
+    },
+    "hacer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Realizar o crear algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "hago",
+          "haces",
+          "hace",
+          "hacemos",
+          "hacéis",
+          "hacen"
+        ],
+        "pasado": [
+          "hice",
+          "hiciste",
+          "hizo",
+          "hicimos",
+          "hicisteis",
+          "hicieron"
+        ],
+        "preterito_imperfecto": [
+          "hacía",
+          "hacías",
+          "hacía",
+          "hacíamos",
+          "hacíais",
+          "hacían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he hecho",
+          "has hecho",
+          "ha hecho",
+          "hemos hecho",
+          "habéis hecho",
+          "han hecho"
+        ],
+        "futuro_simple": [
+          "haré",
+          "harás",
+          "hará",
+          "haremos",
+          "haréis",
+          "harán"
+        ],
+        "condicional_simple": [
+          "haría",
+          "harías",
+          "haría",
+          "haríamos",
+          "haríais",
+          "harían"
+        ],
+        "subjuntivo_presente": [
+          "haga",
+          "hagas",
+          "haga",
+          "hagamos",
+          "hagáis",
+          "hagan"
+        ],
+        "imperativo": [
+          "haz!",
+          "haga!",
+          "haced!",
+          "hagan!"
+        ]
+      },
+      "examples": [
+        "Hago mis tareas por la tarde."
+      ]
+    },
+    "querer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Desear o tener afecto por alguien.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "quiero",
+          "quieres",
+          "quiere",
+          "queremos",
+          "queréis",
+          "quieren"
+        ],
+        "pasado": [
+          "quise",
+          "quisiste",
+          "quiso",
+          "quisimos",
+          "quisisteis",
+          "quisieron"
+        ],
+        "preterito_imperfecto": [
+          "quería",
+          "querías",
+          "quería",
+          "queríamos",
+          "queríais",
+          "querían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he querido",
+          "has querido",
+          "ha querido",
+          "hemos querido",
+          "habéis querido",
+          "han querido"
+        ],
+        "futuro_simple": [
+          "querré",
+          "querrás",
+          "querrá",
+          "querremos",
+          "querréis",
+          "querrán"
+        ],
+        "condicional_simple": [
+          "querría",
+          "querrías",
+          "querría",
+          "querríamos",
+          "querríais",
+          "querrían"
+        ],
+        "subjuntivo_presente": [
+          "quiera",
+          "quieras",
+          "quiera",
+          "queramos",
+          "queráis",
+          "quieran"
+        ],
+        "imperativo": [
+          "quiere!",
+          "quiera!",
+          "quered!",
+          "quieran!"
+        ]
+      },
+      "examples": [
+        "Quiero aprender francés e italiano."
+      ]
+    },
+    "poder": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Tener la capacidad o facultad de hacer algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "puedo",
+          "puedes",
+          "puede",
+          "podemos",
+          "podéis",
+          "pueden"
+        ],
+        "pasado": [
+          "pude",
+          "pudiste",
+          "pudo",
+          "pudimos",
+          "pudisteis",
+          "pudieron"
+        ],
+        "preterito_imperfecto": [
+          "podía",
+          "podías",
+          "podía",
+          "podíamos",
+          "podíais",
+          "podían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he podido",
+          "has podido",
+          "ha podido",
+          "hemos podido",
+          "habéis podido",
+          "han podido"
+        ],
+        "futuro_simple": [
+          "podré",
+          "podrás",
+          "podrá",
+          "podremos",
+          "podréis",
+          "podrán"
+        ],
+        "condicional_simple": [
+          "podría",
+          "podrías",
+          "podría",
+          "podríamos",
+          "podríais",
+          "podrían"
+        ],
+        "subjuntivo_presente": [
+          "pueda",
+          "puedas",
+          "pueda",
+          "podamos",
+          "podáis",
+          "puedan"
+        ],
+        "imperativo": [
+          "puede!",
+          "pueda!",
+          "poded!",
+          "puedan!"
+        ]
+      },
+      "examples": [
+        "¿Puedo ayudarte con la maleta?"
+      ]
+    },
+    "saber": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Tener conocimiento o información sobre algo.",
+      "antonyms": [
+        "ignorar"
+      ],
+      "tenses": {
+        "presente": [
+          "sé",
+          "sabes",
+          "sabe",
+          "sabemos",
+          "sabéis",
+          "saben"
+        ],
+        "pasado": [
+          "supe",
+          "supiste",
+          "supo",
+          "supimos",
+          "supisteis",
+          "supieron"
+        ],
+        "preterito_imperfecto": [
+          "sabía",
+          "sabías",
+          "sabía",
+          "sabíamos",
+          "sabíais",
+          "sabían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he sabido",
+          "has sabido",
+          "ha sabido",
+          "hemos sabido",
+          "habéis sabido",
+          "han sabido"
+        ],
+        "futuro_simple": [
+          "sabré",
+          "sabrás",
+          "sabrá",
+          "sabremos",
+          "sabréis",
+          "sabrán"
+        ],
+        "condicional_simple": [
+          "sabría",
+          "sabrías",
+          "sabría",
+          "sabríamos",
+          "sabríais",
+          "sabrían"
+        ],
+        "subjuntivo_presente": [
+          "sepa",
+          "sepas",
+          "sepa",
+          "sepamos",
+          "sepáis",
+          "sepan"
+        ],
+        "imperativo": [
+          "sabe!",
+          "sepa!",
+          "sabed!",
+          "sepan!"
+        ]
+      },
+      "examples": [
+        "Sé hablar tres idiomas."
+      ]
+    },
+    "ver": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Percibir con los ojos algo mediante la luz.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "veo",
+          "ves",
+          "ve",
+          "vemos",
+          "veis",
+          "ven"
+        ],
+        "pasado": [
+          "vi",
+          "viste",
+          "vio",
+          "vimos",
+          "visteis",
+          "vieron"
+        ],
+        "preterito_imperfecto": [
+          "veía",
+          "veías",
+          "veía",
+          "veíamos",
+          "veíais",
+          "veían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he visto",
+          "has visto",
+          "ha visto",
+          "hemos visto",
+          "habéis visto",
+          "han visto"
+        ],
+        "futuro_simple": [
+          "veré",
+          "verás",
+          "verá",
+          "veremos",
+          "veréis",
+          "verán"
+        ],
+        "condicional_simple": [
+          "vería",
+          "verías",
+          "vería",
+          "veríamos",
+          "veríais",
+          "verían"
+        ],
+        "subjuntivo_presente": [
+          "vea",
+          "veas",
+          "vea",
+          "veamos",
+          "veáis",
+          "vean"
+        ],
+        "imperativo": [
+          "ve!",
+          "vea!",
+          "ved!",
+          "vean!"
+        ]
+      },
+      "examples": [
+        "Veo una película en el cine."
+      ]
+    },
+    "jugar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Hacer algo con alegría para divertirse.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "juego",
+          "juegas",
+          "juega",
+          "jugamos",
+          "jugáis",
+          "juegan"
+        ],
+        "pasado": [
+          "jugué",
+          "jugaste",
+          "jugó",
+          "jugamos",
+          "jugasteis",
+          "jugaron"
+        ],
+        "preterito_imperfecto": [
+          "jugaba",
+          "jugabas",
+          "jugaba",
+          "jugábamos",
+          "jugabais",
+          "jugaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he jugado",
+          "has jugado",
+          "ha jugado",
+          "hemos jugado",
+          "habéis jugado",
+          "han jugado"
+        ],
+        "futuro_simple": [
+          "jugaré",
+          "jugarás",
+          "jugará",
+          "jugaremos",
+          "jugaréis",
+          "jugarán"
+        ],
+        "condicional_simple": [
+          "jugaría",
+          "jugarías",
+          "jugaría",
+          "jugaríamos",
+          "jugaríais",
+          "jugarían"
+        ],
+        "subjuntivo_presente": [
+          "juegue",
+          "juegues",
+          "juegue",
+          "juguemos",
+          "juguéis",
+          "jueguen"
+        ],
+        "imperativo": [
+          "juega!",
+          "juegue!",
+          "jugad!",
+          "jueguen!"
+        ]
+      },
+      "examples": [
+        "Los niños juegan en el parque."
+      ]
+    },
+    "encontrar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Dar con alguien o algo que se buscaba.",
+      "antonyms": [
+        "perder"
+      ],
+      "tenses": {
+        "presente": [
+          "encuentro",
+          "encuentras",
+          "encuentra",
+          "encontramos",
+          "encontráis",
+          "encuentran"
+        ],
+        "pasado": [
+          "encontré",
+          "encontraste",
+          "encontró",
+          "encontramos",
+          "encontrasteis",
+          "encontraron"
+        ],
+        "preterito_imperfecto": [
+          "encontraba",
+          "encontrabas",
+          "encontraba",
+          "encontrábamos",
+          "encontrabais",
+          "encontraban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he encontrado",
+          "has encontrado",
+          "ha encontrado",
+          "hemos encontrado",
+          "habéis encontrado",
+          "han encontrado"
+        ],
+        "futuro_simple": [
+          "encontraré",
+          "encontrarás",
+          "encontrará",
+          "encontraremos",
+          "encontraréis",
+          "encontrarán"
+        ],
+        "condicional_simple": [
+          "encontraría",
+          "encontrarías",
+          "encontraría",
+          "encontraríamos",
+          "encontraríais",
+          "encontrarían"
+        ],
+        "subjuntivo_presente": [
+          "encuentre",
+          "encuentres",
+          "encuentre",
+          "encontremos",
+          "encontréis",
+          "encuentren"
+        ],
+        "imperativo": [
+          "encuentra!",
+          "encuentre!",
+          "encontrad!",
+          "encuentren!"
+        ]
+      },
+      "examples": [
+        "Por fin encuentro una solución clara."
+      ]
+    },
+    "dar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Entregar o traspasar algo a alguien.",
+      "antonyms": [
+        "recibir"
+      ],
+      "tenses": {
+        "presente": [
+          "doy",
+          "das",
+          "da",
+          "damos",
+          "dais",
+          "dan"
+        ],
+        "pasado": [
+          "di",
+          "diste",
+          "dio",
+          "dimos",
+          "disteis",
+          "dieron"
+        ],
+        "preterito_imperfecto": [
+          "daba",
+          "dabas",
+          "daba",
+          "dábamos",
+          "dabais",
+          "daban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he dado",
+          "has dado",
+          "ha dado",
+          "hemos dado",
+          "habéis dado",
+          "han dado"
+        ],
+        "futuro_simple": [
+          "daré",
+          "darás",
+          "dará",
+          "daremos",
+          "daréis",
+          "darán"
+        ],
+        "condicional_simple": [
+          "daría",
+          "darías",
+          "daría",
+          "daríamos",
+          "daríais",
+          "darían"
+        ],
+        "subjuntivo_presente": [
+          "dé",
+          "des",
+          "dé",
+          "demos",
+          "deis",
+          "den"
+        ],
+        "imperativo": [
+          "da!",
+          "dé!",
+          "dad!",
+          "den!"
+        ]
+      },
+      "examples": [
+        "Le doy un regalo por su cumpleaños."
+      ]
+    },
+    "traer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Mover o conducir hacia el lugar donde se habla.",
+      "antonyms": [
+        "llevar"
+      ],
+      "tenses": {
+        "presente": [
+          "traigo",
+          "traes",
+          "trae",
+          "traemos",
+          "traéis",
+          "traen"
+        ],
+        "pasado": [
+          "traje",
+          "trajiste",
+          "trajo",
+          "trajimos",
+          "trajisteis",
+          "trajeron"
+        ],
+        "preterito_imperfecto": [
+          "traía",
+          "traías",
+          "traía",
+          "traíamos",
+          "traíais",
+          "traían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he traído",
+          "has traído",
+          "ha traído",
+          "hemos traído",
+          "habéis traído",
+          "han traído"
+        ],
+        "futuro_simple": [
+          "traeré",
+          "traerás",
+          "traerá",
+          "traeremos",
+          "traeréis",
+          "traerán"
+        ],
+        "condicional_simple": [
+          "traería",
+          "traerías",
+          "traería",
+          "traeríamos",
+          "traeríais",
+          "traerían"
+        ],
+        "subjuntivo_presente": [
+          "traiga",
+          "traigas",
+          "traiga",
+          "traigamos",
+          "traigáis",
+          "traigan"
+        ],
+        "imperativo": [
+          "trae!",
+          "traiga!",
+          "traed!",
+          "traigan!"
+        ]
+      },
+      "examples": [
+        "El camarero trae el postre a la mesa."
+      ]
+    },
+    "pensar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Formar o combinar ideas en la mente.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "pienso",
+          "piensas",
+          "piensa",
+          "pensamos",
+          "pensáis",
+          "piensan"
+        ],
+        "pasado": [
+          "pensé",
+          "pensaste",
+          "pensó",
+          "pensamos",
+          "pensasteis",
+          "pensaron"
+        ],
+        "preterito_imperfecto": [
+          "pensaba",
+          "pensabas",
+          "pensaba",
+          "pensábamos",
+          "pensabais",
+          "pensaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he pensado",
+          "has pensado",
+          "ha pensado",
+          "hemos pensado",
+          "habéis pensado",
+          "han pensado"
+        ],
+        "futuro_simple": [
+          "pensaré",
+          "pensarás",
+          "pensará",
+          "pensaremos",
+          "pensaréis",
+          "pensarán"
+        ],
+        "condicional_simple": [
+          "pensaría",
+          "pensarías",
+          "pensaría",
+          "pensaríamos",
+          "pensaríais",
+          "pensarían"
+        ],
+        "subjuntivo_presente": [
+          "piense",
+          "pienses",
+          "piense",
+          "pensemos",
+          "penséis",
+          "piensen"
+        ],
+        "imperativo": [
+          "piensa!",
+          "piense!",
+          "pensad!",
+          "piensen!"
+        ]
+      },
+      "examples": [
+        "Pienso viajar a España el próximo año."
+      ]
+    },
+    "conocer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Tener noción o trato con alguien o algo.",
+      "antonyms": [
+        "ignorar"
+      ],
+      "tenses": {
+        "presente": [
+          "conozco",
+          "conoces",
+          "conoce",
+          "conocemos",
+          "conocéis",
+          "conocen"
+        ],
+        "pasado": [
+          "conocí",
+          "conociste",
+          "conoció",
+          "conocimos",
+          "conocisteis",
+          "conocieron"
+        ],
+        "preterito_imperfecto": [
+          "conocía",
+          "conocías",
+          "conocía",
+          "conocíamos",
+          "conocíais",
+          "conocían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he conocido",
+          "has conocido",
+          "ha conocido",
+          "hemos conocido",
+          "habéis conocido",
+          "han conocido"
+        ],
+        "futuro_simple": [
+          "conoceré",
+          "conocerás",
+          "conocerá",
+          "conoceremos",
+          "conoceréis",
+          "conocerán"
+        ],
+        "condicional_simple": [
+          "conocería",
+          "conocerías",
+          "conocería",
+          "conoceríamos",
+          "conoceríais",
+          "conocerían"
+        ],
+        "subjuntivo_presente": [
+          "conozca",
+          "conozcas",
+          "conozca",
+          "conozcamos",
+          "conozcáis",
+          "conozcan"
+        ],
+        "imperativo": [
+          "conoce!",
+          "conozca!",
+          "conoced!",
+          "conozcan!"
+        ]
+      },
+      "examples": [
+        "Conozco muy bien esta ciudad hermosa."
+      ]
+    },
+    "poner": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Colocar a alguien o algo en un sitio.",
+      "antonyms": [
+        "quitar"
+      ],
+      "tenses": {
+        "presente": [
+          "pongo",
+          "pones",
+          "pone",
+          "ponemos",
+          "ponéis",
+          "ponen"
+        ],
+        "pasado": [
+          "puse",
+          "pusiste",
+          "puso",
+          "pusimos",
+          "pusisteis",
+          "pusieron"
+        ],
+        "preterito_imperfecto": [
+          "ponía",
+          "ponías",
+          "ponía",
+          "poníamos",
+          "poníais",
+          "ponían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he puesto",
+          "has puesto",
+          "ha puesto",
+          "hemos puesto",
+          "habéis puesto",
+          "han puesto"
+        ],
+        "futuro_simple": [
+          "pondré",
+          "pondrás",
+          "pondrá",
+          "pondremos",
+          "pondréis",
+          "pondrán"
+        ],
+        "condicional_simple": [
+          "pondría",
+          "pondrías",
+          "pondría",
+          "pondríamos",
+          "pondríais",
+          "pondrían"
+        ],
+        "subjuntivo_presente": [
+          "ponga",
+          "pongas",
+          "ponga",
+          "pongamos",
+          "pongáis",
+          "pongan"
+        ],
+        "imperativo": [
+          "pon!",
+          "ponga!",
+          "poned!",
+          "pongan!"
+        ]
+      },
+      "examples": [
+        "Pongo los platos sobre la mesa."
+      ]
+    },
+    "salir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Pasar de dentro a fuera de un lugar.",
+      "antonyms": [
+        "entrar"
+      ],
+      "tenses": {
+        "presente": [
+          "salgo",
+          "sales",
+          "sale",
+          "salimos",
+          "salís",
+          "salen"
+        ],
+        "pasado": [
+          "salí",
+          "saliste",
+          "salió",
+          "salimos",
+          "salisteis",
+          "salieron"
+        ],
+        "preterito_imperfecto": [
+          "salía",
+          "salías",
+          "salía",
+          "salíamos",
+          "salíais",
+          "salían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he salido",
+          "has salido",
+          "ha salido",
+          "hemos salido",
+          "habéis salido",
+          "han salido"
+        ],
+        "futuro_simple": [
+          "saldré",
+          "saldrás",
+          "saldrá",
+          "saldremos",
+          "saldréis",
+          "saldrán"
+        ],
+        "condicional_simple": [
+          "saldría",
+          "saldrías",
+          "saldría",
+          "saldríamos",
+          "saldríais",
+          "saldrían"
+        ],
+        "subjuntivo_presente": [
+          "salga",
+          "salgas",
+          "salga",
+          "salgamos",
+          "salgáis",
+          "salgan"
+        ],
+        "imperativo": [
+          "sal!",
+          "salga!",
+          "salid!",
+          "salgan!"
+        ]
+      },
+      "examples": [
+        "Salgo de casa a las ocho en punto."
+      ]
+    },
+    "volver": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Regresar al lugar de donde se salió.",
+      "antonyms": [
+        "ir",
+        "partir"
+      ],
+      "tenses": {
+        "presente": [
+          "vuelvo",
+          "vuelves",
+          "vuelve",
+          "volvemos",
+          "volvéis",
+          "vuelven"
+        ],
+        "pasado": [
+          "volví",
+          "volviste",
+          "volvió",
+          "volvimos",
+          "volvisteis",
+          "volvieron"
+        ],
+        "preterito_imperfecto": [
+          "volvía",
+          "volvías",
+          "volvía",
+          "volvíamos",
+          "volvíais",
+          "volvían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he vuelto",
+          "has vuelto",
+          "ha vuelto",
+          "hemos vuelto",
+          "habéis vuelto",
+          "han vuelto"
+        ],
+        "futuro_simple": [
+          "volveré",
+          "volverás",
+          "volverá",
+          "volveremos",
+          "volveréis",
+          "volverán"
+        ],
+        "condicional_simple": [
+          "volvería",
+          "volverías",
+          "volvería",
+          "volveríamos",
+          "volveríais",
+          "volverían"
+        ],
+        "subjuntivo_presente": [
+          "vuelva",
+          "vuelvas",
+          "vuelva",
+          "volvamos",
+          "volváis",
+          "vuelvan"
+        ],
+        "imperativo": [
+          "vuelve!",
+          "vuelva!",
+          "volved!",
+          "vuelvan!"
+        ]
+      },
+      "examples": [
+        "Vuelvo a casa al atardecer."
+      ]
+    },
+    "recordar": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Traer algo a la memoria.",
+      "antonyms": [
+        "olvidar"
+      ],
+      "tenses": {
+        "presente": [
+          "recuerdo",
+          "recuerdas",
+          "recuerda",
+          "recordamos",
+          "recordáis",
+          "recuerdan"
+        ],
+        "pasado": [
+          "recordé",
+          "recordaste",
+          "recordó",
+          "recordamos",
+          "recordasteis",
+          "recordaron"
+        ],
+        "preterito_imperfecto": [
+          "recordaba",
+          "recordabas",
+          "recordaba",
+          "recordábamos",
+          "recordabais",
+          "recordaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he recordado",
+          "has recordado",
+          "ha recordado",
+          "hemos recordado",
+          "habéis recordado",
+          "han recordado"
+        ],
+        "futuro_simple": [
+          "recordaré",
+          "recordarás",
+          "recordará",
+          "recordaremos",
+          "recordaréis",
+          "recordarán"
+        ],
+        "condicional_simple": [
+          "recordaría",
+          "recordarías",
+          "recordaría",
+          "recordaríamos",
+          "recordaríais",
+          "recordarían"
+        ],
+        "subjuntivo_presente": [
+          "recuerde",
+          "recuerdes",
+          "recuerde",
+          "recordemos",
+          "recordéis",
+          "recuerden"
+        ],
+        "imperativo": [
+          "recuerda!",
+          "recuerde!",
+          "recordad!",
+          "recuerden!"
+        ]
+      },
+      "examples": [
+        "Recuerdo con alegría mis días de infancia."
+      ]
+    },
+    "elegir": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Escoger preferentemente a alguien o algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "elijo",
+          "eliges",
+          "elige",
+          "elegimos",
+          "elegís",
+          "eligen"
+        ],
+        "pasado": [
+          "elegí",
+          "elegiste",
+          "eligió",
+          "elegimos",
+          "elegisteis",
+          "eligieron"
+        ],
+        "preterito_imperfecto": [
+          "elegía",
+          "elegías",
+          "elegía",
+          "elegíamos",
+          "elegíais",
+          "elegían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he elegido",
+          "has elegido",
+          "ha elegido",
+          "hemos elegido",
+          "habéis elegido",
+          "han elegido"
+        ],
+        "futuro_simple": [
+          "elegiré",
+          "elegirás",
+          "elegirá",
+          "elegiremos",
+          "elegiréis",
+          "elegirán"
+        ],
+        "condicional_simple": [
+          "elegiría",
+          "elegirías",
+          "elegiría",
+          "elegiríamos",
+          "elegiríais",
+          "elegirían"
+        ],
+        "subjuntivo_presente": [
+          "elija",
+          "elijas",
+          "elija",
+          "elijamos",
+          "elijáis",
+          "elijan"
+        ],
+        "imperativo": [
+          "elige!",
+          "elija!",
+          "elegid!",
+          "elijan!"
+        ]
+      },
+      "examples": [
+        "Elijo la opción más conveniente."
+      ]
+    },
+    "sentir": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Experimentar una sensación física o emocional.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "siento",
+          "sientes",
+          "siente",
+          "sentimos",
+          "sentís",
+          "sienten"
+        ],
+        "pasado": [
+          "sentí",
+          "sentiste",
+          "sintió",
+          "sentimos",
+          "sentisteis",
+          "sintieron"
+        ],
+        "preterito_imperfecto": [
+          "sentía",
+          "sentías",
+          "sentía",
+          "sentíamos",
+          "sentíais",
+          "sentían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he sentido",
+          "has sentido",
+          "ha sentido",
+          "hemos sentido",
+          "habéis sentido",
+          "han sentido"
+        ],
+        "futuro_simple": [
+          "sentiré",
+          "sentirás",
+          "sentirá",
+          "sentiremos",
+          "sentiréis",
+          "sentirán"
+        ],
+        "condicional_simple": [
+          "sentiría",
+          "sentirías",
+          "sentiría",
+          "sentiríamos",
+          "sentiríais",
+          "sentirían"
+        ],
+        "subjuntivo_presente": [
+          "sienta",
+          "sientas",
+          "sienta",
+          "sintamos",
+          "sintáis",
+          "sientan"
+        ],
+        "imperativo": [
+          "siente!",
+          "sienta!",
+          "sentid!",
+          "sientan!"
+        ]
+      },
+      "examples": [
+        "Me siento muy feliz por tu logro."
+      ]
+    },
+    "seguir": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Continuar haciendo algo o ir detrás de alguien.",
+      "antonyms": [
+        "parar"
+      ],
+      "tenses": {
+        "presente": [
+          "sigo",
+          "sigues",
+          "sigue",
+          "seguimos",
+          "seguís",
+          "siguen"
+        ],
+        "pasado": [
+          "seguí",
+          "seguiste",
+          "siguió",
+          "seguimos",
+          "seguisteis",
+          "siguieron"
+        ],
+        "preterito_imperfecto": [
+          "seguía",
+          "seguías",
+          "seguía",
+          "seguíamos",
+          "seguíais",
+          "seguían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he seguido",
+          "has seguido",
+          "ha seguido",
+          "hemos seguido",
+          "habéis seguido",
+          "han seguido"
+        ],
+        "futuro_simple": [
+          "seguiré",
+          "seguirás",
+          "seguirá",
+          "seguiremos",
+          "seguiréis",
+          "seguirán"
+        ],
+        "condicional_simple": [
+          "seguiría",
+          "seguirías",
+          "seguiría",
+          "seguiríamos",
+          "seguiríais",
+          "seguirían"
+        ],
+        "subjuntivo_presente": [
+          "siga",
+          "sigas",
+          "siga",
+          "sigamos",
+          "sigáis",
+          "sigan"
+        ],
+        "imperativo": [
+          "sigue!",
+          "siga!",
+          "seguid!",
+          "sigan!"
+        ]
+      },
+      "examples": [
+        "Sigo las instrucciones cuidadosamente."
+      ]
+    },
+    "empezar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Dar principio a una acción o cosa.",
+      "antonyms": [
+        "terminar"
+      ],
+      "tenses": {
+        "presente": [
+          "empiezo",
+          "empiezas",
+          "empieza",
+          "empezamos",
+          "empezáis",
+          "empiezan"
+        ],
+        "pasado": [
+          "empecé",
+          "empezaste",
+          "empezó",
+          "empezamos",
+          "empezasteis",
+          "empezaron"
+        ],
+        "preterito_imperfecto": [
+          "empezaba",
+          "empezabas",
+          "empezaba",
+          "empezábamos",
+          "empezabais",
+          "empezaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he empezado",
+          "has empezado",
+          "ha empezado",
+          "hemos empezado",
+          "habéis empezado",
+          "han empezado"
+        ],
+        "futuro_simple": [
+          "empezaré",
+          "empezarás",
+          "empezará",
+          "empezaremos",
+          "empezaréis",
+          "empezarán"
+        ],
+        "condicional_simple": [
+          "empezaría",
+          "empezarías",
+          "empezaría",
+          "empezaríamos",
+          "empezaríais",
+          "empezarían"
+        ],
+        "subjuntivo_presente": [
+          "empiece",
+          "empieces",
+          "empiece",
+          "empecemos",
+          "empecéis",
+          "empiecen"
+        ],
+        "imperativo": [
+          "empieza!",
+          "empiece!",
+          "empezad!",
+          "empiecen!"
+        ]
+      },
+      "examples": [
+        "La clase empieza a las nueve de la mañana."
+      ]
+    },
+    "perder": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Dejar de tener algo o no ganar un juego.",
+      "antonyms": [
+        "ganar",
+        "encontrar"
+      ],
+      "tenses": {
+        "presente": [
+          "pierdo",
+          "pierdes",
+          "pierde",
+          "perdemos",
+          "perdéis",
+          "pierden"
+        ],
+        "pasado": [
+          "perdí",
+          "perdiste",
+          "perdió",
+          "perdimos",
+          "perdisteis",
+          "perdieron"
+        ],
+        "preterito_imperfecto": [
+          "perdía",
+          "perdías",
+          "perdía",
+          "perdíamos",
+          "perdíais",
+          "perdían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he perdido",
+          "has perdido",
+          "ha perdido",
+          "hemos perdido",
+          "habéis perdido",
+          "han perdido"
+        ],
+        "futuro_simple": [
+          "perderé",
+          "perderás",
+          "perderá",
+          "perderemos",
+          "perderéis",
+          "perderán"
+        ],
+        "condicional_simple": [
+          "perdería",
+          "perderías",
+          "perdería",
+          "perderíamos",
+          "perderíais",
+          "perderían"
+        ],
+        "subjuntivo_presente": [
+          "pierda",
+          "pierdas",
+          "pierda",
+          "perdamos",
+          "perdáis",
+          "pierdan"
+        ],
+        "imperativo": [
+          "pierde!",
+          "pierda!",
+          "perded!",
+          "pierdan!"
+        ]
+      },
+      "examples": [
+        "A veces pierdo el autobús por llegar tarde."
+      ]
+    },
+    "enviar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Mandar algo a un destino.",
+      "antonyms": [
+        "recibir"
+      ],
+      "tenses": {
+        "presente": [
+          "envío",
+          "envías",
+          "envía",
+          "enviamos",
+          "enviáis",
+          "envían"
+        ],
+        "pasado": [
+          "envié",
+          "enviaste",
+          "envió",
+          "enviamos",
+          "enviasteis",
+          "enviaron"
+        ],
+        "preterito_imperfecto": [
+          "enviaba",
+          "enviabas",
+          "enviaba",
+          "enviábamos",
+          "enviabais",
+          "enviaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he enviado",
+          "has enviado",
+          "ha enviado",
+          "hemos enviado",
+          "habéis enviado",
+          "han enviado"
+        ],
+        "futuro_simple": [
+          "enviaré",
+          "enviarás",
+          "enviará",
+          "enviaremos",
+          "enviaréis",
+          "enviarán"
+        ],
+        "condicional_simple": [
+          "enviaría",
+          "enviarías",
+          "enviaría",
+          "enviaríamos",
+          "enviaríais",
+          "enviarían"
+        ],
+        "subjuntivo_presente": [
+          "envíe",
+          "envíes",
+          "envíe",
+          "enviemos",
+          "enviéis",
+          "envíen"
+        ],
+        "imperativo": [
+          "envía!",
+          "envíe!",
+          "enviad!",
+          "envíen!"
+        ]
+      },
+      "examples": [
+        "Envío un mensaje de texto a mi amigo."
+      ]
+    },
+    "parecer": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Tener aspecto o causar una opinión.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "parezco",
+          "pareces",
+          "parece",
+          "parecemos",
+          "parecéis",
+          "parecen"
+        ],
+        "pasado": [
+          "parecí",
+          "pareciste",
+          "pareció",
+          "parecimos",
+          "parecisteis",
+          "parecieron"
+        ],
+        "preterito_imperfecto": [
+          "parecía",
+          "parecías",
+          "parecía",
+          "parecíamos",
+          "parecíais",
+          "parecían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he parecido",
+          "has parecido",
+          "ha parecido",
+          "hemos parecido",
+          "habéis parecido",
+          "han parecido"
+        ],
+        "futuro_simple": [
+          "pareceré",
+          "parecerás",
+          "parecerá",
+          "pareceremos",
+          "pareceréis",
+          "parecerán"
+        ],
+        "condicional_simple": [
+          "parecería",
+          "parecerías",
+          "parecería",
+          "pareceríamos",
+          "pareceríais",
+          "parecerían"
+        ],
+        "subjuntivo_presente": [
+          "parezca",
+          "parezcas",
+          "parezca",
+          "parezcamos",
+          "parezcáis",
+          "parezcan"
+        ],
+        "imperativo": [
+          "parece!",
+          "parezca!",
+          "pareced!",
+          "parezcan!"
+        ]
+      },
+      "examples": [
+        "Esta idea me parece brillante."
+      ]
+    },
+    "cerrar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Asegurar con cerrojo o tapar una abertura.",
+      "antonyms": [
+        "abrir"
+      ],
+      "tenses": {
+        "presente": [
+          "cierro",
+          "cierras",
+          "cierra",
+          "cerramos",
+          "cerráis",
+          "cierran"
+        ],
+        "pasado": [
+          "cerré",
+          "cerraste",
+          "cerró",
+          "cerramos",
+          "cerrasteis",
+          "cerraron"
+        ],
+        "preterito_imperfecto": [
+          "cerraba",
+          "cerrabas",
+          "cerraba",
+          "cerrábamos",
+          "cerrabais",
+          "cerraban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he cerrado",
+          "has cerrado",
+          "ha cerrado",
+          "hemos cerrado",
+          "habéis cerrado",
+          "han cerrado"
+        ],
+        "futuro_simple": [
+          "cerraré",
+          "cerrarás",
+          "cerrará",
+          "cerraremos",
+          "cerraréis",
+          "cerrarán"
+        ],
+        "condicional_simple": [
+          "cerraría",
+          "cerrarías",
+          "cerraría",
+          "cerraríamos",
+          "cerraríais",
+          "cerrarían"
+        ],
+        "subjuntivo_presente": [
+          "cierre",
+          "cierres",
+          "cierre",
+          "cerremos",
+          "cerréis",
+          "cierren"
+        ],
+        "imperativo": [
+          "cierra!",
+          "cierre!",
+          "cerrad!",
+          "cierren!"
+        ]
+      },
+      "examples": [
+        "Por favor, cierra la puerta al salir."
+      ]
+    },
+    "agradecer": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Dar las gracias por un favor o beneficio.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "agradezco",
+          "agradeces",
+          "agradece",
+          "agradecemos",
+          "agradecéis",
+          "agradecen"
+        ],
+        "pasado": [
+          "agradecí",
+          "agradeciste",
+          "agradeció",
+          "agradecimos",
+          "agradecisteis",
+          "agradecieron"
+        ],
+        "preterito_imperfecto": [
+          "agradecía",
+          "agradecías",
+          "agradecía",
+          "agradecíamos",
+          "agradecíais",
+          "agradecían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he agradecido",
+          "has agradecido",
+          "ha agradecido",
+          "hemos agradecido",
+          "habéis agradecido",
+          "han agradecido"
+        ],
+        "futuro_simple": [
+          "agradeceré",
+          "agradecerás",
+          "agradecerá",
+          "agradeceremos",
+          "agradeceréis",
+          "agradecerán"
+        ],
+        "condicional_simple": [
+          "agradecería",
+          "agradecerías",
+          "agradecería",
+          "agradeceríamos",
+          "agradeceríais",
+          "agradecerían"
+        ],
+        "subjuntivo_presente": [
+          "agradezca",
+          "agradezcas",
+          "agradezca",
+          "agradezcamos",
+          "agradezcáis",
+          "agradezcan"
+        ],
+        "imperativo": [
+          "agradece!",
+          "agradezca!",
+          "agradeced!",
+          "agradezcan!"
+        ]
+      },
+      "examples": [
+        "Agradezco enormemente tu valiosa ayuda."
+      ]
+    },
+    "pedir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Rogar a alguien que dé o haga algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "pido",
+          "pides",
+          "pide",
+          "pedimos",
+          "pedís",
+          "piden"
+        ],
+        "pasado": [
+          "pedí",
+          "pediste",
+          "pidió",
+          "pedimos",
+          "pedisteis",
+          "pidieron"
+        ],
+        "preterito_imperfecto": [
+          "pedía",
+          "pedías",
+          "pedía",
+          "pedíamos",
+          "pedíais",
+          "pedían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he pedido",
+          "has pedido",
+          "ha pedido",
+          "hemos pedido",
+          "habéis pedido",
+          "han pedido"
+        ],
+        "futuro_simple": [
+          "pediré",
+          "pedirás",
+          "pedirá",
+          "pediremos",
+          "pediréis",
+          "pedirán"
+        ],
+        "condicional_simple": [
+          "pediría",
+          "pedirías",
+          "pediría",
+          "pediríamos",
+          "pediríais",
+          "pedirían"
+        ],
+        "subjuntivo_presente": [
+          "pida",
+          "pidas",
+          "pida",
+          "pidamos",
+          "pidáis",
+          "pidan"
+        ],
+        "imperativo": [
+          "pide!",
+          "pida!",
+          "pedid!",
+          "pidan!"
+        ]
+      },
+      "examples": [
+        "Pido un café con leche en el bar."
+      ]
+    },
+    "decir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Manifestar un pensamiento o idea con palabras.",
+      "antonyms": [
+        "callar"
+      ],
+      "tenses": {
+        "presente": [
+          "digo",
+          "dices",
+          "dice",
+          "decimos",
+          "decís",
+          "dicen"
+        ],
+        "pasado": [
+          "dije",
+          "dijiste",
+          "dijo",
+          "dijimos",
+          "dijisteis",
+          "dijeron"
+        ],
+        "preterito_imperfecto": [
+          "decía",
+          "decías",
+          "decía",
+          "decíamos",
+          "decíais",
+          "decían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he dicho",
+          "has dicho",
+          "ha dicho",
+          "hemos dicho",
+          "habéis dicho",
+          "han dicho"
+        ],
+        "futuro_simple": [
+          "diré",
+          "dirás",
+          "dirá",
+          "diremos",
+          "diréis",
+          "dirán"
+        ],
+        "condicional_simple": [
+          "diría",
+          "dirías",
+          "diría",
+          "diríamos",
+          "diríais",
+          "dirían"
+        ],
+        "subjuntivo_presente": [
+          "diga",
+          "digas",
+          "diga",
+          "digamos",
+          "digáis",
+          "digan"
+        ],
+        "imperativo": [
+          "di!",
+          "diga!",
+          "decid!",
+          "digan!"
+        ]
+      },
+      "examples": [
+        "Digo siempre la verdad a mis amigos."
+      ]
+    },
+    "contar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Narrar un suceso o enumerar objetos.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "cuento",
+          "cuentas",
+          "cuenta",
+          "contamos",
+          "contáis",
+          "cuentan"
+        ],
+        "pasado": [
+          "conté",
+          "contaste",
+          "contó",
+          "contamos",
+          "contasteis",
+          "contaron"
+        ],
+        "preterito_imperfecto": [
+          "contaba",
+          "contabas",
+          "contaba",
+          "contábamos",
+          "contabais",
+          "contaban"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he contado",
+          "has contado",
+          "ha contado",
+          "hemos contado",
+          "habéis contado",
+          "han contado"
+        ],
+        "futuro_simple": [
+          "contaré",
+          "contarás",
+          "contará",
+          "contaremos",
+          "contaréis",
+          "contarán"
+        ],
+        "condicional_simple": [
+          "contaría",
+          "contarías",
+          "contaría",
+          "contaríamos",
+          "contaríais",
+          "contarían"
+        ],
+        "subjuntivo_presente": [
+          "cuente",
+          "cuentes",
+          "cuente",
+          "contemos",
+          "contéis",
+          "cuenten"
+        ],
+        "imperativo": [
+          "cuenta!",
+          "cuente!",
+          "contad!",
+          "cuenten!"
+        ]
+      },
+      "examples": [
+        "Mi abuelo me cuenta historias fascinantes."
+      ]
+    },
+    "reír": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Manifestar alegría con movimientos de la boca y sonido.",
+      "antonyms": [
+        "llorar"
+      ],
+      "tenses": {
+        "presente": [
+          "río",
+          "ríes",
+          "ríe",
+          "reímos",
+          "reís",
+          "ríen"
+        ],
+        "pasado": [
+          "reí",
+          "reíste",
+          "rio",
+          "reímos",
+          "reísteis",
+          "rieron"
+        ],
+        "preterito_imperfecto": [
+          "reía",
+          "reías",
+          "reía",
+          "reíamos",
+          "reíais",
+          "reían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "he reído",
+          "has reído",
+          "ha reído",
+          "hemos reído",
+          "habéis reído",
+          "han reído"
+        ],
+        "futuro_simple": [
+          "reiré",
+          "reirás",
+          "reirá",
+          "reiremos",
+          "reiréis",
+          "reirán"
+        ],
+        "condicional_simple": [
+          "reiría",
+          "reirías",
+          "reiría",
+          "reiríamos",
+          "reiríais",
+          "reirían"
+        ],
+        "subjuntivo_presente": [
+          "ría",
+          "rías",
+          "ría",
+          "riamos",
+          "riáis",
+          "rían"
+        ],
+        "imperativo": [
+          "ríe!",
+          "ría!",
+          "reíd!",
+          "rían!"
+        ]
+      },
+      "examples": [
+        "Reímos mucho con las comedias teatrales."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1222 @@
+{
+  "group_name": "ere",
+  "verbs": {
+    "piacere": {
+      "group": "ere",
+      "auxiliary": "essere",
+      "level": "A1",
+      "definition": "Risultare gradito.",
+      "antonyms": [
+        "dispiacere"
+      ],
+      "tenses": {
+        "pres": [
+          "piaccio",
+          "piaci",
+          "piace",
+          "piacciamo",
+          "piacete",
+          "piacciono"
+        ],
+        "pc": [
+          "sono piaciuto",
+          "sei piaciuto",
+          "è piaciuto",
+          "siamo piaciuti",
+          "siete piaciuti",
+          "sono piaciuti"
+        ],
+        "fut": [
+          "piacerò",
+          "piacerai",
+          "piacerà",
+          "piaceremo",
+          "piacerete",
+          "piaceranno"
+        ],
+        "cond": [
+          "piacerei",
+          "piaceresti",
+          "piacerebbe",
+          "piaceremmo",
+          "piacereste",
+          "piacerebbero"
+        ],
+        "subj": [
+          "che io piaci",
+          "che tu piaci",
+          "che lui/lei piaci",
+          "che noi piaciamo",
+          "che voi piaciate",
+          "che loro piacino"
+        ],
+        "impv": [
+          "piaca",
+          "piaciamo",
+          "piacate"
+        ],
+        "part": [
+          "piacente",
+          "piaciuto"
+        ],
+        "cond_pass": [
+          "sarei piacato",
+          "saresti piacato",
+          "sarebbe piacato",
+          "saremmo piacati",
+          "sareste piacati",
+          "sarebbero piacati"
+        ],
+        "subj_pass": [
+          "sia piacato",
+          "sia piacato",
+          "sia piacato",
+          "siamo piacati",
+          "siate piacati",
+          "siano piacati"
+        ],
+        "subj_imp": [
+          "piacessi",
+          "piacessi",
+          "piacesse",
+          "piacessimo",
+          "piaceste",
+          "piacessero"
+        ],
+        "trap_pass": [
+          "ero piacato",
+          "eri piacato",
+          "era piacato",
+          "eravamo piacati",
+          "eravate piacati",
+          "erano piacati"
+        ],
+        "fut_ant": [
+          "sarò piacato",
+          "sarai piacato",
+          "sarà piacato",
+          "saremo piacati",
+          "sarete piacati",
+          "saranno piacati"
+        ],
+        "imp": [
+          "piacevo",
+          "piacevi",
+          "piaceva",
+          "piacevamo",
+          "piacevate",
+          "piacevano"
+        ]
+      },
+      "usage_hint": "piacere a (qualcuno: mi piace il caffè)",
+      "irregular": true
+    },
+    "rompere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Spezzare in parti.",
+      "antonyms": [
+        "aggiustare"
+      ],
+      "tenses": {
+        "pres": [
+          "rompo",
+          "rompi",
+          "rompe",
+          "rompiamo",
+          "rompete",
+          "rompono"
+        ],
+        "pc": [
+          "ho rotto",
+          "hai rotto",
+          "ha rotto",
+          "abbiamo rotto",
+          "avete rotto",
+          "hanno rotto"
+        ],
+        "fut": [
+          "romperò",
+          "romperai",
+          "romperà",
+          "romperemo",
+          "romperete",
+          "romperanno"
+        ],
+        "cond": [
+          "romperei",
+          "romperesti",
+          "romperebbe",
+          "romperemmo",
+          "rompereste",
+          "romperebbero"
+        ],
+        "subj": [
+          "che io rompi",
+          "che tu rompi",
+          "che lui/lei rompi",
+          "che noi rompiamo",
+          "che voi rompiate",
+          "che loro rompino"
+        ],
+        "impv": [
+          "rompa",
+          "rompiamo",
+          "rompate"
+        ],
+        "part": [
+          "rompente",
+          "rotto"
+        ],
+        "cond_pass": [
+          "avrei rotto",
+          "avresti rotto",
+          "avrebbe rotto",
+          "avremmo rotto",
+          "avreste rotto",
+          "avrebbero rotto"
+        ],
+        "subj_pass": [
+          "abbia rotto",
+          "abbia rotto",
+          "abbia rotto",
+          "abbiamo rotto",
+          "abbiate rotto",
+          "abbiano rotto"
+        ],
+        "subj_imp": [
+          "rompessi",
+          "rompessi",
+          "rompesse",
+          "rompessimo",
+          "rompeste",
+          "rompessero"
+        ],
+        "trap_pass": [
+          "avevo rotto",
+          "avevi rotto",
+          "aveva rotto",
+          "avevamo rotto",
+          "avevate rotto",
+          "avevano rotto"
+        ],
+        "fut_ant": [
+          "avrò rotto",
+          "avrai rotto",
+          "avrà rotto",
+          "avremo rotto",
+          "avrete rotto",
+          "avranno rotto"
+        ],
+        "imp": [
+          "rompevo",
+          "rompevi",
+          "rompeva",
+          "rompevamo",
+          "rompevate",
+          "rompevano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (rompere un vetro)",
+      "irregular": false
+    },
+    "appartenere": {
+      "group": "ere",
+      "auxiliary": "essere",
+      "level": "A2",
+      "definition": "Essere di proprietà.",
+      "antonyms": [
+        "alienare"
+      ],
+      "tenses": {
+        "pres": [
+          "appartengo",
+          "appartieni",
+          "appartiene",
+          "apparteniamo",
+          "appartenete",
+          "appartengono"
+        ],
+        "pc": [
+          "sono appartenato",
+          "sei appartenato",
+          "è appartenato",
+          "siamo appartenati",
+          "siete appartenati",
+          "sono appartenati"
+        ],
+        "fut": [
+          "apparterrò",
+          "apparterrai",
+          "apparterrà",
+          "apparterremo",
+          "apparterrete",
+          "apparterranno"
+        ],
+        "cond": [
+          "apparterrei",
+          "apparterresti",
+          "apparterrebbe",
+          "apparterremmo",
+          "apparterreste",
+          "apparterrebbero"
+        ],
+        "subj": [
+          "che io apparteni",
+          "che tu apparteni",
+          "che lui/lei apparteni",
+          "che noi apparteniamo",
+          "che voi apparteniate",
+          "che loro appartenino"
+        ],
+        "impv": [
+          "appartena",
+          "apparteniamo",
+          "appartenate"
+        ],
+        "part": [
+          "appartenente",
+          "appartenuto"
+        ],
+        "cond_pass": [
+          "sarei appartenato",
+          "saresti appartenato",
+          "sarebbe appartenato",
+          "saremmo appartenati",
+          "sareste appartenati",
+          "sarebbero appartenati"
+        ],
+        "subj_pass": [
+          "sia appartenato",
+          "sia appartenato",
+          "sia appartenato",
+          "siamo appartenati",
+          "siate appartenati",
+          "siano appartenati"
+        ],
+        "subj_imp": [
+          "appartenessi",
+          "appartenessi",
+          "appartenesse",
+          "appartenessimo",
+          "apparteneste",
+          "appartenessero"
+        ],
+        "trap_pass": [
+          "ero appartenato",
+          "eri appartenato",
+          "era appartenato",
+          "eravamo appartenati",
+          "eravate appartenati",
+          "erano appartenati"
+        ],
+        "fut_ant": [
+          "sarò appartenato",
+          "sarai appartenato",
+          "sarà appartenato",
+          "saremo appartenati",
+          "sarete appartenati",
+          "saranno appartenati"
+        ],
+        "imp": [
+          "appartenevo",
+          "appartenevi",
+          "apparteneva",
+          "appartenevamo",
+          "appartenevate",
+          "appartenevano"
+        ]
+      },
+      "usage_hint": "appartenere a (qualcuno)",
+      "irregular": true,
+      "needs_review": true
+    },
+    "comprendere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Capire appieno.",
+      "antonyms": [
+        "fraintendere"
+      ],
+      "tenses": {
+        "pres": [
+          "comprendo",
+          "comprendi",
+          "comprende",
+          "comprendiamo",
+          "comprendete",
+          "comprendono"
+        ],
+        "pc": [
+          "ho compreso",
+          "hai compreso",
+          "ha compreso",
+          "abbiamo compreso",
+          "avete compreso",
+          "hanno compreso"
+        ],
+        "fut": [
+          "comprenderò",
+          "comprenderai",
+          "comprenderà",
+          "comprenderemo",
+          "comprenderete",
+          "comprenderanno"
+        ],
+        "cond": [
+          "comprenderei",
+          "comprenderesti",
+          "comprenderebbe",
+          "comprenderemmo",
+          "comprendereste",
+          "comprenderebbero"
+        ],
+        "subj": [
+          "che io comprendi",
+          "che tu comprendi",
+          "che lui/lei comprendi",
+          "che noi comprendiamo",
+          "che voi comprendiate",
+          "che loro comprendino"
+        ],
+        "impv": [
+          "comprenda",
+          "comprendiamo",
+          "comprendate"
+        ],
+        "part": [
+          "comprendente",
+          "compreso"
+        ],
+        "cond_pass": [
+          "avrei compreso",
+          "avresti compreso",
+          "avrebbe compreso",
+          "avremmo compreso",
+          "avreste compreso",
+          "avrebbero compreso"
+        ],
+        "subj_pass": [
+          "abbia compreso",
+          "abbia compreso",
+          "abbia compreso",
+          "abbiamo compreso",
+          "abbiate compreso",
+          "abbiano compreso"
+        ],
+        "subj_imp": [
+          "comprendessi",
+          "comprendessi",
+          "comprendesse",
+          "comprendessimo",
+          "comprendeste",
+          "comprendessero"
+        ],
+        "trap_pass": [
+          "avevo compreso",
+          "avevi compreso",
+          "aveva compreso",
+          "avevamo compreso",
+          "avevate compreso",
+          "avevano compreso"
+        ],
+        "fut_ant": [
+          "avrò compreso",
+          "avrai compreso",
+          "avrà compreso",
+          "avremo compreso",
+          "avrete compreso",
+          "avranno compreso"
+        ],
+        "imp": [
+          "comprendevo",
+          "comprendevi",
+          "comprendeva",
+          "comprendevamo",
+          "comprendevate",
+          "comprendevano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false
+    },
+    "decidere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Prendere una decisione.",
+      "antonyms": [
+        "esitare"
+      ],
+      "tenses": {
+        "pres": [
+          "decido",
+          "decidi",
+          "decide",
+          "decidiamo",
+          "decidete",
+          "decidono"
+        ],
+        "pc": [
+          "ho decidato",
+          "hai decidato",
+          "ha decidato",
+          "abbiamo decidato",
+          "avete decidato",
+          "hanno decidato"
+        ],
+        "fut": [
+          "deciderò",
+          "deciderai",
+          "deciderà",
+          "decideremo",
+          "deciderete",
+          "decideranno"
+        ],
+        "cond": [
+          "deciderei",
+          "decideresti",
+          "deciderebbe",
+          "decideremmo",
+          "decidereste",
+          "deciderebbero"
+        ],
+        "subj": [
+          "che io decidi",
+          "che tu decidi",
+          "che lui/lei decidi",
+          "che noi decidiamo",
+          "che voi decidiate",
+          "che loro decidino"
+        ],
+        "impv": [
+          "decida",
+          "decidiamo",
+          "decidate"
+        ],
+        "part": [
+          "decidente",
+          "deciso"
+        ],
+        "cond_pass": [
+          "avrei decidato",
+          "avresti decidato",
+          "avrebbe decidato",
+          "avremmo decidato",
+          "avreste decidato",
+          "avrebbero decidato"
+        ],
+        "subj_pass": [
+          "abbia decidato",
+          "abbia decidato",
+          "abbia decidato",
+          "abbiamo decidato",
+          "abbiate decidato",
+          "abbiano decidato"
+        ],
+        "subj_imp": [
+          "decidessi",
+          "decidessi",
+          "decidesse",
+          "decidessimo",
+          "decideste",
+          "decidessero"
+        ],
+        "trap_pass": [
+          "avevo decidato",
+          "avevi decidato",
+          "aveva decidato",
+          "avevamo decidato",
+          "avevate decidato",
+          "avevano decidato"
+        ],
+        "fut_ant": [
+          "avrò decidato",
+          "avrai decidato",
+          "avrà decidato",
+          "avremo decidato",
+          "avrete decidato",
+          "avranno decidato"
+        ],
+        "imp": [
+          "decidevo",
+          "decidevi",
+          "decideva",
+          "decidevamo",
+          "decidevate",
+          "decidevano"
+        ]
+      },
+      "usage_hint": "decidere di (fare qualcosa)",
+      "irregular": false,
+      "needs_review": true
+    },
+    "raccogliere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Prendere da terra.",
+      "antonyms": [
+        "disperdere"
+      ],
+      "tenses": {
+        "pres": [
+          "raccolgo",
+          "raccogli",
+          "raccoglie",
+          "raccogliamo",
+          "raccogliete",
+          "raccolgono"
+        ],
+        "pc": [
+          "ho raccogliato",
+          "hai raccogliato",
+          "ha raccogliato",
+          "abbiamo raccogliato",
+          "avete raccogliato",
+          "hanno raccogliato"
+        ],
+        "fut": [
+          "raccoglierò",
+          "raccoglierai",
+          "raccoglierà",
+          "raccoglieremo",
+          "raccoglierete",
+          "raccoglieranno"
+        ],
+        "cond": [
+          "raccoglierei",
+          "raccoglieresti",
+          "raccoglierebbe",
+          "raccoglieremmo",
+          "raccogliereste",
+          "raccoglierebbero"
+        ],
+        "subj": [
+          "che io raccoglii",
+          "che tu raccoglii",
+          "che lui/lei raccoglii",
+          "che noi raccogliiamo",
+          "che voi raccogliiate",
+          "che loro raccogliino"
+        ],
+        "impv": [
+          "raccoglia",
+          "raccogliiamo",
+          "raccogliate"
+        ],
+        "part": [
+          "raccogliente",
+          "raccolto"
+        ],
+        "cond_pass": [
+          "avrei raccogliato",
+          "avresti raccogliato",
+          "avrebbe raccogliato",
+          "avremmo raccogliato",
+          "avreste raccogliato",
+          "avrebbero raccogliato"
+        ],
+        "subj_pass": [
+          "abbia raccogliato",
+          "abbia raccogliato",
+          "abbia raccogliato",
+          "abbiamo raccogliato",
+          "abbiate raccogliato",
+          "abbiano raccogliato"
+        ],
+        "subj_imp": [
+          "raccogliessi",
+          "raccogliessi",
+          "raccogliesse",
+          "raccogliessimo",
+          "raccoglieste",
+          "raccogliessero"
+        ],
+        "trap_pass": [
+          "avevo raccogliato",
+          "avevi raccogliato",
+          "aveva raccogliato",
+          "avevamo raccogliato",
+          "avevate raccogliato",
+          "avevano raccogliato"
+        ],
+        "fut_ant": [
+          "avrò raccogliato",
+          "avrai raccogliato",
+          "avrà raccogliato",
+          "avremo raccogliato",
+          "avrete raccogliato",
+          "avranno raccogliato"
+        ],
+        "imp": [
+          "raccoglievo",
+          "raccoglievi",
+          "raccoglieva",
+          "raccoglievamo",
+          "raccoglievate",
+          "raccoglievano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": true,
+      "needs_review": true
+    },
+    "raggiungere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Giungere a destinazione.",
+      "antonyms": [
+        "allontanarsi"
+      ],
+      "tenses": {
+        "pres": [
+          "raggiungo",
+          "raggiungi",
+          "raggiunge",
+          "raggiungiamo",
+          "raggiungete",
+          "raggiungono"
+        ],
+        "pc": [
+          "ho raggiungato",
+          "hai raggiungato",
+          "ha raggiungato",
+          "abbiamo raggiungato",
+          "avete raggiungato",
+          "hanno raggiungato"
+        ],
+        "fut": [
+          "raggiungerò",
+          "raggiungerai",
+          "raggiungerà",
+          "raggiungeremo",
+          "raggiungerete",
+          "raggiungeranno"
+        ],
+        "cond": [
+          "raggiungerei",
+          "raggiungeresti",
+          "raggiungerebbe",
+          "raggiungeremmo",
+          "raggiungereste",
+          "raggiungerebbero"
+        ],
+        "subj": [
+          "che io raggiungi",
+          "che tu raggiungi",
+          "che lui/lei raggiungi",
+          "che noi raggiungiamo",
+          "che voi raggiungiate",
+          "che loro raggiungino"
+        ],
+        "impv": [
+          "raggiunga",
+          "raggiungiamo",
+          "raggiungate"
+        ],
+        "part": [
+          "raggiungente",
+          "raggiunto"
+        ],
+        "cond_pass": [
+          "avrei raggiungato",
+          "avresti raggiungato",
+          "avrebbe raggiungato",
+          "avremmo raggiungato",
+          "avreste raggiungato",
+          "avrebbero raggiungato"
+        ],
+        "subj_pass": [
+          "abbia raggiungato",
+          "abbia raggiungato",
+          "abbia raggiungato",
+          "abbiamo raggiungato",
+          "abbiate raggiungato",
+          "abbiano raggiungato"
+        ],
+        "subj_imp": [
+          "raggiungessi",
+          "raggiungessi",
+          "raggiungesse",
+          "raggiungessimo",
+          "raggiungeste",
+          "raggiungessero"
+        ],
+        "trap_pass": [
+          "avevo raggiungato",
+          "avevi raggiungato",
+          "aveva raggiungato",
+          "avevamo raggiungato",
+          "avevate raggiungato",
+          "avevano raggiungato"
+        ],
+        "fut_ant": [
+          "avrò raggiungato",
+          "avrai raggiungato",
+          "avrà raggiungato",
+          "avremo raggiungato",
+          "avrete raggiungato",
+          "avranno raggiungato"
+        ],
+        "imp": [
+          "raggiungevo",
+          "raggiungevi",
+          "raggiungeva",
+          "raggiungevamo",
+          "raggiungevate",
+          "raggiungevano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false,
+      "needs_review": true
+    },
+    "ricevere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Prendere quanto inviato.",
+      "antonyms": [
+        "inviare"
+      ],
+      "tenses": {
+        "pres": [
+          "ricevo",
+          "ricevi",
+          "riceve",
+          "riceviamo",
+          "ricevete",
+          "ricevono"
+        ],
+        "pc": [
+          "ho ricevuto",
+          "hai ricevuto",
+          "ha ricevuto",
+          "abbiamo ricevuto",
+          "avete ricevuto",
+          "hanno ricevuto"
+        ],
+        "fut": [
+          "riceverò",
+          "riceverai",
+          "riceverà",
+          "riceveremo",
+          "riceverete",
+          "riceveranno"
+        ],
+        "cond": [
+          "riceverei",
+          "riceveresti",
+          "riceverebbe",
+          "riceveremmo",
+          "ricevereste",
+          "riceverebbero"
+        ],
+        "subj": [
+          "che io ricevi",
+          "che tu ricevi",
+          "che lui/lei ricevi",
+          "che noi riceviamo",
+          "che voi riceviate",
+          "che loro ricevino"
+        ],
+        "impv": [
+          "riceva",
+          "riceviamo",
+          "ricevate"
+        ],
+        "part": [
+          "ricevente",
+          "ricevuto"
+        ],
+        "cond_pass": [
+          "avrei ricevuto",
+          "avresti ricevuto",
+          "avrebbe ricevuto",
+          "avremmo ricevuto",
+          "avreste ricevuto",
+          "avrebbero ricevuto"
+        ],
+        "subj_pass": [
+          "abbia ricevuto",
+          "abbia ricevuto",
+          "abbia ricevuto",
+          "abbiamo ricevuto",
+          "abbiate ricevuto",
+          "abbiano ricevuto"
+        ],
+        "subj_imp": [
+          "ricevessi",
+          "ricevessi",
+          "ricevesse",
+          "ricevessimo",
+          "riceveste",
+          "ricevessero"
+        ],
+        "trap_pass": [
+          "avevo ricevuto",
+          "avevi ricevuto",
+          "aveva ricevuto",
+          "avevamo ricevuto",
+          "avevate ricevuto",
+          "avevano ricevuto"
+        ],
+        "fut_ant": [
+          "avrò ricevuto",
+          "avrai ricevuto",
+          "avrà ricevuto",
+          "avremo ricevuto",
+          "avrete ricevuto",
+          "avranno ricevuto"
+        ],
+        "imp": [
+          "ricevevo",
+          "ricevevi",
+          "riceveva",
+          "ricevevamo",
+          "ricevevate",
+          "ricevevano"
+        ]
+      },
+      "usage_hint": "ricevere (qualcosa) da (qualcuno)",
+      "irregular": false
+    },
+    "ripetere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Dire una seconda volta.",
+      "antonyms": [
+        "tacere"
+      ],
+      "tenses": {
+        "pres": [
+          "ripeto",
+          "ripeti",
+          "ripete",
+          "ripetiamo",
+          "ripetete",
+          "ripetono"
+        ],
+        "pc": [
+          "ho ripetato",
+          "hai ripetato",
+          "ha ripetato",
+          "abbiamo ripetato",
+          "avete ripetato",
+          "hanno ripetato"
+        ],
+        "fut": [
+          "ripeterò",
+          "ripeterai",
+          "ripeterà",
+          "ripeteremo",
+          "ripeterete",
+          "ripeteranno"
+        ],
+        "cond": [
+          "ripeterei",
+          "ripeteresti",
+          "ripeterebbe",
+          "ripeteremmo",
+          "ripetereste",
+          "ripeterebbero"
+        ],
+        "subj": [
+          "che io ripeti",
+          "che tu ripeti",
+          "che lui/lei ripeti",
+          "che noi ripetiamo",
+          "che voi ripetiate",
+          "che loro ripetino"
+        ],
+        "impv": [
+          "ripeta",
+          "ripetiamo",
+          "ripetate"
+        ],
+        "part": [
+          "ripetente",
+          "ripetuto"
+        ],
+        "cond_pass": [
+          "avrei ripetato",
+          "avresti ripetato",
+          "avrebbe ripetato",
+          "avremmo ripetato",
+          "avreste ripetato",
+          "avrebbero ripetato"
+        ],
+        "subj_pass": [
+          "abbia ripetato",
+          "abbia ripetato",
+          "abbia ripetato",
+          "abbiamo ripetato",
+          "abbiate ripetato",
+          "abbiano ripetato"
+        ],
+        "subj_imp": [
+          "ripetessi",
+          "ripetessi",
+          "ripetesse",
+          "ripetessimo",
+          "ripeteste",
+          "ripetessero"
+        ],
+        "trap_pass": [
+          "avevo ripetato",
+          "avevi ripetato",
+          "aveva ripetato",
+          "avevamo ripetato",
+          "avevate ripetato",
+          "avevano ripetato"
+        ],
+        "fut_ant": [
+          "avrò ripetato",
+          "avrai ripetato",
+          "avrà ripetato",
+          "avremo ripetato",
+          "avrete ripetato",
+          "avranno ripetato"
+        ],
+        "imp": [
+          "ripetevo",
+          "ripetevi",
+          "ripeteva",
+          "ripetevamo",
+          "ripetevate",
+          "ripetevano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false,
+      "needs_review": true
+    },
+    "scegliere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Effettuare una scelta.",
+      "antonyms": [
+        "scartare"
+      ],
+      "tenses": {
+        "pres": [
+          "scelgo",
+          "scegli",
+          "sceglie",
+          "scegliamo",
+          "scegliete",
+          "scelgono"
+        ],
+        "pc": [
+          "ho scegliato",
+          "hai scegliato",
+          "ha scegliato",
+          "abbiamo scegliato",
+          "avete scegliato",
+          "hanno scegliato"
+        ],
+        "fut": [
+          "sceglierò",
+          "sceglierai",
+          "sceglierà",
+          "sceglieremo",
+          "sceglierete",
+          "sceglieranno"
+        ],
+        "cond": [
+          "sceglierei",
+          "sceglieresti",
+          "sceglierebbe",
+          "sceglieremmo",
+          "scegliereste",
+          "sceglierebbero"
+        ],
+        "subj": [
+          "che io sceglii",
+          "che tu sceglii",
+          "che lui/lei sceglii",
+          "che noi scegliiamo",
+          "che voi scegliiate",
+          "che loro scegliino"
+        ],
+        "impv": [
+          "sceglia",
+          "scegliiamo",
+          "scegliate"
+        ],
+        "part": [
+          "scegliente",
+          "scelto"
+        ],
+        "cond_pass": [
+          "avrei scegliato",
+          "avresti scegliato",
+          "avrebbe scegliato",
+          "avremmo scegliato",
+          "avreste scegliato",
+          "avrebbero scegliato"
+        ],
+        "subj_pass": [
+          "abbia scegliato",
+          "abbia scegliato",
+          "abbia scegliato",
+          "abbiamo scegliato",
+          "abbiate scegliato",
+          "abbiano scegliato"
+        ],
+        "subj_imp": [
+          "scegliessi",
+          "scegliessi",
+          "scegliesse",
+          "scegliessimo",
+          "sceglieste",
+          "scegliessero"
+        ],
+        "trap_pass": [
+          "avevo scegliato",
+          "avevi scegliato",
+          "aveva scegliato",
+          "avevamo scegliato",
+          "avevate scegliato",
+          "avevano scegliato"
+        ],
+        "fut_ant": [
+          "avrò scegliato",
+          "avrai scegliato",
+          "avrà scegliato",
+          "avremo scegliato",
+          "avrete scegliato",
+          "avranno scegliato"
+        ],
+        "imp": [
+          "sceglievo",
+          "sceglievi",
+          "sceglieva",
+          "sceglievamo",
+          "sceglievate",
+          "sceglievano"
+        ]
+      },
+      "usage_hint": "scegliere + oggetto diretto / di (fare)",
+      "irregular": true,
+      "needs_review": true
+    },
+    "uccidere": {
+      "group": "ere",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Togliere la vita.",
+      "antonyms": [
+        "salvare"
+      ],
+      "tenses": {
+        "pres": [
+          "uccido",
+          "uccidi",
+          "uccide",
+          "uccidiamo",
+          "uccidete",
+          "uccidono"
+        ],
+        "pc": [
+          "ho uccidato",
+          "hai uccidato",
+          "ha uccidato",
+          "abbiamo uccidato",
+          "avete uccidato",
+          "hanno uccidato"
+        ],
+        "fut": [
+          "ucciderò",
+          "ucciderai",
+          "ucciderà",
+          "uccideremo",
+          "ucciderete",
+          "uccideranno"
+        ],
+        "cond": [
+          "ucciderei",
+          "uccideresti",
+          "ucciderebbe",
+          "uccideremmo",
+          "uccidereste",
+          "ucciderebbero"
+        ],
+        "subj": [
+          "che io uccidi",
+          "che tu uccidi",
+          "che lui/lei uccidi",
+          "che noi uccidiamo",
+          "che voi uccidiate",
+          "che loro uccidino"
+        ],
+        "impv": [
+          "uccida",
+          "uccidiamo",
+          "uccidate"
+        ],
+        "part": [
+          "uccidente",
+          "ucciso"
+        ],
+        "cond_pass": [
+          "avrei uccidato",
+          "avresti uccidato",
+          "avrebbe uccidato",
+          "avremmo uccidato",
+          "avreste uccidato",
+          "avrebbero uccidato"
+        ],
+        "subj_pass": [
+          "abbia uccidato",
+          "abbia uccidato",
+          "abbia uccidato",
+          "abbiamo uccidato",
+          "abbiate uccidato",
+          "abbiano uccidato"
+        ],
+        "subj_imp": [
+          "uccidessi",
+          "uccidessi",
+          "uccidesse",
+          "uccidessimo",
+          "uccideste",
+          "uccidessero"
+        ],
+        "trap_pass": [
+          "avevo uccidato",
+          "avevi uccidato",
+          "aveva uccidato",
+          "avevamo uccidato",
+          "avevate uccidato",
+          "avevano uccidato"
+        ],
+        "fut_ant": [
+          "avrò uccidato",
+          "avrai uccidato",
+          "avrà uccidato",
+          "avremo uccidato",
+          "avrete uccidato",
+          "avranno uccidato"
+        ],
+        "imp": [
+          "uccidevo",
+          "uccidevi",
+          "uccideva",
+          "uccidevamo",
+          "uccidevate",
+          "uccidevano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false,
+      "needs_review": true
+    }
+  }
+}

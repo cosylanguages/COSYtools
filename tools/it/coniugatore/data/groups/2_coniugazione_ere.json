@@ -1,0 +1,335 @@
+{
+  "group_name": "2ª coniugazione (-ere)",
+  "verbs": {
+    "discutere": {
+      "group": "2ª coniugazione (-ere)",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Esaminare un argomento con altre persone.",
+      "antonyms": [
+        "tacere"
+      ],
+      "usage_hint": "discutere di (qualcosa) con (qualcuno)",
+      "tenses": {
+        "pres": [
+          "discuto",
+          "discuti",
+          "discute",
+          "discutiamo",
+          "discutete",
+          "discutono"
+        ],
+        "imp": [
+          "discutevo",
+          "discutevi",
+          "discuteva",
+          "discutevamo",
+          "discutevate",
+          "discutevano"
+        ],
+        "fut": [
+          "discuterò",
+          "discuterai",
+          "discuterà",
+          "discuteremo",
+          "discuterete",
+          "discuteranno"
+        ],
+        "cond": [
+          "discuterei",
+          "discuteresti",
+          "discuterebbe",
+          "discuteremmo",
+          "discutereste",
+          "discuterebbero"
+        ],
+        "cond_pass": [
+          "avrei discusso",
+          "avresti discusso",
+          "avrebbe discusso",
+          "avremmo discusso",
+          "avreste discusso",
+          "avrebbero discusso"
+        ],
+        "subj_pass": [
+          "abbia discusso",
+          "abbia discusso",
+          "abbia discusso",
+          "abbiamo discusso",
+          "abbiate discusso",
+          "abbiano discusso"
+        ],
+        "subj_imp": [
+          "discutessi",
+          "discutessi",
+          "discutesse",
+          "discutessimo",
+          "discuteste",
+          "discutessero"
+        ],
+        "trap_pass": [
+          "avevo discusso",
+          "avevi discusso",
+          "aveva discusso",
+          "avevamo discusso",
+          "avevate discusso",
+          "avevano discusso"
+        ],
+        "fut_ant": [
+          "avrò discusso",
+          "avrai discusso",
+          "avrà discusso",
+          "avremo discusso",
+          "avrete discusso",
+          "avranno discusso"
+        ],
+        "pc": [
+          "ho discusso",
+          "hai discusso",
+          "ha discusso",
+          "abbiamo discusso",
+          "avete discusso",
+          "hanno discusso"
+        ],
+        "subj": [
+          "discuta",
+          "discuta",
+          "discuta",
+          "discutiamo",
+          "discutiate",
+          "discutano"
+        ],
+        "impv": [
+          "discuti!",
+          "discutiamo!",
+          "discutate!"
+        ],
+        "part": [
+          "discutendo",
+          "discusso"
+        ]
+      },
+      "irregular": false
+    },
+    "convincere": {
+      "group": "2ª coniugazione (-ere)",
+      "level": "B2",
+      "auxiliary": "avere",
+      "definition": "Persuadere qualcuno della validità di un'idea.",
+      "antonyms": [
+        "dissuadere"
+      ],
+      "usage_hint": "convincere (qualcuno) di / a (fare)",
+      "tenses": {
+        "pres": [
+          "convinco",
+          "convinci",
+          "convince",
+          "convinciamo",
+          "convincete",
+          "convincono"
+        ],
+        "imp": [
+          "convincevo",
+          "convincevi",
+          "convinceva",
+          "convincevamo",
+          "convincevate",
+          "convincevano"
+        ],
+        "pc": [
+          "ho convinto",
+          "hai convinto",
+          "ha convinto",
+          "abbiamo convinto",
+          "avete convinto",
+          "hanno convinto"
+        ],
+        "fut": [
+          "convincerò",
+          "convincerai",
+          "convincerà",
+          "convinceremo",
+          "convincerete",
+          "convinceranno"
+        ],
+        "subj": [
+          "convinca",
+          "convinca",
+          "convinca",
+          "convinciamo",
+          "convinciate",
+          "convincano"
+        ],
+        "cond": [
+          "convincerei",
+          "convinceresti",
+          "convincerebbe",
+          "convinceremmo",
+          "convincereste",
+          "convincerebbero"
+        ],
+        "impv": [
+          "convinci",
+          "convinciamo",
+          "convincete"
+        ],
+        "part": [
+          "convincendo",
+          "convinto"
+        ],
+        "cond_pass": [
+          "avrei convinto",
+          "avresti convinto",
+          "avrebbe convinto",
+          "avremmo convinto",
+          "avreste convinto",
+          "avrebbero convinto"
+        ],
+        "subj_pass": [
+          "abbia convinto",
+          "abbia convinto",
+          "abbia convinto",
+          "abbiamo convinto",
+          "abbiate convinto",
+          "abbiano convinto"
+        ],
+        "subj_imp": [
+          "convincessi",
+          "convincessi",
+          "convincesse",
+          "convincessimo",
+          "convinceste",
+          "convincessero"
+        ],
+        "trap_pass": [
+          "avevo convinto",
+          "avevi convinto",
+          "aveva convinto",
+          "avevamo convinto",
+          "avevate convinto",
+          "avevano convinto"
+        ],
+        "fut_ant": [
+          "avrò convinto",
+          "avrai convinto",
+          "avrà convinto",
+          "avremo convinto",
+          "avrete convinto",
+          "avranno convinto"
+        ]
+      },
+      "irregular": false
+    },
+    "prevedere": {
+      "group": "2ª coniugazione (-ere)",
+      "level": "B2+",
+      "auxiliary": "avere",
+      "definition": "Immaginare in anticipo eventi futuri.",
+      "antonyms": [
+        "trascurare"
+      ],
+      "usage_hint": "prevedere + oggetto diretto / che...",
+      "tenses": {
+        "pres": [
+          "prevedo",
+          "prevedi",
+          "prevede",
+          "prevediamo",
+          "prevedete",
+          "prevedono"
+        ],
+        "imp": [
+          "prevedevo",
+          "prevedevi",
+          "prevedeva",
+          "prevedevamo",
+          "prevedevate",
+          "prevedevano"
+        ],
+        "pc": [
+          "ho previsto",
+          "hai previsto",
+          "ha previsto",
+          "abbiamo previsto",
+          "avete previsto",
+          "hanno previsto"
+        ],
+        "fut": [
+          "prevedrò",
+          "prevedrai",
+          "prevedrà",
+          "prevedremo",
+          "prevedrete",
+          "prevedranno"
+        ],
+        "subj": [
+          "preveda",
+          "preveda",
+          "preveda",
+          "prevediamo",
+          "prevediate",
+          "prevedano"
+        ],
+        "cond": [
+          "prevederei",
+          "prevederesti",
+          "prevederebbe",
+          "prevederemmo",
+          "prevedereste",
+          "prevederebbero"
+        ],
+        "impv": [
+          "prevedi",
+          "prevediamo",
+          "prevedete"
+        ],
+        "part": [
+          "prevedendo",
+          "previsto"
+        ],
+        "cond_pass": [
+          "avrei previsto",
+          "avresti previsto",
+          "avrebbe previsto",
+          "avremmo previsto",
+          "avreste previsto",
+          "avrebbero previsto"
+        ],
+        "subj_pass": [
+          "abbia previsto",
+          "abbia previsto",
+          "abbia previsto",
+          "abbiamo previsto",
+          "abbiate previsto",
+          "abbiano previsto"
+        ],
+        "subj_imp": [
+          "prevedessi",
+          "prevedessi",
+          "prevedesse",
+          "prevedessimo",
+          "prevedeste",
+          "prevedessero"
+        ],
+        "trap_pass": [
+          "avevo previsto",
+          "avevi previsto",
+          "aveva previsto",
+          "avevamo previsto",
+          "avevate previsto",
+          "avevano previsto"
+        ],
+        "fut_ant": [
+          "avrò previsto",
+          "avrai previsto",
+          "avrà previsto",
+          "avremo previsto",
+          "avrete previsto",
+          "avranno previsto"
+        ]
+      },
+      "irregular": false
+    }
+  }
+}

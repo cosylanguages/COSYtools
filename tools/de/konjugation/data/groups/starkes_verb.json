@@ -1,0 +1,3650 @@
+{
+  "group_name": "Starkes Verb",
+  "verbs": {
+    "gehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich zu Fuß fortbewegen.",
+      "antonyms": [
+        "stehen",
+        "bleiben"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich gehe",
+          "du gehst",
+          "er/sie/es geht",
+          "wir gehen",
+          "ihr geht",
+          "sie gehen"
+        ],
+        "präteritum": [
+          "ich ging",
+          "du gingst",
+          "er/sie/es ging",
+          "wir gingen",
+          "ihr gingt",
+          "sie gingen"
+        ],
+        "perfekt": [
+          "ich bin gegangen",
+          "du bist gegangen",
+          "er/sie/es ist gegangen",
+          "wir sind gegangen",
+          "ihr seid gegangen",
+          "sie sind gegangen"
+        ],
+        "futur_1": [
+          "ich werde gehen",
+          "du wirst gehen",
+          "er/sie/es wird gehen",
+          "wir werden gehen",
+          "ihr werdet gehen",
+          "sie werden gehen"
+        ],
+        "konjunktiv_2": [
+          "ich ginge",
+          "du gingest",
+          "er/sie/es ginge",
+          "wir gingen",
+          "ihr ginget",
+          "sie gingen"
+        ],
+        "imperativ": [
+          "geh!",
+          "geht!"
+        ]
+      },
+      "examples": [
+        "Ich gehe heute spazieren."
+      ]
+    },
+    "kommen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "An einen Ort gelangen.",
+      "antonyms": [
+        "gehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich komme",
+          "du kommst",
+          "er/sie/es kommt",
+          "wir kommen",
+          "ihr kommt",
+          "sie kommen"
+        ],
+        "präteritum": [
+          "ich kam",
+          "du kamst",
+          "er/sie/es kam",
+          "wir kamen",
+          "ihr kamt",
+          "sie kamen"
+        ],
+        "perfekt": [
+          "ich bin gekommen",
+          "du bist gekommen",
+          "er/sie/es ist gekommen",
+          "wir sind gekommen",
+          "ihr seid gekommen",
+          "sie sind gekommen"
+        ],
+        "futur_1": [
+          "ich werde kommen",
+          "du wirst kommen",
+          "er/sie/es wird kommen",
+          "wir werden kommen",
+          "ihr werdet kommen",
+          "sie werden kommen"
+        ],
+        "konjunktiv_2": [
+          "ich käme",
+          "du kämest",
+          "er/sie/es käme",
+          "wir kämen",
+          "ihr kämet",
+          "sie kämen"
+        ],
+        "imperativ": [
+          "komm!",
+          "kommt!"
+        ]
+      },
+      "examples": [
+        "Er kommt aus Deutschland."
+      ]
+    },
+    "sprechen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Worte artikulieren und kommunizieren.",
+      "antonyms": [
+        "schweigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich spreche",
+          "du sprichst",
+          "er/sie/es spricht",
+          "wir sprechen",
+          "ihr sprecht",
+          "sie sprechen"
+        ],
+        "präteritum": [
+          "ich sprach",
+          "du sprachst",
+          "er/sie/es sprach",
+          "wir sprachen",
+          "ihr spracht",
+          "sie sprachen"
+        ],
+        "perfekt": [
+          "ich habe gesprochen",
+          "du hast gesprochen",
+          "er/sie/es hat gesprochen",
+          "wir haben gesprochen",
+          "ihr habt gesprochen",
+          "sie haben gesprochen"
+        ],
+        "futur_1": [
+          "ich werde sprechen",
+          "du wirst sprechen",
+          "er/sie/es wird sprechen",
+          "wir werden sprechen",
+          "ihr werdet sprechen",
+          "sie werden sprechen"
+        ],
+        "konjunktiv_2": [
+          "ich spräche",
+          "du sprächest",
+          "er/sie/es spräche",
+          "wir sprächen",
+          "ihr sprächet",
+          "sie sprächen"
+        ],
+        "imperativ": [
+          "sprich!",
+          "sprecht!"
+        ]
+      },
+      "examples": [
+        "Wir sprechen Deutsch und Englisch."
+      ]
+    },
+    "lesen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Geschriebenen Text wahrnehmen und verstehen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich lese",
+          "du liest",
+          "er/sie/es liest",
+          "wir lesen",
+          "ihr lest",
+          "sie lesen"
+        ],
+        "präteritum": [
+          "ich las",
+          "du last",
+          "er/sie/es las",
+          "wir lasen",
+          "ihr last",
+          "sie lasen"
+        ],
+        "perfekt": [
+          "ich habe gelesen",
+          "du hast gelesen",
+          "er/sie/es hat gelesen",
+          "wir haben gelesen",
+          "ihr habt gelesen",
+          "sie haben gelesen"
+        ],
+        "futur_1": [
+          "ich werde lesen",
+          "du wirst lesen",
+          "er/sie/es wird lesen",
+          "wir werden lesen",
+          "ihr werdet lesen",
+          "sie werden lesen"
+        ],
+        "konjunktiv_2": [
+          "ich würde lesen",
+          "du würdest lesen",
+          "er/sie/es würde lesen",
+          "wir würden lesen",
+          "ihr würdet lesen",
+          "sie würden lesen"
+        ],
+        "imperativ": [
+          "lies!",
+          "lest!"
+        ]
+      },
+      "examples": [
+        "Sie liest abends gerne ein Buch."
+      ]
+    },
+    "schreiben": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Schriftzeichen oder Text verfassen.",
+      "antonyms": [
+        "lesen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich schreibe",
+          "du schreibst",
+          "er/sie/es schreibt",
+          "wir schreiben",
+          "ihr schreibt",
+          "sie schreiben"
+        ],
+        "präteritum": [
+          "ich schrieb",
+          "du schriebst",
+          "er/sie/es schrieb",
+          "wir schrieben",
+          "ihr schriebt",
+          "sie schrieben"
+        ],
+        "perfekt": [
+          "ich habe geschrieben",
+          "du hast geschrieben",
+          "er/sie/es hat geschrieben",
+          "wir haben geschrieben",
+          "ihr habt geschrieben",
+          "sie haben geschrieben"
+        ],
+        "futur_1": [
+          "ich werde schreiben",
+          "du wirst schreiben",
+          "er/sie/es wird schreiben",
+          "wir werden schreiben",
+          "ihr werdet schreiben",
+          "sie werden schreiben"
+        ],
+        "konjunktiv_2": [
+          "ich würde schreiben",
+          "du würdest schreiben",
+          "er/sie/es würde schreiben",
+          "wir würden schreiben",
+          "ihr würdet schreiben",
+          "sie würden schreiben"
+        ],
+        "imperativ": [
+          "schreib!",
+          "schreibt!"
+        ]
+      },
+      "examples": [
+        "Ich schreibe eine E-Mail an meine Mutter."
+      ]
+    },
+    "essen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Nahrung zu sich nehmen.",
+      "antonyms": [
+        "fasten"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich esse",
+          "du isst",
+          "er/sie/es isst",
+          "wir essen",
+          "ihr esst",
+          "sie essen"
+        ],
+        "präteritum": [
+          "ich ass",
+          "du asst",
+          "er/sie/es ass",
+          "wir assen",
+          "ihr asst",
+          "sie assen"
+        ],
+        "perfekt": [
+          "ich habe gegessen",
+          "du hast gegessen",
+          "er/sie/es hat gegessen",
+          "wir haben gegessen",
+          "ihr habt gegessen",
+          "sie haben gegessen"
+        ],
+        "futur_1": [
+          "ich werde essen",
+          "du wirst essen",
+          "er/sie/es wird essen",
+          "wir werden essen",
+          "ihr werdet essen",
+          "sie werden essen"
+        ],
+        "konjunktiv_2": [
+          "ich würde essen",
+          "du würdest essen",
+          "er/sie/es würde essen",
+          "wir würden essen",
+          "ihr würdet essen",
+          "sie würden essen"
+        ],
+        "imperativ": [
+          "iss!",
+          "esst!"
+        ]
+      },
+      "examples": [
+        "Wir essen um 12 Uhr zu Mittag."
+      ]
+    },
+    "trinken": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Flüssigkeit aufnehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich trinke",
+          "du trinkst",
+          "er/sie/es trinkt",
+          "wir trinken",
+          "ihr trinkt",
+          "sie trinken"
+        ],
+        "präteritum": [
+          "ich trank",
+          "du trankst",
+          "er/sie/es trank",
+          "wir tranken",
+          "ihr trankt",
+          "sie tranken"
+        ],
+        "perfekt": [
+          "ich habe getrunken",
+          "du hast getrunken",
+          "er/sie/es hat getrunken",
+          "wir haben getrunken",
+          "ihr habt getrunken",
+          "sie haben getrunken"
+        ],
+        "futur_1": [
+          "ich werde trinken",
+          "du wirst trinken",
+          "er/sie/es wird trinken",
+          "wir werden trinken",
+          "ihr werdet trinken",
+          "sie werden trinken"
+        ],
+        "konjunktiv_2": [
+          "ich würde trinken",
+          "du würdest trinken",
+          "er/sie/es würde trinken",
+          "wir würden trinken",
+          "ihr würdet trinken",
+          "sie würden trinken"
+        ],
+        "imperativ": [
+          "trink!",
+          "trinkt!"
+        ]
+      },
+      "examples": [
+        "Er trinkt morgens immer Kaffee."
+      ]
+    },
+    "schlafen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Im Zustand der Ruhe und Bewusstlosigkeit sein.",
+      "antonyms": [
+        "wachen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich schlafe",
+          "du schläfst",
+          "er/sie/es schläft",
+          "wir schlafen",
+          "ihr schlaft",
+          "sie schlafen"
+        ],
+        "präteritum": [
+          "ich schlief",
+          "du schliefst",
+          "er/sie/es schlief",
+          "wir schliefen",
+          "ihr schlieft",
+          "sie schliefen"
+        ],
+        "perfekt": [
+          "ich habe geschlafen",
+          "du hast geschlafen",
+          "er/sie/es hat geschlafen",
+          "wir haben geschlafen",
+          "ihr habt geschlafen",
+          "sie haben geschlafen"
+        ],
+        "futur_1": [
+          "ich werde schlafen",
+          "du wirst schlafen",
+          "er/sie/es wird schlafen",
+          "wir werden schlafen",
+          "ihr werdet schlafen",
+          "sie werden schlafen"
+        ],
+        "konjunktiv_2": [
+          "ich würde schlafen",
+          "du würdest schlafen",
+          "er/sie/es würde schlafen",
+          "wir würden schlafen",
+          "ihr würdet schlafen",
+          "sie würden schlafen"
+        ],
+        "imperativ": [
+          "schlaf!",
+          "schlaft!"
+        ]
+      },
+      "examples": [
+        "Das Baby schläft ruhig."
+      ]
+    },
+    "finden": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas Gesuchtes entdecken oder wahrnehmen.",
+      "antonyms": [
+        "suchen",
+        "verlieren"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich finde",
+          "du findest",
+          "er/sie/es findet",
+          "wir finden",
+          "ihr findet",
+          "sie finden"
+        ],
+        "präteritum": [
+          "ich fand",
+          "du fandest",
+          "er/sie/es fand",
+          "wir fanden",
+          "ihr fandet",
+          "sie fanden"
+        ],
+        "perfekt": [
+          "ich habe gefunden",
+          "du hast gefunden",
+          "er/sie/es hat gefunden",
+          "wir haben gefunden",
+          "ihr habt gefunden",
+          "sie haben gefunden"
+        ],
+        "futur_1": [
+          "ich werde finden",
+          "du wirst finden",
+          "er/sie/es wird finden",
+          "wir werden finden",
+          "ihr werdet finden",
+          "sie werden finden"
+        ],
+        "konjunktiv_2": [
+          "ich fände",
+          "du fändest",
+          "er/sie/es fände",
+          "wir fänden",
+          "ihr fändet",
+          "sie fänden"
+        ],
+        "imperativ": [
+          "finde!",
+          "findet!"
+        ]
+      },
+      "examples": [
+        "Endlich finde ich die richtige Antwort."
+      ]
+    },
+    "sehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Optische Eindrücke mit den Augen wahrnehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich sehe",
+          "du siehst",
+          "er/sie/es sieht",
+          "wir sehen",
+          "ihr seht",
+          "sie sehen"
+        ],
+        "präteritum": [
+          "ich sah",
+          "du sahst",
+          "er/sie/es sah",
+          "wir sahen",
+          "ihr saht",
+          "sie sahen"
+        ],
+        "perfekt": [
+          "ich habe gesehen",
+          "du hast gesehen",
+          "er/sie/es hat gesehen",
+          "wir haben gesehen",
+          "ihr habt gesehen",
+          "sie haben gesehen"
+        ],
+        "futur_1": [
+          "ich werde sehen",
+          "du wirst sehen",
+          "er/sie/es wird sehen",
+          "wir werden sehen",
+          "ihr werdet sehen",
+          "sie werden sehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde sehen",
+          "du würdest sehen",
+          "er/sie/es würde sehen",
+          "wir würden sehen",
+          "ihr würdet sehen",
+          "sie würden sehen"
+        ],
+        "imperativ": [
+          "sieh!",
+          "seht!"
+        ]
+      },
+      "examples": [
+        "Sie sieht einen Vogel am Himmel."
+      ]
+    },
+    "verstehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Den Sinn von etwas erfassen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich verstehe",
+          "du verstehst",
+          "er/sie/es versteht",
+          "wir verstehen",
+          "ihr versteht",
+          "sie verstehen"
+        ],
+        "präteritum": [
+          "ich verstand",
+          "du verstandest",
+          "er/sie/es verstand",
+          "wir verstanden",
+          "ihr verstandet",
+          "sie verstanden"
+        ],
+        "perfekt": [
+          "ich habe verstanden",
+          "du hast verstanden",
+          "er/sie/es hat verstanden",
+          "wir haben verstanden",
+          "ihr habt verstanden",
+          "sie haben verstanden"
+        ],
+        "futur_1": [
+          "ich werde verstehen",
+          "du wirst verstehen",
+          "er/sie/es wird verstehen",
+          "wir werden verstehen",
+          "ihr werdet verstehen",
+          "sie werden verstehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde verstehen",
+          "du würdest verstehen",
+          "er/sie/es würde verstehen",
+          "wir würden verstehen",
+          "ihr würdet verstehen",
+          "sie würden verstehen"
+        ],
+        "imperativ": [
+          "versteh!",
+          "versteht!"
+        ]
+      },
+      "examples": [
+        "Ich verstehe diese Grammatikregel gut."
+      ]
+    },
+    "helfen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Jemandem Unterstützung leisten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich helfe",
+          "du hilfst",
+          "er/sie/es hilft",
+          "wir helfen",
+          "ihr helft",
+          "sie helfen"
+        ],
+        "präteritum": [
+          "ich half",
+          "du halfst",
+          "er/sie/es half",
+          "wir halfen",
+          "ihr halft",
+          "sie halfen"
+        ],
+        "perfekt": [
+          "ich habe geholfen",
+          "du hast geholfen",
+          "er/sie/es hat geholfen",
+          "wir haben geholfen",
+          "ihr habt geholfen",
+          "sie haben geholfen"
+        ],
+        "futur_1": [
+          "ich werde helfen",
+          "du wirst helfen",
+          "er/sie/es wird helfen",
+          "wir werden helfen",
+          "ihr werdet helfen",
+          "sie werden helfen"
+        ],
+        "konjunktiv_2": [
+          "ich würde helfen",
+          "du würdest helfen",
+          "er/sie/es würde helfen",
+          "wir würden helfen",
+          "ihr würdet helfen",
+          "sie würden helfen"
+        ],
+        "imperativ": [
+          "hilf!",
+          "helft!"
+        ]
+      },
+      "examples": [
+        "Er hilft seinen Freunden gern."
+      ]
+    },
+    "treffen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Mit jemandem zusammenkommen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich treffe",
+          "du triffst",
+          "er/sie/es trifft",
+          "wir treffen",
+          "ihr trefft",
+          "sie treffen"
+        ],
+        "präteritum": [
+          "ich traf",
+          "du trafst",
+          "er/sie/es traf",
+          "wir trafen",
+          "ihr traft",
+          "sie trafen"
+        ],
+        "perfekt": [
+          "ich habe getroffen",
+          "du hast getroffen",
+          "er/sie/es hat getroffen",
+          "wir haben getroffen",
+          "ihr habt getroffen",
+          "sie haben getroffen"
+        ],
+        "futur_1": [
+          "ich werde treffen",
+          "du wirst treffen",
+          "er/sie/es wird treffen",
+          "wir werden treffen",
+          "ihr werdet treffen",
+          "sie werden treffen"
+        ],
+        "konjunktiv_2": [
+          "ich würde treffen",
+          "du würdest treffen",
+          "er/sie/es würde treffen",
+          "wir würden treffen",
+          "ihr würdet treffen",
+          "sie würden treffen"
+        ],
+        "imperativ": [
+          "triff!",
+          "trefft!"
+        ]
+      },
+      "examples": [
+        "Wir treffen uns um acht Uhr im Café."
+      ]
+    },
+    "nehmen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas in die Hand greifen oder an sich nehmen.",
+      "antonyms": [
+        "geben"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich nehme",
+          "du nimmst",
+          "er/sie/es nimmt",
+          "wir nehmen",
+          "ihr nehmt",
+          "sie nehmen"
+        ],
+        "präteritum": [
+          "ich nahm",
+          "du nahmst",
+          "er/sie/es nahm",
+          "wir nahmen",
+          "ihr nahmt",
+          "sie nahmen"
+        ],
+        "perfekt": [
+          "ich habe genommen",
+          "du hast genommen",
+          "er/sie/es hat genommen",
+          "wir haben genommen",
+          "ihr habt genommen",
+          "sie haben genommen"
+        ],
+        "futur_1": [
+          "ich werde nehmen",
+          "du wirst nehmen",
+          "er/sie/es wird nehmen",
+          "wir werden nehmen",
+          "ihr werdet nehmen",
+          "sie werden nehmen"
+        ],
+        "konjunktiv_2": [
+          "ich würde nehmen",
+          "du würdest nehmen",
+          "er/sie/es würde nehmen",
+          "wir würden nehmen",
+          "ihr würdet nehmen",
+          "sie würden nehmen"
+        ],
+        "imperativ": [
+          "nimm!",
+          "nehmt!"
+        ]
+      },
+      "examples": [
+        "Er nimmt ein Stück Kuchen."
+      ]
+    },
+    "geben": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Jemandem etwas überreichen.",
+      "antonyms": [
+        "nehmen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich gebe",
+          "du gibst",
+          "er/sie/es gibt",
+          "wir geben",
+          "ihr gebt",
+          "sie geben"
+        ],
+        "präteritum": [
+          "ich gab",
+          "du gabst",
+          "er/sie/es gab",
+          "wir gaben",
+          "ihr gabt",
+          "sie gaben"
+        ],
+        "perfekt": [
+          "ich habe gegeben",
+          "du hast gegeben",
+          "er/sie/es hat gegeben",
+          "wir haben gegeben",
+          "ihr habt gegeben",
+          "sie haben gegeben"
+        ],
+        "futur_1": [
+          "ich werde geben",
+          "du wirst geben",
+          "er/sie/es wird geben",
+          "wir werden geben",
+          "ihr werdet geben",
+          "sie werden geben"
+        ],
+        "konjunktiv_2": [
+          "ich gäbe",
+          "du gäbest",
+          "er/sie/es gäbe",
+          "wir gäben",
+          "ihr gäbet",
+          "sie gäben"
+        ],
+        "imperativ": [
+          "gib!",
+          "gebt!"
+        ]
+      },
+      "examples": [
+        "Bitte gib mir das Buch."
+      ]
+    },
+    "stehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich in aufrechter Haltung auf den Füßen befinden.",
+      "antonyms": [
+        "sitzen",
+        "liegen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich stehe",
+          "du stehst",
+          "er/sie/es steht",
+          "wir stehen",
+          "ihr steht",
+          "sie stehen"
+        ],
+        "präteritum": [
+          "ich stand",
+          "du standest",
+          "er/sie/es stand",
+          "wir standen",
+          "ihr standet",
+          "sie standen"
+        ],
+        "perfekt": [
+          "ich habe gestanden",
+          "du hast gestanden",
+          "er/sie/es hat gestanden",
+          "wir haben gestanden",
+          "ihr habt gestanden",
+          "sie haben gestanden"
+        ],
+        "futur_1": [
+          "ich werde stehen",
+          "du wirst stehen",
+          "er/sie/es wird stehen",
+          "wir werden stehen",
+          "ihr werdet stehen",
+          "sie werden stehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde stehen",
+          "du würdest stehen",
+          "er/sie/es würde stehen",
+          "wir würden stehen",
+          "ihr würdet stehen",
+          "sie würden stehen"
+        ],
+        "imperativ": [
+          "steh!",
+          "steht!"
+        ]
+      },
+      "examples": [
+        "Der Bus steht an der Haltestelle."
+      ]
+    },
+    "sitzen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich auf dem Gesäß befinden.",
+      "antonyms": [
+        "stehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich sitze",
+          "du sitzt",
+          "er/sie/es sitzt",
+          "wir sitzen",
+          "ihr sitzt",
+          "sie sitzen"
+        ],
+        "präteritum": [
+          "ich saß",
+          "du saßest",
+          "er/sie/es saß",
+          "wir saßen",
+          "ihr saßt",
+          "sie saßen"
+        ],
+        "perfekt": [
+          "ich habe gesessen",
+          "du hast gesessen",
+          "er/sie/es hat gesessen",
+          "wir haben gesessen",
+          "ihr habt gesessen",
+          "sie haben gesessen"
+        ],
+        "futur_1": [
+          "ich werde sitzen",
+          "du wirst sitzen",
+          "er/sie/es wird sitzen",
+          "wir werden sitzen",
+          "ihr werdet sitzen",
+          "sie werden sitzen"
+        ],
+        "konjunktiv_2": [
+          "ich würde sitzen",
+          "du würdest sitzen",
+          "er/sie/es würde sitzen",
+          "wir würden sitzen",
+          "ihr würdet sitzen",
+          "sie würden sitzen"
+        ],
+        "imperativ": [
+          "sitz!",
+          "sitzt!"
+        ]
+      },
+      "examples": [
+        "Wir sitzen am Tisch und essen."
+      ]
+    },
+    "liegen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich in waagerechter Lage befinden.",
+      "antonyms": [
+        "stehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich liege",
+          "du liegst",
+          "er/sie/es liegt",
+          "wir liegen",
+          "ihr liegt",
+          "sie liegen"
+        ],
+        "präteritum": [
+          "ich lag",
+          "du lagst",
+          "er/sie/es lag",
+          "wir lagen",
+          "ihr lagt",
+          "sie lagen"
+        ],
+        "perfekt": [
+          "ich habe gelegen",
+          "du hast gelegen",
+          "er/sie/es hat gelegen",
+          "wir haben gelegen",
+          "ihr habt gelegen",
+          "sie haben gelegen"
+        ],
+        "futur_1": [
+          "ich werde liegen",
+          "du wirst liegen",
+          "er/sie/es wird liegen",
+          "wir werden liegen",
+          "ihr werdet liegen",
+          "sie werden liegen"
+        ],
+        "konjunktiv_2": [
+          "ich würde liegen",
+          "du würdest liegen",
+          "er/sie/es würde liegen",
+          "wir würden liegen",
+          "ihr würdet liegen",
+          "sie würden liegen"
+        ],
+        "imperativ": [
+          "lieg!",
+          "liegt!"
+        ]
+      },
+      "examples": [
+        "Das Buch liegt auf dem Tisch."
+      ]
+    },
+    "tragen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas mit den Händen oder Armen befördern.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich trage",
+          "du trägst",
+          "er/sie/es trägt",
+          "wir tragen",
+          "ihr tragt",
+          "sie tragen"
+        ],
+        "präteritum": [
+          "ich trug",
+          "du trugst",
+          "er/sie/es trug",
+          "wir trugen",
+          "ihr trugt",
+          "sie trugen"
+        ],
+        "perfekt": [
+          "ich habe getragen",
+          "du hast getragen",
+          "er/sie/es hat getragen",
+          "wir haben getragen",
+          "ihr habt getragen",
+          "sie haben getragen"
+        ],
+        "futur_1": [
+          "ich werde tragen",
+          "du wirst tragen",
+          "er/sie/es wird tragen",
+          "wir werden tragen",
+          "ihr werdet tragen",
+          "sie werden tragen"
+        ],
+        "konjunktiv_2": [
+          "ich würde tragen",
+          "du würdest tragen",
+          "er/sie/es würde tragen",
+          "wir würden tragen",
+          "ihr würdet tragen",
+          "sie würden tragen"
+        ],
+        "imperativ": [
+          "trag!",
+          "tragt!"
+        ]
+      },
+      "examples": [
+        "Er trägt eine schwere Tasche."
+      ]
+    },
+    "fahren": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich mit einem Fahrzeug fortbewegen.",
+      "antonyms": [
+        "gehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich fahre",
+          "du fährst",
+          "er/sie/es fährt",
+          "wir fahren",
+          "ihr fahrt",
+          "sie fahren"
+        ],
+        "präteritum": [
+          "ich fuhr",
+          "du fuhrst",
+          "er/sie/es fuhr",
+          "wir fuhren",
+          "ihr fuhrt",
+          "sie fuhren"
+        ],
+        "perfekt": [
+          "ich bin gefahren",
+          "du bist gefahren",
+          "er/sie/es ist gefahren",
+          "wir sind gefahren",
+          "ihr seid gefahren",
+          "sie sind gefahren"
+        ],
+        "futur_1": [
+          "ich werde fahren",
+          "du wirst fahren",
+          "er/sie/es wird fahren",
+          "wir werden fahren",
+          "ihr werdet fahren",
+          "sie werden fahren"
+        ],
+        "konjunktiv_2": [
+          "ich würde fahren",
+          "du würdest fahren",
+          "er/sie/es würde fahren",
+          "wir würden fahren",
+          "ihr würdet fahren",
+          "sie würden fahren"
+        ],
+        "imperativ": [
+          "fahr!",
+          "fahrt!"
+        ]
+      },
+      "examples": [
+        "Wir fahren mit dem Zug nach München."
+      ]
+    },
+    "fliegen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich durch die Luft bewegen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich fliege",
+          "du fliegst",
+          "er/sie/es fliegt",
+          "wir fliegen",
+          "ihr fliegt",
+          "sie fliegen"
+        ],
+        "präteritum": [
+          "ich flog",
+          "du flogst",
+          "er/sie/es flog",
+          "wir flogen",
+          "ihr flogt",
+          "sie flogen"
+        ],
+        "perfekt": [
+          "ich bin geflogen",
+          "du bist geflogen",
+          "er/sie/es ist geflogen",
+          "wir sind geflogen",
+          "ihr seid geflogen",
+          "sie sind geflogen"
+        ],
+        "futur_1": [
+          "ich werde fliegen",
+          "du wirst fliegen",
+          "er/sie/es wird fliegen",
+          "wir werden fliegen",
+          "ihr werdet fliegen",
+          "sie werden fliegen"
+        ],
+        "konjunktiv_2": [
+          "ich würde fliegen",
+          "du würdest fliegen",
+          "er/sie/es würde fliegen",
+          "wir würden fliegen",
+          "ihr würdet fliegen",
+          "sie würden fliegen"
+        ],
+        "imperativ": [
+          "flieg!",
+          "fliegt!"
+        ]
+      },
+      "examples": [
+        "Das Flugzeug fliegt sehr hoch."
+      ]
+    },
+    "laufen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich schnell zu Fuß fortbewegen.",
+      "antonyms": [
+        "gehen",
+        "stehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich laufe",
+          "du läufst",
+          "er/sie/es läuft",
+          "wir laufen",
+          "ihr lauft",
+          "sie laufen"
+        ],
+        "präteritum": [
+          "ich lief",
+          "du liefst",
+          "er/sie/es lief",
+          "wir liefen",
+          "ihr lieft",
+          "sie liefen"
+        ],
+        "perfekt": [
+          "ich bin gelaufen",
+          "du bist gelaufen",
+          "er/sie/es ist gelaufen",
+          "wir sind gelaufen",
+          "ihr seid gelaufen",
+          "sie sind gelaufen"
+        ],
+        "futur_1": [
+          "ich werde laufen",
+          "du wirst laufen",
+          "er/sie/es wird laufen",
+          "wir werden laufen",
+          "ihr werdet laufen",
+          "sie werden laufen"
+        ],
+        "konjunktiv_2": [
+          "ich würde laufen",
+          "du würdest laufen",
+          "er/sie/es würde laufen",
+          "wir würden laufen",
+          "ihr würdet laufen",
+          "sie würden laufen"
+        ],
+        "imperativ": [
+          "lauf!",
+          "lauft!"
+        ]
+      },
+      "examples": [
+        "Die Kinder laufen durch den Park."
+      ]
+    },
+    "fallen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Durch Schwerkraft nach unten bewegen.",
+      "antonyms": [
+        "steigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich falle",
+          "du fällst",
+          "er/sie/es fällt",
+          "wir fallen",
+          "ihr fallt",
+          "sie fallen"
+        ],
+        "präteritum": [
+          "ich fiel",
+          "du fielst",
+          "er/sie/es fiel",
+          "wir fielen",
+          "ihr fielt",
+          "sie fielen"
+        ],
+        "perfekt": [
+          "ich bin gefallen",
+          "du bist gefallen",
+          "er/sie/es ist gefallen",
+          "wir sind gefallen",
+          "ihr seid gefallen",
+          "sie sind gefallen"
+        ],
+        "futur_1": [
+          "ich werde fallen",
+          "du wirst fallen",
+          "er/sie/es wird fallen",
+          "wir werden fallen",
+          "ihr werdet fallen",
+          "sie werden fallen"
+        ],
+        "konjunktiv_2": [
+          "ich würde fallen",
+          "du würdest fallen",
+          "er/sie/es würde fallen",
+          "wir würden fallen",
+          "ihr würdet fallen",
+          "sie würden fallen"
+        ],
+        "imperativ": [
+          "fall!",
+          "fallt!"
+        ]
+      },
+      "examples": [
+        "Blätter fallen im Herbst vom Baum."
+      ]
+    },
+    "schwimmen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Sich im Wasser fortbewegen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schwimme",
+          "du schwimmst",
+          "er/sie/es schwimmt",
+          "wir schwimmen",
+          "ihr schwimmt",
+          "sie schwimmen"
+        ],
+        "präteritum": [
+          "ich schwamm",
+          "du schwammst",
+          "er/sie/es schwamm",
+          "wir schwammen",
+          "ihr schwammt",
+          "sie schwammen"
+        ],
+        "perfekt": [
+          "ich bin geschwommen",
+          "du bist geschwommen",
+          "er/sie/es ist geschwommen",
+          "wir sind geschwommen",
+          "ihr seid geschwommen",
+          "sie sind geschwommen"
+        ],
+        "futur_1": [
+          "ich werde schwimmen",
+          "du wirst schwimmen",
+          "er/sie/es wird schwimmen",
+          "wir werden schwimmen",
+          "ihr werdet schwimmen",
+          "sie werden schwimmen"
+        ],
+        "konjunktiv_2": [
+          "ich würde schwimmen",
+          "du würdest schwimmen",
+          "er/sie/es würde schwimmen",
+          "wir würden schwimmen",
+          "ihr würdet schwimmen",
+          "sie würden schwimmen"
+        ],
+        "imperativ": [
+          "schwimm!",
+          "schwimmt!"
+        ]
+      },
+      "examples": [
+        "Im Sommer schwimmen wir im See."
+      ]
+    },
+    "rufen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Mit lauter Stimme nach jemandem verlangen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich rufe",
+          "du rufst",
+          "er/sie/es ruft",
+          "wir rufen",
+          "ihr ruft",
+          "sie rufen"
+        ],
+        "präteritum": [
+          "ich rief",
+          "du riefst",
+          "er/sie/es rief",
+          "wir riefen",
+          "ihr rieft",
+          "sie riefen"
+        ],
+        "perfekt": [
+          "ich habe gerufen",
+          "du hast gerufen",
+          "er/sie/es hat gerufen",
+          "wir haben gerufen",
+          "ihr habt gerufen",
+          "sie haben gerufen"
+        ],
+        "futur_1": [
+          "ich werde rufen",
+          "du wirst rufen",
+          "er/sie/es wird rufen",
+          "wir werden rufen",
+          "ihr werdet rufen",
+          "sie werden rufen"
+        ],
+        "konjunktiv_2": [
+          "ich würde rufen",
+          "du würdest rufen",
+          "er/sie/es würde rufen",
+          "wir würden rufen",
+          "ihr würdet rufen",
+          "sie würden rufen"
+        ],
+        "imperativ": [
+          "ruf!",
+          "ruft!"
+        ]
+      },
+      "examples": [
+        "Die Mutter ruft die Kinder zum Essen."
+      ]
+    },
+    "anrufen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Telefonischen Kontakt herstellen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich rufe an",
+          "du rufst an",
+          "er/sie/es ruft an",
+          "wir rufen an",
+          "ihr ruft an",
+          "sie rufen an"
+        ],
+        "präteritum": [
+          "ich rief an",
+          "du riefst an",
+          "er/sie/es rief an",
+          "wir riefen an",
+          "ihr rieft an",
+          "sie riefen an"
+        ],
+        "perfekt": [
+          "ich habe angerufen",
+          "du hast angerufen",
+          "er/sie/es hat angerufen",
+          "wir haben angerufen",
+          "ihr habt angerufen",
+          "sie haben angerufen"
+        ],
+        "futur_1": [
+          "ich werde anrufen",
+          "du wirst anrufen",
+          "er/sie/es wird anrufen",
+          "wir werden anrufen",
+          "ihr werdet anrufen",
+          "sie werden anrufen"
+        ],
+        "konjunktiv_2": [
+          "ich würde anrufen",
+          "du würdest anrufen",
+          "er/sie/es würde anrufen",
+          "wir würden anrufen",
+          "ihr würdet anrufen",
+          "sie würden anrufen"
+        ],
+        "imperativ": [
+          "ruf an!",
+          "ruft an!"
+        ]
+      },
+      "examples": [
+        "Ich rufe dich heute Abend an."
+      ]
+    },
+    "anfangen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Mit etwas beginnen.",
+      "antonyms": [
+        "aufhören",
+        "beenden"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich fange an",
+          "du fängst an",
+          "er/sie/es fängt an",
+          "wir fangen an",
+          "ihr fangt an",
+          "sie fangen an"
+        ],
+        "präteritum": [
+          "ich fing an",
+          "du fingst an",
+          "er/sie/es fing an",
+          "wir fingen an",
+          "ihr fingt an",
+          "sie fingen an"
+        ],
+        "perfekt": [
+          "ich habe angefangen",
+          "du hast angefangen",
+          "er/sie/es hat angefangen",
+          "wir haben angefangen",
+          "ihr habt angefangen",
+          "sie haben angefangen"
+        ],
+        "futur_1": [
+          "ich werde anfangen",
+          "du wirst anfangen",
+          "er/sie/es wird anfangen",
+          "wir werden anfangen",
+          "ihr werdet anfangen",
+          "sie werden anfangen"
+        ],
+        "konjunktiv_2": [
+          "ich würde anfangen",
+          "du würdest anfangen",
+          "er/sie/es würde anfangen",
+          "wir würden anfangen",
+          "ihr würdet anfangen",
+          "sie würden anfangen"
+        ],
+        "imperativ": [
+          "fang an!",
+          "fangt an!"
+        ]
+      },
+      "examples": [
+        "Der Unterricht fängt um neun Uhr an."
+      ]
+    },
+    "beginnen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Anfangen, eine Handlung aufzunehmen.",
+      "antonyms": [
+        "beenden"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich beginne",
+          "du beginnst",
+          "er/sie/es beginnt",
+          "wir beginnen",
+          "ihr beginnt",
+          "sie beginnen"
+        ],
+        "präteritum": [
+          "ich begann",
+          "du begannst",
+          "er/sie/es begann",
+          "wir begannen",
+          "ihr begannet",
+          "sie begannen"
+        ],
+        "perfekt": [
+          "ich habe begonnen",
+          "du hast begonnen",
+          "er/sie/es hat begonnen",
+          "wir haben begonnen",
+          "ihr habt begonnen",
+          "sie haben begonnen"
+        ],
+        "futur_1": [
+          "ich werde beginnen",
+          "du wirst beginnen",
+          "er/sie/es wird beginnen",
+          "wir werden beginnen",
+          "ihr werdet beginnen",
+          "sie werden beginnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde beginnen",
+          "du würdest beginnen",
+          "er/sie/es würde beginnen",
+          "wir würden beginnen",
+          "ihr würdet beginnen",
+          "sie würden beginnen"
+        ],
+        "imperativ": [
+          "beginn!",
+          "beginnt!"
+        ]
+      },
+      "examples": [
+        "Das Konzert beginnt pünktlich."
+      ]
+    },
+    "schließen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas Offenes zumachen.",
+      "antonyms": [
+        "öffnen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich schließe",
+          "du schließt",
+          "er/sie/es schließt",
+          "wir schließen",
+          "ihr schließt",
+          "sie schließen"
+        ],
+        "präteritum": [
+          "ich schloss",
+          "du schlossest",
+          "er/sie/es schloss",
+          "wir schlossen",
+          "ihr schlosst",
+          "sie schlossen"
+        ],
+        "perfekt": [
+          "ich habe geschlossen",
+          "du hast geschlossen",
+          "er/sie/es hat geschlossen",
+          "wir haben geschlossen",
+          "ihr habt geschlossen",
+          "sie haben geschlossen"
+        ],
+        "futur_1": [
+          "ich werde schließen",
+          "du wirst schließen",
+          "er/sie/es wird schließen",
+          "wir werden schließen",
+          "ihr werdet schließen",
+          "sie werden schließen"
+        ],
+        "konjunktiv_2": [
+          "ich würde schließen",
+          "du würdest schließen",
+          "er/sie/es würde schließen",
+          "wir würden schließen",
+          "ihr würdet schließen",
+          "sie würden schließen"
+        ],
+        "imperativ": [
+          "schließ!",
+          "schließt!"
+        ]
+      },
+      "examples": [
+        "Bitte schließe die Tür."
+      ]
+    },
+    "bitten": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Eine höfliche Bitte an jemanden richten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bitte",
+          "du bittest",
+          "er/sie/es bittet",
+          "wir bitten",
+          "ihr bittet",
+          "sie bitten"
+        ],
+        "präteritum": [
+          "ich bat",
+          "du batest",
+          "er/sie/es bat",
+          "wir baten",
+          "ihr batet",
+          "sie baten"
+        ],
+        "perfekt": [
+          "ich habe gebeten",
+          "du hast gebeten",
+          "er/sie/es hat gebeten",
+          "wir haben gebeten",
+          "ihr habt gebeten",
+          "sie haben gebeten"
+        ],
+        "futur_1": [
+          "ich werde bitten",
+          "du wirst bitten",
+          "er/sie/es wird bitten",
+          "wir werden bitten",
+          "ihr werdet bitten",
+          "sie werden bitten"
+        ],
+        "konjunktiv_2": [
+          "ich würde bitten",
+          "du würdest bitten",
+          "er/sie/es würde bitten",
+          "wir würden bitten",
+          "ihr würdet bitten",
+          "sie würden bitten"
+        ],
+        "imperativ": [
+          "bitte!",
+          "bittet!"
+        ]
+      },
+      "examples": [
+        "Er bittet um Verzeihung."
+      ]
+    },
+    "singen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Melodische Töne mit der Stimme erzeugen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich singe",
+          "du singst",
+          "er/sie/es singt",
+          "wir singen",
+          "ihr singt",
+          "sie singen"
+        ],
+        "präteritum": [
+          "ich sang",
+          "du sangst",
+          "er/sie/es sang",
+          "wir sangen",
+          "ihr sangt",
+          "sie sangen"
+        ],
+        "perfekt": [
+          "ich habe gesungen",
+          "du hast gesungen",
+          "er/sie/es hat gesungen",
+          "wir haben gesungen",
+          "ihr habt gesungen",
+          "sie haben gesungen"
+        ],
+        "futur_1": [
+          "ich werde singen",
+          "du wirst singen",
+          "er/sie/es wird singen",
+          "wir werden singen",
+          "ihr werdet singen",
+          "sie werden singen"
+        ],
+        "konjunktiv_2": [
+          "ich würde singen",
+          "du würdest singen",
+          "er/sie/es würde singen",
+          "wir würden singen",
+          "ihr würdet singen",
+          "sie würden singen"
+        ],
+        "imperativ": [
+          "sing!",
+          "singt!"
+        ]
+      },
+      "examples": [
+        "Der Chor singt ein schönes Lied."
+      ]
+    },
+    "einladen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Jemanden auffordern, Gast zu sein.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich lade ein",
+          "du lädst ein",
+          "er/sie/es lädt ein",
+          "wir laden ein",
+          "ihr ladet ein",
+          "sie laden ein"
+        ],
+        "präteritum": [
+          "ich lud ein",
+          "du ludest ein",
+          "er/sie/es lud ein",
+          "wir luden ein",
+          "ihr ludet ein",
+          "sie luden ein"
+        ],
+        "perfekt": [
+          "ich habe eingeladen",
+          "du hast eingeladen",
+          "er/sie/es hat eingeladen",
+          "wir haben eingeladen",
+          "ihr habt eingeladen",
+          "sie haben eingeladen"
+        ],
+        "futur_1": [
+          "ich werde einladen",
+          "du wirst einladen",
+          "er/sie/es wird einladen",
+          "wir werden einladen",
+          "ihr werdet einladen",
+          "sie werden einladen"
+        ],
+        "konjunktiv_2": [
+          "ich würde einladen",
+          "du würdest einladen",
+          "er/sie/es würde einladen",
+          "wir würden einladen",
+          "ihr würdet einladen",
+          "sie würden einladen"
+        ],
+        "imperativ": [
+          "lade ein!",
+          "ladet ein!"
+        ]
+      },
+      "examples": [
+        "Ich lade dich zum Geburtstag ein."
+      ]
+    },
+    "mitnehmen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Etwas oder jemanden mit sich führen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich nehme mit",
+          "du nimmst mit",
+          "er/sie/es nimmt mit",
+          "wir nehmen mit",
+          "ihr nehmt mit",
+          "sie nehmen mit"
+        ],
+        "präteritum": [
+          "ich nahm mit",
+          "du nahmst mit",
+          "er/sie/es nahm mit",
+          "wir nahmen mit",
+          "ihr nahmt mit",
+          "sie nahmen mit"
+        ],
+        "perfekt": [
+          "ich habe mitgenommen",
+          "du hast mitgenommen",
+          "er/sie/es hat mitgenommen",
+          "wir haben mitgenommen",
+          "ihr habt mitgenommen",
+          "sie haben mitgenommen"
+        ],
+        "futur_1": [
+          "ich werde mitnehmen",
+          "du wirst mitnehmen",
+          "er/sie/es wird mitnehmen",
+          "wir werden mitnehmen",
+          "ihr werdet mitnehmen",
+          "sie werden mitnehmen"
+        ],
+        "konjunktiv_2": [
+          "ich würde mitnehmen",
+          "du würdest mitnehmen",
+          "er/sie/es würde mitnehmen",
+          "wir würden mitnehmen",
+          "ihr würdet mitnehmen",
+          "sie würden mitnehmen"
+        ],
+        "imperativ": [
+          "nimm mit!",
+          "nehmt mit!"
+        ]
+      },
+      "examples": [
+        "Vergiss nicht, deinen Regenschirm mitzunehmen."
+      ]
+    },
+    "mitkommen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Jemanden an einen Ort begleiten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich komme mit",
+          "du kommst mit",
+          "er/sie/es kommt mit",
+          "wir kommen mit",
+          "ihr kommt mit",
+          "sie kommen mit"
+        ],
+        "präteritum": [
+          "ich kam mit",
+          "du kamst mit",
+          "er/sie/es kam mit",
+          "wir kamen mit",
+          "ihr kamt mit",
+          "sie kamen mit"
+        ],
+        "perfekt": [
+          "ich bin mitgekommen",
+          "du bist mitgekommen",
+          "er/sie/es ist mitgekommen",
+          "wir sind mitgekommen",
+          "ihr seid mitgekommen",
+          "sie sind mitgekommen"
+        ],
+        "futur_1": [
+          "ich werde mitkommen",
+          "du wirst mitkommen",
+          "er/sie/es wird mitkommen",
+          "wir werden mitkommen",
+          "ihr werdet mitkommen",
+          "sie werden mitkommen"
+        ],
+        "konjunktiv_2": [
+          "ich würde mitkommen",
+          "du würdest mitkommen",
+          "er/sie/es würde mitkommen",
+          "wir würden mitkommen",
+          "ihr würdet mitkommen",
+          "sie würden mitkommen"
+        ],
+        "imperativ": [
+          "komm mit!",
+          "kommt mit!"
+        ]
+      },
+      "examples": [
+        "Möchtest du ins Kino mitkommen?"
+      ]
+    },
+    "ankommen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Ein Ziel erreichen.",
+      "antonyms": [
+        "abfahren"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich komme an",
+          "du kommst an",
+          "er/sie/es kommt an",
+          "wir kommen an",
+          "ihr kommt an",
+          "sie kommen an"
+        ],
+        "präteritum": [
+          "ich kam an",
+          "du kamst an",
+          "er/sie/es kam an",
+          "wir kamen an",
+          "ihr kamt an",
+          "sie kamen an"
+        ],
+        "perfekt": [
+          "ich bin angekommen",
+          "du bist angekommen",
+          "er/sie/es ist angekommen",
+          "wir sind angekommen",
+          "ihr seid angekommen",
+          "sie sind angekommen"
+        ],
+        "futur_1": [
+          "ich werde ankommen",
+          "du wirst ankommen",
+          "er/sie/es wird ankommen",
+          "wir werden ankommen",
+          "ihr werdet ankommen",
+          "sie werden ankommen"
+        ],
+        "konjunktiv_2": [
+          "ich würde ankommen",
+          "du würdest ankommen",
+          "er/sie/es würde ankommen",
+          "wir würden ankommen",
+          "ihr würdet ankommen",
+          "sie würden ankommen"
+        ],
+        "imperativ": [
+          "komm an!",
+          "kommt an!"
+        ]
+      },
+      "examples": [
+        "Der Zug kommt pünktlich an."
+      ]
+    },
+    "abfahren": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Mit einem Fahrzeug einen Ort verlassen.",
+      "antonyms": [
+        "ankommen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich fahre ab",
+          "du fährst ab",
+          "er/sie/es fährt ab",
+          "wir fahren ab",
+          "ihr fahrt ab",
+          "sie fahren ab"
+        ],
+        "präteritum": [
+          "ich fuhr ab",
+          "du fuhrst ab",
+          "er/sie/es fuhr ab",
+          "wir fuhren ab",
+          "ihr fuhrt ab",
+          "sie fuhren ab"
+        ],
+        "perfekt": [
+          "ich bin abgefahren",
+          "du bist abgefahren",
+          "er/sie/es ist abgefahren",
+          "wir sind abgefahren",
+          "ihr seid abgefahren",
+          "sie sind abgefahren"
+        ],
+        "futur_1": [
+          "ich werde abfahren",
+          "du wirst abfahren",
+          "er/sie/es wird abfahren",
+          "wir werden abfahren",
+          "ihr werdet abfahren",
+          "sie werden abfahren"
+        ],
+        "konjunktiv_2": [
+          "ich würde abfahren",
+          "du würdest abfahren",
+          "er/sie/es würde abfahren",
+          "wir würden abfahren",
+          "ihr würdet abfahren",
+          "sie würden abfahren"
+        ],
+        "imperativ": [
+          "fahr ab!",
+          "fahrt ab!"
+        ]
+      },
+      "examples": [
+        "Der Bus fährt um zehn Uhr ab."
+      ]
+    },
+    "aufstehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Aus dem Bett oder von einem Sitz aufstehen.",
+      "antonyms": [
+        "hinsetzen",
+        "schlafen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich stehe auf",
+          "du stehst auf",
+          "er/sie/es steht auf",
+          "wir stehen auf",
+          "ihr steht auf",
+          "sie stehen auf"
+        ],
+        "präteritum": [
+          "ich stand auf",
+          "du standest auf",
+          "er/sie/es stand auf",
+          "wir standen auf",
+          "ihr standet auf",
+          "sie standen auf"
+        ],
+        "perfekt": [
+          "ich bin aufgestanden",
+          "du bist aufgestanden",
+          "er/sie/es ist aufgestanden",
+          "wir sind aufgestanden",
+          "ihr seid aufgestanden",
+          "sie sind aufgestanden"
+        ],
+        "futur_1": [
+          "ich werde aufstehen",
+          "du wirst aufstehen",
+          "er/sie/es wird aufstehen",
+          "wir werden aufstehen",
+          "ihr werdet aufstehen",
+          "sie werden aufstehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde aufstehen",
+          "du würdest aufstehen",
+          "er/sie/es würde aufstehen",
+          "wir würden aufstehen",
+          "ihr würdet aufstehen",
+          "sie würden aufstehen"
+        ],
+        "imperativ": [
+          "steh auf!",
+          "steht auf!"
+        ]
+      },
+      "examples": [
+        "Ich stehe jeden Morgen um sechs Uhr auf."
+      ]
+    },
+    "einschlafen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "In den Zustand des Schlafens geraten.",
+      "antonyms": [
+        "aufwachen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich schlafe ein",
+          "du schläfst ein",
+          "er/sie/es schläft ein",
+          "wir schlafen ein",
+          "ihr schlaft ein",
+          "sie schlafen ein"
+        ],
+        "präteritum": [
+          "ich schlief ein",
+          "du schliefst ein",
+          "er/sie/es schlief ein",
+          "wir schliefen ein",
+          "ihr schlieft ein",
+          "sie schliefen ein"
+        ],
+        "perfekt": [
+          "ich bin eingeschlafen",
+          "du bist eingeschlafen",
+          "er/sie/es ist eingeschlafen",
+          "wir sind eingeschlafen",
+          "ihr seid eingeschlafen",
+          "sie sind eingeschlafen"
+        ],
+        "futur_1": [
+          "ich werde einschlafen",
+          "du wirst einschlafen",
+          "er/sie/es wird einschlafen",
+          "wir werden einschlafen",
+          "ihr werdet einschlafen",
+          "sie werden einschlafen"
+        ],
+        "konjunktiv_2": [
+          "ich würde einschlafen",
+          "du würdest einschlafen",
+          "er/sie/es würde einschlafen",
+          "wir würden einschlafen",
+          "ihr würdet einschlafen",
+          "sie würden einschlafen"
+        ],
+        "imperativ": [
+          "schlaf ein!",
+          "schlaft ein!"
+        ]
+      },
+      "examples": [
+        "Das Kind schläft schnell ein."
+      ]
+    },
+    "waschen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Mit Wasser und Seife reinigen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich wasche",
+          "du wäschst",
+          "er/sie/es wäscht",
+          "wir waschen",
+          "ihr wascht",
+          "sie waschen"
+        ],
+        "präteritum": [
+          "ich wusch",
+          "du wuschst",
+          "er/sie/es wusch",
+          "wir wuschen",
+          "ihr wuscht",
+          "sie wuschen"
+        ],
+        "perfekt": [
+          "ich habe gewaschen",
+          "du hast gewaschen",
+          "er/sie/es hat gewaschen",
+          "wir haben gewaschen",
+          "ihr habt gewaschen",
+          "sie haben gewaschen"
+        ],
+        "futur_1": [
+          "ich werde waschen",
+          "du wirst waschen",
+          "er/sie/es wird waschen",
+          "wir werden waschen",
+          "ihr werdet waschen",
+          "sie werden waschen"
+        ],
+        "konjunktiv_2": [
+          "ich würde waschen",
+          "du würdest waschen",
+          "er/sie/es würde waschen",
+          "wir würden waschen",
+          "ihr würdet waschen",
+          "sie würden waschen"
+        ],
+        "imperativ": [
+          "wasch!",
+          "wascht!"
+        ]
+      },
+      "examples": [
+        "Sie wäscht sich die Hände."
+      ]
+    },
+    "backen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Teigwaren im Ofen garen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich backe",
+          "du bäckst",
+          "er/sie/es bäckt",
+          "wir backen",
+          "ihr backt",
+          "sie backen"
+        ],
+        "präteritum": [
+          "ich buk",
+          "du bukst",
+          "er/sie/es buk",
+          "wir buken",
+          "ihr bukt",
+          "sie buken"
+        ],
+        "perfekt": [
+          "ich habe gebacken",
+          "du hast gebacken",
+          "er/sie/es hat gebacken",
+          "wir haben gebacken",
+          "ihr habt gebacken",
+          "sie haben gebacken"
+        ],
+        "futur_1": [
+          "ich werde backen",
+          "du wirst backen",
+          "er/sie/es wird backen",
+          "wir werden backen",
+          "ihr werdet backen",
+          "sie werden backen"
+        ],
+        "konjunktiv_2": [
+          "ich würde backen",
+          "du würdest backen",
+          "er/sie/es würde backen",
+          "wir würden backen",
+          "ihr würdet backen",
+          "sie würden backen"
+        ],
+        "imperativ": [
+          "back!",
+          "backt!"
+        ]
+      },
+      "examples": [
+        "Wir backen am Wochenende einen Kuchen."
+      ]
+    },
+    "riechen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Einen Geruch mit der Nase wahrnehmen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich rieche",
+          "du riechst",
+          "er/sie/es riecht",
+          "wir riechen",
+          "ihr riecht",
+          "sie riechen"
+        ],
+        "präteritum": [
+          "ich roch",
+          "du rochst",
+          "er/sie/es roch",
+          "wir rochen",
+          "ihr rocht",
+          "sie rochen"
+        ],
+        "perfekt": [
+          "ich habe gerochen",
+          "du hast gerochen",
+          "er/sie/es hat gerochen",
+          "wir haben gerochen",
+          "ihr habt gerochen",
+          "sie haben gerochen"
+        ],
+        "futur_1": [
+          "ich werde riechen",
+          "du wirst riechen",
+          "er/sie/es wird riechen",
+          "wir werden riechen",
+          "ihr werdet riechen",
+          "sie werden riechen"
+        ],
+        "konjunktiv_2": [
+          "ich würde riechen",
+          "du würdest riechen",
+          "er/sie/es würde riechen",
+          "wir würden riechen",
+          "ihr würdet riechen",
+          "sie würden riechen"
+        ],
+        "imperativ": [
+          "riech!",
+          "riecht!"
+        ]
+      },
+      "examples": [
+        "Die Blumen riechen sehr frisch."
+      ]
+    },
+    "vergessen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas nicht mehr im Gedächtnis haben.",
+      "antonyms": [
+        "erinnern"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich vergesse",
+          "du vergisst",
+          "er/sie/es vergisst",
+          "wir vergessen",
+          "ihr vergesst",
+          "sie vergessen"
+        ],
+        "präteritum": [
+          "ich vergaß",
+          "du vergaßest",
+          "er/sie/es vergaß",
+          "wir vergaßen",
+          "ihr vergaßt",
+          "sie vergaßen"
+        ],
+        "perfekt": [
+          "ich habe vergessen",
+          "du hast vergessen",
+          "er/sie/es hat vergessen",
+          "wir haben vergessen",
+          "ihr habt vergessen",
+          "sie haben vergessen"
+        ],
+        "futur_1": [
+          "ich werde vergessen",
+          "du wirst vergessen",
+          "er/sie/es wird vergessen",
+          "wir werden vergessen",
+          "ihr werdet vergessen",
+          "sie werden vergessen"
+        ],
+        "konjunktiv_2": [
+          "ich würde vergessen",
+          "du würdest vergessen",
+          "er/sie/es würde vergessen",
+          "wir würden vergessen",
+          "ihr würdet vergessen",
+          "sie würden vergessen"
+        ],
+        "imperativ": [
+          "vergiss!",
+          "vergesst!"
+        ]
+      },
+      "examples": [
+        "Ich vergesse oft Namen."
+      ]
+    },
+    "vergleichen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Gemeinsamkeiten und Unterschiede feststellen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich vergleiche",
+          "du vergleichst",
+          "er/sie/es vergleicht",
+          "wir vergleichen",
+          "ihr vergleicht",
+          "sie vergleichen"
+        ],
+        "präteritum": [
+          "ich verglich",
+          "du verglichst",
+          "er/sie/es verglich",
+          "wir verglichen",
+          "ihr verglicht",
+          "sie verglichen"
+        ],
+        "perfekt": [
+          "ich habe verglichen",
+          "du hast verglichen",
+          "er/sie/es hat verglichen",
+          "wir haben verglichen",
+          "ihr habt verglichen",
+          "sie haben verglichen"
+        ],
+        "futur_1": [
+          "ich werde vergleichen",
+          "du wirst vergleichen",
+          "er/sie/es wird vergleichen",
+          "wir werden vergleichen",
+          "ihr werdet vergleichen",
+          "sie werden vergleichen"
+        ],
+        "konjunktiv_2": [
+          "ich würde vergleichen",
+          "du würdest vergleichen",
+          "er/sie/es würde vergleichen",
+          "wir würden vergleichen",
+          "ihr würdet vergleichen",
+          "sie würden vergleichen"
+        ],
+        "imperativ": [
+          "vergleich!",
+          "vergleicht!"
+        ]
+      },
+      "examples": [
+        "Wir vergleichen die Preise im Geschäft."
+      ]
+    },
+    "steigen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Sich nach oben bewegen oder klettern.",
+      "antonyms": [
+        "fallen",
+        "sinken"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich steige",
+          "du steigst",
+          "er/sie/es steigt",
+          "wir steigen",
+          "ihr steigt",
+          "sie steigen"
+        ],
+        "präteritum": [
+          "ich stieg",
+          "du stiegst",
+          "er/sie/es stieg",
+          "wir stiegen",
+          "ihr stiegt",
+          "sie stiegen"
+        ],
+        "perfekt": [
+          "ich bin gestiegen",
+          "du bist gestiegen",
+          "er/sie/es ist gestiegen",
+          "wir sind gestiegen",
+          "ihr seid gestiegen",
+          "sie sind gestiegen"
+        ],
+        "futur_1": [
+          "ich werde steigen",
+          "du wirst steigen",
+          "er/sie/es wird steigen",
+          "wir werden steigen",
+          "ihr werdet steigen",
+          "sie werden steigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde steigen",
+          "du würdest steigen",
+          "er/sie/es würde steigen",
+          "wir würden steigen",
+          "ihr würdet steigen",
+          "sie würden steigen"
+        ],
+        "imperativ": [
+          "steig!",
+          "steigt!"
+        ]
+      },
+      "examples": [
+        "Die Temperaturen steigen im Frühling."
+      ]
+    },
+    "umsteigen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Von einem Verkehrsmittel in ein anderes wechseln.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich steige um",
+          "du steigst um",
+          "er/sie/es steigt um",
+          "wir steigen um",
+          "ihr steigt um",
+          "sie steigen um"
+        ],
+        "präteritum": [
+          "ich stieg um",
+          "du stiegst um",
+          "er/sie/es stieg um",
+          "wir stiegen um",
+          "ihr stiegt um",
+          "sie stiegen um"
+        ],
+        "perfekt": [
+          "ich bin umgestiegen",
+          "du bist umgestiegen",
+          "er/sie/es ist umgestiegen",
+          "wir sind umgestiegen",
+          "ihr seid umgestiegen",
+          "sie sind umgestiegen"
+        ],
+        "futur_1": [
+          "ich werde umsteigen",
+          "du wirst umsteigen",
+          "er/sie/es wird umsteigen",
+          "wir werden umsteigen",
+          "ihr werdet umsteigen",
+          "sie werden umsteigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde umsteigen",
+          "du würdest umsteigen",
+          "er/sie/es würde umsteigen",
+          "wir würden umsteigen",
+          "ihr würdet umsteigen",
+          "sie würden umsteigen"
+        ],
+        "imperativ": [
+          "steig um!",
+          "steigt um!"
+        ]
+      },
+      "examples": [
+        "In Frankfurt müssen wir umsteigen."
+      ]
+    },
+    "einsteigen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "In ein Fahrzeug hineingehen.",
+      "antonyms": [
+        "aussteigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich steige ein",
+          "du steigst ein",
+          "er/sie/es steigt ein",
+          "wir steigen ein",
+          "ihr steigt ein",
+          "sie steigen ein"
+        ],
+        "präteritum": [
+          "ich stieg ein",
+          "du stiegst ein",
+          "er/sie/es stieg ein",
+          "wir stiegen ein",
+          "ihr stiegt ein",
+          "sie stiegen ein"
+        ],
+        "perfekt": [
+          "ich bin eingestiegen",
+          "du bist eingestiegen",
+          "er/sie/es ist eingestiegen",
+          "wir sind eingestiegen",
+          "ihr seid eingestiegen",
+          "sie sind eingestiegen"
+        ],
+        "futur_1": [
+          "ich werde einsteigen",
+          "du wirst einsteigen",
+          "er/sie/es wird einsteigen",
+          "wir werden einsteigen",
+          "ihr werdet einsteigen",
+          "sie werden einsteigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde einsteigen",
+          "du würdest einsteigen",
+          "er/sie/es würde einsteigen",
+          "wir würden einsteigen",
+          "ihr würdet einsteigen",
+          "sie würden einsteigen"
+        ],
+        "imperativ": [
+          "steig ein!",
+          "steigt ein!"
+        ]
+      },
+      "examples": [
+        "Bitte steigen Sie schnell ein."
+      ]
+    },
+    "aussteigen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Ein Fahrzeug verlassen.",
+      "antonyms": [
+        "einsteigen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich steige aus",
+          "du steigst aus",
+          "er/sie/es steigt aus",
+          "wir steigen aus",
+          "ihr steigt aus",
+          "sie steigen aus"
+        ],
+        "präteritum": [
+          "ich stieg aus",
+          "du stiegst aus",
+          "er/sie/es stieg aus",
+          "wir stiegen aus",
+          "ihr stiegt aus",
+          "sie stiegen aus"
+        ],
+        "perfekt": [
+          "ich bin ausgestiegen",
+          "du bist ausgestiegen",
+          "er/sie/es ist ausgestiegen",
+          "wir sind ausgestiegen",
+          "ihr seid ausgestiegen",
+          "sie sind ausgestiegen"
+        ],
+        "futur_1": [
+          "ich werde aussteigen",
+          "du wirst aussteigen",
+          "er/sie/es wird aussteigen",
+          "wir werden aussteigen",
+          "ihr werdet aussteigen",
+          "sie werden aussteigen"
+        ],
+        "konjunktiv_2": [
+          "ich würde aussteigen",
+          "du würdest aussteigen",
+          "er/sie/es würde aussteigen",
+          "wir würden aussteigen",
+          "ihr würdet aussteigen",
+          "sie würden aussteigen"
+        ],
+        "imperativ": [
+          "steig aus!",
+          "steigt aus!"
+        ]
+      },
+      "examples": [
+        "An der nächsten Station steigen wir aus."
+      ]
+    },
+    "gewinnen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "In einem Spiel oder Wettkampf Sieger werden.",
+      "antonyms": [
+        "verlieren"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich gewinne",
+          "du gewinnst",
+          "er/sie/es gewinnt",
+          "wir gewinnen",
+          "ihr gewinnt",
+          "sie gewinnen"
+        ],
+        "präteritum": [
+          "ich gewann",
+          "du gewannst",
+          "er/sie/es gewann",
+          "wir gewannen",
+          "ihr gewannt",
+          "sie gewannen"
+        ],
+        "perfekt": [
+          "ich habe gewonnen",
+          "du hast gewonnen",
+          "er/sie/es hat gewonnen",
+          "wir haben gewonnen",
+          "ihr habt gewonnen",
+          "sie haben gewonnen"
+        ],
+        "futur_1": [
+          "ich werde gewinnen",
+          "du wirst gewinnen",
+          "er/sie/es wird gewinnen",
+          "wir werden gewinnen",
+          "ihr werdet gewinnen",
+          "sie werden gewinnen"
+        ],
+        "konjunktiv_2": [
+          "ich würde gewinnen",
+          "du würdest gewinnen",
+          "er/sie/es würde gewinnen",
+          "wir würden gewinnen",
+          "ihr würdet gewinnen",
+          "sie würden gewinnen"
+        ],
+        "imperativ": [
+          "gewinn!",
+          "gewinnt!"
+        ]
+      },
+      "examples": [
+        "Unsere Mannschaft gewinnt das Spiel."
+      ]
+    },
+    "verlieren": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Etwas nicht mehr besitzen oder ein Spiel nicht gewinnen.",
+      "antonyms": [
+        "gewinnen",
+        "finden"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich verliere",
+          "du verlierst",
+          "er/sie/es verliert",
+          "wir verlieren",
+          "ihr verliert",
+          "sie verlieren"
+        ],
+        "präteritum": [
+          "ich verlor",
+          "du verlorst",
+          "er/sie/es verlor",
+          "wir verloren",
+          "ihr verlort",
+          "sie verloren"
+        ],
+        "perfekt": [
+          "ich habe verloren",
+          "du hast verloren",
+          "er/sie/es hat verloren",
+          "wir haben verloren",
+          "ihr habt verloren",
+          "sie haben verloren"
+        ],
+        "futur_1": [
+          "ich werde verlieren",
+          "du wirst verlieren",
+          "er/sie/es wird verlieren",
+          "wir werden verlieren",
+          "ihr werdet verlieren",
+          "sie werden verlieren"
+        ],
+        "konjunktiv_2": [
+          "ich würde verlieren",
+          "du würdest verlieren",
+          "er/sie/es würde verlieren",
+          "wir würden verlieren",
+          "ihr würdet verlieren",
+          "sie würden verlieren"
+        ],
+        "imperativ": [
+          "verlier!",
+          "verliert!"
+        ]
+      },
+      "examples": [
+        "Er verliert oft seinen Schlüssel."
+      ]
+    },
+    "bekommen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Etwas zugesandt oder überreicht erhalten.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich bekomme",
+          "du bekommst",
+          "er/sie/es bekommt",
+          "wir bekommen",
+          "ihr bekommt",
+          "sie bekommen"
+        ],
+        "präteritum": [
+          "ich bekam",
+          "du bekamst",
+          "er/sie/es bekam",
+          "wir bekamen",
+          "ihr bekamt",
+          "sie bekamen"
+        ],
+        "perfekt": [
+          "ich habe bekommen",
+          "du hast bekommen",
+          "er/sie/es hat bekommen",
+          "wir haben bekommen",
+          "ihr habt bekommen",
+          "sie haben bekommen"
+        ],
+        "futur_1": [
+          "ich werde bekommen",
+          "du wirst bekommen",
+          "er/sie/es wird bekommen",
+          "wir werden bekommen",
+          "ihr werdet bekommen",
+          "sie werden bekommen"
+        ],
+        "konjunktiv_2": [
+          "ich würde bekommen",
+          "du würdest bekommen",
+          "er/sie/es würde bekommen",
+          "wir würden bekommen",
+          "ihr würdet bekommen",
+          "sie würden bekommen"
+        ],
+        "imperativ": [
+          "bekomm!",
+          "bekommt!"
+        ]
+      },
+      "examples": [
+        "Ich bekomme viele Geschenke."
+      ]
+    },
+    "umziehen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Den Wohnort wechseln.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich ziehe um",
+          "du ziehst um",
+          "er/sie/es zieht um",
+          "wir ziehen um",
+          "ihr zieht um",
+          "sie ziehen um"
+        ],
+        "präteritum": [
+          "ich zog um",
+          "du zogst um",
+          "er/sie/es zog um",
+          "wir zogen um",
+          "ihr zogt um",
+          "sie zogen um"
+        ],
+        "perfekt": [
+          "ich bin umgezogen",
+          "du bist umgezogen",
+          "er/sie/es ist umgezogen",
+          "wir sind umgezogen",
+          "ihr seid umgezogen",
+          "sie sind umgezogen"
+        ],
+        "futur_1": [
+          "ich werde umziehen",
+          "du wirst umziehen",
+          "er/sie/es wird umziehen",
+          "wir werden umziehen",
+          "ihr werdet umziehen",
+          "sie werden umziehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde umziehen",
+          "du würdest umziehen",
+          "er/sie/es würde umziehen",
+          "wir würden umziehen",
+          "ihr würdet umziehen",
+          "sie würden umziehen"
+        ],
+        "imperativ": [
+          "zieh um!",
+          "zieht um!"
+        ]
+      },
+      "examples": [
+        "Nächsten Monat ziehen wir um."
+      ]
+    },
+    "anziehen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Kleidung an den Körper legen.",
+      "antonyms": [
+        "ausziehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich ziehe an",
+          "du ziehst an",
+          "er/sie/es zieht an",
+          "wir ziehen an",
+          "ihr zieht an",
+          "sie ziehen an"
+        ],
+        "präteritum": [
+          "ich zog an",
+          "du zogst an",
+          "er/sie/es zog an",
+          "wir zogen an",
+          "ihr zogt an",
+          "sie zogen an"
+        ],
+        "perfekt": [
+          "ich habe angezogen",
+          "du hast angezogen",
+          "er/sie/es hat angezogen",
+          "wir haben angezogen",
+          "ihr habt angezogen",
+          "sie haben angezogen"
+        ],
+        "futur_1": [
+          "ich werde anziehen",
+          "du wirst anziehen",
+          "er/sie/es wird anziehen",
+          "wir werden anziehen",
+          "ihr werdet anziehen",
+          "sie werden anziehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde anziehen",
+          "du würdest anziehen",
+          "er/sie/es würde anziehen",
+          "wir würden anziehen",
+          "ihr würdet anziehen",
+          "sie würden anziehen"
+        ],
+        "imperativ": [
+          "zieh an!",
+          "zieht an!"
+        ]
+      },
+      "examples": [
+        "Er zieht seine Jacke an."
+      ]
+    },
+    "ausziehen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Kleidung ablegen.",
+      "antonyms": [
+        "anziehen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich ziehe aus",
+          "du ziehst aus",
+          "er/sie/es zieht aus",
+          "wir ziehen aus",
+          "ihr zieht aus",
+          "sie ziehen aus"
+        ],
+        "präteritum": [
+          "ich zog aus",
+          "du zogst aus",
+          "er/sie/es zog aus",
+          "wir zogen aus",
+          "ihr zogt aus",
+          "sie zogen aus"
+        ],
+        "perfekt": [
+          "ich habe ausgezogen",
+          "du hast ausgezogen",
+          "er/sie/es hat ausgezogen",
+          "wir haben ausgezogen",
+          "ihr habt ausgezogen",
+          "sie haben ausgezogen"
+        ],
+        "futur_1": [
+          "ich werde ausziehen",
+          "du wirst ausziehen",
+          "er/sie/es wird ausziehen",
+          "wir werden ausziehen",
+          "ihr werdet ausziehen",
+          "sie werden ausziehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde ausziehen",
+          "du würdest ausziehen",
+          "er/sie/es würde ausziehen",
+          "wir würden ausziehen",
+          "ihr würdet ausziehen",
+          "sie würden ausziehen"
+        ],
+        "imperativ": [
+          "zieh aus!",
+          "zieht aus!"
+        ]
+      },
+      "examples": [
+        "Bitte ziehen Sie im Haus die Schuhe aus."
+      ]
+    },
+    "gefallen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Positiven Eindruck oder Wohlgefallen erwecken.",
+      "antonyms": [
+        "missfallen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich gefalle",
+          "du gefällst",
+          "er/sie/es gefällt",
+          "wir gefallen",
+          "ihr gefallt",
+          "sie gefallen"
+        ],
+        "präteritum": [
+          "ich gefiel",
+          "du gefielst",
+          "er/sie/es gefiel",
+          "wir gefielen",
+          "ihr gefielt",
+          "sie gefielen"
+        ],
+        "perfekt": [
+          "ich habe gefallen",
+          "du hast gefallen",
+          "er/sie/es hat gefallen",
+          "wir haben gefallen",
+          "ihr habt gefallen",
+          "sie haben gefallen"
+        ],
+        "futur_1": [
+          "ich werde gefallen",
+          "du wirst gefallen",
+          "er/sie/es wird gefallen",
+          "wir werden gefallen",
+          "ihr werdet gefallen",
+          "sie werden gefallen"
+        ],
+        "konjunktiv_2": [
+          "ich würde gefallen",
+          "du würdest gefallen",
+          "er/sie/es würde gefallen",
+          "wir würden gefallen",
+          "ihr würdet gefallen",
+          "sie würden gefallen"
+        ],
+        "imperativ": [
+          "gefall!",
+          "gefallt!"
+        ]
+      },
+      "examples": [
+        "Das neue Bild gefällt mir sehr."
+      ]
+    },
+    "halten": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Festhalten oder stoppen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich halte",
+          "du hältst",
+          "er/sie/es hält",
+          "wir halten",
+          "ihr haltet",
+          "sie halten"
+        ],
+        "präteritum": [
+          "ich hielt",
+          "du hieltst",
+          "er/sie/es hielt",
+          "wir hielten",
+          "ihr hieltet",
+          "sie hielten"
+        ],
+        "perfekt": [
+          "ich habe gehalten",
+          "du hast gehalten",
+          "er/sie/es hat gehalten",
+          "wir haben gehalten",
+          "ihr habt gehalten",
+          "sie haben gehalten"
+        ],
+        "futur_1": [
+          "ich werde halten",
+          "du wirst halten",
+          "er/sie/es wird halten",
+          "wir werden halten",
+          "ihr werdet halten",
+          "sie werden halten"
+        ],
+        "konjunktiv_2": [
+          "ich würde halten",
+          "du würdest halten",
+          "er/sie/es würde halten",
+          "wir würden halten",
+          "ihr würdet halten",
+          "sie würden halten"
+        ],
+        "imperativ": [
+          "halt!",
+          "haltet!"
+        ]
+      },
+      "examples": [
+        "Der Bus hält vor dem Museum."
+      ]
+    },
+    "behalten": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Im Besitz behalten und nicht abgeben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich behalte",
+          "du behältst",
+          "er/sie/es behält",
+          "wir behalten",
+          "ihr behaltet",
+          "sie behalten"
+        ],
+        "präteritum": [
+          "ich behielt",
+          "du behieltst",
+          "er/sie/es behielt",
+          "wir behielten",
+          "ihr behieltet",
+          "sie behielten"
+        ],
+        "perfekt": [
+          "ich habe behalten",
+          "du hast behalten",
+          "er/sie/es hat behalten",
+          "wir haben behalten",
+          "ihr habt behalten",
+          "sie haben behalten"
+        ],
+        "futur_1": [
+          "ich werde behalten",
+          "du wirst behalten",
+          "er/sie/es wird behalten",
+          "wir werden behalten",
+          "ihr werdet behalten",
+          "sie werden behalten"
+        ],
+        "konjunktiv_2": [
+          "ich würde behalten",
+          "du würdest behalten",
+          "er/sie/es würde behalten",
+          "wir würden behalten",
+          "ihr würdet behalten",
+          "sie würden behalten"
+        ],
+        "imperativ": [
+          "behalt!",
+          "behaltet!"
+        ]
+      },
+      "examples": [
+        "Du kannst den Stift behalten."
+      ]
+    },
+    "fangen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Etwas in der Luft oder bei der Flucht ergreifen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich fange",
+          "du fängst",
+          "er/sie/es fängt",
+          "wir fangen",
+          "ihr fangt",
+          "sie fangen"
+        ],
+        "präteritum": [
+          "ich fing",
+          "du fingst",
+          "er/sie/es fing",
+          "wir fingen",
+          "ihr fingt",
+          "sie fingen"
+        ],
+        "perfekt": [
+          "ich habe gefangen",
+          "du hast gefangen",
+          "er/sie/es hat gefangen",
+          "wir haben gefangen",
+          "ihr habt gefangen",
+          "sie haben gefangen"
+        ],
+        "futur_1": [
+          "ich werde fangen",
+          "du wirst fangen",
+          "er/sie/es wird fangen",
+          "wir werden fangen",
+          "ihr werdet fangen",
+          "sie werden fangen"
+        ],
+        "konjunktiv_2": [
+          "ich würde fangen",
+          "du würdest fangen",
+          "er/sie/es würde fangen",
+          "wir würden fangen",
+          "ihr würdet fangen",
+          "sie würden fangen"
+        ],
+        "imperativ": [
+          "fang!",
+          "fangt!"
+        ]
+      },
+      "examples": [
+        "Der Hund fängt den Ball."
+      ]
+    },
+    "schlagen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Treffen, hauen oder klopfen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schlage",
+          "du schlägst",
+          "er/sie/es schlägt",
+          "wir schlagen",
+          "ihr schlagt",
+          "sie schlagen"
+        ],
+        "präteritum": [
+          "ich schlug",
+          "du schlugst",
+          "er/sie/es schlug",
+          "wir schlugen",
+          "ihr schlugt",
+          "sie schlugen"
+        ],
+        "perfekt": [
+          "ich habe geschlagen",
+          "du hast geschlagen",
+          "er/sie/es hat geschlagen",
+          "wir haben geschlagen",
+          "ihr habt geschlagen",
+          "sie haben geschlagen"
+        ],
+        "futur_1": [
+          "ich werde schlagen",
+          "du wirst schlagen",
+          "er/sie/es wird schlagen",
+          "wir werden schlagen",
+          "ihr werdet schlagen",
+          "sie werden schlagen"
+        ],
+        "konjunktiv_2": [
+          "ich würde schlagen",
+          "du würdest schlagen",
+          "er/sie/es würde schlagen",
+          "wir würden schlagen",
+          "ihr würdet schlagen",
+          "sie würden schlagen"
+        ],
+        "imperativ": [
+          "schlag!",
+          "schlagt!"
+        ]
+      },
+      "examples": [
+        "Das Herz schlägt regelmäßig."
+      ]
+    },
+    "beschreiben": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Eigenschaften von etwas mit Worten darstellen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich beschreibe",
+          "du beschreibst",
+          "er/sie/es beschreibt",
+          "wir beschreiben",
+          "ihr beschreibt",
+          "sie beschreiben"
+        ],
+        "präteritum": [
+          "ich beschrieb",
+          "du beschriebst",
+          "er/sie/es beschrieb",
+          "wir beschrieben",
+          "ihr beschriebt",
+          "sie beschrieben"
+        ],
+        "perfekt": [
+          "ich habe beschrieben",
+          "du hast beschrieben",
+          "er/sie/es hat beschrieben",
+          "wir haben beschrieben",
+          "ihr habt beschrieben",
+          "sie haben beschrieben"
+        ],
+        "futur_1": [
+          "ich werde beschreiben",
+          "du wirst beschreiben",
+          "er/sie/es wird beschreiben",
+          "wir werden beschreiben",
+          "ihr werdet beschreiben",
+          "sie werden beschreiben"
+        ],
+        "konjunktiv_2": [
+          "ich würde beschreiben",
+          "du würdest beschreiben",
+          "er/sie/es würde beschreiben",
+          "wir würden beschreiben",
+          "ihr würdet beschreiben",
+          "sie würden beschreiben"
+        ],
+        "imperativ": [
+          "beschreib!",
+          "beschreibt!"
+        ]
+      },
+      "examples": [
+        "Er beschreibt seinen Weg zur Arbeit."
+      ]
+    },
+    "heißen": {
+      "group": "Starkes Verb",
+      "level": "A1",
+      "definition": "Einen Namen haben.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich heiße",
+          "du heißt",
+          "er/sie/es heißt",
+          "wir heißen",
+          "ihr heißt",
+          "sie heißen"
+        ],
+        "präteritum": [
+          "ich hieß",
+          "du hießest",
+          "er/sie/es hieß",
+          "wir hießen",
+          "ihr hießt",
+          "sie hießen"
+        ],
+        "perfekt": [
+          "ich habe geheißen",
+          "du hast geheißen",
+          "er/sie/es hat geheißen",
+          "wir haben geheißen",
+          "ihr habt geheißen",
+          "sie haben geheißen"
+        ],
+        "futur_1": [
+          "ich werde heißen",
+          "du wirst heißen",
+          "er/sie/es wird heißen",
+          "wir werden heißen",
+          "ihr werdet heißen",
+          "sie werden heißen"
+        ],
+        "konjunktiv_2": [
+          "ich würde heißen",
+          "du würdest heißen",
+          "er/sie/es würde heißen",
+          "wir würden heißen",
+          "ihr würdet heißen",
+          "sie würden heißen"
+        ],
+        "imperativ": [
+          "heiß!",
+          "heißt!"
+        ]
+      },
+      "examples": [
+        "Ich heiße Maria."
+      ]
+    },
+    "scheinen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Licht aussenden oder den Eindruck machen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich scheine",
+          "du scheinst",
+          "er/sie/es scheint",
+          "wir scheinen",
+          "ihr scheint",
+          "sie scheinen"
+        ],
+        "präteritum": [
+          "ich schien",
+          "du schienst",
+          "er/sie/es schien",
+          "wir schienen",
+          "ihr schient",
+          "sie schienen"
+        ],
+        "perfekt": [
+          "ich habe geschienen",
+          "du hast geschienen",
+          "er/sie/es hat geschienen",
+          "wir haben geschienen",
+          "ihr habt geschienen",
+          "sie haben geschienen"
+        ],
+        "futur_1": [
+          "ich werde scheinen",
+          "du wirst scheinen",
+          "er/sie/es wird scheinen",
+          "wir werden scheinen",
+          "ihr werdet scheinen",
+          "sie werden scheinen"
+        ],
+        "konjunktiv_2": [
+          "ich würde scheinen",
+          "du würdest scheinen",
+          "er/sie/es würde scheinen",
+          "wir würden scheinen",
+          "ihr würdet scheinen",
+          "sie würden scheinen"
+        ],
+        "imperativ": [
+          "schein!",
+          "scheint!"
+        ]
+      },
+      "examples": [
+        "Die Sonne scheint den ganzen Tag."
+      ]
+    },
+    "geschehen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Sich ereignen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich geschehe",
+          "du geschiehst",
+          "er/sie/es geschieht",
+          "wir geschehen",
+          "ihr gescheht",
+          "sie geschehen"
+        ],
+        "präteritum": [
+          "ich geschah",
+          "du geschahst",
+          "er/sie/es geschah",
+          "wir geschahen",
+          "ihr geschaht",
+          "sie geschahen"
+        ],
+        "perfekt": [
+          "ich bin geschehen",
+          "du bist geschehen",
+          "er/sie/es ist geschehen",
+          "wir sind geschehen",
+          "ihr seid geschehen",
+          "sie sind geschehen"
+        ],
+        "futur_1": [
+          "ich werde geschehen",
+          "du wirst geschehen",
+          "er/sie/es wird geschehen",
+          "wir werden geschehen",
+          "ihr werdet geschehen",
+          "sie werden geschehen"
+        ],
+        "konjunktiv_2": [
+          "ich würde geschehen",
+          "du würdest geschehen",
+          "er/sie/es würde geschehen",
+          "wir würden geschehen",
+          "ihr würdet geschehen",
+          "sie würden geschehen"
+        ],
+        "imperativ": [
+          "gescheh!",
+          "gescheht!"
+        ]
+      },
+      "examples": [
+        "Das ist gestern geschehen."
+      ]
+    },
+    "entscheiden": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Eine Wahl treffen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich entscheide",
+          "du entscheidest",
+          "er/sie/es entscheidet",
+          "wir entscheiden",
+          "ihr entscheidet",
+          "sie entscheiden"
+        ],
+        "präteritum": [
+          "ich entschied",
+          "du entschiedest",
+          "er/sie/es entschied",
+          "wir entschieden",
+          "ihr entschiedet",
+          "sie entschieden"
+        ],
+        "perfekt": [
+          "ich habe entschieden",
+          "du hast entschieden",
+          "er/sie/es hat entschieden",
+          "wir haben entschieden",
+          "ihr habt entschieden",
+          "sie haben entschieden"
+        ],
+        "futur_1": [
+          "ich werde entscheiden",
+          "du wirst entscheiden",
+          "er/sie/es wird entscheiden",
+          "wir werden entscheiden",
+          "ihr werdet entscheiden",
+          "sie werden entscheiden"
+        ],
+        "konjunktiv_2": [
+          "ich würde entscheiden",
+          "du würdest entscheiden",
+          "er/sie/es würde entscheiden",
+          "wir würden entscheiden",
+          "ihr würdet entscheiden",
+          "sie würden entscheiden"
+        ],
+        "imperativ": [
+          "entscheid!",
+          "entscheidet!"
+        ]
+      },
+      "examples": [
+        "Er entscheidet sich für das Studium."
+      ]
+    },
+    "vorschlagen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Einen Plan oder eine Idee vorlegen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich schlage vor",
+          "du schlägst vor",
+          "er/sie/es schlägt vor",
+          "wir schlagen vor",
+          "ihr schlagt vor",
+          "sie schlagen vor"
+        ],
+        "präteritum": [
+          "ich schlug vor",
+          "du schlugst vor",
+          "er/sie/es schlug vor",
+          "wir schlugen vor",
+          "ihr schlugt vor",
+          "sie schlugen vor"
+        ],
+        "perfekt": [
+          "ich habe vorgeschlagen",
+          "du hast vorgeschlagen",
+          "er/sie/es hat vorgeschlagen",
+          "wir haben vorgeschlagen",
+          "ihr habt vorgeschlagen",
+          "sie haben vorgeschlagen"
+        ],
+        "futur_1": [
+          "ich werde vorschlagen",
+          "du wirst vorschlagen",
+          "er/sie/es wird vorschlagen",
+          "wir werden vorschlagen",
+          "ihr werdet vorschlagen",
+          "sie werden vorschlagen"
+        ],
+        "konjunktiv_2": [
+          "ich würde vorschlagen",
+          "du würdest vorschlagen",
+          "er/sie/es würde vorschlagen",
+          "wir würden vorschlagen",
+          "ihr würdet vorschlagen",
+          "sie würden vorschlagen"
+        ],
+        "imperativ": [
+          "schlag vor!",
+          "schlagt vor!"
+        ]
+      },
+      "examples": [
+        "Ich schlage vor, wir machen eine Pause."
+      ]
+    },
+    "streiten": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Meinungsverschiedenheiten austragen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich streite",
+          "du streitest",
+          "er/sie/es streitet",
+          "wir streiten",
+          "ihr streitet",
+          "sie streiten"
+        ],
+        "präteritum": [
+          "ich stritt",
+          "du strittest",
+          "er/sie/es stritt",
+          "wir stritten",
+          "ihr strittet",
+          "sie stritten"
+        ],
+        "perfekt": [
+          "ich habe gestritten",
+          "du hast gestritten",
+          "er/sie/es hat gestritten",
+          "wir haben gestritten",
+          "ihr habt gestritten",
+          "sie haben gestritten"
+        ],
+        "futur_1": [
+          "ich werde streiten",
+          "du wirst streiten",
+          "er/sie/es wird streiten",
+          "wir werden streiten",
+          "ihr werdet streiten",
+          "sie werden streiten"
+        ],
+        "konjunktiv_2": [
+          "ich würde streiten",
+          "du würdest streiten",
+          "er/sie/es würde streiten",
+          "wir würden streiten",
+          "ihr würdet streiten",
+          "sie würden streiten"
+        ],
+        "imperativ": [
+          "streit!",
+          "streitet!"
+        ]
+      },
+      "examples": [
+        "Die Geschwister streiten sich manchmal."
+      ]
+    }
+  }
+}

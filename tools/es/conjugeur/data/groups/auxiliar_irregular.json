@@ -1,0 +1,75 @@
+{
+  "group_name": "Auxiliar / Irregular",
+  "verbs": {
+    "haber": {
+      "group": "Auxiliar / Irregular",
+      "level": "A1",
+      "definition": "Existir o constituir el verbo auxiliar principal para tiempos compuestos.",
+      "antonyms": [
+        "faltar"
+      ],
+      "tenses": {
+        "presente": [
+          "he",
+          "has",
+          "ha / hay",
+          "hemos",
+          "habéis",
+          "han"
+        ],
+        "pasado": [
+          "hube",
+          "hubiste",
+          "hubo",
+          "hubimos",
+          "hubisteis",
+          "hubieron"
+        ],
+        "preterito_imperfecto": [
+          "había",
+          "habías",
+          "había",
+          "habíamos",
+          "habíais",
+          "habían"
+        ],
+        "preterito_perfecto_compuesto": [
+          "habido"
+        ],
+        "futuro_simple": [
+          "habré",
+          "habrás",
+          "habrá",
+          "habremos",
+          "habréis",
+          "habrán"
+        ],
+        "condicional_simple": [
+          "habría",
+          "habrías",
+          "habría",
+          "habríamos",
+          "habríais",
+          "habrían"
+        ],
+        "subjuntivo_presente": [
+          "haya",
+          "hayas",
+          "haya",
+          "hayamos",
+          "hayáis",
+          "hayan"
+        ],
+        "imperativo": [
+          "he!",
+          "haya!",
+          "habed!",
+          "hayan!"
+        ]
+      },
+      "examples": [
+        "Hay muchas personas en la plaza hoy."
+      ]
+    }
+  }
+}

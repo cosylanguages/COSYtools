@@ -1,0 +1,960 @@
+{
+  "group_name": "Irregular",
+  "verbs": {
+    "ser": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Ter uma qualidade permanente ou identidade.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "sou",
+          "és",
+          "é",
+          "somos",
+          "sois",
+          "são"
+        ],
+        "passado": [
+          "fui",
+          "foste",
+          "foi",
+          "fomos",
+          "fostes",
+          "foram"
+        ],
+        "preterito_imperfeito": [
+          "era",
+          "eras",
+          "era",
+          "éramos",
+          "éreis",
+          "eram"
+        ],
+        "futuro_do_presente": [
+          "serei",
+          "serás",
+          "será",
+          "seremos",
+          "sereis",
+          "serão"
+        ],
+        "futuro_do_preterito": [
+          "seria",
+          "serias",
+          "seria",
+          "seríamos",
+          "seríeis",
+          "seriam"
+        ],
+        "presente_subjuntivo": [
+          "seja",
+          "sejas",
+          "seja",
+          "sejamos",
+          "sejais",
+          "sejam"
+        ],
+        "imperativo": [
+          "-",
+          "sê",
+          "seja",
+          "sejamos",
+          "sede",
+          "sejam"
+        ]
+      },
+      "examples": [
+        "Eu sou estudante de línguas."
+      ]
+    },
+    "estar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Achar-se num estado ou lugar temporário.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "estou",
+          "estás",
+          "está",
+          "estamos",
+          "estais",
+          "estão"
+        ],
+        "passado": [
+          "estive",
+          "estiveste",
+          "esteve",
+          "estivemos",
+          "estivestes",
+          "estiveram"
+        ],
+        "preterito_imperfeito": [
+          "estava",
+          "estavas",
+          "estava",
+          "estávamos",
+          "estáveis",
+          "estavam"
+        ],
+        "futuro_do_presente": [
+          "estarei",
+          "estarás",
+          "estará",
+          "estaremos",
+          "estareis",
+          "estarão"
+        ],
+        "futuro_do_preterito": [
+          "estaria",
+          "estarias",
+          "estaria",
+          "estaríamos",
+          "estaríeis",
+          "estariam"
+        ],
+        "presente_subjuntivo": [
+          "esteja",
+          "estejas",
+          "esteja",
+          "estejamos",
+          "estejais",
+          "estejam"
+        ],
+        "imperativo": [
+          "-",
+          "está",
+          "esteja",
+          "estejamos",
+          "estai",
+          "estejam"
+        ]
+      },
+      "examples": [
+        "Como estás? Estou muito bem, obrigado."
+      ]
+    },
+    "ter": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Possuir ou segurar algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "tenho",
+          "tens",
+          "tem",
+          "temos",
+          "tendes",
+          "têm"
+        ],
+        "passado": [
+          "tive",
+          "tiveste",
+          "teve",
+          "tivemos",
+          "tivestes",
+          "tiveram"
+        ],
+        "preterito_imperfeito": [
+          "tinha",
+          "tinhas",
+          "tinha",
+          "tínhamos",
+          "tínheis",
+          "tinham"
+        ],
+        "futuro_do_presente": [
+          "terei",
+          "terás",
+          "terá",
+          "teremos",
+          "tereis",
+          "terão"
+        ],
+        "futuro_do_preterito": [
+          "teria",
+          "terias",
+          "teria",
+          "teríamos",
+          "teríeis",
+          "teriam"
+        ],
+        "presente_subjuntivo": [
+          "tenha",
+          "tenhas",
+          "tenha",
+          "tenhamos",
+          "tenhais",
+          "tenham"
+        ],
+        "imperativo": [
+          "-",
+          "tem",
+          "tenha",
+          "tenhamos",
+          "tende",
+          "tenham"
+        ]
+      },
+      "examples": [
+        "Nós temos muitos livros em casa."
+      ]
+    },
+    "ir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Mover-se de um lugar para outro.",
+      "antonyms": [
+        "vir"
+      ],
+      "tenses": {
+        "presente": [
+          "vou",
+          "vais",
+          "vai",
+          "vamos",
+          "ides",
+          "vão"
+        ],
+        "passado": [
+          "fui",
+          "foste",
+          "foi",
+          "fomos",
+          "fostes",
+          "foram"
+        ],
+        "preterito_imperfeito": [
+          "ia",
+          "ias",
+          "ia",
+          "íamos",
+          "íeis",
+          "iam"
+        ],
+        "futuro_do_presente": [
+          "irei",
+          "irás",
+          "irá",
+          "iremos",
+          "ireis",
+          "irão"
+        ],
+        "futuro_do_preterito": [
+          "iria",
+          "irias",
+          "iria",
+          "iríamos",
+          "iríeis",
+          "iriam"
+        ],
+        "presente_subjuntivo": [
+          "vá",
+          "vás",
+          "vá",
+          "vamos",
+          "vades",
+          "vão"
+        ],
+        "imperativo": [
+          "-",
+          "vai",
+          "vá",
+          "vamos",
+          "ide",
+          "vão"
+        ]
+      },
+      "examples": [
+        "Amanhã vou ao mercado."
+      ]
+    },
+    "fazer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Realizar ou criar alguma coisa.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "faço",
+          "fazes",
+          "faz",
+          "fazemos",
+          "fazeis",
+          "fazem"
+        ],
+        "passado": [
+          "fiz",
+          "fizeste",
+          "fez",
+          "fizemos",
+          "fizestes",
+          "fizeram"
+        ],
+        "preterito_imperfeito": [
+          "fazia",
+          "fazias",
+          "fazia",
+          "fazíamos",
+          "fazíeis",
+          "faziam"
+        ],
+        "futuro_do_presente": [
+          "farei",
+          "farás",
+          "fará",
+          "faremos",
+          "fareis",
+          "farão"
+        ],
+        "futuro_do_preterito": [
+          "faria",
+          "farias",
+          "faria",
+          "faríamos",
+          "faríeis",
+          "fariam"
+        ],
+        "presente_subjuntivo": [
+          "faça",
+          "faças",
+          "faça",
+          "façamos",
+          "façais",
+          "façam"
+        ],
+        "imperativo": [
+          "-",
+          "faz",
+          "faça",
+          "façamos",
+          "fazei",
+          "façam"
+        ]
+      },
+      "examples": [
+        "Eu faço os meus trabalhos de manhã."
+      ]
+    },
+    "dar": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Entregar algo a alguém gratuitamente.",
+      "antonyms": [
+        "receber"
+      ],
+      "tenses": {
+        "presente": [
+          "dou",
+          "dás",
+          "dá",
+          "damos",
+          "dais",
+          "dão"
+        ],
+        "passado": [
+          "dei",
+          "deste",
+          "deu",
+          "demos",
+          "destes",
+          "deram"
+        ],
+        "preterito_imperfeito": [
+          "dava",
+          "davas",
+          "dava",
+          "dávamos",
+          "dáveis",
+          "davam"
+        ],
+        "futuro_do_presente": [
+          "darei",
+          "darás",
+          "dará",
+          "daremos",
+          "dareis",
+          "darão"
+        ],
+        "futuro_do_preterito": [
+          "daria",
+          "darias",
+          "daria",
+          "daríamos",
+          "daríeis",
+          "dariam"
+        ],
+        "presente_subjuntivo": [
+          "dê",
+          "dês",
+          "dê",
+          "demos",
+          "deis",
+          "deem"
+        ],
+        "imperativo": [
+          "-",
+          "dá",
+          "dê",
+          "demos",
+          "dai",
+          "deem"
+        ]
+      },
+      "examples": [
+        "Dou um presente ao meu irmão."
+      ]
+    },
+    "trazer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Conduzir ou transportar para onde se está.",
+      "antonyms": [
+        "levar"
+      ],
+      "tenses": {
+        "presente": [
+          "trago",
+          "trazes",
+          "traz",
+          "trazemos",
+          "trazeis",
+          "trazem"
+        ],
+        "passado": [
+          "trouxe",
+          "trouxeste",
+          "trouxe",
+          "trouxemos",
+          "trouxestes",
+          "trouxeram"
+        ],
+        "preterito_imperfeito": [
+          "trazia",
+          "trazias",
+          "trazia",
+          "trazíamos",
+          "trazíeis",
+          "traziam"
+        ],
+        "futuro_do_presente": [
+          "trarei",
+          "trarás",
+          "trará",
+          "traremos",
+          "trareis",
+          "trarão"
+        ],
+        "futuro_do_preterito": [
+          "traria",
+          "trarias",
+          "traria",
+          "traríamos",
+          "traríeis",
+          "trariam"
+        ],
+        "presente_subjuntivo": [
+          "traga",
+          "tragas",
+          "traga",
+          "tragamos",
+          "tragais",
+          "tragam"
+        ],
+        "imperativo": [
+          "-",
+          "traz",
+          "traga",
+          "tragamos",
+          "trazei",
+          "tragam"
+        ]
+      },
+      "examples": [
+        "O empregado traz o café quente."
+      ]
+    },
+    "pôr": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Colocar alguma coisa num determinado local.",
+      "antonyms": [
+        "tirar"
+      ],
+      "tenses": {
+        "presente": [
+          "ponho",
+          "pões",
+          "põe",
+          "pomos",
+          "pondes",
+          "põem"
+        ],
+        "passado": [
+          "pus",
+          "puseste",
+          "pôs",
+          "pusemos",
+          "pusestes",
+          "puseram"
+        ],
+        "preterito_imperfeito": [
+          "punha",
+          "punhas",
+          "punha",
+          "púnhamos",
+          "púnheis",
+          "punham"
+        ],
+        "futuro_do_presente": [
+          "porei",
+          "porás",
+          "porá",
+          "poremos",
+          "poreis",
+          "porão"
+        ],
+        "futuro_do_preterito": [
+          "poria",
+          "porias",
+          "poria",
+          "poríamos",
+          "poríeis",
+          "poriam"
+        ],
+        "presente_subjuntivo": [
+          "ponha",
+          "ponhas",
+          "ponha",
+          "ponhamos",
+          "ponhais",
+          "ponham"
+        ],
+        "imperativo": [
+          "-",
+          "põe",
+          "ponha",
+          "ponhamos",
+          "ponde",
+          "ponham"
+        ]
+      },
+      "examples": [
+        "Ponho os pratos sobre a mesa."
+      ]
+    },
+    "sair": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Passar do interior para o exterior.",
+      "antonyms": [
+        "entrar"
+      ],
+      "tenses": {
+        "presente": [
+          "saio",
+          "sais",
+          "sai",
+          "saímos",
+          "saís",
+          "saem"
+        ],
+        "passado": [
+          "saí",
+          "saíste",
+          "saiu",
+          "saímos",
+          "saístes",
+          "saíram"
+        ],
+        "preterito_imperfeito": [
+          "saía",
+          "saías",
+          "saía",
+          "saíamos",
+          "saíeis",
+          "saíam"
+        ],
+        "futuro_do_presente": [
+          "sairei",
+          "sairás",
+          "sairá",
+          "sairemos",
+          "saireis",
+          "sairão"
+        ],
+        "futuro_do_preterito": [
+          "sairia",
+          "sairias",
+          "sairia",
+          "sairíamos",
+          "sairíeis",
+          "sairiam"
+        ],
+        "presente_subjuntivo": [
+          "saia",
+          "saias",
+          "saia",
+          "saiamos",
+          "saiais",
+          "saiam"
+        ],
+        "imperativo": [
+          "-",
+          "sai",
+          "saia",
+          "saiamos",
+          "saí",
+          "saiam"
+        ]
+      },
+      "examples": [
+        "Saio de casa bem cedo."
+      ]
+    },
+    "sentir": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Experimentar uma sensação física ou emoção.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "sinto",
+          "sentes",
+          "sente",
+          "sentimos",
+          "sentis",
+          "sentem"
+        ],
+        "passado": [
+          "senti",
+          "sentiste",
+          "sentiu",
+          "sentimos",
+          "sentistes",
+          "sentiram"
+        ],
+        "preterito_imperfeito": [
+          "sentia",
+          "sentias",
+          "sentia",
+          "sentíamos",
+          "sentíeis",
+          "sentiam"
+        ],
+        "futuro_do_presente": [
+          "sentirei",
+          "sentirás",
+          "sentirá",
+          "sentiremos",
+          "sentireis",
+          "sentirão"
+        ],
+        "futuro_do_preterito": [
+          "sentiria",
+          "sentirias",
+          "sentiria",
+          "sentiríamos",
+          "sentiríeis",
+          "sentiriam"
+        ],
+        "presente_subjuntivo": [
+          "sinta",
+          "sintas",
+          "sinta",
+          "sintamos",
+          "sintais",
+          "sintam"
+        ],
+        "imperativo": [
+          "-",
+          "sente",
+          "sinta",
+          "sintamos",
+          "senti",
+          "sintam"
+        ]
+      },
+      "examples": [
+        "Sinto-me muito feliz com o resultado."
+      ]
+    },
+    "perder": {
+      "group": "Irregular",
+      "level": "A2",
+      "definition": "Deixar de ter a posse de algo.",
+      "antonyms": [
+        "ganhar",
+        "encontrar"
+      ],
+      "tenses": {
+        "presente": [
+          "perco",
+          "perdes",
+          "perde",
+          "perdemos",
+          "perdeis",
+          "perdem"
+        ],
+        "passado": [
+          "perdi",
+          "perdeste",
+          "perdeu",
+          "perdemos",
+          "perdestes",
+          "perderam"
+        ],
+        "preterito_imperfeito": [
+          "perdia",
+          "perdias",
+          "perdia",
+          "perdíamos",
+          "perdíeis",
+          "perdiam"
+        ],
+        "futuro_do_presente": [
+          "perderei",
+          "perderás",
+          "perderá",
+          "perderemos",
+          "perdereis",
+          "perderão"
+        ],
+        "futuro_do_preterito": [
+          "perderia",
+          "perderias",
+          "perderia",
+          "perderíamos",
+          "perderíeis",
+          "perderiam"
+        ],
+        "presente_subjuntivo": [
+          "perca",
+          "percas",
+          "perca",
+          "percamos",
+          "percais",
+          "percam"
+        ],
+        "imperativo": [
+          "-",
+          "perde",
+          "perca",
+          "percamos",
+          "perdei",
+          "percam"
+        ]
+      },
+      "examples": [
+        "Às vezes perco o autocarro por atraso."
+      ]
+    },
+    "pedir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Solicitar algo a alguém.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "peço",
+          "pedes",
+          "pede",
+          "pedimos",
+          "pedis",
+          "pedem"
+        ],
+        "passado": [
+          "pedi",
+          "pediste",
+          "pediu",
+          "pedimos",
+          "pedistes",
+          "pediram"
+        ],
+        "preterito_imperfeito": [
+          "pedia",
+          "pedias",
+          "pedia",
+          "pedíamos",
+          "pedíeis",
+          "pediam"
+        ],
+        "futuro_do_presente": [
+          "pedirei",
+          "pedirás",
+          "pedirá",
+          "pediremos",
+          "pedireis",
+          "pedirão"
+        ],
+        "futuro_do_preterito": [
+          "pediria",
+          "pedirias",
+          "pediria",
+          "pediríamos",
+          "pediríeis",
+          "pediriam"
+        ],
+        "presente_subjuntivo": [
+          "peça",
+          "peças",
+          "peça",
+          "peçamos",
+          "peçais",
+          "peçam"
+        ],
+        "imperativo": [
+          "-",
+          "pede",
+          "peça",
+          "peçamos",
+          "pedi",
+          "peçam"
+        ]
+      },
+      "examples": [
+        "Peço a conta ao empregado de mesa."
+      ]
+    },
+    "dizer": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Exprimir pensamentos por meio de palavras.",
+      "antonyms": [
+        "calar"
+      ],
+      "tenses": {
+        "presente": [
+          "digo",
+          "dizes",
+          "diz",
+          "dizemos",
+          "dizeis",
+          "dizem"
+        ],
+        "passado": [
+          "disse",
+          "disseste",
+          "disse",
+          "dissemos",
+          "dissestes",
+          "disseram"
+        ],
+        "preterito_imperfeito": [
+          "dizia",
+          "dizias",
+          "dizia",
+          "dizíamos",
+          "dizíeis",
+          "diziam"
+        ],
+        "futuro_do_presente": [
+          "direi",
+          "dirás",
+          "dirá",
+          "diremos",
+          "direis",
+          "dirão"
+        ],
+        "futuro_do_preterito": [
+          "diria",
+          "dirias",
+          "diria",
+          "diríamos",
+          "diríeis",
+          "diriam"
+        ],
+        "presente_subjuntivo": [
+          "diga",
+          "digas",
+          "diga",
+          "digamos",
+          "digais",
+          "digam"
+        ],
+        "imperativo": [
+          "-",
+          "diz",
+          "diga",
+          "digamos",
+          "dizei",
+          "digam"
+        ]
+      },
+      "examples": [
+        "Digo sempre a verdade."
+      ]
+    },
+    "rir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Manifestar alegria emitindo risos.",
+      "antonyms": [
+        "chorar"
+      ],
+      "tenses": {
+        "presente": [
+          "rio",
+          "ris",
+          "ri",
+          "rimos",
+          "rides",
+          "riem"
+        ],
+        "passado": [
+          "ri",
+          "riste",
+          "riu",
+          "rimos",
+          "ristes",
+          "riram"
+        ],
+        "preterito_imperfeito": [
+          "ria",
+          "rias",
+          "ria",
+          "ríamos",
+          "ríeis",
+          "riam"
+        ],
+        "futuro_do_presente": [
+          "rirei",
+          "rirás",
+          "rirá",
+          "riremos",
+          "rireis",
+          "rirão"
+        ],
+        "futuro_do_preterito": [
+          "riria",
+          "ririas",
+          "riria",
+          "riríamos",
+          "riríeis",
+          "ririam"
+        ],
+        "presente_subjuntivo": [
+          "ria",
+          "rias",
+          "ria",
+          "riamos",
+          "riais",
+          "riam"
+        ],
+        "imperativo": [
+          "-",
+          "ri",
+          "ria",
+          "riamos",
+          "ride",
+          "riam"
+        ]
+      },
+      "examples": [
+        "Rimos bastante com o espetáculo."
+      ]
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "group_name": "ire",
+  "verbs": {
+    "preferire": {
+      "group": "ire",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Avere maggiore gradimento.",
+      "antonyms": [
+        "detestare"
+      ],
+      "tenses": {
+        "pres": [
+          "preferisco",
+          "preferisci",
+          "preferisce",
+          "preferiamo",
+          "preferite",
+          "preferiscono"
+        ],
+        "pc": [
+          "ho preferito",
+          "hai preferito",
+          "ha preferito",
+          "abbiamo preferito",
+          "avete preferito",
+          "hanno preferito"
+        ],
+        "fut": [
+          "preferirò",
+          "preferirai",
+          "preferirà",
+          "preferiremo",
+          "preferirete",
+          "preferiranno"
+        ],
+        "cond": [
+          "preferirei",
+          "preferiresti",
+          "preferirebbe",
+          "preferiremmo",
+          "preferireste",
+          "preferirebbero"
+        ],
+        "subj": [
+          "che io preferi",
+          "che tu preferi",
+          "che lui/lei preferi",
+          "che noi preferiamo",
+          "che voi preferiate",
+          "che loro preferino"
+        ],
+        "impv": [
+          "prefera",
+          "preferiamo",
+          "preferate"
+        ],
+        "part": [
+          "preferente",
+          "preferito"
+        ],
+        "cond_pass": [
+          "avrei preferito",
+          "avresti preferito",
+          "avrebbe preferito",
+          "avremmo preferito",
+          "avreste preferito",
+          "avrebbero preferito"
+        ],
+        "subj_pass": [
+          "abbia preferito",
+          "abbia preferito",
+          "abbia preferito",
+          "abbiamo preferito",
+          "abbiate preferito",
+          "abbiano preferito"
+        ],
+        "subj_imp": [
+          "preferissi",
+          "preferissi",
+          "preferisse",
+          "preferissimo",
+          "preferiste",
+          "preferissero"
+        ],
+        "trap_pass": [
+          "avevo preferito",
+          "avevi preferito",
+          "aveva preferito",
+          "avevamo preferito",
+          "avevate preferito",
+          "avevano preferito"
+        ],
+        "fut_ant": [
+          "avrò preferito",
+          "avrai preferito",
+          "avrà preferito",
+          "avremo preferito",
+          "avrete preferito",
+          "avranno preferito"
+        ],
+        "imp": [
+          "preferivo",
+          "preferivi",
+          "preferiva",
+          "preferivamo",
+          "preferivate",
+          "preferivano"
+        ]
+      },
+      "usage_hint": "preferire + oggetto diretto / + infinito a",
+      "irregular": false
+    },
+    "scoprire": {
+      "group": "ire",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Trovare ciò che è celato.",
+      "antonyms": [
+        "nascondere"
+      ],
+      "tenses": {
+        "pres": [
+          "scopro",
+          "scopri",
+          "scopre",
+          "scopriamo",
+          "scoprite",
+          "scoprono"
+        ],
+        "pc": [
+          "ho scoperto",
+          "hai scoperto",
+          "ha scoperto",
+          "abbiamo scoperto",
+          "avete scoperto",
+          "hanno scoperto"
+        ],
+        "fut": [
+          "scoprirò",
+          "scoprirai",
+          "scoprirà",
+          "scopriremo",
+          "scoprirete",
+          "scopriranno"
+        ],
+        "cond": [
+          "scoprirei",
+          "scopriresti",
+          "scoprirebbe",
+          "scopriremmo",
+          "scoprireste",
+          "scoprirebbero"
+        ],
+        "subj": [
+          "che io scopri",
+          "che tu scopri",
+          "che lui/lei scopri",
+          "che noi scopriamo",
+          "che voi scopriate",
+          "che loro scoprino"
+        ],
+        "impv": [
+          "scopra",
+          "scopriamo",
+          "scoprate"
+        ],
+        "part": [
+          "scoprente",
+          "scoperto"
+        ],
+        "cond_pass": [
+          "avrei scoperto",
+          "avresti scoperto",
+          "avrebbe scoperto",
+          "avremmo scoperto",
+          "avreste scoperto",
+          "avrebbero scoperto"
+        ],
+        "subj_pass": [
+          "abbia scoperto",
+          "abbia scoperto",
+          "abbia scoperto",
+          "abbiamo scoperto",
+          "abbiate scoperto",
+          "abbiano scoperto"
+        ],
+        "subj_imp": [
+          "scoprissi",
+          "scoprissi",
+          "scoprisse",
+          "scoprissimo",
+          "scopriste",
+          "scoprissero"
+        ],
+        "trap_pass": [
+          "avevo scoperto",
+          "avevi scoperto",
+          "aveva scoperto",
+          "avevamo scoperto",
+          "avevate scoperto",
+          "avevano scoperto"
+        ],
+        "fut_ant": [
+          "avrò scoperto",
+          "avrai scoperto",
+          "avrà scoperto",
+          "avremo scoperto",
+          "avrete scoperto",
+          "avranno scoperto"
+        ],
+        "imp": [
+          "scoprivo",
+          "scoprivi",
+          "scopriva",
+          "scoprivamo",
+          "scoprivate",
+          "scoprivano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false
+    }
+  }
+}

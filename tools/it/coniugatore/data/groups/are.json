@@ -1,0 +1,2646 @@
+{
+  "group_name": "are",
+  "verbs": {
+    "provare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Fare un tentativo.",
+      "antonyms": [
+        "rinunciare"
+      ],
+      "tenses": {
+        "pres": [
+          "provo",
+          "provi",
+          "prova",
+          "proviamo",
+          "provate",
+          "provano"
+        ],
+        "pc": [
+          "ho provato",
+          "hai provato",
+          "ha provato",
+          "abbiamo provato",
+          "avete provato",
+          "hanno provato"
+        ],
+        "fut": [
+          "proverò",
+          "proverai",
+          "proverà",
+          "proveremo",
+          "proverete",
+          "proveranno"
+        ],
+        "cond": [
+          "proverei",
+          "proveresti",
+          "proverebbe",
+          "proveremmo",
+          "provereste",
+          "proverebbero"
+        ],
+        "subj": [
+          "che io provi",
+          "che tu provi",
+          "che lui/lei provi",
+          "che noi proviamo",
+          "che voi proviate",
+          "che loro provino"
+        ],
+        "impv": [
+          "prova",
+          "proviamo",
+          "provate"
+        ],
+        "part": [
+          "provante",
+          "provato"
+        ],
+        "cond_pass": [
+          "avrei provato",
+          "avresti provato",
+          "avrebbe provato",
+          "avremmo provato",
+          "avreste provato",
+          "avrebbero provato"
+        ],
+        "subj_pass": [
+          "abbia provato",
+          "abbia provato",
+          "abbia provato",
+          "abbiamo provato",
+          "abbiate provato",
+          "abbiano provato"
+        ],
+        "subj_imp": [
+          "provassi",
+          "provassi",
+          "provasse",
+          "provassimo",
+          "provaste",
+          "provassero"
+        ],
+        "trap_pass": [
+          "avevo provato",
+          "avevi provato",
+          "aveva provato",
+          "avevamo provato",
+          "avevate provato",
+          "avevano provato"
+        ],
+        "fut_ant": [
+          "avrò provato",
+          "avrai provato",
+          "avrà provato",
+          "avremo provato",
+          "avrete provato",
+          "avranno provato"
+        ],
+        "imp": [
+          "provavo",
+          "provavi",
+          "provava",
+          "provavamo",
+          "provavate",
+          "provavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / a (fare)",
+      "irregular": false
+    },
+    "salutare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Rivolgere un saluto.",
+      "antonyms": [
+        "ignorare"
+      ],
+      "tenses": {
+        "pres": [
+          "saluto",
+          "saluti",
+          "saluta",
+          "salutiamo",
+          "salutate",
+          "salutano"
+        ],
+        "pc": [
+          "ho salutato",
+          "hai salutato",
+          "ha salutato",
+          "abbiamo salutato",
+          "avete salutato",
+          "hanno salutato"
+        ],
+        "fut": [
+          "saluterò",
+          "saluterai",
+          "saluterà",
+          "saluteremo",
+          "saluterete",
+          "saluteranno"
+        ],
+        "cond": [
+          "saluterei",
+          "saluteresti",
+          "saluterebbe",
+          "saluteremmo",
+          "salutereste",
+          "saluterebbero"
+        ],
+        "subj": [
+          "che io saluti",
+          "che tu saluti",
+          "che lui/lei saluti",
+          "che noi salutiamo",
+          "che voi salutiate",
+          "che loro salutino"
+        ],
+        "impv": [
+          "saluta",
+          "salutiamo",
+          "salutate"
+        ],
+        "part": [
+          "salutante",
+          "salutato"
+        ],
+        "cond_pass": [
+          "avrei salutato",
+          "avresti salutato",
+          "avrebbe salutato",
+          "avremmo salutato",
+          "avreste salutato",
+          "avrebbero salutato"
+        ],
+        "subj_pass": [
+          "abbia salutato",
+          "abbia salutato",
+          "abbia salutato",
+          "abbiamo salutato",
+          "abbiate salutato",
+          "abbiano salutato"
+        ],
+        "subj_imp": [
+          "salutassi",
+          "salutassi",
+          "salutasse",
+          "salutassimo",
+          "salutaste",
+          "salutassero"
+        ],
+        "trap_pass": [
+          "avevo salutato",
+          "avevi salutato",
+          "aveva salutato",
+          "avevamo salutato",
+          "avevate salutato",
+          "avevano salutato"
+        ],
+        "fut_ant": [
+          "avrò salutato",
+          "avrai salutato",
+          "avrà salutato",
+          "avremo salutato",
+          "avrete salutato",
+          "avranno salutato"
+        ],
+        "imp": [
+          "salutavo",
+          "salutavi",
+          "salutava",
+          "salutavamo",
+          "salutavate",
+          "salutavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (salutare qualcuno)",
+      "irregular": false
+    },
+    "suonare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Produrre musica con uno strumento.",
+      "antonyms": [
+        "tacere"
+      ],
+      "tenses": {
+        "pres": [
+          "suono",
+          "suoni",
+          "suona",
+          "suoniamo",
+          "suonate",
+          "suonano"
+        ],
+        "pc": [
+          "ho suonato",
+          "hai suonato",
+          "ha suonato",
+          "abbiamo suonato",
+          "avete suonato",
+          "hanno suonato"
+        ],
+        "fut": [
+          "suonerò",
+          "suonerai",
+          "suonerà",
+          "suoneremo",
+          "suonerete",
+          "suoneranno"
+        ],
+        "cond": [
+          "suonerei",
+          "suoneresti",
+          "suonererebbe",
+          "suoneremmo",
+          "suonereste",
+          "suonerebbero"
+        ],
+        "subj": [
+          "che io suoni",
+          "che tu suoni",
+          "che lui/lei suoni",
+          "che noi suoniamo",
+          "che voi suoniate",
+          "che loro suonino"
+        ],
+        "impv": [
+          "suona",
+          "suoniamo",
+          "suonate"
+        ],
+        "part": [
+          "suonante",
+          "suonato"
+        ],
+        "cond_pass": [
+          "avrei suonato",
+          "avresti suonato",
+          "avrebbe suonato",
+          "avremmo suonato",
+          "avreste suonato",
+          "avrebbero suonato"
+        ],
+        "subj_pass": [
+          "abbia suonato",
+          "abbia suonato",
+          "abbia suonato",
+          "abbiamo suonato",
+          "abbiate suonato",
+          "abbiano suonato"
+        ],
+        "subj_imp": [
+          "suonassi",
+          "suonassi",
+          "suonasse",
+          "suonassimo",
+          "suonaste",
+          "suonassero"
+        ],
+        "trap_pass": [
+          "avevo suonato",
+          "avevi suonato",
+          "aveva suonato",
+          "avevamo suonato",
+          "avevate suonato",
+          "avevano suonato"
+        ],
+        "fut_ant": [
+          "avrò suonato",
+          "avrai suonato",
+          "avrà suonato",
+          "avremo suonato",
+          "avrete suonato",
+          "avranno suonato"
+        ],
+        "imp": [
+          "suonavo",
+          "suonavi",
+          "suonava",
+          "suonavamo",
+          "suonavate",
+          "suonavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / a (chitarra)",
+      "irregular": false
+    },
+    "telefonare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Chiamare al telefono.",
+      "antonyms": [
+        "scrivere"
+      ],
+      "tenses": {
+        "pres": [
+          "telefono",
+          "telefoni",
+          "telefona",
+          "telefoniamo",
+          "telefonate",
+          "telefonano"
+        ],
+        "pc": [
+          "ho telefonato",
+          "hai telefonato",
+          "ha telefonato",
+          "abbiamo telefonato",
+          "avete telefonato",
+          "hanno telefonato"
+        ],
+        "fut": [
+          "telefonerò",
+          "telefonerai",
+          "telefonerà",
+          "telefoneremo",
+          "telefonerete",
+          "telefoneranno"
+        ],
+        "cond": [
+          "telefonerei",
+          "telefoneresti",
+          "telefonerebbe",
+          "telefoneremmo",
+          "telefonereste",
+          "telefonerebbero"
+        ],
+        "subj": [
+          "che io telefoni",
+          "che tu telefoni",
+          "che lui/lei telefoni",
+          "che noi telefoniamo",
+          "che voi telefoniate",
+          "che loro telefonino"
+        ],
+        "impv": [
+          "telefona",
+          "telefoniamo",
+          "telefonate"
+        ],
+        "part": [
+          "telefonante",
+          "telefonato"
+        ],
+        "cond_pass": [
+          "avrei telefonato",
+          "avresti telefonato",
+          "avrebbe telefonato",
+          "avremmo telefonato",
+          "avreste telefonato",
+          "avrebbero telefonato"
+        ],
+        "subj_pass": [
+          "abbia telefonato",
+          "abbia telefonato",
+          "abbia telefonato",
+          "abbiamo telefonato",
+          "abbiate telefonato",
+          "abbiano telefonato"
+        ],
+        "subj_imp": [
+          "telefonassi",
+          "telefonassi",
+          "telefonasse",
+          "telefonassimo",
+          "telefonaste",
+          "telefonassero"
+        ],
+        "trap_pass": [
+          "avevo telefonato",
+          "avevi telefonato",
+          "aveva telefonato",
+          "avevamo telefonato",
+          "avevate telefonato",
+          "avevano telefonato"
+        ],
+        "fut_ant": [
+          "avrò telefonato",
+          "avrai telefonato",
+          "avrà telefonato",
+          "avremo telefonato",
+          "avrete telefonato",
+          "avranno telefonato"
+        ],
+        "imp": [
+          "telefonavo",
+          "telefonavi",
+          "telefonava",
+          "telefonavamo",
+          "telefonavate",
+          "telefonavano"
+        ]
+      },
+      "usage_hint": "telefonare a (qualcuno)",
+      "irregular": false
+    },
+    "usare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Adoperare un oggetto.",
+      "antonyms": [
+        "riporre"
+      ],
+      "tenses": {
+        "pres": [
+          "uso",
+          "usi",
+          "usa",
+          "usiamo",
+          "usate",
+          "usano"
+        ],
+        "pc": [
+          "ho usato",
+          "hai usato",
+          "ha usato",
+          "abbiamo usato",
+          "avete usato",
+          "hanno usato"
+        ],
+        "fut": [
+          "userò",
+          "userai",
+          "userà",
+          "useremo",
+          "userete",
+          "useranno"
+        ],
+        "cond": [
+          "userei",
+          "useresti",
+          "userebbe",
+          "useremmo",
+          "usereste",
+          "userebbero"
+        ],
+        "subj": [
+          "che io usi",
+          "che tu usi",
+          "che lui/lei usi",
+          "che noi usiamo",
+          "che voi usiate",
+          "che loro usino"
+        ],
+        "impv": [
+          "usa",
+          "usiamo",
+          "usate"
+        ],
+        "part": [
+          "usante",
+          "usato"
+        ],
+        "cond_pass": [
+          "avrei usato",
+          "avresti usato",
+          "avrebbe usato",
+          "avremmo usato",
+          "avreste usato",
+          "avrebbero usato"
+        ],
+        "subj_pass": [
+          "abbia usato",
+          "abbia usato",
+          "abbia usato",
+          "abbiamo usato",
+          "abbiate usato",
+          "abbiano usato"
+        ],
+        "subj_imp": [
+          "usassi",
+          "usassi",
+          "usasse",
+          "usassimo",
+          "usaste",
+          "usassero"
+        ],
+        "trap_pass": [
+          "avevo usato",
+          "avevi usato",
+          "aveva usato",
+          "avevamo usato",
+          "avevate usato",
+          "avevano usato"
+        ],
+        "fut_ant": [
+          "avrò usato",
+          "avrai usato",
+          "avrà usato",
+          "avremo usato",
+          "avrete usato",
+          "avranno usato"
+        ],
+        "imp": [
+          "usavo",
+          "usavi",
+          "usava",
+          "usavamo",
+          "usavate",
+          "usavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false
+    },
+    "dare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Offrire a qualcuno.",
+      "antonyms": [
+        "prendere"
+      ],
+      "tenses": {
+        "pres": [
+          "do",
+          "dai",
+          "dà",
+          "diamo",
+          "date",
+          "danno"
+        ],
+        "pc": [
+          "ho dato",
+          "hai dato",
+          "ha dato",
+          "abbiamo dato",
+          "avete dato",
+          "hanno dato"
+        ],
+        "fut": [
+          "darò",
+          "darai",
+          "darà",
+          "daremo",
+          "darete",
+          "daranno"
+        ],
+        "cond": [
+          "darei",
+          "daresti",
+          "darebbe",
+          "daremmo",
+          "dareste",
+          "darebbero"
+        ],
+        "subj": [
+          "che io di",
+          "che tu di",
+          "che lui/lei di",
+          "che noi diamo",
+          "che voi diate",
+          "che loro dino"
+        ],
+        "impv": [
+          "da",
+          "diamo",
+          "date"
+        ],
+        "part": [
+          "dante",
+          "dato"
+        ],
+        "cond_pass": [
+          "avrei dato",
+          "avresti dato",
+          "avrebbe dato",
+          "avremmo dato",
+          "avreste dato",
+          "avrebbero dato"
+        ],
+        "subj_pass": [
+          "abbia dato",
+          "abbia dato",
+          "abbia dato",
+          "abbiamo dato",
+          "abbiate dato",
+          "abbiano dato"
+        ],
+        "subj_imp": [
+          "dessi",
+          "dessi",
+          "desse",
+          "dessimo",
+          "deste",
+          "dessero"
+        ],
+        "trap_pass": [
+          "avevo dato",
+          "avevi dato",
+          "aveva dato",
+          "avevamo dato",
+          "avevate dato",
+          "avevano dato"
+        ],
+        "fut_ant": [
+          "avrò dato",
+          "avrai dato",
+          "avrà dato",
+          "avremo dato",
+          "avrete dato",
+          "avranno dato"
+        ],
+        "imp": [
+          "davo",
+          "davi",
+          "dava",
+          "davamo",
+          "davate",
+          "davano"
+        ]
+      },
+      "usage_hint": "dare (qualcosa) a (qualcuno)",
+      "irregular": true
+    },
+    "mangiare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Nutrirsi di cibo.",
+      "antonyms": [
+        "digiunare"
+      ],
+      "tenses": {
+        "pres": [
+          "mangio",
+          "mangi",
+          "mangia",
+          "mangiamo",
+          "mangiate",
+          "mangiano"
+        ],
+        "pc": [
+          "ho mangiato",
+          "hai mangiato",
+          "ha mangiato",
+          "abbiamo mangiato",
+          "avete mangiato",
+          "hanno mangiato"
+        ],
+        "fut": [
+          "mangerò",
+          "mangerai",
+          "mangerà",
+          "mangeremo",
+          "mangerete",
+          "mangeranno"
+        ],
+        "cond": [
+          "mangerei",
+          "mangeresti",
+          "mangerebbe",
+          "mangeremmo",
+          "mangereste",
+          "mangerebbero"
+        ],
+        "subj": [
+          "che io mangii",
+          "che tu mangii",
+          "che lui/lei mangii",
+          "che noi mangiiamo",
+          "che voi mangiiate",
+          "che loro mangiino"
+        ],
+        "impv": [
+          "mangia",
+          "mangiiamo",
+          "mangiate"
+        ],
+        "part": [
+          "mangiante",
+          "mangiato"
+        ],
+        "cond_pass": [
+          "avrei mangiato",
+          "avresti mangiato",
+          "avrebbe mangiato",
+          "avremmo mangiato",
+          "avreste mangiato",
+          "avrebbero mangiato"
+        ],
+        "subj_pass": [
+          "abbia mangiato",
+          "abbia mangiato",
+          "abbia mangiato",
+          "abbiamo mangiato",
+          "abbiate mangiato",
+          "abbiano mangiato"
+        ],
+        "subj_imp": [
+          "mangiassi",
+          "mangiassi",
+          "mangiasse",
+          "mangiassimo",
+          "mangiaste",
+          "mangiassero"
+        ],
+        "trap_pass": [
+          "avevo mangiato",
+          "avevi mangiato",
+          "aveva mangiato",
+          "avevamo mangiato",
+          "avevate mangiato",
+          "avevano mangiato"
+        ],
+        "fut_ant": [
+          "avrò mangiato",
+          "avrai mangiato",
+          "avrà mangiato",
+          "avremo mangiato",
+          "avrete mangiato",
+          "avranno mangiato"
+        ],
+        "imp": [
+          "mangiavo",
+          "mangiavi",
+          "mangiava",
+          "mangiavamo",
+          "mangiavate",
+          "mangiavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (mangiare qualcosa)",
+      "irregular": false
+    },
+    "stare": {
+      "group": "are",
+      "auxiliary": "essere",
+      "level": "A1",
+      "definition": "Trovarsi in una condizione.",
+      "antonyms": [
+        "andare"
+      ],
+      "tenses": {
+        "pres": [
+          "sto",
+          "stai",
+          "sta",
+          "stiamo",
+          "state",
+          "stanno"
+        ],
+        "pc": [
+          "sono stato",
+          "sei stato",
+          "è stato",
+          "siamo stati",
+          "siete stati",
+          "sono stati"
+        ],
+        "fut": [
+          "starò",
+          "starai",
+          "starà",
+          "staremo",
+          "starete",
+          "staranno"
+        ],
+        "cond": [
+          "starei",
+          "staresti",
+          "starebbe",
+          "staremmo",
+          "stareste",
+          "starebbero"
+        ],
+        "subj": [
+          "che io sti",
+          "che tu sti",
+          "che lui/lei sti",
+          "che noi stiamo",
+          "che voi stiate",
+          "che loro stino"
+        ],
+        "impv": [
+          "sta",
+          "stiamo",
+          "state"
+        ],
+        "part": [
+          "stante",
+          "stato"
+        ],
+        "cond_pass": [
+          "sarei stato",
+          "saresti stato",
+          "sarebbe stato",
+          "saremmo stati",
+          "sareste stati",
+          "sarebbero stati"
+        ],
+        "subj_pass": [
+          "sia stato",
+          "sia stato",
+          "sia stato",
+          "siamo stati",
+          "siate stati",
+          "siano stati"
+        ],
+        "subj_imp": [
+          "stessi",
+          "stessi",
+          "stesse",
+          "stessimo",
+          "steste",
+          "stessero"
+        ],
+        "trap_pass": [
+          "ero stato",
+          "eri stato",
+          "era stato",
+          "eravamo stati",
+          "eravate stati",
+          "erano stati"
+        ],
+        "fut_ant": [
+          "sarò stato",
+          "sarai stato",
+          "sarà stato",
+          "saremo stati",
+          "sarete stati",
+          "saranno stati"
+        ],
+        "imp": [
+          "stavo",
+          "stavi",
+          "stava",
+          "stavamo",
+          "stavate",
+          "stavano"
+        ]
+      },
+      "usage_hint": "stare a (casa) / in / con / + gerundio",
+      "irregular": true,
+      "needs_review": true
+    },
+    "invitare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Chiedere di venire.",
+      "antonyms": [
+        "cacciare"
+      ],
+      "tenses": {
+        "pres": [
+          "invito",
+          "inviti",
+          "invita",
+          "invitiamo",
+          "invitate",
+          "invitano"
+        ],
+        "pc": [
+          "ho invitato",
+          "hai invitato",
+          "ha invitato",
+          "abbiamo invitato",
+          "avete invitato",
+          "hanno invitato"
+        ],
+        "fut": [
+          "inviterò",
+          "inviterai",
+          "inviterà",
+          "inviteremo",
+          "inviterete",
+          "inviteranno"
+        ],
+        "cond": [
+          "inviterei",
+          "inviteresti",
+          "inviterebbe",
+          "inviteremmo",
+          "invitereste",
+          "inviterebbero"
+        ],
+        "subj": [
+          "che io inviti",
+          "che tu inviti",
+          "che lui/lei inviti",
+          "che noi invitiamo",
+          "che voi invitiate",
+          "che loro invitino"
+        ],
+        "impv": [
+          "invita",
+          "invitiamo",
+          "invitate"
+        ],
+        "part": [
+          "invitante",
+          "invitato"
+        ],
+        "cond_pass": [
+          "avrei invitato",
+          "avresti invitato",
+          "avrebbe invitato",
+          "avremmo invitato",
+          "avreste invitato",
+          "avrebbero invitato"
+        ],
+        "subj_pass": [
+          "abbia invitato",
+          "abbia invitato",
+          "abbia invitato",
+          "abbiamo invitato",
+          "abbiate invitato",
+          "abbiano invitato"
+        ],
+        "subj_imp": [
+          "invitassi",
+          "invitassi",
+          "invitasse",
+          "invitassimo",
+          "invitaste",
+          "invitassero"
+        ],
+        "trap_pass": [
+          "avevo invitato",
+          "avevi invitato",
+          "aveva invitato",
+          "avevamo invitato",
+          "avevate invitato",
+          "avevano invitato"
+        ],
+        "fut_ant": [
+          "avrò invitato",
+          "avrai invitato",
+          "avrà invitato",
+          "avremo invitato",
+          "avrete invitato",
+          "avranno invitato"
+        ],
+        "imp": [
+          "invitavo",
+          "invitavi",
+          "invitava",
+          "invitavamo",
+          "invitavate",
+          "invitavano"
+        ]
+      },
+      "usage_hint": "invitare (qualcuno) a (cena / fare)",
+      "irregular": false
+    },
+    "lanciare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Scagliare con forza.",
+      "antonyms": [
+        "raccogliere"
+      ],
+      "tenses": {
+        "pres": [
+          "lancio",
+          "lanci",
+          "lancia",
+          "lanciamo",
+          "lanciate",
+          "lanciano"
+        ],
+        "pc": [
+          "ho lanciato",
+          "hai lanciato",
+          "ha lanciato",
+          "abbiamo lanciato",
+          "avete lanciato",
+          "hanno lanciato"
+        ],
+        "fut": [
+          "lancerò",
+          "lancerai",
+          "lancerà",
+          "lanceremo",
+          "lancerete",
+          "lanceranno"
+        ],
+        "cond": [
+          "lancerei",
+          "lanceresti",
+          "lancerebbe",
+          "lanceremmo",
+          "lancereste",
+          "lancerebbero"
+        ],
+        "subj": [
+          "che io lancii",
+          "che tu lancii",
+          "che lui/lei lancii",
+          "che noi lanciiamo",
+          "che voi lanciiate",
+          "che loro lanciino"
+        ],
+        "impv": [
+          "lancia",
+          "lanciiamo",
+          "lanciate"
+        ],
+        "part": [
+          "lanciante",
+          "lanciato"
+        ],
+        "cond_pass": [
+          "avrei lanciato",
+          "avresti lanciato",
+          "avrebbe lanciato",
+          "avremmo lanciato",
+          "avreste lanciato",
+          "avrebbero lanciato"
+        ],
+        "subj_pass": [
+          "abbia lanciato",
+          "abbia lanciato",
+          "abbia lanciato",
+          "abbiamo lanciato",
+          "abbiate lanciato",
+          "abbiano lanciato"
+        ],
+        "subj_imp": [
+          "lanciassi",
+          "lanciassi",
+          "lanciasse",
+          "lanciassimo",
+          "lanciaste",
+          "lanciassero"
+        ],
+        "trap_pass": [
+          "avevo lanciato",
+          "avevi lanciato",
+          "aveva lanciato",
+          "avevamo lanciato",
+          "avevate lanciato",
+          "avevano lanciato"
+        ],
+        "fut_ant": [
+          "avrò lanciato",
+          "avrai lanciato",
+          "avrà lanciato",
+          "avremo lanciato",
+          "avrete lanciato",
+          "avranno lanciato"
+        ],
+        "imp": [
+          "lanciavo",
+          "lanciavi",
+          "lanciava",
+          "lanciavamo",
+          "lanciavate",
+          "lanciavano"
+        ]
+      },
+      "usage_hint": "lanciare (qualcosa) a (qualcuno)",
+      "irregular": false
+    },
+    "lavare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Pulire con acqua.",
+      "antonyms": [
+        "sporcare"
+      ],
+      "tenses": {
+        "pres": [
+          "lavo",
+          "lavi",
+          "lava",
+          "laviamo",
+          "lavate",
+          "lavano"
+        ],
+        "pc": [
+          "ho lavato",
+          "hai lavato",
+          "ha lavato",
+          "abbiamo lavato",
+          "avete lavato",
+          "hanno lavato"
+        ],
+        "fut": [
+          "laverò",
+          "laverai",
+          "laverà",
+          "laveremo",
+          "laverete",
+          "laveranno"
+        ],
+        "cond": [
+          "laverei",
+          "laveresti",
+          "laverebbe",
+          "laveremmo",
+          "lavereste",
+          "laverebbero"
+        ],
+        "subj": [
+          "che io lavi",
+          "che tu lavi",
+          "che lui/lei lavi",
+          "che noi laviamo",
+          "che voi laviate",
+          "che loro lavino"
+        ],
+        "impv": [
+          "lava",
+          "laviamo",
+          "lavate"
+        ],
+        "part": [
+          "lavante",
+          "lavato"
+        ],
+        "cond_pass": [
+          "avrei lavato",
+          "avresti lavato",
+          "avrebbe lavato",
+          "avremmo lavato",
+          "avreste lavato",
+          "avrebbero lavato"
+        ],
+        "subj_pass": [
+          "abbia lavato",
+          "abbia lavato",
+          "abbia lavato",
+          "abbiamo lavato",
+          "abbiate lavato",
+          "abbiano lavato"
+        ],
+        "subj_imp": [
+          "lavassi",
+          "lavassi",
+          "lavasse",
+          "lavassimo",
+          "lavaste",
+          "lavassero"
+        ],
+        "trap_pass": [
+          "avevo lavato",
+          "avevi lavato",
+          "aveva lavato",
+          "avevamo lavato",
+          "avevate lavato",
+          "avevano lavato"
+        ],
+        "fut_ant": [
+          "avrò lavato",
+          "avrai lavato",
+          "avrà lavato",
+          "avremo lavato",
+          "avrete lavato",
+          "avranno lavato"
+        ],
+        "imp": [
+          "lavavo",
+          "lavavi",
+          "lavava",
+          "lavavamo",
+          "lavavate",
+          "lavavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (lavare i piatti)",
+      "irregular": false
+    },
+    "mancare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Fattore di assenza.",
+      "antonyms": [
+        "bastare"
+      ],
+      "tenses": {
+        "pres": [
+          "manco",
+          "manchi",
+          "manca",
+          "manchiamo",
+          "mancate",
+          "mancano"
+        ],
+        "pc": [
+          "ho mancato",
+          "hai mancato",
+          "ha mancato",
+          "abbiamo mancato",
+          "avete mancato",
+          "hanno mancato"
+        ],
+        "fut": [
+          "mancherò",
+          "mancherai",
+          "mancherà",
+          "mancheremo",
+          "mancherete",
+          "mancheranno"
+        ],
+        "cond": [
+          "mancherei",
+          "mancheresti",
+          "mancherebbe",
+          "mancheremmo",
+          "manchereste",
+          "mancherebbero"
+        ],
+        "subj": [
+          "che io manci",
+          "che tu manci",
+          "che lui/lei manci",
+          "che noi manciamo",
+          "che voi manciate",
+          "che loro mancino"
+        ],
+        "impv": [
+          "manca",
+          "manciamo",
+          "mancate"
+        ],
+        "part": [
+          "mancante",
+          "mancato"
+        ],
+        "cond_pass": [
+          "avrei mancato",
+          "avresti mancato",
+          "avrebbe mancato",
+          "avremmo mancato",
+          "avreste mancato",
+          "avrebbero mancato"
+        ],
+        "subj_pass": [
+          "abbia mancato",
+          "abbia mancato",
+          "abbia mancato",
+          "abbiamo mancato",
+          "abbiate mancato",
+          "abbiano mancato"
+        ],
+        "subj_imp": [
+          "mancassi",
+          "mancassi",
+          "mancasse",
+          "mancassimo",
+          "mancaste",
+          "mancassero"
+        ],
+        "trap_pass": [
+          "avevo mancato",
+          "avevi mancato",
+          "aveva mancato",
+          "avevamo mancato",
+          "avevate mancato",
+          "avevano mancato"
+        ],
+        "fut_ant": [
+          "avrò mancato",
+          "avrai mancato",
+          "avrà mancato",
+          "avremo mancato",
+          "avrete mancato",
+          "avranno mancato"
+        ],
+        "imp": [
+          "mancavo",
+          "mancavi",
+          "mancava",
+          "mancavamo",
+          "mancavate",
+          "mancavano"
+        ]
+      },
+      "usage_hint": "mancare a (qualcuno: mi manchi)",
+      "irregular": false
+    },
+    "riposare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Riconquistare le forze.",
+      "antonyms": [
+        "faticare"
+      ],
+      "tenses": {
+        "pres": [
+          "riposo",
+          "riposi",
+          "riposa",
+          "riposiamo",
+          "riposate",
+          "riposano"
+        ],
+        "pc": [
+          "ho riposato",
+          "hai riposato",
+          "ha riposato",
+          "abbiamo riposato",
+          "avete riposato",
+          "hanno riposato"
+        ],
+        "fut": [
+          "riposerò",
+          "riposerai",
+          "riposerà",
+          "riposeremo",
+          "riposerete",
+          "riposeranno"
+        ],
+        "cond": [
+          "riposerei",
+          "riposeresti",
+          "riposerebbe",
+          "riposeremmo",
+          "riposereste",
+          "riposerebbero"
+        ],
+        "subj": [
+          "che io riposi",
+          "che tu riposi",
+          "che lui/lei riposi",
+          "che noi riposiamo",
+          "che voi riposiate",
+          "che loro riposino"
+        ],
+        "impv": [
+          "riposa",
+          "riposiamo",
+          "riposate"
+        ],
+        "part": [
+          "riposante",
+          "riposato"
+        ],
+        "cond_pass": [
+          "avrei riposato",
+          "avresti riposato",
+          "avrebbe riposato",
+          "avremmo riposato",
+          "avreste riposato",
+          "avrebbero riposato"
+        ],
+        "subj_pass": [
+          "abbia riposato",
+          "abbia riposato",
+          "abbia riposato",
+          "abbiamo riposato",
+          "abbiate riposato",
+          "abbiano riposato"
+        ],
+        "subj_imp": [
+          "riposassi",
+          "riposassi",
+          "riposasse",
+          "riposassimo",
+          "riposaste",
+          "riposassero"
+        ],
+        "trap_pass": [
+          "avevo riposato",
+          "avevi riposato",
+          "aveva riposato",
+          "avevamo riposato",
+          "avevate riposato",
+          "avevano riposato"
+        ],
+        "fut_ant": [
+          "avrò riposato",
+          "avrai riposato",
+          "avrà riposato",
+          "avremo riposato",
+          "avrete riposato",
+          "avranno riposato"
+        ],
+        "imp": [
+          "riposavo",
+          "riposavi",
+          "riposava",
+          "riposavamo",
+          "riposavate",
+          "riposavano"
+        ]
+      },
+      "usage_hint": "riposarsi in / su",
+      "irregular": false
+    },
+    "svegliare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Interrompere il sonno.",
+      "antonyms": [
+        "addormentare"
+      ],
+      "tenses": {
+        "pres": [
+          "sveglio",
+          "svegli",
+          "sveglia",
+          "svegliamo",
+          "svegliate",
+          "svegliano"
+        ],
+        "pc": [
+          "ho svegliato",
+          "hai svegliato",
+          "ha svegliato",
+          "abbiamo svegliato",
+          "avete svegliato",
+          "hanno svegliato"
+        ],
+        "fut": [
+          "sveglierò",
+          "sveglierai",
+          "sveglierà",
+          "sveglieremo",
+          "sveglierete",
+          "sveglieranno"
+        ],
+        "cond": [
+          "sveglierei",
+          "sveglieresti",
+          "sveglierebbe",
+          "sveglieremmo",
+          "svegliereste",
+          "sveglierebbero"
+        ],
+        "subj": [
+          "che io sveglii",
+          "che tu sveglii",
+          "che lui/lei sveglii",
+          "che noi svegliiamo",
+          "che voi svegliiate",
+          "che loro svegliino"
+        ],
+        "impv": [
+          "sveglia",
+          "svegliiamo",
+          "svegliate"
+        ],
+        "part": [
+          "svegliante",
+          "svegliato"
+        ],
+        "cond_pass": [
+          "avrei svegliato",
+          "avresti svegliato",
+          "avrebbe svegliato",
+          "avremmo svegliato",
+          "avreste svegliato",
+          "avrebbero svegliato"
+        ],
+        "subj_pass": [
+          "abbia svegliato",
+          "abbia svegliato",
+          "abbia svegliato",
+          "abbiamo svegliato",
+          "abbiate svegliato",
+          "abbiano svegliato"
+        ],
+        "subj_imp": [
+          "svegliassi",
+          "svegliassi",
+          "svegliasse",
+          "svegliassimo",
+          "svegliaste",
+          "svegliassero"
+        ],
+        "trap_pass": [
+          "avevo svegliato",
+          "avevi svegliato",
+          "aveva svegliato",
+          "avevamo svegliato",
+          "avevate svegliato",
+          "avevano svegliato"
+        ],
+        "fut_ant": [
+          "avrò svegliato",
+          "avrai svegliato",
+          "avrà svegliato",
+          "avremo svegliato",
+          "avrete svegliato",
+          "avranno svegliato"
+        ],
+        "imp": [
+          "svegliavo",
+          "svegliavi",
+          "svegliava",
+          "svegliavamo",
+          "svegliavate",
+          "svegliavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / svegliarsi alle",
+      "irregular": true
+    },
+    "annullare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Rendere nullo.",
+      "antonyms": [
+        "confermare"
+      ],
+      "tenses": {
+        "pres": [
+          "annullo",
+          "annulli",
+          "annulla",
+          "annulliamo",
+          "annullate",
+          "annullano"
+        ],
+        "pc": [
+          "ho annullato",
+          "hai annullato",
+          "ha annullato",
+          "abbiamo annullato",
+          "avete annullato",
+          "hanno annullato"
+        ],
+        "fut": [
+          "annullerò",
+          "annullerai",
+          "annullerà",
+          "annulleremo",
+          "annullerete",
+          "annulleranno"
+        ],
+        "cond": [
+          "annullerei",
+          "annulleresti",
+          "annullerebbe",
+          "annulleremmo",
+          "annullereste",
+          "annullerebbero"
+        ],
+        "subj": [
+          "che io annulli",
+          "che tu annulli",
+          "che lui/lei annulli",
+          "che noi annulliamo",
+          "che voi annulliate",
+          "che loro annullino"
+        ],
+        "impv": [
+          "annulla",
+          "annulliamo",
+          "annullate"
+        ],
+        "part": [
+          "annullante",
+          "annullato"
+        ],
+        "cond_pass": [
+          "avrei annullato",
+          "avresti annullato",
+          "avrebbe annullato",
+          "avremmo annullato",
+          "avreste annullato",
+          "avrebbero annullato"
+        ],
+        "subj_pass": [
+          "abbia annullato",
+          "abbia annullato",
+          "abbia annullato",
+          "abbiamo annullato",
+          "abbiate annullato",
+          "abbiano annullato"
+        ],
+        "subj_imp": [
+          "annullassi",
+          "annullassi",
+          "annullasse",
+          "annullassimo",
+          "annullaste",
+          "annullassero"
+        ],
+        "trap_pass": [
+          "avevo annullato",
+          "avevi annullato",
+          "aveva annullato",
+          "avevamo annullato",
+          "avevate annullato",
+          "avevano annullato"
+        ],
+        "fut_ant": [
+          "avrò annullato",
+          "avrai annullato",
+          "avrà annullato",
+          "avremo annullato",
+          "avrete annullato",
+          "avranno annullato"
+        ],
+        "imp": [
+          "annullavo",
+          "annullavi",
+          "annullava",
+          "annullavamo",
+          "annullavate",
+          "annullavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto",
+      "irregular": false
+    },
+    "aumentare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Rendere maggiore.",
+      "antonyms": [
+        "diminuire"
+      ],
+      "tenses": {
+        "pres": [
+          "aumento",
+          "aumenti",
+          "aumenta",
+          "aumentiamo",
+          "aumentate",
+          "aumentano"
+        ],
+        "pc": [
+          "ho aumentato",
+          "hai aumentato",
+          "ha aumentato",
+          "abbiamo aumentato",
+          "avete aumentato",
+          "hanno aumentato"
+        ],
+        "fut": [
+          "aumenterò",
+          "aumenterai",
+          "aumenterà",
+          "aumenteremo",
+          "aumenterete",
+          "aumenteranno"
+        ],
+        "cond": [
+          "aumenterei",
+          "aumenteresti",
+          "aumenterebbe",
+          "aumenteremmo",
+          "aumentereste",
+          "aumenterebbero"
+        ],
+        "subj": [
+          "che io aumenti",
+          "che tu aumenti",
+          "che lui/lei aumenti",
+          "che noi aumentiamo",
+          "che voi aumentiate",
+          "che loro aumentino"
+        ],
+        "impv": [
+          "aumenta",
+          "aumentiamo",
+          "aumentate"
+        ],
+        "part": [
+          "aumentante",
+          "aumentato"
+        ],
+        "cond_pass": [
+          "avrei aumentato",
+          "avresti aumentato",
+          "avrebbe aumentato",
+          "avremmo aumentato",
+          "avreste aumentato",
+          "avrebbero aumentato"
+        ],
+        "subj_pass": [
+          "abbia aumentato",
+          "abbia aumentato",
+          "abbia aumentato",
+          "abbiamo aumentato",
+          "abbiate aumentato",
+          "abbiano aumentato"
+        ],
+        "subj_imp": [
+          "aumentassi",
+          "aumentassi",
+          "aumentasse",
+          "aumentassimo",
+          "aumentaste",
+          "aumentassero"
+        ],
+        "trap_pass": [
+          "avevo aumentato",
+          "avevi aumentato",
+          "aveva aumentato",
+          "avevamo aumentato",
+          "avevate aumentato",
+          "avevano aumentato"
+        ],
+        "fut_ant": [
+          "avrò aumentato",
+          "avrai aumentato",
+          "avrà aumentato",
+          "avremo aumentato",
+          "avrete aumentato",
+          "avranno aumentato"
+        ],
+        "imp": [
+          "aumentavo",
+          "aumentavi",
+          "aumentava",
+          "aumentavamo",
+          "aumentavate",
+          "aumentavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / di (percentuale)",
+      "irregular": false
+    },
+    "cenare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Fare il pasto serale.",
+      "antonyms": [
+        "digiunare"
+      ],
+      "tenses": {
+        "pres": [
+          "ceno",
+          "ceni",
+          "cena",
+          "ceniamo",
+          "cenate",
+          "cenano"
+        ],
+        "pc": [
+          "ho cenato",
+          "hai cenato",
+          "ha cenato",
+          "abbiamo cenato",
+          "avete cenato",
+          "hanno cenato"
+        ],
+        "fut": [
+          "cenerò",
+          "cenerai",
+          "cenerà",
+          "ceneremo",
+          "cenerete",
+          "ceneranno"
+        ],
+        "cond": [
+          "cenerei",
+          "ceneresti",
+          "cenerebbe",
+          "ceneremmo",
+          "cenereste",
+          "cenerebbero"
+        ],
+        "subj": [
+          "che io ceni",
+          "che tu ceni",
+          "che lui/lei ceni",
+          "che noi ceniamo",
+          "che voi ceniate",
+          "che loro cenino"
+        ],
+        "impv": [
+          "cena",
+          "ceniamo",
+          "cenate"
+        ],
+        "part": [
+          "cenante",
+          "cenato"
+        ],
+        "cond_pass": [
+          "avrei cenato",
+          "avresti cenato",
+          "avrebbe cenato",
+          "avremmo cenato",
+          "avreste cenato",
+          "avrebbero cenato"
+        ],
+        "subj_pass": [
+          "abbia cenato",
+          "abbia cenato",
+          "abbia cenato",
+          "abbiamo cenato",
+          "abbiate cenato",
+          "abbiano cenato"
+        ],
+        "subj_imp": [
+          "cenassi",
+          "cenassi",
+          "cenasse",
+          "cenassimo",
+          "cenaste",
+          "cenassero"
+        ],
+        "trap_pass": [
+          "avevo cenato",
+          "avevi cenato",
+          "aveva cenato",
+          "avevamo cenato",
+          "avevate cenato",
+          "avevano cenato"
+        ],
+        "fut_ant": [
+          "avrò cenato",
+          "avrai cenato",
+          "avrà cenato",
+          "avremo cenato",
+          "avrete cenato",
+          "avranno cenato"
+        ],
+        "imp": [
+          "cenavo",
+          "cenavi",
+          "cenava",
+          "cenavamo",
+          "cenavate",
+          "cenavano"
+        ]
+      },
+      "usage_hint": "cenare con / a (casa)",
+      "irregular": false
+    },
+    "consegnare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Affidare a mano.",
+      "antonyms": [
+        "trattenere"
+      ],
+      "tenses": {
+        "pres": [
+          "consegno",
+          "consegni",
+          "consegna",
+          "consegniamo",
+          "consegnate",
+          "consegnano"
+        ],
+        "pc": [
+          "ho consegnato",
+          "hai consegnato",
+          "ha consegnato",
+          "abbiamo consegnato",
+          "avete consegnato",
+          "hanno consegnato"
+        ],
+        "fut": [
+          "consegnerò",
+          "consegnerai",
+          "consegnerà",
+          "consegneremo",
+          "consegnerete",
+          "consegneranno"
+        ],
+        "cond": [
+          "consegnerei",
+          "consegneresti",
+          "consegnerebbe",
+          "consegneremmo",
+          "consegnereste",
+          "consegnerebbero"
+        ],
+        "subj": [
+          "che io consegni",
+          "che tu consegni",
+          "che lui/lei consegni",
+          "che noi consegniamo",
+          "che voi consegniate",
+          "che loro consegnino"
+        ],
+        "impv": [
+          "consegna",
+          "consegniamo",
+          "consegnate"
+        ],
+        "part": [
+          "consegnante",
+          "consegnato"
+        ],
+        "cond_pass": [
+          "avrei consegnato",
+          "avresti consegnato",
+          "avrebbe consegnato",
+          "avremmo consegnato",
+          "avreste consegnato",
+          "avrebbero consegnato"
+        ],
+        "subj_pass": [
+          "abbia consegnato",
+          "abbia consegnato",
+          "abbia consegnato",
+          "abbiamo consegnato",
+          "abbiate consegnato",
+          "abbiano consegnato"
+        ],
+        "subj_imp": [
+          "consegnassi",
+          "consegnassi",
+          "consegnasse",
+          "consegnassimo",
+          "consegnaste",
+          "consegnassero"
+        ],
+        "trap_pass": [
+          "avevo consegnato",
+          "avevi consegnato",
+          "aveva consegnato",
+          "avevamo consegnato",
+          "avevate consegnato",
+          "avevano consegnato"
+        ],
+        "fut_ant": [
+          "avrò consegnato",
+          "avrai consegnato",
+          "avrà consegnato",
+          "avremo consegnato",
+          "avrete consegnato",
+          "avranno consegnato"
+        ],
+        "imp": [
+          "consegnavo",
+          "consegnavi",
+          "consegnava",
+          "consegnavamo",
+          "consegnavate",
+          "consegnavano"
+        ]
+      },
+      "usage_hint": "consegnare (qualcosa) a (qualcuno)",
+      "irregular": false
+    },
+    "desiderare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Bramare fortemente.",
+      "antonyms": [
+        "rifiutare"
+      ],
+      "tenses": {
+        "pres": [
+          "desidero",
+          "desideri",
+          "desidera",
+          "desideriamo",
+          "desiderate",
+          "desiderano"
+        ],
+        "pc": [
+          "ho desiderato",
+          "hai desiderato",
+          "ha desiderato",
+          "abbiamo desiderato",
+          "avete desiderato",
+          "hanno desiderato"
+        ],
+        "fut": [
+          "desidererò",
+          "desidererai",
+          "desidererà",
+          "desidereremo",
+          "desidererete",
+          "desidereranno"
+        ],
+        "cond": [
+          "desidererei",
+          "desidereresti",
+          "desidererebbe",
+          "desidereremmo",
+          "desiderereste",
+          "desidererebbero"
+        ],
+        "subj": [
+          "che io desideri",
+          "che tu desideri",
+          "che lui/lei desideri",
+          "che noi desideriamo",
+          "che voi desideriate",
+          "che loro desiderino"
+        ],
+        "impv": [
+          "desidera",
+          "desideriamo",
+          "desiderate"
+        ],
+        "part": [
+          "desiderante",
+          "desiderato"
+        ],
+        "cond_pass": [
+          "avrei desiderato",
+          "avresti desiderato",
+          "avrebbe desiderato",
+          "avremmo desiderato",
+          "avreste desiderato",
+          "avrebbero desiderato"
+        ],
+        "subj_pass": [
+          "abbia desiderato",
+          "abbia desiderato",
+          "abbia desiderato",
+          "abbiamo desiderato",
+          "abbiate desiderato",
+          "abbiano desiderato"
+        ],
+        "subj_imp": [
+          "desiderassi",
+          "desiderassi",
+          "desiderasse",
+          "desiderassimo",
+          "desideraste",
+          "desiderassero"
+        ],
+        "trap_pass": [
+          "avevo desiderato",
+          "avevi desiderato",
+          "aveva desiderato",
+          "avevamo desiderato",
+          "avevate desiderato",
+          "avevano desiderato"
+        ],
+        "fut_ant": [
+          "avrò desiderato",
+          "avrai desiderato",
+          "avrà desiderato",
+          "avremo desiderato",
+          "avrete desiderato",
+          "avranno desiderato"
+        ],
+        "imp": [
+          "desideravo",
+          "desideravi",
+          "desiderava",
+          "desideravamo",
+          "desideravate",
+          "desideravano"
+        ]
+      },
+      "usage_hint": "desiderare + oggetto diretto / + infinito",
+      "irregular": false
+    },
+    "regalare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Donare senza compenso.",
+      "antonyms": [
+        "vendere"
+      ],
+      "tenses": {
+        "pres": [
+          "regalo",
+          "regali",
+          "regala",
+          "regaliamo",
+          "regalate",
+          "regalano"
+        ],
+        "pc": [
+          "ho regalato",
+          "hai regalato",
+          "ha regalato",
+          "abbiamo regalato",
+          "avete regalato",
+          "hanno regalato"
+        ],
+        "fut": [
+          "regalerò",
+          "regalerai",
+          "regalerà",
+          "regaleremo",
+          "regalerete",
+          "regaleranno"
+        ],
+        "cond": [
+          "regalerei",
+          "regaleresti",
+          "regalerebbe",
+          "regaleremmo",
+          "regalereste",
+          "regalerebbero"
+        ],
+        "subj": [
+          "che io regali",
+          "che tu regali",
+          "che lui/lei regali",
+          "che noi regaliamo",
+          "che voi regaliate",
+          "che loro regalino"
+        ],
+        "impv": [
+          "regala",
+          "regaliamo",
+          "regalate"
+        ],
+        "part": [
+          "regalante",
+          "regalato"
+        ],
+        "cond_pass": [
+          "avrei regalato",
+          "avresti regalato",
+          "avrebbe regalato",
+          "avremmo regalato",
+          "avreste regalato",
+          "avrebbero regalato"
+        ],
+        "subj_pass": [
+          "abbia regalato",
+          "abbia regalato",
+          "abbia regalato",
+          "abbiamo regalato",
+          "abbiate regalato",
+          "abbiano regalato"
+        ],
+        "subj_imp": [
+          "regalassi",
+          "regalassi",
+          "regalasse",
+          "regalassimo",
+          "regalaste",
+          "regalassero"
+        ],
+        "trap_pass": [
+          "avevo regalato",
+          "avevi regalato",
+          "aveva regalato",
+          "avevamo regalato",
+          "avevate regalato",
+          "avevano regalato"
+        ],
+        "fut_ant": [
+          "avrò regalato",
+          "avrai regalato",
+          "avrà regalato",
+          "avremo regalato",
+          "avrete regalato",
+          "avranno regalato"
+        ],
+        "imp": [
+          "regalavo",
+          "regalavi",
+          "regalava",
+          "regalavamo",
+          "regalavate",
+          "regalavano"
+        ]
+      },
+      "usage_hint": "regalare (qualcosa) a (qualcuno)",
+      "irregular": false
+    },
+    "ringraziare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Rendere grazie.",
+      "antonyms": [
+        "offendere"
+      ],
+      "tenses": {
+        "pres": [
+          "ringrazio",
+          "ringrazi",
+          "ringrazia",
+          "ringraziamo",
+          "ringraziate",
+          "ringraziano"
+        ],
+        "pc": [
+          "ho ringraziato",
+          "hai ringraziato",
+          "ha ringraziato",
+          "abbiamo ringraziato",
+          "avete ringraziato",
+          "hanno ringraziato"
+        ],
+        "fut": [
+          "ringrazierò",
+          "ringrazierai",
+          "ringrazierà",
+          "ringrazieremo",
+          "ringrazierete",
+          "ringrazieranno"
+        ],
+        "cond": [
+          "ringrazierei",
+          "ringrazieresti",
+          "ringrazierebbe",
+          "ringrazieremmo",
+          "ringraziereste",
+          "ringrazierebbero"
+        ],
+        "subj": [
+          "che io ringrazii",
+          "che tu ringrazii",
+          "che lui/lei ringrazii",
+          "che noi ringraziiamo",
+          "che voi ringraziiate",
+          "che loro ringraziino"
+        ],
+        "impv": [
+          "ringrazia",
+          "ringraziiamo",
+          "ringraziate"
+        ],
+        "part": [
+          "ringraziante",
+          "ringraziato"
+        ],
+        "cond_pass": [
+          "avrei ringraziato",
+          "avresti ringraziato",
+          "avrebbe ringraziato",
+          "avremmo ringraziato",
+          "avreste ringraziato",
+          "avrebbero ringraziato"
+        ],
+        "subj_pass": [
+          "abbia ringraziato",
+          "abbia ringraziato",
+          "abbia ringraziato",
+          "abbiamo ringraziato",
+          "abbiate ringraziato",
+          "abbiano ringraziato"
+        ],
+        "subj_imp": [
+          "ringraziassi",
+          "ringraziassi",
+          "ringraziasse",
+          "ringraziassimo",
+          "ringraziaste",
+          "ringraziassero"
+        ],
+        "trap_pass": [
+          "avevo ringraziato",
+          "avevi ringraziato",
+          "aveva ringraziato",
+          "avevamo ringraziato",
+          "avevate ringraziato",
+          "avevano ringraziato"
+        ],
+        "fut_ant": [
+          "avrò ringraziato",
+          "avrai ringraziato",
+          "avrà ringraziato",
+          "avremo ringraziato",
+          "avrete ringraziato",
+          "avranno ringraziato"
+        ],
+        "imp": [
+          "ringraziavo",
+          "ringraziavi",
+          "ringraziava",
+          "ringraziavamo",
+          "ringraziavate",
+          "ringraziavano"
+        ]
+      },
+      "usage_hint": "ringraziare (qualcuno) per (qualcosa)",
+      "irregular": true
+    },
+    "sbagliare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A1",
+      "definition": "Commettere errore.",
+      "antonyms": [
+        "indovinare"
+      ],
+      "tenses": {
+        "pres": [
+          "sbaglio",
+          "sbagli",
+          "sbaglia",
+          "sbagliamo",
+          "sbagliate",
+          "sbagliano"
+        ],
+        "pc": [
+          "ho sbagliato",
+          "hai sbagliato",
+          "ha sbagliato",
+          "abbiamo sbagliato",
+          "avete sbagliato",
+          "hanno sbagliato"
+        ],
+        "fut": [
+          "sbaglierò",
+          "sbaglierai",
+          "sbaglierà",
+          "sbaglieremo",
+          "sbaglierete",
+          "sbaglieranno"
+        ],
+        "cond": [
+          "sbaglierei",
+          "sbaglieresti",
+          "sbaglierebbe",
+          "sbaglieremmo",
+          "sbagliereste",
+          "sbaglierebbero"
+        ],
+        "subj": [
+          "che io sbaglii",
+          "che tu sbaglii",
+          "che lui/lei sbaglii",
+          "che noi sbagliiamo",
+          "che voi sbagliiate",
+          "che loro sbagliino"
+        ],
+        "impv": [
+          "sbaglia",
+          "sbagliiamo",
+          "sbagliate"
+        ],
+        "part": [
+          "sbagliante",
+          "sbagliato"
+        ],
+        "cond_pass": [
+          "avrei sbagliato",
+          "avresti sbagliato",
+          "avrebbe sbagliato",
+          "avremmo sbagliato",
+          "avreste sbagliato",
+          "avrebbero sbagliato"
+        ],
+        "subj_pass": [
+          "abbia sbagliato",
+          "abbia sbagliato",
+          "abbia sbagliato",
+          "abbiamo sbagliato",
+          "abbiate sbagliato",
+          "abbiano sbagliato"
+        ],
+        "subj_imp": [
+          "sbagliassi",
+          "sbagliassi",
+          "sbagliasse",
+          "sbagliassimo",
+          "sbagliaste",
+          "sbagliassero"
+        ],
+        "trap_pass": [
+          "avevo sbagliato",
+          "avevi sbagliato",
+          "aveva sbagliato",
+          "avevamo sbagliato",
+          "avevate sbagliato",
+          "avevano sbagliato"
+        ],
+        "fut_ant": [
+          "avrò sbagliato",
+          "avrai sbagliato",
+          "avrà sbagliato",
+          "avremo sbagliato",
+          "avrete sbagliato",
+          "avranno sbagliato"
+        ],
+        "imp": [
+          "sbagliavo",
+          "sbagliavi",
+          "sbagliava",
+          "sbagliavamo",
+          "sbagliavate",
+          "sbagliavano"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / a (fare)",
+      "irregular": true
+    },
+    "votare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Esprimere il voto.",
+      "antonyms": [
+        "astenersi"
+      ],
+      "tenses": {
+        "pres": [
+          "voto",
+          "voti",
+          "vota",
+          "votiamo",
+          "votate",
+          "votano"
+        ],
+        "pc": [
+          "ho votato",
+          "hai votato",
+          "ha votato",
+          "abbiamo votato",
+          "avete votato",
+          "hanno votato"
+        ],
+        "fut": [
+          "voterò",
+          "voterai",
+          "voterà",
+          "voteremo",
+          "voterete",
+          "voteranno"
+        ],
+        "cond": [
+          "voterei",
+          "voteresti",
+          "voterebbe",
+          "voteremmo",
+          "votereste",
+          "voterebbero"
+        ],
+        "subj": [
+          "che io voti",
+          "che tu voti",
+          "che lui/lei voti",
+          "che noi votiamo",
+          "che voi votiate",
+          "che loro votino"
+        ],
+        "impv": [
+          "vota",
+          "votiamo",
+          "votate"
+        ],
+        "part": [
+          "votante",
+          "votato"
+        ],
+        "cond_pass": [
+          "avrei votato",
+          "avresti votato",
+          "avrebbe votato",
+          "avremmo votato",
+          "avreste votato",
+          "avrebbero votato"
+        ],
+        "subj_pass": [
+          "abbia votato",
+          "abbia votato",
+          "abbia votato",
+          "abbiamo votato",
+          "abbiate votato",
+          "abbiano votato"
+        ],
+        "subj_imp": [
+          "votassi",
+          "votassi",
+          "votasse",
+          "votassimo",
+          "votaste",
+          "votassero"
+        ],
+        "trap_pass": [
+          "avevo votato",
+          "avevi votato",
+          "aveva votato",
+          "avevamo votato",
+          "avevate votato",
+          "avevano votato"
+        ],
+        "fut_ant": [
+          "avrò votato",
+          "avrai votato",
+          "avrà votato",
+          "avremo votato",
+          "avrete votato",
+          "avranno votato"
+        ],
+        "imp": [
+          "votavo",
+          "votavi",
+          "votava",
+          "votavamo",
+          "votavate",
+          "votavano"
+        ]
+      },
+      "usage_hint": "votare per / + oggetto diretto",
+      "irregular": false
+    },
+    "avvisare": {
+      "group": "are",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Dare un avviso.",
+      "antonyms": [
+        "nascondere"
+      ],
+      "tenses": {
+        "pres": [
+          "avviso",
+          "avvisi",
+          "avvisa",
+          "avvisiamo",
+          "avvisate",
+          "avvisano"
+        ],
+        "pc": [
+          "ho avvisato",
+          "hai avvisato",
+          "ha avvisato",
+          "abbiamo avvisato",
+          "avete avvisato",
+          "hanno avvisato"
+        ],
+        "fut": [
+          "avviserò",
+          "avviserai",
+          "avviserà",
+          "avviseremo",
+          "avviserete",
+          "avviseranno"
+        ],
+        "cond": [
+          "avviserei",
+          "avviseresti",
+          "avviserebbe",
+          "avviseremmo",
+          "avvisereste",
+          "avviserebbero"
+        ],
+        "subj": [
+          "che io avvisi",
+          "che tu avvisi",
+          "che lui/lei avvisi",
+          "che noi avvisiamo",
+          "che voi avvisiate",
+          "che loro avvisino"
+        ],
+        "impv": [
+          "avvisa",
+          "avvisiamo",
+          "avvisate"
+        ],
+        "part": [
+          "avvisante",
+          "avvisato"
+        ],
+        "cond_pass": [
+          "avrei avvisato",
+          "avresti avvisato",
+          "avrebbe avvisato",
+          "avremmo avvisato",
+          "avreste avvisato",
+          "avrebbero avvisato"
+        ],
+        "subj_pass": [
+          "abbia avvisato",
+          "abbia avvisato",
+          "abbia avvisato",
+          "abbiamo avvisato",
+          "abbiate avvisato",
+          "abbiano avvisato"
+        ],
+        "subj_imp": [
+          "avvisassi",
+          "avvisassi",
+          "avvisasse",
+          "avvisassimo",
+          "avvisaste",
+          "avvisassero"
+        ],
+        "trap_pass": [
+          "avevo avvisato",
+          "avevi avvisato",
+          "aveva avvisato",
+          "avevamo avvisato",
+          "avevate avvisato",
+          "avevano avvisato"
+        ],
+        "fut_ant": [
+          "avrò avvisato",
+          "avrai avvisato",
+          "avrà avvisato",
+          "avremo avvisato",
+          "avrete avvisato",
+          "avranno avvisato"
+        ],
+        "imp": [
+          "avvisavo",
+          "avvisavi",
+          "avvisava",
+          "avvisavamo",
+          "avvisavate",
+          "avvisavano"
+        ]
+      },
+      "usage_hint": "avvisare (qualcuno) di (qualcosa)",
+      "irregular": false
+    }
+  }
+}

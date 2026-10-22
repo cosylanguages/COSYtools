@@ -1,0 +1,1770 @@
+{
+  "group_name": "3a coniugazione",
+  "verbs": {
+    "partire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Andarsene da un luogo.",
+      "antonyms": [
+        "arrivare"
+      ],
+      "tenses": {
+        "pres": [
+          "parto",
+          "parti",
+          "parte",
+          "partiamo",
+          "partite",
+          "partono"
+        ],
+        "imp": [
+          "partivo",
+          "partivi",
+          "partiva",
+          "partivamo",
+          "partivate",
+          "partivano"
+        ],
+        "fut": [
+          "partirò",
+          "partirai",
+          "partirà",
+          "partiremo",
+          "partirete",
+          "partiranno"
+        ],
+        "cond": [
+          "partirei",
+          "partiresti",
+          "partirebbe",
+          "partiremmo",
+          "partireste",
+          "partirebbero"
+        ],
+        "subj": [
+          "che io parta",
+          "che tu parta",
+          "che egli parta",
+          "che noi partiamo",
+          "che voi partiate",
+          "che essi partano"
+        ],
+        "impv": [
+          "parti!",
+          "partiamo!",
+          "partite!"
+        ],
+        "part": [
+          "partito"
+        ],
+        "cond_pass": [
+          "sarei partito",
+          "saresti partito",
+          "sarebbe partito",
+          "saremmo partiti",
+          "sareste partiti",
+          "sarebbero partiti"
+        ],
+        "subj_pass": [
+          "sia partito",
+          "sia partito",
+          "sia partito",
+          "siamo partiti",
+          "siate partiti",
+          "siano partiti"
+        ],
+        "subj_imp": [
+          "partissi",
+          "partissi",
+          "partisse",
+          "partissimo",
+          "partiste",
+          "partissero"
+        ],
+        "trap_pass": [
+          "ero partito",
+          "eri partito",
+          "era partito",
+          "eravamo partiti",
+          "eravate partiti",
+          "erano partiti"
+        ],
+        "fut_ant": [
+          "sarò partito",
+          "sarai partito",
+          "sarà partito",
+          "saremo partiti",
+          "sarete partiti",
+          "saranno partiti"
+        ],
+        "pc": [
+          "sono partito",
+          "sei partito",
+          "è partito",
+          "siamo partiti",
+          "siete partiti",
+          "sono partiti"
+        ]
+      },
+      "usage_hint": "intransitivo: partire per (destinazione) / da (luogo)",
+      "auxiliary": "essere",
+      "irregular": false
+    },
+    "sentire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Percepire con l'udito.",
+      "antonyms": [
+        "ignorare"
+      ],
+      "tenses": {
+        "pres": [
+          "sento",
+          "senti",
+          "sente",
+          "sentiamo",
+          "sentite",
+          "sentono"
+        ],
+        "imp": [
+          "sentivo",
+          "sentivi",
+          "sentiva",
+          "sentivamo",
+          "sentivate",
+          "sentivano"
+        ],
+        "fut": [
+          "sentirò",
+          "sentirai",
+          "sentirà",
+          "sentiremo",
+          "sentirete",
+          "sentiranno"
+        ],
+        "cond": [
+          "sentirei",
+          "sentiresti",
+          "sentirebbe",
+          "sentiremmo",
+          "sentireste",
+          "sentirebbero"
+        ],
+        "subj": [
+          "che io senta",
+          "che tu senta",
+          "che egli senta",
+          "che noi sentiamo",
+          "che voi sentiate",
+          "che essi sentano"
+        ],
+        "impv": [
+          "senti!",
+          "sentiamo!",
+          "sentite!"
+        ],
+        "part": [
+          "sentito"
+        ],
+        "cond_pass": [
+          "avrei sentito",
+          "avresti sentito",
+          "avrebbe sentito",
+          "avremmo sentito",
+          "avreste sentito",
+          "avrebbero sentito"
+        ],
+        "subj_pass": [
+          "abbia sentito",
+          "abbia sentito",
+          "abbia sentito",
+          "abbiamo sentito",
+          "abbiate sentito",
+          "abbiano sentito"
+        ],
+        "subj_imp": [
+          "sentissi",
+          "sentissi",
+          "sentisse",
+          "sentissimo",
+          "sentiste",
+          "sentissero"
+        ],
+        "trap_pass": [
+          "avevo sentito",
+          "avevi sentito",
+          "aveva sentito",
+          "avevamo sentito",
+          "avevate sentito",
+          "avevano sentito"
+        ],
+        "fut_ant": [
+          "avrò sentito",
+          "avrai sentito",
+          "avrà sentito",
+          "avremo sentito",
+          "avrete sentito",
+          "avranno sentito"
+        ],
+        "pc": [
+          "ho sentito",
+          "hai sentito",
+          "ha sentito",
+          "abbiamo sentito",
+          "avete sentito",
+          "hanno sentito"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto / sentire parlare di",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "pulire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Rendere pulito.",
+      "antonyms": [
+        "sporcare"
+      ],
+      "tenses": {
+        "pres": [
+          "pulisco",
+          "pulisci",
+          "pulisce",
+          "puliamo",
+          "pulite",
+          "puliscono"
+        ],
+        "imp": [
+          "pulivo",
+          "pulivi",
+          "puliva",
+          "pulivamo",
+          "pulivate",
+          "pulivano"
+        ],
+        "fut": [
+          "pulirò",
+          "pulirai",
+          "pulirà",
+          "puliremo",
+          "pulirete",
+          "puliranno"
+        ],
+        "cond": [
+          "pulirei",
+          "puliresti",
+          "pulirebbe",
+          "puliremmo",
+          "pulireste",
+          "pulirebbero"
+        ],
+        "subj": [
+          "che io pula",
+          "che tu pula",
+          "che egli pula",
+          "che noi puliamo",
+          "che voi puliate",
+          "che essi pulano"
+        ],
+        "impv": [
+          "puli!",
+          "puliamo!",
+          "pulite!"
+        ],
+        "part": [
+          "pulito"
+        ],
+        "cond_pass": [
+          "avrei pulito",
+          "avresti pulito",
+          "avrebbe pulito",
+          "avremmo pulito",
+          "avreste pulito",
+          "avrebbero pulito"
+        ],
+        "subj_pass": [
+          "abbia pulito",
+          "abbia pulito",
+          "abbia pulito",
+          "abbiamo pulito",
+          "abbiate pulito",
+          "abbiano pulito"
+        ],
+        "subj_imp": [
+          "pulissi",
+          "pulissi",
+          "pulisse",
+          "pulissimo",
+          "puliste",
+          "pulissero"
+        ],
+        "trap_pass": [
+          "avevo pulito",
+          "avevi pulito",
+          "aveva pulito",
+          "avevamo pulito",
+          "avevate pulito",
+          "avevano pulito"
+        ],
+        "fut_ant": [
+          "avrò pulito",
+          "avrai pulito",
+          "avrà pulito",
+          "avremo pulito",
+          "avrete pulito",
+          "avranno pulito"
+        ],
+        "pc": [
+          "ho pulito",
+          "hai pulito",
+          "ha pulito",
+          "abbiamo pulito",
+          "avete pulito",
+          "hanno pulito"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (pulire la casa)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "capire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Comprendere il significato.",
+      "antonyms": [
+        "fraintendere"
+      ],
+      "tenses": {
+        "pres": [
+          "capisco",
+          "capisci",
+          "capisce",
+          "capiamo",
+          "capite",
+          "capiscono"
+        ],
+        "imp": [
+          "capivo",
+          "capivi",
+          "capiva",
+          "capivamo",
+          "capivate",
+          "capivano"
+        ],
+        "fut": [
+          "capirò",
+          "capirai",
+          "capirà",
+          "capiremo",
+          "capirete",
+          "capiranno"
+        ],
+        "cond": [
+          "capirei",
+          "capiresti",
+          "capirebbe",
+          "capiremmo",
+          "capireste",
+          "capirebbero"
+        ],
+        "subj": [
+          "che io capa",
+          "che tu capa",
+          "che egli capa",
+          "che noi capiamo",
+          "che voi capiate",
+          "che essi capano"
+        ],
+        "impv": [
+          "capi!",
+          "capiamo!",
+          "capite!"
+        ],
+        "part": [
+          "capito"
+        ],
+        "cond_pass": [
+          "avrei capito",
+          "avresti capito",
+          "avrebbe capito",
+          "avremmo capito",
+          "avreste capito",
+          "avrebbero capito"
+        ],
+        "subj_pass": [
+          "abbia capito",
+          "abbia capito",
+          "abbia capito",
+          "abbiamo capito",
+          "abbiate capito",
+          "abbiano capito"
+        ],
+        "subj_imp": [
+          "capissi",
+          "capissi",
+          "capisse",
+          "capissimo",
+          "capiste",
+          "capissero"
+        ],
+        "trap_pass": [
+          "avevo capito",
+          "avevi capito",
+          "aveva capito",
+          "avevamo capito",
+          "avevate capito",
+          "avevano capito"
+        ],
+        "fut_ant": [
+          "avrò capito",
+          "avrai capito",
+          "avrà capito",
+          "avremo capito",
+          "avrete capito",
+          "avranno capito"
+        ],
+        "pc": [
+          "ho capito",
+          "hai capito",
+          "ha capito",
+          "abbiamo capito",
+          "avete capito",
+          "hanno capito"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (capire la lezione)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "finire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Portare a termine.",
+      "antonyms": [
+        "cominciare"
+      ],
+      "tenses": {
+        "pres": [
+          "finisco",
+          "finisci",
+          "finisce",
+          "finiamo",
+          "finite",
+          "finiscono"
+        ],
+        "imp": [
+          "finivo",
+          "finivi",
+          "finiva",
+          "finivamo",
+          "finivate",
+          "finivano"
+        ],
+        "fut": [
+          "finirò",
+          "finirai",
+          "finirà",
+          "finiremo",
+          "finirete",
+          "finiranno"
+        ],
+        "cond": [
+          "finirei",
+          "finiresti",
+          "finirebbe",
+          "finiremmo",
+          "finireste",
+          "finirebbero"
+        ],
+        "subj": [
+          "che io fina",
+          "che tu fina",
+          "che egli fina",
+          "che noi finiamo",
+          "che voi finiate",
+          "che essi finano"
+        ],
+        "impv": [
+          "fini!",
+          "finiamo!",
+          "finite!"
+        ],
+        "part": [
+          "finito"
+        ],
+        "cond_pass": [
+          "avrei finito",
+          "avresti finito",
+          "avrebbe finito",
+          "avremmo finito",
+          "avreste finito",
+          "avrebbero finito"
+        ],
+        "subj_pass": [
+          "abbia finito",
+          "abbia finito",
+          "abbia finito",
+          "abbiamo finito",
+          "abbiate finito",
+          "abbiano finito"
+        ],
+        "subj_imp": [
+          "finissi",
+          "finissi",
+          "finisse",
+          "finissimo",
+          "finiste",
+          "finissero"
+        ],
+        "trap_pass": [
+          "avevo finito",
+          "avevi finito",
+          "aveva finito",
+          "avevamo finito",
+          "avevate finito",
+          "avevano finito"
+        ],
+        "fut_ant": [
+          "avrò finito",
+          "avrai finito",
+          "avrà finito",
+          "avremo finito",
+          "avrete finito",
+          "avranno finito"
+        ],
+        "pc": [
+          "ho finito",
+          "hai finito",
+          "ha finito",
+          "abbiamo finito",
+          "avete finito",
+          "hanno finito"
+        ]
+      },
+      "usage_hint": "finire di (fare qualcosa) / per",
+      "auxiliary": "both",
+      "irregular": false,
+      "dual_auxiliary_rules": {
+        "avere": {
+          "condition": "Transitivo (+ Oggetto Diretto)",
+          "example": "Ho finito i compiti."
+        },
+        "essere": {
+          "condition": "Intransitivo (conclusione di evento)",
+          "example": "Il film è finito tardi."
+        }
+      }
+    },
+    "offrire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Proporre o regalare.",
+      "antonyms": [
+        "rifiutare"
+      ],
+      "tenses": {
+        "pres": [
+          "offrisco",
+          "offrisci",
+          "offrisce",
+          "offriamo",
+          "offrite",
+          "offriscono"
+        ],
+        "imp": [
+          "offrivo",
+          "offrivi",
+          "offriva",
+          "offrivamo",
+          "offrivate",
+          "offrivano"
+        ],
+        "fut": [
+          "offrirò",
+          "offrirai",
+          "offrirà",
+          "offriremo",
+          "offrirete",
+          "offriranno"
+        ],
+        "cond": [
+          "offrirei",
+          "offriresti",
+          "offrirebbe",
+          "offriremmo",
+          "offrireste",
+          "offrirebbero"
+        ],
+        "subj": [
+          "che io offra",
+          "che tu offra",
+          "che egli offra",
+          "che noi offriamo",
+          "che voi offriate",
+          "che essi offrano"
+        ],
+        "impv": [
+          "offri!",
+          "offriamo!",
+          "offrite!"
+        ],
+        "part": [
+          "offerto"
+        ],
+        "cond_pass": [
+          "avrei offerto",
+          "avresti offerto",
+          "avrebbe offerto",
+          "avremmo offerto",
+          "avreste offerto",
+          "avrebbero offerto"
+        ],
+        "subj_pass": [
+          "abbia offerto",
+          "abbia offerto",
+          "abbia offerto",
+          "abbiamo offerto",
+          "abbiate offerto",
+          "abbiano offerto"
+        ],
+        "subj_imp": [
+          "offrissi",
+          "offrissi",
+          "offrisse",
+          "offrissimo",
+          "offriste",
+          "offrissero"
+        ],
+        "trap_pass": [
+          "avevo offerto",
+          "avevi offerto",
+          "aveva offerto",
+          "avevamo offerto",
+          "avevate offerto",
+          "avevano offerto"
+        ],
+        "fut_ant": [
+          "avrò offerto",
+          "avrai offerto",
+          "avrà offerto",
+          "avremo offerto",
+          "avrete offerto",
+          "avranno offerto"
+        ],
+        "pc": [
+          "ho offerto",
+          "hai offerto",
+          "ha offerto",
+          "abbiamo offerto",
+          "avete offerto",
+          "hanno offerto"
+        ]
+      },
+      "usage_hint": "offrire (qualcosa) a (qualcuno)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "uscire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Andare fuori da un luogo.",
+      "antonyms": [
+        "entrare"
+      ],
+      "tenses": {
+        "pres": [
+          "usco",
+          "usci",
+          "usce",
+          "usciamo",
+          "uscite",
+          "uscono"
+        ],
+        "imp": [
+          "uscivo",
+          "uscivi",
+          "usciva",
+          "uscivamo",
+          "uscivate",
+          "uscivano"
+        ],
+        "fut": [
+          "uscirò",
+          "uscirai",
+          "uscirà",
+          "usciremo",
+          "uscirete",
+          "usciranno"
+        ],
+        "cond": [
+          "uscirei",
+          "usciresti",
+          "uscirebbe",
+          "usciremmo",
+          "uscireste",
+          "uscirebbero"
+        ],
+        "subj": [
+          "che io usca",
+          "che tu usca",
+          "che egli usca",
+          "che noi usciamo",
+          "che voi usciate",
+          "che essi uscano"
+        ],
+        "impv": [
+          "usci!",
+          "usciamo!",
+          "uscite!"
+        ],
+        "part": [
+          "uscito"
+        ],
+        "cond_pass": [
+          "sarei uscito",
+          "saresti uscito",
+          "sarebbe uscito",
+          "saremmo usciti",
+          "sareste usciti",
+          "sarebbero usciti"
+        ],
+        "subj_pass": [
+          "sia uscito",
+          "sia uscito",
+          "sia uscito",
+          "siamo usciti",
+          "siate usciti",
+          "siano usciti"
+        ],
+        "subj_imp": [
+          "uscissi",
+          "uscissi",
+          "uscisse",
+          "uscissimo",
+          "usciste",
+          "uscissero"
+        ],
+        "trap_pass": [
+          "ero uscito",
+          "eri uscito",
+          "era uscito",
+          "eravamo usciti",
+          "eravate usciti",
+          "erano usciti"
+        ],
+        "fut_ant": [
+          "sarò uscito",
+          "sarai uscito",
+          "sarà uscito",
+          "saremo usciti",
+          "sarete usciti",
+          "saranno usciti"
+        ],
+        "pc": [
+          "sono uscito",
+          "sei uscito",
+          "è uscito",
+          "siamo usciti",
+          "siete usciti",
+          "sono usciti"
+        ]
+      },
+      "usage_hint": "intransitivo: uscire da (casa) / con (amici)",
+      "grammar_rule": "💡 REMEMBER: Alternanza della radice al presente: esco, esci, esce, usciamo, uscite, escono.",
+      "auxiliary": "essere",
+      "irregular": false
+    },
+    "salire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Andare verso l'alto.",
+      "antonyms": [
+        "scendere"
+      ],
+      "tenses": {
+        "pres": [
+          "salo",
+          "sali",
+          "sale",
+          "saliamo",
+          "salite",
+          "salono"
+        ],
+        "imp": [
+          "salivo",
+          "salivi",
+          "saliva",
+          "salivamo",
+          "salivate",
+          "salivano"
+        ],
+        "fut": [
+          "salirò",
+          "salirai",
+          "salirà",
+          "saliremo",
+          "salirete",
+          "saliranno"
+        ],
+        "cond": [
+          "salirei",
+          "saliresti",
+          "salirebbe",
+          "saliremmo",
+          "salireste",
+          "salirebbero"
+        ],
+        "subj": [
+          "che io sala",
+          "che tu sala",
+          "che egli sala",
+          "che noi saliamo",
+          "che voi saliate",
+          "che essi salano"
+        ],
+        "impv": [
+          "sali!",
+          "saliamo!",
+          "salite!"
+        ],
+        "part": [
+          "salito"
+        ],
+        "cond_pass": [
+          "avrei salito",
+          "avresti salito",
+          "avrebbe salito",
+          "avremmo salito",
+          "avreste salito",
+          "avrebbero salito"
+        ],
+        "subj_pass": [
+          "abbia salito",
+          "abbia salito",
+          "abbia salito",
+          "abbiamo salito",
+          "abbiate salito",
+          "abbiano salito"
+        ],
+        "subj_imp": [
+          "salissi",
+          "salissi",
+          "salisse",
+          "salissimo",
+          "saliste",
+          "salissero"
+        ],
+        "trap_pass": [
+          "avevo salito",
+          "avevi salito",
+          "aveva salito",
+          "avevamo salito",
+          "avevate salito",
+          "avevano salito"
+        ],
+        "fut_ant": [
+          "avrò salito",
+          "avrai salito",
+          "avrà salito",
+          "avremo salito",
+          "avrete salito",
+          "avranno salito"
+        ],
+        "pc": [
+          "ho salito",
+          "hai salito",
+          "ha salito",
+          "abbiamo salito",
+          "avete salito",
+          "hanno salito"
+        ]
+      },
+      "usage_hint": "intransitivo: salire su (treno) / in (auto)",
+      "auxiliary": "both",
+      "irregular": false,
+      "dual_auxiliary_rules": {
+        "avere": {
+          "condition": "Transitivo (+ Oggetto Diretto)",
+          "example": "Ho salito le scale di corsa."
+        },
+        "essere": {
+          "condition": "Intransitivo (movimento verso l'alto)",
+          "example": "Sono salito sul treno."
+        }
+      }
+    },
+    "venire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Spostarsi verso chi parla.",
+      "antonyms": [
+        "andare"
+      ],
+      "tenses": {
+        "pres": [
+          "vengo",
+          "vieni",
+          "viene",
+          "veniamo",
+          "venite",
+          "vengono"
+        ],
+        "imp": [
+          "venivo",
+          "venivi",
+          "veniva",
+          "venivamo",
+          "venivate",
+          "venivano"
+        ],
+        "fut": [
+          "verrò",
+          "verrai",
+          "verrà",
+          "verremo",
+          "verrete",
+          "verranno"
+        ],
+        "cond": [
+          "verrei",
+          "verresti",
+          "verrebbe",
+          "verremmo",
+          "verreste",
+          "verrebbero"
+        ],
+        "subj": [
+          "che io venga",
+          "che tu venga",
+          "che egli venga",
+          "che noi veniamo",
+          "che voi veniate",
+          "che essi vengano"
+        ],
+        "impv": [
+          "vieni!",
+          "veniamo!",
+          "venite!"
+        ],
+        "part": [
+          "venuto"
+        ],
+        "cond_pass": [
+          "sarei venuto",
+          "saresti venuto",
+          "sarebbe venuto",
+          "saremmo venuti",
+          "sareste venuti",
+          "sarebbero venuti"
+        ],
+        "subj_pass": [
+          "sia venuto",
+          "sia venuto",
+          "sia venuto",
+          "siamo venuti",
+          "siate venuti",
+          "siano venuti"
+        ],
+        "subj_imp": [
+          "venissi",
+          "venissi",
+          "venisse",
+          "venissimo",
+          "veniste",
+          "venissero"
+        ],
+        "trap_pass": [
+          "ero venuto",
+          "eri venuto",
+          "era venuto",
+          "eravamo venuti",
+          "eravate venuti",
+          "erano venuti"
+        ],
+        "fut_ant": [
+          "sarò venuto",
+          "sarai venuto",
+          "sarà venuto",
+          "saremo venuti",
+          "sarete venuti",
+          "saranno venuti"
+        ],
+        "pc": [
+          "sono venuto",
+          "sei venuto",
+          "è venuto",
+          "siamo venuti",
+          "siete venuti",
+          "sono venuti"
+        ]
+      },
+      "usage_hint": "intransitivo: venire da (luogo) / con (persona)",
+      "grammar_rule": "💡 REMEMBER: Usa l'ausiliare 'essere' ('sono venuto/a'). Presente: vengo, vieni, viene, veniamo, venite, vengono.",
+      "auxiliary": "essere",
+      "irregular": true
+    },
+    "dire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Esprimere a parole.",
+      "antonyms": [
+        "tacere"
+      ],
+      "tenses": {
+        "pres": [
+          "dico",
+          "dici",
+          "dice",
+          "diciamo",
+          "dite",
+          "dicono"
+        ],
+        "imp": [
+          "dicevo",
+          "dicevi",
+          "diceva",
+          "dicevamo",
+          "dicevate",
+          "dicevano"
+        ],
+        "fut": [
+          "dirò",
+          "dirai",
+          "dirà",
+          "diremo",
+          "direte",
+          "diranno"
+        ],
+        "cond": [
+          "direi",
+          "diresti",
+          "direbbe",
+          "diremmo",
+          "direste",
+          "direbbero"
+        ],
+        "subj": [
+          "che io dica",
+          "che tu dica",
+          "che egli dica",
+          "che noi diciamo",
+          "che voi diciate",
+          "che essi dicano"
+        ],
+        "impv": [
+          "dici!",
+          "diciamo!",
+          "dite!"
+        ],
+        "part": [
+          "detto"
+        ],
+        "cond_pass": [
+          "avrei detto",
+          "avresti detto",
+          "avrebbe detto",
+          "avremmo detto",
+          "avreste detto",
+          "avrebbero detto"
+        ],
+        "subj_pass": [
+          "abbia detto",
+          "abbia detto",
+          "abbia detto",
+          "abbiamo detto",
+          "abbiate detto",
+          "abbiano detto"
+        ],
+        "subj_imp": [
+          "dicessi",
+          "dicessi",
+          "dicesse",
+          "dicessimo",
+          "diceste",
+          "dicessero"
+        ],
+        "trap_pass": [
+          "avevo detto",
+          "avevi detto",
+          "aveva detto",
+          "avevamo detto",
+          "avevate detto",
+          "avevano detto"
+        ],
+        "fut_ant": [
+          "avrò detto",
+          "avrai detto",
+          "avrà detto",
+          "avremo detto",
+          "avrete detto",
+          "avranno detto"
+        ],
+        "pc": [
+          "ho detto",
+          "hai detto",
+          "ha detto",
+          "abbiamo detto",
+          "avete detto",
+          "hanno detto"
+        ]
+      },
+      "usage_hint": "dire (qualcosa) a (qualcuno)",
+      "grammar_rule": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''.",
+      "auxiliary": "avere",
+      "irregular": true
+    },
+    "aprire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Rendere accessibile.",
+      "antonyms": [
+        "chiudere"
+      ],
+      "tenses": {
+        "pres": [
+          "apro",
+          "apri",
+          "apre",
+          "apriamo",
+          "aprite",
+          "aprono"
+        ],
+        "imp": [
+          "aprivo",
+          "aprivi",
+          "apriva",
+          "aprivamo",
+          "aprivate",
+          "aprivano"
+        ],
+        "fut": [
+          "aprirò",
+          "aprirai",
+          "aprirà",
+          "apriremo",
+          "aprirete",
+          "apriranno"
+        ],
+        "cond": [
+          "aprirei",
+          "apriresti",
+          "aprirebbe",
+          "apriremmo",
+          "aprireste",
+          "aprirebbero"
+        ],
+        "subj": [
+          "che io apra",
+          "che tu apra",
+          "che egli apra",
+          "che noi apriamo",
+          "che voi apriate",
+          "che essi aprano"
+        ],
+        "impv": [
+          "apri!",
+          "apriamo!",
+          "aprite!"
+        ],
+        "part": [
+          "aperto"
+        ],
+        "cond_pass": [
+          "avrei aperto",
+          "avresti aperto",
+          "avrebbe aperto",
+          "avremmo aperto",
+          "avreste aperto",
+          "avrebbero aperto"
+        ],
+        "subj_pass": [
+          "abbia aperto",
+          "abbia aperto",
+          "abbia aperto",
+          "abbiamo aperto",
+          "abbiate aperto",
+          "abbiano aperto"
+        ],
+        "subj_imp": [
+          "aprissi",
+          "aprissi",
+          "aprisse",
+          "aprissimo",
+          "apriste",
+          "aprissero"
+        ],
+        "trap_pass": [
+          "avevo aperto",
+          "avevi aperto",
+          "aveva aperto",
+          "avevamo aperto",
+          "avevate aperto",
+          "avevano aperto"
+        ],
+        "fut_ant": [
+          "avrò aperto",
+          "avrai aperto",
+          "avrà aperto",
+          "avremo aperto",
+          "avrete aperto",
+          "avranno aperto"
+        ],
+        "pc": [
+          "ho aperto",
+          "hai aperto",
+          "ha aperto",
+          "abbiamo aperto",
+          "avete aperto",
+          "hanno aperto"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (aprire la finestra)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "morire": {
+      "group": "3a coniugazione",
+      "level": "A1",
+      "definition": "Cessare di vivere.",
+      "antonyms": [
+        "nascere"
+      ],
+      "tenses": {
+        "pres": [
+          "muoio",
+          "muori",
+          "muore",
+          "moriamo",
+          "morite",
+          "muoiono"
+        ],
+        "imp": [
+          "morivo",
+          "morivi",
+          "moriva",
+          "morivamo",
+          "morivate",
+          "morivano"
+        ],
+        "fut": [
+          "morirò",
+          "morirai",
+          "morirà",
+          "moriremo",
+          "morirete",
+          "moriranno"
+        ],
+        "cond": [
+          "morirei",
+          "moriresti",
+          "morirebbe",
+          "moriremmo",
+          "morireste",
+          "morirebbero"
+        ],
+        "subj": [
+          "che io muoia",
+          "che tu muoia",
+          "che egli muoia",
+          "che noi moriamo",
+          "che voi moriate",
+          "che essi muoiano"
+        ],
+        "impv": [
+          "muori!",
+          "moriamo!",
+          "morite!"
+        ],
+        "part": [
+          "morto"
+        ],
+        "cond_pass": [
+          "sarei morto",
+          "saresti morto",
+          "sarebbe morto",
+          "saremmo morti",
+          "sareste morti",
+          "sarebbero morti"
+        ],
+        "subj_pass": [
+          "sia morto",
+          "sia morto",
+          "sia morto",
+          "siamo morti",
+          "siate morti",
+          "siano morti"
+        ],
+        "subj_imp": [
+          "morissi",
+          "morissi",
+          "morisse",
+          "morissimo",
+          "moriste",
+          "morissero"
+        ],
+        "trap_pass": [
+          "ero morto",
+          "eri morto",
+          "era morto",
+          "eravamo morti",
+          "eravate morti",
+          "erano morti"
+        ],
+        "fut_ant": [
+          "sarò morto",
+          "sarai morto",
+          "sarà morto",
+          "saremo morti",
+          "sarete morti",
+          "saranno morti"
+        ],
+        "pc": [
+          "sono morto",
+          "sei morto",
+          "è morto",
+          "siamo morti",
+          "siete morti",
+          "sono morti"
+        ]
+      },
+      "usage_hint": "morire di (malattia) / per",
+      "auxiliary": "essere",
+      "irregular": true
+    },
+    "coprire": {
+      "group": "3a coniugazione",
+      "level": "A2",
+      "definition": "Mettere sopra per nascondere.",
+      "antonyms": [
+        "scoprire"
+      ],
+      "tenses": {
+        "pres": [
+          "copro",
+          "copri",
+          "copre",
+          "copriamo",
+          "coprite",
+          "coprono"
+        ],
+        "imp": [
+          "coprivo",
+          "coprivi",
+          "copriva",
+          "coprivamo",
+          "coprivate",
+          "coprivano"
+        ],
+        "fut": [
+          "coprirò",
+          "coprirai",
+          "coprirà",
+          "copriremo",
+          "coprirete",
+          "copriranno"
+        ],
+        "cond": [
+          "coprirei",
+          "copriresti",
+          "coprirebbe",
+          "copriremmo",
+          "coprireste",
+          "coprirebbero"
+        ],
+        "subj": [
+          "che io copra",
+          "che tu copra",
+          "che egli copra",
+          "che noi copriamo",
+          "che voi copriate",
+          "che essi coprano"
+        ],
+        "impv": [
+          "copri!",
+          "copriamo!",
+          "coprite!"
+        ],
+        "part": [
+          "coperto"
+        ],
+        "cond_pass": [
+          "avrei coperto",
+          "avresti coperto",
+          "avrebbe coperto",
+          "avremmo coperto",
+          "avreste coperto",
+          "avrebbero coperto"
+        ],
+        "subj_pass": [
+          "abbia coperto",
+          "abbia coperto",
+          "abbia coperto",
+          "abbiamo coperto",
+          "abbiate coperto",
+          "abbiano coperto"
+        ],
+        "subj_imp": [
+          "coprissi",
+          "coprissi",
+          "coprisse",
+          "coprissimo",
+          "copriste",
+          "coprissero"
+        ],
+        "trap_pass": [
+          "avevo coperto",
+          "avevi coperto",
+          "aveva coperto",
+          "avevamo coperto",
+          "avevate coperto",
+          "avevano coperto"
+        ],
+        "fut_ant": [
+          "avrò coperto",
+          "avrai coperto",
+          "avrà coperto",
+          "avremo coperto",
+          "avrete coperto",
+          "avranno coperto"
+        ],
+        "pc": [
+          "ho coperto",
+          "hai coperto",
+          "ha coperto",
+          "abbiamo coperto",
+          "avete coperto",
+          "hanno coperto"
+        ]
+      },
+      "usage_hint": "coprire (qualcosa) con (qualcos'altro)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "costruire": {
+      "group": "3a coniugazione",
+      "level": "A2",
+      "definition": "Fabbricare un edificio.",
+      "antonyms": [
+        "distruggere"
+      ],
+      "tenses": {
+        "pres": [
+          "costruisco",
+          "costruisci",
+          "costruisce",
+          "costruiamo",
+          "costruite",
+          "costruiscono"
+        ],
+        "imp": [
+          "costruivo",
+          "costruivi",
+          "costruiva",
+          "costruivamo",
+          "costruivate",
+          "costruivano"
+        ],
+        "fut": [
+          "costruirò",
+          "costruirai",
+          "costruirà",
+          "costruiremo",
+          "costruirete",
+          "costruiranno"
+        ],
+        "cond": [
+          "costruirei",
+          "costruiresti",
+          "costruirebbe",
+          "costruiremmo",
+          "costruireste",
+          "costruirebbero"
+        ],
+        "subj": [
+          "che io costrua",
+          "che tu costrua",
+          "che egli costrua",
+          "che noi costruiamo",
+          "che voi costruiate",
+          "che essi costruano"
+        ],
+        "impv": [
+          "costrui!",
+          "costruiamo!",
+          "costruite!"
+        ],
+        "part": [
+          "costruito"
+        ],
+        "cond_pass": [
+          "avrei costruito",
+          "avresti costruito",
+          "avrebbe costruito",
+          "avremmo costruito",
+          "avreste costruito",
+          "avrebbero costruito"
+        ],
+        "subj_pass": [
+          "abbia costruito",
+          "abbia costruito",
+          "abbia costruito",
+          "abbiamo costruito",
+          "abbiate costruito",
+          "abbiano costruito"
+        ],
+        "subj_imp": [
+          "costruissi",
+          "costruissi",
+          "costruisse",
+          "costruissimo",
+          "costruiste",
+          "costruissero"
+        ],
+        "trap_pass": [
+          "avevo costruito",
+          "avevi costruito",
+          "aveva costruito",
+          "avevamo costruito",
+          "avevate costruito",
+          "avevano costruito"
+        ],
+        "fut_ant": [
+          "avrò costruito",
+          "avrai costruito",
+          "avrà costruito",
+          "avremo costruito",
+          "avrete costruito",
+          "avranno costruito"
+        ],
+        "pc": [
+          "ho costruito",
+          "hai costruito",
+          "ha costruito",
+          "abbiamo costruito",
+          "avete costruito",
+          "hanno costruito"
+        ]
+      },
+      "usage_hint": "+ oggetto diretto (costruire una casa)",
+      "auxiliary": "avere",
+      "irregular": false
+    },
+    "tossire": {
+      "group": "3a coniugazione",
+      "level": "A2",
+      "definition": "Espellere aria dai polmoni con un colpo.",
+      "antonyms": [],
+      "auxiliary": "avere",
+      "usage_hint": "tossire per il raffreddore",
+      "tenses": {
+        "pres": [
+          "tossisco",
+          "tossisci",
+          "tossisce",
+          "tossiamo",
+          "tossite",
+          "tossiscono"
+        ],
+        "imp": [
+          "tossivo",
+          "tossivi",
+          "tossiva",
+          "tossivamo",
+          "tossivate",
+          "tossivano"
+        ],
+        "fut": [
+          "tossirò",
+          "tossirai",
+          "tossirà",
+          "tossiremo",
+          "tossirete",
+          "tossiranno"
+        ],
+        "cond": [
+          "tossirei",
+          "tossiresti",
+          "tossirebbe",
+          "tossiremmo",
+          "tossireste",
+          "tossirebbero"
+        ],
+        "subj": [
+          "che io tossisca",
+          "che tu tossisca",
+          "che egli tossisca",
+          "che noi tossiamo",
+          "che voi tossiate",
+          "che essi tossiscano"
+        ],
+        "impv": [
+          "tossisci!",
+          "tossiamo!",
+          "tossite!"
+        ],
+        "part": [
+          "tossito"
+        ],
+        "cond_pass": [
+          "avrei tossito",
+          "avresti tossito",
+          "avrebbe tossito",
+          "avremmo tossito",
+          "avreste tossito",
+          "avrebbero tossito"
+        ],
+        "subj_pass": [
+          "abbia tossito",
+          "abbia tossito",
+          "abbia tossito",
+          "abbiamo tossito",
+          "abbiate tossito",
+          "abbiano tossito"
+        ],
+        "subj_imp": [
+          "tossissi",
+          "tossissi",
+          "tossisse",
+          "tossissimo",
+          "tossiste",
+          "tossissero"
+        ],
+        "trap_pass": [
+          "avevo tossito",
+          "avevi tossito",
+          "aveva tossito",
+          "avevamo tossito",
+          "avevate tossito",
+          "avevano tossito"
+        ],
+        "fut_ant": [
+          "avrò tossito",
+          "avrai tossito",
+          "avrà tossito",
+          "avremo tossito",
+          "avrete tossito",
+          "avranno tossito"
+        ],
+        "pc": [
+          "ho tossito",
+          "hai tossito",
+          "ha tossito",
+          "abbiamo tossito",
+          "avete tossito",
+          "hanno tossito"
+        ]
+      },
+      "irregular": false
+    },
+    "guarire": {
+      "group": "3a coniugazione",
+      "level": "A2",
+      "definition": "Ritornare in buona salute dopo una malattia.",
+      "antonyms": [
+        "ammalarsi"
+      ],
+      "auxiliary": "essere",
+      "usage_hint": "guarire da una malattia",
+      "tenses": {
+        "pres": [
+          "guarisco",
+          "guarisci",
+          "guarisce",
+          "guariamo",
+          "guarite",
+          "guariscono"
+        ],
+        "imp": [
+          "guarivo",
+          "guarivi",
+          "guariva",
+          "guarivamo",
+          "guarivate",
+          "guarivano"
+        ],
+        "fut": [
+          "guarirò",
+          "guarirai",
+          "guarirà",
+          "guariremo",
+          "guarirete",
+          "guariranno"
+        ],
+        "cond": [
+          "guarirei",
+          "guariresti",
+          "guarirebbe",
+          "guariremmo",
+          "guarireste",
+          "guarirebbero"
+        ],
+        "subj": [
+          "che io guarisca",
+          "che tu guarisca",
+          "che egli guarisca",
+          "che noi guariamo",
+          "che voi guariate",
+          "che essi guariscano"
+        ],
+        "impv": [
+          "guarisci!",
+          "guariamo!",
+          "guarite!"
+        ],
+        "part": [
+          "guarito"
+        ],
+        "cond_pass": [
+          "sarei guarito",
+          "saresti guarito",
+          "sarebbe guarito",
+          "saremmo guariti",
+          "sareste guariti",
+          "sarebbero guariti"
+        ],
+        "subj_pass": [
+          "sia guarito",
+          "sia guarito",
+          "sia guarito",
+          "siamo guariti",
+          "siate guariti",
+          "siano guariti"
+        ],
+        "subj_imp": [
+          "guarissi",
+          "guarissi",
+          "guarisse",
+          "guarissimo",
+          "guariste",
+          "guarissero"
+        ],
+        "trap_pass": [
+          "ero guarito",
+          "eri guarito",
+          "era guarito",
+          "eravamo guariti",
+          "eravate guariti",
+          "erano guariti"
+        ],
+        "fut_ant": [
+          "sarò guarito",
+          "sarai guarito",
+          "sarà guarito",
+          "saremo guariti",
+          "sarete guariti",
+          "saranno guariti"
+        ],
+        "pc": [
+          "sono guarito",
+          "sei guarito",
+          "è guarito",
+          "siamo guariti",
+          "siete guariti",
+          "sono guariti"
+        ]
+      },
+      "irregular": false
+    }
+  }
+}

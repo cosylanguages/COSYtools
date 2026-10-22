@@ -1,0 +1,521 @@
+{
+  "group_name": "Verboù boutin",
+  "verbs": {
+    "komz": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Eztaoler e soñjoù gant komzoù.",
+      "tenses": {
+        "present": [
+          "komzan",
+          "komzez",
+          "komz",
+          "komzomp",
+          "komzit",
+          "komzont"
+        ],
+        "past": [
+          "komzis",
+          "komzjout",
+          "komzas",
+          "komzjomp",
+          "komzjoc'h",
+          "komzjont"
+        ],
+        "future": [
+          "komzin",
+          "komzi",
+          "komzo",
+          "komzimp",
+          "komzot",
+          "komzint"
+        ]
+      },
+      "examples": [
+        "Komz a ran brezhoneg bemdez."
+      ]
+    },
+    "lenn": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Selaou pe kompren skrid.",
+      "tenses": {
+        "present": [
+          "lennan",
+          "lennez",
+          "lenn",
+          "lennomp",
+          "lennit",
+          "lennont"
+        ],
+        "past": [
+          "lennis",
+          "lennjout",
+          "lennas",
+          "lennjomp",
+          "lennjoc'h",
+          "lennjont"
+        ],
+        "future": [
+          "lennin",
+          "lenni",
+          "lenno",
+          "lennimp",
+          "lennot",
+          "lennint"
+        ]
+      },
+      "examples": [
+        "Lenn a ra ur levr nevez."
+      ]
+    },
+    "skrivañ": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Merañ lizherennoù war baper.",
+      "tenses": {
+        "present": [
+          "skrivan",
+          "skrivez",
+          "skriv",
+          "skrivomp",
+          "skrivit",
+          "skrivont"
+        ],
+        "past": [
+          "skrivis",
+          "skrivjout",
+          "skrivas",
+          "skrivjomp",
+          "skrivjoc'h",
+          "skrivjont"
+        ],
+        "future": [
+          "skrivin",
+          "skrivi",
+          "skrivo",
+          "skrivimp",
+          "skrivot",
+          "skrivint"
+        ]
+      },
+      "examples": [
+        "Skrivañ a ran ur lizher."
+      ]
+    },
+    "debriñ": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Kemer boued er genou.",
+      "tenses": {
+        "present": [
+          "debram",
+          "debrez",
+          "debr",
+          "debromp",
+          "debrit",
+          "debront"
+        ]
+      }
+    },
+    "evañ": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Kemer evaj er genou.",
+      "tenses": {
+        "present": [
+          "evan",
+          "evez",
+          "ev",
+          "evomp",
+          "evit",
+          "evont"
+        ]
+      }
+    },
+    "soñjal": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Formañ mennozhioù er spered.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "soñjan",
+          "soñjez",
+          "soñj",
+          "soñjomp",
+          "soñjit",
+          "soñjont"
+        ],
+        "past": [
+          "soñjis",
+          "soñzjout",
+          "soñjas",
+          "soñjomp",
+          "soñjoc'h",
+          "soñjont"
+        ],
+        "future": [
+          "soñjin",
+          "soñji",
+          "soñjo",
+          "soñjimp",
+          "soñjot",
+          "soñjint"
+        ]
+      }
+    },
+    "karet": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Kaout karantez pe plijadur bras gant unan bennak pe un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "karan",
+          "karez",
+          "kar",
+          "karomp",
+          "karit",
+          "karont"
+        ],
+        "past": [
+          "karis",
+          "karjout",
+          "karas",
+          "karjomp",
+          "karjoc'h",
+          "karjont"
+        ],
+        "future": [
+          "karin",
+          "kari",
+          "karo",
+          "karimp",
+          "karot",
+          "karint"
+        ]
+      }
+    },
+    "kasaat": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Kaout kasoni bras ouzh unan bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "kasaan",
+          "kasaez",
+          "kasaa",
+          "kasaomp",
+          "kasait",
+          "kasaont"
+        ],
+        "past": [
+          "kasais",
+          "kasajout",
+          "kasaas",
+          "kasajomp",
+          "kasajoc'h",
+          "kasajont"
+        ],
+        "future": [
+          "kasain",
+          "kasai",
+          "kasao",
+          "kasaimp",
+          "kasaot",
+          "kasaint"
+        ]
+      }
+    },
+    "kompren": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Pakañ e spered ster pe meiz un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "komprenan",
+          "komprenez",
+          "kompren",
+          "komprenomp",
+          "komprenit",
+          "komprenont"
+        ],
+        "past": [
+          "komprenis",
+          "komprenjout",
+          "komprenas",
+          "komprenjomp",
+          "komprenjoc'h",
+          "komprenjont"
+        ],
+        "future": [
+          "komprenin",
+          "kompreni",
+          "kompreno",
+          "komprenimp",
+          "komprenot",
+          "komprenint"
+        ]
+      }
+    },
+    "laret": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Eztaoler komzoù pe lavarout un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "laran",
+          "larez",
+          "lar",
+          "laromp",
+          "larit",
+          "laront"
+        ],
+        "past": [
+          "laris",
+          "larjout",
+          "laras",
+          "larjomp",
+          "larjoc'h",
+          "larjont"
+        ],
+        "future": [
+          "larin",
+          "lari",
+          "laro",
+          "larimp",
+          "larot",
+          "larint"
+        ]
+      }
+    },
+    "sellout": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Toler e zaoulagad war un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "sellan",
+          "sellez",
+          "sell",
+          "sellomp",
+          "sellit",
+          "sellont"
+        ],
+        "past": [
+          "sellis",
+          "selljout",
+          "sellas",
+          "selljomp",
+          "selljoc'h",
+          "selljont"
+        ],
+        "future": [
+          "sellin",
+          "selli",
+          "sello",
+          "sellimp",
+          "sellot",
+          "sellint"
+        ]
+      }
+    },
+    "goulenn": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Lavarout ur goulenn pe goulenn un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "goulennan",
+          "goulennez",
+          "goulenn",
+          "goulennomp",
+          "goulennit",
+          "goulennont"
+        ],
+        "past": [
+          "goulennis",
+          "goulennjout",
+          "goulennas",
+          "goulennjomp",
+          "goulennjoc'h",
+          "goulennjont"
+        ],
+        "future": [
+          "goulennin",
+          "goulenni",
+          "goulenno",
+          "goulennimp",
+          "goulennot",
+          "goulennint"
+        ]
+      }
+    },
+    "respont": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Radañ pe reiñ ur respont d'ur goulenn.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "respontan",
+          "respontez",
+          "respont",
+          "respontomp",
+          "respontit",
+          "respontont"
+        ],
+        "past": [
+          "respontis",
+          "respontjout",
+          "respontas",
+          "respontjomp",
+          "respontjoc'h",
+          "respontjont"
+        ],
+        "future": [
+          "respontin",
+          "responti",
+          "responto",
+          "respontimp",
+          "respontot",
+          "respontint"
+        ]
+      }
+    },
+    "kemer": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Pakañ pe kemer un dra bennak gant e zorn.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "kemeran",
+          "kemerez",
+          "kemer",
+          "kemeromp",
+          "kemerit",
+          "kemeront"
+        ],
+        "past": [
+          "kemeris",
+          "kemerjout",
+          "kemeras",
+          "kemerjomp",
+          "kemerjoc'h",
+          "kemerjont"
+        ],
+        "future": [
+          "kemerin",
+          "kemeri",
+          "kemero",
+          "kemerimp",
+          "kemerot",
+          "kemerint"
+        ]
+      }
+    },
+    "gortoz": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Gortoz advent unan bennak pe un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "gortozan",
+          "gortozez",
+          "gortoz",
+          "gortozomp",
+          "gortozit",
+          "gortozont"
+        ],
+        "past": [
+          "gortozis",
+          "gortozjout",
+          "gortozas",
+          "gortozjomp",
+          "gortozjoc'h",
+          "gortozjont"
+        ],
+        "future": [
+          "gortozin",
+          "gortozi",
+          "gortozo",
+          "gortozimp",
+          "gortozot",
+          "gortozint"
+        ]
+      }
+    },
+    "bevañ": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Kaout ar vuhez pe bevañ en ul lec'h.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "bevan",
+          "bevez",
+          "bev",
+          "bevomp",
+          "bevit",
+          "bevont"
+        ],
+        "past": [
+          "bevis",
+          "bevjout",
+          "bevas",
+          "bevjomp",
+          "bevjoc'h",
+          "bevjont"
+        ],
+        "future": [
+          "bevin",
+          "bevi",
+          "bevo",
+          "bevimp",
+          "bevot",
+          "bevint"
+        ]
+      }
+    },
+    "selaou": {
+      "group": "Verboù boutin",
+      "level": "A1",
+      "definition": "Selaou gant e skouarn ouzh sonioù.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "selaouan",
+          "selaouez",
+          "selaou",
+          "selaouomp",
+          "selaouit",
+          "selaouont"
+        ],
+        "past": [
+          "selaouis",
+          "selaoujout",
+          "selaouas",
+          "selaoujomp",
+          "selaoujoc'h",
+          "selaoujont"
+        ],
+        "future": [
+          "selaouin",
+          "selaoui",
+          "selaouo",
+          "selaouimp",
+          "selaouot",
+          "selaouint"
+        ]
+      }
+    }
+  }
+}

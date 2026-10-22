@@ -1,0 +1,115 @@
+{
+  "group_name": "1ª coniugazione (-are)",
+  "verbs": {
+    "interessare": {
+      "group": "1ª coniugazione (-are)",
+      "auxiliary": "avere",
+      "level": "A2",
+      "definition": "Attrarre l'attenzione o la curiosità di qualcuno.",
+      "antonyms": [
+        "annoiare"
+      ],
+      "usage_hint": "interessare + oggetto diretto / interessarsi a/di",
+      "tenses": {
+        "pres": [
+          "interesso",
+          "interessi",
+          "interessa",
+          "interessiamo",
+          "interessate",
+          "interessano"
+        ],
+        "imp": [
+          "interessavo",
+          "interessavi",
+          "interessava",
+          "interessavamo",
+          "interessavate",
+          "interessavano"
+        ],
+        "fut": [
+          "interesserò",
+          "interesserai",
+          "interesserà",
+          "interesseremo",
+          "interesserete",
+          "interesseranno"
+        ],
+        "cond": [
+          "interesserei",
+          "interesseresti",
+          "interesserebbe",
+          "interesseremmo",
+          "interessereste",
+          "interesserebbero"
+        ],
+        "cond_pass": [
+          "avrei interessato",
+          "avresti interessato",
+          "avrebbe interessato",
+          "avremmo interessato",
+          "avreste interessato",
+          "avrebbero interessato"
+        ],
+        "subj_pass": [
+          "abbia interessato",
+          "abbia interessato",
+          "abbia interessato",
+          "abbiamo interessato",
+          "abbiate interessato",
+          "abbiano interessato"
+        ],
+        "subj_imp": [
+          "interessassi",
+          "interessassi",
+          "interessasse",
+          "interessassimo",
+          "interessaste",
+          "interessassero"
+        ],
+        "trap_pass": [
+          "avevo interessato",
+          "avevi interessato",
+          "aveva interessato",
+          "avevamo interessato",
+          "avevate interessato",
+          "avevano interessato"
+        ],
+        "fut_ant": [
+          "avrò interessato",
+          "avrai interessato",
+          "avrà interessato",
+          "avremo interessato",
+          "avrete interessato",
+          "avranno interessato"
+        ],
+        "pc": [
+          "ho interessato",
+          "hai interessato",
+          "ha interessato",
+          "abbiamo interessato",
+          "avete interessato",
+          "hanno interessato"
+        ],
+        "subj": [
+          "interessi",
+          "interessi",
+          "interessi",
+          "interessiamo",
+          "interessiate",
+          "interessino"
+        ],
+        "impv": [
+          "interessa!",
+          "interessiamo!",
+          "interessate!"
+        ],
+        "part": [
+          "interessando",
+          "interessato"
+        ]
+      },
+      "irregular": false
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "group_name": "Verboù amreizh",
+  "verbs": {
+    "bezañ": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kavout e lec'h pe bezañ en ur statud.",
+      "tenses": {
+        "present": [
+          "on",
+          "out",
+          "eo",
+          "omp",
+          "oc'h",
+          "int"
+        ]
+      }
+    },
+    "gouzout": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kaout goudebiezh pe anaoudegezh eus un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "gouzon",
+          "gouzout",
+          "gour",
+          "gouzomp",
+          "gouzoc'h",
+          "gouzont"
+        ],
+        "past": [
+          "gouezis",
+          "gouezjout",
+          "gouezas",
+          "gouezjomp",
+          "gouezjoc'h",
+          "gouezjont"
+        ],
+        "future": [
+          "gouezin",
+          "gouezi",
+          "gouezo",
+          "gouezimp",
+          "gouezot",
+          "gouezint"
+        ]
+      }
+    },
+    "fellout": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kaout c'hoant reizh da gaout un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "fellan",
+          "fellez",
+          "fell",
+          "fellomp",
+          "fellit",
+          "fellont"
+        ],
+        "past": [
+          "fellis",
+          "felljout",
+          "fellas",
+          "felljomp",
+          "felljoc'h",
+          "felljont"
+        ],
+        "future": [
+          "fellin",
+          "felli",
+          "fello",
+          "fellimp",
+          "fellot",
+          "fellint"
+        ]
+      }
+    },
+    "mont": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Dilec'hiañ eus ul lec'h d'un all.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "an",
+          "ez a",
+          "a",
+          "eomp",
+          "eit",
+          "eont"
+        ],
+        "past": [
+          "a-i",
+          "a-es",
+          "eas",
+          "ejomp",
+          "ejoc'h",
+          "ejont"
+        ],
+        "future": [
+          "yein",
+          "yei",
+          "yelo",
+          "yeimp",
+          "yeit",
+          "yeint"
+        ]
+      }
+    },
+    "gallout": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kaout ar galloud pe an tu da ober un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "gallan",
+          "gallez",
+          "gall",
+          "gallomp",
+          "gallit",
+          "gallont"
+        ],
+        "past": [
+          "gallis",
+          "galljout",
+          "gallas",
+          "galljomp",
+          "galljoc'h",
+          "galljont"
+        ],
+        "future": [
+          "gallin",
+          "galli",
+          "gallo",
+          "gallimp",
+          "gallot",
+          "gallint"
+        ]
+      }
+    },
+    "ober": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Krouiñ pe gas un obererezh da benn.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "rean",
+          "reaz",
+          "gra",
+          "greomp",
+          "grait",
+          "greont"
+        ],
+        "past": [
+          "gris",
+          "grejout",
+          "greas",
+          "grejomp",
+          "grejoc'h",
+          "grejont"
+        ],
+        "future": [
+          "grain",
+          "grai",
+          "graio",
+          "graimp",
+          "graiot",
+          "graint"
+        ]
+      }
+    },
+    "reiñ": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kinnig pe reiñ un dra bennak d'un unan bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "roan",
+          "roez",
+          "ro",
+          "roomp",
+          "roit",
+          "roont"
+        ],
+        "past": [
+          "rois",
+          "rojout",
+          "roas",
+          "rojomp",
+          "rojoc'h",
+          "rojont"
+        ],
+        "future": [
+          "roin",
+          "roi",
+          "roo",
+          "roimp",
+          "roit",
+          "roint"
+        ]
+      }
+    },
+    "kaout": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Kaout pe devout un dra bennak.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "am eus",
+          "az peus",
+          "en deus",
+          "hon eus",
+          "hoc'h eus",
+          "o deus"
+        ],
+        "past": [
+          "am boa",
+          "az poa",
+          "en doa",
+          "hor boa",
+          "hoc'h boa",
+          "o doa"
+        ],
+        "future": [
+          "am bezo",
+          "az pezo",
+          "en do",
+          "hor bezo",
+          "hoc'h bezo",
+          "o do"
+        ]
+      }
+    },
+    "klevout": {
+      "group": "Verboù amreizh",
+      "level": "A1",
+      "definition": "Klevout sonioù pe glevet an traoù.",
+      "needs_review": true,
+      "tenses": {
+        "present": [
+          "klevan",
+          "klevez",
+          "klev",
+          "klevomp",
+          "klevit",
+          "klevont"
+        ],
+        "past": [
+          "klevis",
+          "klevjout",
+          "klevas",
+          "klevjomp",
+          "klevjoc'h",
+          "klevjont"
+        ],
+        "future": [
+          "klevin",
+          "klevi",
+          "klevo",
+          "klevimp",
+          "klevot",
+          "klevint"
+        ]
+      }
+    }
+  }
+}

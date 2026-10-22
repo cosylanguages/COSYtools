@@ -1,0 +1,224 @@
+{
+  "group_name": "Modalverb",
+  "verbs": {
+    "mögen": {
+      "group": "Modalverb",
+      "level": "A1",
+      "definition": "Gefallen an etwas oder jemandem haben.",
+      "antonyms": [
+        "hassen"
+      ],
+      "tenses": {
+        "präsens": [
+          "ich mag",
+          "du magst",
+          "er/sie/es mag",
+          "wir mögen",
+          "ihr mögt",
+          "sie mögen"
+        ],
+        "präteritum": [
+          "ich mochte",
+          "du mochtest",
+          "er/sie/es mochte",
+          "wir mochten",
+          "ihr mochtet",
+          "sie mochten"
+        ],
+        "perfekt": [
+          "ich habe gemocht",
+          "du hast gemocht",
+          "er/sie/es hat gemocht",
+          "wir haben gemocht",
+          "ihr habt gemocht",
+          "sie haben gemocht"
+        ],
+        "futur_1": [
+          "ich werde mögen",
+          "du wirst mögen",
+          "er/sie/es wird mögen",
+          "wir werden mögen",
+          "ihr werdet mögen",
+          "sie werden mögen"
+        ],
+        "konjunktiv_2": [
+          "ich möchte",
+          "du möchtest",
+          "er/sie/es möchte",
+          "wir möchten",
+          "ihr möchtet",
+          "sie möchten"
+        ],
+        "imperativ": [
+          "mag!"
+        ]
+      },
+      "examples": [
+        "Ich mag frisches Obst und Gemüse."
+      ]
+    },
+    "wollen": {
+      "group": "Modalverb",
+      "level": "A1",
+      "definition": "Den Absicht oder Wunsch haben, etwas zu tun.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich will",
+          "du willst",
+          "er/sie/es will",
+          "wir wollen",
+          "ihr wollt",
+          "sie wollen"
+        ],
+        "präteritum": [
+          "ich wollte",
+          "du wolltest",
+          "er/sie/es wollte",
+          "wir wollten",
+          "ihr wolltet",
+          "sie wollten"
+        ],
+        "perfekt": [
+          "ich habe gewollt",
+          "du hast gewollt",
+          "er/sie/es hat gewollt",
+          "wir haben gewollt",
+          "ihr habt gewollt",
+          "sie haben gewollt"
+        ],
+        "futur_1": [
+          "ich werde wollen",
+          "du wirst wollen",
+          "er/sie/es wird wollen",
+          "wir werden wollen",
+          "ihr werdet wollen",
+          "sie werden wollen"
+        ],
+        "konjunktiv_2": [
+          "ich wollte",
+          "du wolltest",
+          "er/sie/es wollte",
+          "wir wollten",
+          "ihr wolltet",
+          "sie wollten"
+        ],
+        "imperativ": [
+          "wolle!",
+          "wollt!"
+        ]
+      },
+      "examples": [
+        "Ich will morgen nach Berlin fahren."
+      ]
+    },
+    "können": {
+      "group": "Modalverb",
+      "level": "A1",
+      "definition": "Fähig sein oder die Möglichkeit haben, etwas zu tun.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich kann",
+          "du kannst",
+          "er/sie/es kann",
+          "wir können",
+          "ihr könnt",
+          "sie können"
+        ],
+        "präteritum": [
+          "ich konnte",
+          "du konntest",
+          "er/sie/es konnte",
+          "wir konnten",
+          "ihr konntet",
+          "sie konnten"
+        ],
+        "perfekt": [
+          "ich habe gekonnt",
+          "du hast gekonnt",
+          "er/sie/es hat gekonnt",
+          "wir haben gekonnt",
+          "ihr habt gekonnt",
+          "sie haben gekonnt"
+        ],
+        "futur_1": [
+          "ich werde können",
+          "du wirst können",
+          "er/sie/es wird können",
+          "wir werden können",
+          "ihr werdet können",
+          "sie werden können"
+        ],
+        "konjunktiv_2": [
+          "ich könnte",
+          "du könntest",
+          "er/sie/es könnte",
+          "wir könnten",
+          "ihr könntet",
+          "sie könnten"
+        ],
+        "imperativ": [
+          "kann!"
+        ]
+      },
+      "examples": [
+        "Ich kann sehr gut Deutsch sprechen."
+      ]
+    },
+    "müssen": {
+      "group": "Modalverb",
+      "level": "A1",
+      "definition": "Aus Notwendigkeit oder Pflicht etwas tun müssen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich muss",
+          "du musst",
+          "er/sie/es muss",
+          "wir müssen",
+          "ihr müsst",
+          "sie müssen"
+        ],
+        "präteritum": [
+          "ich musste",
+          "du musstest",
+          "er/sie/es musste",
+          "wir mussten",
+          "ihr musstet",
+          "sie mussten"
+        ],
+        "perfekt": [
+          "ich habe gemusst",
+          "du hast gemusst",
+          "er/sie/es hat gemusst",
+          "wir haben gemusst",
+          "ihr habt gemusst",
+          "sie haben gemusst"
+        ],
+        "futur_1": [
+          "ich werde müssen",
+          "du wirst müssen",
+          "er/sie/es wird müssen",
+          "wir werden müssen",
+          "ihr werdet müssen",
+          "sie werden müssen"
+        ],
+        "konjunktiv_2": [
+          "ich müsste",
+          "du müsstest",
+          "er/sie/es müsste",
+          "wir müssten",
+          "ihr müsstet",
+          "sie müssten"
+        ],
+        "imperativ": [
+          "muss!"
+        ]
+      },
+      "examples": [
+        "Ich muss jetzt zum Bahnhof gehen."
+      ]
+    }
+  }
+}
