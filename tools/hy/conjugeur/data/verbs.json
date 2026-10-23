@@ -33,7 +33,8 @@
     },
     "examples": [
       "Ես խոսում եմ հայերեն ամեն օր:"
-    ]
+    ],
+    "en_lemma": "speak"
   },
   "կարդալ": {
     "group": "II խոնարհում (-ալ)",
@@ -69,7 +70,8 @@
     },
     "examples": [
       "Նա կարդում է նոր գիրք:"
-    ]
+    ],
+    "en_lemma": "read"
   },
   "գրել": {
     "group": "I խոնարհում (-ել)",
@@ -105,7 +107,8 @@
     },
     "examples": [
       "Ես նամակ եմ գրում ընկերոջս:"
-    ]
+    ],
+    "en_lemma": "write"
   },
   "սովորել": {
     "group": "I խոնարհում (-ել)",
@@ -139,7 +142,8 @@
     },
     "examples": [
       "Ես սովորում եմ հայերեն:"
-    ]
+    ],
+    "en_lemma": "study"
   },
   "լինել": {
     "group": "Անկանոն",
@@ -163,7 +167,8 @@
         "էին"
       ]
     },
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "be"
   },
   "ունենալ": {
     "group": "Անկանոն",
@@ -179,7 +184,8 @@
         "ունեն"
       ]
     },
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "have"
   },
   "ուտել": {
     "group": "I խոնարհում (-ել)",
@@ -195,7 +201,8 @@
         "ուտում են"
       ]
     },
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "eat"
   },
   "խմել": {
     "group": "I խոնարհում (-ել)",
@@ -211,7 +218,8 @@
         "խմում են"
       ]
     },
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "drink"
   },
   "գնալ": {
     "group": "II խոնարհում (-ալ)",
@@ -227,7 +235,8 @@
         "գնում են"
       ]
     },
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "go"
   },
   "մտածել": {
     "group": "I խոնարհում (-ել)",
@@ -259,7 +268,8 @@
         "կմտածեք",
         "կմտածեն"
       ]
-    }
+    },
+    "en_lemma": "think"
   },
   "սիրել": {
     "group": "I խոնարհում (-ել)",
@@ -291,7 +301,8 @@
         "կսիրեք",
         "կսիրեն"
       ]
-    }
+    },
+    "en_lemma": "love"
   },
   "ատել": {
     "group": "I խոնարհում (-ել)",
@@ -323,7 +334,8 @@
         "կատեք",
         "կատեն"
       ]
-    }
+    },
+    "en_lemma": "hate"
   },
   "ուզել": {
     "group": "I խոնարհում (-ել)",
@@ -355,7 +367,8 @@
         "կուզեք",
         "կուզեն"
       ]
-    }
+    },
+    "en_lemma": "want"
   },
   "կարողանալ": {
     "group": "II խոնարհում (-ալ)",
@@ -387,7 +400,8 @@
         "կկարողանաք",
         "կկարողանան"
       ]
-    }
+    },
+    "en_lemma": "can"
   },
   "անել": {
     "group": "Անկանոն",
@@ -419,7 +433,8 @@
         "կանեք",
         "կանեն"
       ]
-    }
+    },
+    "en_lemma": "do"
   },
   "հասկանալ": {
     "group": "II խոնարհում (-ալ)",
@@ -451,7 +466,8 @@
         "կհասկանաք",
         "կհասկանան"
       ]
-    }
+    },
+    "en_lemma": "understand"
   },
   "ասել": {
     "group": "Անկանոն",
@@ -483,7 +499,8 @@
         "կասեք",
         "կասեն"
       ]
-    }
+    },
+    "en_lemma": "say"
   },
   "նայել": {
     "group": "I խոնարհում (-ել)",
@@ -515,7 +532,8 @@
         "կնայեք",
         "կնայեն"
       ]
-    }
+    },
+    "en_lemma": "look"
   },
   "հարցնել": {
     "group": "I խոնարհում (-ել)",
@@ -547,7 +565,8 @@
         "կհարցնեք",
         "կհարցնեն"
       ]
-    }
+    },
+    "en_lemma": "ask"
   },
   "պատասխանել": {
     "group": "I խոնարհում (-ել)",
@@ -579,7 +598,8 @@
         "կպատասխանեք",
         "կպատասխանեն"
       ]
-    }
+    },
+    "en_lemma": "answer"
   },
   "վերցնել": {
     "group": "I խոնարհում (-ել)",
@@ -611,7 +631,8 @@
         "կվերցնեք",
         "կվերցնեն"
       ]
-    }
+    },
+    "en_lemma": "take"
   },
   "տալ": {
     "group": "Անկանոն",
@@ -643,7 +664,8 @@
         "կտաք",
         "կտան"
       ]
-    }
+    },
+    "en_lemma": "give"
   },
   "ստանալ": {
     "group": "II խոնարհում (-ալ)",
@@ -675,7 +697,8 @@
         "կստանաք",
         "կստանան"
       ]
-    }
+    },
+    "en_lemma": "get"
   },
   "սպասել": {
     "group": "I խոնարհում (-ել)",
@@ -707,7 +730,8 @@
         "կսպասեք",
         "կսպասեն"
       ]
-    }
+    },
+    "en_lemma": "wait"
   },
   "ապրել": {
     "group": "I խոնարհում (-ել)",
@@ -739,7 +763,8 @@
         "կապրեք",
         "կապրեն"
       ]
-    }
+    },
+    "en_lemma": "live"
   },
   "լսել": {
     "group": "I խոնարհում (-ել)",
@@ -771,7 +796,8 @@
         "կլսեք",
         "կլսեն"
       ]
-    }
+    },
+    "en_lemma": "listen"
   },
   "իմանալ": {
     "group": "II խոնարհում (-ալ)",
@@ -804,5 +830,558 @@
         "կիմանան"
       ]
     }
+  },
+  "իմացվել": {
+    "en_lemma": "know",
+    "infinitive": "իմացվել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for know",
+    "tenses": {
+      "present": [
+        "իմացվել",
+        "իմացվել",
+        "իմացվել",
+        "իմացվել",
+        "իմացվել",
+        "իմացվել"
+      ]
+    },
+    "examples": [
+      "Example sentence for իմացվել."
+    ]
+  },
+  "դուր գալ": {
+    "en_lemma": "like",
+    "infinitive": "դուր գալ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for like",
+    "tenses": {
+      "present": [
+        "դուր գալ",
+        "դուր գալ",
+        "դուր գալ",
+        "դուր գալ",
+        "դուր գալ",
+        "դուր գալ"
+      ]
+    },
+    "examples": [
+      "Example sentence for դուր գալ."
+    ]
+  },
+  "չսիրել": {
+    "en_lemma": "dislike",
+    "infinitive": "չսիրել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "չսիրել",
+        "չսիրել",
+        "չսիրել",
+        "չսիրել",
+        "չսիրել",
+        "չսիրել"
+      ]
+    },
+    "examples": [
+      "Example sentence for չսիրել."
+    ]
+  },
+  "աշխատել": {
+    "en_lemma": "work",
+    "infinitive": "աշխատել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for work",
+    "tenses": {
+      "present": [
+        "աշխատել",
+        "աշխատել",
+        "աշխատել",
+        "աշխատել",
+        "աշխատել",
+        "աշխատել"
+      ]
+    },
+    "examples": [
+      "Example sentence for աշխատել."
+    ]
+  },
+  "պատրաստել": {
+    "en_lemma": "make",
+    "infinitive": "պատրաստել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for make",
+    "tenses": {
+      "present": [
+        "պատրաստել",
+        "պատրաստել",
+        "պատրաստել",
+        "պատրաստել",
+        "պատրաստել",
+        "պատրաստել"
+      ]
+    },
+    "examples": [
+      "Example sentence for պատրաստել."
+    ]
+  },
+  "զրուցել": {
+    "en_lemma": "talk",
+    "infinitive": "զրուցել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for talk",
+    "tenses": {
+      "present": [
+        "զրուցել",
+        "զրուցել",
+        "զրուցել",
+        "զրուցել",
+        "զրուցել",
+        "զրուցել"
+      ]
+    },
+    "examples": [
+      "Example sentence for զրուցել."
+    ]
+  },
+  "պատմել": {
+    "en_lemma": "tell",
+    "infinitive": "պատմել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for tell",
+    "tenses": {
+      "present": [
+        "պատմել",
+        "պատմել",
+        "պատմել",
+        "պատմել",
+        "պատմել",
+        "պատմել"
+      ]
+    },
+    "examples": [
+      "Example sentence for պատմել."
+    ]
+  },
+  "կարիք ունենալ": {
+    "en_lemma": "need",
+    "infinitive": "կարիք ունենալ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for need",
+    "tenses": {
+      "present": [
+        "կարիք ունենալ",
+        "կարիք ունենալ",
+        "կարիք ունենալ",
+        "կարիք ունենալ",
+        "կարիք ունենալ",
+        "կարիք ունենալ"
+      ]
+    },
+    "examples": [
+      "Example sentence for կարիք ունենալ."
+    ]
+  },
+  "դիտել": {
+    "en_lemma": "watch",
+    "infinitive": "դիտել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for watch",
+    "tenses": {
+      "present": [
+        "դիտել",
+        "դիտել",
+        "դիտել",
+        "դիտել",
+        "դիտել",
+        "դիտել"
+      ]
+    },
+    "examples": [
+      "Example sentence for դիտել."
+    ]
+  },
+  "տեսնել": {
+    "en_lemma": "see",
+    "infinitive": "տեսնել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for see",
+    "tenses": {
+      "present": [
+        "տեսնել",
+        "տեսնել",
+        "տեսնել",
+        "տեսնել",
+        "տեսնել",
+        "տեսնել"
+      ]
+    },
+    "examples": [
+      "Example sentence for տեսնել."
+    ]
+  },
+  "պետք է": {
+    "en_lemma": "must",
+    "infinitive": "պետք է",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for must",
+    "tenses": {
+      "present": [
+        "պետք է",
+        "պետք է",
+        "պետք է",
+        "պետք է",
+        "պետք է",
+        "պետք է"
+      ]
+    },
+    "examples": [
+      "Example sentence for պետք է."
+    ]
+  },
+  "ստիպված լինել": {
+    "en_lemma": "have to",
+    "infinitive": "ստիպված լինել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "ստիպված լինել",
+        "ստիպված լինել",
+        "ստիպված լինել",
+        "ստիպված լինել",
+        "ստիպված լինել",
+        "ստիպված լինել"
+      ]
+    },
+    "examples": [
+      "Example sentence for ստիպված լինել."
+    ]
+  },
+  "վճարել": {
+    "en_lemma": "pay",
+    "infinitive": "վճարել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for pay",
+    "tenses": {
+      "present": [
+        "վճարել",
+        "վճարել",
+        "վճարել",
+        "վճարել",
+        "վճարել",
+        "վճարել"
+      ]
+    },
+    "examples": [
+      "Example sentence for վճարել."
+    ]
+  },
+  "գնել": {
+    "en_lemma": "buy",
+    "infinitive": "գնել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for buy",
+    "tenses": {
+      "present": [
+        "գնել",
+        "գնել",
+        "գնել",
+        "գնել",
+        "գնել",
+        "գնել"
+      ]
+    },
+    "examples": [
+      "Example sentence for գնել."
+    ]
+  },
+  "հիշել": {
+    "en_lemma": "remember",
+    "infinitive": "հիշել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for remember",
+    "tenses": {
+      "present": [
+        "հիշել",
+        "հիշել",
+        "հիշել",
+        "հիշել",
+        "հիշել",
+        "հիշել"
+      ]
+    },
+    "examples": [
+      "Example sentence for հիշել."
+    ]
+  },
+  "մոռանալ": {
+    "en_lemma": "forget",
+    "infinitive": "մոռանալ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for forget",
+    "tenses": {
+      "present": [
+        "մոռանալ",
+        "մոռանալ",
+        "մոռանալ",
+        "մոռանալ",
+        "մոռանալ",
+        "մոռանալ"
+      ]
+    },
+    "examples": [
+      "Example sentence for մոռանալ."
+    ]
+  },
+  "զգալ": {
+    "en_lemma": "feel",
+    "infinitive": "զգալ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for feel",
+    "tenses": {
+      "present": [
+        "զգալ",
+        "զգալ",
+        "զգալ",
+        "զգալ",
+        "զգալ",
+        "զգալ"
+      ]
+    },
+    "examples": [
+      "Example sentence for զգալ."
+    ]
+  },
+  "հանդիպել": {
+    "en_lemma": "meet",
+    "infinitive": "հանդիպել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for meet",
+    "tenses": {
+      "present": [
+        "հանդիպել",
+        "հանդիպել",
+        "հանդիպել",
+        "հանդիպել",
+        "հանդիպել",
+        "հանդիպել"
+      ]
+    },
+    "examples": [
+      "Example sentence for հանդիպել."
+    ]
+  },
+  "որոշել": {
+    "en_lemma": "decide",
+    "infinitive": "որոշել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for decide",
+    "tenses": {
+      "present": [
+        "որոշել",
+        "որոշել",
+        "որոշել",
+        "որոշել",
+        "որոշել",
+        "որոշել"
+      ]
+    },
+    "examples": [
+      "Example sentence for որոշել."
+    ]
+  },
+  "տպել": {
+    "en_lemma": "type",
+    "infinitive": "տպել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "տպել",
+        "տպել",
+        "տպել",
+        "տպել",
+        "տպել",
+        "տպել"
+      ]
+    },
+    "examples": [
+      "Example sentence for տպել."
+    ]
+  },
+  "ծախսել": {
+    "en_lemma": "spend",
+    "infinitive": "ծախսել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "ծախսել",
+        "ծախսել",
+        "ծախսել",
+        "ծախսել",
+        "ծախսել",
+        "ծախսել"
+      ]
+    },
+    "examples": [
+      "Example sentence for ծախսել."
+    ]
+  },
+  "վատնել": {
+    "en_lemma": "waste",
+    "infinitive": "վատնել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "վատնել",
+        "վատնել",
+        "վատնել",
+        "վատնել",
+        "վատնել",
+        "վատնել"
+      ]
+    },
+    "examples": [
+      "Example sentence for վատնել."
+    ]
+  },
+  "խաղալ": {
+    "en_lemma": "play",
+    "infinitive": "խաղալ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for play",
+    "tenses": {
+      "present": [
+        "խաղալ",
+        "խաղալ",
+        "խաղալ",
+        "խաղալ",
+        "խաղալ",
+        "խաղալ"
+      ]
+    },
+    "examples": [
+      "Example sentence for խաղալ."
+    ]
+  },
+  "համաձայնել": {
+    "en_lemma": "agree",
+    "infinitive": "համաձայնել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "համաձայնել",
+        "համաձայնել",
+        "համաձայնել",
+        "համաձայնել",
+        "համաձայնել",
+        "համաձայնել"
+      ]
+    },
+    "examples": [
+      "Example sentence for համաձայնել."
+    ]
+  },
+  "չհամաձայնել": {
+    "en_lemma": "disagree",
+    "infinitive": "չհամաձայնել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "չհամաձայնել",
+        "չհամաձայնել",
+        "չհամաձայնել",
+        "չհամաձայնել",
+        "չհամաձայնել",
+        "չհամաձայնել"
+      ]
+    },
+    "examples": [
+      "Example sentence for չհամաձայնել."
+    ]
+  },
+  "ուղարկել": {
+    "en_lemma": "send",
+    "infinitive": "ուղարկել",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for send",
+    "tenses": {
+      "present": [
+        "ուղարկել",
+        "ուղարկել",
+        "ուղարկել",
+        "ուղարկել",
+        "ուղարկել",
+        "ուղարկել"
+      ]
+    },
+    "examples": [
+      "Example sentence for ուղարկել."
+    ]
+  },
+  "լսել (hear)": {
+    "group": "I խոնարհում (-ել)",
+    "level": "A1",
+    "definition": "Ականջ դնել, ձայն ընկալել:",
+    "needs_review": true,
+    "tenses": {
+      "present": [
+        "լսում եմ",
+        "լսում ես",
+        "լսում է",
+        "լսում ենք",
+        "լսում եք",
+        "լսում են"
+      ],
+      "past": [
+        "լսեցի",
+        "լսեցիր",
+        "լսեց",
+        "լսեցինք",
+        "լսեցիք",
+        "լսեցին"
+      ],
+      "future": [
+        "կլսեմ",
+        "կլսես",
+        "կլսի",
+        "կլսենք",
+        "կլսեք",
+        "կլսեն"
+      ]
+    },
+    "en_lemma": "hear"
   }
 }

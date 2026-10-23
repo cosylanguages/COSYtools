@@ -109,7 +109,8 @@
       "I have forgotten my umbrella."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "o-o-o"
+    "vowel_pattern": "o-o-o",
+    "en_lemma": "forget"
   },
   "get": {
     "base": "get",
@@ -125,7 +126,8 @@
       "They have gotten many presents."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "e-o-o"
+    "vowel_pattern": "e-o-o",
+    "en_lemma": "get"
   },
   "give": {
     "base": "give",
@@ -141,7 +143,8 @@
       "They have given us a warm welcome."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "i-a-i"
+    "vowel_pattern": "i-a-i",
+    "en_lemma": "give"
   },
   "grow": {
     "base": "grow",
@@ -189,7 +192,8 @@
       "I have known her for ten years."
     ],
     "subgroup": "ew_own",
-    "vowel_pattern": "o-e-o"
+    "vowel_pattern": "o-e-o",
+    "en_lemma": "know"
   },
   "ride": {
     "base": "ride",
@@ -221,7 +225,8 @@
       "We have spoken about this issue."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "e-o-o"
+    "vowel_pattern": "e-o-o",
+    "en_lemma": "speak"
   },
   "steal": {
     "base": "steal",
@@ -253,7 +258,8 @@
       "They have taken many photos."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "a-o-a"
+    "vowel_pattern": "a-o-a",
+    "en_lemma": "take"
   },
   "throw": {
     "base": "throw",
@@ -317,7 +323,8 @@
       "I have written three chapters so far."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "i-o-i"
+    "vowel_pattern": "i-o-i",
+    "en_lemma": "write"
   },
   "awake": {
     "base": "awake",
@@ -1421,7 +1428,8 @@
       "We have bought tickets for the concert."
     ],
     "subgroup": "ought_aught",
-    "vowel_pattern": "u-o-o"
+    "vowel_pattern": "u-o-o",
+    "en_lemma": "buy"
   },
   "catch": {
     "base": "catch",
@@ -1453,7 +1461,8 @@
       "They have felt better recently."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "feel"
   },
   "hear": {
     "base": "hear",
@@ -1469,7 +1478,8 @@
       "We have heard the news already."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "hear"
   },
   "keep": {
     "base": "keep",
@@ -1549,7 +1559,8 @@
       "They have made great progress."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "a-a-a"
+    "vowel_pattern": "a-a-a",
+    "en_lemma": "make"
   },
   "mean": {
     "base": "mean",
@@ -1581,7 +1592,8 @@
       "They have paid for the flight tickets."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "a-a-a"
+    "vowel_pattern": "a-a-a",
+    "en_lemma": "pay"
   },
   "say": {
     "base": "say",
@@ -1597,7 +1609,8 @@
       "They have said everything needed."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "a-a-a"
+    "vowel_pattern": "a-a-a",
+    "en_lemma": "say"
   },
   "sell": {
     "base": "sell",
@@ -1629,7 +1642,8 @@
       "They have sent the package by mail."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "send"
   },
   "sleep": {
     "base": "sleep",
@@ -1661,7 +1675,8 @@
       "They have spent all their savings."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "spend"
   },
   "stand": {
     "base": "stand",
@@ -1709,7 +1724,8 @@
       "They have told everyone the good news."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-o-o"
+    "vowel_pattern": "e-o-o",
+    "en_lemma": "tell"
   },
   "think": {
     "base": "think",
@@ -1725,7 +1741,8 @@
       "We have thought of a good plan."
     ],
     "subgroup": "ought_aught",
-    "vowel_pattern": "i-o-o"
+    "vowel_pattern": "i-o-o",
+    "en_lemma": "think"
   },
   "understand": {
     "base": "understand",
@@ -1741,7 +1758,8 @@
       "They have understood the rules."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "u-u-u"
+    "vowel_pattern": "u-u-u",
+    "en_lemma": "understand"
   },
   "bend": {
     "base": "bend",
@@ -2397,7 +2415,8 @@
       "He has been to London twice."
     ],
     "subgroup": "totally_irregular",
-    "vowel_pattern": "e-a-e"
+    "vowel_pattern": "e-a-e",
+    "en_lemma": "be"
   },
   "do": {
     "base": "do",
@@ -2413,7 +2432,8 @@
       "We have done all the work."
     ],
     "subgroup": "totally_irregular",
-    "vowel_pattern": "o-i-o"
+    "vowel_pattern": "o-i-o",
+    "en_lemma": "do"
   },
   "eat": {
     "base": "eat",
@@ -2429,7 +2449,8 @@
       "They have eaten all the cake."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "e-a-e"
+    "vowel_pattern": "e-a-e",
+    "en_lemma": "eat"
   },
   "go": {
     "base": "go",
@@ -2445,7 +2466,8 @@
       "They have gone to the market."
     ],
     "subgroup": "totally_irregular",
-    "vowel_pattern": "o-e-o"
+    "vowel_pattern": "o-e-o",
+    "en_lemma": "go"
   },
   "have": {
     "base": "have",
@@ -2461,7 +2483,8 @@
       "They have had a wonderful holiday."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "a-a-a"
+    "vowel_pattern": "a-a-a",
+    "en_lemma": "have"
   },
   "see": {
     "base": "see",
@@ -2477,7 +2500,8 @@
       "We have seen that movie already."
     ],
     "subgroup": "ablaut_plus_en",
-    "vowel_pattern": "e-a-e"
+    "vowel_pattern": "e-a-e",
+    "en_lemma": "see"
   },
   "lie": {
     "base": "lie",
@@ -2653,7 +2677,8 @@
       "We have drunk all the orange juice."
     ],
     "subgroup": "i_a_u_ablaut",
-    "vowel_pattern": "i-a-u"
+    "vowel_pattern": "i-a-u",
+    "en_lemma": "drink"
   },
   "find": {
     "base": "find",
@@ -2701,7 +2726,8 @@
       "We have met before at a conference."
     ],
     "subgroup": "base_past_past",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "meet"
   },
   "read": {
     "base": "read",
@@ -2717,7 +2743,8 @@
       "I have read that novel twice."
     ],
     "subgroup": "no_change",
-    "vowel_pattern": "e-e-e"
+    "vowel_pattern": "e-e-e",
+    "en_lemma": "read"
   },
   "ring": {
     "base": "ring",
@@ -3438,5 +3465,525 @@
     ],
     "subgroup": "base_past_past",
     "vowel_pattern": "i-u-u"
+  },
+  "like": {
+    "en_lemma": "like",
+    "infinitive": "like",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for like",
+    "tenses": {
+      "present": [
+        "like",
+        "like",
+        "like",
+        "like",
+        "like",
+        "like"
+      ]
+    },
+    "examples": [
+      "Example sentence for like."
+    ]
+  },
+  "love": {
+    "en_lemma": "love",
+    "infinitive": "love",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for love",
+    "tenses": {
+      "present": [
+        "love",
+        "love",
+        "love",
+        "love",
+        "love",
+        "love"
+      ]
+    },
+    "examples": [
+      "Example sentence for love."
+    ]
+  },
+  "hate": {
+    "en_lemma": "hate",
+    "infinitive": "hate",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for hate",
+    "tenses": {
+      "present": [
+        "hate",
+        "hate",
+        "hate",
+        "hate",
+        "hate",
+        "hate"
+      ]
+    },
+    "examples": [
+      "Example sentence for hate."
+    ]
+  },
+  "dislike": {
+    "en_lemma": "dislike",
+    "infinitive": "dislike",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "dislike",
+        "dislike",
+        "dislike",
+        "dislike",
+        "dislike",
+        "dislike"
+      ]
+    },
+    "examples": [
+      "Example sentence for dislike."
+    ]
+  },
+  "want": {
+    "en_lemma": "want",
+    "infinitive": "want",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for want",
+    "tenses": {
+      "present": [
+        "want",
+        "want",
+        "want",
+        "want",
+        "want",
+        "want"
+      ]
+    },
+    "examples": [
+      "Example sentence for want."
+    ]
+  },
+  "work": {
+    "en_lemma": "work",
+    "infinitive": "work",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for work",
+    "tenses": {
+      "present": [
+        "work",
+        "work",
+        "work",
+        "work",
+        "work",
+        "work"
+      ]
+    },
+    "examples": [
+      "Example sentence for work."
+    ]
+  },
+  "study": {
+    "en_lemma": "study",
+    "infinitive": "study",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for study",
+    "tenses": {
+      "present": [
+        "study",
+        "study",
+        "study",
+        "study",
+        "study",
+        "study"
+      ]
+    },
+    "examples": [
+      "Example sentence for study."
+    ]
+  },
+  "can": {
+    "en_lemma": "can",
+    "infinitive": "can",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for can",
+    "tenses": {
+      "present": [
+        "can",
+        "can",
+        "can",
+        "can",
+        "can",
+        "can"
+      ]
+    },
+    "examples": [
+      "Example sentence for can."
+    ]
+  },
+  "talk": {
+    "en_lemma": "talk",
+    "infinitive": "talk",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for talk",
+    "tenses": {
+      "present": [
+        "talk",
+        "talk",
+        "talk",
+        "talk",
+        "talk",
+        "talk"
+      ]
+    },
+    "examples": [
+      "Example sentence for talk."
+    ]
+  },
+  "need": {
+    "en_lemma": "need",
+    "infinitive": "need",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for need",
+    "tenses": {
+      "present": [
+        "need",
+        "need",
+        "need",
+        "need",
+        "need",
+        "need"
+      ]
+    },
+    "examples": [
+      "Example sentence for need."
+    ]
+  },
+  "look": {
+    "en_lemma": "look",
+    "infinitive": "look",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for look",
+    "tenses": {
+      "present": [
+        "look",
+        "look",
+        "look",
+        "look",
+        "look",
+        "look"
+      ]
+    },
+    "examples": [
+      "Example sentence for look."
+    ]
+  },
+  "watch": {
+    "en_lemma": "watch",
+    "infinitive": "watch",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for watch",
+    "tenses": {
+      "present": [
+        "watch",
+        "watch",
+        "watch",
+        "watch",
+        "watch",
+        "watch"
+      ]
+    },
+    "examples": [
+      "Example sentence for watch."
+    ]
+  },
+  "ask": {
+    "en_lemma": "ask",
+    "infinitive": "ask",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for ask",
+    "tenses": {
+      "present": [
+        "ask",
+        "ask",
+        "ask",
+        "ask",
+        "ask",
+        "ask"
+      ]
+    },
+    "examples": [
+      "Example sentence for ask."
+    ]
+  },
+  "answer": {
+    "en_lemma": "answer",
+    "infinitive": "answer",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for answer",
+    "tenses": {
+      "present": [
+        "answer",
+        "answer",
+        "answer",
+        "answer",
+        "answer",
+        "answer"
+      ]
+    },
+    "examples": [
+      "Example sentence for answer."
+    ]
+  },
+  "must": {
+    "en_lemma": "must",
+    "infinitive": "must",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for must",
+    "tenses": {
+      "present": [
+        "must",
+        "must",
+        "must",
+        "must",
+        "must",
+        "must"
+      ]
+    },
+    "examples": [
+      "Example sentence for must."
+    ]
+  },
+  "have to": {
+    "en_lemma": "have to",
+    "infinitive": "have to",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "have to",
+        "have to",
+        "have to",
+        "have to",
+        "have to",
+        "have to"
+      ]
+    },
+    "examples": [
+      "Example sentence for have to."
+    ]
+  },
+  "wait": {
+    "en_lemma": "wait",
+    "infinitive": "wait",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for wait",
+    "tenses": {
+      "present": [
+        "wait",
+        "wait",
+        "wait",
+        "wait",
+        "wait",
+        "wait"
+      ]
+    },
+    "examples": [
+      "Example sentence for wait."
+    ]
+  },
+  "live": {
+    "en_lemma": "live",
+    "infinitive": "live",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for live",
+    "tenses": {
+      "present": [
+        "live",
+        "live",
+        "live",
+        "live",
+        "live",
+        "live"
+      ]
+    },
+    "examples": [
+      "Example sentence for live."
+    ]
+  },
+  "listen": {
+    "en_lemma": "listen",
+    "infinitive": "listen",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for listen",
+    "tenses": {
+      "present": [
+        "listen",
+        "listen",
+        "listen",
+        "listen",
+        "listen",
+        "listen"
+      ]
+    },
+    "examples": [
+      "Example sentence for listen."
+    ]
+  },
+  "remember": {
+    "en_lemma": "remember",
+    "infinitive": "remember",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for remember",
+    "tenses": {
+      "present": [
+        "remember",
+        "remember",
+        "remember",
+        "remember",
+        "remember",
+        "remember"
+      ]
+    },
+    "examples": [
+      "Example sentence for remember."
+    ]
+  },
+  "decide": {
+    "en_lemma": "decide",
+    "infinitive": "decide",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for decide",
+    "tenses": {
+      "present": [
+        "decide",
+        "decide",
+        "decide",
+        "decide",
+        "decide",
+        "decide"
+      ]
+    },
+    "examples": [
+      "Example sentence for decide."
+    ]
+  },
+  "type": {
+    "en_lemma": "type",
+    "infinitive": "type",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "type",
+        "type",
+        "type",
+        "type",
+        "type",
+        "type"
+      ]
+    },
+    "examples": [
+      "Example sentence for type."
+    ]
+  },
+  "waste": {
+    "en_lemma": "waste",
+    "infinitive": "waste",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "waste",
+        "waste",
+        "waste",
+        "waste",
+        "waste",
+        "waste"
+      ]
+    },
+    "examples": [
+      "Example sentence for waste."
+    ]
+  },
+  "play": {
+    "en_lemma": "play",
+    "infinitive": "play",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for play",
+    "tenses": {
+      "present": [
+        "play",
+        "play",
+        "play",
+        "play",
+        "play",
+        "play"
+      ]
+    },
+    "examples": [
+      "Example sentence for play."
+    ]
+  },
+  "agree": {
+    "en_lemma": "agree",
+    "infinitive": "agree",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "agree",
+        "agree",
+        "agree",
+        "agree",
+        "agree",
+        "agree"
+      ]
+    },
+    "examples": [
+      "Example sentence for agree."
+    ]
+  },
+  "disagree": {
+    "en_lemma": "disagree",
+    "infinitive": "disagree",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "disagree",
+        "disagree",
+        "disagree",
+        "disagree",
+        "disagree",
+        "disagree"
+      ]
+    },
+    "examples": [
+      "Example sentence for disagree."
+    ]
   }
 }

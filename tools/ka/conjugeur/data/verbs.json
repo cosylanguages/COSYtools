@@ -116,7 +116,8 @@
         "ხართ",
         "არიან"
       ]
-    }
+    },
+    "en_lemma": "be"
   },
   "ჭამა": {
     "group": "I კლასი",
@@ -131,7 +132,8 @@
         "ჭამთ",
         "ჭამენ"
       ]
-    }
+    },
+    "en_lemma": "eat"
   },
   "სმა": {
     "group": "I კლასი",
@@ -146,7 +148,8 @@
         "სვამთ",
         "სვამენ"
       ]
-    }
+    },
+    "en_lemma": "drink"
   },
   "ფიქრობს": {
     "group": "I კლასი",
@@ -274,7 +277,8 @@
         "გენდომებათ",
         "ენდომებათ"
       ]
-    }
+    },
+    "en_lemma": "must"
   },
   "მიდის": {
     "group": "I კლასი",
@@ -691,5 +695,985 @@
         "მოუსმენენ"
       ]
     }
+  },
+  "ყოლა": {
+    "en_lemma": "have",
+    "infinitive": "ყოლა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have",
+    "tenses": {
+      "present": [
+        "ყოლა",
+        "ყოლა",
+        "ყოლა",
+        "ყოლა",
+        "ყოლა",
+        "ყოლა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ყოლა."
+    ]
+  },
+  "ფიქრი": {
+    "en_lemma": "think",
+    "infinitive": "ფიქრი",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for think",
+    "tenses": {
+      "present": [
+        "ფიქრი",
+        "ფიქრი",
+        "ფიქრი",
+        "ფიქრი",
+        "ფიქრი",
+        "ფიქრი"
+      ]
+    },
+    "examples": [
+      "Example sentence for ფიქრი."
+    ]
+  },
+  "ცოდნა": {
+    "en_lemma": "know",
+    "infinitive": "ცოდნა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for know",
+    "tenses": {
+      "present": [
+        "ცოდნა",
+        "ცოდნა",
+        "ცოდნა",
+        "ცოდნა",
+        "ცოდნა",
+        "ცოდნა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ცოდნა."
+    ]
+  },
+  "მოწონება": {
+    "en_lemma": "like",
+    "infinitive": "მოწონება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for like",
+    "tenses": {
+      "present": [
+        "მოწონება",
+        "მოწონება",
+        "მოწონება",
+        "მოწონება",
+        "მოწონება",
+        "მოწონება"
+      ]
+    },
+    "examples": [
+      "Example sentence for მოწონება."
+    ]
+  },
+  "ყვარება": {
+    "en_lemma": "love",
+    "infinitive": "ყვარება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for love",
+    "tenses": {
+      "present": [
+        "ყვარება",
+        "ყვარება",
+        "ყვარება",
+        "ყვარება",
+        "ყვარება",
+        "ყვარება"
+      ]
+    },
+    "examples": [
+      "Example sentence for ყვარება."
+    ]
+  },
+  "სიძულვილი": {
+    "en_lemma": "hate",
+    "infinitive": "სიძულვილი",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for hate",
+    "tenses": {
+      "present": [
+        "სიძულვილი",
+        "სიძულვილი",
+        "სიძულვილი",
+        "სიძულვილი",
+        "სიძულვილი",
+        "სიძულვილი"
+      ]
+    },
+    "examples": [
+      "Example sentence for სიძულვილი."
+    ]
+  },
+  "არმოწონება": {
+    "en_lemma": "dislike",
+    "infinitive": "არმოწონება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "არმოწონება",
+        "არმოწონება",
+        "არმოწონება",
+        "არმოწონება",
+        "არმოწონება",
+        "არმოწონება"
+      ]
+    },
+    "examples": [
+      "Example sentence for არმოწონება."
+    ]
+  },
+  "ნდომა": {
+    "en_lemma": "want",
+    "infinitive": "ნდომა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for want",
+    "tenses": {
+      "present": [
+        "ნდომა",
+        "ნდომა",
+        "ნდომა",
+        "ნდომა",
+        "ნდომა",
+        "ნდომა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ნდომა."
+    ]
+  },
+  "მუშაობა": {
+    "en_lemma": "work",
+    "infinitive": "მუშაობა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for work",
+    "tenses": {
+      "present": [
+        "მუშაობა",
+        "მუშაობა",
+        "მუშაობა",
+        "მუშაობა",
+        "მუშაობა",
+        "მუშაობა"
+      ]
+    },
+    "examples": [
+      "Example sentence for მუშაობა."
+    ]
+  },
+  "სწავლა": {
+    "en_lemma": "study",
+    "infinitive": "სწავლა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for study",
+    "tenses": {
+      "present": [
+        "სწავლა",
+        "სწავლა",
+        "სწავლა",
+        "სწავლა",
+        "სწავლა",
+        "სწავლა"
+      ]
+    },
+    "examples": [
+      "Example sentence for სწავლა."
+    ]
+  },
+  "სვლა": {
+    "en_lemma": "go",
+    "infinitive": "სვლა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for go",
+    "tenses": {
+      "present": [
+        "სვლა",
+        "სვლა",
+        "სვლა",
+        "სვლა",
+        "სვლა",
+        "სვლა"
+      ]
+    },
+    "examples": [
+      "Example sentence for სვლა."
+    ]
+  },
+  "შეძლება": {
+    "en_lemma": "can",
+    "infinitive": "შეძლება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for can",
+    "tenses": {
+      "present": [
+        "შეძლება",
+        "შეძლება",
+        "შეძლება",
+        "შეძლება",
+        "შეძლება",
+        "შეძლება"
+      ]
+    },
+    "examples": [
+      "Example sentence for შეძლება."
+    ]
+  },
+  "კეთება": {
+    "en_lemma": "do",
+    "infinitive": "კეთება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for do",
+    "tenses": {
+      "present": [
+        "კეთება",
+        "კეთება",
+        "კეთება",
+        "კეთება",
+        "კეთება",
+        "კეთება"
+      ]
+    },
+    "examples": [
+      "Example sentence for კეთება."
+    ]
+  },
+  "დამზადება": {
+    "en_lemma": "make",
+    "infinitive": "დამზადება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for make",
+    "tenses": {
+      "present": [
+        "დამზადება",
+        "დამზადება",
+        "დამზადება",
+        "დამზადება",
+        "დამზადება",
+        "დამზადება"
+      ]
+    },
+    "examples": [
+      "Example sentence for დამზადება."
+    ]
+  },
+  "გაგება": {
+    "en_lemma": "understand",
+    "infinitive": "გაგება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for understand",
+    "tenses": {
+      "present": [
+        "გაგება",
+        "გაგება",
+        "გაგება",
+        "გაგება",
+        "გაგება",
+        "გაგება"
+      ]
+    },
+    "examples": [
+      "Example sentence for გაგება."
+    ]
+  },
+  "ლაპარაკი": {
+    "en_lemma": "speak",
+    "infinitive": "ლაპარაკი",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for speak",
+    "tenses": {
+      "present": [
+        "ლაპარაკი",
+        "ლაპარაკი",
+        "ლაპარაკი",
+        "ლაპარაკი",
+        "ლაპარაკი",
+        "ლაპარაკი"
+      ]
+    },
+    "examples": [
+      "Example sentence for ლაპარაკი."
+    ]
+  },
+  "საუბარი": {
+    "en_lemma": "talk",
+    "infinitive": "საუბარი",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for talk",
+    "tenses": {
+      "present": [
+        "საუბარი",
+        "საუბარი",
+        "საუბარი",
+        "საუბარი",
+        "საუბარი",
+        "საუბარი"
+      ]
+    },
+    "examples": [
+      "Example sentence for საუბარი."
+    ]
+  },
+  "თქმა": {
+    "en_lemma": "say",
+    "infinitive": "თქმა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for say",
+    "tenses": {
+      "present": [
+        "თქმა",
+        "თქმა",
+        "თქმა",
+        "თქმა",
+        "თქმა",
+        "თქმა"
+      ]
+    },
+    "examples": [
+      "Example sentence for თქმა."
+    ]
+  },
+  "მოყოლა": {
+    "en_lemma": "tell",
+    "infinitive": "მოყოლა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for tell",
+    "tenses": {
+      "present": [
+        "მოყოლა",
+        "მოყოლა",
+        "მოყოლა",
+        "მოყოლა",
+        "მოყოლა",
+        "მოყოლა"
+      ]
+    },
+    "examples": [
+      "Example sentence for მოყოლა."
+    ]
+  },
+  "საჭიროება": {
+    "en_lemma": "need",
+    "infinitive": "საჭიროება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for need",
+    "tenses": {
+      "present": [
+        "საჭიროება",
+        "საჭიროება",
+        "საჭიროება",
+        "საჭიროება",
+        "საჭიროება",
+        "საჭიროება"
+      ]
+    },
+    "examples": [
+      "Example sentence for საჭიროება."
+    ]
+  },
+  "ყურება": {
+    "en_lemma": "look",
+    "infinitive": "ყურება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for look",
+    "tenses": {
+      "present": [
+        "ყურება",
+        "ყურება",
+        "ყურება",
+        "ყურება",
+        "ყურება",
+        "ყურება"
+      ]
+    },
+    "examples": [
+      "Example sentence for ყურება."
+    ]
+  },
+  "თვალყურის დევნება": {
+    "en_lemma": "watch",
+    "infinitive": "თვალყურის დევნება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for watch",
+    "tenses": {
+      "present": [
+        "თვალყურის დევნება",
+        "თვალყურის დევნება",
+        "თვალყურის დევნება",
+        "თვალყურის დევნება",
+        "თვალყურის დევნება",
+        "თვალყურის დევნება"
+      ]
+    },
+    "examples": [
+      "Example sentence for თვალყურის დევნება."
+    ]
+  },
+  "ნახვა": {
+    "en_lemma": "see",
+    "infinitive": "ნახვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for see",
+    "tenses": {
+      "present": [
+        "ნახვა",
+        "ნახვა",
+        "ნახვა",
+        "ნახვა",
+        "ნახვა",
+        "ნახვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ნახვა."
+    ]
+  },
+  "კითხვა": {
+    "en_lemma": "ask",
+    "infinitive": "კითხვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for ask",
+    "tenses": {
+      "present": [
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for კითხვა."
+    ]
+  },
+  "პასუხი": {
+    "en_lemma": "answer",
+    "infinitive": "პასუხი",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for answer",
+    "tenses": {
+      "present": [
+        "პასუხი",
+        "პასუხი",
+        "პასუხი",
+        "პასუხი",
+        "პასუხი",
+        "პასუხი"
+      ]
+    },
+    "examples": [
+      "Example sentence for პასუხი."
+    ]
+  },
+  "აღება": {
+    "en_lemma": "take",
+    "infinitive": "აღება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for take",
+    "tenses": {
+      "present": [
+        "აღება",
+        "აღება",
+        "აღება",
+        "აღება",
+        "აღება",
+        "აღება"
+      ]
+    },
+    "examples": [
+      "Example sentence for აღება."
+    ]
+  },
+  "მიცემა": {
+    "en_lemma": "give",
+    "infinitive": "მიცემა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for give",
+    "tenses": {
+      "present": [
+        "მიცემა",
+        "მიცემა",
+        "მიცემა",
+        "მიცემა",
+        "მიცემა",
+        "მიცემა"
+      ]
+    },
+    "examples": [
+      "Example sentence for მიცემა."
+    ]
+  },
+  "იძულებული ყოფნა": {
+    "en_lemma": "have to",
+    "infinitive": "იძულებული ყოფნა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "იძულებული ყოფნა",
+        "იძულებული ყოფნა",
+        "იძულებული ყოფნა",
+        "იძულებული ყოფნა",
+        "იძულებული ყოფნა",
+        "იძულებული ყოფნა"
+      ]
+    },
+    "examples": [
+      "Example sentence for იძულებული ყოფნა."
+    ]
+  },
+  "ცდა": {
+    "en_lemma": "wait",
+    "infinitive": "ცდა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for wait",
+    "tenses": {
+      "present": [
+        "ცდა",
+        "ცდა",
+        "ცდა",
+        "ცდა",
+        "ცდა",
+        "ცდა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ცდა."
+    ]
+  },
+  "ცხოვრება": {
+    "en_lemma": "live",
+    "infinitive": "ცხოვრება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for live",
+    "tenses": {
+      "present": [
+        "ცხოვრება",
+        "ცხოვრება",
+        "ცხოვრება",
+        "ცხოვრება",
+        "ცხოვრება",
+        "ცხოვრება"
+      ]
+    },
+    "examples": [
+      "Example sentence for ცხოვრება."
+    ]
+  },
+  "სმენა": {
+    "en_lemma": "listen",
+    "infinitive": "სმენა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for listen",
+    "tenses": {
+      "present": [
+        "სმენა",
+        "სმენა",
+        "სმენა",
+        "სმენა",
+        "სმენა",
+        "სმენა"
+      ]
+    },
+    "examples": [
+      "Example sentence for სმენა."
+    ]
+  },
+  "გაგონება": {
+    "en_lemma": "hear",
+    "infinitive": "გაგონება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for hear",
+    "tenses": {
+      "present": [
+        "გაგონება",
+        "გაგონება",
+        "გაგონება",
+        "გაგონება",
+        "გაგონება",
+        "გაგონება"
+      ]
+    },
+    "examples": [
+      "Example sentence for გაგონება."
+    ]
+  },
+  "გადახდა": {
+    "en_lemma": "pay",
+    "infinitive": "გადახდა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for pay",
+    "tenses": {
+      "present": [
+        "გადახდა",
+        "გადახდა",
+        "გადახდა",
+        "გადახდა",
+        "გადახდა",
+        "გადახდა"
+      ]
+    },
+    "examples": [
+      "Example sentence for გადახდა."
+    ]
+  },
+  "ყიდვა": {
+    "en_lemma": "buy",
+    "infinitive": "ყიდვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for buy",
+    "tenses": {
+      "present": [
+        "ყიდვა",
+        "ყიდვა",
+        "ყიდვა",
+        "ყიდვა",
+        "ყიდვა",
+        "ყიდვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ყიდვა."
+    ]
+  },
+  "ხსოვნა": {
+    "en_lemma": "remember",
+    "infinitive": "ხსოვნა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for remember",
+    "tenses": {
+      "present": [
+        "ხსოვნა",
+        "ხსოვნა",
+        "ხსოვნა",
+        "ხსოვნა",
+        "ხსოვნა",
+        "ხსოვნა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ხსოვნა."
+    ]
+  },
+  "დავიწყება": {
+    "en_lemma": "forget",
+    "infinitive": "დავიწყება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for forget",
+    "tenses": {
+      "present": [
+        "დავიწყება",
+        "დავიწყება",
+        "დავიწყება",
+        "დავიწყება",
+        "დავიწყება",
+        "დავიწყება"
+      ]
+    },
+    "examples": [
+      "Example sentence for დავიწყება."
+    ]
+  },
+  "გრძნობა": {
+    "en_lemma": "feel",
+    "infinitive": "გრძნობა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for feel",
+    "tenses": {
+      "present": [
+        "გრძნობა",
+        "გრძნობა",
+        "გრძნობა",
+        "გრძნობა",
+        "გრძნობა",
+        "გრძნობა"
+      ]
+    },
+    "examples": [
+      "Example sentence for გრძნობა."
+    ]
+  },
+  "შეხვედრა": {
+    "en_lemma": "meet",
+    "infinitive": "შეხვედრა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for meet",
+    "tenses": {
+      "present": [
+        "შეხვედრა",
+        "შეხვედრა",
+        "შეხვედრა",
+        "შეხვედრა",
+        "შეხვედრა",
+        "შეხვედრა"
+      ]
+    },
+    "examples": [
+      "Example sentence for შეხვედრა."
+    ]
+  },
+  "გადაწყვეტა": {
+    "en_lemma": "decide",
+    "infinitive": "გადაწყვეტა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for decide",
+    "tenses": {
+      "present": [
+        "გადაწყვეტა",
+        "გადაწყვეტა",
+        "გადაწყვეტა",
+        "გადაწყვეტა",
+        "გადაწყვეტა",
+        "გადაწყვეტა"
+      ]
+    },
+    "examples": [
+      "Example sentence for გადაწყვეტა."
+    ]
+  },
+  "წერა": {
+    "en_lemma": "write",
+    "infinitive": "წერა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for write",
+    "tenses": {
+      "present": [
+        "წერა",
+        "წერა",
+        "წერა",
+        "წერა",
+        "წერა",
+        "წერა"
+      ]
+    },
+    "examples": [
+      "Example sentence for წერა."
+    ]
+  },
+  "ბეჭდვა": {
+    "en_lemma": "type",
+    "infinitive": "ბეჭდვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "ბეჭდვა",
+        "ბეჭდვა",
+        "ბეჭდვა",
+        "ბეჭდვა",
+        "ბეჭდვა",
+        "ბეჭდვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ბეჭდვა."
+    ]
+  },
+  "ხარჯვა": {
+    "en_lemma": "spend",
+    "infinitive": "ხარჯვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "ხარჯვა",
+        "ხარჯვა",
+        "ხარჯვა",
+        "ხარჯვა",
+        "ხარჯვა",
+        "ხარჯვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ხარჯვა."
+    ]
+  },
+  "ფლანგვა": {
+    "en_lemma": "waste",
+    "infinitive": "ფლანგვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "ფლანგვა",
+        "ფლანგვა",
+        "ფლანგვა",
+        "ფლანგვა",
+        "ფლანგვა",
+        "ფლანგვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for ფლანგვა."
+    ]
+  },
+  "თამაში": {
+    "en_lemma": "play",
+    "infinitive": "თამაში",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for play",
+    "tenses": {
+      "present": [
+        "თამაში",
+        "თამაში",
+        "თამაში",
+        "თამაში",
+        "თამაში",
+        "თამაში"
+      ]
+    },
+    "examples": [
+      "Example sentence for თამაში."
+    ]
+  },
+  "დათანხმება": {
+    "en_lemma": "agree",
+    "infinitive": "დათანხმება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "დათანხმება",
+        "დათანხმება",
+        "დათანხმება",
+        "დათანხმება",
+        "დათანხმება",
+        "დათანხმება"
+      ]
+    },
+    "examples": [
+      "Example sentence for დათანხმება."
+    ]
+  },
+  "უარყოფა": {
+    "en_lemma": "disagree",
+    "infinitive": "უარყოფა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "უარყოფა",
+        "უარყოფა",
+        "უარყოფა",
+        "უარყოფა",
+        "უარყოფა",
+        "უარყოფა"
+      ]
+    },
+    "examples": [
+      "Example sentence for უარყოფა."
+    ]
+  },
+  "გაგზავნა": {
+    "en_lemma": "send",
+    "infinitive": "გაგზავნა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for send",
+    "tenses": {
+      "present": [
+        "გაგზავნა",
+        "გაგზავნა",
+        "გაგზავნა",
+        "გაგზავნა",
+        "გაგზავნა",
+        "გაგზავნა"
+      ]
+    },
+    "examples": [
+      "Example sentence for გაგზავნა."
+    ]
+  },
+  "მიღება": {
+    "en_lemma": "get",
+    "infinitive": "მიღება",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for get",
+    "tenses": {
+      "present": [
+        "მიღება",
+        "მიღება",
+        "მიღება",
+        "მიღება",
+        "მიღება",
+        "მიღება"
+      ]
+    },
+    "examples": [
+      "Example sentence for მიღება."
+    ]
+  },
+  "კითხვა (read)": {
+    "en_lemma": "read",
+    "infinitive": "კითხვა",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for ask",
+    "tenses": {
+      "present": [
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა",
+        "კითხვა"
+      ]
+    },
+    "examples": [
+      "Example sentence for კითხვა."
+    ]
   }
 }

@@ -71,11 +71,14 @@
                 const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
 
                 if (item) {
-                    let html = `<h2 style="margin-top:0;">${dbKey} <span class="tag">${item.level || 'A1'}</span></h2>`;
+                    const headingText = item.infinitive ? `${dbKey} (${item.infinitive})` : dbKey;
+                    let html = `<h2 style="margin-top:0;">${headingText} <span class="tag">${item.level || 'A1'}</span></h2>`;
                     if (item.definition) html += `<p><strong>Definition:</strong> ${item.definition}</p>`;
                     if (item.examples && item.examples.length > 0) html += `<p><strong>Example:</strong> ${item.examples[0]}</p>`;
 
-                    if (tableHtml) {
+                    if (item.tenses && item.tenses.present && item.tenses.present.length > 0) {
+                        html += `<div style="margin-top:1.5rem;"><h3>Present Tense</h3><ul style="list-style:none; padding:0;">${item.tenses.present.map(form => `<li style="padding:0.4rem 0.8rem; margin-bottom:0.3rem; background:var(--surface-muted, #f8f9fa); border-radius:6px; font-weight:600;">${form}</li>`).join("")}</ul></div>`;
+                    } else if (tableHtml) {
                         html += tableHtml;
                     } else {
                         html += `<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic; margin-top: 1rem;">Full conjugation table not available for this verb yet.</p>`;
@@ -111,7 +114,16 @@
                 input.addEventListener('input', event => {
                     const query = event.target.value.trim().toLowerCase();
                     if (!query) return;
-                    const match = allLemmas.find(lemma => lemma.toLowerCase().startsWith(query) || lemma.toLowerCase() === query);
+                    const match = allLemmas.find(lemma => {
+                        const l = lemma.toLowerCase();
+                        if (l === query || l.startsWith(query)) return true;
+                        const itm = db[lemma];
+                        if (itm) {
+                            if (itm.en_lemma && itm.en_lemma.toLowerCase() === query) return true;
+                            if (itm.infinitive && itm.infinitive.toLowerCase().startsWith(query)) return true;
+                        }
+                        return false;
+                    });
                     if (match) render(match);
                 });
             }
