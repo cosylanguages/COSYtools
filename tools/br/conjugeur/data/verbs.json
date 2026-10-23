@@ -31,7 +31,8 @@
     },
     "examples": [
       "Komz a ran brezhoneg bemdez."
-    ]
+    ],
+    "en_lemma": "speak"
   },
   "lenn": {
     "group": "Verboù boutin",
@@ -65,7 +66,8 @@
     },
     "examples": [
       "Lenn a ra ur levr nevez."
-    ]
+    ],
+    "en_lemma": "read"
   },
   "skrivañ": {
     "group": "Verboù boutin",
@@ -99,7 +101,8 @@
     },
     "examples": [
       "Skrivañ a ran ur lizher."
-    ]
+    ],
+    "en_lemma": "write"
   },
   "bezañ": {
     "group": "Verboù amreizh",
@@ -129,7 +132,8 @@
         "debrit",
         "debront"
       ]
-    }
+    },
+    "en_lemma": "eat"
   },
   "evañ": {
     "group": "Verboù boutin",
@@ -144,7 +148,8 @@
         "evit",
         "evont"
       ]
-    }
+    },
+    "en_lemma": "drink"
   },
   "soñjal": {
     "group": "Verboù boutin",
@@ -176,7 +181,8 @@
         "soñjot",
         "soñjint"
       ]
-    }
+    },
+    "en_lemma": "think"
   },
   "gouzout": {
     "group": "Verboù amreizh",
@@ -208,7 +214,8 @@
         "gouezot",
         "gouezint"
       ]
-    }
+    },
+    "en_lemma": "know"
   },
   "karet": {
     "group": "Verboù boutin",
@@ -272,7 +279,8 @@
         "kasaot",
         "kasaint"
       ]
-    }
+    },
+    "en_lemma": "hate"
   },
   "fellout": {
     "group": "Verboù amreizh",
@@ -336,7 +344,8 @@
         "yeit",
         "yeint"
       ]
-    }
+    },
+    "en_lemma": "go"
   },
   "gallout": {
     "group": "Verboù amreizh",
@@ -368,7 +377,8 @@
         "gallot",
         "gallint"
       ]
-    }
+    },
+    "en_lemma": "can"
   },
   "ober": {
     "group": "Verboù amreizh",
@@ -400,7 +410,8 @@
         "graiot",
         "graint"
       ]
-    }
+    },
+    "en_lemma": "do"
   },
   "kompren": {
     "group": "Verboù boutin",
@@ -432,7 +443,8 @@
         "komprenot",
         "komprenint"
       ]
-    }
+    },
+    "en_lemma": "understand"
   },
   "laret": {
     "group": "Verboù boutin",
@@ -528,7 +540,8 @@
         "goulennot",
         "goulennint"
       ]
-    }
+    },
+    "en_lemma": "ask"
   },
   "respont": {
     "group": "Verboù boutin",
@@ -560,7 +573,8 @@
         "respontot",
         "respontint"
       ]
-    }
+    },
+    "en_lemma": "answer"
   },
   "kemer": {
     "group": "Verboù boutin",
@@ -592,7 +606,8 @@
         "kemerot",
         "kemerint"
       ]
-    }
+    },
+    "en_lemma": "take"
   },
   "reiñ": {
     "group": "Verboù amreizh",
@@ -624,7 +639,8 @@
         "roit",
         "roint"
       ]
-    }
+    },
+    "en_lemma": "give"
   },
   "kaout": {
     "group": "Verboù amreizh",
@@ -656,7 +672,8 @@
         "hoc'h bezo",
         "o do"
       ]
-    }
+    },
+    "en_lemma": "have"
   },
   "gortoz": {
     "group": "Verboù boutin",
@@ -688,7 +705,8 @@
         "gortozot",
         "gortozint"
       ]
-    }
+    },
+    "en_lemma": "wait"
   },
   "bevañ": {
     "group": "Verboù boutin",
@@ -720,7 +738,8 @@
         "bevot",
         "bevint"
       ]
-    }
+    },
+    "en_lemma": "live"
   },
   "selaou": {
     "group": "Verboù boutin",
@@ -752,7 +771,8 @@
         "selaouot",
         "selaouint"
       ]
-    }
+    },
+    "en_lemma": "listen"
   },
   "klevout": {
     "group": "Verboù amreizh",
@@ -784,6 +804,660 @@
         "klevot",
         "klevint"
       ]
-    }
+    },
+    "en_lemma": "hear"
+  },
+  "bout": {
+    "en_lemma": "be",
+    "infinitive": "bout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for be",
+    "tenses": {
+      "present": [
+        "bout",
+        "bout",
+        "bout",
+        "bout",
+        "bout",
+        "bout"
+      ]
+    },
+    "examples": [
+      "Example sentence for bout."
+    ]
+  },
+  "plijout": {
+    "en_lemma": "like",
+    "infinitive": "plijout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for like",
+    "tenses": {
+      "present": [
+        "plijout",
+        "plijout",
+        "plijout",
+        "plijout",
+        "plijout",
+        "plijout"
+      ]
+    },
+    "examples": [
+      "Example sentence for plijout."
+    ]
+  },
+  "karout": {
+    "en_lemma": "love",
+    "infinitive": "karout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for love",
+    "tenses": {
+      "present": [
+        "karout",
+        "karout",
+        "karout",
+        "karout",
+        "karout",
+        "karout"
+      ]
+    },
+    "examples": [
+      "Example sentence for karout."
+    ]
+  },
+  "fallplijout": {
+    "en_lemma": "dislike",
+    "infinitive": "fallplijout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "fallplijout",
+        "fallplijout",
+        "fallplijout",
+        "fallplijout",
+        "fallplijout",
+        "fallplijout"
+      ]
+    },
+    "examples": [
+      "Example sentence for fallplijout."
+    ]
+  },
+  "follout": {
+    "en_lemma": "want",
+    "infinitive": "follout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for want",
+    "tenses": {
+      "present": [
+        "follout",
+        "follout",
+        "follout",
+        "follout",
+        "follout",
+        "follout"
+      ]
+    },
+    "examples": [
+      "Example sentence for follout."
+    ]
+  },
+  "labourat": {
+    "en_lemma": "work",
+    "infinitive": "labourat",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for work",
+    "tenses": {
+      "present": [
+        "labourat",
+        "labourat",
+        "labourat",
+        "labourat",
+        "labourat",
+        "labourat"
+      ]
+    },
+    "examples": [
+      "Example sentence for labourat."
+    ]
+  },
+  "studiañ": {
+    "en_lemma": "study",
+    "infinitive": "studiañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for study",
+    "tenses": {
+      "present": [
+        "studiañ",
+        "studiañ",
+        "studiañ",
+        "studiañ",
+        "studiañ",
+        "studiañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for studiañ."
+    ]
+  },
+  "sevel": {
+    "en_lemma": "make",
+    "infinitive": "sevel",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for make",
+    "tenses": {
+      "present": [
+        "sevel",
+        "sevel",
+        "sevel",
+        "sevel",
+        "sevel",
+        "sevel"
+      ]
+    },
+    "examples": [
+      "Example sentence for sevel."
+    ]
+  },
+  "kaozeal": {
+    "en_lemma": "talk",
+    "infinitive": "kaozeal",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for talk",
+    "tenses": {
+      "present": [
+        "kaozeal",
+        "kaozeal",
+        "kaozeal",
+        "kaozeal",
+        "kaozeal",
+        "kaozeal"
+      ]
+    },
+    "examples": [
+      "Example sentence for kaozeal."
+    ]
+  },
+  "lavaret": {
+    "en_lemma": "say",
+    "infinitive": "lavaret",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for say",
+    "tenses": {
+      "present": [
+        "lavaret",
+        "lavaret",
+        "lavaret",
+        "lavaret",
+        "lavaret",
+        "lavaret"
+      ]
+    },
+    "examples": [
+      "Example sentence for lavaret."
+    ]
+  },
+  "kontañ": {
+    "en_lemma": "tell",
+    "infinitive": "kontañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for tell",
+    "tenses": {
+      "present": [
+        "kontañ",
+        "kontañ",
+        "kontañ",
+        "kontañ",
+        "kontañ",
+        "kontañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for kontañ."
+    ]
+  },
+  "ezhomm kaout": {
+    "en_lemma": "need",
+    "infinitive": "ezhomm kaout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for need",
+    "tenses": {
+      "present": [
+        "ezhomm kaout",
+        "ezhomm kaout",
+        "ezhomm kaout",
+        "ezhomm kaout",
+        "ezhomm kaout",
+        "ezhomm kaout"
+      ]
+    },
+    "examples": [
+      "Example sentence for ezhomm kaout."
+    ]
+  },
+  "sellet": {
+    "en_lemma": "look",
+    "infinitive": "sellet",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for look",
+    "tenses": {
+      "present": [
+        "sellet",
+        "sellet",
+        "sellet",
+        "sellet",
+        "sellet",
+        "sellet"
+      ]
+    },
+    "examples": [
+      "Example sentence for sellet."
+    ]
+  },
+  "evezhiañ": {
+    "en_lemma": "watch",
+    "infinitive": "evezhiañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for watch",
+    "tenses": {
+      "present": [
+        "evezhiañ",
+        "evezhiañ",
+        "evezhiañ",
+        "evezhiañ",
+        "evezhiañ",
+        "evezhiañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for evezhiañ."
+    ]
+  },
+  "gwelout": {
+    "en_lemma": "see",
+    "infinitive": "gwelout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for see",
+    "tenses": {
+      "present": [
+        "gwelout",
+        "gwelout",
+        "gwelout",
+        "gwelout",
+        "gwelout",
+        "gwelout"
+      ]
+    },
+    "examples": [
+      "Example sentence for gwelout."
+    ]
+  },
+  "rankout": {
+    "en_lemma": "must",
+    "infinitive": "rankout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for must",
+    "tenses": {
+      "present": [
+        "rankout",
+        "rankout",
+        "rankout",
+        "rankout",
+        "rankout",
+        "rankout"
+      ]
+    },
+    "examples": [
+      "Example sentence for rankout."
+    ]
+  },
+  "rediañ": {
+    "en_lemma": "have to",
+    "infinitive": "rediañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "rediañ",
+        "rediañ",
+        "rediañ",
+        "rediañ",
+        "rediañ",
+        "rediañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for rediañ."
+    ]
+  },
+  "paeañ": {
+    "en_lemma": "pay",
+    "infinitive": "paeañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for pay",
+    "tenses": {
+      "present": [
+        "paeañ",
+        "paeañ",
+        "paeañ",
+        "paeañ",
+        "paeañ",
+        "paeañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for paeañ."
+    ]
+  },
+  "brenañ": {
+    "en_lemma": "buy",
+    "infinitive": "brenañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for buy",
+    "tenses": {
+      "present": [
+        "brenañ",
+        "brenañ",
+        "brenañ",
+        "brenañ",
+        "brenañ",
+        "brenañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for brenañ."
+    ]
+  },
+  "kaout soñj": {
+    "en_lemma": "remember",
+    "infinitive": "kaout soñj",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for remember",
+    "tenses": {
+      "present": [
+        "kaout soñj",
+        "kaout soñj",
+        "kaout soñj",
+        "kaout soñj",
+        "kaout soñj",
+        "kaout soñj"
+      ]
+    },
+    "examples": [
+      "Example sentence for kaout soñj."
+    ]
+  },
+  "ankounac hat": {
+    "en_lemma": "forget",
+    "infinitive": "ankounac hat",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for forget",
+    "tenses": {
+      "present": [
+        "ankounac hat",
+        "ankounac hat",
+        "ankounac hat",
+        "ankounac hat",
+        "ankounac hat",
+        "ankounac hat"
+      ]
+    },
+    "examples": [
+      "Example sentence for ankounac hat."
+    ]
+  },
+  "santout": {
+    "en_lemma": "feel",
+    "infinitive": "santout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for feel",
+    "tenses": {
+      "present": [
+        "santout",
+        "santout",
+        "santout",
+        "santout",
+        "santout",
+        "santout"
+      ]
+    },
+    "examples": [
+      "Example sentence for santout."
+    ]
+  },
+  "kejañ": {
+    "en_lemma": "meet",
+    "infinitive": "kejañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for meet",
+    "tenses": {
+      "present": [
+        "kejañ",
+        "kejañ",
+        "kejañ",
+        "kejañ",
+        "kejañ",
+        "kejañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for kejañ."
+    ]
+  },
+  "divizout": {
+    "en_lemma": "decide",
+    "infinitive": "divizout",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for decide",
+    "tenses": {
+      "present": [
+        "divizout",
+        "divizout",
+        "divizout",
+        "divizout",
+        "divizout",
+        "divizout"
+      ]
+    },
+    "examples": [
+      "Example sentence for divizout."
+    ]
+  },
+  "skrivañ gant ar c klavier": {
+    "en_lemma": "type",
+    "infinitive": "skrivañ gant ar c klavier",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "skrivañ gant ar c klavier",
+        "skrivañ gant ar c klavier",
+        "skrivañ gant ar c klavier",
+        "skrivañ gant ar c klavier",
+        "skrivañ gant ar c klavier",
+        "skrivañ gant ar c klavier"
+      ]
+    },
+    "examples": [
+      "Example sentence for skrivañ gant ar c klavier."
+    ]
+  },
+  "dispign": {
+    "en_lemma": "spend",
+    "infinitive": "dispign",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "dispign",
+        "dispign",
+        "dispign",
+        "dispign",
+        "dispign",
+        "dispign"
+      ]
+    },
+    "examples": [
+      "Example sentence for dispign."
+    ]
+  },
+  "gwallzispign": {
+    "en_lemma": "waste",
+    "infinitive": "gwallzispign",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "gwallzispign",
+        "gwallzispign",
+        "gwallzispign",
+        "gwallzispign",
+        "gwallzispign",
+        "gwallzispign"
+      ]
+    },
+    "examples": [
+      "Example sentence for gwallzispign."
+    ]
+  },
+  "c hoari": {
+    "en_lemma": "play",
+    "infinitive": "c hoari",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for play",
+    "tenses": {
+      "present": [
+        "c hoari",
+        "c hoari",
+        "c hoari",
+        "c hoari",
+        "c hoari",
+        "c hoari"
+      ]
+    },
+    "examples": [
+      "Example sentence for c hoari."
+    ]
+  },
+  "a-du bezañ": {
+    "en_lemma": "agree",
+    "infinitive": "a-du bezañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "a-du bezañ",
+        "a-du bezañ",
+        "a-du bezañ",
+        "a-du bezañ",
+        "a-du bezañ",
+        "a-du bezañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for a-du bezañ."
+    ]
+  },
+  "enep bezañ": {
+    "en_lemma": "disagree",
+    "infinitive": "enep bezañ",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "enep bezañ",
+        "enep bezañ",
+        "enep bezañ",
+        "enep bezañ",
+        "enep bezañ",
+        "enep bezañ"
+      ]
+    },
+    "examples": [
+      "Example sentence for enep bezañ."
+    ]
+  },
+  "kas": {
+    "en_lemma": "send",
+    "infinitive": "kas",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for send",
+    "tenses": {
+      "present": [
+        "kas",
+        "kas",
+        "kas",
+        "kas",
+        "kas",
+        "kas"
+      ]
+    },
+    "examples": [
+      "Example sentence for kas."
+    ]
+  },
+  "kaout (get)": {
+    "group": "Verboù amreizh",
+    "level": "A1",
+    "definition": "Kaout pe devout un dra bennak.",
+    "needs_review": true,
+    "tenses": {
+      "present": [
+        "am eus",
+        "az peus",
+        "en deus",
+        "hon eus",
+        "hoc'h eus",
+        "o deus"
+      ],
+      "past": [
+        "am boa",
+        "az poa",
+        "en doa",
+        "hor boa",
+        "hoc'h boa",
+        "o doa"
+      ],
+      "future": [
+        "am bezo",
+        "az pezo",
+        "en do",
+        "hor bezo",
+        "hoc'h bezo",
+        "o do"
+      ]
+    },
+    "en_lemma": "get"
   }
 }

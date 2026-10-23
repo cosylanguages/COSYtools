@@ -48,7 +48,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "read"
   },
   "писать": {
     "group": "I спряжение (НСВ)",
@@ -100,7 +101,8 @@
     },
     "usage_hint": "+ винительный (что?) / кому? (дательный) / о чём? (предложный)",
     "grammar_rule": "💡 REMEMBER: Чередование согласных с/ш во всех формах настоящего времени (пишу, пишешь... пишут).",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "write"
   },
   "делать": {
     "group": "I спряжение (НСВ)",
@@ -151,7 +153,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "make"
   },
   "работать": {
     "group": "I спряжение (НСВ)",
@@ -202,7 +205,8 @@
       ]
     },
     "usage_hint": "в/на + предложный (где?) / кем? (творительный)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "work"
   },
   "отдыхать": {
     "group": "I спряжение (НСВ)",
@@ -304,7 +308,8 @@
       ]
     },
     "usage_hint": "+ о / об + предложный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "know"
   },
   "понимать": {
     "group": "I спряжение (НСВ)",
@@ -355,7 +360,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (кого? что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "understand"
   },
   "думать": {
     "group": "I спряжение (НСВ)",
@@ -406,7 +412,8 @@
       ]
     },
     "usage_hint": "+ о / об + предложный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "think"
   },
   "слушать": {
     "group": "I спряжение (НСВ)",
@@ -457,7 +464,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (кого/что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "listen"
   },
   "завтракать": {
     "group": "I спряжение (НСВ)",
@@ -712,7 +720,8 @@
       ]
     },
     "usage_hint": "в + винительный (в игру) / на + предложный (на гитаре)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "play"
   },
   "повторять": {
     "group": "I спряжение (НСВ)",
@@ -865,7 +874,8 @@
       ]
     },
     "usage_hint": "+ винительный (кого?) о + предложный (о чём?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "ask"
   },
   "отвечать": {
     "group": "I спряжение (НСВ)",
@@ -916,7 +926,8 @@
       ]
     },
     "usage_hint": "+ дательный (кому?) на + винительный (на что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "answer"
   },
   "покупать": {
     "group": "I спряжение (НСВ)",
@@ -967,7 +978,8 @@
       ]
     },
     "usage_hint": "+ винительный (что?) у + родительный (у кого?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "buy"
   },
   "продавать": {
     "group": "I спряжение (НСВ)",
@@ -1375,7 +1387,8 @@
       ]
     },
     "usage_hint": "+ дательный (кому?) о + предложный (о чём?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "tell"
   },
   "показывать": {
     "group": "I спряжение (НСВ)",
@@ -1528,7 +1541,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (кого?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "meet"
   },
   "провожать": {
     "group": "I спряжение (НСВ)",
@@ -1630,7 +1644,8 @@
       ]
     },
     "usage_hint": "+ о / об + предложный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "forget"
   },
   "плавать": {
     "group": "I спряжение (НСВ)",
@@ -1834,7 +1849,8 @@
       ]
     },
     "usage_hint": "+ винительный (кого?) / родительный (чего?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "wait"
   },
   "петь": {
     "group": "I спряжение (НСВ)",
@@ -3721,7 +3737,8 @@
       ]
     },
     "usage_hint": "+ винительный (что?) от + родительный (от кого?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "get"
   },
   "отдавать": {
     "group": "I спряжение (НСВ)",
@@ -3823,7 +3840,8 @@
       ]
     },
     "usage_hint": "+ винительный (что?) у + родительный (у кого?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "take"
   },
   "давать": {
     "group": "I спряжение (НСВ)",
@@ -3874,7 +3892,8 @@
       ]
     },
     "usage_hint": "+ винительный (что?) + дательный (кому?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "give"
   },
   "класть": {
     "group": "I спряжение (НСВ)",
@@ -5459,7 +5478,8 @@
     },
     "usage_hint": "+ винительный падеж (что?)",
     "irregular": false,
-    "pair": "вы́пить"
+    "pair": "вы́пить",
+    "en_lemma": "drink"
   },
   "чувствовать": {
     "group": "1-е спряжение",
@@ -5511,7 +5531,8 @@
     },
     "usage_hint": "+ винительный падеж (что?)",
     "irregular": false,
-    "pair": "почу́вствовать"
+    "pair": "почу́вствовать",
+    "en_lemma": "feel"
   },
   "чуять": {
     "group": "1-е спряжение",
@@ -6550,7 +6571,8 @@
         "соглашатьвший"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "agree"
   },
   "обсуждать": {
     "group": "I спряжение (НСВ)",
@@ -6703,7 +6725,8 @@
         "решавший"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "decide"
   },
   "мочь": {
     "group": "I спряжение (НСВ)",
@@ -6753,7 +6776,8 @@
         "могший"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "can"
   },
   "предполагать": {
     "group": "I спряжение (НСВ)",
@@ -6906,7 +6930,8 @@
     },
     "usage_hint": "+ в / на + предложный падеж",
     "irregular": false,
-    "pair": "побы́ть"
+    "pair": "побы́ть",
+    "en_lemma": "be"
   },
   "идти": {
     "group": "I спряжение (НСВ)",
@@ -6957,7 +6982,8 @@
       ]
     },
     "usage_hint": "+ в / на + винительный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "go"
   },
   "путешествовать": {
     "group": "I спряжение (НСВ)",
@@ -7753,7 +7779,8 @@
         "нуждавшийся"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "need"
   },
   "пробовать": {
     "group": "I спряжение (НСВ)",
@@ -7892,7 +7919,8 @@
         "сделайте!"
       ]
     },
-    "usage_hint": "+ винительный падеж (что?)"
+    "usage_hint": "+ винительный падеж (что?)",
+    "en_lemma": "make"
   },
   "поработать": {
     "group": "Совершенный вид (СВ)",
@@ -10325,7 +10353,8 @@
       ]
     },
     "usage_hint": "с + творительный (с кем?), о + предложный (о чём?)",
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "say"
   },
   "посмотреть": {
     "group": "Совершенный вид (СВ)",
@@ -13499,7 +13528,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "have"
   },
   "существовать": {
     "group": "I спряжение (НСВ)",
@@ -14341,7 +14371,8 @@
       ]
     },
     "usage_hint": "с кем? (творительный падеж) / о чём? (предложный падеж)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "talk"
   },
   "наблюдать": {
     "group": "I спряжение (НСВ)",
@@ -14392,7 +14423,8 @@
       ]
     },
     "usage_hint": "за кем/чем? (творительный падеж)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "watch"
   },
   "говорить": {
     "group": "II спряжение (НСВ)",
@@ -14443,7 +14475,8 @@
       ]
     },
     "usage_hint": "+ с + творительный падеж / + дательный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "say"
   },
   "смотреть": {
     "group": "II спряжение (НСВ)",
@@ -14495,7 +14528,8 @@
     },
     "usage_hint": "на + винительный (на кого?) / + винительный (фильм)",
     "grammar_rule": "💡 REMEMBER: Глагол-исключение II спряжения на -еть (смотрю, смотришь, смотрят).",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "look"
   },
   "видеть": {
     "group": "II спряжение (НСВ)",
@@ -14547,7 +14581,8 @@
     },
     "usage_hint": "+ винительный падеж (кого/что?)",
     "grammar_rule": "💡 REMEMBER: Глагол-исключение II спряжения на -еть (вижу, видишь, видят).",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "see"
   },
   "слышать": {
     "group": "II спряжение (НСВ)",
@@ -14598,7 +14633,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (кого/что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "hear"
   },
   "любить": {
     "group": "II спряжение (НСВ)",
@@ -14650,7 +14686,8 @@
     },
     "usage_hint": "+ винительный падеж (кого? что?)",
     "grammar_rule": "💡 REMEMBER: Чередование б/бл в 1-м лице ед.ч. (люблю, любишь, любят).",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "love"
   },
   "ходить": {
     "group": "II спряжение (НСВ)",
@@ -14905,7 +14942,8 @@
       ]
     },
     "usage_hint": "за + винительный (за что?) / + дательный (кому?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "pay"
   },
   "кормить": {
     "group": "II спряжение (НСВ)",
@@ -15211,7 +15249,8 @@
       ]
     },
     "usage_hint": "+ винительный падеж (кого? что?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "hate"
   },
   "жить": {
     "group": "II спряжение (НСВ)",
@@ -15262,7 +15301,8 @@
       ]
     },
     "usage_hint": "+ в / на + предложный падеж",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "live"
   },
   "будить": {
     "group": "II спряжение (НСВ)",
@@ -15929,7 +15969,8 @@
         "помнивший"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "remember"
   },
   "становиться": {
     "group": "II спряжение (НСВ)",
@@ -16040,7 +16081,8 @@
       ]
     },
     "usage_hint": "+ дательный падеж (кому?)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "like"
   },
   "учиться": {
     "group": "II спряжение (НСВ)",
@@ -16091,7 +16133,8 @@
       ]
     },
     "usage_hint": "где? (в школе, в университете) / чему? (дательный падеж)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "study"
   },
   "есть": {
     "group": "разносклоняемое",
@@ -16144,7 +16187,8 @@
     "usage_hint": "+ винительный падеж (что?)",
     "grammar_rule": "💡 REMEMBER: Особое архаичное спряжение: ем, ешь, ест, едим, едите, едят.",
     "irregular": true,
-    "pair": "съе́сть"
+    "pair": "съе́сть",
+    "en_lemma": "eat"
   },
   "хотеть": {
     "group": "разносклоняемое",
@@ -16196,7 +16240,8 @@
     "usage_hint": "+ винительный падеж (что?)",
     "grammar_rule": "💡 REMEMBER: Разноспрягаемый глагол! В единственном числе спрягается по I спряжению (хочу, хочешь, хочет), во множественном — по II спряжению (хотим, хотите, хотят).",
     "irregular": true,
-    "pair": "захоте́ть"
+    "pair": "захоте́ть",
+    "en_lemma": "want"
   },
   "дышать": {
     "group": "2-е спряжение (искл.)",
@@ -16405,5 +16450,269 @@
     "usage_hint": "+ винительный падеж (кого/что?)",
     "irregular": true,
     "pair": "побри́ть"
+  },
+  "не любить": {
+    "en_lemma": "dislike",
+    "infinitive": "не любить",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "не любить",
+        "не любить",
+        "не любить",
+        "не любить",
+        "не любить",
+        "не любить"
+      ]
+    },
+    "examples": [
+      "Example sentence for не любить."
+    ]
+  },
+  "долженствовать": {
+    "en_lemma": "must",
+    "infinitive": "долженствовать",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for must",
+    "tenses": {
+      "present": [
+        "долженствовать",
+        "долженствовать",
+        "долженствовать",
+        "долженствовать",
+        "долженствовать",
+        "долженствовать"
+      ]
+    },
+    "examples": [
+      "Example sentence for долженствовать."
+    ]
+  },
+  "приходиться": {
+    "en_lemma": "have to",
+    "infinitive": "приходиться",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "приходиться",
+        "приходиться",
+        "приходиться",
+        "приходиться",
+        "приходиться",
+        "приходиться"
+      ]
+    },
+    "examples": [
+      "Example sentence for приходиться."
+    ]
+  },
+  "печатать": {
+    "en_lemma": "type",
+    "infinitive": "печатать",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "печатать",
+        "печатать",
+        "печатать",
+        "печатать",
+        "печатать",
+        "печатать"
+      ]
+    },
+    "examples": [
+      "Example sentence for печатать."
+    ]
+  },
+  "тратить": {
+    "en_lemma": "spend",
+    "infinitive": "тратить",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "тратить",
+        "тратить",
+        "тратить",
+        "тратить",
+        "тратить",
+        "тратить"
+      ]
+    },
+    "examples": [
+      "Example sentence for тратить."
+    ]
+  },
+  "тратить впустую": {
+    "en_lemma": "waste",
+    "infinitive": "тратить впустую",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "тратить впустую",
+        "тратить впустую",
+        "тратить впустую",
+        "тратить впустую",
+        "тратить впустую",
+        "тратить впустую"
+      ]
+    },
+    "examples": [
+      "Example sentence for тратить впустую."
+    ]
+  },
+  "не соглашаться": {
+    "en_lemma": "disagree",
+    "infinitive": "не соглашаться",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "не соглашаться",
+        "не соглашаться",
+        "не соглашаться",
+        "не соглашаться",
+        "не соглашаться",
+        "не соглашаться"
+      ]
+    },
+    "examples": [
+      "Example sentence for не соглашаться."
+    ]
+  },
+  "посылать": {
+    "en_lemma": "send",
+    "infinitive": "посылать",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for send",
+    "tenses": {
+      "present": [
+        "посылать",
+        "посылать",
+        "посылать",
+        "посылать",
+        "посылать",
+        "посылать"
+      ]
+    },
+    "examples": [
+      "Example sentence for посылать."
+    ]
+  },
+  "делать (do)": {
+    "group": "I спряжение (НСВ)",
+    "pair": "сде́лать",
+    "level": "A1",
+    "definition": "Выполнять действие или работу.",
+    "antonyms": [
+      "бездельничать"
+    ],
+    "tenses": {
+      "pres": [
+        "я дела́ю",
+        "ты дела́ешь",
+        "он/она́ дела́ет",
+        "мы дела́ем",
+        "вы дела́ете",
+        "они́ дела́ют"
+      ],
+      "past": [
+        "он дела́л",
+        "она́ дела́ла",
+        "оно́ дела́ло",
+        "они́ дела́ли"
+      ],
+      "fut": [
+        "я буду делать",
+        "ты будешь делать",
+        "он/она будет делать",
+        "мы будем делать",
+        "вы будете делать",
+        "они будут делать"
+      ],
+      "cond": [
+        "я бы дела́л",
+        "ты бы дела́л",
+        "он бы дела́л / она бы дела́ла",
+        "мы бы дела́ли",
+        "вы бы дела́ли",
+        "они бы дела́ли"
+      ],
+      "impv": [
+        "делай!",
+        "делайте!"
+      ],
+      "part": [
+        "делающий",
+        "делавший"
+      ]
+    },
+    "usage_hint": "+ винительный падеж (что?)",
+    "irregular": false,
+    "en_lemma": "do"
+  },
+  "говорить (speak)": {
+    "group": "II спряжение (НСВ)",
+    "pair": "сказа́ть",
+    "level": "A1",
+    "definition": "Выражать мысли словами.",
+    "antonyms": [
+      "молчать"
+    ],
+    "tenses": {
+      "pres": [
+        "я говорю́",
+        "ты говори́шь",
+        "он/она́ говори́т",
+        "мы говори́м",
+        "вы говори́те",
+        "они́ говоря́т"
+      ],
+      "past": [
+        "он говори́л",
+        "она́ говори́ла",
+        "оно́ говори́ло",
+        "они́ говори́ли"
+      ],
+      "fut": [
+        "я буду говорить",
+        "ты будешь говорить",
+        "он/она будет говорить",
+        "мы будем говорить",
+        "вы будете говорить",
+        "они будут говорить"
+      ],
+      "cond": [
+        "я бы говори́л",
+        "ты бы говори́л",
+        "он бы говори́л / она бы говори́ла",
+        "мы бы говори́ли",
+        "вы бы говори́ли",
+        "они бы говори́ли"
+      ],
+      "impv": [
+        "говори!",
+        "говорите!"
+      ],
+      "part": [
+        "говориющий",
+        "говоривший"
+      ]
+    },
+    "usage_hint": "+ с + творительный падеж / + дательный падеж",
+    "irregular": false,
+    "en_lemma": "speak"
   }
 }

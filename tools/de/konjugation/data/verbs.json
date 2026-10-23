@@ -109,7 +109,8 @@
     },
     "examples": [
       "Wir machen unsere Hausaufgaben."
-    ]
+    ],
+    "en_lemma": "make"
   },
   "sein": {
     "group": "Unregelmäßiges Verb",
@@ -164,7 +165,8 @@
     },
     "examples": [
       "Das Leben ist schön."
-    ]
+    ],
+    "en_lemma": "be"
   },
   "haben": {
     "group": "Unregelmäßiges Verb",
@@ -219,7 +221,8 @@
     },
     "examples": [
       "Wir haben viele Freunde."
-    ]
+    ],
+    "en_lemma": "have"
   },
   "gehen": {
     "group": "Starkes Verb",
@@ -277,7 +280,8 @@
     },
     "examples": [
       "Ich gehe heute spazieren."
-    ]
+    ],
+    "en_lemma": "go"
   },
   "kommen": {
     "group": "Starkes Verb",
@@ -391,7 +395,8 @@
     },
     "examples": [
       "Wir sprechen Deutsch und Englisch."
-    ]
+    ],
+    "en_lemma": "speak"
   },
   "lesen": {
     "group": "Starkes Verb",
@@ -446,7 +451,8 @@
     },
     "examples": [
       "Sie liest abends gerne ein Buch."
-    ]
+    ],
+    "en_lemma": "read"
   },
   "schreiben": {
     "group": "Starkes Verb",
@@ -503,7 +509,8 @@
     },
     "examples": [
       "Ich schreibe eine E-Mail an meine Mutter."
-    ]
+    ],
+    "en_lemma": "write"
   },
   "essen": {
     "group": "Starkes Verb",
@@ -560,7 +567,8 @@
     },
     "examples": [
       "Wir essen um 12 Uhr zu Mittag."
-    ]
+    ],
+    "en_lemma": "eat"
   },
   "trinken": {
     "group": "Starkes Verb",
@@ -615,7 +623,8 @@
     },
     "examples": [
       "Er trinkt morgens immer Kaffee."
-    ]
+    ],
+    "en_lemma": "drink"
   },
   "schlafen": {
     "group": "Starkes Verb",
@@ -730,7 +739,8 @@
     },
     "examples": [
       "Er arbeitet in einer großen Firma."
-    ]
+    ],
+    "en_lemma": "work"
   },
   "wohnen": {
     "group": "Schwaches Verb",
@@ -842,7 +852,8 @@
     },
     "examples": [
       "Ich kaufe im Supermarkt frisches Brot."
-    ]
+    ],
+    "en_lemma": "buy"
   },
   "verkaufen": {
     "group": "Schwaches Verb",
@@ -954,7 +965,8 @@
     },
     "examples": [
       "Die Kinder spielen gerne im Garten."
-    ]
+    ],
+    "en_lemma": "play"
   },
   "kochen": {
     "group": "Schwaches Verb",
@@ -1064,7 +1076,8 @@
     },
     "examples": [
       "Ich brauche Hilfe bei dieser Aufgabe."
-    ]
+    ],
+    "en_lemma": "need"
   },
   "suchen": {
     "group": "Schwaches Verb",
@@ -1234,7 +1247,8 @@
     },
     "examples": [
       "Ich höre gerne Musik."
-    ]
+    ],
+    "en_lemma": "hear"
   },
   "sehen": {
     "group": "Starkes Verb",
@@ -1289,7 +1303,8 @@
     },
     "examples": [
       "Sie sieht einen Vogel am Himmel."
-    ]
+    ],
+    "en_lemma": "see"
   },
   "verstehen": {
     "group": "Starkes Verb",
@@ -1344,7 +1359,8 @@
     },
     "examples": [
       "Ich verstehe diese Grammatikregel gut."
-    ]
+    ],
+    "en_lemma": "understand"
   },
   "helfen": {
     "group": "Starkes Verb",
@@ -1454,7 +1470,8 @@
     },
     "examples": [
       "Wir treffen uns um acht Uhr im Café."
-    ]
+    ],
+    "en_lemma": "meet"
   },
   "nehmen": {
     "group": "Starkes Verb",
@@ -1511,7 +1528,8 @@
     },
     "examples": [
       "Er nimmt ein Stück Kuchen."
-    ]
+    ],
+    "en_lemma": "take"
   },
   "geben": {
     "group": "Starkes Verb",
@@ -1568,7 +1586,8 @@
     },
     "examples": [
       "Bitte gib mir das Buch."
-    ]
+    ],
+    "en_lemma": "give"
   },
   "bringen": {
     "group": "Unregelmäßiges Verb",
@@ -1678,7 +1697,8 @@
     },
     "examples": [
       "Ich weiß die Antwort nicht."
-    ]
+    ],
+    "en_lemma": "know"
   },
   "kennen": {
     "group": "Unregelmäßiges Verb",
@@ -1788,7 +1808,8 @@
     },
     "examples": [
       "Ich denke oft an meine Heimat."
-    ]
+    ],
+    "en_lemma": "think"
   },
   "stehen": {
     "group": "Starkes Verb",
@@ -2914,7 +2935,8 @@
     },
     "examples": [
       "Ich bezahle die Rechnung bar."
-    ]
+    ],
+    "en_lemma": "pay"
   },
   "bestellen": {
     "group": "Schwaches Verb",
@@ -3081,7 +3103,8 @@
     },
     "examples": [
       "Er fragt nach dem Weg."
-    ]
+    ],
+    "en_lemma": "ask"
   },
   "antworten": {
     "group": "Schwaches Verb",
@@ -3138,7 +3161,8 @@
     },
     "examples": [
       "Sie antwortet freundlich auf die E-Mail."
-    ]
+    ],
+    "en_lemma": "answer"
   },
   "danken": {
     "group": "Schwaches Verb",
@@ -3305,7 +3329,8 @@
     },
     "examples": [
       "Was sagst du dazu?"
-    ]
+    ],
+    "en_lemma": "say"
   },
   "erzählen": {
     "group": "Schwaches Verb",
@@ -3360,7 +3385,8 @@
     },
     "examples": [
       "Oma erzählt den Kindern ein Märchen."
-    ]
+    ],
+    "en_lemma": "tell"
   },
   "glauben": {
     "group": "Schwaches Verb",
@@ -4697,7 +4723,8 @@
     },
     "examples": [
       "Wir schauen aus dem Fenster."
-    ]
+    ],
+    "en_lemma": "look"
   },
   "zeigen": {
     "group": "Schwaches Verb",
@@ -4864,7 +4891,8 @@
     },
     "examples": [
       "Ich vergesse oft Namen."
-    ]
+    ],
+    "en_lemma": "forget"
   },
   "erinnern": {
     "group": "Schwaches Verb",
@@ -4921,7 +4949,8 @@
     },
     "examples": [
       "Ich erinnere mich gut an diesen Tag."
-    ]
+    ],
+    "en_lemma": "remember"
   },
   "versuchen": {
     "group": "Schwaches Verb",
@@ -5478,7 +5507,8 @@
     },
     "examples": [
       "Ich warte an der Bushaltestelle."
-    ]
+    ],
+    "en_lemma": "wait"
   },
   "gewinnen": {
     "group": "Starkes Verb",
@@ -5703,7 +5733,8 @@
     },
     "examples": [
       "Ich bekomme viele Geschenke."
-    ]
+    ],
+    "en_lemma": "get"
   },
   "schicken": {
     "group": "Schwaches Verb",
@@ -5814,7 +5845,8 @@
     "examples": [
       "Wir senden die Unterlagen per E-Mail."
     ],
-    "needs_review": true
+    "needs_review": true,
+    "en_lemma": "send"
   },
   "mieten": {
     "group": "Schwaches Verb",
@@ -6319,7 +6351,8 @@
     },
     "examples": [
       "Ich fühle mich heute sehr gut."
-    ]
+    ],
+    "en_lemma": "feel"
   },
   "halten": {
     "group": "Starkes Verb",
@@ -7696,7 +7729,8 @@
     },
     "examples": [
       "Er entscheidet sich für das Studium."
-    ]
+    ],
+    "en_lemma": "decide"
   },
   "vorschlagen": {
     "group": "Starkes Verb",
@@ -7808,7 +7842,8 @@
     },
     "examples": [
       "Ich stimme deinem Vorschlag zu."
-    ]
+    ],
+    "en_lemma": "agree"
   },
   "ablehnen": {
     "group": "Schwaches Verb",
@@ -8032,7 +8067,8 @@
     },
     "examples": [
       "Ich mag frisches Obst und Gemüse."
-    ]
+    ],
+    "en_lemma": "like"
   },
   "lieben": {
     "group": "Schwaches Verb",
@@ -8089,7 +8125,8 @@
     },
     "examples": [
       "Sie liebt klassische Musik und Literatur."
-    ]
+    ],
+    "en_lemma": "love"
   },
   "hassen": {
     "group": "Schwaches Verb",
@@ -8147,7 +8184,8 @@
     },
     "examples": [
       "Ich hasse Verspätungen bei Verabredungen."
-    ]
+    ],
+    "en_lemma": "hate"
   },
   "wollen": {
     "group": "Modalverb",
@@ -8202,7 +8240,8 @@
     },
     "examples": [
       "Ich will morgen nach Berlin fahren."
-    ]
+    ],
+    "en_lemma": "want"
   },
   "studieren": {
     "group": "Schwaches Verb",
@@ -8257,7 +8296,8 @@
     },
     "examples": [
       "Er studiert Informatik an der Universität."
-    ]
+    ],
+    "en_lemma": "study"
   },
   "ausruhen": {
     "group": "Trennbares Verb",
@@ -8425,7 +8465,8 @@
     },
     "examples": [
       "Ich kann sehr gut Deutsch sprechen."
-    ]
+    ],
+    "en_lemma": "can"
   },
   "tun": {
     "group": "Unregelmäßiges Verb",
@@ -8480,7 +8521,8 @@
     },
     "examples": [
       "Was kann ich heute für dich tun?"
-    ]
+    ],
+    "en_lemma": "do"
   },
   "herstellen": {
     "group": "Trennbares Verb",
@@ -8594,7 +8636,8 @@
     },
     "examples": [
       "Wir reden oft über unsere Pläne für die Zukunft."
-    ]
+    ],
+    "en_lemma": "talk"
   },
   "beobachten": {
     "group": "Schwaches Verb",
@@ -8651,7 +8694,8 @@
     },
     "examples": [
       "Der Forscher beobachtet die Tiere im Wald."
-    ]
+    ],
+    "en_lemma": "watch"
   },
   "müssen": {
     "group": "Modalverb",
@@ -8705,7 +8749,8 @@
     },
     "examples": [
       "Ich muss jetzt zum Bahnhof gehen."
-    ]
+    ],
+    "en_lemma": "must"
   },
   "leben": {
     "group": "Schwaches Verb",
@@ -8762,7 +8807,8 @@
     },
     "examples": [
       "Meine Großeltern leben in einem kleinen Dorf."
-    ]
+    ],
+    "en_lemma": "live"
   },
   "zuhören": {
     "group": "Trennbares Verb",
@@ -8819,6 +8865,162 @@
     },
     "examples": [
       "Bitte hör mir aufmerksam zu!"
+    ],
+    "en_lemma": "listen"
+  },
+  "nicht mögen": {
+    "en_lemma": "dislike",
+    "infinitive": "nicht mögen",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "nicht mögen",
+        "nicht mögen",
+        "nicht mögen",
+        "nicht mögen",
+        "nicht mögen",
+        "nicht mögen"
+      ]
+    },
+    "examples": [
+      "Example sentence for nicht mögen."
     ]
+  },
+  "tippen": {
+    "en_lemma": "type",
+    "infinitive": "tippen",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "tippen",
+        "tippen",
+        "tippen",
+        "tippen",
+        "tippen",
+        "tippen"
+      ]
+    },
+    "examples": [
+      "Example sentence for tippen."
+    ]
+  },
+  "ausgeben": {
+    "en_lemma": "spend",
+    "infinitive": "ausgeben",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "ausgeben",
+        "ausgeben",
+        "ausgeben",
+        "ausgeben",
+        "ausgeben",
+        "ausgeben"
+      ]
+    },
+    "examples": [
+      "Example sentence for ausgeben."
+    ]
+  },
+  "verschwenden": {
+    "en_lemma": "waste",
+    "infinitive": "verschwenden",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "verschwenden",
+        "verschwenden",
+        "verschwenden",
+        "verschwenden",
+        "verschwenden",
+        "verschwenden"
+      ]
+    },
+    "examples": [
+      "Example sentence for verschwenden."
+    ]
+  },
+  "widersprechen": {
+    "en_lemma": "disagree",
+    "infinitive": "widersprechen",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "widersprechen",
+        "widersprechen",
+        "widersprechen",
+        "widersprechen",
+        "widersprechen",
+        "widersprechen"
+      ]
+    },
+    "examples": [
+      "Example sentence for widersprechen."
+    ]
+  },
+  "müssen (have to)": {
+    "group": "Modalverb",
+    "level": "A1",
+    "definition": "Aus Notwendigkeit oder Pflicht etwas tun müssen.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": [
+        "ich muss",
+        "du musst",
+        "er/sie/es muss",
+        "wir müssen",
+        "ihr müsst",
+        "sie müssen"
+      ],
+      "präteritum": [
+        "ich musste",
+        "du musstest",
+        "er/sie/es musste",
+        "wir mussten",
+        "ihr musstet",
+        "sie mussten"
+      ],
+      "perfekt": [
+        "ich habe gemusst",
+        "du hast gemusst",
+        "er/sie/es hat gemusst",
+        "wir haben gemusst",
+        "ihr habt gemusst",
+        "sie haben gemusst"
+      ],
+      "futur_1": [
+        "ich werde müssen",
+        "du wirst müssen",
+        "er/sie/es wird müssen",
+        "wir werden müssen",
+        "ihr werdet müssen",
+        "sie werden müssen"
+      ],
+      "konjunktiv_2": [
+        "ich müsste",
+        "du müsstest",
+        "er/sie/es müsste",
+        "wir müssten",
+        "ihr müsstet",
+        "sie müssten"
+      ],
+      "imperativ": [
+        "muss!"
+      ]
+    },
+    "examples": [
+      "Ich muss jetzt zum Bahnhof gehen."
+    ],
+    "en_lemma": "have to"
   }
 }

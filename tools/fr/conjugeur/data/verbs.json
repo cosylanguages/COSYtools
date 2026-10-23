@@ -100,7 +100,8 @@
       ]
     },
     "usage_hint": "parler à (qqn) / de (qqch ou qqn)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "speak"
   },
   "aimer": {
     "group": "1er groupe",
@@ -203,7 +204,8 @@
       ]
     },
     "usage_hint": "+ COD (aimer qqn/qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "like"
   },
   "marcher": {
     "group": "1er groupe",
@@ -407,7 +409,8 @@
       ]
     },
     "usage_hint": "+ COD / étudier à (l'université)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "study"
   },
   "travailler": {
     "group": "1er groupe",
@@ -509,7 +512,8 @@
       ]
     },
     "usage_hint": "travailler pour / chez / avec / à",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "work"
   },
   "habiter": {
     "group": "1er groupe",
@@ -713,7 +717,8 @@
       ]
     },
     "usage_hint": "+ COD (écouter qqn/qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "listen"
   },
   "regarder": {
     "group": "1er groupe",
@@ -815,7 +820,8 @@
       ]
     },
     "usage_hint": "+ COD (regarder qqn/qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "look"
   },
   "penser": {
     "group": "1er groupe",
@@ -917,7 +923,8 @@
       ]
     },
     "usage_hint": "penser à (qqch/qqn) / penser de (opinion)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "think"
   },
   "chercher": {
     "group": "1er groupe",
@@ -1223,7 +1230,8 @@
       ]
     },
     "usage_hint": "donner (qqch) à (qqn)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "give"
   },
   "demander": {
     "group": "1er groupe",
@@ -1326,7 +1334,8 @@
     },
     "usage_hint": "demander (qqch) à (qqn) / de (faire qqch)",
     "grammar_rule": "💡 REMEMBER: Exige la préposition 'de' devant un infinitif ('demander de sortir') ou le Subjonctif ('demander que...').",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "ask"
   },
   "fermer": {
     "group": "1er groupe",
@@ -1530,7 +1539,8 @@
       ]
     },
     "usage_hint": "jouer à (jeu/sport) / de (instrument de musique)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "play"
   },
   "chanter": {
     "group": "1er groupe",
@@ -3183,7 +3193,8 @@
       ]
     },
     "usage_hint": "oublier + COD / de (faire qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "forget"
   },
   "compter": {
     "group": "1er groupe",
@@ -3387,7 +3398,8 @@
       ]
     },
     "usage_hint": "décider de (faire qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "decide"
   },
   "espérer": {
     "group": "1er groupe",
@@ -5533,7 +5545,8 @@
     },
     "usage_hint": "payer (qqch) à (qqn) / pour",
     "grammar_rule": "💡 REMEMBER: Le 'y' peut se changer en 'i' devant un 'e' muet ('je paie' / 'je paye').",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "pay"
   },
   "appeler": {
     "group": "1er groupe",
@@ -6862,7 +6875,8 @@
       ]
     },
     "usage_hint": "raconter (qqch) à (qqn)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "tell"
   },
   "étonner": {
     "group": "1er groupe",
@@ -7883,7 +7897,8 @@
     },
     "usage_hint": "acheter (qqch) à / pour (qqn)",
     "grammar_rule": "💡 REMEMBER: Change le 'e' muet en 'è' devant une syllabe muette ('j'achète', 'nous achetons').",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "buy"
   },
   "adorer": {
     "group": "1er groupe",
@@ -7985,7 +8000,8 @@
       ]
     },
     "usage_hint": "+ COD (adorer qqn/qqch)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "love"
   },
   "affirmer": {
     "group": "1er groupe",
@@ -10127,7 +10143,8 @@
       ]
     },
     "usage_hint": "discuter de (qqch) avec (qqn)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "talk"
   },
   "douter": {
     "group": "1er groupe",
@@ -10740,7 +10757,8 @@
     },
     "usage_hint": "envoyer (qqch) à (qqn)",
     "grammar_rule": "💡 REMEMBER: Futur et Conditionnel très irréguliers: 'j'enverrai', 'j'enverrais' (tronc en 'enverr-').",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "send"
   },
   "éviter": {
     "group": "1er groupe",
@@ -13903,7 +13921,8 @@
       ]
     },
     "usage_hint": "+ COD (rencontrer qqn)",
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "meet"
   },
   "réparer": {
     "group": "1er groupe",
@@ -15953,7 +15972,8 @@
         "qu'ils/elles aient mangé"
       ]
     },
-    "irregular": false
+    "irregular": false,
+    "en_lemma": "eat"
   },
   "skier": {
     "group": "1er groupe",
@@ -17365,7 +17385,8 @@
         "que vous ayez détesté",
         "qu'ils/elles aient détesté"
       ]
-    }
+    },
+    "en_lemma": "hate"
   },
   "fabriquer": {
     "group": "1er groupe",
@@ -17466,7 +17487,8 @@
         "que vous ayez fabriqué",
         "qu'ils/elles aient fabriqué"
       ]
-    }
+    },
+    "en_lemma": "make"
   },
   "observer": {
     "group": "1er groupe",
@@ -17567,7 +17589,8 @@
         "que vous ayez observé",
         "qu'ils/elles aient observé"
       ]
-    }
+    },
+    "en_lemma": "watch"
   },
   "remplir": {
     "group": "2e groupe",
@@ -18964,7 +18987,8 @@
       ]
     },
     "usage_hint": "aller à (ville/lieu) / en / chez (qqn)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "go"
   },
   "faire": {
     "group": "3e groupe",
@@ -19066,7 +19090,8 @@
       ]
     },
     "usage_hint": "faire + COD / faire de (sport/musique)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "do"
   },
   "dire": {
     "group": "3e groupe",
@@ -19168,7 +19193,8 @@
       ]
     },
     "usage_hint": "dire (qqch) à (qqn) / de (faire qqch)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "say"
   },
   "voir": {
     "group": "3e groupe",
@@ -19271,7 +19297,8 @@
     },
     "usage_hint": "+ COD (voir qqn/qqch)",
     "grammar_rule": "💡 REMEMBER: Futur et conditionnel à double 'r': 'je verrai'. Subjonctif: 'que je voie', 'que nous voyions'.",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "see"
   },
   "pouvoir": {
     "group": "3e groupe",
@@ -19374,7 +19401,8 @@
     },
     "usage_hint": "+ infinitif direct (pouvoir faire)",
     "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je peux aider'). Auxiliaire avoir.",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "can"
   },
   "vouloir": {
     "group": "3e groupe",
@@ -19477,7 +19505,8 @@
     },
     "usage_hint": "+ COD / + infinitif direct",
     "grammar_rule": "💡 REMEMBER: Exige TOUJOURS le Subjonctif dans les propositions subordonnées quand les sujets sont différents ('je veux que tu viennes').",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "want"
   },
   "prendre": {
     "group": "3e groupe",
@@ -19579,7 +19608,8 @@
       ]
     },
     "usage_hint": "prendre + COD / prendre soin de",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "take"
   },
   "venir": {
     "group": "3e groupe",
@@ -20396,7 +20426,8 @@
       ]
     },
     "usage_hint": "+ COD (boire un verre)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "drink"
   },
   "comprendre": {
     "group": "3e groupe",
@@ -20498,7 +20529,8 @@
       ]
     },
     "usage_hint": "+ COD (comprendre qqn/qqch)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "understand"
   },
   "construire": {
     "group": "3e groupe",
@@ -21224,7 +21256,8 @@
     },
     "usage_hint": "+ infinitif direct (devoir faire)",
     "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "must"
   },
   "dormir": {
     "group": "3e groupe",
@@ -21428,7 +21461,8 @@
       ]
     },
     "usage_hint": "écrire (qqch) à (qqn)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "write"
   },
   "entendre": {
     "group": "3e groupe",
@@ -21530,7 +21564,8 @@
       ]
     },
     "usage_hint": "+ COD (entendre un bruit)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "hear"
   },
   "éteindre": {
     "group": "3e groupe",
@@ -21805,7 +21840,8 @@
       ]
     },
     "usage_hint": "lire + COD (lire qqch) / à (qqn)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "read"
   },
   "mettre": {
     "group": "3e groupe",
@@ -22622,7 +22658,8 @@
       ]
     },
     "usage_hint": "répondre à (qqn / qqch)",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "answer"
   },
   "sortir": {
     "group": "3e groupe",
@@ -23041,7 +23078,8 @@
       ]
     },
     "usage_hint": "vivre à / en / avec / de",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "live"
   },
   "être": {
     "group": "Auxiliaire / 3e groupe",
@@ -23141,7 +23179,8 @@
       ]
     },
     "usage_hint": "être à (appartenance) / en / dans / + adjectif",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "be"
   },
   "avoir": {
     "group": "Auxiliaire / 3e groupe",
@@ -23241,7 +23280,8 @@
       ]
     },
     "usage_hint": "avoir besoin de / avoir peur de / + COD",
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "have"
   },
   "savoir": {
     "group": "3e groupe",
@@ -23343,7 +23383,8 @@
         "qu'ils/elles aient su"
       ]
     },
-    "irregular": true
+    "irregular": true,
+    "en_lemma": "know"
   },
   "convaincre": {
     "group": "3e groupe",
@@ -24053,7 +24094,8 @@
         "que vous ayez obtenu",
         "qu'ils/elles aient obtenu"
       ]
-    }
+    },
+    "en_lemma": "get"
   },
   "attendre": {
     "group": "3e groupe",
@@ -24154,6 +24196,374 @@
         "que vous ayez attendu",
         "qu'ils/elles aient attendu"
       ]
-    }
+    },
+    "en_lemma": "wait"
+  },
+  "avoir besoin": {
+    "en_lemma": "need",
+    "infinitive": "avoir besoin",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for need",
+    "tenses": {
+      "present": [
+        "avoir besoin",
+        "avoir besoin",
+        "avoir besoin",
+        "avoir besoin",
+        "avoir besoin",
+        "avoir besoin"
+      ]
+    },
+    "examples": [
+      "Example sentence for avoir besoin."
+    ]
+  },
+  "se souvenir": {
+    "en_lemma": "remember",
+    "infinitive": "se souvenir",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for remember",
+    "tenses": {
+      "present": [
+        "se souvenir",
+        "se souvenir",
+        "se souvenir",
+        "se souvenir",
+        "se souvenir",
+        "se souvenir"
+      ]
+    },
+    "examples": [
+      "Example sentence for se souvenir."
+    ]
+  },
+  "ressentir": {
+    "en_lemma": "feel",
+    "infinitive": "ressentir",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for feel",
+    "tenses": {
+      "present": [
+        "ressentir",
+        "ressentir",
+        "ressentir",
+        "ressentir",
+        "ressentir",
+        "ressentir"
+      ]
+    },
+    "examples": [
+      "Example sentence for ressentir."
+    ]
+  },
+  "taper": {
+    "en_lemma": "type",
+    "infinitive": "taper",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "taper",
+        "taper",
+        "taper",
+        "taper",
+        "taper",
+        "taper"
+      ]
+    },
+    "examples": [
+      "Example sentence for taper."
+    ]
+  },
+  "dépenser": {
+    "en_lemma": "spend",
+    "infinitive": "dépenser",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "dépenser",
+        "dépenser",
+        "dépenser",
+        "dépenser",
+        "dépenser",
+        "dépenser"
+      ]
+    },
+    "examples": [
+      "Example sentence for dépenser."
+    ]
+  },
+  "gaspiller": {
+    "en_lemma": "waste",
+    "infinitive": "gaspiller",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "gaspiller",
+        "gaspiller",
+        "gaspiller",
+        "gaspiller",
+        "gaspiller",
+        "gaspiller"
+      ]
+    },
+    "examples": [
+      "Example sentence for gaspiller."
+    ]
+  },
+  "être d accord": {
+    "en_lemma": "agree",
+    "infinitive": "être d accord",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "être d accord",
+        "être d accord",
+        "être d accord",
+        "être d accord",
+        "être d accord",
+        "être d accord"
+      ]
+    },
+    "examples": [
+      "Example sentence for être d accord."
+    ]
+  },
+  "ne pas être d accord": {
+    "en_lemma": "disagree",
+    "infinitive": "ne pas être d accord",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "ne pas être d accord",
+        "ne pas être d accord",
+        "ne pas être d accord",
+        "ne pas être d accord",
+        "ne pas être d accord",
+        "ne pas être d accord"
+      ]
+    },
+    "examples": [
+      "Example sentence for ne pas être d accord."
+    ]
+  },
+  "détester (dislike)": {
+    "group": "1er groupe",
+    "level": "A1",
+    "definition": "Avoir de l’aversion ou de la haine pour quelqu’un ou quelque chose.",
+    "antonyms": [
+      "aimer",
+      "adorer"
+    ],
+    "auxiliary": "avoir",
+    "irregular": false,
+    "tenses": {
+      "indicatif_present": [
+        "je déteste",
+        "tu détestes",
+        "il/elle déteste",
+        "nous détestons",
+        "vous détestez",
+        "ils/elles détestent"
+      ],
+      "indicatif_imparfait": [
+        "je détestais",
+        "tu détestais",
+        "il/elle détestait",
+        "nous détestions",
+        "vous détestiez",
+        "ils/elles détestaient"
+      ],
+      "pc": [
+        "j'ai détesté",
+        "tu as détesté",
+        "il/elle a détesté",
+        "nous avons détesté",
+        "vous avez détesté",
+        "ils/elles ont détesté"
+      ],
+      "indicatif_futur_simple": [
+        "je détesterai",
+        "tu détesteras",
+        "il/elle détestera",
+        "nous détesterons",
+        "vous détesterez",
+        "ils/elles détesteront"
+      ],
+      "conditionnel_present": [
+        "je détesterais",
+        "tu détesterais",
+        "il/elle détesterait",
+        "nous détesterions",
+        "vous détesteriez",
+        "ils/elles détesteraient"
+      ],
+      "subjonctif_present": [
+        "que je déteste",
+        "que tu détestes",
+        "qu'il/elle déteste",
+        "que nous détestions",
+        "que vous détestiez",
+        "qu'ils/elles détestent"
+      ],
+      "imperatif": [
+        "déteste !",
+        "détestons !",
+        "détestez !"
+      ],
+      "part": [
+        "détestant",
+        "détesté"
+      ],
+      "pqp": [
+        "j'avais détesté",
+        "tu avais détesté",
+        "il/elle avait détesté",
+        "nous avions détesté",
+        "vous aviez détesté",
+        "ils/elles avaient détesté"
+      ],
+      "fut_ant": [
+        "j'aurai détesté",
+        "tu auras détesté",
+        "il/elle aura détesté",
+        "nous aurons détesté",
+        "vous aurez détesté",
+        "ils/elles auront détesté"
+      ],
+      "cond_pass": [
+        "j'aurais détesté",
+        "tu aurais détesté",
+        "il/elle aurait détesté",
+        "nous aurions détesté",
+        "vous auriez détesté",
+        "ils/elles auraient détesté"
+      ],
+      "subj_pass": [
+        "que j'aie détesté",
+        "que tu aies détesté",
+        "qu'il/elle ait détesté",
+        "que nous ayons détesté",
+        "que vous ayez détesté",
+        "qu'ils/elles aient détesté"
+      ]
+    },
+    "en_lemma": "dislike"
+  },
+  "devoir (have to)": {
+    "group": "3e groupe",
+    "auxiliary": "avoir",
+    "level": "A1",
+    "definition": "Avoir une obligation.",
+    "antonyms": [
+      "pouvoir"
+    ],
+    "tenses": {
+      "indicatif_present": [
+        "je dois",
+        "tu dois",
+        "il/elle doit",
+        "nous devons",
+        "vous devez",
+        "ils/elles doivent"
+      ],
+      "indicatif_imparfait": [
+        "je devais",
+        "tu devais",
+        "il/elle devait",
+        "nous devions",
+        "vous deviez",
+        "ils/elles devaient"
+      ],
+      "pc": [
+        "j'ai dû",
+        "tu as dû",
+        "il/elle a dû",
+        "nous avons dû",
+        "vous avez dû",
+        "ils/elles ont dû"
+      ],
+      "indicatif_futur_simple": [
+        "je devrai",
+        "tu devras",
+        "il/elle devra",
+        "nous devrons",
+        "vous devrez",
+        "ils/elles devront"
+      ],
+      "conditionnel_present": [
+        "je devrais",
+        "tu devrais",
+        "il/elle devrait",
+        "nous devrions",
+        "vous devriez",
+        "ils/elles devraient"
+      ],
+      "subjonctif_present": [
+        "que je doive",
+        "que tu doives",
+        "qu'il/elle doive",
+        "que nous devions",
+        "que vous deviez",
+        "qu'ils/elles doivent"
+      ],
+      "imperatif": [
+        "dois !",
+        "devons !",
+        "devez !"
+      ],
+      "part": [
+        "devant",
+        "dû"
+      ],
+      "pqp": [
+        "j'avais dû",
+        "tu avais dû",
+        "il/elle avait dû",
+        "nous avions dû",
+        "vous aviez dû",
+        "ils/elles avaient dû"
+      ],
+      "fut_ant": [
+        "j'aurai dû",
+        "tu auras dû",
+        "il/elle aura dû",
+        "nous aurons dû",
+        "vous aurez dû",
+        "ils/elles auront dû"
+      ],
+      "cond_pass": [
+        "j'aurais dû",
+        "tu aurais dû",
+        "il/elle aurait dû",
+        "nous aurions dû",
+        "vous auriez dû",
+        "ils/elles auraient dû"
+      ],
+      "subj_pass": [
+        "que j'aie dû",
+        "que tu aies dû",
+        "qu'il/elle ait dû",
+        "que nous ayons dû",
+        "que vous ayez dû",
+        "qu'ils/elles aient dû"
+      ]
+    },
+    "usage_hint": "+ infinitif direct (devoir faire)",
+    "grammar_rule": "💡 REMEMBER: Verbe modal — suivi directement d'un infinitif SANS préposition ('je dois partir'). Participe passé 'dû' prend un accent circonflexe au masculin singulier.",
+    "irregular": true,
+    "en_lemma": "have to"
   }
 }

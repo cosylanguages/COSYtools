@@ -67,7 +67,8 @@
     },
     "examples": [
       "Eu falo português todos os dias."
-    ]
+    ],
+    "en_lemma": "speak"
   },
   "comer": {
     "group": "2ª conjugação (-er)",
@@ -136,7 +137,8 @@
     },
     "examples": [
       "Nós comemos uma sopa quente."
-    ]
+    ],
+    "en_lemma": "eat"
   },
   "viver": {
     "group": "2ª conjugação (-er)",
@@ -205,7 +207,8 @@
     },
     "examples": [
       "Eles vivem numa cidade acolhedora."
-    ]
+    ],
+    "en_lemma": "live"
   },
   "ser": {
     "group": "Irregular",
@@ -272,7 +275,8 @@
     },
     "examples": [
       "Eu sou estudante de línguas."
-    ]
+    ],
+    "en_lemma": "be"
   },
   "estar": {
     "group": "Irregular",
@@ -406,7 +410,8 @@
     },
     "examples": [
       "Nós temos muitos livros em casa."
-    ]
+    ],
+    "en_lemma": "have"
   },
   "ir": {
     "group": "Irregular",
@@ -475,7 +480,8 @@
     },
     "examples": [
       "Amanhã vou ao mercado."
-    ]
+    ],
+    "en_lemma": "go"
   },
   "fazer": {
     "group": "Irregular",
@@ -542,7 +548,8 @@
     },
     "examples": [
       "Eu faço os meus trabalhos de manhã."
-    ]
+    ],
+    "en_lemma": "do"
   },
   "trabalhar": {
     "group": "1ª conjugação (-ar)",
@@ -611,7 +618,8 @@
     },
     "examples": [
       "Trabalho num escritório no centro."
-    ]
+    ],
+    "en_lemma": "work"
   },
   "aprender": {
     "group": "2ª conjugação (-er)",
@@ -749,7 +757,8 @@
     },
     "examples": [
       "Compro pão fresco todos os dias."
-    ]
+    ],
+    "en_lemma": "buy"
   },
   "vender": {
     "group": "2ª conjugação (-er)",
@@ -885,7 +894,8 @@
     },
     "examples": [
       "As crianças jogam futebol no parque."
-    ]
+    ],
+    "en_lemma": "play"
   },
   "cozinhar": {
     "group": "1ª conjugação (-ar)",
@@ -1019,7 +1029,8 @@
     },
     "examples": [
       "Preciso de ajuda com este exercício."
-    ]
+    ],
+    "en_lemma": "need"
   },
   "procurar": {
     "group": "1ª conjugação (-ar)",
@@ -1157,7 +1168,8 @@
     },
     "examples": [
       "Encontro os meus amigos na praça."
-    ]
+    ],
+    "en_lemma": "meet"
   },
   "tomar": {
     "group": "1ª conjugação (-ar)",
@@ -1224,7 +1236,8 @@
     },
     "examples": [
       "Tomo o pequeno-almoço às oito horas."
-    ]
+    ],
+    "en_lemma": "take"
   },
   "dar": {
     "group": "Irregular",
@@ -1293,7 +1306,8 @@
     },
     "examples": [
       "Dou um presente ao meu irmão."
-    ]
+    ],
+    "en_lemma": "give"
   },
   "levar": {
     "group": "1ª conjugação (-ar)",
@@ -1498,7 +1512,8 @@
     },
     "examples": [
       "Penso muitas vezes nas minhas férias."
-    ]
+    ],
+    "en_lemma": "think"
   },
   "conhecer": {
     "group": "2ª conjugação (-er)",
@@ -2318,7 +2333,8 @@
     },
     "examples": [
       "Lembro-me com carinho desses tempos."
-    ]
+    ],
+    "en_lemma": "remember"
   },
   "esquecer": {
     "group": "2ª conjugação (-er)",
@@ -2387,7 +2403,8 @@
     },
     "examples": [
       "Às vezes esqueço-me das chaves."
-    ]
+    ],
+    "en_lemma": "forget"
   },
   "tentar": {
     "group": "1ª conjugação (-ar)",
@@ -2655,7 +2672,8 @@
     },
     "examples": [
       "Decido ir passear esta tarde."
-    ]
+    ],
+    "en_lemma": "decide"
   },
   "sentir": {
     "group": "Irregular",
@@ -2722,7 +2740,8 @@
     },
     "examples": [
       "Sinto-me muito feliz com o resultado."
-    ]
+    ],
+    "en_lemma": "feel"
   },
   "gostar": {
     "group": "1ª conjugação (-ar)",
@@ -2791,7 +2810,8 @@
     },
     "examples": [
       "Gosto muito de ler romances."
-    ]
+    ],
+    "en_lemma": "like"
   },
   "passar": {
     "group": "1ª conjugação (-ar)",
@@ -3546,7 +3566,8 @@
     },
     "examples": [
       "Envio uma mensagem de texto."
-    ]
+    ],
+    "en_lemma": "send"
   },
   "alugar": {
     "group": "1ª conjugação (-ar)",
@@ -4088,7 +4109,8 @@
     },
     "examples": [
       "Olho para as estrelas no céu."
-    ]
+    ],
+    "en_lemma": "look"
   },
   "estudar": {
     "group": "1ª conjugação (-ar)",
@@ -4155,7 +4177,8 @@
     },
     "examples": [
       "Estudo línguas estrangeiras diariamente."
-    ]
+    ],
+    "en_lemma": "study"
   },
   "explicar": {
     "group": "1ª conjugação (-ar)",
@@ -4358,7 +4381,8 @@
     },
     "examples": [
       "Pergunto a direção ao transeunte."
-    ]
+    ],
+    "en_lemma": "ask"
   },
   "responder": {
     "group": "2ª conjugação (-er)",
@@ -4427,7 +4451,8 @@
     },
     "examples": [
       "Respondo a todas as mensagens com brevidade."
-    ]
+    ],
+    "en_lemma": "answer"
   },
   "agradecer": {
     "group": "2ª conjugação (-er)",
@@ -4630,7 +4655,8 @@
     },
     "examples": [
       "Digo sempre a verdade."
-    ]
+    ],
+    "en_lemma": "say"
   },
   "contar": {
     "group": "1ª conjugação (-ar)",
@@ -4697,7 +4723,8 @@
     },
     "examples": [
       "O avô conta histórias aos netos."
-    ]
+    ],
+    "en_lemma": "tell"
   },
   "acreditar": {
     "group": "1ª conjugação (-ar)",
@@ -4833,7 +4860,8 @@
     },
     "examples": [
       "Espero o autocarro na paragem."
-    ]
+    ],
+    "en_lemma": "wait"
   },
   "rir": {
     "group": "Irregular",
@@ -5507,7 +5535,8 @@
     },
     "examples": [
       "Eu sei falar três línguas com facilidade."
-    ]
+    ],
+    "en_lemma": "know"
   },
   "adorar": {
     "group": "1ª conjugação (-ar)",
@@ -5641,7 +5670,8 @@
     },
     "examples": [
       "Eles amam viajar pelo mundo nas férias."
-    ]
+    ],
+    "en_lemma": "love"
   },
   "odiar": {
     "group": "1ª conjugação (-ar)",
@@ -5709,7 +5739,8 @@
     },
     "examples": [
       "Eu odeio chegar atrasado aos compromissos."
-    ]
+    ],
+    "en_lemma": "hate"
   },
   "querer": {
     "group": "2ª conjugação (-er)",
@@ -5776,7 +5807,8 @@
     },
     "examples": [
       "Nós queremos aprender português fluentemente."
-    ]
+    ],
+    "en_lemma": "want"
   },
   "descansar": {
     "group": "1ª conjugação (-ar)",
@@ -5908,7 +5940,8 @@
     },
     "examples": [
       "Você pode me ajudar com esta tarefa?"
-    ]
+    ],
+    "en_lemma": "can"
   },
   "beber": {
     "group": "2ª conjugação (-er)",
@@ -5975,7 +6008,8 @@
     },
     "examples": [
       "É importante beber bastante água todos os dias."
-    ]
+    ],
+    "en_lemma": "drink"
   },
   "criar": {
     "group": "1ª conjugação (-ar)",
@@ -6176,7 +6210,8 @@
     },
     "examples": [
       "Todos conseguiram compreender a mensagem."
-    ]
+    ],
+    "en_lemma": "understand"
   },
   "conversar": {
     "group": "1ª conjugação (-ar)",
@@ -6243,7 +6278,8 @@
     },
     "examples": [
       "Gostamos de conversar na praça à tarde."
-    ]
+    ],
+    "en_lemma": "talk"
   },
   "observar": {
     "group": "1ª conjugação (-ar)",
@@ -6310,7 +6346,8 @@
     },
     "examples": [
       "O cientista observa o comportamento das aves."
-    ]
+    ],
+    "en_lemma": "watch"
   },
   "assistir": {
     "group": "3ª conjugação (-ir)",
@@ -6440,7 +6477,8 @@
     },
     "examples": [
       "Eu vejo um lindo pôr do sol pela janela."
-    ]
+    ],
+    "en_lemma": "see"
   },
   "pegar": {
     "group": "1ª conjugação (-ar)",
@@ -6574,7 +6612,8 @@
     },
     "examples": [
       "Ela conseguiu obter uma excelente nota na prova."
-    ]
+    ],
+    "en_lemma": "get"
   },
   "dever": {
     "group": "2ª conjugação (-er)",
@@ -6639,7 +6678,8 @@
     },
     "examples": [
       "Nós devemos respeitar as regras de trânsito."
-    ]
+    ],
+    "en_lemma": "must"
   },
   "morar": {
     "group": "1ª conjugação (-ar)",
@@ -6769,7 +6809,8 @@
     },
     "examples": [
       "Gosto de escutar podcasts no caminho para o trabalho."
-    ]
+    ],
+    "en_lemma": "hear"
   },
   "ouvir": {
     "group": "3ª conjugação (-ir)",
@@ -6834,6 +6875,275 @@
     },
     "examples": [
       "Consegues ouvir aquele barulho lá fora?"
+    ],
+    "en_lemma": "listen"
+  },
+  "detestar": {
+    "en_lemma": "dislike",
+    "infinitive": "detestar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for dislike",
+    "tenses": {
+      "present": [
+        "detestar",
+        "detestar",
+        "detestar",
+        "detestar",
+        "detestar",
+        "detestar"
+      ]
+    },
+    "examples": [
+      "Example sentence for detestar."
     ]
+  },
+  "ter de": {
+    "en_lemma": "have to",
+    "infinitive": "ter de",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for have to",
+    "tenses": {
+      "present": [
+        "ter de",
+        "ter de",
+        "ter de",
+        "ter de",
+        "ter de",
+        "ter de"
+      ]
+    },
+    "examples": [
+      "Example sentence for ter de."
+    ]
+  },
+  "pagar": {
+    "en_lemma": "pay",
+    "infinitive": "pagar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for pay",
+    "tenses": {
+      "present": [
+        "pagar",
+        "pagar",
+        "pagar",
+        "pagar",
+        "pagar",
+        "pagar"
+      ]
+    },
+    "examples": [
+      "Example sentence for pagar."
+    ]
+  },
+  "escrever": {
+    "en_lemma": "write",
+    "infinitive": "escrever",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for write",
+    "tenses": {
+      "present": [
+        "escrever",
+        "escrever",
+        "escrever",
+        "escrever",
+        "escrever",
+        "escrever"
+      ]
+    },
+    "examples": [
+      "Example sentence for escrever."
+    ]
+  },
+  "ler": {
+    "en_lemma": "read",
+    "infinitive": "ler",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for read",
+    "tenses": {
+      "present": [
+        "ler",
+        "ler",
+        "ler",
+        "ler",
+        "ler",
+        "ler"
+      ]
+    },
+    "examples": [
+      "Example sentence for ler."
+    ]
+  },
+  "digitar": {
+    "en_lemma": "type",
+    "infinitive": "digitar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for type",
+    "tenses": {
+      "present": [
+        "digitar",
+        "digitar",
+        "digitar",
+        "digitar",
+        "digitar",
+        "digitar"
+      ]
+    },
+    "examples": [
+      "Example sentence for digitar."
+    ]
+  },
+  "gastar": {
+    "en_lemma": "spend",
+    "infinitive": "gastar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for spend",
+    "tenses": {
+      "present": [
+        "gastar",
+        "gastar",
+        "gastar",
+        "gastar",
+        "gastar",
+        "gastar"
+      ]
+    },
+    "examples": [
+      "Example sentence for gastar."
+    ]
+  },
+  "desperdiçar": {
+    "en_lemma": "waste",
+    "infinitive": "desperdiçar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for waste",
+    "tenses": {
+      "present": [
+        "desperdiçar",
+        "desperdiçar",
+        "desperdiçar",
+        "desperdiçar",
+        "desperdiçar",
+        "desperdiçar"
+      ]
+    },
+    "examples": [
+      "Example sentence for desperdiçar."
+    ]
+  },
+  "concordar": {
+    "en_lemma": "agree",
+    "infinitive": "concordar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for agree",
+    "tenses": {
+      "present": [
+        "concordar",
+        "concordar",
+        "concordar",
+        "concordar",
+        "concordar",
+        "concordar"
+      ]
+    },
+    "examples": [
+      "Example sentence for concordar."
+    ]
+  },
+  "discordar": {
+    "en_lemma": "disagree",
+    "infinitive": "discordar",
+    "group": "Standard",
+    "level": "A1",
+    "definition": "Verb form for disagree",
+    "tenses": {
+      "present": [
+        "discordar",
+        "discordar",
+        "discordar",
+        "discordar",
+        "discordar",
+        "discordar"
+      ]
+    },
+    "examples": [
+      "Example sentence for discordar."
+    ]
+  },
+  "fazer (make)": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Realizar ou criar alguma coisa.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "faço",
+        "fazes",
+        "faz",
+        "fazemos",
+        "fazeis",
+        "fazem"
+      ],
+      "passado": [
+        "fiz",
+        "fizeste",
+        "fez",
+        "fizemos",
+        "fizestes",
+        "fizeram"
+      ],
+      "preterito_imperfeito": [
+        "fazia",
+        "fazias",
+        "fazia",
+        "fazíamos",
+        "fazíeis",
+        "faziam"
+      ],
+      "futuro_do_presente": [
+        "farei",
+        "farás",
+        "fará",
+        "faremos",
+        "fareis",
+        "farão"
+      ],
+      "futuro_do_preterito": [
+        "faria",
+        "farias",
+        "faria",
+        "faríamos",
+        "faríeis",
+        "fariam"
+      ],
+      "presente_subjuntivo": [
+        "faça",
+        "faças",
+        "faça",
+        "façamos",
+        "façais",
+        "façam"
+      ],
+      "imperativo": [
+        "-",
+        "faz",
+        "faça",
+        "façamos",
+        "fazei",
+        "façam"
+      ]
+    },
+    "examples": [
+      "Eu faço os meus trabalhos de manhã."
+    ],
+    "en_lemma": "make"
   }
 }
