@@ -29,9 +29,9 @@
       "tools/ba/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 4,
+      "total": 53,
       "by_file": {
-        "tools/ba/conjugeur/data/verbs.json": 4
+        "tools/ba/conjugeur/data/verbs.json": 53
       }
     }
   },
@@ -47,9 +47,9 @@
       "tools/br/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 3,
+      "total": 58,
       "by_file": {
-        "tools/br/conjugeur/data/verbs.json": 3
+        "tools/br/conjugeur/data/verbs.json": 58
       }
     }
   },
@@ -101,9 +101,9 @@
       "tools/cv/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 4,
+      "total": 53,
       "by_file": {
-        "tools/cv/conjugeur/data/verbs.json": 4
+        "tools/cv/conjugeur/data/verbs.json": 53
       }
     }
   },
@@ -137,9 +137,9 @@
       "tools/de/konjugation/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 143,
+      "total": 164,
       "by_file": {
-        "tools/de/konjugation/data/verbs.json": 143
+        "tools/de/konjugation/data/verbs.json": 164
       }
     }
   },
@@ -158,12 +158,12 @@
       "tools/de/praepositionen/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 129,
+      "total": 130,
       "by_file": {
         "tools/de/praepositionen/data/adjectives.json": 20,
         "tools/de/praepositionen/data/nouns.json": 12,
         "tools/de/praepositionen/data/two_way_prepositions.json": 9,
-        "tools/de/praepositionen/data/verbs.json": 88
+        "tools/de/praepositionen/data/verbs.json": 89
       }
     }
   },
@@ -199,9 +199,9 @@
       "tools/el/klisi-rimaton/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 137,
+      "total": 157,
       "by_file": {
-        "tools/el/klisi-rimaton/data/verbs.json": 137
+        "tools/el/klisi-rimaton/data/verbs.json": 157
       }
     }
   },
@@ -218,10 +218,10 @@
       "tools/el/syntaxi/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 344,
+      "total": 352,
       "by_file": {
         "tools/el/syntaxi/data/nouns.json": 141,
-        "tools/el/syntaxi/data/verbs.json": 203
+        "tools/el/syntaxi/data/verbs.json": 211
       }
     }
   },
@@ -238,9 +238,9 @@
       "tools/en/irregular-verbs/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 215,
+      "total": 241,
       "by_file": {
-        "tools/en/irregular-verbs/data/verbs.json": 215
+        "tools/en/irregular-verbs/data/verbs.json": 241
       }
     }
   },
@@ -256,9 +256,9 @@
       "tools/en/speaking-bot/data/scenarios.json"
     ],
     "entry_counts": {
-      "total": 1,
+      "total": 3,
       "by_file": {
-        "tools/en/speaking-bot/data/scenarios.json": 1
+        "tools/en/speaking-bot/data/scenarios.json": 3
       }
     }
   },
@@ -277,11 +277,11 @@
       "tools/en/verb-prep/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 547,
+      "total": 554,
       "by_file": {
         "tools/en/verb-prep/data/adjectives.json": 161,
         "tools/en/verb-prep/data/nouns.json": 144,
-        "tools/en/verb-prep/data/verbs.json": 242
+        "tools/en/verb-prep/data/verbs.json": 249
       }
     }
   },
@@ -297,9 +297,9 @@
       "tools/es/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 87,
+      "total": 113,
       "by_file": {
-        "tools/es/conjugeur/data/verbs.json": 87
+        "tools/es/conjugeur/data/verbs.json": 113
       }
     }
   },
@@ -334,9 +334,9 @@
       "tools/fr/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 230,
+      "total": 247,
       "by_file": {
-        "tools/fr/conjugeur/data/verbs.json": 230
+        "tools/fr/conjugeur/data/verbs.json": 247
       }
     }
   },
@@ -374,11 +374,11 @@
       "tools/fr/regime/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 236,
+      "total": 244,
       "by_file": {
         "tools/fr/regime/data/adjectives.json": 16,
         "tools/fr/regime/data/nouns.json": 18,
-        "tools/fr/regime/data/verbs.json": 202
+        "tools/fr/regime/data/verbs.json": 210
       }
     }
   },
@@ -412,9 +412,9 @@
       "tools/hy/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 4,
+      "total": 54,
       "by_file": {
-        "tools/hy/conjugeur/data/verbs.json": 4
+        "tools/hy/conjugeur/data/verbs.json": 54
       }
     }
   },
@@ -431,9 +431,9 @@
       "tools/it/coniugatore/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 189,
+      "total": 205,
       "by_file": {
-        "tools/it/coniugatore/data/verbs.json": 189
+        "tools/it/coniugatore/data/verbs.json": 205
       }
     }
   },
@@ -471,11 +471,11 @@
       "tools/it/reggenza/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 511,
+      "total": 518,
       "by_file": {
         "tools/it/reggenza/data/adjectives.json": 163,
         "tools/it/reggenza/data/nouns.json": 145,
-        "tools/it/reggenza/data/verbs.json": 203
+        "tools/it/reggenza/data/verbs.json": 210
       }
     }
   },
@@ -509,9 +509,9 @@
       "tools/ka/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 3,
+      "total": 72,
       "by_file": {
-        "tools/ka/conjugeur/data/verbs.json": 3
+        "tools/ka/conjugeur/data/verbs.json": 72
       }
     }
   },
@@ -527,9 +527,9 @@
       "tools/pt/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 79,
+      "total": 112,
       "by_file": {
-        "tools/pt/conjugeur/data/verbs.json": 79
+        "tools/pt/conjugeur/data/verbs.json": 112
       }
     }
   },
@@ -583,9 +583,9 @@
       "tools/ru/spryazhenie/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 400,
+      "total": 414,
       "by_file": {
-        "tools/ru/spryazhenie/data/verbs.json": 400
+        "tools/ru/spryazhenie/data/verbs.json": 414
       }
     }
   },
@@ -619,9 +619,9 @@
       "tools/tt/conjugeur/data/verbs.json"
     ],
     "entry_counts": {
-      "total": 4,
+      "total": 53,
       "by_file": {
-        "tools/tt/conjugeur/data/verbs.json": 4
+        "tools/tt/conjugeur/data/verbs.json": 53
       }
     }
   }
