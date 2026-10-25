@@ -59,6 +59,20 @@
         <main class="app-main">
             <!-- Practice Mode View (Default Landing View) -->
             <section id="practice-view-container" class="app-view-section">
+                <!-- Top 10 Core English Verbs Preset Quick Banner -->
+                <div class="top10-preset-banner" style="background: linear-gradient(135deg, #eef7f0 0%, #e0f2e5 100%); border: 2px solid var(--sage-primary, #416b49); border-radius: 12px; padding: 0.85rem 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                    <div style="display: flex; align-items: center; gap: 0.65rem;">
+                        <span style="font-size: 1.5rem;">🔥</span>
+                        <div>
+                            <strong style="color: var(--sage-dark, #234027); font-size: 1.05rem;">Top 10 English Core Verbs — Present Tense Practice</strong>
+                            <div style="font-size: 0.88rem; color: var(--ink-soft, #555);">Master present simple conjugation for <em>be, have, think, know, like, want, work, study, go, can, eat, drink</em>.</div>
+                        </div>
+                    </div>
+                    <button id="quick-top10-present-btn" class="start-session-btn" style="background: var(--sage-primary, #416b49); color: #fff; padding: 0.55rem 1.1rem; border-radius: 8px; font-weight: bold; border: none; cursor: pointer;" onclick="appEngine.practice.setPracticeMode('present_top10')">
+                        ▶ Practise Present Tense Now
+                    </button>
+                </div>
+
                 <!-- Practice Controls & Streak Bar -->
                 <div class="practice-header-bar">
                     <div class="streak-widget">
@@ -85,7 +99,8 @@
 
                 <!-- Practice Mode Tabs Bar -->
                 <div class="word-type-tab-bar" style="margin-bottom: 1rem;">
-                    <button id="pmode-flashcard-btn" class="word-type-tab active" onclick="appEngine.practice.setPracticeMode('flashcard')">🃏 Flashcards</button>
+                    <button id="pmode-present_top10-btn" class="word-type-tab active" onclick="appEngine.practice.setPracticeMode('present_top10')">⚡ Top 10 Present Tense</button>
+                    <button id="pmode-flashcard-btn" class="word-type-tab" onclick="appEngine.practice.setPracticeMode('flashcard')">🃏 Flashcards</button>
                     <button id="pmode-blank-btn" class="word-type-tab" onclick="appEngine.practice.setPracticeMode('blank')">💡 Fill-in-Blank</button>
                     <button id="pmode-sprint-btn" class="word-type-tab" onclick="appEngine.practice.setPracticeMode('sprint')">⚡ Timed Sprint</button>
                     <button id="pmode-pattern-btn" class="word-type-tab" onclick="appEngine.practice.setPracticeMode('pattern')">🧩 Pattern Deck</button>
