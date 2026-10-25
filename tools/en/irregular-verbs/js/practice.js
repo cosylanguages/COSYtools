@@ -238,7 +238,7 @@ class PracticeManager extends PracticeEngine {
             },
             can: {
                 I: { sentence: "I [___] speak three languages fluently.", expected: "can" },
-                you: { sentence: "Can you help me with this bag?", expected: "can" },
+                you: { sentence: "[___] you help me with this heavy bag?", expected: "can" },
                 "he/she/it": { sentence: "She [___] swim very fast in the pool.", expected: "can" },
                 we: { sentence: "We [___] solve this problem together.", expected: "can" },
                 they: { sentence: "They [___] play football well.", expected: "can" }

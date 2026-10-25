@@ -211,6 +211,12 @@
     border-color: var(--sage-primary);
 }
 
+.word-type-tab.active {
+    background: var(--sage-primary) !important;
+    color: #ffffff !important;
+    border-color: var(--sage-primary) !important;
+}
+
 /* Forms Display Box in Lookup View */
 .forms-matrix-card {
     display: grid;

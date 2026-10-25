@@ -38,13 +38,39 @@
 </div>
     <header class="app-header" data-icon="🏴" data-title="Чӑвашла" data-tagline="Chuvash Verb Engine"><h1>Чӑваш глаголĕсем</h1></header>
     <main class="tool-container">
+        <!-- Top Core Verbs Quick Banner -->
+        <div class="top10-preset-banner" style="background: linear-gradient(135deg, #eef7f0 0%, #e0f2e5 100%); border: 2px solid var(--sage-primary, #416b49); border-radius: 12px; padding: 0.85rem 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+            <div style="display: flex; align-items: center; gap: 0.65rem;">
+                <span style="font-size: 1.5rem;">🔥</span>
+                <div>
+                    <strong style="color: var(--sage-dark, #234027); font-size: 1.05rem;">12 Тĕп Глагол — Хальхи Вăхăт</strong>
+                    <div style="font-size: 0.88rem; color: var(--ink-soft, #555);">Хальхи вăхăтри сăпăрланăва хăнăхăр: <em>пулни, пурни, шухăшлани, пĕлни, кăмăллани, кавашни, ĕçлев, вĕренни, кайни, пултару, ҫини, ӗҫни</em>.</div>
+                </div>
+            </div>
+            <button id="quick-top10-present-btn" class="btn-primary" style="background: var(--sage-primary, #416b49); color: #fff; padding: 0.55rem 1.1rem; border-radius: 8px; font-weight: bold; border: none; cursor: pointer;">
+                ▶ Хăнăхма тытăн
+            </button>
+        </div>
+
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search..." aria-label="Search entries">
             <div id="search-suggestions" class="suggestions-box"></div>
         </div>
         <div id="result-display" class="result-card"></div>
+
+        <section class="practice-panel" id="practice-panel" style="margin-top: 2rem; background: var(--surface-muted, #f8f9fa); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color, #e2e8f0);">
+            <h2 id="practice-title" style="margin-top: 0; color: var(--sage-dark, #234027);">12 Тĕп Глагол (Хальхи Вăхăт)</h2>
+            <p id="practice-prompt" class="practice-prompt" style="font-size: 1.2rem; font-weight: bold;"></p>
+            <div class="practice-controls" style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                <input id="practice-answer" type="text" autocomplete="off" placeholder="Сăпăрлану формине ҫырăр..." style="flex: 1; padding: 0.75rem; border-radius: 8px; border: 1.5px solid #ccc; font-size: 1rem;" aria-label="Type practice answer">
+                <button id="practice-check" type="button" class="btn-primary" style="padding: 0.75rem 1.25rem; background: var(--sage-primary, #416b49); color: #fff; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Тĕрĕсле</button>
+                <button id="practice-next" type="button" class="secondary" style="padding: 0.75rem 1.25rem; border: 1.5px solid #ccc; border-radius: 8px; font-weight: bold; cursor: pointer;">Тепĕр форма</button>
+            </div>
+            <p id="practice-feedback" class="practice-feedback" style="margin-top: 0.75rem; font-weight: bold;" aria-live="polite"></p>
+        </section>
     </main>
     <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/top_verbs_preset.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
         const lang = 'cv';
@@ -108,6 +134,60 @@
                 render(initialVerb);
             } else {
                 display.innerHTML = '<p class="table-unavailable" style="color: var(--ink-soft, #666); font-style: italic;">Full conjugation table not available for this verb yet.</p>';
+            }
+
+            // Top 10 Practice Engine
+            const topVerbsList = ['пулни', 'пурни', 'шухăшлани', 'пĕлни', 'кăмăллани', 'кавашни', 'ĕçлев', 'вĕренни', 'кайни', 'пултару', 'ҫини', 'ӗҫни'];
+            const topEntries = Object.entries(db || {}).filter(([v]) => topVerbsList.includes(v));
+            let currentQuestion = null;
+
+            function newTop10Question() {
+                if (!topEntries.length) return;
+                const [verb, item] = topEntries[Math.floor(Math.random() * topEntries.length)];
+                const presForms = item.tenses ? item.tenses.present : null;
+                if (!presForms || !presForms.length) return;
+                const personIndex = Math.floor(Math.random() * presForms.length);
+                const labels = ['эпĕ', 'эсĕ', 'вăл', 'эпир', 'эсир', 'вĕсем'];
+                currentQuestion = { verb, item, tense: 'present', person: labels[personIndex], expected: presForms[personIndex] };
+                const promptEl = document.getElementById('practice-prompt');
+                if (promptEl) promptEl.textContent = `${verb} · хальхи вăхăт · ${currentQuestion.person}`;
+                const ansInput = document.getElementById('practice-answer');
+                if (ansInput) ansInput.value = '';
+                const fbEl = document.getElementById('practice-feedback');
+                if (fbEl) fbEl.textContent = '';
+                if (ansInput) ansInput.focus();
+            }
+
+            function checkTop10Answer() {
+                if (!currentQuestion) return;
+                const ansInput = document.getElementById('practice-answer');
+                const fbEl = document.getElementById('practice-feedback');
+                if (!ansInput || !fbEl) return;
+                const isCorrect = ansInput.value.trim().toLowerCase() === currentQuestion.expected.trim().toLowerCase();
+                fbEl.style.color = isCorrect ? '#276749' : '#9b2c2c';
+                fbEl.textContent = isCorrect ? `Тĕрĕс! (${currentQuestion.expected})` : `Йăнăш. Тĕрĕс хурав: ${currentQuestion.expected}`;
+            }
+
+            const checkBtn = document.getElementById('practice-check');
+            const nextBtn = document.getElementById('practice-next');
+            if (checkBtn) checkBtn.addEventListener('click', checkTop10Answer);
+            if (nextBtn) nextBtn.addEventListener('click', newTop10Question);
+            const ansInput = document.getElementById('practice-answer');
+            if (ansInput) ansInput.addEventListener('keydown', e => { if (e.key === 'Enter') checkTop10Answer(); });
+
+            newTop10Question();
+
+            const top10Btn = document.getElementById('quick-top10-present-btn');
+            if (top10Btn) {
+                top10Btn.addEventListener('click', () => {
+                    newTop10Question();
+                    document.getElementById('practice-panel')?.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('preset') === 'top10_present' || urlParams.get('preset') === 'top_present') {
+                document.getElementById('practice-panel')?.scrollIntoView({ behavior: 'smooth' });
             }
 
             if (input) {
