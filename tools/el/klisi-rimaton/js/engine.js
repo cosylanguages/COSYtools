@@ -23,11 +23,26 @@ class GreekConjugationEngine {
 
     handleInitialQueryParams() {
         const params = new URLSearchParams(window.location.search);
+        const preset = params.get('preset');
+        if (preset === 'top10_present' || preset === 'top_present') {
+            this.startTopVerbsPractice();
+            return;
+        }
         const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
         if (target) {
             const input = document.getElementById('verb-search-input');
             if (input) input.value = target;
             this.searchVerb(target);
+        }
+    }
+
+    startTopVerbsPractice() {
+        if (!this.isGameActive) {
+            this.toggleGameMode();
+        }
+        if (this.practice && window.COSYTopVerbs) {
+            const pool = window.COSYTopVerbs.getTopVerbsPool('el', this.verbDb);
+            this.practice.startSession('all', 'all', false, { presetPool: pool });
         }
     }
 

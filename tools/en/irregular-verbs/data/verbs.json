@@ -185,12 +185,19 @@
     "third_person_singular": "knows",
     "pattern_group": "add_en_or_n",
     "level": "A1",
-    "definition": "To be aware of or familiar with.",
+    "definition": "To be aware of facts, familiar with people or places, or skilled.",
     "examples": [
-      "He knows the answer to every question.",
-      "She knew him when they were kids.",
-      "I have known her for ten years."
+      "He knows the correct answer to question 5.",
+      "She knows how to drive a car fluently.",
+      "Do you know where the train station is?"
     ],
+    "present_simple": {
+      "I": "know",
+      "you": "know",
+      "he/she/it": "knows",
+      "we": "know",
+      "they": "know"
+    },
     "subgroup": "ew_own",
     "vowel_pattern": "o-e-o",
     "en_lemma": "know"
@@ -1734,12 +1741,19 @@
     "third_person_singular": "thinks",
     "pattern_group": "same_past_participle",
     "level": "A1",
-    "definition": "To use the mind to consider.",
+    "definition": "To hold an opinion, belief, or consider ideas.",
     "examples": [
+      "I think learning English is a great idea.",
       "She thinks carefully before deciding.",
-      "He thought about the question for a while.",
-      "We have thought of a good plan."
+      "We think that this film is wonderful."
     ],
+    "present_simple": {
+      "I": "think",
+      "you": "think",
+      "he/she/it": "thinks",
+      "we": "think",
+      "they": "think"
+    },
     "subgroup": "ought_aught",
     "vowel_pattern": "i-o-o",
     "en_lemma": "think"
@@ -2408,12 +2422,19 @@
     "third_person_singular": "is",
     "pattern_group": "totally_irregular",
     "level": "A1",
-    "definition": "To exist or live.",
+    "definition": "To exist, identify, describe state, age, or location.",
     "examples": [
-      "She is a doctor at the city hospital.",
-      "They were happy with the results.",
-      "He has been to London twice."
+      "I am Maya and I am a doctor.",
+      "She is 25 years old and she is at home.",
+      "They are happy to learn English together."
     ],
+    "present_simple": {
+      "I": "am",
+      "you": "are",
+      "he/she/it": "is",
+      "we": "are",
+      "they": "are"
+    },
     "subgroup": "totally_irregular",
     "vowel_pattern": "e-a-e",
     "en_lemma": "be"
@@ -2442,12 +2463,19 @@
     "third_person_singular": "eats",
     "pattern_group": "totally_irregular",
     "level": "A1",
-    "definition": "To consume food through the mouth.",
+    "definition": "To consume food or take meals.",
     "examples": [
-      "She eats fruit for breakfast daily.",
-      "He ate dinner at a restaurant last night.",
-      "They have eaten all the cake."
+      "She eats fresh fruit for breakfast daily.",
+      "We eat lunch together at 1 o’clock.",
+      "They eat dinner at a nice restaurant."
     ],
+    "present_simple": {
+      "I": "eat",
+      "you": "eat",
+      "he/she/it": "eats",
+      "we": "eat",
+      "they": "eat"
+    },
     "subgroup": "ablaut_plus_en",
     "vowel_pattern": "e-a-e",
     "en_lemma": "eat"
@@ -2461,10 +2489,17 @@
     "level": "A1",
     "definition": "To move or travel from one place to another.",
     "examples": [
-      "She goes to school every day.",
-      "He went home early yesterday.",
-      "They have gone to the market."
+      "She goes to school every morning.",
+      "I go to work by subway.",
+      "We go to the park on weekends."
     ],
+    "present_simple": {
+      "I": "go",
+      "you": "go",
+      "he/she/it": "goes",
+      "we": "go",
+      "they": "go"
+    },
     "subgroup": "totally_irregular",
     "vowel_pattern": "o-e-o",
     "en_lemma": "go"
@@ -2476,12 +2511,19 @@
     "third_person_singular": "has",
     "pattern_group": "totally_irregular",
     "level": "A1",
-    "definition": "To possess or hold.",
+    "definition": "To possess, hold, or experience family/routine/food.",
     "examples": [
-      "She has two brothers and one sister.",
-      "He had a cold last week.",
-      "They have had a wonderful holiday."
+      "I have two brothers and a nice phone.",
+      "She has blue eyes and a friendly dog.",
+      "We have breakfast together every morning."
     ],
+    "present_simple": {
+      "I": "have",
+      "you": "have",
+      "he/she/it": "has",
+      "we": "have",
+      "they": "have"
+    },
     "subgroup": "base_past_past",
     "vowel_pattern": "a-a-a",
     "en_lemma": "have"
@@ -2670,12 +2712,19 @@
     "third_person_singular": "drinks",
     "pattern_group": "vowel_change",
     "level": "A1",
-    "definition": "To swallow liquid.",
+    "definition": "To swallow liquids or beverages.",
     "examples": [
-      "She drinks two liters of water daily.",
-      "He drank a glass of milk before bed.",
-      "We have drunk all the orange juice."
+      "I drink two liters of water every day.",
+      "He drinks hot coffee in the morning.",
+      "We drink tea when it is cold outside."
     ],
+    "present_simple": {
+      "I": "drink",
+      "you": "drink",
+      "he/she/it": "drinks",
+      "we": "drink",
+      "they": "drink"
+    },
     "subgroup": "i_a_u_ablaut",
     "vowel_pattern": "i-a-u",
     "en_lemma": "drink"
@@ -3467,24 +3516,28 @@
     "vowel_pattern": "i-u-u"
   },
   "like": {
-    "en_lemma": "like",
-    "infinitive": "like",
-    "group": "Standard",
+    "base": "like",
+    "past_simple": "liked",
+    "past_participle": "liked",
+    "third_person_singular": "likes",
+    "pattern_group": "regular",
     "level": "A1",
-    "definition": "Verb form for like",
-    "tenses": {
-      "present": [
-        "like",
-        "like",
-        "like",
-        "like",
-        "like",
-        "like"
-      ]
-    },
+    "definition": "To enjoy, prefer, or find pleasant.",
     "examples": [
-      "Example sentence for like."
-    ]
+      "I like Italian food and warm weather.",
+      "She likes reading books before bed.",
+      "They like music and outdoor sports."
+    ],
+    "present_simple": {
+      "I": "like",
+      "you": "like",
+      "he/she/it": "likes",
+      "we": "like",
+      "they": "like"
+    },
+    "subgroup": "regular",
+    "en_lemma": "like",
+    "infinitive": "like"
   },
   "love": {
     "en_lemma": "love",
@@ -3547,84 +3600,100 @@
     ]
   },
   "want": {
-    "en_lemma": "want",
-    "infinitive": "want",
-    "group": "Standard",
+    "base": "want",
+    "past_simple": "wanted",
+    "past_participle": "wanted",
+    "third_person_singular": "wants",
+    "pattern_group": "regular",
     "level": "A1",
-    "definition": "Verb form for want",
-    "tenses": {
-      "present": [
-        "want",
-        "want",
-        "want",
-        "want",
-        "want",
-        "want"
-      ]
-    },
+    "definition": "To desire, wish for, or plan to do something.",
     "examples": [
-      "Example sentence for want."
-    ]
+      "I want a glass of cold water, please.",
+      "She wants to learn English fluently.",
+      "They want to visit London this summer."
+    ],
+    "present_simple": {
+      "I": "want",
+      "you": "want",
+      "he/she/it": "wants",
+      "we": "want",
+      "they": "want"
+    },
+    "subgroup": "regular",
+    "en_lemma": "want",
+    "infinitive": "want"
   },
   "work": {
-    "en_lemma": "work",
-    "infinitive": "work",
-    "group": "Standard",
+    "base": "work",
+    "past_simple": "worked",
+    "past_participle": "worked",
+    "third_person_singular": "works",
+    "pattern_group": "regular",
     "level": "A1",
-    "definition": "Verb form for work",
-    "tenses": {
-      "present": [
-        "work",
-        "work",
-        "work",
-        "work",
-        "work",
-        "work"
-      ]
-    },
+    "definition": "To perform job duties or engage in effort.",
     "examples": [
-      "Example sentence for work."
-    ]
+      "I work at a software company in Paris.",
+      "She works hard as an English teacher.",
+      "We work together on this project."
+    ],
+    "present_simple": {
+      "I": "work",
+      "you": "work",
+      "he/she/it": "works",
+      "we": "work",
+      "they": "work"
+    },
+    "subgroup": "regular",
+    "en_lemma": "work",
+    "infinitive": "work"
   },
   "study": {
-    "en_lemma": "study",
-    "infinitive": "study",
-    "group": "Standard",
+    "base": "study",
+    "past_simple": "studied",
+    "past_participle": "studied",
+    "third_person_singular": "studies",
+    "pattern_group": "regular",
     "level": "A1",
-    "definition": "Verb form for study",
-    "tenses": {
-      "present": [
-        "study",
-        "study",
-        "study",
-        "study",
-        "study",
-        "study"
-      ]
-    },
+    "definition": "To learn a subject or attend academic classes.",
     "examples": [
-      "Example sentence for study."
-    ]
+      "I study English grammar every day.",
+      "He studies medicine at the university.",
+      "They study together in the library."
+    ],
+    "present_simple": {
+      "I": "study",
+      "you": "study",
+      "he/she/it": "studies",
+      "we": "study",
+      "they": "study"
+    },
+    "subgroup": "regular",
+    "en_lemma": "study",
+    "infinitive": "study"
   },
   "can": {
-    "en_lemma": "can",
-    "infinitive": "can",
-    "group": "Standard",
+    "base": "can",
+    "past_simple": "could",
+    "past_participle": "could",
+    "third_person_singular": "can",
+    "pattern_group": "modal",
     "level": "A1",
-    "definition": "Verb form for can",
-    "tenses": {
-      "present": [
-        "can",
-        "can",
-        "can",
-        "can",
-        "can",
-        "can"
-      ]
-    },
+    "definition": "To be able to, permitted to, or capable of doing an action.",
     "examples": [
-      "Example sentence for can."
-    ]
+      "I can speak three languages fluently.",
+      "She can swim very fast in the pool.",
+      "Can you help me with this heavy bag?"
+    ],
+    "present_simple": {
+      "I": "can",
+      "you": "can",
+      "he/she/it": "can",
+      "we": "can",
+      "they": "can"
+    },
+    "subgroup": "modal",
+    "en_lemma": "can",
+    "infinitive": "can"
   },
   "talk": {
     "en_lemma": "talk",

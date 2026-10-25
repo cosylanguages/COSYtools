@@ -42,12 +42,28 @@ class EnglishIrregularVerbsEngine {
 
     handleInitialQueryParams() {
         const params = new URLSearchParams(window.location.search);
+        const preset = params.get('preset') || params.get('mode');
+        if (preset === 'top10_present' || preset === 'top10' || preset === 'present_top10') {
+            this.setAppMode('practice');
+            if (this.practice) {
+                this.practice.setPracticeMode('present_top10');
+            }
+            return;
+        }
+
         const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
         if (target) {
-            this.setAppMode('lookup');
-            const input = document.getElementById('verb-search-input');
-            if (input) input.value = target;
-            this.searchVerb(target);
+            if (target === 'top10_present' || target === 'top10' || target === 'present_top10') {
+                this.setAppMode('practice');
+                if (this.practice) {
+                    this.practice.setPracticeMode('present_top10');
+                }
+            } else {
+                this.setAppMode('lookup');
+                const input = document.getElementById('verb-search-input');
+                if (input) input.value = target;
+                this.searchVerb(target);
+            }
         }
     }
 

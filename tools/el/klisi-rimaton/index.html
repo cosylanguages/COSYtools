@@ -55,6 +55,20 @@
         </header>
 
         <main class="app-main">
+            <!-- Top Core Verbs Quick Banner -->
+            <div class="top10-preset-banner" style="background: linear-gradient(135deg, #eef7f0 0%, #e0f2e5 100%); border: 2px solid var(--sage-primary, #416b49); border-radius: 12px; padding: 0.85rem 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+                <div style="display: flex; align-items: center; gap: 0.65rem;">
+                    <span style="font-size: 1.5rem;">🔥</span>
+                    <div>
+                        <strong style="color: var(--sage-dark, #234027); font-size: 1.05rem;">12 Βασικά Ρήματα — Ενεστώτας</strong>
+                        <div style="font-size: 0.88rem; color: var(--ink-soft, #555);">Εξασκηθείτε στον ενεστώτα για τα ρήματα <em>είμαι, έχω, σκέφτομαι, ξέρω, μου αρέσει, θέλω, δουλεύω, διαβάζω, πηγαίνω, μπορώ, τρώω, πίνω</em>.</div>
+                    </div>
+                </div>
+                <button id="quick-top10-present-btn" class="btn-primary" style="background: var(--sage-primary, #416b49); color: #fff; padding: 0.55rem 1.1rem; border-radius: 8px; font-weight: bold; border: none; cursor: pointer;" onclick="appEngine.startTopVerbsPractice()">
+                    ▶ Εξάσκηση στον Ενεστώτα
+                </button>
+            </div>
+
             <section id="search-section-container" class="search-section">
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
@@ -137,6 +151,7 @@
     </div>
     <script src="../../../shared/engines/srs-store.js"></script>
     <script src="../../../shared/engines/practice-engine.js"></script>
+    <script src="../../../shared/js/top_verbs_preset.js"></script>
     <script src="js/engine.js"></script>
     <script src="../../../shared/js/languages.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>

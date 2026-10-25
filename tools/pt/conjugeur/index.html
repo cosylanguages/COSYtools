@@ -39,6 +39,20 @@
 </div>
     <header class="app-header" data-icon="🇵🇹" data-title="Português" data-tagline="Portuguese Verb Engine"><h1>Conjugação Portuguesa</h1></header>
     <main class="tool-container">
+        <!-- Top Core Verbs Quick Banner -->
+        <div class="top10-preset-banner" style="background: linear-gradient(135deg, #eef7f0 0%, #e0f2e5 100%); border: 2px solid var(--sage-primary, #416b49); border-radius: 12px; padding: 0.85rem 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+            <div style="display: flex; align-items: center; gap: 0.65rem;">
+                <span style="font-size: 1.5rem;">🔥</span>
+                <div>
+                    <strong style="color: var(--sage-dark, #234027); font-size: 1.05rem;">12 Verbos Essenciais — Presente do Indicativo</strong>
+                    <div style="font-size: 0.88rem; color: var(--ink-soft, #555);">Pratique o presente para <em>ser, ter, pensar, saber, gostar, querer, trabalhar, estudar, ir, poder, comer, beber</em>.</div>
+                </div>
+            </div>
+            <button id="quick-top10-present-btn" class="btn-primary" style="background: var(--sage-primary, #416b49); color: #fff; padding: 0.55rem 1.1rem; border-radius: 8px; font-weight: bold; border: none; cursor: pointer;">
+                ▶ Praticar Presente Agora
+            </button>
+        </div>
+
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search..." aria-label="Search entries">
             <div id="search-suggestions" class="suggestions-box"></div>
@@ -63,6 +77,7 @@
         </section>
     </main>
     <script src="../../../shared/js/languages.js"></script>
+    <script src="../../../shared/js/top_verbs_preset.js"></script>
     <script src="../../../shared/js/shell.js" defer></script>
     <script>
         const lang = 'pt';
@@ -161,6 +176,39 @@
             const initialVerb = Object.keys(db)[0] || allLemmas[0];
             if (initialVerb) render(initialVerb);
             newQuestion();
+
+            function startTop10Practice() {
+                const topVerbs = ['ser', 'ter', 'pensar', 'saber', 'gostar', 'querer', 'trabalhar', 'estudar', 'ir', 'poder', 'comer', 'beber'];
+                const topEntries = Object.entries(db).filter(([verb]) => topVerbs.includes(verb));
+                if (!topEntries.length) return;
+                const practiceTitle = document.getElementById('practice-title');
+                if (practiceTitle) practiceTitle.textContent = '12 Verbos Essenciais (Presente)';
+
+                function newTop10Question() {
+                    const [verb, item] = topEntries[Math.floor(Math.random() * topEntries.length)];
+                    const presForms = item.tenses ? item.tenses.presente : null;
+                    if (!presForms || !presForms.length) return;
+                    const personIndex = Math.floor(Math.random() * presForms.length);
+                    const labels = ['eu', 'tu', 'ele/ela', 'nós', 'vós', 'eles/elas'];
+                    currentQuestion = { verb, item, tense: 'presente', person: labels[personIndex], expected: presForms[personIndex] };
+                    prompt.textContent = `${verb} · presente · ${currentQuestion.person}`;
+                    family.textContent = 'Verbo essencial';
+                    answer.value = '';
+                    feedback.textContent = '';
+                    answer.focus();
+                }
+                newQuestion = newTop10Question;
+                newQuestion();
+                document.querySelector('.practice-panel')?.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            const top10Btn = document.getElementById('quick-top10-present-btn');
+            if (top10Btn) top10Btn.addEventListener('click', startTop10Practice);
+
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('preset') === 'top10_present' || urlParams.get('preset') === 'top_present') {
+                startTop10Practice();
+            }
 
             input.addEventListener('input', (e) => {
                 const q = e.target.value.trim().toLowerCase();
