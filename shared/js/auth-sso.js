@@ -30,12 +30,17 @@
         return isLocal && url.origin === window.location.origin;
     }
 
+    /**
+     * Resolves and caches a singleton Supabase client instance.
+     * @returns {Object|null} Supabase client instance or null.
+     */
     function getSupabaseClient() {
         if (window.supabaseClient && window.supabaseClient.auth) {
             return window.supabaseClient;
         }
-        if (window.supabase && window.supabase.auth) {
-            return window.supabase;
+        if (window.supabase && window.supabase.auth && typeof window.supabase.auth.getSession === 'function') {
+            window.supabaseClient = window.supabase;
+            return window.supabaseClient;
         }
         if (window.supabase && typeof window.supabase.createClient === 'function') {
             const url = window.COSY_SUPABASE_URL;
@@ -52,6 +57,10 @@
         return null;
     }
 
+    /**
+     * Handles restoring user session from URL hash tokens (#access_token=...&refresh_token=...).
+     * @returns {Promise<void>}
+     */
     async function handleSSOHash() {
         if (!window.location.hash || !window.location.hash.includes('access_token')) {
             return;
