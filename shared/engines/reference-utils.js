@@ -4,7 +4,15 @@
  * weak-spot/SRS tracking, and link generation across reference tools.
  */
 
-window.COSYReferenceUtils = (function () {
+(function (root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    define([], factory);
+  } else if (typeof module === 'object' && module.exports) {
+    module.exports = factory();
+  } else {
+    root.COSYReferenceUtils = factory();
+  }
+}(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
 
   const LOCAL_CACHE_PREFIX = 'cosy_ref_cache_';
@@ -250,4 +258,4 @@ window.COSYReferenceUtils = (function () {
     getEcosystemLink,
     syncUserScore
   };
-})();
+}));

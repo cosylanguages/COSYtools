@@ -1290,7 +1290,7 @@ PracticeEngine.TENSE_NAMES = {
     'part': 'Participle / Participe / Причастие'
 };
 
-window.PracticeEngine = PracticeEngine;
+(typeof window !== 'undefined' ? window : global).PracticeEngine = PracticeEngine;
 if (typeof module !== 'undefined') {
     module.exports = PracticeEngine;
 }

@@ -492,3 +492,17 @@ body.theme-dark .cosy-ecosystem-strip {
     background: #141a15;
     border-bottom-color: rgba(255, 255, 255, 0.08);
 }
+
+/* ── 14. Embedded / Iframe Mode for COSYdata & COSYlanguages Integration ──── */
+html.is-embedded header.app-header,
+html.is-embedded footer.site-footer,
+html.is-embedded .site-footer,
+html.is-embedded .cosy-ecosystem-strip {
+    display: none !important;
+}
+
+html.is-embedded body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+}

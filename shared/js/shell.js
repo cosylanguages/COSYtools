@@ -168,9 +168,20 @@
         }
     }
 
+    // --------------------------------------------------------------------------
+    // Embedded / Iframe Mode for Sibling Repos (COSYdata / COSYlanguages)
+    // --------------------------------------------------------------------------
+    function checkEmbedMode() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('embed') === '1' || params.get('iframe') === '1' || params.get('mode') === 'embed') {
+            document.documentElement.classList.add('is-embedded');
+        }
+    }
+
     // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
         initTheme();
+        checkEmbedMode();
         renderAppHeader();
         loadEcosystemScripts();
         registerServiceWorker();

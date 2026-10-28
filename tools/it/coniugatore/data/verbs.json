@@ -106,8 +106,7 @@
     },
     "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "speak"
+    "irregular": false
   },
   "amare": {
     "group": "1a coniugazione",
@@ -216,8 +215,7 @@
     },
     "usage_hint": "+ oggetto diretto (amare qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "love"
+    "irregular": false
   },
   "camminare": {
     "group": "1a coniugazione",
@@ -435,8 +433,7 @@
     },
     "usage_hint": "+ oggetto diretto (studiare lingua)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "study"
+    "irregular": false
   },
   "lavorare": {
     "group": "1a coniugazione",
@@ -545,8 +542,7 @@
     },
     "usage_hint": "lavorare per / con / in",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "work"
+    "irregular": false
   },
   "abitare": {
     "group": "1a coniugazione",
@@ -764,8 +760,7 @@
     },
     "usage_hint": "+ oggetto diretto (ascoltare musica)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "listen"
+    "irregular": false
   },
   "guardare": {
     "group": "1a coniugazione",
@@ -874,8 +869,7 @@
     },
     "usage_hint": "+ oggetto diretto (guardare la TV)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "look"
+    "irregular": false
   },
   "pensare": {
     "group": "1a coniugazione",
@@ -985,8 +979,7 @@
     "usage_hint": "pensare a (qualcosa/qualcuno) / di (opinione)",
     "grammar_rule": "💡 REMEMBER: Richiede SEMPRE il Congiuntivo nelle frasi subordinate di opinione ('penso che sia giusto').",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "think"
+    "irregular": false
   },
   "cercare": {
     "group": "1a coniugazione",
@@ -1531,8 +1524,7 @@
     },
     "usage_hint": "giocare a (gioco/sport) / con (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "play"
+    "irregular": false
   },
   "cantare": {
     "group": "1a coniugazione",
@@ -2523,8 +2515,7 @@
     },
     "usage_hint": "aspettare + oggetto diretto (aspettare qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "wait"
+    "irregular": false
   },
   "arrivare": {
     "group": "1a coniugazione",
@@ -2851,8 +2842,7 @@
     },
     "usage_hint": "dimenticare + oggetto diretto / di (fare)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "forget"
+    "irregular": false
   },
   "ricordare": {
     "group": "1a coniugazione",
@@ -2961,8 +2951,7 @@
     },
     "usage_hint": "ricordare (qualcosa) a (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "remember"
+    "irregular": false
   },
   "spiegare": {
     "group": "1a coniugazione",
@@ -3180,8 +3169,7 @@
     },
     "usage_hint": "comprare (qualcosa) per (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "buy"
+    "irregular": false
   },
   "pagare": {
     "group": "1a coniugazione",
@@ -3290,8 +3278,7 @@
     },
     "usage_hint": "pagare (qualcosa) a (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "pay"
+    "irregular": false
   },
   "cominciare": {
     "group": "1a coniugazione",
@@ -4075,8 +4062,7 @@
     },
     "usage_hint": "+ oggetto diretto (incontrare un amico)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "meet"
+    "irregular": false
   },
   "salvare": {
     "group": "1a coniugazione",
@@ -4621,8 +4607,7 @@
     },
     "usage_hint": "inviare (qualcosa) a (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "send"
+    "irregular": false
   },
   "rifiutare": {
     "group": "1a coniugazione",
@@ -5495,8 +5480,7 @@
     "usage_hint": "intransitivo: andare a (città) / in (paese/luogo)",
     "grammar_rule": "💡 REMEMBER: Verbo di movimento — usa l'ausiliare 'essere' con accordo del participio passato ('sono andato/a'). Presente altamente irregolare: vado, vai, va, andiamo, andate, vanno.",
     "auxiliary": "essere",
-    "irregular": true,
-    "en_lemma": "go"
+    "irregular": true
   },
   "fare": {
     "group": "1a coniugazione",
@@ -5605,8 +5589,7 @@
     },
     "usage_hint": "+ oggetto diretto / fare di",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "do"
+    "irregular": true
   },
   "chiamare": {
     "group": "1a coniugazione",
@@ -8331,8 +8314,7 @@
     },
     "usage_hint": "raccontare (qualcosa) a (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "tell"
+    "irregular": false
   },
   "provare": {
     "group": "are",
@@ -8992,8 +8974,7 @@
       ]
     },
     "usage_hint": "dare (qualcosa) a (qualcuno)",
-    "irregular": true,
-    "en_lemma": "give"
+    "irregular": true
   },
   "mangiare": {
     "group": "are",
@@ -9103,8 +9084,7 @@
       ]
     },
     "usage_hint": "+ oggetto diretto (mangiare qualcosa)",
-    "irregular": false,
-    "en_lemma": "eat"
+    "irregular": false
   },
   "stare": {
     "group": "are",
@@ -12489,8 +12469,7 @@
     },
     "usage_hint": "+ oggetto diretto (detestare qualcosa)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "dislike"
+    "irregular": false
   },
   "fabbricare": {
     "group": "1a coniugazione",
@@ -12708,8 +12687,7 @@
     },
     "usage_hint": "+ oggetto diretto (osservare la natura)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "watch"
+    "irregular": false
   },
   "odiare": {
     "group": "are",
@@ -12753,8 +12731,7 @@
         "odiavano"
       ]
     },
-    "irregular": false,
-    "en_lemma": "hate"
+    "irregular": false
   },
   "credere": {
     "group": "2a coniugazione",
@@ -12973,8 +12950,7 @@
     },
     "usage_hint": "essere di (possesso) / in / a / + aggettivo",
     "auxiliary": "essere",
-    "irregular": true,
-    "en_lemma": "be"
+    "irregular": true
   },
   "avere": {
     "group": "2a coniugazione",
@@ -13083,8 +13059,7 @@
     },
     "usage_hint": "avere bisogno di / avere paura di / + oggetto diretto",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "have"
+    "irregular": true
   },
   "potere": {
     "group": "2a coniugazione",
@@ -13194,8 +13169,7 @@
     "usage_hint": "+ infinito diretto (potere fare)",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime possibilità o permesso, seguito dall'infinito senza preposizione.",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "can"
+    "irregular": true
   },
   "volere": {
     "group": "2a coniugazione",
@@ -13305,8 +13279,7 @@
     "usage_hint": "+ oggetto diretto / + infinito diretto",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — seguito direttamente dall'infinito ('voglio andare') o richiede il Congiuntivo se i soggetti differiscono ('voglio che tu venga').",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "want"
+    "irregular": true
   },
   "sapere": {
     "group": "2a coniugazione",
@@ -13415,8 +13388,7 @@
     },
     "usage_hint": "+ oggetto diretto / + infinito direct",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "know"
+    "irregular": true
   },
   "dovere": {
     "group": "2a coniugazione",
@@ -13526,8 +13498,7 @@
     "usage_hint": "+ infinito diretto (dovere fare)",
     "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione.",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "must"
+    "irregular": true
   },
   "leggere": {
     "group": "2a coniugazione",
@@ -13636,8 +13607,7 @@
     },
     "usage_hint": "+ oggetto diretto (leggere un libro)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "read"
+    "irregular": false
   },
   "scrivere": {
     "group": "2a coniugazione",
@@ -13746,8 +13716,7 @@
     },
     "usage_hint": "scrivere (qualcosa) a (qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "write"
+    "irregular": false
   },
   "vedere": {
     "group": "2a coniugazione",
@@ -13856,8 +13825,7 @@
     },
     "usage_hint": "+ oggetto diretto (vedere qualcuno)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "see"
+    "irregular": false
   },
   "prendere": {
     "group": "2a coniugazione",
@@ -13966,8 +13934,7 @@
     },
     "usage_hint": "prendere + oggetto diretto / prendersi cura di",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "take"
+    "irregular": false
   },
   "mettere": {
     "group": "2a coniugazione",
@@ -14294,8 +14261,7 @@
     },
     "usage_hint": "chiedere (qualcosa) a (qualcuno) / di (fare)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "ask"
+    "irregular": false
   },
   "rispondere": {
     "group": "2a coniugazione",
@@ -14404,8 +14370,7 @@
     },
     "usage_hint": "rispondere a (qualcuno / qualcosa)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "answer"
+    "irregular": false
   },
   "vincere": {
     "group": "2a coniugazione",
@@ -14732,8 +14697,7 @@
     },
     "usage_hint": "+ oggetto diretto (bere acqua)",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "drink"
+    "irregular": true
   },
   "rimanere": {
     "group": "2a coniugazione",
@@ -15298,8 +15262,7 @@
     },
     "usage_hint": "vivere a / in / con / di",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "live"
+    "irregular": false
   },
   "giungere": {
     "group": "2a coniugazione",
@@ -17480,8 +17443,7 @@
       ]
     },
     "usage_hint": "piacere a (qualcuno: mi piace il caffè)",
-    "irregular": true,
-    "en_lemma": "like"
+    "irregular": true
   },
   "rompere": {
     "group": "ere",
@@ -17923,8 +17885,7 @@
     },
     "usage_hint": "decidere di (fare qualcosa)",
     "irregular": false,
-    "needs_review": true,
-    "en_lemma": "decide"
+    "needs_review": true
   },
   "raccogliere": {
     "group": "ere",
@@ -19246,8 +19207,7 @@
     },
     "usage_hint": "+ oggetto diretto (ottenere un risultato)",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "get"
+    "irregular": true
   },
   "dispiacere": {
     "group": "ere",
@@ -19509,8 +19469,7 @@
     },
     "usage_hint": "+ oggetto diretto / sentire parlare di",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "hear"
+    "irregular": false
   },
   "pulire": {
     "group": "3a coniugazione",
@@ -19728,8 +19687,7 @@
     },
     "usage_hint": "+ oggetto diretto (capire la lezione)",
     "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "understand"
+    "irregular": false
   },
   "finire": {
     "group": "3a coniugazione",
@@ -20406,8 +20364,7 @@
     "usage_hint": "dire (qualcosa) a (qualcuno)",
     "grammar_rule": "💡 REMEMBER: Deriva dal latino 'dicere'. Participio passato: 'detto'. Imperativo singolare: 'dall' / 'di''.",
     "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "say"
+    "irregular": true
   },
   "aprire": {
     "group": "3a coniugazione",
@@ -21280,566 +21237,5 @@
       ]
     },
     "irregular": false
-  },
-  "avere bisogno": {
-    "en_lemma": "need",
-    "infinitive": "avere bisogno",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for need",
-    "tenses": {
-      "present": [
-        "avere bisogno",
-        "avere bisogno",
-        "avere bisogno",
-        "avere bisogno",
-        "avere bisogno",
-        "avere bisogno"
-      ]
-    },
-    "examples": [
-      "Example sentence for avere bisogno."
-    ]
-  },
-  "digitare": {
-    "en_lemma": "type",
-    "infinitive": "digitare",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for type",
-    "tenses": {
-      "present": [
-        "digitare",
-        "digitare",
-        "digitare",
-        "digitare",
-        "digitare",
-        "digitare"
-      ]
-    },
-    "examples": [
-      "Example sentence for digitare."
-    ]
-  },
-  "spendere": {
-    "en_lemma": "spend",
-    "infinitive": "spendere",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for spend",
-    "tenses": {
-      "present": [
-        "spendere",
-        "spendere",
-        "spendere",
-        "spendere",
-        "spendere",
-        "spendere"
-      ]
-    },
-    "examples": [
-      "Example sentence for spendere."
-    ]
-  },
-  "sprecare": {
-    "en_lemma": "waste",
-    "infinitive": "sprecare",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for waste",
-    "tenses": {
-      "present": [
-        "sprecare",
-        "sprecare",
-        "sprecare",
-        "sprecare",
-        "sprecare",
-        "sprecare"
-      ]
-    },
-    "examples": [
-      "Example sentence for sprecare."
-    ]
-  },
-  "essere d accordo": {
-    "en_lemma": "agree",
-    "infinitive": "essere d accordo",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for agree",
-    "tenses": {
-      "present": [
-        "essere d accordo",
-        "essere d accordo",
-        "essere d accordo",
-        "essere d accordo",
-        "essere d accordo",
-        "essere d accordo"
-      ]
-    },
-    "examples": [
-      "Example sentence for essere d accordo."
-    ]
-  },
-  "disaccordare": {
-    "en_lemma": "disagree",
-    "infinitive": "disaccordare",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for disagree",
-    "tenses": {
-      "present": [
-        "disaccordare",
-        "disaccordare",
-        "disaccordare",
-        "disaccordare",
-        "disaccordare",
-        "disaccordare"
-      ]
-    },
-    "examples": [
-      "Example sentence for disaccordare."
-    ]
-  },
-  "fare (make)": {
-    "group": "1a coniugazione",
-    "level": "A1",
-    "definition": "Compiere un'azione.",
-    "antonyms": [
-      "disfare"
-    ],
-    "tenses": {
-      "pres": [
-        "faccio",
-        "fai",
-        "fa",
-        "facciamo",
-        "fate",
-        "fanno"
-      ],
-      "imp": [
-        "facevo",
-        "facevi",
-        "faceva",
-        "facevamo",
-        "facevate",
-        "facevano"
-      ],
-      "fut": [
-        "farò",
-        "farai",
-        "farà",
-        "faremo",
-        "farete",
-        "faranno"
-      ],
-      "cond": [
-        "farei",
-        "faresti",
-        "farebbe",
-        "faremmo",
-        "fareste",
-        "farebbero"
-      ],
-      "subj": [
-        "che io faccia",
-        "che tu faccia",
-        "che egli faccia",
-        "che noi facciamo",
-        "che voi facciate",
-        "che essi facciano"
-      ],
-      "impv": [
-        "fai!",
-        "facciamo!",
-        "fate!"
-      ],
-      "part": [
-        "fatto"
-      ],
-      "cond_pass": [
-        "avrei fatto",
-        "avresti fatto",
-        "avrebbe fatto",
-        "avremmo fatto",
-        "avreste fatto",
-        "avrebbero fatto"
-      ],
-      "subj_pass": [
-        "abbia fatto",
-        "abbia fatto",
-        "abbia fatto",
-        "abbiamo fatto",
-        "abbiate fatto",
-        "abbiano fatto"
-      ],
-      "subj_imp": [
-        "facessi",
-        "facessi",
-        "facesse",
-        "facessimo",
-        "faceste",
-        "facessero"
-      ],
-      "trap_pass": [
-        "avevo fatto",
-        "avevi fatto",
-        "aveva fatto",
-        "avevamo fatto",
-        "avevate fatto",
-        "avevano fatto"
-      ],
-      "fut_ant": [
-        "avrò fatto",
-        "avrai fatto",
-        "avrà fatto",
-        "avremo fatto",
-        "avrete fatto",
-        "avranno fatto"
-      ],
-      "pc": [
-        "ho fatto",
-        "hai fatto",
-        "ha fatto",
-        "abbiamo fatto",
-        "avete fatto",
-        "hanno fatto"
-      ]
-    },
-    "usage_hint": "+ oggetto diretto / fare di",
-    "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "make"
-  },
-  "parlare (talk)": {
-    "group": "1a coniugazione",
-    "level": "A1",
-    "definition": "Esprimere pensieri con la voce.",
-    "antonyms": [
-      "tacere"
-    ],
-    "tenses": {
-      "pres": [
-        "parlo",
-        "parli",
-        "parla",
-        "parliamo",
-        "parlate",
-        "parlano"
-      ],
-      "imp": [
-        "parlavo",
-        "parlavi",
-        "parlava",
-        "parlavamo",
-        "parlavate",
-        "parlavano"
-      ],
-      "fut": [
-        "parlerò",
-        "parlerai",
-        "parlerà",
-        "parleremo",
-        "parlerete",
-        "parleranno"
-      ],
-      "cond": [
-        "parlerei",
-        "parleresti",
-        "parlerebbe",
-        "parleremmo",
-        "parlereste",
-        "parlerebbero"
-      ],
-      "subj": [
-        "che io parli",
-        "che tu parli",
-        "che egli parli",
-        "che noi parliamo",
-        "che voi parliate",
-        "che essi parlino"
-      ],
-      "impv": [
-        "parla!",
-        "parliamo!",
-        "parlate!"
-      ],
-      "part": [
-        "parlato"
-      ],
-      "cond_pass": [
-        "avrei parlato",
-        "avresti parlato",
-        "avrebbe parlato",
-        "avremmo parlato",
-        "avreste parlato",
-        "avrebbero parlato"
-      ],
-      "subj_pass": [
-        "abbia parlato",
-        "abbia parlato",
-        "abbia parlato",
-        "abbiamo parlato",
-        "abbiate parlato",
-        "abbiano parlato"
-      ],
-      "subj_imp": [
-        "parlassi",
-        "parlassi",
-        "parlasse",
-        "parlassimo",
-        "parlaste",
-        "parlassero"
-      ],
-      "trap_pass": [
-        "avevo parlato",
-        "avevi parlato",
-        "aveva parlato",
-        "avevamo parlato",
-        "avevate parlato",
-        "avevano parlato"
-      ],
-      "fut_ant": [
-        "avrò parlato",
-        "avrai parlato",
-        "avrà parlato",
-        "avremo parlato",
-        "avrete parlato",
-        "avranno parlato"
-      ],
-      "pc": [
-        "ho parlato",
-        "hai parlato",
-        "ha parlato",
-        "abbiamo parlato",
-        "avete parlato",
-        "hanno parlato"
-      ]
-    },
-    "usage_hint": "parlare a (qualcuno) / di (qualcosa o qualcuno)",
-    "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "talk"
-  },
-  "dovere (have to)": {
-    "group": "2a coniugazione",
-    "level": "A1",
-    "definition": "Avere l'obbligo di.",
-    "antonyms": [
-      "essere libero"
-    ],
-    "tenses": {
-      "pres": [
-        "devo",
-        "devi",
-        "deve",
-        "dobbiamo",
-        "dovete",
-        "devono"
-      ],
-      "imp": [
-        "dovevo",
-        "dovevi",
-        "doveva",
-        "dovevamo",
-        "dovete",
-        "dovevano"
-      ],
-      "fut": [
-        "dovrò",
-        "dovrai",
-        "dovrà",
-        "dovremo",
-        "dovrete",
-        "dovranno"
-      ],
-      "cond": [
-        "dovrei",
-        "dovresti",
-        "dovrebbe",
-        "dovremmo",
-        "dovreste",
-        "dovrebbero"
-      ],
-      "subj": [
-        "che io debba",
-        "che tu debba",
-        "che egli debba",
-        "che noi dobbiamo",
-        "che voi debbiate",
-        "che essi debbano"
-      ],
-      "impv": [
-        "devi!",
-        "dobbiamo!",
-        "dovete!"
-      ],
-      "part": [
-        "dovuto"
-      ],
-      "cond_pass": [
-        "avrei dovuto",
-        "avresti dovuto",
-        "avrebbe dovuto",
-        "avremmo dovuto",
-        "avreste dovuto",
-        "avrebbero dovuto"
-      ],
-      "subj_pass": [
-        "abbia dovuto",
-        "abbia dovuto",
-        "abbia dovuto",
-        "abbiamo dovuto",
-        "abbiate dovuto",
-        "abbiano dovuto"
-      ],
-      "subj_imp": [
-        "dovessi",
-        "dovessi",
-        "dovesse",
-        "dovessimo",
-        "doveste",
-        "dovessero"
-      ],
-      "trap_pass": [
-        "avevo dovuto",
-        "avevi dovuto",
-        "aveva dovuto",
-        "avevamo dovuto",
-        "avevate dovuto",
-        "avevano dovuto"
-      ],
-      "fut_ant": [
-        "avrò dovuto",
-        "avrai dovuto",
-        "avrà dovuto",
-        "avremo dovuto",
-        "avrete dovuto",
-        "avranno dovuto"
-      ],
-      "pc": [
-        "ho dovuto",
-        "hai dovuto",
-        "ha dovuto",
-        "abbiamo dovuto",
-        "avete dovuto",
-        "hanno dovuto"
-      ]
-    },
-    "usage_hint": "+ infinito diretto (dovere fare)",
-    "grammar_rule": "💡 REMEMBER: Verbo servile/modale — esprime un'obbligazione, seguito direttamente dall'infinito senza preposizione.",
-    "auxiliary": "avere",
-    "irregular": true,
-    "en_lemma": "have to"
-  },
-  "sentire (feel)": {
-    "group": "3a coniugazione",
-    "level": "A1",
-    "definition": "Percepire con l'udito.",
-    "antonyms": [
-      "ignorare"
-    ],
-    "tenses": {
-      "pres": [
-        "sento",
-        "senti",
-        "sente",
-        "sentiamo",
-        "sentite",
-        "sentono"
-      ],
-      "imp": [
-        "sentivo",
-        "sentivi",
-        "sentiva",
-        "sentivamo",
-        "sentivate",
-        "sentivano"
-      ],
-      "fut": [
-        "sentirò",
-        "sentirai",
-        "sentirà",
-        "sentiremo",
-        "sentirete",
-        "sentiranno"
-      ],
-      "cond": [
-        "sentirei",
-        "sentiresti",
-        "sentirebbe",
-        "sentiremmo",
-        "sentireste",
-        "sentirebbero"
-      ],
-      "subj": [
-        "che io senta",
-        "che tu senta",
-        "che egli senta",
-        "che noi sentiamo",
-        "che voi sentiate",
-        "che essi sentano"
-      ],
-      "impv": [
-        "senti!",
-        "sentiamo!",
-        "sentite!"
-      ],
-      "part": [
-        "sentito"
-      ],
-      "cond_pass": [
-        "avrei sentito",
-        "avresti sentito",
-        "avrebbe sentito",
-        "avremmo sentito",
-        "avreste sentito",
-        "avrebbero sentito"
-      ],
-      "subj_pass": [
-        "abbia sentito",
-        "abbia sentito",
-        "abbia sentito",
-        "abbiamo sentito",
-        "abbiate sentito",
-        "abbiano sentito"
-      ],
-      "subj_imp": [
-        "sentissi",
-        "sentissi",
-        "sentisse",
-        "sentissimo",
-        "sentiste",
-        "sentissero"
-      ],
-      "trap_pass": [
-        "avevo sentito",
-        "avevi sentito",
-        "aveva sentito",
-        "avevamo sentito",
-        "avevate sentito",
-        "avevano sentito"
-      ],
-      "fut_ant": [
-        "avrò sentito",
-        "avrai sentito",
-        "avrà sentito",
-        "avremo sentito",
-        "avrete sentito",
-        "avranno sentito"
-      ],
-      "pc": [
-        "ho sentito",
-        "hai sentito",
-        "ha sentito",
-        "abbiamo sentito",
-        "avete sentito",
-        "hanno sentito"
-      ]
-    },
-    "usage_hint": "+ oggetto diretto / sentire parlare di",
-    "auxiliary": "avere",
-    "irregular": false,
-    "en_lemma": "feel"
   }
 }
