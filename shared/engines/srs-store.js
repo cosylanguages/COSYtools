@@ -15,7 +15,8 @@ class SpacedRepetitionStore {
 
         this.progress = this.loadProgress();
         this.streakData = this.loadStreak();
-        this.dailyGoal = parseInt(localStorage.getItem(this.goalKey) || '10', 10);
+        const storedGoal = typeof localStorage !== 'undefined' ? localStorage.getItem(this.goalKey) : null;
+        this.dailyGoal = parseInt(storedGoal || '10', 10);
 
         this.checkStreak();
     }
@@ -25,6 +26,7 @@ class SpacedRepetitionStore {
     }
 
     loadProgress() {
+        if (typeof localStorage === 'undefined') return {};
         try {
             const raw = localStorage.getItem(this.progressKey);
             if (!raw) return {};
@@ -49,6 +51,7 @@ class SpacedRepetitionStore {
     }
 
     saveProgress() {
+        if (typeof localStorage === 'undefined') return;
         try {
             localStorage.setItem(this.progressKey, JSON.stringify(this.progress));
         } catch (e) {
@@ -57,6 +60,7 @@ class SpacedRepetitionStore {
     }
 
     loadStreak() {
+        if (typeof localStorage === 'undefined') return { streakDays: 0, lastDate: null, todayCount: 0 };
         try {
             const raw = localStorage.getItem(this.streakKey);
             return raw ? JSON.parse(raw) : { streakDays: 0, lastDate: null, todayCount: 0 };
@@ -66,6 +70,7 @@ class SpacedRepetitionStore {
     }
 
     saveStreak() {
+        if (typeof localStorage === 'undefined') return;
         try {
             localStorage.setItem(this.streakKey, JSON.stringify(this.streakData));
         } catch (e) {
@@ -549,7 +554,7 @@ class SpacedRepetitionStore {
     }
 }
 
-window.SpacedRepetitionStore = SpacedRepetitionStore;
+(typeof window !== 'undefined' ? window : global).SpacedRepetitionStore = SpacedRepetitionStore;
 if (typeof module !== 'undefined') {
     module.exports = SpacedRepetitionStore;
 }
