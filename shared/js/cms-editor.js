@@ -13,11 +13,13 @@
         if (window.supabaseClient && window.supabaseClient.auth) {
             return window.supabaseClient;
         }
-        if (window.supabase && window.supabase.auth) {
-            return window.supabase;
-        }
         if (window.COSY_SSO && typeof window.COSY_SSO.getSupabaseClient === 'function') {
-            return window.COSY_SSO.getSupabaseClient();
+            const client = window.COSY_SSO.getSupabaseClient();
+            if (client) return client;
+        }
+        if (window.supabase && window.supabase.auth && typeof window.supabase.auth.getSession === 'function') {
+            window.supabaseClient = window.supabase;
+            return window.supabaseClient;
         }
         return null;
     }

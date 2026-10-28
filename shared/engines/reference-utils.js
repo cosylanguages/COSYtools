@@ -197,7 +197,7 @@
   async function syncUserScore(gameName, score, maxScore = 0, accuracyPercentage = 0) {
     try {
       // Check for globally available Supabase client instances
-      const client = window.supabaseClient || window.supabase;
+      const client = window.supabaseClient || (window.COSY_SSO && typeof window.COSY_SSO.getSupabaseClient === 'function' ? window.COSY_SSO.getSupabaseClient() : window.supabase);
       if (!client) return false;
 
       // Verify active session exists

@@ -95,11 +95,12 @@
                 .then(shardData => {
                     const units = shardData.units || [];
                     state.shardUnits.set(normLetter, units);
+                    state.shardPromises.delete(normLetter);
                     return units;
                 })
                 .catch(err => {
                     state.shardPromises.delete(normLetter);
-                    state.shardUnits.set(normLetter, []);
+                    console.warn(`COSY Supplemental Lexicon: Failed loading shard ${normLetter} for ${lang}`, err);
                     return [];
                 });
 
@@ -194,8 +195,11 @@
         input.closest('main')?.appendChild(panel);
 
         const resultsContainer = panel.querySelector('.supplemental-results');
+        let currentSearchRequestId = 0;
 
         async function renderResults(query) {
+            const requestId = ++currentSearchRequestId;
+
             if (!query.trim()) {
                 panel.style.display = 'none';
                 resultsContainer.innerHTML = '';
@@ -205,6 +209,10 @@
 
             try {
                 const matches = await window.COSYSupplementalLexicon.searchUnits(lang, query);
+                if (requestId !== currentSearchRequestId) {
+                    // Stale query response ignored due to newer search input
+                    return;
+                }
 
                 // Item 3 filtering & formatting logic:
                 // 1. Group matches by source
