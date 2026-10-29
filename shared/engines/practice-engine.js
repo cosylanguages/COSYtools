@@ -4,6 +4,20 @@
  * question format rendering, scoring, inline feedback, and SRS integration.
  */
 
+/* Fisher–Yates shuffle (unbiased, in place) */
+function cosyShuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+/* Escape text for use inside an HTML attribute / text node */
+function cosyEsc(v) {
+    return String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+const COSY_SR_ONLY = 'position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;';
+
 class PracticeEngine {
     constructor(options = {}) {
         this.engine = options.engine || null;
@@ -254,6 +268,10 @@ class PracticeEngine {
         if (typeof renderer === 'function') {
             renderer(item, format, container, this);
         }
+
+        // `autofocus` is ignored for dynamically inserted content, so focus explicitly
+        const first = container.querySelector('input:not([disabled]), .choice-btn, .match-left');
+        if (first && typeof first.focus === 'function') first.focus();
     }
 
     /* ── BUILT-IN DEFAULT RENDERERS ── */
@@ -283,7 +301,7 @@ class PracticeEngine {
             const pick = prepPool[Math.floor(Math.random() * prepPool.length)];
             if (!choices.includes(pick)) choices.push(pick);
         }
-        choices.sort(() => Math.random() - 0.5);
+        cosyShuffle(choices);
 
         this.activeQuestion = {
             item,
@@ -293,7 +311,7 @@ class PracticeEngine {
         };
 
         const choiceBtnsHtml = choices.map(choice => `
-            <button class="choice-btn" onclick="appEngine.practice.checkAnswer('${choice}')">
+            <button type="button" class="choice-btn" data-choice="${cosyEsc(choice)}" onclick="appEngine.practice.checkAnswer(this.dataset.choice)">
                 ${choice === 'none' ? 'No Preposition (Direct)' : choice}
             </button>
         `).join('');
@@ -317,7 +335,7 @@ class PracticeEngine {
                 ${choiceBtnsHtml}
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -376,11 +394,11 @@ class PracticeEngine {
             </div>
 
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1.25rem;">
-                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type your answer..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type answer">
+                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem;" placeholder="Type your answer..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type answer">
                 <button class="game-btn" style="width: auto; padding: 0.8rem 1.5rem;" onclick="appEngine.practice.checkTypedAnswer()">Check ➔</button>
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -430,11 +448,11 @@ class PracticeEngine {
             </div>
 
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1.25rem;">
-                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type the correct preposition or word..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type corrected answer">
+                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem;" placeholder="Type the correct preposition or word..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type corrected answer">
                 <button class="game-btn" style="width: auto; padding: 0.8rem 1.5rem;" onclick="appEngine.practice.checkTypedAnswer()">Check ➔</button>
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -450,7 +468,7 @@ class PracticeEngine {
 
         const poolOptions = ['at', 'in', 'on', 'with', 'for', 'by', 'from', 'to', 'of', 'about'];
         const distractors = poolOptions.filter(o => o !== targetCategory).slice(0, 3);
-        const choices = [targetCategory, ...distractors].sort(() => Math.random() - 0.5);
+        const choices = cosyShuffle([targetCategory, ...distractors]);
 
         this.activeQuestion = {
             item,
@@ -459,7 +477,7 @@ class PracticeEngine {
         };
 
         const choiceBtns = choices.map(choice => `
-            <button class="choice-btn" onclick="appEngine.practice.checkAnswer('${choice}')">
+            <button type="button" class="choice-btn" data-choice="${cosyEsc(choice)}" onclick="appEngine.practice.checkAnswer(this.dataset.choice)">
                 ${choice}
             </button>
         `).join('');
@@ -482,7 +500,7 @@ class PracticeEngine {
                 ${choiceBtns}
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -509,7 +527,7 @@ class PracticeEngine {
             <div class="blank-prompt">
                 <span class="prompt-badge blank-badge">🎧 Listen &amp; Type</span>
                 <div style="margin: 1rem 0;">
-                    <button class="game-btn secondary-btn" type="button" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance('${targetText.replace(/'/g, "\\'")}')) : null">
+                    <button class="game-btn secondary-btn" type="button" data-text="${cosyEsc(targetText)}" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance(this.dataset.text)) : null">
                         🔊 Play Audio
                     </button>
                 </div>
@@ -517,11 +535,11 @@ class PracticeEngine {
             </div>
 
             <div style="display: flex; gap: 0.5rem; margin-bottom: 1.25rem;">
-                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem; outline: none;" placeholder="Type what you hear..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type what you hear">
+                <input type="text" id="type-answer-input" class="sprint-input-group" style="flex: 1; padding: 0.8rem 1rem; border-radius: 12px; border: 2px solid var(--border-color); font-size: 1.1rem;" placeholder="Type what you hear..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') appEngine.practice.checkTypedAnswer()" aria-label="Type what you hear">
                 <button class="game-btn" style="width: auto; padding: 0.8rem 1.5rem;" onclick="appEngine.practice.checkTypedAnswer()">Check ➔</button>
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -550,7 +568,7 @@ class PracticeEngine {
                 ${data.definition ? `<p class="definition-hint"><em>${data.definition}</em></p>` : ''}
 
                 <div style="margin: 1.5rem 0; display: flex; justify-content: center; gap: 1rem;">
-                    <button class="game-btn secondary-btn" type="button" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance('${targetText.replace(/'/g, "\\'")}')) : null">
+                    <button class="game-btn secondary-btn" type="button" data-text="${cosyEsc(targetText)}" onclick="window.speechSynthesis ? window.speechSynthesis.speak(new SpeechSynthesisUtterance(this.dataset.text)) : null">
                         🔊 Listen
                     </button>
                     <button class="game-btn" type="button" onclick="appEngine.practice.checkAnswer(true)">
@@ -559,7 +577,7 @@ class PracticeEngine {
                 </div>
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -647,7 +665,7 @@ class PracticeEngine {
                 <button type="submit" id="conjugate-submit-btn" class="game-btn" style="margin-top: 1.25rem;">Valider / Check All Forms ➔</button>
             </form>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none; margin-top: 1rem;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none; margin-top: 1rem;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none; margin-top: 1rem;" onclick="appEngine.practice.nextQuestion()">Continue ➔</button>
         `;
     }
@@ -674,11 +692,11 @@ class PracticeEngine {
             if (isCorrect) {
                 correctCount += 1;
                 rowEl.classList.add('correct-row');
-                if (fbEl) fbEl.innerHTML = '<span style="color: #276749; font-weight: bold;">✅</span>';
+                if (fbEl) fbEl.innerHTML = `<span aria-hidden="true" style="color: #276749; font-weight: bold;">✅</span><span style="${COSY_SR_ONLY}">Correct</span>`;
             } else {
                 rowEl.classList.add('wrong-row');
                 const cleanExpected = row.expected.replace(/^[!.,;]+|[!.,;]+$/g, '').trim();
-                if (fbEl) fbEl.innerHTML = `<span style="color: #9b2c2c; font-size: 0.88rem;">❌ ${cleanExpected}</span>`;
+                if (fbEl) fbEl.innerHTML = `<span style="color: #9b2c2c; font-size: 0.88rem;"><span aria-hidden="true">❌</span><span style="${COSY_SR_ONLY}">Incorrect, expected:</span> ${cosyEsc(cleanExpected)}</span>`;
             }
         });
 
@@ -719,7 +737,7 @@ class PracticeEngine {
             feedbackBox.style.display = 'block';
         }
 
-        if (nextBtn) nextBtn.style.display = 'block';
+        if (nextBtn) { nextBtn.style.display = 'block'; nextBtn.focus(); }
     }
 
     injectConjugateStyles() {
@@ -764,9 +782,12 @@ class PracticeEngine {
                 border-radius: 8px;
                 border: 1.5px solid var(--border-color, #ccc);
                 font-size: 1rem;
-                outline: none;
                 font-family: var(--font-sans, inherit);
                 background: var(--paper-light, #ffffff);
+            }
+            .conj-input:focus-visible {
+                outline: 3px solid #1d4ed8;
+                outline-offset: 1px;
             }
             .conj-input:focus {
                 border-color: var(--sage, #416b49);
@@ -856,7 +877,7 @@ class PracticeEngine {
         });
 
         const leftItems = [...pairs];
-        const rightItems = [...pairs].sort(() => Math.random() - 0.5);
+        const rightItems = cosyShuffle([...pairs]);
 
         this.activeQuestion = {
             item: pairs[0] ? pairs[0].item : item,
@@ -870,13 +891,13 @@ class PracticeEngine {
         };
 
         const leftHtml = leftItems.map(p => `
-            <button class="match-btn match-left" id="match-left-${p.id}" onclick="appEngine.practice.handleMatchClick('left', ${p.id})">
+            <button type="button" class="match-btn match-left" id="match-left-${p.id}" aria-pressed="false" onclick="appEngine.practice.handleMatchClick('left', ${p.id})">
                 ${p.leftText}
             </button>
         `).join('');
 
         const rightHtml = rightItems.map(p => `
-            <button class="match-btn match-right" id="match-right-${p.id}" onclick="appEngine.practice.handleMatchClick('right', ${p.id})">
+            <button type="button" class="match-btn match-right" id="match-right-${p.id}" onclick="appEngine.practice.handleMatchClick('right', ${p.id})">
                 ${p.rightText}
             </button>
         `).join('');
@@ -903,7 +924,7 @@ class PracticeEngine {
                 </div>
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none; margin-top: 1rem;"></div>
+            <div id="practice-feedback-box" role="status" aria-live="polite" class="inline-feedback-card" style="display: none; margin-top: 1rem;"></div>
             <button id="practice-next-btn" class="game-btn" style="display: none; margin-top: 1rem;" onclick="appEngine.practice.advanceMatchRound()">Continue ➔</button>
         `;
 
@@ -968,10 +989,10 @@ class PracticeEngine {
 
             if (q.selectedLeft !== null) {
                 const oldBtn = document.getElementById(`match-left-${q.selectedLeft}`);
-                if (oldBtn) oldBtn.classList.remove('selected');
+                if (oldBtn) { oldBtn.classList.remove('selected'); oldBtn.setAttribute('aria-pressed', 'false'); }
             }
             q.selectedLeft = pairId;
-            btn.classList.add('selected');
+            btn.classList.add('selected'); btn.setAttribute('aria-pressed', 'true');
         } else if (col === 'right') {
             if (q.selectedLeft === null) {
                 const feedbackBox = document.getElementById('practice-feedback-box');
@@ -1011,6 +1032,7 @@ class PracticeEngine {
 
             if (isMatch) {
                 leftBtn.classList.remove('selected');
+                leftBtn.setAttribute('aria-pressed', 'false');
                 leftBtn.classList.add('matched');
                 leftBtn.disabled = true;
 
@@ -1033,7 +1055,7 @@ class PracticeEngine {
 
                 if (q.matchedCount >= q.totalPairs) {
                     const nextBtn = document.getElementById('practice-next-btn');
-                    if (nextBtn) nextBtn.style.display = 'block';
+                    if (nextBtn) { nextBtn.style.display = 'block'; nextBtn.focus(); }
                 }
             } else {
                 leftBtn.classList.add('wrong-shake');
@@ -1048,7 +1070,7 @@ class PracticeEngine {
                 }
 
                 q.timeoutId = setTimeout(() => {
-                    leftBtn.classList.remove('wrong-shake', 'selected');
+                    leftBtn.classList.remove('wrong-shake', 'selected'); leftBtn.setAttribute('aria-pressed', 'false');
                     btn.classList.remove('wrong-shake');
                     q.selectedLeft = null;
                     q.timeoutId = null;
@@ -1092,7 +1114,7 @@ class PracticeEngine {
         }
 
         input.disabled = true;
-        if (nextBtn) nextBtn.style.display = 'block';
+        if (nextBtn) { nextBtn.style.display = 'block'; nextBtn.focus(); }
     }
 
     checkAnswer(userChoice, expectedOverride) {

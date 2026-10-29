@@ -36,14 +36,14 @@
 </div>
 
     <header class="ref-header">
-        <div style="display:flex; align-items:center; gap:0.5rem;">
+        <nav aria-label="Breadcrumb" style="display:flex; align-items:center; gap:0.5rem;">
             <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
-            <span style="color:var(--ink-soft)">/</span>
+            <span style="color:var(--ink-soft)" aria-hidden="true">/</span>
             <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:600;">Practice</a>
-            <span style="color:var(--ink-soft)">/</span>
-            <span style="font-weight:600; color:var(--sage-dark)">Quick Drills</span>
-        </div>
-        <nav class="ref-nav-links">
+            <span style="color:var(--ink-soft)" aria-hidden="true">/</span>
+            <span aria-current="page" style="font-weight:600; color:var(--sage-dark)">Quick Drills</span>
+        </nav>
+        <nav class="ref-nav-links" aria-label="Practice pages">
             <a href="../../index.html">Hub</a>
             <a href="../index.html">Practice Hub</a>
             <a href="../weak-spots/index.html">Weak Spots</a>
@@ -65,16 +65,17 @@
         </div>
 
         <div class="ref-practice-box" style="text-align:center;">
-            <div class="qd-progress-bar-wrap">
+            <div class="qd-progress-bar-wrap" id="qd-progress" role="progressbar" aria-label="Quick drills progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
                 <div id="qd-progress-bar-fill" class="qd-progress-bar-fill"></div>
             </div>
 
             <h2 id="qd-question" style="font-family:var(--ref-font-serif); color:var(--sage-dark)">Loading question...</h2>
-            <div id="qd-options" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; max-width:500px; margin:1.5rem auto;">
+            <div id="qd-options" role="group" aria-labelledby="qd-question" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; max-width:500px; margin:1.5rem auto;">
                 <!-- Options buttons rendered dynamically -->
             </div>
-            <div id="qd-feedback" style="margin-top:1rem; font-weight:700; padding:0.5rem 1rem; border-radius:10px; display:inline-block;"></div>
-            <p style="margin-top:1rem; font-size:0.8rem; color:var(--ink-soft);">Pro-tip: Use keyboard keys 1, 2, 3, 4 to select options quickly!</p>
+            <div id="qd-feedback" role="status" aria-live="polite" style="margin-top:1rem; font-weight:700; padding:0.5rem 1rem; border-radius:10px; display:inline-block;"></div>
+            <div style="margin-top:1rem;"><button type="button" id="qd-next-btn" class="ref-btn" style="display:none;" onclick="nextQD()">Next question <span aria-hidden="true">➔</span></button></div>
+            <p style="margin-top:1rem; font-size:0.8rem; color:var(--ink-soft);">Pro-tip: while the answers have keyboard focus, press 1, 2, 3 or 4 to choose quickly.</p>
         </div>
     </main>
 
@@ -91,29 +92,42 @@
         let qIdx = 0;
         let isAnswering = false;
 
-        function renderQD() {
+        function renderQD(focusFirst) {
             isAnswering = false;
             const current = questions[qIdx % questions.length];
-            document.getElementById('qd-question').innerText = current.q;
+            document.getElementById('qd-question').textContent = current.q;
+            const nextBtn = document.getElementById('qd-next-btn');
+            if (nextBtn) nextBtn.style.display = 'none';
             const optsContainer = document.getElementById('qd-options');
             optsContainer.innerHTML = '';
 
             const feedback = document.getElementById('qd-feedback');
-            feedback.innerText = '';
+            feedback.textContent = '';
             feedback.style.display = 'none';
             feedback.classList.remove('feedback-pop', 'feedback-shake');
 
             const pct = Math.round(((qIdx % questions.length) + 1) / questions.length * 100);
             const barFill = document.getElementById('qd-progress-bar-fill');
             if (barFill) barFill.style.width = pct + '%';
+            const bar = document.getElementById('qd-progress');
+            if (bar) {
+                bar.setAttribute('aria-valuenow', String(pct));
+                bar.setAttribute('aria-valuetext', `Question ${(qIdx % questions.length) + 1} of ${questions.length}`);
+            }
 
             current.opts.forEach((opt, idx) => {
                 const btn = document.createElement('button');
+                btn.type = 'button';
                 btn.className = 'ref-btn ref-btn-secondary';
-                btn.innerText = `${idx + 1}. ${opt}`;
+                btn.textContent = `${idx + 1}. ${opt}`;
                 btn.onclick = () => checkQD(opt, current.ans);
                 optsContainer.appendChild(btn);
             });
+            // Keep keyboard users in the flow after the first question
+            if (focusFirst) {
+                const first = optsContainer.querySelector('button');
+                if (first) first.focus();
+            }
         }
 
         function checkQD(selected, correct) {
@@ -128,22 +142,32 @@
             if (selected === correct) {
                 feedback.style.background = '#dcfce7';
                 feedback.style.color = '#166534';
-                feedback.innerText = '✅ Correct!';
+                feedback.textContent = '✅ Correct!';
                 feedback.classList.add('feedback-pop');
             } else {
                 feedback.style.background = '#fee2e2';
                 feedback.style.color = '#991b1b';
-                feedback.innerText = `❌ Incorrect. Correct answer: ${correct}`;
+                feedback.textContent = `❌ Incorrect. Correct answer: ${correct}`;
                 feedback.classList.add('feedback-shake');
             }
 
-            setTimeout(() => {
-                qIdx++;
-                renderQD();
-            }, 1400);
+            // No auto-advance: screen-reader and slower readers need time to read the feedback.
+            document.querySelectorAll('#qd-options button').forEach(b => { b.disabled = true; });
+            const nextBtn = document.getElementById('qd-next-btn');
+            if (nextBtn) {
+                nextBtn.style.display = 'inline-block';
+                nextBtn.focus();
+            }
         }
 
-        window.addEventListener('keydown', (e) => {
+        function nextQD() {
+            qIdx++;
+            renderQD(true);
+        }
+
+        // Number shortcuts only work while focus is inside the answers (no page-wide single-key shortcuts)
+        document.getElementById('qd-options').addEventListener('keydown', (e) => {
+            if (e.ctrlKey || e.altKey || e.metaKey || e.shiftKey) return;
             if (['1', '2', '3', '4'].includes(e.key)) {
                 const optIdx = parseInt(e.key, 10) - 1;
                 const current = questions[qIdx % questions.length];
@@ -153,7 +177,7 @@
             }
         });
 
-        window.addEventListener('DOMContentLoaded', renderQD);
+        window.addEventListener('DOMContentLoaded', () => renderQD(false));
     </script>
     <!-- Shared Shell Footer -->
 <footer class="app-footer cosy-footer">
