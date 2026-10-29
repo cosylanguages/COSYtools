@@ -132,17 +132,41 @@
             background: #f2f9f3;
             box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7), 0 4px 12px rgba(35,64,39,0.08);
         }
-        .person-radio-card h4 {
+        button.person-radio-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font: inherit;
+            color: inherit;
+        }
+        .person-radio-card .card-title {
+            display: block;
             margin: 0 0 0.2rem 0;
+            font-weight: 700;
             color: var(--sage-dark, #234027);
             font-size: 1rem;
             font-family: var(--font-serif, 'COSY Serif', Georgia, serif);
         }
-        .person-radio-card p {
+        .person-radio-card .card-desc {
+            display: block;
             margin: 0;
             font-size: 0.82rem;
             color: var(--ink-soft, #666);
         }
+        /* Visible keyboard focus everywhere on this page */
+        :focus-visible {
+            outline: 3px solid #1d4ed8;
+            outline-offset: 2px;
+        }
+        .sr-only {
+            position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+            overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+        }
+        .setup-message {
+            background: #fee2e2; color: #991b1b; border: 2px solid #991b1b;
+            border-radius: 10px; padding: 0.75rem 1rem; margin: 0 0 1rem 0; font-weight: 700;
+        }
+        .setup-message[hidden] { display: none; }
         .accent-bar {
             display: flex;
             flex-wrap: wrap;
@@ -176,9 +200,14 @@
             border-radius: 12px;
             font-weight: 700;
             box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-            display: none;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
             z-index: 10000;
         }
+        .share-toast.show { opacity: 1; visibility: visible; }
+        .share-toast:empty { display: none; }
         .mnemonic-banner {
             background: #fef3c7;
             border: 2px solid #f59e0b;
@@ -323,15 +352,17 @@
 
     <main style="max-width:950px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
 
+        <div id="setup-message" role="alert" class="setup-message" hidden></div>
+
         <!-- Setup Configurator Card -->
-        <div id="setup-card" class="ref-practice-box" style="margin-bottom: 2rem; border: 2px solid var(--sage-dark, #234027);">
+        <div id="setup-card" class="ref-practice-box" style="margin-bottom: 2rem; border: 2px solid var(--sage-dark, #234027);" tabindex="-1" role="region" aria-labelledby="hero-title">
 
             <!-- Step 1: Select Language -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>1️⃣</span> <span id="lbl-step1">Select Language</span>
+                    <span aria-hidden="true">1️⃣</span> <span id="lbl-step1">Select Language</span>
                 </h3>
-                <div id="lang-pills-container" class="lang-pill-container">
+                <div id="lang-pills-container" class="lang-pill-container" role="group" aria-labelledby="lbl-step1">
                     <!-- Languages rendered dynamically -->
                 </div>
             </div>
@@ -340,14 +371,14 @@
             <div style="margin-bottom: 1.5rem;">
                 <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.5rem;">
                     <h3 style="margin:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                        <span>2️⃣</span> <span id="lbl-step2">Select Verbs to Practise</span>
+                        <span aria-hidden="true">2️⃣</span> <span id="lbl-step2">Select Verbs to Practise</span>
                     </h3>
                     <div style="display:flex; gap:0.5rem;">
                         <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-select-all" onclick="selectAllVerbs(true)">Select All</button>
                         <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-deselect-all" onclick="selectAllVerbs(false)">Deselect All</button>
                     </div>
                 </div>
-                <div id="verbs-checklist-grid" class="top-verbs-grid">
+                <div id="verbs-checklist-grid" class="top-verbs-grid" role="group" aria-labelledby="lbl-step2" aria-live="polite">
                     <!-- Verb checkboxes rendered dynamically -->
                 </div>
             </div>
@@ -355,84 +386,84 @@
             <!-- Step 3: Person / Pronoun Filter -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>3️⃣</span> <span id="lbl-step3">Select Person / Pronoun Group</span>
+                    <span aria-hidden="true">3️⃣</span> <span id="lbl-step3">Select Person / Pronoun Group</span>
                 </h3>
-                <div class="person-toggle-group">
-                    <div class="person-radio-card active" id="person-card-both" onclick="setPersonFilter('both')">
-                        <h4 id="lbl-person-both">👥 Both (All Forms)</h4>
-                        <p id="person-desc-both">Singular + Plural</p>
-                    </div>
-                    <div class="person-radio-card" id="person-card-singular" onclick="setPersonFilter('singular')">
-                        <h4 id="lbl-person-singular">👤 "I, you, he, she, it"</h4>
-                        <p id="person-desc-singular">Singular forms only</p>
-                    </div>
-                    <div class="person-radio-card" id="person-card-plural" onclick="setPersonFilter('plural')">
-                        <h4 id="lbl-person-plural">👥 "We, you, they"</h4>
-                        <p id="person-desc-plural">Plural forms only</p>
-                    </div>
+                <div class="person-toggle-group" role="group" aria-labelledby="lbl-step3">
+                    <button type="button" class="person-radio-card active" id="person-card-both" onclick="setPersonFilter('both')" aria-pressed="true">
+                        <span class="card-title" id="lbl-person-both">👥 Both (All Forms)</span>
+                        <span class="card-desc" id="person-desc-both">Singular + Plural</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="person-card-singular" onclick="setPersonFilter('singular')" aria-pressed="false">
+                        <span class="card-title" id="lbl-person-singular">👤 "I, you, he, she, it"</span>
+                        <span class="card-desc" id="person-desc-singular">Singular forms only</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="person-card-plural" onclick="setPersonFilter('plural')" aria-pressed="false">
+                        <span class="card-title" id="lbl-person-plural">👥 "We, you, they"</span>
+                        <span class="card-desc" id="person-desc-plural">Plural forms only</span>
+                    </button>
                 </div>
             </div>
 
             <!-- Step 4: Sentence Form Polarity -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>4️⃣</span> <span id="lbl-step4">Select Sentence Type</span>
+                    <span aria-hidden="true">4️⃣</span> <span id="lbl-step4">Select Sentence Type</span>
                 </h3>
-                <div class="polarity-toggle-group">
-                    <div class="person-radio-card active" id="polarity-card-positive" onclick="setPolarityFilter('positive')">
-                        <h4 id="lbl-pol-positive">➕ Positive</h4>
-                        <p id="pol-desc-positive">Standard affirmative</p>
-                    </div>
-                    <div class="person-radio-card" id="polarity-card-negative" onclick="setPolarityFilter('negative')">
-                        <h4 id="lbl-pol-negative">➖ Negative</h4>
-                        <p id="pol-desc-negative">Negative forms</p>
-                    </div>
-                    <div class="person-radio-card" id="polarity-card-question" onclick="setPolarityFilter('question')">
-                        <h4 id="lbl-pol-question">❓ Questions</h4>
-                        <p id="pol-desc-question">Questions (excl. 'je')</p>
-                    </div>
-                    <div class="person-radio-card" id="polarity-card-mixed" onclick="setPolarityFilter('mixed')">
-                        <h4 id="lbl-pol-mixed">🔀 Mixed</h4>
-                        <p id="pol-desc-mixed">Random combination</p>
-                    </div>
+                <div class="polarity-toggle-group" role="group" aria-labelledby="lbl-step4">
+                    <button type="button" class="person-radio-card active" id="polarity-card-positive" onclick="setPolarityFilter('positive')" aria-pressed="true">
+                        <span class="card-title" id="lbl-pol-positive">➕ Positive</span>
+                        <span class="card-desc" id="pol-desc-positive">Standard affirmative</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="polarity-card-negative" onclick="setPolarityFilter('negative')" aria-pressed="false">
+                        <span class="card-title" id="lbl-pol-negative">➖ Negative</span>
+                        <span class="card-desc" id="pol-desc-negative">Negative forms</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="polarity-card-question" onclick="setPolarityFilter('question')" aria-pressed="false">
+                        <span class="card-title" id="lbl-pol-question">❓ Questions</span>
+                        <span class="card-desc" id="pol-desc-question">Questions (excl. 'je')</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="polarity-card-mixed" onclick="setPolarityFilter('mixed')" aria-pressed="false">
+                        <span class="card-title" id="lbl-pol-mixed">🔀 Mixed</span>
+                        <span class="card-desc" id="pol-desc-mixed">Random combination</span>
+                    </button>
                 </div>
             </div>
 
             <!-- Step 5: Target Element (Type Verb vs Type Pronoun) -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>5️⃣</span> <span id="lbl-step5">Select Target Element</span>
+                    <span aria-hidden="true">5️⃣</span> <span id="lbl-step5">Select Target Element</span>
                 </h3>
-                <div class="target-toggle-group">
-                    <div class="person-radio-card active" id="target-card-verb" onclick="setTargetMode('verb')">
-                        <h4 id="lbl-target-verb">✍️ Type Verb</h4>
-                        <p id="target-desc-verb">Fill in conjugated verb</p>
-                    </div>
-                    <div class="person-radio-card" id="target-card-pronoun" onclick="setTargetMode('pronoun')">
-                        <h4 id="lbl-target-pronoun">👤 Type Pronoun</h4>
-                        <p id="target-desc-pronoun">Fill in pronoun</p>
-                    </div>
-                    <div class="person-radio-card" id="target-card-mixed" onclick="setTargetMode('mixed')">
-                        <h4 id="lbl-target-mixed">🔀 Mixed Target</h4>
-                        <p id="target-desc-mixed">Random verb &amp; pronoun</p>
-                    </div>
+                <div class="target-toggle-group" role="group" aria-labelledby="lbl-step5">
+                    <button type="button" class="person-radio-card active" id="target-card-verb" onclick="setTargetMode('verb')" aria-pressed="true">
+                        <span class="card-title" id="lbl-target-verb">✍️ Type Verb</span>
+                        <span class="card-desc" id="target-desc-verb">Fill in conjugated verb</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="target-card-pronoun" onclick="setTargetMode('pronoun')" aria-pressed="false">
+                        <span class="card-title" id="lbl-target-pronoun">👤 Type Pronoun</span>
+                        <span class="card-desc" id="target-desc-pronoun">Fill in pronoun</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="target-card-mixed" onclick="setTargetMode('mixed')" aria-pressed="false">
+                        <span class="card-title" id="lbl-target-mixed">🔀 Mixed Target</span>
+                        <span class="card-desc" id="target-desc-mixed">Random verb &amp; pronoun</span>
+                    </button>
                 </div>
             </div>
 
             <!-- Step 6: Practice Mode -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>6️⃣</span> <span id="lbl-step6">Select Practice Format</span>
+                    <span aria-hidden="true">6️⃣</span> <span id="lbl-step6">Select Practice Format</span>
                 </h3>
-                <div class="mode-toggle-group">
-                    <div class="person-radio-card active" id="mode-card-drill" onclick="setPracticeMode('drill')">
-                        <h4 id="lbl-mode-drill">⚡ Single Form Drill</h4>
-                        <p id="mode-desc-drill">1 form per question</p>
-                    </div>
-                    <div class="person-radio-card" id="mode-card-table" onclick="setPracticeMode('table')">
-                        <h4 id="lbl-mode-table">📋 Full Conjugation Table</h4>
-                        <p id="mode-desc-table">Complete table rounds</p>
-                    </div>
+                <div class="mode-toggle-group" role="group" aria-labelledby="lbl-step6">
+                    <button type="button" class="person-radio-card active" id="mode-card-drill" onclick="setPracticeMode('drill')" aria-pressed="true">
+                        <span class="card-title" id="lbl-mode-drill">⚡ Single Form Drill</span>
+                        <span class="card-desc" id="mode-desc-drill">1 form per question</span>
+                    </button>
+                    <button type="button" class="person-radio-card" id="mode-card-table" onclick="setPracticeMode('table')" aria-pressed="false">
+                        <span class="card-title" id="lbl-mode-table">📋 Full Conjugation Table</span>
+                        <span class="card-desc" id="mode-desc-table">Complete table rounds</span>
+                    </button>
                 </div>
             </div>
 
@@ -449,10 +480,10 @@
         </div>
 
         <!-- Practice Execution Area -->
-        <div id="practice-card" class="ref-practice-box" style="display:none;">
+        <div id="practice-card" class="ref-practice-box" style="display:none;" role="region" aria-labelledby="practice-title-text" tabindex="-1">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--ref-border);">
                 <div style="display:flex; align-items:center; gap:0.5rem;">
-                    <span id="practice-lang-flag" style="font-size:1.5rem;">🇬🇧</span>
+                    <span id="practice-lang-flag" style="font-size:1.5rem;" aria-hidden="true">🇬🇧</span>
                     <span id="practice-title-text" style="font-weight:700; color:var(--sage-dark); font-size:1.1rem;">Top Verbs Practice</span>
                 </div>
                 <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.3rem 0.75rem; font-size:0.85rem;" onclick="showSetupCard()">
@@ -468,13 +499,13 @@
         <!-- Video & Reading Resources Section -->
         <div class="media-resources-box">
             <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                📺 Reading &amp; Video Playlists
+                <span aria-hidden="true">📺</span> Reading &amp; Video Playlists
             </h3>
             <p style="margin:0; color:var(--ink-soft); font-size:0.95rem;">Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.</p>
 
             <div class="media-links-grid">
                 <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs-en.html" id="magazine-article-link" target="_blank" rel="noopener" class="media-link-card">
-                    <span style="font-size:1.8rem;">📰</span>
+                    <span style="font-size:1.8rem;" aria-hidden="true">📰</span>
                     <div>
                         <strong style="color:var(--sage-dark); display:block;">COSYmagazine Article</strong>
                         <small style="color:var(--ink-soft);" id="magazine-article-sub">Top 10 Verbs Guide &amp; Grammar Breakdown</small>
@@ -482,7 +513,7 @@
                 </a>
 
                 <a href="https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE" target="_blank" rel="noopener" class="media-link-card">
-                    <span style="font-size:1.8rem;">▶️</span>
+                    <span style="font-size:1.8rem;" aria-hidden="true">▶️</span>
                     <div>
                         <strong style="color:var(--sage-dark); display:block;">YouTube Playlist</strong>
                         <small style="color:var(--ink-soft);">Irregular &amp; Core Verbs Video Lessons</small>
@@ -490,7 +521,7 @@
                 </a>
 
                 <a href="https://rutube.ru/plst/1882480" target="_blank" rel="noopener" class="media-link-card">
-                    <span style="font-size:1.8rem;">🎬</span>
+                    <span style="font-size:1.8rem;" aria-hidden="true">🎬</span>
                     <div>
                         <strong style="color:var(--sage-dark); display:block;">RuTube Playlist</strong>
                         <small style="color:var(--ink-soft);">Видеоуроки и Спряжение Глаголов</small>
@@ -502,7 +533,7 @@
     </main>
 
     <!-- Toast message for copy link -->
-    <div id="share-toast" class="share-toast">✅ Direct practice link copied to clipboard!</div>
+    <div id="share-toast" class="share-toast" role="status" aria-live="polite" aria-atomic="true"></div>
 
     <script>
         let currentLang = 'en';
@@ -517,6 +548,63 @@
         let drillScore = 0;
 
         const activeLanguages = (window.COSY_LANGUAGES || []).filter(l => l.status === 'active');
+
+        // Strings for the practice area and setup descriptions.
+        // Languages without an entry fall back to English and are marked lang="en"
+        // so screen readers pronounce them correctly.
+        const EXTRA_UI = {
+            en: { badge:"TOP 10 VERBS", qOf:"Question {n} of {total}", definition:"Definition:", perfect:"Perfect!", incorrect:"Incorrect. Expected:", done:"Session completed!", score:"Score: {pts} pts ({pct}% accuracy)", again:"Practice again", changeSettings:"Change settings", phVerb:"Type form…", phPronoun:"Type pronoun…", lblAnswer:"Your answer", tagPronoun:"Type pronoun", selectOne:"Please select at least one verb to practise.", noQuestions:"No questions could be generated for these settings. Please change the setup.", loadError:"Could not load the verb data. Check your connection and reload the page.", titleSuffix:"Top verbs practice", qDescGeneric:"Question forms", qDescFr:"Questions (excluding “je”)", insertChar:"Insert {c}", magSub:"Top 10 verbs guide",
+                  descBoth:"Singular + Plural", descPositive:"Standard affirmative", descNegative:"Negative forms", descMixed:"Random combination", descTVerb:"Fill in conjugated verb", descTPron:"Fill in pronoun", descTMixed:"Random verb & pronoun", descDrill:"1 form per question", descTable:"Complete table rounds" },
+            fr: { badge:"10 VERBES CLÉS", qOf:"Question {n} sur {total}", definition:"Définition :", perfect:"Parfait !", incorrect:"Incorrect. Réponse attendue :", done:"Session terminée !", score:"Score : {pts} pts ({pct} % de réussite)", again:"Recommencer", changeSettings:"Modifier les réglages", phVerb:"Saisissez la forme…", phPronoun:"Saisissez le pronom…", lblAnswer:"Votre réponse", tagPronoun:"Saisir le pronom", selectOne:"Veuillez sélectionner au moins un verbe.", noQuestions:"Aucune question n'a pu être générée avec ces réglages. Modifiez la configuration.", loadError:"Impossible de charger les données des verbes. Vérifiez votre connexion et rechargez la page.", titleSuffix:"Pratique des verbes", qDescGeneric:"Formes interrogatives", qDescFr:"Questions (sans « je »)", insertChar:"Insérer {c}", magSub:"Guide des 10 verbes",
+                  descBoth:"Singulier + pluriel", descPositive:"Phrases affirmatives", descNegative:"Formes négatives", descMixed:"Combinaison aléatoire", descTVerb:"Saisir le verbe conjugué", descTPron:"Saisir le pronom", descTMixed:"Verbe et pronom au hasard", descDrill:"1 forme par question", descTable:"Tableaux complets" },
+            es: { badge:"10 VERBOS CLAVE", qOf:"Pregunta {n} de {total}", definition:"Definición:", perfect:"¡Perfecto!", incorrect:"Incorrecto. Respuesta esperada:", done:"¡Sesión completada!", score:"Puntuación: {pts} pts ({pct} % de aciertos)", again:"Practicar de nuevo", changeSettings:"Cambiar ajustes", phVerb:"Escribe la forma…", phPronoun:"Escribe el pronombre…", lblAnswer:"Tu respuesta", tagPronoun:"Escribir pronombre", selectOne:"Selecciona al menos un verbo.", noQuestions:"No se pudieron generar preguntas con estos ajustes. Cambia la configuración.", loadError:"No se pudieron cargar los datos de los verbos. Comprueba tu conexión y recarga la página.", titleSuffix:"Práctica de verbos", qDescGeneric:"Formas interrogativas", qDescFr:"Preguntas", insertChar:"Insertar {c}", magSub:"Guía de los 10 verbos",
+                  descBoth:"Singular + plural", descPositive:"Afirmativas estándar", descNegative:"Formas negativas", descMixed:"Combinación aleatoria", descTVerb:"Escribe el verbo conjugado", descTPron:"Escribe el pronombre", descTMixed:"Verbo y pronombre al azar", descDrill:"1 forma por pregunta", descTable:"Rondas de tabla completa" },
+            it: { badge:"10 VERBI CHIAVE", qOf:"Domanda {n} di {total}", definition:"Definizione:", perfect:"Perfetto!", incorrect:"Errato. Risposta attesa:", done:"Sessione completata!", score:"Punteggio: {pts} pt ({pct}% di precisione)", again:"Esercitati di nuovo", changeSettings:"Cambia impostazioni", phVerb:"Scrivi la forma…", phPronoun:"Scrivi il pronome…", lblAnswer:"La tua risposta", tagPronoun:"Scrivi il pronome", selectOne:"Seleziona almeno un verbo.", noQuestions:"Impossibile generare domande con queste impostazioni. Modifica la configurazione.", loadError:"Impossibile caricare i dati dei verbi. Controlla la connessione e ricarica la pagina.", titleSuffix:"Pratica dei verbi", qDescGeneric:"Forme interrogative", qDescFr:"Domande", insertChar:"Inserisci {c}", magSub:"Guida ai 10 verbi",
+                  descBoth:"Singolare + plurale", descPositive:"Affermative standard", descNegative:"Forme negative", descMixed:"Combinazione casuale", descTVerb:"Scrivi il verbo coniugato", descTPron:"Scrivi il pronome", descTMixed:"Verbo e pronome casuali", descDrill:"1 forma per domanda", descTable:"Tabelle complete" },
+            de: { badge:"10 WICHTIGSTE VERBEN", qOf:"Frage {n} von {total}", definition:"Definition:", perfect:"Perfekt!", incorrect:"Falsch. Erwartet:", done:"Sitzung abgeschlossen!", score:"Punkte: {pts} ({pct} % richtig)", again:"Nochmal üben", changeSettings:"Einstellungen ändern", phVerb:"Form eingeben…", phPronoun:"Pronomen eingeben…", lblAnswer:"Ihre Antwort", tagPronoun:"Pronomen eingeben", selectOne:"Bitte wählen Sie mindestens ein Verb aus.", noQuestions:"Mit diesen Einstellungen konnten keine Fragen erstellt werden. Bitte ändern Sie die Einstellungen.", loadError:"Die Verbdaten konnten nicht geladen werden. Prüfen Sie Ihre Verbindung und laden Sie die Seite neu.", titleSuffix:"Verbenübung", qDescGeneric:"Frageformen", qDescFr:"Fragen", insertChar:"{c} einfügen", magSub:"Leitfaden zu den 10 Verben",
+                  descBoth:"Singular + Plural", descPositive:"Normale Aussagesätze", descNegative:"Verneinte Formen", descMixed:"Zufällige Kombination", descTVerb:"Konjugiertes Verb eingeben", descTPron:"Pronomen eingeben", descTMixed:"Zufällig Verb und Pronomen", descDrill:"1 Form pro Frage", descTable:"Komplette Tabellenrunden" },
+            pt: { badge:"10 VERBOS PRINCIPAIS", qOf:"Pergunta {n} de {total}", definition:"Definição:", perfect:"Perfeito!", incorrect:"Incorreto. Resposta esperada:", done:"Sessão concluída!", score:"Pontuação: {pts} pts ({pct}% de acertos)", again:"Praticar novamente", changeSettings:"Alterar configurações", phVerb:"Digite a forma…", phPronoun:"Digite o pronome…", lblAnswer:"A sua resposta", tagPronoun:"Digitar pronome", selectOne:"Selecione pelo menos um verbo.", noQuestions:"Não foi possível gerar perguntas com estas configurações. Altere a configuração.", loadError:"Não foi possível carregar os dados dos verbos. Verifique a ligação e recarregue a página.", titleSuffix:"Prática de verbos", qDescGeneric:"Formas interrogativas", qDescFr:"Perguntas", insertChar:"Inserir {c}", magSub:"Guia dos 10 verbos",
+                  descBoth:"Singular + plural", descPositive:"Afirmativas padrão", descNegative:"Formas negativas", descMixed:"Combinação aleatória", descTVerb:"Digite o verbo conjugado", descTPron:"Digite o pronome", descTMixed:"Verbo e pronome aleatórios", descDrill:"1 forma por pergunta", descTable:"Rondas de tabela completa" },
+            ru: { badge:"10 ГЛАВНЫХ ГЛАГОЛОВ", qOf:"Вопрос {n} из {total}", definition:"Определение:", perfect:"Отлично!", incorrect:"Неверно. Ожидалось:", done:"Сессия завершена!", score:"Баллы: {pts} ({pct}% верных)", again:"Повторить", changeSettings:"Изменить настройки", phVerb:"Введите форму…", phPronoun:"Введите местоимение…", lblAnswer:"Ваш ответ", tagPronoun:"Введите местоимение", selectOne:"Выберите хотя бы один глагол.", noQuestions:"Не удалось создать вопросы с этими настройками. Измените настройки.", loadError:"Не удалось загрузить данные глаголов. Проверьте соединение и перезагрузите страницу.", titleSuffix:"Практика глаголов", qDescGeneric:"Вопросительные формы", qDescFr:"Вопросы", insertChar:"Вставить {c}", magSub:"Руководство по 10 глаголам",
+                  descBoth:"Единственное + множественное число", descPositive:"Обычные утвердительные", descNegative:"Отрицательные формы", descMixed:"Случайное сочетание", descTVerb:"Вводить спряжённый глагол", descTPron:"Вводить местоимение", descTMixed:"Случайно глагол и местоимение", descDrill:"1 форма за вопрос", descTable:"Полные таблицы" },
+            el: { badge:"10 ΒΑΣΙΚΑ ΡΗΜΑΤΑ", qOf:"Ερώτηση {n} από {total}", definition:"Ορισμός:", perfect:"Τέλεια!", incorrect:"Λάθος. Αναμενόμενο:", done:"Η συνεδρία ολοκληρώθηκε!", score:"Βαθμοί: {pts} ({pct}% ακρίβεια)", again:"Εξάσκηση ξανά", changeSettings:"Αλλαγή ρυθμίσεων", phVerb:"Πληκτρολογήστε τον τύπο…", phPronoun:"Πληκτρολογήστε την αντωνυμία…", lblAnswer:"Η απάντησή σας", tagPronoun:"Πληκτρολογήστε την αντωνυμία", selectOne:"Επιλέξτε τουλάχιστον ένα ρήμα.", noQuestions:"Δεν ήταν δυνατή η δημιουργία ερωτήσεων με αυτές τις ρυθμίσεις. Αλλάξτε τη ρύθμιση.", loadError:"Δεν ήταν δυνατή η φόρτωση των δεδομένων ρημάτων. Ελέγξτε τη σύνδεση και φορτώστε ξανά τη σελίδα.", titleSuffix:"Εξάσκηση ρημάτων", qDescGeneric:"Ερωτηματικοί τύποι", qDescFr:"Ερωτήσεις", insertChar:"Εισαγωγή {c}", magSub:"Οδηγός 10 ρημάτων",
+                  descBoth:"Ενικός + πληθυντικός", descPositive:"Κανονικές καταφατικές", descNegative:"Αρνητικές μορφές", descMixed:"Τυχαίος συνδυασμός", descTVerb:"Πληκτρολόγηση ρήματος", descTPron:"Πληκτρολόγηση αντωνυμίας", descTMixed:"Τυχαίο ρήμα και αντωνυμία", descDrill:"1 τύπος ανά ερώτηση", descTable:"Πλήρεις πίνακες" }
+        };
+        const DESC_IDS = { 'person-desc-both':'descBoth', 'pol-desc-positive':'descPositive', 'pol-desc-negative':'descNegative', 'pol-desc-mixed':'descMixed', 'target-desc-verb':'descTVerb', 'target-desc-pronoun':'descTPron', 'target-desc-mixed':'descTMixed', 'mode-desc-drill':'descDrill', 'mode-desc-table':'descTable' };
+
+        function escHtml(v) {
+            return String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        }
+        // Returns { text, lang } for a key in the current language (English fallback).
+        function uiString(key, vars) {
+            const own = EXTRA_UI[currentLang];
+            const hasOwn = !!(own && own[key]);
+            let text = hasOwn ? own[key] : EXTRA_UI.en[key];
+            if (vars) Object.keys(vars).forEach(k => { text = text.split('{' + k + '}').join(vars[k]); });
+            return { text, lang: hasOwn ? currentLang : 'en' };
+        }
+        function tPlain(key, vars) { return uiString(key, vars).text; }
+        // HTML-safe string; wrapped in lang="en" when it fell back to English.
+        function tHtml(key, vars) {
+            const r = uiString(key, vars);
+            return (r.lang === currentLang) ? escHtml(r.text) : `<span lang="en">${escHtml(r.text)}</span>`;
+        }
+        function stripLeadingEmoji(txt) {
+            return String(txt).replace(/^[\p{Extended_Pictographic}\uFE0F\u200D\s]+/u, '').trim();
+        }
+        function showSetupMessage(msg) {
+            const box = document.getElementById('setup-message');
+            if (!box) return;
+            if (!msg) { box.hidden = true; box.textContent = ''; return; }
+            box.hidden = false;
+            box.textContent = '';
+            // re-insert so the alert is announced even if the text is unchanged
+            setTimeout(() => { box.textContent = msg; }, 30);
+        }
+        function setCardState(card, on) {
+            card.classList.toggle('active', on);
+            card.setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
 
         // Monolingual UI Labels Map for all 14 languages
         const MONOLINGUAL_UI = {
@@ -665,7 +753,7 @@
                 targetVerb: "✍️ Verb eingeben",
                 targetPronoun: "👤 Pronomen eingeben",
                 targetMixed: "🔀 Gemischt",
-                modeDrill: "⚡ Einzeleinzelfrage",
+                modeDrill: "⚡ Einzelform-Übung",
                 modeTable: "📋 Vollständige Konjugationstabelle",
                 launch: "🚀 Verben-Sitzung starten",
                 copyLink: "🔗 Direkten Link für YouTube / Podcast kopieren",
@@ -828,7 +916,7 @@
                 checkBtn: "შეამოწმე ➔",
                 continueBtn: "გაგრძელება ➔",
                 modifyBtn: "⚙️ პარამეტრების შეცვლა",
-                toastMsg: "✅ ბმული скопирована!"
+                toastMsg: "✅ ბმული დაკოპირებულია!"
             },
             tt: {
                 heroTitle: "🔥 10 төп фигыль практики (14 тел)",
@@ -960,6 +1048,7 @@
             renderLangPills();
             parseQueryParams();
             applyMonolingualUI(currentLang);
+            updateMagazineLink(currentLang);
             loadLanguageData(currentLang);
         }
 
@@ -1007,8 +1096,8 @@
             if (!container) return;
 
             container.innerHTML = activeLanguages.map(l => `
-                <button type="button" class="lang-pill ${l.code === currentLang ? 'active' : ''}" id="lang-pill-${l.code}" onclick="switchLanguage('${l.code}')">
-                    <span>${l.flag}</span> <span>${l.native || l.name}</span>
+                <button type="button" class="lang-pill ${l.code === currentLang ? 'active' : ''}" id="lang-pill-${l.code}" aria-pressed="${l.code === currentLang ? 'true' : 'false'}" onclick="switchLanguage('${l.code}')">
+                    <span aria-hidden="true">${l.flag}</span> <span lang="${l.code}">${escHtml(l.native || l.name)}</span>
                 </button>
             `).join('');
         }
@@ -1017,8 +1106,8 @@
             activeLanguages.forEach(l => {
                 const el = document.getElementById(`lang-pill-${l.code}`);
                 if (el) {
-                    if (l.code === currentLang) el.classList.add('active');
-                    else el.classList.remove('active');
+                    el.classList.toggle('active', l.code === currentLang);
+                    el.setAttribute('aria-pressed', l.code === currentLang ? 'true' : 'false');
                 }
             });
         }
@@ -1033,10 +1122,23 @@
 
         function applyMonolingualUI(langCode) {
             const ui = MONOLINGUAL_UI[langCode] || MONOLINGUAL_UI.en;
+            document.documentElement.lang = MONOLINGUAL_UI[langCode] ? langCode : 'en';
 
+            // Leading emoji are decorative: keep them visually, hide them from screen readers.
             const setTxt = (id, txt) => {
                 const el = document.getElementById(id);
-                if (el && txt) el.innerText = txt;
+                if (!el || !txt) return;
+                const m = txt.match(/^([\p{Extended_Pictographic}\uFE0F\u200D]+)\s+([\s\S]+)$/u);
+                el.textContent = '';
+                if (m) {
+                    const ic = document.createElement('span');
+                    ic.setAttribute('aria-hidden', 'true');
+                    ic.textContent = m[1] + ' ';
+                    el.appendChild(ic);
+                    el.appendChild(document.createTextNode(m[2]));
+                } else {
+                    el.textContent = txt;
+                }
             };
 
             setTxt('hero-title', ui.heroTitle);
@@ -1063,7 +1165,23 @@
             setTxt('lbl-mode-table', ui.modeTable);
             setTxt('btn-launch', ui.launch);
             setTxt('btn-copy-link', ui.copyLink);
-            setTxt('share-toast', ui.toastMsg);
+
+            // Descriptions under each option card
+            Object.keys(DESC_IDS).forEach(id => {
+                const el = document.getElementById(id);
+                if (!el) return;
+                const r = uiString(DESC_IDS[id]);
+                el.textContent = r.text;
+                if (r.lang === document.documentElement.lang) el.removeAttribute('lang'); else el.setAttribute('lang', r.lang);
+            });
+            // The "je" exclusion only exists in French
+            const qd = document.getElementById('pol-desc-question');
+            if (qd) {
+                const r = uiString(langCode === 'fr' ? 'qDescFr' : 'qDescGeneric');
+                qd.textContent = r.text;
+                if (r.lang === document.documentElement.lang) qd.removeAttribute('lang'); else qd.setAttribute('lang', r.lang);
+            }
+            updatePersonLabels(langCode);
         }
 
         function updateMagazineLink(langCode) {
@@ -1071,9 +1189,13 @@
             const sub = document.getElementById('magazine-article-sub');
             if (!link) return;
 
-            const targetUrl = `https://cosylanguages.github.io/COSYmagazine/top-10-verbs-${langCode}.html`;
-            link.href = targetUrl;
-            if (sub) sub.innerText = `Top 10 Verbs Guide for ${langCode.toUpperCase()}`;
+            link.href = `https://cosylanguages.github.io/COSYmagazine/top-10-verbs-${langCode}.html`;
+            if (sub) {
+                const langObj = activeLanguages.find(l => l.code === langCode);
+                const r = uiString('magSub');
+                sub.textContent = `${r.text}${langObj ? ' – ' + (langObj.native || langObj.name) : ''}`;
+                if (r.lang === document.documentElement.lang) sub.removeAttribute('lang'); else sub.setAttribute('lang', r.lang);
+            }
         }
 
         function loadLanguageData(langCode) {
@@ -1082,9 +1204,14 @@
 
             const dataUrl = `../../${cfg.toolPath}data/verbs.json`;
             fetch(dataUrl)
-                .then(res => res.json())
+                .then(res => {
+                    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                    return res.json();
+                })
                 .then(dbMap => {
+                    if (langCode !== currentLang) return; // user switched language meanwhile
                     currentDbMap = dbMap;
+                    showSetupMessage('');
                     renderVerbsChecklist(langCode, dbMap);
 
                     const params = new URLSearchParams(window.location.search);
@@ -1094,6 +1221,10 @@
                 })
                 .catch(err => {
                     console.error('Failed to load verb data:', err);
+                    if (langCode !== currentLang) return;
+                    const grid = document.getElementById('verbs-checklist-grid');
+                    if (grid) grid.textContent = '';
+                    showSetupMessage(tPlain('loadError'));
                 });
         }
 
@@ -1120,9 +1251,9 @@
 
                 return `
                     <label class="top-verb-checkbox-label">
-                        <input type="checkbox" class="verb-cb" value="${lemma}" ${isChecked ? 'checked' : ''}>
-                        <strong>${lemma}</strong>
-                        ${def ? `<small style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${def})</small>` : ''}
+                        <input type="checkbox" class="verb-cb" value="${escHtml(lemma)}" ${isChecked ? 'checked' : ''}>
+                        <strong>${escHtml(lemma)}</strong>
+                        ${def ? `<small title="${escHtml(def)}" style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${escHtml(def)})</small>` : ''}
                     </label>
                 `;
             }).join('');
@@ -1153,8 +1284,7 @@
             ['both', 'singular', 'plural'].forEach(type => {
                 const card = document.getElementById(`person-card-${type}`);
                 if (card) {
-                    if (type === currentPersonFilter) card.classList.add('active');
-                    else card.classList.remove('active');
+                    setCardState(card, type === currentPersonFilter);
                 }
             });
         }
@@ -1168,8 +1298,7 @@
             ['positive', 'negative', 'question', 'mixed'].forEach(p => {
                 const card = document.getElementById(`polarity-card-${p}`);
                 if (card) {
-                    if (p === currentPolarityFilter) card.classList.add('active');
-                    else card.classList.remove('active');
+                    setCardState(card, p === currentPolarityFilter);
                 }
             });
         }
@@ -1183,8 +1312,7 @@
             ['verb', 'pronoun', 'mixed'].forEach(t => {
                 const card = document.getElementById(`target-card-${t}`);
                 if (card) {
-                    if (t === currentTargetMode) card.classList.add('active');
-                    else card.classList.remove('active');
+                    setCardState(card, t === currentTargetMode);
                 }
             });
         }
@@ -1194,8 +1322,9 @@
             const sgDesc = document.getElementById('person-desc-singular');
             const plDesc = document.getElementById('person-desc-plural');
 
-            if (sgDesc) sgDesc.innerText = pMap.singular ? pMap.singular.join(', ') : 'Singular forms';
-            if (plDesc) plDesc.innerText = pMap.plural ? pMap.plural.join(', ') : 'Plural forms';
+            const own = !!COSYTopVerbs.PRONOUN_MAP[langCode];
+            if (sgDesc) { sgDesc.textContent = pMap.singular ? pMap.singular.join(', ') : 'Singular forms'; sgDesc.setAttribute('lang', own ? langCode : 'en'); }
+            if (plDesc) { plDesc.textContent = pMap.plural ? pMap.plural.join(', ') : 'Plural forms'; plDesc.setAttribute('lang', own ? langCode : 'en'); }
         }
 
         function setPracticeMode(mode) {
@@ -1207,8 +1336,7 @@
             ['drill', 'table'].forEach(m => {
                 const card = document.getElementById(`mode-card-${m}`);
                 if (card) {
-                    if (m === currentPracticeMode) card.classList.add('active');
-                    else card.classList.remove('active');
+                    setCardState(card, m === currentPracticeMode);
                 }
             });
         }
@@ -1216,38 +1344,61 @@
         function showSetupCard() {
             document.getElementById('setup-card').style.display = 'block';
             document.getElementById('practice-card').style.display = 'none';
+            const sc = document.getElementById('setup-card');
+            if (sc) sc.focus();
         }
 
         function startCustomPractice() {
             const selectedVerbs = getSelectedVerbs();
             if (selectedVerbs.length === 0) {
-                alert('Please select at least one verb to practise!');
+                showSetupMessage(tPlain('selectOne'));
+                const first = document.querySelector('.verb-cb');
+                if (first) first.focus();
                 return;
             }
+            showSetupMessage('');
 
             document.getElementById('setup-card').style.display = 'none';
-            document.getElementById('practice-card').style.display = 'block';
+            const pc = document.getElementById('practice-card');
+            pc.style.display = 'block';
 
+            const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;
             const langObj = activeLanguages.find(l => l.code === currentLang) || activeLanguages[0];
-            document.getElementById('practice-lang-flag').innerText = langObj.flag;
-            document.getElementById('practice-title-text').innerText = `${langObj.name} Top Verbs Practice (${currentPersonFilter.toUpperCase()} · ${currentPolarityFilter.toUpperCase()})`;
+            const personLbl = { both: ui.personBoth, singular: ui.personSingular, plural: ui.personPlural }[currentPersonFilter];
+            const polLbl = { positive: ui.polPositive, negative: ui.polNegative, question: ui.polQuestion, mixed: ui.polMixed }[currentPolarityFilter];
+            document.getElementById('practice-lang-flag').textContent = langObj.flag;
+            const titleEl = document.getElementById('practice-title-text');
+            titleEl.textContent = `${langObj.native || langObj.name} – ${tPlain('titleSuffix')} (${stripLeadingEmoji(personLbl)} · ${stripLeadingEmoji(polLbl)})`;
+            titleEl.lang = (uiString('titleSuffix').lang === currentLang) ? currentLang : 'en';
 
             if (currentPracticeMode === 'table') {
                 launchTablePractice(selectedVerbs);
             } else {
                 launchSingleDrillsPractice(selectedVerbs);
             }
+            // Land focus on the first question's input if there is one, otherwise on the card
+            if (!pc.contains(document.activeElement)) pc.focus();
         }
 
         /* ── SINGLE FORM DRILL ENGINE ── */
         function launchSingleDrillsPractice(selectedVerbs) {
             drillQueue = COSYTopVerbs.generateSingleDrills(currentLang, currentDbMap, currentPersonFilter, selectedVerbs, currentPolarityFilter, currentTargetMode);
 
-            // Shuffle drill items
-            drillQueue.sort(() => Math.random() - 0.5);
+            // Fisher–Yates shuffle (unbiased)
+            for (let i = drillQueue.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [drillQueue[i], drillQueue[j]] = [drillQueue[j], drillQueue[i]];
+            }
             drillIdx = 0;
             drillScore = 0;
 
+            if (drillQueue.length === 0) {
+                const container = document.getElementById('practice-card-content');
+                if (container) {
+                    container.innerHTML = `<p role="alert" style="text-align:center; font-weight:700; color:#991b1b;">${tHtml('noQuestions')}</p>`;
+                }
+                return;
+            }
             renderSingleDrillItem();
         }
 
@@ -1262,48 +1413,55 @@
 
             const current = drillQueue[drillIdx];
             const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;
+            const stripArrow = txt => escHtml(String(txt).replace(/\s*➔\s*/, ''));
+            const isPronoun = current.targetMode === 'pronoun';
 
             const accentBtnsHtml = (current.accents || []).map(acc => `
-                <button type="button" class="accent-btn" onclick="insertAccentChar('${acc}')">${acc}</button>
+                <button type="button" class="accent-btn" data-char="${escHtml(acc)}" aria-label="${escHtml(tPlain('insertChar', { c: acc }))}" onclick="insertAccentChar(this.dataset.char)">${escHtml(acc)}</button>
             `).join('');
 
             container.innerHTML = `
-                <div class="question-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                <div class="question-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem;">
                     <div>
-                        <span class="badge type-badge" style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px;">TOP 10 VERBS</span>
-                        <span style="font-weight:700; color:var(--sage-dark); margin-left:0.5rem;">${current.lemma}</span>
-                        <span style="background:#fef3c7; color:#92400e; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.85rem; margin-left:0.4rem;">${current.symbol || '➕'}</span>
-                        ${current.polarity ? `<span style="background:#e0f2fe; color:#0369a1; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.8rem; margin-left:0.4rem;">${current.polarity.toUpperCase()}</span>` : ''}
+                        <span class="badge type-badge" style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px;">${tHtml('badge')}</span>
+                        <span style="font-weight:700; color:var(--sage-dark); margin-left:0.5rem;" lang="${escHtml(currentLang)}">${escHtml(current.lemma)}</span>
+                        <span aria-hidden="true" style="background:#fef3c7; color:#92400e; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.85rem; margin-left:0.4rem;">${escHtml(current.symbol || '➕')}</span>
+                        ${current.polarity ? `<span style="background:#e0f2fe; color:#0369a1; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.8rem; margin-left:0.4rem;">${escHtml(current.polarity.toUpperCase())}</span>` : ''}
                     </div>
-                    <span style="color:var(--ink-soft); font-weight:600;">Question ${drillIdx + 1} of ${drillQueue.length}</span>
+                    <span style="color:var(--ink-soft); font-weight:600;">${tHtml('qOf', { n: drillIdx + 1, total: drillQueue.length })}</span>
                 </div>
 
-                ${current.mnemonic ? `<div class="mnemonic-banner">${current.mnemonic}</div>` : ''}
+                ${current.mnemonic ? `<div class="mnemonic-banner">${escHtml(current.mnemonic)}</div>` : ''}
 
                 <div class="blank-prompt" style="text-align:center; margin-bottom:1.5rem;">
-                    <span class="prompt-badge blank-badge" style="background:var(--sage-mist); color:var(--sage-dark); padding:3px 12px; border-radius:12px; font-weight:700;">${current.targetMode === 'pronoun' ? '👤 Type Pronoun' : (ui.conjugateTag || "✍️ Conjugate Present Form")}</span>
-                    <h2 style="font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.8rem; margin:0.75rem 0 0.25rem 0;">"${current.prompt}"</h2>
-                    ${current.definition ? `<p style="color:var(--ink-soft); margin:0; font-style:italic;">Definition: ${current.definition}</p>` : ''}
+                    <span class="prompt-badge blank-badge" style="background:var(--sage-mist); color:var(--sage-dark); padding:3px 12px; border-radius:12px; font-weight:700;">${isPronoun ? tHtml('tagPronoun') : escHtml(ui.conjugateTag || 'Conjugate present form')}</span>
+                    <h2 id="drill-prompt" lang="${escHtml(currentLang)}" style="font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.8rem; margin:0.75rem 0 0.25rem 0;">“${escHtml(current.prompt)}”</h2>
+                    ${current.definition ? `<p style="color:var(--ink-soft); margin:0; font-style:italic;">${tHtml('definition')} ${escHtml(current.definition)}</p>` : ''}
                 </div>
 
                 <div style="max-width:500px; margin:0 auto;">
+                    <label for="drill-single-input" class="sr-only">${tHtml('lblAnswer')}</label>
                     <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
-                        <input type="text" id="drill-single-input" class="sprint-input-group" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem; outline:none;" placeholder="${current.targetMode === 'pronoun' ? 'Type pronoun...' : 'Type form...'}" autocomplete="off" autofocus onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
-                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:#fff;" onclick="checkSingleDrillAnswer()">${ui.checkBtn || "Check ➔"}</button>
+                        <input type="text" id="drill-single-input" class="sprint-input-group" lang="${escHtml(currentLang)}" aria-describedby="drill-prompt" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem;" placeholder="${escHtml(tPlain(isPronoun ? 'phPronoun' : 'phVerb'))}" autocomplete="off" autocapitalize="off" spellcheck="false" onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:#fff;" onclick="checkSingleDrillAnswer()">${stripArrow(ui.checkBtn || 'Check')} <span aria-hidden="true">➔</span></button>
                     </div>
 
-                    ${accentBtnsHtml ? `<div class="accent-bar">${accentBtnsHtml}</div>` : ''}
+                    ${accentBtnsHtml ? `<div class="accent-bar" role="group" aria-label="${escHtml(tPlain('insertChar', { c: '' }).trim())}">${accentBtnsHtml}</div>` : ''}
 
-                    <div id="single-drill-feedback" style="display:none; margin-top:1rem; padding:0.8rem 1rem; border-radius:10px; font-weight:700; text-align:center;"></div>
-                    <button id="single-drill-next-btn" class="ref-btn" style="display:none; margin:1rem auto 0 auto;" onclick="nextSingleDrillItem()">${ui.continueBtn || "Continue ➔"}</button>
+                    <div id="single-drill-feedback" role="status" aria-live="polite" style="display:none; margin-top:1rem; padding:0.8rem 1rem; border-radius:10px; font-weight:700; text-align:center;"></div>
+                    <button type="button" id="single-drill-next-btn" class="ref-btn" style="display:none; margin:1rem auto 0 auto;" onclick="nextSingleDrillItem()">${stripArrow(ui.continueBtn || 'Continue')} <span aria-hidden="true">➔</span></button>
                 </div>
             `;
+            const input = document.getElementById('drill-single-input');
+            if (input) input.focus();
         }
 
         function insertAccentChar(char) {
             const input = document.getElementById('drill-single-input');
-            if (!input) return;
-            input.value += char;
+            if (!input || input.disabled) return;
+            const start = input.selectionStart ?? input.value.length;
+            const end = input.selectionEnd ?? input.value.length;
+            input.setRangeText(char, start, end, 'end');
             input.focus();
         }
 
@@ -1320,18 +1478,20 @@
             const nextBtn = document.getElementById('single-drill-next-btn');
 
             input.disabled = true;
+            input.setAttribute('aria-invalid', isCorrect ? 'false' : 'true');
             fb.style.display = 'block';
+            const exp = `<strong lang="${escHtml(currentLang)}">${escHtml(current.expected)}</strong>`;
 
             if (isCorrect) {
                 drillScore += 10;
                 fb.style.background = '#dcfce7';
                 fb.style.color = '#166534';
-                fb.innerHTML = `✅ Perfect! <strong>${current.expected}</strong>`;
+                fb.innerHTML = `<span aria-hidden="true">✅</span> ${tHtml('perfect')} ${exp}`;
                 COSYReferenceUtils.removeWeakSpot(current.id, currentLang);
             } else {
                 fb.style.background = '#fee2e2';
                 fb.style.color = '#991b1b';
-                fb.innerHTML = `❌ Incorrect. Expected: <strong>${current.expected}</strong>`;
+                fb.innerHTML = `<span aria-hidden="true">❌</span> ${tHtml('incorrect')} ${exp}`;
 
                 COSYReferenceUtils.recordWeakSpot({
                     id: current.id,
@@ -1342,7 +1502,10 @@
                 });
             }
 
-            if (nextBtn) nextBtn.style.display = 'block';
+            if (nextBtn) {
+                nextBtn.style.display = 'block';
+                nextBtn.focus();
+            }
         }
 
         function nextSingleDrillItem() {
@@ -1358,20 +1521,23 @@
             const engine = new PracticeEngine();
             engine.launchVictoryConfetti();
 
-            const pct = Math.round((drillScore / (drillQueue.length * 10)) * 100);
+            const total = drillQueue.length * 10;
+            const pct = total ? Math.round((drillScore / total) * 100) : 0;
 
             container.innerHTML = `
                 <div style="text-align:center; padding:1.5rem 1rem;">
-                    <span style="font-size:3rem;">🎉</span>
-                    <h2 style="font-family:var(--ref-font-serif); color:var(--sage-dark); margin:0.5rem 0;">Session Completed!</h2>
-                    <p style="color:var(--ink-soft); font-size:1.1rem; margin-bottom:1.5rem;">Score: <strong>${drillScore} pts</strong> (${pct}% accuracy)</p>
+                    <span style="font-size:3rem;" aria-hidden="true">🎉</span>
+                    <h2 id="session-done-title" tabindex="-1" style="font-family:var(--ref-font-serif); color:var(--sage-dark); margin:0.5rem 0;">${tHtml('done')}</h2>
+                    <p style="color:var(--ink-soft); font-size:1.1rem; margin-bottom:1.5rem;">${tHtml('score', { pts: drillScore, pct })}</p>
 
                     <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
-                        <button type="button" class="ref-btn" style="background:var(--sage-dark);" onclick="startCustomPractice()">🔁 Practice Again</button>
-                        <button type="button" class="ref-btn ref-btn-secondary" onclick="showSetupCard()">⚙️ Change Settings</button>
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark);" onclick="startCustomPractice()"><span aria-hidden="true">🔁</span> ${tHtml('again')}</button>
+                        <button type="button" class="ref-btn ref-btn-secondary" onclick="showSetupCard()"><span aria-hidden="true">⚙️</span> ${tHtml('changeSettings')}</button>
                     </div>
                 </div>
             `;
+            const h = document.getElementById('session-done-title');
+            if (h) h.focus();
         }
 
         /* ── TABLE PRACTICE ENGINE ── */
@@ -1391,18 +1557,27 @@
             window.appEngine = { practice: practiceRunner };
         }
 
+        function showToast(msg) {
+            const toast = document.getElementById('share-toast');
+            if (!toast) return;
+            toast.textContent = '';
+            // set the text after a tick so assistive tech announces it every time
+            setTimeout(() => {
+                toast.textContent = msg;
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2500);
+            }, 30);
+        }
+
         function copyShareableLink() {
             const selectedVerbs = getSelectedVerbs();
             const verbsParam = (selectedVerbs.length === COSYTopVerbs.getConfig(currentLang).lemmas.length) ? 'all' : selectedVerbs.join(',');
 
             const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&target=${currentTargetMode}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
+            const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
-                const toast = document.getElementById('share-toast');
-                if (toast) {
-                    toast.style.display = 'block';
-                    setTimeout(() => { toast.style.display = 'none'; }, 2500);
-                }
+                showToast(ui.toastMsg.replace(/^[^\p{L}\p{N}]+/u, ''));
             }).catch(err => {
                 prompt('Copy this practice link for your YouTube description or podcast notes:', shareUrl);
             });
