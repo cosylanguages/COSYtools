@@ -522,6 +522,8 @@
         // Monolingual UI Labels Map for all 14 languages
         const MONOLINGUAL_UI = {
             en: {
+                heroTitle: "🔥 Top 10 Core Verbs Practice (14 Languages)",
+                heroSubtext: "Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, target element, and generate shareable direct links!",
                 step1: "Select Language",
                 step2: "Select Verbs to Practise",
                 step3: "Select Person / Pronoun Group",
@@ -547,7 +549,39 @@
                 conjugateTag: "✍️ Conjugate Present Form",
                 checkBtn: "Check ➔",
                 continueBtn: "Continue ➔",
-                modifyBtn: "⚙️ Modify Setup"
+                modifyBtn: "⚙️ Modify Setup",
+                toastMsg: "✅ Direct practice link copied to clipboard!"
+            },
+            fr: {
+                heroTitle: "🔥 Pratique des 10 verbes principaux (14 langues)",
+                heroSubtext: "Maîtrisez la conjugaison au présent des verbes essentiels dans 14 langues. Personnalisez les formes de pronoms, les phrases affirmatives/négatives/interrogatives et créez des liens directes de partage !",
+                step1: "Choisir la langue",
+                step2: "Choisir les verbes à pratiquer",
+                step3: "Choisir le groupe de personnes",
+                step4: "Choisir la forme de phrase",
+                step5: "Élément à saisir",
+                step6: "Format d'exercice",
+                selectAll: "Tout sélectionner",
+                deselectAll: "Tout désélectionner",
+                personBoth: "👥 Toutes les personnes",
+                personSingular: "👤 Singulier (je, tu, il, elle, on)",
+                personPlural: "👥 Pluriel (nous, vous, ils, elles)",
+                polPositive: "➕ Affirmative",
+                polNegative: "➖ Négative",
+                polQuestion: "❓ Interrogative",
+                polMixed: "🔀 Mélangée",
+                targetVerb: "✍️ Taper le verbe",
+                targetPronoun: "👤 Taper le pronom",
+                targetMixed: "🔀 Mélangé",
+                modeDrill: "⚡ Exercice individuel",
+                modeTable: "📋 Tableau de conjugaison",
+                launch: "🚀 Démarrer la session de verbes",
+                copyLink: "🔗 Copier le lien direct pour YouTube / Podcast",
+                conjugateTag: "✍️ Conjuguez au présent",
+                checkBtn: "Vérifier ➔",
+                continueBtn: "Continuer ➔",
+                modifyBtn: "⚙️ Modifier la configuration",
+                toastMsg: "✅ Lien direct copié dans le presse-papier !"
             },
             fr: {
                 step1: "Choisir la langue",
@@ -998,6 +1032,8 @@
                 if (el && txt) el.innerText = txt;
             };
 
+            setTxt('hero-title', ui.heroTitle);
+            setTxt('hero-subtext', ui.heroSubtext);
             setTxt('lbl-step1', ui.step1);
             setTxt('lbl-step2', ui.step2);
             setTxt('lbl-step3', ui.step3);
@@ -1020,6 +1056,7 @@
             setTxt('lbl-mode-table', ui.modeTable);
             setTxt('btn-launch', ui.launch);
             setTxt('btn-copy-link', ui.copyLink);
+            setTxt('share-toast', ui.toastMsg);
         }
 
         function updateMagazineLink(langCode) {
@@ -1331,7 +1368,7 @@
 
         /* ── BEAUTIFUL HAND-CRAFTED TABLE PRACTICE ENGINE ── */
         function launchTablePractice(selectedVerbs) {
-            const pool = COSYTopVerbs.getTopVerbsPool(currentLang, currentDbMap, currentPersonFilter, selectedVerbs);
+            const pool = COSYTopVerbs.getTopVerbsPool(currentLang, currentDbMap, currentPersonFilter, selectedVerbs, currentPolarityFilter, currentTargetMode);
 
             const srs = new SpacedRepetitionStore(`cosy-top10-${currentLang}`);
             practiceRunner = new PracticeEngine({

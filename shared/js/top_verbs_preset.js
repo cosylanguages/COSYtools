@@ -299,7 +299,7 @@
         return entry || null;
     }
 
-    function getTopVerbsPool(lang, dbMap, personFilter = 'both', selectedLemmas = null) {
+    function getTopVerbsPool(lang, dbMap, personFilter = 'both', selectedLemmas = null, polarityFilter = 'positive', targetMode = 'verb') {
         const cfg = getConfig(lang);
         if (!cfg || !dbMap) return [];
         const pool = [];
@@ -308,66 +308,99 @@
             ? selectedLemmas
             : cfg.lemmas;
 
+        const pMap = PRONOUN_MAP[lang] || PRONOUN_MAP.en;
+        const prefixRegex = /^(je\s+|j'|tu\s+|il\/elle\/on\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|io\s+|lui\/lei\s+|noi\s+|voi\s+|loro\s+|я\s+|ты\s+|он\/она\/оно\s+|он\/она\s+|мы\s+|вы\s+|они\s+|εγώ\s+|εσύ\s+|αυτός\/αυτή\/αυτό\s+|εμείς\s+|εσείς\s+|αυτοί\/αυτές\/αυτά\s+|eu\s+|ele\/ela\s+|nós\s+|vós\s+|eles\/elas\s+|ich\s+|du\s+|er\/sie\/es\s+|wir\s+|ihr\s+|sie\/Sie\s+|yo\s+|tú\s+|él\/ella\/usted\s+|nosotros\s+|vosotros\s+|ellos\/ellas\/ustedes\s+|мин\s+|син\s+|ол\/ул\s+|без\s+|сез\s+|алар\s+|беҙ\s+|һеҙ\s+|улар\s+|эпĕ\s+|эсĕ\s+|вăл\s+|эпир\s+|эсир\s+|вĕсем\s+|me\s+|te\s+|eñ\/hi\s+|ni\s+|c'hwi\s+|i\s+|ես\s+|դու\s+|նա\s+|մենք\s+|դուք\s+|նրանք\s+|მე\s+|შენ\s+|ის\s+|ჩვენ\s+|თქვენ\s+|ისინი\s+)/i;
+
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
             if (!entry) continue;
 
+            let baseForms = [];
             if (lang === 'en') {
                 const formsObj = buildEnglishPresentObj(entry);
-                if (!formsObj) continue;
-
-                let rawForms = [
-                    `I ${formsObj['I'] || entry.base}`,
-                    `you ${formsObj['you'] || entry.base}`,
-                    `he/she/it ${formsObj['he/she/it'] || entry.base + 's'}`,
-                    `we ${formsObj['we'] || entry.base}`,
-                    `they ${formsObj['they'] || entry.base}`
-                ];
-
-                if (personFilter === 'singular') {
-                    rawForms = rawForms.slice(0, 3);
-                } else if (personFilter === 'plural') {
-                    rawForms = rawForms.slice(3, 5);
+                if (formsObj) {
+                    baseForms = [
+                        formsObj['I'] || entry.base,
+                        formsObj['you'] || entry.base,
+                        formsObj['he'] || formsObj['she'] || formsObj['it'] || (entry.base + 's'),
+                        formsObj['we'] || entry.base,
+                        formsObj['they'] || entry.base
+                    ];
                 }
-
-                pool.push({
-                    type: 'conjugate',
-                    key: `${lemma}:present_simple`,
-                    verbKey: lemma,
-                    tenseName: 'present_simple',
-                    entry: entry,
-                    data: entry,
-                    tenseForms: rawForms,
-                    progress: { masteryLevel: 1 },
-                    state: { masteryLevel: 1 },
-                    isDue: true,
-                    mastery: 1
-                });
-                continue;
+            } else {
+                const tenses = entry.tenses || entry.conjugations || {};
+                const presentKey = Object.keys(tenses).find(k =>
+                    k === 'indicatif_present' || k === 'pres' || k === 'presente' || k === 'present' || k === 'präsens' || k.includes('pres')
+                );
+                if (presentKey) baseForms = tenses[presentKey] || [];
             }
 
-            const tenses = entry.tenses || entry.conjugations || {};
-            const presentKey = Object.keys(tenses).find(k =>
-                k === 'indicatif_present' ||
-                k === 'pres' ||
-                k === 'presente' ||
-                k === 'present' ||
-                k === 'präsens' ||
-                k.includes('pres')
-            );
+            if (!baseForms || baseForms.length === 0) continue;
 
-            if (!presentKey) continue;
-            let forms = tenses[presentKey];
-            if (!forms || !Array.isArray(forms) || forms.length === 0) continue;
+            // Build pronoun indices for singular / plural filter
+            let pronounIndices = [];
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'singular') {
+                pMap.singular.forEach((pro, idx) => {
+                    pronounIndices.push({ pronoun: pro, formIdx: pMap.singularIndices[idx] || 0 });
+                });
+            }
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'plural') {
+                pMap.plural.forEach((pro, idx) => {
+                    pronounIndices.push({ pronoun: pro, formIdx: pMap.pluralIndices[idx] || 3 });
+                });
+            }
+
+            const activePol = (polarityFilter === 'mixed' || polarityFilter === 'all') ? 'positive' : polarityFilter;
+            const activeTarget = (targetMode === 'mixed') ? 'verb' : targetMode;
+
+            const tenseForms = pronounIndices.map(({ pronoun, formIdx }) => {
+                let rawForm = baseForms[formIdx] || '';
+                let cleanVerb = rawForm.replace(prefixRegex, '').trim();
+                if (!cleanVerb) cleanVerb = lemma;
+
+                if (activeTarget === 'pronoun') {
+                    if (activePol === 'negative' && lang === 'fr') {
+                        const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                        return `________ (${pronoun}) ${startsVowel ? "n'" : "ne "} ${cleanVerb} pas ➖`;
+                    }
+                    return `________ (${pronoun}) ${cleanVerb} ${POLARITY_SYMBOLS[activePol] || '➕'}`;
+                }
+
+                if (activePol === 'negative') {
+                    if (lang === 'fr') {
+                        const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                        return `${pronoun} ${startsVowel ? "n'" : "ne "}${cleanVerb} pas`;
+                    } else if (lang === 'es') {
+                        return `${pronoun} no ${cleanVerb}`;
+                    } else if (lang === 'it') {
+                        return `${pronoun} non ${cleanVerb}`;
+                    } else if (lang === 'de') {
+                        return `${pronoun} ${cleanVerb} nicht`;
+                    } else if (lang === 'en') {
+                        if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                            return `${pronoun} ${cleanVerb} not`;
+                        } else {
+                            const aux = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "doesn't" : "don't";
+                            const baseVerb = (entry && (entry.base || entry.lemma)) || lemma;
+                            return `${pronoun} ${aux} ${baseVerb}`;
+                        }
+                    }
+                } else if (activePol === 'question') {
+                    if (lang === 'fr') return `Est-ce que ${pronoun} ${cleanVerb} ❓`;
+                    if (lang === 'es') return `¿${pronoun} ${cleanVerb} ❓`;
+                }
+
+                return `${pronoun} ${cleanVerb}`;
+            });
 
             pool.push({
                 type: 'conjugate',
-                key: `${lemma}:${presentKey}`,
+                key: `${lemma}:top_verbs_table:${personFilter}:${activePol}:${activeTarget}`,
                 verbKey: lemma,
-                tenseName: presentKey,
+                tenseName: 'present_simple',
                 entry: entry,
                 data: entry,
-                tenseForms: forms,
+                tenseForms: tenseForms,
                 progress: { masteryLevel: 1 },
                 state: { masteryLevel: 1 },
                 isDue: true,

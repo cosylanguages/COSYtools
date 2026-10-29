@@ -73,12 +73,12 @@ body {
   font-family: var(--ref-font-serif);
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
-  color: #ffffff;
+  color: var(--ref-primary-dark, #234027);
 }
 
 .ref-hero p {
   font-size: 1.15rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--ref-text, #2c2523);
   max-width: 680px;
   margin: 0 auto 1.5rem auto;
 }
