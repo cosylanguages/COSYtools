@@ -59,6 +59,14 @@ async function load(query){
  d.querySelector('[onclick="showSetupCard()"]').click();
  d.getElementById('mode-card-table').click(); d.getElementById('btn-launch').click(); await sleep(300);
  ok(d.getElementById('practice-card-content').innerHTML.length>200,'table mode renders');
+ const firstConj=d.querySelector('.conj-input');
+ ok(!!firstConj && d.activeElement===firstConj,'table mode: first form input is focused');
+ ok(d.querySelectorAll('.conj-input').length>0 && [...d.querySelectorAll('.conj-input')].every(i=>d.querySelector('label[for="'+i.id+'"]')),'table mode: every input has a label');
+ ok(d.getElementById('practice-feedback-box').getAttribute('role')==='status','table mode: feedback box is a live region');
+ w.eval('appEngine.practice.checkConjugateAnswer()');
+ ok(d.activeElement===d.getElementById('practice-next-btn'),'table mode: focus moves to Continue after checking');
+ ok(/Incorrect|Correct/.test(d.querySelector('.conj-feedback-text').textContent),'table mode: row feedback has text for screen readers');
+ ok(w.eval(`cosyEsc("l'a\\"b")`)==="l&#39;a&quot;b",'engine escapes quotes/apostrophes in generated attributes');
  // none selected
  w.showSetupCard(); w.selectAllVerbs(false); d.getElementById('btn-launch').click(); await sleep(100);
  ok(!d.getElementById('setup-message').hidden && d.getElementById('setup-message').textContent.length>0,'no verb selected -> inline message (no alert)');
