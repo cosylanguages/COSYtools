@@ -27,36 +27,55 @@
     <script src="../../shared/js/top_verbs_preset.js"></script>
     <script src="../../shared/engines/practice-engine.js"></script>
     <style>
+        :root {
+            --paper-bg: #fcfaf7;
+            --paper-card-bg: #ffffff;
+            --paper-border: #d8cebe;
+            --paper-accent: #416b49;
+            --paper-ink: #2c2523;
+        }
+
+        body {
+            background: var(--paper-gradient, radial-gradient(circle, #fcfaf7 0%, #f4eee6 100%));
+            color: var(--paper-ink);
+            font-family: var(--font-sans, "Inter", -apple-system, BlinkMacSystemFont, sans-serif);
+        }
+
         .top-verbs-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 0.75rem;
             margin: 1rem 0;
             max-height: 280px;
             overflow-y: auto;
-            padding: 0.5rem;
-            border: 1px solid var(--ref-border, #d2c8be);
-            border-radius: 12px;
-            background: var(--ref-card-bg, #ffffff);
+            padding: 0.75rem;
+            border: 2px solid var(--paper-border);
+            border-radius: 14px;
+            background: #faf7f2;
+            box-shadow: inset 0 2px 6px rgba(0,0,0,0.03);
         }
         .top-verb-checkbox-label {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            padding: 0.4rem 0.6rem;
-            border-radius: 8px;
+            padding: 0.5rem 0.75rem;
+            border-radius: 10px;
             cursor: pointer;
-            background: var(--paper-light, #faf8f5);
-            border: 1px solid var(--ref-border, #e2d8ce);
+            background: #ffffff;
+            border: 1.5px solid var(--paper-border);
             font-size: 0.95rem;
-            transition: all 0.15s ease;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
         .top-verb-checkbox-label:hover {
-            background: rgba(65, 107, 73, 0.08);
-            border-color: var(--sage, #416b49);
+            background: #f0f7f1;
+            border-color: var(--paper-accent);
+            transform: translateY(-1px);
         }
         .top-verb-checkbox-label input {
             accent-color: var(--sage-dark, #234027);
+            width: 1.1rem;
+            height: 1.1rem;
         }
         .lang-pill-container {
             display: flex;
@@ -68,20 +87,23 @@
             display: inline-flex;
             align-items: center;
             gap: 0.4rem;
-            padding: 0.4rem 0.8rem;
+            padding: 0.45rem 0.9rem;
             border-radius: 20px;
-            border: 1.5px solid var(--ref-border, #d2c8be);
-            background: var(--paper-light, #ffffff);
-            color: var(--ink-dark, #2c2523);
+            border: 1.5px solid var(--paper-border);
+            background: #ffffff;
+            color: var(--paper-ink);
             font-weight: 600;
             font-size: 0.9rem;
             cursor: pointer;
             transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
         }
         .lang-pill:hover, .lang-pill.active {
             background: var(--sage-dark, #234027);
             color: #ffffff;
             border-color: var(--sage-dark, #234027);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(35,64,39,0.2);
         }
         .person-toggle-group, .mode-toggle-group, .polarity-toggle-group, .target-toggle-group {
             display: flex;
@@ -91,27 +113,30 @@
         }
         .person-radio-card {
             flex: 1;
-            min-width: 150px;
-            padding: 0.75rem 1rem;
-            border-radius: 12px;
-            border: 2px solid var(--ref-border, #d2c8be);
-            background: var(--paper-light, #ffffff);
+            min-width: 140px;
+            padding: 0.85rem 1rem;
+            border-radius: 14px;
+            border: 2px solid var(--paper-border);
+            background: #ffffff;
             cursor: pointer;
             transition: all 0.2s ease;
             text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
         }
         .person-radio-card:hover {
-            border-color: var(--sage, #416b49);
+            border-color: var(--paper-accent);
+            transform: translateY(-2px);
         }
         .person-radio-card.active {
             border-color: var(--sage-dark, #234027);
-            background: #f4fbf6;
-            box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7);
+            background: #f2f9f3;
+            box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7), 0 4px 12px rgba(35,64,39,0.08);
         }
         .person-radio-card h4 {
             margin: 0 0 0.2rem 0;
             color: var(--sage-dark, #234027);
             font-size: 1rem;
+            font-family: var(--font-serif, 'COSY Serif', Georgia, serif);
         }
         .person-radio-card p {
             margin: 0;
@@ -122,22 +147,24 @@
             display: flex;
             flex-wrap: wrap;
             gap: 0.4rem;
-            margin-top: 0.5rem;
+            margin-top: 0.75rem;
             justify-content: center;
         }
         .accent-btn {
-            padding: 0.35rem 0.65rem;
-            border-radius: 6px;
-            border: 1px solid var(--ref-border, #d2c8be);
-            background: var(--paper-light, #ffffff);
+            padding: 0.4rem 0.75rem;
+            border-radius: 8px;
+            border: 1.5px solid var(--paper-border);
+            background: #ffffff;
             font-weight: 700;
-            font-size: 1rem;
+            font-size: 1.05rem;
             cursor: pointer;
-            transition: background 0.15s ease;
+            transition: all 0.15s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
         .accent-btn:hover {
             background: var(--sage-mist, #dcfce7);
-            border-color: var(--sage, #416b49);
+            border-color: var(--paper-accent);
+            transform: translateY(-1px);
         }
         .share-toast {
             position: fixed;
@@ -145,53 +172,116 @@
             right: 2rem;
             background: var(--sage-dark, #234027);
             color: #ffffff;
-            padding: 0.75rem 1.25rem;
-            border-radius: 10px;
+            padding: 0.85rem 1.4rem;
+            border-radius: 12px;
             font-weight: 700;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
             display: none;
             z-index: 10000;
         }
         .mnemonic-banner {
             background: #fef3c7;
-            border: 1.5px solid #f59e0b;
+            border: 2px solid #f59e0b;
             color: #92400e;
-            padding: 0.6rem 1rem;
-            border-radius: 10px;
+            padding: 0.75rem 1.25rem;
+            border-radius: 12px;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             text-align: center;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
+            box-shadow: 0 2px 8px rgba(245,158,11,0.12);
         }
         .media-resources-box {
-            background: #fdfbf7;
-            border: 1.5px solid var(--ref-border, #d2c8be);
-            border-radius: 12px;
-            padding: 1.25rem;
-            margin-top: 2rem;
+            background: #faf6f0;
+            border: 2px solid var(--paper-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 2.5rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
         }
         .media-links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 1rem;
-            margin-top: 1rem;
+            gap: 1.25rem;
+            margin-top: 1.25rem;
         }
         .media-link-card {
             display: flex;
             align-items: center;
-            gap: 0.75rem;
-            padding: 0.85rem 1rem;
-            border-radius: 10px;
-            border: 1px solid var(--ref-border, #d2c8be);
+            gap: 0.85rem;
+            padding: 1rem 1.2rem;
+            border-radius: 12px;
+            border: 1.5px solid var(--paper-border);
             background: #ffffff;
             text-decoration: none;
             color: inherit;
             transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
         }
         .media-link-card:hover {
             border-color: var(--sage-dark, #234027);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(35,64,39,0.1);
+        }
+
+        /* Full Conjugation Table Aesthetics */
+        .table-round-card {
+            background: #ffffff;
+            border: 2px solid var(--paper-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+            margin-top: 1rem;
+        }
+        .table-grid-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin: 1.25rem 0;
+        }
+        .table-row-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.6rem 1rem;
+            border-radius: 12px;
+            border: 1.5px solid var(--paper-border);
+            background: #faf8f5;
+            transition: all 0.2s ease;
+        }
+        .table-row-item:focus-within {
+            border-color: var(--paper-accent);
+            background: #f4fbf6;
+            box-shadow: 0 0 0 2px rgba(65, 107, 73, 0.15);
+        }
+        .table-row-item.correct-row {
+            border-color: #48bb78;
+            background: #f0fff4;
+        }
+        .table-row-item.wrong-row {
+            border-color: #f56565;
+            background: #fff5f5;
+        }
+        .table-row-label {
+            min-width: 120px;
+            font-weight: 700;
+            color: var(--sage-dark, #234027);
+            font-size: 1rem;
+            text-align: right;
+            font-family: var(--font-serif, 'COSY Serif', Georgia, serif);
+        }
+        .table-row-input {
+            flex: 1;
+            padding: 0.65rem 1rem;
+            border-radius: 10px;
+            border: 1.5px solid var(--paper-border);
+            font-size: 1.1rem;
+            outline: none;
+            background: #ffffff;
+            font-family: var(--font-sans, inherit);
+        }
+        .table-row-input:focus {
+            border-color: var(--sage-dark, #234027);
         }
     </style>
 </head>
@@ -227,9 +317,9 @@
         </nav>
     </header>
 
-    <div class="ref-hero" style="padding-bottom:1rem;">
-        <h1 id="hero-title">🔥 Top 10 Core Verbs Practice (14 Languages)</h1>
-        <p id="hero-subtext">Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, target element, and generate shareable direct links!</p>
+    <div class="ref-hero" style="padding-bottom:1rem; text-align:center;">
+        <h1 id="hero-title" style="color:var(--sage-dark, #234027); font-family:var(--font-serif, 'COSY Serif', serif); font-size:2.2rem; margin-bottom:0.5rem;">🔥 Top 10 Core Verbs Practice (14 Languages)</h1>
+        <p id="hero-subtext" style="color:var(--paper-ink, #2c2523); max-width:750px; margin:0 auto; font-size:1.05rem; line-height:1.5;">Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, target element, and generate shareable direct links!</p>
     </div>
 
     <main style="max-width:950px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
@@ -1042,7 +1132,7 @@
             `;
         }
 
-        /* ── TABLE PRACTICE ENGINE ── */
+        /* ── BEAUTIFUL HAND-CRAFTED TABLE PRACTICE ENGINE ── */
         function launchTablePractice(selectedVerbs) {
             const pool = COSYTopVerbs.getTopVerbsPool(currentLang, currentDbMap, currentPersonFilter, selectedVerbs);
 

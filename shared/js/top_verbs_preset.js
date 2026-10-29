@@ -465,18 +465,68 @@
 
                         if (tMode === 'pronoun') {
                             // User must type the PRONOUN
-                            promptText = `________ ${cleanVerb} ${polSymbol} (${lemma})`;
+                            if (pol === 'negative' && lang === 'fr') {
+                                const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                                promptText = `________ ${startsVowel ? "n'" : "ne "} ${cleanVerb} pas ➖ (${lemma})`;
+                            } else if (pol === 'question' && lang === 'fr') {
+                                promptText = `Est-ce que ________ ${cleanVerb} ❓ ? (${lemma})`;
+                            } else if (pol === 'negative' && (lang === 'es' || lang === 'it')) {
+                                promptText = `________ non/no ${cleanVerb} ➖ (${lemma})`;
+                            } else {
+                                promptText = `________ ${cleanVerb} ${polSymbol} (${lemma})`;
+                            }
                             expectedAnswer = pronoun;
                         } else {
-                            // User must type the CONJUGATED VERB
-                            if (pol === 'question' && lang === 'fr') {
-                                promptText = `Est-ce que ${pronoun} ________ ${polSymbol} ? (${lemma})`;
-                            } else if (pol === 'question' && lang === 'es') {
-                                promptText = `¿${pronoun} ________ ${polSymbol} ? (${lemma})`;
+                            // User must type the CONJUGATED FORM
+                            if (pol === 'negative') {
+                                if (lang === 'fr') {
+                                    const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `${startsVowel ? "n'" : "ne "}${cleanVerb} pas`;
+                                } else if (lang === 'es') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `no ${cleanVerb}`;
+                                } else if (lang === 'it') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `non ${cleanVerb}`;
+                                } else if (lang === 'de') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `${cleanVerb} nicht`;
+                                } else if (lang === 'en') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                                        expectedAnswer = `${cleanVerb} not`;
+                                    } else {
+                                        const aux = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "doesn't" : "don't";
+                                        const baseVerb = (entry && (entry.base || entry.lemma)) || lemma;
+                                        expectedAnswer = `${aux} ${baseVerb}`;
+                                    }
+                                } else {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                }
+                            } else if (pol === 'question') {
+                                if (lang === 'fr') {
+                                    promptText = `Est-ce que ${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                } else if (lang === 'es') {
+                                    promptText = `¿${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                } else if (lang === 'en') {
+                                    promptText = `________ ${pronoun} ${lemma} ❓`;
+                                    if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                                        expectedAnswer = cleanVerb;
+                                    } else {
+                                        expectedAnswer = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "does" : "do";
+                                    }
+                                } else {
+                                    promptText = `${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                }
                             } else {
-                                promptText = `${pronoun} ________ ${polSymbol} (${lemma})`;
+                                promptText = `${pronoun} ________ ➕ (${lemma})`;
+                                expectedAnswer = cleanVerb;
                             }
-                            expectedAnswer = cleanVerb;
                         }
 
                         drills.push({
