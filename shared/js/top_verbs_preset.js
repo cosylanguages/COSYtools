@@ -2,6 +2,7 @@
  * COSYlanguages Shared Top Verbs Preset Configuration & Helpers
  * Supports instant practice for top core verbs (be, have, think, know, like, want, work, study, go, can, eat, drink)
  * in present tense across all 14 COSY target languages.
+ * Includes Positive, Negative, and Interrogative (Question) form generation.
  */
 
 (function (root, factory) {
@@ -299,6 +300,123 @@
             .map(i => rawForms[i]);
     }
 
+    /**
+     * Builds negative or interrogative form variants for a given language, pronoun, and positive verb form.
+     */
+    function buildPolarityForm(lang, pronoun, positiveVerbForm, polarity, lemma) {
+        if (polarity === 'positive' || !polarity) {
+            return { promptText: `${pronoun} ________ (${lemma})`, expectedAnswer: positiveVerbForm };
+        }
+
+        const cleanVerb = String(positiveVerbForm || '').trim();
+
+        if (lang === 'fr') {
+            if (polarity === 'negative') {
+                const startsWithVowel = /^[aeiouyhédèêàâîïôùû]/i.test(cleanVerb);
+                const neParticle = startsWithVowel ? "n'" : "ne ";
+                const negForm = `${neParticle}${cleanVerb} pas`;
+                return { promptText: `${pronoun} ________ [ne...pas] (${lemma})`, expectedAnswer: negForm };
+            }
+            if (polarity === 'question') {
+                const qPrompt = `Est-ce que ${pronoun} ________ ? (${lemma})`;
+                return { promptText: qPrompt, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'en') {
+            const isBe = (lemma === 'be' || cleanVerb === 'am' || cleanVerb === 'is' || cleanVerb === 'are');
+            const isCan = (lemma === 'can');
+
+            if (polarity === 'negative') {
+                let negForm = '';
+                if (isBe) {
+                    negForm = `${cleanVerb} not`;
+                } else if (isCan) {
+                    negForm = `cannot`;
+                } else {
+                    const aux = (pronoun === 'he/she/it') ? 'does not' : 'do not';
+                    negForm = `${aux} ${lemma}`;
+                }
+                return { promptText: `${pronoun} ________ [NOT] (${lemma})`, expectedAnswer: negForm };
+            }
+
+            if (polarity === 'question') {
+                if (isBe) {
+                    return { promptText: `${cleanVerb.toUpperCase()} ${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+                } else if (isCan) {
+                    return { promptText: `CAN ${pronoun} ________ ? (${lemma})`, expectedAnswer: 'can' };
+                } else {
+                    const aux = (pronoun === 'he/she/it') ? 'Does' : 'Do';
+                    return { promptText: `${aux} ${pronoun} ________ ? (${lemma})`, expectedAnswer: lemma };
+                }
+            }
+        }
+
+        if (lang === 'es') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} no ________ (${lemma})`, expectedAnswer: `no ${cleanVerb}` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `¿${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'it') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} non ________ (${lemma})`, expectedAnswer: `non ${cleanVerb}` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'de') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} ________ nicht (${lemma})`, expectedAnswer: `${cleanVerb} nicht` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `${cleanVerb.toUpperCase()} ${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'ru') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} не ________ (${lemma})`, expectedAnswer: `не ${cleanVerb}` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'el') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} δεν ________ (${lemma})`, expectedAnswer: `δεν ${cleanVerb}` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `${pronoun} ________ ; (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        if (lang === 'pt') {
+            if (polarity === 'negative') {
+                return { promptText: `${pronoun} não ________ (${lemma})`, expectedAnswer: `não ${cleanVerb}` };
+            }
+            if (polarity === 'question') {
+                return { promptText: `${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+            }
+        }
+
+        // Default fallbacks for other target languages
+        if (polarity === 'negative') {
+            return { promptText: `${pronoun} [NEG] ________ (${lemma})`, expectedAnswer: cleanVerb };
+        }
+        if (polarity === 'question') {
+            return { promptText: `${pronoun} ________ ? (${lemma})`, expectedAnswer: cleanVerb };
+        }
+
+        return { promptText: `${pronoun} ________ (${lemma})`, expectedAnswer: cleanVerb };
+    }
+
     function getTopVerbsPool(lang, dbMap, personFilter = 'both', selectedLemmas = null) {
         const cfg = getConfig(lang);
         if (!cfg || !dbMap) return [];
@@ -380,9 +498,9 @@
     }
 
     /**
-     * Generates granular single fill-in-the-blank practice items for each pronoun form.
+     * Generates granular single fill-in-the-blank practice items for each pronoun form, sentence polarity, and verb.
      */
-    function generateSingleDrills(lang, dbMap, personFilter = 'both', selectedLemmas = null) {
+    function generateSingleDrills(lang, dbMap, personFilter = 'both', selectedLemmas = null, polarityFilter = 'positive') {
         const cfg = getConfig(lang);
         if (!cfg || !dbMap) return [];
         const drills = [];
@@ -392,6 +510,10 @@
             : cfg.lemmas;
 
         const pMap = PRONOUN_MAP[lang] || PRONOUN_MAP.en;
+
+        const polaritiesToGenerate = (polarityFilter === 'mixed' || polarityFilter === 'all')
+            ? ['positive', 'negative', 'question']
+            : [polarityFilter];
 
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
@@ -404,27 +526,33 @@
                 if (!formsObj) continue;
 
                 const items = [
-                    { pronoun: 'I', form: formsObj['I'], group: 'singular' },
-                    { pronoun: 'you', form: formsObj['you'], group: 'singular' },
-                    { pronoun: 'he/she/it', form: formsObj['he/she/it'], group: 'singular' },
-                    { pronoun: 'we', form: formsObj['we'], group: 'plural' },
-                    { pronoun: 'they', form: formsObj['they'], group: 'plural' }
+                    { pronoun: 'I', form: formsObj['I'], group: 'singular', idx: 0 },
+                    { pronoun: 'you', form: formsObj['you'], group: 'singular', idx: 1 },
+                    { pronoun: 'he/she/it', form: formsObj['he/she/it'], group: 'singular', idx: 2 },
+                    { pronoun: 'we', form: formsObj['we'], group: 'plural', idx: 3 },
+                    { pronoun: 'they', form: formsObj['they'], group: 'plural', idx: 4 }
                 ];
 
                 for (const item of items) {
                     if (personFilter !== 'both' && personFilter !== 'all' && item.group !== personFilter) {
                         continue;
                     }
-                    drills.push({
-                        id: `top10:${lang}:${lemma}:${item.pronoun}`,
-                        lang: lang,
-                        lemma: lemma,
-                        pronoun: item.pronoun,
-                        expected: item.form,
-                        prompt: `${item.pronoun} ________ (${lemma})`,
-                        definition: definition,
-                        accents: ACCENT_KEYS[lang] || []
-                    });
+
+                    for (const pol of polaritiesToGenerate) {
+                        const variant = buildPolarityForm('en', item.pronoun, item.form, pol, lemma);
+
+                        drills.push({
+                            id: `top10:en:${lemma}:${item.pronoun}:${pol}`,
+                            lang: 'en',
+                            lemma: lemma,
+                            pronoun: item.pronoun,
+                            polarity: pol,
+                            expected: variant.expectedAnswer,
+                            prompt: variant.promptText,
+                            definition: definition,
+                            accents: ACCENT_KEYS.en || []
+                        });
+                    }
                 }
                 continue;
             }
@@ -465,16 +593,26 @@
 
                 const cleanForm = rawForm.replace(prefixRegex, '').trim();
 
-                drills.push({
-                    id: `top10:${lang}:${lemma}:${idx}`,
-                    lang: lang,
-                    lemma: lemma,
-                    pronoun: pronounLabel,
-                    expected: cleanForm,
-                    prompt: `${pronounLabel} ________ (${lemma})`,
-                    definition: definition,
-                    accents: ACCENT_KEYS[lang] || []
-                });
+                for (const pol of polaritiesToGenerate) {
+                    // EXCLUSION RULE: Exclude 1st singular ("je") questions in French!
+                    if (lang === 'fr' && pol === 'question' && (pronounLabel === 'je' || pronounLabel === "j'" || idx === 0)) {
+                        continue;
+                    }
+
+                    const variant = buildPolarityForm(lang, pronounLabel, cleanForm, pol, lemma);
+
+                    drills.push({
+                        id: `top10:${lang}:${lemma}:${idx}:${pol}`,
+                        lang: lang,
+                        lemma: lemma,
+                        pronoun: pronounLabel,
+                        polarity: pol,
+                        expected: variant.expectedAnswer,
+                        prompt: variant.promptText,
+                        definition: definition,
+                        accents: ACCENT_KEYS[lang] || []
+                    });
+                }
             });
         }
 
@@ -489,6 +627,7 @@
         buildEnglishPresentObj,
         getTopVerbsPool,
         generateSingleDrills,
+        buildPolarityForm,
         PRONOUN_MAP,
         ACCENT_KEYS,
         EN_REGULAR_FALLBACKS
