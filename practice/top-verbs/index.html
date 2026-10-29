@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top 10 Verbs Conjugation Practice (14 Languages) | COSYtools</title>
-    <meta name="description" content="Practise the top core verbs in present tense across 14 languages. Customise verb selection, singular vs plural forms, positive/negative/question forms, and share direct links.">
+    <meta name="description" content="Practise the top core verbs in present tense across 14 languages. Customise verb selection, singular vs plural forms, positive/negative/question forms, and target element.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/practice/top-verbs/index.html">
     <meta property="og:title" content="Top 10 Verbs Conjugation Practice | COSYtools">
-    <meta property="og:description" content="Practise top core verbs in present tense across 14 languages with custom person filters, sentence polarities, and direct share links for YouTube & Podcasts.">
+    <meta property="og:description" content="Practise top core verbs in present tense across 14 languages with custom person filters, sentence polarities, target elements, and direct share links.">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/practice/top-verbs/index.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
@@ -83,7 +83,7 @@
             color: #ffffff;
             border-color: var(--sage-dark, #234027);
         }
-        .person-toggle-group, .mode-toggle-group, .polarity-toggle-group {
+        .person-toggle-group, .mode-toggle-group, .polarity-toggle-group, .target-toggle-group {
             display: flex;
             flex-wrap: wrap;
             gap: 0.75rem;
@@ -91,7 +91,7 @@
         }
         .person-radio-card {
             flex: 1;
-            min-width: 160px;
+            min-width: 150px;
             padding: 0.75rem 1rem;
             border-radius: 12px;
             border: 2px solid var(--ref-border, #d2c8be);
@@ -151,6 +151,17 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
             display: none;
             z-index: 10000;
+        }
+        .mnemonic-banner {
+            background: #fef3c7;
+            border: 1.5px solid #f59e0b;
+            color: #92400e;
+            padding: 0.6rem 1rem;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            margin-bottom: 1rem;
         }
         .media-resources-box {
             background: #fdfbf7;
@@ -218,7 +229,7 @@
 
     <div class="ref-hero" style="padding-bottom:1rem;">
         <h1 id="hero-title">🔥 Top 10 Core Verbs Practice (14 Languages)</h1>
-        <p id="hero-subtext">Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, and generate shareable direct links!</p>
+        <p id="hero-subtext">Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, target element, and generate shareable direct links!</p>
     </div>
 
     <main style="max-width:950px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
@@ -280,16 +291,16 @@
                 </h3>
                 <div class="polarity-toggle-group">
                     <div class="person-radio-card active" id="polarity-card-positive" onclick="setPolarityFilter('positive')">
-                        <h4 id="lbl-pol-positive">✅ Positive / Affirmative</h4>
-                        <p id="pol-desc-positive">Standard conjugation</p>
+                        <h4 id="lbl-pol-positive">➕ Positive</h4>
+                        <p id="pol-desc-positive">Standard affirmative</p>
                     </div>
                     <div class="person-radio-card" id="polarity-card-negative" onclick="setPolarityFilter('negative')">
-                        <h4 id="lbl-pol-negative">🚫 Negative</h4>
+                        <h4 id="lbl-pol-negative">➖ Negative</h4>
                         <p id="pol-desc-negative">Negative forms</p>
                     </div>
                     <div class="person-radio-card" id="polarity-card-question" onclick="setPolarityFilter('question')">
                         <h4 id="lbl-pol-question">❓ Questions</h4>
-                        <p id="pol-desc-question">Interrogative forms (excl. 'je')</p>
+                        <p id="pol-desc-question">Questions (excl. 'je')</p>
                     </div>
                     <div class="person-radio-card" id="polarity-card-mixed" onclick="setPolarityFilter('mixed')">
                         <h4 id="lbl-pol-mixed">🔀 Mixed</h4>
@@ -298,10 +309,31 @@
                 </div>
             </div>
 
-            <!-- Step 5: Practice Mode -->
+            <!-- Step 5: Target Element (Type Verb vs Type Pronoun) -->
             <div style="margin-bottom: 1.5rem;">
                 <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                    <span>5️⃣</span> <span id="lbl-step5">Select Practice Format</span>
+                    <span>5️⃣</span> <span id="lbl-step5">Select Target Element</span>
+                </h3>
+                <div class="target-toggle-group">
+                    <div class="person-radio-card active" id="target-card-verb" onclick="setTargetMode('verb')">
+                        <h4 id="lbl-target-verb">✍️ Type Verb</h4>
+                        <p id="target-desc-verb">Fill in conjugated verb</p>
+                    </div>
+                    <div class="person-radio-card" id="target-card-pronoun" onclick="setTargetMode('pronoun')">
+                        <h4 id="lbl-target-pronoun">👤 Type Pronoun</h4>
+                        <p id="target-desc-pronoun">Fill in pronoun</p>
+                    </div>
+                    <div class="person-radio-card" id="target-card-mixed" onclick="setTargetMode('mixed')">
+                        <h4 id="lbl-target-mixed">🔀 Mixed Target</h4>
+                        <p id="target-desc-mixed">Random verb &amp; pronoun</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6: Practice Mode -->
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                    <span>6️⃣</span> <span id="lbl-step6">Select Practice Format</span>
                 </h3>
                 <div class="mode-toggle-group">
                     <div class="person-radio-card active" id="mode-card-drill" onclick="setPracticeMode('drill')">
@@ -387,6 +419,7 @@
         let currentLang = 'en';
         let currentPersonFilter = 'both'; // 'both', 'singular', 'plural'
         let currentPolarityFilter = 'positive'; // 'positive', 'negative', 'question', 'mixed'
+        let currentTargetMode = 'verb'; // 'verb', 'pronoun', 'mixed'
         let currentPracticeMode = 'drill'; // 'drill' or 'table'
         let currentDbMap = null;
         let practiceRunner = null;
@@ -403,16 +436,20 @@
                 step2: "Select Verbs to Practise",
                 step3: "Select Person / Pronoun Group",
                 step4: "Select Sentence Type",
-                step5: "Select Practice Format",
+                step5: "Select Target Element",
+                step6: "Select Practice Format",
                 selectAll: "Select All",
                 deselectAll: "Deselect All",
                 personBoth: "👥 Both (All Forms)",
                 personSingular: "👤 \"I, you, he, she, it\"",
                 personPlural: "👥 \"We, you, they\"",
-                polPositive: "✅ Positive / Affirmative",
-                polNegative: "🚫 Negative",
+                polPositive: "➕ Positive",
+                polNegative: "➖ Negative",
                 polQuestion: "❓ Questions",
                 polMixed: "🔀 Mixed",
+                targetVerb: "✍️ Type Verb",
+                targetPronoun: "👤 Type Pronoun",
+                targetMixed: "🔀 Mixed Target",
                 modeDrill: "⚡ Single Form Drill",
                 modeTable: "📋 Full Conjugation Table",
                 launch: "🚀 Launch Top Verbs Session",
@@ -427,16 +464,20 @@
                 step2: "Choisir les verbes à pratiquer",
                 step3: "Choisir le groupe de personnes",
                 step4: "Choisir la forme de phrase",
-                step5: "Choisir le format de pratique",
+                step5: "Élément à saisir",
+                step6: "Format d'exercice",
                 selectAll: "Tout sélectionner",
                 deselectAll: "Tout désélectionner",
                 personBoth: "👥 Toutes les personnes",
-                personSingular: "👤 Singular (je, tu, il/elle/on)",
-                personPlural: "👥 Pluriel (nous, vous, ils/elles)",
-                polPositive: "✅ Affirmative",
-                polNegative: "🚫 Négative",
+                personSingular: "👤 Singulier (je, tu, il, elle, on)",
+                personPlural: "👥 Pluriel (nous, vous, ils, elles)",
+                polPositive: "➕ Affirmative",
+                polNegative: "➖ Négative",
                 polQuestion: "❓ Interrogative",
                 polMixed: "🔀 Mélangée",
+                targetVerb: "✍️ Taper le verbe",
+                targetPronoun: "👤 Taper le pronom",
+                targetMixed: "🔀 Mélangé",
                 modeDrill: "⚡ Exercice individuel",
                 modeTable: "📋 Tableau de conjugaison",
                 launch: "🚀 Démarrer la session de verbes",
@@ -451,16 +492,20 @@
                 step2: "Seleccionar verbos para practicar",
                 step3: "Seleccionar grupo de personas",
                 step4: "Seleccionar tipo de oración",
-                step5: "Seleccionar formato de práctica",
+                step5: "Elemento a escribir",
+                step6: "Formato de práctica",
                 selectAll: "Seleccionar todo",
                 deselectAll: "Deseleccionar todo",
                 personBoth: "👥 Todas las personas",
-                personSingular: "👤 Singular (yo, tú, él/ella/usted)",
-                personPlural: "👥 Plural (nosotros, vosotros, ellos/ellas)",
-                polPositive: "✅ Afirmativa",
-                polNegative: "🚫 Negativa",
+                personSingular: "👤 Singular (yo, tú, él, ella, usted)",
+                personPlural: "👥 Plural (nosotros, vosotros, ellos)",
+                polPositive: "➕ Afirmativa",
+                polNegative: "➖ Negativa",
                 polQuestion: "❓ Interrogativa",
                 polMixed: "🔀 Mezclada",
+                targetVerb: "✍️ Escribir verbo",
+                targetPronoun: "👤 Escribir pronombre",
+                targetMixed: "🔀 Mixto",
                 modeDrill: "⚡ Ejercicio individual",
                 modeTable: "📋 Tabla de conjugación",
                 launch: "🚀 Iniciar sesión de verbos",
@@ -475,16 +520,20 @@
                 step2: "Seleziona verbi da praticare",
                 step3: "Seleziona gruppo di persone",
                 step4: "Seleziona tipo di frase",
-                step5: "Seleziona formato di esercizio",
+                step5: "Elemento da scrivere",
+                step6: "Formato di esercizio",
                 selectAll: "Seleziona tutto",
                 deselectAll: "Deseleziona tutto",
                 personBoth: "👥 Tutte le persone",
-                personSingular: "👤 Singolare (io, tu, lui/lei)",
+                personSingular: "👤 Singolare (io, tu, lui, lei)",
                 personPlural: "👥 Plurale (noi, voi, loro)",
-                polPositive: "✅ Affermativa",
-                polNegative: "🚫 Negativa",
+                polPositive: "➕ Affermativa",
+                polNegative: "➖ Negativa",
                 polQuestion: "❓ Interrogativa",
                 polMixed: "🔀 Mista",
+                targetVerb: "✍️ Scrivi verbo",
+                targetPronoun: "👤 Scrivi pronome",
+                targetMixed: "🔀 Misto",
                 modeDrill: "⚡ Esercizio singolo",
                 modeTable: "📋 Tabella di coniugazione",
                 launch: "🚀 Avvia sessione verbi",
@@ -499,16 +548,20 @@
                 step2: "Verben zum Üben auswählen",
                 step3: "Personengruppe auswählen",
                 step4: "Satzform auswählen",
-                step5: "Übungsformat auswählen",
+                step5: "Eingabeelement",
+                step6: "Übungsformat",
                 selectAll: "Alle auswählen",
                 deselectAll: "Alle abwählen",
                 personBoth: "👥 Alle Personen",
-                personSingular: "👤 Singular (ich, du, er/sie/es)",
-                personPlural: "👥 Plural (wir, ihr, sie/Sie)",
-                polPositive: "✅ Positiv / Aussagesatz",
-                polNegative: "🚫 Negativ / Verneinung",
+                personSingular: "👤 Singular (ich, du, er, sie, es)",
+                personPlural: "👥 Plural (wir, ihr, sie, Sie)",
+                polPositive: "➕ Positiv",
+                polNegative: "➖ Negativ",
                 polQuestion: "❓ Frageform",
                 polMixed: "🔀 Gemischt",
+                targetVerb: "✍️ Verb eingeben",
+                targetPronoun: "👤 Pronomen eingeben",
+                targetMixed: "🔀 Gemischt",
                 modeDrill: "⚡ Einzeleinzelfrage",
                 modeTable: "📋 Vollständige Konjugationstabelle",
                 launch: "🚀 Verben-Sitzung starten",
@@ -523,16 +576,20 @@
                 step2: "Выберите глаголы для практики",
                 step3: "Выберите группу лиц",
                 step4: "Выберите тип предложения",
-                step5: "Выберите формат упражнения",
+                step5: "Выберите объект ввода",
+                step6: "Выберите формат упражнения",
                 selectAll: "Выбрать все",
                 deselectAll: "Снять все",
                 personBoth: "👥 Все формы",
-                personSingular: "👤 Единственное число (я, ты, он/она/оно)",
+                personSingular: "👤 Единственное число (я, ты, он, она, оно)",
                 personPlural: "👥 Множественное число (мы, вы, они)",
-                polPositive: "✅ Утвердительное",
-                polNegative: "🚫 Отрицательное",
+                polPositive: "➕ Утвердительное",
+                polNegative: "➖ Отрицательное",
                 polQuestion: "❓ Вопросительное",
                 polMixed: "🔀 Смешанный тип",
+                targetVerb: "✍️ Ввод глагола",
+                targetPronoun: "👤 Ввод местоимения",
+                targetMixed: "🔀 Смешанный ввод",
                 modeDrill: "⚡ Отдельные упражнения",
                 modeTable: "📋 Таблица спряжения",
                 launch: "🚀 Начать практику глаголов",
@@ -547,16 +604,20 @@
                 step2: "Επιλέξτε ρήματα για εξάσκηση",
                 step3: "Επιλέξτε πρόσωπα",
                 step4: "Επιλέξτε τύπο πρότασης",
-                step5: "Επιλέξτε μορφή εξάσκησης",
+                step5: "Στοιχείο εισαγωγής",
+                step6: "Μορφή εξάσκησης",
                 selectAll: "Επιλογή όλων",
                 deselectAll: "Αποεπιλογή όλων",
                 personBoth: "👥 Όλα τα πρόσωπα",
-                personSingular: "👤 Ενικός (εγώ, εσύ, αυτός/αυτή/αυτό)",
-                personPlural: "👥 Πληθυντικός (εμείς, εσείς, αυτοί/αυτές/αυτά)",
-                polPositive: "✅ Κατάφαση",
-                polNegative: "🚫 Άρνηση",
+                personSingular: "👤 Ενικός (εγώ, εσύ, αυτός, αυτή, αυτό)",
+                personPlural: "👥 Πληθυντικός (εμείς, εσείς, αυτοί, αυτές, αυτά)",
+                polPositive: "➕ Κατάφαση",
+                polNegative: "➖ Άρνηση",
                 polQuestion: "❓ Ερώτηση",
                 polMixed: "🔀 Αναμεμειγμένα",
+                targetVerb: "✍️ Πληκτρολόγηση ρήματος",
+                targetPronoun: "👤 Πληκτρολόγηση αντωνυμίας",
+                targetMixed: "🔀 Μικτός τύπος",
                 modeDrill: "⚡ Μεμονωμένες ασκήσεις",
                 modeTable: "📋 Πίνακας κλίσης",
                 launch: "🚀 Έναρξη εξάσκησης",
@@ -594,6 +655,12 @@
                     currentPolarityFilter = pol;
                 }
             }
+            if (params.has('target')) {
+                const t = params.get('target').toLowerCase();
+                if (['verb', 'pronoun', 'mixed'].includes(t)) {
+                    currentTargetMode = t;
+                }
+            }
             if (params.has('mode')) {
                 const m = params.get('mode').toLowerCase();
                 if (['drill', 'table'].includes(m)) {
@@ -602,6 +669,7 @@
             }
             updatePersonFilterUI();
             updatePolarityFilterUI();
+            updateTargetModeUI();
             updateModeFilterUI();
             updateLangPillsUI();
         }
@@ -648,6 +716,7 @@
             setTxt('lbl-step3', ui.step3);
             setTxt('lbl-step4', ui.step4);
             setTxt('lbl-step5', ui.step5);
+            setTxt('lbl-step6', ui.step6);
             setTxt('btn-select-all', ui.selectAll);
             setTxt('btn-deselect-all', ui.deselectAll);
             setTxt('lbl-person-both', ui.personBoth);
@@ -657,6 +726,9 @@
             setTxt('lbl-pol-negative', ui.polNegative);
             setTxt('lbl-pol-question', ui.polQuestion);
             setTxt('lbl-pol-mixed', ui.polMixed);
+            setTxt('lbl-target-verb', ui.targetVerb);
+            setTxt('lbl-target-pronoun', ui.targetPronoun);
+            setTxt('lbl-target-mixed', ui.targetMixed);
             setTxt('lbl-mode-drill', ui.modeDrill);
             setTxt('lbl-mode-table', ui.modeTable);
             setTxt('btn-launch', ui.launch);
@@ -771,6 +843,21 @@
             });
         }
 
+        function setTargetMode(val) {
+            currentTargetMode = val;
+            updateTargetModeUI();
+        }
+
+        function updateTargetModeUI() {
+            ['verb', 'pronoun', 'mixed'].forEach(t => {
+                const card = document.getElementById(`target-card-${t}`);
+                if (card) {
+                    if (t === currentTargetMode) card.classList.add('active');
+                    else card.classList.remove('active');
+                }
+            });
+        }
+
         function updatePersonLabels(langCode) {
             const pMap = COSYTopVerbs.PRONOUN_MAP[langCode] || COSYTopVerbs.PRONOUN_MAP.en;
             const sgDesc = document.getElementById('person-desc-singular');
@@ -823,7 +910,7 @@
 
         /* ── SINGLE FORM DRILL ENGINE ── */
         function launchSingleDrillsPractice(selectedVerbs) {
-            drillQueue = COSYTopVerbs.generateSingleDrills(currentLang, currentDbMap, currentPersonFilter, selectedVerbs, currentPolarityFilter);
+            drillQueue = COSYTopVerbs.generateSingleDrills(currentLang, currentDbMap, currentPersonFilter, selectedVerbs, currentPolarityFilter, currentTargetMode);
 
             // Shuffle drill items
             drillQueue.sort(() => Math.random() - 0.5);
@@ -854,20 +941,22 @@
                     <div>
                         <span class="badge type-badge" style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px;">TOP 10 VERBS</span>
                         <span style="font-weight:700; color:var(--sage-dark); margin-left:0.5rem;">${current.lemma}</span>
-                        ${current.polarity ? `<span style="background:#e0f2fe; color:#0369a1; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.8rem; margin-left:0.4rem;">${current.polarity.toUpperCase()}</span>` : ''}
+                        <span style="background:#fef3c7; color:#92400e; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.85rem; margin-left:0.4rem;">${current.symbol || '➕'}</span>
                     </div>
                     <span style="color:var(--ink-soft); font-weight:600;">Question ${drillIdx + 1} of ${drillQueue.length}</span>
                 </div>
 
+                ${current.mnemonic ? `<div class="mnemonic-banner">${current.mnemonic}</div>` : ''}
+
                 <div class="blank-prompt" style="text-align:center; margin-bottom:1.5rem;">
-                    <span class="prompt-badge blank-badge" style="background:var(--sage-mist); color:var(--sage-dark); padding:3px 12px; border-radius:12px; font-weight:700;">${ui.conjugateTag || "✍️ Conjugate Present Form"}</span>
+                    <span class="prompt-badge blank-badge" style="background:var(--sage-mist); color:var(--sage-dark); padding:3px 12px; border-radius:12px; font-weight:700;">${current.targetMode === 'pronoun' ? '👤 Type Pronoun' : (ui.conjugateTag || "✍️ Conjugate Present Form")}</span>
                     <h2 style="font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.8rem; margin:0.75rem 0 0.25rem 0;">"${current.prompt}"</h2>
                     ${current.definition ? `<p style="color:var(--ink-soft); margin:0; font-style:italic;">Definition: ${current.definition}</p>` : ''}
                 </div>
 
                 <div style="max-width:500px; margin:0 auto;">
                     <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
-                        <input type="text" id="drill-single-input" class="sprint-input-group" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem; outline:none;" placeholder="Type form..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
+                        <input type="text" id="drill-single-input" class="sprint-input-group" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem; outline:none;" placeholder="${current.targetMode === 'pronoun' ? 'Type pronoun...' : 'Type form...'}" autocomplete="off" autofocus onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
                         <button type="button" class="ref-btn" style="background:var(--sage-dark); color:#fff;" onclick="checkSingleDrillAnswer()">${ui.checkBtn || "Check ➔"}</button>
                     </div>
 
@@ -974,7 +1063,7 @@
             const selectedVerbs = getSelectedVerbs();
             const verbsParam = (selectedVerbs.length === COSYTopVerbs.getConfig(currentLang).lemmas.length) ? 'all' : selectedVerbs.join(',');
 
-            const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
+            const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&target=${currentTargetMode}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
 
             navigator.clipboard.writeText(shareUrl).then(() => {
                 const toast = document.getElementById('share-toast');
