@@ -2,6 +2,9 @@
  * COSYlanguages Shared Top Verbs Preset Configuration & Helpers
  * Supports instant practice for top core verbs (be, have, think, know, like, want, work, study, go, can, eat, drink)
  * in present tense across all 14 COSY target languages.
+ * Includes Positive, Negative, and Interrogative (Question) form generation,
+ * unmerged individual pronouns, target element options (type verb vs type pronoun),
+ * and French negative sandwich mnemonic helper.
  * Includes Positive, Negative, and Interrogative (Question) form generation.
  */
 
@@ -124,6 +127,55 @@
         'can': { base: 'can', lemma: 'can', level: 'A1', definition: 'to be able to', present_simple: { 'I': 'can', 'you': 'can', 'he/she/it': 'can', 'we': 'can', 'they': 'can' } }
     };
 
+    // Master Unmerged Pronoun Registry for all 14 languages
+    const PRONOUN_MAP = {
+        en: {
+            singular: ['I', 'you (sg)', 'he', 'she', 'it'],
+            plural: ['we', 'you (pl)', 'they'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 4, 4]
+        },
+        fr: {
+            singular: ['je', 'tu', 'il', 'elle', 'on'],
+            plural: ['nous', 'vous', 'ils', 'elles'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 4, 5, 5]
+        },
+        it: {
+            singular: ['io', 'tu', 'lui', 'lei'],
+            plural: ['noi', 'voi', 'loro'],
+            singularIndices: [0, 1, 2, 2],
+            pluralIndices: [3, 4, 5]
+        },
+        ru: {
+            singular: ['я', 'ты', 'он', 'она', 'оно'],
+            plural: ['мы', 'вы', 'они'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 4, 5]
+        },
+        el: {
+            singular: ['εγώ', 'εσύ', 'αυτός', 'αυτή', 'αυτό'],
+            plural: ['εμείς', 'εσείς', 'αυτοί', 'αυτές', 'αυτά'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 4, 5, 5, 5]
+        },
+        pt: {
+            singular: ['eu', 'tu', 'ele', 'ela'],
+            plural: ['nós', 'vós', 'eles', 'elas'],
+            singularIndices: [0, 1, 2, 2],
+            pluralIndices: [3, 4, 5, 5]
+        },
+        de: {
+            singular: ['ich', 'du', 'er', 'sie', 'es'],
+            plural: ['wir', 'ihr', 'sie', 'Sie'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 4, 5, 5]
+        },
+        es: {
+            singular: ['yo', 'tú', 'él', 'ella', 'usted'],
+            plural: ['nosotros', 'nosotras', 'vosotros', 'vosotras', 'ellos', 'ellas', 'ustedes'],
+            singularIndices: [0, 1, 2, 2, 2],
+            pluralIndices: [3, 3, 4, 4, 5, 5, 5]
     const PRONOUN_MAP = {
         en: {
             singular: ['I', 'you (sg)', 'he/she/it'],
@@ -192,6 +244,9 @@
             pluralIndices: [3, 4, 5]
         },
         br: {
+            singular: ['me', 'te', 'eñ', 'hi'],
+            plural: ['ni', 'c\'hwi', 'i'],
+            singularIndices: [0, 1, 2, 2],
             singular: ['me', 'te', 'eñ/hi'],
             plural: ['ni', 'c\'hwi', 'i'],
             singularIndices: [0, 1, 2],
@@ -204,6 +259,7 @@
             pluralIndices: [3, 4, 5]
         },
         ka: {
+            singular: ['მე', 'შεν', 'ის'],
             singular: ['მე', 'შენ', 'ის'],
             plural: ['ჩვენ', 'თქვენ', 'ისინი'],
             singularIndices: [0, 1, 2],
@@ -228,6 +284,12 @@
         en: []
     };
 
+    const POLARITY_SYMBOLS = {
+        positive: '➕',
+        negative: '➖',
+        question: '❓'
+    };
+
     function getConfig(lang) {
         return TOP_VERB_CONFIGS[lang] || null;
     }
@@ -249,6 +311,10 @@
 
         const base = entry.base || entry.lemma || 'be';
         if (base === 'be') {
+            return { 'I': 'am', 'you': 'are', 'he': 'is', 'she': 'is', 'it': 'is', 'we': 'are', 'they': 'are' };
+        }
+        if (base === 'have') {
+            return { 'I': 'have', 'you': 'have', 'he': 'has', 'she': 'has', 'it': 'has', 'we': 'have', 'they': 'have' };
             return { 'I': 'am', 'you': 'are', 'he/she/it': 'is', 'we': 'are', 'they': 'are' };
         }
         if (base === 'have') {
@@ -258,6 +324,9 @@
         return {
             'I': base,
             'you': base,
+            'he': s3,
+            'she': s3,
+            'it': s3,
             'he/she/it': s3,
             'we': base,
             'they': base
@@ -288,6 +357,7 @@
         return entry || null;
     }
 
+    function getTopVerbsPool(lang, dbMap, personFilter = 'both', selectedLemmas = null, polarityFilter = 'positive', targetMode = 'verb') {
     function filterFormsByPersons(lang, rawForms, personFilter) {
         if (!rawForms || rawForms.length === 0) return [];
         if (!personFilter || personFilter === 'both' || personFilter === 'all') return rawForms;
@@ -426,10 +496,45 @@
             ? selectedLemmas
             : cfg.lemmas;
 
+        const pMap = PRONOUN_MAP[lang] || PRONOUN_MAP.en;
+        const prefixRegex = /^(je\s+|j'|tu\s+|il\/elle\/on\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|io\s+|lui\/lei\s+|noi\s+|voi\s+|loro\s+|я\s+|ты\s+|он\/она\/оно\s+|он\/она\s+|мы\s+|вы\s+|они\s+|εγώ\s+|εσύ\s+|αυτός\/αυτή\/αυτό\s+|εμείς\s+|εσείς\s+|αυτοί\/αυτές\/αυτά\s+|eu\s+|ele\/ela\s+|nós\s+|vós\s+|eles\/elas\s+|ich\s+|du\s+|er\/sie\/es\s+|wir\s+|ihr\s+|sie\/Sie\s+|yo\s+|tú\s+|él\/ella\/usted\s+|nosotros\s+|vosotros\s+|ellos\/ellas\/ustedes\s+|мин\s+|син\s+|ол\/ул\s+|без\s+|сез\s+|алар\s+|беҙ\s+|һеҙ\s+|улар\s+|эпĕ\s+|эсĕ\s+|вăл\s+|эпир\s+|эсир\s+|вĕсем\s+|me\s+|te\s+|eñ\/hi\s+|ni\s+|c'hwi\s+|i\s+|ես\s+|դու\s+|նա\s+|մենք\s+|դուք\s+|նրանք\s+|მე\s+|შენ\s+|ის\s+|ჩვენ\s+|თქვენ\s+|ისინი\s+)/i;
+
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
             if (!entry) continue;
 
+            let baseForms = [];
+            if (lang === 'en') {
+                const formsObj = buildEnglishPresentObj(entry);
+                if (formsObj) {
+                    baseForms = [
+                        formsObj['I'] || entry.base,
+                        formsObj['you'] || entry.base,
+                        formsObj['he'] || formsObj['she'] || formsObj['it'] || (entry.base + 's'),
+                        formsObj['we'] || entry.base,
+                        formsObj['they'] || entry.base
+                    ];
+                }
+            } else {
+                const tenses = entry.tenses || entry.conjugations || {};
+                const presentKey = Object.keys(tenses).find(k =>
+                    k === 'indicatif_present' || k === 'pres' || k === 'presente' || k === 'present' || k === 'präsens' || k.includes('pres')
+                );
+                if (presentKey) baseForms = tenses[presentKey] || [];
+            }
+
+            if (!baseForms || baseForms.length === 0) continue;
+
+            // Build pronoun indices for singular / plural filter
+            let pronounIndices = [];
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'singular') {
+                pMap.singular.forEach((pro, idx) => {
+                    pronounIndices.push({ pronoun: pro, formIdx: pMap.singularIndices[idx] || 0 });
+                });
+            }
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'plural') {
+                pMap.plural.forEach((pro, idx) => {
+                    pronounIndices.push({ pronoun: pro, formIdx: pMap.pluralIndices[idx] || 3 });
             if (lang === 'en') {
                 const formsObj = buildEnglishPresentObj(entry);
                 if (!formsObj) continue;
@@ -461,19 +566,50 @@
                     isDue: true,
                     mastery: 1
                 });
-                continue;
             }
 
-            const tenses = entry.tenses || entry.conjugations || {};
-            const presentKey = Object.keys(tenses).find(k =>
-                k === 'indicatif_present' ||
-                k === 'pres' ||
-                k === 'presente' ||
-                k === 'present' ||
-                k === 'präsens' ||
-                k.includes('pres')
-            );
+            const activePol = (polarityFilter === 'mixed' || polarityFilter === 'all') ? 'positive' : polarityFilter;
+            const activeTarget = (targetMode === 'mixed') ? 'verb' : targetMode;
 
+            const tenseForms = pronounIndices.map(({ pronoun, formIdx }) => {
+                let rawForm = baseForms[formIdx] || '';
+                let cleanVerb = rawForm.replace(prefixRegex, '').trim();
+                if (!cleanVerb) cleanVerb = lemma;
+
+                if (activeTarget === 'pronoun') {
+                    if (activePol === 'negative' && lang === 'fr') {
+                        const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                        return `________ (${pronoun}) ${startsVowel ? "n'" : "ne "} ${cleanVerb} pas ➖`;
+                    }
+                    return `________ (${pronoun}) ${cleanVerb} ${POLARITY_SYMBOLS[activePol] || '➕'}`;
+                }
+
+                if (activePol === 'negative') {
+                    if (lang === 'fr') {
+                        const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                        return `${pronoun} ${startsVowel ? "n'" : "ne "}${cleanVerb} pas`;
+                    } else if (lang === 'es') {
+                        return `${pronoun} no ${cleanVerb}`;
+                    } else if (lang === 'it') {
+                        return `${pronoun} non ${cleanVerb}`;
+                    } else if (lang === 'de') {
+                        return `${pronoun} ${cleanVerb} nicht`;
+                    } else if (lang === 'en') {
+                        if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                            return `${pronoun} ${cleanVerb} not`;
+                        } else {
+                            const aux = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "doesn't" : "don't";
+                            const baseVerb = (entry && (entry.base || entry.lemma)) || lemma;
+                            return `${pronoun} ${aux} ${baseVerb}`;
+                        }
+                    }
+                } else if (activePol === 'question') {
+                    if (lang === 'fr') return `Est-ce que ${pronoun} ${cleanVerb} ❓`;
+                    if (lang === 'es') return `¿${pronoun} ${cleanVerb} ❓`;
+                }
+
+                return `${pronoun} ${cleanVerb}`;
+            });
             if (!presentKey) continue;
             let forms = tenses[presentKey];
             if (!forms || !Array.isArray(forms) || forms.length === 0) continue;
@@ -482,12 +618,12 @@
 
             pool.push({
                 type: 'conjugate',
-                key: `${lemma}:${presentKey}`,
+                key: `${lemma}:top_verbs_table:${personFilter}:${activePol}:${activeTarget}`,
                 verbKey: lemma,
-                tenseName: presentKey,
+                tenseName: 'present_simple',
                 entry: entry,
                 data: entry,
-                tenseForms: forms,
+                tenseForms: tenseForms,
                 progress: { masteryLevel: 1 },
                 state: { masteryLevel: 1 },
                 isDue: true,
@@ -498,6 +634,10 @@
     }
 
     /**
+     * Generates granular single fill-in-the-blank practice items for each pronoun form,
+     * sentence polarity (➕ Positive, ➖ Negative, ❓ Question), and target mode (type verb vs type pronoun).
+     */
+    function generateSingleDrills(lang, dbMap, personFilter = 'both', selectedLemmas = null, polarityFilter = 'positive', targetMode = 'verb') {
      * Generates granular single fill-in-the-blank practice items for each pronoun form, sentence polarity, and verb.
      */
     function generateSingleDrills(lang, dbMap, personFilter = 'both', selectedLemmas = null, polarityFilter = 'positive') {
@@ -515,12 +655,155 @@
             ? ['positive', 'negative', 'question']
             : [polarityFilter];
 
+        const prefixRegex = /^(je\s+|j'|tu\s+|il\/elle\/on\s+|il\/elle\s+|nous\s+|vous\s+|ils\/elles\s+|io\s+|lui\/lei\s+|noi\s+|voi\s+|loro\s+|я\s+|ты\s+|он\/она\/оно\s+|он\/она\s+|мы\s+|вы\s+|они\s+|εγώ\s+|εσύ\s+|αυτός\/αυτή\/αυτό\s+|εμείς\s+|εσείς\s+|αυτοί\/αυτές\/αυτά\s+|eu\s+|ele\/ela\s+|nós\s+|vós\s+|eles\/elas\s+|ich\s+|du\s+|er\/sie\/es\s+|wir\s+|ihr\s+|sie\/Sie\s+|yo\s+|tú\s+|él\/ella\/usted\s+|nosotros\s+|vosotros\s+|ellos\/ellas\/ustedes\s+|мин\s+|син\s+|ол\/ул\s+|без\s+|сез\s+|алар\s+|беҙ\s+|һеҙ\s+|улар\s+|эпĕ\s+|эсĕ\s+|вăл\s+|эпир\s+|эсир\s+|вĕсем\s+|me\s+|te\s+|eñ\/hi\s+|ni\s+|c'hwi\s+|i\s+|ես\s+|դու\s+|նա\s+|մենք\s+|դուք\s+|նրանք\s+|მე\s+|შენ\s+|ის\s+|ჩვენ\s+|თქვენ\s+|ისინი\s+)/i;
+
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
             if (!entry) continue;
 
             const definition = entry.definition || entry.usage_hint || '';
 
+            // Extract forms list
+            let forms = [];
+            if (lang === 'en') {
+                const formsObj = buildEnglishPresentObj(entry);
+                if (formsObj) {
+                    forms = [
+                        formsObj['I'] || entry.base,
+                        formsObj['you'] || entry.base,
+                        formsObj['he'] || formsObj['she'] || formsObj['it'] || (entry.base + 's'),
+                        formsObj['we'] || entry.base,
+                        formsObj['they'] || entry.base
+                    ];
+                }
+            } else {
+                const tenses = entry.tenses || entry.conjugations || {};
+                const presentKey = Object.keys(tenses).find(k =>
+                    k === 'indicatif_present' || k === 'pres' || k === 'presente' || k === 'present' || k === 'präsens' || k.includes('pres')
+                );
+                if (presentKey) forms = tenses[presentKey] || [];
+            }
+
+            if (!forms || forms.length === 0) continue;
+
+            // Generate items for singular/plural unmerged pronouns
+            const pronounEntries = [];
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'singular') {
+                pMap.singular.forEach((pro, idx) => {
+                    const formIdx = pMap.singularIndices[idx] || 0;
+                    pronounEntries.push({ pronoun: pro, formIdx: formIdx, group: 'singular' });
+                });
+            }
+            if (personFilter === 'both' || personFilter === 'all' || personFilter === 'plural') {
+                pMap.plural.forEach((pro, idx) => {
+                    const formIdx = pMap.pluralIndices[idx] || 3;
+                    pronounEntries.push({ pronoun: pro, formIdx: formIdx, group: 'plural' });
+                });
+            }
+
+            pronounEntries.forEach(({ pronoun, formIdx }) => {
+                let rawForm = forms[formIdx] || '';
+                let cleanVerb = rawForm.replace(prefixRegex, '').trim();
+                if (!cleanVerb) cleanVerb = lemma;
+
+                polaritiesToGenerate.forEach(pol => {
+                    // EXCLUSION RULE: Exclude 1st singular ("je") questions in French!
+                    if (lang === 'fr' && pol === 'question' && (pronoun === 'je' || pronoun === "j'")) {
+                        return;
+                    }
+
+                    const polSymbol = POLARITY_SYMBOLS[pol] || '➕';
+                    const isFrenchNeg = (lang === 'fr' && pol === 'negative');
+                    const mnemonicHint = isFrenchNeg ? "🥪 Règle du sandwich : ne/n' + verbe + pas" : null;
+
+                    const targets = (targetMode === 'mixed') ? ['verb', 'pronoun'] : [targetMode];
+
+                    targets.forEach(tMode => {
+                        let promptText = '';
+                        let expectedAnswer = '';
+
+                        if (tMode === 'pronoun') {
+                            // User must type the PRONOUN
+                            if (pol === 'negative' && lang === 'fr') {
+                                const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                                promptText = `________ ${startsVowel ? "n'" : "ne "} ${cleanVerb} pas ➖ (${lemma})`;
+                            } else if (pol === 'question' && lang === 'fr') {
+                                promptText = `Est-ce que ________ ${cleanVerb} ❓ ? (${lemma})`;
+                            } else if (pol === 'negative' && (lang === 'es' || lang === 'it')) {
+                                promptText = `________ non/no ${cleanVerb} ➖ (${lemma})`;
+                            } else {
+                                promptText = `________ ${cleanVerb} ${polSymbol} (${lemma})`;
+                            }
+                            expectedAnswer = pronoun;
+                        } else {
+                            // User must type the CONJUGATED FORM
+                            if (pol === 'negative') {
+                                if (lang === 'fr') {
+                                    const startsVowel = /^[aeiouyàâéèêëîïôûù]/i.test(cleanVerb);
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `${startsVowel ? "n'" : "ne "}${cleanVerb} pas`;
+                                } else if (lang === 'es') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `no ${cleanVerb}`;
+                                } else if (lang === 'it') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `non ${cleanVerb}`;
+                                } else if (lang === 'de') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = `${cleanVerb} nicht`;
+                                } else if (lang === 'en') {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                                        expectedAnswer = `${cleanVerb} not`;
+                                    } else {
+                                        const aux = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "doesn't" : "don't";
+                                        const baseVerb = (entry && (entry.base || entry.lemma)) || lemma;
+                                        expectedAnswer = `${aux} ${baseVerb}`;
+                                    }
+                                } else {
+                                    promptText = `${pronoun} ________ ➖ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                }
+                            } else if (pol === 'question') {
+                                if (lang === 'fr') {
+                                    promptText = `Est-ce que ${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                } else if (lang === 'es') {
+                                    promptText = `¿${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                } else if (lang === 'en') {
+                                    promptText = `________ ${pronoun} ${lemma} ❓`;
+                                    if (cleanVerb === 'am' || cleanVerb === 'are' || cleanVerb === 'is') {
+                                        expectedAnswer = cleanVerb;
+                                    } else {
+                                        expectedAnswer = (pronoun === 'he' || pronoun === 'she' || pronoun === 'it') ? "does" : "do";
+                                    }
+                                } else {
+                                    promptText = `${pronoun} ________ ❓ (${lemma})`;
+                                    expectedAnswer = cleanVerb;
+                                }
+                            } else {
+                                promptText = `${pronoun} ________ ➕ (${lemma})`;
+                                expectedAnswer = cleanVerb;
+                            }
+                        }
+
+                        drills.push({
+                            id: `top10:${lang}:${lemma}:${pronoun}:${pol}:${tMode}`,
+                            lang: lang,
+                            lemma: lemma,
+                            pronoun: pronoun,
+                            polarity: pol,
+                            symbol: polSymbol,
+                            targetMode: tMode,
+                            expected: expectedAnswer,
+                            prompt: promptText,
+                            definition: definition,
+                            mnemonic: mnemonicHint,
+                            accents: ACCENT_KEYS[lang] || []
+                        });
+                    });
+                });
             if (lang === 'en') {
                 const formsObj = buildEnglishPresentObj(entry);
                 if (!formsObj) continue;
@@ -627,6 +910,9 @@
         buildEnglishPresentObj,
         getTopVerbsPool,
         generateSingleDrills,
+        PRONOUN_MAP,
+        ACCENT_KEYS,
+        POLARITY_SYMBOLS,
         buildPolarityForm,
         PRONOUN_MAP,
         ACCENT_KEYS,
