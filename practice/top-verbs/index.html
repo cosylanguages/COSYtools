@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Verbs Conjugation Practice (14 Languages) | COSYtools</title>
+    <meta name="description" content="Practise the top core verbs in present tense across 14 languages. Customise verb selection, singular vs plural forms, positive/negative/question forms, and share direct links.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/practice/top-verbs/index.html">
+    <meta property="og:title" content="Top 10 Verbs Conjugation Practice | COSYtools">
+    <meta property="og:description" content="Practise top core verbs in present tense across 14 languages with custom person filters, sentence polarities, and direct share links for YouTube & Podcasts.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/practice/top-verbs/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Top 10 Verbs Conjugation Practice | COSYtools">
+    <meta name="twitter:description" content="Interactive top verbs practice across 14 languages. Customize verbs, pronoun groups, and positive/negative/question forms.">
+    <link rel="icon" href="../../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="stylesheet" href="../../shared/css/fonts.css">
+    <link rel="stylesheet" href="../../shared/styles/reference.css">
+
+    <script src="../../shared/js/languages.js"></script>
+    <script src="../../shared/engines/reference-utils.js"></script>
+    <script src="../../shared/engines/srs-store.js"></script>
+    <script src="../../shared/js/top_verbs_preset.js"></script>
+    <script src="../../shared/engines/practice-engine.js"></script>
+    <style>
+        .top-verbs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 0.75rem;
+            margin: 1rem 0;
+            max-height: 280px;
+            overflow-y: auto;
+            padding: 0.5rem;
+            border: 1px solid var(--ref-border, #d2c8be);
+            border-radius: 12px;
+            background: var(--ref-card-bg, #ffffff);
+        }
+        .top-verb-checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.6rem;
+            border-radius: 8px;
+            cursor: pointer;
+            background: var(--paper-light, #faf8f5);
+            border: 1px solid var(--ref-border, #e2d8ce);
+            font-size: 0.95rem;
+            transition: all 0.15s ease;
+        }
+        .top-verb-checkbox-label:hover {
+            background: rgba(65, 107, 73, 0.08);
+            border-color: var(--sage, #416b49);
+        }
+        .top-verb-checkbox-label input {
+            accent-color: var(--sage-dark, #234027);
+        }
+        .lang-pill-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        .lang-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            border: 1.5px solid var(--ref-border, #d2c8be);
+            background: var(--paper-light, #ffffff);
+            color: var(--ink-dark, #2c2523);
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .lang-pill:hover, .lang-pill.active {
+            background: var(--sage-dark, #234027);
+            color: #ffffff;
+            border-color: var(--sage-dark, #234027);
+        }
+        .person-toggle-group, .mode-toggle-group, .polarity-toggle-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin: 0.75rem 0;
+        }
+        .person-radio-card {
+            flex: 1;
+            min-width: 160px;
+            padding: 0.75rem 1rem;
+            border-radius: 12px;
+            border: 2px solid var(--ref-border, #d2c8be);
+            background: var(--paper-light, #ffffff);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        .person-radio-card:hover {
+            border-color: var(--sage, #416b49);
+        }
+        .person-radio-card.active {
+            border-color: var(--sage-dark, #234027);
+            background: #f4fbf6;
+            box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7);
+        }
+        .person-radio-card h4 {
+            margin: 0 0 0.2rem 0;
+            color: var(--sage-dark, #234027);
+            font-size: 1rem;
+        }
+        .person-radio-card p {
+            margin: 0;
+            font-size: 0.82rem;
+            color: var(--ink-soft, #666);
+        }
+        .accent-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.5rem;
+            justify-content: center;
+        }
+        .accent-btn {
+            padding: 0.35rem 0.65rem;
+            border-radius: 6px;
+            border: 1px solid var(--ref-border, #d2c8be);
+            background: var(--paper-light, #ffffff);
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+        .accent-btn:hover {
+            background: var(--sage-mist, #dcfce7);
+            border-color: var(--sage, #416b49);
+        }
+        .share-toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--sage-dark, #234027);
+            color: #ffffff;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 10000;
+        }
+        .media-resources-box {
+            background: #fdfbf7;
+            border: 1.5px solid var(--ref-border, #d2c8be);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-top: 2rem;
+        }
+        .media-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .media-link-card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.85rem 1rem;
+            border-radius: 10px;
+            border: 1px solid var(--ref-border, #d2c8be);
+            background: #ffffff;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s ease;
+        }
+        .media-link-card:hover {
+            border-color: var(--sage-dark, #234027);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+    </style>
+</head>
+<body>
+<!-- Shared Ecosystem Strip -->
+<div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
+  <div class="cosy-strip-inner">
+    <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
+    <ul class="cosy-strip-links">
+      <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages 🏠</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-strip-link">COSYdata 📊</a></li>
+      <li><a href="../../index.html" class="cosy-strip-link active">COSYtools 🔎</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+    </ul>
+    <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; border:none; cursor:pointer; font-size:1.1rem; padding:0.2rem 0.5rem; margin-left:auto;">🌙</button>
+  </div>
+</div>
+
+    <header class="ref-header">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+            <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:600;">Practice</a>
+            <span style="color:var(--ink-soft)">/</span>
+            <span style="font-weight:600; color:var(--sage-dark)" id="header-subtitle">Top 10 Verbs</span>
+        </div>
+        <nav class="ref-nav-links">
+            <a href="../../index.html">Hub</a>
+            <a href="../index.html">Practice Hub</a>
+            <a href="../quick-drills/index.html">Quick Drills</a>
+            <a href="../weak-spots/index.html">Weak Spots</a>
+        </nav>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1 id="hero-title">🔥 Top 10 Core Verbs Practice (14 Languages)</h1>
+        <p id="hero-subtext">Master present tense conjugations for core essential verbs across 14 target languages. Customise pronoun forms, positive/negative/question types, and generate shareable direct links!</p>
+    </div>
+
+    <main style="max-width:950px; margin:0 auto; padding:0 1.5rem 3rem 1.5rem;">
+
+        <!-- Setup Configurator Card -->
+        <div id="setup-card" class="ref-practice-box" style="margin-bottom: 2rem; border: 2px solid var(--sage-dark, #234027);">
+
+            <!-- Step 1: Select Language -->
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                    <span>1️⃣</span> <span id="lbl-step1">Select Language</span>
+                </h3>
+                <div id="lang-pills-container" class="lang-pill-container">
+                    <!-- Languages rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- Step 2: Select Verbs -->
+            <div style="margin-bottom: 1.5rem;">
+                <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.5rem;">
+                    <h3 style="margin:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                        <span>2️⃣</span> <span id="lbl-step2">Select Verbs to Practise</span>
+                    </h3>
+                    <div style="display:flex; gap:0.5rem;">
+                        <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-select-all" onclick="selectAllVerbs(true)">Select All</button>
+                        <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-deselect-all" onclick="selectAllVerbs(false)">Deselect All</button>
+                    </div>
+                </div>
+                <div id="verbs-checklist-grid" class="top-verbs-grid">
+                    <!-- Verb checkboxes rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- Step 3: Person / Pronoun Filter -->
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                    <span>3️⃣</span> <span id="lbl-step3">Select Person / Pronoun Group</span>
+                </h3>
+                <div class="person-toggle-group">
+                    <div class="person-radio-card active" id="person-card-both" onclick="setPersonFilter('both')">
+                        <h4 id="lbl-person-both">👥 Both (All Forms)</h4>
+                        <p id="person-desc-both">Singular + Plural</p>
+                    </div>
+                    <div class="person-radio-card" id="person-card-singular" onclick="setPersonFilter('singular')">
+                        <h4 id="lbl-person-singular">👤 "I, you, he, she, it"</h4>
+                        <p id="person-desc-singular">Singular forms only</p>
+                    </div>
+                    <div class="person-radio-card" id="person-card-plural" onclick="setPersonFilter('plural')">
+                        <h4 id="lbl-person-plural">👥 "We, you, they"</h4>
+                        <p id="person-desc-plural">Plural forms only</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Sentence Form Polarity -->
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                    <span>4️⃣</span> <span id="lbl-step4">Select Sentence Type</span>
+                </h3>
+                <div class="polarity-toggle-group">
+                    <div class="person-radio-card active" id="polarity-card-positive" onclick="setPolarityFilter('positive')">
+                        <h4 id="lbl-pol-positive">✅ Positive / Affirmative</h4>
+                        <p id="pol-desc-positive">Standard conjugation</p>
+                    </div>
+                    <div class="person-radio-card" id="polarity-card-negative" onclick="setPolarityFilter('negative')">
+                        <h4 id="lbl-pol-negative">🚫 Negative</h4>
+                        <p id="pol-desc-negative">Negative forms</p>
+                    </div>
+                    <div class="person-radio-card" id="polarity-card-question" onclick="setPolarityFilter('question')">
+                        <h4 id="lbl-pol-question">❓ Questions</h4>
+                        <p id="pol-desc-question">Interrogative forms (excl. 'je')</p>
+                    </div>
+                    <div class="person-radio-card" id="polarity-card-mixed" onclick="setPolarityFilter('mixed')">
+                        <h4 id="lbl-pol-mixed">🔀 Mixed</h4>
+                        <p id="pol-desc-mixed">Random combination</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5: Practice Mode -->
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                    <span>5️⃣</span> <span id="lbl-step5">Select Practice Format</span>
+                </h3>
+                <div class="mode-toggle-group">
+                    <div class="person-radio-card active" id="mode-card-drill" onclick="setPracticeMode('drill')">
+                        <h4 id="lbl-mode-drill">⚡ Single Form Drill</h4>
+                        <p id="mode-desc-drill">1 form per question</p>
+                    </div>
+                    <div class="person-radio-card" id="mode-card-table" onclick="setPracticeMode('table')">
+                        <h4 id="lbl-mode-table">📋 Full Conjugation Table</h4>
+                        <p id="mode-desc-table">Complete table rounds</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Controls -->
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding-top:1rem; border-top:1px dashed var(--ref-border, #d2c8be);">
+                <button type="button" class="ref-btn" id="btn-launch" style="background:var(--sage-dark, #234027); padding:0.85rem 1.75rem; font-size:1.1rem;" onclick="startCustomPractice()">
+                    🚀 Launch Top Verbs Session
+                </button>
+                <button type="button" class="ref-btn ref-btn-secondary" id="btn-copy-link" style="display:flex; align-items:center; gap:0.4rem;" onclick="copyShareableLink()">
+                    🔗 Copy Direct YouTube / Podcast Link
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Practice Execution Area -->
+        <div id="practice-card" class="ref-practice-box" style="display:none;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--ref-border);">
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <span id="practice-lang-flag" style="font-size:1.5rem;">🇬🇧</span>
+                    <span id="practice-title-text" style="font-weight:700; color:var(--sage-dark); font-size:1.1rem;">Top Verbs Practice</span>
+                </div>
+                <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.3rem 0.75rem; font-size:0.85rem;" onclick="showSetupCard()">
+                    ⚙️ Modify Setup
+                </button>
+            </div>
+
+            <div id="practice-card-content">
+                <!-- Practice engine renders active question or table here -->
+            </div>
+        </div>
+
+        <!-- Video & Reading Resources Section -->
+        <div class="media-resources-box">
+            <h3 style="margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
+                📺 Reading &amp; Video Playlists
+            </h3>
+            <p style="margin:0; color:var(--ink-soft); font-size:0.95rem;">Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.</p>
+
+            <div class="media-links-grid">
+                <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs-en.html" id="magazine-article-link" target="_blank" rel="noopener" class="media-link-card">
+                    <span style="font-size:1.8rem;">📰</span>
+                    <div>
+                        <strong style="color:var(--sage-dark); display:block;">COSYmagazine Article</strong>
+                        <small style="color:var(--ink-soft);" id="magazine-article-sub">Top 10 Verbs Guide &amp; Grammar Breakdown</small>
+                    </div>
+                </a>
+
+                <a href="https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE" target="_blank" rel="noopener" class="media-link-card">
+                    <span style="font-size:1.8rem;">▶️</span>
+                    <div>
+                        <strong style="color:var(--sage-dark); display:block;">YouTube Playlist</strong>
+                        <small style="color:var(--ink-soft);">Irregular &amp; Core Verbs Video Lessons</small>
+                    </div>
+                </a>
+
+                <a href="https://rutube.ru/plst/1882480" target="_blank" rel="noopener" class="media-link-card">
+                    <span style="font-size:1.8rem;">🎬</span>
+                    <div>
+                        <strong style="color:var(--sage-dark); display:block;">RuTube Playlist</strong>
+                        <small style="color:var(--ink-soft);">Видеоуроки и Спряжение Глаголов</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Toast message for copy link -->
+    <div id="share-toast" class="share-toast">✅ Direct practice link copied to clipboard!</div>
+
+    <script>
+        let currentLang = 'en';
+        let currentPersonFilter = 'both'; // 'both', 'singular', 'plural'
+        let currentPolarityFilter = 'positive'; // 'positive', 'negative', 'question', 'mixed'
+        let currentPracticeMode = 'drill'; // 'drill' or 'table'
+        let currentDbMap = null;
+        let practiceRunner = null;
+        let drillQueue = [];
+        let drillIdx = 0;
+        let drillScore = 0;
+
+        const activeLanguages = (window.COSY_LANGUAGES || []).filter(l => l.status === 'active');
+
+        // Monolingual UI Labels Map
+        const MONOLINGUAL_UI = {
+            en: {
+                step1: "Select Language",
+                step2: "Select Verbs to Practise",
+                step3: "Select Person / Pronoun Group",
+                step4: "Select Sentence Type",
+                step5: "Select Practice Format",
+                selectAll: "Select All",
+                deselectAll: "Deselect All",
+                personBoth: "👥 Both (All Forms)",
+                personSingular: "👤 \"I, you, he, she, it\"",
+                personPlural: "👥 \"We, you, they\"",
+                polPositive: "✅ Positive / Affirmative",
+                polNegative: "🚫 Negative",
+                polQuestion: "❓ Questions",
+                polMixed: "🔀 Mixed",
+                modeDrill: "⚡ Single Form Drill",
+                modeTable: "📋 Full Conjugation Table",
+                launch: "🚀 Launch Top Verbs Session",
+                copyLink: "🔗 Copy Direct YouTube / Podcast Link",
+                conjugateTag: "✍️ Conjugate Present Form",
+                checkBtn: "Check ➔",
+                continueBtn: "Continue ➔",
+                modifyBtn: "⚙️ Modify Setup"
+            },
+            fr: {
+                step1: "Choisir la langue",
+                step2: "Choisir les verbes à pratiquer",
+                step3: "Choisir le groupe de personnes",
+                step4: "Choisir la forme de phrase",
+                step5: "Choisir le format de pratique",
+                selectAll: "Tout sélectionner",
+                deselectAll: "Tout désélectionner",
+                personBoth: "👥 Toutes les personnes",
+                personSingular: "👤 Singular (je, tu, il/elle/on)",
+                personPlural: "👥 Pluriel (nous, vous, ils/elles)",
+                polPositive: "✅ Affirmative",
+                polNegative: "🚫 Négative",
+                polQuestion: "❓ Interrogative",
+                polMixed: "🔀 Mélangée",
+                modeDrill: "⚡ Exercice individuel",
+                modeTable: "📋 Tableau de conjugaison",
+                launch: "🚀 Démarrer la session de verbes",
+                copyLink: "🔗 Copier le lien direct pour YouTube / Podcast",
+                conjugateTag: "✍️ Conjuguez au présent",
+                checkBtn: "Vérifier ➔",
+                continueBtn: "Continuer ➔",
+                modifyBtn: "⚙️ Modifier la configuration"
+            },
+            es: {
+                step1: "Seleccionar idioma",
+                step2: "Seleccionar verbos para practicar",
+                step3: "Seleccionar grupo de personas",
+                step4: "Seleccionar tipo de oración",
+                step5: "Seleccionar formato de práctica",
+                selectAll: "Seleccionar todo",
+                deselectAll: "Deseleccionar todo",
+                personBoth: "👥 Todas las personas",
+                personSingular: "👤 Singular (yo, tú, él/ella/usted)",
+                personPlural: "👥 Plural (nosotros, vosotros, ellos/ellas)",
+                polPositive: "✅ Afirmativa",
+                polNegative: "🚫 Negativa",
+                polQuestion: "❓ Interrogativa",
+                polMixed: "🔀 Mezclada",
+                modeDrill: "⚡ Ejercicio individual",
+                modeTable: "📋 Tabla de conjugación",
+                launch: "🚀 Iniciar sesión de verbos",
+                copyLink: "🔗 Copiar enlace directo para YouTube / Podcast",
+                conjugateTag: "✍️ Conjuga en presente",
+                checkBtn: "Comprobar ➔",
+                continueBtn: "Continuar ➔",
+                modifyBtn: "⚙️ Modificar configuración"
+            },
+            it: {
+                step1: "Seleziona lingua",
+                step2: "Seleziona verbi da praticare",
+                step3: "Seleziona gruppo di persone",
+                step4: "Seleziona tipo di frase",
+                step5: "Seleziona formato di esercizio",
+                selectAll: "Seleziona tutto",
+                deselectAll: "Deseleziona tutto",
+                personBoth: "👥 Tutte le persone",
+                personSingular: "👤 Singolare (io, tu, lui/lei)",
+                personPlural: "👥 Plurale (noi, voi, loro)",
+                polPositive: "✅ Affermativa",
+                polNegative: "🚫 Negativa",
+                polQuestion: "❓ Interrogativa",
+                polMixed: "🔀 Mista",
+                modeDrill: "⚡ Esercizio singolo",
+                modeTable: "📋 Tabella di coniugazione",
+                launch: "🚀 Avvia sessione verbi",
+                copyLink: "🔗 Copia link diretto per YouTube / Podcast",
+                conjugateTag: "✍️ Coniuga al presente",
+                checkBtn: "Verifica ➔",
+                continueBtn: "Continua ➔",
+                modifyBtn: "⚙️ Modifica impostazioni"
+            },
+            de: {
+                step1: "Sprache auswählen",
+                step2: "Verben zum Üben auswählen",
+                step3: "Personengruppe auswählen",
+                step4: "Satzform auswählen",
+                step5: "Übungsformat auswählen",
+                selectAll: "Alle auswählen",
+                deselectAll: "Alle abwählen",
+                personBoth: "👥 Alle Personen",
+                personSingular: "👤 Singular (ich, du, er/sie/es)",
+                personPlural: "👥 Plural (wir, ihr, sie/Sie)",
+                polPositive: "✅ Positiv / Aussagesatz",
+                polNegative: "🚫 Negativ / Verneinung",
+                polQuestion: "❓ Frageform",
+                polMixed: "🔀 Gemischt",
+                modeDrill: "⚡ Einzeleinzelfrage",
+                modeTable: "📋 Vollständige Konjugationstabelle",
+                launch: "🚀 Verben-Sitzung starten",
+                copyLink: "🔗 Direkten Link für YouTube / Podcast kopieren",
+                conjugateTag: "✍️ Präsens konjugieren",
+                checkBtn: "Prüfen ➔",
+                continueBtn: "Weiter ➔",
+                modifyBtn: "⚙️ Einstellungen ändern"
+            },
+            ru: {
+                step1: "Выберите язык",
+                step2: "Выберите глаголы для практики",
+                step3: "Выберите группу лиц",
+                step4: "Выберите тип предложения",
+                step5: "Выберите формат упражнения",
+                selectAll: "Выбрать все",
+                deselectAll: "Снять все",
+                personBoth: "👥 Все формы",
+                personSingular: "👤 Единственное число (я, ты, он/она/оно)",
+                personPlural: "👥 Множественное число (мы, вы, они)",
+                polPositive: "✅ Утвердительное",
+                polNegative: "🚫 Отрицательное",
+                polQuestion: "❓ Вопросительное",
+                polMixed: "🔀 Смешанный тип",
+                modeDrill: "⚡ Отдельные упражнения",
+                modeTable: "📋 Таблица спряжения",
+                launch: "🚀 Начать практику глаголов",
+                copyLink: "🔗 Скопировать ссылку для YouTube / Подкаста",
+                conjugateTag: "✍️ Проспрягайте в настоящем времени",
+                checkBtn: "Проверить ➔",
+                continueBtn: "Продолжить ➔",
+                modifyBtn: "⚙️ Изменить настройки"
+            },
+            el: {
+                step1: "Επιλέξτε γλώσσα",
+                step2: "Επιλέξτε ρήματα για εξάσκηση",
+                step3: "Επιλέξτε πρόσωπα",
+                step4: "Επιλέξτε τύπο πρότασης",
+                step5: "Επιλέξτε μορφή εξάσκησης",
+                selectAll: "Επιλογή όλων",
+                deselectAll: "Αποεπιλογή όλων",
+                personBoth: "👥 Όλα τα πρόσωπα",
+                personSingular: "👤 Ενικός (εγώ, εσύ, αυτός/αυτή/αυτό)",
+                personPlural: "👥 Πληθυντικός (εμείς, εσείς, αυτοί/αυτές/αυτά)",
+                polPositive: "✅ Κατάφαση",
+                polNegative: "🚫 Άρνηση",
+                polQuestion: "❓ Ερώτηση",
+                polMixed: "🔀 Αναμεμειγμένα",
+                modeDrill: "⚡ Μεμονωμένες ασκήσεις",
+                modeTable: "📋 Πίνακας κλίσης",
+                launch: "🚀 Έναρξη εξάσκησης",
+                copyLink: "🔗 Αντιγραφή συνδέσμου για YouTube / Podcast",
+                conjugateTag: "✍️ Κλίνετε στον Ενεστώτα",
+                checkBtn: "Έλεγχος ➔",
+                continueBtn: "Συνέχεια ➔",
+                modifyBtn: "⚙️ Τροποποίηση ρυθμίσεων"
+            }
+        };
+
+        function initPage() {
+            renderLangPills();
+            parseQueryParams();
+            loadLanguageData(currentLang);
+        }
+
+        function parseQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('lang')) {
+                const l = params.get('lang').toLowerCase();
+                if (activeLanguages.some(x => x.code === l)) {
+                    currentLang = l;
+                }
+            }
+            if (params.has('persons')) {
+                const p = params.get('persons').toLowerCase();
+                if (['both', 'singular', 'plural', 'all'].includes(p)) {
+                    currentPersonFilter = (p === 'all') ? 'both' : p;
+                }
+            }
+            if (params.has('polarity')) {
+                const pol = params.get('polarity').toLowerCase();
+                if (['positive', 'negative', 'question', 'mixed'].includes(pol)) {
+                    currentPolarityFilter = pol;
+                }
+            }
+            if (params.has('mode')) {
+                const m = params.get('mode').toLowerCase();
+                if (['drill', 'table'].includes(m)) {
+                    currentPracticeMode = m;
+                }
+            }
+            updatePersonFilterUI();
+            updatePolarityFilterUI();
+            updateModeFilterUI();
+            updateLangPillsUI();
+        }
+
+        function renderLangPills() {
+            const container = document.getElementById('lang-pills-container');
+            if (!container) return;
+
+            container.innerHTML = activeLanguages.map(l => `
+                <button type="button" class="lang-pill ${l.code === currentLang ? 'active' : ''}" id="lang-pill-${l.code}" onclick="switchLanguage('${l.code}')">
+                    <span>${l.flag}</span> <span>${l.name}</span>
+                </button>
+            `).join('');
+        }
+
+        function updateLangPillsUI() {
+            activeLanguages.forEach(l => {
+                const el = document.getElementById(`lang-pill-${l.code}`);
+                if (el) {
+                    if (l.code === currentLang) el.classList.add('active');
+                    else el.classList.remove('active');
+                }
+            });
+        }
+
+        function switchLanguage(langCode) {
+            currentLang = langCode;
+            updateLangPillsUI();
+            applyMonolingualUI(langCode);
+            loadLanguageData(langCode);
+            updateMagazineLink(langCode);
+        }
+
+        function applyMonolingualUI(langCode) {
+            const ui = MONOLINGUAL_UI[langCode] || MONOLINGUAL_UI.en;
+
+            const setTxt = (id, txt) => {
+                const el = document.getElementById(id);
+                if (el && txt) el.innerText = txt;
+            };
+
+            setTxt('lbl-step1', ui.step1);
+            setTxt('lbl-step2', ui.step2);
+            setTxt('lbl-step3', ui.step3);
+            setTxt('lbl-step4', ui.step4);
+            setTxt('lbl-step5', ui.step5);
+            setTxt('btn-select-all', ui.selectAll);
+            setTxt('btn-deselect-all', ui.deselectAll);
+            setTxt('lbl-person-both', ui.personBoth);
+            setTxt('lbl-person-singular', ui.personSingular);
+            setTxt('lbl-person-plural', ui.personPlural);
+            setTxt('lbl-pol-positive', ui.polPositive);
+            setTxt('lbl-pol-negative', ui.polNegative);
+            setTxt('lbl-pol-question', ui.polQuestion);
+            setTxt('lbl-pol-mixed', ui.polMixed);
+            setTxt('lbl-mode-drill', ui.modeDrill);
+            setTxt('lbl-mode-table', ui.modeTable);
+            setTxt('btn-launch', ui.launch);
+            setTxt('btn-copy-link', ui.copyLink);
+        }
+
+        function updateMagazineLink(langCode) {
+            const link = document.getElementById('magazine-article-link');
+            const sub = document.getElementById('magazine-article-sub');
+            if (!link) return;
+
+            const targetUrl = `https://cosylanguages.github.io/COSYmagazine/top-10-verbs-${langCode}.html`;
+            link.href = targetUrl;
+            if (sub) sub.innerText = `Top 10 Verbs Guide for ${langCode.toUpperCase()}`;
+        }
+
+        function loadLanguageData(langCode) {
+            const cfg = COSYTopVerbs.getConfig(langCode);
+            if (!cfg) return;
+
+            const dataUrl = `../../${cfg.toolPath}data/verbs.json`;
+            fetch(dataUrl)
+                .then(res => res.json())
+                .then(dbMap => {
+                    currentDbMap = dbMap;
+                    renderVerbsChecklist(langCode, dbMap);
+
+                    const params = new URLSearchParams(window.location.search);
+                    if (params.has('start') && (params.get('start') === 'true' || params.get('start') === '1')) {
+                        startCustomPractice();
+                    }
+                })
+                .catch(err => {
+                    console.error('Failed to load verb data:', err);
+                });
+        }
+
+        function renderVerbsChecklist(langCode, dbMap) {
+            const grid = document.getElementById('verbs-checklist-grid');
+            if (!grid) return;
+
+            const cfg = COSYTopVerbs.getConfig(langCode);
+            if (!cfg) return;
+
+            const urlParams = new URLSearchParams(window.location.search);
+            let preSelected = null;
+            if (urlParams.has('verbs')) {
+                const vStr = urlParams.get('verbs');
+                if (vStr !== 'all') {
+                    preSelected = vStr.split(',').map(s => s.trim().toLowerCase());
+                }
+            }
+
+            grid.innerHTML = cfg.lemmas.map((lemma, idx) => {
+                const entry = COSYTopVerbs.findEntry(langCode, dbMap, lemma);
+                const def = entry ? (entry.definition || entry.usage_hint || '') : '';
+                const isChecked = preSelected ? preSelected.includes(lemma.toLowerCase()) : true;
+
+                return `
+                    <label class="top-verb-checkbox-label">
+                        <input type="checkbox" class="verb-cb" value="${lemma}" ${isChecked ? 'checked' : ''}>
+                        <strong>${lemma}</strong>
+                        ${def ? `<small style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${def})</small>` : ''}
+                    </label>
+                `;
+            }).join('');
+
+            updatePersonLabels(langCode);
+        }
+
+        function selectAllVerbs(select) {
+            document.querySelectorAll('.verb-cb').forEach(cb => {
+                cb.checked = select;
+            });
+        }
+
+        function getSelectedVerbs() {
+            const selected = [];
+            document.querySelectorAll('.verb-cb:checked').forEach(cb => {
+                selected.push(cb.value);
+            });
+            return selected;
+        }
+
+        function setPersonFilter(val) {
+            currentPersonFilter = val;
+            updatePersonFilterUI();
+        }
+
+        function updatePersonFilterUI() {
+            ['both', 'singular', 'plural'].forEach(type => {
+                const card = document.getElementById(`person-card-${type}`);
+                if (card) {
+                    if (type === currentPersonFilter) card.classList.add('active');
+                    else card.classList.remove('active');
+                }
+            });
+        }
+
+        function setPolarityFilter(val) {
+            currentPolarityFilter = val;
+            updatePolarityFilterUI();
+        }
+
+        function updatePolarityFilterUI() {
+            ['positive', 'negative', 'question', 'mixed'].forEach(p => {
+                const card = document.getElementById(`polarity-card-${p}`);
+                if (card) {
+                    if (p === currentPolarityFilter) card.classList.add('active');
+                    else card.classList.remove('active');
+                }
+            });
+        }
+
+        function updatePersonLabels(langCode) {
+            const pMap = COSYTopVerbs.PRONOUN_MAP[langCode] || COSYTopVerbs.PRONOUN_MAP.en;
+            const sgDesc = document.getElementById('person-desc-singular');
+            const plDesc = document.getElementById('person-desc-plural');
+
+            if (sgDesc) sgDesc.innerText = pMap.singular ? pMap.singular.join(', ') : 'Singular forms';
+            if (plDesc) plDesc.innerText = pMap.plural ? pMap.plural.join(', ') : 'Plural forms';
+        }
+
+        function setPracticeMode(mode) {
+            currentPracticeMode = mode;
+            updateModeFilterUI();
+        }
+
+        function updateModeFilterUI() {
+            ['drill', 'table'].forEach(m => {
+                const card = document.getElementById(`mode-card-${m}`);
+                if (card) {
+                    if (m === currentPracticeMode) card.classList.add('active');
+                    else card.classList.remove('active');
+                }
+            });
+        }
+
+        function showSetupCard() {
+            document.getElementById('setup-card').style.display = 'block';
+            document.getElementById('practice-card').style.display = 'none';
+        }
+
+        function startCustomPractice() {
+            const selectedVerbs = getSelectedVerbs();
+            if (selectedVerbs.length === 0) {
+                alert('Please select at least one verb to practise!');
+                return;
+            }
+
+            document.getElementById('setup-card').style.display = 'none';
+            document.getElementById('practice-card').style.display = 'block';
+
+            const langObj = activeLanguages.find(l => l.code === currentLang) || activeLanguages[0];
+            document.getElementById('practice-lang-flag').innerText = langObj.flag;
+            document.getElementById('practice-title-text').innerText = `${langObj.name} Top Verbs Practice (${currentPersonFilter.toUpperCase()} · ${currentPolarityFilter.toUpperCase()})`;
+
+            if (currentPracticeMode === 'table') {
+                launchTablePractice(selectedVerbs);
+            } else {
+                launchSingleDrillsPractice(selectedVerbs);
+            }
+        }
+
+        /* ── SINGLE FORM DRILL ENGINE ── */
+        function launchSingleDrillsPractice(selectedVerbs) {
+            drillQueue = COSYTopVerbs.generateSingleDrills(currentLang, currentDbMap, currentPersonFilter, selectedVerbs, currentPolarityFilter);
+
+            // Shuffle drill items
+            drillQueue.sort(() => Math.random() - 0.5);
+            drillIdx = 0;
+            drillScore = 0;
+
+            renderSingleDrillItem();
+        }
+
+        function renderSingleDrillItem() {
+            const container = document.getElementById('practice-card-content');
+            if (!container) return;
+
+            if (drillIdx >= drillQueue.length) {
+                finishSingleDrillSession();
+                return;
+            }
+
+            const current = drillQueue[drillIdx];
+            const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;
+
+            const accentBtnsHtml = (current.accents || []).map(acc => `
+                <button type="button" class="accent-btn" onclick="insertAccentChar('${acc}')">${acc}</button>
+            `).join('');
+
+            container.innerHTML = `
+                <div class="question-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                    <div>
+                        <span class="badge type-badge" style="background:var(--sage-mist); color:var(--sage-dark); font-weight:700; padding:2px 10px; border-radius:12px;">TOP 10 VERBS</span>
+                        <span style="font-weight:700; color:var(--sage-dark); margin-left:0.5rem;">${current.lemma}</span>
+                        ${current.polarity ? `<span style="background:#e0f2fe; color:#0369a1; font-weight:700; padding:2px 8px; border-radius:10px; font-size:0.8rem; margin-left:0.4rem;">${current.polarity.toUpperCase()}</span>` : ''}
+                    </div>
+                    <span style="color:var(--ink-soft); font-weight:600;">Question ${drillIdx + 1} of ${drillQueue.length}</span>
+                </div>
+
+                <div class="blank-prompt" style="text-align:center; margin-bottom:1.5rem;">
+                    <span class="prompt-badge blank-badge" style="background:var(--sage-mist); color:var(--sage-dark); padding:3px 12px; border-radius:12px; font-weight:700;">${ui.conjugateTag || "✍️ Conjugate Present Form"}</span>
+                    <h2 style="font-family:var(--ref-font-serif); color:var(--sage-dark); font-size:1.8rem; margin:0.75rem 0 0.25rem 0;">"${current.prompt}"</h2>
+                    ${current.definition ? `<p style="color:var(--ink-soft); margin:0; font-style:italic;">Definition: ${current.definition}</p>` : ''}
+                </div>
+
+                <div style="max-width:500px; margin:0 auto;">
+                    <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
+                        <input type="text" id="drill-single-input" class="sprint-input-group" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem; outline:none;" placeholder="Type form..." autocomplete="off" autofocus onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:#fff;" onclick="checkSingleDrillAnswer()">${ui.checkBtn || "Check ➔"}</button>
+                    </div>
+
+                    ${accentBtnsHtml ? `<div class="accent-bar">${accentBtnsHtml}</div>` : ''}
+
+                    <div id="single-drill-feedback" style="display:none; margin-top:1rem; padding:0.8rem 1rem; border-radius:10px; font-weight:700; text-align:center;"></div>
+                    <button id="single-drill-next-btn" class="ref-btn" style="display:none; margin:1rem auto 0 auto;" onclick="nextSingleDrillItem()">${ui.continueBtn || "Continue ➔"}</button>
+                </div>
+            `;
+        }
+
+        function insertAccentChar(char) {
+            const input = document.getElementById('drill-single-input');
+            if (!input) return;
+            input.value += char;
+            input.focus();
+        }
+
+        function checkSingleDrillAnswer() {
+            const input = document.getElementById('drill-single-input');
+            if (!input || input.disabled) return;
+
+            const typed = input.value;
+            const current = drillQueue[drillIdx];
+
+            const isCorrect = PracticeEngine.normalizeConjugationAnswer(typed, current.expected);
+
+            const fb = document.getElementById('single-drill-feedback');
+            const nextBtn = document.getElementById('single-drill-next-btn');
+
+            input.disabled = true;
+            fb.style.display = 'block';
+
+            if (isCorrect) {
+                drillScore += 10;
+                fb.style.background = '#dcfce7';
+                fb.style.color = '#166534';
+                fb.innerHTML = `✅ Perfect! <strong>${current.expected}</strong>`;
+                COSYReferenceUtils.removeWeakSpot(current.id, currentLang);
+            } else {
+                fb.style.background = '#fee2e2';
+                fb.style.color = '#991b1b';
+                fb.innerHTML = `❌ Incorrect. Expected: <strong>${current.expected}</strong>`;
+
+                COSYReferenceUtils.recordWeakSpot({
+                    id: current.id,
+                    lang: currentLang,
+                    type: 'Top Verbs Conjugation',
+                    prompt: current.prompt,
+                    answer: current.expected
+                });
+            }
+
+            if (nextBtn) nextBtn.style.display = 'block';
+        }
+
+        function nextSingleDrillItem() {
+            drillIdx++;
+            renderSingleDrillItem();
+        }
+
+        function finishSingleDrillSession() {
+            const container = document.getElementById('practice-card-content');
+            if (!container) return;
+
+            // Trigger victory confetti particle animation
+            const engine = new PracticeEngine();
+            engine.launchVictoryConfetti();
+
+            const pct = Math.round((drillScore / (drillQueue.length * 10)) * 100);
+
+            container.innerHTML = `
+                <div style="text-align:center; padding:1.5rem 1rem;">
+                    <span style="font-size:3rem;">🎉</span>
+                    <h2 style="font-family:var(--ref-font-serif); color:var(--sage-dark); margin:0.5rem 0;">Session Completed!</h2>
+                    <p style="color:var(--ink-soft); font-size:1.1rem; margin-bottom:1.5rem;">Score: <strong>${drillScore} pts</strong> (${pct}% accuracy)</p>
+
+                    <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark);" onclick="startCustomPractice()">🔁 Practice Again</button>
+                        <button type="button" class="ref-btn ref-btn-secondary" onclick="showSetupCard()">⚙️ Change Settings</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        /* ── TABLE PRACTICE ENGINE ── */
+        function launchTablePractice(selectedVerbs) {
+            const pool = COSYTopVerbs.getTopVerbsPool(currentLang, currentDbMap, currentPersonFilter, selectedVerbs);
+
+            const srs = new SpacedRepetitionStore(`cosy-top10-${currentLang}`);
+            practiceRunner = new PracticeEngine({
+                containerId: 'practice-card-content',
+                practiceModes: ['conjugate'],
+                srsStore: srs,
+                sessionLength: pool.length
+            });
+
+            practiceRunner.poolProvider = () => pool;
+            practiceRunner.startSession();
+            window.appEngine = { practice: practiceRunner };
+        }
+
+        function copyShareableLink() {
+            const selectedVerbs = getSelectedVerbs();
+            const verbsParam = (selectedVerbs.length === COSYTopVerbs.getConfig(currentLang).lemmas.length) ? 'all' : selectedVerbs.join(',');
+
+            const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                const toast = document.getElementById('share-toast');
+                if (toast) {
+                    toast.style.display = 'block';
+                    setTimeout(() => { toast.style.display = 'none'; }, 2500);
+                }
+            }).catch(err => {
+                prompt('Copy this practice link for your YouTube description or podcast notes:', shareUrl);
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', initPage);
+    </script>
+
+    <!-- Shared Shell Footer -->
+<footer class="app-footer cosy-footer">
+  <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
+    <p>🌿 <strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side & private.</p>
+    <p><small>© COSYlanguages. Open language reference tools.</small></p>
+  </div>
+</footer>
+</body>
+</html>
