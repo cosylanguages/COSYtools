@@ -605,7 +605,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.empty-state-box h3 {
+.empty-state-box h2, .empty-state-box h3 {
     color: var(--sage-primary);
     font-size: 1.4rem;
     margin-bottom: 0.5rem;

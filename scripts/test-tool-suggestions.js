@@ -19,6 +19,8 @@ const ok = (c, m) => { if (!c) { fails++; console.log('FAIL', m); } else console
 const PAGES = ['de/praepositionen', 'el/genos-ptoseis', 'el/klisi-rimaton', 'el/syntaxi', 'en/irregular-verbs', 'en/verb-prep',
   'fr/conjugeur', 'fr/genre', 'fr/regime', 'it/coniugatore', 'it/genere', 'it/reggenza', 'ru/rod-padezhi', 'ru/spryazhenie'];
 
+function getComputedStyleDisplay(w, el) { return w.getComputedStyle(el).display; }
+
 async function testPage(tool) {
   const errs = [];
   const vc = new VirtualConsole(); vc.on('jsdomError', e => errs.push(e.message));
@@ -42,7 +44,8 @@ async function testPage(tool) {
   const items = [...box.querySelectorAll('.suggestion-item')];
   ok(items.every(i => i.tagName === 'BUTTON' && i.type === 'button' && i.dataset.key), `${tool}: ${items.length} suggestions are buttons with data-key`);
   await sleep(50);
-  ok(input.getAttribute('aria-expanded') === 'true' && input.getAttribute('aria-controls') === 'search-suggestions', `${tool}: input exposes aria-expanded/aria-controls`);
+  const live = [...d.querySelectorAll('[role="status"]')].map(e => e.textContent).join(' ');
+  ok(/\d/.test(live) && !input.hasAttribute('aria-expanded'), `${tool}: result count is announced (and no unsupported aria-expanded on the text field)`);
   input.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'ArrowDown', bubbles: true }));
   ok(d.activeElement === items[0], `${tool}: ArrowDown moves focus into the list`);
   if (items.length > 1) {
@@ -52,7 +55,7 @@ async function testPage(tool) {
   }
   items[0].dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await sleep(60);
-  ok(d.activeElement === input && input.getAttribute('aria-expanded') === 'false', `${tool}: Escape returns to the input and closes the list`);
+  ok(d.activeElement === input && getComputedStyleDisplay(w, box) === 'none', `${tool}: Escape returns to the input and closes the list`);
   ok(errs.length === 0, `${tool}: no script errors ${errs.slice(0, 1).join('|')}`);
 
   // selecting: the handler must run without throwing (including keys with apostrophes)

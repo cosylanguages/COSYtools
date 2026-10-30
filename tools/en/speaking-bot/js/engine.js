@@ -68,7 +68,7 @@
             var card = el('div', 'sb-card');
             var lvl = el('span', 'sb-level', sc.level);
             card.appendChild(lvl);
-            card.appendChild(el('h3', '', sc.title));
+            card.appendChild(el('h2', '', sc.title));
             card.appendChild(el('p', 'sb-meta', sc.botRole + ' ↔ ' + sc.learnerRole + ' · ' + sc.turns.length + ' turns'));
             card.appendChild(el('p', 'sb-obj', '🎯 ' + sc.objective));
             var btn = el('button', 'btn btn-primary', 'Start role-play');

@@ -269,6 +269,9 @@ class PracticeEngine {
             renderer(item, format, container, this);
         }
 
+        // Give the question's h3 headings a parent heading (hidden visually, available to screen readers)
+        container.insertAdjacentHTML('afterbegin', `<h2 style="${COSY_SR_ONLY}">Practice</h2>`);
+
         // `autofocus` is ignored for dynamically inserted content, so focus explicitly
         const first = container.querySelector('input:not([disabled]), .choice-btn, .match-left');
         if (first && typeof first.focus === 'function') first.focus();
@@ -1249,7 +1252,7 @@ class PracticeEngine {
         container.innerHTML = `
             <div class="session-summary-box">
                 <span class="summary-icon">🎉</span>
-                <h3>Practice Round Complete!</h3>
+                <h2 style="font-size: 1.17em;">Practice Round Complete!</h2>
                 <p>Great job! You answered ${this.sessionCorrectItems.length} out of ${this.currentSession.length} correctly.</p>
 
                 <div class="summary-stats-grid">

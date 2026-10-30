@@ -12,7 +12,7 @@
 
 .sb-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap:14px; }
 .sb-card { background: var(--surface-color, #FFFFFF); border:1px solid var(--border, rgba(74, 107, 80, 0.12)); border-radius:14px; padding:16px; display:flex; flex-direction:column; gap:8px; }
-.sb-card h3 { margin:0; font-size:1.05rem; }
+.sb-card h2, .sb-card h3 { margin:0; font-size:1.05rem; }
 .sb-level { align-self:flex-start; background: var(--sage-mist, #f0f5f1); color: var(--sage-dark, #375742); font-weight:800; font-size:.72rem; padding:3px 9px; border-radius:999px; }
 .sb-meta { margin:0; font-size:.8rem; color: var(--ink-muted, #5c5957); }
 .sb-obj { margin:0; font-size:.85rem; }

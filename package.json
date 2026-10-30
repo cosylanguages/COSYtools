@@ -20,14 +20,16 @@
     "validate:linguistic": "node scripts/validate_linguistic_datasets.js",
     "test:workflow": "node scripts/test-practice-workflow.js",
     "test:security": "node scripts/test-security.js",
-    "test": "npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:workflow && npm run check:fonts && npm run check:a11y && npm run validate:linguistic && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run check:smoke",
+    "test": "npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:workflow && npm run check:fonts && npm run check:a11y && npm run validate:linguistic && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run test:axe && npm run check:smoke",
     "test:coverage": "node scripts/test_present_tense_coverage.js",
     "test:top-verbs": "node scripts/test-top-verbs.js",
     "test:practice-pages": "node scripts/test-practice-pages.js",
-    "test:tool-suggestions": "node scripts/test-tool-suggestions.js"
+    "test:tool-suggestions": "node scripts/test-tool-suggestions.js",
+    "test:axe": "node scripts/test-axe.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",
-    "puppeteer-core": "^24.3.0"
+    "puppeteer-core": "^24.3.0",
+    "axe-core": "^4.10.0"
   }
 }

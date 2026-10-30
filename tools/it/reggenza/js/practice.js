@@ -62,7 +62,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="mistake-spot-prompt">
                     <span class="prompt-badge spot-badge">⚠️ Correggi l'errore</span>
-                    <h4>Identifica la struttura corretta per: <strong class="highlight-word">${promptWord}</strong></h4>
+                    <h2 style="font-size: 1em;">Identifica la struttura corretta per: <strong class="highlight-word">${promptWord}</strong></h2>
                     <p class="mistake-line">${data.common_mistake.split('➜')[0] || data.common_mistake}</p>
                 </div>
             `;
@@ -80,7 +80,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="blank-prompt">
                     <span class="prompt-badge blank-badge">💡 Completa la frase</span>
-                    <h3>${promptWord}</h3>
+                    <h2 style="font-size: 1.17em;">${promptWord}</h2>
                     <p class="sentence-box">"${blankSentence}"</p>
                 </div>
             `;
@@ -88,7 +88,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="mc-prompt">
                     <span class="prompt-badge mc-badge">🎯 Preposizione reggente</span>
-                    <h3>${promptWord}</h3>
+                    <h2 style="font-size: 1.17em;">${promptWord}</h2>
                     <p class="definition-hint"><em>${data.definition || ''}</em></p>
                 </div>
             `;
@@ -196,7 +196,7 @@ class PracticeManager extends PracticeEngine {
         practiceContainer.innerHTML = `
             <div class="session-summary-box">
                 <span class="summary-icon">🎉</span>
-                <h3>Sessione completata!</h3>
+                <h2 style="font-size: 1.17em;">Sessione completata!</h2>
                 <p>Ottimo lavoro! Hai risposto correttamente a ${this.sessionCorrectItems.length} su ${this.currentSession.length} voci.</p>
 
                 <div class="summary-stats-grid">

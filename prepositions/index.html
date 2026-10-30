@@ -64,7 +64,7 @@
             <div style="flex:1; min-width:240px; position:relative;">
                 <input type="text" id="prep-search-input" class="ref-search-input" placeholder="Search for verb or preposition (e.g. depend, parler, pensare)..." oninput="onPrepSearchChange()">
             </div>
-            <select id="prep-lang-selector" onchange="onPrepLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
+            <select id="prep-lang-selector" aria-label="Select language" onchange="onPrepLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
                 <option value="en" selected>🇬🇧 English</option>
                 <option value="fr">🇫🇷 French</option>
                 <option value="it">🇮🇹 Italian</option>
