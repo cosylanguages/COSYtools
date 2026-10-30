@@ -554,10 +554,10 @@ class FrenchRegimeEngine {
                 const preps = (data.prepositions || []).join(' / ');
                 const prepLabel = preps === 'none' ? 'Direct' : `Prép : ${preps}`;
                 return `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key.replace(/'/g, "\\'")}')">
+                <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong></span>
                     <span class="text-label-sage">${prepLabel}</span>
-                </div>
+                </button>
             `;
             }).join('');
             suggestionsBox.style.display = 'block';

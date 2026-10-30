@@ -263,10 +263,10 @@ class EnglishVerbPrepEngine {
                     typeLabel = (this.currentWordType || 'verbs').slice(0, -1).toUpperCase();
                 }
                 return `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
+                <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong></span>
                     <span style="color: ${data.is_phrasal ? 'var(--purple-both)' : 'var(--ink-muted)'}; font-size: 0.85rem; font-weight: 600;">${typeLabel}</span>
-                </div>
+                </button>
             `;
             }).join('');
             suggestionsBox.style.display = 'block';

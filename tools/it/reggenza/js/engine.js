@@ -278,10 +278,10 @@ class ItalianReggenzaEngine {
                 const prepLabel = preps === 'none' ? 'Diretto (senza prep)' : `Prép: ${preps}`;
                 const proLabel = data.pronominal ? ' [Pronominale]' : (data.word_type ? ` [${data.word_type.toUpperCase()}]` : '');
                 return `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key.replace(/'/g, "\\'")}')">
+                <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong>${proLabel}</span>
                     <span class="text-label-sage">${prepLabel}</span>
-                </div>
+                </button>
             `;
             }).join('');
             suggestionsBox.style.display = 'block';

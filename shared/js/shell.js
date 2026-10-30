@@ -200,6 +200,98 @@
     }
 
     // --------------------------------------------------------------------------
+    // Search suggestions: keyboard + screen reader support (shared by all tools)
+    // --------------------------------------------------------------------------
+    var SUGGESTION_I18N = {
+        en: { label: 'Suggestions', count: '{n} suggestions available. Press the down arrow to browse them.' },
+        fr: { label: 'Suggestions', count: '{n} suggestions disponibles. Appuyez sur la flèche du bas pour les parcourir.' },
+        es: { label: 'Sugerencias', count: '{n} sugerencias disponibles. Pulsa la flecha abajo para recorrerlas.' },
+        it: { label: 'Suggerimenti', count: '{n} suggerimenti disponibili. Premi la freccia giù per scorrerli.' },
+        de: { label: 'Vorschläge', count: '{n} Vorschläge verfügbar. Mit der Pfeiltaste nach unten durchblättern.' },
+        pt: { label: 'Sugestões', count: '{n} sugestões disponíveis. Prima a seta para baixo para as percorrer.' },
+        ru: { label: 'Подсказки', count: 'Доступно подсказок: {n}. Нажмите стрелку вниз, чтобы просмотреть.' },
+        el: { label: 'Προτάσεις', count: '{n} διαθέσιμες προτάσεις. Πατήστε το κάτω βέλος για περιήγηση.' }
+    };
+
+    function initSuggestionAccessibility() {
+        var box = document.getElementById('search-suggestions');
+        if (!box || box.getAttribute('data-a11y-init')) return;
+        box.setAttribute('data-a11y-init', '1');
+
+        var lang = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+        var t = SUGGESTION_I18N[lang] || SUGGESTION_I18N.en;
+        var input = (box.parentElement || document).querySelector('input[type="text"], input[type="search"], input:not([type])');
+
+        box.setAttribute('role', 'group');
+        box.setAttribute('aria-label', t.label);
+
+        var status = document.createElement('div');
+        status.setAttribute('role', 'status');
+        status.setAttribute('aria-live', 'polite');
+        status.style.cssText = 'position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;';
+        document.body.appendChild(status);
+
+        function items() { return Array.prototype.slice.call(box.querySelectorAll('.suggestion-item')); }
+        function isOpen() {
+            return items().length > 0 && !box.classList.contains('hidden') && window.getComputedStyle(box).display !== 'none';
+        }
+        function sync() {
+            var open = isOpen();
+            if (input) {
+                input.setAttribute('aria-controls', box.id);
+                input.setAttribute('aria-expanded', open ? 'true' : 'false');
+            }
+            status.textContent = open ? t.count.replace('{n}', String(items().length)) : '';
+        }
+        function closeList() {
+            if (window.appEngine && typeof window.appEngine.hideSuggestions === 'function') {
+                window.appEngine.hideSuggestions();
+            } else {
+                box.style.display = 'none';
+            }
+            sync();
+        }
+
+        new MutationObserver(sync).observe(box, { childList: true, attributes: true, attributeFilter: ['style', 'class'] });
+        sync();
+
+        if (input) {
+            input.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowDown' && isOpen()) {
+                    e.preventDefault();
+                    items()[0].focus();
+                } else if (e.key === 'Escape' && isOpen()) {
+                    closeList();
+                }
+            });
+        }
+
+        box.addEventListener('keydown', function(e) {
+            var list = items();
+            var i = list.indexOf(document.activeElement);
+            if (i === -1) return;
+            if (e.key === 'ArrowDown') { e.preventDefault(); list[Math.min(i + 1, list.length - 1)].focus(); }
+            else if (e.key === 'ArrowUp') { e.preventDefault(); if (i === 0 && input) input.focus(); else list[Math.max(i - 1, 0)].focus(); }
+            else if (e.key === 'Home') { e.preventDefault(); list[0].focus(); }
+            else if (e.key === 'End') { e.preventDefault(); list[list.length - 1].focus(); }
+            else if (e.key === 'Escape') { e.preventDefault(); if (input) input.focus(); closeList(); }
+        });
+
+        // After choosing a suggestion the focused button disappears: return focus to the search field
+        box.addEventListener('click', function(e) {
+            if (e.target.closest && e.target.closest('.suggestion-item') && input) {
+                setTimeout(function() { input.focus(); }, 0);
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initSuggestionAccessibility);
+    } else {
+        initSuggestionAccessibility();
+    }
+
+    // --------------------------------------------------------------------------
     // Compatibility Object
     // --------------------------------------------------------------------------
     window.COSY = window.COSY || {};

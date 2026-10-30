@@ -46,10 +46,10 @@ class NounGenderEngine {
         const matches = Object.keys(this.nounDb).filter(n => n.startsWith(q));
         if (matches.length > 0) {
             suggestionsBox.innerHTML = matches.map(n => `
-                <div class="suggestion-item" onclick="appEngine.searchNoun('${n}')">
+                <button type="button" class="suggestion-item" data-key="${String(n).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchNoun(this.dataset.key)">
                     <span><strong>${n}</strong></span>
                     <span class="article">${this.nounDb[n].gender}</span>
-                </div>
+                </button>
             `).join('');
             suggestionsBox.style.display = 'block';
         } else { suggestionsBox.style.display = 'none'; }
