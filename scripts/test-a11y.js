@@ -132,6 +132,29 @@ if (fs.existsSync(baseCssPath)) {
   }
 }
 
+// ---- Scan JavaScript templates (engines render most of the interactive UI) ----
+function collectJsFiles(dir, out) {
+  fs.readdirSync(dir, { withFileTypes: true }).forEach(entry => {
+    if (entry.name === 'node_modules' || entry.name === '.git') return;
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) collectJsFiles(full, out);
+    else if (entry.name.endsWith('.js')) out.push(full);
+  });
+  return out;
+}
+collectJsFiles(ROOT_DIR, []).forEach(file => {
+  const rel = path.relative(ROOT_DIR, file);
+  if (rel.startsWith('scripts' + path.sep)) return;
+  const js = fs.readFileSync(file, 'utf8');
+  const bad = js.match(/<(div|span|h[1-6]|p|li|td)\b[^>]*\sonclick=[^>]*>/gi) || [];
+  bad.forEach(tag => {
+    if (!/role=["'](button|link|radio|checkbox|tab|switch|menuitem|option)["']/i.test(tag) || !/tabindex=/i.test(tag)) {
+      console.error(`❌ [${rel}]: script template renders a clickable non-interactive element (use <button>): ${tag.slice(0, 110)}`);
+      errors++;
+    }
+  });
+});
+
 if (errors > 0) {
   console.error(`\nAccessibility audit failed with ${errors} error(s) and ${warnings} warning(s).`);
   process.exit(1);

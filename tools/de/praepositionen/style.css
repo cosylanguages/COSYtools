@@ -624,3 +624,20 @@ body {
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);
 }
+
+/* suggestion items are <button>s (keyboard + screen reader operable) */
+button.suggestion-item {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font: inherit;
+    color: inherit;
+    text-align: left;
+}
+button.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:focus-visible {
+    outline: 3px solid #1d4ed8;
+    outline-offset: -3px;
+    background: var(--sage-mist, #dcfce7);
+}

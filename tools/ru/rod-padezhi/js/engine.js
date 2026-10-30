@@ -33,10 +33,10 @@ class RussianGenderCasesEngine {
         const matches = Object.keys(this.nounDb).filter(n => n.startsWith(q));
         if (matches.length > 0) {
             box.innerHTML = matches.map(n => `
-                <div class="suggestion-item" onclick="appEngine.searchNoun('${n}')">
+                <button type="button" class="suggestion-item" data-key="${String(n).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchNoun(this.dataset.key)">
                     <span><strong>${n}</strong></span>
                     <span>${this.nounDb[n].gender} род</span>
-                </div>
+                </button>
             `).join('');
             box.style.display = 'block';
         } else box.style.display = 'none';

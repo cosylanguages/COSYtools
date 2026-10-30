@@ -152,10 +152,10 @@ class GreekSyntaxiEngine {
                 const data = this.verbDb[key];
                 const govText = (data.government || []).map(g => g.preposition ? `${g.preposition} + ${g.case}` : g.case).join(', ');
                 return `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
+                <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong></span>
                     <span style="color: var(--sage-primary); font-size: 0.85rem; font-weight: 600;">${govText}</span>
-                </div>
+                </button>
             `;
             }).join('');
             suggestionsBox.style.display = 'block';

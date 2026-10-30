@@ -227,10 +227,10 @@ class EnglishIrregularVerbsEngine {
             suggestionsBox.innerHTML = matches.slice(0, 8).map(key => {
                 const data = this.verbDb[key];
                 return `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
+                <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong> <small style="color: var(--ink-muted);">(${data.past_simple} / ${data.past_participle})</small></span>
                     <span class="badge cefr-badge">${data.level}</span>
-                </div>
+                </button>
             `;
             }).join('');
             suggestionsBox.style.display = 'block';

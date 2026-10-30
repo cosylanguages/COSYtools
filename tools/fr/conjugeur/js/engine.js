@@ -129,10 +129,10 @@ class ConjugationEngine {
 
         if (matches.size > 0 && suggestionsBox) {
             suggestionsBox.innerHTML = Array.from(matches).map(inf => `
-                <div class="suggestion-item" onclick="appEngine.selectSuggestion('${inf}')">
+                <button type="button" class="suggestion-item" data-key="${String(inf).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${inf}</strong></span>
                     <span style="color: var(--ink-muted); font-size: 0.85rem;">${this.verbDb[inf]?.group || ''}</span>
-                </div>
+                </button>
             `).join('');
             suggestionsBox.style.display = 'block';
         } else if (suggestionsBox) {

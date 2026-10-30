@@ -368,13 +368,13 @@ class PracticeManager extends PracticeEngine {
                 </div>
             </div>
 
-            <div class="flashcard-wrapper" onclick="appEngine.practice.flipCard()">
+            <div class="flashcard-wrapper" role="button" tabindex="0" aria-pressed="false" aria-label="Flashcard: ${verb.base}. Press Enter or Space to flip it and reveal the forms." onclick="appEngine.practice.flipCard()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); appEngine.practice.flipCard(); }">
                 <div id="flashcard-card" class="flashcard-inner">
                     <div class="flashcard-front">
                         <span class="prompt-badge mc-badge">🃏 Flashcard — Base Form</span>
                         <div class="flashcard-prompt">${verb.base}</div>
                         <p class="flashcard-hint"><em>${verb.definition}</em></p>
-                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--sage-primary); font-weight: 700;">👆 Click card to flip and reveal forms</p>
+                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--sage-primary); font-weight: 700;"><span aria-hidden="true">👆</span> Click the card (or press Enter) to flip and reveal forms</p>
                     </div>
 
                     <div class="flashcard-back">
@@ -398,6 +398,7 @@ class PracticeManager extends PracticeEngine {
                 </div>
             </div>
 
+            <div id="flashcard-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;"></div>
             <div id="flashcard-eval-buttons" class="flashcard-actions" style="display: none;">
                 <button class="game-btn secondary-btn" style="background: rgba(200, 90, 50, 0.12) !important; color: var(--terracotta) !important; flex: 1;" onclick="appEngine.practice.rateFlashcard(false)">
                     ❌ Hard / Forgot
@@ -414,8 +415,20 @@ class PracticeManager extends PracticeEngine {
         const evalBtns = document.getElementById('flashcard-eval-buttons');
         if (card) {
             card.classList.toggle('flipped');
+            const flipped = card.classList.contains('flipped');
             if (evalBtns) {
-                evalBtns.style.display = card.classList.contains('flipped') ? 'flex' : 'none';
+                evalBtns.style.display = flipped ? 'flex' : 'none';
+            }
+            const wrapper = card.closest('.flashcard-wrapper');
+            if (wrapper) wrapper.setAttribute('aria-pressed', flipped ? 'true' : 'false');
+            // Screen readers cannot see the flip animation: announce the revealed forms
+            const live = document.getElementById('flashcard-live');
+            if (live) {
+                const get = sel => { const el = card.querySelector(sel); return el ? el.textContent.trim() : ''; };
+                const vals = [...card.querySelectorAll('.flashcard-back .form-value')].map(e => e.textContent.trim());
+                live.textContent = flipped
+                    ? `Past simple: ${vals[0] || ''}. Past participle: ${vals[1] || ''}. ${get('.flashcard-back div[style*="margin-top"]')}`
+                    : 'Card turned back to the base form.';
             }
         }
     }

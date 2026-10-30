@@ -50,10 +50,10 @@ class RussianConjugationEngine {
         const matches = Object.keys(this.verbDb).filter(v => v.startsWith(q));
         if (matches.length > 0) {
             box.innerHTML = matches.slice(0, 6).map(v => `
-                <div class="suggestion-item" onclick="appEngine.searchVerb('${v}')">
+                <button type="button" class="suggestion-item" data-key="${String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchVerb(this.dataset.key)">
                     <span><strong>${v}</strong></span>
                     <span>${this.verbDb[v].group}</span>
-                </div>
+                </button>
             `).join('');
             box.style.display = 'block';
         } else box.style.display = 'none';
