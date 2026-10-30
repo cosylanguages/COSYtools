@@ -62,9 +62,9 @@
         <!-- Inputs -->
         <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; max-width:700px; margin: 0 auto 1.5rem auto;">
             <div style="flex:1; min-width:240px; position:relative;">
-                <input type="text" id="noun-search-input" class="ref-search-input" placeholder="Type a noun (e.g. maison, libro, книга, βιβλίο)..." value="maison" oninput="onNounSearchChange()">
+                <input type="text" id="noun-search-input" aria-label="Noun to look up" class="ref-search-input" placeholder="Type a noun (e.g. maison, libro, книга, βιβλίο)..." value="maison" oninput="onNounSearchChange()">
             </div>
-            <select id="gender-lang-selector" onchange="onGenderLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
+            <select id="gender-lang-selector" aria-label="Select language" onchange="onGenderLangChange()" style="padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1rem; font-weight:700; background:var(--ref-surface); color:var(--ref-text);">
                 <option value="fr" selected>🇫🇷 French (Français)</option>
                 <option value="it">🇮🇹 Italian (Italiano)</option>
                 <option value="ru">🇷🇺 Russian (Русский)</option>

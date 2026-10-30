@@ -237,10 +237,6 @@
         }
         function sync() {
             var open = isOpen();
-            if (input) {
-                input.setAttribute('aria-controls', box.id);
-                input.setAttribute('aria-expanded', open ? 'true' : 'false');
-            }
             status.textContent = open ? t.count.replace('{n}', String(items().length)) : '';
         }
         function closeList() {

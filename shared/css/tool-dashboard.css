@@ -815,7 +815,7 @@ body {
 }
 
 .empty-icon { font-size: 3rem; display: block; margin-bottom: 0.75rem; }
-.empty-state-box h3 { font-family: var(--font-serif); font-size: 1.5rem; color: var(--sage-dark); margin-bottom: 0.5rem; }
+.empty-state-box h2, .empty-state-box h3 { font-family: var(--font-serif); font-size: 1.5rem; color: var(--sage-dark); margin-bottom: 0.5rem; }
 .empty-state-box p { color: var(--ink-muted); max-width: 580px; margin: 0 auto 1.5rem; line-height: 1.6; }
 
 .quick-tags {

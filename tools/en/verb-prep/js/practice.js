@@ -77,7 +77,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="blank-prompt">
                     <span class="prompt-badge blank-badge">💡 Complete the Sentence</span>
-                    <h3>${promptWord}</h3>
+                    <h2 style="font-size: 1.17em;">${promptWord}</h2>
                     <p class="sentence-box">"${blankSentence}"</p>
                 </div>
             `;
@@ -85,7 +85,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="mc-prompt">
                     <span class="prompt-badge mc-badge">🎯 Dependent Preposition</span>
-                    <h3>${promptWord}</h3>
+                    <h2 style="font-size: 1.17em;">${promptWord}</h2>
                     <p class="definition-hint"><em>${data.definition || ''}</em></p>
                 </div>
             `;
@@ -193,7 +193,7 @@ class PracticeManager extends PracticeEngine {
         practiceContainer.innerHTML = `
             <div class="session-summary-box">
                 <span class="summary-icon">🎉</span>
-                <h3>Practice Round Complete!</h3>
+                <h2 style="font-size: 1.17em;">Practice Round Complete!</h2>
                 <p>Great job! You answered ${this.sessionCorrectItems.length} out of ${this.currentSession.length} correctly.</p>
 
                 <div class="summary-stats-grid">

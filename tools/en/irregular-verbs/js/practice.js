@@ -282,7 +282,7 @@ class PracticeManager extends PracticeEngine {
 
             <div class="blank-prompt" style="text-align: center; background: #fdfbf7; padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color); margin-bottom: 1.25rem;">
                 <span class="prompt-badge blank-badge" style="background: var(--sage-primary); color: #fff; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem; font-weight: bold;">⚡ Present Tense Simple</span>
-                <h3 style="margin: 0.75rem 0 0.25rem 0; font-size: 1.4rem; color: var(--sage-dark);">Target Verb: <strong style="color: var(--sage-dark);">${lemma}</strong></h3>
+                <h2 style="margin: 0.75rem 0 0.25rem 0; font-size: 1.4rem; color: var(--sage-dark);">Target Verb: <strong style="color: var(--sage-dark);">${lemma}</strong></h2>
                 <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 1rem;"><em>${verb.definition}</em></p>
                 <div class="sentence-box" style="font-size: 1.25rem; font-weight: bold; background: #fff; padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color); color: #1c1917;">
                     "${promptInfo.sentence.replace('[___]', '<strong style="color: var(--sage-primary); text-decoration: underline;">[ ___ ]</strong>')}"
