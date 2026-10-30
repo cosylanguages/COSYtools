@@ -18,6 +18,8 @@
     --cosy-color-cream-dark:             #f5ede0;
     --cosy-color-warm-white:             #FFFEFB;
     --cosy-color-surface:                #FFFFFF;
+    --cosy-focus-ring:                   #1d4ed8;   /* keyboard focus outline (>= 3:1 on surface) */
+    --cosy-on-sage-dark:                 #ffffff;  /* text on a --sage-dark background */
 
     --cosy-color-ink:                    #2a2a2a;
     --cosy-color-ink-soft:               #4a4a4a;
@@ -424,6 +426,8 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-color-cream-dark:             #141914;
     --cosy-color-warm-white:             #222b22;
     --cosy-color-surface:                #222b22;
+    --cosy-focus-ring:                   #93c5fd;
+    --cosy-on-sage-dark:                 #0f1a10;
 
     --cosy-color-ink:                    #e8f0e9;
     --cosy-color-ink-soft:               #c8d8c9;
@@ -505,4 +509,13 @@ html.is-embedded body {
     padding: 0 !important;
     margin: 0 !important;
     background: transparent !important;
+}
+
+/* Dark theme: --sage-dark becomes a light green, so white text on it fails contrast.
+   Buttons styled inline with that background get dark text instead. */
+html[data-theme="dark"] button[style*="background:var(--sage-dark"],
+html[data-theme="dark"] button[style*="background: var(--sage-dark"],
+html[data-theme="dark"] a.ref-btn[style*="background:var(--sage-dark"],
+html[data-theme="dark"] a.ref-btn[style*="background: var(--sage-dark"] {
+    color: var(--cosy-on-sage-dark) !important;
 }

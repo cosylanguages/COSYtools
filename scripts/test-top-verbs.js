@@ -49,6 +49,12 @@ async function load(query){
    w.showSetupCard();
  }
  console.log('drill strings checked for all 14 languages');
+ // breadcrumb + media section follow the language (no English left on the page)
+ d.getElementById('lang-pill-ka').click(); await sleep(250);
+ ok(d.getElementById('media-title-text').textContent==='საკითხავი და ვიდეო სიები' && !d.getElementById('media-title-text').hasAttribute('lang'),'ka: media section is translated');
+ ok(/ახალ ჩანართში/.test(d.querySelector('.newtab-hint').textContent),'ka: new-tab hint is translated');
+ ok(d.getElementById('header-subtitle').textContent==='10 ძირითადი ზმნა','ka: breadcrumb is translated');
+ d.getElementById('lang-pill-en').click(); await sleep(250);
  ok(errs.length===0,'no script errors after switching languages '+errs.slice(0,2).join('|'));
  // French question description, Georgian toast text, German label
  d.getElementById('lang-pill-fr').click(); await sleep(300);

@@ -1220,7 +1220,7 @@ body.theme-projector .btn-projector-toggle {
 .ctb-btn-next {
   background: var(--sage-dark, #1f3022);
   border: none;
-  color: #fff;
+  color: var(--cosy-on-sage-dark, #fff);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 6px 14px;
@@ -1477,7 +1477,7 @@ body.theme-projector .btn-projector-toggle {
 
 .vht-add-btn {
   background: var(--sage-dark, #1f3022);
-  color: #ffffff;
+  color: var(--cosy-on-sage-dark, #ffffff);
   border: none;
   padding: 0.35rem 0.75rem;
   border-radius: 8px;

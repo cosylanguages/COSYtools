@@ -100,7 +100,7 @@
         }
         .lang-pill:hover, .lang-pill.active {
             background: var(--sage-dark, #234027);
-            color: #ffffff;
+            color: var(--cosy-on-sage-dark, #ffffff);
             border-color: var(--sage-dark, #234027);
             transform: translateY(-1px);
             box-shadow: 0 4px 10px rgba(35,64,39,0.2);
@@ -155,7 +155,7 @@
         }
         /* Visible keyboard focus everywhere on this page */
         :focus-visible {
-            outline: 3px solid #1d4ed8;
+            outline: 3px solid var(--cosy-focus-ring, #1d4ed8);
             outline-offset: 2px;
         }
         .sr-only {
@@ -195,7 +195,7 @@
             bottom: 2rem;
             right: 2rem;
             background: var(--sage-dark, #234027);
-            color: #ffffff;
+            color: var(--cosy-on-sage-dark, #ffffff);
             padding: 0.85rem 1.4rem;
             border-radius: 12px;
             font-weight: 700;
@@ -499,15 +499,15 @@
         <!-- Video & Reading Resources Section -->
         <div class="media-resources-box">
             <h2 style="font-size:1.25rem; margin-top:0; color:var(--sage-dark); font-family:var(--ref-font-serif); display:flex; align-items:center; gap:0.5rem;">
-                <span aria-hidden="true">📺</span> Reading &amp; Video Playlists
+                <span aria-hidden="true">📺</span> <span id="media-title-text">Reading &amp; Video Playlists</span>
             </h2>
-            <p style="margin:0; color:var(--ink-soft); font-size:0.95rem;">Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.</p>
+            <p id="media-intro" style="margin:0; color:var(--ink-soft); font-size:0.95rem;">Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.</p>
 
             <div class="media-links-grid">
                 <a href="https://cosylanguages.github.io/COSYmagazine/top-10-verbs-en.html" id="magazine-article-link" target="_blank" rel="noopener" class="media-link-card">
                     <span style="font-size:1.8rem;" aria-hidden="true">📰</span>
                     <div>
-                        <strong style="color:var(--sage-dark); display:block;">COSYmagazine Article</strong>
+                        <strong style="color:var(--sage-dark); display:block;"><span id="mag-title">COSYmagazine article</span> <span class="sr-only newtab-hint">(opens in a new tab)</span></strong>
                         <small style="color:var(--ink-soft);" id="magazine-article-sub">Top 10 Verbs Guide &amp; Grammar Breakdown</small>
                     </div>
                 </a>
@@ -515,16 +515,16 @@
                 <a href="https://youtube.com/playlist?list=PLBxB2tte5wOU&si=W07PDCAehZlUbSGE" target="_blank" rel="noopener" class="media-link-card">
                     <span style="font-size:1.8rem;" aria-hidden="true">▶️</span>
                     <div>
-                        <strong style="color:var(--sage-dark); display:block;">YouTube Playlist</strong>
-                        <small style="color:var(--ink-soft);">Irregular &amp; Core Verbs Video Lessons</small>
+                        <strong style="color:var(--sage-dark); display:block;"><span id="yt-title">YouTube playlist</span> <span class="sr-only newtab-hint">(opens in a new tab)</span></strong>
+                        <small id="yt-sub" style="color:var(--ink-soft);">Irregular &amp; core verbs video lessons</small>
                     </div>
                 </a>
 
                 <a href="https://rutube.ru/plst/1882480" target="_blank" rel="noopener" class="media-link-card">
                     <span style="font-size:1.8rem;" aria-hidden="true">🎬</span>
                     <div>
-                        <strong style="color:var(--sage-dark); display:block;">RuTube Playlist</strong>
-                        <small style="color:var(--ink-soft);">Видеоуроки и Спряжение Глаголов</small>
+                        <strong style="color:var(--sage-dark); display:block;"><span id="rt-title">RuTube playlist</span> <span class="sr-only newtab-hint">(opens in a new tab)</span></strong>
+                        <small lang="ru" style="color:var(--ink-soft);">Видеоуроки и спряжение глаголов</small>
                     </div>
                 </a>
             </div>
@@ -576,6 +576,24 @@
             hy: { badge:"10 ՀԻՄՆԱԿԱՆ ԲԱՅ", qOf:"Հարց {n} {total}-ից", definition:"Սահմանում՝", perfect:"Գերազանց է։", incorrect:"Սխալ է։ Ակնկալվող պատասխանը՝", done:"Վարժությունն ավարտվեց։", score:"Արդյունք՝ {pts} միավոր ({pct}% ճշգրտություն)", again:"Կրկնել", changeSettings:"Փոխել կարգավորումները", phVerb:"Մուտքագրեք ձևը…", phPronoun:"Մուտքագրեք դերանունը…", lblAnswer:"Ձեր պատասխանը", tagPronoun:"Մուտքագրել դերանունը", selectOne:"Ընտրեք առնվազն մեկ բայ։", noQuestions:"Այս կարգավորումներով հարցեր ստեղծել չհաջողվեց։ Փոխեք կարգավորումները։", loadError:"Չհաջողվեց բեռնել բայերի տվյալները։ Ստուգեք կապը և թարմացրեք էջը։", titleSuffix:"Բայերի պրակտիկա", qDescGeneric:"Հարցական ձևեր", qDescFr:"Հարցեր", insertChar:"Ավելացնել {c}", magSub:"10 բայերի ուղեցույց", descBoth:"Եզակի + հոգնակի", descPositive:"Սովորական հաստատական", descNegative:"Ժխտական ձևեր", descMixed:"Պատահական համադրություն", descTVerb:"Մուտքագրեք խոնարհված բայը", descTPron:"Մուտքագրեք դերանունը", descTMixed:"Պատահական բայ և դերանուն", descDrill:"1 ձև մեկ հարցում", descTable:"Ամբողջական աղյուսակի շրջաններ" },
             ka: { badge:"10 ძირითადი ზმნა", qOf:"კითხვა {n} / {total}", definition:"განმარტება:", perfect:"შესანიშნავია!", incorrect:"არასწორია. მოსალოდნელი პასუხი:", done:"ვარჯიში დასრულდა!", score:"ქულა: {pts} ({pct}% სიზუსტე)", again:"თავიდან ვარჯიში", changeSettings:"პარამეტრების შეცვლა", phVerb:"ჩაწერეთ ფორმა…", phPronoun:"ჩაწერეთ ნაცვალსახელი…", lblAnswer:"თქვენი პასუხი", tagPronoun:"ჩაწერეთ ნაცვალსახელი", selectOne:"აირჩიეთ ერთი ზმნა მაინც.", noQuestions:"ამ პარამეტრებით კითხვების შექმნა ვერ მოხერხდა. შეცვალეთ პარამეტრები.", loadError:"ზმნების მონაცემების ჩატვირთვა ვერ მოხერხდა. შეამოწმეთ კავშირი და გადატვირთეთ გვერდი.", titleSuffix:"ზმნების ვარჯიში", qDescGeneric:"კითხვითი ფორმები", qDescFr:"კითხვები", insertChar:"{c}-ის ჩასმა", magSub:"10 ზმნის გზამკვლევი", descBoth:"მხოლობითი + მრავლობითი", descPositive:"ჩვეულებრივი მტკიცებითი", descNegative:"უარყოფითი ფორმები", descMixed:"შემთხვევითი კომბინაცია", descTVerb:"ჩაწერეთ უღლებული ზმნა", descTPron:"ჩაწერეთ ნაცვალსახელი", descTMixed:"შემთხვევითი ზმნა და ნაცვალსახელი", descDrill:"1 ფორმა თითო კითხვაზე", descTable:"სრული ცხრილის რაუნდები" }
         };
+        // Breadcrumb + 'Reading & Video Playlists' section
+        const MEDIA_UI = {
+            en: { crumb:"Top 10 Verbs", mediaTitle:"Reading & Video Playlists", mediaIntro:"Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.", magTitle:"COSYmagazine article", ytTitle:"YouTube playlist", ytSub:"Irregular & core verbs video lessons", rtTitle:"RuTube playlist", newTab:"(opens in a new tab)" },
+            fr: { crumb:"10 verbes clés", mediaTitle:"Lectures et listes de vidéos", mediaIntro:"Complétez votre apprentissage avec les articles du COSYmagazine et les listes de lecture vidéo sur YouTube et RuTube.", magTitle:"Article du COSYmagazine", ytTitle:"Liste de lecture YouTube", ytSub:"Leçons vidéo sur les verbes irréguliers et essentiels", rtTitle:"Liste de lecture RuTube", newTab:"(s'ouvre dans un nouvel onglet)" },
+            es: { crumb:"10 verbos clave", mediaTitle:"Lecturas y listas de vídeos", mediaIntro:"Completa tu aprendizaje con los artículos de COSYmagazine y las listas de reproducción en YouTube y RuTube.", magTitle:"Artículo de COSYmagazine", ytTitle:"Lista de YouTube", ytSub:"Videolecciones de verbos irregulares y esenciales", rtTitle:"Lista de RuTube", newTab:"(se abre en una pestaña nueva)" },
+            it: { crumb:"10 verbi chiave", mediaTitle:"Letture e playlist video", mediaIntro:"Arricchisci il tuo apprendimento con gli articoli di COSYmagazine e le playlist video su YouTube e RuTube.", magTitle:"Articolo di COSYmagazine", ytTitle:"Playlist YouTube", ytSub:"Videolezioni sui verbi irregolari e fondamentali", rtTitle:"Playlist RuTube", newTab:"(si apre in una nuova scheda)" },
+            de: { crumb:"10 wichtigste Verben", mediaTitle:"Lesetipps und Video-Playlists", mediaIntro:"Vertiefen Sie Ihr Lernen mit Begleitartikeln im COSYmagazine und Video-Playlists auf YouTube und RuTube.", magTitle:"COSYmagazine-Artikel", ytTitle:"YouTube-Playlist", ytSub:"Videolektionen zu unregelmäßigen und wichtigen Verben", rtTitle:"RuTube-Playlist", newTab:"(öffnet in einem neuen Tab)" },
+            pt: { crumb:"10 verbos principais", mediaTitle:"Leituras e listas de vídeos", mediaIntro:"Complete a sua aprendizagem com os artigos da COSYmagazine e as playlists de vídeo no YouTube e no RuTube.", magTitle:"Artigo da COSYmagazine", ytTitle:"Playlist do YouTube", ytSub:"Videoaulas de verbos irregulares e essenciais", rtTitle:"Playlist do RuTube", newTab:"(abre num novo separador)" },
+            ru: { crumb:"10 главных глаголов", mediaTitle:"Статьи и видеоплейлисты", mediaIntro:"Дополните обучение статьями в COSYmagazine и видеоплейлистами на YouTube и RuTube.", magTitle:"Статья в COSYmagazine", ytTitle:"Плейлист на YouTube", ytSub:"Видеоуроки по неправильным и основным глаголам", rtTitle:"Плейлист на RuTube", newTab:"(откроется в новой вкладке)" },
+            el: { crumb:"10 βασικά ρήματα", mediaTitle:"Αναγνώσματα και λίστες βίντεο", mediaIntro:"Εμπλουτίστε τη μάθησή σας με άρθρα του COSYmagazine και λίστες βίντεο στο YouTube και το RuTube.", magTitle:"Άρθρο του COSYmagazine", ytTitle:"Λίστα αναπαραγωγής YouTube", ytSub:"Βιντεομαθήματα ανώμαλων και βασικών ρημάτων", rtTitle:"Λίστα αναπαραγωγής RuTube", newTab:"(ανοίγει σε νέα καρτέλα)" },
+            hy: { crumb:"10 հիմնական բայ", mediaTitle:"Ընթերցանություն և տեսաշարեր", mediaIntro:"Լրացրեք ձեր ուսումը COSYmagazine-ի հոդվածներով և YouTube-ի ու RuTube-ի տեսաշարերով։", magTitle:"COSYmagazine-ի հոդված", ytTitle:"YouTube-ի տեսաշար", ytSub:"Անկանոն և հիմնական բայերի տեսադասեր", rtTitle:"RuTube-ի տեսաշար", newTab:"(բացվում է նոր ներդիրում)" },
+            ka: { crumb:"10 ძირითადი ზმნა", mediaTitle:"საკითხავი და ვიდეო სიები", mediaIntro:"გააღრმავეთ სწავლა COSYmagazine-ის სტატიებითა და YouTube-ისა და RuTube-ის ვიდეო სიებით.", magTitle:"COSYmagazine-ის სტატია", ytTitle:"YouTube-ის სია", ytSub:"არარეგულარული და ძირითადი ზმნების ვიდეოგაკვეთილები", rtTitle:"RuTube-ის სია", newTab:"(იხსნება ახალ ჩანართში)" },
+            tt: { crumb:"10 төп фигыль", mediaTitle:"Уку һәм видео исемлекләр", mediaIntro:"COSYmagazine мәкаләләре һәм YouTube, RuTube видео исемлекләре белән белемегезне баетыгыз.", magTitle:"COSYmagazine мәкаләсе", ytTitle:"YouTube исемлеге", ytSub:"Көйсез һәм төп фигыльләр буенча видеодәресләр", rtTitle:"RuTube исемлеге", newTab:"(яңа биттә ачыла)" },
+            ba: { crumb:"10 төп ҡылым", mediaTitle:"Уҡыу һәм видео исемлектәре", mediaIntro:"COSYmagazine мәҡәләләре һәм YouTube, RuTube видео исемлектәре менән белемегеҙҙе байытығыҙ.", magTitle:"COSYmagazine мәҡәләһе", ytTitle:"YouTube исемлеге", ytSub:"Ҡағидәһеҙ һәм төп ҡылымдар буйынса видеодәрестәр", rtTitle:"RuTube исемлеге", newTab:"(яңы биттә асыла)" },
+            cv: { crumb:"10 тĕп глагол", mediaTitle:"Вулас тата видео списокĕсем", mediaIntro:"COSYmagazine статйисемпе тата YouTube, RuTube видео списокĕсемпе вĕренĕве пуянлатăр.", magTitle:"COSYmagazine статйи", ytTitle:"YouTube списокĕ", ytSub:"Йĕркесĕр тата тĕп глаголсем çинчен видеоурок", rtTitle:"RuTube списокĕ", newTab:"(çĕнĕ вкладкăра уçăлать)" },
+            br: { crumb:"10 verb pennañ", mediaTitle:"Lennadennoù ha rolloù-video", mediaIntro:"Pinvidikait ho teskadurezh gant pennadoù COSYmagazine ha rolloù-video war YouTube ha RuTube.", magTitle:"Pennad COSYmagazine", ytTitle:"Roll YouTube", ytSub:"Gwerzhioù-video diwar-benn verboù direizh ha pennañ", rtTitle:"Roll RuTube", newTab:"(digor en un ivinell nevez)" },
+        };
+        Object.keys(MEDIA_UI).forEach(l => Object.assign(EXTRA_UI[l] = EXTRA_UI[l] || {}, MEDIA_UI[l]));
         const DESC_IDS = { 'person-desc-both':'descBoth', 'pol-desc-positive':'descPositive', 'pol-desc-negative':'descNegative', 'pol-desc-mixed':'descMixed', 'target-desc-verb':'descTVerb', 'target-desc-pronoun':'descTPron', 'target-desc-mixed':'descTMixed', 'mode-desc-drill':'descDrill', 'mode-desc-table':'descTable' };
 
         function escHtml(v) {
@@ -1187,6 +1205,26 @@
                 qd.textContent = r.text;
                 if (r.lang === document.documentElement.lang) qd.removeAttribute('lang'); else qd.setAttribute('lang', r.lang);
             }
+            // Breadcrumb and media section
+            const plain = (id, key) => {
+                const el = document.getElementById(id);
+                if (!el) return;
+                const r = uiString(key);
+                el.textContent = r.text;
+                if (r.lang === document.documentElement.lang) el.removeAttribute('lang'); else el.setAttribute('lang', r.lang);
+            };
+            plain('header-subtitle', 'crumb');
+            plain('media-title-text', 'mediaTitle');
+            plain('media-intro', 'mediaIntro');
+            plain('mag-title', 'magTitle');
+            plain('yt-title', 'ytTitle');
+            plain('yt-sub', 'ytSub');
+            plain('rt-title', 'rtTitle');
+            document.querySelectorAll('.newtab-hint').forEach(el => {
+                const r = uiString('newTab');
+                el.textContent = r.text;
+                if (r.lang === document.documentElement.lang) el.removeAttribute('lang'); else el.setAttribute('lang', r.lang);
+            });
             updatePersonLabels(langCode);
         }
 

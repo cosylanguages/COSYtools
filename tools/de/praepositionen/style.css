@@ -637,7 +637,7 @@ button.suggestion-item {
 }
 button.suggestion-item:last-child { border-bottom: none; }
 .suggestion-item:focus-visible {
-    outline: 3px solid #1d4ed8;
+    outline: 3px solid var(--cosy-focus-ring, #1d4ed8);
     outline-offset: -3px;
     background: var(--sage-mist, #dcfce7);
 }
