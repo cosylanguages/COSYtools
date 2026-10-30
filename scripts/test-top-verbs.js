@@ -37,6 +37,18 @@ async function load(query){
    if(pressed.length!==1||pressed[0].id!=='lang-pill-'+l||n<11||!mag.endsWith('-'+l+'.html')||d.documentElement.lang!==l) {fails++;console.log('FAIL lang',l,pressed.length,n,mag,d.documentElement.lang);}
  }
  console.log('language switching checked for all 14');
+ // every language must have complete UI + practice strings (no English fallback)
+ const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
+ ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));
+ for(const l of langs){
+   d.getElementById('lang-pill-'+l).click(); await sleep(250);
+   d.getElementById('btn-launch').click(); await sleep(80);
+   const html=d.getElementById('practice-card-content').innerHTML;
+   const hasEnglish=l!=='en' && (/lang="en"/.test(html) || /Question \d+ of|Perfect!|Expected:/.test(html));
+   if(hasEnglish||!d.getElementById('drill-single-input')){fails++;console.log('FAIL drill strings for',l);}
+   w.showSetupCard();
+ }
+ console.log('drill strings checked for all 14 languages');
  ok(errs.length===0,'no script errors after switching languages '+errs.slice(0,2).join('|'));
  // French question description, Georgian toast text, German label
  d.getElementById('lang-pill-fr').click(); await sleep(300);
