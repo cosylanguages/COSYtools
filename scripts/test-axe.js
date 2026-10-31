@@ -25,6 +25,14 @@ function walk(dir, out) {
   return out;
 }
 
+// Run fn over items with limited concurrency (each page is an independent jsdom window)
+async function pool(items, size, fn) {
+  let next = 0;
+  await Promise.all(Array.from({ length: size }, async () => {
+    while (next < items.length) { const item = items[next++]; await fn(item); }
+  }));
+}
+
 async function open(page) {
   const dom = await JSDOM.fromURL(`http://localhost:${srv.address().port}/${page}`, {
     runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: new VirtualConsole(),
@@ -49,10 +57,10 @@ async function scan(w, label, failures) {
 
 (async () => {
   const failures = [];
-  for (const page of walk(root, []).concat(['404.html']).sort()) {
+  await pool(walk(root, []).concat(['404.html']).sort(), 4, async page => {
     try { const w = await open(page); await scan(w, page, failures); w.close(); }
     catch (e) { failures.push(page); console.log('FAIL', page, e.message); }
-  }
+  });
 
   // Interactive states
   try {
@@ -78,27 +86,43 @@ async function scan(w, label, failures) {
     w.close();
   } catch (e) { failures.push('states'); console.log('FAIL interactive states', e.message); }
 
-  // Tool result views: search, pick the first suggestion, scan what gets rendered
-  const TOOLS = ['de/praepositionen', 'el/genos-ptoseis', 'el/klisi-rimaton', 'el/syntaxi', 'en/irregular-verbs', 'en/verb-prep',
-    'fr/conjugeur', 'fr/genre', 'fr/regime', 'it/coniugatore', 'it/genere', 'it/reggenza', 'ru/rod-padezhi', 'ru/spryazhenie'];
-  for (const t of TOOLS) {
+  // Tool result views. Tools with a suggestion engine: search and open the first suggestion.
+  // Other tools show the first match directly: type a real entry from their data file.
+  const TOOLS = fs.readdirSync(path.join(root, 'tools')).flatMap(l =>
+    fs.readdirSync(path.join(root, 'tools', l)).map(t => `${l}/${t}`)
+  ).filter(p => {
+    const f = path.join(root, 'tools', p, 'index.html');
+    return fs.existsSync(f) && fs.readFileSync(f, 'utf8').includes('id="search-suggestions"');
+  }).sort();
+  const firstKey = t => {
+    for (const name of ['verbs.json', 'nouns.json']) {
+      const f = path.join(root, 'tools', t, 'data', name);
+      if (fs.existsSync(f)) { try { const d = JSON.parse(fs.readFileSync(f, 'utf8')); const k = Object.keys(d)[0]; if (k) return k; } catch (e) {} }
+    }
+    return null;
+  };
+  await pool(TOOLS, 4, async t => {
     try {
       const w = await open(`tools/${t}/index.html`);
       const box = w.document.getElementById('search-suggestions');
       const input = box && box.parentElement.querySelector('input[type="text"], input[type="search"], input:not([type])');
-      let picked = false;
+      let acted = false;
       for (const ch of ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ']) {
         if (!input) break;
         input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(60);
         const item = box.querySelector('.suggestion-item');
-        if (item) { item.click(); picked = true; break; }
+        if (item) { item.click(); acted = true; break; }
       }
-      if (!picked) { failures.push(t); console.log(`FAIL tools/${t}: could not open a result`); w.close(); continue; }
-      await sleep(700);
+      if (!acted && input) {
+        const key = firstKey(t);
+        if (key) { input.value = key; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(800); acted = true; }
+      }
+      if (!acted) { failures.push(t); console.log(`FAIL tools/${t}: could not open a result`); w.close(); return; }
+      await sleep(500);
       await scan(w, `tools/${t}: result view`, failures);
       w.close();
     } catch (e) { failures.push(t); console.log('FAIL', t, e.message); }
-  }
+  });
 
   console.log(failures.length ? `\nFAILURES: ${failures.length}` : '\nALL AXE SCANS PASSED');
   srv.close(); process.exit(failures.length ? 1 : 0);

@@ -187,12 +187,32 @@
         }
         if (!lang) return;
 
+        const SUPP_I18N = {
+            en: { title: "Source-backed additions", ready: "Imported vocabulary ready", noMatch: "No imported match.", more: "Show more ({n} more)", less: "Show less", srcK: "Imported entries (Kaikki)", srcU: "Imported forms (UniMorph)", newTab: "(opens in a new tab)" },
+            fr: { title: "Compléments issus de sources", ready: "Vocabulaire importé prêt", noMatch: "Aucune correspondance importée.", more: "Afficher plus ({n} de plus)", less: "Afficher moins", srcK: "Entrées importées (Kaikki)", srcU: "Formes importées (UniMorph)", newTab: "(s'ouvre dans un nouvel onglet)" },
+            es: { title: "Ampliaciones con fuentes", ready: "Vocabulario importado listo", noMatch: "No hay coincidencias importadas.", more: "Mostrar más ({n} más)", less: "Mostrar menos", srcK: "Entradas importadas (Kaikki)", srcU: "Formas importadas (UniMorph)", newTab: "(se abre en una pestaña nueva)" },
+            it: { title: "Aggiunte con fonti", ready: "Vocabolario importato pronto", noMatch: "Nessuna corrispondenza importata.", more: "Mostra altro ({n} in più)", less: "Mostra meno", srcK: "Voci importate (Kaikki)", srcU: "Forme importate (UniMorph)", newTab: "(si apre in una nuova scheda)" },
+            de: { title: "Ergänzungen mit Quellenangabe", ready: "Importierter Wortschatz bereit", noMatch: "Kein importierter Treffer.", more: "Mehr anzeigen ({n} weitere)", less: "Weniger anzeigen", srcK: "Importierte Einträge (Kaikki)", srcU: "Importierte Formen (UniMorph)", newTab: "(öffnet in einem neuen Tab)" },
+            pt: { title: "Acréscimos com fontes", ready: "Vocabulário importado pronto", noMatch: "Nenhuma correspondência importada.", more: "Mostrar mais ({n} mais)", less: "Mostrar menos", srcK: "Entradas importadas (Kaikki)", srcU: "Formas importadas (UniMorph)", newTab: "(abre num novo separador)" },
+            ru: { title: "Дополнения с источниками", ready: "Импортированный словарь готов", noMatch: "Импортированных совпадений нет.", more: "Показать ещё ({n})", less: "Показать меньше", srcK: "Импортированные статьи (Kaikki)", srcU: "Импортированные формы (UniMorph)", newTab: "(откроется в новой вкладке)" },
+            el: { title: "Προσθήκες με πηγές", ready: "Το εισαγόμενο λεξιλόγιο είναι έτοιμο", noMatch: "Δεν βρέθηκε εισαγόμενο αποτέλεσμα.", more: "Εμφάνιση περισσότερων ({n} ακόμη)", less: "Εμφάνιση λιγότερων", srcK: "Εισαγόμενες καταχωρίσεις (Kaikki)", srcU: "Εισαγόμενοι τύποι (UniMorph)", newTab: "(ανοίγει σε νέα καρτέλα)" },
+            hy: { title: "Աղբյուրներով լրացումներ", ready: "Ներմուծված բառապաշարը պատրաստ է", noMatch: "Ներմուծված համընկնում չկա։", more: "Ցույց տալ ավելին ({n} ևս)", less: "Ցույց տալ պակաս", srcK: "Ներմուծված գրառումներ (Kaikki)", srcU: "Ներմուծված ձևեր (UniMorph)", newTab: "(բացվում է նոր ներդիրում)" },
+            ka: { title: "წყაროებით დამატებული მასალა", ready: "იმპორტირებული ლექსიკა მზადაა", noMatch: "იმპორტირებული დამთხვევა ვერ მოიძებნა.", more: "მეტის ჩვენება (კიდევ {n})", less: "ნაკლების ჩვენება", srcK: "იმპორტირებული ჩანაწერები (Kaikki)", srcU: "იმპორტირებული ფორმები (UniMorph)", newTab: "(იხსნება ახალ ჩანართში)" },
+            tt: { title: "Чыганаклы өстәмәләр", ready: "Импортланган лексика әзер", noMatch: "Импортланган туры килү юк.", more: "Күбрәк күрсәтү ({n} тагын)", less: "Азрак күрсәтү", srcK: "Импортланган язмалар (Kaikki)", srcU: "Импортланган формалар (UniMorph)", newTab: "(яңа биттә ачыла)" },
+            ba: { title: "Сығанаҡлы өҫтәмәләр", ready: "Импортланған лексика әҙер", noMatch: "Импортланған тап килеү юҡ.", more: "Күберәк күрһәтеү ({n} тағы)", less: "Әҙерәк күрһәтеү", srcK: "Импортланған яҙмалар (Kaikki)", srcU: "Импортланған формалар (UniMorph)", newTab: "(яңы биттә асыла)" },
+            cv: { title: "Çăлкуçлă хушмăсем", ready: "Импорт турăннă лексика хатĕр", noMatch: "Импорт турăннă килĕшӳ çук.", more: "Ытларах кăтартас ({n} татах)", less: "Сахалрах кăтартас", srcK: "Импорт турăннă статьясем (Kaikki)", srcU: "Импорт турăннă формăсем (UniMorph)", newTab: "(çĕнĕ вкладкăра уçăлать)" },
+            br: { title: "Ouzhpennadoù gant mammennoù", ready: "Geriaoueg enporzhiet prest", noMatch: "Klotadenn enporzhiet ebet.", more: "Diskouez muioc'h ({n} c'hoazh)", less: "Diskouez nebeutoc'h", srcK: "Enankadoù enporzhiet (Kaikki)", srcU: "Stummoù enporzhiet (UniMorph)", newTab: "(digor en un ivinell nevez)" },
+        };
+        const t = SUPP_I18N[lang] || SUPP_I18N.en;
+        const esc = v => String(v == null ? '' : v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        const SR_ONLY = 'position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;';
+
         const panel = document.createElement('section');
         panel.id = 'supplemental-lexicon-panel';
         panel.style.display = 'none';
         panel.setAttribute('aria-live', 'polite');
         panel.setAttribute('aria-labelledby', 'supplemental-lexicon-title');
-        panel.innerHTML = '<h2 id="supplemental-lexicon-title">Source-backed additions</h2><p class="supplemental-status">Imported vocabulary ready</p><div class="supplemental-results"></div>';
+        panel.innerHTML = '<h2 id="supplemental-lexicon-title">' + esc(t.title) + '</h2><p class="supplemental-status">' + esc(t.ready) + '</p><div class="supplemental-results"></div>';
         input.closest('main')?.appendChild(panel);
 
         const resultsContainer = panel.querySelector('.supplemental-results');
@@ -238,17 +258,17 @@
                 }).slice(0, 12);
 
                 if (!filtered.length) {
-                    resultsContainer.innerHTML = '<p class="supplemental-empty">No imported match.</p>';
+                    resultsContainer.innerHTML = '<p class="supplemental-empty">' + esc(t.noMatch) + '</p>';
                     return;
                 }
 
                 resultsContainer.innerHTML = filtered.map((unit, unitIdx) => {
                     const sourceName = unit.source === 'Kaikki/Wiktionary' || (unit.source_url && unit.source_url.includes('kaikki'))
-                        ? 'Imported entries (Kaikki)'
-                        : 'Imported forms (UniMorph)';
+                        ? t.srcK
+                        : t.srcU;
 
                     const sourceUrl = unit.source_url || '#';
-                    const linkHtml = sourceUrl !== '#' ? `<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>` : sourceName;
+                    const linkHtml = sourceUrl !== '#' ? `<a href="${esc(sourceUrl)}" target="_blank" rel="noopener">${esc(sourceName)}<span style="${SR_ONLY}"> ${esc(t.newTab)}</span></a>` : esc(sourceName);
 
                     // Deduplicate forms and group by tag
                     const rawForms = unit.forms || [];
@@ -276,7 +296,7 @@
                         const visibleItems = allFormItems.slice(0, 12);
                         const hiddenItems = allFormItems.slice(12);
 
-                        const renderItem = item => `<li><small class="tag-label">${item.tag}:</small> <span>${item.forms}</span></li>`;
+                        const renderItem = item => `<li><small class="tag-label">${esc(item.tag)}:</small> <span>${esc(item.forms)}</span></li>`;
 
                         formsDisplayHtml = `<ul class="supplemental-forms-list">${visibleItems.map(renderItem).join('')}</ul>`;
 
@@ -286,16 +306,7 @@
                                 <ul id="${hiddenListId}" class="supplemental-forms-list hidden-forms" style="display:none;">
                                     ${hiddenItems.map(renderItem).join('')}
                                 </ul>
-                                <button type="button" class="show-more-btn" onclick="
-                                    const el = document.getElementById('${hiddenListId}');
-                                    if (el.style.display === 'none') {
-                                        el.style.display = 'block';
-                                        this.textContent = 'Show less';
-                                    } else {
-                                        el.style.display = 'none';
-                                        this.textContent = 'Show more (${hiddenItems.length} more)';
-                                    }
-                                ">Show more (${hiddenItems.length} more)</button>
+                                <button type="button" class="show-more-btn" aria-expanded="false" aria-controls="${hiddenListId}" data-more="${esc(t.more.replace('{n}', hiddenItems.length))}" data-less="${esc(t.less)}" onclick="(function (b) { var el = document.getElementById(b.getAttribute('aria-controls')); var open = el.style.display === 'none'; el.style.display = open ? 'block' : 'none'; b.setAttribute('aria-expanded', open ? 'true' : 'false'); b.textContent = open ? b.dataset.less : b.dataset.more; })(this)">${esc(t.more.replace('{n}', hiddenItems.length))}</button>
                             `;
                         }
                     } else {
@@ -305,7 +316,7 @@
                     return `
                         <article class="supplemental-result">
                             <div class="supplemental-header">
-                                <strong>${unit.lemma}</strong>
+                                <strong>${esc(unit.lemma)}</strong>
                                 <span class="supplemental-source-title">${linkHtml}</span>
                             </div>
                             <div class="supplemental-body">

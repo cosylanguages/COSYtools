@@ -222,9 +222,6 @@
         var t = SUGGESTION_I18N[lang] || SUGGESTION_I18N.en;
         var input = (box.parentElement || document).querySelector('input[type="text"], input[type="search"], input:not([type])');
 
-        box.setAttribute('role', 'group');
-        box.setAttribute('aria-label', t.label);
-
         var status = document.createElement('div');
         status.setAttribute('role', 'status');
         status.setAttribute('aria-live', 'polite');
@@ -237,6 +234,15 @@
         }
         function sync() {
             var open = isOpen();
+            // Only expose the list as a labelled group while it actually has suggestions
+            // (some tools keep an empty, unused suggestion box in the page)
+            if (items().length > 0) {
+                box.setAttribute('role', 'group');
+                box.setAttribute('aria-label', t.label);
+            } else {
+                box.removeAttribute('role');
+                box.removeAttribute('aria-label');
+            }
             status.textContent = open ? t.count.replace('{n}', String(items().length)) : '';
         }
         function closeList() {
