@@ -19,103 +19,110 @@
     const TOP_VERB_CONFIGS = {
         en: {
             toolPath: 'tools/en/irregular-verbs/',
-            lemmas: ['be', 'have', 'think', 'know', 'like', 'want', 'work', 'study', 'go', 'can', 'eat', 'drink'],
+            groups: [['be'], ['have'], ['think'], ['know'], ['like'], ['want'], ['work', 'study', 'learn'], ['go'], ['can'], ['eat', 'drink']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         fr: {
             toolPath: 'tools/fr/conjugeur/',
-            lemmas: ['être', 'avoir', 'penser', 'savoir', 'aimer', 'vouloir', 'travailler', 'étudier', 'aller', 'pouvoir', 'manger', 'boire'],
+            groups: [['être'], ['avoir'], ['penser'], ['savoir', 'connaître'], ['aimer'], ['vouloir'], ['travailler', 'étudier', 'apprendre'], ['aller'], ['pouvoir'], ['manger', 'boire']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         it: {
             toolPath: 'tools/it/coniugatore/',
-            lemmas: ['essere', 'avere', 'pensare', 'sapere', 'piacere', 'volere', 'lavorare', 'studiare', 'andare', 'potere', 'mangiare', 'bere'],
+            groups: [['essere'], ['avere'], ['pensare'], ['sapere', 'conoscere'], ['piacere'], ['volere'], ['lavorare', 'studiare', 'imparare'], ['andare'], ['potere'], ['mangiare', 'bere']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         ru: {
             toolPath: 'tools/ru/spryazhenie/',
-            lemmas: ['иметь', 'думать', 'знать', 'нравиться', 'хотеть', 'работать', 'учиться', 'идти', 'мочь', 'есть', 'пить'],
+            groups: [[], ['иметь'], ['думать'], ['знать'], ['нравиться'], ['хотеть'], ['работать', 'учиться', 'учить'], ['идти'], ['мочь'], ['есть', 'пить']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: true // быть omitted in present (zero copula)
         },
         el: {
             toolPath: 'tools/el/klisi-rimaton/',
-            lemmas: ['είμαι', 'έχω', 'σκέφτομαι', 'ξέρω', 'μου αρέσει', 'θέλω', 'δουλεύω', 'διαβάζω', 'πηγαίνω', 'μπορώ', 'τρώω', 'πίνω'],
+            groups: [['είμαι'], ['έχω'], ['σκέφτομαι'], ['ξέρω', 'γνωρίζω'], ['μου αρέσει'], ['θέλω'], ['δουλεύω', 'διαβάζω', 'μαθαίνω'], ['πηγαίνω'], ['μπορώ'], ['τρώω', 'πίνω']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         pt: {
             toolPath: 'tools/pt/conjugeur/',
-            lemmas: ['ser', 'ter', 'pensar', 'saber', 'gostar', 'querer', 'trabalhar', 'estudar', 'ir', 'poder', 'comer', 'beber'],
+            groups: [['ser'], ['ter'], ['pensar'], ['saber', 'conhecer'], ['gostar'], ['querer'], ['trabalhar', 'estudar', 'aprender'], ['ir'], ['poder'], ['comer', 'beber']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         de: {
             toolPath: 'tools/de/konjugation/',
-            lemmas: ['sein', 'haben', 'denken', 'wissen', 'mögen', 'wollen', 'arbeiten', 'studieren', 'gehen', 'können', 'essen', 'trinken'],
+            groups: [['sein'], ['haben'], ['denken'], ['wissen', 'kennen'], ['mögen'], ['wollen'], ['arbeiten', 'studieren', 'lernen'], ['gehen'], ['können'], ['essen', 'trinken']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         es: {
             toolPath: 'tools/es/conjugeur/',
-            lemmas: ['ser', 'tener', 'pensar', 'saber', 'gustar', 'querer', 'trabajar', 'estudiar', 'ir', 'poder', 'comer', 'beber'],
+            groups: [['ser'], ['tener'], ['pensar'], ['saber', 'conocer'], ['gustar'], ['querer'], ['trabajar', 'estudiar', 'aprender'], ['ir'], ['poder'], ['comer', 'beber']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         tt: {
             toolPath: 'tools/tt/conjugeur/',
-            lemmas: ['булу', 'ия булу', 'уйлау', 'белү', 'ошату', 'теләү', 'эшләү', 'уку', 'бару', 'булдыру', 'ашау', 'эчү'],
+            groups: [['булу'], ['ия булу'], ['уйлау'], ['белү'], ['ошату'], ['теләү'], ['эшләү', 'уку'], ['бару'], ['булдыру'], ['ашау', 'эчү']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         ba: {
             toolPath: 'tools/ba/conjugeur/',
-            lemmas: ['булыу', 'эйә булыу', 'уйлау', 'белеү', 'ошатыу', 'теләү', 'эшләү', 'уҡыу', 'барыу', 'булдырыу', 'ашау', 'эсеү'],
+            groups: [['булыу'], ['эйә булыу'], ['уйлау'], ['белеү'], ['ошатыу'], ['теләү'], ['эшләү', 'уҡыу'], ['барыу'], ['булдырыу'], ['ашау', 'эсеү']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         cv: {
             toolPath: 'tools/cv/conjugeur/',
-            lemmas: ['пулни', 'пурни', 'шухăшлани', 'пĕлни', 'кăмăллани', 'кавашни', 'ĕçлев', 'вĕренни', 'кайни', 'пултару', 'ҫини', 'ӗҫни'],
+            groups: [['пулни'], ['пурни'], ['шухăшлани'], ['пĕлни'], ['кăмăллани'], ['кавашни'], ['ĕçлев', 'вĕренни'], ['кайни'], ['пултару'], ['ҫини', 'ӗҫни']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         br: {
             toolPath: 'tools/br/conjugeur/',
-            lemmas: ['bout', 'kaout', 'soñjal', 'gouzout', 'plijout', 'follout', 'labourat', 'studiañ', 'mont', 'gallout', 'debriñ', 'evañ'],
+            groups: [['bout'], ['kaout'], ['soñjal'], ['gouzout'], ['plijout'], ['follout'], ['labourat', 'studiañ'], ['mont'], ['gallout'], ['debriñ', 'evañ']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         hy: {
             toolPath: 'tools/hy/conjugeur/',
-            lemmas: ['լինել', 'ունենալ', 'մտածել', 'իմացվել', 'դուր գալ', 'ուզել', 'աշխատել', 'սովորել', 'գնալ', 'կարողանալ', 'ուտել', 'խմել'],
+            groups: [['լինել'], ['ունենալ'], ['մտածել'], ['իմանալ'], ['դուր գալ'], ['ուզել'], ['աշխատել', 'սովորել'], ['գնալ'], ['կարողանալ'], ['ուտել', 'խմել']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         ka: {
             toolPath: 'tools/ka/conjugeur/',
-            lemmas: ['ყოფნა', 'ყოლა', 'ფიქრი', 'ცოდნა', 'მოწონება', 'ნდომა', 'მუშაობა', 'სწავლა', 'სვლა', 'შეძლება', 'ჭამა', 'სმა'],
+            groups: [['ყოფნა'], ['ყოლა'], ['ფიქრი'], ['ცოდნა'], ['მოწონება'], ['ნდომა'], ['მუშაობა', 'სწავლა'], ['სვლა'], ['შეძლება'], ['ჭამა', 'სმა']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         }
     };
+
+    // `groups` = the 10 numbered groups of "Top 10 verbs, part 1" (a group can hold several verbs:
+    // 4 = know (savoir + connaître ...), 7 = work / study / learn, 10 = eat / drink).
+    // `lemmas` is the flat list of all verbs, in group order.
+    Object.keys(TOP_VERB_CONFIGS).forEach(l => {
+        TOP_VERB_CONFIGS[l].lemmas = TOP_VERB_CONFIGS[l].groups.reduce((a, g) => a.concat(g), []);
+    });
 
     const EN_REGULAR_FALLBACKS = {
         'like': { base: 'like', lemma: 'like', level: 'A1', definition: 'to find pleasant or agreeable', present_simple: { 'I': 'like', 'you': 'like', 'he/she/it': 'likes', 'we': 'like', 'they': 'like' } },
@@ -575,8 +582,18 @@
         return drills;
     }
 
+    /** Group number (1-10) of each verb of `lang`, parallel to getConfig(lang).lemmas. */
+    function getGroups(lang) {
+        const cfg = getConfig(lang);
+        if (!cfg) return [];
+        const out = [];
+        cfg.groups.forEach((g, i) => g.forEach(() => out.push(i + 1)));
+        return out;
+    }
+
     return {
         getConfig,
+        getGroups,
         getAllConfigs,
         isTopVerb,
         findEntry,
