@@ -16,8 +16,15 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 let fails = 0;
 const ok = (c, m) => { if (!c) { fails++; console.log('FAIL', m); } else console.log('ok  ', m); };
 
-const PAGES = ['de/praepositionen', 'el/genos-ptoseis', 'el/klisi-rimaton', 'el/syntaxi', 'en/irregular-verbs', 'en/verb-prep',
-  'fr/conjugeur', 'fr/genre', 'fr/regime', 'it/coniugatore', 'it/genere', 'it/reggenza', 'ru/rod-padezhi', 'ru/spryazhenie'];
+// Every tool whose engine renders a suggestion list (other tools show the first match directly)
+function hasSuggestionEngine(p) {
+  const jsDir = path.join(root, 'tools', p, 'js');
+  return fs.existsSync(jsDir) && fs.readdirSync(jsDir).some(f => f.endsWith('.js') &&
+    fs.readFileSync(path.join(jsDir, f), 'utf8').includes('suggestion-item'));
+}
+const PAGES = fs.readdirSync(path.join(root, 'tools')).flatMap(l =>
+  fs.readdirSync(path.join(root, 'tools', l)).map(t => `${l}/${t}`)
+).filter(p => fs.existsSync(path.join(root, 'tools', p, 'index.html')) && hasSuggestionEngine(p)).sort();
 
 function getComputedStyleDisplay(w, el) { return w.getComputedStyle(el).display; }
 
