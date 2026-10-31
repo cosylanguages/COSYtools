@@ -38,8 +38,11 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
       runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: new VirtualConsole(),
       beforeParse(w) { w.fetch = u => fetch(new URL(u, w.location.href).href); w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, addEventListener() {} })); }
     });
-    await sleep(1200);
-    const el = dom.window.document.getElementById('supplemental-lexicon-title');
+    let el = null;
+    for (const deadline = Date.now() + 15000; !el && Date.now() < deadline;) {   // slow CI: poll, don't guess
+      await sleep(200);
+      el = dom.window.document.getElementById('supplemental-lexicon-title');
+    }
     ok(el && el.textContent === table[l].title, `${l}/${tools[0]}: panel title is "${table[l].title}"`);
     dom.window.close();
   }

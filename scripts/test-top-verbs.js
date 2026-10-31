@@ -16,6 +16,15 @@ async function load(query){
    beforeParse(w){w.navigator.clipboard={writeText:()=>Promise.resolve()};w.fetch=(u)=>fetch(new URL(u,w.location.href).href);}});
   await sleep(1200); return {dom,w:dom.window,d:dom.window.document,errs};
 }
+async function switchLang(w, d, l) {
+  d.getElementById('lang-pill-' + l).click();
+  const first = JSON.parse(w.eval(`JSON.stringify(COSYTopVerbs.getConfig('${l}').lemmas[0])`));
+  for (let i = 0; i < 100; i++) {                      // up to ~10s on a slow runner
+    await sleep(100);
+    const cb = d.querySelector('.verb-cb');
+    if (d.documentElement.lang === l && cb && cb.value === first) break;
+  }
+}
 (async()=>{
  let {w,d,errs}=await load();
  ok(errs.length===0,'no script errors on load '+errs.join('|'));
@@ -30,7 +39,7 @@ async function load(query){
  const langs=[...d.querySelectorAll('.lang-pill')].map(b=>b.id.replace('lang-pill-',''));
  ok(langs.length===14,'14 language pills: '+langs.join(','));
  for(const l of langs){
-   d.getElementById('lang-pill-'+l).click(); await sleep(350);
+   await switchLang(w,d,l);
    const pressed=d.querySelectorAll('.lang-pill[aria-pressed="true"]');
    const n=d.querySelectorAll('.verb-cb').length;
    const mag=d.getElementById('magazine-article-link').href;
@@ -48,14 +57,14 @@ async function load(query){
  const big=['en','fr','it','pt','es','de','ru','el'];
  ok(big.every(l=>grp[l].groups[6]===3||l==='ru'&&grp[l].groups[6]===3),'group 7 holds work/study/learn in the 8 languages with data');
  ok(['fr','it','pt','es','de','el'].every(l=>grp[l].groups[3]===2),'group 4 holds both "know" verbs where the language has two');
- d.getElementById('lang-pill-fr').click(); await sleep(350);
+ await switchLang(w,d,'fr');
  ok(d.querySelectorAll('.verb-group-num').length===14 && /4 = savoir \/ connaître/.test(d.getElementById('groups-note').textContent) && /7 = travailler \/ étudier \/ apprendre/.test(d.getElementById('groups-note').textContent) && /10 = manger \/ boire/.test(d.getElementById('groups-note').textContent),'fr: 14 numbered verbs and the note lists the multi-verb groups');
- d.getElementById('lang-pill-en').click(); await sleep(350);
+ await switchLang(w,d,'en');
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
  ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));
  for(const l of langs){
-   d.getElementById('lang-pill-'+l).click(); await sleep(250);
+   await switchLang(w,d,l);
    d.getElementById('btn-launch').click(); await sleep(80);
    const html=d.getElementById('practice-card-content').innerHTML;
    const hasEnglish=l!=='en' && (/lang="en"/.test(html) || /Question \d+ of|Perfect!|Expected:/.test(html));
@@ -64,19 +73,19 @@ async function load(query){
  }
  console.log('drill strings checked for all 14 languages');
  // breadcrumb + media section follow the language (no English left on the page)
- d.getElementById('lang-pill-ka').click(); await sleep(250);
+ await switchLang(w,d,'ka');
  ok(d.getElementById('media-title-text').textContent==='საკითხავი და ვიდეო სიები' && !d.getElementById('media-title-text').hasAttribute('lang'),'ka: media section is translated');
  ok(/ახალ ჩანართში/.test(d.querySelector('.newtab-hint').textContent),'ka: new-tab hint is translated');
  ok(d.getElementById('header-subtitle').textContent==='10 ძირითადი ზმნა','ka: breadcrumb is translated');
- d.getElementById('lang-pill-en').click(); await sleep(250);
+ await switchLang(w,d,'en');
  ok(errs.length===0,'no script errors after switching languages '+errs.slice(0,2).join('|'));
  // French question description, Georgian toast text, German label
- d.getElementById('lang-pill-fr').click(); await sleep(300);
+ await switchLang(w,d,'fr');
  ok(/je/.test(d.getElementById('pol-desc-question').textContent),'FR keeps "je" note');
- d.getElementById('lang-pill-de').click(); await sleep(300);
+ await switchLang(w,d,'de');
  ok(!/je/.test(d.getElementById('pol-desc-question').textContent) && /Einzelform/.test(d.getElementById('lbl-mode-drill').textContent),'DE: no "je", fixed label');
  // full drill in fr
- d.getElementById('lang-pill-fr').click(); await sleep(300);
+ await switchLang(w,d,'fr');
  d.getElementById('btn-launch').click(); await sleep(100);
  const inp=d.getElementById('drill-single-input');
  ok(!!inp && !!d.querySelector('label[for="drill-single-input"]'),'drill input has a label');

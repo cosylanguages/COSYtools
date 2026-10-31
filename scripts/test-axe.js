@@ -107,15 +107,25 @@ async function scan(w, label, failures) {
       const box = w.document.getElementById('search-suggestions');
       const input = box && box.parentElement.querySelector('input[type="text"], input[type="search"], input:not([type])');
       let acted = false;
-      for (const ch of ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ']) {
-        if (!input) break;
-        input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(60);
-        const item = box.querySelector('.suggestion-item');
-        if (item) { item.click(); acted = true; break; }
+      const LETTERS = ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ'];
+      if (input) {
+        // tools with a suggestion engine: wait (up to 15s) for data, then open the first suggestion
+        const hasEngine = fs.existsSync(path.join(root, 'tools', t, 'js')) && fs.readdirSync(path.join(root, 'tools', t, 'js')).some(f => f.endsWith('.js') &&
+          fs.readFileSync(path.join(root, 'tools', t, 'js', f), 'utf8').includes('suggestion-item'));
+        if (hasEngine) {
+          for (const deadline = Date.now() + 15000; !acted && Date.now() < deadline;) {
+            for (const ch of LETTERS) {
+              input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(60);
+              const item = box.querySelector('.suggestion-item');
+              if (item) { item.click(); acted = true; break; }
+            }
+            if (!acted) await sleep(300);
+          }
+        }
       }
       if (!acted && input) {
         const key = firstKey(t);
-        if (key) { input.value = key; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(800); acted = true; }
+        if (key) { input.value = key; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(1500); acted = true; }
       }
       if (!acted) { failures.push(t); console.log(`FAIL tools/${t}: could not open a result`); w.close(); return; }
       await sleep(500);

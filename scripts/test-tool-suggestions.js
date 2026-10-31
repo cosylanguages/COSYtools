@@ -41,11 +41,16 @@ async function testPage(tool) {
   const input = box && box.parentElement.querySelector('input[type="text"], input[type="search"], input:not([type])');
   if (!box || !input) { ok(false, `${tool}: search box found`); return; }
 
+  // Wait up to 15s for the tool's data to load: keep trying letters until a suggestion shows up
   let typed = null;
-  for (const ch of ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ']) {
-    input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true }));
-    await sleep(60);
-    if (box.querySelector('.suggestion-item')) { typed = ch; break; }
+  const LETTERS = ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ'];
+  for (const deadline = Date.now() + 15000; !typed && Date.now() < deadline;) {
+    for (const ch of LETTERS) {
+      input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true }));
+      await sleep(60);
+      if (box.querySelector('.suggestion-item')) { typed = ch; break; }
+    }
+    if (!typed) await sleep(300);
   }
   if (!typed) { ok(false, `${tool}: suggestions appear for some letter`); return; }
   const items = [...box.querySelectorAll('.suggestion-item')];
