@@ -37,6 +37,8 @@ async function load(query){
    if(pressed.length!==1||pressed[0].id!=='lang-pill-'+l||n<11||!mag.endsWith('-'+l+'.html')||d.documentElement.lang!==l) {fails++;console.log('FAIL lang',l,pressed.length,n,mag,d.documentElement.lang);}
  }
  console.log('language switching checked for all 14');
+ // the YouTube card is a French playlist: every language says so (and none keeps the English text)
+ ok(w.eval("Object.keys(MONOLINGUAL_UI).filter(l => l !== 'en').every(l => EXTRA_UI[l].ytSub && EXTRA_UI[l].ytSub !== EXTRA_UI.en.ytSub)"),'YouTube card subtitle is translated in every language');
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
  ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));
