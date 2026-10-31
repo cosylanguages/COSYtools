@@ -191,7 +191,8 @@
         panel.id = 'supplemental-lexicon-panel';
         panel.style.display = 'none';
         panel.setAttribute('aria-live', 'polite');
-        panel.innerHTML = '<h3>Source-backed additions</h3><p class="supplemental-status">Imported vocabulary ready</p><div class="supplemental-results"></div>';
+        panel.setAttribute('aria-labelledby', 'supplemental-lexicon-title');
+        panel.innerHTML = '<h2 id="supplemental-lexicon-title">Source-backed additions</h2><p class="supplemental-status">Imported vocabulary ready</p><div class="supplemental-results"></div>';
         input.closest('main')?.appendChild(panel);
 
         const resultsContainer = panel.querySelector('.supplemental-results');

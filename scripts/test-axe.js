@@ -78,6 +78,28 @@ async function scan(w, label, failures) {
     w.close();
   } catch (e) { failures.push('states'); console.log('FAIL interactive states', e.message); }
 
+  // Tool result views: search, pick the first suggestion, scan what gets rendered
+  const TOOLS = ['de/praepositionen', 'el/genos-ptoseis', 'el/klisi-rimaton', 'el/syntaxi', 'en/irregular-verbs', 'en/verb-prep',
+    'fr/conjugeur', 'fr/genre', 'fr/regime', 'it/coniugatore', 'it/genere', 'it/reggenza', 'ru/rod-padezhi', 'ru/spryazhenie'];
+  for (const t of TOOLS) {
+    try {
+      const w = await open(`tools/${t}/index.html`);
+      const box = w.document.getElementById('search-suggestions');
+      const input = box && box.parentElement.querySelector('input[type="text"], input[type="search"], input:not([type])');
+      let picked = false;
+      for (const ch of ['a', 'e', 'p', 's', 'm', 'b', 'c', 'd', 'l', 'g', 'а', 'о', 'п', 'с', 'м', 'α', 'ε', 'π', 'κ', 'μ']) {
+        if (!input) break;
+        input.value = ch; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(60);
+        const item = box.querySelector('.suggestion-item');
+        if (item) { item.click(); picked = true; break; }
+      }
+      if (!picked) { failures.push(t); console.log(`FAIL tools/${t}: could not open a result`); w.close(); continue; }
+      await sleep(700);
+      await scan(w, `tools/${t}: result view`, failures);
+      w.close();
+    } catch (e) { failures.push(t); console.log('FAIL', t, e.message); }
+  }
+
   console.log(failures.length ? `\nFAILURES: ${failures.length}` : '\nALL AXE SCANS PASSED');
   srv.close(); process.exit(failures.length ? 1 : 0);
 })();
