@@ -37,6 +37,20 @@ async function load(query){
    if(pressed.length!==1||pressed[0].id!=='lang-pill-'+l||n<11||!mag.endsWith('-'+l+'.html')||d.documentElement.lang!==l) {fails++;console.log('FAIL lang',l,pressed.length,n,mag,d.documentElement.lang);}
  }
  console.log('language switching checked for all 14');
+ // the YouTube card is a French playlist: every language says so (and none keeps the English text)
+ ok(w.eval("Object.keys(MONOLINGUAL_UI).filter(l => l !== 'en').every(l => EXTRA_UI[l].ytSub && EXTRA_UI[l].ytSub !== EXTRA_UI.en.ytSub)"),'YouTube card subtitle is translated in every language');
+ // Top 10 verbs, part 1: 10 numbered groups; 4 = know, 7 = work/study/learn, 10 = eat/drink
+ const grp=JSON.parse(w.eval(`JSON.stringify(Object.fromEntries(Object.keys(MONOLINGUAL_UI).map(l=>{const c=COSYTopVerbs.getConfig(l),g=COSYTopVerbs.getGroups(l);return [l,{n:c.lemmas.length,g,groups:c.groups.map(x=>x.length)}];})))`));
+ ok(Object.values(grp).every(x=>x.n===x.g.length),'every language has one group number per verb');
+ ok(Object.entries(grp).every(([l,x])=>x.groups.length===10 && x.groups.every((len,i)=>len>0||(l==='ru'&&i===0))),'10 groups per language (Russian has no present "be")');
+ const fr=JSON.parse(w.eval(`JSON.stringify(COSYTopVerbs.getConfig('fr').groups)`));
+ ok(JSON.stringify(fr[3])==='["savoir","connaître"]' && JSON.stringify(fr[6])==='["travailler","étudier","apprendre"]' && JSON.stringify(fr[9])==='["manger","boire"]','fr: 4 = savoir/connaître, 7 = travailler/étudier/apprendre, 10 = manger/boire');
+ const big=['en','fr','it','pt','es','de','ru','el'];
+ ok(big.every(l=>grp[l].groups[6]===3||l==='ru'&&grp[l].groups[6]===3),'group 7 holds work/study/learn in the 8 languages with data');
+ ok(['fr','it','pt','es','de','el'].every(l=>grp[l].groups[3]===2),'group 4 holds both "know" verbs where the language has two');
+ d.getElementById('lang-pill-fr').click(); await sleep(350);
+ ok(d.querySelectorAll('.verb-group-num').length===14 && /4 = savoir \/ connaître/.test(d.getElementById('groups-note').textContent) && /7 = travailler \/ étudier \/ apprendre/.test(d.getElementById('groups-note').textContent) && /10 = manger \/ boire/.test(d.getElementById('groups-note').textContent),'fr: 14 numbered verbs and the note lists the multi-verb groups');
+ d.getElementById('lang-pill-en').click(); await sleep(350);
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
  ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));

@@ -67,6 +67,17 @@
             transition: all 0.2s ease;
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
+        .verb-group-num {
+            display: inline-block;
+            min-width: 1.4em;
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 800;
+            line-height: 1.4em;
+            border-radius: 999px;
+            background: var(--sage-mist, #e3efe5);
+            color: var(--sage-dark, #234027);
+        }
         .top-verb-checkbox-label:hover {
             background: #f0f7f1;
             border-color: var(--paper-accent);
@@ -378,6 +389,7 @@
                         <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-deselect-all" onclick="selectAllVerbs(false)">Deselect All</button>
                     </div>
                 </div>
+                <p id="groups-note" style="margin:0 0 0.75rem 0; color:var(--ink-soft); font-size:0.9rem;"></p>
                 <div id="verbs-checklist-grid" class="top-verbs-grid" role="group" aria-labelledby="lbl-step2" aria-live="polite">
                     <!-- Verb checkboxes rendered dynamically -->
                 </div>
@@ -516,7 +528,7 @@
                     <span style="font-size:1.8rem;" aria-hidden="true">▶️</span>
                     <div>
                         <strong style="color:var(--sage-dark); display:block;"><span id="yt-title">YouTube playlist</span> <span class="sr-only newtab-hint">(opens in a new tab)</span></strong>
-                        <small id="yt-sub" style="color:var(--ink-soft);">Irregular &amp; core verbs video lessons</small>
+                        <small id="yt-sub" style="color:var(--ink-soft);">French verb songs</small>
                     </div>
                 </a>
 
@@ -578,22 +590,40 @@
         };
         // Breadcrumb + 'Reading & Video Playlists' section
         const MEDIA_UI = {
-            en: { crumb:"Top 10 Verbs", mediaTitle:"Reading & Video Playlists", mediaIntro:"Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.", magTitle:"COSYmagazine article", ytTitle:"YouTube playlist", ytSub:"Irregular & core verbs video lessons", rtTitle:"RuTube playlist", newTab:"(opens in a new tab)" },
-            fr: { crumb:"10 verbes clés", mediaTitle:"Lectures et listes de vidéos", mediaIntro:"Complétez votre apprentissage avec les articles du COSYmagazine et les listes de lecture vidéo sur YouTube et RuTube.", magTitle:"Article du COSYmagazine", ytTitle:"Liste de lecture YouTube", ytSub:"Leçons vidéo sur les verbes irréguliers et essentiels", rtTitle:"Liste de lecture RuTube", newTab:"(s'ouvre dans un nouvel onglet)" },
-            es: { crumb:"10 verbos clave", mediaTitle:"Lecturas y listas de vídeos", mediaIntro:"Completa tu aprendizaje con los artículos de COSYmagazine y las listas de reproducción en YouTube y RuTube.", magTitle:"Artículo de COSYmagazine", ytTitle:"Lista de YouTube", ytSub:"Videolecciones de verbos irregulares y esenciales", rtTitle:"Lista de RuTube", newTab:"(se abre en una pestaña nueva)" },
-            it: { crumb:"10 verbi chiave", mediaTitle:"Letture e playlist video", mediaIntro:"Arricchisci il tuo apprendimento con gli articoli di COSYmagazine e le playlist video su YouTube e RuTube.", magTitle:"Articolo di COSYmagazine", ytTitle:"Playlist YouTube", ytSub:"Videolezioni sui verbi irregolari e fondamentali", rtTitle:"Playlist RuTube", newTab:"(si apre in una nuova scheda)" },
-            de: { crumb:"10 wichtigste Verben", mediaTitle:"Lesetipps und Video-Playlists", mediaIntro:"Vertiefen Sie Ihr Lernen mit Begleitartikeln im COSYmagazine und Video-Playlists auf YouTube und RuTube.", magTitle:"COSYmagazine-Artikel", ytTitle:"YouTube-Playlist", ytSub:"Videolektionen zu unregelmäßigen und wichtigen Verben", rtTitle:"RuTube-Playlist", newTab:"(öffnet in einem neuen Tab)" },
-            pt: { crumb:"10 verbos principais", mediaTitle:"Leituras e listas de vídeos", mediaIntro:"Complete a sua aprendizagem com os artigos da COSYmagazine e as playlists de vídeo no YouTube e no RuTube.", magTitle:"Artigo da COSYmagazine", ytTitle:"Playlist do YouTube", ytSub:"Videoaulas de verbos irregulares e essenciais", rtTitle:"Playlist do RuTube", newTab:"(abre num novo separador)" },
-            ru: { crumb:"10 главных глаголов", mediaTitle:"Статьи и видеоплейлисты", mediaIntro:"Дополните обучение статьями в COSYmagazine и видеоплейлистами на YouTube и RuTube.", magTitle:"Статья в COSYmagazine", ytTitle:"Плейлист на YouTube", ytSub:"Видеоуроки по неправильным и основным глаголам", rtTitle:"Плейлист на RuTube", newTab:"(откроется в новой вкладке)" },
-            el: { crumb:"10 βασικά ρήματα", mediaTitle:"Αναγνώσματα και λίστες βίντεο", mediaIntro:"Εμπλουτίστε τη μάθησή σας με άρθρα του COSYmagazine και λίστες βίντεο στο YouTube και το RuTube.", magTitle:"Άρθρο του COSYmagazine", ytTitle:"Λίστα αναπαραγωγής YouTube", ytSub:"Βιντεομαθήματα ανώμαλων και βασικών ρημάτων", rtTitle:"Λίστα αναπαραγωγής RuTube", newTab:"(ανοίγει σε νέα καρτέλα)" },
-            hy: { crumb:"10 հիմնական բայ", mediaTitle:"Ընթերցանություն և տեսաշարեր", mediaIntro:"Լրացրեք ձեր ուսումը COSYmagazine-ի հոդվածներով և YouTube-ի ու RuTube-ի տեսաշարերով։", magTitle:"COSYmagazine-ի հոդված", ytTitle:"YouTube-ի տեսաշար", ytSub:"Անկանոն և հիմնական բայերի տեսադասեր", rtTitle:"RuTube-ի տեսաշար", newTab:"(բացվում է նոր ներդիրում)" },
-            ka: { crumb:"10 ძირითადი ზმნა", mediaTitle:"საკითხავი და ვიდეო სიები", mediaIntro:"გააღრმავეთ სწავლა COSYmagazine-ის სტატიებითა და YouTube-ისა და RuTube-ის ვიდეო სიებით.", magTitle:"COSYmagazine-ის სტატია", ytTitle:"YouTube-ის სია", ytSub:"არარეგულარული და ძირითადი ზმნების ვიდეოგაკვეთილები", rtTitle:"RuTube-ის სია", newTab:"(იხსნება ახალ ჩანართში)" },
-            tt: { crumb:"10 төп фигыль", mediaTitle:"Уку һәм видео исемлекләр", mediaIntro:"COSYmagazine мәкаләләре һәм YouTube, RuTube видео исемлекләре белән белемегезне баетыгыз.", magTitle:"COSYmagazine мәкаләсе", ytTitle:"YouTube исемлеге", ytSub:"Көйсез һәм төп фигыльләр буенча видеодәресләр", rtTitle:"RuTube исемлеге", newTab:"(яңа биттә ачыла)" },
-            ba: { crumb:"10 төп ҡылым", mediaTitle:"Уҡыу һәм видео исемлектәре", mediaIntro:"COSYmagazine мәҡәләләре һәм YouTube, RuTube видео исемлектәре менән белемегеҙҙе байытығыҙ.", magTitle:"COSYmagazine мәҡәләһе", ytTitle:"YouTube исемлеге", ytSub:"Ҡағидәһеҙ һәм төп ҡылымдар буйынса видеодәрестәр", rtTitle:"RuTube исемлеге", newTab:"(яңы биттә асыла)" },
-            cv: { crumb:"10 тĕп глагол", mediaTitle:"Вулас тата видео списокĕсем", mediaIntro:"COSYmagazine статйисемпе тата YouTube, RuTube видео списокĕсемпе вĕренĕве пуянлатăр.", magTitle:"COSYmagazine статйи", ytTitle:"YouTube списокĕ", ytSub:"Йĕркесĕр тата тĕп глаголсем çинчен видеоурок", rtTitle:"RuTube списокĕ", newTab:"(çĕнĕ вкладкăра уçăлать)" },
-            br: { crumb:"10 verb pennañ", mediaTitle:"Lennadennoù ha rolloù-video", mediaIntro:"Pinvidikait ho teskadurezh gant pennadoù COSYmagazine ha rolloù-video war YouTube ha RuTube.", magTitle:"Pennad COSYmagazine", ytTitle:"Roll YouTube", ytSub:"Gwerzhioù-video diwar-benn verboù direizh ha pennañ", rtTitle:"Roll RuTube", newTab:"(digor en un ivinell nevez)" },
+            en: { crumb:"Top 10 Verbs", mediaTitle:"Reading & Video Playlists", mediaIntro:"Enhance your learning with companion articles in COSYmagazine and video playlists on YouTube and RuTube.", magTitle:"COSYmagazine article", ytTitle:"YouTube playlist", ytSub:"French verb songs", rtTitle:"RuTube playlist", newTab:"(opens in a new tab)" },
+            fr: { crumb:"10 verbes clés", mediaTitle:"Lectures et listes de vidéos", mediaIntro:"Complétez votre apprentissage avec les articles du COSYmagazine et les listes de lecture vidéo sur YouTube et RuTube.", magTitle:"Article du COSYmagazine", ytTitle:"Liste de lecture YouTube", ytSub:"Chansons sur les verbes français", rtTitle:"Liste de lecture RuTube", newTab:"(s'ouvre dans un nouvel onglet)" },
+            es: { crumb:"10 verbos clave", mediaTitle:"Lecturas y listas de vídeos", mediaIntro:"Completa tu aprendizaje con los artículos de COSYmagazine y las listas de reproducción en YouTube y RuTube.", magTitle:"Artículo de COSYmagazine", ytTitle:"Lista de YouTube", ytSub:"Canciones de verbos franceses", rtTitle:"Lista de RuTube", newTab:"(se abre en una pestaña nueva)" },
+            it: { crumb:"10 verbi chiave", mediaTitle:"Letture e playlist video", mediaIntro:"Arricchisci il tuo apprendimento con gli articoli di COSYmagazine e le playlist video su YouTube e RuTube.", magTitle:"Articolo di COSYmagazine", ytTitle:"Playlist YouTube", ytSub:"Canzoni sui verbi francesi", rtTitle:"Playlist RuTube", newTab:"(si apre in una nuova scheda)" },
+            de: { crumb:"10 wichtigste Verben", mediaTitle:"Lesetipps und Video-Playlists", mediaIntro:"Vertiefen Sie Ihr Lernen mit Begleitartikeln im COSYmagazine und Video-Playlists auf YouTube und RuTube.", magTitle:"COSYmagazine-Artikel", ytTitle:"YouTube-Playlist", ytSub:"Lieder zu französischen Verben", rtTitle:"RuTube-Playlist", newTab:"(öffnet in einem neuen Tab)" },
+            pt: { crumb:"10 verbos principais", mediaTitle:"Leituras e listas de vídeos", mediaIntro:"Complete a sua aprendizagem com os artigos da COSYmagazine e as playlists de vídeo no YouTube e no RuTube.", magTitle:"Artigo da COSYmagazine", ytTitle:"Playlist do YouTube", ytSub:"Canções de verbos franceses", rtTitle:"Playlist do RuTube", newTab:"(abre num novo separador)" },
+            ru: { crumb:"10 главных глаголов", mediaTitle:"Статьи и видеоплейлисты", mediaIntro:"Дополните обучение статьями в COSYmagazine и видеоплейлистами на YouTube и RuTube.", magTitle:"Статья в COSYmagazine", ytTitle:"Плейлист на YouTube", ytSub:"Песни о французских глаголах", rtTitle:"Плейлист на RuTube", newTab:"(откроется в новой вкладке)" },
+            el: { crumb:"10 βασικά ρήματα", mediaTitle:"Αναγνώσματα και λίστες βίντεο", mediaIntro:"Εμπλουτίστε τη μάθησή σας με άρθρα του COSYmagazine και λίστες βίντεο στο YouTube και το RuTube.", magTitle:"Άρθρο του COSYmagazine", ytTitle:"Λίστα αναπαραγωγής YouTube", ytSub:"Τραγούδια για γαλλικά ρήματα", rtTitle:"Λίστα αναπαραγωγής RuTube", newTab:"(ανοίγει σε νέα καρτέλα)" },
+            hy: { crumb:"10 հիմնական բայ", mediaTitle:"Ընթերցանություն և տեսաշարեր", mediaIntro:"Լրացրեք ձեր ուսումը COSYmagazine-ի հոդվածներով և YouTube-ի ու RuTube-ի տեսաշարերով։", magTitle:"COSYmagazine-ի հոդված", ytTitle:"YouTube-ի տեսաշար", ytSub:"Ֆրանսերեն բայերի երգեր", rtTitle:"RuTube-ի տեսաշար", newTab:"(բացվում է նոր ներդիրում)" },
+            ka: { crumb:"10 ძირითადი ზმნა", mediaTitle:"საკითხავი და ვიდეო სიები", mediaIntro:"გააღრმავეთ სწავლა COSYmagazine-ის სტატიებითა და YouTube-ისა და RuTube-ის ვიდეო სიებით.", magTitle:"COSYmagazine-ის სტატია", ytTitle:"YouTube-ის სია", ytSub:"ფრანგული ზმნების სიმღერები", rtTitle:"RuTube-ის სია", newTab:"(იხსნება ახალ ჩანართში)" },
+            tt: { crumb:"10 төп фигыль", mediaTitle:"Уку һәм видео исемлекләр", mediaIntro:"COSYmagazine мәкаләләре һәм YouTube, RuTube видео исемлекләре белән белемегезне баетыгыз.", magTitle:"COSYmagazine мәкаләсе", ytTitle:"YouTube исемлеге", ytSub:"Француз фигыльләре турында җырлар", rtTitle:"RuTube исемлеге", newTab:"(яңа биттә ачыла)" },
+            ba: { crumb:"10 төп ҡылым", mediaTitle:"Уҡыу һәм видео исемлектәре", mediaIntro:"COSYmagazine мәҡәләләре һәм YouTube, RuTube видео исемлектәре менән белемегеҙҙе байытығыҙ.", magTitle:"COSYmagazine мәҡәләһе", ytTitle:"YouTube исемлеге", ytSub:"Француз ҡылымдары тураһында йырҙар", rtTitle:"RuTube исемлеге", newTab:"(яңы биттә асыла)" },
+            cv: { crumb:"10 тĕп глагол", mediaTitle:"Вулас тата видео списокĕсем", mediaIntro:"COSYmagazine статйисемпе тата YouTube, RuTube видео списокĕсемпе вĕренĕве пуянлатăр.", magTitle:"COSYmagazine статйи", ytTitle:"YouTube списокĕ", ytSub:"Француз глаголĕсем çинчен юрăсем", rtTitle:"RuTube списокĕ", newTab:"(çĕнĕ вкладкăра уçăлать)" },
+            br: { crumb:"10 verb pennañ", mediaTitle:"Lennadennoù ha rolloù-video", mediaIntro:"Pinvidikait ho teskadurezh gant pennadoù COSYmagazine ha rolloù-video war YouTube ha RuTube.", magTitle:"Pennad COSYmagazine", ytTitle:"Roll YouTube", ytSub:"Kanaouennoù diwar-benn verboù c'hall", rtTitle:"Roll RuTube", newTab:"(digor en un ivinell nevez)" },
         };
         Object.keys(MEDIA_UI).forEach(l => Object.assign(EXTRA_UI[l] = EXTRA_UI[l] || {}, MEDIA_UI[l]));
+        // Verb-group note and group-number label
+        const GROUP_UI = {
+            en: { groupsNote: "The 10 core verb groups. Groups with more than one verb: {list}.", groupTitle: "Verb group number" },
+            fr: { groupsNote: "Les 10 groupes de verbes essentiels. Groupes de plusieurs verbes : {list}.", groupTitle: "Numéro du groupe de verbes" },
+            es: { groupsNote: "Los 10 grupos de verbos esenciales. Grupos con varios verbos: {list}.", groupTitle: "Número del grupo de verbos" },
+            it: { groupsNote: "I 10 gruppi di verbi fondamentali. Gruppi con più verbi: {list}.", groupTitle: "Numero del gruppo di verbi" },
+            de: { groupsNote: "Die 10 Kernverb-Gruppen. Gruppen mit mehreren Verben: {list}.", groupTitle: "Nummer der Verbgruppe" },
+            pt: { groupsNote: "Os 10 grupos de verbos essenciais. Grupos com vários verbos: {list}.", groupTitle: "Número do grupo de verbos" },
+            ru: { groupsNote: "10 основных групп глаголов. Группы с несколькими глаголами: {list}.", groupTitle: "Номер группы глаголов" },
+            el: { groupsNote: "Οι 10 βασικές ομάδες ρημάτων. Ομάδες με περισσότερα ρήματα: {list}.", groupTitle: "Αριθμός ομάδας ρημάτων" },
+            hy: { groupsNote: "10 հիմնական բայախմբերը։ Մի քանի բայ ունեցող խմբեր՝ {list}։", groupTitle: "Բայախմբի համարը" },
+            ka: { groupsNote: "10 ძირითადი ზმნის ჯგუფი. ჯგუფები რამდენიმე ზმნით: {list}.", groupTitle: "ზმნების ჯგუფის ნომერი" },
+            tt: { groupsNote: "10 төп фигыль төркеме. Берничә фигыльле төркемнәр: {list}.", groupTitle: "Фигыль төркеменең номеры" },
+            ba: { groupsNote: "10 төп ҡылым төркөмө. Бер нисә ҡылымлы төркөмдәр: {list}.", groupTitle: "Ҡылым төркөмөнөң номеры" },
+            cv: { groupsNote: "10 тĕп глагол ушкăнĕ. Темиçе глаголлă ушкăнсем: {list}.", groupTitle: "Глагол ушкăнĕн номерĕ" },
+            br: { groupsNote: "An 10 strollad verb pennañ. Strolladoù gant meur a verb: {list}.", groupTitle: "Niverenn ar strollad verboù" },
+        };
+        Object.keys(GROUP_UI).forEach(l => Object.assign(EXTRA_UI[l], GROUP_UI[l]));
         const DESC_IDS = { 'person-desc-both':'descBoth', 'pol-desc-positive':'descPositive', 'pol-desc-negative':'descNegative', 'pol-desc-mixed':'descMixed', 'target-desc-verb':'descTVerb', 'target-desc-pronoun':'descTPron', 'target-desc-mixed':'descTMixed', 'mode-desc-drill':'descDrill', 'mode-desc-table':'descTable' };
 
         function escHtml(v) {
@@ -1288,6 +1318,20 @@
                 }
             }
 
+            // Top 10 verbs, part 1: 10 numbered groups; some groups hold several verbs
+            const groups = COSYTopVerbs.getGroups(langCode);
+            const groupTitle = tPlain('groupTitle');
+            // groups that hold several verbs, e.g. "4 = savoir / connaître · 7 = travailler / étudier / apprendre"
+            const multi = cfg.groups
+                .map((verbs, i) => verbs.length > 1 ? `${i + 1} = ${verbs.join(' / ')}` : null)
+                .filter(Boolean).join(' · ');
+            const note = document.getElementById('groups-note');
+            if (note) {
+                const r = uiString('groupsNote', { list: multi });
+                note.textContent = r.text;
+                if (r.lang === document.documentElement.lang) note.removeAttribute('lang'); else note.setAttribute('lang', r.lang);
+            }
+
             grid.innerHTML = cfg.lemmas.map((lemma, idx) => {
                 const entry = COSYTopVerbs.findEntry(langCode, dbMap, lemma);
                 const def = entry ? (entry.definition || entry.usage_hint || '') : '';
@@ -1296,6 +1340,7 @@
                 return `
                     <label class="top-verb-checkbox-label">
                         <input type="checkbox" class="verb-cb" value="${escHtml(lemma)}" ${isChecked ? 'checked' : ''}>
+                        <span class="verb-group-num" title="${escHtml(groupTitle)}"><span class="sr-only">${escHtml(groupTitle)} </span>${groups[idx]}</span>
                         <strong>${escHtml(lemma)}</strong>
                         ${def ? `<small title="${escHtml(def)}" style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${escHtml(def)})</small>` : ''}
                     </label>
