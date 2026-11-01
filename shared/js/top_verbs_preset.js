@@ -96,21 +96,21 @@
         },
         br: {
             toolPath: 'tools/br/conjugeur/',
-            groups: [['bout'], ['kaout'], ['soñjal'], ['gouzout'], ['plijout'], ['follout'], ['labourat', 'studiañ'], ['mont'], ['gallout'], ['debriñ', 'evañ']],
+            groups: [['bezañ'], ['kaout'], ['soñjal'], ['gouzout'], ['karet'], ['fellout'], ['labourat', 'studiañ'], ['mont'], ['gallout'], ['debriñ', 'evañ']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         hy: {
             toolPath: 'tools/hy/conjugeur/',
-            groups: [['լինել'], ['ունենալ'], ['մտածել'], ['իմանալ'], ['դուր գալ'], ['ուզել'], ['աշխատել', 'սովորել'], ['գնալ'], ['կարողանալ'], ['ուտել', 'խմել']],
+            groups: [['լինել'], ['ունենալ'], ['մտածել'], ['իմանալ'], ['սիրել'], ['ուզել'], ['աշխատել', 'սովորել'], ['գնալ'], ['կարողանալ'], ['ուտել', 'խմել']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false
         },
         ka: {
             toolPath: 'tools/ka/conjugeur/',
-            groups: [['ყოფნა'], ['ყოლა'], ['ფიქრი'], ['ცოდნა'], ['მოწონება'], ['ნდომა'], ['მუშაობა', 'სწავლა'], ['სვლა'], ['შეძლება'], ['ჭამა', 'სმა']],
+            groups: [['ყოფნა'], ['აქვს'], ['ფიქრობს'], ['იცის'], ['უყვარს'], ['უნდა'], ['მუშაობს', 'სწავლობს'], ['მიდის'], ['შეუძლია'], ['ჭამა', 'სმა']],
             supportsQuestions: true,
             supportsNegatives: true,
             excludePresentBe: false

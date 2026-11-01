@@ -72,7 +72,10 @@ async function switchLang(w, d, l) {
    }
  }
  ok(leaked.length===0,'placeholder verbs never reach the drills or the table pool '+leaked.slice(0,3).join(','));
- ok(['en','fr','it','pt','es','de','ru','el','tt','ba','cv'].every(l=>pendingByLang[l].length===0),'the 11 languages with complete data have no placeholder verbs');
+ ok(Object.keys(pendingByLang).every(l=>pendingByLang[l].length===0),'no language has placeholder verbs any more: '+Object.entries(pendingByLang).filter(([l,v])=>v.length).map(([l,v])=>l+':'+v.join('/')).join(' '));
+ // every practice verb has six distinct present-tense forms (one per pronoun) except the few that legitimately repeat
+ const dup=[]; for(const l of Object.keys(grp)){const cfg=Tx.getConfig(l); const db=JSON.parse(fsx.readFileSync(pathx.join(root,cfg.toolPath,'data/verbs.json'),'utf8')); cfg.lemmas.forEach(x=>{const e=Tx.findEntry(l,db,x); const t=(e&&e.tenses)||{}; const pr=t.present||t.pres||(e&&e.present)||[]; if(pr.length&&new Set(pr).size<3) dup.push(l+':'+x);});}
+ ok(dup.length===0,'every practice verb has distinct present forms '+dup.join(','));
  for(const l of Object.keys(pendingByLang).filter(l=>pendingByLang[l].length)){
    await switchLang(w,d,l);
    const dis=[...d.querySelectorAll('.verb-cb:disabled')].map(x=>x.value).sort();
@@ -85,6 +88,18 @@ async function switchLang(w, d, l) {
    ok(q.length>0 && q.every(x=>!pendingByLang[l].includes(x)),l+': drills use only verbs with real data ('+new Set(q).size+' verbs)');
    w.showSetupCard();
  }
+ // The "data pending" UI path, exercised with a simulated placeholder (real data has none left)
+ await switchLang(w,d,'ka');
+ w.eval(`currentDbMap['ყოფნა'] = { definition: 'Verb form for be', tenses: { present: Array(6).fill('ყოფნა') } }; renderVerbsChecklist('ka', currentDbMap);`);
+ { const dis=[...d.querySelectorAll('.verb-cb:disabled')].map(x=>x.value);
+   ok(dis.length===1&&dis[0]==='ყოფნა'&&!d.querySelector('.verb-cb:disabled').checked,'simulated placeholder: listed, disabled and unchecked');
+   ok(d.querySelectorAll('.verb-pending-note').length===1,'simulated placeholder: labelled "data pending"');
+   d.getElementById('btn-select-all').click();
+   ok(d.querySelector('.verb-cb:disabled').checked===false,'simulated placeholder: "select all" skips it');
+   d.getElementById('btn-launch').click(); await sleep(100);
+   const q=JSON.parse(w.eval('JSON.stringify(drillQueue.map(x=>x.lemma))'));
+   ok(q.length>0&&!q.includes('ყოფნა'),'simulated placeholder: never drilled');
+   w.showSetupCard(); }
  await switchLang(w,d,'en');
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));

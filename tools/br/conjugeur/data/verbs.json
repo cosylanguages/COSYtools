@@ -908,44 +908,38 @@
     ]
   },
   "labourat": {
-    "en_lemma": "work",
-    "infinitive": "labourat",
-    "group": "Standard",
+    "group": "Verboù boutin",
     "level": "A1",
-    "definition": "Verb form for work",
+    "definition": "Ober ul labour.",
+    "needs_review": true,
     "tenses": {
       "present": [
-        "labourat",
-        "labourat",
-        "labourat",
-        "labourat",
-        "labourat",
-        "labourat"
+        "labouran",
+        "labourez",
+        "labour",
+        "labouromp",
+        "labourit",
+        "labouront"
       ]
     },
-    "examples": [
-      "Example sentence for labourat."
-    ]
+    "en_lemma": "work"
   },
   "studiañ": {
-    "en_lemma": "study",
-    "infinitive": "studiañ",
-    "group": "Standard",
+    "group": "Verboù boutin",
     "level": "A1",
-    "definition": "Verb form for study",
+    "definition": "Deskiñ ur sujed gant evezh.",
+    "needs_review": true,
     "tenses": {
       "present": [
-        "studiañ",
-        "studiañ",
-        "studiañ",
-        "studiañ",
-        "studiañ",
-        "studiañ"
+        "studian",
+        "studiez",
+        "studi",
+        "studiomp",
+        "studiit",
+        "studiont"
       ]
     },
-    "examples": [
-      "Example sentence for studiañ."
-    ]
+    "en_lemma": "study"
   },
   "sevel": {
     "en_lemma": "make",

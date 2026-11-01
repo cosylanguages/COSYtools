@@ -892,24 +892,21 @@
     ]
   },
   "աշխատել": {
-    "en_lemma": "work",
-    "infinitive": "աշխատել",
-    "group": "Standard",
+    "group": "I խոնարհում (-ել)",
     "level": "A1",
-    "definition": "Verb form for work",
+    "definition": "Աշխատանք կատարել:",
+    "needs_review": true,
     "tenses": {
       "present": [
-        "աշխատել",
-        "աշխատել",
-        "աշխատել",
-        "աշխատել",
-        "աշխատել",
-        "աշխատել"
+        "աշխատում եմ",
+        "աշխատում ես",
+        "աշխատում է",
+        "աշխատում ենք",
+        "աշխատում եք",
+        "աշխատում են"
       ]
     },
-    "examples": [
-      "Example sentence for աշխատել."
-    ]
+    "en_lemma": "work"
   },
   "պատրաստել": {
     "en_lemma": "make",
