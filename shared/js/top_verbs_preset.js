@@ -320,7 +320,7 @@
 
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
-            if (!entry) continue;
+            if (!entry || isPlaceholderEntry(entry)) continue;
 
             let baseForms = [];
             if (lang === 'en') {
@@ -436,7 +436,7 @@
 
         for (const lemma of targetLemmas) {
             const entry = findEntry(lang, dbMap, lemma);
-            if (!entry) continue;
+            if (!entry || isPlaceholderEntry(entry)) continue;
 
             const definition = entry.definition || entry.usage_hint || '';
 
@@ -582,6 +582,21 @@
         return drills;
     }
 
+    /**
+     * Some data files still contain auto-generated stand-in entries ("Verb form for think",
+     * "Example sentence for ...", all six present forms equal to the infinitive). Drilling them would
+     * ask learners to type the infinitive for every pronoun, so they are skipped until real
+     * conjugations exist.
+     */
+    function isPlaceholderEntry(entry) {
+        if (!entry) return true;
+        if (/^Verb form for/i.test(entry.definition || '')) return true;
+        if ((entry.examples || []).some(x => /^Example sentence for/i.test(x))) return true;
+        const t = entry.tenses || {};
+        const present = t.present || t.pres || entry.present || [];
+        return present.length >= 3 && new Set(present).size <= 1;
+    }
+
     /** Group number (1-10) of each verb of `lang`, parallel to getConfig(lang).lemmas. */
     function getGroups(lang) {
         const cfg = getConfig(lang);
@@ -594,6 +609,7 @@
     return {
         getConfig,
         getGroups,
+        isPlaceholderEntry,
         getAllConfigs,
         isTopVerb,
         findEntry,

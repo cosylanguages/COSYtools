@@ -446,7 +446,7 @@ class PracticeEngine {
 
             <div class="mistake-spot-prompt">
                 <span class="prompt-badge spot-badge">⚠️ Spot &amp; Fix Pitfall</span>
-                <h4>Identify the correct pattern for: <strong class="highlight-word">${promptWord}</strong></h4>
+                <h3 style="font-size: 1em;">Identify the correct pattern for: <strong class="highlight-word">${promptWord}</strong></h3>
                 <p class="mistake-line">${mistakeDisplay}</p>
             </div>
 
