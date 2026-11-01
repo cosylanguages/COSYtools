@@ -67,6 +67,8 @@
             transition: all 0.2s ease;
             box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
+        .top-verb-checkbox-label.is-pending { opacity: 0.75; cursor: not-allowed; }
+        .verb-pending-note { font-size: 0.75rem; color: var(--ink-soft); font-style: italic; }
         .verb-group-num {
             display: inline-block;
             min-width: 1.4em;
@@ -624,6 +626,24 @@
             br: { groupsNote: "An 10 strollad verb pennañ. Strolladoù gant meur a verb: {list}.", groupTitle: "Niverenn ar strollad verboù" },
         };
         Object.keys(GROUP_UI).forEach(l => Object.assign(EXTRA_UI[l], GROUP_UI[l]));
+        // Verbs whose conjugation data is not available yet
+        const PENDING_UI = {
+            en: { dataPending: "data pending" },
+            fr: { dataPending: "données à venir" },
+            es: { dataPending: "datos pendientes" },
+            it: { dataPending: "dati in arrivo" },
+            de: { dataPending: "Daten folgen" },
+            pt: { dataPending: "dados em falta" },
+            ru: { dataPending: "данные скоро" },
+            el: { dataPending: "δεδομένα σύντομα" },
+            hy: { dataPending: "տվյալները սպասվում են" },
+            ka: { dataPending: "მონაცემები მალე დაემატება" },
+            tt: { dataPending: "мәгълүмат көтелә" },
+            ba: { dataPending: "мәғлүмәт көтөлә" },
+            cv: { dataPending: "даннăйсем кĕтеççĕ" },
+            br: { dataPending: "roadennoù da zont" },
+        };
+        Object.keys(PENDING_UI).forEach(l => Object.assign(EXTRA_UI[l], PENDING_UI[l]));
         const DESC_IDS = { 'person-desc-both':'descBoth', 'pol-desc-positive':'descPositive', 'pol-desc-negative':'descNegative', 'pol-desc-mixed':'descMixed', 'target-desc-verb':'descTVerb', 'target-desc-pronoun':'descTPron', 'target-desc-mixed':'descTMixed', 'mode-desc-drill':'descDrill', 'mode-desc-table':'descTable' };
 
         function escHtml(v) {
@@ -1335,14 +1355,17 @@
             grid.innerHTML = cfg.lemmas.map((lemma, idx) => {
                 const entry = COSYTopVerbs.findEntry(langCode, dbMap, lemma);
                 const def = entry ? (entry.definition || entry.usage_hint || '') : '';
-                const isChecked = preSelected ? preSelected.includes(lemma.toLowerCase()) : true;
+                // placeholder entries (no real conjugation yet) are listed but cannot be selected
+                const pending = COSYTopVerbs.isPlaceholderEntry(entry);
+                const isChecked = !pending && (preSelected ? preSelected.includes(lemma.toLowerCase()) : true);
 
                 return `
-                    <label class="top-verb-checkbox-label">
-                        <input type="checkbox" class="verb-cb" value="${escHtml(lemma)}" ${isChecked ? 'checked' : ''}>
+                    <label class="top-verb-checkbox-label${pending ? ' is-pending' : ''}">
+                        <input type="checkbox" class="verb-cb" value="${escHtml(lemma)}" ${isChecked ? 'checked' : ''} ${pending ? 'disabled' : ''}>
                         <span class="verb-group-num" title="${escHtml(groupTitle)}"><span class="sr-only">${escHtml(groupTitle)} </span>${groups[idx]}</span>
                         <strong>${escHtml(lemma)}</strong>
                         ${def ? `<small title="${escHtml(def)}" style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${escHtml(def)})</small>` : ''}
+                        ${pending ? `<em class="verb-pending-note">${tHtml('dataPending')}</em>` : ''}
                     </label>
                 `;
             }).join('');
@@ -1351,7 +1374,7 @@
         }
 
         function selectAllVerbs(select) {
-            document.querySelectorAll('.verb-cb').forEach(cb => {
+            document.querySelectorAll('.verb-cb:not(:disabled)').forEach(cb => {
                 cb.checked = select;
             });
         }
@@ -1660,7 +1683,7 @@
 
         function copyShareableLink() {
             const selectedVerbs = getSelectedVerbs();
-            const verbsParam = (selectedVerbs.length === COSYTopVerbs.getConfig(currentLang).lemmas.length) ? 'all' : selectedVerbs.join(',');
+            const verbsParam = (selectedVerbs.length === document.querySelectorAll('.verb-cb:not(:disabled)').length) ? 'all' : selectedVerbs.join(',');
 
             const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&target=${currentTargetMode}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
             const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;

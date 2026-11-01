@@ -60,6 +60,32 @@ async function switchLang(w, d, l) {
  await switchLang(w,d,'fr');
  ok(d.querySelectorAll('.verb-group-num').length===14 && /4 = savoir \/ connaître/.test(d.getElementById('groups-note').textContent) && /7 = travailler \/ étudier \/ apprendre/.test(d.getElementById('groups-note').textContent) && /10 = manger \/ boire/.test(d.getElementById('groups-note').textContent),'fr: 14 numbered verbs and the note lists the multi-verb groups');
  await switchLang(w,d,'en');
+ // Placeholder conjugations (auto-generated "Verb form for ...") must never be drilled
+ const fsx=require('fs'), pathx=require('path'), Tx=require('../shared/js/top_verbs_preset.js');
+ let leaked=[], pendingByLang={};
+ for(const l of Object.keys(grp)){
+   const cfg=Tx.getConfig(l); const db=JSON.parse(fsx.readFileSync(pathx.join(root,cfg.toolPath,'data/verbs.json'),'utf8'));
+   pendingByLang[l]=cfg.lemmas.filter(x=>Tx.isPlaceholderEntry(Tx.findEntry(l,db,x)));
+   for(const pol of ['positive','negative','question']) for(const tm of ['verb','pronoun']){
+     Tx.generateSingleDrills(l,db,'both',cfg.lemmas,pol,tm).forEach(dr=>{ if(pendingByLang[l].includes(dr.lemma)) leaked.push(l+':'+dr.lemma); });
+     Tx.getTopVerbsPool(l,db,'both',cfg.lemmas,pol,tm).forEach(it=>{ if(pendingByLang[l].includes(it.lemma||it.verb||'')) leaked.push(l+':pool:'+it.lemma); });
+   }
+ }
+ ok(leaked.length===0,'placeholder verbs never reach the drills or the table pool '+leaked.slice(0,3).join(','));
+ ok(['en','fr','it','pt','es','de','ru','el','tt','ba','cv'].every(l=>pendingByLang[l].length===0),'the 11 languages with complete data have no placeholder verbs');
+ for(const l of Object.keys(pendingByLang).filter(l=>pendingByLang[l].length)){
+   await switchLang(w,d,l);
+   const dis=[...d.querySelectorAll('.verb-cb:disabled')].map(x=>x.value).sort();
+   ok(JSON.stringify(dis)===JSON.stringify([...pendingByLang[l]].sort()) && [...d.querySelectorAll('.verb-cb:disabled')].every(x=>!x.checked),l+': '+dis.length+' pending verbs are listed, disabled and unchecked');
+   d.getElementById('btn-select-all').click();
+   ok([...d.querySelectorAll('.verb-cb:disabled')].every(x=>!x.checked),l+': "select all" does not select pending verbs');
+   ok(d.querySelectorAll('.verb-pending-note').length===dis.length,l+': each pending verb says so');
+   d.getElementById('btn-launch').click(); await sleep(100);
+   const q=JSON.parse(w.eval('JSON.stringify(drillQueue.map(x=>x.lemma))'));
+   ok(q.length>0 && q.every(x=>!pendingByLang[l].includes(x)),l+': drills use only verbs with real data ('+new Set(q).size+' verbs)');
+   w.showSetupCard();
+ }
+ await switchLang(w,d,'en');
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
  ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));

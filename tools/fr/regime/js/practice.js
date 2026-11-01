@@ -71,7 +71,7 @@ class PracticeManager extends PracticeEngine {
             questionPromptHtml = `
                 <div class="mistake-spot-prompt">
                     <span class="prompt-badge spot-badge">⚠️ Corrigez l'erreur</span>
-                    <h4>Identifiez la construction correcte pour : <strong class="highlight-word">${promptWord}</strong></h4>
+                    <h2 style="font-size: 1em;">Identifiez la construction correcte pour : <strong class="highlight-word">${promptWord}</strong></h2>
                     <p class="mistake-line">${data.common_mistake.split('➜')[0] || data.common_mistake}</p>
                 </div>
             `;
