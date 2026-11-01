@@ -294,6 +294,51 @@
     }
 
     // --------------------------------------------------------------------------
+    // Result announcer: tools replace the result as you type or pick a suggestion, with no
+    // visible or audible cue for screen reader users. Announce the new entry's name (debounced).
+    // --------------------------------------------------------------------------
+    function initResultAnnouncer() {
+        var display = ['result-display', 'verb-display', 'verb-result-container', 'noun-result-container']
+            .map(function(id) { return document.getElementById(id); }).filter(Boolean)[0];
+        if (!display || !document.getElementById('search-suggestions') || display.getAttribute('data-announce-init')) return;
+        display.setAttribute('data-announce-init', '1');
+
+        var status = document.createElement('div');
+        status.setAttribute('role', 'status');
+        status.setAttribute('aria-live', 'polite');
+        status.setAttribute('data-result-announcer', '');
+        status.style.cssText = 'position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;';
+        document.body.appendChild(status);
+
+        var last = '';
+        var timer = null;
+        new MutationObserver(function() {
+            clearTimeout(timer);
+            timer = setTimeout(function() {
+                var heading = display.querySelector('h1, h2');
+                var text = '';
+                if (heading) {
+                    // the entry's own name: skip level / review badges that live in child elements
+                    for (var i = 0; i < heading.childNodes.length; i++) {
+                        if (heading.childNodes[i].nodeType === 3) text += heading.childNodes[i].nodeValue;
+                    }
+                    text = text.replace(/\s+/g, ' ').trim() || heading.textContent.replace(/\s+/g, ' ').trim();
+                }
+                if (!text || text === last) return;
+                last = text;
+                status.textContent = '';
+                setTimeout(function() { status.textContent = text; }, 50);
+            }, 600);
+        }).observe(display, { childList: true, subtree: true });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initResultAnnouncer);
+    } else {
+        initResultAnnouncer();
+    }
+
+    // --------------------------------------------------------------------------
     // Compatibility Object
     // --------------------------------------------------------------------------
     window.COSY = window.COSY || {};
