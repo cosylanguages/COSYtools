@@ -245,6 +245,15 @@ async function runSmokeTests() {
 
                 if (vp.width === 1280 && pageRelPath !== 'index.html') {
                     try {
+                        const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+                        // Wait (up to 4s) for the page's engine to exist: slow runners initialise later
+                        for (let i = 0; i < 16; i++) {
+                            const ready = await page.evaluate(() => !!(window.appEngine || document.getElementById('mode-dictionary-btn') || document.getElementById('nav-lookup-btn') || document.querySelector('input[type="text"]')));
+                            if (ready) break;
+                            await sleep(250);
+                        }
+
                         // Switch to dictionary/search view if available
                         await page.evaluate(() => {
                             if (window.appEngine && typeof window.appEngine.setAppMode === 'function') {
@@ -254,9 +263,10 @@ async function runSmokeTests() {
                                 if (modeBtn) modeBtn.click();
                             }
                         });
-                        await new Promise(r => setTimeout(r, 200));
 
-                        const deepLinkApplied = await page.evaluate((expectedQuery) => {
+                        // Poll (up to 6s) for the deep-linked result instead of a fixed wait: some pages
+                        // render only after an async fetch (e.g. the supplemental lexicon)
+                        const checkDeepLink = () => page.evaluate((expectedQuery) => {
                             const inputSelector = '#verb-search-input, #noun-search-input, #search-input, input[type="text"]';
                             const input = document.querySelector(inputSelector);
                             if (input && input.value && input.value.toLowerCase().includes(expectedQuery.toLowerCase())) {
@@ -270,6 +280,11 @@ async function runSmokeTests() {
                             }
                             return false;
                         }, sampleQuery);
+                        let deepLinkApplied = false;
+                        for (let i = 0; i < 24 && !deepLinkApplied; i++) {
+                            deepLinkApplied = await checkDeepLink();
+                            if (!deepLinkApplied) await sleep(250);
+                        }
 
                         if (deepLinkApplied || pageRelPath.includes('speaking-bot')) {
                             pageFunctionalPassed = true;
@@ -280,9 +295,7 @@ async function runSmokeTests() {
                                 await inputHandle.click({ clickCount: 3 });
                                 await inputHandle.type(sampleQuery);
                                 await page.keyboard.press('Enter');
-                                await new Promise(r => setTimeout(r, 300));
-
-                                const hasResults = await page.evaluate(() => {
+                                const readResults = () => page.evaluate(() => {
                                     const containers = document.querySelectorAll('#verb-display, #result-display, #verb-result-container, .result-card, .results-container, table, article, .suggestion-item, .sb-grid');
                                     for (const c of containers) {
                                         if (c && c.offsetHeight > 0 && c.textContent.trim().length > 10) {
@@ -291,6 +304,11 @@ async function runSmokeTests() {
                                     }
                                     return false;
                                 });
+                                let hasResults = false;
+                                for (let i = 0; i < 16 && !hasResults; i++) {
+                                    await sleep(250);
+                                    hasResults = await readResults();
+                                }
 
                                 if (hasResults) {
                                     pageFunctionalPassed = true;
