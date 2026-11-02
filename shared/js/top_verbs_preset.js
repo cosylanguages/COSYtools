@@ -132,6 +132,39 @@
         'can': { base: 'can', lemma: 'can', level: 'A1', definition: 'to be able to', present_simple: { 'I': 'can', 'you': 'can', 'he/she/it': 'can', 'we': 'can', 'they': 'can' } }
     };
 
+
+    // Regular English verbs of parts 2 and 3 that the English data file does not contain.
+    // Present simple is fully regular (+s / +es / y->ies), so it is built on demand.
+    const EN_REGULAR_EXTRA = {
+        'talk': 'to speak with someone', 'look': 'to direct your eyes at something', 'watch': 'to look at something for a time',
+        'listen': 'to pay attention to a sound', 'ask': 'to put a question to someone', 'answer': 'to reply to a question',
+        'wait': 'to stay until something happens', 'live': 'to have your home somewhere; to be alive',
+        'remember': 'to keep something in your memory', 'decide': 'to make a choice', 'solve': 'to find an answer to a problem',
+        'waste': 'to use something carelessly', 'help': 'to make something easier for someone', 'call': 'to telephone someone',
+        'text': 'to send a written message by phone', 'agree': 'to have the same opinion', 'disagree': 'to have a different opinion'
+    };
+    // modals / semi-modals: forms are given explicitly
+    const EN_SPECIAL_EXTRA = {
+        'must': { definition: 'to be obliged to', forms: ['must', 'must', 'must', 'must', 'must'] },
+        'should': { definition: 'to ought to', forms: ['should', 'should', 'should', 'should', 'should'] },
+        'have to': { definition: 'to be obliged to', forms: ['have to', 'have to', 'has to', 'have to', 'have to'] }
+    };
+    function buildEnglishEntry(lemma) {
+        const special = EN_SPECIAL_EXTRA[lemma];
+        const regular = EN_REGULAR_EXTRA[lemma];
+        if (!special && !regular) return null;
+        let third;
+        if (special) third = special.forms[2];
+        else if (/(s|x|z|ch|sh)$/.test(lemma)) third = lemma + 'es';
+        else if (/[^aeiou]y$/.test(lemma)) third = lemma.slice(0, -1) + 'ies';
+        else third = lemma + 's';
+        const f = special ? special.forms : [lemma, lemma, third, lemma, lemma];
+        return {
+            base: lemma, lemma, level: 'A1', definition: special ? special.definition : regular, needs_review: false,
+            present_simple: { 'I': f[0], 'you': f[1], 'he/she/it': f[2], 'we': f[3], 'they': f[4] }
+        };
+    }
+
     // Master Unmerged Pronoun Registry for all 14 languages
     const PRONOUN_MAP = {
         en: {
@@ -260,7 +293,13 @@
 
     function buildEnglishPresentObj(entry) {
         if (!entry) return null;
-        if (entry.present_simple) return entry.present_simple;
+        if (entry.present_simple) {
+            // entries may give one combined "he/she/it" form; the generators read he / she / it separately
+            const ps = Object.assign({}, entry.present_simple);
+            const third = ps['he/she/it'];
+            if (third) { ps.he = ps.he || third; ps.she = ps.she || third; ps.it = ps.it || third; }
+            return ps;
+        }
 
         const base = entry.base || entry.lemma || 'be';
         if (base === 'be') {
@@ -298,6 +337,9 @@
 
         if (!entry && lang === 'en' && EN_REGULAR_FALLBACKS[lemma]) {
             entry = EN_REGULAR_FALLBACKS[lemma];
+        }
+        if (!entry && lang === 'en') {
+            entry = buildEnglishEntry(lemma);
         }
         if (!entry && lang === 'el' && (lemma === 'μου αρέσει' || lemma === 'αρέσω')) {
             entry = dbMap['αρέσω'] || (Array.isArray(dbMap) ? dbMap.find(x => x && x.lemma === 'αρέσω') : Object.values(dbMap).find(x => x && x.lemma === 'αρέσω'));
@@ -597,6 +639,86 @@
         return present.length >= 3 && new Set(present).size <= 1;
     }
 
+
+    // ------------------------------------------------------------------------------------------
+    // Top 10 verbs, parts 2 and 3 (part 1 is defined above as `groups`).
+    // Each part has 10 numbered groups; a group can hold several verbs ("if they differ").
+    //  part 2: do/make | speak/talk/say/tell | look/watch/see | listen/hear | must/have to/should |
+    //          come/leave | take/give | ask/answer | wait | live
+    //  part 3: pay/buy | remember/forget | feel | meet | decide/solve | spend/waste | send/get |
+    //          help | call/text | agree/disagree
+    // Resolution happens at runtime against the loaded data (resolvePart): only verbs that really
+    // have a conjugation are listed, so new data shows up without touching this file.
+    //  - languages with explicit lists (PART_LEMMAS) use them;
+    //  - the others (data labelled with `en_lemma`) match the English concept names.
+    // ------------------------------------------------------------------------------------------
+    const PART_CONCEPTS = {
+        2: [['do', 'make'], ['speak', 'talk', 'say', 'tell'], ['look', 'watch', 'see'], ['listen', 'hear'], ['must', 'have to', 'should'], ['come', 'leave'], ['take', 'give'], ['ask', 'answer'], ['wait'], ['live']],
+        3: [['pay', 'buy'], ['remember', 'forget'], ['feel'], ['meet'], ['decide', 'solve'], ['spend', 'waste'], ['send', 'get'], ['help'], ['call', 'text'], ['agree', 'disagree']]
+    };
+    const PART_LEMMAS = {
+        en: PART_CONCEPTS,
+        fr: { 2: [['faire'], ['parler', 'dire', 'raconter'], ['regarder', 'voir'], ['écouter', 'entendre'], ['devoir', 'falloir'], ['venir', 'partir'], ['prendre', 'donner'], ['demander', 'répondre'], ['attendre'], ['vivre', 'habiter']],
+              3: [['payer', 'acheter'], ['se souvenir', 'oublier'], ['sentir'], ['rencontrer'], ['décider', 'résoudre'], ['dépenser', 'gaspiller'], ['envoyer', 'recevoir'], ['aider'], ['appeler'], ['accepter']] },
+        it: { 2: [['fare'], ['parlare', 'dire', 'raccontare'], ['guardare', 'vedere'], ['ascoltare', 'sentire'], ['dovere'], ['venire', 'partire'], ['prendere', 'dare'], ['chiedere', 'rispondere'], ['aspettare'], ['vivere', 'abitare']],
+              3: [['pagare', 'comprare'], ['ricordare', 'dimenticare'], ['sentire'], ['incontrare'], ['decidere', 'risolvere'], ['spendere', 'sprecare'], ['inviare', 'ricevere'], ['aiutare'], ['chiamare'], ['accettare']] },
+        pt: { 2: [['fazer'], ['falar', 'dizer', 'contar'], ['olhar', 'ver'], ['ouvir', 'escutar'], ['dever'], ['vir', 'partir'], ['pegar', 'dar'], ['perguntar', 'responder'], ['esperar'], ['viver', 'morar']],
+              3: [['pagar', 'comprar'], ['lembrar', 'esquecer'], ['sentir'], ['encontrar'], ['decidir', 'resolver'], ['gastar', 'desperdiçar'], ['enviar', 'receber'], ['ajudar'], ['chamar'], ['concordar']] },
+        es: { 2: [['hacer'], ['hablar', 'decir', 'contar'], ['mirar', 'ver'], ['escuchar', 'oír'], ['deber'], ['venir', 'salir'], ['tomar', 'dar'], ['preguntar', 'responder'], ['esperar'], ['vivir']],
+              3: [['pagar', 'comprar'], ['recordar', 'olvidar'], ['sentir'], ['encontrar'], ['decidir', 'resolver'], ['gastar', 'desperdiciar'], ['enviar', 'recibir'], ['ayudar'], ['llamar'], ['aceptar']] },
+        de: { 2: [['tun', 'machen'], ['sprechen', 'reden', 'sagen', 'erzählen'], ['sehen', 'schauen'], ['hören', 'zuhören'], ['müssen', 'sollen'], ['kommen', 'verlassen'], ['nehmen', 'geben'], ['fragen', 'antworten'], ['warten'], ['leben', 'wohnen']],
+              3: [['bezahlen', 'kaufen'], ['erinnern', 'vergessen'], ['fühlen'], ['treffen'], ['entscheiden', 'lösen'], ['ausgeben', 'verschwenden'], ['senden', 'bekommen'], ['helfen'], ['anrufen'], ['zustimmen']] },
+        ru: { 2: [['делать'], ['говорить', 'рассказывать'], ['смотреть', 'видеть'], ['слушать', 'слышать'], ['должен'], ['приходить', 'уходить'], ['брать', 'давать'], ['спрашивать', 'отвечать'], ['ждать'], ['жить']],
+              3: [['платить', 'покупать'], ['помнить', 'забывать'], ['чувствовать'], ['встречать', 'встречаться'], ['решать'], ['тратить'], ['отправлять', 'получать'], ['помогать'], ['звонить'], ['соглашаться']] },
+        // Georgian: the real conjugations sit under third-person headwords and carry no en_lemma
+        ka: { 2: [['აკეთებს'], ['ლაპარაკობს', 'ამბობს'], ['უყურებს'], ['უსმენს', 'ესმის'], [], [], ['იღებს', 'აძლევს'], ['ეკითხება', 'პასუხობს'], ['ელოდება'], ['ცხოვრობს']],
+              3: [[], [], [], [], [], [], [], [], [], []] },
+        el: { 2: [['κάνω'], ['μιλάω', 'λέω'], ['κοιτάζω', 'βλέπω'], ['ακούω'], ['πρέπει'], ['έρχομαι', 'φεύγω'], ['παίρνω', 'δίνω'], ['ρωτάω', 'απαντάω'], ['περιμένω'], ['ζω', 'μένω']],
+              3: [['πληρώνω', 'αγοράζω'], ['θυμάμαι', 'ξεχνάω'], ['νιώθω'], ['συναντώ'], ['αποφασίζω', 'λύνω'], ['ξοδεύω', 'σπαταλώ'], ['στέλνω', 'λαμβάνω'], ['βοηθάω'], ['τηλεφωνώ'], ['συμφωνώ']] }
+    };
+
+    /** True when the entry has a present tense the drills can use (perfective Russian verbs have none). */
+    function hasPresentForms(lang, entry) {
+        if (!entry) return false;
+        if (lang === 'en') return !!buildEnglishPresentObj(entry);
+        const tenses = entry.tenses || entry.conjugations || {};
+        const key = Object.keys(tenses).find(k =>
+            k === 'indicatif_present' || k === 'pres' || k === 'presente' || k === 'present' || k === 'präsens' || k.includes('pres'));
+        const forms = key ? tenses[key] : null;
+        return Array.isArray(forms) && forms.some(f => typeof f === 'string' && f.trim());
+    }
+
+    /**
+     * The 10 groups of a part for the loaded data, keeping only verbs that exist and are not
+     * placeholders. Part 1 is the fixed set from getConfig(lang).groups.
+     */
+    function resolvePart(lang, dbMap, part) {
+        const cfg = getConfig(lang);
+        if (!cfg) return { groups: [], lemmas: [] };
+        let groups;
+        if (Number(part) === 1) {
+            groups = cfg.groups.map(g => g.slice());
+        } else {
+            const explicit = PART_LEMMAS[lang] && PART_LEMMAS[lang][part];
+            const entries = Array.isArray(dbMap) ? dbMap.map(e => [e && e.lemma, e]) : Object.entries(dbMap || {});
+            groups = (explicit || PART_CONCEPTS[part]).map(slot => {
+                const found = [];
+                slot.forEach(item => {
+                    if (explicit) {
+                        const e = findEntry(lang, dbMap, item);
+                        if (e && !isPlaceholderEntry(e) && hasPresentForms(lang, e)) found.push(item);
+                    } else {
+                        entries.forEach(([key, e]) => {
+                            if (e && e.en_lemma === item && !isPlaceholderEntry(e) && hasPresentForms(lang, e) && !found.includes(key)) found.push(key);
+                        });
+                    }
+                });
+                return found;
+            });
+        }
+        return { groups, lemmas: groups.reduce((a, g) => a.concat(g), []) };
+    }
+
     /** Group number (1-10) of each verb of `lang`, parallel to getConfig(lang).lemmas. */
     function getGroups(lang) {
         const cfg = getConfig(lang);
@@ -609,6 +731,9 @@
     return {
         getConfig,
         getGroups,
+        resolvePart,
+        PART_CONCEPTS,
+        PART_LEMMAS,
         isPlaceholderEntry,
         getAllConfigs,
         isTopVerb,

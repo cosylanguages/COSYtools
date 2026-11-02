@@ -29,7 +29,8 @@
     "check:contrast": "node scripts/check-contrast.js",
     "test:supplemental-i18n": "node scripts/test-supplemental-i18n.js",
     "test:result-announce": "node scripts/test-result-announce.js",
-    "test:verb-forms": "node scripts/test-verb-forms.js"
+    "test:verb-forms": "node scripts/test-verb-forms.js",
+    "report:top-verbs": "node scripts/report-top-verbs-coverage.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",

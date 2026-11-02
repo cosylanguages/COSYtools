@@ -101,6 +101,54 @@ async function switchLang(w, d, l) {
    ok(q.length>0&&!q.includes('ყოფნა'),'simulated placeholder: never drilled');
    w.showSetupCard(); }
  await switchLang(w,d,'en');
+ // ---- Top 10 verbs, parts 2 and 3 ----
+ const ALL=Object.keys(grp);
+ let partErrors=[], emptyDrills=[];
+ const partSummary={};
+ for(const l of ALL){
+   const cfg=Tx.getConfig(l); const db=JSON.parse(fsx.readFileSync(pathx.join(root,cfg.toolPath,'data/verbs.json'),'utf8'));
+   for(const part of [1,2,3]){
+     const r=Tx.resolvePart(l,db,part);
+     if(r.groups.length!==10) partErrors.push(`${l} part ${part}: ${r.groups.length} groups`);
+     if(part===1 && JSON.stringify(r.groups)!==JSON.stringify(cfg.groups)) partErrors.push(`${l}: part 1 differs from the fixed set`);
+     r.lemmas.forEach(x=>{ const e=Tx.findEntry(l,db,x); if(!e||Tx.isPlaceholderEntry(e)) partErrors.push(`${l} part ${part}: ${x} has no real entry`); });
+     if(new Set(r.lemmas).size!==r.lemmas.length) partErrors.push(`${l} part ${part}: duplicate verbs`);
+     // every listed verb must actually drill
+     r.lemmas.forEach(x=>{ const q=Tx.generateSingleDrills(l,db,'both',[x],'positive','verb'); if(!q.length||q.some(dr=>!dr.expected||/undefined|null|NaN/.test(dr.expected+dr.prompt))) emptyDrills.push(`${l}:${x}`); });
+     partSummary[l+part]=r.lemmas.length;
+   }
+ }
+ ok(partErrors.length===0,'parts 1-3 resolve to 10 groups of real verbs in all 14 languages '+partErrors.slice(0,3).join('; '));
+ ok(emptyDrills.length===0,'every verb of parts 2 and 3 produces drills '+emptyDrills.slice(0,4).join(','));
+ const dbfr=JSON.parse(fsx.readFileSync(pathx.join(root,Tx.getConfig('fr').toolPath,'data/verbs.json'),'utf8'));
+ const fr2=Tx.resolvePart('fr',dbfr,2).groups, de2=Tx.resolvePart('de',JSON.parse(fsx.readFileSync(pathx.join(root,Tx.getConfig('de').toolPath,'data/verbs.json'),'utf8')),2).groups;
+ ok(JSON.stringify(fr2[1])==='["parler","dire","raconter"]'&&JSON.stringify(fr2[2])==='["regarder","voir"]'&&JSON.stringify(fr2[3])==='["écouter","entendre"]','fr part 2: speak/talk/say/tell, look/watch/see, listen/hear');
+ ok(de2[4].includes('müssen')&&JSON.stringify(de2[0])==='["tun","machen"]','de part 2: do/make and müssen (must)');
+ const dben=JSON.parse(fsx.readFileSync(pathx.join(root,Tx.getConfig('en').toolPath,'data/verbs.json'),'utf8'));
+ ok([2,3].every(p=>Tx.resolvePart('en',dben,p).groups.every(g=>g.length>0)),'en: all 20 groups of parts 2 and 3 are complete');
+ ok(Tx.resolvePart('en',dben,2).groups[4].join('/')==='must/have to/should','en part 2 group 5 = must / have to / should');
+ // page: part selector
+ await switchLang(w,d,'fr');
+ ok(['part-btn-1','part-btn-2','part-btn-3'].every(id=>d.getElementById(id)) && d.getElementById('part-btn-1').getAttribute('aria-pressed')==='true' && /Partie 1/.test(d.getElementById('part-btn-1').textContent),'fr: part selector with localized labels, part 1 selected');
+ d.getElementById('part-btn-2').click(); await sleep(150);
+ const shown=[...d.querySelectorAll('.verb-cb')].map(x=>x.value);
+ ok(JSON.stringify(shown)===JSON.stringify(Tx.resolvePart('fr',dbfr,2).lemmas) && d.getElementById('part-btn-2').getAttribute('aria-pressed')==='true' && d.getElementById('part-btn-1').getAttribute('aria-pressed')==='false','fr: selecting part 2 lists exactly the part 2 verbs');
+ ok(/part-2-fr\.html$/.test(d.getElementById('magazine-article-link').href),'fr: magazine link follows the part');
+ ok([...d.querySelectorAll('.verb-group-num')].map(x=>x.textContent.replace(/\D+/g,'')).every(n=>+n>=1&&+n<=10),'part 2 verbs carry group numbers 1-10');
+ d.getElementById('btn-launch').click(); await sleep(100);
+ const q2=JSON.parse(w.eval('JSON.stringify([...new Set(drillQueue.map(x=>x.lemma))])'));
+ ok(q2.length>0&&q2.every(x=>shown.includes(x)),'fr: drills use only part 2 verbs ('+q2.length+' verbs)');
+ ok(/Partie 2/.test(d.getElementById('practice-title-text').textContent),'fr: practice title names the part');
+ w.showSetupCard();
+ d.getElementById('part-btn-3').click(); await sleep(150);
+ ok(d.querySelectorAll('.verb-cb').length===Tx.resolvePart('fr',dbfr,3).lemmas.length && /part-3-fr\.html$/.test(d.getElementById('magazine-article-link').href),'fr: part 3 verbs and magazine link');
+ // a part with no data for a language says so instead of failing
+ await switchLang(w,d,'ka'); d.getElementById('part-btn-3').click(); await sleep(150);
+ ok(d.querySelectorAll('.verb-cb').length===0 && !d.getElementById('groups-note').hidden && /1, 2, 3, 4, 5, 6, 7, 8, 9, 10/.test(d.getElementById('groups-note').textContent),'ka part 3: no verbs yet, the note names the empty groups');
+ d.getElementById('btn-launch').click(); await sleep(100);
+ ok(!d.getElementById('setup-message').hidden,'ka part 3: starting without verbs shows the message');
+ d.getElementById('part-btn-1').click(); await sleep(100);
+ await switchLang(w,d,'en');
  // every language must have complete UI + practice strings (no English fallback)
  const missing=JSON.parse(w.eval(`JSON.stringify(Object.keys(MONOLINGUAL_UI).flatMap(l=>{const base=Object.keys(EXTRA_UI.en);const own=EXTRA_UI[l]||{};const ui=Object.keys(MONOLINGUAL_UI.en).filter(k=>!MONOLINGUAL_UI[l][k]).map(k=>l+':ui.'+k);return base.filter(k=>!own[k]).map(k=>l+':'+k).concat(ui);}))`));
  ok(missing.length===0,'all 14 languages have complete UI and practice strings '+missing.slice(0,5).join(','));
@@ -157,6 +205,12 @@ async function switchLang(w, d, l) {
  let r2=await load('?lang=ru&persons=plural&polarity=negative&target=pronoun&mode=drill&verbs=all&start=true');
  ok(r2.d.getElementById('practice-card').style.display==='block' && !!r2.d.getElementById('drill-single-input'),'deep link auto-starts');
  ok(r2.d.getElementById('magazine-article-link').href.endsWith('-ru.html'),'deep link sets magazine link');
+ // deep link to part 3
+ let r4=await load('?lang=de&part=3&persons=both&polarity=positive&target=verb&mode=drill&verbs=all&start=true');
+ const part3=JSON.parse(r4.w.eval(`JSON.stringify(COSYTopVerbs.resolvePart('de', currentDbMap, 3).lemmas)`));
+ const q4=JSON.parse(r4.w.eval('JSON.stringify([...new Set(drillQueue.map(x=>x.lemma))])'));
+ ok(r4.d.getElementById('practice-card').style.display==='block' && q4.length>0 && q4.every(x=>part3.includes(x)),'deep link ?part=3 starts a part 3 session ('+q4.length+' verbs)');
+ ok(r4.d.getElementById('magazine-article-link').href.endsWith('top-10-verbs-part-3-de.html') && r4.d.getElementById('part-btn-3').getAttribute('aria-pressed')==='true','deep link ?part=3 selects part 3 and its magazine article');
  // data load failure
  let r3=await load('?lang=en'); 
  r3.w.fetch=()=>Promise.resolve({ok:false,status:404}); r3.w.loadLanguageData('en'); await sleep(300);

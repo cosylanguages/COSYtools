@@ -69,6 +69,7 @@
         }
         .top-verb-checkbox-label.is-pending { opacity: 0.75; cursor: not-allowed; }
         .verb-pending-note { font-size: 0.75rem; color: var(--ink-soft); font-style: italic; }
+        .part-selector { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0 0 0.75rem 0; }
         .verb-group-num {
             display: inline-block;
             min-width: 1.4em;
@@ -96,7 +97,7 @@
             gap: 0.5rem;
             margin: 1rem 0;
         }
-        .lang-pill {
+        .lang-pill, .part-pill {
             display: inline-flex;
             align-items: center;
             gap: 0.4rem;
@@ -111,7 +112,7 @@
             transition: all 0.2s ease;
             box-shadow: 0 2px 4px rgba(0,0,0,0.03);
         }
-        .lang-pill:hover, .lang-pill.active {
+        .lang-pill:hover, .lang-pill.active, .part-pill:hover, .part-pill.active {
             background: var(--sage-dark, #234027);
             color: var(--cosy-on-sage-dark, #ffffff);
             border-color: var(--sage-dark, #234027);
@@ -391,6 +392,11 @@
                         <button type="button" class="ref-btn ref-btn-secondary" style="padding:0.25rem 0.6rem; font-size:0.8rem;" id="btn-deselect-all" onclick="selectAllVerbs(false)">Deselect All</button>
                     </div>
                 </div>
+                <div id="part-selector" class="part-selector" role="group" aria-labelledby="lbl-step2">
+                    <button type="button" class="part-pill active" id="part-btn-1" aria-pressed="true" onclick="switchPart(1)">Part 1</button>
+                    <button type="button" class="part-pill" id="part-btn-2" aria-pressed="false" onclick="switchPart(2)">Part 2</button>
+                    <button type="button" class="part-pill" id="part-btn-3" aria-pressed="false" onclick="switchPart(3)">Part 3</button>
+                </div>
                 <p id="groups-note" style="margin:0 0 0.75rem 0; color:var(--ink-soft); font-size:0.9rem;"></p>
                 <div id="verbs-checklist-grid" class="top-verbs-grid" role="group" aria-labelledby="lbl-step2" aria-live="polite">
                     <!-- Verb checkboxes rendered dynamically -->
@@ -551,6 +557,7 @@
 
     <script>
         let currentLang = 'en';
+        let currentPart = 1;   // Top 10 verbs: part 1, 2 or 3
         let currentPersonFilter = 'both'; // 'both', 'singular', 'plural'
         let currentPolarityFilter = 'positive'; // 'positive', 'negative', 'question', 'mixed'
         let currentTargetMode = 'verb'; // 'verb', 'pronoun', 'mixed'
@@ -644,6 +651,24 @@
             br: { dataPending: "roadennoù da zont" },
         };
         Object.keys(PENDING_UI).forEach(l => Object.assign(EXTRA_UI[l], PENDING_UI[l]));
+        // Part selector (Top 10 verbs, parts 1-3)
+        const PART_UI = {
+            en: { partLabel: "Part {n}", emptyGroups: "No conjugation data yet for groups: {list}." },
+            fr: { partLabel: "Partie {n}", emptyGroups: "Pas encore de données de conjugaison pour les groupes : {list}." },
+            es: { partLabel: "Parte {n}", emptyGroups: "Aún no hay datos de conjugación para los grupos: {list}." },
+            it: { partLabel: "Parte {n}", emptyGroups: "Non ci sono ancora dati di coniugazione per i gruppi: {list}." },
+            de: { partLabel: "Teil {n}", emptyGroups: "Für diese Gruppen gibt es noch keine Konjugationsdaten: {list}." },
+            pt: { partLabel: "Parte {n}", emptyGroups: "Ainda não há dados de conjugação para os grupos: {list}." },
+            ru: { partLabel: "Часть {n}", emptyGroups: "Данных о спряжении для групп пока нет: {list}." },
+            el: { partLabel: "Μέρος {n}", emptyGroups: "Δεν υπάρχουν ακόμη δεδομένα κλίσης για τις ομάδες: {list}." },
+            hy: { partLabel: "Մաս {n}", emptyGroups: "Խմբերի համար խոնարհման տվյալներ դեռ չկան՝ {list}։" },
+            ka: { partLabel: "ნაწილი {n}", emptyGroups: "ჯგუფებისთვის უღლების მონაცემები ჯერ არ არის: {list}." },
+            tt: { partLabel: "Өлеш {n}", emptyGroups: "Бу төркемнәр өчен төрләнеш мәгълүматлары әлегә юк: {list}." },
+            ba: { partLabel: "Өлөш {n}", emptyGroups: "Был төркөмдәр өсөн төрләнеш мәғлүмәттәре әлегә юҡ: {list}." },
+            cv: { partLabel: "Пай {n}", emptyGroups: "Ку ушкăнсем валли хушăнăв даннăйĕсем халĕ çук: {list}." },
+            br: { partLabel: "Perzh {n}", emptyGroups: "Roadennoù kevreadur ebet c'hoazh evit ar strolladoù: {list}." },
+        };
+        Object.keys(PART_UI).forEach(l => Object.assign(EXTRA_UI[l], PART_UI[l]));
         const DESC_IDS = { 'person-desc-both':'descBoth', 'pol-desc-positive':'descPositive', 'pol-desc-negative':'descNegative', 'pol-desc-mixed':'descMixed', 'target-desc-verb':'descTVerb', 'target-desc-pronoun':'descTPron', 'target-desc-mixed':'descTMixed', 'mode-desc-drill':'descDrill', 'mode-desc-table':'descTable' };
 
         function escHtml(v) {
@@ -1134,6 +1159,10 @@
                     currentLang = l;
                 }
             }
+            if (params.has('part')) {
+                const part = parseInt(params.get('part'), 10);
+                if ([1, 2, 3].includes(part)) currentPart = part;
+            }
             if (params.has('persons')) {
                 const p = params.get('persons').toLowerCase();
                 if (['both', 'singular', 'plural', 'all'].includes(p)) {
@@ -1264,6 +1293,7 @@
                 if (r.lang === document.documentElement.lang) el.removeAttribute('lang'); else el.setAttribute('lang', r.lang);
             };
             plain('header-subtitle', 'crumb');
+            updatePartButtons();
             plain('media-title-text', 'mediaTitle');
             plain('media-intro', 'mediaIntro');
             plain('mag-title', 'magTitle');
@@ -1283,7 +1313,7 @@
             const sub = document.getElementById('magazine-article-sub');
             if (!link) return;
 
-            link.href = `https://cosylanguages.github.io/COSYmagazine/top-10-verbs-${langCode}.html`;
+            link.href = `https://cosylanguages.github.io/COSYmagazine/top-10-verbs-${currentPart === 1 ? '' : 'part-' + currentPart + '-'}${langCode}.html`;
             if (sub) {
                 const langObj = activeLanguages.find(l => l.code === langCode);
                 const r = uiString('magSub');
@@ -1322,6 +1352,28 @@
                 });
         }
 
+        function updatePartButtons() {
+            [1, 2, 3].forEach(n => {
+                const btn = document.getElementById('part-btn-' + n);
+                if (!btn) return;
+                const r = uiString('partLabel', { n });
+                btn.textContent = r.text;
+                if (r.lang === document.documentElement.lang) btn.removeAttribute('lang'); else btn.setAttribute('lang', r.lang);
+                btn.classList.toggle('active', n === currentPart);
+                btn.setAttribute('aria-pressed', n === currentPart ? 'true' : 'false');
+            });
+        }
+
+        function switchPart(n) {
+            if (![1, 2, 3].includes(n) || n === currentPart) return;
+            currentPart = n;
+            showSetupMessage('');
+            if (currentDbMap) renderVerbsChecklist(currentLang, currentDbMap);
+            updateMagazineLink(currentLang);
+            const btn = document.getElementById('part-btn-' + n);
+            if (btn) btn.focus();
+        }
+
         function renderVerbsChecklist(langCode, dbMap) {
             const grid = document.getElementById('verbs-checklist-grid');
             if (!grid) return;
@@ -1329,30 +1381,40 @@
             const cfg = COSYTopVerbs.getConfig(langCode);
             if (!cfg) return;
 
+            // the URL's verb selection belongs to the part named in the URL (default: part 1)
             const urlParams = new URLSearchParams(window.location.search);
+            const urlPart = parseInt(urlParams.get('part') || '1', 10);
             let preSelected = null;
-            if (urlParams.has('verbs')) {
+            if (urlParams.has('verbs') && urlPart === currentPart) {
                 const vStr = urlParams.get('verbs');
                 if (vStr !== 'all') {
                     preSelected = vStr.split(',').map(s => s.trim().toLowerCase());
                 }
             }
 
-            // Top 10 verbs, part 1: 10 numbered groups; some groups hold several verbs
-            const groups = COSYTopVerbs.getGroups(langCode);
+            // Top 10 verbs: 10 numbered groups per part; a group can hold several verbs.
+            // Only verbs that really have conjugation data are listed.
+            const resolved = COSYTopVerbs.resolvePart(langCode, dbMap, currentPart);
             const groupTitle = tPlain('groupTitle');
-            // groups that hold several verbs, e.g. "4 = savoir / connaître · 7 = travailler / étudier / apprendre"
-            const multi = cfg.groups
+            const multi = resolved.groups
                 .map((verbs, i) => verbs.length > 1 ? `${i + 1} = ${verbs.join(' / ')}` : null)
                 .filter(Boolean).join(' · ');
+            const emptyList = resolved.groups.map((verbs, i) => verbs.length ? null : i + 1).filter(Boolean).join(', ');
             const note = document.getElementById('groups-note');
             if (note) {
-                const r = uiString('groupsNote', { list: multi });
-                note.textContent = r.text;
-                if (r.lang === document.documentElement.lang) note.removeAttribute('lang'); else note.setAttribute('lang', r.lang);
+                const parts = [];
+                if (multi) parts.push(uiString('groupsNote', { list: multi }));
+                if (emptyList) parts.push(uiString('emptyGroups', { list: emptyList }));
+                note.textContent = parts.map(r => r.text).join(' ');
+                const allOwn = parts.every(r => r.lang === document.documentElement.lang);
+                if (allOwn) note.removeAttribute('lang'); else note.setAttribute('lang', 'en');
+                note.hidden = parts.length === 0;
             }
 
-            grid.innerHTML = cfg.lemmas.map((lemma, idx) => {
+            const verbRows = [];
+            resolved.groups.forEach((verbs, gi) => verbs.forEach(lemma => verbRows.push({ lemma, group: gi + 1 })));
+
+            grid.innerHTML = verbRows.map(({ lemma, group }) => {
                 const entry = COSYTopVerbs.findEntry(langCode, dbMap, lemma);
                 const def = entry ? (entry.definition || entry.usage_hint || '') : '';
                 // placeholder entries (no real conjugation yet) are listed but cannot be selected
@@ -1362,7 +1424,7 @@
                 return `
                     <label class="top-verb-checkbox-label${pending ? ' is-pending' : ''}">
                         <input type="checkbox" class="verb-cb" value="${escHtml(lemma)}" ${isChecked ? 'checked' : ''} ${pending ? 'disabled' : ''}>
-                        <span class="verb-group-num" title="${escHtml(groupTitle)}"><span class="sr-only">${escHtml(groupTitle)} </span>${groups[idx]}</span>
+                        <span class="verb-group-num" title="${escHtml(groupTitle)}"><span class="sr-only">${escHtml(groupTitle)} </span>${group}</span>
                         <strong>${escHtml(lemma)}</strong>
                         ${def ? `<small title="${escHtml(def)}" style="color:var(--ink-soft); text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:130px;">(${escHtml(def)})</small>` : ''}
                         ${pending ? `<em class="verb-pending-note">${tHtml('dataPending')}</em>` : ''}
@@ -1370,6 +1432,7 @@
                 `;
             }).join('');
 
+            updatePartButtons();
             updatePersonLabels(langCode);
         }
 
@@ -1480,7 +1543,7 @@
             const polLbl = { positive: ui.polPositive, negative: ui.polNegative, question: ui.polQuestion, mixed: ui.polMixed }[currentPolarityFilter];
             document.getElementById('practice-lang-flag').textContent = langObj.flag;
             const titleEl = document.getElementById('practice-title-text');
-            titleEl.textContent = `${langObj.native || langObj.name} – ${tPlain('titleSuffix')} (${stripLeadingEmoji(personLbl)} · ${stripLeadingEmoji(polLbl)})`;
+            titleEl.textContent = `${langObj.native || langObj.name} – ${tPlain('titleSuffix')} · ${tPlain('partLabel', { n: currentPart })} (${stripLeadingEmoji(personLbl)} · ${stripLeadingEmoji(polLbl)})`;
             titleEl.lang = (uiString('titleSuffix').lang === currentLang) ? currentLang : 'en';
 
             if (currentPracticeMode === 'table') {
@@ -1685,7 +1748,7 @@
             const selectedVerbs = getSelectedVerbs();
             const verbsParam = (selectedVerbs.length === document.querySelectorAll('.verb-cb:not(:disabled)').length) ? 'all' : selectedVerbs.join(',');
 
-            const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&target=${currentTargetMode}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
+            const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${currentLang}&part=${currentPart}&persons=${currentPersonFilter}&polarity=${currentPolarityFilter}&target=${currentTargetMode}&mode=${currentPracticeMode}&verbs=${encodeURIComponent(verbsParam)}&start=true`;
             const ui = MONOLINGUAL_UI[currentLang] || MONOLINGUAL_UI.en;
 
             navigator.clipboard.writeText(shareUrl).then(() => {

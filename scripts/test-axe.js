@@ -65,6 +65,9 @@ async function scan(w, label, failures) {
   // Interactive states
   try {
     let w = await open('practice/top-verbs/index.html');
+    w.document.getElementById('part-btn-2').click(); await sleep(300);
+    await scan(w, 'top-verbs: part 2 verb list', failures);
+    w.document.getElementById('part-btn-1').click(); await sleep(300);
     w.document.getElementById('btn-launch').click(); await sleep(150);
     await scan(w, 'top-verbs: drill question', failures);
     w.eval("document.getElementById('drill-single-input').value = 'x'; checkSingleDrillAnswer();");
