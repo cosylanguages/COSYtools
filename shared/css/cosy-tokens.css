@@ -1,31 +1,24 @@
 /**
  * COSYlanguages Master Ecosystem Design Tokens
- * Vendored Copy in COSYtools repo: shared/css/tokens.css
- * Synced Date: 2026-09-25
- * Source URL: https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css
+ * Canonical Location: shared/css/tokens.css
+ * Live Published URL: https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css
  *
  * Central design tokens (colors, typography, spacing, border-radius, shadows, focus, buttons)
  * for COSYlanguages and ecosystem consumer applications (COSYtools, COSYgames, COSYevents, etc.).
- *
- * Consumer Repositories Policy:
- * Consumer repos MUST link this file via GitHub Pages URL or a vendor-synced copy,
- * and reference these CSS custom properties to maintain visual ecosystem coherence.
  */
 
 :root {
-    /* ── 1. Base Neutrals & Surface Palette (Light Mode) ──────────────── */
-    --cosy-color-cream:                  #fdfcf8;
-    --cosy-color-cream-dark:             #f5ede0;
+    /* ── 1. Base Neutrals & Surface Palette (Warm Cream Light Mode) ────── */
+    --cosy-color-cream:                  #FAF7F2;
+    --cosy-color-cream-dark:             #F4EDE2;
     --cosy-color-warm-white:             #FFFEFB;
     --cosy-color-surface:                #FFFFFF;
-    --cosy-focus-ring:                   #1d4ed8;   /* keyboard focus outline (>= 3:1 on surface) */
-    --cosy-on-sage-dark:                 #ffffff;  /* text on a --sage-dark background */
 
-    --cosy-color-ink:                    #2a2a2a;
-    --cosy-color-ink-soft:               #4a4a4a;
-    --cosy-color-ink-muted:              #4a4a4a;
-    --cosy-color-ink-faint:              #5c5957;
-    --cosy-color-muted:                  #5c5957;
+    --cosy-color-ink:                    #1C1917;
+    --cosy-color-ink-soft:               #4A4A4A;
+    --cosy-color-ink-muted:              #5C5957;
+    --cosy-color-ink-faint:              #8A8580;
+    --cosy-color-muted:                  #5C5957;
 
     --cosy-color-border:                 rgba(74, 107, 80, 0.12);
     --cosy-color-border-hover:           rgba(74, 107, 80, 0.25);
@@ -47,14 +40,14 @@
     --border-hover:                      var(--cosy-color-border-hover);
 
     /* ── 2. Sage Base Brand Palette (Forest Green / Sage Base) ────────── */
-    --cosy-color-forest-green:           #416b49;
-    --cosy-color-sage:                   #416b49;
+    --cosy-color-forest-green:           #416B49;
+    --cosy-color-sage:                   #416B49;
     --cosy-color-sage-dark:              #375742;
     --cosy-color-sage-deep:              #233827;
-    --cosy-color-sage-soft:              #6b9474;
-    --cosy-color-sage-mist:              #f0f5f1;
-    --cosy-color-sage-pale:              #e8f0e9;
-    --cosy-color-sage-light:             #e8f0e9;
+    --cosy-color-sage-soft:              #6B9474;
+    --cosy-color-sage-mist:              #F0F5F1;
+    --cosy-color-sage-pale:              #E8F0E9;
+    --cosy-color-sage-light:             #E8F0E9;
 
     /* Direct System Aliases for Sage */
     --sage:                              var(--cosy-color-sage);
@@ -68,57 +61,85 @@
     --teal-light:                        var(--sage-light);
     --primary-color:                     var(--sage);
 
-    /* ── 3. Product & Track Accent Layer ───────────────────────────────── */
+    /* ── 3. Named Repository Brand Accents ──────────────────────────────── */
+    --cosy-languages-accent:             #416B49;
+    --cosy-tools-accent:                 #0D7A5F;
+    --cosy-manuals-accent:               #7A5C3A;
+    --cosy-platform-accent:              #1E2F6B;
+    --cosy-events-accent:                #B84318;
+    --cosy-games-accent:                 #945E05;
+    --cosy-world-accent:                 #D66161;
+
+    /* ── 4. Group Accents ──────────────────────────────────────────────── */
+    /* Group 1: Learn free (Free practice, games, reference) */
+    --cosy-accent-learn-free:            #416B49;
+    --cosy-accent-learn-free-light:      #E8F0E9;
+
+    /* Group 2: Your classes (1-to-1 & group paid courses) */
+    --cosy-accent-your-classes:          #B84318;
+    --cosy-accent-your-classes-light:    #FAEEE8;
+
+    /* Group 3: Join in (Events, community & speaking clubs) */
+    --cosy-accent-join-in:               #945E05;
+    --cosy-accent-join-in-light:         #FFF8E7;
+
+    /* ── 4. Product Track Accent Layer ─────────────────────────────────── */
     /* Track 1: General Course — Forest Green / Sage */
-    --cosy-track-general:                #416b49;
-    --cosy-track-general-light:          #e8f0e9;
+    --cosy-track-general:                #416B49;
+    --cosy-track-general-light:          #E8F0E9;
     --cosy-track-general-deep:           #233827;
 
     /* Track 2: Spoken Course — Terracotta / Coral */
     --cosy-track-spoken:                 #B84318;
-    --cosy-track-spoken-light:           #faeee8;
+    --cosy-track-spoken-light:           #FAEEE8;
 
     /* Track 3: Professional Course — Credible Navy */
-    --cosy-track-professional:           #1e2f6b;
-    --cosy-track-professional-light:     #e8ecf5;
+    --cosy-track-professional:           #1E2F6B;
+    --cosy-track-professional-light:     #E8ECF5;
 
     /* Track 4: Travelling Course — Practical Fresh Green */
-    --cosy-track-travelling:             #4a6b50;
-    --cosy-track-travelling-light:       #e5f4ec;
+    --cosy-track-travelling:             #4A6B50;
+    --cosy-track-travelling-light:       #E5F4EC;
 
     /* Track 5: Relocation Course — Warm Rust / Amber */
-    --cosy-track-relocation:             #d66161;
-    --cosy-track-relocation-light:       #fcebeb;
+    --cosy-track-relocation:             #D66161;
+    --cosy-track-relocation-light:       #FCEBEB;
 
     /* Track 6: Exam Preparation — Scholarly Plum */
-    --cosy-track-exam:                   #7a5c3a;
-    --cosy-track-exam-light:             #f5ede0;
+    --cosy-track-exam:                   #7A5C3A;
+    --cosy-track-exam-light:             #F5EDE0;
 
-    /* ── 4. Auxiliary UI Palette ───────────────────────────────────────── */
-    --cosy-color-honey:                  #945e05;
-    --cosy-color-honey-dark:             #7d4d03;
-    --cosy-color-honey-pale:             #fff8e7;
-    --cosy-color-honey-mid:              #fef0c7;
+    /* ── 5. Auxiliary UI Palette ───────────────────────────────────────── */
+    /* Lamp: the warm glow. Decorative fills and highlights only (never text). */
+    --cosy-color-lamp:                   #F3C969;
+    --cosy-color-lamp-soft:              #FBEBC0;
+    --lamp:                              var(--cosy-color-lamp);
+    --lamp-soft:                         var(--cosy-color-lamp-soft);
+
+    --cosy-color-honey:                  #945E05;
+    --cosy-color-honey-dark:             #7D4D03;
+    --cosy-color-honey-pale:             #FFF8E7;
+    --cosy-color-honey-mid:              #FEF0C7;
 
     --cosy-color-coral:                  #B84318;
-    --cosy-color-coral-light:            #faeee8;
+    --cosy-color-coral-light:            #FAEEE8;
 
-    --cosy-color-navy:                   #1e2f6b;
-    --cosy-color-navy-light:             #e8ecf5;
+    --cosy-color-navy:                   #1E2F6B;
+    --cosy-color-navy-light:             #E8ECF5;
 
-    --cosy-color-green:                  #4a6b50;
-    --cosy-color-green-light:            #e5f4ec;
+    --cosy-color-green:                  #4A6B50;
+    --cosy-color-green-light:            #E5F4EC;
 
-    --cosy-color-blue:                   #3a5298;
-    --cosy-color-blue-light:             #eef1fb;
+    --cosy-color-blue:                   #3A5298;
+    --cosy-color-blue-light:             #EEF1FB;
 
-    --cosy-color-plum:                   #7a5c3a;
-    --cosy-color-plum-light:             #f5ede0;
+    --cosy-color-plum:                   #7A5C3A;
+    --cosy-color-plum-light:             #F5EDE0;
 
-    --cosy-color-rose:                   #a32d2d;
-    --cosy-color-rose-light:             #fcebeb;
+    --cosy-color-rose:                   #A32D2D;
+    --cosy-color-rose-light:             #FCEBEB;
 
-    --cosy-color-accent:                 #d66161;
+    --cosy-color-accent:                 #D66161;
 
     /* Aliases for Auxiliary Colors */
     --honey:                             var(--cosy-color-honey);
@@ -150,22 +171,22 @@
     --a2-tag-bg:                         var(--cosy-tag-a2-bg);
     --a2-tag-color:                      var(--cosy-tag-a2-color);
     --sensitive-tag-bg:                  var(--cosy-tag-sensitive-bg);
-    --sensitive-tag-color:               var(--cosy-tag-sensitive-color);
+    --sensitive-tag-color:             var(--cosy-tag-sensitive-color);
 
-    /* ── 5. Semantic Feedback Colors & Focus Ring ───────────────────────── */
-    --cosy-semantic-error:               #a32d2d;
-    --cosy-semantic-error-light:         #fcebeb;
-    --cosy-semantic-success:             #416b49;
-    --cosy-semantic-success-light:       #e5f4ec;
-    --cosy-semantic-warning:             #945e05;
-    --cosy-semantic-warning-light:       #fff8e7;
-    --cosy-semantic-focus:               #416b49;
+    /* ── 6. Semantic Feedback Colors & Focus Ring ───────────────────────── */
+    --cosy-semantic-error:               #A32D2D;
+    --cosy-semantic-error-light:         #FCEBEB;
+    --cosy-semantic-success:             #416B49;
+    --cosy-semantic-success-light:       #E5F4EC;
+    --cosy-semantic-warning:             #945E05;
+    --cosy-semantic-warning-light:       #FFF8E7;
+    --cosy-semantic-focus:               #416B49;
 
     --focus-ring:                        0 0 0 3px rgba(65, 107, 73, 0.4);
 
-    /* ── 6. Typography Scale & Font Stacks ──────────────────────────────── */
-    --cosy-font-sans:                    'COSY Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-    --cosy-font-serif:                   'COSY Serif', 'COSY Sans', Georgia, 'Times New Roman', serif;
+    /* ── 7. Typography Scale & Font Stacks ──────────────────────────────── */
+    --cosy-font-sans:                    'Commissioner', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --cosy-font-serif:                   'Fraunces', 'Literata', Georgia, 'Times New Roman', serif;
     --cosy-font-mono:                    'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
     --font-sans:                         var(--cosy-font-sans);
@@ -185,7 +206,7 @@
     --cosy-font-weight-medium:           500;
     --cosy-font-weight-semibold:         600;
     --cosy-font-weight-bold:             700;
-    --cosy-font-weight-extrabold:        800;
+    --cosy-font-weight-extrabold:         800;
 
     --cosy-line-height-tight:            1.2;
     --cosy-line-height-snug:             1.375;
@@ -193,7 +214,7 @@
     --cosy-line-height-relaxed:          1.625;
     --cosy-line-height-loose:            1.7;
 
-    /* ── 7. Spacing Scale ────────────────────────────────────────────────── */
+    /* ── 8. Spacing Scale ────────────────────────────────────────────────── */
     --cosy-space-xs:                     4px;
     --cosy-space-sm:                     8px;
     --cosy-space-md:                     16px;
@@ -208,7 +229,7 @@
     --space-xl:                          var(--cosy-space-xl);
     --space-xxl:                         var(--cosy-space-xxl);
 
-    /* ── 8. Border Radius Scale ─────────────────────────────────────────── */
+    /* ── 9. Border Radius Scale ─────────────────────────────────────────── */
     --cosy-radius-xs:                    4px;
     --cosy-radius-sm:                    8px;
     --cosy-radius-smm:                   10px;
@@ -218,11 +239,6 @@
     --cosy-radius-xl:                    32px;
     --cosy-radius-full:                  100px;
 
-    --cosy-r-sm:                         var(--cosy-radius-sm);
-    --cosy-r-md:                         var(--cosy-radius-md);
-    --cosy-r-lg:                         var(--cosy-radius-lg);
-    --cosy-r-xl:                         var(--cosy-radius-xl);
-
     --r-sm:                              var(--cosy-radius-sm);
     --r-md:                              var(--cosy-radius-md);
     --r-lg:                              var(--cosy-radius-lg);
@@ -231,84 +247,69 @@
     --radius-sm:                         var(--cosy-radius-smm);
     --border-radius:                     var(--cosy-radius-base);
 
-    /* ── 9. Elevation & Shadows ────────────────────────────────────────── */
-    --cosy-shadow-sm:                    0 2px 12px rgba(46, 74, 51, 0.07);
+    /* ── 10. Elevation & Shadows ────────────────────────────────────────── */
+    --cosy-shadow-sm:                    0 2px 8px rgba(46, 74, 51, 0.08);
     --cosy-shadow-base:                  0 6px 28px rgba(46, 74, 51, 0.10);
     --cosy-shadow-md:                    0 4px 14px rgba(46, 74, 51, 0.15);
     --cosy-shadow-lg:                    0 6px 20px rgba(46, 74, 51, 0.25);
+    --cosy-shadow-raised:                0 4px 12px rgba(35, 56, 39, 0.20), 0 2px 0 rgba(35, 56, 39, 0.35);
+    --cosy-shadow-pressed:               0 1px 4px rgba(35, 56, 39, 0.15), 0 0 0 rgba(0, 0, 0, 0);
 
     --shadow-sm:                          var(--cosy-shadow-sm);
     --shadow:                            var(--cosy-shadow-base);
     --box-shadow:                        var(--cosy-shadow-base);
 
-    /* ── 10. Cosy Button System Standard Tokens ─────────────────────────── */
+    /* ── 11. Transitions & Motion Tokens ───────────────────────────────── */
+    --cosy-transition-fast:              0.15s ease;
+    --cosy-transition-base:              0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    --cosy-transition-slow:              0.4s cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-speed:                  0.25s;
+
+    /* ── 12. Unified Button System Tokens ───────────────────────────────── */
     --btn-font-sans:                     var(--cosy-font-sans);
+    --btn-height:                        48px;
+    --btn-radius:                        var(--cosy-radius-full);
+    --btn-padding:                       0 28px;
+    --btn-font-size:                     var(--cosy-font-size-base);
+    --btn-weight:                        var(--cosy-font-weight-extrabold);
+
+    /* Primary Filled Button */
     --btn-primary-bg:                    var(--sage);
     --btn-primary-color:                 #ffffff;
     --btn-primary-hover-bg:              var(--sage-dark);
     --btn-primary-hover-color:           #ffffff;
-    --btn-primary-radius:               var(--cosy-radius-full);
-    --btn-primary-padding:              14px 32px;
-    --btn-primary-weight:               var(--cosy-font-weight-extrabold);
-    --btn-primary-shadow:               0 4px 14px rgba(46,74,51,0.15);
-    --btn-primary-hover-shadow:         0 6px 20px rgba(46,74,51,0.25);
+    --btn-primary-shadow:                var(--cosy-shadow-raised);
+    --btn-primary-hover-shadow:          0 6px 18px rgba(35, 56, 39, 0.28), 0 3px 0 rgba(35, 56, 39, 0.40);
 
+    /* Secondary Outlined Button (Same shadow depth as primary) */
     --btn-secondary-bg:                  transparent;
-    --btn-secondary-border:              1.5px solid var(--sage-soft);
-    --btn-secondary-color:               var(--sage-dark);
+    --btn-secondary-border:              2px solid var(--sage);
+    --btn-secondary-color:               var(--sage-deep);
     --btn-secondary-hover-bg:            var(--sage-light);
     --btn-secondary-hover-color:         var(--sage-deep);
-    --btn-secondary-radius:             var(--cosy-radius-full);
-    --btn-secondary-padding:            13px 28px;
-    --btn-secondary-weight:             var(--cosy-font-weight-semibold);
+    --btn-secondary-shadow:              var(--cosy-shadow-raised);
+    --btn-secondary-hover-shadow:        0 6px 18px rgba(35, 56, 39, 0.25), 0 3px 0 rgba(35, 56, 39, 0.35);
 
+    /* Soft Fill Button */
+    --btn-soft-bg:                       var(--sage-light);
+    --btn-soft-border:                   1.5px solid transparent;
+    --btn-soft-color:                    var(--sage-deep);
+    --btn-soft-hover-bg:                 var(--sage-mist);
+    --btn-soft-hover-color:              var(--sage-deep);
+    --btn-soft-shadow:                   var(--cosy-shadow-raised);
+    --btn-soft-hover-shadow:             0 6px 18px rgba(35, 56, 39, 0.22), 0 3px 0 rgba(35, 56, 39, 0.30);
+
+    /* Tertiary Link Button */
     --btn-tertiary-color:                var(--sage-dark);
     --btn-tertiary-hover-color:          var(--sage-deep);
     --btn-tertiary-weight:               var(--cosy-font-weight-bold);
-
-    --transition-speed:                  0.3s;
-
-    /* ── 11. COSYtools Local Compatibility Helpers & Component Vars ────── */
-    --fr-accent: #b84d2a;
-    --it-accent: #0d9488;
-    --el-accent: #2563eb;
-    --ru-accent: #4a148c;
-    --en-accent: #ea580c;
-
-    --mistake-bg:          #FFFDF5;
-    --mistake-header-bg:   #FFF8F0;
-    --mistake-header-text: #8c2e2e;
-    --mistake-wrong-color: #C0392B;
-    --mistake-right-color: #1A7A4A;
-    --mistake-null-color:  #9CA3AF;
-    --mistake-subj-color:  #2B6CB0;
-    --mistake-verb-color:  #0F766E;
-    --mistake-obj-color:   #7C3AED;
-    --mistake-mod-color:   #C05621;
-    --mistake-other-color: #B45309;
-
-    --dict-panel-bg:       rgba(255, 255, 255, 0.95);
-    --harvest-card-bg:     rgba(255, 255, 255, 0.98);
-    --group-note-bg:       #fff8e7;
-
-    --paper-bg:            #FDF8F0;
-    --paper-gradient:      radial-gradient(circle at 50% 0%, #fdfcf8 0%, #f7f1e5 100%);
-    --paper-txt:           #1C1008;
-
-    --vocab-color:         var(--sage);
-    --grammar-color:       var(--honey);
-    --speaking-color:      var(--honey);
-
-    --are-col:             var(--blue, #3a5298);
-    --ere-col:             var(--coral, #B84318);
-    --ire-col:             #9B59B6;
 }
 
-/* ── 12. Shared Ecosystem Strip Component Styles ─────────────────────────── */
+/* ── 13. Shared Ecosystem Strip Component Styles ─────────────────────────── */
 .cosy-ecosystem-strip {
     background: var(--cosy-color-sage-deep, #233827);
     color: var(--cosy-color-sage-mist, #f0f5f1);
-    font-family: var(--cosy-font-sans, 'COSY Sans', sans-serif);
+    font-family: var(--cosy-font-sans);
     font-size: 0.78rem;
     padding: 6px 1.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -420,102 +421,129 @@
     border-color: var(--cosy-color-honey, #945e05);
 }
 
-/* ── 13. Dark Mode Theme Overrides ───────────────────────────────────────── */
-html[data-theme="dark"], body.theme-dark {
-    --cosy-color-cream:                  #1a1f1a;
-    --cosy-color-cream-dark:             #141914;
-    --cosy-color-warm-white:             #222b22;
-    --cosy-color-surface:                #222b22;
-    --cosy-focus-ring:                   #93c5fd;
-    --cosy-on-sage-dark:                 #0f1a10;
+/* ── 14. Dark Mode Theme Overrides & Fallback ────────────────────────────── */
 
-    --cosy-color-ink:                    #e8f0e9;
-    --cosy-color-ink-soft:               #c8d8c9;
-    --cosy-color-ink-muted:              #c8d8c9;
-    --cosy-color-ink-faint:              #8a9e8b;
-    --cosy-color-muted:                  #8a9e8b;
+/* Dark Mode Fallback via System Preferences when no explicit data-theme is saved */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --cosy-color-cream:                  #181C18;
+        --cosy-color-cream-dark:             #121512;
+        --cosy-color-warm-white:             #222B22;
+        --cosy-color-surface:                #222B22;
+
+        --cosy-color-ink:                    #E8F0E9;
+        --cosy-color-ink-soft:               #C8D8C9;
+        --cosy-color-ink-muted:              #A8B8A9;
+        --cosy-color-ink-faint:              #8A9E8B;
+        --cosy-color-muted:                  #8A9E8B;
+
+        --cosy-color-border:                 rgba(107, 143, 113, 0.20);
+        --cosy-color-border-hover:           rgba(107, 143, 113, 0.35);
+
+        --cosy-color-sage:                   #5A7A5F;
+        --cosy-color-sage-dark:              #8A9E8B;
+        --cosy-color-sage-deep:              #E8F0E9;
+        --cosy-color-sage-pale:              #222C23;
+        --cosy-color-sage-mist:              #1F2720;
+        --cosy-color-sage-light:             #222C23;
+
+        --cosy-color-honey-pale:             #2D2417;
+        --cosy-color-honey-mid:              #35291B;
+        --cosy-color-coral-light:            #2D1A15;
+        --cosy-color-plum-light:             #26201A;
+        --cosy-color-blue-light:             #1A202D;
+        --cosy-color-green-light:            #15241B;
+        --cosy-color-rose-light:             #2D1515;
+        --cosy-color-navy-light:             #141A29;
+
+        --cosy-semantic-error:               #F87171;
+        --cosy-semantic-error-light:         #2D1515;
+        --cosy-semantic-success:             #4ADE80;
+        --cosy-semantic-success-light:       #15241B;
+        --cosy-semantic-warning:             #FBBF24;
+        --cosy-semantic-warning-light:       #2D2417;
+
+        --cosy-shadow-raised:                0 4px 12px rgba(0, 0, 0, 0.40), 0 2px 0 rgba(0, 0, 0, 0.60);
+        --cosy-shadow-pressed:               0 1px 4px rgba(0, 0, 0, 0.30), 0 0 0 rgba(0, 0, 0, 0);
+
+        --btn-primary-bg:                    var(--sage);
+        --btn-primary-hover-bg:              var(--sage-dark);
+        --btn-secondary-border:              2px solid var(--sage-soft);
+        --btn-secondary-color:               var(--sage-light);
+        --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
+        --btn-secondary-hover-color:         #ffffff;
+        --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
+        --btn-soft-color:                    var(--sage-light);
+        --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
+        --btn-soft-hover-color:              #ffffff;
+        --btn-tertiary-color:                var(--sage-light);
+        --btn-tertiary-hover-color:          #ffffff;
+    }
+
+    :root:not([data-theme="light"]) .cosy-ecosystem-strip {
+        background: #141A15;
+        border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+}
+
+/* Explicit Dark Theme Selector (`html[data-theme="dark"]` / `body.theme-dark`) */
+html[data-theme="dark"], body.theme-dark {
+    --cosy-color-cream:                  #181C18;
+    --cosy-color-cream-dark:             #121512;
+    --cosy-color-warm-white:             #222B22;
+    --cosy-color-surface:                #222B22;
+
+    --cosy-color-ink:                    #E8F0E9;
+    --cosy-color-ink-soft:               #C8D8C9;
+    --cosy-color-ink-muted:              #A8B8A9;
+    --cosy-color-ink-faint:              #8A9E8B;
+    --cosy-color-muted:                  #8A9E8B;
 
     --cosy-color-border:                 rgba(107, 143, 113, 0.20);
     --cosy-color-border-hover:           rgba(107, 143, 113, 0.35);
 
-    --cosy-color-sage:                   #5a7a5f;
-    --cosy-color-sage-dark:              #8a9e8b;
-    --cosy-color-sage-deep:              #e8f0e9;
-    --cosy-color-sage-pale:              #222c23;
-    --cosy-color-sage-mist:              #1f2720;
-    --cosy-color-sage-light:             #222c23;
+    --cosy-color-sage:                   #5A7A5F;
+    --cosy-color-sage-dark:              #8A9E8B;
+    --cosy-color-sage-deep:              #E8F0E9;
+    --cosy-color-sage-pale:              #222C23;
+    --cosy-color-sage-mist:              #1F2720;
+    --cosy-color-sage-light:             #222C23;
 
-    --cosy-color-honey-pale:             #2d2417;
-    --cosy-color-honey-mid:              #35291b;
-    --cosy-color-coral-light:            #2d1a15;
-    --cosy-color-plum-light:             #26201a;
-    --cosy-color-blue-light:             #1a202d;
-    --cosy-color-green-light:            #15241b;
-    --cosy-color-rose-light:             #2d1515;
-    --cosy-color-navy-light:             #141a29;
+    --cosy-color-honey-pale:             #2D2417;
+    --cosy-color-honey-mid:              #35291B;
+    --cosy-color-coral-light:            #2D1A15;
+    --cosy-color-plum-light:             #26201A;
+    --cosy-color-blue-light:             #1A202D;
+    --cosy-color-green-light:            #15241B;
+    --cosy-color-rose-light:             #2D1515;
+    --cosy-color-navy-light:             #141A29;
 
-    --cosy-semantic-error:               #f87171;
-    --cosy-semantic-error-light:         #2d1515;
-    --cosy-semantic-success:             #4ade80;
-    --cosy-semantic-success-light:       #15241b;
-    --cosy-semantic-warning:             #fbbf24;
-    --cosy-semantic-warning-light:       #2d2417;
+    --cosy-semantic-error:               #F87171;
+    --cosy-semantic-error-light:         #2D1515;
+    --cosy-semantic-success:             #4ADE80;
+    --cosy-semantic-success-light:       #15241B;
+    --cosy-semantic-warning:             #FBBF24;
+    --cosy-semantic-warning-light:       #2D2417;
+
+    --cosy-shadow-raised:                0 4px 12px rgba(0, 0, 0, 0.40), 0 2px 0 rgba(0, 0, 0, 0.60);
+    --cosy-shadow-pressed:               0 1px 4px rgba(0, 0, 0, 0.30), 0 0 0 rgba(0, 0, 0, 0);
 
     --btn-primary-bg:                    var(--sage);
     --btn-primary-hover-bg:              var(--sage-dark);
-    --btn-secondary-border:              1.5px solid var(--sage-soft);
+    --btn-secondary-border:              2px solid var(--sage-soft);
     --btn-secondary-color:               var(--sage-light);
-    --btn-secondary-hover-bg:            rgba(107,143,113,0.15);
+    --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
     --btn-secondary-hover-color:         #ffffff;
+    --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
+    --btn-soft-color:                    var(--sage-light);
+    --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
+    --btn-soft-hover-color:              #ffffff;
     --btn-tertiary-color:                var(--sage-light);
     --btn-tertiary-hover-color:          #ffffff;
-
-    --fr-accent: #e07a5f;
-    --it-accent: #2dd4bf;
-    --el-accent: #60a5fa;
-    --ru-accent: #c084fc;
-    --en-accent: #fb923c;
-
-    --mistake-bg:          #241a15;
-    --mistake-header-bg:   #2e211a;
-    --mistake-header-text: #fca5a5;
-    --mistake-wrong-color: #f87171;
-    --mistake-right-color: #4ade80;
-
-    --dict-panel-bg:       rgba(34, 43, 34, 0.95);
-    --harvest-card-bg:     rgba(34, 43, 34, 0.98);
-    --group-note-bg:       #2d261a;
-
-    --paper-bg:            #1a1f1a;
-    --paper-gradient:      radial-gradient(circle at 50% 0%, #202720 0%, #141914 100%);
-    --paper-txt:           #e8f0e9;
 }
 
 html[data-theme="dark"] .cosy-ecosystem-strip,
 body.theme-dark .cosy-ecosystem-strip {
-    background: #141a15;
+    background: #141A15;
     border-bottom-color: rgba(255, 255, 255, 0.08);
-}
-
-/* ── 14. Embedded / Iframe Mode for COSYdata & COSYlanguages Integration ──── */
-html.is-embedded header.app-header,
-html.is-embedded footer.site-footer,
-html.is-embedded .site-footer,
-html.is-embedded .cosy-ecosystem-strip {
-    display: none !important;
-}
-
-html.is-embedded body {
-    padding: 0 !important;
-    margin: 0 !important;
-    background: transparent !important;
-}
-
-/* Dark theme: --sage-dark becomes a light green, so white text on it fails contrast.
-   Buttons styled inline with that background get dark text instead. */
-html[data-theme="dark"] button[style*="background:var(--sage-dark"],
-html[data-theme="dark"] button[style*="background: var(--sage-dark"],
-html[data-theme="dark"] a.ref-btn[style*="background:var(--sage-dark"],
-html[data-theme="dark"] a.ref-btn[style*="background: var(--sage-dark"] {
-    color: var(--cosy-on-sage-dark) !important;
 }

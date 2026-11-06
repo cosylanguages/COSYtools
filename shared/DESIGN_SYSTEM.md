@@ -7,23 +7,25 @@ This document specifies the COSY ecosystem visual identity standards, vendored t
 
 ## 1. Vendored Base Tokens Synchronization
 COSYtools is a standalone client-side reference and practice tool. To ensure complete standalone functionality and independence from external CDNs or network outages, canonical base tokens are **vendored** locally into:
-- `shared/css/tokens.css`
 - `shared/css/cosy-tokens.css`
 
+`shared/css/tokens.css` imports the vendored file and overrides its font aliases to use COSYtools' self-hosted font files.
+
 ### Token Sync Metadata
-- **Sync Date:** `2026-09-25`
+- **Sync Date:** `2026-11-06`
 - **Canonical Source:** `https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css`
 - **Primary Design Tokens Used:**
   - Background & Surface: `var(--cream)` (`#FAF7F2`), `var(--surface-color)` (`#FFFFFF`)
-  - Typography & Ink: `var(--ink)` (`#222523`), `var(--ink-soft)` (`#5A625C`)
-  - Primary Brand Accent: `var(--sage)` (`#2B6A78`), `var(--sage-dark)` (`#1B4332`)
-  - Borders & Cards: `var(--border)` (`#E2DDD5`), `var(--r-md)` (`12px`)
-  - Semantic Errors / Warnings: `var(--cosy-semantic-error)` (`#B04D35`)
+  - Typography & Ink: `var(--ink)` (`#1C1917`), `var(--ink-soft)` (`#4A4A4A`)
+  - Shared Sage: `var(--sage)` (`#416B49`), `var(--sage-dark)` (`#375742`)
+  - COSYtools Product Accent: `var(--cosy-tools-accent)` (`#0D7A5F`)
+
+Run `npm run check:design-tokens` to check for drift against the published source. Use `npm run sync:design-tokens` to update the vendored copy. The check is included in `npm test`; it reports a skipped check when the source cannot be reached, preserving offline test runs.
 
 ---
 
 ## 2. Product Brand Identity
-COSYtools uses the default COSY ecosystem design system look. It does not invent or define a distinct product accent color, ensuring consistent branding across all COSY ecosystem sub-products.
+COSYtools follows the shared COSY ecosystem design system and uses the canonical `--cosy-tools-accent` product accent token where a product-specific accent is needed.
 
 ---
 

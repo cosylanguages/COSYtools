@@ -15,6 +15,15 @@ class ItalianGenderEngine {
             const res = await fetch('data/nouns.json');
             this.nounDb = await res.json();
             this.bindEvents();
+            const params = new URLSearchParams(window.location.search);
+            const initialQuery = ['noun', 'word', 'q', 'search']
+                .map(key => params.get(key))
+                .find(value => value && value.trim());
+            const input = document.getElementById('noun-search-input');
+            if (initialQuery && input) {
+                input.value = initialQuery;
+                this.searchNoun(initialQuery);
+            }
         } catch (e) { console.error(e); }
     }
 

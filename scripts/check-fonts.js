@@ -31,7 +31,7 @@ for (const f of files.filter(f => /\.(html|css|js)$/.test(f))) {
   if (/fonts\.googleapis\.com|fonts\.gstatic\.com/.test(text) && !f.endsWith('check-fonts.js')) {
     errors.push(`${rel(f)}: loads fonts from Google — self-host via shared/css/fonts.css`);
   }
-  if (/\.(html|css)$/.test(f)) {
+  if (/\.(html|css)$/.test(f) && rel(f) !== path.join('shared', 'css', 'cosy-tokens.css')) {
     for (const m of text.matchAll(/['"](Fraunces|DM Sans|Nunito|Lora)['"]/g)) {
       const line = text.slice(0, m.index).split('\n').length;
       errors.push(`${rel(f)}:${line}: stale font family ${m[0]} (use 'COSY Sans' / 'COSY Serif')`);

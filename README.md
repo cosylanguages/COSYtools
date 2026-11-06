@@ -13,7 +13,10 @@ Ecosystem Hub: [https://cosylanguages.github.io/COSYlanguages/](https://cosylang
 2. **Two-Tier Dataset Architecture:**
    - **Tool-Specific Datasets (`tools/<lang>/<tool>/data/`):** High-precision, structured schemas powering conjugators, case tables, and syntax engines.
    - **Supplemental Lexicon Shards (`tools/<lang>/data/shards/`):** Letter-sharded dictionary data loaded on-demand to keep initial bundle sizes under 1.5 MB.
-3. **Ecosystem Integration:** Standardized headword deep-linking and integration with COSYdata, COSYgames, COSYplatform, and COSYevents.
+3. **Central Registry, Isolated Tools:** `shared/js/languages.js` owns language metadata and `COSYTOOLS_PRIMARY_LANGUAGES`; `catalog.json` owns the tool inventory. Each `tools/<lang>/<tool>/` directory owns that tool's page, code, and data. Shared UI and engines live in `shared/`.
+4. **Ecosystem Integration:** Standardized headword deep-linking and integration with COSYdata, COSYgames, COSYplatform, and COSYevents.
+
+Language tier and tool maturity are separate: the five primary learning languages are listed in `COSYTOOLS_PRIMARY_LANGUAGES`; other registered languages appear in the hub's secondary group. A tool's `stable`, `beta`, or `stub` catalog status describes that tool only.
 
 ---
 
@@ -37,6 +40,8 @@ The central inventory is maintained in `catalog.json`. Each entry defines:
 - **`stable`:** Comprehensive, verified dataset and fully featured interactive tool. Visible by default.
 - **`beta`:** Fully functional tool with a growing dataset. Visible by default.
 - **`stub`:** Tool page in active development. Hidden by default in the hub unless *"Show tools in development"* is enabled.
+
+These statuses describe individual tools, not the language's primary/secondary hub tier.
 
 ---
 
@@ -76,6 +81,8 @@ npm run check:js-syntax      # Validate JavaScript file syntax
 npm run check:inline-js      # Validate inline HTML <script> syntax
 npm run check:shell          # Verify shell strip and footer HTML template synchronization
 npm run check:hub            # Verify hub rendering against catalog.json
+npm run check:shared-data    # Verify public gender data mirrors match canonical tool data
+npm run sync:shared-data     # Regenerate those mirrors after changing canonical data
 npm run validate:catalog     # Validate catalog schema, file existence, and record counts
 npm run check:links          # Detect broken local links and test deep-link parameter parsing
 npm run test:hub             # Test hub filter and search state behavior (jsdom)
@@ -89,6 +96,8 @@ npm run check:smoke          # Run browser smoke test (requires Chrome)
 ---
 
 ## How to Add a New Tool or Language Dataset
+
+For a new language, register its code, English name, and native name in `shared/js/languages.js`. Add it to `COSYTOOLS_PRIMARY_LANGUAGES` only when it should appear among the five main hub choices; otherwise the hub places it in the secondary language group. The hub generator checks that every primary language has catalogued tools.
 
 ### Step 1: Create Tool Folder & HTML Entry Point
 Create a directory under `tools/<lang>/<tool-name>/` with an `index.html` file using standard COSY shared CSS/JS headers:
@@ -107,6 +116,7 @@ Add a new entry to `catalog.json` with appropriate `id`, `language`, `type`, `st
 ### Step 4: Rebuild & Validate
 ```bash
 npm run generate:hub
+npm run check:shared-data
 npm test
 ```
 

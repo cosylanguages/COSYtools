@@ -22,8 +22,8 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-serif); font-weight: 700; }
 body { background: var(--paper-gradient, var(--cream-bg)); background-attachment: fixed; color: var(--ink-text); font-family: var(--font-main); min-height: 100vh; display: flex; flex-direction: column; }
-.app-container, .tool-container { max-width: 960px; margin: 0 auto; padding: var(--space-xl) var(--space-lg); width: 100%; box-sizing: border-box; flex: 1; display: flex; flex-direction: column; }
-.app-header { display: flex; align-items: center; justify-content: space-between; padding-bottom: var(--space-xl); border-bottom: 2px solid var(--border-color); margin-bottom: var(--space-2xl); flex-wrap: wrap; gap: var(--space-lg); }
+.app-container, .tool-container { max-width: 1040px; margin: 0 auto; padding: 1rem 1.25rem 2rem; width: 100%; box-sizing: border-box; flex: 1; display: flex; flex-direction: column; }
+.app-header { display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; border: 1px solid var(--border-color); border-radius: 8px; background: var(--cream-card); box-shadow: 0 6px 18px rgba(27, 67, 50, 0.05); margin-bottom: 1.25rem; flex-wrap: wrap; gap: var(--space-lg); }
 .logo-badge { display: flex; align-items: center; gap: var(--space-lg); }
 .brand-icon { font-size: 2.2rem; background-color: var(--cream-card); padding: 0.6rem; border-radius: 12px; border: 1px solid var(--border-color); }
 .brand-text h1 { font-size: 1.6rem; color: var(--sage-primary); font-weight: 700; }
@@ -39,8 +39,8 @@ body { background: var(--paper-gradient, var(--cream-bg)); background-attachment
 .suggestion-item { padding: 0.85rem 1.4rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 0.95rem; border-bottom: 1px solid rgba(0,0,0,0.03); transition: background-color 0.15s ease; }
 .suggestion-item:last-child { border-bottom: none; }
 .suggestion-item:hover { background-color: var(--sage-mist); }
-.noun-result-card, .verb-result-card, .result-card, .game-card { background: rgba(255, 255, 255, 0.92); border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 2.25rem 2rem; margin-bottom: 2rem; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
-.noun-result-card:hover, .verb-result-card:hover, .result-card:hover, .game-card:hover { box-shadow: 0 16px 36px rgba(0, 0, 0, 0.1); transform: translateY(-4px); }
+.noun-result-card, .verb-result-card, .result-card, .game-card { background: rgba(255, 255, 255, 0.96); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.045); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.noun-result-card:hover, .verb-result-card:hover, .result-card:hover, .game-card:hover { box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07); }
 
 html[data-theme="dark"] .search-box, body.theme-dark .search-box {
     background-color: rgba(34, 43, 34, 0.9) !important;

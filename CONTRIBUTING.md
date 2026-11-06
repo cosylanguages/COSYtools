@@ -16,8 +16,15 @@ You can freely submit Pull Requests without prior maintainer approval for:
 ### 2. Requiring Review & Maintainer Approval
 Please open an issue to discuss before submitting PRs that affect:
 - **New Tool Folders**: Adding a new standalone tool directory or language engine requires maintainer approval.
-- **Shared Architecture Changes**: Modifications to core engine logic (`shared/js/engine.js`), shared UI (`shared/js/ui.js`), or base styling in `shared/css/`.
+- **Shared Architecture Changes**: Modifications to the language registry (`shared/js/languages.js`), shared shell (`shared/js/shell.js`), reference utilities (`shared/engines/reference-utils.js`), or base styling in `shared/css/`.
 - **Schema Breaking Changes**: Altering existing JSON schemas or dataset structures in tool folders.
+
+### Adding or Updating a Language
+
+- Register the language in `shared/js/languages.js`; do not maintain a second language-code list in tool code.
+- Put language-specific pages, logic, and datasets under `tools/<lang>/<tool>/`.
+- Register each user-facing tool in `catalog.json`, then run `npm run generate:hub` and `npm test`.
+- Public gender datasets under `shared/data/` mirror the canonical tool data. Edit the tool dataset, then run `npm run sync:shared-data`; do not edit the mirror by hand.
 
 ---
 

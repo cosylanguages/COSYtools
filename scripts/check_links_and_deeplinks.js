@@ -147,11 +147,57 @@ function checkBrokenLocalLinks() {
   return true;
 }
 
+function checkMetaRefreshTargets() {
+  console.log('\n--- Checking Legacy Redirect Targets ---');
+  const htmlFiles = scanHtmlFiles(ROOT);
+  const errors = [];
+
+  for (const htmlFile of htmlFiles) {
+    const content = fs.readFileSync(htmlFile, 'utf8');
+    const relativePage = path.relative(ROOT, htmlFile).replaceAll(path.sep, '/');
+    const tags = content.match(/<meta\b[^>]*>/gi) || [];
+
+    for (const tag of tags) {
+      const equiv = tag.match(/\bhttp-equiv\s*=\s*(["'])(.*?)\1/i)?.[2];
+      if (!equiv || equiv.toLowerCase() !== 'refresh') continue;
+
+      const refresh = tag.match(/\bcontent\s*=\s*(["'])(.*?)\1/i)?.[2] || '';
+      const destination = refresh.match(/(?:^|;)\s*url\s*=\s*([^;]+)/i)?.[1]?.trim().replace(/^['"]|['"]$/g, '');
+      if (!destination || /^(?:[a-z]+:|\/\/)/i.test(destination)) continue;
+
+      const target = destination.split(/[?#]/, 1)[0];
+      let targetPath = target.startsWith('/')
+        ? path.join(ROOT, target.replace(/^\/COSYtools\//, '/').replace(/^\//, ''))
+        : path.resolve(path.dirname(htmlFile), target);
+
+      if (target.endsWith('/')) targetPath = path.join(targetPath, 'index.html');
+      if (!fs.existsSync(targetPath)) {
+        errors.push(`${relativePage} -> missing redirect target "${destination}"`);
+      }
+
+      if (relativePage === 'prepositions/russian/index.html' &&
+          (!target.endsWith('/prepositions/index.html') || new URLSearchParams(destination.split('?')[1] || '').get('lang') !== 'ru')) {
+        errors.push(`${relativePage} must redirect to the shared prepositions page with lang=ru`);
+      }
+    }
+  }
+
+  if (errors.length) {
+    console.error(`Found ${errors.length} invalid meta-refresh redirect(s):`);
+    errors.forEach(error => console.error(`  [ERROR] ${error}`));
+    return false;
+  }
+
+  console.log(`Checked meta-refresh targets in ${htmlFiles.length} HTML pages.`);
+  return true;
+}
+
 function main() {
   const deepLinkOk = testDeepLinkParsing();
   const linksOk = checkBrokenLocalLinks();
+  const redirectsOk = checkMetaRefreshTargets();
 
-  if (!deepLinkOk || !linksOk) {
+  if (!deepLinkOk || !linksOk || !redirectsOk) {
     process.exit(1);
   }
 

@@ -1,26 +1,22 @@
 const http = require('http');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
-const puppeteer = (() => {
-    try {
-        return require('puppeteer');
-    } catch (error) {
-        return require('puppeteer-core');
-    }
-})();
+const puppeteer = require('puppeteer');
 
 const PORT = 8085;
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const ACCEPTED_QUERY_PARAMS = ['verb', 'infinitive', 'noun', 'word', 'q', 'search', 'lang'];
 
-function resolveChromeExecutable() {
-    const puppeteerExecutable = typeof puppeteer?.executablePath === 'function' ? puppeteer.executablePath() : null;
+async function resolveChromeExecutable() {
+    const puppeteerExecutable = typeof puppeteer?.executablePath === 'function' ? await puppeteer.executablePath() : null;
     const candidates = [
         process.env.PUPPETEER_EXECUTABLE_PATH,
         process.env.CHROME_BIN,
         process.env.CHROME_PATH,
         puppeteerExecutable,
+        ...getCachedChromeExecutables(),
         '/usr/bin/google-chrome',
         '/usr/bin/google-chrome-stable',
         '/usr/bin/chromium',
@@ -29,7 +25,18 @@ function resolveChromeExecutable() {
         '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
     ];
 
-    return candidates.find(candidate => Boolean(candidate) && fs.existsSync(candidate)) || null;
+    return candidates.find(candidate => typeof candidate === 'string' && fs.existsSync(candidate)) || null;
+}
+
+function getCachedChromeExecutables() {
+    const cacheRoot = path.join(os.homedir(), '.cache', 'puppeteer', 'chrome');
+    if (!fs.existsSync(cacheRoot)) return [];
+
+    return fs.readdirSync(cacheRoot, { withFileTypes: true })
+        .filter(entry => entry.isDirectory())
+        .map(entry => path.join(cacheRoot, entry.name, 'chrome-linux64', 'chrome'))
+        .filter(executable => fs.existsSync(executable))
+        .sort((left, right) => right.localeCompare(left, undefined, { numeric: true }));
 }
 
 const MIME_TYPES = {
@@ -133,7 +140,7 @@ async function runSmokeTests() {
     let totalErrors = 0;
     const functionalProofResults = [];
 
-    const chromeExecutable = resolveChromeExecutable() || puppeteer.executablePath();
+    const chromeExecutable = await resolveChromeExecutable();
     if (!chromeExecutable) {
         throw new Error('No Chrome/Chromium executable found. Set CHROME_BIN, CHROME_PATH, or PUPPETEER_EXECUTABLE_PATH to the browser binary, or install Chrome/Chromium.');
     }
@@ -258,9 +265,10 @@ async function runSmokeTests() {
                         const heroTitle = document.querySelector('.hero-fraunces-title');
 
                         if (window.COSY_UI && typeof window.COSY_UI.setUILanguage === 'function') {
+                            const enText = heroTitle ? heroTitle.textContent.trim() : '';
                             window.COSY_UI.setUILanguage('fr');
                             const frText = heroTitle ? heroTitle.textContent.trim() : '';
-                            const isFrench = frText.includes('Outils de Référence') || frText.includes('Référence');
+                            const isFrench = document.documentElement.lang === 'fr' && frText.length > 0 && frText !== enText;
                             window.COSY_UI.setUILanguage('en'); // restore
                             return isFrench;
                         }

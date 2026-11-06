@@ -1,6 +1,6 @@
 /**
- * js/data/languages.js
- * Master language registry for COSYlanguages.
+ * shared/js/languages.js
+ * Shared language registry used by COSYtools pages.
  */
 
 window.TRANSLATION_MAP = {
@@ -41,6 +41,9 @@ window.COSY_LANGUAGES = [
   { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'active',       flag: '🏴', family: 'celtic',      img: 'cosybreton.png',    has_cases: false, has_gender: true,  has_data: true  },
   { code: 'cv', name: 'Chuvash',    native: 'Чӑвашла',    status: 'active',       flag: '🏴', family: 'turkic',      img: 'cosychuvash.png',   has_cases: true,  has_gender: false, has_data: true  },
 ];
+
+// COSYtools hub tier; separate from ecosystem publication status above.
+window.COSYTOOLS_PRIMARY_LANGUAGES = ['en', 'fr', 'it', 'el', 'ru'];
 
 window.COSY_LEVELS = [
     { id: 'starter',           name: 'Starter (A1)',           short: 'A1' },
@@ -147,16 +150,3 @@ window.COSY_ACTIVE_LANGUAGES = window.COSY_LANGUAGES.filter(l => l.status === 'a
 // Helper: get all languages that have data (active + coming-soon with content)
 window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.has_data);
 
-// Load imported morphology and lexical supplements for every tool page.
-const languageScript = document.currentScript;
-if (languageScript && !document.querySelector('script[data-supplemental-lexicon]')) {
-    const tableScript = document.createElement('script');
-    tableScript.src = new URL('conjugation_table.js', languageScript.src).href;
-    tableScript.dataset.conjugationTable = 'true';
-    document.head.appendChild(tableScript);
-
-    const supplementalScript = document.createElement('script');
-    supplementalScript.src = new URL('supplemental_lexicon.js', languageScript.src).href;
-    supplementalScript.dataset.supplementalLexicon = 'true';
-    document.head.appendChild(supplementalScript);
-}

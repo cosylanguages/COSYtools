@@ -8,9 +8,13 @@
     "check:inline-js": "node scripts/check-inline-js.js",
     "check:smoke": "node scripts/smoke-tools.js",
     "check:shell": "node scripts/check-shell.js",
+    "check:design-tokens": "node scripts/sync-design-tokens.js --check --offline-ok",
+    "sync:design-tokens": "node scripts/sync-design-tokens.js --sync",
     "generate:data-manifest": "node scripts/generate_data_manifest.js",
     "generate:hub": "node scripts/generate_hub.js",
     "check:hub": "node scripts/generate_hub.js --check",
+    "sync:shared-data": "node scripts/sync_shared_datasets.js --sync",
+    "check:shared-data": "node scripts/sync_shared_datasets.js --check",
     "validate:catalog": "node scripts/validate_catalog.js",
     "check:links": "node scripts/check_links_and_deeplinks.js",
     "test:hub": "node scripts/test-hub.js",
@@ -20,7 +24,7 @@
     "validate:linguistic": "node scripts/validate_linguistic_datasets.js",
     "test:workflow": "node scripts/test-practice-workflow.js",
     "test:security": "node scripts/test-security.js",
-    "test": "npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:workflow && npm run check:fonts && npm run check:a11y && npm run validate:linguistic && npm run test:verb-forms && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run test:supplemental-i18n && npm run test:result-announce && npm run test:axe && npm run check:contrast && npm run check:smoke",
+    "test": "npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run check:shared-data && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:workflow && npm run check:fonts && npm run check:design-tokens && npm run check:a11y && npm run validate:linguistic && npm run test:verb-forms && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run test:supplemental-i18n && npm run test:result-announce && npm run test:axe && npm run check:contrast && npm run check:smoke",
     "test:coverage": "node scripts/test_present_tense_coverage.js",
     "test:top-verbs": "node scripts/test-top-verbs.js",
     "test:practice-pages": "node scripts/test-practice-pages.js",
@@ -33,9 +37,8 @@
     "report:top-verbs": "node scripts/report-top-verbs-coverage.js"
   },
   "devDependencies": {
+    "axe-core": "^4.10.0",
     "jsdom": "^26.1.0",
-    "puppeteer": "^24.3.0",
-    "puppeteer-core": "^24.3.0",
-    "axe-core": "^4.10.0"
+    "puppeteer": "^25.16.0"
   }
 }

@@ -12,7 +12,7 @@
         }
         const btn = document.getElementById('cosy-theme-toggle');
         if (btn) {
-            btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+            btn.textContent = theme === 'dark' ? 'Light' : 'Dark';
             btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
         }
     }
@@ -48,6 +48,21 @@
         pt: '← COSYtools'
     };
 
+    function withHubContext(href) {
+        const path = String(href || '').split(/[?#]/)[0];
+        const params = new URLSearchParams();
+        const targetLanguage = localStorage.getItem('cosy_target_lang') || new URLSearchParams(window.location.search).get('lang');
+        if (targetLanguage && /^[a-z]{2}$/.test(targetLanguage)) params.set('lang', targetLanguage);
+
+        const current = new URLSearchParams(window.location.search);
+        ['embed', 'iframe', 'mode'].forEach(function(key) {
+            if (current.has(key)) params.set(key, current.get(key));
+        });
+
+        const query = params.toString();
+        return path + (query ? '?' + query : '');
+    }
+
     function renderAppHeader() {
         const header = document.querySelector('header.app-header[data-icon]');
         if (!header) return;
@@ -74,7 +89,7 @@
                 </div>
             </div>
             <div class="header-actions">
-                <a href="${relativeRoot}" class="back-link nav-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem; padding:0.5rem 0.9rem; font-weight:600;">${backText}</a>
+                <a href="${withHubContext(relativeRoot)}" class="back-link nav-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:0.4rem; padding:0.5rem 0.9rem; font-weight:600;">${backText}</a>
             </div>
         `;
     }
@@ -88,7 +103,7 @@
             : null;
         if (!query) return;
 
-        const input = document.getElementById('search-input') || document.getElementById('verb-search-input');
+        const input = document.querySelector('#search-input, #verb-search-input, #noun-search-input');
         if (!input) return;
 
         input.value = query;
@@ -178,11 +193,18 @@
         }
     }
 
+    function preserveHubContext() {
+        document.querySelectorAll('.cosy-strip-link.active').forEach(function(link) {
+            link.setAttribute('href', withHubContext(link.getAttribute('href')));
+        });
+    }
+
     // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
         initTheme();
         checkEmbedMode();
         renderAppHeader();
+        preserveHubContext();
         loadEcosystemScripts();
         registerServiceWorker();
         const toggleBtn = document.getElementById('cosy-theme-toggle');

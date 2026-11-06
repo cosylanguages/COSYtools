@@ -14,6 +14,8 @@ This document provides a comprehensive inventory of all data files within `COSYt
 
 ### 1.1 Shared Data Files (`shared/data/`)
 
+The gender JSON files for `fr`, `it`, `ru`, and `el` are public-path mirrors of the corresponding canonical tool datasets. Their synchronization is managed by `scripts/sync_shared_datasets.js` and checked by `npm run check:shared-data`. Shared verb lists are maintained as separate compatibility exports because their coverage differs from the language tools.
+
 | File Path | Format | Covered Languages / Feature | Schema Key Fields |
 | :--- | :--- | :--- | :--- |
 | `shared/data/verbs-fr.json` | JSON Object (dict) | French (`fr`) Conjugations | `group`, `level`, `definition`, `antonyms`, `auxiliary`, `tenses` (`indicatif_present`, `indicatif_imparfait`, `indicatif_passe_compose`, `indicatif_futur_simple`, `conditionnel_present`, `subjonctif_present`), `usage_hint`, `irregular` |

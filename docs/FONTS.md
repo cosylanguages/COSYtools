@@ -13,9 +13,10 @@ sending visitors' IP addresses to Google (a GDPR concern for EU users).
 Cyrillic Extended matters: Bashkir, Tatar and Chuvash need letters such as ә ө ҡ ң ҙ ғ ҫ ү һ ӑ ӗ ӳ.
 Browsers download only the script files a page actually uses (`unicode-range`); the full set is ~600 KB.
 
-Always use `var(--font-sans)` / `var(--font-serif)` (from `cosy-tokens.css`) or the families `'COSY Sans'` /
-`'COSY Serif'`. Do not hard-code other family names or add `<link>` tags to font CDNs — `npm run check:fonts`
-fails on both, and fails if a page does not link `shared/css/fonts.css`.
+Always use `var(--font-sans)` / `var(--font-serif)` or the families `'COSY Sans'` / `'COSY Serif'`. The local
+`tokens.css` compatibility layer maps the canonical font aliases to these self-hosted families. Do not hard-code
+other family names or add `<link>` tags to font CDNs — `npm run check:fonts` fails on both, and fails if a page
+does not link `shared/css/fonts.css`.
 
 ## Changing the typeface
 The families are named after their role, not the font. To swap a font, install the matching

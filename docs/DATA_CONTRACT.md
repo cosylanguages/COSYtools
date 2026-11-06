@@ -28,6 +28,8 @@ Consumer applications requiring feature-specific morphology tables per language 
 
 ### 1.2 Shared & Global Reference Datasets (`/shared/data/`)
 
+The shared gender endpoints for French, Italian, Russian, and Greek are compatibility mirrors of their canonical tool datasets. Update the source under `tools/<lang>/<tool>/data/`, then run `npm run sync:shared-data`; `npm run check:shared-data` verifies that the public URLs stay byte-for-byte synchronized. Shared verb endpoints remain separate compatibility snapshots because their coverage differs from the per-tool datasets.
+
 For multi-lingual reference views and aggregated matrices, consumer applications can access:
 
 | Feature / Topic | Stable Data Endpoint Path | Example URL |
