@@ -4,6 +4,7 @@
  * jsdom cannot compute layout, so colour-contrast and landmark-region rules are disabled;
  * those still need a real browser (Lighthouse / axe DevTools).
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');

@@ -955,6 +955,35 @@
       "examples": [
         "Rimos bastante com o espetáculo."
       ]
+    },
+    "vir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Deslocar-se para o lugar onde está quem fala.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "venho",
+          "vens",
+          "vem",
+          "vimos",
+          "vindes",
+          "vêm"
+        ],
+        "passado": [
+          "vim",
+          "vieste",
+          "veio",
+          "viemos",
+          "viestes",
+          "vieram"
+        ]
+      },
+      "examples": [
+        "Venho de casa."
+      ],
+      "en_lemma": "come",
+      "needs_review": true
     }
   }
 }

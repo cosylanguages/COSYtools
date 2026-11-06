@@ -4346,6 +4346,120 @@
       "examples": [
         "Meine Großeltern leben in einem kleinen Dorf."
       ]
+    },
+    "lösen": {
+      "group": "Schwaches Verb",
+      "level": "A2",
+      "definition": "Eine Antwort auf ein Problem finden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich löse",
+          "du löst",
+          "er/sie/es löst",
+          "wir lösen",
+          "ihr löst",
+          "sie lösen"
+        ],
+        "präteritum": [
+          "ich löste",
+          "du löstest",
+          "er/sie/es löste",
+          "wir lösten",
+          "ihr löstet",
+          "sie lösten"
+        ],
+        "perfekt": [
+          "ich habe gelöst",
+          "du hast gelöst",
+          "er/sie/es hat gelöst",
+          "wir haben gelöst",
+          "ihr habt gelöst",
+          "sie haben gelöst"
+        ],
+        "futur_1": [
+          "ich werde lösen",
+          "du wirst lösen",
+          "er/sie/es wird lösen",
+          "wir werden lösen",
+          "ihr werdet lösen",
+          "sie werden lösen"
+        ],
+        "konjunktiv_2": [
+          "ich würde lösen",
+          "du würdest lösen",
+          "er/sie/es würde lösen",
+          "wir würden lösen",
+          "ihr würdet lösen",
+          "sie würden lösen"
+        ],
+        "imperativ": [
+          "löse!",
+          "löst!"
+        ]
+      },
+      "examples": [
+        "Wir lösen das Problem zusammen."
+      ],
+      "en_lemma": "solve",
+      "needs_review": true
+    },
+    "verschwenden": {
+      "group": "Schwaches Verb",
+      "level": "B1",
+      "definition": "Etwas unnötig oder übermäßig verbrauchen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich verschwende",
+          "du verschwendest",
+          "er/sie/es verschwendet",
+          "wir verschwenden",
+          "ihr verschwendet",
+          "sie verschwenden"
+        ],
+        "präteritum": [
+          "ich verschwendete",
+          "du verschwendetest",
+          "er/sie/es verschwendete",
+          "wir verschwendeten",
+          "ihr verschwendetet",
+          "sie verschwendeten"
+        ],
+        "perfekt": [
+          "ich habe verschwendet",
+          "du hast verschwendet",
+          "er/sie/es hat verschwendet",
+          "wir haben verschwendet",
+          "ihr habt verschwendet",
+          "sie haben verschwendet"
+        ],
+        "futur_1": [
+          "ich werde verschwenden",
+          "du wirst verschwenden",
+          "er/sie/es wird verschwenden",
+          "wir werden verschwenden",
+          "ihr werdet verschwenden",
+          "sie werden verschwenden"
+        ],
+        "konjunktiv_2": [
+          "ich würde verschwenden",
+          "du würdest verschwenden",
+          "er/sie/es würde verschwenden",
+          "wir würden verschwenden",
+          "ihr würdet verschwenden",
+          "sie würden verschwenden"
+        ],
+        "imperativ": [
+          "verschwende!",
+          "verschwendet!"
+        ]
+      },
+      "examples": [
+        "Verschwende keine Zeit!"
+      ],
+      "en_lemma": "waste",
+      "needs_review": true
     }
   }
 }

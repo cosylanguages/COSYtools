@@ -92,7 +92,7 @@ catalog.forEach((tool) => {
         if (entry.tenses && typeof entry.tenses === 'object') {
           const tenseKeys = Object.keys(entry.tenses);
           // Check for present or future non-past tense across schema conventions
-          const hasPres = tenseKeys.some(k => ['pres', 'present', 'presente', 'indicatif_present', 'indicativo_presente', 'praesens', 'prs', 'pres_sing', 'futur', 'futur_simple', 'buduschee'].includes(k.toLowerCase()));
+          const hasPres = tenseKeys.some(k => ['pres', 'present', 'presente', 'indicatif_present', 'indicativo_presente', 'praesens', 'präsens', 'prs', 'pres_sing', 'futur', 'futur_simple', 'buduschee'].includes(k.toLowerCase()));
           if (!hasPres && !entry.past_simple) {
             console.warn(`⚠️ [${relPath}] Verb "${lemma}": Missing non-past conjugation tense.`);
             totalWarnings++;

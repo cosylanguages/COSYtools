@@ -101,7 +101,8 @@
                 const item = dbKey ? db[dbKey] : null;
 
                 const morphUnit = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.getUnitByLemma(lang, v) : null;
-                const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
+                const tableHtml = ((morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null)
+                    || ((item && window.COSYConjugationTable && window.COSYConjugationTable.buildFromEntry) ? window.COSYConjugationTable.buildFromEntry(item, lang) : null);
 
                 if (item) {
                     let html = `<h2 style="margin-top:0;">${dbKey} <span class="tag">${item.level || 'A1'}</span></h2>`;

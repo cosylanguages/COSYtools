@@ -3849,6 +3849,151 @@
       "examples": [
         "Muchas especies habitan en esta selva."
       ]
+    },
+    "pagar": {
+      "group": "1er grupo (-ar)",
+      "level": "A1",
+      "definition": "Dar dinero a cambio de algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "pago",
+          "pagas",
+          "paga",
+          "pagamos",
+          "pagáis",
+          "pagan"
+        ],
+        "pasado": [
+          "pagué",
+          "pagaste",
+          "pagó",
+          "pagamos",
+          "pagasteis",
+          "pagaron"
+        ]
+      },
+      "examples": [
+        "Pago con tarjeta."
+      ],
+      "en_lemma": "pay",
+      "needs_review": true
+    },
+    "gastar": {
+      "group": "1er grupo (-ar)",
+      "level": "A2",
+      "definition": "Usar dinero para comprar algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "gasto",
+          "gastas",
+          "gasta",
+          "gastamos",
+          "gastáis",
+          "gastan"
+        ],
+        "pasado": [
+          "gasté",
+          "gastaste",
+          "gastó",
+          "gastamos",
+          "gastasteis",
+          "gastaron"
+        ]
+      },
+      "examples": [
+        "Gasto mucho dinero en libros."
+      ],
+      "en_lemma": "spend",
+      "needs_review": true
+    },
+    "desperdiciar": {
+      "group": "1er grupo (-ar)",
+      "level": "B1",
+      "definition": "Usar algo sin provecho.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "desperdicio",
+          "desperdicias",
+          "desperdicia",
+          "desperdiciamos",
+          "desperdiciáis",
+          "desperdician"
+        ],
+        "pasado": [
+          "desperdicié",
+          "desperdiciaste",
+          "desperdició",
+          "desperdiciamos",
+          "desperdiciasteis",
+          "desperdiciaron"
+        ]
+      },
+      "examples": [
+        "No desperdicio comida."
+      ],
+      "en_lemma": "waste",
+      "needs_review": true
+    },
+    "ayudar": {
+      "group": "1er grupo (-ar)",
+      "level": "A1",
+      "definition": "Hacer algo para facilitar el trabajo a otra persona.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "ayudo",
+          "ayudas",
+          "ayuda",
+          "ayudamos",
+          "ayudáis",
+          "ayudan"
+        ],
+        "pasado": [
+          "ayudé",
+          "ayudaste",
+          "ayudó",
+          "ayudamos",
+          "ayudasteis",
+          "ayudaron"
+        ]
+      },
+      "examples": [
+        "Ayudo a mi madre en casa."
+      ],
+      "en_lemma": "help",
+      "needs_review": true
+    },
+    "aceptar": {
+      "group": "1er grupo (-ar)",
+      "level": "A2",
+      "definition": "Recibir algo o estar de acuerdo con ello.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "acepto",
+          "aceptas",
+          "acepta",
+          "aceptamos",
+          "aceptáis",
+          "aceptan"
+        ],
+        "pasado": [
+          "acepté",
+          "aceptaste",
+          "aceptó",
+          "aceptamos",
+          "aceptasteis",
+          "aceptaron"
+        ]
+      },
+      "examples": [
+        "Acepto tu invitación."
+      ],
+      "en_lemma": "agree",
+      "needs_review": true
     }
   }
 }

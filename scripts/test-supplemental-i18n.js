@@ -2,6 +2,7 @@
  * The "Source-backed additions" panel (shared/js/supplemental_lexicon.js) must be fully
  * translated for all 14 languages, and every tool language page must show its own title.
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path'), vm = require('vm');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const root = path.join(__dirname, '..');

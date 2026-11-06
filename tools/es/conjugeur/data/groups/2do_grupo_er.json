@@ -900,6 +900,35 @@
       "examples": [
         "Debes estudiar más para el examen."
       ]
+    },
+    "resolver": {
+      "group": "2do grupo (-er)",
+      "level": "A2",
+      "definition": "Encontrar la solución a un problema.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "resuelvo",
+          "resuelves",
+          "resuelve",
+          "resolvemos",
+          "resolvéis",
+          "resuelven"
+        ],
+        "pasado": [
+          "resolví",
+          "resolviste",
+          "resolvió",
+          "resolvimos",
+          "resolvisteis",
+          "resolvieron"
+        ]
+      },
+      "examples": [
+        "Resuelvo el problema."
+      ],
+      "en_lemma": "solve",
+      "needs_review": true
     }
   }
 }

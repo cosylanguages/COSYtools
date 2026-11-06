@@ -4063,6 +4063,151 @@
       "examples": [
         "Gosto de escutar podcasts no caminho para o trabalho."
       ]
+    },
+    "pagar": {
+      "group": "1ª conjugação (-ar)",
+      "level": "A1",
+      "definition": "Dar dinheiro em troca de algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "pago",
+          "pagas",
+          "paga",
+          "pagamos",
+          "pagais",
+          "pagam"
+        ],
+        "passado": [
+          "paguei",
+          "pagaste",
+          "pagou",
+          "pagamos",
+          "pagastes",
+          "pagaram"
+        ]
+      },
+      "examples": [
+        "Pago com cartão."
+      ],
+      "en_lemma": "pay",
+      "needs_review": true
+    },
+    "gastar": {
+      "group": "1ª conjugação (-ar)",
+      "level": "A2",
+      "definition": "Usar dinheiro para comprar algo.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "gasto",
+          "gastas",
+          "gasta",
+          "gastamos",
+          "gastais",
+          "gastam"
+        ],
+        "passado": [
+          "gastei",
+          "gastaste",
+          "gastou",
+          "gastamos",
+          "gastastes",
+          "gastaram"
+        ]
+      },
+      "examples": [
+        "Gasto muito dinheiro em livros."
+      ],
+      "en_lemma": "spend",
+      "needs_review": true
+    },
+    "desperdiçar": {
+      "group": "1ª conjugação (-ar)",
+      "level": "B1",
+      "definition": "Usar algo sem proveito.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "desperdiço",
+          "desperdiças",
+          "desperdiça",
+          "desperdiçamos",
+          "desperdiçais",
+          "desperdiçam"
+        ],
+        "passado": [
+          "desperdicei",
+          "desperdiçaste",
+          "desperdiçou",
+          "desperdiçamos",
+          "desperdiçastes",
+          "desperdiçaram"
+        ]
+      },
+      "examples": [
+        "Não desperdiço comida."
+      ],
+      "en_lemma": "waste",
+      "needs_review": true
+    },
+    "ajudar": {
+      "group": "1ª conjugação (-ar)",
+      "level": "A1",
+      "definition": "Fazer algo para facilitar o trabalho de outra pessoa.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "ajudo",
+          "ajudas",
+          "ajuda",
+          "ajudamos",
+          "ajudais",
+          "ajudam"
+        ],
+        "passado": [
+          "ajudei",
+          "ajudaste",
+          "ajudou",
+          "ajudamos",
+          "ajudastes",
+          "ajudaram"
+        ]
+      },
+      "examples": [
+        "Ajudo a minha mãe em casa."
+      ],
+      "en_lemma": "help",
+      "needs_review": true
+    },
+    "concordar": {
+      "group": "1ª conjugação (-ar)",
+      "level": "A2",
+      "definition": "Ter a mesma opinião que outra pessoa.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "concordo",
+          "concordas",
+          "concorda",
+          "concordamos",
+          "concordais",
+          "concordam"
+        ],
+        "passado": [
+          "concordei",
+          "concordaste",
+          "concordou",
+          "concordamos",
+          "concordastes",
+          "concordaram"
+        ]
+      },
+      "examples": [
+        "Concordo contigo."
+      ],
+      "en_lemma": "agree",
+      "needs_review": true
     }
   }
 }

@@ -266,6 +266,35 @@
       "examples": [
         "Consegues ouvir aquele barulho lá fora?"
       ]
+    },
+    "partir": {
+      "group": "3ª conjugação (-ir)",
+      "level": "A2",
+      "definition": "Sair de um lugar para ir a outro.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "parto",
+          "partes",
+          "parte",
+          "partimos",
+          "partis",
+          "partem"
+        ],
+        "passado": [
+          "parti",
+          "partiste",
+          "partiu",
+          "partimos",
+          "partistes",
+          "partiram"
+        ]
+      },
+      "examples": [
+        "Parto amanhã de manhã."
+      ],
+      "en_lemma": "leave",
+      "needs_review": true
     }
   }
 }

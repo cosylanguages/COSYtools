@@ -94,7 +94,8 @@
                 const item = dbKey ? db[dbKey] : null;
 
                 const morphUnit = window.COSYSupplementalLexicon ? await window.COSYSupplementalLexicon.getUnitByLemma(lang, v) : null;
-                const tableHtml = (morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null;
+                const tableHtml = ((morphUnit && window.COSYConjugationTable) ? window.COSYConjugationTable.buildTable(morphUnit, lang) : null)
+                    || ((item && window.COSYConjugationTable && window.COSYConjugationTable.buildFromEntry) ? window.COSYConjugationTable.buildFromEntry(item, lang) : null);
 
                 if (item) {
                     const headingText = item.infinitive ? `${dbKey} (${item.infinitive})` : dbKey;

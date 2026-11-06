@@ -171,6 +171,63 @@
       "examples": [
         "Bitte hör mir aufmerksam zu!"
       ]
+    },
+    "ausgeben": {
+      "group": "Trennbares Verb",
+      "level": "A2",
+      "definition": "Geld für etwas verwenden.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich gebe aus",
+          "du gibst aus",
+          "er/sie/es gibt aus",
+          "wir geben aus",
+          "ihr gebt aus",
+          "sie geben aus"
+        ],
+        "präteritum": [
+          "ich gab aus",
+          "du gabst aus",
+          "er/sie/es gab aus",
+          "wir gaben aus",
+          "ihr gabt aus",
+          "sie gaben aus"
+        ],
+        "perfekt": [
+          "ich habe ausgegeben",
+          "du hast ausgegeben",
+          "er/sie/es hat ausgegeben",
+          "wir haben ausgegeben",
+          "ihr habt ausgegeben",
+          "sie haben ausgegeben"
+        ],
+        "futur_1": [
+          "ich werde ausgeben",
+          "du wirst ausgeben",
+          "er/sie/es wird ausgeben",
+          "wir werden ausgeben",
+          "ihr werdet ausgeben",
+          "sie werden ausgeben"
+        ],
+        "konjunktiv_2": [
+          "ich würde ausgeben",
+          "du würdest ausgeben",
+          "er/sie/es würde ausgeben",
+          "wir würden ausgeben",
+          "ihr würdet ausgeben",
+          "sie würden ausgeben"
+        ],
+        "imperativ": [
+          "gib aus!",
+          "gebt aus!"
+        ]
+      },
+      "examples": [
+        "Sie gibt viel Geld für Bücher aus."
+      ],
+      "en_lemma": "spend",
+      "needs_review": true
     }
   }
 }

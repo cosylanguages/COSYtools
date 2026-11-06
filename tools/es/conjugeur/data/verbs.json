@@ -7798,24 +7798,33 @@
     ]
   },
   "pagar": {
-    "en_lemma": "pay",
-    "infinitive": "pagar",
-    "group": "Standard",
+    "group": "1er grupo (-ar)",
     "level": "A1",
-    "definition": "Verb form for pay",
+    "definition": "Dar dinero a cambio de algo.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar"
+      "presente": [
+        "pago",
+        "pagas",
+        "paga",
+        "pagamos",
+        "pagáis",
+        "pagan"
+      ],
+      "pasado": [
+        "pagué",
+        "pagaste",
+        "pagó",
+        "pagamos",
+        "pagasteis",
+        "pagaron"
       ]
     },
     "examples": [
-      "Example sentence for pagar."
-    ]
+      "Pago con tarjeta."
+    ],
+    "en_lemma": "pay",
+    "needs_review": true
   },
   "escribir a máquina": {
     "en_lemma": "type",
@@ -7838,44 +7847,62 @@
     ]
   },
   "gastar": {
-    "en_lemma": "spend",
-    "infinitive": "gastar",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for spend",
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Usar dinero para comprar algo.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar"
+      "presente": [
+        "gasto",
+        "gastas",
+        "gasta",
+        "gastamos",
+        "gastáis",
+        "gastan"
+      ],
+      "pasado": [
+        "gasté",
+        "gastaste",
+        "gastó",
+        "gastamos",
+        "gastasteis",
+        "gastaron"
       ]
     },
     "examples": [
-      "Example sentence for gastar."
-    ]
+      "Gasto mucho dinero en libros."
+    ],
+    "en_lemma": "spend",
+    "needs_review": true
   },
   "desperdiciar": {
-    "en_lemma": "waste",
-    "infinitive": "desperdiciar",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for waste",
+    "group": "1er grupo (-ar)",
+    "level": "B1",
+    "definition": "Usar algo sin provecho.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "desperdiciar",
-        "desperdiciar",
-        "desperdiciar",
-        "desperdiciar",
-        "desperdiciar",
-        "desperdiciar"
+      "presente": [
+        "desperdicio",
+        "desperdicias",
+        "desperdicia",
+        "desperdiciamos",
+        "desperdiciáis",
+        "desperdician"
+      ],
+      "pasado": [
+        "desperdicié",
+        "desperdiciaste",
+        "desperdició",
+        "desperdiciamos",
+        "desperdiciasteis",
+        "desperdiciaron"
       ]
     },
     "examples": [
-      "Example sentence for desperdiciar."
-    ]
+      "No desperdicio comida."
+    ],
+    "en_lemma": "waste",
+    "needs_review": true
   },
   "estar de acuerdo": {
     "en_lemma": "agree",
@@ -7990,5 +8017,121 @@
       "Hago mis tareas por la tarde."
     ],
     "en_lemma": "make"
+  },
+  "venir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Moverse hacia el lugar donde está el que habla.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "vengo",
+        "vienes",
+        "viene",
+        "venimos",
+        "venís",
+        "vienen"
+      ],
+      "pasado": [
+        "vine",
+        "viniste",
+        "vino",
+        "vinimos",
+        "vinisteis",
+        "vinieron"
+      ]
+    },
+    "examples": [
+      "Vengo de la escuela."
+    ],
+    "en_lemma": "come",
+    "needs_review": true
+  },
+  "resolver": {
+    "group": "2do grupo (-er)",
+    "level": "A2",
+    "definition": "Encontrar la solución a un problema.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "resuelvo",
+        "resuelves",
+        "resuelve",
+        "resolvemos",
+        "resolvéis",
+        "resuelven"
+      ],
+      "pasado": [
+        "resolví",
+        "resolviste",
+        "resolvió",
+        "resolvimos",
+        "resolvisteis",
+        "resolvieron"
+      ]
+    },
+    "examples": [
+      "Resuelvo el problema."
+    ],
+    "en_lemma": "solve",
+    "needs_review": true
+  },
+  "ayudar": {
+    "group": "1er grupo (-ar)",
+    "level": "A1",
+    "definition": "Hacer algo para facilitar el trabajo a otra persona.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "ayudo",
+        "ayudas",
+        "ayuda",
+        "ayudamos",
+        "ayudáis",
+        "ayudan"
+      ],
+      "pasado": [
+        "ayudé",
+        "ayudaste",
+        "ayudó",
+        "ayudamos",
+        "ayudasteis",
+        "ayudaron"
+      ]
+    },
+    "examples": [
+      "Ayudo a mi madre en casa."
+    ],
+    "en_lemma": "help",
+    "needs_review": true
+  },
+  "aceptar": {
+    "group": "1er grupo (-ar)",
+    "level": "A2",
+    "definition": "Recibir algo o estar de acuerdo con ello.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "acepto",
+        "aceptas",
+        "acepta",
+        "aceptamos",
+        "aceptáis",
+        "aceptan"
+      ],
+      "pasado": [
+        "acepté",
+        "aceptaste",
+        "aceptó",
+        "aceptamos",
+        "aceptasteis",
+        "aceptaron"
+      ]
+    },
+    "examples": [
+      "Acepto tu invitación."
+    ],
+    "en_lemma": "agree",
+    "needs_review": true
   }
 }

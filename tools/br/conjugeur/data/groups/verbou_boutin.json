@@ -516,6 +516,142 @@
           "selaouint"
         ]
       }
+    },
+    "gwelout": {
+      "en_lemma": "see",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Kemer a-benn gant an daoulagad.",
+      "tenses": {
+        "present": [
+          "gwelan",
+          "gwelez",
+          "gwel",
+          "gwelomp",
+          "gwelit",
+          "gwelont"
+        ]
+      },
+      "needs_review": true
+    },
+    "paeañ": {
+      "en_lemma": "pay",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Reiñ arc'hant evit un dra bennak.",
+      "tenses": {
+        "present": [
+          "paeaan",
+          "paeaez",
+          "paea",
+          "paeaomp",
+          "paeait",
+          "paeaont"
+        ]
+      },
+      "needs_review": true
+    },
+    "prenañ": {
+      "en_lemma": "buy",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Kaout un dra bennak en eur baeañ.",
+      "tenses": {
+        "present": [
+          "prenan",
+          "prenez",
+          "pren",
+          "prenomp",
+          "prenit",
+          "prenont"
+        ]
+      },
+      "needs_review": true
+    },
+    "santout": {
+      "en_lemma": "feel",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Kaout ur santimant pe ur c'havadenn.",
+      "tenses": {
+        "present": [
+          "santan",
+          "santez",
+          "sant",
+          "santomp",
+          "santit",
+          "santont"
+        ]
+      },
+      "needs_review": true
+    },
+    "divizout": {
+      "en_lemma": "decide",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Dibab un dra bennak.",
+      "tenses": {
+        "present": [
+          "divizan",
+          "divizez",
+          "diviz",
+          "divizomp",
+          "divizit",
+          "divizont"
+        ]
+      },
+      "needs_review": true
+    },
+    "dispignout": {
+      "en_lemma": "spend",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Implijout arc'hant.",
+      "tenses": {
+        "present": [
+          "dispignan",
+          "dispignez",
+          "dispign",
+          "dispignomp",
+          "dispignit",
+          "dispignont"
+        ]
+      },
+      "needs_review": true
+    },
+    "kas": {
+      "en_lemma": "send",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Lakaat un dra bennak da vont da unan bennak.",
+      "tenses": {
+        "present": [
+          "kasan",
+          "kasez",
+          "kas",
+          "kasomp",
+          "kasit",
+          "kasont"
+        ]
+      },
+      "needs_review": true
+    },
+    "skoazellañ": {
+      "en_lemma": "help",
+      "group": "Verboù boutin",
+      "level": "A2",
+      "definition": "Ober un dra bennak evit sikour unan bennak.",
+      "tenses": {
+        "present": [
+          "skoazellan",
+          "skoazellez",
+          "skoazell",
+          "skoazellomp",
+          "skoazellit",
+          "skoazellont"
+        ]
+      },
+      "needs_review": true
     }
   }
 }
