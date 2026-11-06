@@ -2,6 +2,7 @@
  * Tools replace their result as you type / pick a suggestion. Screen reader users need to be
  * told: shell.js announces the new entry's name through a polite live region.
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const root = path.join(__dirname, '..');

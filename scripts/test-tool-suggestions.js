@@ -3,6 +3,7 @@
  * Items must be real buttons, keyboard navigable (ArrowDown/Up/Escape),
  * expose aria-expanded on the input, and selecting one must run the search.
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const root = path.join(__dirname, '..');

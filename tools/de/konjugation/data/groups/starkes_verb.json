@@ -3645,6 +3645,63 @@
       "examples": [
         "Die Geschwister streiten sich manchmal."
       ]
+    },
+    "verlassen": {
+      "group": "Starkes Verb",
+      "level": "A2",
+      "definition": "Einen Ort oder eine Person hinter sich lassen.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich verlasse",
+          "du verlässt",
+          "er/sie/es verlässt",
+          "wir verlassen",
+          "ihr verlasst",
+          "sie verlassen"
+        ],
+        "präteritum": [
+          "ich verließ",
+          "du verließt",
+          "er/sie/es verließ",
+          "wir verließen",
+          "ihr verließt",
+          "sie verließen"
+        ],
+        "perfekt": [
+          "ich habe verlassen",
+          "du hast verlassen",
+          "er/sie/es hat verlassen",
+          "wir haben verlassen",
+          "ihr habt verlassen",
+          "sie haben verlassen"
+        ],
+        "futur_1": [
+          "ich werde verlassen",
+          "du wirst verlassen",
+          "er/sie/es wird verlassen",
+          "wir werden verlassen",
+          "ihr werdet verlassen",
+          "sie werden verlassen"
+        ],
+        "konjunktiv_2": [
+          "ich würde verlassen",
+          "du würdest verlassen",
+          "er/sie/es würde verlassen",
+          "wir würden verlassen",
+          "ihr würdet verlassen",
+          "sie würden verlassen"
+        ],
+        "imperativ": [
+          "verlass!",
+          "verlasst!"
+        ]
+      },
+      "examples": [
+        "Er verlässt das Haus um acht Uhr."
+      ],
+      "en_lemma": "leave",
+      "needs_review": true
     }
   }
 }

@@ -222,8 +222,44 @@
         return html;
     }
 
+
+    /**
+     * Fallback for verbs that have an entry in verbs.json but no imported (UniMorph) lexicon unit:
+     * a plain table of the entry's own tenses, in the same markup as buildTable.
+     * Returns null when the entry has no usable forms.
+     */
+    function buildFromEntry(entry, lang) {
+        if (!entry || !entry.tenses || typeof entry.tenses !== 'object') return null;
+        const esc = v => String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const keys = ['1_SG', '2_SG', '3_SG', '1_PL', '2_PL', '3_PL'];
+        const sections = Object.entries(entry.tenses).filter(([, forms]) =>
+            Array.isArray(forms) && forms.some(f => typeof f === 'string' && f.trim()));
+        if (!sections.length) return null;
+
+        let html = '<div class="conjugation-tables-container" style="margin-top: 1.5rem;">';
+        sections.forEach(([key, forms]) => {
+            const title = (key.charAt(0).toUpperCase() + key.slice(1)).replace(/_/g, ' ');
+            html += '<div class="conjugation-section" style="margin-bottom: 1.5rem;">';
+            html += `<h3 class="section-title" style="margin-bottom: 0.5rem; border-bottom: 1px solid var(--border-color, #e2e8f0); padding-bottom: 0.25rem;">${esc(title)}</h3>`;
+            if (forms.length === 6) {
+                html += '<table class="conjugation-table" style="width:100%; border-collapse: collapse;"><tbody>';
+                forms.forEach((form, i) => {
+                    const label = getLabel(lang, keys[i], keys[i].replace('_', ' '));
+                    html += `<tr style="border-bottom: 1px solid var(--border-color, #f1f5f9);"><td class="person-label" style="padding: 0.5rem; font-weight: 500;">${esc(label)}</td><td style="padding: 0.5rem;"><span class="cell-form"><strong>${esc(form)}</strong></span></td></tr>`;
+                });
+                html += '</tbody></table>';
+            } else {
+                html += `<p class="non-person-forms" style="margin:0.25rem 0 0.75rem;">${forms.filter(f => typeof f === 'string' && f.trim()).map(f => `<strong>${esc(f)}</strong>`).join(', ')}</p>`;
+            }
+            html += '</div>';
+        });
+        html += '</div>';
+        return html;
+    }
+
     window.COSYConjugationTable = {
         buildTable,
+        buildFromEntry,
         getLabel,
         LABELS
     };

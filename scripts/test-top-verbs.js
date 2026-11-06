@@ -3,6 +3,7 @@
  * Covers: accessible option cards, all 14 languages, drill + table sessions,
  * focus handling, live regions, deep links and the data-load error path.
  */
+require('./lib/ignore-closed-window-errors');
 const http=require('http'),fs=require('fs'),path=require('path');
 const {JSDOM,VirtualConsole}=require('jsdom');
 const root=path.join(__dirname,'..');
@@ -118,6 +119,9 @@ async function switchLang(w, d, l) {
      partSummary[l+part]=r.lemmas.length;
    }
  }
+ // present tenses of parts 2 and 3: six forms, not (almost) all identical - the sign of a stand-in entry
+ const dup23=[]; for(const l of ALL.filter(x=>x!=='en')){const cfg=Tx.getConfig(l); const db=JSON.parse(fsx.readFileSync(pathx.join(root,cfg.toolPath,'data/verbs.json'),'utf8')); for(const part of [2,3]) Tx.resolvePart(l,db,part).lemmas.forEach(x=>{const e=Tx.findEntry(l,db,x); const t=(e&&e.tenses)||{}; const pr=Object.entries(t).filter(([k])=>/pres|präsens|indicatif_present/.test(k)).map(([,v])=>v)[0]||[]; if(pr.length>1&&(pr.length!==6||new Set(pr).size<4)) dup23.push(l+':'+x);});}   // one form = impersonal verb (il faut)
+ ok(dup23.length===0,'parts 2 and 3: every verb has six distinct-looking present forms '+dup23.slice(0,5).join(','));
  ok(partErrors.length===0,'parts 1-3 resolve to 10 groups of real verbs in all 14 languages '+partErrors.slice(0,3).join('; '));
  ok(emptyDrills.length===0,'every verb of parts 2 and 3 produces drills '+emptyDrills.slice(0,4).join(','));
  const dbfr=JSON.parse(fsx.readFileSync(pathx.join(root,Tx.getConfig('fr').toolPath,'data/verbs.json'),'utf8'));
@@ -142,11 +146,14 @@ async function switchLang(w, d, l) {
  w.showSetupCard();
  d.getElementById('part-btn-3').click(); await sleep(150);
  ok(d.querySelectorAll('.verb-cb').length===Tx.resolvePart('fr',dbfr,3).lemmas.length && /part-3-fr\.html$/.test(d.getElementById('magazine-article-link').href),'fr: part 3 verbs and magazine link');
- // a part with no data for a language says so instead of failing
- await switchLang(w,d,'ka'); d.getElementById('part-btn-3').click(); await sleep(150);
- ok(d.querySelectorAll('.verb-cb').length===0 && !d.getElementById('groups-note').hidden && /1, 2, 3, 4, 5, 6, 7, 8, 9, 10/.test(d.getElementById('groups-note').textContent),'ka part 3: no verbs yet, the note names the empty groups');
+ // groups without data are named, and starting with nothing selected shows a message instead of failing
+ await switchLang(w,d,'br'); d.getElementById('part-btn-3').click(); await sleep(150);
+ const dbbr=JSON.parse(fsx.readFileSync(pathx.join(root,Tx.getConfig('br').toolPath,'data/verbs.json'),'utf8'));
+ const emptyBr=Tx.resolvePart('br',dbbr,3).groups.map((g,i)=>g.length?null:i+1).filter(Boolean);
+ ok(emptyBr.length>0 && !d.getElementById('groups-note').hidden && emptyBr.every(n=>d.getElementById('groups-note').textContent.includes(String(n))),'br part 3: the note names the groups without data ('+emptyBr.join(',')+')');
+ d.getElementById('btn-deselect-all').click();
  d.getElementById('btn-launch').click(); await sleep(100);
- ok(!d.getElementById('setup-message').hidden,'ka part 3: starting without verbs shows the message');
+ ok(!d.getElementById('setup-message').hidden,'starting with no verb selected shows the message');
  d.getElementById('part-btn-1').click(); await sleep(100);
  await switchLang(w,d,'en');
  // every language must have complete UI + practice strings (no English fallback)

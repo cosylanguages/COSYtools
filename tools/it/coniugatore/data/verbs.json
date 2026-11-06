@@ -21237,5 +21237,65 @@
       ]
     },
     "irregular": false
+  },
+  "risolvere": {
+    "group": "2a coniugazione",
+    "level": "B1",
+    "definition": "Trovare la soluzione di un problema.",
+    "antonyms": [],
+    "tenses": {
+      "pres": [
+        "risolvo",
+        "risolvi",
+        "risolve",
+        "risolviamo",
+        "risolvete",
+        "risolvono"
+      ]
+    },
+    "usage_hint": "risolvere un problema",
+    "auxiliary": "avere",
+    "irregular": true,
+    "needs_review": true
+  },
+  "spendere": {
+    "group": "2a coniugazione",
+    "level": "A2",
+    "definition": "Usare denaro per comprare o pagare.",
+    "antonyms": [],
+    "tenses": {
+      "pres": [
+        "spendo",
+        "spendi",
+        "spende",
+        "spendiamo",
+        "spendete",
+        "spendono"
+      ]
+    },
+    "usage_hint": "spendere soldi / tempo",
+    "auxiliary": "avere",
+    "irregular": true,
+    "needs_review": true
+  },
+  "sprecare": {
+    "group": "1a coniugazione",
+    "level": "B1",
+    "definition": "Usare qualcosa inutilmente o in modo eccessivo.",
+    "antonyms": [],
+    "tenses": {
+      "pres": [
+        "spreco",
+        "sprechi",
+        "spreca",
+        "sprechiamo",
+        "sprecate",
+        "sprecano"
+      ]
+    },
+    "usage_hint": "sprecare tempo / cibo",
+    "auxiliary": "avere",
+    "irregular": false,
+    "needs_review": true
   }
 }

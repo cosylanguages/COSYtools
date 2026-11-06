@@ -5092,6 +5092,46 @@
           "qu'ils/elles aient attendu"
         ]
       }
+    },
+    "sentir": {
+      "group": "3e groupe",
+      "level": "A2",
+      "definition": "Percevoir par les sens ou éprouver une émotion.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je sens",
+          "tu sens",
+          "il/elle sent",
+          "nous sentons",
+          "vous sentez",
+          "ils/elles sentent"
+        ]
+      },
+      "usage_hint": "sentir (qqch) / se sentir + adjectif",
+      "irregular": true,
+      "needs_review": true
+    },
+    "résoudre": {
+      "group": "3e groupe",
+      "level": "B1",
+      "definition": "Trouver la solution d'un problème.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je résous",
+          "tu résous",
+          "il/elle résout",
+          "nous résolvons",
+          "vous résolvez",
+          "ils/elles résolvent"
+        ]
+      },
+      "usage_hint": "résoudre un problème",
+      "irregular": true,
+      "needs_review": true
     }
   }
 }

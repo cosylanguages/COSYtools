@@ -117,7 +117,8 @@
         "oc'h",
         "int"
       ]
-    }
+    },
+    "en_lemma": "be"
   },
   "debriñ": {
     "group": "Verboù boutin",
@@ -247,7 +248,8 @@
         "karot",
         "karint"
       ]
-    }
+    },
+    "en_lemma": "like"
   },
   "kasaat": {
     "group": "Verboù boutin",
@@ -312,7 +314,8 @@
         "fellot",
         "fellint"
       ]
-    }
+    },
+    "en_lemma": "want"
   },
   "mont": {
     "group": "Verboù amreizh",
@@ -476,7 +479,8 @@
         "larot",
         "larint"
       ]
-    }
+    },
+    "en_lemma": "say"
   },
   "sellout": {
     "group": "Verboù boutin",
@@ -508,7 +512,8 @@
         "sellot",
         "sellint"
       ]
-    }
+    },
+    "en_lemma": "look"
   },
   "goulenn": {
     "group": "Verboù boutin",
@@ -1083,23 +1088,20 @@
   },
   "gwelout": {
     "en_lemma": "see",
-    "infinitive": "gwelout",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for see",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Kemer a-benn gant an daoulagad.",
     "tenses": {
       "present": [
-        "gwelout",
-        "gwelout",
-        "gwelout",
-        "gwelout",
-        "gwelout",
-        "gwelout"
+        "gwelan",
+        "gwelez",
+        "gwel",
+        "gwelomp",
+        "gwelit",
+        "gwelont"
       ]
     },
-    "examples": [
-      "Example sentence for gwelout."
-    ]
+    "needs_review": true
   },
   "rankout": {
     "en_lemma": "must",
@@ -1143,23 +1145,20 @@
   },
   "paeañ": {
     "en_lemma": "pay",
-    "infinitive": "paeañ",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for pay",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Reiñ arc'hant evit un dra bennak.",
     "tenses": {
       "present": [
-        "paeañ",
-        "paeañ",
-        "paeañ",
-        "paeañ",
-        "paeañ",
-        "paeañ"
+        "paeaan",
+        "paeaez",
+        "paea",
+        "paeaomp",
+        "paeait",
+        "paeaont"
       ]
     },
-    "examples": [
-      "Example sentence for paeañ."
-    ]
+    "needs_review": true
   },
   "brenañ": {
     "en_lemma": "buy",
@@ -1223,23 +1222,20 @@
   },
   "santout": {
     "en_lemma": "feel",
-    "infinitive": "santout",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for feel",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Kaout ur santimant pe ur c'havadenn.",
     "tenses": {
       "present": [
-        "santout",
-        "santout",
-        "santout",
-        "santout",
-        "santout",
-        "santout"
+        "santan",
+        "santez",
+        "sant",
+        "santomp",
+        "santit",
+        "santont"
       ]
     },
-    "examples": [
-      "Example sentence for santout."
-    ]
+    "needs_review": true
   },
   "kejañ": {
     "en_lemma": "meet",
@@ -1263,23 +1259,20 @@
   },
   "divizout": {
     "en_lemma": "decide",
-    "infinitive": "divizout",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for decide",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Dibab un dra bennak.",
     "tenses": {
       "present": [
-        "divizout",
-        "divizout",
-        "divizout",
-        "divizout",
-        "divizout",
-        "divizout"
+        "divizan",
+        "divizez",
+        "diviz",
+        "divizomp",
+        "divizit",
+        "divizont"
       ]
     },
-    "examples": [
-      "Example sentence for divizout."
-    ]
+    "needs_review": true
   },
   "skrivañ gant ar c klavier": {
     "en_lemma": "type",
@@ -1403,23 +1396,20 @@
   },
   "kas": {
     "en_lemma": "send",
-    "infinitive": "kas",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for send",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Lakaat un dra bennak da vont da unan bennak.",
     "tenses": {
       "present": [
+        "kasan",
+        "kasez",
         "kas",
-        "kas",
-        "kas",
-        "kas",
-        "kas",
-        "kas"
+        "kasomp",
+        "kasit",
+        "kasont"
       ]
     },
-    "examples": [
-      "Example sentence for kas."
-    ]
+    "needs_review": true
   },
   "kaout (get)": {
     "group": "Verboù amreizh",
@@ -1453,5 +1443,56 @@
       ]
     },
     "en_lemma": "get"
+  },
+  "prenañ": {
+    "en_lemma": "buy",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Kaout un dra bennak en eur baeañ.",
+    "tenses": {
+      "present": [
+        "prenan",
+        "prenez",
+        "pren",
+        "prenomp",
+        "prenit",
+        "prenont"
+      ]
+    },
+    "needs_review": true
+  },
+  "dispignout": {
+    "en_lemma": "spend",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Implijout arc'hant.",
+    "tenses": {
+      "present": [
+        "dispignan",
+        "dispignez",
+        "dispign",
+        "dispignomp",
+        "dispignit",
+        "dispignont"
+      ]
+    },
+    "needs_review": true
+  },
+  "skoazellañ": {
+    "en_lemma": "help",
+    "group": "Verboù boutin",
+    "level": "A2",
+    "definition": "Ober un dra bennak evit sikour unan bennak.",
+    "tenses": {
+      "present": [
+        "skoazellan",
+        "skoazellez",
+        "skoazell",
+        "skoazellomp",
+        "skoazellit",
+        "skoazellont"
+      ]
+    },
+    "needs_review": true
   }
 }

@@ -1,7 +1,8 @@
 /**
  * The "Source-backed additions" panel (shared/js/supplemental_lexicon.js) must be fully
- * translated for all 14 languages, and every tool language page must show its own title.
+ * translated for all 14 languages, and every page that loads the panel must show its own title.
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path'), vm = require('vm');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const root = path.join(__dirname, '..');
@@ -31,9 +32,9 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
   for (const l of LANGS) {
     const tools = fs.readdirSync(path.join(root, 'tools', l)).filter(t => {
       const f = path.join(root, 'tools', l, t, 'index.html');
-      return fs.existsSync(f) && fs.readFileSync(f, 'utf8').includes('id="search-suggestions"');
+      return fs.existsSync(f) && fs.readFileSync(f, 'utf8').includes('supplemental_lexicon');   // pages that load the panel script themselves
     });
-    if (!tools.length) { console.log('skip', l, '(no tool with a search box)'); continue; }
+    if (!tools.length) { console.log('skip', l, '(no page loads the panel)'); continue; }
     const dom = await JSDOM.fromURL(`http://localhost:${srv.address().port}/tools/${l}/${tools[0]}/index.html`, {
       runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: new VirtualConsole(),
       beforeParse(w) { w.fetch = u => fetch(new URL(u, w.location.href).href); w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, addEventListener() {} })); }

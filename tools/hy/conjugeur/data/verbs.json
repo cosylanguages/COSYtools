@@ -829,7 +829,8 @@
         "կիմանաք",
         "կիմանան"
       ]
-    }
+    },
+    "en_lemma": "know"
   },
   "իմացվել": {
     "en_lemma": "know",
@@ -1069,144 +1070,123 @@
     ]
   },
   "վճարել": {
-    "en_lemma": "pay",
-    "infinitive": "վճարել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for pay",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Գումար տալ ինչ-որ բանի դիմաց։",
     "tenses": {
       "present": [
-        "վճարել",
-        "վճարել",
-        "վճարել",
-        "վճարել",
-        "վճարել",
-        "վճարել"
+        "վճարում եմ",
+        "վճարում ես",
+        "վճարում է",
+        "վճարում ենք",
+        "վճարում եք",
+        "վճարում են"
       ]
     },
-    "examples": [
-      "Example sentence for վճարել."
-    ]
+    "en_lemma": "pay",
+    "needs_review": true
   },
   "գնել": {
-    "en_lemma": "buy",
-    "infinitive": "գնել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for buy",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Գումարով ձեռք բերել ինչ-որ բան։",
     "tenses": {
       "present": [
-        "գնել",
-        "գնել",
-        "գնել",
-        "գնել",
-        "գնել",
-        "գնել"
+        "գնում եմ",
+        "գնում ես",
+        "գնում է",
+        "գնում ենք",
+        "գնում եք",
+        "գնում են"
       ]
     },
-    "examples": [
-      "Example sentence for գնել."
-    ]
+    "en_lemma": "buy",
+    "needs_review": true
   },
   "հիշել": {
-    "en_lemma": "remember",
-    "infinitive": "հիշել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for remember",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Պահել հիշողության մեջ։",
     "tenses": {
       "present": [
-        "հիշել",
-        "հիշել",
-        "հիշել",
-        "հիշել",
-        "հիշել",
-        "հիշել"
+        "հիշում եմ",
+        "հիշում ես",
+        "հիշում է",
+        "հիշում ենք",
+        "հիշում եք",
+        "հիշում են"
       ]
     },
-    "examples": [
-      "Example sentence for հիշել."
-    ]
+    "en_lemma": "remember",
+    "needs_review": true
   },
   "մոռանալ": {
-    "en_lemma": "forget",
-    "infinitive": "մոռանալ",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for forget",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Չհիշել, հիշողությունից կորցնել։",
     "tenses": {
       "present": [
-        "մոռանալ",
-        "մոռանալ",
-        "մոռանալ",
-        "մոռանալ",
-        "մոռանալ",
-        "մոռանալ"
+        "մոռանում եմ",
+        "մոռանում ես",
+        "մոռանում է",
+        "մոռանում ենք",
+        "մոռանում եք",
+        "մոռանում են"
       ]
     },
-    "examples": [
-      "Example sentence for մոռանալ."
-    ]
+    "en_lemma": "forget",
+    "needs_review": true
   },
   "զգալ": {
-    "en_lemma": "feel",
-    "infinitive": "զգալ",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for feel",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Ապրել զգացում կամ զգացողություն։",
     "tenses": {
       "present": [
-        "զգալ",
-        "զգալ",
-        "զգալ",
-        "զգալ",
-        "զգալ",
-        "զգալ"
+        "զգում եմ",
+        "զգում ես",
+        "զգում է",
+        "զգում ենք",
+        "զգում եք",
+        "զգում են"
       ]
     },
-    "examples": [
-      "Example sentence for զգալ."
-    ]
+    "en_lemma": "feel",
+    "needs_review": true
   },
   "հանդիպել": {
-    "en_lemma": "meet",
-    "infinitive": "հանդիպել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for meet",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Տեսնել մեկին, հանդիպում ունենալ։",
     "tenses": {
       "present": [
-        "հանդիպել",
-        "հանդիպել",
-        "հանդիպել",
-        "հանդիպել",
-        "հանդիպել",
-        "հանդիպել"
+        "հանդիպում եմ",
+        "հանդիպում ես",
+        "հանդիպում է",
+        "հանդիպում ենք",
+        "հանդիպում եք",
+        "հանդիպում են"
       ]
     },
-    "examples": [
-      "Example sentence for հանդիպել."
-    ]
+    "en_lemma": "meet",
+    "needs_review": true
   },
   "որոշել": {
-    "en_lemma": "decide",
-    "infinitive": "որոշել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for decide",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Ընտրություն կատարել։",
     "tenses": {
       "present": [
-        "որոշել",
-        "որոշել",
-        "որոշել",
-        "որոշել",
-        "որոշել",
-        "որոշել"
+        "որոշում եմ",
+        "որոշում ես",
+        "որոշում է",
+        "որոշում ենք",
+        "որոշում եք",
+        "որոշում են"
       ]
     },
-    "examples": [
-      "Example sentence for որոշել."
-    ]
+    "en_lemma": "decide",
+    "needs_review": true
   },
   "տպել": {
     "en_lemma": "type",
@@ -1229,44 +1209,38 @@
     ]
   },
   "ծախսել": {
-    "en_lemma": "spend",
-    "infinitive": "ծախսել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for spend",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Գումար օգտագործել։",
     "tenses": {
       "present": [
-        "ծախսել",
-        "ծախսել",
-        "ծախսել",
-        "ծախսել",
-        "ծախսել",
-        "ծախսել"
+        "ծախսում եմ",
+        "ծախսում ես",
+        "ծախսում է",
+        "ծախսում ենք",
+        "ծախսում եք",
+        "ծախսում են"
       ]
     },
-    "examples": [
-      "Example sentence for ծախսել."
-    ]
+    "en_lemma": "spend",
+    "needs_review": true
   },
   "վատնել": {
-    "en_lemma": "waste",
-    "infinitive": "վատնել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for waste",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Անտեղի կամ ավելորդ օգտագործել։",
     "tenses": {
       "present": [
-        "վատնել",
-        "վատնել",
-        "վատնել",
-        "վատնել",
-        "վատնել",
-        "վատնել"
+        "վատնում եմ",
+        "վատնում ես",
+        "վատնում է",
+        "վատնում ենք",
+        "վատնում եք",
+        "վատնում են"
       ]
     },
-    "examples": [
-      "Example sentence for վատնել."
-    ]
+    "en_lemma": "waste",
+    "needs_review": true
   },
   "խաղալ": {
     "en_lemma": "play",
@@ -1289,64 +1263,55 @@
     ]
   },
   "համաձայնել": {
-    "en_lemma": "agree",
-    "infinitive": "համաձայնել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for agree",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Նույն կարծիքին լինել։",
     "tenses": {
       "present": [
-        "համաձայնել",
-        "համաձայնել",
-        "համաձայնել",
-        "համաձայնել",
-        "համաձայնել",
-        "համաձայնել"
+        "համաձայնում եմ",
+        "համաձայնում ես",
+        "համաձայնում է",
+        "համաձայնում ենք",
+        "համաձայնում եք",
+        "համաձայնում են"
       ]
     },
-    "examples": [
-      "Example sentence for համաձայնել."
-    ]
+    "en_lemma": "agree",
+    "needs_review": true
   },
   "չհամաձայնել": {
-    "en_lemma": "disagree",
-    "infinitive": "չհամաձայնել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for disagree",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Տարբեր կարծիքի լինել։",
     "tenses": {
       "present": [
-        "չհամաձայնել",
-        "չհամաձայնել",
-        "չհամաձայնել",
-        "չհամաձայնել",
-        "չհամաձայնել",
-        "չհամաձայնել"
+        "չեմ համաձայնում",
+        "չես համաձայնում",
+        "չի համաձայնում",
+        "չենք համաձայնում",
+        "չեք համաձայնում",
+        "չեն համաձայնում"
       ]
     },
-    "examples": [
-      "Example sentence for չհամաձայնել."
-    ]
+    "en_lemma": "disagree",
+    "needs_review": true
   },
   "ուղարկել": {
-    "en_lemma": "send",
-    "infinitive": "ուղարկել",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for send",
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Ուղարկել մեկին կամ ինչ-որ բան ինչ-որ տեղ։",
     "tenses": {
       "present": [
-        "ուղարկել",
-        "ուղարկել",
-        "ուղարկել",
-        "ուղարկել",
-        "ուղարկել",
-        "ուղարկել"
+        "ուղարկում եմ",
+        "ուղարկում ես",
+        "ուղարկում է",
+        "ուղարկում ենք",
+        "ուղարկում եք",
+        "ուղարկում են"
       ]
     },
-    "examples": [
-      "Example sentence for ուղարկել."
-    ]
+    "en_lemma": "send",
+    "needs_review": true
   },
   "լսել (hear)": {
     "group": "I խոնարհում (-ել)",
@@ -1380,5 +1345,90 @@
       ]
     },
     "en_lemma": "hear"
+  },
+  "լուծել": {
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Խնդրի պատասխանը գտնել։",
+    "tenses": {
+      "present": [
+        "լուծում եմ",
+        "լուծում ես",
+        "լուծում է",
+        "լուծում ենք",
+        "լուծում եք",
+        "լուծում են"
+      ]
+    },
+    "en_lemma": "solve",
+    "needs_review": true
+  },
+  "օգնել": {
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Օգնություն ցույց տալ։",
+    "tenses": {
+      "present": [
+        "օգնում եմ",
+        "օգնում ես",
+        "օգնում է",
+        "օգնում ենք",
+        "օգնում եք",
+        "օգնում են"
+      ]
+    },
+    "en_lemma": "help",
+    "needs_review": true
+  },
+  "զանգահարել": {
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Հեռախոսով կապվել մեկի հետ։",
+    "tenses": {
+      "present": [
+        "զանգահարում եմ",
+        "զանգահարում ես",
+        "զանգահարում է",
+        "զանգահարում ենք",
+        "զանգահարում եք",
+        "զանգահարում են"
+      ]
+    },
+    "en_lemma": "call",
+    "needs_review": true
+  },
+  "մեկնել": {
+    "group": "I խոնարհում (-ել)",
+    "level": "A2",
+    "definition": "Հեռանալ մի վայրից։",
+    "tenses": {
+      "present": [
+        "մեկնում եմ",
+        "մեկնում ես",
+        "մեկնում է",
+        "մեկնում ենք",
+        "մեկնում եք",
+        "մեկնում են"
+      ]
+    },
+    "en_lemma": "leave",
+    "needs_review": true
+  },
+  "գալ": {
+    "group": "Անկանոն",
+    "level": "A1",
+    "definition": "Շարժվել դեպի խոսողի կողմը։",
+    "tenses": {
+      "present": [
+        "գալիս եմ",
+        "գալիս ես",
+        "գալիս է",
+        "գալիս ենք",
+        "գալիս եք",
+        "գալիս են"
+      ]
+    },
+    "en_lemma": "come",
+    "needs_review": true
   }
 }

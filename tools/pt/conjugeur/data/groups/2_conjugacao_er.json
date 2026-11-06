@@ -1553,6 +1553,35 @@
       "examples": [
         "Nós devemos respeitar as regras de trânsito."
       ]
+    },
+    "resolver": {
+      "group": "2ª conjugação (-er)",
+      "level": "A2",
+      "definition": "Encontrar a solução para um problema.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "resolvo",
+          "resolves",
+          "resolve",
+          "resolvemos",
+          "resolveis",
+          "resolvem"
+        ],
+        "passado": [
+          "resolvi",
+          "resolveste",
+          "resolveu",
+          "resolvemos",
+          "resolvestes",
+          "resolveram"
+        ]
+      },
+      "examples": [
+        "Resolvo o problema."
+      ],
+      "en_lemma": "solve",
+      "needs_review": true
     }
   }
 }

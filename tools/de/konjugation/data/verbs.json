@@ -8909,44 +8909,118 @@
     ]
   },
   "ausgeben": {
-    "en_lemma": "spend",
-    "infinitive": "ausgeben",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for spend",
+    "group": "Trennbares Verb",
+    "level": "A2",
+    "definition": "Geld für etwas verwenden.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "ausgeben",
-        "ausgeben",
-        "ausgeben",
-        "ausgeben",
-        "ausgeben",
-        "ausgeben"
+      "präsens": [
+        "ich gebe aus",
+        "du gibst aus",
+        "er/sie/es gibt aus",
+        "wir geben aus",
+        "ihr gebt aus",
+        "sie geben aus"
+      ],
+      "präteritum": [
+        "ich gab aus",
+        "du gabst aus",
+        "er/sie/es gab aus",
+        "wir gaben aus",
+        "ihr gabt aus",
+        "sie gaben aus"
+      ],
+      "perfekt": [
+        "ich habe ausgegeben",
+        "du hast ausgegeben",
+        "er/sie/es hat ausgegeben",
+        "wir haben ausgegeben",
+        "ihr habt ausgegeben",
+        "sie haben ausgegeben"
+      ],
+      "futur_1": [
+        "ich werde ausgeben",
+        "du wirst ausgeben",
+        "er/sie/es wird ausgeben",
+        "wir werden ausgeben",
+        "ihr werdet ausgeben",
+        "sie werden ausgeben"
+      ],
+      "konjunktiv_2": [
+        "ich würde ausgeben",
+        "du würdest ausgeben",
+        "er/sie/es würde ausgeben",
+        "wir würden ausgeben",
+        "ihr würdet ausgeben",
+        "sie würden ausgeben"
+      ],
+      "imperativ": [
+        "gib aus!",
+        "gebt aus!"
       ]
     },
     "examples": [
-      "Example sentence for ausgeben."
-    ]
+      "Sie gibt viel Geld für Bücher aus."
+    ],
+    "en_lemma": "spend",
+    "needs_review": true
   },
   "verschwenden": {
-    "en_lemma": "waste",
-    "infinitive": "verschwenden",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for waste",
+    "group": "Schwaches Verb",
+    "level": "B1",
+    "definition": "Etwas unnötig oder übermäßig verbrauchen.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "verschwenden",
-        "verschwenden",
-        "verschwenden",
-        "verschwenden",
-        "verschwenden",
-        "verschwenden"
+      "präsens": [
+        "ich verschwende",
+        "du verschwendest",
+        "er/sie/es verschwendet",
+        "wir verschwenden",
+        "ihr verschwendet",
+        "sie verschwenden"
+      ],
+      "präteritum": [
+        "ich verschwendete",
+        "du verschwendetest",
+        "er/sie/es verschwendete",
+        "wir verschwendeten",
+        "ihr verschwendetet",
+        "sie verschwendeten"
+      ],
+      "perfekt": [
+        "ich habe verschwendet",
+        "du hast verschwendet",
+        "er/sie/es hat verschwendet",
+        "wir haben verschwendet",
+        "ihr habt verschwendet",
+        "sie haben verschwendet"
+      ],
+      "futur_1": [
+        "ich werde verschwenden",
+        "du wirst verschwenden",
+        "er/sie/es wird verschwenden",
+        "wir werden verschwenden",
+        "ihr werdet verschwenden",
+        "sie werden verschwenden"
+      ],
+      "konjunktiv_2": [
+        "ich würde verschwenden",
+        "du würdest verschwenden",
+        "er/sie/es würde verschwenden",
+        "wir würden verschwenden",
+        "ihr würdet verschwenden",
+        "sie würden verschwenden"
+      ],
+      "imperativ": [
+        "verschwende!",
+        "verschwendet!"
       ]
     },
     "examples": [
-      "Example sentence for verschwenden."
-    ]
+      "Verschwende keine Zeit!"
+    ],
+    "en_lemma": "waste",
+    "needs_review": true
   },
   "widersprechen": {
     "en_lemma": "disagree",
@@ -9022,5 +9096,172 @@
       "Ich muss jetzt zum Bahnhof gehen."
     ],
     "en_lemma": "have to"
+  },
+  "sollen": {
+    "group": "Modalverb",
+    "level": "A1",
+    "definition": "Eine Pflicht oder einen Rat ausdrücken.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": [
+        "ich soll",
+        "du sollst",
+        "er/sie/es soll",
+        "wir sollen",
+        "ihr sollt",
+        "sie sollen"
+      ],
+      "präteritum": [
+        "ich sollte",
+        "du solltest",
+        "er/sie/es sollte",
+        "wir sollten",
+        "ihr solltet",
+        "sie sollten"
+      ],
+      "perfekt": [
+        "ich habe gesollt",
+        "du hast gesollt",
+        "er/sie/es hat gesollt",
+        "wir haben gesollt",
+        "ihr habt gesollt",
+        "sie haben gesollt"
+      ],
+      "futur_1": [
+        "ich werde sollen",
+        "du wirst sollen",
+        "er/sie/es wird sollen",
+        "wir werden sollen",
+        "ihr werdet sollen",
+        "sie werden sollen"
+      ],
+      "konjunktiv_2": [
+        "ich sollte",
+        "du solltest",
+        "er/sie/es sollte",
+        "wir sollten",
+        "ihr solltet",
+        "sie sollten"
+      ]
+    },
+    "examples": [
+      "Du sollst mehr schlafen."
+    ],
+    "en_lemma": "should",
+    "needs_review": true
+  },
+  "verlassen": {
+    "group": "Starkes Verb",
+    "level": "A2",
+    "definition": "Einen Ort oder eine Person hinter sich lassen.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": [
+        "ich verlasse",
+        "du verlässt",
+        "er/sie/es verlässt",
+        "wir verlassen",
+        "ihr verlasst",
+        "sie verlassen"
+      ],
+      "präteritum": [
+        "ich verließ",
+        "du verließt",
+        "er/sie/es verließ",
+        "wir verließen",
+        "ihr verließt",
+        "sie verließen"
+      ],
+      "perfekt": [
+        "ich habe verlassen",
+        "du hast verlassen",
+        "er/sie/es hat verlassen",
+        "wir haben verlassen",
+        "ihr habt verlassen",
+        "sie haben verlassen"
+      ],
+      "futur_1": [
+        "ich werde verlassen",
+        "du wirst verlassen",
+        "er/sie/es wird verlassen",
+        "wir werden verlassen",
+        "ihr werdet verlassen",
+        "sie werden verlassen"
+      ],
+      "konjunktiv_2": [
+        "ich würde verlassen",
+        "du würdest verlassen",
+        "er/sie/es würde verlassen",
+        "wir würden verlassen",
+        "ihr würdet verlassen",
+        "sie würden verlassen"
+      ],
+      "imperativ": [
+        "verlass!",
+        "verlasst!"
+      ]
+    },
+    "examples": [
+      "Er verlässt das Haus um acht Uhr."
+    ],
+    "en_lemma": "leave",
+    "needs_review": true
+  },
+  "lösen": {
+    "group": "Schwaches Verb",
+    "level": "A2",
+    "definition": "Eine Antwort auf ein Problem finden.",
+    "antonyms": [],
+    "tenses": {
+      "präsens": [
+        "ich löse",
+        "du löst",
+        "er/sie/es löst",
+        "wir lösen",
+        "ihr löst",
+        "sie lösen"
+      ],
+      "präteritum": [
+        "ich löste",
+        "du löstest",
+        "er/sie/es löste",
+        "wir lösten",
+        "ihr löstet",
+        "sie lösten"
+      ],
+      "perfekt": [
+        "ich habe gelöst",
+        "du hast gelöst",
+        "er/sie/es hat gelöst",
+        "wir haben gelöst",
+        "ihr habt gelöst",
+        "sie haben gelöst"
+      ],
+      "futur_1": [
+        "ich werde lösen",
+        "du wirst lösen",
+        "er/sie/es wird lösen",
+        "wir werden lösen",
+        "ihr werdet lösen",
+        "sie werden lösen"
+      ],
+      "konjunktiv_2": [
+        "ich würde lösen",
+        "du würdest lösen",
+        "er/sie/es würde lösen",
+        "wir würden lösen",
+        "ihr würdet lösen",
+        "sie würden lösen"
+      ],
+      "imperativ": [
+        "löse!",
+        "löst!"
+      ]
+    },
+    "examples": [
+      "Wir lösen das Problem zusammen."
+    ],
+    "en_lemma": "solve",
+    "needs_review": true
   }
 }

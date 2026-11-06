@@ -2372,6 +2372,35 @@
       "examples": [
         "Reímos mucho con las comedias teatrales."
       ]
+    },
+    "venir": {
+      "group": "Irregular",
+      "level": "A1",
+      "definition": "Moverse hacia el lugar donde está el que habla.",
+      "antonyms": [],
+      "tenses": {
+        "presente": [
+          "vengo",
+          "vienes",
+          "viene",
+          "venimos",
+          "venís",
+          "vienen"
+        ],
+        "pasado": [
+          "vine",
+          "viniste",
+          "vino",
+          "vinimos",
+          "vinisteis",
+          "vinieron"
+        ]
+      },
+      "examples": [
+        "Vengo de la escuela."
+      ],
+      "en_lemma": "come",
+      "needs_review": true
     }
   }
 }

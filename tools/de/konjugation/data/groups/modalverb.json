@@ -219,6 +219,59 @@
       "examples": [
         "Ich muss jetzt zum Bahnhof gehen."
       ]
+    },
+    "sollen": {
+      "group": "Modalverb",
+      "level": "A1",
+      "definition": "Eine Pflicht oder einen Rat ausdrücken.",
+      "antonyms": [],
+      "tenses": {
+        "präsens": [
+          "ich soll",
+          "du sollst",
+          "er/sie/es soll",
+          "wir sollen",
+          "ihr sollt",
+          "sie sollen"
+        ],
+        "präteritum": [
+          "ich sollte",
+          "du solltest",
+          "er/sie/es sollte",
+          "wir sollten",
+          "ihr solltet",
+          "sie sollten"
+        ],
+        "perfekt": [
+          "ich habe gesollt",
+          "du hast gesollt",
+          "er/sie/es hat gesollt",
+          "wir haben gesollt",
+          "ihr habt gesollt",
+          "sie haben gesollt"
+        ],
+        "futur_1": [
+          "ich werde sollen",
+          "du wirst sollen",
+          "er/sie/es wird sollen",
+          "wir werden sollen",
+          "ihr werdet sollen",
+          "sie werden sollen"
+        ],
+        "konjunktiv_2": [
+          "ich sollte",
+          "du solltest",
+          "er/sie/es sollte",
+          "wir sollten",
+          "ihr solltet",
+          "sie sollten"
+        ]
+      },
+      "examples": [
+        "Du sollst mehr schlafen."
+      ],
+      "en_lemma": "should",
+      "needs_review": true
     }
   }
 }

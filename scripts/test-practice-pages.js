@@ -1,6 +1,7 @@
 /**
  * Behavioural tests for practice/quick-drills and practice/weak-spots (run in jsdom).
  */
+require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 const root = path.join(__dirname, '..');

@@ -9832,6 +9832,26 @@
       "usage_hint": "+ oggetto diretto (osservare la natura)",
       "auxiliary": "avere",
       "irregular": false
+    },
+    "sprecare": {
+      "group": "1a coniugazione",
+      "level": "B1",
+      "definition": "Usare qualcosa inutilmente o in modo eccessivo.",
+      "antonyms": [],
+      "tenses": {
+        "pres": [
+          "spreco",
+          "sprechi",
+          "spreca",
+          "sprechiamo",
+          "sprecate",
+          "sprecano"
+        ]
+      },
+      "usage_hint": "sprecare tempo / cibo",
+      "auxiliary": "avere",
+      "irregular": false,
+      "needs_review": true
     }
   }
 }

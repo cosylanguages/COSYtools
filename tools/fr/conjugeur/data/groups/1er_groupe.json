@@ -17468,6 +17468,46 @@
           "qu'ils/elles aient observé"
         ]
       }
+    },
+    "dépenser": {
+      "group": "1er groupe",
+      "level": "A2",
+      "definition": "Utiliser de l'argent pour acheter ou payer.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je dépense",
+          "tu dépenses",
+          "il/elle dépense",
+          "nous dépensons",
+          "vous dépensez",
+          "ils/elles dépensent"
+        ]
+      },
+      "usage_hint": "dépenser de l'argent / du temps",
+      "irregular": false,
+      "needs_review": true
+    },
+    "gaspiller": {
+      "group": "1er groupe",
+      "level": "B1",
+      "definition": "Utiliser quelque chose en trop grande quantité, sans raison.",
+      "antonyms": [],
+      "auxiliary": "avoir",
+      "tenses": {
+        "indicatif_present": [
+          "je gaspille",
+          "tu gaspilles",
+          "il/elle gaspille",
+          "nous gaspillons",
+          "vous gaspillez",
+          "ils/elles gaspillent"
+        ]
+      },
+      "usage_hint": "gaspiller de l'argent / de la nourriture",
+      "irregular": false,
+      "needs_review": true
     }
   }
 }

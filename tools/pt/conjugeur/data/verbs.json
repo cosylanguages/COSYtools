@@ -6919,24 +6919,33 @@
     ]
   },
   "pagar": {
-    "en_lemma": "pay",
-    "infinitive": "pagar",
-    "group": "Standard",
+    "group": "1ª conjugação (-ar)",
     "level": "A1",
-    "definition": "Verb form for pay",
+    "definition": "Dar dinheiro em troca de algo.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar",
-        "pagar"
+      "presente": [
+        "pago",
+        "pagas",
+        "paga",
+        "pagamos",
+        "pagais",
+        "pagam"
+      ],
+      "passado": [
+        "paguei",
+        "pagaste",
+        "pagou",
+        "pagamos",
+        "pagastes",
+        "pagaram"
       ]
     },
     "examples": [
-      "Example sentence for pagar."
-    ]
+      "Pago com cartão."
+    ],
+    "en_lemma": "pay",
+    "needs_review": true
   },
   "escrever": {
     "en_lemma": "write",
@@ -6999,64 +7008,91 @@
     ]
   },
   "gastar": {
-    "en_lemma": "spend",
-    "infinitive": "gastar",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for spend",
+    "group": "1ª conjugação (-ar)",
+    "level": "A2",
+    "definition": "Usar dinheiro para comprar algo.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar",
-        "gastar"
+      "presente": [
+        "gasto",
+        "gastas",
+        "gasta",
+        "gastamos",
+        "gastais",
+        "gastam"
+      ],
+      "passado": [
+        "gastei",
+        "gastaste",
+        "gastou",
+        "gastamos",
+        "gastastes",
+        "gastaram"
       ]
     },
     "examples": [
-      "Example sentence for gastar."
-    ]
+      "Gasto muito dinheiro em livros."
+    ],
+    "en_lemma": "spend",
+    "needs_review": true
   },
   "desperdiçar": {
-    "en_lemma": "waste",
-    "infinitive": "desperdiçar",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for waste",
+    "group": "1ª conjugação (-ar)",
+    "level": "B1",
+    "definition": "Usar algo sem proveito.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "desperdiçar",
-        "desperdiçar",
-        "desperdiçar",
-        "desperdiçar",
-        "desperdiçar",
-        "desperdiçar"
+      "presente": [
+        "desperdiço",
+        "desperdiças",
+        "desperdiça",
+        "desperdiçamos",
+        "desperdiçais",
+        "desperdiçam"
+      ],
+      "passado": [
+        "desperdicei",
+        "desperdiçaste",
+        "desperdiçou",
+        "desperdiçamos",
+        "desperdiçastes",
+        "desperdiçaram"
       ]
     },
     "examples": [
-      "Example sentence for desperdiçar."
-    ]
+      "Não desperdiço comida."
+    ],
+    "en_lemma": "waste",
+    "needs_review": true
   },
   "concordar": {
-    "en_lemma": "agree",
-    "infinitive": "concordar",
-    "group": "Standard",
-    "level": "A1",
-    "definition": "Verb form for agree",
+    "group": "1ª conjugação (-ar)",
+    "level": "A2",
+    "definition": "Ter a mesma opinião que outra pessoa.",
+    "antonyms": [],
     "tenses": {
-      "present": [
-        "concordar",
-        "concordar",
-        "concordar",
-        "concordar",
-        "concordar",
-        "concordar"
+      "presente": [
+        "concordo",
+        "concordas",
+        "concorda",
+        "concordamos",
+        "concordais",
+        "concordam"
+      ],
+      "passado": [
+        "concordei",
+        "concordaste",
+        "concordou",
+        "concordamos",
+        "concordastes",
+        "concordaram"
       ]
     },
     "examples": [
-      "Example sentence for concordar."
-    ]
+      "Concordo contigo."
+    ],
+    "en_lemma": "agree",
+    "needs_review": true
   },
   "discordar": {
     "en_lemma": "disagree",
@@ -7145,5 +7181,121 @@
       "Eu faço os meus trabalhos de manhã."
     ],
     "en_lemma": "make"
+  },
+  "vir": {
+    "group": "Irregular",
+    "level": "A1",
+    "definition": "Deslocar-se para o lugar onde está quem fala.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "venho",
+        "vens",
+        "vem",
+        "vimos",
+        "vindes",
+        "vêm"
+      ],
+      "passado": [
+        "vim",
+        "vieste",
+        "veio",
+        "viemos",
+        "viestes",
+        "vieram"
+      ]
+    },
+    "examples": [
+      "Venho de casa."
+    ],
+    "en_lemma": "come",
+    "needs_review": true
+  },
+  "partir": {
+    "group": "3ª conjugação (-ir)",
+    "level": "A2",
+    "definition": "Sair de um lugar para ir a outro.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "parto",
+        "partes",
+        "parte",
+        "partimos",
+        "partis",
+        "partem"
+      ],
+      "passado": [
+        "parti",
+        "partiste",
+        "partiu",
+        "partimos",
+        "partistes",
+        "partiram"
+      ]
+    },
+    "examples": [
+      "Parto amanhã de manhã."
+    ],
+    "en_lemma": "leave",
+    "needs_review": true
+  },
+  "resolver": {
+    "group": "2ª conjugação (-er)",
+    "level": "A2",
+    "definition": "Encontrar a solução para um problema.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "resolvo",
+        "resolves",
+        "resolve",
+        "resolvemos",
+        "resolveis",
+        "resolvem"
+      ],
+      "passado": [
+        "resolvi",
+        "resolveste",
+        "resolveu",
+        "resolvemos",
+        "resolvestes",
+        "resolveram"
+      ]
+    },
+    "examples": [
+      "Resolvo o problema."
+    ],
+    "en_lemma": "solve",
+    "needs_review": true
+  },
+  "ajudar": {
+    "group": "1ª conjugação (-ar)",
+    "level": "A1",
+    "definition": "Fazer algo para facilitar o trabalho de outra pessoa.",
+    "antonyms": [],
+    "tenses": {
+      "presente": [
+        "ajudo",
+        "ajudas",
+        "ajuda",
+        "ajudamos",
+        "ajudais",
+        "ajudam"
+      ],
+      "passado": [
+        "ajudei",
+        "ajudaste",
+        "ajudou",
+        "ajudamos",
+        "ajudastes",
+        "ajudaram"
+      ]
+    },
+    "examples": [
+      "Ajudo a minha mãe em casa."
+    ],
+    "en_lemma": "help",
+    "needs_review": true
   }
 }
