@@ -49,6 +49,14 @@ function testCatalogValidator() {
   }
 }
 
+function testLinguisticTenseRecognition() {
+  console.log('\nTest: Linguistic tense recognition');
+  const { hasNonPastTense } = require('./validate_linguistic_datasets.js');
+  assert(hasNonPastTense({ tenses: { fut: ['я буду читать'] } }), 'future-only verb entries count as non-past');
+  assert(hasNonPastTense({ tenses: { pres: ['я читаю'] } }), 'present-tense verb entries count as non-past');
+  assert(!hasNonPastTense({ tenses: { past: ['он читал'] } }), 'past-only verb entries do not count as non-past');
+}
+
 function testLinkValidator() {
   console.log('\nTest: Link and Deep-link Validator execution');
   try {
@@ -66,6 +74,7 @@ function main() {
 
   testHubGenerationCheck();
   testCatalogValidator();
+  testLinguisticTenseRecognition();
   testLinkValidator();
 
   console.log(`\nResults: ${passedTests}/${totalTests} tests passed.`);

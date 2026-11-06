@@ -1,12 +1,36 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer-core');
+const puppeteer = (() => {
+    try {
+        return require('puppeteer');
+    } catch (error) {
+        return require('puppeteer-core');
+    }
+})();
 
 const PORT = 8085;
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const ACCEPTED_QUERY_PARAMS = ['verb', 'infinitive', 'noun', 'word', 'q', 'search', 'lang'];
+
+function resolveChromeExecutable() {
+    const puppeteerExecutable = typeof puppeteer?.executablePath === 'function' ? puppeteer.executablePath() : null;
+    const candidates = [
+        process.env.PUPPETEER_EXECUTABLE_PATH,
+        process.env.CHROME_BIN,
+        process.env.CHROME_PATH,
+        puppeteerExecutable,
+        '/usr/bin/google-chrome',
+        '/usr/bin/google-chrome-stable',
+        '/usr/bin/chromium',
+        '/usr/bin/chromium-browser',
+        '/snap/bin/chromium',
+        '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+    ];
+
+    return candidates.find(candidate => Boolean(candidate) && fs.existsSync(candidate)) || null;
+}
 
 const MIME_TYPES = {
     '.html': 'text/html',
@@ -109,9 +133,14 @@ async function runSmokeTests() {
     let totalErrors = 0;
     const functionalProofResults = [];
 
+    const chromeExecutable = resolveChromeExecutable() || puppeteer.executablePath();
+    if (!chromeExecutable) {
+        throw new Error('No Chrome/Chromium executable found. Set CHROME_BIN, CHROME_PATH, or PUPPETEER_EXECUTABLE_PATH to the browser binary, or install Chrome/Chromium.');
+    }
+
     try {
         browser = await puppeteer.launch({
-            executablePath: '/usr/bin/google-chrome',
+            executablePath: chromeExecutable,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
 
