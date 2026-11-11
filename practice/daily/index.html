@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Verb Conjugation & Prepositions | COSYtools</title>
+    <meta name="description" content="Daily grammar and syntax practice in COSYtools featuring today's verb conjugation table, preposition governance rules, and interactive drills.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYtools/practice/daily/index.html">
+    <meta property="og:title" content="Daily Verb Conjugation & Prepositions | COSYtools">
+    <meta property="og:description" content="Daily grammar and syntax practice in COSYtools featuring today's verb conjugation table, preposition governance rules, and interactive drills.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYtools/practice/daily/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Daily Verb Conjugation & Prepositions | COSYtools">
+    <meta name="twitter:description" content="Daily grammar and syntax practice in COSYtools featuring today's verb conjugation table, preposition governance rules, and interactive drills.">
+    <link rel="icon" href="../../shared/images/cosylanguages.png">
+    <link rel="manifest" href="../../manifest.json">
+    <meta name="theme-color" content="#416b49">
+
+    <link rel="stylesheet" href="../../shared/css/fonts.css">
+    <link rel="stylesheet" href="../../shared/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../../shared/css/tokens.css">
+    <link rel="stylesheet" href="../../shared/css/base.css">
+    <link rel="stylesheet" href="../../shared/css/components.css">
+    <link rel="stylesheet" href="../../shared/css/layout.css">
+    <link rel="stylesheet" href="../../shared/css/cosy-icons.css">
+    <link rel="stylesheet" href="../../shared/styles/reference.css">
+    <script src="../../shared/js/shell.js" defer></script>
+    <script src="../../shared/js/daily-feed.js"></script>
+    <script src="../../shared/engines/reference-utils.js"></script>
+    <style>
+        .daily-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem 3rem 1.5rem;
+        }
+        .daily-meta-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding: 0.75rem 1.25rem;
+            background: var(--cosy-color-warm-white, #fff);
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 12px;
+        }
+        .daily-date-badge {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--sage-dark, #234027);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .daily-lang-select {
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color, #cbd5e1);
+            background: var(--surface, #fff);
+            color: var(--ink, #1e293b);
+            font-weight: 600;
+        }
+        .daily-card {
+            background: var(--surface, #fff);
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 16px;
+            padding: 1.75rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        .daily-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-color, #f1f5f9);
+        }
+        .daily-card-title {
+            font-family: var(--ref-font-serif, serif);
+            font-size: 1.5rem;
+            margin: 0;
+            color: var(--sage-dark, #234027);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .irregular-badges {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        .irregular-chip {
+            background: var(--sage-mist, #dcfce7);
+            color: var(--sage-dark, #166534);
+            font-size: 0.9rem;
+            font-weight: 700;
+            padding: 0.35rem 0.75rem;
+            border-radius: 8px;
+            border: 1px solid rgba(22, 101, 52, 0.2);
+        }
+        .tenses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .tense-block {
+            background: var(--bg-soft, #f8fafc);
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 10px;
+            padding: 1rem;
+        }
+        .tense-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--ink-soft, #64748b);
+            margin: 0 0 0.5rem 0;
+        }
+        .tense-list {
+            margin: 0;
+            padding-left: 1.25rem;
+            font-size: 0.95rem;
+        }
+        .drill-section {
+            margin-top: 1.5rem;
+            padding: 1.25rem;
+            background: var(--bg-soft, #f8fafc);
+            border-radius: 12px;
+            border: 1px dashed var(--border-color, #cbd5e1);
+        }
+        .drill-input-row {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .drill-input {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color, #cbd5e1);
+            font-size: 1rem;
+        }
+        .ecosystem-buttons-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+        .ecosystem-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .ecosystem-btn-primary {
+            background: var(--sage-dark, #234027);
+            color: #fff;
+        }
+        .ecosystem-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(35, 64, 39, 0.25);
+        }
+        .ecosystem-btn-secondary {
+            background: var(--sage-mist, #dcfce7);
+            color: var(--sage-dark, #166534);
+            border: 1px solid rgba(22, 101, 52, 0.2);
+        }
+        .ecosystem-btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(22, 101, 52, 0.15);
+        }
+        .prep-choice-btn {
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color, #cbd5e1);
+            background: #fff;
+            color: var(--ink, #1e293b);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .prep-choice-btn:hover:not(:disabled) {
+            border-color: var(--sage, #416b49);
+            background: var(--sage-mist, #dcfce7);
+        }
+        .case-tag {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Shared Ecosystem Strip -->
+<div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
+  <div class="cosy-strip-inner">
+    <span class="cosy-strip-brand">COSY Ecosystem:</span>
+    <ul class="cosy-strip-links">
+      <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-strip-link">COSYdata</a></li>
+      <li><a href="../../index.html" class="cosy-strip-link active">COSYtools</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents</a></li>
+    </ul>
+    <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; cursor:pointer; margin-left:auto;">Dark</button>
+  </div>
+</div>
+
+    <!-- Header Navigation -->
+    <header class="ref-header" style="position:relative; background:var(--surface, #fff); border-bottom:1px solid var(--border-color, #e2e8f0); z-index:10;">
+        <div style="max-width:1000px; margin:0 auto; width:100%; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.75rem;">
+            <nav aria-label="Breadcrumb" style="display:flex; align-items:center; gap:0.5rem;">
+                <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
+                <span style="color:var(--ink-soft)" aria-hidden="true">/</span>
+                <a href="../index.html" style="text-decoration:none; color:inherit; font-weight:600;">Practice</a>
+                <span style="color:var(--ink-soft)" aria-hidden="true">/</span>
+                <span aria-current="page" style="font-weight:600; color:var(--sage-dark)">Daily Verb &amp; Preposition</span>
+            </nav>
+            <nav class="ref-nav-links" aria-label="Quick links">
+                <a href="../../index.html">Hub</a>
+                <a href="../index.html">Practice Hub</a>
+                <a href="../top-verbs/index.html">Top Verbs</a>
+                <a href="../quick-drills/index.html">Quick Drills</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ref-hero" style="padding-bottom:1rem;">
+        <h1>Daily Verb Conjugation &amp; Prepositions</h1>
+        <p>Master today's featured verb forms, preposition governance, and case rules with interactive micro-drills.</p>
+    </div>
+
+    <main class="daily-container">
+        <!-- Date & Language Selector Bar -->
+        <div class="daily-meta-bar">
+            <div class="daily-date-badge">
+                <span aria-hidden="true">📅</span>
+                <span id="daily-current-date">Loading date...</span>
+                <small style="color:var(--ink-soft); font-weight:normal;">(Local Midnight Rollover)</small>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+                <label for="daily-language-select" style="font-weight:600; font-size:0.9rem;">Language:</label>
+                <select id="daily-language-select" class="daily-lang-select" onchange="onLanguageChanged(this.value)">
+                    <option value="en" selected>🇬🇧 English</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="it">🇮🇹 Italiano</option>
+                    <option value="es">🇪🇸 Español</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="el">🇬🇷 Ελληνικά</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- CARD 1: Daily Verb Conjugation Card -->
+        <section class="daily-card" id="card-conjugation" aria-labelledby="heading-conjugation">
+            <div class="daily-card-header">
+                <h2 id="heading-conjugation" class="daily-card-title">
+                    <span aria-hidden="true">📖</span>
+                    <span>Daily Verb Conjugation: <span id="verb-display-headword" style="color:var(--sage); text-decoration:underline;">...</span></span>
+                </h2>
+                <span id="verb-level-tag" class="status-badge status-stable">A1</span>
+            </div>
+
+            <p id="verb-definition-text" style="font-size:1.05rem; color:var(--ink); margin-bottom:1rem;">Loading definition...</p>
+
+            <!-- English Irregular Forms Highlighting -->
+            <div id="english-irregular-block" class="irregular-badges" style="display:none;">
+                <span class="irregular-chip" id="chip-base">Base: <strong>...</strong></span>
+                <span class="irregular-chip" id="chip-past">Past Simple: <strong>...</strong></span>
+                <span class="irregular-chip" id="chip-participle">Past Participle: <strong>...</strong></span>
+            </div>
+
+            <!-- Tenses Table / Blocks -->
+            <div id="tenses-container" class="tenses-grid">
+                <!-- Injected dynamically -->
+            </div>
+
+            <!-- Interactive Mini-Drill: Missing Form -->
+            <div class="drill-section">
+                <h3 style="margin:0 0 0.5rem 0; font-size:1.1rem; color:var(--sage-dark);">✍️ Mini-Drill: Complete Missing Verb Form</h3>
+                <p id="drill-conj-prompt" style="font-weight:600; margin:0;">Loading question...</p>
+                <div class="drill-input-row">
+                    <input type="text" id="drill-conj-input" class="drill-input" placeholder="Type conjugated form..." aria-label="Conjugated form answer" onkeyup="if(event.key==='Enter') checkConjugationDrill()">
+                    <button type="button" class="ref-btn" onclick="checkConjugationDrill()">Check Form</button>
+                </div>
+                <div id="drill-conj-feedback" role="status" aria-live="polite" style="display:none; margin-top:0.75rem; padding:0.5rem 0.75rem; border-radius:8px; font-weight:700;"></div>
+            </div>
+        </section>
+
+        <!-- CARD 2: Daily Verb + Preposition Governance Card -->
+        <section class="daily-card" id="card-preposition" aria-labelledby="heading-preposition">
+            <div class="daily-card-header">
+                <h2 id="heading-preposition" class="daily-card-title">
+                    <span aria-hidden="true">🔗</span>
+                    <span>Preposition Governance: <span id="prep-display-headword" style="color:var(--sage);">...</span></span>
+                </h2>
+                <span id="prep-case-badge" class="case-tag">Case: Accusative</span>
+            </div>
+
+            <p id="prep-rule-text" style="font-size:1.05rem; margin-bottom:0.75rem; font-weight:500;">Loading preposition rule...</p>
+            <div id="prep-example-box" style="padding:0.75rem 1rem; background:var(--bg-soft, #f8fafc); border-left:4px solid var(--sage, #416b49); border-radius:4px; margin-bottom:1.5rem;">
+                <p id="prep-example-sentence" style="margin:0; font-style:italic;">"Loading example..."</p>
+            </div>
+
+            <!-- Interactive 3-Question Preposition Choice Drill -->
+            <div class="drill-section">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                    <h3 style="margin:0; font-size:1.1rem; color:var(--sage-dark);">🎯 3-Question Preposition Drill</h3>
+                    <span id="prep-drill-step" style="font-size:0.9rem; font-weight:700; color:var(--ink-soft);">Question 1 of 3</span>
+                </div>
+                <p id="prep-drill-prompt" style="font-size:1.1rem; font-weight:600; margin-bottom:1rem;">Question prompt...</p>
+                <div id="prep-drill-options" role="group" aria-label="Preposition choices" style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+                    <!-- Preposition option buttons -->
+                </div>
+                <div id="prep-drill-feedback" role="status" aria-live="polite" style="display:none; margin-top:0.75rem; padding:0.5rem 0.75rem; border-radius:8px; font-weight:700;"></div>
+                <div id="prep-drill-next-row" style="margin-top:0.75rem; display:none;">
+                    <button type="button" class="ref-btn ref-btn-secondary" onclick="nextPrepQuestion()">Next Question ➔</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARD 3: Cross-Repository Ecosystem Integration -->
+        <section class="daily-card" style="border: 2px solid var(--sage-dark, #234027); background: #f4fbf6;" aria-labelledby="heading-ecosystem">
+            <h2 id="heading-ecosystem" class="daily-card-title" style="margin-bottom:0.5rem;">
+                <span aria-hidden="true">🌐</span>
+                <span>Continue Your Journey Across COSY Ecosystem</span>
+            </h2>
+            <p style="color:var(--ink-soft); margin-bottom:1.25rem;">Practice today's featured verb in spoken conversation or with contextual grammar drills.</p>
+
+            <div class="ecosystem-buttons-row">
+                <a id="link-conversation" href="https://cosylanguages.github.io/COSYlanguages/" target="_blank" rel="noopener" class="ecosystem-btn ecosystem-btn-primary">
+                    🎙️ Use in Daily Conversation (COSYlanguages)
+                </a>
+                <a id="link-practice" href="https://cosylanguages.github.io/COSYpractice/" target="_blank" rel="noopener" class="ecosystem-btn ecosystem-btn-secondary">
+                    ✍️ Practice in Context (COSYpractice)
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        window.currentLang = 'en';
+        window.currentPack = null;
+        window.expectedConjugationForm = '';
+        let prepDrillQuestions = [];
+        let prepDrillIndex = 0;
+        let prepScore = 0;
+
+        async function loadDailyData(lang) {
+            currentLang = lang || 'en';
+            const todayStr = COSYDailyFeed.getLocalDateString();
+            document.getElementById('daily-current-date').textContent = todayStr;
+
+            // Load daily grammar pack with root relative path
+            currentPack = await COSYDailyFeed.getDailyGrammarPack(currentLang, new Date(), '../../');
+            renderConjugationCard(currentPack);
+            renderPrepositionCard(currentPack);
+            renderEcosystemLinks(currentPack);
+        }
+
+        function renderConjugationCard(pack) {
+            const headword = pack.lemma || (pack.verbEntry && (pack.verbEntry.base || pack.verbEntry.lemma)) || 'speak';
+            document.getElementById('verb-display-headword').textContent = headword;
+
+            const def = (pack.verbEntry && (pack.verbEntry.definition || pack.verbEntry.usage_hint)) ||
+                        (pack.wordOfDay && pack.wordOfDay.definition) ||
+                        'Express thoughts, feelings, or actions.';
+            document.getElementById('verb-definition-text').textContent = def;
+
+            const lvl = (pack.verbEntry && pack.verbEntry.level) || 'A1';
+            document.getElementById('verb-level-tag').textContent = lvl;
+
+            const irregularBlock = document.getElementById('english-irregular-block');
+            if (currentLang === 'en' && pack.keyTenses && pack.keyTenses.is_irregular) {
+                irregularBlock.style.display = 'flex';
+                document.getElementById('chip-base').innerHTML = `Base: <strong>${pack.keyTenses.base}</strong>`;
+                document.getElementById('chip-past').innerHTML = `Past Simple: <strong>${pack.keyTenses.past_simple}</strong>`;
+                document.getElementById('chip-participle').innerHTML = `Past Participle: <strong>${pack.keyTenses.past_participle}</strong>`;
+            } else {
+                irregularBlock.style.display = 'none';
+            }
+
+            const tensesContainer = document.getElementById('tenses-container');
+            tensesContainer.innerHTML = '';
+
+            const kt = pack.keyTenses || {};
+            const tenseKeys = Object.keys(kt).filter(k => Array.isArray(kt[k]));
+
+            if (tenseKeys.length > 0) {
+                tenseKeys.forEach(tKey => {
+                    const block = document.createElement('div');
+                    block.className = 'tense-block';
+                    const title = document.createElement('h3');
+                    title.className = 'tense-title';
+                    title.textContent = tKey.replace(/_/g, ' ');
+                    block.appendChild(title);
+
+                    const ol = document.createElement('ol');
+                    ol.className = 'tense-list';
+                    kt[tKey].forEach(form => {
+                        const li = document.createElement('li');
+                        li.textContent = form;
+                        ol.appendChild(li);
+                    });
+                    block.appendChild(ol);
+                    tensesContainer.appendChild(block);
+                });
+            } else if (currentLang === 'en' && pack.keyTenses) {
+                const block = document.createElement('div');
+                block.className = 'tense-block';
+                block.innerHTML = `
+                    <h3 class="tense-title">Present Simple</h3>
+                    <p style="margin:0 0 0.5rem 0;">I / you / we / they: <strong>${pack.keyTenses.base}</strong></p>
+                    <p style="margin:0;">he / she / it: <strong>${pack.keyTenses.third_person_singular}</strong></p>
+                `;
+                tensesContainer.appendChild(block);
+
+                const pastBlock = document.createElement('div');
+                pastBlock.className = 'tense-block';
+                pastBlock.innerHTML = `
+                    <h3 class="tense-title">Past &amp; Perfect</h3>
+                    <p style="margin:0 0 0.5rem 0;">Past Simple: <strong>${pack.keyTenses.past_simple}</strong></p>
+                    <p style="margin:0;">Past Participle: <strong>${pack.keyTenses.past_participle}</strong></p>
+                `;
+                tensesContainer.appendChild(pastBlock);
+            }
+
+            setupConjugationMiniDrill(pack, headword);
+        }
+
+        function setupConjugationMiniDrill(pack, headword) {
+            const input = document.getElementById('drill-conj-input');
+            const feedback = document.getElementById('drill-conj-feedback');
+            input.value = '';
+            feedback.style.display = 'none';
+
+            if (currentLang === 'en' && pack.keyTenses) {
+                document.getElementById('drill-conj-prompt').textContent = `What is the Past Simple form of "${headword}"?`;
+                window.expectedConjugationForm = pack.keyTenses.past_simple || headword;
+            } else if (pack.keyTenses && pack.keyTenses.present && pack.keyTenses.present.length > 0) {
+                const sampleForm = pack.keyTenses.present[0];
+                document.getElementById('drill-conj-prompt').textContent = `Complete first person present form for "${headword}":`;
+                window.expectedConjugationForm = sampleForm;
+            } else {
+                document.getElementById('drill-conj-prompt').textContent = `Conjugate present tense for "${headword}":`;
+                window.expectedConjugationForm = headword;
+            }
+        }
+
+        function checkConjugationDrill() {
+            const userVal = document.getElementById('drill-conj-input').value.trim().toLowerCase();
+            const feedback = document.getElementById('drill-conj-feedback');
+            feedback.style.display = 'block';
+
+            const cleanExpected = (window.expectedConjugationForm || '').trim().toLowerCase();
+            if (userVal === cleanExpected || userVal === cleanExpected.split(' ').pop()) {
+                feedback.style.background = '#dcfce7';
+                feedback.style.color = '#166534';
+                feedback.textContent = '✅ Correct! Form verified.';
+            } else {
+                feedback.style.background = '#fee2e2';
+                feedback.style.color = '#991b1b';
+                feedback.textContent = `❌ Expected: ${window.expectedConjugationForm}`;
+            }
+        }
+
+        function renderPrepositionCard(pack) {
+            const prepEntry = pack.prepEntry || {};
+            const prepHeadword = pack.prepLemma || prepEntry.verb || prepEntry.lemma || prepEntry.word || pack.lemma || 'verb';
+            document.getElementById('prep-display-headword').textContent = prepHeadword;
+
+            const caseBadge = document.getElementById('prep-case-badge');
+            if (prepEntry.case) {
+                caseBadge.textContent = `Case: ${prepEntry.case}`;
+                caseBadge.style.display = 'inline-block';
+            } else if (currentLang === 'ru') {
+                caseBadge.textContent = 'Case: Genitive / Accusative';
+                caseBadge.style.display = 'inline-block';
+            } else if (currentLang === 'de') {
+                caseBadge.textContent = 'Kasus: Dativ / Akkusativ';
+                caseBadge.style.display = 'inline-block';
+            } else if (prepEntry.government) {
+                const gov = Array.isArray(prepEntry.government) ? prepEntry.government[0] : prepEntry.government;
+                caseBadge.textContent = `Case: ${gov.case || 'Accusative'}`;
+                caseBadge.style.display = 'inline-block';
+            } else {
+                caseBadge.style.display = 'none';
+            }
+
+            const rule = prepEntry.grammar_rule || prepEntry.pattern || `Governed preposition usage for ${prepHeadword}.`;
+            document.getElementById('prep-rule-text').textContent = rule;
+
+            const ex = (prepEntry.examples && prepEntry.examples[0])
+                ? (typeof prepEntry.examples[0] === 'string' ? prepEntry.examples[0] : prepEntry.examples[0].sentence)
+                : `We depend on daily language practice.`;
+            document.getElementById('prep-example-sentence').textContent = `"${ex}"`;
+
+            setupPrepositionDrill(pack, prepEntry, prepHeadword, ex);
+        }
+
+        function setupPrepositionDrill(pack, prepEntry, prepHeadword, ex) {
+            prepDrillIndex = 0;
+            prepScore = 0;
+
+            const correctPrep = (prepEntry.prepositions && prepEntry.prepositions[0] && prepEntry.prepositions[0] !== 'none')
+                ? prepEntry.prepositions[0]
+                : (currentLang === 'fr' ? 'de' : (currentLang === 'it' ? 'a' : (currentLang === 'de' ? 'auf' : 'on')));
+
+            // Generate clean set of 4 unique options
+            function makeUniqueOptions(correct, distractors) {
+                const set = new Set([correct]);
+                for (const d of distractors) {
+                    if (set.size >= 4) break;
+                    if (d !== correct) set.add(d);
+                }
+                const fallbackPool = ['in', 'at', 'to', 'for', 'with', 'from', 'on', 'about', 'by', 'of'];
+                for (const fb of fallbackPool) {
+                    if (set.size >= 4) break;
+                    if (fb !== correct) set.add(fb);
+                }
+                return Array.from(set).sort(() => Math.random() - 0.5);
+            }
+
+            // Create context-rich sentence blank using the real example
+            let sentenceBlank = '';
+            if (ex && ex.includes(correctPrep)) {
+                sentenceBlank = ex.replace(new RegExp(`\\b${correctPrep}\\b`, 'i'), '________');
+            } else {
+                sentenceBlank = `They will ${prepHeadword} ________ the final decision.`;
+            }
+
+            prepDrillQuestions = [
+                {
+                    prompt: `1. Fill in the blank: "${sentenceBlank}"`,
+                    correct: correctPrep,
+                    options: makeUniqueOptions(correctPrep, ['at', 'to', 'with', 'from'])
+                },
+                {
+                    prompt: `2. Which preposition is governed by the verb "${prepHeadword}"?`,
+                    correct: correctPrep,
+                    options: makeUniqueOptions(correctPrep, ['about', 'for', 'by', 'over'])
+                },
+                {
+                    prompt: `3. Choose the correct usage pattern: "${prepHeadword} [________]"`,
+                    correct: correctPrep,
+                    options: makeUniqueOptions(correctPrep, ['in', 'under', 'between', 'against'])
+                }
+            ];
+
+            renderPrepQuestion();
+        }
+
+        function renderPrepQuestion() {
+            const q = prepDrillQuestions[prepDrillIndex];
+            document.getElementById('prep-drill-step').textContent = `Question ${prepDrillIndex + 1} of 3`;
+            document.getElementById('prep-drill-prompt').textContent = q.prompt;
+
+            const optsDiv = document.getElementById('prep-drill-options');
+            optsDiv.innerHTML = '';
+            document.getElementById('prep-drill-feedback').style.display = 'none';
+            document.getElementById('prep-drill-next-row').style.display = 'none';
+
+            q.options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'prep-choice-btn';
+                btn.textContent = opt;
+                btn.onclick = () => answerPrepQuestion(opt, q.correct);
+                optsDiv.appendChild(btn);
+            });
+        }
+
+        function answerPrepQuestion(selected, correct) {
+            const feedback = document.getElementById('prep-drill-feedback');
+            feedback.style.display = 'block';
+
+            document.querySelectorAll('#prep-drill-options button').forEach(b => b.disabled = true);
+
+            if (selected === correct) {
+                prepScore++;
+                feedback.style.background = '#dcfce7';
+                feedback.style.color = '#166534';
+                feedback.textContent = '✅ Correct choice!';
+            } else {
+                feedback.style.background = '#fee2e2';
+                feedback.style.color = '#991b1b';
+                feedback.textContent = `❌ Incorrect. Correct preposition: ${correct}`;
+            }
+
+            document.getElementById('prep-drill-next-row').style.display = 'block';
+        }
+
+        function nextPrepQuestion() {
+            prepDrillIndex++;
+            if (prepDrillIndex < prepDrillQuestions.length) {
+                renderPrepQuestion();
+            } else {
+                document.getElementById('prep-drill-step').textContent = 'Completed!';
+                document.getElementById('prep-drill-prompt').textContent = `Drill finished! Score: ${prepScore} / 3 correct.`;
+                document.getElementById('prep-drill-options').innerHTML = '';
+                document.getElementById('prep-drill-feedback').style.display = 'none';
+                document.getElementById('prep-drill-next-row').style.display = 'none';
+            }
+        }
+
+        function renderEcosystemLinks(pack) {
+            const links = pack.links || COSYDailyFeed.getEcosystemLinks(pack.date, pack.lemma);
+            document.getElementById('link-conversation').href = links.conversation;
+            document.getElementById('link-practice').href = links.practice;
+        }
+
+        function onLanguageChanged(newLang) {
+            loadDailyData(newLang);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            loadDailyData('en');
+        });
+    </script>
+
+    <!-- Shared Shell Footer -->
+<footer class="app-footer cosy-footer">
+  <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
+    <p><strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side &amp; private.</p>
+    <p><small>© COSYlanguages. Open language reference tools.</small></p>
+  </div>
+</footer>
+</body>
+</html>
