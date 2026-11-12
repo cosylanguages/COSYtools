@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.github.io/COSYtools/schemas/verb-language-registry.schema.json",
+  "title": "Verb Language Registry Schema",
+  "description": "Schema for registering supported languages and their verb system characteristics in COSYtools.",
+  "type": "object",
+  "required": [
+    "version",
+    "languages"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "object",
+      "required": [
+        "en", "fr", "it", "ru", "el", "pt", "de", "es", "tt", "ba", "cv", "br", "hy", "ka"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "native",
+          "family",
+          "script",
+          "has_aspect_pairs",
+          "has_dual_auxiliaries",
+          "has_initial_mutations",
+          "has_preverbs",
+          "citation_form_type",
+          "notes"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "native": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "script": {
+            "type": "string"
+          },
+          "has_aspect_pairs": {
+            "type": "boolean"
+          },
+          "has_dual_auxiliaries": {
+            "type": "boolean"
+          },
+          "has_initial_mutations": {
+            "type": "boolean"
+          },
+          "has_preverbs": {
+            "type": "boolean"
+          },
+          "citation_form_type": {
+            "type": "string",
+            "enum": [
+              "infinitive",
+              "1st_person_singular_present",
+              "masculine_singular",
+              "verbal_noun"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

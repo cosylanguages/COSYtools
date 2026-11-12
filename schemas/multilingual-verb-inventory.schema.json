@@ -1,0 +1,188 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.github.io/COSYtools/schemas/multilingual-verb-inventory.schema.json",
+  "title": "Multilingual Verb Inventory Schema",
+  "description": "Schema for the canonical multilingual verb inventory across 14 COSY languages.",
+  "type": "object",
+  "required": [
+    "version",
+    "description",
+    "concepts"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Version string for dataset schema evolution."
+    },
+    "description": {
+      "type": "string",
+      "description": "Summary description of the verb inventory dataset."
+    },
+    "concepts": {
+      "type": "object",
+      "description": "Map of concept records keyed by canonical concept ID or slug.",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "concept_id",
+          "english_term",
+          "part_of_speech",
+          "default_level",
+          "description",
+          "senses"
+        ],
+        "properties": {
+          "concept_id": {
+            "type": "string"
+          },
+          "english_term": {
+            "type": "string"
+          },
+          "part_of_speech": {
+            "type": "string",
+            "enum": [
+              "verb",
+              "modal_verb",
+              "phrasal_verb",
+              "verbal_expression"
+            ]
+          },
+          "default_level": {
+            "type": "string",
+            "enum": ["A0", "A1", "A2", "B1", "B2", "B2+"]
+          },
+          "description": {
+            "type": "string"
+          },
+          "senses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "sense_id",
+                "sense_description",
+                "translations"
+              ],
+              "properties": {
+                "sense_id": {
+                  "type": "string"
+                },
+                "sense_description": {
+                  "type": "string"
+                },
+                "context_hint": {
+                  "type": "string"
+                },
+                "translations": {
+                  "type": "object",
+                  "required": [
+                    "en", "fr", "it", "ru", "el", "pt", "de", "es", "tt", "ba", "cv", "br", "hy", "ka"
+                  ],
+                  "additionalProperties": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "lemma",
+                        "is_headword",
+                        "relationship",
+                        "cefr_level",
+                        "definition",
+                        "example_sentence",
+                        "example_translation",
+                        "provenance"
+                      ],
+                      "properties": {
+                        "lemma": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "is_headword": {
+                          "type": "boolean"
+                        },
+                        "part_of_speech": {
+                          "type": "string"
+                        },
+                        "relationship": {
+                          "type": "string",
+                          "enum": [
+                            "exact_equivalent",
+                            "contextual_equivalent",
+                            "partial_overlap",
+                            "helper_construction",
+                            "aspectual_variant"
+                          ]
+                        },
+                        "cefr_level": {
+                          "type": "string",
+                          "enum": ["A0", "A1", "A2", "B1", "B2", "B2+"]
+                        },
+                        "definition": {
+                          "type": "string"
+                        },
+                        "example_sentence": {
+                          "type": "string"
+                        },
+                        "example_translation": {
+                          "type": "string"
+                        },
+                        "conjugated_forms": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": ["string", "array"]
+                          }
+                        },
+                        "grammar_notes": {
+                          "type": "object",
+                          "properties": {
+                            "auxiliary": { "type": "string" },
+                            "aspect": { "type": "string" },
+                            "pattern_group": { "type": "string" },
+                            "transitivity": { "type": "string" },
+                            "initial_mutation_hint": { "type": "string" },
+                            "preverb": { "type": "string" },
+                            "screeve": { "type": "string" },
+                            "citation_note": { "type": "string" }
+                          },
+                          "additionalProperties": true
+                        },
+                        "conjugation_pattern_ref": {
+                          "type": ["string", "array"],
+                          "items": { "type": "string" }
+                        },
+                        "provenance": {
+                          "type": "object",
+                          "required": [
+                            "source",
+                            "review_status",
+                            "verified"
+                          ],
+                          "properties": {
+                            "source": { "type": "string" },
+                            "review_status": {
+                              "type": "string",
+                              "enum": ["unreviewed", "needs_review", "reviewed", "verified_native"]
+                            },
+                            "verified": { "type": "boolean" },
+                            "notes": { "type": "string" }
+                          },
+                          "additionalProperties": false
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
