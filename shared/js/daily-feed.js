@@ -90,6 +90,27 @@
     }
 
     /**
+     * COSYdata calendars hold one card per CEFR level for each date ({"A2": {...}, "B1": {...}}).
+     * Return the card for the preferred level, else the nearest sensible one. A flat card
+     * (an object that has its own `word`) is returned as is, so older feeds keep working.
+     * @param {Object|null} day calendar value for one date
+     * @param {string} [preferred='B1']
+     * @returns {Object|null}
+     */
+    function pickLevelCard(day, preferred = 'B1') {
+        if (!day || typeof day !== 'object') return null;
+        if (typeof day.word === 'string') return day;
+        const order = [preferred, 'B1', 'A2', 'B2', 'A1', 'A0', 'C1', 'C2'];
+        for (const level of order) {
+            const card = day[level];
+            if (card && typeof card === 'object' && typeof card.word === 'string' && card.word.trim()) {
+                return card.level ? card : Object.assign({ level }, card);
+            }
+        }
+        return null;
+    }
+
+    /**
      * Universal loader that works in both Browser and Node.js environments.
      */
     async function loadJsonResource(relPath) {
@@ -340,7 +361,7 @@
      * matches against COSYtools conjugation and preposition databases,
      * with local deterministic fallback.
      */
-    async function getDailyGrammarPack(lang = 'en', date = new Date(), basePath = '') {
+    async function getDailyGrammarPack(lang = 'en', date = new Date(), basePath = '', level = 'B1') {
         const dateStr = typeof date === 'string' ? date : getLocalDateString(date);
         const ym = getYearMonth(dateStr);
 
@@ -360,16 +381,15 @@
             fetchDailyCalendar(lang, 'idiom', ym)
         ]);
 
-        if (wordCal && wordCal.days && wordCal.days[dateStr]) {
-            wordOfDay = wordCal.days[dateStr];
+        if (wordCal && wordCal.days) {
+            wordOfDay = pickLevelCard(wordCal.days[dateStr], level);
         }
-        if (phrasalCal && phrasalCal.days && phrasalCal.days[dateStr]) {
-            phrasalOfDay = phrasalCal.days[dateStr];
+        if (phrasalCal && phrasalCal.days) {
+            phrasalOfDay = pickLevelCard(phrasalCal.days[dateStr], level);
         }
-        if (!wordOfDay && idiomCal && idiomCal.days && idiomCal.days[dateStr]) {
+        if (!wordOfDay && idiomCal && idiomCal.days) {
             // Check if any level contains a verb idiom
-            const dayIdioms = idiomCal.days[dateStr];
-            const candidate = dayIdioms.B1 || dayIdioms.A2 || dayIdioms.B2 || Object.values(dayIdioms)[0];
+            const candidate = pickLevelCard(idiomCal.days[dateStr], level);
             if (candidate) {
                 wordOfDay = {
                     word: candidate.word,
@@ -393,8 +413,10 @@
         let prepLemma = candidateLemma;
 
         // If phrasal verb of the day is present, use or match it for preposition card
-        if (phrasalOfDay && typeof phrasalOfDay === 'object') {
-            const phrasalWord = (phrasalOfDay.word || phrasalOfDay.lemma || phrasalOfDay.verb || '').toLowerCase().trim();
+        const phrasalWord = phrasalOfDay && typeof phrasalOfDay === 'object'
+            ? (phrasalOfDay.word || phrasalOfDay.lemma || phrasalOfDay.verb || '').toLowerCase().trim()
+            : '';
+        if (phrasalWord) {
             const phrasalMatch = matchPrepositionEntry(prepData, phrasalWord);
             if (phrasalMatch) {
                 prepEntry = phrasalMatch;
@@ -455,6 +477,7 @@
         fetchDailyCalendar,
         fetchConjugationData,
         fetchPrepositionRules,
+        pickLevelCard,
         matchVerbEntry,
         matchPrepositionEntry,
         extractKeyTenses,

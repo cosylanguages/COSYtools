@@ -72,6 +72,31 @@ async function runTests() {
     const pack = await feed.getDailyGrammarPack('en', '2026-11-15', '');
     ok(pack && pack.verbEntry && pack.prepEntry && pack.links, 'getDailyGrammarPack generates full bundle');
 
+    // 7. COSYdata calendars hold one card per CEFR level per date
+    const lvlDay = { A2: { id: 'a', word: 'head out', definition: 'x' }, B1: { id: 'b', word: 'hand out', definition: 'y' }, B2: { id: 'c', word: 'tone down', definition: 'z' } };
+    ok(feed.pickLevelCard(lvlDay, 'B2').word === 'tone down', 'pickLevelCard returns the requested level');
+    ok(feed.pickLevelCard(lvlDay, 'B2').level === 'B2', 'pickLevelCard records the level on the card');
+    ok(feed.pickLevelCard(lvlDay, 'C1').word === 'hand out', 'pickLevelCard falls back to B1 when the level is missing');
+    ok(feed.pickLevelCard({ A2: lvlDay.A2 }, 'C1').word === 'head out', 'pickLevelCard falls back to any published level');
+    ok(feed.pickLevelCard({ word: 'flat', definition: 'old feed' }).word === 'flat', 'pickLevelCard passes a flat card through');
+    ok(feed.pickLevelCard(null) === null && feed.pickLevelCard({}) === null && feed.pickLevelCard({ B1: { word: '  ' } }) === null, 'pickLevelCard rejects empty days and cards');
+
+    const realFetch = global.fetch;
+    global.fetch = async (url) => {
+        const m = String(url).match(/calendar\/([\w-]+)\/(\d{4}-\d{2})/);
+        if (m && m[1] === 'phrasal-verb') return { ok: true, json: async () => ({ days: { '2026-11-15': { A2: { id: 'p', word: 'look up', definition: 'To search for information.', example: 'Look up the word.' }, B1: { id: 'p2', word: 'work through', definition: 'To deal with.', example: 'We worked through it.' } } } }) };
+        if (m && m[1] === 'word') return { ok: true, json: async () => ({ days: { '2026-11-15': { B1: { id: 'w', word: 'soft', pos: 'adjective', definition: 'not hard', example: 'Soft.' } } } }) };
+        return { ok: false, status: 404, json: async () => null };
+    };
+    try {
+        const lvlPack = await feed.getDailyGrammarPack('en', '2026-11-15', '', 'A2');
+        ok(lvlPack.phrasalOfDay && lvlPack.phrasalOfDay.word === 'look up', 'pack reads the phrasal verb of the requested level from a per-level calendar');
+        ok(lvlPack.wordOfDay && lvlPack.wordOfDay.word === 'soft', 'pack reads the word of the day from a per-level calendar');
+        ok(lvlPack.prepEntry && String(lvlPack.prepEntry.pattern || '').trim() !== '[object]' && String(lvlPack.prepEntry.pattern || '').trim() !== '', 'a per-level feed never produces a preposition card with an empty verb');
+    } finally {
+        global.fetch = realFetch;
+    }
+
     console.log('\n--- Testing practice/daily/index.html Behaviour in JSDOM ---');
     const errs = [];
     const vc = new VirtualConsole();
