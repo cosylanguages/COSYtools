@@ -374,12 +374,16 @@
         let wordOfDay = null;
         let phrasalOfDay = null;
 
-        // Attempt feed fetch from COSYdata
-        const [wordCal, phrasalCal, idiomCal] = await Promise.all([
+        // Attempt feed fetch from COSYdata. `verb` and `verb-prep` list only verbs these tools can drill.
+        const [wordCal, phrasalCal, idiomCal, verbCal, verbPrepCal] = await Promise.all([
             fetchDailyCalendar(lang, 'word', ym),
             fetchDailyCalendar(lang, 'phrasal-verb', ym),
-            fetchDailyCalendar(lang, 'idiom', ym)
+            fetchDailyCalendar(lang, 'idiom', ym),
+            fetchDailyCalendar(lang, 'verb', ym),
+            fetchDailyCalendar(lang, 'verb-prep', ym)
         ]);
+        const verbOfDay = verbCal && verbCal.days ? pickLevelCard(verbCal.days[dateStr], level) : null;
+        const verbPrepOfDay = verbPrepCal && verbPrepCal.days ? pickLevelCard(verbPrepCal.days[dateStr], level) : null;
 
         if (wordCal && wordCal.days) {
             wordOfDay = pickLevelCard(wordCal.days[dateStr], level);
@@ -400,9 +404,11 @@
             }
         }
 
-        // Identify candidate verb headword
+        // Identify candidate verb headword: the verb of the day wins, then the word/idiom of the day
         let candidateLemma = '';
-        if (wordOfDay && typeof wordOfDay === 'object') {
+        if (verbOfDay && verbOfDay.word) {
+            candidateLemma = verbOfDay.word.toLowerCase().trim().replace(/^to\s+/, '');
+        } else if (wordOfDay && typeof wordOfDay === 'object') {
             const raw = (wordOfDay.word || wordOfDay.lemma || '').toLowerCase().trim();
             // Clean up to first word if multi-word or phrasal
             candidateLemma = raw.replace(/^to\s+/, '').split(/\s+/)[0];
@@ -412,8 +418,20 @@
         let prepEntry = matchPrepositionEntry(prepData, candidateLemma);
         let prepLemma = candidateLemma;
 
+        // The verb + preposition of the day drives the preposition card; a phrasal verb is only used without it
+        let prepFromFeed = false;
+        if (verbPrepOfDay && verbPrepOfDay.word) {
+            const lemma = verbPrepOfDay.word.toLowerCase().trim().replace(/^to\s+/, '');
+            const match = matchPrepositionEntry(prepData, lemma);
+            if (match) {
+                prepEntry = match;
+                prepLemma = lemma;
+                prepFromFeed = true;
+            }
+        }
+
         // If phrasal verb of the day is present, use or match it for preposition card
-        const phrasalWord = phrasalOfDay && typeof phrasalOfDay === 'object'
+        const phrasalWord = !prepFromFeed && phrasalOfDay && typeof phrasalOfDay === 'object'
             ? (phrasalOfDay.word || phrasalOfDay.lemma || phrasalOfDay.verb || '').toLowerCase().trim()
             : '';
         if (phrasalWord) {
@@ -465,7 +483,9 @@
             links: links,
             source: source,
             wordOfDay: wordOfDay,
-            phrasalOfDay: phrasalOfDay
+            phrasalOfDay: phrasalOfDay,
+            verbOfDay: verbOfDay,
+            verbPrepOfDay: verbPrepOfDay
         };
     }
 

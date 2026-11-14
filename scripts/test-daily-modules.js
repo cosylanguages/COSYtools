@@ -97,6 +97,35 @@ async function runTests() {
         global.fetch = realFetch;
     }
 
+    // 8. verb and verb-prep calendars drive the conjugation and preposition cards
+    const realFetch2 = global.fetch;
+    const calendars = {
+        verb: { B1: { id: 'en:begin:verb', word: 'begin', level: 'A1', definition: 'To start doing something.', example: 'We begin the lesson at nine.' } },
+        'verb-prep': { B1: { id: 'en:depend:verb', word: 'depend', level: 'A2', definition: 'To rely on something.', example: 'It depends on the weather.' } },
+        'phrasal-verb': { B1: { id: 'en:look-up:verb', word: 'look up', level: 'A2', definition: 'To search for information.', example: 'Look up the word.' } }
+    };
+    global.fetch = async (url) => {
+        const m = String(url).match(/calendar\/([\w-]+)\/(\d{4}-\d{2})/);
+        if (m && calendars[m[1]]) return { ok: true, json: async () => ({ days: { '2026-11-15': calendars[m[1]] } }) };
+        return { ok: false, status: 404, json: async () => null };
+    };
+    try {
+        const vp = await feed.getDailyGrammarPack('en', '2026-11-15', '', 'B1');
+        ok(vp.lemma === 'begin' && vp.source === 'cosydata-feed', 'the verb of the day drives the conjugation card (no local fallback)');
+        ok(vp.verbEntry && vp.verbOfDay && vp.verbOfDay.word === 'begin', 'pack exposes verbOfDay and its conjugation entry');
+        ok(vp.prepLemma === 'depend' && vp.prepEntry && /depend/.test(String(vp.prepEntry.pattern || '')), 'the verb + preposition of the day drives the preposition card');
+        ok(vp.verbPrepOfDay && vp.verbPrepOfDay.word === 'depend', 'pack exposes verbPrepOfDay');
+        ok(vp.phrasalOfDay && vp.phrasalOfDay.word === 'look up', 'the phrasal verb of the day is still returned separately');
+        delete calendars['verb-prep'];
+        const noPrep = await feed.getDailyGrammarPack('en', '2026-11-15', '', 'B1');
+        ok(noPrep.lemma === 'begin' && noPrep.verbPrepOfDay === null, 'without a verb-prep calendar the verb of the day still works');
+        delete calendars.verb; delete calendars['phrasal-verb'];
+        const none = await feed.getDailyGrammarPack('en', '2026-11-15', '', 'B1');
+        ok(none.source === 'local-fallback' && none.verbOfDay === null && none.verbEntry, 'with no calendars the local fallback still produces a full pack');
+    } finally {
+        global.fetch = realFetch2;
+    }
+
     console.log('\n--- Testing practice/daily/index.html Behaviour in JSDOM ---');
     const errs = [];
     const vc = new VirtualConsole();
