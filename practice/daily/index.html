@@ -632,7 +632,12 @@
         }
 
         window.addEventListener('DOMContentLoaded', () => {
-            loadDailyData('en');
+            // ?lang=fr opens the page in that language (the COSY daily strips link here); unknown values fall back to English
+            const select = document.getElementById('daily-language-select');
+            const wanted = new URLSearchParams(window.location.search).get('lang');
+            const lang = wanted && select && Array.prototype.some.call(select.options, (o) => o.value === wanted) ? wanted : 'en';
+            if (select) select.value = lang;
+            loadDailyData(lang);
         });
     </script>
 

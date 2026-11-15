@@ -164,6 +164,22 @@ async function runTests() {
     const prepFb = doc.getElementById('prep-drill-feedback');
     ok(prepFb.style.display !== 'none', 'Preposition drill displays feedback upon choice');
 
+    // The strips link to the Daily page with ?lang=xx
+    for (const [query, expected] of [['?lang=fr', 'fr'], ['?lang=el', 'el'], ['?lang=zz', 'en'], ['', 'en']]) {
+        const langErrs = [];
+        const lvc = new VirtualConsole();
+        lvc.on('jsdomError', e => langErrs.push(e.message));
+        const ldom = await JSDOM.fromURL(`http://localhost:${server.address().port}/practice/daily/index.html${query}`, {
+            runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: lvc,
+            beforeParse(win) { win.fetch = u => fetch(new URL(u, win.location.href).href); }
+        });
+        await sleep(800);
+        const sel = ldom.window.document.getElementById('daily-language-select');
+        ok(sel.value === expected && ldom.window.currentLang === expected, `Daily page opens in '${expected}' for "${query}"`);
+        ok(langErrs.length === 0, `No script errors for "${query}": ` + langErrs.join('|'));
+        ldom.window.close();
+    }
+
     server.close();
     if (fails > 0) {
         console.error(`\nFAILED with ${fails} error(s).`);
