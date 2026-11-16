@@ -53,6 +53,22 @@ For automated pipelines requiring raw lemma inflections and dictionary data:
 
 ---
 
+### 1.4 Ecosystem Daily Elements (link-out, not mirrored)
+
+`COSYtools` does not own or copy the COSY "of the day" content. Each kind of daily element lives in the repository that owns it, and the Daily page links out to those surfaces. Only the vocabulary calendars are fetched at runtime (to drive the conjugation and preposition drills); everything else is a link.
+
+| Element | Owning Repository | Where it is shown | Example URL |
+| :--- | :--- | :--- | :--- |
+| **Word / Verb / Verb + Preposition / Phrasal Verb / Idiom of the Day** | COSYdata | COSYdata home (dictionary daily strip) | `https://cosylanguages.github.io/COSYdata/` |
+| **Speaking & Writing Prompts, Daily Challenge** | COSYpractice | COSYpractice `#daily-challenge` | `https://cosylanguages.github.io/COSYpractice/#daily-challenge` |
+| **Fun Fact, word, idiom (hub strip)** | COSYlanguages | COSYlanguages home (daily strip) | `https://cosylanguages.github.io/COSYlanguages/` |
+| **Cultural Spotlights** | COSYevents | COSYevents home | `https://cosylanguages.github.io/COSYevents/` |
+
+The directory is produced by `COSYDailyFeed.getDailyDestinations()` in `shared/js/daily-feed.js`. The vocabulary calendars that feed the drills are read from `https://cosylanguages.github.io/COSYdata/daily/<lang>/calendar/<slot>/YYYY-MM.json`.
+
+
+---
+
 ## 2. Standardized Data Schemas
 
 ### 2.1 Verb Conjugation Schema (`verbs.json`)
