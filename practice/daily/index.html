@@ -205,6 +205,65 @@
             border-radius: 6px;
             margin-left: 0.5rem;
         }
+        .elements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .dest-card {
+            display: flex;
+            flex-direction: column;
+            background: var(--bg-soft, #f8fafc);
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 12px;
+            padding: 1.1rem 1.2rem;
+        }
+        .dest-card-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--sage-dark, #234027);
+            margin: 0 0 0.4rem 0;
+        }
+        .dest-card-desc {
+            font-size: 0.92rem;
+            color: var(--ink, #1e293b);
+            margin: 0 0 0.75rem 0;
+        }
+        .dest-slot-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            padding: 0;
+            margin: 0 0 1rem 0;
+        }
+        .dest-slot {
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: var(--sage-mist, #dcfce7);
+            color: var(--sage-dark, #166534);
+        }
+        .dest-card-link {
+            margin-top: auto;
+            align-self: flex-start;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-weight: 700;
+            color: #fff;
+            background: var(--sage-dark, #234027);
+            padding: 0.55rem 1rem;
+            border-radius: 9px;
+            text-decoration: none;
+        }
+        .dest-card-link:hover {
+            background: var(--sage, #416b49);
+        }
     </style>
 </head>
 <body>
@@ -265,6 +324,16 @@
                     <option value="de">🇩🇪 Deutsch</option>
                     <option value="ru">🇷🇺 Русский</option>
                     <option value="el">🇬🇷 Ελληνικά</option>
+                </select>
+                <label for="daily-level-select" style="font-weight:600; font-size:0.9rem; margin-left:0.5rem;">Level:</label>
+                <select id="daily-level-select" class="daily-lang-select" onchange="onLevelChanged(this.value)">
+                    <option value="A0">A0</option>
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="B1" selected>B1</option>
+                    <option value="B2">B2</option>
+                    <option value="C1">C1</option>
+                    <option value="C2">C2</option>
                 </select>
             </div>
         </div>
@@ -337,7 +406,21 @@
             </div>
         </section>
 
-        <!-- CARD 3: Cross-Repository Ecosystem Integration -->
+        <!-- CARD 3: Ecosystem daily elements, grouped by the repository that owns them -->
+        <section class="daily-card" id="card-elements" aria-labelledby="heading-elements">
+            <div class="daily-card-header">
+                <h2 id="heading-elements" class="daily-card-title">
+                    <span aria-hidden="true">🌟</span>
+                    <span>Daily Elements Across the COSY Ecosystem</span>
+                </h2>
+            </div>
+            <p style="color:var(--ink-soft); margin-bottom:1rem;">Each kind of daily element lives in the repository that owns it. Open the source repository to read today's word, prompt, fact or spotlight.</p>
+            <div id="elements-grid" class="elements-grid">
+                <!-- Injected dynamically from COSYDailyFeed.getDailyDestinations() -->
+            </div>
+        </section>
+
+        <!-- CARD 4: Cross-Repository Ecosystem Integration -->
         <section class="daily-card" style="border: 2px solid var(--sage-dark, #234027); background: #f4fbf6;" aria-labelledby="heading-ecosystem">
             <h2 id="heading-ecosystem" class="daily-card-title" style="margin-bottom:0.5rem;">
                 <span aria-hidden="true">🌐</span>
@@ -359,6 +442,7 @@
     <script>
         window.currentLang = 'en';
         window.currentPack = null;
+        window.currentLevel = 'B1';
         window.expectedConjugationForm = '';
         let prepDrillQuestions = [];
         let prepDrillIndex = 0;
@@ -370,11 +454,54 @@
             document.getElementById('daily-current-date').textContent = todayStr;
 
             // Load daily grammar pack with root relative path
-            currentPack = await COSYDailyFeed.getDailyGrammarPack(currentLang, new Date(), '../../');
+            currentPack = await COSYDailyFeed.getDailyGrammarPack(currentLang, new Date(), '../../', currentLevel);
             renderConjugationCard(currentPack);
             renderPrepositionCard(currentPack);
             renderEcosystemLinks(currentPack);
+
+            // Directory of ecosystem daily surfaces, each owned by a sibling repository
+            renderDailyDestinations(COSYDailyFeed.getDailyDestinations());
         }
+
+        function renderDailyDestinations(destinations) {
+            const grid = document.getElementById('elements-grid');
+            grid.innerHTML = '';
+            (destinations || []).forEach(dest => {
+                const card = document.createElement('div');
+                card.className = 'dest-card';
+
+                const title = document.createElement('h3');
+                title.className = 'dest-card-title';
+                title.innerHTML = `<span aria-hidden="true">${dest.icon}</span> ${dest.title} <span class="dest-slot" style="background:var(--sage-dark,#234027);color:#fff;">${dest.repo}</span>`;
+                card.appendChild(title);
+
+                const desc = document.createElement('p');
+                desc.className = 'dest-card-desc';
+                desc.textContent = dest.description;
+                card.appendChild(desc);
+
+                const list = document.createElement('ul');
+                list.className = 'dest-slot-list';
+                (dest.slots || []).forEach(slot => {
+                    const li = document.createElement('li');
+                    li.className = 'dest-slot';
+                    li.textContent = `${slot.icon} ${slot.label}`;
+                    list.appendChild(li);
+                });
+                card.appendChild(list);
+
+                const link = document.createElement('a');
+                link.className = 'dest-card-link';
+                link.href = dest.url;
+                link.target = '_blank';
+                link.rel = 'noopener';
+                link.innerHTML = `Open ${dest.repo} daily <span aria-hidden="true">→</span>`;
+                card.appendChild(link);
+
+                grid.appendChild(card);
+            });
+        }
+
 
         function renderConjugationCard(pack) {
             const headword = pack.lemma || (pack.verbEntry && (pack.verbEntry.base || pack.verbEntry.lemma)) || 'speak';
@@ -631,12 +758,25 @@
             loadDailyData(newLang);
         }
 
+        function onLevelChanged(newLevel) {
+            currentLevel = newLevel || 'B1';
+            loadDailyData(currentLang);
+        }
+
         window.addEventListener('DOMContentLoaded', () => {
             // ?lang=fr opens the page in that language (the COSY daily strips link here); unknown values fall back to English
             const select = document.getElementById('daily-language-select');
             const wanted = new URLSearchParams(window.location.search).get('lang');
             const lang = wanted && select && Array.prototype.some.call(select.options, (o) => o.value === wanted) ? wanted : 'en';
             if (select) select.value = lang;
+
+            // ?level=B2 selects the CEFR level used to pick the daily cards; unknown values fall back to B1
+            const levelSelect = document.getElementById('daily-level-select');
+            const wantedLevel = new URLSearchParams(window.location.search).get('level');
+            const level = wantedLevel && levelSelect && Array.prototype.some.call(levelSelect.options, (o) => o.value === wantedLevel) ? wantedLevel : 'B1';
+            if (levelSelect) levelSelect.value = level;
+            currentLevel = level;
+
             loadDailyData(lang);
         });
     </script>

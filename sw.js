@@ -19,6 +19,7 @@ const ASSETS_TO_CACHE = [
   './shared/images/cosylanguages.png',
   './shared/js/languages.js',
   './shared/js/shell.js',
+  './shared/js/daily-feed.js',
   './shared/js/hub-i18n.js',
   './shared/js/hub-filter.js',
   './shared/engines/srs-store.js',

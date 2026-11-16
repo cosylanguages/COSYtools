@@ -126,6 +126,20 @@ async function runTests() {
         global.fetch = realFetch2;
     }
 
+    // 9. Ecosystem daily destinations: a link directory grouped by owning repository
+    const dests = feed.getDailyDestinations();
+    ok(Array.isArray(dests) && dests.length === 4, 'getDailyDestinations returns one entry per owning repository (' + dests.length + ')');
+    const repos = dests.map(d => d.repo);
+    ok(repos.includes('COSYdata') && repos.includes('COSYpractice') && repos.includes('COSYlanguages') && repos.includes('COSYevents'), 'the directory covers vocabulary, practice, hub and events repositories');
+    const vocab = dests.find(d => d.repo === 'COSYdata');
+    ok(/^https:\/\/cosylanguages\.github\.io\/COSYdata\//.test(vocab.url), 'vocabulary links to the COSYdata daily page');
+    ok(vocab.slots.some(s => /Word of the Day/.test(s.label)) && vocab.slots.some(s => /Idiom of the Day/.test(s.label)), 'COSYdata entry lists its vocabulary slots');
+    const practice = dests.find(d => d.repo === 'COSYpractice');
+    ok(practice.url.includes('#daily-challenge') && practice.slots.some(s => /Daily Challenge/.test(s.label)), 'COSYpractice entry links to the Daily Challenge');
+    ok(dests.every(d => d.slots.length > 0 && /^https:\/\//.test(d.url)), 'every destination has a daily URL and at least one slot');
+    ok(typeof feed.getDailyElements === 'undefined' && typeof feed.DAILY_ELEMENT_SOURCES === 'undefined', 'content-consolidation API is gone (no duplicated daily content)');
+
+
     console.log('\n--- Testing practice/daily/index.html Behaviour in JSDOM ---');
     const errs = [];
     const vc = new VirtualConsole();
@@ -149,6 +163,15 @@ async function runTests() {
     ok(doc.getElementById('card-preposition'), 'Preposition card rendered');
     ok(doc.getElementById('link-conversation').href.includes('COSYlanguages/?date='), 'Conversation ecosystem button rendered');
     ok(doc.getElementById('link-practice').href.includes('COSYpractice/?verb='), 'Practice ecosystem button rendered');
+    ok(doc.getElementById('card-elements') && doc.getElementById('elements-grid'), 'Ecosystem daily elements card rendered');
+
+    // The elements grid is a link directory to each owning repository's daily page.
+    const destCards = doc.querySelectorAll('#elements-grid .dest-card');
+    ok(destCards.length === 4, 'Ecosystem daily destinations grid shows one card per repository (' + destCards.length + ')');
+    const gridText = doc.getElementById('elements-grid').textContent;
+    ok(/COSYdata/.test(gridText) && /COSYpractice/.test(gridText) && /COSYlanguages/.test(gridText) && /COSYevents/.test(gridText), 'Destination cards name every owning repository');
+    const destLinks = Array.from(doc.querySelectorAll('#elements-grid .dest-card-link'));
+    ok(destLinks.length === 4 && destLinks.every(a => /^https:\/\/cosylanguages\.github\.io\//.test(a.href)), 'Every destination card links to its repository daily page');
 
     // Test mini-drill conjugation check
     const input = doc.getElementById('drill-conj-input');
@@ -177,6 +200,19 @@ async function runTests() {
         const sel = ldom.window.document.getElementById('daily-language-select');
         ok(sel.value === expected && ldom.window.currentLang === expected, `Daily page opens in '${expected}' for "${query}"`);
         ok(langErrs.length === 0, `No script errors for "${query}": ` + langErrs.join('|'));
+        ldom.window.close();
+    }
+
+    // ?level= selects the CEFR level used to pick the daily cards
+    for (const [query, expected] of [['?level=B2', 'B2'], ['?level=zz', 'B1'], ['', 'B1']]) {
+        const lvc = new VirtualConsole();
+        const ldom = await JSDOM.fromURL(`http://localhost:${server.address().port}/practice/daily/index.html${query}`, {
+            runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: lvc,
+            beforeParse(win) { win.fetch = u => fetch(new URL(u, win.location.href).href); }
+        });
+        await sleep(800);
+        const levelSel = ldom.window.document.getElementById('daily-level-select');
+        ok(levelSel.value === expected && ldom.window.currentLevel === expected, `Daily page uses level '${expected}' for "${query}"`);
         ldom.window.close();
     }
 

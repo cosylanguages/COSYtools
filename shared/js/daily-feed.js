@@ -5,6 +5,11 @@
  *   https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/{slot}/{YYYY-MM}.json
  * Matches verb headword against COSYtools conjugation database & preposition governance.
  * Handles client-side midnight rollover, offline fallback, and ecosystem deep linking.
+ *
+ * Ecosystem daily content stays in the repository that owns it; this module only builds the
+ * directory of links out to those daily surfaces (see `getDailyDestinations`). Vocabulary lives
+ * in COSYdata, prompts in COSYpractice, facts and the hub strip in COSYlanguages, and cultural
+ * spotlights in COSYevents.
  */
 
 (function (root, factory) {
@@ -19,6 +24,73 @@
     'use strict';
 
     const BASE_DATA_URL = 'https://cosylanguages.github.io/COSYdata/daily';
+
+    // Canonical homes of the ecosystem daily surfaces. Each domain keeps its daily content in the
+    // repository that owns it; COSYtools links out to those pages instead of copying their content.
+    const ECOSYSTEM_BASE = {
+        data: 'https://cosylanguages.github.io/COSYdata',
+        practice: 'https://cosylanguages.github.io/COSYpractice',
+        languages: 'https://cosylanguages.github.io/COSYlanguages',
+        events: 'https://cosylanguages.github.io/COSYevents'
+    };
+
+    /**
+     * Where each kind of daily element lives, grouped by the repository that owns it.
+     * `url` is the daily landing page in that repository; `slots` are the elements it serves there.
+     */
+    const DAILY_DESTINATIONS = [
+        {
+            repo: 'COSYdata',
+            title: 'Vocabulary of the Day',
+            icon: '📖',
+            url: `${ECOSYSTEM_BASE.data}/`,
+            description: 'Word, verb, verb + preposition, phrasal verb and idiom of the day, generated from the dictionary.',
+            slots: [
+                { label: 'Word of the Day', icon: '📖' },
+                { label: 'Verb of the Day', icon: '🔤' },
+                { label: 'Verb + Preposition', icon: '🧩' },
+                { label: 'Phrasal Verb of the Day', icon: '🔗' },
+                { label: 'Idiom of the Day', icon: '💬' }
+            ]
+        },
+        {
+            repo: 'COSYpractice',
+            title: 'Speaking & Writing',
+            icon: '🗣️',
+            url: `${ECOSYSTEM_BASE.practice}/#daily-challenge`,
+            description: 'Daily speaking and writing prompts plus the rotating Daily Challenge with streaks.',
+            slots: [
+                { label: 'Speaking Prompt', icon: '🗣️' },
+                { label: 'Writing Prompt', icon: '✍️' },
+                { label: 'Daily Challenge', icon: '🏆' }
+            ]
+        },
+        {
+            repo: 'COSYlanguages',
+            title: 'Daily Strip',
+            icon: '🌍',
+            url: `${ECOSYSTEM_BASE.languages}/`,
+            description: 'The hub daily strip: word, idiom, prompt and fun fact, with audio and level filtering.',
+            slots: [
+                { label: 'Fun Fact', icon: '💡' },
+                { label: 'Word & Idiom', icon: '💬' },
+                { label: 'Speaking & Writing', icon: '✍️' }
+            ]
+        },
+        {
+            repo: 'COSYevents',
+            title: 'Culture & Events',
+            icon: '🎉',
+            url: `${ECOSYSTEM_BASE.events}/`,
+            description: 'Daily spotlights: holiday of the day, today in science, music, and film & TV.',
+            slots: [
+                { label: 'Holiday of the Day', icon: '🎊' },
+                { label: 'Today in Science', icon: '🔬' },
+                { label: 'Today in Music', icon: '🎵' },
+                { label: 'Today in Film & TV', icon: '🎬' }
+            ]
+        }
+    ];
 
     /**
      * Get the client's local date string formatted as YYYY-MM-DD.
@@ -87,6 +159,22 @@
         } catch (e) {
             return null;
         }
+    }
+
+    /**
+     * Daily destinations grouped by the repository that owns each element.
+     * Pure data: no network, so it works offline and never duplicates sibling content.
+     * @returns {Array<{repo:string,title:string,icon:string,url:string,description:string,slots:Array<{label:string,icon:string}>}>}
+     */
+    function getDailyDestinations() {
+        return DAILY_DESTINATIONS.map(d => ({
+            repo: d.repo,
+            title: d.title,
+            icon: d.icon,
+            url: d.url,
+            description: d.description,
+            slots: d.slots.map(s => ({ label: s.label, icon: s.icon }))
+        }));
     }
 
     /**
@@ -495,6 +583,9 @@
         hashString,
         getEcosystemLinks,
         fetchDailyCalendar,
+        getDailyDestinations,
+        DAILY_DESTINATIONS,
+        ECOSYSTEM_BASE,
         fetchConjugationData,
         fetchPrepositionRules,
         pickLevelCard,
