@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SKIP = new Set(['node_modules', '.git', 'docs']);
+const SKIP = new Set(['node_modules', '.git', 'docs', 'native']);
 const errors = [];
 
 function walk(dir, out = []) {

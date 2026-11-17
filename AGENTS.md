@@ -35,3 +35,38 @@ owners, because there COSYtools is the host.
 - COSYpractice and COSYlanguages each gained a minimal CI workflow that runs their daily
   validator / tests (`validate-daily-prompts.js`; `node --test tests/*.test.js`).
 - Live daily data is served from GitHub Pages under `https://cosylanguages.github.io/`.
+
+## Native apps (Android / iOS / desktop)
+
+COSYtools, COSYgames, and COSYpractice each ship native apps. The pattern is identical in
+all three repos; only the app id, display name, and the paths excluded from the bundle
+differ. Per repo: `scripts/build-app.js`, `scripts/generate-app-sources.js`,
+`native/capacitor`, `native/electron`, `docs/NATIVE_APPS.md`, `.github/workflows/native.yml`.
+
+| Repo | App id | Display name | Bundle size |
+|---|---|---|---|
+| COSYtools | `io.github.cosylanguages.cosytools` | COSYtools | ~71 MB, 768 files |
+| COSYgames | `io.github.cosylanguages.cosygames` | COSYgames | ~15 MB, 353 files |
+| COSYpractice | `io.github.cosylanguages.cosypractice` | COSYpractice | ~40 MB, 466 files |
+
+- A single generated web bundle, `native/www`, feeds both shells. It is a filtered copy of
+  the repo (build-only paths, git metadata, and GitHub Pages-only files excluded) and is
+  gitignored. `node scripts/build-app.js --check` fails if it is stale.
+- `scripts/generate-app-sources.js` derives `native/capacitor/assets/{icon,splash,splash-dark}.png`
+  and `native/electron/build/icon.png` from the repo logo (needs `sharp` from the root
+  `npm install`). Icons/splashes: `npx capacitor-assets generate --android --ios`.
+- Mobile: Capacitor (`native/capacitor`), platform projects committed so a clone can build
+  without regenerating them. `npx cap sync` after any web change. Capacitor 7 needs JDK 21.
+- Desktop: Electron (`native/electron`) serving the bundle over an `app://` scheme so
+  relative `fetch()` works (the Fetch spec rejects `file://`). Packaged with electron-builder.
+- Service workers are registered only on `http(s)` (`location.protocol.startsWith('http')`),
+  so the hosted PWA uses one while Capacitor and the Electron `app://` shell do not need one.
+- CI: `.github/workflows/native.yml` (bundle reproducibility check, Android debug APK,
+  desktop installers on Ubuntu/Windows/macOS). Native shells use `npm ci` with committed
+  lockfiles. iOS needs a macOS runner + signing and is left to a release job.
+- Root-walking test/validator scripts skip `native/` (e.g. `SKIP_DIRS` in COSYgames'
+  `scripts/sync-site-urls.js`) so the generated bundle is not double-scanned.
+- Offline data: COSYpractice vendors `data/cosydata/themes.json` (refresh:
+  `npm run vendor:cosydata`) and reads it before the live COSYdata schema. COSYpractice's
+  Concept Check page still fetches lesson units from COSYplatform at runtime and shows a
+  retry card when offline.

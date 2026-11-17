@@ -1,0 +1,63 @@
+{
+  "name": "cosytools-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electron desktop shell (Windows, macOS, Linux) for COSYtools",
+  "author": "COSY Languages",
+  "main": "main.js",
+  "scripts": {
+    "build:web": "node ../../scripts/build-app.js",
+    "start": "electron .",
+    "dist:win": "electron-builder --win --publish never",
+    "dist:mac": "electron-builder --mac --publish never",
+    "dist:linux": "electron-builder --linux --publish never"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "io.github.cosylanguages.cosytools",
+    "productName": "COSYtools",
+    "publish": null,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      {
+        "from": "../www",
+        "to": "www"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "build/icon.png",
+      "category": "public.app-category.education"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "icon": "build/icon.png",
+      "category": "Education"
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}

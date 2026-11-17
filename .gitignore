@@ -8,3 +8,13 @@ test-results/
 # Raw upstream imports (regenerate with scripts/data-pipeline, see docs/DATA_PIPELINE.md)
 tools/*/data/morphology.json
 tools/*/data/kaikki.json
+
+# Native app build outputs (regenerate: npm run app:build / app:sources)
+native/www/
+native/.www-manifest.json
+native/*/node_modules/
+native/*/dist/
+# electron-builder derives .ico/.icns here at package time; icon.png is committed.
+native/electron/build/*
+!native/electron/build/icon.png
+native/capacitor/icons/

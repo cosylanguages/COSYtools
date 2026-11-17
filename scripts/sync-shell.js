@@ -51,7 +51,7 @@ function getFiles(dir) {
   let res = [];
   const list = fs.readdirSync(dir);
   for (const f of list) {
-    if (f === 'node_modules' || f === '.git' || f === 'shared') continue;
+    if (f === 'node_modules' || f === '.git' || f === 'shared' || f === 'native') continue;
     const full = path.join(dir, f);
     const stat = fs.statSync(full);
     if (stat.isDirectory()) res = res.concat(getFiles(full));
