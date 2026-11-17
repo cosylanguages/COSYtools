@@ -12,7 +12,7 @@ const ok = (c, m) => { if (!c) { fails++; console.log('FAIL', m); } else console
 
 const walkFiles = (dir, out = []) => {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (['node_modules', '.git', 'docs'].includes(e.name)) continue;
+    if (['node_modules', '.git', 'docs', 'native'].includes(e.name)) continue;
     const f = path.join(dir, e.name);
     if (e.isDirectory()) walkFiles(f, out); else if (e.name.endsWith('.json')) out.push(f);
   }

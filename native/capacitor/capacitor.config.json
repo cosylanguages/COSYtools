@@ -1,0 +1,15 @@
+{
+  "appId": "io.github.cosylanguages.cosytools",
+  "appName": "COSYtools",
+  "webDir": "../www",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

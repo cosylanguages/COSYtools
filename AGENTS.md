@@ -35,3 +35,20 @@ owners, because there COSYtools is the host.
 - COSYpractice and COSYlanguages each gained a minimal CI workflow that runs their daily
   validator / tests (`validate-daily-prompts.js`; `node --test tests/*.test.js`).
 - Live daily data is served from GitHub Pages under `https://cosylanguages.github.io/`.
+
+## Native apps (Android / iOS / desktop)
+
+COSYtools is the first COSY repo to gain native packaging. See `docs/NATIVE_APPS.md`.
+
+- `scripts/build-app.js` copies the site into `native/www` (the single web bundle both
+  shells consume) and writes `native/.www-manifest.json`. `native/www` is gitignored.
+- `scripts/generate-app-sources.js` derives `native/capacitor/assets/{icon,splash,splash-dark}.png`
+  and `native/electron/build/icon.png` from `shared/images/cosylanguages.png`.
+- Mobile: Capacitor (`native/capacitor`, app id `io.github.cosylanguages.cosytools`).
+  Icons/splashes via `npx capacitor-assets generate`. Platform projects are generated
+  (`npx cap add android|ios`), not hand-edited.
+- Desktop: Electron (`native/electron`) serving the bundle over an `app://` scheme so
+  relative `fetch()` works. Packaged with electron-builder.
+- CI: `.github/workflows/native.yml` (bundle check, Android debug APK, desktop installers
+  on Ubuntu/Windows/macOS). iOS needs a macOS runner + signing and is left to a release job.
+- Root-walking test scripts skip `native/` so the generated bundle is not double-scanned.

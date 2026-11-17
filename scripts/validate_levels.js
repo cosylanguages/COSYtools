@@ -11,7 +11,7 @@ function scanDataFiles(dir) {
     for (const entry of entries) {
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
-            if (entry.name === 'node_modules' || entry.name === '.git') continue;
+            if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === 'native') continue;
             files = files.concat(scanDataFiles(fullPath));
         } else if (entry.isFile() && entry.name.endsWith('.json') && fullPath.includes('/data/')) {
             files.push(fullPath);

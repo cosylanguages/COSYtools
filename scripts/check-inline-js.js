@@ -9,7 +9,7 @@ function findHtmlFiles(dir) {
         const filePath = path.join(dir, file);
         const stat = fs.statSync(filePath);
         if (stat && stat.isDirectory()) {
-            if (file !== 'node_modules' && file !== '.git') {
+            if (file !== 'node_modules' && file !== '.git' && file !== 'native') {
                 results = results.concat(findHtmlFiles(filePath));
             }
         } else if (filePath.endsWith('.html')) {

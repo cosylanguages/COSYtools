@@ -19,7 +19,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function walk(dir, out) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (['node_modules', '.git', 'docs', 'assets', 'scripts'].includes(e.name)) continue;
+    if (['node_modules', '.git', 'docs', 'assets', 'scripts', 'native'].includes(e.name)) continue;
     const f = path.join(dir, e.name);
     if (e.isDirectory()) walk(f, out); else if (e.name === 'index.html') out.push(path.relative(root, f));
   }

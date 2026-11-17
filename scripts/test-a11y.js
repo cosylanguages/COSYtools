@@ -13,7 +13,7 @@ function getAllHtmlFiles(dirPath, arrayOfFiles = []) {
   const files = fs.readdirSync(dirPath);
 
   files.forEach(file => {
-    if (file === 'node_modules' || file === '.git' || file === 'templates') return;
+    if (file === 'node_modules' || file === '.git' || file === 'templates' || file === 'native') return;
     const fullPath = path.join(dirPath, file);
     if (fs.statSync(fullPath).isDirectory()) {
       arrayOfFiles = getAllHtmlFiles(fullPath, arrayOfFiles);
@@ -135,7 +135,7 @@ if (fs.existsSync(baseCssPath)) {
 // ---- Scan JavaScript templates (engines render most of the interactive UI) ----
 function collectJsFiles(dir, out) {
   fs.readdirSync(dir, { withFileTypes: true }).forEach(entry => {
-    if (entry.name === 'node_modules' || entry.name === '.git') return;
+    if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === 'native') return;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) collectJsFiles(full, out);
     else if (entry.name.endsWith('.js')) out.push(full);

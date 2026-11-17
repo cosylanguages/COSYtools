@@ -70,7 +70,7 @@ function scanHtmlFiles(dir) {
   for (const file of list) {
     const res = path.join(dir, file.name);
     if (file.isDirectory()) {
-      if (file.name !== 'node_modules' && file.name !== '.git') {
+      if (file.name !== 'node_modules' && file.name !== '.git' && file.name !== 'native') {
         results = results.concat(scanHtmlFiles(res));
       }
     } else if (file.name.endsWith('.html')) {

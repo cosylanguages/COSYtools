@@ -15,6 +15,7 @@ Ecosystem Hub: [https://cosylanguages.github.io/COSYlanguages/](https://cosylang
    - **Supplemental Lexicon Shards (`tools/<lang>/data/shards/`):** Letter-sharded dictionary data loaded on-demand to keep initial bundle sizes under 1.5 MB.
 3. **Central Registry, Isolated Tools:** `shared/js/languages.js` owns language metadata and `COSYTOOLS_PRIMARY_LANGUAGES`; `catalog.json` owns the tool inventory. Each `tools/<lang>/<tool>/` directory owns that tool's page, code, and data. Shared UI and engines live in `shared/`.
 4. **Ecosystem Integration:** Standardized headword deep-linking and integration with COSYdata, COSYgames, COSYplatform, and COSYevents.
+5. **Native Packaging:** The same client-side code is wrapped as Android, iOS, and desktop (Windows/macOS/Linux) apps via Capacitor and Electron, with no fork of the web app. See [`docs/NATIVE_APPS.md`](docs/NATIVE_APPS.md).
 
 Language tier and tool maturity are separate: the five primary learning languages are listed in `COSYTOOLS_PRIMARY_LANGUAGES`; other registered languages appear in the hub's secondary group. A tool's `stable`, `beta`, or `stub` catalog status describes that tool only.
 
