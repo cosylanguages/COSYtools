@@ -41,7 +41,10 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
+        run: npm install
+        env:
+          # Cross-platform form; inline VAR=value is bash-only and fails on Windows.
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
       - name: Build native/www
         run: node scripts/build-app.js
@@ -76,7 +79,10 @@ jobs:
           packages: ''
 
       - name: Install root dependencies
-        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
+        run: npm install
+        env:
+          # Cross-platform form; inline VAR=value is bash-only and fails on Windows.
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
       - name: Build native/www
         run: node scripts/build-app.js
@@ -116,7 +122,10 @@ jobs:
           node-version: '22'
 
       - name: Install root dependencies
-        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
+        run: npm install
+        env:
+          # Cross-platform form; inline VAR=value is bash-only and fails on Windows.
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
       - name: Build native/www
         run: node scripts/build-app.js
