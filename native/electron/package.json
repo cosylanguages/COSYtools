@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Electron desktop shell (Windows, macOS, Linux) for COSYtools",
+  "author": "COSY Languages",
   "main": "main.js",
   "scripts": {
     "build:web": "node ../../scripts/build-app.js",
@@ -18,6 +19,7 @@
   "build": {
     "appId": "io.github.cosylanguages.cosytools",
     "productName": "COSYtools",
+    "publish": null,
     "directories": {
       "output": "dist"
     },

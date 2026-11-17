@@ -69,6 +69,11 @@ jobs:
           java-version: '21'
 
       - uses: android-actions/setup-android@v3
+        with:
+          # The action's default "tools platform-tools" fails: Google removed the
+          # obsolete "tools" package, so sdkmanager exits 1. platform-tools is
+          # already preinstalled on the runner, so no extra packages are needed.
+          packages: ''
 
       - name: Install root dependencies
         run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
