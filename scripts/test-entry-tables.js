@@ -5,6 +5,7 @@
 require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
+const { pageErrors } = require('./lib/shared-asset-errors');
 const root = path.join(__dirname, '..');
 const srv = http.createServer((q, r) => {
   const f = path.join(root, decodeURIComponent(q.url.split('?')[0]));
@@ -46,7 +47,7 @@ async function practiceSurvives(tool) {
   }
   let asked = 0;
   if (next) for (let i = 0; i < 150; i++) { next.click(); if (d.getElementById('practice-prompt').textContent.trim()) asked++; }
-  ok(!!next && asked === 150 && errs.length === 0, `${tool}: 150 practice questions without errors ${errs.slice(0, 1).join('|')}`);
+  ok(!!next && asked === 150 && pageErrors(errs).length === 0, `${tool}: 150 practice questions without errors ${pageErrors(errs).slice(0, 1).join('|')}`);
   dom.window.close();
 }
 

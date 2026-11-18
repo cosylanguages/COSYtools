@@ -4,6 +4,9 @@ const path = require('path');
 const stripTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/strip.html'), 'utf8');
 const footerTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/footer.html'), 'utf8');
 
+const STRIP_CSS = 'https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css';
+const STRIP_JS = 'https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js';
+
 const TRANSLATIONS = {
   en: {
     themeLabel: 'Switch theme',
@@ -82,10 +85,9 @@ function getFileLang(content) {
 }
 
 function renderStrip(fromFile, lang) {
-  const indexLink = getRelativeIndex(fromFile);
   const trans = TRANSLATIONS[lang] || TRANSLATIONS.en;
   return stripTemplate
-    .replace('{{INDEX_LINK}}', indexLink)
+    .replace('{{LANG}}', lang)
     .replace('{{THEME_TOGGLE_LABEL}}', trans.themeLabel);
 }
 
@@ -103,10 +105,21 @@ files.forEach(f => {
   const lang = getFileLang(content);
 
   const strip = renderStrip(f, lang);
-  if (content.includes('class="cosy-ecosystem-strip"')) {
+  if (content.includes('<!-- /Shared Ecosystem Strip -->')) {
+    content = content.replace(/<!-- Shared Ecosystem Strip -->[\s\S]*?<!-- \/Shared Ecosystem Strip -->/i, strip.trim());
+  } else if (content.includes('class="cosy-ecosystem-strip"')) {
+    // Legacy hand-written bar (strip + inner divs) → component mount.
     content = content.replace(/<!-- Shared Ecosystem Strip -->[\s\S]*?<\/div>\s*<\/div>/i, strip.trim());
   } else if (content.includes('<body')) {
     content = content.replace(/(<body[^>]*>)/i, `$1\n    ${strip.trim()}\n`);
+  }
+
+  // Load the shared strip component once per page.
+  if (!content.includes('ecosystem-strip.css') && content.includes('</head>')) {
+    content = content.replace('</head>', `  <link rel="stylesheet" href="${STRIP_CSS}">\n</head>`);
+  }
+  if (!content.includes('ecosystem-strip.js') && content.includes('</body>')) {
+    content = content.replace('</body>', `  <script src="${STRIP_JS}" defer></script>\n</body>`);
   }
 
   const footer = renderFooter(lang);

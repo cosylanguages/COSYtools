@@ -193,18 +193,11 @@
         }
     }
 
-    function preserveHubContext() {
-        document.querySelectorAll('.cosy-strip-link.active').forEach(function(link) {
-            link.setAttribute('href', withHubContext(link.getAttribute('href')));
-        });
-    }
-
     // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
         initTheme();
         checkEmbedMode();
         renderAppHeader();
-        preserveHubContext();
         loadEcosystemScripts();
         registerServiceWorker();
         const toggleBtn = document.getElementById('cosy-theme-toggle');

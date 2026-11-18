@@ -4,6 +4,7 @@
 require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
+const { pageErrors } = require('./lib/shared-asset-errors');
 const root = path.join(__dirname, '..');
 const srv = http.createServer((q, r) => {
   const f = path.join(root, decodeURIComponent(q.url.split('?')[0]));
@@ -29,7 +30,7 @@ async function load(page, before) {
 (async () => {
   // ---------- Quick Drills ----------
   let { w, d, errs } = await load('practice/quick-drills/index.html');
-  ok(errs.length === 0, 'quick-drills: no script errors ' + errs.join('|'));
+  ok(pageErrors(errs).length === 0, 'quick-drills: no script errors ' + pageErrors(errs).join('|'));
   ok(d.getElementById('qd-progress').getAttribute('role') === 'progressbar' && d.getElementById('qd-progress').hasAttribute('aria-valuenow'), 'quick-drills: progress bar exposed');
   ok(d.getElementById('qd-feedback').getAttribute('role') === 'status', 'quick-drills: feedback is a live region');
   const opts = () => [...d.querySelectorAll('#qd-options button')];
@@ -65,7 +66,7 @@ async function load(page, before) {
   ok(w.COSYReferenceUtils.getWeakSpots().length === before - 1, "weak-spots: button works for ids containing an apostrophe");
   ok(/removed/.test(d.getElementById('ws-status').textContent), 'weak-spots: removal announced');
   ok(d.activeElement && d.activeElement.closest('#weak-spots-list'), 'weak-spots: focus kept inside the list after removal');
-  ok(errs.length === 0, 'weak-spots: no script errors ' + errs.join('|'));
+  ok(pageErrors(errs).length === 0, 'weak-spots: no script errors ' + pageErrors(errs).join('|'));
 
   console.log(fails ? 'FAILURES: ' + fails : 'ALL PRACTICE PAGE CHECKS PASSED');
   srv.close(); process.exit(fails ? 1 : 0);

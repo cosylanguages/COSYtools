@@ -326,22 +326,12 @@
             border-color: var(--sage-dark, #234027);
         }
     </style>
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
 </head>
 <body>
 <!-- Shared Ecosystem Strip -->
-<div class="cosy-ecosystem-strip" role="navigation" aria-label="COSY Ecosystem Products">
-  <div class="cosy-strip-inner">
-    <span class="cosy-strip-brand">COSY Ecosystem:</span>
-    <ul class="cosy-strip-links">
-      <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link">COSYlanguages</a></li>
-      <li><a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-strip-link">COSYdata</a></li>
-      <li><a href="../../index.html" class="cosy-strip-link active">COSYtools</a></li>
-      <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames</a></li>
-      <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents</a></li>
-    </ul>
-    <button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; cursor:pointer; margin-left:auto;">Dark</button>
-  </div>
-</div>
+<div class="cosy-ecosystem-strip" data-ecosystem-strip data-self="tools" data-lang="en"><button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; cursor:pointer;">Dark</button></div>
+<!-- /Shared Ecosystem Strip -->
 
     <header class="ref-header">
         <nav aria-label="Breadcrumb" style="display:flex; align-items:center; gap:0.5rem;">
@@ -1768,5 +1758,6 @@
     <p><small>© COSYlanguages. Open language reference tools.</small></p>
   </div>
 </footer>
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
 </body>
 </html>

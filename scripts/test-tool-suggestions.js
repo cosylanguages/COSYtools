@@ -6,6 +6,7 @@
 require('./lib/ignore-closed-window-errors');
 const http = require('http'), fs = require('fs'), path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
+const { pageErrors } = require('./lib/shared-asset-errors');
 const root = path.join(__dirname, '..');
 const srv = http.createServer((q, r) => {
   const f = path.join(root, decodeURIComponent(q.url.split('?')[0]));
@@ -69,7 +70,7 @@ async function testPage(tool) {
   items[0].dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
   await sleep(60);
   ok(d.activeElement === input && getComputedStyleDisplay(w, box) === 'none', `${tool}: Escape returns to the input and closes the list`);
-  ok(errs.length === 0, `${tool}: no script errors ${errs.slice(0, 1).join('|')}`);
+  ok(pageErrors(errs).length === 0, `${tool}: no script errors ${pageErrors(errs).slice(0, 1).join('|')}`);
 
   // selecting: the handler must run without throwing (including keys with apostrophes)
   input.value = typed; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(60);

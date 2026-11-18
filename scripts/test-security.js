@@ -145,9 +145,13 @@ async function ssoResult(href) {
   await new Promise(r => server.listen(0, '127.0.0.1', r));
   const base = `http://127.0.0.1:${server.address().port}`;
   const external = [];
+  // The site is served from localhost here but really lives on cosylanguages.github.io; the shared
+  // components (ecosystem strip, daily directory) are same-origin there, so treat that host as first-party.
+  const OWN_ORIGIN = 'https://cosylanguages.github.io/';
   class Spy extends ResourceLoader {
     fetch(url, opts) {
-      if (!url.startsWith(base)) { external.push(url); return Promise.resolve(Buffer.from('')); }
+      if (!url.startsWith(base) && !url.startsWith(OWN_ORIGIN)) { external.push(url); return Promise.resolve(Buffer.from('')); }
+      if (url.startsWith(OWN_ORIGIN)) return Promise.resolve(Buffer.from(''));
       return super.fetch(url, opts);
     }
   }
