@@ -4,35 +4,8 @@
     // --------------------------------------------------------------------------
     // Theme Management
     // --------------------------------------------------------------------------
-    function applyTheme(theme) {
-        if (theme === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        } else {
-            document.documentElement.removeAttribute('data-theme');
-        }
-        const btn = document.getElementById('cosy-theme-toggle');
-        if (btn) {
-            btn.textContent = theme === 'dark' ? 'Light' : 'Dark';
-            btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
-        }
-    }
-
-    function initTheme() {
-        const stored = localStorage.getItem('cosy_theme');
-        if (stored === 'dark' || stored === 'light') {
-            applyTheme(stored);
-        } else {
-            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            applyTheme(prefersDark ? 'dark' : 'light');
-        }
-    }
-
-    function toggleTheme() {
-        const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-        const next = current === 'dark' ? 'light' : 'dark';
-        localStorage.setItem('cosy_theme', next);
-        applyTheme(next);
-    }
+    // Theme state, storage (cosy.theme, shared by every COSY site) and the toggle live in cosy-theme.js,
+    // which each page loads in <head>. Nothing to do here.
 
     // --------------------------------------------------------------------------
     // App Header Rendering
@@ -195,16 +168,10 @@
 
     // Bind theme toggle button, app header rendering & script loading when DOM is ready
     function bindEvents() {
-        initTheme();
         checkEmbedMode();
         renderAppHeader();
         loadEcosystemScripts();
         registerServiceWorker();
-        const toggleBtn = document.getElementById('cosy-theme-toggle');
-        if (toggleBtn) {
-            toggleBtn.removeEventListener('click', toggleTheme);
-            toggleBtn.addEventListener('click', toggleTheme);
-        }
         handleInitialDeepLink();
     }
 

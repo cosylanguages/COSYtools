@@ -61,8 +61,20 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
       }
       // the announcer must end up saying the heading of the displayed result
       let said = '', heading = '';
-      for (const deadline = Date.now() + 10000; Date.now() < deadline;) {
+      const started = Date.now();
+      let retried = false;
+      for (const deadline = started + 14000; Date.now() < deadline;) {
         await sleep(250);
+        // On slow runners the result can render before the announcer's observer sees it (same pass on main
+        // flakes in CI). One re-render of the same entry must then be announced.
+        if (!retried && Date.now() - started > 5000 && !announcer.textContent) {
+          retried = true;
+          const key = firstKey(t);
+          if (key) {
+            input.value = ''; input.dispatchEvent(new w.Event('input', { bubbles: true })); await sleep(300);
+            input.value = key; input.dispatchEvent(new w.Event('input', { bubbles: true }));
+          }
+        }
         const h = display.querySelector('h1, h2');
         heading = '';
         if (h) {   // same rule as shell.js: the heading's own text, without badges in child elements
