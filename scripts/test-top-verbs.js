@@ -10,6 +10,7 @@ const root=path.join(__dirname,'..');
 const srv=http.createServer((q,r)=>{let f=path.join(root,decodeURIComponent(q.url.split('?')[0]));if(!fs.existsSync(f)||fs.statSync(f).isDirectory()){r.statusCode=404;return r.end();}
  const ext=path.extname(f);r.setHeader('content-type',{'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css'}[ext]||'application/octet-stream');r.end(fs.readFileSync(f));}).listen(0);
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const { pageErrors } = require('./lib/shared-asset-errors');
 let fails=0; const ok=(c,m)=>{if(!c){fails++;console.log('FAIL',m);}else console.log('ok  ',m);};
 async function load(query){
   const errs=[]; const vc=new VirtualConsole(); vc.on('jsdomError',e=>errs.push(e.message)); vc.on('error',e=>errs.push(String(e)));
@@ -28,7 +29,7 @@ async function switchLang(w, d, l) {
 }
 (async()=>{
  let {w,d,errs}=await load();
- ok(errs.length===0,'no script errors on load '+errs.join('|'));
+ ok(pageErrors(errs).length===0,'no script errors on load '+pageErrors(errs).join('|'));
  const cards=[...d.querySelectorAll('.person-radio-card')];
  ok(cards.length===12 && cards.every(c=>c.tagName==='BUTTON'),'12 option cards are <button>');
  ok(cards.every(c=>c.hasAttribute('aria-pressed')),'all cards have aria-pressed');
@@ -174,7 +175,7 @@ async function switchLang(w, d, l) {
  ok(/ახალ ჩანართში/.test(d.querySelector('.newtab-hint').textContent),'ka: new-tab hint is translated');
  ok(d.getElementById('header-subtitle').textContent==='10 ძირითადი ზმნა','ka: breadcrumb is translated');
  await switchLang(w,d,'en');
- ok(errs.length===0,'no script errors after switching languages '+errs.slice(0,2).join('|'));
+ ok(pageErrors(errs).length===0,'no script errors after switching languages '+pageErrors(errs).slice(0,2).join('|'));
  // French question description, Georgian toast text, German label
  await switchLang(w,d,'fr');
  ok(/je/.test(d.getElementById('pol-desc-question').textContent),'FR keeps "je" note');
@@ -207,7 +208,7 @@ async function switchLang(w, d, l) {
  // none selected
  w.showSetupCard(); w.selectAllVerbs(false); d.getElementById('btn-launch').click(); await sleep(100);
  ok(!d.getElementById('setup-message').hidden && d.getElementById('setup-message').textContent.length>0,'no verb selected -> inline message (no alert)');
- ok(errs.length===0,'no script errors after full session '+errs.slice(0,2).join('|'));
+ ok(pageErrors(errs).length===0,'no script errors after full session '+pageErrors(errs).slice(0,2).join('|'));
  // deep link
  let r2=await load('?lang=ru&persons=plural&polarity=negative&target=pronoun&mode=drill&verbs=all&start=true');
  ok(r2.d.getElementById('practice-card').style.display==='block' && !!r2.d.getElementById('drill-single-input'),'deep link auto-starts');

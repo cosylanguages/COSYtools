@@ -64,14 +64,6 @@ function normalizePath(p) {
   return p.replace(/\\/g, '/');
 }
 
-function getRelativeIndex(fromFile) {
-  const norm = normalizePath(fromFile);
-  const parts = norm.split('/').filter(Boolean);
-  const dirDepth = parts.length - 1;
-  if (dirDepth === 0) return 'index.html';
-  return '../'.repeat(dirDepth) + 'index.html';
-}
-
 function getFileLang(content) {
   const match = content.match(/<html[^>]*lang=["']([^"']+)["']/i);
   if (match) {
@@ -82,10 +74,9 @@ function getFileLang(content) {
 }
 
 function renderExpectedStrip(fromFile, lang) {
-  const indexLink = getRelativeIndex(fromFile);
   const trans = TRANSLATIONS[lang] || TRANSLATIONS.en;
   return stripTemplate
-    .replace('{{INDEX_LINK}}', indexLink)
+    .replace('{{LANG}}', lang)
     .replace('{{THEME_TOGGLE_LABEL}}', trans.themeLabel)
     .trim();
 }

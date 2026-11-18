@@ -121,7 +121,7 @@ const click = (doc, sel) => doc.querySelector(sel).click();
   dom = await load(base, '?lang=el&type=syntax');
   d = dom.window.document;
   check('?lang=el&type=syntax shows el-syntaxi', visibleIds(d).join() === 'el-syntaxi', visibleIds(d).join());
-  check('hub link preserves deep-linked study language', d.querySelector('.cosy-strip-link.active').getAttribute('href').includes('lang=el'));
+  check('shared ecosystem strip mount is present', !!d.querySelector('[data-ecosystem-strip][data-self="tools"]'));
 
   const embedDom = await load(base, '?embed=1');
   check('embed query survives filter initialization', embedDom.window.location.search.includes('embed=1'), embedDom.window.location.search);

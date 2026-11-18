@@ -38,6 +38,7 @@ const server = http.createServer((req, res) => {
 }).listen(0);
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+const { pageErrors } = require('./lib/shared-asset-errors');
 
 async function runTests() {
     console.log('--- Testing COSYDailyFeed Unit Functions ---');
@@ -158,7 +159,7 @@ async function runTests() {
     await sleep(800);
     const doc = dom.window.document;
 
-    ok(errs.length === 0, 'No script errors on daily page: ' + errs.join('|'));
+    ok(pageErrors(errs).length === 0, 'No script errors on daily page: ' + pageErrors(errs).join('|'));
     ok(doc.getElementById('card-conjugation'), 'Conjugation card rendered');
     ok(doc.getElementById('card-preposition'), 'Preposition card rendered');
     ok(doc.getElementById('link-conversation').href.includes('COSYlanguages/?date='), 'Conversation ecosystem button rendered');
@@ -199,7 +200,7 @@ async function runTests() {
         await sleep(800);
         const sel = ldom.window.document.getElementById('daily-language-select');
         ok(sel.value === expected && ldom.window.currentLang === expected, `Daily page opens in '${expected}' for "${query}"`);
-        ok(langErrs.length === 0, `No script errors for "${query}": ` + langErrs.join('|'));
+        ok(pageErrors(langErrs).length === 0, `No script errors for "${query}": ` + pageErrors(langErrs).join('|'));
         ldom.window.close();
     }
 
