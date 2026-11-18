@@ -19,6 +19,7 @@
     <meta name="theme-color" content="#416b49">
 
 
+    <script src="shared/js/cosy-theme.js"></script>
     <link rel="stylesheet" href="shared/css/fonts.css">
     <link rel="stylesheet" href="shared/css/cosy-tokens.css">
     <link rel="stylesheet" href="shared/css/tokens.css">
@@ -29,10 +30,12 @@
     <link rel="stylesheet" href="shared/css/tools.css">
     <link rel="stylesheet" href="shared/styles/reference.css">
     <link rel="stylesheet" href="shared/css/hub.css">
+    <link rel="stylesheet" href="shared/css/hero.css">
 
     <script src="shared/js/shell.js" defer></script>
     <script src="shared/js/hub-i18n.js" defer></script>
     <script src="shared/js/hub-filter.js" defer></script>
+    <script src="shared/js/hero-chips.js" defer></script>
       <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
 </head>
 <body class="engines-hub-page">
@@ -70,15 +73,15 @@
 
     <div id="hub" class="hub-main-container">
       <!-- Hero Section -->
-      <div class="hero ref-hero">
-        <div class="hero-inner hero-centered-panel">
-            <img src="shared/assets/logo.png" alt="COSYtools Logo" class="cosy-hero-logo" style="width: 80px; height: 80px; border-radius: 16px; margin-bottom: 0.75rem; box-shadow: 0 4px 16px rgba(0,0,0,0.12); object-fit: cover;">
+      <!-- Hero Section -->
+      <div class="hero ref-hero tools-hero">
+        <div class="hero-inner tools-hero-inner">
+          <div class="tools-hero-copy">
             <div class="hero-tag" data-i18n="hero_tag">Always Free · 100% Client-Side · Private &amp; Offline-First</div>
             <h1 class="hero-fraunces-title" data-i18n="hero_title">Language Reference &amp; Practice Tools</h1>
             <p class="hero-hub-subtext" data-i18n="hero_subtext">
                 Fast, private conjugation engines, gender checkers, case declensions, and syntax guides across 14 languages.
             </p>
-
             <!-- Concise Task Guidance -->
             <div class="hero-steps-container">
               <span class="hero-step"><span class="step-num">1</span> <span data-i18n="hero_step_1">Choose a task category</span></span>
@@ -87,13 +90,23 @@
               <span class="hero-step-sep">•</span>
               <span class="hero-step"><span class="step-num">3</span> <span data-i18n="hero_step_3">Search a verb, noun, or rule</span></span>
             </div>
+          </div>
 
+          <div class="tools-hero-card">
+            <h2 class="tools-hero-card-title" data-i18n="hero_card_title">Find the right tool</h2>
             <!-- Prominent Center Search Bar -->
             <div class="ref-search-container">
                 <span class="ref-search-icon cosy-icon icon-search" aria-hidden="true"></span>
                 <input type="text" id="hub-search-input" class="ref-search-input" placeholder="Search verbs (parler, hablar), nouns (Haus, casa), or grammar rules..." data-i18n-ph="search_placeholder" autocomplete="off" aria-label="Search verbs, nouns, or grammar rules" aria-describedby="search-hint">
                 <span id="search-hint" class="sr-only" data-i18n="search_hint">Type a verb infinitive, noun form, or grammar keyword to filter tools.</span>
             </div>
+            <div class="tools-hero-chips" role="group" aria-label="Tool types">
+              <button type="button" class="tools-chip" data-jump-type="conjugation" data-i18n="type_conjugation">Verb conjugation</button>
+              <button type="button" class="tools-chip" data-jump-type="gender-case" data-i18n="type_gender_case">Gender &amp; cases</button>
+              <button type="button" class="tools-chip" data-jump-type="syntax" data-i18n="type_syntax">Prepositions &amp; syntax</button>
+              <button type="button" class="tools-chip" data-jump-type="speaking" data-i18n="type_speaking">Speaking practice</button>
+            </div>
+          </div>
         </div>
       </div>
 

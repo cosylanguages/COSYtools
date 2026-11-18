@@ -1,0 +1,157 @@
+/* COSYtools home hero: same layout language as COSYlanguages (serif headline left, a live card right),
+   with teal as COSYtools' accent. Colours come from the shared tokens, so dark mode follows. */
+
+.engines-hub-page .hero.ref-hero.tools-hero {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 1rem;
+  padding: 2.75rem 1.5rem 3rem;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--cosy-color-ink, #1c1917);
+  background:
+    radial-gradient(60% 80% at 88% 8%, rgba(31, 138, 130, 0.12) 0, transparent 70%),
+    var(--cosy-color-cream, #fdfcf8);
+}
+
+.tools-hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 3rem;
+  align-items: center;
+  text-align: left;
+}
+
+.tools-hero-copy { min-width: 0; }
+
+.engines-hub-page .tools-hero .hero-tag {
+  display: inline-block;
+  margin: 0 0 1rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(31, 138, 130, 0.12);
+  color: #176b65;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.engines-hub-page .tools-hero h1 {
+  margin: 0 0 1rem;
+  font-family: var(--cosy-font-serif, 'COSY Serif', Georgia, serif);
+  font-size: clamp(2.3rem, 5vw, 3.7rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--cosy-color-ink, #1c1917);
+}
+
+.engines-hub-page .tools-hero p.hero-hub-subtext {
+  display: block;
+  max-width: 34rem;
+  margin: 0 0 1.4rem;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--cosy-color-ink-soft, #4a4a4a);
+}
+
+.engines-hub-page .tools-hero .hero-steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+  align-items: center;
+  margin: 0;
+  color: var(--cosy-color-ink-soft, #4a4a4a);
+}
+.engines-hub-page .tools-hero .hero-step { color: var(--cosy-color-ink-soft, #4a4a4a); font-size: 0.92rem; }
+.engines-hub-page .tools-hero .hero-step .step-num {
+  background: #1f8a82;
+  color: #fff;
+  border: 0;
+}
+.engines-hub-page .tools-hero .hero-step-sep { display: none; }
+
+/* Right card */
+.tools-hero-card {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem 1.5rem 1.4rem;
+  border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+  border-radius: 22px;
+  background: var(--cosy-color-warm-white, #fffefb);
+  box-shadow: 0 10px 30px rgba(46, 74, 51, 0.1), 0 1px 3px rgba(46, 74, 51, 0.06);
+}
+.tools-hero-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1f8a82, var(--cosy-color-sage, #416b49));
+}
+.tools-hero-card-title {
+  margin: 0 0 0.9rem;
+  font-family: var(--cosy-font-serif, 'COSY Serif', Georgia, serif);
+  font-size: 1.3rem;
+  color: var(--cosy-color-sage-dark, #375742);
+}
+.engines-hub-page .tools-hero .ref-search-container {
+  width: 100%;
+  margin: 0 0 1rem;
+}
+.engines-hub-page .tools-hero .ref-search-input {
+  min-height: 52px;
+  border: 1.5px solid var(--cosy-color-border-hover, rgba(74, 107, 80, 0.35));
+  background: var(--cosy-color-cream, #fdfcf8);
+  color: var(--cosy-color-ink, #1c1917);
+  box-shadow: none;
+}
+.engines-hub-page .tools-hero .ref-search-input:focus {
+  border-color: #1f8a82;
+  box-shadow: 0 0 0 3px rgba(31, 138, 130, 0.2);
+}
+
+.tools-hero-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tools-chip {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.2));
+  border-radius: 999px;
+  background: var(--cosy-color-cream, #fdfcf8);
+  color: var(--cosy-color-ink-soft, #4a4a4a);
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.tools-chip:hover { border-color: #1f8a82; color: var(--cosy-color-ink, #1c1917); }
+.tools-chip:focus-visible,
+.engines-hub-page .tools-hero .ref-search-input:focus-visible { outline: 3px solid #1f8a82; outline-offset: 2px; }
+
+@media (max-width: 880px) {
+  .engines-hub-page .hero.ref-hero.tools-hero { padding: 1.5rem 1rem 2rem; }
+  .tools-hero-inner { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
+}
+
+/* ---- Dark mode ---- */
+html[data-theme="dark"] .engines-hub-page .hero.ref-hero.tools-hero,
+html[data-theme="dark"].engines-hub-page .hero.ref-hero.tools-hero {
+  background:
+    radial-gradient(60% 80% at 88% 8%, rgba(60, 190, 180, 0.14) 0, transparent 70%),
+    var(--cosy-color-cream, #181c18);
+}
+html[data-theme="dark"] .engines-hub-page .tools-hero .hero-tag { background: rgba(60, 190, 180, 0.14); color: #7fdcd3; }
+html[data-theme="dark"] .tools-hero-card { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); }
+html[data-theme="dark"] .tools-hero-card-title { color: var(--cosy-color-ink, #e8f0e9); }
+html[data-theme="dark"] .engines-hub-page .tools-hero .hero-step .step-num { background: #3cbeb4; color: #0b2422; }
+
+/* Hub panels that were hard-coded white (unreadable text on them in dark mode) */
+html[data-theme="dark"] .filter-section {
+  background: var(--cosy-color-warm-white, #222b22);
+  border-color: var(--cosy-color-border, rgba(107, 143, 113, 0.2));
+  box-shadow: none;
+}
+
+.engines-hub-page .tools-hero .hero-steps-container { justify-content: flex-start; }
+.engines-hub-page .tools-hero .hero-step { display: inline-flex; align-items: center; gap: 0.5rem; }
