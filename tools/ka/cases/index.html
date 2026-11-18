@@ -110,9 +110,12 @@
             }
             const firstKey = Object.keys(db)[0];
             if (firstKey) render(firstKey);
+            // match case-insensitively: German nouns are stored capitalised ("Haus") but the query is lowercased
+            const byLower = {};
+            Object.keys(db).forEach(k => { byLower[k.toLowerCase()] = k; });
             input.addEventListener('input', (e) => {
                 const q = e.target.value.trim().toLowerCase();
-                if (db[q]) render(q);
+                if (byLower[q]) render(byLower[q]);
             });
         }).catch(err => {
           const display = document.getElementById('result-display') || document.getElementById('verb-display');

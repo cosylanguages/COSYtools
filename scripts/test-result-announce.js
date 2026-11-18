@@ -14,8 +14,6 @@ const srv = http.createServer((q, r) => {
 }).listen(0);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let fails = 0;
-const logs = {};
-function vc(t) { const v = new VirtualConsole(); logs[t] = []; v.on('jsdomError', e => logs[t].push('jsdomError: ' + String(e.message).slice(0, 160))); v.on('error', (...a) => logs[t].push('error: ' + a.join(' ').slice(0, 160))); return v; }
 const ok = (c, m) => { if (!c) { fails++; console.log('FAIL', m); } else console.log('ok  ', m); };
 
 const PAGES = fs.readdirSync(path.join(root, 'tools')).flatMap(l => fs.readdirSync(path.join(root, 'tools', l)).map(t => `${l}/${t}`))
@@ -34,7 +32,7 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
   await pool(PAGES, 4, async t => {
     try {
       const dom = await JSDOM.fromURL(`http://localhost:${srv.address().port}/tools/${t}/index.html`, {
-        runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: vc(t),
+        runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: new VirtualConsole(),
         beforeParse(w) { w.fetch = u => fetch(new URL(u, w.location.href).href); w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, addEventListener() {} })); }
       });
       const w = dom.window, d = w.document;
@@ -49,12 +47,6 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
         if (!announcer) await sleep(200);
       }
       ok(!!announcer && announcer.getAttribute('role') === 'status', `${t}: announcer exists`);
-      const t0 = Date.now(), histA = [], histD = [];
-      if (announcer) {
-        new w.MutationObserver(() => histA.push([Date.now() - t0, announcer.textContent])).observe(announcer, { childList: true, characterData: true, subtree: true });
-        new w.MutationObserver(m => histD.push([Date.now() - t0, m.length])).observe(display, { childList: true, subtree: true });
-        histA.push([0, 'initial:' + announcer.textContent, 'display:' + display.textContent.slice(0, 20)]);
-      }
       if (!announcer) { w.close(); return; }
 
       // open a result: suggestion engine tools -> first suggestion; others -> type a real entry
@@ -91,9 +83,6 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
         }
         said = announcer.textContent;
         if (heading && said === heading) break;
-      }
-      if (!(heading && said === heading)) {
-        console.log('DIAG', t, JSON.stringify({ inDoc: d.contains(announcer), announcers: d.querySelectorAll('[data-result-announcer]').length, sameDisplay: display === d.getElementById('result-display'), displayInDoc: d.contains(display), html: display.innerHTML.slice(0, 120), input: input.value, ready: d.readyState, logs: (logs[t] || []).slice(0, 6), histA: histA.slice(0, 12), histD: histD.slice(0, 12) }));
       }
       ok(!/\bA1\b|Needs Review/.test(said), `${t}: badge text is not announced`);
       ok(!!heading && said === heading, `${t}: announces "${heading.slice(0, 30)}"${said === heading ? '' : ' (said: "' + said.slice(0, 30) + '")'}`);
