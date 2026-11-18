@@ -49,6 +49,12 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
         if (!announcer) await sleep(200);
       }
       ok(!!announcer && announcer.getAttribute('role') === 'status', `${t}: announcer exists`);
+      const t0 = Date.now(), histA = [], histD = [];
+      if (announcer) {
+        new w.MutationObserver(() => histA.push([Date.now() - t0, announcer.textContent])).observe(announcer, { childList: true, characterData: true, subtree: true });
+        new w.MutationObserver(m => histD.push([Date.now() - t0, m.length])).observe(display, { childList: true, subtree: true });
+        histA.push([0, 'initial:' + announcer.textContent, 'display:' + display.textContent.slice(0, 20)]);
+      }
       if (!announcer) { w.close(); return; }
 
       // open a result: suggestion engine tools -> first suggestion; others -> type a real entry
@@ -87,7 +93,7 @@ async function pool(items, size, fn) { let n = 0; await Promise.all(Array.from({
         if (heading && said === heading) break;
       }
       if (!(heading && said === heading)) {
-        console.log('DIAG', t, JSON.stringify({ inDoc: d.contains(announcer), announcers: d.querySelectorAll('[data-result-announcer]').length, sameDisplay: display === d.getElementById('result-display'), displayInDoc: d.contains(display), html: display.innerHTML.slice(0, 120), input: input.value, ready: d.readyState, logs: (logs[t] || []).slice(0, 6) }));
+        console.log('DIAG', t, JSON.stringify({ inDoc: d.contains(announcer), announcers: d.querySelectorAll('[data-result-announcer]').length, sameDisplay: display === d.getElementById('result-display'), displayInDoc: d.contains(display), html: display.innerHTML.slice(0, 120), input: input.value, ready: d.readyState, logs: (logs[t] || []).slice(0, 6), histA: histA.slice(0, 12), histD: histD.slice(0, 12) }));
       }
       ok(!/\bA1\b|Needs Review/.test(said), `${t}: badge text is not announced`);
       ok(!!heading && said === heading, `${t}: announces "${heading.slice(0, 30)}"${said === heading ? '' : ' (said: "' + said.slice(0, 30) + '")'}`);
