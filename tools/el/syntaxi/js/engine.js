@@ -49,12 +49,6 @@ class GreekSyntaxiEngine {
         return { verbs: this.verbDb };
     }
 
-    setAppMode(mode) {
-        this.appMode = mode;
-        const container = document.getElementById('lookup-view-container');
-        if (container) container.style.display = 'block';
-    }
-
     setFilter(filterType) {
         this.activeFilter = filterType;
 
