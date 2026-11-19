@@ -104,19 +104,20 @@ class GreekConjugationEngine {
 
     formatColorCoded(form, isIrregular = false) {
         if (isIrregular) {
-            return form;
+            return COSYEscape.escapeHtml(form);
         }
         const endings = ['ουμε', 'ετε', 'ουν', 'εις', 'ει', 'αμε', 'ατε', 'αν', 'ες', 'ει', 'ω', 'α'];
         let words = form.split(' ');
         let lastWord = words.pop();
+        words = words.map(COSYEscape.escapeHtml);
         for (let end of endings) {
             if (lastWord.endsWith(end) && lastWord.length > end.length) {
                 let stem = lastWord.slice(0, -end.length);
-                words.push(`<span class="stem">${stem}</span><span class="ending">${end}</span>`);
+                words.push(`<span class="stem">${COSYEscape.escapeHtml(stem)}</span><span class="ending">${COSYEscape.escapeHtml(end)}</span>`);
                 return words.join(' ');
             }
         }
-        words.push(lastWord);
+        words.push(COSYEscape.escapeHtml(lastWord));
         return words.join(' ');
     }
 

@@ -430,7 +430,7 @@ class EnglishVerbPrepEngine {
         const examplesBox = document.getElementById('examples-container');
         if (examplesList && examplesBox) {
             if (data.examples && data.examples.length > 0) {
-                examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
+                examplesList.innerHTML = data.examples.map(ex => `<li>${COSYEscape.escapeHtml(ex)}</li>`).join('');
                 examplesBox.style.display = 'block';
             } else {
                 examplesBox.style.display = 'none';

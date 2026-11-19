@@ -52,6 +52,7 @@ async function testWorkflow() {
   const practiceScript = fs.readFileSync(path.join(ROOT, 'shared', 'engines', 'practice-engine.js'), 'utf8');
   const engineScript = fs.readFileSync(path.join(ROOT, 'tools', 'fr', 'conjugeur', 'js', 'engine.js'), 'utf8');
 
+  window.eval(fs.readFileSync(path.join(ROOT, 'shared', 'js', 'escape.js'), 'utf8'));
   window.eval(srsScript);
   window.eval(practiceScript);
   window.eval(engineScript);

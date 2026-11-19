@@ -87,21 +87,22 @@ class RussianConjugationEngine {
 
     formatColorCoded(form, isIrregular = false) {
         if (isIrregular) {
-            return form;
+            return COSYEscape.escapeHtml(form);
         }
         const endings = ['ешь', 'ет', 'ем', 'ете', 'ют', 'ит', 'им', 'ите', 'ат', 'ят', 'ла', 'ло', 'ли', 'ю', 'у', 'л'];
         let words = form.split(' ');
         let lastWord = words.pop();
+        words = words.map(COSYEscape.escapeHtml);
         for (let end of endings) {
             let clean = lastWord.replace(/[\u0300-\u036f]/g, "");
             if (clean.endsWith(end) && clean.length > end.length) {
                 let stem = lastWord.slice(0, -end.length);
                 let actualEnd = lastWord.slice(-end.length);
-                words.push(`<span class="stem">${stem}</span><span class="ending">${actualEnd}</span>`);
+                words.push(`<span class="stem">${COSYEscape.escapeHtml(stem)}</span><span class="ending">${COSYEscape.escapeHtml(actualEnd)}</span>`);
                 return words.join(' ');
             }
         }
-        words.push(lastWord);
+        words.push(COSYEscape.escapeHtml(lastWord));
         return words.join(' ');
     }
 
@@ -169,7 +170,7 @@ class RussianConjugationEngine {
         if (listFut && data.tenses.fut) {
             listFut.innerHTML = data.tenses.fut.map((f, i) => {
                 const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
-                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${cleanForm}</span></li>`;
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${COSYEscape.escapeHtml(cleanForm)}</span></li>`;
             }).join('');
         }
 
@@ -177,21 +178,21 @@ class RussianConjugationEngine {
         if (listCond && data.tenses.cond) {
             listCond.innerHTML = data.tenses.cond.map((f, i) => {
                 const cleanForm = f.replace(/^(я|ты|он\/она́|он|она|мы|вы|они́|они)\s+/i, '').trim();
-                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${cleanForm}</span></li>`;
+                return `<li><span class="pronoun">${pronounsPres[i] || ''}</span> <span>${COSYEscape.escapeHtml(cleanForm)}</span></li>`;
             }).join('');
         }
 
         const listImpv = document.getElementById('tense-impv');
         if (listImpv && data.tenses.impv) {
             listImpv.innerHTML = data.tenses.impv.map((f, i) => `
-                <li><span class="pronoun">${i === 0 ? '(ты)' : '(вы)'}</span> <span>${f}</span></li>
+                <li><span class="pronoun">${i === 0 ? '(ты)' : '(вы)'}</span> <span>${COSYEscape.escapeHtml(f)}</span></li>
             `).join('');
         }
 
         const listPart = document.getElementById('tense-part');
         if (listPart && data.tenses.part) {
             listPart.innerHTML = data.tenses.part.map((f, i) => `
-                <li><span class="pronoun">${i === 0 ? 'наст.' : 'прош.'}</span> <span>${f}</span></li>
+                <li><span class="pronoun">${i === 0 ? 'наст.' : 'прош.'}</span> <span>${COSYEscape.escapeHtml(f)}</span></li>
             `).join('');
         }
     }

@@ -199,22 +199,23 @@ class ConjugationEngine {
 
     formatColorCodedForm(form, infinitive, isIrregular = false) {
         if (isIrregular) {
-            return form;
+            return COSYEscape.escapeHtml(form);
         }
         const regularEndings = ['issent', 'issez', 'issons', 'issais', 'issait', 'issaient', 'issiez', 'issions', 'eraient', 'erions', 'eriez', 'erais', 'erait', 'eront', 'erez', 'erons', 'eras', 'erai', 'aient', 'ions', 'iez', 'ais', 'ait', 'ons', 'ez', 'ent', 'es', 'is', 'it', 'e', 's', 't', 'é'];
 
         let words = form.split(' ');
         let lastWord = words.pop();
+        words = words.map(COSYEscape.escapeHtml);
 
         for (let ending of regularEndings) {
             if (lastWord.endsWith(ending) && lastWord.length > ending.length) {
                 let stemPart = lastWord.slice(0, -ending.length);
-                let coloredLastWord = `<span class="stem">${stemPart}</span><span class="ending">${ending}</span>`;
+                let coloredLastWord = `<span class="stem">${COSYEscape.escapeHtml(stemPart)}</span><span class="ending">${COSYEscape.escapeHtml(ending)}</span>`;
                 words.push(coloredLastWord);
                 return words.join(' ');
             }
         }
-        words.push(lastWord);
+        words.push(COSYEscape.escapeHtml(lastWord));
         return words.join(' ');
     }
 

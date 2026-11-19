@@ -7,7 +7,7 @@ export default [
   {
     // Browser code: tools, shared UI, engines
     files: ['tools/**/*.js', 'shared/**/*.js', 'practice/**/*.js'],
-    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.browser } },
+    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.browser, COSYEscape: 'readonly' } },
     rules: { 'no-var': 'warn', 'prefer-const': 'warn', eqeqeq: ['warn', 'smart'] },
   },
   {
