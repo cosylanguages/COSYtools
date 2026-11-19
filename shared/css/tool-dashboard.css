@@ -1,30 +1,27 @@
 :root {
     --sage-primary: var(--sage);
-    --sage-dark: var(--sage-dark);
-    --sage-light: var(--sage-light);
     --terracotta: var(--coral);
-    --cream-bg: var(--paper-bg);
+    --cream-bg: var(--cream);
     --cream-card: var(--surface-color);
-    --ink: var(--ink);
-    --ink-muted: var(--ink-soft);
     --border-color: var(--border);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
     --blue-vt: var(--blue);
     --orange-vi: var(--coral);
-    --purple-both: var(--ire-col);
+    --purple-both: var(--cosy-color-plum);
     --gold-cefr: var(--honey);
     --teal-sep: var(--sage);
 }
 
+/* Only the shadow needs a dark value; every colour here already flips in
+   cosy-tokens.css. The old block re-declared each alias as itself, which CSS
+   treats as a reference cycle and drops. */
+html[data-theme="dark"],
+body.theme-dark {
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
 @media (prefers-color-scheme: dark) {
-    :root {
-        --sage-primary: var(--sage);
-        --sage-dark: var(--sage-dark);
-        --cream-bg: var(--paper-bg);
-        --cream-card: var(--surface-color);
-        --ink: var(--ink);
-        --ink-muted: var(--ink-soft);
-        --border-color: var(--border);
+    :root:not([data-theme="light"]) {
         --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
     }
 }
