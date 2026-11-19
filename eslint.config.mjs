@@ -7,8 +7,14 @@ export default [
   {
     // Browser code: tools, shared UI, engines
     files: ['tools/**/*.js', 'shared/**/*.js', 'practice/**/*.js'],
-    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.browser, COSYEscape: 'readonly', ConjugatorEngineBase: 'readonly' } },
+    languageOptions: { ecmaVersion: 2023, sourceType: 'script', globals: { ...globals.browser, COSYEscape: 'readonly', ConjugatorEngineBase: 'readonly', GenderEngineBase: 'readonly' } },
     rules: { 'no-var': 'warn', 'prefer-const': 'warn', eqeqeq: ['warn', 'smart'] },
+  },
+  {
+    // Shared classic-script modules that also export for Node tests
+    files: ['shared/engines/*-base.js', 'shared/js/escape.js'],
+    languageOptions: { globals: { module: 'readonly' } },
+    rules: { 'no-redeclare': ['error', { builtinGlobals: false }] },
   },
   {
     // Service worker

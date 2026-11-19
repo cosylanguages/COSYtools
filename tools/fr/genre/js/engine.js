@@ -1,58 +1,17 @@
-class NounGenderEngine {
+class NounGenderEngine extends GenderEngineBase {
     constructor() {
-        this.nounDb = {};
-        this.isGameActive = false;
-        this.gameScore = 0;
-        this.gameStreak = 0;
-        this.currentQuestion = null;
-        this.gamePracticeMode = 'gender';
-        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-fr-genre') : null;
-        this.init();
-    }
-
-    async init() {
-        try {
-            const res = await fetch('data/nouns.json');
-            this.nounDb = await res.json();
-            this.bindEvents();
-            this.handleInitialQueryParams();
-        } catch (err) { console.error(err); }
-    }
-
-    handleInitialQueryParams() {
-        const params = new URLSearchParams(window.location.search);
-        const target = params.get('noun') || params.get('word') || params.get('q') || params.get('search');
-        if (target) {
-            const input = document.getElementById('noun-search-input');
-            if (input) input.value = target;
-            this.searchNoun(target);
-        }
-    }
-
-    bindEvents() {
-        const input = document.getElementById('noun-search-input');
-        if (input) {
-            input.addEventListener('input', (e) => this.handleSearchInput(e.target.value));
-            input.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter') this.searchNoun(input.value);
-            });
-        }
-    }
-
-    handleSearchInput(query) {
-        const q = query.trim().toLowerCase();
-        const suggestionsBox = document.getElementById('search-suggestions');
-        if (!q) { suggestionsBox.style.display = 'none'; return; }
-        const matches = Object.keys(this.nounDb).filter(n => n.startsWith(q));
-        if (matches.length > 0) {
-            suggestionsBox.innerHTML = matches.map(n => `
-                <button type="button" class="suggestion-item" data-key="${String(n).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchNoun(this.dataset.key)">
-                    <span><strong>${n}</strong></span>
-                    <span class="article">${this.nounDb[n].gender}</span>
-                </button>
-            `).join('');
-            suggestionsBox.style.display = 'block';
-        } else { suggestionsBox.style.display = 'none'; }
+        super({
+            storeKey: 'cosy-fr-genre',
+            strings: {
+            genderPrompt: 'Quel est le genre de :',
+            genderRight: (noun, gender) => `✅ Bravo ! <strong>${noun}</strong> est bien ${gender}.`,
+            genderWrong: (noun, expected) => `❌ Erreur ! <strong>${noun}</strong> est ${expected}.`,
+            endingRight: (label, gender) => `✅ Correct ! ${label}. Genre : <strong>${gender}</strong>.`,
+            endingWrong: (label, gender) => `❌ Classe attendue : <strong>${label}</strong>. Genre : ${gender}.`,
+            articlesRight: (form, noun) => `✅ Excellent ! <strong>${form} ${noun}</strong> est la forme correcte (+10 pts).`,
+            articlesWrong: (expected, noun) => `❌ Oups ! La forme correcte est : <strong>${expected} ${noun}</strong>.`,
+            },
+        });
     }
 
     searchNoun(query) {
@@ -144,51 +103,6 @@ class NounGenderEngine {
         }
     }
 
-    setPracticeMode(mode) {
-        this.gamePracticeMode = mode;
-        const gBtn = document.getElementById('mode-gender-btn');
-        const eBtn = document.getElementById('mode-ending-btn');
-        const cBtn = document.getElementById('mode-cases-btn');
-        if (gBtn && cBtn) {
-            gBtn.className = mode === 'gender' ? 'badge active-mode' : 'badge';
-            cBtn.className = mode === 'articles' ? 'badge active-mode' : 'badge';
-        }
-        if (eBtn) eBtn.className = mode === 'ending' ? 'badge active-mode' : 'badge';
-        this.nextGameQuestion();
-    }
-
-    toggleGameMode() {
-        this.isGameActive = !this.isGameActive;
-        document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
-        document.getElementById('search-section-container').style.display = this.isGameActive ? 'none' : 'block';
-        document.getElementById('noun-result-container').style.display = 'none';
-        document.getElementById('empty-state').style.display = this.isGameActive ? 'none' : 'block';
-        if (this.isGameActive) this.nextGameQuestion();
-    }
-
-    nextGameQuestion() {
-        if (this.gamePracticeMode === 'ending') {
-            this.nextEndingQuestion();
-            return;
-        }
-        if (this.gamePracticeMode === 'articles') {
-            this.nextArticlesQuestion();
-            return;
-        }
-        const choiceGroup = document.querySelector('.game-choice-group');
-        const mcGroup = document.getElementById('game-mc-options');
-        if (choiceGroup) choiceGroup.style.display = 'flex';
-        if (mcGroup) mcGroup.style.display = 'none';
-        const label = document.querySelector('.prompt-label');
-        if (label) label.textContent = 'Quel est le genre de :';
-        const nouns = Object.keys(this.nounDb);
-        const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
-        this.currentQuestion = { noun: randomNoun, expectedGender: this.nounDb[randomNoun].gender };
-        document.getElementById('game-noun-prompt').textContent = randomNoun;
-        document.getElementById('game-feedback-box').style.display = 'none';
-        document.getElementById('game-next-btn').style.display = 'none';
-    }
-
     getEndingClass(noun, data) {
         if (data.irregular) return { key: 'exception', label: 'Exception à mémoriser' };
         const endingRules = [
@@ -229,25 +143,6 @@ class NounGenderEngine {
         `).join('');
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
-    }
-
-    checkEndingChoice(selected) {
-        if (!this.currentQuestion) return;
-        const data = this.nounDb[this.currentQuestion.noun];
-        const expected = this.getEndingClass(this.currentQuestion.noun, data);
-        const feedback = document.getElementById('game-feedback-box');
-        const isCorrect = selected === expected.key;
-        feedback.style.display = 'block';
-        feedback.className = `feedback-card ${isCorrect ? 'correct' : 'wrong'}`;
-        feedback.innerHTML = isCorrect
-            ? `✅ Correct ! ${expected.label}. Genre : <strong>${data.gender}</strong>.`
-            : `❌ Classe attendue : <strong>${expected.label}</strong>. Genre : ${data.gender}.`;
-        this.gameScore += isCorrect ? 10 : 0;
-        this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
-        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     nextArticlesQuestion() {
@@ -301,47 +196,6 @@ class NounGenderEngine {
         document.getElementById('game-next-btn').style.display = 'none';
     }
 
-    checkArticlesChoice(selected) {
-        if (!this.currentQuestion) return;
-        const isCorrect = selected === this.currentQuestion.expected;
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-
-        if (isCorrect) {
-            this.gameScore += 10; this.gameStreak += 1;
-            feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Excellent ! <strong>${selected} ${this.currentQuestion.noun}</strong> est la forme correcte (+10 pts).`;
-        } else {
-            this.gameStreak = 0;
-            feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Oups ! La forme correcte est : <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
-        }
-        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
-    }
-
-    checkGameChoice(gender) {
-        if (!this.currentQuestion) return;
-        const isCorrect = gender === this.currentQuestion.expectedGender;
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-        if (isCorrect) {
-            this.gameScore += 10;
-            this.gameStreak += 1;
-            feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Bravo ! <strong>${this.currentQuestion.noun}</strong> est bien ${gender}.`;
-        } else {
-            this.gameStreak = 0;
-            feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Erreur ! <strong>${this.currentQuestion.noun}</strong> est ${this.currentQuestion.expectedGender}.`;
-        }
-        if (this.srsStore) this.srsStore.recordAnswer(this.currentQuestion.noun, isCorrect);
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
-    }
 }
 
 let appEngine;
