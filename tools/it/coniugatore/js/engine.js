@@ -1,62 +1,6 @@
-class ItalianConjugationEngine {
+class ItalianConjugationEngine extends ConjugatorEngineBase {
     constructor() {
-        this.verbDb = {};
-        this.isGameActive = false;
-        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-it-coniugatore') : null;
-        this.practice = typeof PracticeEngine !== 'undefined' ? new PracticeEngine({
-            engine: this,
-            srsStore: this.srsStore,
-            containerId: 'practice-card-content',
-            practiceModes: ['conjugate']
-        }) : null;
-        this.init();
-    }
-
-    async init() {
-        try {
-            const res = await fetch('data/verbs.json');
-            this.verbDb = await res.json();
-            this.bindEvents();
-            this.handleInitialQueryParams();
-        } catch (e) { console.error(e); }
-    }
-
-    handleInitialQueryParams() {
-        const params = new URLSearchParams(window.location.search);
-        const target = params.get('verb') || params.get('infinitive') || params.get('word') || params.get('q') || params.get('search');
-        if (target) {
-            const input = document.getElementById('verb-search-input');
-            if (input) input.value = target;
-            this.searchVerb(target);
-        }
-    }
-
-    bindEvents() {
-        const input = document.getElementById('verb-search-input');
-        if (input) {
-            input.addEventListener('input', (e) => this.handleInput(e.target.value));
-            input.addEventListener('keydown', (e) => { if (e.key === 'Enter') this.searchVerb(input.value); });
-        }
-        const gInput = document.getElementById('game-answer-input');
-        if (gInput) {
-            gInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') this.checkGameAnswer(); });
-        }
-    }
-
-    handleInput(query) {
-        const q = query.trim().toLowerCase();
-        const box = document.getElementById('search-suggestions');
-        if (!q) { box.style.display = 'none'; return; }
-        const matches = Object.keys(this.verbDb).filter(v => v.startsWith(q));
-        if (matches.length > 0) {
-            box.innerHTML = matches.slice(0, 6).map(v => `
-                <button type="button" class="suggestion-item" data-key="${String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchVerb(this.dataset.key)">
-                    <span><strong>${v}</strong></span>
-                    <span>${this.verbDb[v].group}</span>
-                </button>
-            `).join('');
-            box.style.display = 'block';
-        } else box.style.display = 'none';
+        super({ storeKey: 'cosy-it-coniugatore' });
     }
 
     searchVerb(query) {
@@ -94,19 +38,20 @@ class ItalianConjugationEngine {
 
     formatColorCoded(form, isIrregular = false) {
         if (isIrregular) {
-            return form;
+            return COSYEscape.escapeHtml(form);
         }
         const endings = ['avamo', 'avate', 'avano', 'eremo', 'erete', 'eranno', 'iamo', 'ate', 'ano', 'avo', 'avi', 'ava', 'erò', 'erai', 'erà', 'ato', 'o', 'i', 'a'];
         let words = form.split(' ');
         let lastWord = words.pop();
+        words = words.map(COSYEscape.escapeHtml);
         for (let end of endings) {
             if (lastWord.endsWith(end) && lastWord.length > end.length) {
                 let stem = lastWord.slice(0, -end.length);
-                words.push(`<span class="stem">${stem}</span><span class="ending">${end}</span>`);
+                words.push(`<span class="stem">${COSYEscape.escapeHtml(stem)}</span><span class="ending">${COSYEscape.escapeHtml(end)}</span>`);
                 return words.join(' ');
             }
         }
-        words.push(lastWord);
+        words.push(COSYEscape.escapeHtml(lastWord));
         return words.join(' ');
     }
 
@@ -191,15 +136,6 @@ class ItalianConjugationEngine {
                 }).join('');
             }
         }
-    }
-
-    toggleGameMode() {
-        this.isGameActive = !this.isGameActive;
-        document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
-        document.getElementById('search-section-container').style.display = this.isGameActive ? 'none' : 'block';
-        document.getElementById('verb-result-container').style.display = 'none';
-        document.getElementById('empty-state').style.display = this.isGameActive ? 'none' : 'block';
-        if (this.isGameActive && this.practice) this.practice.startSession();
     }
 
     setPracticeMode(mode) {

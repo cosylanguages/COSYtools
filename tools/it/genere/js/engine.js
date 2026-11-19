@@ -107,19 +107,19 @@ class ItalianGenderEngine {
 
         let stem = noun.length > 1 ? noun.slice(0, -1) : noun;
         let ending = noun.length > 1 ? noun.slice(-1) : '';
-        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${data.indefinite_article})</span>` : '';
-        document.getElementById('sing-form').innerHTML = `<span class="article">${singArt}</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>${indArt}`;
+        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${COSYEscape.escapeHtml(data.indefinite_article)})</span>` : '';
+        document.getElementById('sing-form').innerHTML = `<span class="article">${COSYEscape.escapeHtml(singArt)}</span> <span class="stem">${COSYEscape.escapeHtml(stem)}</span><span class="ending">${COSYEscape.escapeHtml(ending)}</span>${indArt}`;
 
         const defaultPlur = isFem ? (noun.endsWith('a') ? noun.slice(0, -1) + 'e' : noun + 'e') : (noun.slice(0, -1) + 'i');
         const pluralForm = data.plural || defaultPlur;
         let plurArticle = isFem ? 'le' : (singArt === 'lo' || (isVowel && !isFem) ? 'gli' : 'i');
 
         if (data.irregular) {
-            document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span>${pluralForm}</span>`;
+            document.getElementById('plur-form').innerHTML = `<span class="article">${COSYEscape.escapeHtml(plurArticle)}</span> <span>${COSYEscape.escapeHtml(pluralForm)}</span>`;
         } else {
             let plurEnding = pluralForm.length > 1 ? pluralForm.slice(-1) : '';
             let plurStem = pluralForm.length > 1 ? pluralForm.slice(0, -1) : pluralForm;
-            document.getElementById('plur-form').innerHTML = `<span class="article">${plurArticle}</span> <span class="stem">${plurStem}</span><span class="ending">${plurEnding}</span>`;
+            document.getElementById('plur-form').innerHTML = `<span class="article">${COSYEscape.escapeHtml(plurArticle)}</span> <span class="stem">${COSYEscape.escapeHtml(plurStem)}</span><span class="ending">${COSYEscape.escapeHtml(plurEnding)}</span>`;
         }
 
         const antonymsBox = document.getElementById('antonyms-pills');

@@ -109,13 +109,13 @@ class NounGenderEngine {
         const isVowelStart = /^[aeiouyéèêhô]/i.test(noun);
         const defaultArticle = isVowelStart ? "l'" : (data.gender === 'Masculin' ? 'le' : 'la');
         const article = data.article || defaultArticle;
-        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${data.indefinite_article})</span>` : '';
-        document.getElementById('sing-form').innerHTML = `<span class="article">${article}</span> <span class="stem">${noun}</span>${indArt}`;
+        const indArt = data.indefinite_article ? `<span class="indefinite-art"> (${COSYEscape.escapeHtml(data.indefinite_article)})</span>` : '';
+        document.getElementById('sing-form').innerHTML = `<span class="article">${COSYEscape.escapeHtml(article)}</span> <span class="stem">${COSYEscape.escapeHtml(noun)}</span>${indArt}`;
 
         // Plural ending split
         const pluralForm = data.plural || (noun.endsWith('al') ? noun.slice(0, -2) + 'aux' : (noun.endsWith('s') || noun.endsWith('x') ? noun : noun + 's'));
         if (data.irregular) {
-            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span>${pluralForm}</span>`;
+            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span>${COSYEscape.escapeHtml(pluralForm)}</span>`;
         } else {
             let stem = noun;
             let ending = 's';
@@ -132,7 +132,7 @@ class NounGenderEngine {
                 stem = pluralForm;
                 ending = '';
             }
-            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${stem}</span><span class="ending">${ending}</span>`;
+            document.getElementById('plur-form').innerHTML = `<span class="article">les</span> <span class="stem">${COSYEscape.escapeHtml(stem)}</span><span class="ending">${COSYEscape.escapeHtml(ending)}</span>`;
         }
 
         const antonymsBox = document.getElementById('antonyms-pills');

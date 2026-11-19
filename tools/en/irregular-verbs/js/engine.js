@@ -329,7 +329,7 @@ class EnglishIrregularVerbsEngine {
         // Example sentences
         const examplesList = document.getElementById('examples-list');
         if (data.examples && data.examples.length > 0) {
-            examplesList.innerHTML = data.examples.map(ex => `<li>${ex}</li>`).join('');
+            examplesList.innerHTML = data.examples.map(ex => `<li>${COSYEscape.escapeHtml(ex)}</li>`).join('');
             document.getElementById('examples-container').style.display = 'block';
         } else {
             document.getElementById('examples-container').style.display = 'none';

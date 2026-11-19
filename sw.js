@@ -17,6 +17,7 @@ const ASSETS_TO_CACHE = [
   './shared/styles/reference.css',
   './shared/assets/logo.png',
   './shared/images/cosylanguages.png',
+  './shared/js/escape.js',
   './shared/js/languages.js',
   './shared/js/shell.js',
   './shared/js/daily-feed.js',
@@ -24,6 +25,7 @@ const ASSETS_TO_CACHE = [
   './shared/js/hub-filter.js',
   './shared/engines/srs-store.js',
   './shared/engines/practice-engine.js',
+  './shared/engines/conjugator-base.js',
   './shared/engines/reference-utils.js'
 ];
 
