@@ -1,54 +1,22 @@
-class ItalianGenderEngine {
+class ItalianGenderEngine extends GenderEngineBase {
     constructor() {
-        this.nounDb = {};
-        this.isGameActive = false;
-        this.gameScore = 0;
-        this.gameStreak = 0;
-        this.currentQuestion = null;
-        this.gamePracticeMode = 'gender';
-        this.srsStore = typeof SpacedRepetitionStore !== 'undefined' ? new SpacedRepetitionStore('cosy-it-genere') : null;
-        this.init();
+        super({
+            storeKey: 'cosy-it-genere',
+            strings: {
+            genderPrompt: 'Qual è il genere di:',
+            genderRight: (noun, gender) => `✅ Bravo! <strong>${noun}</strong> è ${gender}.`,
+            genderWrong: (noun, expected) => `❌ Errore! <strong>${noun}</strong> è ${expected}.`,
+            endingRight: (label, gender) => `✅ Corretto! ${label}. Genere: <strong>${gender}</strong>.`,
+            endingWrong: (label, gender) => `❌ Classe attesa: <strong>${label}</strong>. Genere: ${gender}.`,
+            articlesRight: (form, noun) => `✅ Eccellente! <strong>${form} ${noun}</strong> è la forma corretta (+10 pti).`,
+            articlesWrong: (expected, noun) => `❌ Ops! La forma corretta era: <strong>${expected} ${noun}</strong>.`,
+            },
+        });
     }
 
-    async init() {
-        try {
-            const res = await fetch('data/nouns.json');
-            this.nounDb = await res.json();
-            this.bindEvents();
-            const params = new URLSearchParams(window.location.search);
-            const initialQuery = ['noun', 'word', 'q', 'search']
-                .map(key => params.get(key))
-                .find(value => value && value.trim());
-            const input = document.getElementById('noun-search-input');
-            if (initialQuery && input) {
-                input.value = initialQuery;
-                this.searchNoun(initialQuery);
-            }
-        } catch (e) { console.error(e); }
-    }
-
-    bindEvents() {
-        const input = document.getElementById('noun-search-input');
-        if (input) {
-            input.addEventListener('input', (e) => this.handleInput(e.target.value));
-            input.addEventListener('keydown', (e) => { if (e.key === 'Enter') this.searchNoun(input.value); });
-        }
-    }
-
-    handleInput(query) {
-        const q = query.trim().toLowerCase();
-        const box = document.getElementById('search-suggestions');
-        if (!q) { box.style.display = 'none'; return; }
-        const matches = Object.keys(this.nounDb).filter(n => n.startsWith(q));
-        if (matches.length > 0) {
-            box.innerHTML = matches.map(n => `
-                <button type="button" class="suggestion-item" data-key="${String(n).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.searchNoun(this.dataset.key)">
-                    <span><strong>${n}</strong></span>
-                    <span>${this.nounDb[n].gender}</span>
-                </button>
-            `).join('');
-            box.style.display = 'block';
-        } else box.style.display = 'none';
+    /** Italian keeps its prefixed spaced-repetition keys so saved progress stays valid. */
+    srsKey(kind, question) {
+        return kind === 'articles' ? `articles:${question.prep}:${question.noun}` : `${kind}:${question.noun}`;
     }
 
     searchNoun(query) {
@@ -129,51 +97,6 @@ class ItalianGenderEngine {
         } else document.getElementById('antonyms-container').style.display = 'none';
     }
 
-    setPracticeMode(mode) {
-        this.gamePracticeMode = mode;
-        const gBtn = document.getElementById('mode-gender-btn');
-        const eBtn = document.getElementById('mode-ending-btn');
-        const cBtn = document.getElementById('mode-cases-btn');
-        if (gBtn && cBtn) {
-            gBtn.className = mode === 'gender' ? 'badge active-mode' : 'badge';
-            cBtn.className = mode === 'articles' ? 'badge active-mode' : 'badge';
-        }
-        if (eBtn) eBtn.className = mode === 'ending' ? 'badge active-mode' : 'badge';
-        this.nextGameQuestion();
-    }
-
-    toggleGameMode() {
-        this.isGameActive = !this.isGameActive;
-        document.getElementById('game-container').style.display = this.isGameActive ? 'block' : 'none';
-        document.getElementById('search-section-container').style.display = this.isGameActive ? 'none' : 'block';
-        document.getElementById('noun-result-container').style.display = 'none';
-        document.getElementById('empty-state').style.display = this.isGameActive ? 'none' : 'block';
-        if (this.isGameActive) this.nextGameQuestion();
-    }
-
-    nextGameQuestion() {
-        if (this.gamePracticeMode === 'ending') {
-            this.nextEndingQuestion();
-            return;
-        }
-        if (this.gamePracticeMode === 'articles') {
-            this.nextArticlesQuestion();
-            return;
-        }
-        const choiceGroup = document.querySelector('.game-choice-group');
-        const mcGroup = document.getElementById('game-mc-options');
-        if (choiceGroup) choiceGroup.style.display = 'flex';
-        if (mcGroup) mcGroup.style.display = 'none';
-        const label = document.querySelector('.prompt-label');
-        if (label) label.textContent = 'Qual è il genere di:';
-        const nouns = Object.keys(this.nounDb);
-        const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
-        this.currentQuestion = { noun: randomNoun, expectedGender: this.nounDb[randomNoun].gender };
-        document.getElementById('game-noun-prompt').textContent = randomNoun;
-        document.getElementById('game-feedback-box').style.display = 'none';
-        document.getElementById('game-next-btn').style.display = 'none';
-    }
-
     getEndingClass(noun, data) {
         if (data.irregular) return { key: 'exception', label: 'Eccezione da memorizzare' };
         const endingRules = [
@@ -210,27 +133,6 @@ class ItalianGenderEngine {
         mcGroup.innerHTML = labels.map((option, index) => `<button class="mc-option-btn" onclick="appEngine.checkEndingChoice('${keys[index]}')">${option}</button>`).join('');
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
-    }
-
-    checkEndingChoice(selected) {
-        if (!this.currentQuestion) return;
-        const data = this.nounDb[this.currentQuestion.noun];
-        const expected = this.getEndingClass(this.currentQuestion.noun, data);
-        const isCorrect = selected === expected.key;
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-        feedback.className = `feedback-card ${isCorrect ? 'correct' : 'wrong'}`;
-        feedback.innerHTML = isCorrect
-            ? `✅ Corretto! ${expected.label}. Genere: <strong>${data.gender}</strong>.`
-            : `❌ Classe attesa: <strong>${expected.label}</strong>. Genere: ${data.gender}.`;
-        this.gameScore += isCorrect ? 10 : 0;
-        this.gameStreak = isCorrect ? this.gameStreak + 1 : 0;
-        if (this.srsStore) {
-            this.srsStore.recordAnswer(`ending:${this.currentQuestion.noun}`, isCorrect);
-        }
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     nextArticlesQuestion() {
@@ -285,50 +187,6 @@ class ItalianGenderEngine {
         document.getElementById('game-next-btn').style.display = 'none';
     }
 
-    checkArticlesChoice(selected) {
-        if (!this.currentQuestion) return;
-        const isCorrect = selected === this.currentQuestion.expected;
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-
-        if (isCorrect) {
-            this.gameScore += 10; this.gameStreak += 1;
-            feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Eccellente! <strong>${selected} ${this.currentQuestion.noun}</strong> è la forma corretta (+10 pti).`;
-        } else {
-            this.gameStreak = 0;
-            feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Ops! La forma corretta era: <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
-        }
-        if (this.srsStore) {
-            this.srsStore.recordAnswer(`articles:${this.currentQuestion.prep}:${this.currentQuestion.noun}`, isCorrect);
-        }
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
-    }
-
-    checkGameChoice(gender) {
-        if (!this.currentQuestion) return;
-        const isCorrect = gender === this.currentQuestion.expectedGender;
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-        if (isCorrect) {
-            this.gameScore += 10; this.gameStreak += 1;
-            feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Bravo! <strong>${this.currentQuestion.noun}</strong> è ${gender}.`;
-        } else {
-            this.gameStreak = 0;
-            feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Errore! <strong>${this.currentQuestion.noun}</strong> è ${this.currentQuestion.expectedGender}.`;
-        }
-        if (this.srsStore) {
-            this.srsStore.recordAnswer(`gender:${this.currentQuestion.noun}`, isCorrect);
-        }
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-        document.getElementById('game-next-btn').style.display = 'block';
-    }
 }
 
 let appEngine;

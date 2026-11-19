@@ -26,6 +26,7 @@ const ASSETS_TO_CACHE = [
   './shared/engines/srs-store.js',
   './shared/engines/practice-engine.js',
   './shared/engines/conjugator-base.js',
+  './shared/engines/gender-base.js',
   './shared/engines/reference-utils.js'
 ];
 

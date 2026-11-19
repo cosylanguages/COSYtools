@@ -16,15 +16,19 @@ for (const lang of fs.readdirSync(path.join(root, 'tools'))) {
     const engine = path.join(langDir, tool, 'js', 'engine.js');
     const page = path.join(langDir, tool, 'index.html');
     if (!fs.existsSync(engine) || !fs.existsSync(page)) continue;
-    if (!/extends ConjugatorEngineBase/.test(fs.readFileSync(engine, 'utf8'))) continue;
+    const src = fs.readFileSync(engine, 'utf8');
     const html = fs.readFileSync(page, 'utf8');
-    const iBase = html.indexOf('shared/engines/conjugator-base.js');
     const iEng = html.indexOf('js/engine.js');
-    if (iBase === -1 || iBase > iEng) problems.push(`tools/${lang}/${tool}`);
+    for (const base of ['ConjugatorEngineBase:conjugator-base', 'GenderEngineBase:gender-base']) {
+      const [cls, file] = base.split(':');
+      if (!new RegExp('extends ' + cls).test(src)) continue;
+      const iBase = html.indexOf(`shared/engines/${file}.js`);
+      if (iBase === -1 || iBase > iEng) problems.push(`tools/${lang}/${tool} (${cls})`);
+    }
   }
 }
 assert.deepEqual(problems, [], 'pages must load conjugator-base.js before engine.js: ' + problems.join(', '));
-assert.ok(read('sw.js').includes('conjugator-base.js'), 'service worker must precache conjugator-base.js');
+for (const f of ['conjugator-base.js', 'gender-base.js']) assert.ok(read('sw.js').includes(f), `service worker must precache ${f}`);
 
 // 2. Behaviour of the base class in a DOM.
 (async () => {
@@ -81,5 +85,24 @@ assert.ok(read('sw.js').includes('conjugator-base.js'), 'service worker must pre
   engine.toggleGameMode();
   assert.equal(w.document.getElementById('empty-state').style.display, 'block');
   console.log('conjugator base: all assertions passed');
+
+  // gender base: hostile data cannot create elements; default SRS key is the bare noun
+  {
+    const gd = new JSDOM('<input id="noun-search-input"><div id="search-suggestions"></div>', { runScripts: 'outside-only', url: 'http://localhost/tools/xx/g/' });
+    const gw = gd.window;
+    gw.fetch = async () => ({ json: async () => ({ '<img id=pwned src=x>': { gender: '"><b id=pwned2>' } }) });
+    gw.eval(read('shared', 'js', 'escape.js'));
+    gw.eval(read('shared', 'engines', 'gender-base.js'));
+    gw.eval("window.G = class G extends GenderEngineBase { constructor() { super({ storeKey: 'g', strings: {} }); } searchNoun(q) { window.__q = q; } }");
+    const ge = new gw.G();
+    await new Promise((r) => setTimeout(r, 20));
+    ge.handleInput('<img');
+    assert.equal(gw.document.getElementById('pwned'), null, 'noun key must be escaped');
+    assert.equal(gw.document.getElementById('pwned2'), null, 'gender label must be escaped');
+    gw.document.querySelector('#search-suggestions .suggestion-item').click();
+    assert.equal(gw.__q, '<img id=pwned src=x>');
+    assert.equal(ge.srsKey('gender', { noun: 'maison' }), 'maison', 'default SRS key is the bare noun');
+    console.log('gender base: all assertions passed');
+  }
   process.exit(0);
 })().catch((e) => { console.error(e); process.exit(1); });

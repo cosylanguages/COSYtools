@@ -1,0 +1,1931 @@
+{
+ "tools/fr/genre": {
+  "log": [
+   {
+    "label": "search:maison",
+    "result": "maison ♀️ Féminin (La / Une)Niveau : A1 Terminaison typiquement féminine 📖 Définition : Bâtiment servant d'habitation. 📌 Règle Grammaticale : ↔️ Contraires / Opposés : Singulier la maison (une) Pluriel les maisons",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:départ",
+    "result": "départ ♂️ Masculin (Le / Un)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Action de s'en aller. 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier le départ (un) Pluriel les départs",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:brouillard",
+    "result": "brouillard ♂️ Masculin (Le / Un)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nuage bas au niveau du sol réduisant la visibilité. 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier le brouillard (un) Pluriel les brouillards",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzmaison",
+    "result": "zzmaison ♂️ Masculin (Le / Un)Niveau : A1 Terminaison typiquement féminine 📖 Définition : Nom commun (zzmaison). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier le zzmaison Pluriel les zzmaisons",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzcasa",
+    "result": "zzcasa ♂️ Masculin (Le / Un)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzcasa). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier le zzcasa Pluriel les zzcasas",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzvoce",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "block",
+    "prompt": "Quel est le genre de :",
+    "noun": "soleil",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "suggestions",
+    "items": [
+     "maison Féminin",
+     "main Féminin",
+     "maladie Féminin",
+     "manteau Masculin",
+     "matin Masculin",
+     "marron Masculin",
+     "mardi Masculin",
+     "magasin Masculin",
+     "marché Masculin",
+     "mars Masculin",
+     "mai Masculin",
+     "match Masculin",
+     "malentendu Masculin",
+     "mathématiques Féminin"
+    ]
+   },
+   {
+    "label": "toggle-on",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "rue",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "gender:start",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "fenêtre",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "gender:answer0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "fenêtre",
+    "feedback": "❌ Erreur ! fenêtre est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 2
+   },
+   {
+    "label": "gender:next0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "employé",
+    "feedback": "❌ Erreur ! fenêtre est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 2
+   },
+   {
+    "label": "gender:answer1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "employé",
+    "feedback": "❌ Erreur ! employé est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 3
+   },
+   {
+    "label": "gender:next1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "fille",
+    "feedback": "❌ Erreur ! employé est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 3
+   },
+   {
+    "label": "gender:answer2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "fille",
+    "feedback": "❌ Erreur ! fille est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 4
+   },
+   {
+    "label": "gender:next2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "malentendu",
+    "feedback": "❌ Erreur ! fille est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 4
+   },
+   {
+    "label": "gender:answer3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "malentendu",
+    "feedback": "❌ Erreur ! malentendu est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 5
+   },
+   {
+    "label": "gender:next3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "minute",
+    "feedback": "❌ Erreur ! malentendu est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 5
+   },
+   {
+    "label": "gender:answer4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "minute",
+    "feedback": "❌ Erreur ! minute est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 6
+   },
+   {
+    "label": "gender:next4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "début",
+    "feedback": "❌ Erreur ! minute est Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 6
+   },
+   {
+    "label": "gender:answer5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "début",
+    "feedback": "❌ Erreur ! début est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "gender:next5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quel est le genre de :",
+    "noun": "ennemi",
+    "feedback": "❌ Erreur ! début est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "ending:start",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "vert",
+    "feedback": "❌ Erreur ! début est Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "ending:answer0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "vert",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 8
+   },
+   {
+    "label": "ending:next0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "ordinateur",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 8
+   },
+   {
+    "label": "ending:answer1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "ordinateur",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 9
+   },
+   {
+    "label": "ending:next1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "fleur",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Masculin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 9
+   },
+   {
+    "label": "ending:answer2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "fleur",
+    "feedback": "✅ Correct ! Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card correct",
+    "score": "10",
+    "streak": "1",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 10
+   },
+   {
+    "label": "ending:next2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "gare",
+    "feedback": "✅ Correct ! Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card correct",
+    "score": "10",
+    "streak": "1",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 10
+   },
+   {
+    "label": "ending:answer3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "gare",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "10",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 11
+   },
+   {
+    "label": "ending:next3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "géographie",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "10",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 11
+   },
+   {
+    "label": "ending:answer4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "géographie",
+    "feedback": "✅ Correct ! Terminaison typiquement féminine. Genre : Féminin.",
+    "feedbackClass": "feedback-card correct",
+    "score": "20",
+    "streak": "1",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 12
+   },
+   {
+    "label": "ending:next4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "guerre",
+    "feedback": "✅ Correct ! Terminaison typiquement féminine. Genre : Féminin.",
+    "feedbackClass": "feedback-card correct",
+    "score": "20",
+    "streak": "1",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 12
+   },
+   {
+    "label": "ending:answer5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "guerre",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "ending:next5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Quelle classe suggère la terminaison ?",
+    "noun": "chaussure",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "Terminaison typiquement féminine",
+     "Terminaison typiquement masculine",
+     "Terminaison ambiguë : apprendre avec l’article",
+     "Exception à mémoriser",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "articles:start",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + le (contrôle)",
+    "feedback": "❌ Classe attendue : Terminaison ambiguë : apprendre avec l’article. Genre : Féminin.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "à l'",
+     "aux",
+     "à la",
+     "au",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "articles:answer0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + le (contrôle)",
+    "feedback": "❌ Oups ! La forme correcte est : au contrôle.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "à l'",
+     "aux",
+     "à la",
+     "au",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 14
+   },
+   {
+    "label": "articles:next0",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + le (départ)",
+    "feedback": "❌ Oups ! La forme correcte est : au contrôle.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "au",
+     "à la",
+     "aux",
+     "à l'",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 14
+   },
+   {
+    "label": "articles:answer1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + le (départ)",
+    "feedback": "❌ Oups ! La forme correcte est : au départ.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "au",
+     "à la",
+     "aux",
+     "à l'",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 15
+   },
+   {
+    "label": "articles:next1",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + l' (agneau)",
+    "feedback": "❌ Oups ! La forme correcte est : au départ.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "à l'",
+     "aux",
+     "au",
+     "à la",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 15
+   },
+   {
+    "label": "articles:answer2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + l' (agneau)",
+    "feedback": "❌ Oups ! La forme correcte est : à l' agneau.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "à l'",
+     "aux",
+     "au",
+     "à la",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 16
+   },
+   {
+    "label": "articles:next2",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + la (curiosité)",
+    "feedback": "❌ Oups ! La forme correcte est : à l' agneau.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "aux",
+     "à l'",
+     "à la",
+     "au",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 16
+   },
+   {
+    "label": "articles:answer3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + la (curiosité)",
+    "feedback": "❌ Oups ! La forme correcte est : à la curiosité.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "aux",
+     "à l'",
+     "à la",
+     "au",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 17
+   },
+   {
+    "label": "articles:next3",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "de + le (pantalon)",
+    "feedback": "❌ Oups ! La forme correcte est : à la curiosité.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "des",
+     "de la",
+     "de l'",
+     "du",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 17
+   },
+   {
+    "label": "articles:answer4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "de + le (pantalon)",
+    "feedback": "❌ Oups ! La forme correcte est : du pantalon.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "des",
+     "de la",
+     "de l'",
+     "du",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 18
+   },
+   {
+    "label": "articles:next4",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + l' (infirmier)",
+    "feedback": "❌ Oups ! La forme correcte est : du pantalon.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "aux",
+     "à l'",
+     "au",
+     "à la",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 18
+   },
+   {
+    "label": "articles:answer5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "à + l' (infirmier)",
+    "feedback": "✅ Excellent ! à l' infirmier est la forme correcte (+10 pts).",
+    "feedbackClass": "feedback-card correct",
+    "score": "30",
+    "streak": "1",
+    "options": [
+     "aux",
+     "à l'",
+     "au",
+     "à la",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 19
+   },
+   {
+    "label": "articles:next5",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "de + le (cadeau)",
+    "feedback": "✅ Excellent ! à l' infirmier est la forme correcte (+10 pts).",
+    "feedbackClass": "feedback-card correct",
+    "score": "30",
+    "streak": "1",
+    "options": [
+     "de la",
+     "de l'",
+     "des",
+     "du",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 19
+   },
+   {
+    "label": "toggle-off",
+    "result": "zzvoce ♀️ Féminin (La / Une)Niveau : A1 Terminaison ambiguë : apprendre avec l’article 📖 Définition : Nom commun (zzvoce). 📌 Règle Grammaticale : ↔️ Contraires / Opposés : ↔ arrivée Singulier la zzvoce Pluriel les zzvoces",
+    "resultShown": "none",
+    "prompt": "Contractez la préposition :",
+    "noun": "de + le (cadeau)",
+    "feedback": "✅ Excellent ! à l' infirmier est la forme correcte (+10 pts).",
+    "feedbackClass": "feedback-card correct",
+    "score": "30",
+    "streak": "1",
+    "options": [
+     "de la",
+     "de l'",
+     "des",
+     "du",
+     "♂️ Masculin (Le)",
+     "♀️ Féminin (La)"
+    ],
+    "srsCalls": 19
+   }
+  ],
+  "srs": [
+   [
+    "store-key",
+    "cosy-fr-genre"
+   ],
+   [
+    "fenêtre",
+    false
+   ],
+   [
+    "employé",
+    false
+   ],
+   [
+    "fille",
+    false
+   ],
+   [
+    "malentendu",
+    false
+   ],
+   [
+    "minute",
+    false
+   ],
+   [
+    "début",
+    false
+   ],
+   [
+    "vert",
+    false
+   ],
+   [
+    "ordinateur",
+    false
+   ],
+   [
+    "fleur",
+    true
+   ],
+   [
+    "gare",
+    false
+   ],
+   [
+    "géographie",
+    true
+   ],
+   [
+    "guerre",
+    false
+   ],
+   [
+    "contrôle",
+    false
+   ],
+   [
+    "départ",
+    false
+   ],
+   [
+    "agneau",
+    false
+   ],
+   [
+    "curiosité",
+    false
+   ],
+   [
+    "pantalon",
+    false
+   ],
+   [
+    "infirmier",
+    true
+   ]
+  ]
+ },
+ "tools/it/genere": {
+  "log": [
+   {
+    "label": "search:casa",
+    "result": "casa ♀️ Femminile (La / Una)Livello : A1 Finale -a: tipicamente femminile 📖 Definizione: Edificio adibito ad abitazione. 📌 Regola Grammaticale: ↔️ Contrari: Singolare la casa (una) Plurale le case",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:regalo",
+    "result": "regalo ♂️ Maschile (Il / Un)Livello : A1 Finale -o: tipicamente maschile 📖 Definizione: Dono per un'occasione. 📌 Regola Grammaticale: ↔️ Contrari: Singolare il regalo (un) Plurale i regali",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:nebbia",
+    "result": "nebbia ♀️ Femminile (La / Una)Livello : A1 Finale -a: tipicamente femminile 📖 Definizione: Condensazione di vapore acqueo nei bassi strati dell'atmosfera. 📌 Regola Grammaticale: ↔️ Contrari: Singolare la nebbia (una) Plurale le nebbie",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzmaison",
+    "result": "zzmaison ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzmaison). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzmaison Plurale i zzmaisoi",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzcasa",
+    "result": "zzcasa ♀️ Femminile (La / Una)Livello : A1 Finale -a: tipicamente femminile 📖 Definizione: Sostantivo (zzcasa). 📌 Regola Grammaticale: ↔️ Contrari: Singolare la zzcasa Plurale le zzcase",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "search:zzvoce",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "block",
+    "prompt": "Qual è il genere di:",
+    "noun": "sole",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "suggestions",
+    "items": [
+     "casa Femminile",
+     "canzone Femminile",
+     "cappotto Maschile",
+     "cappello Maschile",
+     "cane Maschile",
+     "cavallo Maschile",
+     "caffè Maschile",
+     "calcio Maschile",
+     "camino Maschile",
+     "campo Maschile",
+     "capello Maschile",
+     "carattere Maschile",
+     "carnevale Maschile",
+     "castello Maschile",
+     "campagna Femminile",
+     "capitale Femminile",
+     "carne Femminile",
+     "camicia Femminile",
+     "calzino Maschile",
+     "carriera Femminile",
+     "cassetto Maschile"
+    ]
+   },
+   {
+    "label": "toggle-on",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "città",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "gender:start",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "finestra",
+    "feedback": "",
+    "feedbackClass": "feedback-card",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 1
+   },
+   {
+    "label": "gender:answer0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "finestra",
+    "feedback": "❌ Errore! finestra è Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 2
+   },
+   {
+    "label": "gender:next0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "autunno",
+    "feedback": "❌ Errore! finestra è Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 2
+   },
+   {
+    "label": "gender:answer1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "autunno",
+    "feedback": "❌ Errore! autunno è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 3
+   },
+   {
+    "label": "gender:next1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "bianco",
+    "feedback": "❌ Errore! autunno è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "0",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 3
+   },
+   {
+    "label": "gender:answer2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "bianco",
+    "feedback": "✅ Bravo! bianco è Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "10",
+    "streak": "1",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 4
+   },
+   {
+    "label": "gender:next2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "stipendio",
+    "feedback": "✅ Bravo! bianco è Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "10",
+    "streak": "1",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 4
+   },
+   {
+    "label": "gender:answer3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "stipendio",
+    "feedback": "❌ Errore! stipendio è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "10",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 5
+   },
+   {
+    "label": "gender:next3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "minuto",
+    "feedback": "❌ Errore! stipendio è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "10",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 5
+   },
+   {
+    "label": "gender:answer4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "minuto",
+    "feedback": "✅ Bravo! minuto è Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "20",
+    "streak": "1",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 6
+   },
+   {
+    "label": "gender:next4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "ragazzo",
+    "feedback": "✅ Bravo! minuto è Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "20",
+    "streak": "1",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 6
+   },
+   {
+    "label": "gender:answer5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "ragazzo",
+    "feedback": "❌ Errore! ragazzo è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "gender:next5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Qual è il genere di:",
+    "noun": "banca",
+    "feedback": "❌ Errore! ragazzo è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "ending:start",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "medico",
+    "feedback": "❌ Errore! ragazzo è Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 7
+   },
+   {
+    "label": "ending:answer0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "medico",
+    "feedback": "❌ Classe attesa: Eccezione da memorizzare. Genere: Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 8
+   },
+   {
+    "label": "ending:next0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "orgoglio",
+    "feedback": "❌ Classe attesa: Eccezione da memorizzare. Genere: Maschile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "20",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 8
+   },
+   {
+    "label": "ending:answer1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "orgoglio",
+    "feedback": "✅ Corretto! Finale -o: tipicamente maschile. Genere: Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "30",
+    "streak": "1",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 9
+   },
+   {
+    "label": "ending:next1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "notte",
+    "feedback": "✅ Corretto! Finale -o: tipicamente maschile. Genere: Maschile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "30",
+    "streak": "1",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 9
+   },
+   {
+    "label": "ending:answer2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "notte",
+    "feedback": "✅ Corretto! Desinenza ambigua: imparare con l’articolo. Genere: Femminile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "40",
+    "streak": "2",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 10
+   },
+   {
+    "label": "ending:next2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "chiesa",
+    "feedback": "✅ Corretto! Desinenza ambigua: imparare con l’articolo. Genere: Femminile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "40",
+    "streak": "2",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 10
+   },
+   {
+    "label": "ending:answer3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "chiesa",
+    "feedback": "❌ Classe attesa: Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "40",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 11
+   },
+   {
+    "label": "ending:next3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "geografia",
+    "feedback": "❌ Classe attesa: Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "40",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 11
+   },
+   {
+    "label": "ending:answer4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "geografia",
+    "feedback": "✅ Corretto! Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "50",
+    "streak": "1",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 12
+   },
+   {
+    "label": "ending:next4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "guerra",
+    "feedback": "✅ Corretto! Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card correct",
+    "score": "50",
+    "streak": "1",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 12
+   },
+   {
+    "label": "ending:answer5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "guerra",
+    "feedback": "❌ Classe attesa: Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "ending:next5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Quale classe suggerisce la desinenza?",
+    "noun": "sale",
+    "feedback": "❌ Classe attesa: Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "Desinenza tipicamente femminile",
+     "Desinenza tipicamente maschile",
+     "Desinenza ambigua",
+     "Eccezione da memorizzare",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "articles:start",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "a + il (negozio)",
+    "feedback": "❌ Classe attesa: Finale -a: tipicamente femminile. Genere: Femminile.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "all'",
+     "ai",
+     "alla",
+     "al",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 13
+   },
+   {
+    "label": "articles:answer0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "a + il (negozio)",
+    "feedback": "❌ Ops! La forma corretta era: al negozio.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "all'",
+     "ai",
+     "alla",
+     "al",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 14
+   },
+   {
+    "label": "articles:next0",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + il (regalo)",
+    "feedback": "❌ Ops! La forma corretta era: al negozio.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nel",
+     "nella",
+     "nei",
+     "nell'",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 14
+   },
+   {
+    "label": "articles:answer1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + il (regalo)",
+    "feedback": "❌ Ops! La forma corretta era: nel regalo.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nel",
+     "nella",
+     "nei",
+     "nell'",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 15
+   },
+   {
+    "label": "articles:next1",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + l' (amico)",
+    "feedback": "❌ Ops! La forma corretta era: nel regalo.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nell'",
+     "nei",
+     "nel",
+     "nella",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 15
+   },
+   {
+    "label": "articles:answer2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + l' (amico)",
+    "feedback": "❌ Ops! La forma corretta era: nell' amico.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nell'",
+     "nei",
+     "nel",
+     "nella",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 16
+   },
+   {
+    "label": "articles:next2",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + la (vergogna)",
+    "feedback": "❌ Ops! La forma corretta era: nell' amico.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nei",
+     "nell'",
+     "nella",
+     "nel",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 16
+   },
+   {
+    "label": "articles:answer3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "in + la (vergogna)",
+    "feedback": "❌ Ops! La forma corretta era: nella vergogna.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "nei",
+     "nell'",
+     "nella",
+     "nel",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 17
+   },
+   {
+    "label": "articles:next3",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "da + il (gatto)",
+    "feedback": "❌ Ops! La forma corretta era: nella vergogna.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "dai",
+     "dalla",
+     "dall'",
+     "dal",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 17
+   },
+   {
+    "label": "articles:answer4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "da + il (gatto)",
+    "feedback": "❌ Ops! La forma corretta era: dal gatto.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "dai",
+     "dalla",
+     "dall'",
+     "dal",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 18
+   },
+   {
+    "label": "articles:next4",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "a + l' (infermiere)",
+    "feedback": "❌ Ops! La forma corretta era: dal gatto.",
+    "feedbackClass": "feedback-card wrong",
+    "score": "50",
+    "streak": "0",
+    "options": [
+     "ai",
+     "all'",
+     "al",
+     "alla",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 18
+   },
+   {
+    "label": "articles:answer5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "a + l' (infermiere)",
+    "feedback": "✅ Eccellente! all' infermiere è la forma corretta (+10 pti).",
+    "feedbackClass": "feedback-card correct",
+    "score": "60",
+    "streak": "1",
+    "options": [
+     "ai",
+     "all'",
+     "al",
+     "alla",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 19
+   },
+   {
+    "label": "articles:next5",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "da + il (conto)",
+    "feedback": "✅ Eccellente! all' infermiere è la forma corretta (+10 pti).",
+    "feedbackClass": "feedback-card correct",
+    "score": "60",
+    "streak": "1",
+    "options": [
+     "dalla",
+     "dall'",
+     "dai",
+     "dal",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 19
+   },
+   {
+    "label": "toggle-off",
+    "result": "zzvoce ♂️ Maschile (Il / Un)Livello : A1 Desinenza ambigua: imparare con l’articolo 📖 Definizione: Sostantivo (zzvoce). 📌 Regola Grammaticale: ↔️ Contrari: Singolare il zzvoce Plurale i zzvoci",
+    "resultShown": "none",
+    "prompt": "Forma la preposizione articolata:",
+    "noun": "da + il (conto)",
+    "feedback": "✅ Eccellente! all' infermiere è la forma corretta (+10 pti).",
+    "feedbackClass": "feedback-card correct",
+    "score": "60",
+    "streak": "1",
+    "options": [
+     "dalla",
+     "dall'",
+     "dai",
+     "dal",
+     "♂️ Maschile (Il)",
+     "♀️ Femminile (La)"
+    ],
+    "srsCalls": 19
+   }
+  ],
+  "srs": [
+   [
+    "store-key",
+    "cosy-it-genere"
+   ],
+   [
+    "gender:finestra",
+    false
+   ],
+   [
+    "gender:autunno",
+    false
+   ],
+   [
+    "gender:bianco",
+    true
+   ],
+   [
+    "gender:stipendio",
+    false
+   ],
+   [
+    "gender:minuto",
+    true
+   ],
+   [
+    "gender:ragazzo",
+    false
+   ],
+   [
+    "ending:medico",
+    false
+   ],
+   [
+    "ending:orgoglio",
+    true
+   ],
+   [
+    "ending:notte",
+    true
+   ],
+   [
+    "ending:chiesa",
+    false
+   ],
+   [
+    "ending:geografia",
+    true
+   ],
+   [
+    "ending:guerra",
+    false
+   ],
+   [
+    "articles:a:negozio",
+    false
+   ],
+   [
+    "articles:in:regalo",
+    false
+   ],
+   [
+    "articles:in:amico",
+    false
+   ],
+   [
+    "articles:in:vergogna",
+    false
+   ],
+   [
+    "articles:da:gatto",
+    false
+   ],
+   [
+    "articles:a:infermiere",
+    true
+   ]
+  ]
+ }
+}
