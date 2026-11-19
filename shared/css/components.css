@@ -2787,3 +2787,14 @@ button:active, .btn-primary:active, .btn-secondary:active, .ref-btn:active {
 .feedback-shake {
   animation: feedbackShake 0.4s ease-in-out forwards;
 }
+
+/* Phone: keep tool pages inside the viewport */
+@media (max-width: 600px) {
+  .practice-controls { flex-wrap: wrap !important; }
+  .practice-controls input { min-width: 100%; }
+  table.declension-table { display: block; max-width: 100%; overflow-x: auto; }
+  select { max-width: 100%; }
+}
+@media (max-width: 600px) {
+  div:has(> select.daily-lang-select) { flex-wrap: wrap !important; }
+}
