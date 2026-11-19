@@ -429,3 +429,10 @@ body.theme-projector .ref-table td {
   transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 100px;
 }
+
+@media (max-width: 700px) {
+  .ref-header { flex-wrap: wrap; row-gap: 0.5rem; padding: 0.75rem 1rem; }
+  .ref-nav-links { width: 100%; overflow-x: auto; gap: 1rem; padding-bottom: 4px; white-space: nowrap; }
+  .ref-nav-links a { flex-shrink: 0; }
+  table { max-width: 100%; }
+}
