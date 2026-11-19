@@ -4,9 +4,7 @@
 
 :root {
     --sage-primary: var(--sage);
-    --sage-dark: var(--sage-dark);
-    --sage-light: var(--sage-light);
-    --cream-bg: var(--paper-bg);
+    --cream-bg: var(--cream);
     --cream-card: var(--surface-color);
     --ink-text: var(--ink);
     --ink-muted: var(--ink-soft);
