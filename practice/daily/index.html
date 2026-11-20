@@ -412,7 +412,7 @@
         </section>
 
         <!-- CARD 4: Cross-Repository Ecosystem Integration -->
-        <section class="daily-card" style="border: 2px solid var(--sage-dark, #234027); background: #f4fbf6;" aria-labelledby="heading-ecosystem">
+        <section class="daily-card" style="border: 2px solid var(--sage-dark, #234027); background: var(--sage-mist);" aria-labelledby="heading-ecosystem">
             <h2 id="heading-ecosystem" class="daily-card-title" style="margin-bottom:0.5rem;">
                 <span aria-hidden="true">🌐</span>
                 <span>Continue Your Journey Across COSY Ecosystem</span>
@@ -463,7 +463,7 @@
 
                 const title = document.createElement('h3');
                 title.className = 'dest-card-title';
-                title.innerHTML = `<span aria-hidden="true">${dest.icon}</span> ${dest.title} <span class="dest-slot" style="background:var(--sage-dark,#234027);color:#fff;">${dest.repo}</span>`;
+                title.innerHTML = `<span aria-hidden="true">${dest.icon}</span> ${dest.title} <span class="dest-slot" style="background:var(--sage-dark,#234027);color:var(--cosy-on-sage-dark, #fff);">${dest.repo}</span>`;
                 card.appendChild(title);
 
                 const desc = document.createElement('p');

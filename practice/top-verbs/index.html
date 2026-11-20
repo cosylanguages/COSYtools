@@ -1561,7 +1561,7 @@
             if (drillQueue.length === 0) {
                 const container = document.getElementById('practice-card-content');
                 if (container) {
-                    container.innerHTML = `<p role="alert" style="text-align:center; font-weight:700; color:#991b1b;">${tHtml('noQuestions')}</p>`;
+                    container.innerHTML = `<p role="alert" style="text-align:center; font-weight:700; color:var(--cosy-semantic-error);">${tHtml('noQuestions')}</p>`;
                 }
                 return;
             }
@@ -1609,7 +1609,7 @@
                     <label for="drill-single-input" class="sr-only">${tHtml('lblAnswer')}</label>
                     <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
                         <input type="text" id="drill-single-input" class="sprint-input-group" lang="${escHtml(currentLang)}" aria-describedby="drill-prompt" style="flex:1; padding:0.8rem 1rem; border-radius:12px; border:2px solid var(--ref-border); font-size:1.15rem;" placeholder="${escHtml(tPlain(isPronoun ? 'phPronoun' : 'phVerb'))}" autocomplete="off" autocapitalize="off" spellcheck="false" onkeydown="if(event.key==='Enter') checkSingleDrillAnswer()">
-                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:#fff;" onclick="checkSingleDrillAnswer()">${stripArrow(ui.checkBtn || 'Check')} <span aria-hidden="true">➔</span></button>
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:var(--cosy-on-sage-dark, #fff);" onclick="checkSingleDrillAnswer()">${stripArrow(ui.checkBtn || 'Check')} <span aria-hidden="true">➔</span></button>
                     </div>
 
                     ${accentBtnsHtml ? `<div class="accent-bar" role="group" aria-label="${escHtml(tPlain('insertChar', { c: '' }).trim())}">${accentBtnsHtml}</div>` : ''}

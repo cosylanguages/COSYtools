@@ -695,11 +695,11 @@ class PracticeEngine {
             if (isCorrect) {
                 correctCount += 1;
                 rowEl.classList.add('correct-row');
-                if (fbEl) fbEl.innerHTML = `<span aria-hidden="true" style="color: #276749; font-weight: bold;">✅</span><span style="${COSY_SR_ONLY}">Correct</span>`;
+                if (fbEl) fbEl.innerHTML = `<span aria-hidden="true" style="color: var(--cosy-semantic-success); font-weight: bold;">✅</span><span style="${COSY_SR_ONLY}">Correct</span>`;
             } else {
                 rowEl.classList.add('wrong-row');
                 const cleanExpected = row.expected.replace(/^[!.,;]+|[!.,;]+$/g, '').trim();
-                if (fbEl) fbEl.innerHTML = `<span style="color: #9b2c2c; font-size: 0.88rem;"><span aria-hidden="true">❌</span><span style="${COSY_SR_ONLY}">Incorrect, expected:</span> ${cosyEsc(cleanExpected)}</span>`;
+                if (fbEl) fbEl.innerHTML = `<span style="color: var(--cosy-semantic-error); font-size: 0.88rem;"><span aria-hidden="true">❌</span><span style="${COSY_SR_ONLY}">Incorrect, expected:</span> ${cosyEsc(cleanExpected)}</span>`;
             }
         });
 
