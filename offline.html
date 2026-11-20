@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#416b49">
+    <title>Offline · COSYtools</title>
+    <link rel="stylesheet" href="shared/css/fonts.css">
+    <link rel="stylesheet" href="shared/css/cosy-tokens.css">
+    <link rel="stylesheet" href="shared/css/tokens.css">
+    <link rel="stylesheet" href="shared/css/base.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+  <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
+    <script src="shared/js/cosy-theme.js"></script>
+    <style>
+        body { margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+               background: var(--cosy-color-cream); color: var(--cosy-color-ink); font-family: var(--cosy-font-sans); }
+        main { max-width: 32rem; margin: auto; padding: 1.5rem; text-align: center; flex: 1; display: flex; flex-direction: column; justify-content: center; }
+        h1 { margin: 0 0 .75rem; font-family: var(--cosy-font-serif); color: var(--cosy-color-sage-dark); }
+        p { margin: 0 0 1.25rem; line-height: 1.6; color: var(--cosy-color-ink-soft); }
+        .actions { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; }
+        main a, main button { font: inherit; font-weight: 700; padding: .65rem 1.25rem; border-radius: 8px; cursor: pointer;
+                    border: 2px solid var(--cosy-color-sage-dark); text-decoration: none; }
+        main a { background: var(--cosy-color-sage-dark); color: var(--cosy-on-sage-dark); }
+        main button { background: transparent; color: var(--cosy-color-sage-dark); }
+        main a:focus-visible, main button:focus-visible { outline: 3px solid var(--cosy-focus-ring); outline-offset: 2px; }
+    </style>
+</head>
+<body>
+<!-- Shared Ecosystem Strip -->
+<div class="cosy-ecosystem-strip" data-ecosystem-strip data-self="tools" data-lang="en"><button id="cosy-theme-toggle" class="cosy-theme-toggle-btn" aria-label="Switch theme" style="background:none; cursor:pointer;">Dark</button></div>
+<!-- /Shared Ecosystem Strip -->
+    <main>
+        <h1>You are offline</h1>
+        <p>This page has not been saved on this device yet. Pages you have already opened keep working without a connection, so open this one once while you are online.</p>
+        <div class="actions">
+            <a href="./">Back to COSYtools</a>
+            <button type="button" id="retry">Try again</button>
+        </div>
+    </main>
+<!-- Shared Shell Footer -->
+<footer class="app-footer cosy-footer">
+  <div class="cosy-footer-inner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; text-align: center; color: var(--ink-soft, #666);">
+    <p><strong>COSYtools</strong> — Language reference tools across 14 languages. 100% client-side &amp; private.</p>
+    <p><small>© COSYlanguages. Open language reference tools.</small></p>
+  </div>
+</footer>
+    <script>document.getElementById('retry').addEventListener('click', function () { location.reload(); });</script>
+  <script src="https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js" defer></script>
+</body>
+</html>
