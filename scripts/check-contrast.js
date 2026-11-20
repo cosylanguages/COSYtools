@@ -6,22 +6,25 @@
  * Normal text must reach 4.5:1, large text / UI components 3:1.
  */
 const fs = require('fs'), path = require('path');
+// cosy-tokens.css is synced from COSYlanguages; tokens.css holds COSYtools-local additions.
 const css = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'cosy-tokens.css'), 'utf8');
+const localCss = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'tokens.css'), 'utf8');
 
-function block(startRe) {
-  const m = css.match(startRe);
-  if (!m) throw new Error('block not found: ' + startRe);
-  let i = css.indexOf('{', m.index), depth = 0, j = i;
-  for (; j < css.length; j++) { if (css[j] === '{') depth++; else if (css[j] === '}') { depth--; if (!depth) break; } }
-  return css.slice(i + 1, j);
+function block(startRe, source = css) {
+  const m = source.match(startRe);
+  if (!m) throw new Error('Contrast check cannot find a token block in ' + (source === css ? 'cosy-tokens.css' : 'tokens.css') + ' (expected ' + startRe + '). Local tokens such as --cosy-on-sage-dark and --cosy-focus-ring must be defined for both themes in shared/css/tokens.css.');
+  let i = source.indexOf('{', m.index), depth = 0, j = i;
+  for (; j < source.length; j++) { if (source[j] === '{') depth++; else if (source[j] === '}') { depth--; if (!depth) break; } }
+  return source.slice(i + 1, j);
 }
 function vars(text) {
   const out = {};
   text.replace(/(--[\w-]+)\s*:\s*([^;]+);/g, (_, k, v) => { out[k] = v.trim(); });
   return out;
 }
-const light = vars(block(/^:root\s*\{/m));
-const dark = Object.assign({}, light, vars(block(/html\[data-theme="dark"\],\s*body\.theme-dark\s*\{/)));
+const DARK_SEL = /html\[data-theme="dark"\],\s*body\.theme-dark\s*\{/;
+const light = Object.assign(vars(block(/^:root\s*\{/m)), vars(block(/^:root\s*\{/m, localCss)));
+const dark = Object.assign({}, light, vars(block(DARK_SEL)), vars(block(DARK_SEL, localCss)));
 
 function resolve(v, map, depth = 0) {
   if (depth > 10) return v;
@@ -51,6 +54,14 @@ const PAIRS = [
   ['secondary text on sage-mist', 'tok:--ink-soft', 'tok:--sage-mist', 4.5],
   ['text on sage-dark (buttons, active chips)', 'tok:--cosy-on-sage-dark', 'tok:--sage-dark', 4.5],
   ['focus ring vs surface (UI, 3:1)', 'tok:--cosy-focus-ring', 'tok:--surface-color', 3],
+  ['focus ring vs page background (UI, 3:1)', 'tok:--cosy-focus-ring', 'tok:--cosy-color-cream', 3],
+  ['muted text on sage-mist', 'tok:--ink-muted', 'tok:--sage-mist', 4.5],
+  ['heading green on sage-pale (banners)', 'tok:--sage-dark', 'tok:--cosy-color-sage-pale', 4.5],
+  ['error text on surface', 'tok:--cosy-semantic-error', 'tok:--surface-color', 4.5],
+  ['error text on page background', 'tok:--cosy-semantic-error', 'tok:--cosy-color-cream', 4.5],
+  ['success text on surface', 'tok:--cosy-semantic-success', 'tok:--surface-color', 4.5],
+  ['warning tag: warning on warning-light', 'tok:--cosy-semantic-warning', 'tok:--cosy-semantic-warning-light', 4.5],
+  ['white text on sage buttons (conjugator pages)', '#ffffff', 'tok:--sage', 4.5],
   // fixed colours, same in both themes (own backgrounds)
   ['toast: white on #234027', '#ffffff', '#234027', 4.5],
   ['badge: #92400e on #fef3c7', '#92400e', '#fef3c7', 4.5],
@@ -67,7 +78,7 @@ for (const [theme, map] of [['light', light], ['dark', dark]]) {
     if (fixed && theme === 'dark') continue;               // checked once
     const f = fg.startsWith('tok:') ? tok(map, fg.slice(4)) : parse(fg);
     const b = bg.startsWith('tok:') ? tok(map, bg.slice(4)) : parse(bg);
-    if (!f || !b) { console.log(`skip ${theme}: ${label} (could not resolve)`); continue; }
+    if (!f || !b) { console.log(`FAIL ${theme}: ${label} (could not resolve - a guard that cannot run is a failure)`); fails++; continue; }
     const r = ratio(f, b);
     const ok = r >= min;
     if (!ok) fails++;

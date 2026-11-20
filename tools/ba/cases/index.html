@@ -103,7 +103,7 @@
                 }
 
                 display.innerHTML = `
-                    <h2>${v} <span class="tag">${item.level || 'A1'}</span>${item.needs_review ? ' <span class="tag" style="background:#e74c3c;color:#fff;">Needs Review</span>' : ''}</h2>
+                    <h2>${v} <span class="tag">${item.level || 'A1'}</span>${item.needs_review ? ' <span class="tag" style="background:var(--cosy-semantic-warning-light);color:var(--cosy-semantic-warning);">Needs Review</span>' : ''}</h2>
                     <p><strong>Definition:</strong> ${item.definition || ''}</p>
                     <p><strong>Example:</strong> ${item.examples ? item.examples[0] : ''}</p>
                     ${casesHtml}

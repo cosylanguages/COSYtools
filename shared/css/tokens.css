@@ -6,4 +6,24 @@
 	--cosy-font-serif: 'COSY Serif', Georgia, 'Times New Roman', serif;
 	--font-sans: var(--cosy-font-sans);
 	--font-serif: var(--cosy-font-serif);
+
+	/* COSYtools-local tokens, pending an upstream definition in COSYlanguages.
+	   --sage-dark turns light in dark mode, so text on it must turn dark (a fixed white is 2.86:1).
+	   The focus ring must stay at least 3:1 against the surface in both themes (#1d4ed8 is 2.18:1 on dark). */
+	--cosy-on-sage-dark: #ffffff;
+	--cosy-focus-ring: #1d4ed8;
+}
+
+html[data-theme="dark"],
+body.theme-dark {
+	--cosy-on-sage-dark: #111611;
+	--cosy-focus-ring: #8ab4ff;
+}
+
+/* No saved choice: follow the system setting, as cosy-tokens.css does. */
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--cosy-on-sage-dark: #111611;
+		--cosy-focus-ring: #8ab4ff;
+	}
 }
