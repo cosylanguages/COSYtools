@@ -144,19 +144,6 @@
     }
 
     // --------------------------------------------------------------------------
-    // Service Worker Registration for PWA Offline Support
-    // --------------------------------------------------------------------------
-    function registerServiceWorker() {
-        if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-            const depth = window.location.pathname.split('/').filter(Boolean).length - 1;
-            const swPath = depth > 0 ? '../'.repeat(depth) + 'sw.js' : 'sw.js';
-            navigator.serviceWorker.register(swPath).catch(function(err) {
-                console.warn('COSY Shell: Service Worker registration notice', err);
-            });
-        }
-    }
-
-    // --------------------------------------------------------------------------
     // Embedded / Iframe Mode for Sibling Repos (COSYdata / COSYlanguages)
     // --------------------------------------------------------------------------
     function checkEmbedMode() {
@@ -171,7 +158,6 @@
         checkEmbedMode();
         renderAppHeader();
         loadEcosystemScripts();
-        registerServiceWorker();
         handleInitialDeepLink();
     }
 
