@@ -25,57 +25,23 @@
     }
 
     async function isFounderOrAdmin() {
-        // Check global COSY_USER or localStorage
-        let user = window.COSY_USER;
-        if (!user) {
-            try {
-                const stored = localStorage.getItem('COSY_USER') || localStorage.getItem('cosy_user');
-                if (stored) user = JSON.parse(stored);
-            } catch (e) {}
-        }
-
-        const role = (
-            user?.role ||
-            user?.user_metadata?.role ||
-            user?.app_metadata?.role ||
-            localStorage.getItem('cosy_role') ||
-            ''
-        ).toLowerCase();
-
-        if (['admin', 'founder', 'owner'].includes(role)) {
-            return true;
-        }
-
-        // Check active Supabase session
+        // The role comes from the database (profiles.role) for the signed-in user. It is never read from
+        // localStorage, window.COSY_USER or user_metadata: the signed-in user can edit all of those.
+        // This only decides whether the toolbar is shown; writes are still gated by row-level security.
         const client = getSupabaseClient();
-        if (client && client.auth) {
-            try {
-                let session = null;
-                if (typeof client.auth.getSession === 'function') {
-                    const { data } = await client.auth.getSession();
-                    session = data?.session;
-                } else if (typeof client.auth.session === 'function') {
-                    session = client.auth.session();
-                }
-
-                const sessionUser = session?.user;
-                if (sessionUser) {
-                    const sessionRole = (
-                        sessionUser.role ||
-                        sessionUser.user_metadata?.role ||
-                        sessionUser.app_metadata?.role ||
-                        ''
-                    ).toLowerCase();
-                    if (['admin', 'founder', 'owner'].includes(sessionRole)) {
-                        return true;
-                    }
-                }
-            } catch (e) {
-                console.warn('COSY CMS: Error checking session role', e);
-            }
+        if (!client || !client.auth || typeof client.auth.getSession !== 'function') return false;
+        try {
+            const { data } = await client.auth.getSession();
+            const user = data && data.session && data.session.user;
+            if (!user) return false;
+            const res = await client.from('profiles').select('role').eq('id', user.id).maybeSingle();
+            if (res.error || !res.data) return false;
+            const role = String(res.data.role || '').trim().toLowerCase();
+            return ['admin', 'founder', 'owner'].includes(role);
+        } catch (e) {
+            console.warn('COSY CMS: Error checking role', e);
+            return false;
         }
-
-        return false;
     }
 
     // --- HTML sanitizer: ALLOW-LIST, rebuilds a clean tree instead of trying to remove bad parts ---------
@@ -417,7 +383,8 @@
         toggleVisualEditing: toggleVisualEditing,
         saveAndPublishLive: saveAndPublishLive,
         renderCMSToolbar: renderCMSToolbar,
-        sanitizeHTML: sanitizeHTML
+        sanitizeHTML: sanitizeHTML,
+        isFounderOrAdmin: isFounderOrAdmin
     };
 
 })();

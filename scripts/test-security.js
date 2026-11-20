@@ -97,6 +97,33 @@ if (typeof san === 'function') {
 }
 
 // ---------------------------------------------------------------------------------------------
+// 1b. CMS role check: database profile only, never browser-editable values
+// ---------------------------------------------------------------------------------------------
+async function testCmsRole() {
+  console.log('\nCMS role check');
+  const win = loadCms();
+  const run = (profileRole, metaRole, forged) => {
+    win.localStorage.setItem('cosy_role', forged ? 'founder' : '');
+    win.localStorage.setItem('COSY_USER', forged ? JSON.stringify({ role: 'founder' }) : '');
+    win.COSY_USER = forged ? { role: 'founder' } : undefined;
+    win.supabaseClient = {
+      auth: { getSession: async () => ({ data: { session: { user: { id: 'u1', role: 'founder',
+        user_metadata: { role: metaRole }, app_metadata: { role: metaRole } } } } }) },
+      from: () => ({ select: () => ({ eq: () => ({ maybeSingle: async () =>
+        (profileRole === null ? { data: null, error: null } : { data: { role: profileRole }, error: null }) }) }) })
+    };
+    return win.COSY_CMS.isFounderOrAdmin();
+  };
+  check('forged localStorage/global/metadata does not grant access', (await run('student', 'founder', true)) === false);
+  check('no profile row means no access', (await run(null, 'founder', true)) === false);
+  check('founder profile grants access', (await run(' Founder ', 'student', false)) === true);
+  check('admin and owner grant access', (await run('admin', '', false)) === true && (await run('owner', '', false)) === true);
+  check('editor profile does not', (await run('editor', 'founder', false)) === false);
+  win.supabaseClient = undefined; win.COSY_USER = { role: 'founder' };
+  check('no client means no access', (await win.COSY_CMS.isFounderOrAdmin()) === false);
+}
+
+// ---------------------------------------------------------------------------------------------
 // 2. SSO token leakage
 // ---------------------------------------------------------------------------------------------
 async function ssoResult(href) {
@@ -114,6 +141,7 @@ async function ssoResult(href) {
 }
 
 (async () => {
+  await testCmsRole();
   console.log('SSO: tokens only go to allow-listed origins');
   const leaks = {
     'attacker URL containing "cosylanguages"': 'https://evil.example/cosylanguages',
