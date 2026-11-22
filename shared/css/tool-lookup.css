@@ -1,7 +1,6 @@
 :root {
     --sage-primary: var(--sage);
-    --sage-dark: var(--sage-dark);
-    --cream-bg: var(--paper-bg);
+    --cream-bg: var(--cream);
     --cream-card: var(--surface-color);
     --ink-text: var(--ink);
     --ink-muted: var(--ink-soft);
