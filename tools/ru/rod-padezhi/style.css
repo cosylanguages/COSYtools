@@ -3,10 +3,10 @@
 .gender-fem { background-color: var(--rose-light); color: var(--rose); }
 .gender-neut { background-color: var(--navy-light); color: var(--navy); }
 .cases-layout { margin-top: 1.5rem; }
-.cases-layout h3 { color: var(--sage-primary); margin-bottom: 1rem; }
+.cases-layout h3 { color: var(--cosy-sage-text, var(--sage-primary)); margin-bottom: 1rem; }
 .cases-table { width: 100%; border-collapse: collapse; background: var(--cream-card); border-radius: 12px; overflow: hidden; }
 .cases-table th, .cases-table td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid var(--border-color); white-space: nowrap; }
-.cases-table th { background-color: var(--sage-primary); color: var(--warm-white); }
+.cases-table th { background-color: var(--sage-primary); color: var(--cosy-on-sage, #fff); }
 .game-choice-group { display: flex; gap: 0.8rem; margin: 1.5rem 0; flex-wrap: wrap; }
 .choice-btn { flex: 1; padding: var(--space-lg); border-radius: var(--radius-pill); border: 2px solid var(--border-color); font-size: 1rem; font-weight: 700; cursor: pointer; }
 .masc-btn { background-color: var(--blue-light); color: var(--blue); }

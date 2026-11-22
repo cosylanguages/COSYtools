@@ -62,6 +62,7 @@ class FrenchRegimeEngine {
             this.setAppMode('dictionary');
             const input = document.getElementById('verb-search-input');
             if (input) input.value = target;
+            this.syncClearButton();
             this.searchVerb(target);
         }
     }
@@ -531,6 +532,13 @@ class FrenchRegimeEngine {
         }
     }
 
+    /** Show the clear (x) button only while the search box has text. Call after setting the box from code. */
+    syncClearButton() {
+        const input = document.getElementById('verb-search-input');
+        const clearBtn = document.getElementById('clear-search-btn');
+        if (clearBtn) clearBtn.style.display = input && input.value.trim() ? 'block' : 'none';
+    }
+
     handleSearchInput(query) {
         const clearBtn = document.getElementById('clear-search-btn');
         const suggestionsBox = document.getElementById('search-suggestions');
@@ -569,6 +577,7 @@ class FrenchRegimeEngine {
     selectSuggestion(key) {
         const input = document.getElementById('verb-search-input');
         if (input) input.value = key;
+        this.syncClearButton();
         this.hideSuggestions();
         this.searchVerb(key);
     }

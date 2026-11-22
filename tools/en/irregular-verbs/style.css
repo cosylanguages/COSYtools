@@ -87,7 +87,7 @@
 .form-label {
     font-size: 0.78rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.25rem;
@@ -121,7 +121,7 @@
 .sprint-timer {
     font-size: 1.25rem;
     font-weight: 800;
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -164,7 +164,7 @@
 .sprint-input-group label {
     font-size: 0.82rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin-bottom: 0.3rem;
 }
 
@@ -207,7 +207,7 @@
 
 .pattern-chip.active, .pattern-chip:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     border-color: var(--sage-primary);
 }
 
@@ -236,7 +236,7 @@
 .form-box .label {
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin-bottom: 0.2rem;

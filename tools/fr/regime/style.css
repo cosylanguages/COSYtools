@@ -1,11 +1,8 @@
 :root {
     --sage-primary: var(--sage);
-    --sage-dark: var(--sage-dark);
-    --sage-light: var(--sage-light);
     --terracotta: var(--coral);
     --cream-bg: var(--paper-bg);
     --cream-card: var(--surface-color);
-    --ink: var(--ink);
     --ink-muted: var(--ink-soft);
     --border-color: var(--border);
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
@@ -19,10 +16,8 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --sage-primary: var(--sage);
-        --sage-dark: var(--sage-dark);
         --cream-bg: var(--paper-bg);
         --cream-card: var(--surface-color);
-        --ink: var(--ink);
         --ink-muted: var(--ink-soft);
         --border-color: var(--border);
         --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -125,7 +120,7 @@ body {
 
 .mode-btn.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 /* SRS Stats Bar */
@@ -194,7 +189,7 @@ body {
 
 .dashboard-btn:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 /* Launcher Card */
@@ -242,13 +237,13 @@ body {
 
 .launcher-pill:hover, .launcher-pill.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     border-color: var(--sage-primary);
 }
 
 .weak-pill {
     border-color: rgba(184, 77, 42, 0.3);
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
 }
 
 .weak-pill.active, .weak-pill:hover {
@@ -262,7 +257,7 @@ body {
     border-radius: 14px;
     border: none;
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
@@ -287,7 +282,7 @@ body {
 .question-type-label {
     font-size: 0.85rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin-bottom: 0.4rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -326,7 +321,7 @@ body {
 .submit-input-btn {
     min-width: 120px;
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 /* Nudge Card */
@@ -484,7 +479,7 @@ body {
 
 .type-tab-btn.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     box-shadow: 0 2px 8px rgba(45, 90, 39, 0.2);
 }
 
@@ -509,7 +504,7 @@ body {
 
 .filter-pill:hover, .filter-pill.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     border-color: var(--sage-primary);
 }
 
@@ -616,7 +611,7 @@ body {
 
 .nav-btn.random-btn {
     background: rgba(45, 90, 39, 0.1);
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     border-color: rgba(45, 90, 39, 0.2);
 }
 
@@ -661,7 +656,7 @@ body {
 
 .prep-badge {
     background: rgba(45, 90, 39, 0.12);
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
 }
 
 .cefr-badge {
@@ -763,12 +758,12 @@ body {
     display: block;
     font-weight: 700;
     font-size: 0.9rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin-bottom: 0.4rem;
 }
 
 .mistake-block .lexical-label {
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
 }
 
 .def-text, .usage-text, .rule-text, .mistake-text {
@@ -793,7 +788,7 @@ body {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     font-weight: bold;
 }
 
@@ -841,7 +836,7 @@ body {
 
 .game-prompt-box h3 {
     font-size: 1.8rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin: 0.3rem 0;
 }
 
@@ -897,7 +892,7 @@ body {
     border-radius: 12px;
     border: none;
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
@@ -958,7 +953,7 @@ body {
 
 .tag-btn:hover, .antonym-pill:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 .pills-list {

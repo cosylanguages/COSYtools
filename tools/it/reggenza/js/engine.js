@@ -56,6 +56,7 @@ class ItalianReggenzaEngine {
             this.setAppMode('lookup');
             const input = document.getElementById('verb-search-input');
             if (input) input.value = target;
+            this.syncClearButton();
             this.searchVerb(target);
         }
     }
@@ -254,6 +255,13 @@ class ItalianReggenzaEngine {
         }
     }
 
+    /** Show the clear (x) button only while the search box has text. Call after setting the box from code. */
+    syncClearButton() {
+        const input = document.getElementById('verb-search-input');
+        const clearBtn = document.getElementById('clear-search-btn');
+        if (clearBtn) clearBtn.style.display = input && input.value.trim() ? 'block' : 'none';
+    }
+
     handleSearchInput(query) {
         const clearBtn = document.getElementById('clear-search-btn');
         const suggestionsBox = document.getElementById('search-suggestions');
@@ -293,6 +301,7 @@ class ItalianReggenzaEngine {
     selectSuggestion(verbKey) {
         const input = document.getElementById('verb-search-input');
         if (input) input.value = verbKey;
+        this.syncClearButton();
         this.hideSuggestions();
         this.searchVerb(verbKey);
     }

@@ -4,8 +4,6 @@
 
 :root {
     --sage-primary: var(--sage);
-    --sage-dark: var(--sage-dark);
-    --sage-light: var(--sage-light);
     --cream-bg: var(--paper-bg);
     --cream-card: var(--surface-color);
     --ink-text: var(--ink);
@@ -90,7 +88,7 @@ body {
 
 .brand-text h1 {
     font-size: 1.6rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     font-weight: 700;
     letter-spacing: -0.5px;
 }
@@ -109,7 +107,7 @@ body {
 .mode-toggle-btn {
     background-color: var(--cream-card);
     border: 2px solid var(--sage-primary);
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     padding: 0.6rem 1.2rem;
     border-radius: var(--radius-pill);
     font-size: 0.9rem;
@@ -120,12 +118,12 @@ body {
 
 .mode-toggle-btn:hover {
     background-color: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 .install-pwa-btn {
     background-color: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     border: none;
     padding: 0.6rem 1.2rem;
     border-radius: var(--radius-pill);
@@ -188,7 +186,7 @@ body {
 }
 
 .clear-btn:hover {
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
 }
 
 .suggestions-list {
@@ -241,7 +239,7 @@ body {
 }
 
 .game-title h2 {
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     font-size: 1.6rem;
 }
 
@@ -261,7 +259,7 @@ body {
 }
 
 .streak {
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
 }
 
 .game-prompt-box {
@@ -282,7 +280,7 @@ body {
 
 .game-prompt-box h3 {
     font-size: 2.2rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin: 0.3rem 0;
 }
 
@@ -297,7 +295,7 @@ body {
 .prompt-pronoun {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
 }
 
 .game-input-group {
@@ -321,7 +319,7 @@ body {
 
 .game-btn {
     background-color: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
     border: none;
     padding: 0.8rem 1.8rem;
     border-radius: var(--radius-pill);
@@ -393,7 +391,7 @@ body {
 
 .verb-title-group h2 {
     font-size: 2.2rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     font-weight: 800;
 }
 
@@ -409,7 +407,7 @@ body {
 
 .aux-badge {
     background-color: var(--sage-light);
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     border-color: var(--border);
 }
 
@@ -427,7 +425,7 @@ body {
 
 .tts-btn:hover {
     background-color: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 /* Lexical Enrichment Box */
@@ -443,7 +441,7 @@ body {
 
 .lexical-label {
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin-right: 0.5rem;
     font-size: 0.95rem;
 }
@@ -466,7 +464,7 @@ body {
 
 .usage-text {
     font-weight: 600;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
 }
 
 .grammar-rule-block {
@@ -521,7 +519,7 @@ body {
 }
 
 .ending {
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
     font-weight: 800;
 }
 
@@ -534,7 +532,7 @@ body {
 
 .mode-section h3 {
     font-size: 1.3rem;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     margin-bottom: 1rem;
     border-left: 4px solid var(--sage-primary);
     padding-left: 0.6rem;
@@ -555,7 +553,7 @@ body {
 
 .tense-card h4 {
     font-size: 0.95rem;
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 0.75rem;
@@ -606,7 +604,7 @@ body {
 }
 
 .empty-state-box h2, .empty-state-box h3 {
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
 }
@@ -634,13 +632,13 @@ body {
     border-radius: var(--radius-pill);
     cursor: pointer;
     font-weight: 600;
-    color: var(--sage-primary);
+    color: var(--cosy-sage-text, var(--sage-primary));
     transition: all 0.15s ease;
 }
 
 .tag-btn:hover {
     background-color: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-sage, #fff);
 }
 
 /* Footer */

@@ -148,7 +148,7 @@ class GreekSyntaxiEngine {
                 return `
                 <button type="button" class="suggestion-item" data-key="${String(key).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}" onclick="appEngine.selectSuggestion(this.dataset.key)">
                     <span><strong>${key}</strong></span>
-                    <span style="color: var(--sage-primary); font-size: 0.85rem; font-weight: 600;">${govText}</span>
+                    <span style="color: var(--cosy-sage-text, var(--sage)); font-size: 0.85rem; font-weight: 600;">${govText}</span>
                 </button>
             `;
             }).join('');

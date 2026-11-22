@@ -37,6 +37,16 @@
             --paper-ink: #2c2523;
         }
 
+        /* Dark theme: these page-level tokens were fixed light values, which left dark ink on the dark surface. */
+        html[data-theme="dark"] {
+            --paper-bg: var(--cosy-color-cream);
+            --paper-card-bg: var(--cosy-color-surface);
+            --paper-border: var(--cosy-color-border);
+            --paper-accent: var(--cosy-sage-text);
+            --paper-ink: var(--cosy-color-ink);
+            --paper-gradient: var(--cosy-color-cream);
+        }
+
         body {
             background: var(--paper-gradient, radial-gradient(circle, #fcfaf7 0%, #f4eee6 100%));
             color: var(--paper-ink);
@@ -53,7 +63,7 @@
             padding: 0.75rem;
             border: 2px solid var(--paper-border);
             border-radius: 14px;
-            background: #faf7f2;
+            background: var(--cosy-color-cream);
             box-shadow: inset 0 2px 6px rgba(0,0,0,0.03);
         }
         .top-verb-checkbox-label {
@@ -63,7 +73,7 @@
             padding: 0.5rem 0.75rem;
             border-radius: 10px;
             cursor: pointer;
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             border: 1.5px solid var(--paper-border);
             font-size: 0.95rem;
             transition: all 0.2s ease;
@@ -84,7 +94,7 @@
             color: var(--sage-dark, #234027);
         }
         .top-verb-checkbox-label:hover {
-            background: #f0f7f1;
+            background: var(--sage-mist);
             border-color: var(--paper-accent);
             transform: translateY(-1px);
         }
@@ -106,7 +116,7 @@
             padding: 0.45rem 0.9rem;
             border-radius: 20px;
             border: 1.5px solid var(--paper-border);
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             color: var(--paper-ink);
             font-weight: 600;
             font-size: 0.9rem;
@@ -133,7 +143,7 @@
             padding: 0.85rem 1rem;
             border-radius: 14px;
             border: 2px solid var(--paper-border);
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             cursor: pointer;
             transition: all 0.2s ease;
             text-align: center;
@@ -145,7 +155,7 @@
         }
         .person-radio-card.active {
             border-color: var(--sage-dark, #234027);
-            background: #f2f9f3;
+            background: var(--sage-mist);
             box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7), 0 4px 12px rgba(35,64,39,0.08);
         }
         button.person-radio-card {
@@ -194,7 +204,7 @@
             padding: 0.35rem 0.65rem;
             border-radius: 6px;
             border: 1px solid var(--ref-border, #d2c8be);
-            background: var(--paper-light, #ffffff);
+            background: var(--paper-light, var(--cosy-color-surface));
             font-weight: 700;
             font-size: 1rem;
             cursor: pointer;
@@ -237,7 +247,7 @@
             box-shadow: 0 2px 8px rgba(245,158,11,0.12);
         }
         .media-resources-box {
-            background: #fdfbf7;
+            background: var(--cosy-color-warm-white);
             border: 1.5px solid var(--ref-border, #d2c8be);
             border-radius: 12px;
             padding: 1.25rem;
@@ -256,7 +266,7 @@
             padding: 0.85rem 1rem;
             border-radius: 10px;
             border: 1px solid var(--ref-border, #d2c8be);
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             text-decoration: none;
             color: inherit;
             transition: all 0.2s ease;
@@ -270,7 +280,7 @@
 
         /* Full Conjugation Table Aesthetics */
         .table-round-card {
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             border: 2px solid var(--paper-border);
             border-radius: 16px;
             padding: 1.5rem;
@@ -290,21 +300,21 @@
             padding: 0.6rem 1rem;
             border-radius: 12px;
             border: 1.5px solid var(--paper-border);
-            background: #faf8f5;
+            background: var(--cosy-color-warm-white);
             transition: all 0.2s ease;
         }
         .table-row-item:focus-within {
             border-color: var(--paper-accent);
-            background: #f4fbf6;
+            background: var(--sage-mist);
             box-shadow: 0 0 0 2px rgba(65, 107, 73, 0.15);
         }
         .table-row-item.correct-row {
             border-color: #48bb78;
-            background: #f0fff4;
+            background: var(--cosy-semantic-success-light);
         }
         .table-row-item.wrong-row {
             border-color: #f56565;
-            background: #fff5f5;
+            background: var(--cosy-semantic-error-light);
         }
         .table-row-label {
             min-width: 120px;
@@ -321,7 +331,7 @@
             border: 1.5px solid var(--paper-border);
             font-size: 1.1rem;
             outline: none;
-            background: #ffffff;
+            background: var(--cosy-color-surface);
             font-family: var(--font-sans, inherit);
         }
         .table-row-input:focus {
@@ -482,7 +492,7 @@
 
             <!-- Action Controls -->
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding-top:1rem; border-top:1px dashed var(--ref-border, #d2c8be);">
-                <button type="button" class="ref-btn" id="btn-launch" style="background:var(--sage-dark, #234027); padding:0.85rem 1.75rem; font-size:1.1rem;" onclick="startCustomPractice()">
+                <button type="button" class="ref-btn" id="btn-launch" style="background:var(--sage-dark, #234027); padding:0.85rem 1.75rem; font-size:1.1rem; color:var(--cosy-on-sage-dark, #fff);" onclick="startCustomPractice()">
                     🚀 Launch Top Verbs Session
                 </button>
                 <button type="button" class="ref-btn ref-btn-secondary" id="btn-copy-link" style="display:flex; align-items:center; gap:0.4rem;" onclick="copyShareableLink()">
@@ -1699,7 +1709,7 @@
                     <p style="color:var(--ink-soft); font-size:1.1rem; margin-bottom:1.5rem;">${tHtml('score', { pts: drillScore, pct })}</p>
 
                     <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
-                        <button type="button" class="ref-btn" style="background:var(--sage-dark);" onclick="startCustomPractice()"><span aria-hidden="true">🔁</span> ${tHtml('again')}</button>
+                        <button type="button" class="ref-btn" style="background:var(--sage-dark); color:var(--cosy-on-sage-dark, #fff);" onclick="startCustomPractice()"><span aria-hidden="true">🔁</span> ${tHtml('again')}</button>
                         <button type="button" class="ref-btn ref-btn-secondary" onclick="showSetupCard()"><span aria-hidden="true">⚙️</span> ${tHtml('changeSettings')}</button>
                     </div>
                 </div>

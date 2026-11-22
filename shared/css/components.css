@@ -1,3 +1,10 @@
+/* The hidden class lives in base.css, but tools that do not load base.css (fr/regime, it/reggenza,
+   el/genos-ptoseis, el/klisi-rimaton) use it for elements that must start hidden: the SRS dashboard
+   modal, game cards, result panels. Without a rule they were all visible on load (the dashboard modal
+   covered the whole page). Deliberately NOT !important: these tools reveal such elements with an inline
+   style.display, which must keep winning. Pages that load base.css keep its stronger rule. */
+.hidden { display: none; }
+
 /* ─────────────────────────────────────────────────────────────────────────────
    COSY BUTTON CLASS SYSTEM ARCHITECTURE
 
@@ -157,7 +164,7 @@ body.theme-dark #cosy-nav {
   font-weight: 600; font-size: 1.05rem;
 }
 .nav-logo-name { font-weight: 700; font-size: .88rem; line-height: 1.2; color: var(--ink); }
-.nav-logo-sub  { font-size: .68rem; color: var(--ink-faint); line-height: 1.2; }
+.nav-logo-sub  { font-size: .68rem; color: var(--ink-muted); line-height: 1.2; }
 .nav-context { display: flex; align-items: center; gap: 10px; }
 .nav-links {
   display: flex; align-items: center; gap: 4px;
@@ -534,7 +541,7 @@ body.theme-projector .btn-projector-toggle {
 }
 .flip-word-sub {
   font-size: 0.75rem;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   margin-top: 0.5rem;
 }
 .flip-word-body {
@@ -563,7 +570,7 @@ body.theme-projector .btn-projector-toggle {
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   margin-top: 0.25rem;
 }
 .chart-legend-box {
@@ -914,7 +921,7 @@ body.theme-projector .btn-projector-toggle {
   background: none;
   border: none;
   font-weight: 700;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   cursor: pointer;
   font-size: 0.8rem;
 }
@@ -954,7 +961,7 @@ body.theme-projector .btn-projector-toggle {
 .dict-remove {
   background: none;
   border: none;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   cursor: pointer;
   padding: 4px;
   border-radius: 6px;
@@ -1022,7 +1029,7 @@ body.theme-projector .btn-projector-toggle {
   background: none;
   border: none;
   font-size: 1rem;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   cursor: pointer;
   padding: 0 4px;
   line-height: 1;
@@ -1052,7 +1059,7 @@ body.theme-projector .btn-projector-toggle {
   width: 100%;
   padding: 8px 12px;
   background: linear-gradient(135deg, var(--sage-dark), var(--sage-deep));
-  color: #fff;
+  color: var(--cosy-on-sage-dark, #fff);
   border: none;
   border-radius: 20px;
   font-size: 0.78rem;
@@ -1438,7 +1445,7 @@ body.theme-projector .btn-projector-toggle {
   background: none;
   border: none;
   font-size: 1.25rem;
-  color: var(--ink-faint, #a0aaa1);
+  color: var(--ink-muted, #a0aaa1);
   cursor: pointer;
   line-height: 1;
   padding: 0 4px;
@@ -1562,7 +1569,7 @@ body.theme-projector .btn-projector-toggle {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--ink-faint, #8A8580);
+  color: var(--ink-muted, #8A8580);
   font-weight: 800;
   white-space: nowrap;
 }
@@ -1806,7 +1813,7 @@ body.theme-projector .btn-projector-toggle {
   align-items: center;
   gap: 0.4rem;
   font-size: 0.85rem;
-  color: var(--ink-faint, #8A958A);
+  color: var(--ink-muted, #8A958A);
   font-family: var(--font-sans, 'COSY Sans', sans-serif);
 }
 
@@ -1827,7 +1834,7 @@ body.theme-projector .btn-projector-toggle {
 }
 
 .sd-breadcrumbs .current {
-  color: var(--ink-faint, #8A958A);
+  color: var(--ink-muted, #8A958A);
   font-weight: 600;
 }
 
@@ -1983,12 +1990,12 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   flex-wrap: wrap;
 }
 .btn-notebook-action {
-  background: var(--card-bg, #fff);
+  background: var(--card-bg, var(--cosy-color-surface));
   padding: 10px 16px;
   font-size: 0.85rem;
 }
 .input-manual-entry {
-  background: var(--card-bg, #fff);
+  background: var(--card-bg, var(--cosy-color-surface));
   appearance: none;
   background-image: none;
 }
@@ -2297,7 +2304,7 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
 }
 
 .comp-filter-panel {
-  background: var(--surface, #FFFDF9);
+  background: var(--surface, var(--cosy-color-surface));
   border: 1px solid var(--border, rgba(74,107,80,.12));
   border-radius: var(--r-xl, 32px);
   padding: 1.75rem;

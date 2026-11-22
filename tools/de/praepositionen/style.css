@@ -13,8 +13,6 @@
     --paper-bg: var(--cream, #fdfcf8);
     --surface-white: var(--surface-color, #FFFFFF);
     --ink-main: var(--ink, #2a2a2a);
-    --ink-soft: var(--ink-soft, #4a4a4a);
-    --ink-faint: var(--ink-faint, #5c5957);
     --border-color: var(--border, rgba(74, 107, 80, 0.12));
     --shadow-soft: var(--shadow-sm);
     --shadow-medium: var(--shadow);
@@ -300,7 +298,7 @@ body {
 }
 
 .blank-spot {
-    color: var(--terracotta);
+    color: var(--cosy-terracotta-text, var(--terracotta));
     text-decoration: underline;
     font-weight: 800;
 }
@@ -409,7 +407,7 @@ body {
 
 .filter-pill.active {
     background: var(--sage-dark);
-    color: white;
+    color: var(--cosy-on-sage-dark, #fff);
     border-color: var(--sage-dark);
 }
 
@@ -431,7 +429,7 @@ body {
 .search-box .search-icon {
     position: absolute;
     left: 0.9rem;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
 }
 
 .suggestions-list {
@@ -619,7 +617,7 @@ body {
 .app-footer {
     text-align: center;
     font-size: 0.85rem;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     margin-top: 2rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color);

@@ -25,7 +25,7 @@
     "test:workflow": "node scripts/test-practice-workflow.js",
     "test:security": "node scripts/test-security.js",
     "test:daily-modules": "node scripts/test-daily-modules.js",
-    "test": "npm run test:escape && npm run test:xss && npm run test:engine-base && npm run test:gender-golden && npm run test:pwa && npm run check:inline-colours && npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run check:shared-data && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:multilingual && npm run test:workflow && npm run test:daily-modules && npm run check:fonts && npm run check:design-tokens && npm run check:a11y && npm run validate:linguistic && npm run test:verb-forms && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run test:supplemental-i18n && npm run test:result-announce && npm run test:entry-tables && npm run test:axe && npm run check:contrast && npm run check:smoke",
+    "test": "npm run test:escape && npm run test:xss && npm run test:engine-base && npm run test:gender-golden && npm run test:pwa && npm run check:inline-colours && npm run check:js-syntax && npm run check:inline-js && npm run check:shell && npm run check:hub && npm run check:shared-data && npm run validate:catalog && npm run check:links && npm run test:hub && npm run test:validation && npm run test:multilingual && npm run test:workflow && npm run test:daily-modules && npm run check:fonts && npm run check:design-tokens && npm run check:a11y && npm run validate:linguistic && npm run test:verb-forms && npm run test:security && npm run test:top-verbs && npm run test:practice-pages && npm run test:tool-suggestions && npm run test:supplemental-i18n && npm run test:result-announce && npm run test:entry-tables && npm run test:axe && npm run check:contrast && npm run check:smoke && npm run test:browser-render",
     "test:coverage": "node scripts/test_present_tense_coverage.js",
     "test:top-verbs": "node scripts/test-top-verbs.js",
     "test:practice-pages": "node scripts/test-practice-pages.js",
@@ -46,7 +46,8 @@
     "test:engine-base": "node scripts/test-engine-base.js",
     "test:gender-golden": "node scripts/test-gender-golden.js",
     "check:inline-colours": "node scripts/check-inline-colours.js",
-    "test:pwa": "node scripts/test-pwa.js"
+    "test:pwa": "node scripts/test-pwa.js",
+    "test:browser-render": "node scripts/test-browser-render.js"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

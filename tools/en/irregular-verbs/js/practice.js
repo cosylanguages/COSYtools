@@ -284,8 +284,8 @@ class PracticeManager extends PracticeEngine {
                 <span class="prompt-badge blank-badge" style="background: var(--sage-primary); color: #fff; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem; font-weight: bold;">⚡ Present Tense Simple</span>
                 <h2 style="margin: 0.75rem 0 0.25rem 0; font-size: 1.4rem; color: var(--sage-dark);">Target Verb: <strong style="color: var(--sage-dark);">${lemma}</strong></h2>
                 <p style="color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 1rem;"><em>${verb.definition}</em></p>
-                <div class="sentence-box" style="font-size: 1.25rem; font-weight: bold; background: #fff; padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color); color: #1c1917;">
-                    "${promptInfo.sentence.replace('[___]', '<strong style="color: var(--sage-primary); text-decoration: underline;">[ ___ ]</strong>')}"
+                <div class="sentence-box" style="font-size: 1.25rem; font-weight: bold; background: var(--cosy-color-surface); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color); color: var(--ink);">
+                    "${promptInfo.sentence.replace('[___]', '<strong style="color: var(--cosy-sage-text, var(--sage)); text-decoration: underline;">[ ___ ]</strong>')}"
                 </div>
             </div>
 
@@ -374,7 +374,7 @@ class PracticeManager extends PracticeEngine {
                         <span class="prompt-badge mc-badge">🃏 Flashcard — Base Form</span>
                         <div class="flashcard-prompt">${verb.base}</div>
                         <p class="flashcard-hint"><em>${verb.definition}</em></p>
-                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--sage-primary); font-weight: 700;"><span aria-hidden="true">👆</span> Click the card (or press Enter) to flip and reveal forms</p>
+                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--cosy-sage-text, var(--sage)); font-weight: 700;"><span aria-hidden="true">👆</span> Click the card (or press Enter) to flip and reveal forms</p>
                     </div>
 
                     <div class="flashcard-back">
@@ -400,7 +400,7 @@ class PracticeManager extends PracticeEngine {
 
             <div id="flashcard-live" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;"></div>
             <div id="flashcard-eval-buttons" class="flashcard-actions" style="display: none;">
-                <button class="game-btn secondary-btn" style="background: rgba(200, 90, 50, 0.12) !important; color: var(--terracotta) !important; flex: 1;" onclick="appEngine.practice.rateFlashcard(false)">
+                <button class="game-btn secondary-btn" style="background: rgba(200, 90, 50, 0.12) !important; color: var(--cosy-terracotta-text, var(--terracotta)) !important; flex: 1;" onclick="appEngine.practice.rateFlashcard(false)">
                     ❌ Hard / Forgot
                 </button>
                 <button class="game-btn" style="flex: 1;" onclick="appEngine.practice.rateFlashcard(true)">

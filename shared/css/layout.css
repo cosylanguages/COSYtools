@@ -20,7 +20,7 @@
         radial-gradient(ellipse at 80% 20%, rgba(143,177,147,.35) 0%, transparent 55%),
         radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.18) 0%, transparent 50%),
         linear-gradient(160deg, var(--sage-dark) 0%, var(--sage) 100%);
-    color: #fff;
+    color: var(--cosy-on-sage-dark, #fff);
     text-align: left;
 }
 
@@ -168,7 +168,7 @@ footer {
 .footer-bottom {
     text-align: center;
     font-size: .75rem;
-    color: var(--ink-faint);
+    color: var(--ink-muted);
     margin-top: 5rem;
     padding-top: 2rem;
     border-top: 1px solid var(--border);
