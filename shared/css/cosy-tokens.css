@@ -13,6 +13,7 @@
     --cosy-color-cream-dark:             #F4EDE2;
     --cosy-color-warm-white:             #FFFEFB;
     --cosy-color-surface:                #FFFFFF;
+    --cosy-color-surface-raised:         #FFFFFF;
 
     --cosy-color-ink:                    #1C1917;
     --cosy-color-ink-soft:               #4A4A4A;
@@ -430,6 +431,7 @@
         --cosy-color-cream-dark:             #121512;
         --cosy-color-warm-white:             #222B22;
         --cosy-color-surface:                #222B22;
+        --cosy-color-surface-raised:         #262C28;
 
         --cosy-color-ink:                    #E8F0E9;
         --cosy-color-ink-soft:               #C8D8C9;
@@ -492,6 +494,7 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-color-cream-dark:             #121512;
     --cosy-color-warm-white:             #222B22;
     --cosy-color-surface:                #222B22;
+    --cosy-color-surface-raised:         #262C28;
 
     --cosy-color-ink:                    #E8F0E9;
     --cosy-color-ink-soft:               #C8D8C9;
@@ -540,6 +543,27 @@ html[data-theme="dark"], body.theme-dark {
     --btn-soft-hover-color:              #ffffff;
     --btn-tertiary-color:                var(--sage-light);
     --btn-tertiary-hover-color:          #ffffff;
+
+    /* Pale chip and track surfaces must darken too, otherwise a chip keeps its
+       cream fill on a dark page while its text token flips to near-white. */
+    --cosy-accent-learn-free-light:      #1C2A1F;
+    --cosy-accent-your-classes-light:    #2D1A15;
+    --cosy-accent-join-in-light:         #2D2417;
+
+    --cosy-track-general-light:          #1C2A1F;
+    --cosy-track-spoken-light:           #2D1A15;
+    --cosy-track-professional-light:     #1A202D;
+    --cosy-track-travelling-light:       #15241B;
+    --cosy-track-relocation-light:       #2D1515;
+    --cosy-track-exam-light:             #26201A;
+
+    --cosy-tag-a2-bg:                    #2D2417;
+    --cosy-tag-a2-color:                 #F0B95E;
+    --cosy-tag-sensitive-bg:             #2D1515;
+    --cosy-tag-sensitive-color:          #FCA5A5;
+
+    --cosy-color-lamp:                   #C9A455;
+    --cosy-color-lamp-soft:              #2E2716;
 }
 
 html[data-theme="dark"] .cosy-ecosystem-strip,
