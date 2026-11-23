@@ -87,7 +87,7 @@
 .form-label {
     font-size: 0.78rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.25rem;
@@ -121,7 +121,7 @@
 .sprint-timer {
     font-size: 1.25rem;
     font-weight: 800;
-    color: var(--terracotta);
+    color: var(--cosy-ink-terracotta);
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -164,7 +164,7 @@
 .sprint-input-group label {
     font-size: 0.82rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     margin-bottom: 0.3rem;
 }
 
@@ -181,7 +181,7 @@
 }
 
 .sprint-input-group input:focus {
-    border-color: var(--sage-primary);
+    border-color: var(--cosy-ink-sage);
 }
 
 /* Pattern Group Mode */
@@ -207,14 +207,14 @@
 
 .pattern-chip.active, .pattern-chip:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
-    border-color: var(--sage-primary);
+    color: var(--cosy-on-brand, #ffffff);
+    border-color: var(--cosy-ink-sage);
 }
 
 .word-type-tab.active {
     background: var(--sage-primary) !important;
     color: #ffffff !important;
-    border-color: var(--sage-primary) !important;
+    border-color: var(--cosy-ink-sage) !important;
 }
 
 /* Forms Display Box in Lookup View */
@@ -236,7 +236,7 @@
 .form-box .label {
     font-size: 0.75rem;
     font-weight: 700;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin-bottom: 0.2rem;

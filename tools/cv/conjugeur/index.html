@@ -50,7 +50,7 @@
         </div>
         <div id="result-display" class="result-card"></div>
 
-        <section class="practice-panel" id="practice-panel" style="margin-top: 2rem; background: var(--surface-muted, #f8f9fa); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color, #e2e8f0);">
+        <section class="practice-panel" id="practice-panel" style="margin-top: 2rem; background: var(--cosy-color-surface-raised, #f8f9fa); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--cosy-color-border, #e2e8f0);">
             <h2 id="practice-title" style="margin-top: 0; color: var(--sage-dark, #234027);">12 Тĕп Глагол (Хальхи Вăхăт)</h2>
             <p id="practice-prompt" class="practice-prompt" style="font-size: 1.2rem; font-weight: bold;"></p>
             <div class="practice-controls" style="display: flex; gap: 0.5rem; margin-top: 1rem;">
@@ -98,7 +98,7 @@
                     if (item.examples && item.examples.length > 0) html += `<p><strong>Example:</strong> ${item.examples[0]}</p>`;
 
                     if (item.tenses && item.tenses.present && item.tenses.present.length > 0) {
-                        html += `<div style="margin-top:1.5rem;"><h3>Present Tense</h3><ul style="list-style:none; padding:0;">${item.tenses.present.map(form => `<li style="padding:0.4rem 0.8rem; margin-bottom:0.3rem; background:var(--surface-muted, #f8f9fa); border-radius:6px; font-weight:600;">${form}</li>`).join("")}</ul></div>`;
+                        html += `<div style="margin-top:1.5rem;"><h3>Present Tense</h3><ul style="list-style:none; padding:0;">${item.tenses.present.map(form => `<li style="padding:0.4rem 0.8rem; margin-bottom:0.3rem; background:var(--cosy-color-surface-raised, #f8f9fa); border-radius:6px; font-weight:600;">${form}</li>`).join("")}</ul></div>`;
                     } else if (tableHtml) {
                         html += tableHtml;
                     } else {

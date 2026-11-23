@@ -125,7 +125,7 @@ body {
 
 .nav-mode-btn.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-brand, #ffffff);
 }
 
 /* Search Section & Filters */
@@ -168,7 +168,7 @@ body {
 
 .word-type-tab.active {
     background: var(--sage-dark);
-    color: var(--warm-white);
+    color: var(--cosy-on-brand, #ffffff);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
@@ -193,8 +193,8 @@ body {
 
 .filter-pill:hover, .filter-pill.active {
     background: var(--sage-primary);
-    color: var(--warm-white);
-    border-color: var(--sage-primary);
+    color: var(--cosy-on-brand, #ffffff);
+    border-color: var(--cosy-ink-sage);
 }
 
 .search-box {
@@ -209,7 +209,7 @@ body {
 }
 
 .search-box:focus-within {
-    border-color: var(--sage-primary);
+    border-color: var(--cosy-ink-sage);
 }
 
 .search-icon {
@@ -231,7 +231,7 @@ body {
 .category-header-icon {
     width: 1.3rem;
     height: 1.3rem;
-    color: var(--teal, #2f4a36);
+    color: var(--cosy-ink-teal, #2f4a36);
     vertical-align: middle;
     margin-right: 0.1rem;
 }
@@ -349,7 +349,7 @@ body {
     border-radius: 10px;
     border: none;
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-brand, #ffffff);
     font-weight: 700;
     font-size: 0.92rem;
     cursor: pointer;
@@ -404,9 +404,9 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.blank-badge { background: rgba(37, 99, 235, 0.12); color: var(--blue-vt); }
-.spot-badge { background: rgba(234, 88, 12, 0.12); color: var(--orange-vi); }
-.mc-badge { background: rgba(45, 90, 39, 0.12); color: var(--sage-primary); }
+.blank-badge { background: rgba(37, 99, 235, 0.12); color: var(--cosy-ink-blue, var(--blue-vt)); }
+.spot-badge { background: rgba(234, 88, 12, 0.12); color: var(--cosy-ink-coral, var(--orange-vi)); }
+.mc-badge { background: rgba(45, 90, 39, 0.12); color: var(--cosy-ink-sage); }
 
 .blank-prompt, .mistake-spot-prompt, .mc-prompt {
     background: var(--cream-bg);
@@ -426,7 +426,7 @@ body {
 
 .mistake-line {
     font-size: 1.1rem;
-    color: var(--terracotta);
+    color: var(--cosy-ink-terracotta);
     font-weight: 600;
     margin-top: 0.3rem;
 }
@@ -456,7 +456,7 @@ body {
 }
 
 .choice-btn:hover {
-    border-color: var(--sage-primary);
+    border-color: var(--cosy-ink-sage);
     background: var(--sage-light);
     color: var(--sage-dark);
     transform: translateY(-2px);
@@ -484,7 +484,7 @@ body {
 
 .feedback-wrong {
     background: var(--rose-light);
-    color: var(--rose);
+    color: var(--cosy-ink-rose);
     border: 1px solid var(--border);
 }
 
@@ -537,7 +537,7 @@ body {
     display: block;
     font-size: 1.6rem;
     font-weight: 800;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
 }
 
 .stat-lbl {
@@ -649,7 +649,7 @@ body {
 .cell-level {
     font-weight: 800;
     font-size: 0.85rem;
-    color: var(--gold-cefr);
+    color: var(--cosy-ink-gold);
     margin-bottom: 0.3rem;
 }
 
@@ -688,8 +688,8 @@ body {
 .trans-vt { background: rgba(37, 99, 235, 0.12); color: var(--blue-vt); }
 .trans-vi { background: rgba(234, 88, 12, 0.12); color: var(--orange-vi); }
 .trans-both { background: rgba(124, 58, 237, 0.12); color: var(--purple-both); }
-.prep-badge { background: rgba(45, 90, 39, 0.12); color: var(--sage-primary); }
-.cefr-badge { background: rgba(217, 119, 6, 0.12); color: var(--gold-cefr); }
+.prep-badge { background: rgba(45, 90, 39, 0.12); color: var(--cosy-ink-sage); }
+.cefr-badge { background: rgba(217, 119, 6, 0.12); color: var(--cosy-ink-gold); }
 
 .tts-btn {
     min-height: 44px;
@@ -742,7 +742,7 @@ body {
 }
 
 .noun-parallel-block .lexical-label {
-    color: var(--gold-cefr);
+    color: var(--cosy-ink-gold);
 }
 
 .noun-parallel-text {
@@ -760,11 +760,11 @@ body {
     display: block;
     font-weight: 700;
     font-size: 0.9rem;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     margin-bottom: 0.4rem;
 }
 
-.mistake-block .lexical-label { color: var(--terracotta); }
+.mistake-block .lexical-label { color: var(--cosy-ink-terracotta); }
 .def-text, .usage-text, .rule-text, .mistake-text { font-size: 1rem; color: var(--ink); }
 
 .examples-list {
@@ -784,7 +784,7 @@ body {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     font-weight: bold;
 }
 
@@ -795,7 +795,7 @@ body {
     border-radius: 12px;
     border: none;
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-brand, #ffffff);
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
@@ -842,7 +842,7 @@ body {
 
 .tag-btn:hover, .antonym-pill:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
+    color: var(--cosy-on-brand, #ffffff);
 }
 
 .pills-list {
@@ -859,7 +859,7 @@ body {
     padding: 0.35rem 0.85rem;
     border-radius: 16px;
     background: rgba(45, 90, 39, 0.1);
-    color: var(--sage-primary);
+    color: var(--cosy-ink-sage);
     border: 1px solid rgba(45, 90, 39, 0.25);
     font-weight: 700;
     font-size: 0.9rem;
@@ -871,8 +871,8 @@ body {
 
 .xref-chip:hover {
     background: var(--sage-primary);
-    color: var(--warm-white);
-    border-color: var(--sage-primary);
+    color: var(--cosy-on-brand, #ffffff);
+    border-color: var(--cosy-ink-sage);
     transform: translateY(-1px);
 }
 
@@ -900,7 +900,7 @@ body {
 }
 
 .nav-btn:hover { background: var(--sage-light); color: var(--sage-dark); }
-.nav-btn.random-btn { background: rgba(45, 90, 39, 0.1); color: var(--sage-primary); border-color: rgba(45, 90, 39, 0.2); }
+.nav-btn.random-btn { background: rgba(45, 90, 39, 0.1); color: var(--cosy-ink-sage); border-color: rgba(45, 90, 39, 0.2); }
 
 /* Standard Conjugation Practice Panel */
 .practice-panel {

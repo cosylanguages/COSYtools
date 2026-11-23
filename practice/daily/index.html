@@ -46,7 +46,7 @@
             margin-bottom: 1.5rem;
             padding: 0.75rem 1.25rem;
             background: var(--cosy-color-warm-white, #fff);
-            border: 1px solid var(--border-color, #e2e8f0);
+            border: 1px solid var(--cosy-color-border, #e2e8f0);
             border-radius: 12px;
         }
         .daily-date-badge {
@@ -60,14 +60,14 @@
         .daily-lang-select {
             padding: 0.4rem 0.8rem;
             border-radius: 8px;
-            border: 1px solid var(--border-color, #cbd5e1);
-            background: var(--surface, #fff);
+            border: 1px solid var(--cosy-color-border, #cbd5e1);
+            background: var(--cosy-color-surface, #fff);
             color: var(--ink, #1e293b);
             font-weight: 600;
         }
         .daily-card {
-            background: var(--surface, #fff);
-            border: 1px solid var(--border-color, #e2e8f0);
+            background: var(--cosy-color-surface, #fff);
+            border: 1px solid var(--cosy-color-border, #e2e8f0);
             border-radius: 16px;
             padding: 1.75rem;
             margin-bottom: 2rem;
@@ -79,7 +79,7 @@
             justify-content: space-between;
             margin-bottom: 1.25rem;
             padding-bottom: 0.75rem;
-            border-bottom: 1px solid var(--border-color, #f1f5f9);
+            border-bottom: 1px solid var(--cosy-color-border, #f1f5f9);
         }
         .daily-card-title {
             font-family: var(--ref-font-serif, serif);
@@ -112,8 +112,8 @@
             margin-top: 1rem;
         }
         .tense-block {
-            background: var(--bg-soft, #f8fafc);
-            border: 1px solid var(--border-color, #e2e8f0);
+            background: var(--cosy-color-surface-raised, #f8fafc);
+            border: 1px solid var(--cosy-color-border, #e2e8f0);
             border-radius: 10px;
             padding: 1rem;
         }
@@ -132,9 +132,9 @@
         .drill-section {
             margin-top: 1.5rem;
             padding: 1.25rem;
-            background: var(--bg-soft, #f8fafc);
+            background: var(--cosy-color-surface-raised, #f8fafc);
             border-radius: 12px;
-            border: 1px dashed var(--border-color, #cbd5e1);
+            border: 1px dashed var(--cosy-color-border, #cbd5e1);
         }
         .drill-input-row {
             display: flex;
@@ -147,7 +147,7 @@
             min-width: 200px;
             padding: 0.6rem 1rem;
             border-radius: 8px;
-            border: 1px solid var(--border-color, #cbd5e1);
+            border: 1px solid var(--cosy-color-border, #cbd5e1);
             font-size: 1rem;
         }
         .ecosystem-buttons-row {
@@ -168,7 +168,7 @@
         }
         .ecosystem-btn-primary {
             background: var(--sage-dark, #234027);
-            color: #fff;
+            color: var(--cosy-on-sage-dark, #fff);
         }
         .ecosystem-btn-primary:hover {
             transform: translateY(-2px);
@@ -186,21 +186,21 @@
         .prep-choice-btn {
             padding: 0.6rem 1.2rem;
             border-radius: 8px;
-            border: 1px solid var(--border-color, #cbd5e1);
-            background: #fff;
+            border: 1px solid var(--cosy-color-border, #cbd5e1);
+            background: var(--cosy-color-surface, #fff);
             color: var(--ink, #1e293b);
             font-weight: 600;
             cursor: pointer;
             transition: all 0.15s ease;
         }
         .prep-choice-btn:hover:not(:disabled) {
-            border-color: var(--sage, #416b49);
+            border-color: var(--cosy-ink-sage, #416b49);
             background: var(--sage-mist, #dcfce7);
         }
         .case-tag {
             display: inline-block;
-            background: #fef3c7;
-            color: #92400e;
+            background: var(--cosy-semantic-warning-light, #fef3c7);
+            color: var(--cosy-color-honey-dark, #92400e);
             font-size: 0.85rem;
             font-weight: 700;
             padding: 2px 8px;
@@ -215,8 +215,8 @@
         .dest-card {
             display: flex;
             flex-direction: column;
-            background: var(--bg-soft, #f8fafc);
-            border: 1px solid var(--border-color, #e2e8f0);
+            background: var(--cosy-color-surface-raised, #f8fafc);
+            border: 1px solid var(--cosy-color-border, #e2e8f0);
             border-radius: 12px;
             padding: 1.1rem 1.2rem;
         }
@@ -257,7 +257,7 @@
             align-items: center;
             gap: 0.4rem;
             font-weight: 700;
-            color: #fff;
+            color: var(--cosy-on-sage-dark, #fff);
             background: var(--sage-dark, #234027);
             padding: 0.55rem 1rem;
             border-radius: 9px;
@@ -276,7 +276,7 @@
 <!-- /Shared Ecosystem Strip -->
 
     <!-- Header Navigation -->
-    <header class="ref-header" style="position:relative; background:var(--surface, #fff); border-bottom:1px solid var(--border-color, #e2e8f0); z-index:10;">
+    <header class="ref-header" style="position:relative; background:var(--cosy-color-surface, #fff); border-bottom:1px solid var(--cosy-color-border, #e2e8f0); z-index:10;">
         <div style="max-width:1000px; margin:0 auto; width:100%; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.75rem;">
             <nav aria-label="Breadcrumb" style="display:flex; align-items:center; gap:0.5rem;">
                 <a href="../../index.html" style="text-decoration:none; color:inherit; font-weight:800; font-size:1.1rem;">COSYtools</a>
@@ -336,7 +336,7 @@
             <div class="daily-card-header">
                 <h2 id="heading-conjugation" class="daily-card-title">
                     <span aria-hidden="true">📖</span>
-                    <span>Daily Verb Conjugation: <span id="verb-display-headword" style="color:var(--sage); text-decoration:underline;">...</span></span>
+                    <span>Daily Verb Conjugation: <span id="verb-display-headword" style="color:var(--sage-dark, #416b49); text-decoration:underline;">...</span></span>
                 </h2>
                 <span id="verb-level-tag" class="status-badge status-stable">A1</span>
             </div>
@@ -372,13 +372,13 @@
             <div class="daily-card-header">
                 <h2 id="heading-preposition" class="daily-card-title">
                     <span aria-hidden="true">🔗</span>
-                    <span>Preposition Governance: <span id="prep-display-headword" style="color:var(--sage);">...</span></span>
+                    <span>Preposition Governance: <span id="prep-display-headword" style="color:var(--sage-dark, #416b49);">...</span></span>
                 </h2>
                 <span id="prep-case-badge" class="case-tag">Case: Accusative</span>
             </div>
 
             <p id="prep-rule-text" style="font-size:1.05rem; margin-bottom:0.75rem; font-weight:500;">Loading preposition rule...</p>
-            <div id="prep-example-box" style="padding:0.75rem 1rem; background:var(--bg-soft, #f8fafc); border-left:4px solid var(--sage, #416b49); border-radius:4px; margin-bottom:1.5rem;">
+            <div id="prep-example-box" style="padding:0.75rem 1rem; background:var(--cosy-color-surface-raised, #f8fafc); border-left:4px solid var(--sage, #416b49); border-radius:4px; margin-bottom:1.5rem;">
                 <p id="prep-example-sentence" style="margin:0; font-style:italic;">"Loading example..."</p>
             </div>
 

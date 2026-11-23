@@ -758,7 +758,7 @@ class PracticeEngine {
                 display: flex;
                 align-items: center;
                 gap: 0.75rem;
-                background: var(--paper-light, #ffffff);
+                background: var(--cosy-color-surface, #ffffff);
                 padding: 0.5rem 0.85rem;
                 border-radius: 10px;
                 border: 1.5px solid var(--border-color, #d2c8be);
@@ -786,7 +786,7 @@ class PracticeEngine {
                 border: 1.5px solid var(--border-color, #ccc);
                 font-size: 1rem;
                 font-family: var(--font-sans, inherit);
-                background: var(--paper-light, #ffffff);
+                background: var(--cosy-color-surface, #ffffff);
             }
             .conj-input:focus-visible {
                 outline: 3px solid var(--cosy-focus-ring, #1d4ed8);
@@ -943,10 +943,10 @@ class PracticeEngine {
                 padding: 0.8rem 1rem;
                 font-size: 1rem;
                 font-family: var(--font-sans, inherit);
-                border: 2px solid var(--border-color, #d2c8be);
+                border: 2px solid var(--cosy-color-border, #d2c8be);
                 border-radius: 12px;
-                background: var(--paper-light, #ffffff);
-                color: var(--text-color, #2c2523);
+                background: var(--cosy-color-surface, #ffffff);
+                color: var(--cosy-color-ink, #2c2523);
                 cursor: pointer;
                 transition: all 0.2s ease;
                 text-align: center;
@@ -961,16 +961,16 @@ class PracticeEngine {
                 font-weight: bold;
             }
             .match-btn.matched {
-                border-color: #48bb78;
-                background: #f0fff4;
-                color: #276749;
+                border-color: var(--cosy-semantic-success, #48bb78);
+                background: var(--cosy-semantic-success-light, #f0fff4);
+                color: var(--cosy-semantic-success, #276749);
                 cursor: default;
                 opacity: 0.7;
             }
             .match-btn.wrong-shake {
-                border-color: #f56565;
-                background: #fff5f5;
-                color: #9b2c2c;
+                border-color: var(--cosy-semantic-error, #f56565);
+                background: var(--cosy-semantic-error-light, #fff5f5);
+                color: var(--cosy-semantic-error, #9b2c2c);
             }
         `;
         document.head.appendChild(style);

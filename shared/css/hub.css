@@ -155,7 +155,7 @@
 .engines-hub-page .hub-section .category-header .cosy-icon {
   width: 1.1rem;
   height: 1.1rem;
-  color: var(--sage);
+  color: var(--cosy-ink-sage);
 }
 
 .engines-hub-page .ref-card-icon .cosy-icon {
@@ -365,7 +365,7 @@
 
 .hub-filter-meta { justify-content: space-between; gap: 1rem; align-items: center; }
 .hub-dev-toggle { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; font-size: 0.9rem; cursor: pointer; color: var(--ink-soft, #555); }
-.hub-dev-toggle input { width: 1.15rem; height: 1.15rem; accent-color: var(--sage, #2d6a4f); }
+.hub-dev-toggle input { width: 1.15rem; height: 1.15rem; accent-color: var(--cosy-ink-sage, #2d6a4f); }
 .hub-dev-count { opacity: 0.7; }
 .hub-result-count { font-size: 0.95rem; font-weight: 700; color: var(--sage-dark, #1b4332); }
 

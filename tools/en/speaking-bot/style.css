@@ -1,4 +1,6 @@
 /* tools/en/speaking-bot/style.css */
+/* This page loads tokens + components but not base.css, so it needs its own canvas. */
+body { background: var(--cream, #fdfcf8); color: var(--ink); min-height: 100vh; }
 .app-container { max-width: 860px; margin: 0 auto; padding: 16px 16px 48px; }
 .app-header { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px; margin-bottom: 16px; }
 .logo-badge { display:flex; align-items:center; gap:12px; }
@@ -36,7 +38,7 @@
 .sb-hint { margin:8px 0; padding:9px 13px; background: var(--honey-pale, #fff8e7); border:1px solid var(--honey-mid, #fef0c7); border-radius:10px; font-size:.88rem; color: var(--honey-dark, #7d4d03); }
 .sb-input-row { display:flex; gap:8px; margin-top:12px; }
 .sb-input { flex:1; font:inherit; padding:11px 14px; border:2px solid var(--border, rgba(74, 107, 80, 0.12)); border-radius:10px; }
-.sb-input:focus { outline:none; border-color: var(--sage, #416b49); }
+.sb-input:focus { outline:none; border-color: var(--cosy-ink-sage, #416b49); }
 
 @media (max-width: 540px) {
     .sb-bubble { max-width: 84%; }

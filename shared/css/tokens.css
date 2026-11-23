@@ -12,12 +12,46 @@
 	   The focus ring must stay at least 3:1 against the surface in both themes (#1d4ed8 is 2.18:1 on dark). */
 	--cosy-on-sage-dark: #ffffff;
 	--cosy-focus-ring: #1d4ed8;
+
+	/* Text on a brand fill (--sage, --terracotta, gold). --warm-white flips to
+	   #222B22 in dark, which made every brand button unreadable. */
+	--cosy-on-brand: #ffffff;
+
+	/* Ink variants: the base accents are fill colours and stay dark in both
+	   themes, so text painted with them disappears on a dark surface.
+	   These are the same hue, lightened for dark mode. */
+	--cosy-ink-sage: #416B49;
+	--cosy-ink-teal: var(--cosy-ink-sage);
+	--cosy-ink-coral: #B84318;
+	--cosy-ink-terracotta: var(--cosy-ink-coral);
+	--cosy-ink-honey: #945E05;
+	--cosy-ink-gold: var(--cosy-ink-honey);
+	--cosy-ink-blue: #3A5298;
+	--cosy-ink-navy: #1E2F6B;
+	--cosy-ink-rose: #A32D2D;
+	--cosy-ink-plum: #7A5C3A;
+
+	/* Legacy aliases still read by reference.css and the paper theme.
+	   Without them those declarations are invalid and the page canvas falls
+	   back to the browser's white in dark mode. */
+	--paper-bg: var(--cream);
+	--paper-txt: var(--ink);
+	--contrast-bg: #0b0b0b;
+	--contrast-txt: #ffffff;
 }
 
 html[data-theme="dark"],
 body.theme-dark {
 	--cosy-on-sage-dark: #111611;
 	--cosy-focus-ring: #8ab4ff;
+
+	--cosy-ink-sage: #8A9E8B;
+	--cosy-ink-coral: #F0906B;
+	--cosy-ink-honey: #E0B45C;
+	--cosy-ink-blue: #93B4F5;
+	--cosy-ink-navy: #A8BCF0;
+	--cosy-ink-rose: #F09A9A;
+	--cosy-ink-plum: #D0AE84;
 }
 
 /* No saved choice: follow the system setting, as cosy-tokens.css does. */

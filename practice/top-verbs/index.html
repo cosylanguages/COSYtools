@@ -30,11 +30,14 @@
     <script src="../../shared/engines/practice-engine.js"></script>
     <style>
         :root {
-            --paper-bg: #fcfaf7;
-            --paper-card-bg: #ffffff;
-            --paper-border: #d8cebe;
-            --paper-accent: #416b49;
-            --paper-ink: #2c2523;
+            --paper-bg: var(--cosy-color-cream, #fcfaf7);
+            --paper-card-bg: var(--cosy-color-surface, #ffffff);
+            --paper-border: var(--cosy-color-border, #d8cebe);
+            --paper-accent: var(--cosy-color-sage, #416b49);
+            --paper-ink: var(--cosy-color-ink, #2c2523);
+            --warn-bg: #fef3c7;
+            --warn-border: #f59e0b;
+            --warn-ink: #92400e;
         }
 
         body {
@@ -53,7 +56,7 @@
             padding: 0.75rem;
             border: 2px solid var(--paper-border);
             border-radius: 14px;
-            background: #faf7f2;
+            background: var(--cosy-color-surface-raised, #faf7f2);
             box-shadow: inset 0 2px 6px rgba(0,0,0,0.03);
         }
         .top-verb-checkbox-label {
@@ -63,7 +66,7 @@
             padding: 0.5rem 0.75rem;
             border-radius: 10px;
             cursor: pointer;
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             border: 1.5px solid var(--paper-border);
             font-size: 0.95rem;
             transition: all 0.2s ease;
@@ -84,7 +87,7 @@
             color: var(--sage-dark, #234027);
         }
         .top-verb-checkbox-label:hover {
-            background: #f0f7f1;
+            background: var(--cosy-color-sage-mist, #f0f7f1);
             border-color: var(--paper-accent);
             transform: translateY(-1px);
         }
@@ -106,7 +109,7 @@
             padding: 0.45rem 0.9rem;
             border-radius: 20px;
             border: 1.5px solid var(--paper-border);
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             color: var(--paper-ink);
             font-weight: 600;
             font-size: 0.9rem;
@@ -133,7 +136,7 @@
             padding: 0.85rem 1rem;
             border-radius: 14px;
             border: 2px solid var(--paper-border);
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             cursor: pointer;
             transition: all 0.2s ease;
             text-align: center;
@@ -145,7 +148,7 @@
         }
         .person-radio-card.active {
             border-color: var(--sage-dark, #234027);
-            background: #f2f9f3;
+            background: var(--cosy-color-sage-light, #f2f9f3);
             box-shadow: 0 0 0 2px var(--sage-mist, #dcfce7), 0 4px 12px rgba(35,64,39,0.08);
         }
         button.person-radio-card {
@@ -179,7 +182,7 @@
             overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
         }
         .setup-message {
-            background: #fee2e2; color: #991b1b; border: 2px solid #991b1b;
+            background: var(--cosy-semantic-error-light, #fee2e2); color: var(--cosy-semantic-error, #991b1b); border: 2px solid var(--cosy-semantic-error, #991b1b);
             border-radius: 10px; padding: 0.75rem 1rem; margin: 0 0 1rem 0; font-weight: 700;
         }
         .setup-message[hidden] { display: none; }
@@ -194,7 +197,7 @@
             padding: 0.35rem 0.65rem;
             border-radius: 6px;
             border: 1px solid var(--ref-border, #d2c8be);
-            background: var(--paper-light, #ffffff);
+            background: var(--cosy-color-surface-raised, #ffffff);
             font-weight: 700;
             font-size: 1rem;
             cursor: pointer;
@@ -203,7 +206,7 @@
         }
         .accent-btn:hover {
             background: var(--sage-mist, #dcfce7);
-            border-color: var(--sage, #416b49);
+            border-color: var(--cosy-ink-sage, #416b49);
             transform: translateY(-1px);
         }
         .share-toast {
@@ -225,9 +228,9 @@
         .share-toast.show { opacity: 1; visibility: visible; }
         .share-toast:empty { display: none; }
         .mnemonic-banner {
-            background: #fef3c7;
-            border: 2px solid #f59e0b;
-            color: #92400e;
+            background: var(--warn-bg);
+            border: 2px solid var(--warn-border);
+            color: var(--warn-ink);
             padding: 0.75rem 1.25rem;
             border-radius: 12px;
             font-weight: 600;
@@ -237,7 +240,7 @@
             box-shadow: 0 2px 8px rgba(245,158,11,0.12);
         }
         .media-resources-box {
-            background: #fdfbf7;
+            background: var(--cosy-color-cream, #fdfbf7);
             border: 1.5px solid var(--ref-border, #d2c8be);
             border-radius: 12px;
             padding: 1.25rem;
@@ -256,7 +259,7 @@
             padding: 0.85rem 1rem;
             border-radius: 10px;
             border: 1px solid var(--ref-border, #d2c8be);
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             text-decoration: none;
             color: inherit;
             transition: all 0.2s ease;
@@ -270,7 +273,7 @@
 
         /* Full Conjugation Table Aesthetics */
         .table-round-card {
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             border: 2px solid var(--paper-border);
             border-radius: 16px;
             padding: 1.5rem;
@@ -290,21 +293,21 @@
             padding: 0.6rem 1rem;
             border-radius: 12px;
             border: 1.5px solid var(--paper-border);
-            background: #faf8f5;
+            background: var(--cosy-color-surface-raised, #faf8f5);
             transition: all 0.2s ease;
         }
         .table-row-item:focus-within {
             border-color: var(--paper-accent);
-            background: #f4fbf6;
+            background: var(--cosy-color-sage-mist, #f4fbf6);
             box-shadow: 0 0 0 2px rgba(65, 107, 73, 0.15);
         }
         .table-row-item.correct-row {
-            border-color: #48bb78;
-            background: #f0fff4;
+            border-color: var(--cosy-semantic-success, #48bb78);
+            background: var(--cosy-semantic-success-light, #f0fff4);
         }
         .table-row-item.wrong-row {
-            border-color: #f56565;
-            background: #fff5f5;
+            border-color: var(--cosy-semantic-error, #f56565);
+            background: var(--cosy-semantic-error-light, #fff5f5);
         }
         .table-row-label {
             min-width: 120px;
@@ -321,11 +324,24 @@
             border: 1.5px solid var(--paper-border);
             font-size: 1.1rem;
             outline: none;
-            background: #ffffff;
+            background: var(--cosy-color-surface, #ffffff);
             font-family: var(--font-sans, inherit);
         }
         .table-row-input:focus {
             border-color: var(--sage-dark, #234027);
+        }
+
+        /* Dark: the decorative cream gradient has no dark counterpart. */
+        html[data-theme="dark"] body,
+        body.theme-dark {
+            background: var(--cosy-color-cream, #181C18);
+            color: var(--cosy-color-ink, #E8F0E9);
+        }
+        html[data-theme="dark"],
+        body.theme-dark {
+            --warn-bg: #2D2417;
+            --warn-border: #FBBF24;
+            --warn-ink: #FBBF24;
         }
     </style>
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
@@ -482,7 +498,7 @@
 
             <!-- Action Controls -->
             <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding-top:1rem; border-top:1px dashed var(--ref-border, #d2c8be);">
-                <button type="button" class="ref-btn" id="btn-launch" style="background:var(--sage-dark, #234027); padding:0.85rem 1.75rem; font-size:1.1rem;" onclick="startCustomPractice()">
+                <button type="button" class="ref-btn" id="btn-launch" style="background:var(--sage-dark, #234027); color:var(--cosy-on-sage-dark, #fff); padding:0.85rem 1.75rem; font-size:1.1rem;" onclick="startCustomPractice()">
                     🚀 Launch Top Verbs Session
                 </button>
                 <button type="button" class="ref-btn ref-btn-secondary" id="btn-copy-link" style="display:flex; align-items:center; gap:0.4rem;" onclick="copyShareableLink()">
