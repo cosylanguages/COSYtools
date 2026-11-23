@@ -178,3 +178,9 @@ body.mode-projector .projector-badge-indicator {
         transition-delay: -1ms !important;
     }
 }
+
+/* Placeholder text must clear 4.5:1 in both themes */
+input::placeholder, textarea::placeholder {
+  color: color-mix(in srgb, currentColor 70%, transparent);
+  opacity: 1;
+}
