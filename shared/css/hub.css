@@ -155,7 +155,7 @@
 .engines-hub-page .hub-section .category-header .cosy-icon {
   width: 1.1rem;
   height: 1.1rem;
-  color: var(--sage);
+  color: var(--cosy-sage-text, var(--sage));
 }
 
 .engines-hub-page .ref-card-icon .cosy-icon {
@@ -425,7 +425,7 @@
 [data-theme="dark"] .status-beta { color: #ffd479; background: #3a2d0b; border-color: #8a5a00; }
 [data-theme="dark"] .status-stub { color: #ccc; background: #333; border-color: #555; }
 
-.engine-card[data-status="stub"] { opacity: 0.88; border-style: dashed; }
+.engine-card[data-status="stub"] { border-style: dashed; } /* the dashed border marks it; opacity: 0.88 dropped the text to 4.4:1 */
 .hub-section + .hub-section { margin-top: 0.5rem; }
 
 /* Mobile Layout Responsive Refinements */

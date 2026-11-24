@@ -18,7 +18,8 @@
 	/* Text on a --sage background stays white in both themes (6.13:1 light, 4.79:1 dark); --warm-white
 	   turns dark in dark theme, which gave dark text on sage (3.05:1). */
 	--cosy-on-sage: #ffffff;
-	/* Sage used as TEXT: --sage is 3.05:1 on the dark surface, --sage-dark is readable there. */
+	/* Sage used as TEXT: --sage is 3.05:1 on the dark surface. Dark value is --sage-dark lightened a little so it
+	   also holds on the warm translucent tints (chips, badges) where --sage-dark alone was 4.4:1. */
 	--cosy-sage-text: var(--sage);
 	/* Terracotta as text: --terracotta stays a solid background colour, so only the text use adapts. */
 	--cosy-terracotta-text: var(--terracotta);
@@ -31,7 +32,7 @@ html[data-theme="dark"],
 body.theme-dark {
 	--cosy-on-sage-dark: #111611;
 	--cosy-focus-ring: #8ab4ff;
-	--cosy-sage-text: var(--sage-dark);
+	--cosy-sage-text: #98aa99;
 	--cosy-terracotta-text: #d98a6e;
 	--gold-cefr: #c3a573;
 	--blue-vt: #95a2c8;
@@ -55,7 +56,7 @@ body.theme-dark {
 	:root:not([data-theme="light"]) {
 		--cosy-on-sage-dark: #111611;
 		--cosy-focus-ring: #8ab4ff;
-		--cosy-sage-text: var(--sage-dark);
+		--cosy-sage-text: #98aa99;
 		--cosy-terracotta-text: #d98a6e;
 		--gold-cefr: #c3a573;
 		--blue-vt: #95a2c8;

@@ -1825,7 +1825,7 @@ body.theme-projector .btn-projector-toggle {
 }
 
 .sd-breadcrumbs a:hover {
-  color: var(--sage, #416b49);
+  color: var(--cosy-sage-text, var(--sage, #416b49));
 }
 
 .sd-breadcrumbs .sep {

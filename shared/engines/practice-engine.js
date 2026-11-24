@@ -657,7 +657,7 @@ class PracticeEngine {
             <div class="blank-prompt">
                 <span class="prompt-badge blank-badge">✍️ Conjugate Verb</span>
                 <h3 style="margin-bottom: 0.25rem;">${verbKey}</h3>
-                <p class="definition-hint" style="margin-bottom: 0.5rem;">Tense: <strong style="color: var(--sage, #416b49);">${tenseDisplay}</strong></p>
+                <p class="definition-hint" style="margin-bottom: 0.5rem;">Tense: <strong style="color: var(--cosy-sage-text, var(--sage, #416b49));">${tenseDisplay}</strong></p>
                 ${data.definition ? `<p class="definition-hint"><em>${data.definition}</em></p>` : ''}
             </div>
 
@@ -775,7 +775,7 @@ class PracticeEngine {
             .conj-label {
                 min-width: 100px;
                 font-weight: 600;
-                color: var(--sage, #416b49);
+                color: var(--cosy-sage-text, var(--sage, #416b49));
                 font-size: 0.95rem;
                 text-align: right;
             }

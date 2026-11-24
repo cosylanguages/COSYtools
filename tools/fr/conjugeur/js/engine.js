@@ -350,7 +350,7 @@ class ConjugationEngine {
             if (toggleBtn) {
                 toggleBtn.textContent = '🎮 Mode Entraînement';
                 toggleBtn.style.backgroundColor = 'var(--cream-card)';
-                toggleBtn.style.color = 'var(--sage-primary)';
+                toggleBtn.style.color = 'var(--cosy-sage-text, var(--sage-primary))';
             }
             if (gameContainer) gameContainer.style.display = 'none';
             if (searchContainer) searchContainer.style.display = 'block';

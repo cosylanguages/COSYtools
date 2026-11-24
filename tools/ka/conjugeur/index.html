@@ -156,7 +156,7 @@
                 const fbEl = document.getElementById('practice-feedback');
                 if (!ansInput || !fbEl) return;
                 const isCorrect = ansInput.value.trim().toLowerCase() === currentQuestion.expected.trim().toLowerCase();
-                fbEl.style.color = isCorrect ? '#276749' : '#9b2c2c';
+                fbEl.style.color = isCorrect ? 'var(--cosy-semantic-success)' : 'var(--cosy-semantic-error)';
                 fbEl.textContent = isCorrect ? `სწორია! (${currentQuestion.expected})` : `არასწორია. სწორი პასუხია: ${currentQuestion.expected}`;
             }
 
