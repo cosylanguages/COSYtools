@@ -317,6 +317,13 @@
                     <option value="de">🇩🇪 Deutsch</option>
                     <option value="ru">🇷🇺 Русский</option>
                     <option value="el">🇬🇷 Ελληνικά</option>
+                    <option value="pt">🇵🇹 Português</option>
+                    <option value="hy">🇦🇲 Հայերեն</option>
+                    <option value="ka">🇬🇪 ქართული</option>
+                    <option value="tt">🇷🇺 Татарча</option>
+                    <option value="ba">🇷🇺 Башҡортса</option>
+                    <option value="cv">🇷🇺 Чӑвашла</option>
+                    <option value="br">🇫🇷 Brezhoneg</option>
                 </select>
                 <label for="daily-level-select" style="font-weight:600; font-size:0.9rem; margin-left:0.5rem;">Level:</label>
                 <select id="daily-level-select" class="daily-lang-select" onchange="onLevelChanged(this.value)">
@@ -383,7 +390,7 @@
             </div>
 
             <!-- Interactive 3-Question Preposition Choice Drill -->
-            <div class="drill-section">
+            <div class="drill-section" id="prep-drill-section">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
                     <h3 style="margin:0; font-size:1.1rem; color:var(--sage-dark);">🎯 3-Question Preposition Drill</h3>
                     <span id="prep-drill-step" style="font-size:0.9rem; font-weight:700; color:var(--ink-soft);">Question 1 of 3</span>
@@ -576,22 +583,31 @@
                 document.getElementById('drill-conj-prompt').textContent = `What is the Past Simple form of "${headword}"?`;
                 window.expectedConjugationForm = pack.keyTenses.past_simple || headword;
             } else if (pack.keyTenses && pack.keyTenses.present && pack.keyTenses.present.length > 0) {
-                const sampleForm = pack.keyTenses.present[0];
                 document.getElementById('drill-conj-prompt').textContent = `Complete first person present form for "${headword}":`;
-                window.expectedConjugationForm = sampleForm;
+                window.expectedConjugationForm = pack.keyTenses.present[0];
+            } else if (pack.keyTenses && pack.keyTenses.past && pack.keyTenses.past.length > 0) {
+                document.getElementById('drill-conj-prompt').textContent = `Complete first person past form for "${headword}":`;
+                window.expectedConjugationForm = pack.keyTenses.past[0];
             } else {
-                document.getElementById('drill-conj-prompt').textContent = `Conjugate present tense for "${headword}":`;
-                window.expectedConjugationForm = headword;
+                document.getElementById('drill-conj-prompt').textContent = `No conjugation drill is available for "${headword}" yet.`;
+                window.expectedConjugationForm = '';
             }
         }
 
         function checkConjugationDrill() {
-            const userVal = document.getElementById('drill-conj-input').value.trim().toLowerCase();
+            const norm = (s) => String(s || '').normalize('NFC').toLowerCase().replace(/\u0301/g, '').replace(/[.!?]/g, '').trim();
+            const userVal = norm(document.getElementById('drill-conj-input').value);
             const feedback = document.getElementById('drill-conj-feedback');
             feedback.style.display = 'block';
 
-            const cleanExpected = (window.expectedConjugationForm || '').trim().toLowerCase();
-            if (userVal === cleanExpected || userVal === cleanExpected.split(' ').pop()) {
+            const cleanExpected = norm(window.expectedConjugationForm);
+            if (!cleanExpected) {
+                feedback.style.background = '#fee2e2';
+                feedback.style.color = '#991b1b';
+                feedback.textContent = 'No answer to check for this verb yet.';
+                return;
+            }
+            if (userVal === cleanExpected || userVal === cleanExpected.split(/\s+/).pop()) {
                 feedback.style.background = '#dcfce7';
                 feedback.style.color = '#166534';
                 feedback.textContent = '✅ Correct! Form verified.';
@@ -602,86 +618,100 @@
             }
         }
 
+        function prepositionList(prepEntry) {
+            const raw = Array.isArray(prepEntry.prepositions)
+                ? prepEntry.prepositions
+                : (Array.isArray(prepEntry.government) ? prepEntry.government.map(g => g && g.preposition).filter(Boolean) : []);
+            return raw.filter(p => p && p !== 'none');
+        }
+
+        const PREP_DISTRACTORS = {
+            en: ['in', 'at', 'to', 'for', 'with', 'from', 'on', 'about', 'by', 'of'],
+            fr: ['à', 'de', 'en', 'pour', 'avec', 'sur', 'dans', 'par', 'chez', 'sans'],
+            it: ['a', 'di', 'da', 'in', 'con', 'su', 'per', 'tra', 'fra', 'senza'],
+            es: ['a', 'de', 'en', 'con', 'por', 'para', 'sin', 'sobre', 'entre', 'hasta'],
+            de: ['an', 'auf', 'bei', 'für', 'mit', 'nach', 'von', 'zu', 'über', 'unter'],
+            ru: ['в', 'на', 'с', 'к', 'от', 'до', 'из', 'за', 'под', 'о'],
+            el: ['σε', 'με', 'για', 'από', 'προς', 'κατά', 'μετά', 'χωρίς', 'πάνω', 'κάτω']
+        };
+        const CASE_LANGS = ['de', 'ru', 'el'];
+        const escapeRe = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
         function renderPrepositionCard(pack) {
             const prepEntry = pack.prepEntry || {};
             const prepHeadword = pack.prepLemma || prepEntry.verb || prepEntry.lemma || prepEntry.word || pack.lemma || 'verb';
             document.getElementById('prep-display-headword').textContent = prepHeadword;
 
+            const prepList = prepositionList(prepEntry);
             const caseBadge = document.getElementById('prep-case-badge');
-            if (prepEntry.case) {
-                caseBadge.textContent = `Case: ${prepEntry.case}`;
-                caseBadge.style.display = 'inline-block';
-            } else if (currentLang === 'ru') {
-                caseBadge.textContent = 'Case: Genitive / Accusative';
-                caseBadge.style.display = 'inline-block';
-            } else if (currentLang === 'de') {
-                caseBadge.textContent = 'Kasus: Dativ / Akkusativ';
-                caseBadge.style.display = 'inline-block';
-            } else if (prepEntry.government) {
-                const gov = Array.isArray(prepEntry.government) ? prepEntry.government[0] : prepEntry.government;
-                caseBadge.textContent = `Case: ${gov.case || 'Accusative'}`;
+            const caseValue = prepEntry.case || (Array.isArray(prepEntry.government) && prepEntry.government[0] && prepEntry.government[0].case) || null;
+            if (prepList.length && CASE_LANGS.includes(currentLang) && caseValue) {
+                caseBadge.textContent = `Case: ${caseValue}`;
                 caseBadge.style.display = 'inline-block';
             } else {
                 caseBadge.style.display = 'none';
             }
 
-            const rule = prepEntry.grammar_rule || prepEntry.pattern || `Governed preposition usage for ${prepHeadword}.`;
-            document.getElementById('prep-rule-text').textContent = rule;
-
+            const drill = document.getElementById('prep-drill-section');
             const ex = (prepEntry.examples && prepEntry.examples[0])
                 ? (typeof prepEntry.examples[0] === 'string' ? prepEntry.examples[0] : prepEntry.examples[0].sentence)
-                : `We depend on daily language practice.`;
-            document.getElementById('prep-example-sentence').textContent = `"${ex}"`;
+                : '';
 
-            setupPrepositionDrill(pack, prepEntry, prepHeadword, ex);
+            if (!prepList.length) {
+                // No governed preposition data: say so, show the pattern, and do not invent an English sentence.
+                document.getElementById('prep-rule-text').textContent = prepEntry.pattern
+                    ? `No separate preposition: ${prepEntry.pattern}`
+                    : `No preposition data for "${prepHeadword}" in this language yet.`;
+                document.getElementById('prep-example-sentence').textContent = ex ? `"${ex}"` : '';
+                if (drill) drill.style.display = 'none';
+                return;
+            }
+
+            const correctPrep = prepList[0];
+            document.getElementById('prep-rule-text').textContent = prepEntry.grammar_rule || prepEntry.pattern || `Use "${prepHeadword}" with "${correctPrep}".`;
+            document.getElementById('prep-example-sentence').textContent = ex ? `"${ex}"` : '';
+            if (drill) drill.style.display = '';
+            setupPrepositionDrill(pack, prepEntry, prepHeadword, ex, correctPrep);
         }
 
-        function setupPrepositionDrill(pack, prepEntry, prepHeadword, ex) {
+        function setupPrepositionDrill(pack, prepEntry, prepHeadword, ex, correctPrep) {
             prepDrillIndex = 0;
             prepScore = 0;
 
-            const correctPrep = (prepEntry.prepositions && prepEntry.prepositions[0] && prepEntry.prepositions[0] !== 'none')
-                ? prepEntry.prepositions[0]
-                : (currentLang === 'fr' ? 'de' : (currentLang === 'it' ? 'a' : (currentLang === 'de' ? 'auf' : 'on')));
-
-            // Generate clean set of 4 unique options
-            function makeUniqueOptions(correct, distractors) {
+            const distractors = (PREP_DISTRACTORS[currentLang] || []).filter(p => p !== correctPrep);
+            function makeUniqueOptions(correct, pool) {
                 const set = new Set([correct]);
-                for (const d of distractors) {
+                for (const d of pool) {
                     if (set.size >= 4) break;
                     if (d !== correct) set.add(d);
-                }
-                const fallbackPool = ['in', 'at', 'to', 'for', 'with', 'from', 'on', 'about', 'by', 'of'];
-                for (const fb of fallbackPool) {
-                    if (set.size >= 4) break;
-                    if (fb !== correct) set.add(fb);
                 }
                 return Array.from(set).sort(() => Math.random() - 0.5);
             }
 
-            // Create context-rich sentence blank using the real example
-            let sentenceBlank = '';
-            if (ex && ex.includes(correctPrep)) {
-                sentenceBlank = ex.replace(new RegExp(`\\b${correctPrep}\\b`, 'i'), '________');
-            } else {
-                sentenceBlank = `They will ${prepHeadword} ________ the final decision.`;
-            }
+            const pattern = prepEntry.pattern || '';
+            const blankOut = (text, word) => {
+                if (!text || !word) return text || '';
+                const re = new RegExp(`(^|\\s)${escapeRe(word)}(?=\\s|[.,;:!?)]|$)`, 'i');
+                return text.replace(re, '$1________');
+            };
+            const blankedPattern = blankOut(pattern, correctPrep);
+            const blankPattern = blankedPattern !== pattern ? blankedPattern : `${prepHeadword} ________`;
+            const blankedExample = blankOut(ex, correctPrep);
+            const blankExample = blankedExample !== ex ? blankedExample : '';
 
             prepDrillQuestions = [
-                {
-                    prompt: `1. Fill in the blank: "${sentenceBlank}"`,
-                    correct: correctPrep,
-                    options: makeUniqueOptions(correctPrep, ['at', 'to', 'with', 'from'])
-                },
+                blankExample
+                    ? { prompt: `1. Fill in the blank: "${blankExample}"`, correct: correctPrep, options: makeUniqueOptions(correctPrep, distractors) }
+                    : { prompt: `1. Complete the pattern: "${blankPattern}"`, correct: correctPrep, options: makeUniqueOptions(correctPrep, distractors) },
                 {
                     prompt: `2. Which preposition is governed by the verb "${prepHeadword}"?`,
                     correct: correctPrep,
-                    options: makeUniqueOptions(correctPrep, ['about', 'for', 'by', 'over'])
+                    options: makeUniqueOptions(correctPrep, distractors)
                 },
                 {
-                    prompt: `3. Choose the correct usage pattern: "${prepHeadword} [________]"`,
+                    prompt: `3. Complete the pattern: "${blankPattern}"`,
                     correct: correctPrep,
-                    options: makeUniqueOptions(correctPrep, ['in', 'under', 'between', 'against'])
+                    options: makeUniqueOptions(correctPrep, distractors)
                 }
             ];
 

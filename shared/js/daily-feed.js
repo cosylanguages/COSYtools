@@ -70,11 +70,11 @@
             title: 'Daily Strip',
             icon: '🌍',
             url: `${ECOSYSTEM_BASE.languages}/`,
-            description: 'The hub daily strip: word, idiom, prompt and fun fact, with audio and level filtering.',
+            description: 'The hub daily strip: word, verb, speaking and writing prompts, and a fun fact, with level filtering.',
             slots: [
-                { label: 'Fun Fact', icon: '💡' },
-                { label: 'Word & Idiom', icon: '💬' },
-                { label: 'Speaking & Writing', icon: '✍️' }
+                { label: 'Word & Verb', icon: '📖' },
+                { label: 'Speaking & Writing', icon: '✍️' },
+                { label: 'Fun Fact', icon: '💡' }
             ]
         },
         {
@@ -340,6 +340,46 @@
     /**
      * Extract key tenses from a verb entry into a standardized structure.
      */
+    // Explicit per-language tense keys. The old generic matcher read English substrings, so German
+    // `präsens`/`präteritum`/`perfekt` were invisible and Spanish `preterito_imperfecto` matched
+    // `perfect` before `preterito_perfecto_compuesto`. Keep the mapping next to the data it describes.
+    const TENSE_KEYS = {
+        en: [['present', ['present']], ['past', ['past']], ['perfect', ['past_participle']], ['future', ['future']]],
+        fr: [
+            ['present', ['indicatif_present']], ['past', ['indicatif_imparfait']], ['perfect', ['pc']],
+            ['future', ['indicatif_futur_simple']], ['conditional', ['conditionnel_present']],
+            ['subjunctive', ['subjonctif_present']]
+        ],
+        it: [
+            ['present', ['pres']], ['past', ['pc']], ['imperfect', ['imp']], ['future', ['fut']],
+            ['conditional', ['cond']], ['subjunctive', ['subj']]
+        ],
+        es: [
+            ['present', ['presente']], ['past', ['pasado']], ['imperfect', ['preterito_imperfecto']],
+            ['perfect', ['preterito_perfecto_compuesto']], ['future', ['futuro_simple']],
+            ['conditional', ['condicional_simple']], ['subjunctive', ['subjuntivo_presente']]
+        ],
+        de: [
+            ['present', ['präsens', 'praesens']], ['past', ['präteritum', 'praeteritum']],
+            ['perfect', ['perfekt']], ['future', ['futur_1', 'futur']], ['subjunctive', ['konjunktiv_2']]
+        ],
+        ru: [['present', ['pres']], ['past', ['past']], ['future', ['fut']], ['conditional', ['cond']]],
+        el: [
+            ['present', ['pres']], ['past', ['imp']], ['perfect', ['perf']], ['aorist', ['aor']],
+            ['future', ['fut']], ['conditional', ['cond']], ['subjunctive', ['subj']]
+        ],
+        pt: [
+            ['present', ['presente']], ['past', ['passado']], ['imperfect', ['preterito_imperfeito']],
+            ['future', ['futuro_do_presente']], ['subjunctive', ['presente_subjuntivo']]
+        ],
+        hy: [['present', ['present']], ['past', ['past']], ['future', ['future']]],
+        ka: [['present', ['present']], ['past', ['past']], ['future', ['future']]],
+        tt: [['present', ['present']]],
+        ba: [['present', ['present']]],
+        cv: [['present', ['present']]],
+        br: [['present', ['present']], ['past', ['past']], ['future', ['future']]]
+    };
+
     function extractKeyTenses(entry, lang) {
         if (!entry) return {};
 
@@ -357,27 +397,27 @@
 
         const tenses = entry.tenses || entry.conjugations || {};
         const result = {};
+        const map = TENSE_KEYS[lang];
 
-        // Present
+        if (map) {
+            for (const [label, aliases] of map) {
+                const key = aliases.find((a) => Object.prototype.hasOwnProperty.call(tenses, a));
+                if (key && Array.isArray(tenses[key]) && tenses[key].length) result[label] = tenses[key];
+            }
+            return result;
+        }
+
+        // Unknown language: keep the old best-effort matcher, but never let "imperfect" satisfy "perfect".
         const presKey = Object.keys(tenses).find(k => k.includes('present') || k === 'pres' || k === 'prs');
         if (presKey) result.present = tenses[presKey];
-
-        // Past / Imperfect / Preterite
         const pastKey = Object.keys(tenses).find(k => k.includes('imparfait') || k.includes('past') || k === 'imp' || k.includes('pret'));
         if (pastKey) result.past = tenses[pastKey];
-
-        // Perfect / Passé Composé
-        const perfKey = Object.keys(tenses).find(k => k === 'pc' || k.includes('perfect') || k === 'perf' || k === 'aor');
+        const perfKey = Object.keys(tenses).find(k => k === 'pc' || (k.includes('perfect') && !k.includes('imperfect')) || k === 'perf' || k === 'aor');
         if (perfKey) result.perfect = tenses[perfKey];
-
-        // Future
         const futKey = Object.keys(tenses).find(k => k.includes('futur') || k === 'fut');
         if (futKey) result.future = tenses[futKey];
-
-        // Subjunctive / Conditional
         const subKey = Object.keys(tenses).find(k => k.includes('subj') || k.includes('subjonctif') || k.includes('cond'));
         if (subKey) result.subjunctive_or_conditional = tenses[subKey];
-
         return result;
     }
 
