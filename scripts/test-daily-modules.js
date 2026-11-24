@@ -60,6 +60,45 @@ async function runTests() {
     const tenses = feed.extractKeyTenses(matched, 'en');
     ok(tenses.is_irregular && tenses.past_participle === 'broken', 'extractKeyTenses highlights English irregular forms');
 
+    // 3b. Per-language tense maps: German must show present/past/perfect, not only the future.
+    const deVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/de/konjugation/data/verbs.json'), 'utf8'));
+    const deTenses = feed.extractKeyTenses(deVerbs.lernen, 'de');
+    ok(deTenses.present && deTenses.present[0] === 'ich lerne', 'German present tense is extracted');
+    ok(deTenses.past && deTenses.past[0] === 'ich lernte', 'German präteritum is extracted');
+    ok(deTenses.perfect && deTenses.perfect[0] === 'ich habe gelernt', 'German perfekt is extracted');
+    ok(deTenses.future && deTenses.future[0] === 'ich werde lernen', 'German future is still extracted');
+    ok(Object.keys(deTenses).length >= 4, 'German card has more than the future block');
+
+    // 3c. Spanish must not confuse the imperfect with the perfect.
+    const esVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/es/conjugeur/data/verbs.json'), 'utf8'));
+    const esTenses = feed.extractKeyTenses(esVerbs.visitar, 'es');
+    ok(esTenses.past && esTenses.past[0] === 'visité', 'Spanish preterite is extracted as past');
+    ok(esTenses.imperfect && esTenses.imperfect[0] === 'visitaba', 'Spanish imperfect is extracted separately');
+    ok(esTenses.perfect && esTenses.perfect[0] === 'he visitado', 'Spanish perfect is extracted separately');
+    ok(esTenses.imperfect[0] !== esTenses.perfect[0], 'Spanish imperfect and perfect are not the same block');
+
+    // 3d. French and Italian keep their perfect forms.
+    const frVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/fr/conjugeur/data/verbs.json'), 'utf8'));
+    const frTenses = feed.extractKeyTenses(frVerbs.parler, 'fr');
+    ok(frTenses.present && frTenses.present[0] === 'je parle' && frTenses.perfect && frTenses.perfect[0] === "j'ai parlé", 'French present and passé composé are extracted');
+    const itVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/it/coniugatore/data/verbs.json'), 'utf8'));
+    const itTenses = feed.extractKeyTenses(itVerbs.parlare, 'it');
+    ok(itTenses.present && itTenses.present[0] === 'parlo' && itTenses.past && itTenses.past[0] === 'ho parlato', 'Italian present and passato prossimo are extracted');
+
+    // 3e. Greek keeps aorist and perfect apart, and Russian keeps its past/future.
+    const elVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/el/klisi-rimaton/data/verbs.json'), 'utf8'));
+    const elTenses = feed.extractKeyTenses(elVerbs['γράφω'], 'el');
+    ok(elTenses.present && elTenses.present[0] === 'γράφω', 'Greek present is extracted');
+    ok(elTenses.past && elTenses.past[0] === 'έγραφα', 'Greek imperfect is extracted as past');
+    ok(elTenses.aorist && elTenses.aorist[0] === 'έγραψα', 'Greek aorist is extracted separately');
+    ok(elTenses.perfect && elTenses.perfect[0] === 'έχω γράψει', 'Greek perfect is extracted');
+    ok(elTenses.future && elTenses.future[0] === 'θα γράψω', 'Greek future is extracted');
+    const ruVerbs = JSON.parse(fs.readFileSync(path.join(root, 'tools/ru/spryazhenie/data/verbs.json'), 'utf8'));
+    const ruTenses = feed.extractKeyTenses(ruVerbs['говорить'], 'ru');
+    ok(ruTenses.present && ruTenses.present[0] === 'я говорю́', 'Russian present is extracted');
+    ok(ruTenses.past && ruTenses.past[0] === 'он говори́л', 'Russian past is extracted');
+    ok(ruTenses.future && ruTenses.future[0] === 'я буду говорить', 'Russian future is extracted');
+
     // 4. Preposition governance matching
     const enPrep = JSON.parse(fs.readFileSync(path.join(root, 'tools/en/verb-prep/data/verbs.json'), 'utf8'));
     const prepEntry = feed.matchPrepositionEntry(enPrep, 'depend');
@@ -202,6 +241,65 @@ async function runTests() {
         ok(sel.value === expected && ldom.window.currentLang === expected, `Daily page opens in '${expected}' for "${query}"`);
         ok(pageErrors(langErrs).length === 0, `No script errors for "${query}": ` + pageErrors(langErrs).join('|'));
         ldom.window.close();
+    }
+
+    // German must show the full tense set (the old generic matcher showed only the future).
+    {
+        const deErrs = [];
+        const deVc = new VirtualConsole();
+        deVc.on('jsdomError', e => deErrs.push(e.message));
+        const deDom = await JSDOM.fromURL(`http://localhost:${server.address().port}/practice/daily/index.html?lang=de&level=B1`, {
+            runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: deVc,
+            beforeParse(win) { win.fetch = u => fetch(new URL(u, win.location.href).href); }
+        });
+        await sleep(900);
+        const deDoc = deDom.window.document;
+        const blocks = deDoc.querySelectorAll('#tenses-container .tense-block');
+        ok(blocks.length >= 3, `German conjugation shows present/past/perfect blocks (${blocks.length})`);
+        ok(/present/.test(deDoc.getElementById('tenses-container').textContent.toLowerCase()), 'German conjugation has a present block');
+        ok(deDom.window.expectedConjugationForm && deDom.window.expectedConjugationForm !== deDom.window.currentPack.lemma,
+            'German mini-drill expects a conjugated form, not the infinitive');
+        ok(pageErrors(deErrs).length === 0, 'No script errors on the German daily page: ' + pageErrors(deErrs).join('|'));
+        deDom.window.close();
+    }
+
+    // Spanish must show the imperfect and perfect as separate blocks, not the imperfect twice.
+    {
+        const esErrs = [];
+        const esVc = new VirtualConsole();
+        esVc.on('jsdomError', e => esErrs.push(e.message));
+        const esDom = await JSDOM.fromURL(`http://localhost:${server.address().port}/practice/daily/index.html?lang=es&level=B1`, {
+            runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: esVc,
+            beforeParse(win) { win.fetch = u => fetch(new URL(u, win.location.href).href); }
+        });
+        await sleep(900);
+        const esText = esDom.window.document.getElementById('tenses-container').textContent.toLowerCase();
+        ok(/imperfect/.test(esText) && /perfect/.test(esText), 'Spanish shows separate imperfect and perfect blocks');
+        const esPack = esDom.window.currentPack;
+        ok(esPack && esPack.keyTenses && esPack.keyTenses.past && esPack.keyTenses.perfect && esPack.keyTenses.past[0] !== esPack.keyTenses.perfect[0],
+            'Spanish past and perfect are different forms');
+        ok(pageErrors(esErrs).length === 0, 'No script errors on the Spanish daily page: ' + pageErrors(esErrs).join('|'));
+        esDom.window.close();
+    }
+
+    // A language with conjugation data but no preposition data must hide the drill, not fall back to English.
+    {
+        const ptErrs = [];
+        const ptVc = new VirtualConsole();
+        ptVc.on('jsdomError', e => ptErrs.push(e.message));
+        const ptDom = await JSDOM.fromURL(`http://localhost:${server.address().port}/practice/daily/index.html?lang=pt&level=B1`, {
+            runScripts: 'dangerously', resources: 'usable', pretendToBeVisual: true, virtualConsole: ptVc,
+            beforeParse(win) { win.fetch = u => fetch(new URL(u, win.location.href).href); }
+        });
+        await sleep(900);
+        const ptDoc = ptDom.window.document;
+        const drill = ptDoc.getElementById('prep-drill-section');
+        ok(drill && drill.style.display === 'none', 'Portuguese hides the preposition drill when there is no governance data');
+        ok(/No separate preposition|No preposition data/.test(ptDoc.getElementById('prep-rule-text').textContent),
+            'Portuguese explains that there is no preposition data');
+        ok(!/We depend on daily language practice/.test(ptDoc.body.textContent), 'Portuguese never shows the English fallback example');
+        ok(pageErrors(ptErrs).length === 0, 'No script errors on the Portuguese daily page: ' + pageErrors(ptErrs).join('|'));
+        ptDom.window.close();
     }
 
     // ?level= selects the CEFR level used to pick the daily cards
