@@ -10,9 +10,11 @@ const fs = require('fs'), path = require('path');
 const css = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'cosy-tokens.css'), 'utf8');
 const localCss = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'tokens.css'), 'utf8');
 
-function block(startRe, source = css) {
-  const m = source.match(startRe);
-  if (!m) throw new Error('Contrast check cannot find a token block in ' + (source === css ? 'cosy-tokens.css' : 'tokens.css') + ' (expected ' + startRe + '). Local tokens such as --cosy-on-sage-dark and --cosy-focus-ring must be defined for both themes in shared/css/tokens.css.');
+function block(startRe, source = css, pick = 'first') {
+  const flags = startRe.flags.includes('g') ? startRe.flags : startRe.flags + 'g';
+  const matches = [...source.matchAll(new RegExp(startRe.source, flags))];
+  if (!matches.length) throw new Error('Contrast check cannot find a token block in ' + (source === css ? 'cosy-tokens.css' : 'tokens.css') + ' (expected ' + startRe + '). Local tokens such as --cosy-on-sage-dark and --cosy-focus-ring must be defined for both themes in shared/css/tokens.css.');
+  const m = pick === 'last' ? matches[matches.length - 1] : matches[0];
   let i = source.indexOf('{', m.index), depth = 0, j = i;
   for (; j < source.length; j++) { if (source[j] === '{') depth++; else if (source[j] === '}') { depth--; if (!depth) break; } }
   return source.slice(i + 1, j);
@@ -24,7 +26,9 @@ function vars(text) {
 }
 const DARK_SEL = /html\[data-theme="dark"\],\s*body\.theme-dark\s*\{/;
 const light = Object.assign(vars(block(/^:root\s*\{/m)), vars(block(/^:root\s*\{/m, localCss)));
-const dark = Object.assign({}, light, vars(block(DARK_SEL)), vars(block(DARK_SEL, localCss)));
+// cosy-tokens.css has a short `color-scheme` dark block before the full token block.
+// Pick the last match so the resolved dark map uses the complete overrides.
+const dark = Object.assign({}, light, vars(block(DARK_SEL, css, 'last')), vars(block(DARK_SEL, localCss, 'last')));
 
 function resolve(v, map, depth = 0) {
   if (depth > 10) return v;
