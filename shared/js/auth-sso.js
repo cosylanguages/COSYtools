@@ -47,7 +47,9 @@
             const anonKey = window.COSY_SUPABASE_ANON_KEY;
             if (url && anonKey) {
                 try {
-                    window.supabaseClient = window.supabase.createClient(url, anonKey);
+                    window.supabaseClient = window.supabase.createClient(url, anonKey, {
+                        auth: { storageKey: 'cosy-auth', persistSession: true, autoRefreshToken: true }
+                    });
                     return window.supabaseClient;
                 } catch (e) {
                     console.warn('COSY SSO: Could not create Supabase client', e);
