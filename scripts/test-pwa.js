@@ -303,7 +303,10 @@ const down = async () => { throw new TypeError('offline'); };
       runScripts: 'dangerously', resources: new LocalOnly(), pretendToBeVisual: true, virtualConsole: new VirtualConsole(),
       beforeParse(w) {
         Object.defineProperty(w.navigator, 'serviceWorker', { value: { register: (u) => { registered.push(u); return Promise.resolve(); } } });
-        w.fetch = (u, o) => fetch(new URL(u, w.location.href), o);
+        // This test only looks at service-worker registration. Pages must not load their data: a fetch that
+        // settles after dom.window.close() runs page code against a closed window (document is undefined),
+        // throws outside any handler and kills the process. Never-settling is deterministic on any machine.
+        w.fetch = () => new Promise(() => {});
       },
     });
     await new Promise((r) => setTimeout(r, 700));
