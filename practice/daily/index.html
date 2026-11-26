@@ -466,6 +466,8 @@
 
             // Load daily grammar pack with root relative path
             currentPack = await COSYDailyFeed.getDailyGrammarPack(currentLang, new Date(), '../../', currentLevel);
+            // The document can be gone by now: the tab was closed, or a test torn the page down.
+            if (typeof document === 'undefined' || !document.getElementById) return;
             renderConjugationCard(currentPack);
             renderPrepositionCard(currentPack);
             renderEcosystemLinks(currentPack);
