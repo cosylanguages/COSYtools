@@ -1,0 +1,999 @@
+{
+  "version": 1,
+  "updated": "2026-11-26",
+  "bands": [
+    "a0-a1",
+    "a2",
+    "b1-b2",
+    "c1-c2"
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "it",
+    "ru",
+    "el",
+    "de",
+    "es",
+    "pt",
+    "hy",
+    "ka",
+    "tt",
+    "ba",
+    "cv",
+    "br"
+  ],
+  "elements": [
+    {
+      "id": "speaking",
+      "title": "Speaking Prompt",
+      "icon": "🗣️",
+      "owner": "COSYpractice",
+      "mode": "pool",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYpractice/data/daily/{lang}/speaking.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 15,
+        "work_seconds": 45,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": false,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYpractice",
+        "route": "/#daily-challenge"
+      },
+      "notes": "1,466 cards; level field uses 8 band labels"
+    },
+    {
+      "id": "writing",
+      "title": "Writing Prompt",
+      "icon": "✍️",
+      "owner": "COSYpractice",
+      "mode": "pool",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYpractice/data/daily/{lang}/writing.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 600,
+        "output": "written"
+      },
+      "rules": {
+        "research_allowed": false,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYpractice",
+        "route": "/#daily-challenge"
+      },
+      "notes": "845 cards; carries word_min/word_max/write_minutes"
+    },
+    {
+      "id": "fact",
+      "title": "Fun Fact",
+      "icon": "💡",
+      "owner": "COSYlanguages",
+      "mode": "pool",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYlanguages/data/daily/{lang}/facts.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYlanguages",
+        "route": "/"
+      },
+      "notes": "431 facts; no level field yet"
+    },
+    {
+      "id": "word",
+      "title": "Word of the Day",
+      "icon": "📖",
+      "owner": "COSYdata",
+      "mode": "calendar",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/word/{month}.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYdata",
+        "route": "/"
+      },
+      "notes": "nouns, adjectives, adverbs"
+    },
+    {
+      "id": "verb",
+      "title": "Verb of the Day",
+      "icon": "🔤",
+      "owner": "COSYdata",
+      "mode": "calendar",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/verb/{month}.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYdata",
+        "route": "/"
+      },
+      "notes": "drilled in COSYtools"
+    },
+    {
+      "id": "verb-prep",
+      "title": "Verb + Preposition",
+      "icon": "🧩",
+      "owner": "COSYdata",
+      "mode": "calendar",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/verb-prep/{month}.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYdata",
+        "route": "/"
+      },
+      "notes": "drilled in COSYtools"
+    },
+    {
+      "id": "phrasal-verb",
+      "title": "Phrasal Verb of the Day",
+      "icon": "🔗",
+      "owner": "COSYdata",
+      "mode": "calendar",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/phrasal-verb/{month}.json",
+      "languages": [
+        "en"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYdata",
+        "route": "/"
+      },
+      "notes": "English only"
+    },
+    {
+      "id": "idiom",
+      "title": "Idiom of the Day",
+      "icon": "💬",
+      "owner": "COSYdata",
+      "mode": "calendar",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYdata/daily/{lang}/calendar/idiom/{month}.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 60,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYdata",
+        "route": "/"
+      },
+      "notes": "legacy idiom lists still used for the other 10 languages"
+    },
+    {
+      "id": "celebration",
+      "title": "Holiday of the Day",
+      "icon": "🎊",
+      "owner": "COSYevents",
+      "mode": "daily-file",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/daily-spotlights.json",
+      "item_key": "celebration",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 120,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "single day file rebuilt at 04:00 UTC; client compares in UTC"
+    },
+    {
+      "id": "science",
+      "title": "Today in Science",
+      "icon": "🔬",
+      "owner": "COSYevents",
+      "mode": "daily-file",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/daily-spotlights.json",
+      "item_key": "science",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 120,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "single day file rebuilt at 04:00 UTC; client compares in UTC"
+    },
+    {
+      "id": "music",
+      "title": "Today in Music",
+      "icon": "🎵",
+      "owner": "COSYevents",
+      "mode": "daily-file",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/daily-spotlights.json",
+      "item_key": "music",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 120,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "single day file rebuilt at 04:00 UTC; client compares in UTC"
+    },
+    {
+      "id": "film",
+      "title": "Today in Film & TV",
+      "icon": "🎬",
+      "owner": "COSYevents",
+      "mode": "daily-file",
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/daily-spotlights.json",
+      "item_key": "film",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 120,
+        "output": "read"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "single day file rebuilt at 04:00 UTC; client compares in UTC"
+    },
+    {
+      "id": "conjugation-drill",
+      "title": "Conjugation Drill",
+      "icon": "🛠️",
+      "owner": "COSYtools",
+      "mode": "derived",
+      "status": "live",
+      "parent": "verb",
+      "url": "https://cosylanguages.github.io/COSYtools/practice/daily/",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 180,
+        "output": "written"
+      },
+      "rules": {
+        "research_allowed": false,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYtools",
+        "route": "/practice/daily/"
+      },
+      "notes": "conjugate today's verb at the chosen band"
+    },
+    {
+      "id": "preposition-drill",
+      "title": "Preposition Drill",
+      "icon": "🎯",
+      "owner": "COSYtools",
+      "mode": "derived",
+      "status": "live",
+      "parent": "verb-prep",
+      "url": "https://cosylanguages.github.io/COSYtools/practice/daily/",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "el"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 0,
+        "work_seconds": 120,
+        "output": "written"
+      },
+      "rules": {
+        "research_allowed": false,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYtools",
+        "route": "/practice/daily/"
+      },
+      "notes": "guess the preposition for today's verb"
+    },
+    {
+      "id": "daily-challenge",
+      "title": "Daily Challenge",
+      "icon": "🏆",
+      "owner": "COSYpractice",
+      "mode": "derived",
+      "status": "live",
+      "parent": "speaking",
+      "url": "https://cosylanguages.github.io/COSYpractice/#daily-challenge",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 15,
+        "work_seconds": 600,
+        "output": "spoken+written"
+      },
+      "rules": {
+        "research_allowed": false,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYpractice",
+        "route": "/#daily-challenge"
+      },
+      "notes": "7-day weekday schedule over speaking, writing, vocabulary, grammar"
+    },
+    {
+      "id": "wheel-science",
+      "title": "Keeping Up with Science",
+      "icon": "🔬",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents keeping-up-with-science.html, magazine science_expander",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 600,
+        "work_seconds": 300,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-quotes",
+      "title": "The Greatest Quotes",
+      "icon": "📜",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents the-greatest-quotes.html, data/quotes-people.json",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 180,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-karaoke",
+      "title": "Karaoke Club",
+      "icon": "🎤",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents karaoke-club.html, magazine soundtrack section",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 180,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-films",
+      "title": "Films & Series",
+      "icon": "🎬",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents cinema-club.html, magazine soundtrack section",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 180,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-debates",
+      "title": "Debatable & Relatable",
+      "icon": "⚖️",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents debatable-relatable.html, magazine debatable_relatable",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 300,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-mind-matters",
+      "title": "Mind Matters",
+      "icon": "🧠",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "COSYevents mind-matters.html, magazine mind_matters",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 300,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    },
+    {
+      "id": "wheel-life",
+      "title": "My Life With / Without",
+      "icon": "🌗",
+      "owner": "COSYevents",
+      "mode": "wheel",
+      "status": "planned",
+      "url": null,
+      "source": "magazine life_with_without, this session's vocabulary",
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "ru",
+        "el",
+        "de",
+        "es",
+        "pt",
+        "hy",
+        "ka",
+        "tt",
+        "ba",
+        "cv",
+        "br"
+      ],
+      "bands": [
+        "a0-a1",
+        "a2",
+        "b1-b2",
+        "c1-c2"
+      ],
+      "task": {
+        "prep_seconds": 300,
+        "work_seconds": 300,
+        "output": "spoken"
+      },
+      "rules": {
+        "research_allowed": true,
+        "ai_allowed": false
+      },
+      "render": {
+        "host": "COSYevents",
+        "route": "/"
+      },
+      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+    }
+  ],
+  "directory": [
+    {
+      "key": "data",
+      "repo": "COSYdata",
+      "icon": "📖",
+      "title": "Vocabulary of the Day",
+      "url": "https://cosylanguages.github.io/COSYdata/",
+      "description": "Word, verb, verb + preposition, phrasal verb and idiom of the day, generated from the dictionary.",
+      "slots": [
+        "word",
+        "verb",
+        "verb-prep",
+        "phrasal-verb",
+        "idiom"
+      ]
+    },
+    {
+      "key": "practice",
+      "repo": "COSYpractice",
+      "icon": "🗣️",
+      "title": "Speaking & Writing",
+      "url": "https://cosylanguages.github.io/COSYpractice/#daily-challenge",
+      "description": "Daily speaking and writing prompts plus the rotating Daily Challenge with streaks.",
+      "slots": [
+        "speaking",
+        "writing",
+        "daily-challenge"
+      ]
+    },
+    {
+      "key": "languages",
+      "repo": "COSYlanguages",
+      "icon": "🌍",
+      "title": "Daily Strip",
+      "url": "https://cosylanguages.github.io/COSYlanguages/",
+      "description": "The hub daily strip: word, verb, speaking and writing prompts, and a fun fact, with level filtering.",
+      "slots": [
+        "word",
+        "verb",
+        "speaking",
+        "writing",
+        "fact"
+      ]
+    },
+    {
+      "key": "events",
+      "repo": "COSYevents",
+      "icon": "🎉",
+      "title": "Culture & Events",
+      "url": "https://cosylanguages.github.io/COSYevents/",
+      "description": "Daily spotlights: holiday of the day, today in science, music, and film & TV.",
+      "slots": [
+        "celebration",
+        "science",
+        "music",
+        "film"
+      ]
+    },
+    {
+      "key": "tools",
+      "repo": "COSYtools",
+      "icon": "🛠️",
+      "title": "Daily Drills",
+      "url": "https://cosylanguages.github.io/COSYtools/practice/daily/",
+      "description": "Drill today's verb conjugation and guess the preposition, tuned to the vocabulary of the day.",
+      "slots": [
+        "conjugation-drill",
+        "preposition-drill"
+      ]
+    }
+  ]
+}
