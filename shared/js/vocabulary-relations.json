@@ -1,0 +1,4685 @@
+{
+ "version": 1,
+ "note": "Antonym and synonym relations for daily vocabulary. Antonyms show from a0-a1 upwards when one exists; synonyms show from b1-b2 upwards.",
+ "langs": {
+  "en": {
+   "ability": {
+    "antonyms": [
+     "inability"
+    ],
+    "synonyms": [
+     "capacity",
+     "skill"
+    ]
+   },
+   "absorption": {
+    "antonyms": [],
+    "synonyms": [
+     "immersion",
+     "engagement"
+    ]
+   },
+   "accountability": {
+    "antonyms": [
+     "impunity"
+    ],
+    "synonyms": [
+     "responsibility",
+     "answerability"
+    ]
+   },
+   "accuracy": {
+    "antonyms": [
+     "inaccuracy"
+    ],
+    "synonyms": [
+     "precision",
+     "correctness"
+    ]
+   },
+   "action": {
+    "antonyms": [
+     "inaction"
+    ],
+    "synonyms": [
+     "deed",
+     "act"
+    ]
+   },
+   "actor": {
+    "antonyms": [],
+    "synonyms": [
+     "performer",
+     "player"
+    ]
+   },
+   "adapt": {
+    "antonyms": [],
+    "synonyms": [
+     "adjust",
+     "modify"
+    ]
+   },
+   "advantage": {
+    "antonyms": [
+     "disadvantage",
+     "drawback"
+    ],
+    "synonyms": [
+     "benefit",
+     "edge"
+    ]
+   },
+   "advert": {
+    "antonyms": [],
+    "synonyms": [
+     "advertisement",
+     "commercial"
+    ]
+   },
+   "afraid": {
+    "antonyms": [
+     "brave",
+     "fearless"
+    ],
+    "synonyms": [
+     "scared",
+     "frightened"
+    ]
+   },
+   "age": {
+    "antonyms": [
+     "youth"
+    ],
+    "synonyms": [
+     "era",
+     "period"
+    ]
+   },
+   "allergy": {
+    "antonyms": [],
+    "synonyms": [
+     "reaction",
+     "sensitivity"
+    ]
+   },
+   "alone": {
+    "antonyms": [
+     "together",
+     "accompanied"
+    ],
+    "synonyms": [
+     "solitary",
+     "by yourself"
+    ]
+   },
+   "ambiguity": {
+    "antonyms": [
+     "clarity"
+    ],
+    "synonyms": [
+     "vagueness",
+     "uncertainty"
+    ]
+   },
+   "ambiguous": {
+    "antonyms": [
+     "clear",
+     "unambiguous"
+    ],
+    "synonyms": [
+     "vague",
+     "equivocal"
+    ]
+   },
+   "ambition": {
+    "antonyms": [],
+    "synonyms": [
+     "drive",
+     "aspiration"
+    ]
+   },
+   "angry": {
+    "antonyms": [
+     "calm",
+     "peaceful"
+    ],
+    "synonyms": [
+     "furious",
+     "cross"
+    ]
+   },
+   "animal": {
+    "antonyms": [],
+    "synonyms": [
+     "creature",
+     "beast"
+    ]
+   },
+   "anthem": {
+    "antonyms": [],
+    "synonyms": [
+     "hymn",
+     "song"
+    ]
+   },
+   "anticipation": {
+    "antonyms": [
+     "hindsight"
+    ],
+    "synonyms": [
+     "expectation",
+     "eagerness"
+    ]
+   },
+   "appearance": {
+    "antonyms": [
+     "reality"
+    ],
+    "synonyms": [
+     "look",
+     "aspect"
+    ]
+   },
+   "aptitude": {
+    "antonyms": [
+     "inaptitude"
+    ],
+    "synonyms": [
+     "talent",
+     "flair"
+    ]
+   },
+   "arc": {
+    "antonyms": [],
+    "synonyms": [
+     "curve",
+     "sweep"
+    ]
+   },
+   "argument": {
+    "antonyms": [],
+    "synonyms": [
+     "case",
+     "reasoning"
+    ]
+   },
+   "assessment": {
+    "antonyms": [],
+    "synonyms": [
+     "evaluation",
+     "appraisal"
+    ]
+   },
+   "assumption": {
+    "antonyms": [
+     "fact",
+     "certainty"
+    ],
+    "synonyms": [
+     "presumption",
+     "premise"
+    ]
+   },
+   "atmosphere": {
+    "antonyms": [],
+    "synonyms": [
+     "mood",
+     "ambience"
+    ]
+   },
+   "attachment": {
+    "antonyms": [
+     "detachment"
+    ],
+    "synonyms": [
+     "bond",
+     "connection"
+    ]
+   },
+   "attention": {
+    "antonyms": [
+     "inattention",
+     "neglect"
+    ],
+    "synonyms": [
+     "focus",
+     "concentration"
+    ]
+   },
+   "attitude": {
+    "antonyms": [],
+    "synonyms": [
+     "stance",
+     "outlook"
+    ]
+   },
+   "audience": {
+    "antonyms": [],
+    "synonyms": [
+     "spectators",
+     "listeners"
+    ]
+   },
+   "average": {
+    "antonyms": [
+     "exceptional",
+     "outstanding"
+    ],
+    "synonyms": [
+     "typical",
+     "ordinary"
+    ]
+   },
+   "avoidant": {
+    "antonyms": [
+     "approach-oriented"
+    ],
+    "synonyms": []
+   },
+   "baby": {
+    "antonyms": [
+     "adult"
+    ],
+    "synonyms": [
+     "infant",
+     "newborn"
+    ]
+   },
+   "bad": {
+    "antonyms": [
+     "good"
+    ],
+    "synonyms": [
+     "poor",
+     "awful"
+    ]
+   },
+   "ban": {
+    "antonyms": [
+     "permit",
+     "allow"
+    ],
+    "synonyms": [
+     "prohibit",
+     "forbid"
+    ]
+   },
+   "barbarism": {
+    "antonyms": [
+     "civilisation"
+    ],
+    "synonyms": [
+     "brutality",
+     "savagery"
+    ]
+   },
+   "become": {
+    "antonyms": [],
+    "synonyms": [
+     "turn into",
+     "grow"
+    ]
+   },
+   "begin": {
+    "antonyms": [
+     "end",
+     "finish"
+    ],
+    "synonyms": [
+     "start",
+     "commence"
+    ]
+   },
+   "belong": {
+    "antonyms": [],
+    "synonyms": [
+     "fit",
+     "pertain"
+    ]
+   },
+   "belonging": {
+    "antonyms": [
+     "alienation",
+     "exclusion"
+    ],
+    "synonyms": [
+     "acceptance",
+     "inclusion"
+    ]
+   },
+   "best": {
+    "antonyms": [
+     "worst"
+    ],
+    "synonyms": [
+     "finest",
+     "top"
+    ]
+   },
+   "betray": {
+    "antonyms": [
+     "protect",
+     "defend"
+    ],
+    "synonyms": [
+     "deceive",
+     "double-cross"
+    ]
+   },
+   "better": {
+    "antonyms": [
+     "worse"
+    ],
+    "synonyms": [
+     "superior",
+     "improved"
+    ]
+   },
+   "bias": {
+    "antonyms": [
+     "impartiality",
+     "fairness"
+    ],
+    "synonyms": [
+     "prejudice",
+     "partiality"
+    ]
+   },
+   "bike": {
+    "antonyms": [],
+    "synonyms": [
+     "bicycle",
+     "cycle"
+    ]
+   },
+   "body": {
+    "antonyms": [],
+    "synonyms": [
+     "frame",
+     "physique"
+    ]
+   },
+   "book": {
+    "antonyms": [],
+    "synonyms": [
+     "volume",
+     "title"
+    ]
+   },
+   "border": {
+    "antonyms": [],
+    "synonyms": [
+     "frontier",
+     "boundary"
+    ]
+   },
+   "boring": {
+    "antonyms": [
+     "exciting",
+     "interesting"
+    ],
+    "synonyms": [
+     "dull",
+     "tedious"
+    ]
+   },
+   "boundaries": {
+    "antonyms": [],
+    "synonyms": [
+     "limits",
+     "borders"
+    ]
+   },
+   "brain": {
+    "antonyms": [],
+    "synonyms": [
+     "mind",
+     "intellect"
+    ]
+   },
+   "breathe": {
+    "antonyms": [],
+    "synonyms": [
+     "inhale",
+     "respire"
+    ]
+   },
+   "budget": {
+    "antonyms": [],
+    "synonyms": [
+     "allowance",
+     "funds"
+    ]
+   },
+   "burnout": {
+    "antonyms": [
+     "engagement"
+    ],
+    "synonyms": [
+     "exhaustion",
+     "collapse"
+    ]
+   },
+   "bus": {
+    "antonyms": [],
+    "synonyms": [
+     "coach",
+     "public transport"
+    ]
+   },
+   "busy": {
+    "antonyms": [
+     "idle",
+     "free"
+    ],
+    "synonyms": [
+     "occupied",
+     "hectic"
+    ]
+   },
+   "call": {
+    "antonyms": [],
+    "synonyms": [
+     "ring",
+     "phone"
+    ]
+   },
+   "calm": {
+    "antonyms": [
+     "anxious",
+     "agitated"
+    ],
+    "synonyms": [
+     "serene",
+     "composed"
+    ]
+   },
+   "candidate": {
+    "antonyms": [],
+    "synonyms": [
+     "applicant",
+     "contender"
+    ]
+   },
+   "career": {
+    "antonyms": [],
+    "synonyms": [
+     "profession",
+     "vocation"
+    ]
+   },
+   "cast": {
+    "antonyms": [],
+    "synonyms": [
+     "actors",
+     "ensemble"
+    ]
+   },
+   "cat": {
+    "antonyms": [],
+    "synonyms": [
+     "feline",
+     "kitty"
+    ]
+   },
+   "celebrate": {
+    "antonyms": [],
+    "synonyms": [
+     "mark",
+     "honour"
+    ]
+   },
+   "censor": {
+    "antonyms": [
+     "permit",
+     "allow"
+    ],
+    "synonyms": [
+     "suppress",
+     "ban"
+    ]
+   },
+   "censorship": {
+    "antonyms": [
+     "freedom"
+    ],
+    "synonyms": [
+     "suppression",
+     "control"
+    ]
+   },
+   "certainty": {
+    "antonyms": [
+     "doubt",
+     "uncertainty"
+    ],
+    "synonyms": [
+     "conviction",
+     "assurance"
+    ]
+   },
+   "challenge": {
+    "antonyms": [],
+    "synonyms": [
+     "difficulty",
+     "test"
+    ]
+   },
+   "chance": {
+    "antonyms": [],
+    "synonyms": [
+     "opportunity",
+     "possibility"
+    ]
+   },
+   "change": {
+    "antonyms": [
+     "stability",
+     "constancy"
+    ],
+    "synonyms": [
+     "alter",
+     "transform"
+    ]
+   },
+   "character": {
+    "antonyms": [],
+    "synonyms": [
+     "personality",
+     "figure"
+    ]
+   },
+   "cheap": {
+    "antonyms": [
+     "expensive",
+     "costly"
+    ],
+    "synonyms": [
+     "affordable",
+     "inexpensive"
+    ]
+   },
+   "child": {
+    "antonyms": [
+     "adult"
+    ],
+    "synonyms": [
+     "kid",
+     "youngster"
+    ]
+   },
+   "choice": {
+    "antonyms": [
+     "obligation"
+    ],
+    "synonyms": [
+     "option",
+     "selection"
+    ]
+   },
+   "choose": {
+    "antonyms": [],
+    "synonyms": [
+     "select",
+     "pick"
+    ]
+   },
+   "chorus": {
+    "antonyms": [],
+    "synonyms": [
+     "refrain",
+     "hook"
+    ]
+   },
+   "cinema": {
+    "antonyms": [],
+    "synonyms": [
+     "movies",
+     "film theatre"
+    ]
+   },
+   "citizenship": {
+    "antonyms": [],
+    "synonyms": [
+     "nationality",
+     "belonging"
+    ]
+   },
+   "city": {
+    "antonyms": [
+     "countryside",
+     "village"
+    ],
+    "synonyms": [
+     "town",
+     "metropolis"
+    ]
+   },
+   "civilisation": {
+    "antonyms": [
+     "barbarism"
+    ],
+    "synonyms": [
+     "society",
+     "culture"
+    ]
+   },
+   "claim": {
+    "antonyms": [
+     "deny"
+    ],
+    "synonyms": [
+     "assert",
+     "allege"
+    ]
+   },
+   "clarity": {
+    "antonyms": [
+     "confusion",
+     "obscurity"
+    ],
+    "synonyms": [
+     "lucidity",
+     "transparency"
+    ]
+   },
+   "class": {
+    "antonyms": [],
+    "synonyms": [
+     "category",
+     "lesson"
+    ]
+   },
+   "climate": {
+    "antonyms": [],
+    "synonyms": [
+     "weather patterns",
+     "conditions"
+    ]
+   },
+   "clothes": {
+    "antonyms": [],
+    "synonyms": [
+     "clothing",
+     "garments"
+    ]
+   },
+   "cloud": {
+    "antonyms": [],
+    "synonyms": [
+     "cloud cover",
+     "vapour"
+    ]
+   },
+   "coherent": {
+    "antonyms": [
+     "incoherent"
+    ],
+    "synonyms": [
+     "logical",
+     "consistent"
+    ]
+   },
+   "cold": {
+    "antonyms": [
+     "hot",
+     "warm"
+    ],
+    "synonyms": [
+     "chilly",
+     "freezing"
+    ]
+   },
+   "collaboration": {
+    "antonyms": [
+     "competition"
+    ],
+    "synonyms": [
+     "cooperation",
+     "partnership"
+    ]
+   },
+   "collapse": {
+    "antonyms": [
+     "rise",
+     "recovery"
+    ],
+    "synonyms": [
+     "crumble",
+     "fail"
+    ]
+   },
+   "colour": {
+    "antonyms": [],
+    "synonyms": [
+     "hue",
+     "shade"
+    ]
+   },
+   "comfort": {
+    "antonyms": [
+     "discomfort",
+     "distress"
+    ],
+    "synonyms": [
+     "ease",
+     "solace"
+    ]
+   },
+   "comfortable": {
+    "antonyms": [
+     "uncomfortable"
+    ],
+    "synonyms": [
+     "cosy",
+     "at ease"
+    ]
+   },
+   "community": {
+    "antonyms": [
+     "isolation"
+    ],
+    "synonyms": [
+     "neighbourhood",
+     "collective"
+    ]
+   },
+   "commute": {
+    "antonyms": [],
+    "synonyms": [
+     "travel",
+     "journey"
+    ]
+   },
+   "company": {
+    "antonyms": [],
+    "synonyms": [
+     "firm",
+     "business"
+    ]
+   },
+   "compare": {
+    "antonyms": [
+     "contrast"
+    ],
+    "synonyms": [
+     "liken",
+     "weigh"
+    ]
+   },
+   "comparison": {
+    "antonyms": [],
+    "synonyms": [
+     "contrast",
+     "analogy"
+    ]
+   },
+   "computer": {
+    "antonyms": [],
+    "synonyms": [
+     "machine",
+     "PC"
+    ]
+   },
+   "condemned": {
+    "antonyms": [
+     "freed",
+     "acquitted"
+    ],
+    "synonyms": [
+     "doomed",
+     "sentenced"
+    ]
+   },
+   "confident": {
+    "antonyms": [
+     "insecure",
+     "doubtful"
+    ],
+    "synonyms": [
+     "assured",
+     "self-assured"
+    ]
+   },
+   "congestion": {
+    "antonyms": [
+     "flow",
+     "clearance"
+    ],
+    "synonyms": [
+     "gridlock",
+     "jam"
+    ]
+   },
+   "consensus": {
+    "antonyms": [
+     "disagreement",
+     "conflict"
+    ],
+    "synonyms": [
+     "agreement",
+     "accord"
+    ]
+   },
+   "consent": {
+    "antonyms": [
+     "refusal",
+     "dissent"
+    ],
+    "synonyms": [
+     "permission",
+     "approval"
+    ]
+   },
+   "consolidate": {
+    "antonyms": [
+     "scatter",
+     "disperse"
+    ],
+    "synonyms": [
+     "strengthen",
+     "reinforce"
+    ]
+   },
+   "constraint": {
+    "antonyms": [
+     "freedom"
+    ],
+    "synonyms": [
+     "restriction",
+     "limitation"
+    ]
+   },
+   "constructed": {
+    "antonyms": [
+     "inherent",
+     "natural"
+    ],
+    "synonyms": [
+     "built",
+     "fabricated"
+    ]
+   },
+   "contagious": {
+    "antonyms": [
+     "non-contagious"
+    ],
+    "synonyms": [
+     "infectious",
+     "catching"
+    ]
+   },
+   "context": {
+    "antonyms": [],
+    "synonyms": [
+     "setting",
+     "background"
+    ]
+   },
+   "convenient": {
+    "antonyms": [
+     "inconvenient"
+    ],
+    "synonyms": [
+     "handy",
+     "practical"
+    ]
+   },
+   "conviction": {
+    "antonyms": [
+     "doubt",
+     "uncertainty"
+    ],
+    "synonyms": [
+     "belief",
+     "certainty"
+    ]
+   },
+   "convince": {
+    "antonyms": [
+     "dissuade"
+    ],
+    "synonyms": [
+     "persuade",
+     "sway"
+    ]
+   },
+   "correction": {
+    "antonyms": [
+     "error",
+     "mistake"
+    ],
+    "synonyms": [
+     "fix",
+     "amendment"
+    ]
+   },
+   "correlate": {
+    "antonyms": [],
+    "synonyms": [
+     "correspond",
+     "relate"
+    ]
+   },
+   "corrupt": {
+    "antonyms": [
+     "honest",
+     "incorruptible"
+    ],
+    "synonyms": [
+     "crooked",
+     "venal"
+    ]
+   },
+   "cost": {
+    "antonyms": [],
+    "synonyms": [
+     "price",
+     "expense"
+    ]
+   },
+   "country": {
+    "antonyms": [],
+    "synonyms": [
+     "nation",
+     "state"
+    ]
+   },
+   "courage": {
+    "antonyms": [
+     "cowardice",
+     "fear"
+    ],
+    "synonyms": [
+     "bravery",
+     "nerve"
+    ]
+   },
+   "cover": {
+    "antonyms": [
+     "reveal",
+     "expose"
+    ],
+    "synonyms": [
+     "conceal",
+     "hide"
+    ]
+   },
+   "crowd": {
+    "antonyms": [],
+    "synonyms": [
+     "throng",
+     "audience"
+    ]
+   },
+   "cry": {
+    "antonyms": [
+     "laugh"
+    ],
+    "synonyms": [
+     "weep",
+     "sob"
+    ]
+   },
+   "cue": {
+    "antonyms": [],
+    "synonyms": [
+     "signal",
+     "prompt"
+    ]
+   },
+   "culpability": {
+    "antonyms": [
+     "innocence"
+    ],
+    "synonyms": [
+     "blame",
+     "guilt"
+    ]
+   },
+   "curate": {
+    "antonyms": [
+     "neglect"
+    ],
+    "synonyms": [
+     "select",
+     "arrange"
+    ]
+   },
+   "curation": {
+    "antonyms": [],
+    "synonyms": [
+     "selection",
+     "arrangement"
+    ]
+   },
+   "dance": {
+    "antonyms": [],
+    "synonyms": [
+     "move",
+     "groove"
+    ]
+   },
+   "dark": {
+    "antonyms": [
+     "light",
+     "bright"
+    ],
+    "synonyms": [
+     "dim",
+     "gloomy"
+    ]
+   },
+   "dated": {
+    "antonyms": [
+     "current",
+     "timeless"
+    ],
+    "synonyms": [
+     "outdated",
+     "old-fashioned"
+    ]
+   },
+   "deadline": {
+    "antonyms": [],
+    "synonyms": [
+     "due date",
+     "cut-off"
+    ]
+   },
+   "decade": {
+    "antonyms": [],
+    "synonyms": [
+     "ten years",
+     "era"
+    ]
+   },
+   "decide": {
+    "antonyms": [
+     "hesitate"
+    ],
+    "synonyms": [
+     "choose",
+     "determine"
+    ]
+   },
+   "defend": {
+    "antonyms": [
+     "attack",
+     "accuse"
+    ],
+    "synonyms": [
+     "protect",
+     "uphold"
+    ]
+   },
+   "degree": {
+    "antonyms": [],
+    "synonyms": [
+     "extent",
+     "level"
+    ]
+   },
+   "delay": {
+    "antonyms": [
+     "hasten",
+     "advance"
+    ],
+    "synonyms": [
+     "postpone",
+     "defer"
+    ]
+   },
+   "delivery": {
+    "antonyms": [],
+    "synonyms": [
+     "handover",
+     "supply"
+    ]
+   },
+   "design": {
+    "antonyms": [],
+    "synonyms": [
+     "plan",
+     "layout"
+    ]
+   },
+   "desire": {
+    "antonyms": [
+     "aversion"
+    ],
+    "synonyms": [
+     "longing",
+     "craving"
+    ]
+   },
+   "dialect": {
+    "antonyms": [
+     "standard"
+    ],
+    "synonyms": [
+     "vernacular",
+     "patois"
+    ]
+   },
+   "direction": {
+    "antonyms": [],
+    "synonyms": [
+     "course",
+     "heading"
+    ]
+   },
+   "disagree": {
+    "antonyms": [
+     "agree",
+     "concur"
+    ],
+    "synonyms": [
+     "differ",
+     "object"
+    ]
+   },
+   "discovery": {
+    "antonyms": [],
+    "synonyms": [
+     "finding",
+     "breakthrough"
+    ]
+   },
+   "dismantle": {
+    "antonyms": [
+     "assemble",
+     "build"
+    ],
+    "synonyms": [
+     "take apart",
+     "demolish"
+    ]
+   },
+   "disorder": {
+    "antonyms": [
+     "order",
+     "orderliness"
+    ],
+    "synonyms": [
+     "chaos",
+     "confusion"
+    ]
+   },
+   "dissolve": {
+    "antonyms": [
+     "solidify",
+     "congeal"
+    ],
+    "synonyms": [
+     "melt",
+     "disappear"
+    ]
+   },
+   "dissonance": {
+    "antonyms": [
+     "harmony",
+     "consonance"
+    ],
+    "synonyms": [
+     "discord",
+     "conflict"
+    ]
+   },
+   "divide": {
+    "antonyms": [
+     "unite",
+     "join"
+    ],
+    "synonyms": [
+     "split",
+     "separate"
+    ]
+   },
+   "documentary": {
+    "antonyms": [],
+    "synonyms": [
+     "non-fiction film",
+     "report"
+    ]
+   },
+   "dog": {
+    "antonyms": [],
+    "synonyms": [
+     "hound",
+     "canine"
+    ]
+   },
+   "doubt": {
+    "antonyms": [
+     "certainty",
+     "conviction"
+    ],
+    "synonyms": [
+     "uncertainty",
+     "scepticism"
+    ]
+   },
+   "dream": {
+    "antonyms": [
+     "reality"
+    ],
+    "synonyms": [
+     "vision",
+     "reverie"
+    ]
+   },
+   "drive": {
+    "antonyms": [
+     "halt"
+    ],
+    "synonyms": [
+     "motivation",
+     "steer"
+    ]
+   },
+   "duet": {
+    "antonyms": [],
+    "synonyms": [
+     "pair",
+     "duo"
+    ]
+   },
+   "dust": {
+    "antonyms": [],
+    "synonyms": [
+     "dirt",
+     "particles"
+    ]
+   },
+   "early": {
+    "antonyms": [
+     "late"
+    ],
+    "synonyms": [
+     "prompt",
+     "premature"
+    ]
+   },
+   "eat": {
+    "antonyms": [
+     "fast"
+    ],
+    "synonyms": [
+     "consume",
+     "devour"
+    ]
+   },
+   "edit": {
+    "antonyms": [
+     "leave unchanged"
+    ],
+    "synonyms": [
+     "revise",
+     "amend"
+    ]
+   },
+   "effort": {
+    "antonyms": [
+     "ease"
+    ],
+    "synonyms": [
+     "exertion",
+     "attempt"
+    ]
+   },
+   "empathy": {
+    "antonyms": [
+     "indifference",
+     "apathy"
+    ],
+    "synonyms": [
+     "compassion",
+     "understanding"
+    ]
+   },
+   "encryption": {
+    "antonyms": [
+     "decryption"
+    ],
+    "synonyms": [
+     "encoding",
+     "cipher"
+    ]
+   },
+   "end": {
+    "antonyms": [
+     "begin",
+     "start"
+    ],
+    "synonyms": [
+     "finish",
+     "conclude"
+    ]
+   },
+   "ending": {
+    "antonyms": [
+     "beginning",
+     "opening"
+    ],
+    "synonyms": [
+     "conclusion",
+     "finale"
+    ]
+   },
+   "energy": {
+    "antonyms": [
+     "lethargy",
+     "exhaustion"
+    ],
+    "synonyms": [
+     "vigour",
+     "stamina"
+    ]
+   },
+   "engagement": {
+    "antonyms": [
+     "apathy",
+     "indifference"
+    ],
+    "synonyms": [
+     "involvement",
+     "commitment"
+    ]
+   },
+   "entropy": {
+    "antonyms": [
+     "order",
+     "negentropy"
+    ],
+    "synonyms": [
+     "disorder",
+     "randomness"
+    ]
+   },
+   "equity": {
+    "antonyms": [
+     "inequity",
+     "unfairness"
+    ],
+    "synonyms": [
+     "fairness",
+     "justice"
+    ]
+   },
+   "era": {
+    "antonyms": [],
+    "synonyms": [
+     "age",
+     "period"
+    ]
+   },
+   "evidence": {
+    "antonyms": [
+     "proof"
+    ],
+    "synonyms": [
+     "sign",
+     "indication"
+    ]
+   },
+   "examine": {
+    "antonyms": [
+     "ignore",
+     "overlook"
+    ],
+    "synonyms": [
+     "inspect",
+     "scrutinise"
+    ]
+   },
+   "excluded": {
+    "antonyms": [
+     "included"
+    ],
+    "synonyms": [
+     "left out",
+     "shut out"
+    ]
+   },
+   "exercise": {
+    "antonyms": [],
+    "synonyms": [
+     "workout",
+     "practice"
+    ]
+   },
+   "exhaustion": {
+    "antonyms": [
+     "energy",
+     "vigour"
+    ],
+    "synonyms": [
+     "fatigue",
+     "weariness"
+    ]
+   },
+   "exist": {
+    "antonyms": [],
+    "synonyms": [
+     "live",
+     "be"
+    ]
+   },
+   "expect": {
+    "antonyms": [
+     "doubt"
+    ],
+    "synonyms": [
+     "anticipate",
+     "await"
+    ]
+   },
+   "expectation": {
+    "antonyms": [
+     "surprise"
+    ],
+    "synonyms": [
+     "anticipation",
+     "assumption"
+    ]
+   },
+   "expensive": {
+    "antonyms": [
+     "cheap",
+     "affordable"
+    ],
+    "synonyms": [
+     "costly",
+     "pricey"
+    ]
+   },
+   "experience": {
+    "antonyms": [
+     "inexperience"
+    ],
+    "synonyms": [
+     "encounter",
+     "practice"
+    ]
+   },
+   "exposure": {
+    "antonyms": [
+     "shelter",
+     "concealment"
+    ],
+    "synonyms": [
+     "revealing",
+     "contact"
+    ]
+   },
+   "factor": {
+    "antonyms": [],
+    "synonyms": [
+     "element",
+     "cause"
+    ]
+   },
+   "fail": {
+    "antonyms": [
+     "succeed",
+     "pass"
+    ],
+    "synonyms": [
+     "flop",
+     "fall short"
+    ]
+   },
+   "failure": {
+    "antonyms": [
+     "success",
+     "triumph"
+    ],
+    "synonyms": [
+     "defeat",
+     "flop"
+    ]
+   },
+   "fairness": {
+    "antonyms": [
+     "unfairness",
+     "injustice"
+    ],
+    "synonyms": [
+     "justice",
+     "equity"
+    ]
+   },
+   "falsify": {
+    "antonyms": [
+     "confirm",
+     "verify"
+    ],
+    "synonyms": [
+     "disprove",
+     "refute"
+    ]
+   },
+   "family": {
+    "antonyms": [],
+    "synonyms": [
+     "relatives",
+     "kin"
+    ]
+   },
+   "famous": {
+    "antonyms": [
+     "unknown",
+     "obscure"
+    ],
+    "synonyms": [
+     "renowned",
+     "celebrated"
+    ]
+   },
+   "fast": {
+    "antonyms": [
+     "slow"
+    ],
+    "synonyms": [
+     "quick",
+     "rapid"
+    ]
+   },
+   "favourite": {
+    "antonyms": [
+     "least favourite"
+    ],
+    "synonyms": [
+     "preferred",
+     "best-loved"
+    ]
+   },
+   "fear": {
+    "antonyms": [
+     "courage",
+     "confidence"
+    ],
+    "synonyms": [
+     "dread",
+     "terror"
+    ]
+   },
+   "feedback": {
+    "antonyms": [],
+    "synonyms": [
+     "response",
+     "comment"
+    ]
+   },
+   "film": {
+    "antonyms": [],
+    "synonyms": [
+     "movie",
+     "picture"
+    ]
+   },
+   "fit": {
+    "antonyms": [
+     "unfit"
+    ],
+    "synonyms": [
+     "healthy",
+     "in shape"
+    ]
+   },
+   "fixed": {
+    "antonyms": [
+     "flexible",
+     "fluid"
+    ],
+    "synonyms": [
+     "set",
+     "rigid"
+    ]
+   },
+   "flat": {
+    "antonyms": [],
+    "synonyms": [
+     "apartment",
+     "unit"
+    ]
+   },
+   "flawed": {
+    "antonyms": [
+     "flawless",
+     "perfect"
+    ],
+    "synonyms": [
+     "defective",
+     "imperfect"
+    ]
+   },
+   "flexible": {
+    "antonyms": [
+     "rigid",
+     "fixed"
+    ],
+    "synonyms": [
+     "adaptable",
+     "pliable"
+    ]
+   },
+   "fluency": {
+    "antonyms": [
+     "hesitation"
+    ],
+    "synonyms": [
+     "ease",
+     "proficiency"
+    ]
+   },
+   "fluid": {
+    "antonyms": [
+     "fixed",
+     "solid"
+    ],
+    "synonyms": [
+     "liquid",
+     "changeable"
+    ]
+   },
+   "focus": {
+    "antonyms": [
+     "distraction"
+    ],
+    "synonyms": [
+     "concentration",
+     "attention"
+    ]
+   },
+   "follow": {
+    "antonyms": [
+     "lead",
+     "precede"
+    ],
+    "synonyms": [
+     "pursue",
+     "track"
+    ]
+   },
+   "food": {
+    "antonyms": [],
+    "synonyms": [
+     "meal",
+     "nourishment"
+    ]
+   },
+   "forget": {
+    "antonyms": [
+     "remember",
+     "recall"
+    ],
+    "synonyms": [
+     "overlook",
+     "lose track of"
+    ]
+   },
+   "form": {
+    "antonyms": [],
+    "synonyms": [
+     "shape",
+     "structure"
+    ]
+   },
+   "framing": {
+    "antonyms": [],
+    "synonyms": [
+     "angle",
+     "spin"
+    ]
+   },
+   "freedom": {
+    "antonyms": [
+     "captivity",
+     "constraint"
+    ],
+    "synonyms": [
+     "liberty",
+     "independence"
+    ]
+   },
+   "friend": {
+    "antonyms": [
+     "enemy",
+     "foe"
+    ],
+    "synonyms": [
+     "companion",
+     "ally"
+    ]
+   },
+   "friendly": {
+    "antonyms": [
+     "unfriendly",
+     "hostile"
+    ],
+    "synonyms": [
+     "warm",
+     "welcoming"
+    ]
+   },
+   "frontier": {
+    "antonyms": [],
+    "synonyms": [
+     "border",
+     "edge"
+    ]
+   },
+   "fun": {
+    "antonyms": [
+     "boredom",
+     "misery"
+    ],
+    "synonyms": [
+     "enjoyment",
+     "amusement"
+    ]
+   },
+   "funny": {
+    "antonyms": [
+     "serious",
+     "solemn"
+    ],
+    "synonyms": [
+     "amusing",
+     "comical"
+    ]
+   },
+   "garden": {
+    "antonyms": [],
+    "synonyms": [
+     "yard",
+     "grounds"
+    ]
+   },
+   "gaze": {
+    "antonyms": [],
+    "synonyms": [
+     "stare",
+     "look"
+    ]
+   },
+   "generation": {
+    "antonyms": [],
+    "synonyms": [
+     "cohort",
+     "age group"
+    ]
+   },
+   "generous": {
+    "antonyms": [
+     "selfish",
+     "stingy"
+    ],
+    "synonyms": [
+     "giving",
+     "open-handed"
+    ]
+   },
+   "genome": {
+    "antonyms": [],
+    "synonyms": [
+     "genetic code",
+     "DNA"
+    ]
+   },
+   "goal": {
+    "antonyms": [],
+    "synonyms": [
+     "aim",
+     "target"
+    ]
+   },
+   "good": {
+    "antonyms": [
+     "bad",
+     "evil"
+    ],
+    "synonyms": [
+     "fine",
+     "decent"
+    ]
+   },
+   "gravitational": {
+    "antonyms": [],
+    "synonyms": [
+     "gravity-related"
+    ]
+   },
+   "gravity": {
+    "antonyms": [
+     "levity"
+    ],
+    "synonyms": [
+     "seriousness",
+     "weight"
+    ]
+   },
+   "grow": {
+    "antonyms": [
+     "shrink",
+     "decline"
+    ],
+    "synonyms": [
+     "develop",
+     "expand"
+    ]
+   },
+   "guess": {
+    "antonyms": [
+     "know"
+    ],
+    "synonyms": [
+     "estimate",
+     "suppose"
+    ]
+   },
+   "guests": {
+    "antonyms": [],
+    "synonyms": [
+     "visitors",
+     "company"
+    ]
+   },
+   "habit": {
+    "antonyms": [
+     "one-off"
+    ],
+    "synonyms": [
+     "routine",
+     "custom"
+    ]
+   },
+   "happiness": {
+    "antonyms": [
+     "sadness",
+     "misery"
+    ],
+    "synonyms": [
+     "joy",
+     "contentment"
+    ]
+   },
+   "happy": {
+    "antonyms": [
+     "sad",
+     "unhappy"
+    ],
+    "synonyms": [
+     "glad",
+     "cheerful"
+    ]
+   },
+   "harm": {
+    "antonyms": [
+     "help",
+     "benefit"
+    ],
+    "synonyms": [
+     "damage",
+     "hurt"
+    ]
+   },
+   "harmony": {
+    "antonyms": [
+     "discord",
+     "conflict"
+    ],
+    "synonyms": [
+     "accord",
+     "concord"
+    ]
+   },
+   "healthy": {
+    "antonyms": [
+     "unhealthy",
+     "ill"
+    ],
+    "synonyms": [
+     "well",
+     "sound"
+    ]
+   },
+   "heart": {
+    "antonyms": [],
+    "synonyms": [
+     "core",
+     "centre"
+    ]
+   },
+   "heartbreak": {
+    "antonyms": [
+     "joy"
+    ],
+    "synonyms": [
+     "grief",
+     "sorrow"
+    ]
+   },
+   "help": {
+    "antonyms": [
+     "hinder",
+     "obstruct"
+    ],
+    "synonyms": [
+     "assist",
+     "aid"
+    ]
+   },
+   "heritable": {
+    "antonyms": [
+     "acquired"
+    ],
+    "synonyms": [
+     "inheritable",
+     "genetic"
+    ]
+   },
+   "hobby": {
+    "antonyms": [],
+    "synonyms": [
+     "pastime",
+     "interest"
+    ]
+   },
+   "holiday": {
+    "antonyms": [],
+    "synonyms": [
+     "vacation",
+     "break"
+    ]
+   },
+   "home": {
+    "antonyms": [
+     "abroad"
+    ],
+    "synonyms": [
+     "house",
+     "dwelling"
+    ]
+   },
+   "honest": {
+    "antonyms": [
+     "dishonest",
+     "deceitful"
+    ],
+    "synonyms": [
+     "truthful",
+     "sincere"
+    ]
+   },
+   "hope": {
+    "antonyms": [
+     "despair",
+     "hopelessness"
+    ],
+    "synonyms": [
+     "optimism",
+     "expectation"
+    ]
+   },
+   "horizon": {
+    "antonyms": [],
+    "synonyms": [
+     "skyline",
+     "limit"
+    ]
+   },
+   "hungry": {
+    "antonyms": [
+     "full",
+     "sated"
+    ],
+    "synonyms": [
+     "starving",
+     "famished"
+    ]
+   },
+   "hustle": {
+    "antonyms": [
+     "rest"
+    ],
+    "synonyms": [
+     "grind",
+     "drive"
+    ]
+   },
+   "ice": {
+    "antonyms": [],
+    "synonyms": [
+     "frost",
+     "frozen water"
+    ]
+   },
+   "idea": {
+    "antonyms": [],
+    "synonyms": [
+     "thought",
+     "notion"
+    ]
+   },
+   "identity": {
+    "antonyms": [],
+    "synonyms": [
+     "selfhood",
+     "character"
+    ]
+   },
+   "image": {
+    "antonyms": [],
+    "synonyms": [
+     "picture",
+     "impression"
+    ]
+   },
+   "immune": {
+    "antonyms": [
+     "susceptible",
+     "vulnerable"
+    ],
+    "synonyms": [
+     "resistant",
+     "protected"
+    ]
+   },
+   "improve": {
+    "antonyms": [
+     "worsen",
+     "deteriorate"
+    ],
+    "synonyms": [
+     "enhance",
+     "better"
+    ]
+   },
+   "incentive": {
+    "antonyms": [
+     "deterrent"
+    ],
+    "synonyms": [
+     "motivation",
+     "reward"
+    ]
+   },
+   "independent": {
+    "antonyms": [
+     "dependent"
+    ],
+    "synonyms": [
+     "self-reliant",
+     "autonomous"
+    ]
+   },
+   "ineffable": {
+    "antonyms": [
+     "describable"
+    ],
+    "synonyms": [
+     "indescribable",
+     "inexpressible"
+    ]
+   },
+   "inference": {
+    "antonyms": [],
+    "synonyms": [
+     "deduction",
+     "conclusion"
+    ]
+   },
+   "inherit": {
+    "antonyms": [
+     "bequeath"
+    ],
+    "synonyms": [
+     "receive",
+     "take over"
+    ]
+   },
+   "institution": {
+    "antonyms": [],
+    "synonyms": [
+     "organisation",
+     "body"
+    ]
+   },
+   "instrument": {
+    "antonyms": [],
+    "synonyms": [
+     "tool",
+     "device"
+    ]
+   },
+   "integration": {
+    "antonyms": [
+     "segregation",
+     "separation"
+    ],
+    "synonyms": [
+     "inclusion",
+     "merger"
+    ]
+   },
+   "intent": {
+    "antonyms": [
+     "accident"
+    ],
+    "synonyms": [
+     "intention",
+     "purpose"
+    ]
+   },
+   "intermittent": {
+    "antonyms": [
+     "constant",
+     "continuous"
+    ],
+    "synonyms": [
+     "sporadic",
+     "occasional"
+    ]
+   },
+   "internet": {
+    "antonyms": [],
+    "synonyms": [
+     "web",
+     "online network"
+    ]
+   },
+   "irreversible": {
+    "antonyms": [
+     "reversible"
+    ],
+    "synonyms": [
+     "permanent",
+     "irreparable"
+    ]
+   },
+   "isolation": {
+    "antonyms": [
+     "connection",
+     "community"
+    ],
+    "synonyms": [
+     "solitude",
+     "seclusion"
+    ]
+   },
+   "job": {
+    "antonyms": [],
+    "synonyms": [
+     "work",
+     "post"
+    ]
+   },
+   "joke": {
+    "antonyms": [],
+    "synonyms": [
+     "gag",
+     "jest"
+    ]
+   },
+   "journey": {
+    "antonyms": [],
+    "synonyms": [
+     "trip",
+     "travel"
+    ]
+   },
+   "judge": {
+    "antonyms": [],
+    "synonyms": [
+     "assess",
+     "evaluate"
+    ]
+   },
+   "judgement": {
+    "antonyms": [
+     "indecision"
+    ],
+    "synonyms": [
+     "assessment",
+     "verdict"
+    ]
+   },
+   "justice": {
+    "antonyms": [
+     "injustice",
+     "unfairness"
+    ],
+    "synonyms": [
+     "fairness",
+     "equity"
+    ]
+   },
+   "kind": {
+    "antonyms": [
+     "cruel",
+     "unkind"
+    ],
+    "synonyms": [
+     "caring",
+     "considerate"
+    ]
+   },
+   "know": {
+    "antonyms": [
+     "ignore"
+    ],
+    "synonyms": [
+     "understand",
+     "recognise"
+    ]
+   },
+   "labour": {
+    "antonyms": [
+     "leisure",
+     "rest"
+    ],
+    "synonyms": [
+     "work",
+     "toil"
+    ]
+   },
+   "language": {
+    "antonyms": [],
+    "synonyms": [
+     "tongue",
+     "speech"
+    ]
+   },
+   "late": {
+    "antonyms": [
+     "early",
+     "punctual"
+    ],
+    "synonyms": [
+     "tardy",
+     "delayed"
+    ]
+   },
+   "latency": {
+    "antonyms": [],
+    "synonyms": [
+     "delay",
+     "lag"
+    ]
+   },
+   "laugh": {
+    "antonyms": [
+     "cry"
+    ],
+    "synonyms": [
+     "giggle",
+     "chuckle"
+    ]
+   },
+   "laughter": {
+    "antonyms": [
+     "tears",
+     "silence"
+    ],
+    "synonyms": [
+     "mirth",
+     "hilarity"
+    ]
+   },
+   "learn": {
+    "antonyms": [
+     "forget"
+    ],
+    "synonyms": [
+     "study",
+     "absorb"
+    ]
+   },
+   "legacy": {
+    "antonyms": [],
+    "synonyms": [
+     "inheritance",
+     "heritage"
+    ]
+   },
+   "light": {
+    "antonyms": [
+     "dark",
+     "darkness"
+    ],
+    "synonyms": [
+     "bright",
+     "illumination"
+    ]
+   },
+   "limit": {
+    "antonyms": [
+     "extend"
+    ],
+    "synonyms": [
+     "boundary",
+     "cap"
+    ]
+   },
+   "listen": {
+    "antonyms": [
+     "ignore"
+    ],
+    "synonyms": [
+     "hear",
+     "pay attention"
+    ]
+   },
+   "live": {
+    "antonyms": [
+     "die"
+    ],
+    "synonyms": [
+     "exist",
+     "reside"
+    ]
+   },
+   "loan": {
+    "antonyms": [],
+    "synonyms": [
+     "credit",
+     "advance"
+    ]
+   },
+   "location": {
+    "antonyms": [],
+    "synonyms": [
+     "place",
+     "site"
+    ]
+   },
+   "long": {
+    "antonyms": [
+     "short",
+     "brief"
+    ],
+    "synonyms": [
+     "lengthy",
+     "extended"
+    ]
+   },
+   "loss": {
+    "antonyms": [
+     "gain",
+     "profit"
+    ],
+    "synonyms": [
+     "deprivation",
+     "deficit"
+    ]
+   },
+   "loud": {
+    "antonyms": [
+     "quiet",
+     "soft"
+    ],
+    "synonyms": [
+     "noisy",
+     "deafening"
+    ]
+   },
+   "love": {
+    "antonyms": [
+     "hate",
+     "indifference"
+    ],
+    "synonyms": [
+     "affection",
+     "adoration"
+    ]
+   },
+   "loyal": {
+    "antonyms": [
+     "disloyal",
+     "treacherous"
+    ],
+    "synonyms": [
+     "faithful",
+     "devoted"
+    ]
+   },
+   "lullaby": {
+    "antonyms": [],
+    "synonyms": [
+     "cradle song",
+     "soothing song"
+    ]
+   },
+   "lyrics": {
+    "antonyms": [],
+    "synonyms": [
+     "words",
+     "lines"
+    ]
+   },
+   "maintain": {
+    "antonyms": [
+     "abandon",
+     "neglect"
+    ],
+    "synonyms": [
+     "sustain",
+     "keep up"
+    ]
+   },
+   "manipulate": {
+    "antonyms": [
+     "respect"
+    ],
+    "synonyms": [
+     "control",
+     "exploit"
+    ]
+   },
+   "maturity": {
+    "antonyms": [
+     "immaturity"
+    ],
+    "synonyms": [
+     "adulthood",
+     "ripeness"
+    ]
+   },
+   "meaning": {
+    "antonyms": [],
+    "synonyms": [
+     "sense",
+     "significance"
+    ]
+   },
+   "measure": {
+    "antonyms": [],
+    "synonyms": [
+     "gauge",
+     "assess"
+    ]
+   },
+   "medicine": {
+    "antonyms": [],
+    "synonyms": [
+     "drug",
+     "remedy"
+    ]
+   },
+   "medium": {
+    "antonyms": [],
+    "synonyms": [
+     "channel",
+     "means"
+    ]
+   },
+   "melt": {
+    "antonyms": [
+     "freeze",
+     "solidify"
+    ],
+    "synonyms": [
+     "thaw",
+     "liquefy"
+    ]
+   },
+   "memory": {
+    "antonyms": [
+     "amnesia",
+     "forgetting"
+    ],
+    "synonyms": [
+     "recall",
+     "recollection"
+    ]
+   },
+   "merit": {
+    "antonyms": [
+     "fault",
+     "demerit"
+    ],
+    "synonyms": [
+     "worth",
+     "value"
+    ]
+   },
+   "message": {
+    "antonyms": [],
+    "synonyms": [
+     "note",
+     "communication"
+    ]
+   },
+   "miscast": {
+    "antonyms": [],
+    "synonyms": [
+     "wrongly cast"
+    ]
+   },
+   "misquote": {
+    "antonyms": [],
+    "synonyms": [
+     "misreport",
+     "misrepresent"
+    ]
+   },
+   "misread": {
+    "antonyms": [
+     "read correctly"
+    ],
+    "synonyms": [
+     "misinterpret",
+     "misunderstand"
+    ]
+   },
+   "mobility": {
+    "antonyms": [
+     "immobility"
+    ],
+    "synonyms": [
+     "movement",
+     "flexibility"
+    ]
+   },
+   "modernity": {
+    "antonyms": [
+     "tradition",
+     "antiquity"
+    ],
+    "synonyms": [
+     "contemporary life",
+     "modern age"
+    ]
+   },
+   "momentum": {
+    "antonyms": [
+     "stagnation"
+    ],
+    "synonyms": [
+     "impetus",
+     "drive"
+    ]
+   },
+   "money": {
+    "antonyms": [],
+    "synonyms": [
+     "cash",
+     "funds"
+    ]
+   },
+   "mood": {
+    "antonyms": [],
+    "synonyms": [
+     "temper",
+     "frame of mind"
+    ]
+   },
+   "moon": {
+    "antonyms": [
+     "sun"
+    ],
+    "synonyms": [
+     "satellite",
+     "luna"
+    ]
+   },
+   "morning": {
+    "antonyms": [
+     "evening",
+     "night"
+    ],
+    "synonyms": [
+     "dawn",
+     "forenoon"
+    ]
+   },
+   "motive": {
+    "antonyms": [],
+    "synonyms": [
+     "reason",
+     "purpose"
+    ]
+   },
+   "move": {
+    "antonyms": [
+     "stay",
+     "stop"
+    ],
+    "synonyms": [
+     "shift",
+     "relocate"
+    ]
+   },
+   "music": {
+    "antonyms": [],
+    "synonyms": [
+     "melody",
+     "sound"
+    ]
+   },
+   "narrative": {
+    "antonyms": [],
+    "synonyms": [
+     "story",
+     "account"
+    ]
+   },
+   "nation": {
+    "antonyms": [],
+    "synonyms": [
+     "country",
+     "state"
+    ]
+   },
+   "necessity": {
+    "antonyms": [
+     "luxury",
+     "choice"
+    ],
+    "synonyms": [
+     "need",
+     "requirement"
+    ]
+   },
+   "need": {
+    "antonyms": [
+     "surplus"
+    ],
+    "synonyms": [
+     "require",
+     "demand"
+    ]
+   },
+   "never": {
+    "antonyms": [
+     "always"
+    ],
+    "synonyms": [
+     "not once",
+     "at no time"
+    ]
+   },
+   "news": {
+    "antonyms": [],
+    "synonyms": [
+     "reports",
+     "headlines"
+    ]
+   },
+   "night": {
+    "antonyms": [
+     "day",
+     "morning"
+    ],
+    "synonyms": [
+     "evening",
+     "darkness"
+    ]
+   },
+   "noise": {
+    "antonyms": [
+     "silence",
+     "quiet"
+    ],
+    "synonyms": [
+     "din",
+     "clamour"
+    ]
+   },
+   "nostalgia": {
+    "antonyms": [],
+    "synonyms": [
+     "longing",
+     "reminiscence"
+    ]
+   },
+   "note": {
+    "antonyms": [],
+    "synonyms": [
+     "memo",
+     "remark"
+    ]
+   },
+   "notebook": {
+    "antonyms": [],
+    "synonyms": [
+     "journal",
+     "pad"
+    ]
+   },
+   "notification": {
+    "antonyms": [],
+    "synonyms": [
+     "alert",
+     "reminder"
+    ]
+   },
+   "novelty": {
+    "antonyms": [
+     "familiarity",
+     "routine"
+    ],
+    "synonyms": [
+     "newness",
+     "freshness"
+    ]
+   },
+   "nuance": {
+    "antonyms": [
+     "bluntness"
+    ],
+    "synonyms": [
+     "subtlety",
+     "shade"
+    ]
+   },
+   "number": {
+    "antonyms": [],
+    "synonyms": [
+     "figure",
+     "digit"
+    ]
+   },
+   "obligation": {
+    "antonyms": [
+     "choice",
+     "freedom"
+    ],
+    "synonyms": [
+     "duty",
+     "commitment"
+    ]
+   },
+   "offensive": {
+    "antonyms": [
+     "harmless",
+     "inoffensive"
+    ],
+    "synonyms": [
+     "insulting",
+     "rude"
+    ]
+   },
+   "offline": {
+    "antonyms": [
+     "online"
+    ],
+    "synonyms": [
+     "disconnected",
+     "unplugged"
+    ]
+   },
+   "opportunity": {
+    "antonyms": [],
+    "synonyms": [
+     "chance",
+     "opening"
+    ]
+   },
+   "order": {
+    "antonyms": [
+     "disorder",
+     "chaos"
+    ],
+    "synonyms": [
+     "arrangement",
+     "sequence"
+    ]
+   },
+   "original": {
+    "antonyms": [
+     "copy",
+     "derivative"
+    ],
+    "synonyms": [
+     "first",
+     "authentic"
+    ]
+   },
+   "outcome": {
+    "antonyms": [],
+    "synonyms": [
+     "result",
+     "consequence"
+    ]
+   },
+   "outside": {
+    "antonyms": [
+     "inside"
+    ],
+    "synonyms": [
+     "exterior",
+     "outdoors"
+    ]
+   },
+   "overwhelm": {
+    "antonyms": [
+     "relieve",
+     "calm"
+    ],
+    "synonyms": [
+     "flood",
+     "overpower"
+    ]
+   },
+   "own": {
+    "antonyms": [],
+    "synonyms": [
+     "possess",
+     "hold"
+    ]
+   },
+   "packet": {
+    "antonyms": [],
+    "synonyms": [
+     "parcel",
+     "bundle"
+    ]
+   },
+   "panic": {
+    "antonyms": [
+     "calm",
+     "composure"
+    ],
+    "synonyms": [
+     "alarm",
+     "hysteria"
+    ]
+   },
+   "paper": {
+    "antonyms": [],
+    "synonyms": [
+     "document",
+     "sheet"
+    ]
+   },
+   "parent": {
+    "antonyms": [],
+    "synonyms": [
+     "mother",
+     "father"
+    ]
+   },
+   "parking": {
+    "antonyms": [],
+    "synonyms": [
+     "car park",
+     "parking space"
+    ]
+   },
+   "partner": {
+    "antonyms": [],
+    "synonyms": [
+     "companion",
+     "ally"
+    ]
+   },
+   "party": {
+    "antonyms": [],
+    "synonyms": [
+     "celebration",
+     "gathering"
+    ]
+   },
+   "patience": {
+    "antonyms": [
+     "impatience",
+     "haste"
+    ],
+    "synonyms": [
+     "tolerance",
+     "forbearance"
+    ]
+   },
+   "perception": {
+    "antonyms": [],
+    "synonyms": [
+     "view",
+     "impression"
+    ]
+   },
+   "perfect": {
+    "antonyms": [
+     "imperfect",
+     "flawed"
+    ],
+    "synonyms": [
+     "flawless",
+     "ideal"
+    ]
+   },
+   "person": {
+    "antonyms": [],
+    "synonyms": [
+     "individual",
+     "human"
+    ]
+   },
+   "perspective": {
+    "antonyms": [],
+    "synonyms": [
+     "viewpoint",
+     "outlook"
+    ]
+   },
+   "pet": {
+    "antonyms": [],
+    "synonyms": [
+     "animal companion",
+     "domestic animal"
+    ]
+   },
+   "phone": {
+    "antonyms": [],
+    "synonyms": [
+     "mobile",
+     "handset"
+    ]
+   },
+   "place": {
+    "antonyms": [],
+    "synonyms": [
+     "location",
+     "spot"
+    ]
+   },
+   "plan": {
+    "antonyms": [],
+    "synonyms": [
+     "scheme",
+     "strategy"
+    ]
+   },
+   "plant": {
+    "antonyms": [],
+    "synonyms": [
+     "vegetation",
+     "flora"
+    ]
+   },
+   "platform": {
+    "antonyms": [],
+    "synonyms": [
+     "stage",
+     "forum"
+    ]
+   },
+   "play": {
+    "antonyms": [],
+    "synonyms": [
+     "perform",
+     "act"
+    ]
+   },
+   "poetry": {
+    "antonyms": [],
+    "synonyms": [
+     "verse",
+     "poems"
+    ]
+   },
+   "polarise": {
+    "antonyms": [
+     "unite",
+     "reconcile"
+    ],
+    "synonyms": [
+     "divide",
+     "split"
+    ]
+   },
+   "policy": {
+    "antonyms": [],
+    "synonyms": [
+     "rule",
+     "guideline"
+    ]
+   },
+   "politics": {
+    "antonyms": [],
+    "synonyms": [
+     "government",
+     "public life"
+    ]
+   },
+   "popular": {
+    "antonyms": [
+     "unpopular",
+     "unfashionable"
+    ],
+    "synonyms": [
+     "well-liked",
+     "favoured"
+    ]
+   },
+   "post": {
+    "antonyms": [],
+    "synonyms": [
+     "publish",
+     "upload"
+    ]
+   },
+   "power": {
+    "antonyms": [
+     "weakness",
+     "impotence"
+    ],
+    "synonyms": [
+     "strength",
+     "influence"
+    ]
+   },
+   "practice": {
+    "antonyms": [],
+    "synonyms": [
+     "rehearsal",
+     "training"
+    ]
+   },
+   "practise": {
+    "antonyms": [],
+    "synonyms": [
+     "rehearse",
+     "train"
+    ]
+   },
+   "predict": {
+    "antonyms": [],
+    "synonyms": [
+     "forecast",
+     "anticipate"
+    ]
+   },
+   "prepare": {
+    "antonyms": [],
+    "synonyms": [
+     "get ready",
+     "arrange"
+    ]
+   },
+   "prescription": {
+    "antonyms": [],
+    "synonyms": [
+     "script",
+     "medical order"
+    ]
+   },
+   "presence": {
+    "antonyms": [
+     "absence"
+    ],
+    "synonyms": [
+     "attendance",
+     "existence"
+    ]
+   },
+   "pressure": {
+    "antonyms": [
+     "ease",
+     "relief"
+    ],
+    "synonyms": [
+     "strain",
+     "stress"
+    ]
+   },
+   "prestige": {
+    "antonyms": [
+     "disrepute"
+    ],
+    "synonyms": [
+     "standing",
+     "status"
+    ]
+   },
+   "price": {
+    "antonyms": [],
+    "synonyms": [
+     "cost",
+     "charge"
+    ]
+   },
+   "productivity": {
+    "antonyms": [
+     "inefficiency"
+    ],
+    "synonyms": [
+     "efficiency",
+     "output"
+    ]
+   },
+   "progress": {
+    "antonyms": [
+     "decline",
+     "regression"
+    ],
+    "synonyms": [
+     "advance",
+     "improvement"
+    ]
+   },
+   "project": {
+    "antonyms": [],
+    "synonyms": [
+     "scheme",
+     "venture"
+    ]
+   },
+   "promise": {
+    "antonyms": [
+     "break a promise"
+    ],
+    "synonyms": [
+     "pledge",
+     "vow"
+    ]
+   },
+   "protect": {
+    "antonyms": [
+     "expose",
+     "endanger"
+    ],
+    "synonyms": [
+     "shield",
+     "safeguard"
+    ]
+   },
+   "protest": {
+    "antonyms": [
+     "support",
+     "approval"
+    ],
+    "synonyms": [
+     "demonstration",
+     "objection"
+    ]
+   },
+   "provoke": {
+    "antonyms": [
+     "soothe",
+     "calm"
+    ],
+    "synonyms": [
+     "incite",
+     "goad"
+    ]
+   },
+   "purpose": {
+    "antonyms": [
+     "aimlessness"
+    ],
+    "synonyms": [
+     "aim",
+     "intention"
+    ]
+   },
+   "quality": {
+    "antonyms": [
+     "inferiority"
+    ],
+    "synonyms": [
+     "standard",
+     "calibre"
+    ]
+   },
+   "quiet": {
+    "antonyms": [
+     "loud",
+     "noisy"
+    ],
+    "synonyms": [
+     "silent",
+     "hushed"
+    ]
+   },
+   "radio": {
+    "antonyms": [],
+    "synonyms": [
+     "broadcast",
+     "wireless"
+    ]
+   },
+   "rain": {
+    "antonyms": [
+     "drought"
+    ],
+    "synonyms": [
+     "rainfall",
+     "showers"
+    ]
+   },
+   "rationalise": {
+    "antonyms": [],
+    "synonyms": [
+     "justify",
+     "explain away"
+    ]
+   },
+   "reach": {
+    "antonyms": [],
+    "synonyms": [
+     "arrive at",
+     "attain"
+    ]
+   },
+   "reaction": {
+    "antonyms": [],
+    "synonyms": [
+     "response",
+     "reply"
+    ]
+   },
+   "read": {
+    "antonyms": [],
+    "synonyms": [
+     "peruse",
+     "go through"
+    ]
+   },
+   "recall": {
+    "antonyms": [
+     "forget"
+    ],
+    "synonyms": [
+     "remember",
+     "recollect"
+    ]
+   },
+   "recharge": {
+    "antonyms": [
+     "drain",
+     "exhaust"
+    ],
+    "synonyms": [
+     "refresh",
+     "restore"
+    ]
+   },
+   "recipe": {
+    "antonyms": [],
+    "synonyms": [
+     "formula",
+     "instructions"
+    ]
+   },
+   "recognise": {
+    "antonyms": [
+     "overlook"
+    ],
+    "synonyms": [
+     "identify",
+     "acknowledge"
+    ]
+   },
+   "recognition": {
+    "antonyms": [
+     "neglect"
+    ],
+    "synonyms": [
+     "acknowledgement",
+     "credit"
+    ]
+   },
+   "recommend": {
+    "antonyms": [
+     "discourage"
+    ],
+    "synonyms": [
+     "suggest",
+     "advise"
+    ]
+   },
+   "record": {
+    "antonyms": [],
+    "synonyms": [
+     "register",
+     "document"
+    ]
+   },
+   "recover": {
+    "antonyms": [
+     "relapse",
+     "worsen"
+    ],
+    "synonyms": [
+     "heal",
+     "rebound"
+    ]
+   },
+   "reflection": {
+    "antonyms": [],
+    "synonyms": [
+     "contemplation",
+     "thought"
+    ]
+   },
+   "regional": {
+    "antonyms": [
+     "national",
+     "global"
+    ],
+    "synonyms": [
+     "local",
+     "provincial"
+    ]
+   },
+   "regulate": {
+    "antonyms": [
+     "deregulate"
+    ],
+    "synonyms": [
+     "control",
+     "govern"
+    ]
+   },
+   "relax": {
+    "antonyms": [
+     "tense",
+     "stress"
+    ],
+    "synonyms": [
+     "unwind",
+     "rest"
+    ]
+   },
+   "release": {
+    "antonyms": [
+     "hold",
+     "detain"
+    ],
+    "synonyms": [
+     "free",
+     "let go"
+    ]
+   },
+   "remake": {
+    "antonyms": [],
+    "synonyms": [
+     "new version",
+     "reworking"
+    ]
+   },
+   "remember": {
+    "antonyms": [
+     "forget"
+    ],
+    "synonyms": [
+     "recall",
+     "recollect"
+    ]
+   },
+   "remind": {
+    "antonyms": [],
+    "synonyms": [
+     "prompt",
+     "nudge"
+    ]
+   },
+   "rent": {
+    "antonyms": [],
+    "synonyms": [
+     "lease",
+     "hire"
+    ]
+   },
+   "repeat": {
+    "antonyms": [],
+    "synonyms": [
+     "reiterate",
+     "redo"
+    ]
+   },
+   "replicate": {
+    "antonyms": [
+     "originate"
+    ],
+    "synonyms": [
+     "reproduce",
+     "duplicate"
+    ]
+   },
+   "reputation": {
+    "antonyms": [
+     "disrepute"
+    ],
+    "synonyms": [
+     "standing",
+     "name"
+    ]
+   },
+   "resistance": {
+    "antonyms": [
+     "acceptance",
+     "compliance"
+    ],
+    "synonyms": [
+     "opposition",
+     "defiance"
+    ]
+   },
+   "resolve": {
+    "antonyms": [
+     "waver"
+    ],
+    "synonyms": [
+     "determination",
+     "settle"
+    ]
+   },
+   "responsibility": {
+    "antonyms": [
+     "irresponsibility"
+    ],
+    "synonyms": [
+     "duty",
+     "accountability"
+    ]
+   },
+   "rest": {
+    "antonyms": [
+     "work",
+     "activity"
+    ],
+    "synonyms": [
+     "break",
+     "repose"
+    ]
+   },
+   "retrospect": {
+    "antonyms": [],
+    "synonyms": [
+     "hindsight",
+     "looking back"
+    ]
+   },
+   "revenue": {
+    "antonyms": [],
+    "synonyms": [
+     "income",
+     "earnings"
+    ]
+   },
+   "revision": {
+    "antonyms": [],
+    "synonyms": [
+     "review",
+     "re-editing"
+    ]
+   },
+   "reward": {
+    "antonyms": [
+     "punishment",
+     "penalty"
+    ],
+    "synonyms": [
+     "prize",
+     "incentive"
+    ]
+   },
+   "rewatch": {
+    "antonyms": [],
+    "synonyms": [
+     "view again",
+     "revisit"
+    ]
+   },
+   "rhythm": {
+    "antonyms": [],
+    "synonyms": [
+     "beat",
+     "cadence"
+    ]
+   },
+   "ride": {
+    "antonyms": [],
+    "synonyms": [
+     "cycle",
+     "journey"
+    ]
+   },
+   "risk": {
+    "antonyms": [
+     "safety",
+     "security"
+    ],
+    "synonyms": [
+     "danger",
+     "hazard"
+    ]
+   },
+   "road": {
+    "antonyms": [],
+    "synonyms": [
+     "street",
+     "route"
+    ]
+   },
+   "route": {
+    "antonyms": [],
+    "synonyms": [
+     "path",
+     "way"
+    ]
+   },
+   "routine": {
+    "antonyms": [],
+    "synonyms": [
+     "habit",
+     "pattern"
+    ]
+   },
+   "rumour": {
+    "antonyms": [
+     "fact"
+    ],
+    "synonyms": [
+     "gossip",
+     "hearsay"
+    ]
+   },
+   "sad": {
+    "antonyms": [
+     "happy",
+     "cheerful"
+    ],
+    "synonyms": [
+     "unhappy",
+     "sorrowful"
+    ]
+   },
+   "salad": {
+    "antonyms": [],
+    "synonyms": [
+     "greens",
+     "mixed leaves"
+    ]
+   },
+   "salty": {
+    "antonyms": [
+     "sweet",
+     "bland"
+    ],
+    "synonyms": [
+     "salted",
+     "briny"
+    ]
+   },
+   "satellite": {
+    "antonyms": [],
+    "synonyms": [
+     "orbiter",
+     "spacecraft"
+    ]
+   },
+   "scale": {
+    "antonyms": [],
+    "synonyms": [
+     "size",
+     "extent"
+    ]
+   },
+   "scary": {
+    "antonyms": [
+     "comforting",
+     "reassuring"
+    ],
+    "synonyms": [
+     "frightening",
+     "terrifying"
+    ]
+   },
+   "scene": {
+    "antonyms": [],
+    "synonyms": [
+     "setting",
+     "sequence"
+    ]
+   },
+   "school": {
+    "antonyms": [],
+    "synonyms": [
+     "academy",
+     "institution"
+    ]
+   },
+   "score": {
+    "antonyms": [],
+    "synonyms": [
+     "soundtrack",
+     "result"
+    ]
+   },
+   "screen": {
+    "antonyms": [],
+    "synonyms": [
+     "display",
+     "monitor"
+    ]
+   },
+   "scroll": {
+    "antonyms": [],
+    "synonyms": [
+     "browse",
+     "swipe"
+    ]
+   },
+   "sea": {
+    "antonyms": [],
+    "synonyms": [
+     "ocean",
+     "waters"
+    ]
+   },
+   "secure": {
+    "antonyms": [
+     "insecure",
+     "vulnerable"
+    ],
+    "synonyms": [
+     "safe",
+     "protected"
+    ]
+   },
+   "selection": {
+    "antonyms": [],
+    "synonyms": [
+     "choice",
+     "assortment"
+    ]
+   },
+   "self-image": {
+    "antonyms": [],
+    "synonyms": [
+     "self-concept",
+     "self-esteem"
+    ]
+   },
+   "shallow": {
+    "antonyms": [
+     "deep",
+     "profound"
+    ],
+    "synonyms": [
+     "superficial",
+     "cursory"
+    ]
+   },
+   "share": {
+    "antonyms": [
+     "withhold",
+     "keep"
+    ],
+    "synonyms": [
+     "divide",
+     "post"
+    ]
+   },
+   "shift": {
+    "antonyms": [
+     "stay"
+    ],
+    "synonyms": [
+     "change",
+     "move"
+    ]
+   },
+   "shop": {
+    "antonyms": [],
+    "synonyms": [
+     "store",
+     "outlet"
+    ]
+   },
+   "shot": {
+    "antonyms": [],
+    "synonyms": [
+     "attempt",
+     "photo"
+    ]
+   },
+   "shout": {
+    "antonyms": [
+     "whisper",
+     "murmur"
+    ],
+    "synonyms": [
+     "yell",
+     "holler"
+    ]
+   },
+   "shower": {
+    "antonyms": [],
+    "synonyms": [
+     "wash",
+     "rinse"
+    ]
+   },
+   "signal": {
+    "antonyms": [],
+    "synonyms": [
+     "sign",
+     "indication"
+    ]
+   },
+   "significance": {
+    "antonyms": [
+     "insignificance",
+     "triviality"
+    ],
+    "synonyms": [
+     "importance",
+     "meaning"
+    ]
+   },
+   "silence": {
+    "antonyms": [
+     "noise",
+     "sound"
+    ],
+    "synonyms": [
+     "quiet",
+     "stillness"
+    ]
+   },
+   "simple": {
+    "antonyms": [
+     "complex",
+     "complicated"
+    ],
+    "synonyms": [
+     "straightforward",
+     "plain"
+    ]
+   },
+   "simulation": {
+    "antonyms": [
+     "reality"
+    ],
+    "synonyms": [
+     "model",
+     "imitation"
+    ]
+   },
+   "sing": {
+    "antonyms": [],
+    "synonyms": [
+     "perform",
+     "chant"
+    ]
+   },
+   "skill": {
+    "antonyms": [
+     "inability"
+    ],
+    "synonyms": [
+     "ability",
+     "expertise"
+    ]
+   },
+   "sleep": {
+    "antonyms": [
+     "wake",
+     "wakefulness"
+    ],
+    "synonyms": [
+     "slumber",
+     "rest"
+    ]
+   },
+   "slow": {
+    "antonyms": [
+     "fast",
+     "quick"
+    ],
+    "synonyms": [
+     "gradual",
+     "sluggish"
+    ]
+   },
+   "smile": {
+    "antonyms": [
+     "frown",
+     "scowl"
+    ],
+    "synonyms": [
+     "grin",
+     "beam"
+    ]
+   },
+   "soft": {
+    "antonyms": [
+     "hard",
+     "firm"
+    ],
+    "synonyms": [
+     "gentle",
+     "tender"
+    ]
+   },
+   "solid": {
+    "antonyms": [
+     "liquid",
+     "hollow"
+    ],
+    "synonyms": [
+     "firm",
+     "sturdy"
+    ]
+   },
+   "solve": {
+    "antonyms": [
+     "complicate"
+    ],
+    "synonyms": [
+     "resolve",
+     "work out"
+    ]
+   },
+   "song": {
+    "antonyms": [],
+    "synonyms": [
+     "tune",
+     "track"
+    ]
+   },
+   "sound": {
+    "antonyms": [
+     "silence"
+    ],
+    "synonyms": [
+     "noise",
+     "audio"
+    ]
+   },
+   "source": {
+    "antonyms": [],
+    "synonyms": [
+     "origin",
+     "root"
+    ]
+   },
+   "sovereignty": {
+    "antonyms": [
+     "dependence",
+     "subjection"
+    ],
+    "synonyms": [
+     "independence",
+     "autonomy"
+    ]
+   },
+   "space": {
+    "antonyms": [],
+    "synonyms": [
+     "room",
+     "area"
+    ]
+   },
+   "spread": {
+    "antonyms": [
+     "contain",
+     "restrict"
+    ],
+    "synonyms": [
+     "circulate",
+     "diffuse"
+    ]
+   },
+   "stability": {
+    "antonyms": [
+     "instability",
+     "volatility"
+    ],
+    "synonyms": [
+     "steadiness",
+     "balance"
+    ]
+   },
+   "start": {
+    "antonyms": [
+     "finish",
+     "end"
+    ],
+    "synonyms": [
+     "begin",
+     "launch"
+    ]
+   },
+   "statistic": {
+    "antonyms": [],
+    "synonyms": [
+     "figure",
+     "data point"
+    ]
+   },
+   "step": {
+    "antonyms": [],
+    "synonyms": [
+     "stage",
+     "phase"
+    ]
+   },
+   "story": {
+    "antonyms": [],
+    "synonyms": [
+     "tale",
+     "narrative"
+    ]
+   },
+   "street": {
+    "antonyms": [],
+    "synonyms": [
+     "road",
+     "avenue"
+    ]
+   },
+   "stress": {
+    "antonyms": [
+     "relaxation",
+     "calm"
+    ],
+    "synonyms": [
+     "strain",
+     "pressure"
+    ]
+   },
+   "stretch": {
+    "antonyms": [
+     "contract",
+     "shrink"
+    ],
+    "synonyms": [
+     "extend",
+     "lengthen"
+    ]
+   },
+   "strong": {
+    "antonyms": [
+     "weak",
+     "feeble"
+    ],
+    "synonyms": [
+     "powerful",
+     "sturdy"
+    ]
+   },
+   "structure": {
+    "antonyms": [],
+    "synonyms": [
+     "framework",
+     "organisation"
+    ]
+   },
+   "study": {
+    "antonyms": [],
+    "synonyms": [
+     "learn",
+     "examine"
+    ]
+   },
+   "subject": {
+    "antonyms": [
+     "object"
+    ],
+    "synonyms": [
+     "topic",
+     "theme"
+    ]
+   },
+   "subjective": {
+    "antonyms": [
+     "objective",
+     "impartial"
+    ],
+    "synonyms": [
+     "personal",
+     "biased"
+    ]
+   },
+   "subscribe": {
+    "antonyms": [
+     "unsubscribe"
+    ],
+    "synonyms": [
+     "sign up",
+     "follow"
+    ]
+   },
+   "subsidy": {
+    "antonyms": [],
+    "synonyms": [
+     "grant",
+     "allowance"
+    ]
+   },
+   "subtitle": {
+    "antonyms": [],
+    "synonyms": [
+     "caption",
+     "translation line"
+    ]
+   },
+   "subtitles": {
+    "antonyms": [],
+    "synonyms": [
+     "captions",
+     "translation lines"
+    ]
+   },
+   "sun": {
+    "antonyms": [
+     "moon"
+    ],
+    "synonyms": [
+     "sunlight",
+     "star"
+    ]
+   },
+   "support": {
+    "antonyms": [
+     "oppose",
+     "undermine"
+    ],
+    "synonyms": [
+     "back",
+     "assist"
+    ]
+   },
+   "surprise": {
+    "antonyms": [
+     "expectation"
+    ],
+    "synonyms": [
+     "astonish",
+     "shock"
+    ]
+   },
+   "surveillance": {
+    "antonyms": [],
+    "synonyms": [
+     "monitoring",
+     "observation"
+    ]
+   },
+   "survive": {
+    "antonyms": [
+     "die",
+     "perish"
+    ],
+    "synonyms": [
+     "endure",
+     "outlast"
+    ]
+   },
+   "sustainable": {
+    "antonyms": [
+     "unsustainable"
+    ],
+    "synonyms": [
+     "viable",
+     "renewable"
+    ]
+   },
+   "sweet": {
+    "antonyms": [
+     "bitter",
+     "sour"
+    ],
+    "synonyms": [
+     "sugary",
+     "pleasant"
+    ]
+   },
+   "sympathy": {
+    "antonyms": [
+     "indifference",
+     "apathy"
+    ],
+    "synonyms": [
+     "compassion",
+     "pity"
+    ]
+   },
+   "system": {
+    "antonyms": [],
+    "synonyms": [
+     "structure",
+     "framework"
+    ]
+   },
+   "talk": {
+    "antonyms": [
+     "listen",
+     "silence"
+    ],
+    "synonyms": [
+     "speak",
+     "converse"
+    ]
+   },
+   "targeted": {
+    "antonyms": [
+     "random",
+     "general"
+    ],
+    "synonyms": [
+     "focused",
+     "aimed"
+    ]
+   },
+   "taste": {
+    "antonyms": [],
+    "synonyms": [
+     "flavour",
+     "palate"
+    ]
+   },
+   "tasty": {
+    "antonyms": [
+     "bland",
+     "tasteless"
+    ],
+    "synonyms": [
+     "delicious",
+     "flavourful"
+    ]
+   },
+   "team": {
+    "antonyms": [],
+    "synonyms": [
+     "group",
+     "squad"
+    ]
+   },
+   "teenager": {
+    "antonyms": [],
+    "synonyms": [
+     "adolescent",
+     "youth"
+    ]
+   },
+   "tension": {
+    "antonyms": [
+     "relaxation",
+     "calm"
+    ],
+    "synonyms": [
+     "strain",
+     "stress"
+    ]
+   },
+   "testable": {
+    "antonyms": [
+     "untestable"
+    ],
+    "synonyms": [
+     "verifiable",
+     "checkable"
+    ]
+   },
+   "time": {
+    "antonyms": [],
+    "synonyms": [
+     "period",
+     "moment"
+    ]
+   },
+   "tired": {
+    "antonyms": [
+     "rested",
+     "energetic"
+    ],
+    "synonyms": [
+     "weary",
+     "exhausted"
+    ]
+   },
+   "title": {
+    "antonyms": [],
+    "synonyms": [
+     "heading",
+     "name"
+    ]
+   },
+   "together": {
+    "antonyms": [
+     "alone",
+     "apart"
+    ],
+    "synonyms": [
+     "jointly",
+     "collectively"
+    ]
+   },
+   "tolerance": {
+    "antonyms": [
+     "intolerance",
+     "bigotry"
+    ],
+    "synonyms": [
+     "acceptance",
+     "openness"
+    ]
+   },
+   "tolerate": {
+    "antonyms": [
+     "reject",
+     "forbid"
+    ],
+    "synonyms": [
+     "accept",
+     "endure"
+    ]
+   },
+   "traceable": {
+    "antonyms": [
+     "untraceable"
+    ],
+    "synonyms": [
+     "trackable"
+    ]
+   },
+   "traditional": {
+    "antonyms": [
+     "modern",
+     "contemporary"
+    ],
+    "synonyms": [
+     "conventional",
+     "customary"
+    ]
+   },
+   "traffic": {
+    "antonyms": [],
+    "synonyms": [
+     "congestion",
+     "vehicles"
+    ]
+   },
+   "tragedy": {
+    "antonyms": [
+     "comedy"
+    ],
+    "synonyms": [
+     "disaster",
+     "catastrophe"
+    ]
+   },
+   "trailer": {
+    "antonyms": [],
+    "synonyms": [
+     "preview",
+     "teaser"
+    ]
+   },
+   "trajectory": {
+    "antonyms": [],
+    "synonyms": [
+     "path",
+     "course"
+    ]
+   },
+   "translate": {
+    "antonyms": [
+     "mistranslate"
+    ],
+    "synonyms": [
+     "interpret",
+     "render"
+    ]
+   },
+   "translation": {
+    "antonyms": [
+     "original"
+    ],
+    "synonyms": [
+     "version",
+     "rendering"
+    ]
+   },
+   "transmissible": {
+    "antonyms": [
+     "non-transmissible"
+    ],
+    "synonyms": [
+     "contagious",
+     "catching"
+    ]
+   },
+   "travel": {
+    "antonyms": [],
+    "synonyms": [
+     "journey",
+     "trip"
+    ]
+   },
+   "trend": {
+    "antonyms": [
+     "anomaly"
+    ],
+    "synonyms": [
+     "tendency",
+     "pattern"
+    ]
+   },
+   "trial": {
+    "antonyms": [
+     "certainty"
+    ],
+    "synonyms": [
+     "test",
+     "experiment"
+    ]
+   },
+   "trigger": {
+    "antonyms": [
+     "prevent",
+     "block"
+    ],
+    "synonyms": [
+     "prompt",
+     "spark"
+    ]
+   },
+   "trust": {
+    "antonyms": [
+     "distrust",
+     "suspicion"
+    ],
+    "synonyms": [
+     "confidence",
+     "faith"
+    ]
+   },
+   "truth": {
+    "antonyms": [
+     "lie",
+     "falsehood"
+    ],
+    "synonyms": [
+     "fact",
+     "verity"
+    ]
+   },
+   "try": {
+    "antonyms": [
+     "give up",
+     "quit"
+    ],
+    "synonyms": [
+     "attempt",
+     "endeavour"
+    ]
+   },
+   "twist": {
+    "antonyms": [
+     "straighten"
+    ],
+    "synonyms": [
+     "turn",
+     "reversal"
+    ]
+   },
+   "unfalsifiable": {
+    "antonyms": [
+     "falsifiable"
+    ],
+    "synonyms": [
+     "untestable",
+     "unprovable"
+    ]
+   },
+   "uniform": {
+    "antonyms": [
+     "varied",
+     "diverse"
+    ],
+    "synonyms": [
+     "consistent",
+     "even"
+    ]
+   },
+   "universal": {
+    "antonyms": [
+     "particular",
+     "local"
+    ],
+    "synonyms": [
+     "global",
+     "general"
+    ]
+   },
+   "unreliable": {
+    "antonyms": [
+     "reliable",
+     "trustworthy"
+    ],
+    "synonyms": [
+     "unpredictable",
+     "flaky"
+    ]
+   },
+   "unwind": {
+    "antonyms": [
+     "tense up",
+     "stress"
+    ],
+    "synonyms": [
+     "relax"
+    ]
+   },
+   "vaccine": {
+    "antonyms": [],
+    "synonyms": [
+     "inoculation",
+     "jab"
+    ]
+   },
+   "validate": {
+    "antonyms": [
+     "invalidate",
+     "reject"
+    ],
+    "synonyms": [
+     "confirm",
+     "verify"
+    ]
+   },
+   "variation": {
+    "antonyms": [
+     "uniformity",
+     "sameness"
+    ],
+    "synonyms": [
+     "difference",
+     "variety"
+    ]
+   },
+   "verse": {
+    "antonyms": [],
+    "synonyms": [
+     "stanza",
+     "line"
+    ]
+   },
+   "version": {
+    "antonyms": [],
+    "synonyms": [
+     "variant",
+     "edition"
+    ]
+   },
+   "villain": {
+    "antonyms": [
+     "hero",
+     "protagonist"
+    ],
+    "synonyms": [
+     "antagonist",
+     "baddie"
+    ]
+   },
+   "virus": {
+    "antonyms": [],
+    "synonyms": [
+     "pathogen",
+     "infection"
+    ]
+   },
+   "visa": {
+    "antonyms": [],
+    "synonyms": [
+     "permit",
+     "entry permit"
+    ]
+   },
+   "voice": {
+    "antonyms": [
+     "silence"
+    ],
+    "synonyms": [
+     "tone",
+     "expression"
+    ]
+   },
+   "wage": {
+    "antonyms": [],
+    "synonyms": [
+     "pay",
+     "salary"
+    ]
+   },
+   "walk": {
+    "antonyms": [],
+    "synonyms": [
+     "stroll",
+     "on foot"
+    ]
+   },
+   "warm": {
+    "antonyms": [
+     "cold",
+     "cool"
+    ],
+    "synonyms": [
+     "mild",
+     "heated"
+    ]
+   },
+   "watch": {
+    "antonyms": [],
+    "synonyms": [
+     "observe",
+     "view"
+    ]
+   },
+   "way": {
+    "antonyms": [],
+    "synonyms": [
+     "method",
+     "route"
+    ]
+   },
+   "wealth": {
+    "antonyms": [
+     "poverty",
+     "need"
+    ],
+    "synonyms": [
+     "riches",
+     "affluence"
+    ]
+   },
+   "wedding": {
+    "antonyms": [],
+    "synonyms": [
+     "marriage ceremony",
+     "nuptials"
+    ]
+   },
+   "wild": {
+    "antonyms": [
+     "tame",
+     "domesticated"
+    ],
+    "synonyms": [
+     "untamed",
+     "feral"
+    ]
+   },
+   "will": {
+    "antonyms": [],
+    "synonyms": [
+     "determination",
+     "resolve"
+    ]
+   },
+   "wind": {
+    "antonyms": [],
+    "synonyms": [
+     "breeze",
+     "gust"
+    ]
+   },
+   "winter": {
+    "antonyms": [
+     "summer"
+    ],
+    "synonyms": [
+     "cold season"
+    ]
+   },
+   "word": {
+    "antonyms": [],
+    "synonyms": [
+     "term",
+     "expression"
+    ]
+   },
+   "words": {
+    "antonyms": [],
+    "synonyms": [
+     "text",
+     "terms"
+    ]
+   },
+   "work": {
+    "antonyms": [
+     "rest",
+     "leisure"
+    ],
+    "synonyms": [
+     "labour",
+     "toil"
+    ]
+   },
+   "world": {
+    "antonyms": [],
+    "synonyms": [
+     "globe",
+     "earth"
+    ]
+   },
+   "worth": {
+    "antonyms": [
+     "worthlessness"
+    ],
+    "synonyms": [
+     "value",
+     "merit"
+    ]
+   },
+   "year": {
+    "antonyms": [],
+    "synonyms": [
+     "twelve months",
+     "twelvemonth"
+    ]
+   }
+  }
+ }
+}
