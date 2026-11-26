@@ -70,7 +70,7 @@ test('live elements have a data url and languages', () => {
 });
 test('live wheels point at a prompt file', () => {
     const wheels = manifest.elements.filter((e) => e.mode === 'wheel' && e.status === 'live');
-    assert(wheels.length >= 2, 'mind matters and debates must be live');
+    assert(wheels.length >= 7, 'all seven club wheels must be live');
     for (const w of wheels) {
         assert(/\.json$/.test(w.url), `${w.id}: wheel url must be a json file`);
         assert.deepStrictEqual(w.bands, manifest.bands, `${w.id}: wheel covers all four bands`);
