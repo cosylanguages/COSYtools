@@ -7762,19 +7762,73 @@
     "infinitive": "detestar",
     "group": "Standard",
     "level": "A1",
-    "definition": "Verb form for dislike",
+    "definition": "Sentir aversión hacia algo o alguien.",
     "tenses": {
-      "present": [
-        "detestar",
-        "detestar",
-        "detestar",
-        "detestar",
-        "detestar",
-        "detestar"
+      "presente": [
+        "detesto",
+        "detestas",
+        "detesta",
+        "detestamos",
+        "detestáis",
+        "detestan"
+      ],
+      "pasado": [
+        "detesté",
+        "detestaste",
+        "detestó",
+        "detestamos",
+        "detestasteis",
+        "detestaron"
+      ],
+      "preterito_imperfecto": [
+        "detestaba",
+        "detestabas",
+        "detestaba",
+        "detestábamos",
+        "detestabais",
+        "detestaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he detestado",
+        "has detestado",
+        "ha detestado",
+        "hemos detestado",
+        "habéis detestado",
+        "han detestado"
+      ],
+      "futuro_simple": [
+        "detestaré",
+        "detestarás",
+        "detestará",
+        "detestaremos",
+        "detestaréis",
+        "detestarán"
+      ],
+      "condicional_simple": [
+        "detestaría",
+        "detestarías",
+        "detestaría",
+        "detestaríamos",
+        "detestaríais",
+        "detestarían"
+      ],
+      "subjuntivo_presente": [
+        "deteste",
+        "detestes",
+        "deteste",
+        "detestemos",
+        "detestéis",
+        "detesten"
+      ],
+      "imperativo": [
+        "detesta!",
+        "deteste!",
+        "detestad!",
+        "detesten!"
       ]
     },
     "examples": [
-      "Example sentence for detestar."
+      "Detesto esperar en las colas."
     ]
   },
   "tener que": {
@@ -7782,19 +7836,73 @@
     "infinitive": "tener que",
     "group": "Standard",
     "level": "A1",
-    "definition": "Verb form for have to",
+    "definition": "Sentir la obligación de hacer algo.",
     "tenses": {
-      "present": [
-        "tener que",
-        "tener que",
-        "tener que",
-        "tener que",
-        "tener que",
-        "tener que"
+      "presente": [
+        "tengo que",
+        "tienes que",
+        "tiene que",
+        "tenemos que",
+        "tenéis que",
+        "tienen que"
+      ],
+      "pasado": [
+        "tuve que",
+        "tuviste que",
+        "tuvo que",
+        "tuvimos que",
+        "tuvisteis que",
+        "tuvieron que"
+      ],
+      "preterito_imperfecto": [
+        "tenía que",
+        "tenías que",
+        "tenía que",
+        "teníamos que",
+        "teníais que",
+        "tenían que"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he tenido que",
+        "has tenido que",
+        "ha tenido que",
+        "hemos tenido que",
+        "habéis tenido que",
+        "han tenido que"
+      ],
+      "futuro_simple": [
+        "tendré que",
+        "tendrás que",
+        "tendrá que",
+        "tendremos que",
+        "tendréis que",
+        "tendrán que"
+      ],
+      "condicional_simple": [
+        "tendría que",
+        "tendrías que",
+        "tendría que",
+        "tendríamos que",
+        "tendríais que",
+        "tendrían que"
+      ],
+      "subjuntivo_presente": [
+        "tenga que",
+        "tengas que",
+        "tenga que",
+        "tengamos que",
+        "tengáis que",
+        "tengan que"
+      ],
+      "imperativo": [
+        "ten que!",
+        "tenga que!",
+        "tened que!",
+        "tengan que!"
       ]
     },
     "examples": [
-      "Example sentence for tener que."
+      "Tengo que estudiar esta tarde."
     ]
   },
   "pagar": {
@@ -7818,32 +7926,131 @@
         "pagamos",
         "pagasteis",
         "pagaron"
+      ],
+      "preterito_imperfecto": [
+        "pagaba",
+        "pagabas",
+        "pagaba",
+        "pagábamos",
+        "pagabais",
+        "pagaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he pagado",
+        "has pagado",
+        "ha pagado",
+        "hemos pagado",
+        "habéis pagado",
+        "han pagado"
+      ],
+      "futuro_simple": [
+        "pagaré",
+        "pagarás",
+        "pagará",
+        "pagaremos",
+        "pagaréis",
+        "pagarán"
+      ],
+      "condicional_simple": [
+        "pagaría",
+        "pagarías",
+        "pagaría",
+        "pagaríamos",
+        "pagaríais",
+        "pagarían"
+      ],
+      "subjuntivo_presente": [
+        "pague",
+        "pagues",
+        "pague",
+        "paguemos",
+        "paguéis",
+        "paguen"
+      ],
+      "imperativo": [
+        "paga!",
+        "pague!",
+        "pagad!",
+        "paguen!"
       ]
     },
     "examples": [
       "Pago con tarjeta."
     ],
-    "en_lemma": "pay",
-    "needs_review": true
+    "en_lemma": "pay"
   },
   "escribir a máquina": {
     "en_lemma": "type",
     "infinitive": "escribir a máquina",
     "group": "Standard",
     "level": "A1",
-    "definition": "Verb form for type",
+    "definition": "Escribir un texto con una máquina de escribir o un teclado.",
     "tenses": {
-      "present": [
-        "escribir a máquina",
-        "escribir a máquina",
-        "escribir a máquina",
-        "escribir a máquina",
-        "escribir a máquina",
-        "escribir a máquina"
+      "presente": [
+        "escribo a máquina",
+        "escribes a máquina",
+        "escribe a máquina",
+        "escribimos a máquina",
+        "escribís a máquina",
+        "escriben a máquina"
+      ],
+      "pasado": [
+        "escribí a máquina",
+        "escribiste a máquina",
+        "escribió a máquina",
+        "escribimos a máquina",
+        "escribisteis a máquina",
+        "escribieron a máquina"
+      ],
+      "preterito_imperfecto": [
+        "escribía a máquina",
+        "escribías a máquina",
+        "escribía a máquina",
+        "escribíamos a máquina",
+        "escribíais a máquina",
+        "escribían a máquina"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he escrito a máquina",
+        "has escrito a máquina",
+        "ha escrito a máquina",
+        "hemos escrito a máquina",
+        "habéis escrito a máquina",
+        "han escrito a máquina"
+      ],
+      "futuro_simple": [
+        "escribiré a máquina",
+        "escribirás a máquina",
+        "escribirá a máquina",
+        "escribiremos a máquina",
+        "escribiréis a máquina",
+        "escribirán a máquina"
+      ],
+      "condicional_simple": [
+        "escribiría a máquina",
+        "escribirías a máquina",
+        "escribiría a máquina",
+        "escribiríamos a máquina",
+        "escribiríais a máquina",
+        "escribirían a máquina"
+      ],
+      "subjuntivo_presente": [
+        "escriba a máquina",
+        "escribas a máquina",
+        "escriba a máquina",
+        "escribamos a máquina",
+        "escribáis a máquina",
+        "escriban a máquina"
+      ],
+      "imperativo": [
+        "escribe a máquina!",
+        "escriba a máquina!",
+        "escribid a máquina!",
+        "escriban a máquina!"
       ]
     },
     "examples": [
-      "Example sentence for escribir a máquina."
+      "Escribo a máquina la carta."
     ]
   },
   "gastar": {
@@ -7867,13 +8074,58 @@
         "gastamos",
         "gastasteis",
         "gastaron"
+      ],
+      "preterito_imperfecto": [
+        "gastaba",
+        "gastabas",
+        "gastaba",
+        "gastábamos",
+        "gastabais",
+        "gastaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he gastado",
+        "has gastado",
+        "ha gastado",
+        "hemos gastado",
+        "habéis gastado",
+        "han gastado"
+      ],
+      "futuro_simple": [
+        "gastaré",
+        "gastarás",
+        "gastará",
+        "gastaremos",
+        "gastaréis",
+        "gastarán"
+      ],
+      "condicional_simple": [
+        "gastaría",
+        "gastarías",
+        "gastaría",
+        "gastaríamos",
+        "gastaríais",
+        "gastarían"
+      ],
+      "subjuntivo_presente": [
+        "gaste",
+        "gastes",
+        "gaste",
+        "gastemos",
+        "gastéis",
+        "gasten"
+      ],
+      "imperativo": [
+        "gasta!",
+        "gaste!",
+        "gastad!",
+        "gasten!"
       ]
     },
     "examples": [
       "Gasto mucho dinero en libros."
     ],
-    "en_lemma": "spend",
-    "needs_review": true
+    "en_lemma": "spend"
   },
   "desperdiciar": {
     "group": "1er grupo (-ar)",
@@ -7896,32 +8148,131 @@
         "desperdiciamos",
         "desperdiciasteis",
         "desperdiciaron"
+      ],
+      "preterito_imperfecto": [
+        "desperdiciaba",
+        "desperdiciabas",
+        "desperdiciaba",
+        "desperdiciábamos",
+        "desperdiciabais",
+        "desperdiciaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he desperdiciado",
+        "has desperdiciado",
+        "ha desperdiciado",
+        "hemos desperdiciado",
+        "habéis desperdiciado",
+        "han desperdiciado"
+      ],
+      "futuro_simple": [
+        "desperdiciaré",
+        "desperdiciarás",
+        "desperdiciará",
+        "desperdiciaremos",
+        "desperdiciaréis",
+        "desperdiciarán"
+      ],
+      "condicional_simple": [
+        "desperdiciaría",
+        "desperdiciarías",
+        "desperdiciaría",
+        "desperdiciaríamos",
+        "desperdiciaríais",
+        "desperdiciarían"
+      ],
+      "subjuntivo_presente": [
+        "desperdicie",
+        "desperdicies",
+        "desperdicie",
+        "desperdiciemos",
+        "desperdiciéis",
+        "desperdicien"
+      ],
+      "imperativo": [
+        "desperdicia!",
+        "desperdicie!",
+        "desperdiciad!",
+        "desperdicien!"
       ]
     },
     "examples": [
       "No desperdicio comida."
     ],
-    "en_lemma": "waste",
-    "needs_review": true
+    "en_lemma": "waste"
   },
   "estar de acuerdo": {
     "en_lemma": "agree",
     "infinitive": "estar de acuerdo",
     "group": "Standard",
     "level": "A1",
-    "definition": "Verb form for agree",
+    "definition": "Compartir la misma opinión que otra persona.",
     "tenses": {
-      "present": [
-        "estar de acuerdo",
-        "estar de acuerdo",
-        "estar de acuerdo",
-        "estar de acuerdo",
-        "estar de acuerdo",
-        "estar de acuerdo"
+      "presente": [
+        "estoy de acuerdo",
+        "estás de acuerdo",
+        "está de acuerdo",
+        "estamos de acuerdo",
+        "estáis de acuerdo",
+        "están de acuerdo"
+      ],
+      "pasado": [
+        "estuve de acuerdo",
+        "estuviste de acuerdo",
+        "estuvo de acuerdo",
+        "estuvimos de acuerdo",
+        "estuvisteis de acuerdo",
+        "estuvieron de acuerdo"
+      ],
+      "preterito_imperfecto": [
+        "estaba de acuerdo",
+        "estabas de acuerdo",
+        "estaba de acuerdo",
+        "estábamos de acuerdo",
+        "estabais de acuerdo",
+        "estaban de acuerdo"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he estado de acuerdo",
+        "has estado de acuerdo",
+        "ha estado de acuerdo",
+        "hemos estado de acuerdo",
+        "habéis estado de acuerdo",
+        "han estado de acuerdo"
+      ],
+      "futuro_simple": [
+        "estaré de acuerdo",
+        "estarás de acuerdo",
+        "estará de acuerdo",
+        "estaremos de acuerdo",
+        "estaréis de acuerdo",
+        "estarán de acuerdo"
+      ],
+      "condicional_simple": [
+        "estaría de acuerdo",
+        "estarías de acuerdo",
+        "estaría de acuerdo",
+        "estaríamos de acuerdo",
+        "estaríais de acuerdo",
+        "estarían de acuerdo"
+      ],
+      "subjuntivo_presente": [
+        "esté de acuerdo",
+        "estés de acuerdo",
+        "esté de acuerdo",
+        "estemos de acuerdo",
+        "estéis de acuerdo",
+        "estén de acuerdo"
+      ],
+      "imperativo": [
+        "está de acuerdo!",
+        "esté de acuerdo!",
+        "estad de acuerdo!",
+        "estén de acuerdo!"
       ]
     },
     "examples": [
-      "Example sentence for estar de acuerdo."
+      "Estoy de acuerdo con tu idea."
     ]
   },
   "discrepar": {
@@ -7929,19 +8280,73 @@
     "infinitive": "discrepar",
     "group": "Standard",
     "level": "A1",
-    "definition": "Verb form for disagree",
+    "definition": "Tener una opinión distinta de la de otra persona.",
     "tenses": {
-      "present": [
-        "discrepar",
-        "discrepar",
-        "discrepar",
-        "discrepar",
-        "discrepar",
-        "discrepar"
+      "presente": [
+        "discrepo",
+        "discrepas",
+        "discrepa",
+        "discrepamos",
+        "discrepáis",
+        "discrepan"
+      ],
+      "pasado": [
+        "discrepé",
+        "discrepaste",
+        "discrepó",
+        "discrepamos",
+        "discrepasteis",
+        "discreparon"
+      ],
+      "preterito_imperfecto": [
+        "discrepaba",
+        "discrepabas",
+        "discrepaba",
+        "discrepábamos",
+        "discrepabais",
+        "discrepaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he discrepado",
+        "has discrepado",
+        "ha discrepado",
+        "hemos discrepado",
+        "habéis discrepado",
+        "han discrepado"
+      ],
+      "futuro_simple": [
+        "discreparé",
+        "discreparás",
+        "discrepará",
+        "discreparemos",
+        "discreparéis",
+        "discreparán"
+      ],
+      "condicional_simple": [
+        "discreparía",
+        "discreparías",
+        "discreparía",
+        "discreparíamos",
+        "discreparíais",
+        "discreparían"
+      ],
+      "subjuntivo_presente": [
+        "discrepe",
+        "discrepes",
+        "discrepe",
+        "discrepemos",
+        "discrepéis",
+        "discrepen"
+      ],
+      "imperativo": [
+        "discrepa!",
+        "discrepe!",
+        "discrepad!",
+        "discrepen!"
       ]
     },
     "examples": [
-      "Example sentence for discrepar."
+      "Discrepo de tu propuesta, pero la escucho."
     ]
   },
   "hacer (make)": {
@@ -8039,13 +8444,58 @@
         "vinimos",
         "vinisteis",
         "vinieron"
+      ],
+      "preterito_imperfecto": [
+        "venía",
+        "venías",
+        "venía",
+        "veníamos",
+        "veníais",
+        "venían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he venido",
+        "has venido",
+        "ha venido",
+        "hemos venido",
+        "habéis venido",
+        "han venido"
+      ],
+      "futuro_simple": [
+        "vendré",
+        "vendrás",
+        "vendrá",
+        "vendremos",
+        "vendréis",
+        "vendrán"
+      ],
+      "condicional_simple": [
+        "vendría",
+        "vendrías",
+        "vendría",
+        "vendríamos",
+        "vendríais",
+        "vendrían"
+      ],
+      "subjuntivo_presente": [
+        "venga",
+        "vengas",
+        "venga",
+        "vengamos",
+        "vengáis",
+        "vengan"
+      ],
+      "imperativo": [
+        "ven!",
+        "venga!",
+        "venid!",
+        "vengan!"
       ]
     },
     "examples": [
       "Vengo de la escuela."
     ],
-    "en_lemma": "come",
-    "needs_review": true
+    "en_lemma": "come"
   },
   "resolver": {
     "group": "2do grupo (-er)",
@@ -8068,13 +8518,58 @@
         "resolvimos",
         "resolvisteis",
         "resolvieron"
+      ],
+      "preterito_imperfecto": [
+        "resolvía",
+        "resolvías",
+        "resolvía",
+        "resolvíamos",
+        "resolvíais",
+        "resolvían"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he resuelto",
+        "has resuelto",
+        "ha resuelto",
+        "hemos resuelto",
+        "habéis resuelto",
+        "han resuelto"
+      ],
+      "futuro_simple": [
+        "resolveré",
+        "resolverás",
+        "resolverá",
+        "resolveremos",
+        "resolveréis",
+        "resolverán"
+      ],
+      "condicional_simple": [
+        "resolvería",
+        "resolverías",
+        "resolvería",
+        "resolveríamos",
+        "resolveríais",
+        "resolverían"
+      ],
+      "subjuntivo_presente": [
+        "resuelva",
+        "resuelvas",
+        "resuelva",
+        "resolvamos",
+        "resolváis",
+        "resuelvan"
+      ],
+      "imperativo": [
+        "resuelve!",
+        "resuelva!",
+        "resolved!",
+        "resuelvan!"
       ]
     },
     "examples": [
       "Resuelvo el problema."
     ],
-    "en_lemma": "solve",
-    "needs_review": true
+    "en_lemma": "solve"
   },
   "ayudar": {
     "group": "1er grupo (-ar)",
@@ -8097,13 +8592,58 @@
         "ayudamos",
         "ayudasteis",
         "ayudaron"
+      ],
+      "preterito_imperfecto": [
+        "ayudaba",
+        "ayudabas",
+        "ayudaba",
+        "ayudábamos",
+        "ayudabais",
+        "ayudaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he ayudado",
+        "has ayudado",
+        "ha ayudado",
+        "hemos ayudado",
+        "habéis ayudado",
+        "han ayudado"
+      ],
+      "futuro_simple": [
+        "ayudaré",
+        "ayudarás",
+        "ayudará",
+        "ayudaremos",
+        "ayudaréis",
+        "ayudarán"
+      ],
+      "condicional_simple": [
+        "ayudaría",
+        "ayudarías",
+        "ayudaría",
+        "ayudaríamos",
+        "ayudaríais",
+        "ayudarían"
+      ],
+      "subjuntivo_presente": [
+        "ayude",
+        "ayudes",
+        "ayude",
+        "ayudemos",
+        "ayudéis",
+        "ayuden"
+      ],
+      "imperativo": [
+        "ayuda!",
+        "ayude!",
+        "ayudad!",
+        "ayuden!"
       ]
     },
     "examples": [
       "Ayudo a mi madre en casa."
     ],
-    "en_lemma": "help",
-    "needs_review": true
+    "en_lemma": "help"
   },
   "aceptar": {
     "group": "1er grupo (-ar)",
@@ -8126,12 +8666,57 @@
         "aceptamos",
         "aceptasteis",
         "aceptaron"
+      ],
+      "preterito_imperfecto": [
+        "aceptaba",
+        "aceptabas",
+        "aceptaba",
+        "aceptábamos",
+        "aceptabais",
+        "aceptaban"
+      ],
+      "preterito_perfecto_compuesto": [
+        "he aceptado",
+        "has aceptado",
+        "ha aceptado",
+        "hemos aceptado",
+        "habéis aceptado",
+        "han aceptado"
+      ],
+      "futuro_simple": [
+        "aceptaré",
+        "aceptarás",
+        "aceptará",
+        "aceptaremos",
+        "aceptaréis",
+        "aceptarán"
+      ],
+      "condicional_simple": [
+        "aceptaría",
+        "aceptarías",
+        "aceptaría",
+        "aceptaríamos",
+        "aceptaríais",
+        "aceptarían"
+      ],
+      "subjuntivo_presente": [
+        "acepte",
+        "aceptes",
+        "acepte",
+        "aceptemos",
+        "aceptéis",
+        "acepten"
+      ],
+      "imperativo": [
+        "acepta!",
+        "acepte!",
+        "aceptad!",
+        "acepten!"
       ]
     },
     "examples": [
       "Acepto tu invitación."
     ],
-    "en_lemma": "agree",
-    "needs_review": true
+    "en_lemma": "agree"
   }
 }
