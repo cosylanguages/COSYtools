@@ -68,6 +68,14 @@ test('live elements have a data url and languages', () => {
         assert(e.task && typeof e.task.work_seconds === 'number', `${e.id}: task.work_seconds required`);
     }
 });
+test('live wheels point at a prompt file', () => {
+    const wheels = manifest.elements.filter((e) => e.mode === 'wheel' && e.status === 'live');
+    assert(wheels.length >= 2, 'mind matters and debates must be live');
+    for (const w of wheels) {
+        assert(/\.json$/.test(w.url), `${w.id}: wheel url must be a json file`);
+        assert.deepStrictEqual(w.bands, manifest.bands, `${w.id}: wheel covers all four bands`);
+    }
+});
 test('directory hosts reference real elements', () => {
     for (const host of manifest.directory) {
         assert(host.key && host.title && host.url, 'host needs key, title and url');
@@ -106,6 +114,12 @@ const fileElement = {
     languages: ['en'], bands: manifest.bands, task: { work_seconds: 120 }
 };
 
+const wheelElement = {
+    id: 'wheel-mind-matters', title: 'Mind Matters', icon: '🧠', owner: 'COSYevents', mode: 'wheel',
+    status: 'live', url: 'https://example.test/{lang}/wheel.json',
+    languages: ['en'], bands: manifest.bands, task: { work_seconds: 300 }
+};
+
 async function run() {
     stub({
         'https://example.test/en/speaking.json': [
@@ -115,6 +129,11 @@ async function run() {
         ],
         'https://example.test/en/2026-11.json': {
             days: { '2026-11-26': { A2: { id: 'w1', word: 'gare', definition: 'station', example: 'La gare.' }, B1: { id: 'w2', word: 'quai', definition: 'platform' } } }
+        },
+        'https://example.test/en/wheel.json': {
+            prompts: manifest.bands.flatMap((band) => Array.from({ length: 10 }, (_, i) => ({
+                id: `en:wheel-test:${band}:${String(i + 1).padStart(2, '0')}`, band, prompt: `Prompt ${i + 1}`
+            })))
         },
         'https://example.test/spot.json': {
             date: '2026-11-26',
@@ -137,6 +156,13 @@ async function run() {
 
         const stale = await engine.resolve(fileElement, { lang: 'en', band: 'a2', date: '2026-12-01' });
         assert.strictEqual(stale.stale, true, 'a day outside the window is stale');
+
+        const wheelCards = await engine.resolve(wheelElement, { lang: 'en', band: 'b1-b2', date: '2026-11-26' });
+        assert.strictEqual(wheelCards.status, 'ok');
+        assert.strictEqual(wheelCards.wheel.length, 8, 'eight prompts on the wheel');
+        assert(wheelCards.wheel.every((p) => p.band === 'b1-b2'), 'only the requested band');
+        const wheelAgain = await engine.resolve(wheelElement, { lang: 'en', band: 'b1-b2', date: '2026-11-26' });
+        assert.deepStrictEqual(wheelCards.wheel.map((p) => p.id), wheelAgain.wheel.map((p) => p.id), 'same day, same set');
 
         const planned = await engine.resolve({ ...poolElement, id: 'wheel-x', status: 'planned', mode: 'wheel' }, { lang: 'en' });
         assert.strictEqual(planned.status, 'planned');
