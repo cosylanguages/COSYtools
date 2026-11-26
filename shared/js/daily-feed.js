@@ -422,6 +422,27 @@
     }
 
     /**
+     * A verb is drillable when its entry fills enough of the language's tense map.
+     * Some datasets carry stubs — a German infinitive repeated as its own present,
+     * a Spanish irregular with two tenses — and printing those leaves the
+     * conjugation card empty. Those verbs never make it onto the page.
+     */
+    function isDrillableVerb(entry, lang) {
+        if (!entry) return false;
+        const filled = Object.keys(extractKeyTenses(entry, lang)).length;
+        const map = TENSE_KEYS[lang];
+        return filled >= (map ? Math.min(3, map.length) : 1);
+    }
+
+    function entryFor(conjData, key) {
+        if (!conjData) return null;
+        if (Array.isArray(conjData)) {
+            return conjData.find(v => (v.base || v.lemma || v.verb || v.infinitive) === key) || null;
+        }
+        return conjData[key] || null;
+    }
+
+    /**
      * Generate fallback daily entries deterministically from local databases.
      * Prioritizes verbs that have both conjugation AND preposition governance data
      * to prevent linguistically mismatched pairings.
@@ -434,9 +455,11 @@
         let selectedPrep = null;
         let prepVerbKey = '';
 
-        const conjKeys = conjData ? (Array.isArray(conjData)
+        const allConjKeys = conjData ? (Array.isArray(conjData)
             ? conjData.map(v => v.base || v.lemma || v.verb || v.infinitive).filter(Boolean)
             : Object.keys(conjData)) : [];
+        const drillable = allConjKeys.filter(k => isDrillableVerb(entryFor(conjData, k), lang));
+        const conjKeys = drillable.length ? drillable : allConjKeys;
 
         // Try to find a verb that exists in BOTH conjugation and preposition databases
         if (conjKeys.length > 0 && prepData) {
@@ -582,7 +605,7 @@
 
         // If no match from external feed, use deterministic local fallback
         let source = 'cosydata-feed';
-        if (!verbEntry) {
+        if (!isDrillableVerb(verbEntry, lang)) {
             const fallback = getFallbackDailyEntry(lang, conjData, prepData, dateStr);
             candidateLemma = fallback.verbKey;
             verbEntry = fallback.verbEntry;
