@@ -8871,41 +8871,112 @@
   "nicht mögen": {
     "en_lemma": "dislike",
     "infinitive": "nicht mögen",
-    "group": "Standard",
+    "group": "Modalverb",
     "level": "A1",
-    "definition": "Verb form for dislike",
+    "definition": "Etwas nicht gern haben.",
     "tenses": {
-      "present": [
-        "nicht mögen",
-        "nicht mögen",
-        "nicht mögen",
-        "nicht mögen",
-        "nicht mögen",
-        "nicht mögen"
+      "präsens": [
+        "ich mag nicht",
+        "du magst nicht",
+        "er/sie/es mag nicht",
+        "wir mögen nicht",
+        "ihr mögt nicht",
+        "sie mögen nicht"
+      ],
+      "präteritum": [
+        "ich mochte nicht",
+        "du mochtest nicht",
+        "er/sie/es mochte nicht",
+        "wir mochten nicht",
+        "ihr mochtet nicht",
+        "sie mochten nicht"
+      ],
+      "perfekt": [
+        "ich habe nicht gemocht",
+        "du hast nicht gemocht",
+        "er/sie/es hat nicht gemocht",
+        "wir haben nicht gemocht",
+        "ihr habt nicht gemocht",
+        "sie haben nicht gemocht"
+      ],
+      "futur_1": [
+        "ich werde nicht mögen",
+        "du wirst nicht mögen",
+        "er/sie/es wird nicht mögen",
+        "wir werden nicht mögen",
+        "ihr werdet nicht mögen",
+        "sie werden nicht mögen"
+      ],
+      "konjunktiv_2": [
+        "ich würde nicht mögen",
+        "du würdest nicht mögen",
+        "er/sie/es würde nicht mögen",
+        "wir würden nicht mögen",
+        "ihr würdet nicht mögen",
+        "sie würden nicht mögen"
       ]
     },
     "examples": [
-      "Example sentence for nicht mögen."
+      "Ich mag keinen Kaffee, ich trinke lieber Tee."
+    ],
+    "antonyms": [
+      "mögen"
     ]
   },
   "tippen": {
     "en_lemma": "type",
     "infinitive": "tippen",
-    "group": "Standard",
+    "group": "Schwaches Verb",
     "level": "A1",
-    "definition": "Verb form for type",
+    "definition": "Mit den Fingern oder auf einer Tastatur schreiben.",
     "tenses": {
-      "present": [
-        "tippen",
-        "tippen",
-        "tippen",
-        "tippen",
-        "tippen",
-        "tippen"
+      "präsens": [
+        "ich tippe",
+        "du tippst",
+        "er/sie/es tippt",
+        "wir tippen",
+        "ihr tippt",
+        "sie tippen"
+      ],
+      "präteritum": [
+        "ich tippte",
+        "du tipptest",
+        "er/sie/es tippte",
+        "wir tippten",
+        "ihr tipptet",
+        "sie tippten"
+      ],
+      "perfekt": [
+        "ich habe getippt",
+        "du hast getippt",
+        "er/sie/es hat getippt",
+        "wir haben getippt",
+        "ihr habt getippt",
+        "sie haben getippt"
+      ],
+      "futur_1": [
+        "ich werde tippen",
+        "du wirst tippen",
+        "er/sie/es wird tippen",
+        "wir werden tippen",
+        "ihr werdet tippen",
+        "sie werden tippen"
+      ],
+      "konjunktiv_2": [
+        "ich würde tippen",
+        "du würdest tippen",
+        "er/sie/es würde tippen",
+        "wir würden tippen",
+        "ihr würdet tippen",
+        "sie würden tippen"
+      ],
+      "imperativ": [
+        "tipp!",
+        "tippt!"
       ]
     },
     "examples": [
-      "Example sentence for tippen."
+      "Ich tippe die Adresse in die Suchmaschine."
     ]
   },
   "ausgeben": {
@@ -9025,21 +9096,60 @@
   "widersprechen": {
     "en_lemma": "disagree",
     "infinitive": "widersprechen",
-    "group": "Standard",
+    "group": "Starkes Verb",
     "level": "A1",
-    "definition": "Verb form for disagree",
+    "definition": "Eine andere Meinung äußern als jemand anderes.",
     "tenses": {
-      "present": [
-        "widersprechen",
-        "widersprechen",
-        "widersprechen",
-        "widersprechen",
-        "widersprechen",
-        "widersprechen"
+      "präsens": [
+        "ich widerspreche",
+        "du widersprichst",
+        "er/sie/es widerspricht",
+        "wir widersprechen",
+        "ihr widersprecht",
+        "sie widersprechen"
+      ],
+      "präteritum": [
+        "ich widersprach",
+        "du widersprachst",
+        "er/sie/es widersprach",
+        "wir widersprachen",
+        "ihr widerspracht",
+        "sie widersprachen"
+      ],
+      "perfekt": [
+        "ich habe widersprochen",
+        "du hast widersprochen",
+        "er/sie/es hat widersprochen",
+        "wir haben widersprochen",
+        "ihr habt widersprochen",
+        "sie haben widersprochen"
+      ],
+      "futur_1": [
+        "ich werde widersprechen",
+        "du wirst widersprechen",
+        "er/sie/es wird widersprechen",
+        "wir werden widersprechen",
+        "ihr werdet widersprechen",
+        "sie werden widersprechen"
+      ],
+      "konjunktiv_2": [
+        "ich würde widersprechen",
+        "du würdest widersprechen",
+        "er/sie/es würde widersprechen",
+        "wir würden widersprechen",
+        "ihr würdet widersprechen",
+        "sie würden widersprechen"
+      ],
+      "imperativ": [
+        "widersprich!",
+        "widersprecht!"
       ]
     },
     "examples": [
-      "Example sentence for widersprechen."
+      "Ich widerspreche dir nur ungern, aber das stimmt nicht."
+    ],
+    "antonyms": [
+      "zustimmen"
     ]
   },
   "müssen (have to)": {
