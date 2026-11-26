@@ -10,21 +10,30 @@ const fs = require('fs'), path = require('path');
 const css = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'cosy-tokens.css'), 'utf8');
 const localCss = fs.readFileSync(path.join(__dirname, '..', 'shared', 'css', 'tokens.css'), 'utf8');
 
-function block(startRe, source = css) {
-  const m = source.match(startRe);
-  if (!m) throw new Error('Contrast check cannot find a token block in ' + (source === css ? 'cosy-tokens.css' : 'tokens.css') + ' (expected ' + startRe + '). Local tokens such as --cosy-on-sage-dark and --cosy-focus-ring must be defined for both themes in shared/css/tokens.css.');
-  let i = source.indexOf('{', m.index), depth = 0, j = i;
-  for (; j < source.length; j++) { if (source[j] === '{') depth++; else if (source[j] === '}') { depth--; if (!depth) break; } }
-  return source.slice(i + 1, j);
-}
 function vars(text) {
   const out = {};
   text.replace(/(--[\w-]+)\s*:\s*([^;]+);/g, (_, k, v) => { out[k] = v.trim(); });
   return out;
 }
 const DARK_SEL = /html\[data-theme="dark"\],\s*body\.theme-dark\s*\{/;
-const light = Object.assign(vars(block(/^:root\s*\{/m)), vars(block(/^:root\s*\{/m, localCss)));
-const dark = Object.assign({}, light, vars(block(DARK_SEL)), vars(block(DARK_SEL, localCss)));
+// A selector can open several blocks in one file (upstream has a small `{ color-scheme: dark }` block
+// before the real dark block), so read every matching block and let later ones win, as the cascade does.
+function allVars(startRe, source) {
+  const re = new RegExp(startRe.source, 'g' + (startRe.flags.includes('m') ? 'm' : ''));
+  const out = {};
+  let found = 0;
+  for (let m; (m = re.exec(source)); ) {
+    const i = source.indexOf('{', m.index);
+    let depth = 0, j = i;
+    for (; j < source.length; j++) { if (source[j] === '{') depth++; else if (source[j] === '}') { depth--; if (!depth) break; } }
+    Object.assign(out, vars(source.slice(i + 1, j)));
+    found++;
+  }
+  if (!found) throw new Error('Contrast check cannot find a token block in ' + (source === css ? 'cosy-tokens.css' : 'tokens.css') + ' (expected ' + startRe + '). Local tokens such as --cosy-focus-ring must be defined for both themes in shared/css/tokens.css.');
+  return out;
+}
+const light = Object.assign(allVars(/^:root\s*\{/m, css), allVars(/^:root\s*\{/m, localCss));
+const dark = Object.assign({}, light, allVars(DARK_SEL, css), allVars(DARK_SEL, localCss));
 
 function resolve(v, map, depth = 0) {
   if (depth > 10) return v;

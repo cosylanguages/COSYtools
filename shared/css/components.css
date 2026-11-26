@@ -108,7 +108,11 @@ html[data-theme="dark"], body.theme-dark {
     --cefr-c2-color: #7dd3fc;
     /* Cosy Button System Dark Overrides */
     --btn-primary-bg: var(--sage, #6c9172);
+    /* Text must match the fill set here: white on the mid sage (4.79:1), dark ink on the light sage hover.
+       Set explicitly because the upstream dark block now defines these text colours for its own fills. */
+    --btn-primary-color: #ffffff;
     --btn-primary-hover-bg: var(--sage-dark, #a8c0ab);
+    --btn-primary-hover-color: var(--cosy-on-sage-dark, #111611);
     --btn-secondary-border: 1.5px solid var(--sage-soft, #6b9474);
     --btn-secondary-color: var(--sage-dark, #a8c0ab);
     --btn-secondary-hover-bg: rgba(107,143,113,0.15);
