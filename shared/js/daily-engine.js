@@ -179,6 +179,28 @@
         });
     }
 
+    // Wheels: a deterministic daily set of prompts; the learner spins to pick one.
+    function resolveWheel(element, ctx) {
+        var url = fill(element.url, { lang: ctx.lang });
+        return fetchJSON(url).then(function (data) {
+            var pool = (data.prompts || []).filter(function (p) { return p.band === ctx.band; });
+            if (!pool.length) return card(element, { status: 'empty', source: { url: url } });
+            var start = ctx.dayIndex % pool.length;
+            var picks = [];
+            var size = Math.min(element.wheel_size || 8, pool.length);
+            for (var i = 0; i < size; i++) picks.push(pool[(start + i) % pool.length]);
+            return card(element, {
+                id: picks[0].id,
+                band: ctx.band,
+                headword: picks[0].prompt,
+                body: picks.length + ' prompts today',
+                wheel: picks,
+                pool_size: pool.length,
+                source: { repo: element.owner, url: url, id: picks[0].id }
+            });
+        });
+    }
+
     function resolveDerived(element, ctx, manifest) {
         var parent = manifest.elements.find(function (e) { return e.id === element.parent; });
         if (!parent) return Promise.resolve(card(element, { status: 'error', body: 'parent missing' }));
@@ -218,6 +240,7 @@
         if (element.mode === 'pool') return resolvePool(element, ctx);
         if (element.mode === 'calendar') return resolveCalendar(element, ctx);
         if (element.mode === 'daily-file') return resolveDailyFile(element, ctx);
+        if (element.mode === 'wheel') return resolveWheel(element, ctx);
         if (element.mode === 'derived') return resolveDerived(element, ctx, manifest);
         return Promise.resolve(card(element, { status: 'unknown-mode' }));
     }
