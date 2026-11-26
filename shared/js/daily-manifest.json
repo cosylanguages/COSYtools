@@ -792,24 +792,11 @@
       "icon": "⚖️",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/debates.json",
       "source": "COSYevents debatable-relatable.html, magazine debatable_relatable",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -828,9 +815,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/debatable-relatable.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-mind-matters",
@@ -838,24 +826,11 @@
       "icon": "🧠",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/mind-matters.json",
       "source": "COSYevents mind-matters.html, magazine mind_matters",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -874,9 +849,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/mind-matters.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-life",
@@ -980,7 +956,9 @@
         "celebration",
         "science",
         "music",
-        "film"
+        "film",
+        "wheel-mind-matters",
+        "wheel-debates"
       ]
     },
     {
