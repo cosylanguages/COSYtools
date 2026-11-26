@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../../shared/css/cosy-icons.css">
     <link rel="stylesheet" href="../../shared/styles/reference.css">
     <script src="../../shared/js/shell.js" defer></script>
+    <script src="../../shared/js/vocabulary-relations.js"></script>
     <script src="../../shared/js/daily-feed.js"></script>
     <script src="../../shared/engines/reference-utils.js"></script>
     <style>
@@ -266,6 +267,10 @@
         .dest-card-link:hover {
             background: var(--sage, #416b49);
         }
+        .vocab-relations { font-size: .9rem; color: var(--muted, #6b6560); margin-bottom: 1rem; }
+        .vocab-relations .vocab-antonym { color: var(--sage-dark, #416b49); }
+        .vocab-relations .vocab-synonym { color: var(--ink-soft, #55504b); }
+        .vocab-relations .vocab-sep { opacity: .5; }
     </style>
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
     <script src="../../shared/js/sw-register.js" defer></script>
@@ -348,7 +353,8 @@
                 <span id="verb-level-tag" class="status-badge status-stable">A1</span>
             </div>
 
-            <p id="verb-definition-text" style="font-size:1.05rem; color:var(--ink); margin-bottom:1rem;">Loading definition...</p>
+            <p id="verb-definition-text" style="font-size:1.05rem; color:var(--ink); margin-bottom:.35rem;">Loading definition...</p>
+            <p id="vocab-relations" class="vocab-relations" hidden></p>
 
             <!-- English Irregular Forms Highlighting -->
             <div id="english-irregular-block" class="irregular-badges" style="display:none;">
@@ -514,6 +520,16 @@
 
             const lvl = (pack.verbEntry && pack.verbEntry.level) || 'A1';
             document.getElementById('verb-level-tag').textContent = lvl;
+
+            const relEl = document.getElementById('vocab-relations');
+            if (relEl) {
+                const headword = (pack.wordOfDay && pack.wordOfDay.word) ||
+                                 (pack.verbEntry && (pack.verbEntry.base || pack.verbEntry.lemma)) || '';
+                const band = pack.band || (window.COSYVocab ? window.COSYVocab.bandFromLevel(lvl) : '');
+                const html = window.COSYVocab ? window.COSYVocab.relationsLine(headword, { band: band, lang: currentLang }) : '';
+                relEl.innerHTML = html;
+                relEl.hidden = !html;
+            }
 
             const irregularBlock = document.getElementById('english-irregular-block');
             if (currentLang === 'en' && pack.keyTenses && pack.keyTenses.is_irregular) {

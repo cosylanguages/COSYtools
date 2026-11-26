@@ -600,6 +600,20 @@
         const keyTenses = extractKeyTenses(verbEntry, lang);
         const links = getEcosystemLinks(dateStr, candidateLemma);
 
+        // Antonyms always, synonyms from B1-B2 up. Optional: the feed still works without the lexicon.
+        let band = '';
+        if (typeof window !== 'undefined' && window.COSYVocab) {
+            try {
+                await window.COSYVocab.load();
+                band = window.COSYVocab.bandFromLevel(level);
+                [wordOfDay, phrasalOfDay, verbOfDay].forEach((entry) => {
+                    if (entry && typeof entry === 'object') window.COSYVocab.attach(entry, { lang: lang, band: band });
+                });
+            } catch (err) {
+                band = '';
+            }
+        }
+
         return {
             date: dateStr,
             lang: lang,
@@ -613,7 +627,8 @@
             wordOfDay: wordOfDay,
             phrasalOfDay: phrasalOfDay,
             verbOfDay: verbOfDay,
-            verbPrepOfDay: verbPrepOfDay
+            verbPrepOfDay: verbPrepOfDay,
+            band: band
         };
     }
 
