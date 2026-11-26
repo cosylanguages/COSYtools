@@ -608,24 +608,11 @@
       "icon": "🔬",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/science.json",
       "source": "COSYevents keeping-up-with-science.html, magazine science_expander",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -644,9 +631,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/keeping-up-with-science.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-quotes",
@@ -654,24 +642,11 @@
       "icon": "📜",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/quotes.json",
       "source": "COSYevents the-greatest-quotes.html, data/quotes-people.json",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -690,9 +665,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/the-greatest-quotes.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-karaoke",
@@ -700,24 +676,11 @@
       "icon": "🎤",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/karaoke.json",
       "source": "COSYevents karaoke-club.html, magazine soundtrack section",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -736,9 +699,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/karaoke-club.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-films",
@@ -746,24 +710,11 @@
       "icon": "🎬",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/films.json",
       "source": "COSYevents cinema-club.html, magazine soundtrack section",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -782,9 +733,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/cinema-club.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     },
     {
       "id": "wheel-debates",
@@ -860,24 +812,11 @@
       "icon": "🌗",
       "owner": "COSYevents",
       "mode": "wheel",
-      "status": "planned",
-      "url": null,
+      "status": "live",
+      "url": "https://cosylanguages.github.io/COSYevents/data/wheels/life.json",
       "source": "magazine life_with_without, this session's vocabulary",
       "languages": [
-        "en",
-        "fr",
-        "it",
-        "ru",
-        "el",
-        "de",
-        "es",
-        "pt",
-        "hy",
-        "ka",
-        "tt",
-        "ba",
-        "cv",
-        "br"
+        "en"
       ],
       "bands": [
         "a0-a1",
@@ -896,9 +835,10 @@
       },
       "render": {
         "host": "COSYevents",
-        "route": "/"
+        "route": "/my-life-with-without.html",
+        "component": "shared/js/daily-wheel.js"
       },
-      "notes": "wheel of prompts; deterministic daily set, user-driven spin"
+      "notes": "English prompts first (10 per band); translations next. Deterministic daily set, learner-driven spin."
     }
   ],
   "directory": [
@@ -958,7 +898,12 @@
         "music",
         "film",
         "wheel-mind-matters",
-        "wheel-debates"
+        "wheel-debates",
+        "wheel-science",
+        "wheel-quotes",
+        "wheel-karaoke",
+        "wheel-films",
+        "wheel-life"
       ]
     },
     {
