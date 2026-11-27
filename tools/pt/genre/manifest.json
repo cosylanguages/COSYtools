@@ -1,0 +1,29 @@
+{
+  "name": "Gênero dos Substantivos em Português",
+  "short_name": "Gender PT",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#0ABBB5",
+  "description": "Regras de gênero gramatical e uso de artigos em português.",
+  "icons": [
+    {
+      "src": "../../../shared/images/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../../shared/images/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../../shared/images/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
