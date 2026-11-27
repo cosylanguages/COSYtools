@@ -14,6 +14,8 @@
     --cosy-color-warm-white:             #FFFEFB;
     --cosy-color-surface:                #FFFFFF;
     --cosy-color-surface-raised:         #FFFFFF;
+    /* Footers stay dark in both themes; sage-deep flips to a light ink. */
+    --cosy-footer-bg:                    #233827;
 
     --cosy-color-ink:                    #1C1917;
     --cosy-color-ink-soft:               #4A4A4A;
@@ -63,7 +65,8 @@
     --primary-color:                     var(--sage);
 
     /* ── 3. Named Repository Brand Accents ──────────────────────────────── */
-    --cosy-languages-accent:             #416B49;
+    /* This repository's identity is the signal teal, not the sage ground. */
+    --cosy-languages-accent:             var(--cosy-signal);
     --cosy-tools-accent:                 #0D7A5F;
     --cosy-manuals-accent:               #7A5C3A;
     --cosy-platform-accent:              #1E2F6B;
@@ -204,9 +207,9 @@
     --cosy-semantic-success-light:       #E5F4EC;
     --cosy-semantic-warning:             #945E05;
     --cosy-semantic-warning-light:       #FFF8E7;
-    --cosy-semantic-focus:               #416B49;
+    --cosy-semantic-focus:               var(--cosy-signal-deep);
 
-    --focus-ring:                        0 0 0 3px rgba(65, 107, 73, 0.4);
+    --focus-ring:                        0 0 0 3px var(--cosy-signal-deep);
 
     /* ── 7. Typography Scale & Font Stacks ──────────────────────────────── */
     --cosy-font-sans:                    'Commissioner', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -283,6 +286,17 @@
     --shadow:                            var(--cosy-shadow-base);
     --box-shadow:                        var(--cosy-shadow-base);
 
+    /* ── 10b. Product identity (opt-in via [data-product]) ─────────────── */
+    /* One shared file, many products. An identity changes form — radius,
+       depth, display face, rhythm — and never hue, so adopting one cannot
+       introduce a colour. Pages without the attribute keep the defaults. */
+    --cosy-product-radius:               var(--cosy-radius-base);
+    --cosy-product-shadow:               var(--cosy-shadow-sm);
+    --cosy-product-display:              var(--font-serif);
+    --cosy-product-display-weight:       600;
+    --cosy-product-tracking:             -0.01em;
+    --cosy-product-leading:              1.2;
+
     /* ── 11. Transitions & Motion Tokens ───────────────────────────────── */
     --cosy-transition-fast:              0.15s ease;
     --cosy-transition-base:              0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -301,35 +315,147 @@
     --cosy-fill-sage:                    #3C5A42;
     --cosy-fill-sage-hover:              #47694E;
 
-    --btn-primary-bg:                    var(--cosy-color-sage-dark);
-    --btn-primary-color:                 var(--cosy-on-sage-dark);
-    --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-    --btn-primary-hover-color:           var(--cosy-on-sage-dark);
+    --btn-primary-bg:                    var(--cosy-fill-signal);
+    --btn-primary-color:                 var(--cosy-on-signal);
+    --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+    --btn-primary-hover-color:           var(--cosy-on-signal);
     --btn-primary-shadow:                var(--cosy-shadow-raised);
-    --btn-primary-hover-shadow:          0 6px 18px rgba(35, 56, 39, 0.28), 0 3px 0 rgba(35, 56, 39, 0.40);
+    --btn-primary-hover-shadow:          0 6px 18px rgba(8, 122, 128, 0.28), 0 3px 0 rgba(8, 122, 128, 0.40);
 
     /* Secondary Outlined Button (Same shadow depth as primary) */
     --btn-secondary-bg:                  transparent;
-    --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-    --btn-secondary-color:               var(--cosy-ink-sage);
-    --btn-secondary-hover-bg:            var(--sage-light);
-    --btn-secondary-hover-color:         var(--sage-deep);
+    --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+    --btn-secondary-color:               var(--cosy-signal-ink);
+    --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+    --btn-secondary-hover-color:         var(--cosy-signal-ink);
     --btn-secondary-shadow:              var(--cosy-shadow-raised);
-    --btn-secondary-hover-shadow:        0 6px 18px rgba(35, 56, 39, 0.25), 0 3px 0 rgba(35, 56, 39, 0.35);
+    --btn-secondary-hover-shadow:        0 6px 18px rgba(8, 122, 128, 0.25), 0 3px 0 rgba(8, 122, 128, 0.35);
 
     /* Soft Fill Button */
-    --btn-soft-bg:                       var(--sage-light);
+    --btn-soft-bg:                       var(--cosy-signal-soft);
     --btn-soft-border:                   1.5px solid transparent;
-    --btn-soft-color:                    var(--sage-deep);
-    --btn-soft-hover-bg:                 var(--sage-mist);
-    --btn-soft-hover-color:              var(--sage-deep);
+    --btn-soft-color:                    var(--cosy-signal-ink);
+    --btn-soft-hover-bg:                 var(--cosy-signal-soft-hover);
+    --btn-soft-hover-color:              var(--cosy-signal-ink);
     --btn-soft-shadow:                   var(--cosy-shadow-raised);
-    --btn-soft-hover-shadow:             0 6px 18px rgba(35, 56, 39, 0.22), 0 3px 0 rgba(35, 56, 39, 0.30);
+    --btn-soft-hover-shadow:             0 6px 18px rgba(8, 122, 128, 0.22), 0 3px 0 rgba(8, 122, 128, 0.30);
 
     /* Tertiary Link Button */
-    --btn-tertiary-color:                var(--sage-dark);
-    --btn-tertiary-hover-color:          var(--sage-deep);
+    --btn-tertiary-color:                var(--cosy-signal-ink);
+    --btn-tertiary-hover-color:          var(--cosy-signal-ink);
     --btn-tertiary-weight:               var(--cosy-font-weight-bold);
+
+    /* ── 15. Signal Tier (teal) ────────────────────────────────────────────
+       The structural palette (cream/sage/ink) stays the paper the content sits
+       on. Teal marks what is *alive*: active nav, progress, selection, focus,
+       badges. #0ABBB5 is 2.39:1 on white, so it is a fill and graphic colour
+       only — never body text. For teal text use --cosy-signal-ink. */
+    --cosy-signal:                       #0ABBB5;
+    --cosy-signal-secondary:             #0CA2B0;
+    --cosy-signal-deep:                  #087A80;   /* 5.11:1 on white */
+    --cosy-signal-soft:                  #DFFAF8;
+    --cosy-signal-ink:                   var(--cosy-signal-deep);
+    --cosy-signal-gradient:              linear-gradient(135deg, #0ABBB5 0%, #0CA2B0 100%);
+    --cosy-signal-gradient-hover:        linear-gradient(135deg, #16CFC9 0%, #0FB2C0 100%);
+    --cosy-signal-soft-hover:            #C7F2EF;
+
+    /* Signal fills carry dark ink, never white: #0ABBB5 is 2.4:1 on white but
+       7.2:1 under --cosy-on-signal, so the fill pair is readable in both themes
+       without the ink token flipping with them. */
+    --cosy-fill-signal:                  var(--cosy-signal-gradient);
+    --cosy-fill-signal-hover:            var(--cosy-signal-gradient-hover);
+    --cosy-on-signal:                    #06201F;
+
+    /* Direct aliases for consumer apps */
+    --signal:                            var(--cosy-signal);
+    --signal-deep:                       var(--cosy-signal-deep);
+    --signal-soft:                       var(--cosy-signal-soft);
+
+    /* ── 16. CEFR Level Tier ───────────────────────────────────────────────
+       One hue per level, aliased from the existing palette so the accent budget
+       does not grow. *-fill stays dark in both themes (white text sits on it);
+       *-soft and *-ink flip with the theme (chips, headings). */
+    --cosy-level-a0a1-fill:              var(--cosy-color-green);
+    --cosy-level-a0a1-soft:              var(--cosy-color-green-light);
+    --cosy-level-a0a1-ink:               var(--cosy-ink-green);
+    --cosy-level-a2-fill:                var(--cosy-color-honey);
+    --cosy-level-a2-soft:                var(--cosy-color-honey-pale);
+    --cosy-level-a2-ink:                 var(--cosy-ink-honey);
+    --cosy-level-b1-fill:                var(--cosy-color-coral);
+    --cosy-level-b1-soft:                var(--cosy-color-coral-light);
+    --cosy-level-b1-ink:                 var(--cosy-ink-coral);
+    --cosy-level-b2-fill:                var(--cosy-color-rose);
+    --cosy-level-b2-soft:                var(--cosy-color-rose-light);
+    --cosy-level-b2-ink:                 var(--cosy-ink-rose);
+    --cosy-level-c1-fill:                var(--cosy-color-navy);
+    --cosy-level-c1-soft:                var(--cosy-color-navy-light);
+    --cosy-level-c1-ink:                 var(--cosy-ink-navy);
+    --cosy-level-c2-fill:                var(--cosy-color-ink);
+    --cosy-level-c2-soft:                var(--cosy-color-cream-dark);
+    --cosy-level-c2-ink:                 var(--cosy-color-ink);
+
+    /* CEFR band bar: the footer tint on single-purpose pages (marathon levels,
+       pronunciation hub). Fixed fill with a fixed light ink, so the band reads
+       the same in either theme and the page need not paint it inline. */
+    --cosy-cefr-a0a1-bar:                #1b4332;
+    --cosy-cefr-a0a1-bar-ink:            #d8f3dc;
+    --cosy-cefr-a2-bar:                  #854d0e;
+    --cosy-cefr-a2-bar-ink:              #fef08a;
+    --cosy-cefr-b1-bar:                  #c2410c;
+    --cosy-cefr-b1-bar-ink:              #ffedd5;
+    --cosy-cefr-b2-bar:                  #b91c1c;
+    --cosy-cefr-b2-bar-ink:              #fee2e2;
+    --cosy-cefr-c1-bar:                  #6b21a8;
+    --cosy-cefr-c1-bar-ink:              #f3e8ff;
+    --cosy-cefr-c2-bar:                  #18181b;
+    --cosy-cefr-c2-bar-ink:              #e4e4e7;
+}
+
+/* ── Product identities ─────────────────────────────────────────────────────
+   COSYgames → playful, COSYworld → immersive, COSYtools → professional,
+   COSYevents → social, COSYmagazine → editorial. Sibling repositories set the
+   same attribute on <body> and inherit the rhythm through tokens.css.
+   Every identity keeps the signal accent: only form moves. */
+[data-product="playful"] {
+    --cosy-product-radius:               var(--cosy-radius-lg);
+    --cosy-product-shadow:               var(--cosy-shadow-md);
+    --cosy-product-display-weight:       700;
+    --cosy-product-tracking:             0.01em;
+    --cosy-product-leading:              1.15;
+}
+
+[data-product="immersive"] {
+    --cosy-product-radius:               var(--cosy-radius-xl);
+    --cosy-product-shadow:               var(--cosy-shadow-lg);
+    --cosy-product-display-weight:       700;
+    --cosy-product-tracking:             -0.02em;
+    --cosy-product-leading:              1.1;
+}
+
+[data-product="professional"] {
+    --cosy-product-radius:               var(--cosy-radius-sm);
+    --cosy-product-shadow:               var(--cosy-shadow-sm);
+    --cosy-product-display:              var(--font-sans);
+    --cosy-product-display-weight:       650;
+    --cosy-product-tracking:             0;
+    --cosy-product-leading:              1.25;
+}
+
+[data-product="social"] {
+    --cosy-product-radius:               var(--cosy-radius-base);
+    --cosy-product-shadow:               var(--cosy-shadow-base);
+    --cosy-product-display-weight:       600;
+    --cosy-product-tracking:             -0.005em;
+    --cosy-product-leading:              1.3;
+}
+
+[data-product="editorial"] {
+    --cosy-product-radius:               var(--cosy-radius-xs);
+    --cosy-product-shadow:               none;
+    --cosy-product-display:              var(--font-serif);
+    --cosy-product-display-weight:       500;
+    --cosy-product-tracking:             -0.02em;
+    --cosy-product-leading:              1.12;
 }
 
 /* ── 13. Shared Ecosystem Strip Component Styles ─────────────────────────── */
@@ -465,6 +591,7 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
         --cosy-color-warm-white:             #222B22;
         --cosy-color-surface:                #222B22;
         --cosy-color-surface-raised:         #262C28;
+        --cosy-footer-bg:                    #1B2A20;
 
         --cosy-color-ink:                    #E8F0E9;
         --cosy-color-ink-soft:               #C8D8C9;
@@ -514,20 +641,25 @@ html[data-theme="dark"], body.theme-dark { color-scheme: dark; }
         --cosy-fill-sage:                    #3C5A42;
         --cosy-fill-sage-hover:              #47694E;
 
-        --btn-primary-bg:                    var(--cosy-color-sage-dark);
-        --btn-primary-color:                 var(--cosy-on-sage-dark);
-        --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-        --btn-primary-hover-color:           var(--cosy-on-sage-dark);
-        --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-        --btn-secondary-color:               var(--cosy-ink-sage);
-        --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
-        --btn-secondary-hover-color:         #ffffff;
-        --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
-        --btn-soft-color:                    var(--sage-light);
-        --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
-        --btn-soft-hover-color:              #ffffff;
-        --btn-tertiary-color:                var(--sage-light);
-        --btn-tertiary-hover-color:          #ffffff;
+        --btn-primary-bg:                    var(--cosy-fill-signal);
+        --btn-primary-color:                 var(--cosy-on-signal);
+        --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+        --btn-primary-hover-color:           var(--cosy-on-signal);
+        --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+        --btn-secondary-color:               var(--cosy-signal-ink);
+        --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+        --btn-secondary-hover-color:         var(--cosy-signal-ink);
+        --btn-soft-bg:                       var(--cosy-signal-soft);
+        --btn-soft-color:                    var(--cosy-signal-ink);
+        --btn-soft-hover-bg:                 rgba(127, 231, 225, 0.16);
+        --btn-soft-hover-color:              var(--cosy-signal-ink);
+        --btn-tertiary-color:                var(--cosy-signal-ink);
+        --btn-tertiary-hover-color:          var(--cosy-signal-ink);
+
+        --cosy-signal-soft:                  #0B2E2E;
+        --cosy-signal-soft-hover:            #0E3B3B;
+        --cosy-signal-ink:                   #7FE7E1;
+        --focus-ring:                        0 0 0 3px var(--cosy-signal);
     }
 
     :root:not([data-theme="light"]) .cosy-ecosystem-strip {
@@ -543,6 +675,7 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-color-warm-white:             #222B22;
     --cosy-color-surface:                #222B22;
     --cosy-color-surface-raised:         #262C28;
+    --cosy-footer-bg:                    #1B2A20;
 
     --cosy-color-ink:                    #E8F0E9;
     --cosy-color-ink-soft:               #C8D8C9;
@@ -589,20 +722,20 @@ html[data-theme="dark"], body.theme-dark {
     --cosy-shadow-raised:                0 4px 12px rgba(0, 0, 0, 0.40), 0 2px 0 rgba(0, 0, 0, 0.60);
     --cosy-shadow-pressed:               0 1px 4px rgba(0, 0, 0, 0.30), 0 0 0 rgba(0, 0, 0, 0);
 
-    --btn-primary-bg:                    var(--cosy-color-sage-dark);
-    --btn-primary-color:                 var(--cosy-on-sage-dark);
-    --btn-primary-hover-bg:              var(--cosy-color-sage-deep);
-    --btn-primary-hover-color:           var(--cosy-on-sage-dark);
-    --btn-secondary-border:              2px solid var(--cosy-ink-sage);
-    --btn-secondary-color:               var(--cosy-ink-sage);
-    --btn-secondary-hover-bg:            rgba(107, 143, 113, 0.15);
-    --btn-secondary-hover-color:         #ffffff;
-    --btn-soft-bg:                       rgba(107, 143, 113, 0.20);
-    --btn-soft-color:                    var(--sage-light);
-    --btn-soft-hover-bg:                 rgba(107, 143, 113, 0.32);
-    --btn-soft-hover-color:              #ffffff;
-    --btn-tertiary-color:                var(--sage-light);
-    --btn-tertiary-hover-color:          #ffffff;
+    --btn-primary-bg:                    var(--cosy-fill-signal);
+    --btn-primary-color:                 var(--cosy-on-signal);
+    --btn-primary-hover-bg:              var(--cosy-fill-signal-hover);
+    --btn-primary-hover-color:           var(--cosy-on-signal);
+    --btn-secondary-border:              2px solid var(--cosy-signal-ink);
+    --btn-secondary-color:               var(--cosy-signal-ink);
+    --btn-secondary-hover-bg:            var(--cosy-signal-soft);
+    --btn-secondary-hover-color:         var(--cosy-signal-ink);
+    --btn-soft-bg:                       var(--cosy-signal-soft);
+    --btn-soft-color:                    var(--cosy-signal-ink);
+    --btn-soft-hover-bg:                 rgba(127, 231, 225, 0.16);
+    --btn-soft-hover-color:              var(--cosy-signal-ink);
+    --btn-tertiary-color:                var(--cosy-signal-ink);
+    --btn-tertiary-hover-color:          var(--cosy-signal-ink);
 
     /* Pale chip and track surfaces must darken too, otherwise a chip keeps its
        cream fill on a dark page while its text token flips to near-white. */
@@ -624,10 +757,37 @@ html[data-theme="dark"], body.theme-dark {
 
     --cosy-color-lamp:                   #C9A455;
     --cosy-color-lamp-soft:              #2E2716;
+
+    --cosy-signal-soft:                  #0B2E2E;
+    --cosy-signal-soft-hover:            #0E3B3B;
+    --cosy-signal-ink:                   #7FE7E1;
+    --focus-ring:                        0 0 0 3px var(--cosy-signal);
 }
 
 html[data-theme="dark"] .cosy-ecosystem-strip,
 body.theme-dark .cosy-ecosystem-strip {
     background: #141A15;
     border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ── 14. Product identity: application ─────────────────────────────────────
+   A product opts in with data-product on <body> and inherits the form tokens
+   above. Kept here rather than in a per-repo components file so every sibling
+   that links tokens.css gets the same behaviour from one attribute. */
+[data-product] h1,
+[data-product] .sec-h2 {
+    font-family: var(--cosy-product-display);
+    font-weight: var(--cosy-product-display-weight);
+    letter-spacing: var(--cosy-product-tracking);
+    line-height: var(--cosy-product-leading);
+}
+
+[data-product] .card,
+[data-product] .value-card,
+[data-product] .contact-card,
+[data-product] .tool-card,
+[data-product] .course-card,
+[data-product] .calc-card {
+    border-radius: var(--cosy-product-radius);
+    box-shadow: var(--cosy-product-shadow);
 }
