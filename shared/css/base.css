@@ -148,20 +148,20 @@ body.mode-projector .projector-badge-indicator {
 
 /* Custom Accessible Focus Ring using site palette */
 :focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-focus-ring);
     outline-offset: 3px;
     border-radius: var(--r-sm);
 }
 
 /* Specific focus styling for cards and pills and larger buttons */
 .qs-card:focus-visible, .lang-pill:focus-visible, .cat-pill:focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-focus-ring);
     outline-offset: 3px;
     border-radius: var(--r-lg);
 }
 
 .mc-opt:focus-visible, .tf-btn:focus-visible, .btn-start:focus-visible, .btn-primary:focus-visible, .btn-secondary:focus-visible, .wheel-btn:focus-visible {
-    outline: 3px solid var(--teal);
+    outline: 3px solid var(--cosy-focus-ring);
     outline-offset: 3px;
     border-radius: 100px;
 }

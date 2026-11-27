@@ -3,9 +3,15 @@ const path = require('path');
 
 const stripTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/strip.html'), 'utf8');
 const footerTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/footer.html'), 'utf8');
+const tokenCss = fs.readFileSync(path.join(__dirname, '../shared/css/cosy-tokens.css'), 'utf8');
 
-const STRIP_CSS = 'https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css';
-const STRIP_JS = 'https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js';
+// Pinned copy: see shared/vendor/ASSETS.json and docs/architecture.md.
+const STRIP_CSS = 'shared/vendor/ecosystem-strip.css';
+const STRIP_JS = 'shared/vendor/ecosystem-strip.js';
+
+// One browser-chrome colour for the whole site, read from the canonical token.
+const THEME_COLOUR = /--cosy-signal:\s*(#[0-9A-Fa-f]{3,8})/.exec(tokenCss)[1].toUpperCase();
+const THEME_COLOUR_META = `<meta name="theme-color" content="${THEME_COLOUR}">`;
 
 const TRANSLATIONS = {
   en: {
@@ -67,12 +73,10 @@ function normalizePath(p) {
   return p.replace(/\\/g, '/');
 }
 
-function getRelativeIndex(fromFile) {
-  const norm = normalizePath(fromFile);
-  const parts = norm.split('/').filter(Boolean);
-  const dirDepth = parts.length - 1;
-  if (dirDepth === 0) return 'index.html';
-  return '../'.repeat(dirDepth) + 'index.html';
+// Prefix that walks from a page back to the repository root.
+function getRelativeRoot(fromFile) {
+  const parts = normalizePath(fromFile).split('/').filter(Boolean);
+  return '../'.repeat(parts.length - 1);
 }
 
 function getFileLang(content) {
@@ -114,12 +118,32 @@ files.forEach(f => {
     content = content.replace(/(<body[^>]*>)/i, `$1\n    ${strip.trim()}\n`);
   }
 
-  // Load the shared strip component once per page.
+  // Load the shared strip component once per page, from the pinned local copy.
+  const root = getRelativeRoot(f);
+  const stripCssHref = root + STRIP_CSS;
+  const stripJsSrc = root + STRIP_JS;
+
+  content = content.replace(
+    /<link[^>]*href=["']https?:\/\/cosylanguages\.github\.io\/COSYlanguages\/css\/ecosystem-strip\.css["'][^>]*>/gi,
+    `<link rel="stylesheet" href="${stripCssHref}">`
+  );
+  content = content.replace(
+    /<script[^>]*src=["']https?:\/\/cosylanguages\.github\.io\/COSYlanguages\/js\/ecosystem-strip\.js["'][^>]*><\/script>/gi,
+    `<script src="${stripJsSrc}" defer></script>`
+  );
+
   if (!content.includes('ecosystem-strip.css') && content.includes('</head>')) {
-    content = content.replace('</head>', `  <link rel="stylesheet" href="${STRIP_CSS}">\n</head>`);
+    content = content.replace('</head>', `  <link rel="stylesheet" href="${stripCssHref}">\n</head>`);
   }
   if (!content.includes('ecosystem-strip.js') && content.includes('</body>')) {
-    content = content.replace('</body>', `  <script src="${STRIP_JS}" defer></script>\n</body>`);
+    content = content.replace('</body>', `  <script src="${stripJsSrc}" defer></script>\n</body>`);
+  }
+
+  // One browser-chrome colour for every page, so the address bar matches the brand.
+  if (/<meta[^>]+name=["']theme-color["'][^>]*>/i.test(content)) {
+    content = content.replace(/<meta[^>]+name=["']theme-color["'][^>]*>/i, THEME_COLOUR_META);
+  } else if (content.includes('</head>')) {
+    content = content.replace('</head>', `  ${THEME_COLOUR_META}\n</head>`);
   }
 
   const footer = renderFooter(lang);
@@ -132,4 +156,4 @@ files.forEach(f => {
   fs.writeFileSync(f, content, 'utf8');
 });
 
-console.log(`Synced shell strip and footer across ${files.length} HTML files.`);
+console.log(`Synced shell strip, footer and theme colour across ${files.length} HTML files.`);

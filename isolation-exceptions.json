@@ -1,0 +1,11 @@
+{
+  "note": "Known cross-tool loads. Each entry is a real coupling: the tool still works when the target is deleted, but it degrades. Add an entry only with a reason and a follow-up; the contract test also fails on stale entries.",
+  "exceptions": [
+    {
+      "tool": "tools/el/syntaxi",
+      "target": "tools/el/genos-ptoseis/data/nouns.json",
+      "reason": "Optional noun cross-reference, guarded by .catch(() => null) and a response check, so a deleted sibling degrades instead of breaking the page.",
+      "followUp": "Mirror the Greek noun table into shared/data/ and fetch it from both tools, then delete this entry."
+    }
+  ]
+}

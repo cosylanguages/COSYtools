@@ -9,9 +9,27 @@
 
 	/* COSYtools-local tokens, pending an upstream definition in COSYlanguages.
 	   --sage-dark turns light in dark mode, so text on it must turn dark (a fixed white is 2.86:1).
-	   The focus ring must stay at least 3:1 against the surface in both themes (#1d4ed8 is 2.18:1 on dark). */
+	   The focus ring must stay at least 3:1 against the surface in both themes. */
 	--cosy-on-sage-dark: #ffffff;
-	--cosy-focus-ring: #1d4ed8;
+
+	/* Signal teal is this product's identity. #0ABBB5 is 2.39:1 on white, so it is a
+	   fill colour only: text, borders and focus rings use the deep ink (#087A80, 5.11:1).
+	   The light ink keeps the same hue on dark surfaces (11.3:1 on #222B22). */
+	--cosy-focus-ring: var(--cosy-signal-deep);
+	--cosy-tools-accent: var(--cosy-signal-deep);
+
+	/* Signal ramp derived from #0ABBB5 by lightness. 700 and darker pass 4.5:1 on
+	   white; 600 is the lightest step that still clears 3:1 for UI lines. */
+	--cosy-50: #ECFEFD;
+	--cosy-100: #D3FDFB;
+	--cosy-200: #A8FAF8;
+	--cosy-300: #6EF7F3;
+	--cosy-400: #2AF4ED;
+	--cosy-500: #0BCBC5;
+	--cosy-600: #09A59F;
+	--cosy-700: #07837F;
+	--cosy-800: #05615E;
+	--cosy-900: #033F3D;
 
 	/* Text on a brand fill (--sage, --terracotta, gold). --warm-white flips to
 	   #222B22 in dark, which made every brand button unreadable. */
@@ -21,7 +39,7 @@
 	   themes, so text painted with them disappears on a dark surface.
 	   These are the same hue, lightened for dark mode. */
 	--cosy-ink-sage: #416B49;
-	--cosy-ink-teal: var(--cosy-ink-sage);
+	--cosy-ink-teal: var(--cosy-signal-deep);
 	--cosy-ink-coral: #B84318;
 	--cosy-ink-terracotta: var(--cosy-ink-coral);
 	--cosy-ink-honey: #945E05;
@@ -43,9 +61,10 @@
 html[data-theme="dark"],
 body.theme-dark {
 	--cosy-on-sage-dark: #111611;
-	--cosy-focus-ring: #8ab4ff;
+	--cosy-focus-ring: var(--cosy-300);
 
 	--cosy-ink-sage: #8A9E8B;
+	--cosy-ink-teal: var(--cosy-300);
 	--cosy-ink-coral: #F0906B;
 	--cosy-ink-honey: #E0B45C;
 	--cosy-ink-blue: #93B4F5;
@@ -58,6 +77,7 @@ body.theme-dark {
 @media (prefers-color-scheme: dark) {
 	:root:not([data-theme="light"]) {
 		--cosy-on-sage-dark: #111611;
-		--cosy-focus-ring: #8ab4ff;
+		--cosy-focus-ring: var(--cosy-300);
+		--cosy-ink-teal: var(--cosy-300);
 	}
 }

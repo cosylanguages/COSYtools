@@ -11,12 +11,14 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SKIP = new Set(['node_modules', '.git', 'docs']);
+// Pinned sibling copies are hashed by check:ecosystem-strip; their font fallbacks are not ours to rewrite.
+const VENDOR = path.join(ROOT, 'shared', 'vendor');
 const errors = [];
 
 function walk(dir, out = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (SKIP.has(e.name)) continue;
     const full = path.join(dir, e.name);
+    if (SKIP.has(e.name) || full === VENDOR) continue;
     if (e.isDirectory()) walk(full, out);
     else out.push(full);
   }

@@ -434,7 +434,7 @@ body.theme-projector .btn-projector-toggle {
 .badge-c1, [data-level="C1"] { background: var(--cefr-c1-bg); color: var(--cefr-c1-color); border-color: rgba(123, 31, 162, 0.2); }
 .badge-c2, [data-level="C2"] { background: var(--cefr-c2-bg); color: var(--cefr-c2-color); border-color: rgba(3, 105, 161, 0.2); }
 
-.hero-tag { display: inline-block; background: var(--teal-light); color: var(--cosy-ink-teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
+.hero-tag { display: inline-block; background: var(--cosy-signal-soft); color: var(--cosy-ink-teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
 
 .fpill { background: var(--warm-white); border: 1px solid var(--border); color: var(--ink-muted); font-family: 'COSY Sans', sans-serif; font-size: .78rem; font-weight: 500; padding: 6px 14px; border-radius: 100px; cursor: pointer; transition: all .15s; white-space: nowrap; }
 .fpill:hover { border-color: var(--border-hover); color: var(--ink); }
@@ -1586,7 +1586,7 @@ body.theme-projector .btn-projector-toggle {
 }
 
 .calc-chip-select:focus-visible {
-  outline: 2px solid var(--teal);
+  outline: 2px solid var(--cosy-focus-ring);
   border-radius: 4px;
 }
 

@@ -1,0 +1,14 @@
+{
+  "note": "Pinned copies of COSYlanguages assets. Never edit these files: `npm run check:ecosystem-strip` hashes every copy. Refresh with `npm run sync:ecosystem-strip` and review the diff.",
+  "source": "https://cosylanguages.github.io/COSYlanguages/",
+  "assets": {
+    "shared/vendor/ecosystem-strip.css": {
+      "upstream": "https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css",
+      "sha256": "531c7612c02c499c0c7aed668f662a64de0bccf693aba81687a1b0216479d66e"
+    },
+    "shared/vendor/ecosystem-strip.js": {
+      "upstream": "https://cosylanguages.github.io/COSYlanguages/js/ecosystem-strip.js",
+      "sha256": "f6ff05cd1d6c27cdeb449926e926ef2455d72c380310504b4b39ed3a1d3cc2ab"
+    }
+  }
+}

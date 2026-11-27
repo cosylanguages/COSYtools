@@ -18,6 +18,25 @@ Ecosystem Hub: [https://cosylanguages.github.io/COSYlanguages/](https://cosylang
 
 Language tier and tool maturity are separate: the five primary learning languages are listed in `COSYTOOLS_PRIMARY_LANGUAGES`; other registered languages appear in the hub's secondary group. A tool's `stable`, `beta`, or `stub` catalog status describes that tool only.
 
+## Architecture contracts
+
+Every claim in this README is checked by a gate that runs in `npm test`. The rules, the
+measured colour ratios and the reason behind each choice live in
+[docs/architecture.md](docs/architecture.md).
+
+| Gate | Protects |
+| --- | --- |
+| `npm run check:independence` | No page loads an asset from a sibling repository. |
+| `npm run test:tool-contract` | A tool loads only its own files and `shared/`. |
+| `npm run check:shell` | One generated header, footer, strip and browser-chrome colour. |
+| `npm run check:sw` | The offline precache matches the tree. |
+| `npm run validate:catalog` | `catalog.json` matches the folders and datasets. |
+
+`shared/vendor/` holds byte-identical copies of COSYlanguages assets (design tokens, the
+ecosystem strip) with a SHA-256 manifest. Refresh with `npm run sync:ecosystem-strip` and
+review the diff; never edit a vendored file, because `npm run check:ecosystem-strip` hashes
+every copy.
+
 ---
 
 ## Catalog Schema & Status Meanings (`catalog.json`)

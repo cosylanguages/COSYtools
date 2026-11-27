@@ -789,7 +789,7 @@ class PracticeEngine {
                 background: var(--cosy-color-surface, #ffffff);
             }
             .conj-input:focus-visible {
-                outline: 3px solid var(--cosy-focus-ring, #1d4ed8);
+                outline: 3px solid var(--cosy-focus-ring, #087A80);
                 outline-offset: 1px;
             }
             .conj-input:focus {

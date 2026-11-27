@@ -55,14 +55,14 @@
 .setup-options { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 0.5rem; }
 .setup-opt { border: 1.5px solid var(--border); background: var(--warm-white); border-radius: var(--r-md); padding: .9rem 1.2rem; cursor: pointer; transition: all .2s cubic-bezier(0.25, 0.8, 0.25, 1); font-family: 'COSY Sans', sans-serif; font-size: .88rem; color: var(--ink-muted); display: flex; align-items: center; gap: 8px; text-align: left; }
 .setup-opt:hover { border-color: var(--cosy-ink-teal); background: var(--warm-white); transform: translateY(-1px); }
-.setup-opt.sel { border-color: var(--cosy-ink-teal); background: var(--teal-light); color: var(--cosy-ink-teal); font-weight: 700; box-shadow: 0 4px 12px rgba(107, 143, 113, 0.1); }
+.setup-opt.sel { border-color: var(--cosy-ink-teal); background: var(--cosy-signal-soft); color: var(--cosy-ink-teal); font-weight: 700; box-shadow: 0 4px 12px rgba(107, 143, 113, 0.1); }
 .setup-field label { display: block; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); margin-bottom: .6rem; }
 
 /* ── STANDARD GAMEPLAY BUTTONS ── */
 .btn-start-game, .btn-g-primary { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'COSY Sans', sans-serif; font-size: .95rem; font-weight: 700; padding: 12px 28px; min-height: 48px; cursor: pointer; transition: all .2s cubic-bezier(0.25, 0.8, 0.25, 1); display: inline-flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 12px rgba(26, 43, 29, 0.12); }
 .btn-start-game:hover, .btn-g-primary:hover { background: var(--teal); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(107, 143, 113, 0.25); }
 .btn-start-game:active, .btn-g-primary:active { transform: translateY(1px) scale(0.98); }
-.btn-start-game:focus-visible, .btn-g-primary:focus-visible, .btn-g-secondary:focus-visible, .btn-g-danger:focus-visible, .setup-opt:focus-visible, .go-back:focus-visible, .word-opt:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.btn-start-game:focus-visible, .btn-g-primary:focus-visible, .btn-g-secondary:focus-visible, .btn-g-danger:focus-visible, .setup-opt:focus-visible, .go-back:focus-visible, .word-opt:focus-visible { outline: 3px solid var(--cosy-focus-ring); outline-offset: 2px; }
 .btn-start-game:disabled, .btn-g-primary:disabled { background: var(--border); color: var(--ink-faint); cursor: not-allowed; transform: none; box-shadow: none; }
 
 .btn-g-secondary { background: var(--warm-white); color: var(--ink); border: 1.5px solid var(--border); border-radius: 100px; font-family: 'COSY Sans', sans-serif; font-size: .88rem; font-weight: 700; padding: 11px 24px; min-height: 48px; cursor: pointer; transition: all .2s cubic-bezier(0.25, 0.8, 0.25, 1); display: inline-flex; align-items: center; justify-content: center; gap: 8px; }

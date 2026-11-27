@@ -1,8 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const stripTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/strip.html'), 'utf8');
-const footerTemplate = fs.readFileSync(path.join(__dirname, '../shared/templates/footer.html'), 'utf8');
+const ROOT = path.resolve(__dirname, '..');
+const stripTemplate = fs.readFileSync(path.join(ROOT, 'shared/templates/strip.html'), 'utf8');
+const footerTemplate = fs.readFileSync(path.join(ROOT, 'shared/templates/footer.html'), 'utf8');
+const tokenCss = fs.readFileSync(path.join(ROOT, 'shared/css/cosy-tokens.css'), 'utf8');
+
+const THEME_COLOUR = /--cosy-signal:\s*(#[0-9A-Fa-f]{3,8})/.exec(tokenCss)[1].toUpperCase();
+const STRIP_ASSETS = ['shared/vendor/ecosystem-strip.css', 'shared/vendor/ecosystem-strip.js'];
+const SIBLING_ASSET = /(?:src|href)=["'][^"']*cosylanguages\.github\.io\/COSYlanguages\/(?:css|js)\/ecosystem-strip\.(?:css|js)["']/i;
 
 const TRANSLATIONS = {
   en: {
@@ -60,10 +66,6 @@ function getFiles(dir) {
   return res;
 }
 
-function normalizePath(p) {
-  return p.replace(/\\/g, '/');
-}
-
 function getFileLang(content) {
   const match = content.match(/<html[^>]*lang=["']([^"']+)["']/i);
   if (match) {
@@ -106,6 +108,36 @@ files.forEach(f => {
 
   if (!content.includes(expectedFooter)) {
     console.error(`[FAIL] ${f}: Shell footer does not match expected template rendering for lang '${lang}'`);
+    errors++;
+  }
+
+  // The strip is a pinned local copy: a sibling-origin link is a cross-repo dependency.
+  if (SIBLING_ASSET.test(content)) {
+    console.error(`[FAIL] ${f}: Ecosystem strip is loaded from COSYlanguages; use the vendored copy`);
+    errors++;
+  }
+  for (const asset of STRIP_ASSETS) {
+    const referenced = new RegExp(`(?:src|href)=["'][^"']*${asset.replace(/\./g, '\\.')}["']`).test(content);
+    if (!referenced) {
+      console.error(`[FAIL] ${f}: Missing local link to ${asset}`);
+      errors++;
+      continue;
+    }
+    const href = new RegExp(`(?:src|href)=["']([^"']*${asset.replace(/\./g, '\\.')})["']`).exec(content)[1];
+    const resolved = path.relative(ROOT, path.resolve(path.dirname(f), href)).split(path.sep).join('/');
+    if (resolved !== asset) {
+      console.error(`[FAIL] ${f}: ${asset} resolves to ${resolved}`);
+      errors++;
+    }
+  }
+
+  // One browser-chrome colour for the whole site, taken from the canonical token.
+  const themeColour = /<meta[^>]+name=["']theme-color["'][^>]*content=["']([^"']+)["']/i.exec(content);
+  if (!themeColour) {
+    console.error(`[FAIL] ${f}: Missing <meta name="theme-color">`);
+    errors++;
+  } else if (themeColour[1].toUpperCase() !== THEME_COLOUR) {
+    console.error(`[FAIL] ${f}: theme-color is ${themeColour[1]}, expected ${THEME_COLOUR}`);
     errors++;
   }
 });
