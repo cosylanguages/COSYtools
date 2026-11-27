@@ -27,7 +27,7 @@ the rule is broken, because an unchecked claim is a decoration.
 | C1 | No page, stylesheet or script loads an asset from a sibling repository | `npm run check:independence` | A COSYlanguages deploy cannot break a page here. Navigation links and metadata are exempt; only fetches count. |
 | C2 | A tool loads only its own files or `shared/` | `npm run test:tool-contract` | Deleting a tool cannot break another tool. |
 | C3 | Every page carries the identical generated shell, and every manifest agrees with it | `npm run check:shell` | One header, one footer, one strip, one browser-chrome colour — on the page and after install. |
-| C4 | No literal colour where a token exists | `npm run check:inline-colours` | The theme stays themeable. |
+| C4 | No literal colour where a token exists, and no literal may compete with the brand hue | `npm run check:inline-colours`, `npm run check:brand-hue` | The theme stays themeable, and a new shade of the brand has to be a ramp step. |
 | C5 | The service-worker precache matches the tree | `npm run check:sw` | Offline install cannot silently half-work. |
 | C6 | `catalog.json` matches the folders and datasets | `npm run validate:catalog` | The hub, sitemap and filters are views of one file. |
 | C7 | The signal ramp is one hue at ten measured lightnesses | `npm run check:signal-ramp` | Step 500 is the brand colour, 700 and darker are text-safe, 300 is a focus ring on dark, and no hand edit moves a step out of its role. |
@@ -148,6 +148,14 @@ cannot rot: 500 must equal `--cosy-signal`, lightness must fall strictly from 50
 hue must stay within 3° of the brand, 700 and darker must clear 4.5:1 on white and cream, 800
 and darker must carry white text, 300 must clear 3:1 on dark, and 50–200 must stay under
 1.5:1 so a "wash" cannot quietly become a block of colour.
+
+The same rule applies to every other stylesheet. `npm run check:brand-hue` fails on any
+literal whose hue is within 20° of the brand with enough chroma to be seen, unless it is one
+of the token values; greys, sage, honey and coral fall outside that window, so the gate is
+about the brand hue rather than about literals in general. `hero.css` carried six such
+colours — a private teal palette (`#176B65`, `#17746D`, `#1F8A82`, `#3CBEB4`, `#7FDCD3`,
+`#0B2422`) that shadowed the ramp on one page and drifted from it by a few degrees each time
+it was edited. They are ramp steps now.
 
 ### Where the signal goes
 
