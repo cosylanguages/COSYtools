@@ -1850,7 +1850,7 @@ body.theme-projector .btn-projector-toggle {
 }
 
 .sd-hamburger-btn:focus-visible {
-  outline: 2px solid var(--sage, #416b49);
+  outline: 2px solid var(--cosy-focus-ring, #087A80);
   outline-offset: 2px;
 }
 

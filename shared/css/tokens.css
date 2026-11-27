@@ -27,18 +27,30 @@
 	--teal-hover: var(--cosy-600);
 	--cosy-signal-soft: #DFFAF8;
 
-	/* Signal ramp derived from #0ABBB5 by lightness. 700 and darker pass 4.5:1 on
-	   white; 600 is the lightest step that still clears 3:1 for UI lines. */
-	--cosy-50: #ECFEFD;
-	--cosy-100: #D3FDFB;
-	--cosy-200: #A8FAF8;
-	--cosy-300: #6EF7F3;
-	--cosy-400: #2AF4ED;
-	--cosy-500: #0BCBC5;
-	--cosy-600: #09A59F;
-	--cosy-700: #07837F;
-	--cosy-800: #05615E;
-	--cosy-900: #033F3D;
+	/* Signal ramp: one hue at ten lightnesses, generated in CIELAB from the brand
+	   colour. 500 *is* #0ABBB5, not an approximation of it; every other step keeps
+	   the brand hue (drift under 2 degrees) and is gamut-mapped at a chroma that
+	   falls off toward both ends, so the pale steps read as tints rather than neon.
+	   Each step has a measured job, and `npm run check:signal-ramp` fails when an
+	   edit moves one across a threshold:
+	     50-200  washes and tints; safe as text only on dark surfaces
+	     300-400 borders, dividers, focus ring on dark
+	     500     brand fill: buttons, icons, progress, active indicators
+	     600     UI line on light (3.6:1) — never text
+	     700-900 links and text on light (700 is 5.2:1 on white, 4.9:1 on cream)
+	   #0ABBB5 is 2.39:1 on white, so 500 is never body text; teal text uses
+	   --cosy-signal-ink (--cosy-signal-deep, 4.8:1 on cream), which flips lighter
+	   in dark mode while these steps stay fixed. */
+	--cosy-50: #EDF9F8;
+	--cosy-100: #DCF6F4;
+	--cosy-200: #BFEEEB;
+	--cosy-300: #8DD9D4;
+	--cosy-400: #5DC6C1;
+	--cosy-500: #0ABBB5;
+	--cosy-600: #009691;
+	--cosy-700: #007A76;
+	--cosy-800: #00605C;
+	--cosy-900: #004643;
 
 	/* Text on a brand fill (--sage, --terracotta, gold). --warm-white flips to
 	   #222B22 in dark, which made every brand button unreadable. */

@@ -109,7 +109,7 @@
   box-shadow: none;
 }
 .engines-hub-page .tools-hero .ref-search-input:focus {
-  border-color: #1f8a82;
+  border-color: var(--cosy-500, #0ABBB5);
   box-shadow: 0 0 0 3px rgba(31, 138, 130, 0.2);
 }
 
@@ -125,9 +125,9 @@
   font-weight: 700;
   cursor: pointer;
 }
-.tools-chip:hover { border-color: #1f8a82; color: var(--cosy-color-ink, #1c1917); }
+.tools-chip:hover { border-color: var(--cosy-500, #0ABBB5); color: var(--cosy-color-ink, #1c1917); }
 .tools-chip:focus-visible,
-.engines-hub-page .tools-hero .ref-search-input:focus-visible { outline: 3px solid #1f8a82; outline-offset: 2px; }
+.engines-hub-page .tools-hero .ref-search-input:focus-visible { outline: 3px solid var(--cosy-focus-ring, #087A80); outline-offset: 2px; }
 
 @media (max-width: 880px) {
   .engines-hub-page .hero.ref-hero.tools-hero { padding: 1.5rem 1rem 2rem; }
