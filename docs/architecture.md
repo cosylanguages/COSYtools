@@ -141,15 +141,24 @@ Derived from `#0ABBB5` by lightness; steps 700 and darker are the only ones that
 
 ### Where the signal goes
 
-Applied now: `--cosy-ink-teal` (tag text, hover borders, icons), `--cosy-focus-ring`
-(every `:focus-visible`), `--cosy-tools-accent`, `theme-color`, `.hero-tag`,
-`.setup-opt.sel`.
+The pinned token file states the rule this repository follows:
 
-Reserved, not yet migrated: `--teal` and `--teal-light` still alias the sage palette.
-`--teal` is used as a fill behind hard-coded white text in four places (`.calc-book`,
-`.step-num`, `.gc-play`, `.step-1`), so moving it to `#0ABBB5` requires switching those
-labels to `--cosy-on-signal` in the same commit. Until then the sage accents stay, and the
-signal appears in text, borders, focus and chrome.
+> The structural palette (cream/sage/ink) stays the paper the content sits on.
+> Teal marks what is *alive*: active nav, progress, selection, focus, badges.
+
+Applied now: `--cosy-ink-teal` (tag text, hover borders, icons), `--cosy-focus-ring`
+(every `:focus-visible`), `--cosy-tools-accent` (active filter chips), `theme-color`,
+`.hero-tag`, `.setup-opt.sel`, the hero step numbers and the card top rule.
+
+`--teal` and `--teal-light` used to alias sage. They are remapped to the signal family in
+`shared/css/tokens.css`, together with the label pairing they needed: anything written on a
+`--teal` fill uses `--cosy-on-signal` (7.1:1), never white (2.4:1). A census of the rendered
+hub and tool pages showed those rules were largely dead CSS, so this was a correctness fix
+rather than a visible one; the live accents were already the signal.
+
+Deliberately still sage: headings, body text, icon tiles and the paper surfaces. That is the
+upstream rule, not an oversight. Turning them turquoise would make every page a block of
+brand colour and leave nothing for the signal to mark.
 
 Identity comes from form, not hue: every COSY product keeps the signal accent, and only
 density, typography and iconography differ. That is why a reference tool reads as precise

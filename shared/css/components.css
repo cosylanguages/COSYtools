@@ -371,7 +371,7 @@ body.theme-projector .btn-projector-toggle {
 }
 
 .btn-tertiary:focus-visible, .fpill:focus-visible, .styled-sel:focus-visible, .search-input:focus-visible {
-  outline: 3px solid var(--teal, #416b49);
+  outline: 3px solid var(--cosy-focus-ring);
   outline-offset: 2px;
 }
 
@@ -382,7 +382,7 @@ body.theme-projector .btn-projector-toggle {
 .cc-btn[data-accent="navy"] { --btn-accent-color: var(--navy); }
 .cc-btn:hover { opacity: .9; transform: scale(1.02); }
 
-.calc-book { background: var(--teal); color: #fff; font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
+.calc-book { background: var(--teal); color: var(--cosy-on-signal); font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
 .calc-book:hover { transform: scale(1.03); opacity: .9; }
 
 .cta-wa { background: #fff; color: var(--ink); font-weight: 700; padding: 15px 36px; border-radius: 100px; font-size: 1rem; }
@@ -808,6 +808,7 @@ body.theme-projector .btn-projector-toggle {
 .step.step-1 { --step-color: var(--teal); }
 .step.step-2 { --step-color: var(--plum); }
 .step.step-3 { --step-color: var(--coral); }
+.step.step-1 .step-num { color: var(--cosy-on-signal); }
 
 .speak-badge {
     background: var(--gold-light);

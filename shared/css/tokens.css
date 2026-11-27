@@ -18,6 +18,15 @@
 	--cosy-focus-ring: var(--cosy-signal-deep);
 	--cosy-tools-accent: var(--cosy-signal-deep);
 
+	/* The pinned token file aliases --teal and --teal-light to sage. This product's
+	   identity is the signal, so the aliases are remapped here instead of editing
+	   the pin. --teal is a fill colour: labels on it use --cosy-on-signal (7.1:1),
+	   never white (2.4:1). --teal-light is a wash and follows the theme. */
+	--teal: var(--cosy-signal);
+	--teal-light: var(--cosy-signal-soft);
+	--teal-hover: var(--cosy-600);
+	--cosy-signal-soft: #DFFAF8;
+
 	/* Signal ramp derived from #0ABBB5 by lightness. 700 and darker pass 4.5:1 on
 	   white; 600 is the lightest step that still clears 3:1 for UI lines. */
 	--cosy-50: #ECFEFD;
@@ -62,6 +71,7 @@ html[data-theme="dark"],
 body.theme-dark {
 	--cosy-on-sage-dark: #111611;
 	--cosy-focus-ring: var(--cosy-300);
+	--cosy-signal-soft: #0B3331;
 
 	--cosy-ink-sage: #8A9E8B;
 	--cosy-ink-teal: var(--cosy-300);
@@ -78,6 +88,7 @@ body.theme-dark {
 	:root:not([data-theme="light"]) {
 		--cosy-on-sage-dark: #111611;
 		--cosy-focus-ring: var(--cosy-300);
+		--cosy-signal-soft: #0B3331;
 		--cosy-ink-teal: var(--cosy-300);
 	}
 }
