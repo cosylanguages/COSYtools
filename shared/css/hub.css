@@ -589,3 +589,20 @@ html.is-embedded body.engines-hub-page .ref-search-container {
 html.is-embedded body.engines-hub-page #hub > .page {
   padding: 0 0.65rem 0.75rem;
 }
+
+/* ── Product identity ─────────────────────────────────────────────────────
+   The hub cards take their corner and lift from the product layer, so the
+   `professional` identity on <body> drives them instead of a fixed choice. */
+[data-product] .engine-card {
+  border-radius: var(--cosy-product-radius, 8px);
+  box-shadow: var(--cosy-product-shadow, var(--cosy-shadow-sm));
+}
+
+/* The hero display face follows the product identity too; the page rule is
+   more specific than the generic [data-product] h1 rule in the tokens. */
+body[data-product] .ref-hero h1 {
+  font-family: var(--cosy-product-display);
+  font-weight: var(--cosy-product-display-weight);
+  letter-spacing: var(--cosy-product-tracking);
+  line-height: var(--cosy-product-leading);
+}
