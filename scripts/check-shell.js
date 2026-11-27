@@ -7,6 +7,8 @@ const footerTemplate = fs.readFileSync(path.join(ROOT, 'shared/templates/footer.
 const tokenCss = fs.readFileSync(path.join(ROOT, 'shared/css/cosy-tokens.css'), 'utf8');
 
 const THEME_COLOUR = /--cosy-signal:\s*(#[0-9A-Fa-f]{3,8})/.exec(tokenCss)[1].toUpperCase();
+// The install surface (manifest background) uses the page background token.
+const CREAM = /--cosy-color-cream:\s*(#[0-9A-Fa-f]{3,8})/.exec(tokenCss)[1].toUpperCase();
 const STRIP_ASSETS = ['shared/vendor/ecosystem-strip.css', 'shared/vendor/ecosystem-strip.js'];
 const SIBLING_ASSET = /(?:src|href)=["'][^"']*cosylanguages\.github\.io\/COSYlanguages\/(?:css|js)\/ecosystem-strip\.(?:css|js)["']/i;
 
@@ -62,6 +64,16 @@ function getFiles(dir) {
     const stat = fs.statSync(full);
     if (stat.isDirectory()) res = res.concat(getFiles(full));
     else if (f.endsWith('.html')) res.push(full);
+  }
+  return res;
+}
+
+function getManifests(dir, res = []) {
+  for (const f of fs.readdirSync(dir)) {
+    if (f === 'node_modules' || f === '.git') continue;
+    const full = path.join(dir, f);
+    if (fs.statSync(full).isDirectory()) getManifests(full, res);
+    else if (f === 'manifest.json') res.push(full);
   }
   return res;
 }
@@ -142,9 +154,39 @@ files.forEach(f => {
   }
 });
 
+// The install surface has to agree with the pages. A manifest that paints a
+// different colour gives an installed app a title bar the site never uses, and
+// nothing on the page can reveal it: the mismatch only appears after install.
+const manifests = getManifests('.');
+if (!manifests.length) {
+  console.error('[FAIL] No manifest.json found: the install surface is unchecked');
+  errors++;
+}
+for (const file of manifests) {
+  let manifest;
+  try {
+    manifest = JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch (error) {
+    console.error(`[FAIL] ${file}: not valid JSON (${error.message})`);
+    errors++;
+    continue;
+  }
+  if ((manifest.theme_color || '').toUpperCase() !== THEME_COLOUR) {
+    console.error(`[FAIL] ${file}: theme_color is ${manifest.theme_color || 'missing'}, expected ${THEME_COLOUR}`);
+    errors++;
+  }
+  if ((manifest.background_color || '').toUpperCase() !== CREAM) {
+    console.error(`[FAIL] ${file}: background_color is ${manifest.background_color || 'missing'}, expected ${CREAM}`);
+    errors++;
+  }
+}
+
 if (errors > 0) {
   console.error(`\nCheck shell failed: ${errors} error(s) found.`);
   process.exit(1);
 } else {
-  console.log(`\nCheck shell passed: All ${files.length} HTML files accurately match strip and footer templates.`);
+  console.log(
+    `\nCheck shell passed: ${files.length} HTML files match the strip and footer templates, ` +
+      `and ${manifests.length} manifests carry ${THEME_COLOUR} / ${CREAM}.`
+  );
 }

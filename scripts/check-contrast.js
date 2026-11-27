@@ -59,6 +59,13 @@ const PAIRS = [
   ['text on sage-dark (buttons, active chips)', 'tok:--cosy-on-sage-dark', 'tok:--sage-dark', 4.5],
   ['focus ring vs surface (UI, 3:1)', 'tok:--cosy-focus-ring', 'tok:--surface-color', 3],
   ['focus ring vs page background (UI, 3:1)', 'tok:--cosy-focus-ring', 'tok:--cosy-color-cream', 3],
+  // Signal teal is a fill colour (2.39:1 on white by design), so its text role
+  // belongs to --cosy-signal-ink, which flips lighter in dark mode. Checking the
+  // ink token rather than the fill is what keeps teal text readable in both themes.
+  ['teal ink on surface', 'tok:--cosy-signal-ink', 'tok:--surface-color', 4.5],
+  ['teal ink on page background', 'tok:--cosy-signal-ink', 'tok:--cosy-color-cream', 4.5],
+  ['teal ink on a signal-soft chip', 'tok:--cosy-signal-ink', 'tok:--cosy-signal-soft', 4.5],
+  ['text on the signal fill', 'tok:--cosy-on-signal', 'tok:--cosy-signal', 4.5],
   ['muted text on sage-mist', 'tok:--ink-muted', 'tok:--sage-mist', 4.5],
   ['heading green on sage-pale (banners)', 'tok:--sage-dark', 'tok:--cosy-color-sage-pale', 4.5],
   ['error text on surface', 'tok:--cosy-semantic-error', 'tok:--surface-color', 4.5],

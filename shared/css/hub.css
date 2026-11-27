@@ -112,7 +112,7 @@
 
 .engines-hub-page .engine-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(65, 107, 73, 0.32);
+  border-color: var(--cosy-500, #0ABBB5);
   box-shadow: 0 16px 30px rgba(35, 56, 39, 0.1);
 }
 
@@ -273,7 +273,7 @@
 
 .hub-secondary-options:focus-within > summary,
 .hub-secondary-options > summary:focus-visible {
-  outline: 3px solid var(--sage, #2d6a4f);
+  outline: 3px solid var(--cosy-focus-ring, #087A80);
   outline-offset: 3px;
 }
 
@@ -397,7 +397,7 @@
 .hub-dev-toggle input:focus-visible,
 #cosy-ui-language-select:focus-visible,
 #hub-search-input:focus-visible {
-  outline: 3px solid var(--sage, #2d6a4f);
+  outline: 3px solid var(--cosy-focus-ring, #087A80);
   outline-offset: 3px;
 }
 

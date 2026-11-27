@@ -32,7 +32,7 @@
   padding: 0.3rem 0.8rem;
   border-radius: 999px;
   background: rgba(31, 138, 130, 0.12);
-  color: #176b65;
+  color: var(--cosy-800, #00605C);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.04em;
@@ -68,7 +68,7 @@
 }
 .engines-hub-page .tools-hero .hero-step { color: var(--cosy-color-ink-soft, #4a4a4a); font-size: 0.92rem; }
 .engines-hub-page .tools-hero .hero-step .step-num {
-  background: #17746D;
+  background: var(--cosy-700, #007A76);
   color: #fff;
   border: 0;
 }
@@ -89,7 +89,7 @@
   position: absolute;
   inset: 0 0 auto 0;
   height: 4px;
-  background: linear-gradient(90deg, #1f8a82, var(--cosy-color-sage, #416b49));
+  background: linear-gradient(90deg, var(--cosy-600, #009691), var(--cosy-color-sage, #416b49));
 }
 .tools-hero-card-title {
   margin: 0 0 0.9rem;
@@ -109,7 +109,7 @@
   box-shadow: none;
 }
 .engines-hub-page .tools-hero .ref-search-input:focus {
-  border-color: #1f8a82;
+  border-color: var(--cosy-500, #0ABBB5);
   box-shadow: 0 0 0 3px rgba(31, 138, 130, 0.2);
 }
 
@@ -125,9 +125,9 @@
   font-weight: 700;
   cursor: pointer;
 }
-.tools-chip:hover { border-color: #1f8a82; color: var(--cosy-color-ink, #1c1917); }
+.tools-chip:hover { border-color: var(--cosy-500, #0ABBB5); color: var(--cosy-color-ink, #1c1917); }
 .tools-chip:focus-visible,
-.engines-hub-page .tools-hero .ref-search-input:focus-visible { outline: 3px solid #1f8a82; outline-offset: 2px; }
+.engines-hub-page .tools-hero .ref-search-input:focus-visible { outline: 3px solid var(--cosy-focus-ring, #087A80); outline-offset: 2px; }
 
 @media (max-width: 880px) {
   .engines-hub-page .hero.ref-hero.tools-hero { padding: 1.5rem 1rem 2rem; }
@@ -141,10 +141,10 @@ html[data-theme="dark"].engines-hub-page .hero.ref-hero.tools-hero {
     radial-gradient(60% 80% at 88% 8%, rgba(60, 190, 180, 0.14) 0, transparent 70%),
     var(--cosy-color-cream, #181c18);
 }
-html[data-theme="dark"] .engines-hub-page .tools-hero .hero-tag { background: rgba(60, 190, 180, 0.14); color: #7fdcd3; }
+html[data-theme="dark"] .engines-hub-page .tools-hero .hero-tag { background: rgba(60, 190, 180, 0.14); color: var(--cosy-300, #8DD9D4); }
 html[data-theme="dark"] .tools-hero-card { box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); }
 html[data-theme="dark"] .tools-hero-card-title { color: var(--cosy-color-ink, #e8f0e9); }
-html[data-theme="dark"] .engines-hub-page .tools-hero .hero-step .step-num { background: #3cbeb4; color: #0b2422; }
+html[data-theme="dark"] .engines-hub-page .tools-hero .hero-step .step-num { background: var(--cosy-500, #0ABBB5); color: var(--cosy-on-signal, #06201F); }
 
 /* Hub panels that were hard-coded white (unreadable text on them in dark mode) */
 html[data-theme="dark"] .filter-section {
@@ -155,3 +155,4 @@ html[data-theme="dark"] .filter-section {
 
 .engines-hub-page .tools-hero .hero-steps-container { justify-content: flex-start; }
 .engines-hub-page .tools-hero .hero-step { display: inline-flex; align-items: center; gap: 0.5rem; }
+

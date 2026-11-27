@@ -146,6 +146,24 @@ body.mode-projector .projector-badge-indicator {
     border: 0 !important;
 }
 
+/* ── Brand signal in the browser's own UI ──
+   Selection, form controls and the caret are drawn by the browser, so they are
+   the few places the brand can appear without styling a component. Each colour
+   is measured: a filled control needs a step that carries a white tick
+   (--cosy-700, 5.2:1), a caret follows the text colour so it flips in dark mode,
+   and a selection keeps dark ink on a pale tint so it stays readable when the
+   page itself is dark. Fallbacks keep the rule alive on pages that load this
+   file without the token file. */
+::selection {
+    background: var(--cosy-200, #BFEEEB);
+    color: var(--cosy-on-signal, #06201F);
+}
+
+html {
+    accent-color: var(--cosy-700, #007A76);
+    caret-color: var(--cosy-signal-ink, #087A80);
+}
+
 /* Custom Accessible Focus Ring using site palette */
 :focus-visible {
     outline: 3px solid var(--cosy-focus-ring);
