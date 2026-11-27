@@ -106,6 +106,39 @@ for (const page of untracked) {
   );
 }
 
+// The sitemap is the third view of the registry: it must advertise every page
+// that is meant to be indexed, and none of the stubs that carry noindex.
+const SITE = 'https://cosylanguages.github.io/COSYtools/';
+const sitemapSource = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+const inSitemap = new Set();
+for (const [, loc] of sitemapSource.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+  if (!loc.startsWith(SITE)) {
+    errors.push(`sitemap.xml: ${loc} is not under ${SITE}`);
+    continue;
+  }
+  let page = loc.slice(SITE.length);
+  if (page === '' || page.endsWith('/')) page += 'index.html';
+  inSitemap.add(page);
+  if (!exists(page)) errors.push(`sitemap.xml: ${loc} does not resolve to a file`);
+}
+
+const indexable = [
+  ...catalog.map((e) => e.entry_url),
+  ...registry.pages.filter((e) => e.status === 'content').map((e) => e.path),
+  'index.html',
+];
+for (const page of indexable) {
+  if (!inSitemap.has(page))
+    errors.push(`sitemap.xml: ${page} is indexable but missing from the sitemap`);
+}
+for (const entry of registry.pages) {
+  if (entry.status === 'redirect' && inSitemap.has(entry.path)) {
+    errors.push(
+      `sitemap.xml: ${entry.path} is a noindex redirect stub and must not be in the sitemap`
+    );
+  }
+}
+
 if (errors.length) {
   console.error(`\nRegistry check failed with ${errors.length} problem(s):\n`);
   for (const e of errors) console.error(`  [FAIL] ${e}`);
@@ -122,5 +155,5 @@ const summary = Object.entries(counts)
 console.log(
   `Registry check passed: ${catalog.length} catalogued tools, ${registry.pages.length} ` +
     `uncatalogued pages tracked (${summary}; ${superseded} redirect into the catalogue), ` +
-    'no untracked page.'
+    `no untracked page, sitemap agrees (${inSitemap.size} URLs).`
 );

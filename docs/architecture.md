@@ -101,9 +101,9 @@ npm run check:sw        # fail when sw.js is stale (part of npm test)
 
 `catalog.json` covers `tools/<lang>/<tool>/`. It does not cover the root-level pages that
 predate that layout — `gender/`, `cases/`, `conjugation/`, `prepositions/`, `practice/`,
-`verb-patterns/` and `noun-declensions/` — which are linked from the homepage and listed in
-`sitemap.xml`. `generate_hub.js --check` only ever looked inside `tools/`, so those pages
-were served while the registry did not know they existed.
+`verb-patterns/` and `noun-declensions/` — which are linked from the homepage. `generate_hub.js
+--check` only ever looked inside `tools/`, so those pages were served while the registry did
+not know they existed.
 
 `legacy-pages.json` names each of the 30 with a status. Sixteen are redirect stubs left
 behind by the migration (fifteen of them into the catalogue); ten are real content:
@@ -120,6 +120,12 @@ listed page disappears, when a redirect target is missing, when the recorded tar
 with the meta refresh in the file, or when a listed page is also catalogued. Comparing the
 record with the page is what keeps the list honest: the stub is the source of truth, so the
 JSON cannot claim a destination the file does not use.
+
+The sitemap is the third view of the registry, and the check covers it too: every catalogued
+tool, every `content` page and the hub must appear in `sitemap.xml`, and no `redirect` stub
+may appear there. That is what a `noindex` stub is for — advertising it in the sitemap asks
+search engines to index a page that asks them not to. The rule found `practice/daily`: a real
+page, canonical set, linked twice from the practice hub, which had never been submitted.
 
 The ten `content` pages are the three family reference guides, the five `practice/` pages,
 `verb-patterns/` and `noun-declensions/`. They reach the design tokens through
