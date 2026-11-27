@@ -167,7 +167,7 @@ The pinned token file states the rule this repository follows:
 Applied now: `--cosy-ink-teal` (tag text, hover borders, icons), `--cosy-focus-ring`
 (every `:focus-visible` — the hub cards, the hub search input, the chips and the sidebar
 toggle used sage, or a hardcoded `#1f8a82`, until the ramp landed), `--cosy-tools-accent`
-(active filter chips), `theme-color` on every page and `theme_color` in all 16 manifests,
+(active filter chips), `theme-color` on every page and `theme_color` in all 34 manifests,
 `.hero-tag`, `.setup-opt.sel`, the hero step numbers, the card top rule, the hub card hover
 border, `::selection`, `accent-color` on form controls and `caret-color`.
 

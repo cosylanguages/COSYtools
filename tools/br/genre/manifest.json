@@ -1,0 +1,29 @@
+{
+  "name": "Rizh an Anvioù Brezhonek",
+  "short_name": "Gender BR",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#0ABBB5",
+  "description": "Reolennoù rizh an anvioù hag kemmoù-iñvadiñ e brezhoneg.",
+  "icons": [
+    {
+      "src": "../../../shared/images/pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../../shared/images/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../../../shared/images/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

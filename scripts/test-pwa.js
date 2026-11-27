@@ -34,7 +34,13 @@ function pngSize(file) {
   return [b.readUInt32BE(16), b.readUInt32BE(20)];
 }
 const manifests = files.filter((f) => path.basename(f) === 'manifest.json');
-assert.ok(manifests.length >= 16, 'expected the root manifest and the per-tool manifests');
+const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'catalog.json'), 'utf8'));
+const manifestDirs = new Set(manifests.map((f) => path.relative(ROOT, path.dirname(f)).split(path.sep).join('/')));
+for (const entry of catalog) {
+  const dir = path.posix.dirname(entry.entry_url);
+  assert.ok(manifestDirs.has(dir), `${entry.id}: catalogued tool has no manifest.json, so it cannot be installed`);
+}
+assert.ok(manifests.length >= catalog.length, 'expected the root manifest plus one per catalogued tool');
 for (const file of manifests) {
   const rel = path.relative(ROOT, file);
   const m = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -61,10 +67,15 @@ ok(`${manifests.length} manifests: icons exist, sizes are true, maskable present
 // 2. Pages: manifest + apple-touch-icon links resolve
 // ---------------------------------------------------------------------------------------------
 let linked = 0;
+const cataloguedPages = new Set(catalog.map((e) => e.entry_url));
 for (const file of files.filter((f) => f.endsWith('.html'))) {
   const html = fs.readFileSync(file, 'utf8');
   const manifest = html.match(/<link rel="manifest" href="([^"]+)"/);
-  if (!manifest) continue;
+  const pageRel = path.relative(ROOT, file).split(path.sep).join('/');
+  if (!manifest) {
+    assert.ok(!cataloguedPages.has(pageRel), `${pageRel}: catalogued tool does not link its manifest`);
+    continue;
+  }
   const rel = path.relative(ROOT, file);
   assert.ok(fs.existsSync(path.resolve(path.dirname(file), manifest[1])), `${rel}: manifest link is broken`);
   const apple = html.match(/<link rel="apple-touch-icon" href="([^"]+)"/);
@@ -74,7 +85,7 @@ for (const file of files.filter((f) => f.endsWith('.html'))) {
   assert.deepEqual(pngSize(target), [180, 180], `${rel}: apple-touch-icon must be 180x180`);
   linked++;
 }
-assert.ok(linked >= 20);
+assert.ok(linked >= catalog.length);
 ok(`${linked} pages: manifest and apple-touch-icon links resolve`);
 
 // Every real page must register the service worker (a page that does not gives no offline support).
