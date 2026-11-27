@@ -1,0 +1,168 @@
+{
+  "$comment": "Every served HTML page that is not in catalog.json is listed here with a status, so the registry cannot silently diverge from the site. 'site' is a page that is not a tool (hub, 404, offline). 'template' is not served. 'redirect' is a stub that sends users elsewhere; 'target' must exist and must match the page's own meta refresh, so the record cannot drift from the file. 'content' is real content with no catalogued equivalent - a candidate for cataloguing or migration. check:registry fails when a served page is missing from this file, when a listed page disappears, when a redirect target is missing or disagrees with the meta refresh, or when a listed page is also in catalog.json.",
+  "pages": [
+    {
+      "path": "404.html",
+      "status": "site",
+      "target": null
+    },
+    {
+      "path": "index.html",
+      "status": "site",
+      "target": null,
+      "note": "The hub. Renders catalog.json."
+    },
+    {
+      "path": "offline.html",
+      "status": "site",
+      "target": null
+    },
+    {
+      "path": "conjugation/template.html",
+      "status": "template",
+      "target": null,
+      "note": "Source template for the legacy conjugation pages, not a served page."
+    },
+    {
+      "path": "cases/greek/index.html",
+      "status": "redirect",
+      "target": "tools/el/genos-ptoseis/index.html",
+      "note": "Same successor as gender/greek: genos-ptoseis covers gender and cases."
+    },
+    {
+      "path": "cases/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Family reference guide across languages."
+    },
+    {
+      "path": "cases/russian/index.html",
+      "status": "redirect",
+      "target": "tools/ru/rod-padezhi/index.html",
+      "note": "Same successor as gender/russian."
+    },
+    {
+      "path": "conjugation/english/index.html",
+      "status": "redirect",
+      "target": "tools/en/irregular-verbs/index.html"
+    },
+    {
+      "path": "conjugation/french/index.html",
+      "status": "redirect",
+      "target": "tools/fr/conjugeur/index.html"
+    },
+    {
+      "path": "conjugation/greek/index.html",
+      "status": "redirect",
+      "target": "tools/el/klisi-rimaton/index.html"
+    },
+    {
+      "path": "conjugation/italian/index.html",
+      "status": "redirect",
+      "target": "tools/it/coniugatore/index.html"
+    },
+    {
+      "path": "conjugation/russian/index.html",
+      "status": "redirect",
+      "target": "tools/ru/spryazhenie/index.html"
+    },
+    {
+      "path": "gender/french/index.html",
+      "status": "redirect",
+      "target": "tools/fr/genre/index.html"
+    },
+    {
+      "path": "gender/greek/index.html",
+      "status": "redirect",
+      "target": "tools/el/genos-ptoseis/index.html",
+      "note": "Redirects to the tool that covers gender and cases together; this stub covered gender alone."
+    },
+    {
+      "path": "gender/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Family reference guide across languages, not a per-language tool."
+    },
+    {
+      "path": "gender/italian/index.html",
+      "status": "redirect",
+      "target": "tools/it/genere/index.html"
+    },
+    {
+      "path": "gender/russian/index.html",
+      "status": "redirect",
+      "target": "tools/ru/rod-padezhi/index.html",
+      "note": "Redirects to the tool that covers gender and the six cases."
+    },
+    {
+      "path": "noun-declensions/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Declension and plural reference; no catalogued equivalent."
+    },
+    {
+      "path": "practice/daily/index.html",
+      "status": "content",
+      "target": null
+    },
+    {
+      "path": "practice/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Practice hub; the practice pages are not per-language tools."
+    },
+    {
+      "path": "practice/quick-drills/index.html",
+      "status": "content",
+      "target": null
+    },
+    {
+      "path": "practice/top-verbs/index.html",
+      "status": "content",
+      "target": null
+    },
+    {
+      "path": "practice/weak-spots/index.html",
+      "status": "content",
+      "target": null
+    },
+    {
+      "path": "prepositions/english/index.html",
+      "status": "redirect",
+      "target": "tools/en/verb-prep/index.html"
+    },
+    {
+      "path": "prepositions/french/index.html",
+      "status": "redirect",
+      "target": "tools/fr/regime/index.html"
+    },
+    {
+      "path": "prepositions/greek/index.html",
+      "status": "redirect",
+      "target": "tools/el/syntaxi/index.html"
+    },
+    {
+      "path": "prepositions/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Family reference guide across languages."
+    },
+    {
+      "path": "prepositions/italian/index.html",
+      "status": "redirect",
+      "target": "tools/it/reggenza/index.html"
+    },
+    {
+      "path": "prepositions/russian/index.html",
+      "status": "redirect",
+      "target": "prepositions/index.html",
+      "note": "Redirect target carries a query string: ../../prepositions/index.html?lang=ru Redirects within the legacy generation, to the family guide with a lang parameter; no Russian preposition tool exists in the catalogue."
+    },
+    {
+      "path": "verb-patterns/index.html",
+      "status": "content",
+      "target": null,
+      "note": "Verb pattern reference; no catalogued equivalent."
+    }
+  ]
+}

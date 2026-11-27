@@ -29,7 +29,7 @@ the rule is broken, because an unchecked claim is a decoration.
 | C3 | Every page carries the identical generated shell | `npm run check:shell` | One header, one footer, one strip, one browser-chrome colour. |
 | C4 | No literal colour where a token exists | `npm run check:inline-colours` | The theme stays themeable. |
 | C5 | The service-worker precache matches the tree | `npm run check:sw` | Offline install cannot silently half-work. |
-| C6 | `catalog.json` matches the folders and datasets | `npm run validate:catalog` | The hub, sitemap and filters are views of one file. |
+| C6 | `catalog.json` matches the folders and datasets, and every page outside it is accounted for | `npm run validate:catalog`, `npm run check:registry` | The hub, sitemap and filters are views of one file, and no page can sit outside the registry unnoticed. |
 
 All six run in `npm test`. C1–C3, C5 and C6 are also cheap enough to run on every save.
 
@@ -96,6 +96,38 @@ they are large and are cached at runtime the first time a page opens them.
 npm run generate:sw     # rewrite the block
 npm run check:sw        # fail when sw.js is stale (part of npm test)
 ```
+
+### C6 in practice: the registry has a second list
+
+`catalog.json` covers `tools/<lang>/<tool>/`. It does not cover the root-level pages that
+predate that layout — `gender/`, `cases/`, `conjugation/`, `prepositions/`, `practice/`,
+`verb-patterns/` and `noun-declensions/` — which are linked from the homepage and listed in
+`sitemap.xml`. `generate_hub.js --check` only ever looked inside `tools/`, so those pages
+were served while the registry did not know they existed.
+
+`legacy-pages.json` names each of the 30 with a status. Sixteen are redirect stubs left
+behind by the migration (fifteen of them into the catalogue); ten are real content:
+
+| Status | Count | Meaning | Gate |
+| --- | --- | --- | --- |
+| `site` | 3 | Not a tool: hub, 404, offline | no target |
+| `template` | 1 | Source file, not served | no target |
+| `redirect` | 16 | A stub that sends users elsewhere | `target` must exist and must equal the page's own meta refresh |
+| `content` | 10 | Real content, no catalogued equivalent | cataloguing or migration is a separate task |
+
+`npm run check:registry` fails when a served page is neither catalogued nor listed, when a
+listed page disappears, when a redirect target is missing, when the recorded target disagrees
+with the meta refresh in the file, or when a listed page is also catalogued. Comparing the
+record with the page is what keeps the list honest: the stub is the source of truth, so the
+JSON cannot claim a destination the file does not use.
+
+The ten `content` pages are the three family reference guides, the five `practice/` pages,
+`verb-patterns/` and `noun-declensions/`. They reach the design tokens through
+`shared/styles/reference.css`, which imports `tokens.css` and `base.css`, so they carry the
+brand and the focus ring like the tools do. The sixteen redirect stubs load only `fonts.css`,
+which is the right weight for a page whose whole job is to forward. Whether the content pages
+become tools with catalogue entries or stay as guides is a product decision this check
+deliberately does not make.
 
 ## Colour
 
